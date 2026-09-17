@@ -1,0 +1,35 @@
+{
+  "artifacts": {
+    "adjudications": {
+      "path": "data/knowledge_bases/v0.1/tier_b_independent_adjudications.jsonl",
+      "sha256": "b998f056c313d0c3efdc56f43b8a265ed39167d6ec9359c1b114bb06cfad36ac"
+    },
+    "promotion_result": {
+      "path": "data/results/scale_batch_004_tier_b_promotion.lock.json",
+      "sha256": "0282968f7d74925cce937eab6da30b179d4b69c014a08c90e941ce6533153709"
+    },
+    "trusted_facts": {
+      "path": "data/knowledge_bases/v0.1/trusted_fact_records.jsonl",
+      "sha256": "7ca55e4f9af6ab2acb8a5202d7b63809a3abd563f1c8f7f6e47ec9306e5dbc1a"
+    }
+  },
+  "candidate_layer_modified": false,
+  "locked_experiments_modified_or_rescored": false,
+  "promotion": {
+    "blocked": 3,
+    "promoted": 5,
+    "reviewed": 8,
+    "total_trusted_tier_b": 55
+  },
+  "quality_gates": {
+    "pytest": {
+      "collected": 440,
+      "status": "passed"
+    },
+    "ruff": {
+      "status": "passed"
+    }
+  },
+  "schema_version": "0.1",
+  "status": "scale_batch_004_tier_b_milestone_closed"
+}

@@ -1,0 +1,463 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-009-MINERU-FINAL",
+  "updated_at": "2026-09-13T02:37:33.665725+00:00",
+  "status": "complete",
+  "cloud_transmission": false,
+  "total_target_pages": 26,
+  "complete_pages": 26,
+  "failed_pages": 0,
+  "pending_pages": 0,
+  "post_completion_shutdown_recovered_pages": 0,
+  "recovered_pages": [],
+  "parent_attempts": [
+    "data/results/scale_batch_009_mineru_summary.lock.json",
+    "data/results/scale_batch_009_mineru_RESUME01_summary.lock.json"
+  ],
+  "parent_failures_preserved": true,
+  "records": [
+    {
+      "document_id": "KB-B009-CARLSBERG-AR2025",
+      "page": 63,
+      "themes": [
+        "targets"
+      ],
+      "output_directory": "artifacts/scale_batch_009/mineru_targets/KB-B009-CARLSBERG-AR2025-p0063",
+      "status": "complete",
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "004f30516add3473d085ef0485aed9cdec128c4577cc4fd30ccf8aecb7332b6f",
+        "_content_list.json": "f136f6c7d6c28ed7738e4226b46751ae274c032f0bac9b016ff0aaa4813933ac",
+        "_middle.json": "68821237fbf1914defced7a81994708d012d92e41ad3d764f98b79fcae701277",
+        "_model.json": "33e9cf7c432e5ebe836060d73a29c6782cb9ff473173a13c9428f9e12aaac75e"
+      }
+    },
+    {
+      "document_id": "KB-B009-CARLSBERG-AR2025",
+      "page": 64,
+      "themes": [
+        "energy"
+      ],
+      "output_directory": "artifacts/scale_batch_009/mineru_targets/KB-B009-CARLSBERG-AR2025-p0064",
+      "status": "complete",
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "667dcbce40c97868c44b2a546c7af703d0794b4eae611ed57a1db3dacafe7187",
+        "_content_list.json": "423ad3e8009b87d749661737421408dd8cadef03d860268d529598a7e443b1ff",
+        "_middle.json": "e6d3e852c7dec474a4a169453439cf5a382ec1c159550a55c5e757b201d78c67",
+        "_model.json": "e0aa4de9196ad602cb45fe709bd909c2b254d36f5cef8a2d77149c29871536ed"
+      }
+    },
+    {
+      "document_id": "KB-B009-CARLSBERG-AR2025",
+      "page": 66,
+      "themes": [
+        "ghg_emissions"
+      ],
+      "output_directory": "artifacts/scale_batch_009/mineru_targets_RESUME01/KB-B009-CARLSBERG-AR2025-p0066",
+      "status": "complete",
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "556053fc0107251aa08127b7e627f1aac244c21968dddc3d97876911282432df",
+        "_content_list.json": "47df622c2e8a1feb61938ec81c620d2b4a74ffa4c94cf8bdb71a364349ba5149",
+        "_middle.json": "0213fb207d869d3c36880805e64e6f3ddb92a4ce734a382e53ba1179304b9c06",
+        "_model.json": "76bf4a5ca7459d3ab6231fde392509478fb91674e95b92486d26af810d757045"
+      }
+    },
+    {
+      "document_id": "KB-B009-CARLSBERG-AR2025",
+      "page": 69,
+      "themes": [
+        "water"
+      ],
+      "output_directory": "artifacts/scale_batch_009/mineru_targets/KB-B009-CARLSBERG-AR2025-p0069",
+      "status": "complete",
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "a1fcaae85f0e52b913094f778670915f6b5f18e31de56c4ea52478a30f086ac9",
+        "_content_list.json": "c0325c65688717f054e6d0325e2f0dcfa2c963825dee643fe8b2badfd3beafde",
+        "_middle.json": "1d955624c93a1ac8a8663e6d9c0de77e0aaf4ce0d92d9cbda00dc02f71fa320b",
+        "_model.json": "68cedd6e6b546987308b80d827798c9933a33c0986d5c0f5c7e6de3dc68d2372"
+      }
+    },
+    {
+      "document_id": "KB-B009-CARLSBERG-AR2025",
+      "page": 70,
+      "themes": [
+        "biodiversity"
+      ],
+      "output_directory": "artifacts/scale_batch_009/mineru_targets/KB-B009-CARLSBERG-AR2025-p0070",
+      "status": "complete",
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "b58772424d827fded3b162f9c454c6e09dc7069a8ef5d1ca8a0198122b7bae48",
+        "_content_list.json": "3cdca623fd306ae2cb950812d3a1b3b3113002217ba8932b5cb0cf74943de194",
+        "_middle.json": "940f70f444fa4fc48ad17c3196af8434e2cd61650ee9f7c61c7bb069bd380212",
+        "_model.json": "3786e47d4e0d5eea6d74d949a6bb7d31141245b56a36edb9a58b7c2e606aee0c"
+      }
+    },
+    {
+      "document_id": "KB-B009-CARLSBERG-AR2025",
+      "page": 75,
+      "themes": [
+        "circularity"
+      ],
+      "output_directory": "artifacts/scale_batch_009/mineru_targets/KB-B009-CARLSBERG-AR2025-p0075",
+      "status": "complete",
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "4cf57a4d287f5dfac14ddb2fe25a60fb0e65d499785e1de9c85976723b4612ea",
+        "_content_list.json": "33659cfaf08fbe778ba2fe2db51dc33b6930c8ee17681265740cb3aaca9013d5",
+        "_middle.json": "8fbb411006d465d3d2fc10cacb40f14fa8d6de7b9a3dd5a9ffe8bbdf169f67d9",
+        "_model.json": "64a6c0e1b7c5973ccca0dfbb565c14bc29328f74c2f94ef179b1209d2ae8860b"
+      }
+    },
+    {
+      "document_id": "KB-B009-CARLSBERG-AR2025",
+      "page": 81,
+      "themes": [
+        "health_safety"
+      ],
+      "output_directory": "artifacts/scale_batch_009/mineru_targets/KB-B009-CARLSBERG-AR2025-p0081",
+      "status": "complete",
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "43dc15449d47c6e18a143bb95698c8b5468f4b73accefa65eb7c4d6686c84b58",
+        "_content_list.json": "1dbd28038dfd020889cc094240cabef4a5f2e0dd03e5475c6ade6609d71c926d",
+        "_middle.json": "971dfaaed323244b1acc772b0077adc85b60bff4fadda4b3ab9a028c51bc414a",
+        "_model.json": "45a8c6848988a1a6d1f97bb82f642d550980276fefb60e2dbc2ae91939703e3f"
+      }
+    },
+    {
+      "document_id": "KB-B009-CARLSBERG-AR2025",
+      "page": 83,
+      "themes": [
+        "workforce"
+      ],
+      "output_directory": "artifacts/scale_batch_009/mineru_targets/KB-B009-CARLSBERG-AR2025-p0083",
+      "status": "complete",
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "89616739d3e8c1798e412a0f6ee774bfd39b961b02b3605099695b93534934be",
+        "_content_list.json": "3b1ca6f3f11f37e87ca8975529f7d0c356ad928f31d01ce757e4255a23354ee7",
+        "_middle.json": "f694ed2631c41cd27325b823a21dd15fb835abd2e306dcc36b9830ab07d0c91f",
+        "_model.json": "621e1bd544f0cd380eea1b6e607a9f08eed755607d570bb99115b25a0f01b6b1"
+      }
+    },
+    {
+      "document_id": "KB-B009-CARLSBERG-AR2025",
+      "page": 196,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_009/mineru_targets/KB-B009-CARLSBERG-AR2025-p0196",
+      "status": "complete",
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "113058fe60cf890a675043987011b21e82c303854f72d15cee09929565574aaf",
+        "_content_list.json": "52dd0276c016eab39913e95b547eb00ad6e2a50a795f94bd3d773dd605a591a0",
+        "_middle.json": "4ee5aba6c8822e17135aaf93bcab46c10c77760a407c887bcf3b1a6ac2cd47ae",
+        "_model.json": "20160907f2311f3441d18731f274a872105ff95cf8d91e8c62bb76a09d993d63"
+      }
+    },
+    {
+      "document_id": "KB-B009-HM-ASR2025",
+      "page": 40,
+      "themes": [
+        "targets"
+      ],
+      "output_directory": "artifacts/scale_batch_009/mineru_targets/KB-B009-HM-ASR2025-p0040",
+      "status": "complete",
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "3110202f93b79d424679cecb0ea3fb8ecf6505df82a377b3a1e16c30dbb916ec",
+        "_content_list.json": "0e55e709c33eda0df1fb9b3c0253d79d25440bcea647c65ebc17c02830ce77a4",
+        "_middle.json": "b1e627b43fffb3dcb1f3a7852a76466e29fd4fa9039803129d39a02d8b0f71ff",
+        "_model.json": "9ed0a2089330107adf67863a0ba2d3578e8de0bd2708c28eb661b3e4e72e5098"
+      }
+    },
+    {
+      "document_id": "KB-B009-HM-ASR2025",
+      "page": 41,
+      "themes": [
+        "energy",
+        "ghg_emissions"
+      ],
+      "output_directory": "artifacts/scale_batch_009/mineru_targets/KB-B009-HM-ASR2025-p0041",
+      "status": "complete",
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "d92f552a15fae7e5eca77ec7199d262f22107382ad6d3192ccf1444807e1a125",
+        "_content_list.json": "bd255bf27d8486280295eadfd0ae547d2e01f573511cc3418c379669528af655",
+        "_middle.json": "4f9d5c37f7eee688424ce766f372275be7dc4b1e0fc43491edf1bced4559d915",
+        "_model.json": "02024156e369f3a3109ef277c2bbf5f02b3481a5d9f96f1840264098ecfc00b2"
+      }
+    },
+    {
+      "document_id": "KB-B009-HM-ASR2025",
+      "page": 44,
+      "themes": [
+        "water"
+      ],
+      "output_directory": "artifacts/scale_batch_009/mineru_targets/KB-B009-HM-ASR2025-p0044",
+      "status": "complete",
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "bcad864594acf8362dd5c09d79ebd9f8440625b36400d223f98a2b1e7855e797",
+        "_content_list.json": "c9a4d06df4eee0bf982f1cb5aaa88c47f19257250b5ce8d1b9874ce27224d2be",
+        "_middle.json": "20353a9362597e099dd349892c457abe3faeed40ae574c75ca5c0582fc905736",
+        "_model.json": "d180da48a59fd8aae800400054f1af3e7b894c33c97383f0888ad0b5d0108678"
+      }
+    },
+    {
+      "document_id": "KB-B009-HM-ASR2025",
+      "page": 45,
+      "themes": [
+        "biodiversity"
+      ],
+      "output_directory": "artifacts/scale_batch_009/mineru_targets/KB-B009-HM-ASR2025-p0045",
+      "status": "complete",
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "4e777b042cc6711936c0118d4c0d0140f08c244b2781bb1062d8a0dcb167e9ab",
+        "_content_list.json": "413dd36caacc63e8ab93f7cf1f819d9ddfdf148c14f70bd9831a154d29270e24",
+        "_middle.json": "028938381c193ad406fc4e97640f8b7ed5d587d6d9f21e8402bf559e8f186075",
+        "_model.json": "f8a8378230e98da4ac9c46bd5fdc8cc22d8ac2e046443eb4bce3a64f83efa29a"
+      }
+    },
+    {
+      "document_id": "KB-B009-HM-ASR2025",
+      "page": 47,
+      "themes": [
+        "circularity"
+      ],
+      "output_directory": "artifacts/scale_batch_009/mineru_targets/KB-B009-HM-ASR2025-p0047",
+      "status": "complete",
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "e326f7d088aea7088f098be9ebe8d302dc477b654d6239afffbe5d0850a4af04",
+        "_content_list.json": "b48669a33d2aa1a31bf7b0aaf35f9bf6e2fe601edf2ef39f9af9ed6b165a2938",
+        "_middle.json": "975d0c3e88f7c36085f5d58d244e5a08ad79211c0f82b0415e6740077fdfec89",
+        "_model.json": "f43906f1d52d3f036ff9a294f0f1a641d1922724e1f36bb8d83e49269cd1f2b1"
+      }
+    },
+    {
+      "document_id": "KB-B009-HM-ASR2025",
+      "page": 53,
+      "themes": [
+        "workforce"
+      ],
+      "output_directory": "artifacts/scale_batch_009/mineru_targets/KB-B009-HM-ASR2025-p0053",
+      "status": "complete",
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "3fde3abd6061a37d6fe7bc27c884469d6e24cb143f330f82cfca567e100528ca",
+        "_content_list.json": "6753c4d6da6def614bc1fe5ff5a5fa29ae80e3aa172af35d79f2dd6e2d42b560",
+        "_middle.json": "1f097beb94ea57278fa60aa2e19b592c95ea7e64f837e3ebc064371814af440b",
+        "_model.json": "6bf183ed9f9f6ec00ac9ae9e1f70ce84cb879ebde502a04edca1c617b5a94eb2"
+      }
+    },
+    {
+      "document_id": "KB-B009-HM-ASR2025",
+      "page": 54,
+      "themes": [
+        "health_safety"
+      ],
+      "output_directory": "artifacts/scale_batch_009/mineru_targets/KB-B009-HM-ASR2025-p0054",
+      "status": "complete",
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "2bc658714c7ad06c845db0d5e48447e06e3e4178e34f920caecf75925ea079e9",
+        "_content_list.json": "fec0a434e900c5a41c0f6a6f9818c307b789d9fa4a53ff64a5d5d2a2ce6fec29",
+        "_middle.json": "4c1998fb3dc31bc28d22b74e41532d6d1969943d342102db4a59df781f27508e",
+        "_model.json": "36a978ad96d49ba25b9a61bc64c040b402d6bc154fbd2c21cf749341ba4776f3"
+      }
+    },
+    {
+      "document_id": "KB-B009-HM-ASR2025",
+      "page": 92,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_009/mineru_targets/KB-B009-HM-ASR2025-p0092",
+      "status": "complete",
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "88963277a310f94b23fabebac4deadd4071b533e2c72f6dfcf72ae49354ffb6a",
+        "_content_list.json": "e0fde4e049b581c9f3b0b47e532ac15d279d70d6c121242f3f05db666a8e4882",
+        "_middle.json": "1ea89271b3006cccf555b7abd4f079d7856fc388f4ec66f41ee5d8fa43d5d5bf",
+        "_model.json": "8b041b674d6b00022257660eac7efaa3712774cf262797843e63118b11fdea28"
+      }
+    },
+    {
+      "document_id": "KB-B009-ORSTED-AR2025",
+      "page": 59,
+      "themes": [
+        "targets"
+      ],
+      "output_directory": "artifacts/scale_batch_009/mineru_targets/KB-B009-ORSTED-AR2025-p0059",
+      "status": "complete",
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "657ab94235d62957400a609d72fc0466e63327edf9d2192c3bd0f83c3f370c80",
+        "_content_list.json": "a03c1c14f53b0d5db47c4fceab8fffedbc273e91c7cc3b7e77bbc591be70be10",
+        "_middle.json": "682b9750edcf977d39d9a155874bb42903722658b49fa0cb867bace0743dddec",
+        "_model.json": "c29bab7faba8e834dca644d3768663210c49af54cb6fa4de6efe5b1e5e9cb8c8"
+      }
+    },
+    {
+      "document_id": "KB-B009-ORSTED-AR2025",
+      "page": 72,
+      "themes": [
+        "water"
+      ],
+      "output_directory": "artifacts/scale_batch_009/mineru_targets/KB-B009-ORSTED-AR2025-p0072",
+      "status": "complete",
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "3995f70964639899b47fdbf747458ac656138fed929da82b80c4e9c1a4b89c32",
+        "_content_list.json": "9f994b741bf897a6dc46823b11f5ea9bae8e47b537a6a874bc03cd5bcaaf2133",
+        "_middle.json": "d3958e2b59a8779033297ec1ce2b026d29a7fae216e52cf18d76c10d910aef95",
+        "_model.json": "f77368855f715d45ebaf7f5ecf81405cbec3dcfbd12698fe8990c9a7ec65369c"
+      }
+    },
+    {
+      "document_id": "KB-B009-ORSTED-AR2025",
+      "page": 77,
+      "themes": [
+        "energy"
+      ],
+      "output_directory": "artifacts/scale_batch_009/mineru_targets/KB-B009-ORSTED-AR2025-p0077",
+      "status": "complete",
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "82109fdaffdb9a0f90794c91d1ed00f6ad588ae5547879da12b9764747abdeab",
+        "_content_list.json": "5c35ff45d3348ef670f7bca9acf6746452c21dc8d799a78a6d1c043251180bde",
+        "_middle.json": "57b956c5281c810912e05bcf3366c7cfef116f8b493868bb3e7e4eba2f97eab2",
+        "_model.json": "332c269a8de8e608490651c55fe40a02d320f4e5ae7375893fd33f20f265ef5f"
+      }
+    },
+    {
+      "document_id": "KB-B009-ORSTED-AR2025",
+      "page": 79,
+      "themes": [
+        "ghg_emissions"
+      ],
+      "output_directory": "artifacts/scale_batch_009/mineru_targets_RESUME01/KB-B009-ORSTED-AR2025-p0079",
+      "status": "complete",
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "f6f50836f7415deca3ac3da9c7e1dcf579882f62e1e476ecc936df106c468b2d",
+        "_content_list.json": "25801708be58904f21811803ee750b186008a0989e33aec41d2d57b4f0237931",
+        "_middle.json": "ad4ff3bb18a38f89adb8fceb0eb5e9f26b435b0bdfb2583b9af2bd76f5955af9",
+        "_model.json": "efedaca03bb1af7074c9892a43349d221c182731ab9f20cbf7002480fd45b5d5"
+      }
+    },
+    {
+      "document_id": "KB-B009-ORSTED-AR2025",
+      "page": 86,
+      "themes": [
+        "biodiversity"
+      ],
+      "output_directory": "artifacts/scale_batch_009/mineru_targets/KB-B009-ORSTED-AR2025-p0086",
+      "status": "complete",
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "ee97dedad70bae8e77311b39afc4dd76d861e9ce680b398445e6c477917d07f0",
+        "_content_list.json": "be8ec936e97bba72f0165848ded12106fe9dcfcb39e8c442c40d6fbc85af0e6c",
+        "_middle.json": "040130f0a33c2ba0bd89c1e3b1377ee5205212e73c723981348932e2f226d28d",
+        "_model.json": "2f96193cb88eb705f79858b44b2e7daac89cf8febfe34e89bedee74bb60b43aa"
+      }
+    },
+    {
+      "document_id": "KB-B009-ORSTED-AR2025",
+      "page": 89,
+      "themes": [
+        "circularity"
+      ],
+      "output_directory": "artifacts/scale_batch_009/mineru_targets_RESUME01/KB-B009-ORSTED-AR2025-p0089",
+      "status": "complete",
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "02b745ace1991da9abe28d5636120ff6b81305b58f1d04d7363e406a429a13d4",
+        "_content_list.json": "71fb05f6cc44b784b442492fdf329d8e66f892b01a75f3479d39a78a8263a3fb",
+        "_middle.json": "5dcae493976331b1a3607731395f14efcdecb07072b2173c13670980168fd73d",
+        "_model.json": "185c0e592a09aefb3cc867e7bbd1e1080ee696aaa9843ac1f2f6e7b16bd31f4c"
+      }
+    },
+    {
+      "document_id": "KB-B009-ORSTED-AR2025",
+      "page": 94,
+      "themes": [
+        "workforce"
+      ],
+      "output_directory": "artifacts/scale_batch_009/mineru_targets_RESUME01/KB-B009-ORSTED-AR2025-p0094",
+      "status": "complete",
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "14f14c9dd32172865ed00e62fdc3d078c197f2529de5a4f456f39e2cb23d8fee",
+        "_content_list.json": "69317d5ce6ddcebeb32ba6ce35c83a38e045eb88e60dcbcbbf28f1a97cb0f7f1",
+        "_middle.json": "f819c0b44f3b3bf86b90ffbcb8410d8d6e70f57520979c3a2de888efe3a1d4a1",
+        "_model.json": "a0170e2c7ebbd075f868f707822866520ee854e8b37a79cad3915242dd7976e1"
+      }
+    },
+    {
+      "document_id": "KB-B009-ORSTED-AR2025",
+      "page": 99,
+      "themes": [
+        "health_safety"
+      ],
+      "output_directory": "artifacts/scale_batch_009/mineru_targets/KB-B009-ORSTED-AR2025-p0099",
+      "status": "complete",
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "b0b6998c37f3db66702e2ebee3fb3ab5f653b91ea8847f4d0119d12b30cf4e6b",
+        "_content_list.json": "770352eac12415f2a6981fb6b9ab97be9381803574436dfd0f02ca73c80203ff",
+        "_middle.json": "fac9e22844cc18d1d028d016bc8e275cf26ced6c6aed414dbfc1ba08eff0100c",
+        "_model.json": "61e6ceecc764d26028f3f7ac1799e0b18bfe7cacdda70b535c066735986e35fc"
+      }
+    },
+    {
+      "document_id": "KB-B009-ORSTED-AR2025",
+      "page": 215,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_009/mineru_targets/KB-B009-ORSTED-AR2025-p0215",
+      "status": "complete",
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "5976c76104d69b9bcbbd82883b29b28a5683f472f69992158d31c8e3254277ef",
+        "_content_list.json": "09055c14c04c87b7259817e8797bef780f9fdd6e8e95f46ee777e948a7145e18",
+        "_middle.json": "cca89f8adeec3a3f6eb53f077aaf3a01ca50a2eb4df4a9c3770a4bbbb7a97f38",
+        "_model.json": "f9c8e7f8282a3cb5f5f8f1e99e3a2ea9b65bd71df6cfb4fff37530adb5fd1a69"
+      }
+    }
+  ]
+}

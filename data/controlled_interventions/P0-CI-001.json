@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "intervention_id": "P0-CI-001",
+  "intervention_type": "numeric_claim_contradiction",
+  "source_document_id": "KO-EU-2024",
+  "source_document_sha256": "c71a25d345a5b3c5342cce74d63ae9d3e436d9c91e5370ce44014970543c7ec9",
+  "source_page": 10,
+  "injected_text": "In 2024, the Coca-Cola system's collection rate for equivalent bottles and cans declined from 62% to 55%.",
+  "known_source_value": 65,
+  "known_source_unit": "%",
+  "known_source_period": "FY2024",
+  "expected_relation": "contradicted_by_source",
+  "construction_note": "The injected value is deliberately false and exists only for controlled conflict detection. It is not a company statement.",
+  "publication_safe": true
+}

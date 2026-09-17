@@ -1,0 +1,21 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-004-MINERU-RESUME02",
+  "parent_run": "data/results/scale_batch_004_mineru_RESUME01_summary.lock.json",
+  "parent_terminal_status": "complete",
+  "parent_complete_pages": 23,
+  "parent_failed_pages": 2,
+  "resume_scope": "only_parent_failed_pages",
+  "failed_pages": [
+    {"document_id": "KB-B004-PHILIPS-AR2025", "page": 210},
+    {"document_id": "KB-B004-PHILIPS-AR2025", "page": 221}
+  ],
+  "failure_signature": "MINERU_POSTPROCESS_RUNTIME_ABORT",
+  "failure_evidence": "MinerU completed page processing, then exited -6 after recursive_mutex lock failure",
+  "policy": {
+    "parent_results_overwritten": false,
+    "completed_pages_repeated": false,
+    "cloud_transmission": false,
+    "locked_experiments_modified": false
+  }
+}

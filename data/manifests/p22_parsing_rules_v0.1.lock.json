@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "experiment_id": "P22-V31-UNSEEN-LOCKBOX-V01",
+  "document_id": "P22-BAYER-AR2025",
+  "document_sha256": "0af4a9d19fd9d4cba72c1ec062802199873f2379f84112dc2db5dc9605ce769b",
+  "status": "frozen_before_task_reference_authoring_and_candidate_inference",
+  "page_coordinate_system": "one_based_pdf_page_index",
+  "parser": {
+    "name": "MinerU",
+    "version": "3.4.0",
+    "backend": "pipeline",
+    "method": "auto",
+    "device_mode": "cpu",
+    "model_source": "huggingface",
+    "page_isolation": "one target PDF page per parser call"
+  },
+  "layout_fallback": {
+    "native_pdf_text_layout": true,
+    "visual_page_render_required_for_complex_tables": true,
+    "record_page_table_row_column_cell_coordinates": true
+  },
+  "failure_policy": {
+    "successful_page_output_is_immutable": true,
+    "infrastructure_failure_requires_resume_lineage": true,
+    "semantic_retry": false
+  },
+  "cloud_transmission_allowed": false
+}

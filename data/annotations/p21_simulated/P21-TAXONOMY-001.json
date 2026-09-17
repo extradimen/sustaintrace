@@ -1,0 +1,64 @@
+{
+  "answer": "For 2025, sales revenue denominator was €59,657m, eligible share 12.7%, aligned €905m/1.5%; capex was €4,684m, eligible 18.8%, aligned €22m/0.5%; opex was €4,489m, eligible 13.0%, aligned €74m/1.6%. Sales and opex exclude discontinued coatings; capex includes it only through signing of the transaction agreement. Aligned activities additionally require substantial contribution, DNSH and minimum social safeguards.",
+  "evidence": [
+    {
+      "pdf_page": 245,
+      "quote": "Sales revenuea</td><td>59,657</td><td>In % 12.7</td><td>Million € 905</td><td>In % 1.5",
+      "source_id": "P21-BASF-AR2025"
+    },
+    {
+      "pdf_page": 245,
+      "quote": "<td></td><td>4,684</td><td></td><td>22</td>",
+      "source_id": "P21-BASF-AR2025"
+    },
+    {
+      "pdf_page": 245,
+      "quote": "Capex Opexa</td><td>4,489</td><td>18.8 13.0</td><td></td><td>0.5 1.6",
+      "source_id": "P21-BASF-AR2025"
+    },
+    {
+      "pdf_page": 242,
+      "quote": "sales revenue excluding the discontinued coatings business",
+      "source_id": "P21-BASF-AR2025"
+    },
+    {
+      "pdf_page": 242,
+      "quote": "including expenditures from the discontinued coatings business up to the date of signing the transaction agreement",
+      "source_id": "P21-BASF-AR2025"
+    },
+    {
+      "pdf_page": 242,
+      "quote": "The discontinued coatings business was not included for 2025, in line with the procedure for sales revenue",
+      "source_id": "P21-BASF-AR2025"
+    },
+    {
+      "pdf_page": 242,
+      "quote": "make a substantial contribution to one of the six environmental objectives and do no significant harm to other environmental objectives and, at the same time, ensure minimum social safeguards",
+      "source_id": "P21-BASF-AR2025"
+    }
+  ],
+  "normalized_value": {
+    "alignment_test": "substantial contribution plus do no significant harm plus minimum social safeguards",
+    "capex_aligned_million_eur::2025": 22,
+    "capex_aligned_share_percent::2025": 0.5,
+    "capex_denominator_million_eur::2025": 4684,
+    "capex_eligible_share_percent::2025": 18.8,
+    "discontinued_coatings_boundary": "sales and opex excluded; capex included only up to transaction-agreement signing",
+    "opex_aligned_million_eur::2025": 74,
+    "opex_aligned_share_percent::2025": 1.6,
+    "opex_denominator_million_eur::2025": 4489,
+    "opex_eligible_share_percent::2025": 13.0,
+    "sales_aligned_million_eur::2025": 905,
+    "sales_aligned_share_percent::2025": 1.5,
+    "sales_denominator_million_eur::2025": 59657,
+    "sales_eligible_share_percent::2025": 12.7
+  },
+  "provenance": {
+    "candidate_model_used": false,
+    "reference_is_simulated": true
+  },
+  "reference_author": "codex_gpt_simulated_expert",
+  "reference_status": "verified_against_frozen_mineru_pages_and_native_layout",
+  "schema_version": "1.0",
+  "task_id": "P21-TAXONOMY-001"
+}

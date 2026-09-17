@@ -1,0 +1,12 @@
+{
+  "schema_version":"1.0",
+  "development_id":"V22-P12-EXPOSED-FAILURE-DEV-V01",
+  "status":"development_regression_passed",
+  "scope":"P12 exposed failures only",
+  "implementation":{"same_path_preflight":"src/esg_reliable_discovery/v22_preflight.py","stage_b_integration":"src/esg_reliable_discovery/v13_stage_b_runner.py","features":["validate raw contracts before object flattening","validate flattened candidate-visible contracts","construct and validate the exact production JSON schema","execute a synthetic grounded fixture through the production v2.1 projector","release candidate access only after all paths pass"]},
+  "regression":{"p12_missing_predicate_id":"rejected before candidate","p12_missing_object_fields":"rejected before candidate","p12_missing_array_member_contract":"rejected before candidate","corrected_mixed_contracts":"schema and projector dry run passed"},
+  "verification":{"targeted_tests":"4 passed","full_pytest":"233 passed","ruff":"passed"},
+  "sha256":{"preregistration":"32e98301b823f7707a9f0fa81967f2ac55f09d570687ae02b52f459b33b17f97","preflight_module":"c9f0f9494a0a96a2c65f7ea336dbaf1b229824fd47ece4d198b588e577222b04","stage_b_runner":"91cdd56d5721bdb3602eda8800b4249f2c8266a19c8b81b77ba90a3315bac67f","regression_tests":"7c1ab7862852adeead9a3c13f6bcea9072d3d7f1b86493bc8fce6c2960e23f61"},
+  "locked_experiments_modified":false,
+  "next":"select and locally freeze a new P13 report"
+}

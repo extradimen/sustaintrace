@@ -1,0 +1,27 @@
+{
+  "blocker_counts": {
+    "BOUNDARY_ATTACHMENT_INCOMPLETE": 43,
+    "PERIOD_ATTACHMENT_INCOMPLETE": 27
+  },
+  "counts": {
+    "blocked_additional_qualification": 53,
+    "ready_for_independent_source_review": 6
+  },
+  "independent_sources_present": 0,
+  "inputs": {
+    "facts_sha256": "8af57e7b7bda85deef8f90586f8225aedcf1da24e0669300115b8f1f7499bf5b",
+    "independent_source_policy_sha256": "2a24df607a03922754222bbb75c1d9360cb2421b92346a738a10736723712cbc",
+    "knowledge_gaps_sha256": "858a37ede7bd213c1c3d1e9136d5d8be6bc6e6f12f147124318347cb3a8cef76",
+    "source_native_bindings_sha256": "e152197d51d9368871a4dadd0bcb65109dfb74f69c8e88674bd3bea54a46b5dd"
+  },
+  "locked_experiments_modified_or_rescored": false,
+  "next_gate": "obtain and freeze policy-eligible independent corroboration for the six ready facts",
+  "output": {
+    "path": "data/knowledge_bases/v0.1/tier_b_adjudication_queue.jsonl",
+    "sha256": "5baaba1ac80923d01e636e17aac85df4805195919d6c6e39c52d81a7911f5917"
+  },
+  "promoted_to_tier_b": 0,
+  "records": 59,
+  "schema_version": "0.1",
+  "status": "tier_b_adjudication_queue_complete_no_promotion"
+}

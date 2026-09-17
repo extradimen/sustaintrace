@@ -1,0 +1,353 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-018",
+  "updated_at": "2026-09-13T12:04:28.560410+00:00",
+  "status": "complete",
+  "cloud_transmission": false,
+  "total_target_pages": 28,
+  "complete_pages": 28,
+  "failed_pages": 0,
+  "pending_pages": 0,
+  "records": [
+    {
+      "document_id": "KB-B018-EPIROC-ASR2025",
+      "page": 41,
+      "themes": [
+        "targets"
+      ],
+      "output_directory": "artifacts/scale_batch_018/mineru_targets/KB-B018-EPIROC-ASR2025-p0041",
+      "status": "complete",
+      "started_at": "2026-09-13T11:54:32.040123+00:00",
+      "completed_at": "2026-09-13T11:55:03.329869+00:00",
+      "wall_seconds": 31.28975
+    },
+    {
+      "document_id": "KB-B018-EPIROC-ASR2025",
+      "page": 93,
+      "themes": [
+        "biodiversity",
+        "water"
+      ],
+      "output_directory": "artifacts/scale_batch_018/mineru_targets/KB-B018-EPIROC-ASR2025-p0093",
+      "status": "complete",
+      "started_at": "2026-09-13T11:55:03.330560+00:00",
+      "completed_at": "2026-09-13T11:55:32.265716+00:00",
+      "wall_seconds": 28.935279
+    },
+    {
+      "document_id": "KB-B018-EPIROC-ASR2025",
+      "page": 106,
+      "themes": [
+        "energy",
+        "ghg_emissions"
+      ],
+      "output_directory": "artifacts/scale_batch_018/mineru_targets/KB-B018-EPIROC-ASR2025-p0106",
+      "status": "complete",
+      "started_at": "2026-09-13T11:55:32.267433+00:00",
+      "completed_at": "2026-09-13T11:55:59.383667+00:00",
+      "wall_seconds": 27.116332
+    },
+    {
+      "document_id": "KB-B018-EPIROC-ASR2025",
+      "page": 108,
+      "themes": [
+        "ghg_emissions"
+      ],
+      "output_directory": "artifacts/scale_batch_018/mineru_targets/KB-B018-EPIROC-ASR2025-p0108",
+      "status": "complete",
+      "started_at": "2026-09-13T11:55:59.384122+00:00",
+      "completed_at": "2026-09-13T11:56:29.805890+00:00",
+      "wall_seconds": 30.421901
+    },
+    {
+      "document_id": "KB-B018-EPIROC-ASR2025",
+      "page": 117,
+      "themes": [
+        "circularity"
+      ],
+      "output_directory": "artifacts/scale_batch_018/mineru_targets/KB-B018-EPIROC-ASR2025-p0117",
+      "status": "complete",
+      "started_at": "2026-09-13T11:56:29.806738+00:00",
+      "completed_at": "2026-09-13T11:56:52.631515+00:00",
+      "wall_seconds": 22.824876
+    },
+    {
+      "document_id": "KB-B018-EPIROC-ASR2025",
+      "page": 128,
+      "themes": [
+        "health_safety"
+      ],
+      "output_directory": "artifacts/scale_batch_018/mineru_targets/KB-B018-EPIROC-ASR2025-p0128",
+      "status": "complete",
+      "started_at": "2026-09-13T11:56:52.632141+00:00",
+      "completed_at": "2026-09-13T11:57:16.561803+00:00",
+      "wall_seconds": 23.92976
+    },
+    {
+      "document_id": "KB-B018-EPIROC-ASR2025",
+      "page": 132,
+      "themes": [
+        "workforce"
+      ],
+      "output_directory": "artifacts/scale_batch_018/mineru_targets/KB-B018-EPIROC-ASR2025-p0132",
+      "status": "complete",
+      "started_at": "2026-09-13T11:57:16.562230+00:00",
+      "completed_at": "2026-09-13T11:57:39.866097+00:00",
+      "wall_seconds": 23.303959
+    },
+    {
+      "document_id": "KB-B018-EPIROC-ASR2025",
+      "page": 233,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_018/mineru_targets/KB-B018-EPIROC-ASR2025-p0233",
+      "status": "complete",
+      "started_at": "2026-09-13T11:57:39.866540+00:00",
+      "completed_at": "2026-09-13T11:57:58.052836+00:00",
+      "wall_seconds": 18.186373
+    },
+    {
+      "document_id": "KB-B018-EPIROC-ASR2025",
+      "page": 234,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_018/mineru_targets/KB-B018-EPIROC-ASR2025-p0234",
+      "status": "complete",
+      "started_at": "2026-09-13T11:57:58.053346+00:00",
+      "completed_at": "2026-09-13T11:58:18.498859+00:00",
+      "wall_seconds": 20.445598
+    },
+    {
+      "document_id": "KB-B018-EPIROC-ASR2025",
+      "page": 235,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_018/mineru_targets/KB-B018-EPIROC-ASR2025-p0235",
+      "status": "complete",
+      "started_at": "2026-09-13T11:58:18.499255+00:00",
+      "completed_at": "2026-09-13T11:58:39.904146+00:00",
+      "wall_seconds": 21.405002
+    },
+    {
+      "document_id": "KB-B018-ALFA-LAVAL-ASR2025",
+      "page": 33,
+      "themes": [
+        "targets"
+      ],
+      "output_directory": "artifacts/scale_batch_018/mineru_targets/KB-B018-ALFA-LAVAL-ASR2025-p0033",
+      "status": "complete",
+      "started_at": "2026-09-13T11:58:39.905304+00:00",
+      "completed_at": "2026-09-13T11:59:01.977398+00:00",
+      "wall_seconds": 22.072175
+    },
+    {
+      "document_id": "KB-B018-ALFA-LAVAL-ASR2025",
+      "page": 34,
+      "themes": [
+        "energy"
+      ],
+      "output_directory": "artifacts/scale_batch_018/mineru_targets/KB-B018-ALFA-LAVAL-ASR2025-p0034",
+      "status": "complete",
+      "started_at": "2026-09-13T11:59:01.977883+00:00",
+      "completed_at": "2026-09-13T11:59:21.709173+00:00",
+      "wall_seconds": 19.731371
+    },
+    {
+      "document_id": "KB-B018-ALFA-LAVAL-ASR2025",
+      "page": 35,
+      "themes": [
+        "ghg_emissions"
+      ],
+      "output_directory": "artifacts/scale_batch_018/mineru_targets/KB-B018-ALFA-LAVAL-ASR2025-p0035",
+      "status": "complete",
+      "started_at": "2026-09-13T11:59:21.709596+00:00",
+      "completed_at": "2026-09-13T11:59:42.249629+00:00",
+      "wall_seconds": 20.540119
+    },
+    {
+      "document_id": "KB-B018-ALFA-LAVAL-ASR2025",
+      "page": 38,
+      "themes": [
+        "water"
+      ],
+      "output_directory": "artifacts/scale_batch_018/mineru_targets/KB-B018-ALFA-LAVAL-ASR2025-p0038",
+      "status": "complete",
+      "started_at": "2026-09-13T11:59:42.250391+00:00",
+      "completed_at": "2026-09-13T11:59:59.636619+00:00",
+      "wall_seconds": 17.386305
+    },
+    {
+      "document_id": "KB-B018-ALFA-LAVAL-ASR2025",
+      "page": 42,
+      "themes": [
+        "circularity"
+      ],
+      "output_directory": "artifacts/scale_batch_018/mineru_targets/KB-B018-ALFA-LAVAL-ASR2025-p0042",
+      "status": "complete",
+      "started_at": "2026-09-13T11:59:59.637258+00:00",
+      "completed_at": "2026-09-13T12:00:16.096260+00:00",
+      "wall_seconds": 16.459068
+    },
+    {
+      "document_id": "KB-B018-ALFA-LAVAL-ASR2025",
+      "page": 61,
+      "themes": [
+        "health_safety",
+        "workforce"
+      ],
+      "output_directory": "artifacts/scale_batch_018/mineru_targets/KB-B018-ALFA-LAVAL-ASR2025-p0061",
+      "status": "complete",
+      "started_at": "2026-09-13T12:00:16.096627+00:00",
+      "completed_at": "2026-09-13T12:00:33.259296+00:00",
+      "wall_seconds": 17.162741
+    },
+    {
+      "document_id": "KB-B018-ALFA-LAVAL-ASR2025",
+      "page": 64,
+      "themes": [
+        "biodiversity"
+      ],
+      "output_directory": "artifacts/scale_batch_018/mineru_targets/KB-B018-ALFA-LAVAL-ASR2025-p0064",
+      "status": "complete",
+      "started_at": "2026-09-13T12:00:33.259778+00:00",
+      "completed_at": "2026-09-13T12:00:50.675730+00:00",
+      "wall_seconds": 17.416025
+    },
+    {
+      "document_id": "KB-B018-ALFA-LAVAL-ASR2025",
+      "page": 145,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_018/mineru_targets/KB-B018-ALFA-LAVAL-ASR2025-p0145",
+      "status": "complete",
+      "started_at": "2026-09-13T12:00:50.676142+00:00",
+      "completed_at": "2026-09-13T12:01:07.760235+00:00",
+      "wall_seconds": 17.084165
+    },
+    {
+      "document_id": "KB-B018-ALFA-LAVAL-ASR2025",
+      "page": 146,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_018/mineru_targets/KB-B018-ALFA-LAVAL-ASR2025-p0146",
+      "status": "complete",
+      "started_at": "2026-09-13T12:01:07.760654+00:00",
+      "completed_at": "2026-09-13T12:01:23.934832+00:00",
+      "wall_seconds": 16.174247
+    },
+    {
+      "document_id": "KB-B018-SSAB-AR2025",
+      "page": 80,
+      "themes": [
+        "targets"
+      ],
+      "output_directory": "artifacts/scale_batch_018/mineru_targets/KB-B018-SSAB-AR2025-p0080",
+      "status": "complete",
+      "started_at": "2026-09-13T12:01:23.935242+00:00",
+      "completed_at": "2026-09-13T12:01:42.537538+00:00",
+      "wall_seconds": 18.602378
+    },
+    {
+      "document_id": "KB-B018-SSAB-AR2025",
+      "page": 84,
+      "themes": [
+        "ghg_emissions"
+      ],
+      "output_directory": "artifacts/scale_batch_018/mineru_targets/KB-B018-SSAB-AR2025-p0084",
+      "status": "complete",
+      "started_at": "2026-09-13T12:01:42.538020+00:00",
+      "completed_at": "2026-09-13T12:01:59.458361+00:00",
+      "wall_seconds": 16.920413
+    },
+    {
+      "document_id": "KB-B018-SSAB-AR2025",
+      "page": 86,
+      "themes": [
+        "energy"
+      ],
+      "output_directory": "artifacts/scale_batch_018/mineru_targets/KB-B018-SSAB-AR2025-p0086",
+      "status": "complete",
+      "started_at": "2026-09-13T12:01:59.458838+00:00",
+      "completed_at": "2026-09-13T12:02:21.320183+00:00",
+      "wall_seconds": 21.861436
+    },
+    {
+      "document_id": "KB-B018-SSAB-AR2025",
+      "page": 92,
+      "themes": [
+        "circularity"
+      ],
+      "output_directory": "artifacts/scale_batch_018/mineru_targets/KB-B018-SSAB-AR2025-p0092",
+      "status": "complete",
+      "started_at": "2026-09-13T12:02:21.320715+00:00",
+      "completed_at": "2026-09-13T12:02:40.395789+00:00",
+      "wall_seconds": 19.075153
+    },
+    {
+      "document_id": "KB-B018-SSAB-AR2025",
+      "page": 96,
+      "themes": [
+        "biodiversity",
+        "water"
+      ],
+      "output_directory": "artifacts/scale_batch_018/mineru_targets/KB-B018-SSAB-AR2025-p0096",
+      "status": "complete",
+      "started_at": "2026-09-13T12:02:40.396201+00:00",
+      "completed_at": "2026-09-13T12:02:57.641881+00:00",
+      "wall_seconds": 17.245751
+    },
+    {
+      "document_id": "KB-B018-SSAB-AR2025",
+      "page": 104,
+      "themes": [
+        "workforce"
+      ],
+      "output_directory": "artifacts/scale_batch_018/mineru_targets/KB-B018-SSAB-AR2025-p0104",
+      "status": "complete",
+      "started_at": "2026-09-13T12:02:57.642314+00:00",
+      "completed_at": "2026-09-13T12:03:14.124060+00:00",
+      "wall_seconds": 16.481817
+    },
+    {
+      "document_id": "KB-B018-SSAB-AR2025",
+      "page": 106,
+      "themes": [
+        "health_safety"
+      ],
+      "output_directory": "artifacts/scale_batch_018/mineru_targets/KB-B018-SSAB-AR2025-p0106",
+      "status": "complete",
+      "started_at": "2026-09-13T12:03:14.124600+00:00",
+      "completed_at": "2026-09-13T12:03:33.513618+00:00",
+      "wall_seconds": 19.389098
+    },
+    {
+      "document_id": "KB-B018-SSAB-AR2025",
+      "page": 183,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_018/mineru_targets/KB-B018-SSAB-AR2025-p0183",
+      "status": "complete",
+      "started_at": "2026-09-13T12:03:33.514063+00:00",
+      "completed_at": "2026-09-13T12:03:54.487389+00:00",
+      "wall_seconds": 20.973416
+    },
+    {
+      "document_id": "KB-B018-SSAB-AR2025",
+      "page": 184,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_018/mineru_targets/KB-B018-SSAB-AR2025-p0184",
+      "status": "complete",
+      "started_at": "2026-09-13T12:03:54.488571+00:00",
+      "completed_at": "2026-09-13T12:04:28.559733+00:00",
+      "wall_seconds": 34.071294
+    }
+  ]
+}

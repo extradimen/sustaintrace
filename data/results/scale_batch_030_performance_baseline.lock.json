@@ -1,0 +1,66 @@
+{
+  "batch_id": "KB-SCALE-BATCH-030-SUPPLEMENTAL-PERFORMANCE",
+  "comparison_parent": "data/results/scale_batch_029_performance_baseline.lock.json",
+  "completed_at": "2026-09-14T02:36:22.233215+00:00",
+  "mineru": {
+    "attempt_wall_seconds": [
+      28.546987,
+      148.370174,
+      91.341852,
+      16.815806
+    ],
+    "final_complete_pages": 10,
+    "initial_failure_class": "sandbox_local_server_port_bind_denied",
+    "initial_failures": 10,
+    "post_completion_shutdown_recovered_pages": 0,
+    "resume_completed_pages": 10,
+    "status": "complete_after_audited_resume_and_hash_recovery",
+    "successful_processing_wall_seconds": 152.925721,
+    "successful_target_pages": 10,
+    "successful_target_pages_per_hour": 235.408405,
+    "target_page_wall_seconds": {
+      "KB-B030-NCC-ASR2025:p0058": 14.604233,
+      "KB-B030-NCC-ASR2025:p0073": 14.532067,
+      "KB-B030-NCC-ASR2025:p0074": 16.815806,
+      "KB-B030-NCC-ASR2025:p0075": 13.62499,
+      "KB-B030-NCC-ASR2025:p0078": 16.899023,
+      "KB-B030-NCC-ASR2025:p0081": 14.823472,
+      "KB-B030-NCC-ASR2025:p0085": 13.515571,
+      "KB-B030-NCC-ASR2025:p0091": 15.581189,
+      "KB-B030-NCC-ASR2025:p0154": 15.591765,
+      "KB-B030-NCC-ASR2025:p0155": 16.937605
+    },
+    "total_attempt_wall_seconds": 285.074819
+  },
+  "mineru_comparison": {
+    "batch_029_pages_per_hour": 236.769029,
+    "batch_030_pages_per_hour": 235.408405,
+    "interpretation_gate": "throughput_only_quality_measured_separately",
+    "relative_change_percent": -0.575
+  },
+  "policy": {
+    "cloud_transmission": false,
+    "locked_experiments_modified": false,
+    "parent_results_overwritten": false,
+    "performance_separate_from_knowledge_quality": true
+  },
+  "provisional_comparison": {
+    "batch_029_pages_per_second": 344.423777,
+    "batch_030_pages_per_second": 337.985039,
+    "interpretation_gate": "diagnostic_only_not_semantic_quality_or_mineru_speed",
+    "relative_change_percent": -1.869,
+    "status": "comparable"
+  },
+  "schema_version": "0.1",
+  "started_at": "2026-09-14T02:27:51.595110+00:00",
+  "status": "diagnostic_and_mineru_baseline_complete",
+  "whole_report_diagnostic": {
+    "documents": 1,
+    "extractable_pages": 165,
+    "pages_per_second": 337.985039,
+    "pdf_pages": 166,
+    "peak_rss_bytes": 24674304,
+    "peak_rss_mb": 23.531,
+    "wall_seconds": 0.491146
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "artifacts": [
+    {
+      "path": "configs/framework/p16_calculation_plans_v0.1.lock.json",
+      "sha256": "c508bd8b581ed395dea761c5995b3f7565f513bccd21a12cc39abaa91bde2038"
+    },
+    {
+      "path": "configs/framework/p16_layout_fallback_registry_v0.1.lock.json",
+      "sha256": "863896a58f4057aacd7641787ec3b41ed9d3fd2b520def013306b1245399c562"
+    },
+    {
+      "path": "configs/framework/p16_semantic_qualifiers_v0.1.lock.json",
+      "sha256": "21185dcbe78cdeb3b30f6febc0a1d4867383b09cebc3f07c067dc2a60914bbed"
+    },
+    {
+      "path": "configs/framework/p16_slot_contracts_v0.1.lock.json",
+      "sha256": "b0681c4fabe8620840932f4e8e6464f6b0e2c3dca1eb02441e803612119304e6"
+    },
+    {
+      "path": "configs/framework/p16_two_dimensional_table_graph_v0.1.lock.json",
+      "sha256": "c333b6d365c8842199af3e16b5833c2b2bfe4ec333a04a54570fc081c8b94b0a"
+    },
+    {
+      "path": "data/annotations/p16_simulated/P16-ACCESS-001.json",
+      "sha256": "88740e5c07c114501f4de368b3a219e81b2131d2b67f4f3dcd7922580c3ef3a6"
+    },
+    {
+      "path": "data/annotations/p16_simulated/P16-ASSURE-001.json",
+      "sha256": "1e2e188fc36b9e5baa4b23e27208e460bf3be21ff4b6e56e329a013ba30feedb"
+    },
+    {
+      "path": "data/annotations/p16_simulated/P16-GHG-CALC-001.json",
+      "sha256": "8eb0fce1abc52af9a30bef94cb1510450f9e3e22a585e3de2a806bc288d456bd"
+    },
+    {
+      "path": "data/annotations/p16_simulated/P16-POLLUTION-001.json",
+      "sha256": "bdc45e5b4dc7931e88cdeac26dd141a46ff447fbe400b93371ddf00697a8079f"
+    },
+    {
+      "path": "data/annotations/p16_simulated/P16-SAFETY-001.json",
+      "sha256": "23c4429823ce9e2dc9a6a39ce184a415766a3899d0a9fc12536fb3505b4f9435"
+    },
+    {
+      "path": "data/annotations/p16_simulated/P16-TARGET-001.json",
+      "sha256": "fba7269ebb513d8e661477d1c4bcf24cc675f3e52143ea72921360871dcd373a"
+    },
+    {
+      "path": "data/results/p16_v25_prefreeze_integrity_audit_RESUME01_v0.1.lock.json",
+      "sha256": "1bcb2da642bec0bee0ed7bc30df04dd1c68f720be3a7b35b8d74607069759e4c"
+    }
+  ],
+  "candidate_model_used_for_reference_creation": false,
+  "cloud_transmission_count": 0,
+  "experiment_id": "P16-V25-UNSEEN-LOCKBOX-V01",
+  "frozen_at_local_date": "2026-09-09",
+  "immutability": {
+    "candidate_inference_started": false,
+    "p3_through_p15_modified": false,
+    "post_candidate_reference_edits_allowed": false
+  },
+  "prefreeze_audit": "data/results/p16_v25_prefreeze_integrity_audit_RESUME01_v0.1.lock.json",
+  "prefreeze_audit_sha256": "1bcb2da642bec0bee0ed7bc30df04dd1c68f720be3a7b35b8d74607069759e4c",
+  "reference_type": "codex_gpt_simulated_expert_not_independent_human_gold",
+  "schema_version": "1.0",
+  "slot_count": 60,
+  "status": "simulated_references_contracts_calculation_and_table_graph_frozen_before_candidate_inference",
+  "task_count": 6
+}

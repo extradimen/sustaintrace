@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.0",
+  "experiment_id": "REPLACE_ME",
+  "framework_version": "V0",
+  "dataset_split": "P0",
+  "model_config": "configs/models/ollama-local-gemma4-e4b.json",
+  "repetitions": 1,
+  "task": "schema_and_connectivity_smoke",
+  "output_schema": "templates/finding_card.schema.json",
+  "archive_root": "research_archive/experiments"
+}

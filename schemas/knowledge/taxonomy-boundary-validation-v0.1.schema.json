@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/esg/taxonomy-boundary-validation-v0.1.schema.json",
+  "type": "object", "additionalProperties": false,
+  "required": ["schema_version", "record_kind", "validation_id", "case_id", "fact_record_id", "task_id", "predicate", "value", "resolved_classification", "checks", "validation_status", "execution_performed", "promotion_performed", "rollback"],
+  "properties": {
+    "schema_version": {"const": "0.1"},
+    "record_kind": {"const": "taxonomy_boundary_validation"},
+    "validation_id": {"type": "string", "pattern": "^taxonomy-validation-[0-9a-f]{24}$"},
+    "case_id": {"type": "string", "pattern": "^boundary-case-[0-9a-f]{24}$"},
+    "fact_record_id": {"type": "string", "pattern": "^fact-[0-9a-f]{24}$"},
+    "task_id": {"type": "string", "minLength": 1},
+    "predicate": {"type": "string", "minLength": 1},
+    "value": {},
+    "resolved_classification": {
+      "type": "object", "additionalProperties": false,
+      "required": ["role", "value_kind", "unit", "period", "evidence_mode", "audit_status"],
+      "properties": {
+        "role": {"type": "string", "minLength": 1},
+        "value_kind": {"enum": ["amount", "percentage"]},
+        "unit": {"type": "string", "minLength": 1},
+        "period": {"type": "string", "minLength": 1},
+        "evidence_mode": {"enum": ["native_table_row", "native_narrative_relation", "frozen_graph_and_native"]},
+        "audit_status": {"enum": ["pending_independent_scope_review", "explicitly_unaudited"]}
+      }
+    },
+    "checks": {"type": "object", "additionalProperties": {"type": "boolean"}, "minProperties": 12},
+    "validation_status": {"enum": ["ready_for_supervised_execution", "blocked_explicitly_unaudited", "not_ready"]},
+    "execution_performed": {"const": false},
+    "promotion_performed": {"const": false},
+    "rollback": {"const": "delete_validation_and_preserve_unresolved_candidate"}
+  }
+}

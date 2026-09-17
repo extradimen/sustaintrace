@@ -1,0 +1,17 @@
+{
+  "blocked_independent_evidence_incomplete": 3,
+  "inputs": {
+    "source_manifest_sha256": "9c8cac85c003afd147a44fa401e981db440abf074bedcea2d65dcc0e04d199bb",
+    "validations_sha256": "840c5d307d2d97f4e72dba83a1c4b3565444a4097a8318cf4f1ec90d01ed86de"
+  },
+  "locked_experiments_modified_or_rescored": false,
+  "next_gate": "promote_only_the_14_percent_scope_1_and_2_relation",
+  "output": {
+    "path": "data/knowledge_bases/v0.1/target_performance_derived_adjudications.jsonl",
+    "sha256": "4681f035309b81e8fa8a4254af0c9869667a4fc738715c06c752340e90431d97"
+  },
+  "ready_for_tier_b_promotion": 1,
+  "reviewed": 4,
+  "schema_version": "0.1",
+  "status": "target_performance_independent_derived_adjudication_complete"
+}

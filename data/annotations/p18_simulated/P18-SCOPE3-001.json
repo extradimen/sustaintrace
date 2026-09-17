@@ -1,0 +1,60 @@
+{
+  "answer": "For 2025, upstream 5,861,714 plus downstream 2,645,520 equals the disclosed Scope 3 total of 8,507,234 t CO2e exactly. For 2024, 7,312,103 plus 2,421,432 equals 9,733,535 t CO2e, one tonne lower than the disclosed total of 9,733,536 t CO2e; the difference is preserved as -1 t CO2e rather than repaired.",
+  "evidence": [
+    {
+      "pdf_page": 133,
+      "quote": "t CO2e emissions, Scope 3 (total)",
+      "source_id": "P18-DEUTSCHE-TELEKOM-AR2025"
+    },
+    {
+      "pdf_page": 133,
+      "quote": "8,507,234",
+      "source_id": "P18-DEUTSCHE-TELEKOM-AR2025"
+    },
+    {
+      "pdf_page": 133,
+      "quote": "9,733,536",
+      "source_id": "P18-DEUTSCHE-TELEKOM-AR2025"
+    },
+    {
+      "pdf_page": 133,
+      "quote": "5,861,714",
+      "source_id": "P18-DEUTSCHE-TELEKOM-AR2025"
+    },
+    {
+      "pdf_page": 133,
+      "quote": "7,312,103",
+      "source_id": "P18-DEUTSCHE-TELEKOM-AR2025"
+    },
+    {
+      "pdf_page": 133,
+      "quote": "2,645,520",
+      "source_id": "P18-DEUTSCHE-TELEKOM-AR2025"
+    },
+    {
+      "pdf_page": 133,
+      "quote": "2,421,432",
+      "source_id": "P18-DEUTSCHE-TELEKOM-AR2025"
+    }
+  ],
+  "normalized_value": {
+    "disclosed_total_tco2e::2024": 9733536,
+    "disclosed_total_tco2e::2025": 8507234,
+    "downstream_tco2e::2024": 2421432,
+    "downstream_tco2e::2025": 2645520,
+    "recomputed_minus_disclosed_tco2e::2024": -1,
+    "recomputed_minus_disclosed_tco2e::2025": 0,
+    "recomputed_total_tco2e::2024": 9733535,
+    "recomputed_total_tco2e::2025": 8507234,
+    "upstream_tco2e::2024": 7312103,
+    "upstream_tco2e::2025": 5861714
+  },
+  "provenance": {
+    "candidate_model_used": false,
+    "reference_is_simulated": true
+  },
+  "reference_author": "codex_gpt_simulated_expert",
+  "reference_status": "verified_against_frozen_mineru_pages_and_native_layout",
+  "schema_version": "1.0",
+  "task_id": "P18-SCOPE3-001"
+}

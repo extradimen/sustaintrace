@@ -1,0 +1,41 @@
+{
+  "schema_version": "2.6",
+  "experiment_id": "P17-V26-UNSEEN-LOCKBOX-V01",
+  "status": "reference_and_page_window_consistency_gate_passed",
+  "audited_date": "2026-09-10",
+  "checks": {
+    "task_count": 6,
+    "reference_count": 6,
+    "unique_target_page_count": 12,
+    "parsed_target_page_count": 12,
+    "evidence_quote_count": 43,
+    "reference_task_ids_equal_frozen_task_ids": true,
+    "reference_pages_subset_of_each_task_window": true,
+    "reference_values_supported_by_frozen_source_evidence": true,
+    "reference_quotes_exact_in_frozen_parser_output": true,
+    "question_required_fields_answerable_within_window": true,
+    "source_sha256_consistent_across_manifests": true,
+    "candidate_inference_started": false,
+    "cloud_transmission_occurred": false
+  },
+  "declared_parser_findings": [
+    {
+      "pdf_page": 127,
+      "finding": "MinerU fused reasonable-assurance footnote marker 6 to three numeric cells (for example 667,2756).",
+      "resolution": "The original native layout text and table arithmetic establish 667,275, 144,145 and 811,420; references preserve the source values and the parser anomaly remains documented."
+    },
+    {
+      "pdf_page": 178,
+      "finding": "MinerU's fatality table dropped the value 3 from the external-site-worker row.",
+      "resolution": "The immediately preceding frozen-page narrative states one BMW Group employee and three workers of external companies; the reference cites that verbatim narrative."
+    }
+  ],
+  "gate_result": "pass",
+  "next_required_local_steps": [
+    "freeze slot contracts and semantic qualifiers",
+    "freeze deterministic calculation and two-dimensional table bindings",
+    "freeze candidate evidence handles and execution configuration",
+    "run full Pytest, Ruff, JSON and hash audit",
+    "request exact P17 cloud transmission authorization"
+  ]
+}

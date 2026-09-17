@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.0",
+  "policy_id": "V3-DETERMINISTIC-CALCULATION-001",
+  "operations_by_task_type": {
+    "deterministic_calculation": "percent_change_current_prior"
+  },
+  "input_rule": "Parse the last numeric token from each ordered model-supplied calculation input.",
+  "consistency_tolerance": 0.000001,
+  "mismatch_policy": "hard_failure_without_model_output_repair",
+  "model_generated_content_preserved": true
+}

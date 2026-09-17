@@ -1,0 +1,35 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-019",
+  "created_at": "2026-09-13T13:19:59Z",
+  "source_config": "configs/knowledge/scale_batch_019_v0.1.json",
+  "documents": [
+    {
+      "document_id": "KB-B019-NESTE-AR2025",
+      "local_path": "data/raw/scale_batch_019/neste-annual-report-2025.pdf",
+      "bytes": 15696160,
+      "sha256": "8dabbd87f76ca8550086082acb728911d1ad0121cde43111ddde8ec7668f8eae",
+      "pdf_header_valid": true,
+      "download_status": "downloaded",
+      "resumed_from_bytes": 0
+    },
+    {
+      "document_id": "KB-B019-COVESTRO-AR2025",
+      "local_path": "data/raw/scale_batch_019/covestro-annual-report-2025.pdf",
+      "bytes": 7805566,
+      "sha256": "2261d315e45aa60057333818c30e6c5cbad38b98bb903d2c48e10fee6f7136cc",
+      "pdf_header_valid": true,
+      "download_status": "downloaded",
+      "resumed_from_bytes": 0
+    },
+    {
+      "document_id": "KB-B019-METSO-AR2025",
+      "local_path": "data/raw/scale_batch_019/metso-annual-report-2025.pdf",
+      "bytes": 34442830,
+      "sha256": "c05a1ebd588ab9dd268904dd5203c9262ed27c71a1f6089c5da082658811fc3d",
+      "pdf_header_valid": true,
+      "download_status": "downloaded",
+      "resumed_from_bytes": 0
+    }
+  ]
+}

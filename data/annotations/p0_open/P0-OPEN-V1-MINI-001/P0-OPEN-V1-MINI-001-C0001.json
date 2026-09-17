@@ -1,0 +1,46 @@
+{
+  "alternative_explanations": [],
+  "anomaly_codes": [],
+  "claim": "In 2024, 96% of purchased electricity consumption was renewable, compared to 92% in the prior year.",
+  "claim_level": "L1",
+  "company": "Novartis AG",
+  "company_id": "CH0012005267",
+  "confidence": 1.0,
+  "confidence_basis": "direct_evidence",
+  "contrary_evidence": [],
+  "falsification_condition": "None",
+  "finding_id": "P0-OPEN-V1-MINI-001-C0001",
+  "finding_type": "extracted_fact",
+  "periods": [
+    "2024"
+  ],
+  "provenance": {
+    "annotation_source": "model",
+    "created_at": "2026-09-02T01:31:09.300166+00:00",
+    "framework_version": "V1.1",
+    "model_snapshot": null,
+    "prompt_sha256": "c6f7891029a9974769d6dc96f4be7a016fdf8ca8e1a436b794790b0f34b310f2",
+    "run_id": "BLINDED"
+  },
+  "requires_human_review": false,
+  "search_scope": {
+    "checked_elements": [
+      "tables",
+      "figures"
+    ],
+    "completeness": "complete",
+    "limitations": []
+  },
+  "status": "verified",
+  "supporting_evidence": [
+    {
+      "document_id": "NOVN-NIS-2024",
+      "document_sha256": "7898ce336a3073f92d44a3ca36d9e1deefb6fcd0647ae4605e167aaa85e73285",
+      "evidence_strength": "direct",
+      "excerpt": "In 2024, 96% of our purchased electricity consumption was renewable, compared with 92% a year earlier",
+      "location": "top right column",
+      "page": 27
+    }
+  ],
+  "task_id": "P0-OPEN-001"
+}

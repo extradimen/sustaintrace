@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "task_id": "P15-GHG-CALC-001",
+  "reference_author": "codex_gpt_simulated_expert",
+  "reference_status": "verified_against_frozen_pages",
+  "answer": "Novartis reported 2025 gross Scope 1 emissions of 192.3, gross market-based Scope 2 emissions of 14.9 and gross Scope 3 emissions of 4,169.9, all in thousand tCO2e. Their sum is 4,377.1 thousand tCO2e, exactly equal to the disclosed total gross market-based GHG emissions, so the difference is 0.0 thousand tCO2e.",
+  "normalized_value": {
+    "scope_1_thousand_tco2e": 192.3,
+    "market_scope_2_thousand_tco2e": 14.9,
+    "scope_3_thousand_tco2e": 4169.9,
+    "calculated_total_thousand_tco2e": 4377.1,
+    "disclosed_total_thousand_tco2e": 4377.1,
+    "difference_thousand_tco2e": 0.0,
+    "comparison": "exact_equal",
+    "rounding_context": "all inputs and total are disclosed to one decimal place in 1 000 tCO2e"
+  },
+  "evidence": [
+    {"source_id": "P15-NOVARTIS-NFM2025", "pdf_page": 27, "quote": "Gross Scope 1 GHG emissions"},
+    {"source_id": "P15-NOVARTIS-NFM2025", "pdf_page": 27, "quote": "192.3"},
+    {"source_id": "P15-NOVARTIS-NFM2025", "pdf_page": 27, "quote": "Gross market-based Scope 2 GHG emissions"},
+    {"source_id": "P15-NOVARTIS-NFM2025", "pdf_page": 27, "quote": "14.9"},
+    {"source_id": "P15-NOVARTIS-NFM2025", "pdf_page": 27, "quote": "Gross Scope 3 GHG emissions"},
+    {"source_id": "P15-NOVARTIS-NFM2025", "pdf_page": 27, "quote": "4 169.9"},
+    {"source_id": "P15-NOVARTIS-NFM2025", "pdf_page": 27, "quote": "Total Gross GHG emissions market-based"},
+    {"source_id": "P15-NOVARTIS-NFM2025", "pdf_page": 27, "quote": "4 377.1"}
+  ],
+  "provenance": {"reference_is_simulated": true, "candidate_model_used": false}
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": "0.1",
+  "resume_id": "KB-SCALE-BATCH-020-MINERU-RESUME01",
+  "created_at": "2026-09-13T16:37:18.786225+00:00",
+  "parent_summary": "data/results/scale_batch_020_mineru_summary.lock.json",
+  "parent_summary_sha256": "208d1fee2573ac72b96e5b41dbab9f1d620406bab4b2e091081a78b6448ed1c9",
+  "parent_failure_class": "post_processing_shutdown_recursive_mutex_failure",
+  "parent_failed_pages": 3,
+  "failed_page_keys": [
+    {
+      "document_id": "KB-B020-SOLVAY-AIR2025",
+      "page": 180
+    },
+    {
+      "document_id": "KB-B020-KERING-URD2025",
+      "page": 306
+    },
+    {
+      "document_id": "KB-B020-CARREFOUR-URD2025",
+      "page": 122
+    }
+  ],
+  "resume_scope": "failed_pages_only",
+  "successful_parent_pages_reused": 30,
+  "output_policy": "new_resume_directory_no_parent_overwrite",
+  "cloud_transmission": false
+}

@@ -1,0 +1,43 @@
+[build-system]
+requires = ["hatchling>=1.25"]
+build-backend = "hatchling.build"
+
+[project]
+name = "sustaintrace"
+version = "0.1.0"
+description = "Evidence-grounded ESG knowledge discovery and controlled repair framework"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "Apache-2.0" }
+authors = [{ name = "Michael Wang" }]
+dependencies = ["jsonschema>=4.23"]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.0",
+  "pytest-cov>=5.0",
+  "ruff>=0.8",
+  "pyyaml>=6.0",
+]
+
+[project.scripts]
+sustaintrace = "esg_reliable_discovery.cli:main"
+sustaintrace-workbench = "esg_reliable_discovery.workbench_api:main"
+sustaintrace-run = "esg_reliable_discovery.launcher:main"
+esg-rd = "esg_reliable_discovery.cli:main"
+esg-rd-workbench = "esg_reliable_discovery.workbench_api:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/esg_reliable_discovery"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+pythonpath = [".", "src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]

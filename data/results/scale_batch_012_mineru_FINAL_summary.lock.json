@@ -1,0 +1,542 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-012-MINERU-FINAL",
+  "updated_at": "2026-09-13T06:44:22.819536+00:00",
+  "status": "complete",
+  "cloud_transmission": false,
+  "total_target_pages": 26,
+  "complete_pages": 26,
+  "failed_pages": 0,
+  "pending_pages": 0,
+  "post_completion_shutdown_recovered_pages": 0,
+  "recovered_pages": [],
+  "parent_attempts": [
+    "data/results/scale_batch_012_mineru_summary.lock.json",
+    "data/results/scale_batch_012_mineru_RESUME01_summary.lock.json",
+    "data/results/scale_batch_012_mineru_RESUME02_summary.lock.json"
+  ],
+  "parent_failures_preserved": true,
+  "records": [
+    {
+      "document_id": "KB-B012-AIR-LIQUIDE-URD2025",
+      "page": 311,
+      "themes": [
+        "targets"
+      ],
+      "output_directory": "artifacts/scale_batch_012/mineru_targets/KB-B012-AIR-LIQUIDE-URD2025-p0311",
+      "status": "complete",
+      "started_at": "2026-09-13T06:17:06.576024+00:00",
+      "completed_at": "2026-09-13T06:17:27.292681+00:00",
+      "wall_seconds": 20.716739,
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "4eb0f516cb7fe7e2901b43dae21271a010f2da4513e27dbba083c209ee5752bd",
+        "_content_list.json": "a46edd49c244eaabd79ef649a4906139b09fa5256ba36e72f08e46b1e60c4972",
+        "_middle.json": "a77b2400956daf9ff0092eacb61a18577b51c2c9b33e203522f308485f8daaa8",
+        "_model.json": "c5f660855aaa3d23efd461044b1ea0723c244baaa683f78cfbc019ada13089af"
+      }
+    },
+    {
+      "document_id": "KB-B012-AIR-LIQUIDE-URD2025",
+      "page": 319,
+      "themes": [
+        "ghg_emissions"
+      ],
+      "output_directory": "artifacts/scale_batch_012/mineru_targets/KB-B012-AIR-LIQUIDE-URD2025-p0319",
+      "status": "complete",
+      "started_at": "2026-09-13T06:17:27.293018+00:00",
+      "completed_at": "2026-09-13T06:17:44.379693+00:00",
+      "wall_seconds": 17.086854,
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "71cf30c8de42e6259b5b8480a179f40a72d2d1a81202e9aa4a2dba430cd4a494",
+        "_content_list.json": "b3154598735113af830de50c41ef22c481a44a28e2a53cbe83072dd8d6f96167",
+        "_middle.json": "6a0520c7043c941576659db08e358a08876dd96d13dc0e2097b441078b0730c2",
+        "_model.json": "09e66fa116c8a04cf5a6baf9269df7cb3dc259f8bf11f7ce47b2c82d2fb20995"
+      }
+    },
+    {
+      "document_id": "KB-B012-AIR-LIQUIDE-URD2025",
+      "page": 324,
+      "themes": [
+        "energy"
+      ],
+      "output_directory": "artifacts/scale_batch_012/mineru_targets/KB-B012-AIR-LIQUIDE-URD2025-p0324",
+      "status": "complete",
+      "started_at": "2026-09-13T06:17:44.380087+00:00",
+      "completed_at": "2026-09-13T06:18:03.154657+00:00",
+      "wall_seconds": 18.774767,
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "a1026cb6c29b91a8cf73c306d17b49ce5f6cdc639bab5e71749abdb174f6a611",
+        "_content_list.json": "1796b09228dd8a1ce96eba52aaa61d2d5ebed6cdb5dd9673dc22a98cf2ef76dd",
+        "_middle.json": "0e39a2f1b4791c880d9ac6914fd76e4111bdd6beffd6123d95525255468c598f",
+        "_model.json": "905a06df9abee2a1f8f7701ac3b3f09fee6f04953e6edfc4d5721243e030bd35"
+      }
+    },
+    {
+      "document_id": "KB-B012-AIR-LIQUIDE-URD2025",
+      "page": 328,
+      "themes": [
+        "water"
+      ],
+      "output_directory": "artifacts/scale_batch_012/mineru_targets/KB-B012-AIR-LIQUIDE-URD2025-p0328",
+      "status": "complete",
+      "started_at": "2026-09-13T06:18:03.155012+00:00",
+      "completed_at": "2026-09-13T06:18:19.148222+00:00",
+      "wall_seconds": 15.99338,
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "addd8458c2521cf0b28f02c44aea573b3c5bb4d3191a94d8c5bb4d6e42e1beb7",
+        "_content_list.json": "5b014163b9485d0aec26b8e0e8a17a8a1a9ccaba4bb8f5a9c22d93190b95215c",
+        "_middle.json": "21bca3d6b68e5cb3173bd6b27b9c513a05dcf0ddd317b5df9d2e16fcfff3d78d",
+        "_model.json": "64ced881a0659d9951303764cbfdccda09315b68549acdb337366a2f6c21396f"
+      }
+    },
+    {
+      "document_id": "KB-B012-AIR-LIQUIDE-URD2025",
+      "page": 330,
+      "themes": [
+        "biodiversity",
+        "circularity"
+      ],
+      "output_directory": "artifacts/scale_batch_012/mineru_targets/KB-B012-AIR-LIQUIDE-URD2025-p0330",
+      "status": "complete",
+      "started_at": "2026-09-13T06:18:19.149546+00:00",
+      "completed_at": "2026-09-13T06:18:34.910587+00:00",
+      "wall_seconds": 15.761205,
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "11fa8272c42a1751743379ad3344c48e847760dbdcb8463f4d8a9cc0ef9f3977",
+        "_content_list.json": "aeab67bf474c3bf8abeb7a717162c2f9f0ff37de1121d0da96554e2c402c8906",
+        "_middle.json": "fa6d2e354d73cc066295640b6995bcc52a3c26b10f219a1657ffdfebffb98e1c",
+        "_model.json": "2a4f8ced4b712afc234ead4f0f87dc919ad023cc7c615ac7e4e868492ad22822"
+      }
+    },
+    {
+      "document_id": "KB-B012-AIR-LIQUIDE-URD2025",
+      "page": 331,
+      "themes": [
+        "workforce"
+      ],
+      "output_directory": "artifacts/scale_batch_012/mineru_targets/KB-B012-AIR-LIQUIDE-URD2025-p0331",
+      "status": "complete",
+      "started_at": "2026-09-13T06:18:34.910946+00:00",
+      "completed_at": "2026-09-13T06:18:51.767745+00:00",
+      "wall_seconds": 16.856976,
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "b1bd76cfdafad749d0c31a818b925c5912485ed2547a24cd12d3d8f0ab33cd8e",
+        "_content_list.json": "67899b73c6eb05cff94fd5bc41453cb276d843e11e0aac9744036dcffc77d95b",
+        "_middle.json": "e25a7f9f1fd1987a7da13b2e58827614ab2f95d48f8493200234f0ccac55bb9c",
+        "_model.json": "f42003ad615e614da30497dc04d0a78af71bb523ef1835ecfba2ca3c68439a0c"
+      }
+    },
+    {
+      "document_id": "KB-B012-AIR-LIQUIDE-URD2025",
+      "page": 339,
+      "themes": [
+        "health_safety"
+      ],
+      "output_directory": "artifacts/scale_batch_012/mineru_targets/KB-B012-AIR-LIQUIDE-URD2025-p0339",
+      "status": "complete",
+      "started_at": "2026-09-13T06:18:51.768135+00:00",
+      "completed_at": "2026-09-13T06:19:07.564899+00:00",
+      "wall_seconds": 15.796929,
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "b483d8c9dbbf874e5377bbeadb8005ab6c0d9bafb8f180e70d359e5b3bd83c4a",
+        "_content_list.json": "74eb869153beafee35768f4f85dd6f496af69a60e13db5adbb9ca1abc0ec5af6",
+        "_middle.json": "316a85027b663563b214737c1616e49f275f235f2c492f4f1489b79b8ef3dc0b",
+        "_model.json": "8f1d07f306ef03100156afeb466fca463fb34c34ade021aa481a85bff683169d"
+      }
+    },
+    {
+      "document_id": "KB-B012-AIR-LIQUIDE-URD2025",
+      "page": 365,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_012/mineru_targets/KB-B012-AIR-LIQUIDE-URD2025-p0365",
+      "status": "complete",
+      "started_at": "2026-09-13T06:19:07.565252+00:00",
+      "completed_at": "2026-09-13T06:19:22.347561+00:00",
+      "wall_seconds": 14.782465,
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "c8ed1d3baf836f145b16a86ec7242b857ccb7711474088fa152d172e29e26269",
+        "_content_list.json": "4e6d1a2ceea1e303d10a9dd731bc6aec97160b0642f8089de34355a5533954b6",
+        "_middle.json": "7c3e48ab4bb96e381326d5bdcdc84dcbf3f12980dbe048ecbd0cf1821fe2c735",
+        "_model.json": "7db85f9279f726ee6744148cbd92821d153ded350d652cdfaa488ea0d98531e9"
+      }
+    },
+    {
+      "document_id": "KB-B012-STORA-ENSO-AR2025",
+      "page": 95,
+      "themes": [
+        "targets"
+      ],
+      "output_directory": "artifacts/scale_batch_012/mineru_targets/KB-B012-STORA-ENSO-AR2025-p0095",
+      "status": "complete",
+      "started_at": "2026-09-13T06:19:22.347952+00:00",
+      "completed_at": "2026-09-13T06:19:40.057774+00:00",
+      "wall_seconds": 17.710008,
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "72fe2aa13c8539f1dca22447e9490527cebcf1bc36c6d30c037a791fac902f35",
+        "_content_list.json": "2517dec9b422a596101356f5a6bac97aa33163bb22a743f1720581ead9012869",
+        "_middle.json": "04d9bdb79381f0e220393cbee184b3094db16d3c88f9050a2452ff69099f9a04",
+        "_model.json": "68d4f39f65f62bb05d522dcb4a820e11e2cef3a69a458240f2653e315d8514e3"
+      }
+    },
+    {
+      "document_id": "KB-B012-STORA-ENSO-AR2025",
+      "page": 97,
+      "themes": [
+        "energy"
+      ],
+      "output_directory": "artifacts/scale_batch_012/mineru_targets/KB-B012-STORA-ENSO-AR2025-p0097",
+      "status": "complete",
+      "started_at": "2026-09-13T06:19:40.058211+00:00",
+      "completed_at": "2026-09-13T06:19:57.837925+00:00",
+      "wall_seconds": 17.7799,
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "3dcdaa18119331f04593482c39fe70d10bbc07a5f5ee5162cf365ab7a97747f0",
+        "_content_list.json": "e34b4c6e0dfc90293cbe8eaa34b4d6f118bb75be4363a4596683636205c95763",
+        "_middle.json": "a182eca03f4c9192105aa1b2b4df5c81920f5eb4017f03969aafcb357e0a1049",
+        "_model.json": "9346a9ee0435014b21d6aa3c96edaaaaed05c16ffd1b762c56d798f6090c3b01"
+      }
+    },
+    {
+      "document_id": "KB-B012-STORA-ENSO-AR2025",
+      "page": 99,
+      "themes": [
+        "ghg_emissions"
+      ],
+      "output_directory": "artifacts/scale_batch_012/mineru_targets/KB-B012-STORA-ENSO-AR2025-p0099",
+      "status": "complete",
+      "started_at": "2026-09-13T06:19:57.838335+00:00",
+      "completed_at": "2026-09-13T06:20:15.766880+00:00",
+      "wall_seconds": 17.928734,
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "df3d78c37204d1257e96b375e2dd00d01818571eb7d063328f619ced25fe228f",
+        "_content_list.json": "00a8eca559ce3637eb07937087e7a8f5e46d7f954aa1a74e14c1f7747eef8df8",
+        "_middle.json": "3c18089a91d8359d7d2add704c63f5057279c6d569ec44a561fc86776dc39897",
+        "_model.json": "183c7c941e25a54bad7c19d84dbd46918d4f9cfc14486025cd9d9631463f08ff"
+      }
+    },
+    {
+      "document_id": "KB-B012-STORA-ENSO-AR2025",
+      "page": 105,
+      "themes": [
+        "water"
+      ],
+      "output_directory": "artifacts/scale_batch_012/mineru_targets/KB-B012-STORA-ENSO-AR2025-p0105",
+      "status": "complete",
+      "started_at": "2026-09-13T06:20:15.767292+00:00",
+      "completed_at": "2026-09-13T06:20:32.605860+00:00",
+      "wall_seconds": 16.838745,
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "33fa9eed5ebb06320f36778de108f7e25f501cc40f8e025f03b2c206e1bd60ae",
+        "_content_list.json": "412b19e115d74c9b4d77685f2b86b0fdc70091d201e0fd6bdce57e0b0f33c1fa",
+        "_middle.json": "3da0d93e814634dc317caa0ee095a443872a4f0f3cf5fc3a0b7f32aa3a923dd8",
+        "_model.json": "5fc1b3026678774d18dd1869e9e95c9e9c040e0eda35da68f33eaa8ca3b027c8"
+      }
+    },
+    {
+      "document_id": "KB-B012-STORA-ENSO-AR2025",
+      "page": 108,
+      "themes": [
+        "biodiversity"
+      ],
+      "output_directory": "artifacts/scale_batch_012/mineru_targets/KB-B012-STORA-ENSO-AR2025-p0108",
+      "status": "complete",
+      "started_at": "2026-09-13T06:20:32.606289+00:00",
+      "completed_at": "2026-09-13T06:20:49.566684+00:00",
+      "wall_seconds": 16.960638,
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "0e1fef146147bc52c17e515d5e2a86aa86b16bf4837a62cb93b0e471cafaa9a2",
+        "_content_list.json": "10132220b89b04fa72993d4f5b3d9af3f439747548b38fc9898306297ce779e2",
+        "_middle.json": "5c42904dfa63cdce2f52d173dc2c5314aca3161f8f584adb5f65a5c78b5f0117",
+        "_model.json": "d24a975d4d0ff440d47bf337d627e855e81d28cabecbc427b758ad5d06185a26"
+      }
+    },
+    {
+      "document_id": "KB-B012-STORA-ENSO-AR2025",
+      "page": 113,
+      "themes": [
+        "circularity"
+      ],
+      "output_directory": "artifacts/scale_batch_012/mineru_targets/KB-B012-STORA-ENSO-AR2025-p0113",
+      "status": "complete",
+      "started_at": "2026-09-13T06:20:49.567749+00:00",
+      "completed_at": "2026-09-13T06:21:07.774794+00:00",
+      "wall_seconds": 18.207229,
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "46f6f1699ad9d3c989000dcc0b8d1261b49172526eaff0b8d1e81b01fb715a97",
+        "_content_list.json": "20be956b935f6fa81a0b3dfd0cca0cae36de352bfec263f74e3fcb979a093652",
+        "_middle.json": "27c9613445e51ac5a5fa1384b72d33eb2732134583a35ed61536dc5275b96372",
+        "_model.json": "f98ae981850080389fab9b18b4dd99fa97f91abe14949678a5eb67776577842c"
+      }
+    },
+    {
+      "document_id": "KB-B012-STORA-ENSO-AR2025",
+      "page": 120,
+      "themes": [
+        "workforce"
+      ],
+      "output_directory": "artifacts/scale_batch_012/mineru_targets/KB-B012-STORA-ENSO-AR2025-p0120",
+      "status": "complete",
+      "started_at": "2026-09-13T06:21:07.775424+00:00",
+      "completed_at": "2026-09-13T06:21:29.495397+00:00",
+      "wall_seconds": 21.720202,
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "e6d3ddff287910bc2de9256f1ca94235d1764f1b2fe43344a0cf02ecdb7a4b18",
+        "_content_list.json": "2d975763dfd25780725a654ca8ecb0d2b8e34b769cf24556cc9ceb05907fb792",
+        "_middle.json": "9877c089f5075105bc112b5727710e033ccd14ca3b8be3b78ece66c1aef4331c",
+        "_model.json": "9785dc8b9d421aedbef4e1cd8c0615c9cd6ac279a816e9bff65d3f5ce4e465b5"
+      }
+    },
+    {
+      "document_id": "KB-B012-STORA-ENSO-AR2025",
+      "page": 121,
+      "themes": [
+        "health_safety"
+      ],
+      "output_directory": "artifacts/scale_batch_012/mineru_targets/KB-B012-STORA-ENSO-AR2025-p0121",
+      "status": "complete",
+      "started_at": "2026-09-13T06:21:29.495790+00:00",
+      "completed_at": "2026-09-13T06:21:51.737051+00:00",
+      "wall_seconds": 22.241495,
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "e43fbef99d23bea9fb2fb0d34ed5e5f1b3e7059d7b3dd0f076043ccb200a49df",
+        "_content_list.json": "7b9357a33bada0df95b01e3b2029771326eea50127419fbb6e7a7f1bb29184a5",
+        "_middle.json": "b747b8c327a948a649604110b1198b0c3166c4ffad65600863683435906c6790",
+        "_model.json": "b83bb56abb0ccfadbfa1f1e0834b74c35a72d38d4aa90d2dc26f65cfae027633"
+      }
+    },
+    {
+      "document_id": "KB-B012-STORA-ENSO-AR2025",
+      "page": 213,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_012/mineru_targets/KB-B012-STORA-ENSO-AR2025-p0213",
+      "status": "complete",
+      "started_at": "2026-09-13T06:21:51.737540+00:00",
+      "completed_at": "2026-09-13T06:22:10.470594+00:00",
+      "wall_seconds": 18.733254,
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "35bbcea9c0b2f541bcfe5e5bff76b0ef698eba6dc9909bf774a3e8d07ccec79e",
+        "_content_list.json": "e5311ac93e175eee40da7585afbab04b36eda54e0f2c0f35a14b3c35e1a3a4fd",
+        "_middle.json": "aa54d731a9c96f6c5cb617d20456382662666e7911e84fffac7e575cfa884eba",
+        "_model.json": "6119bb45a12d37fae3ba8b0e585a29ac53ee4d6d21aa110aabb884cf8a0ae1c7"
+      }
+    },
+    {
+      "document_id": "KB-B012-VINCI-URD2025",
+      "page": 229,
+      "themes": [
+        "targets"
+      ],
+      "output_directory": "artifacts/scale_batch_012/mineru_targets_RESUME02/KB-B012-VINCI-URD2025-p0229",
+      "status": "complete",
+      "started_at": "2026-09-13T06:43:42.395981+00:00",
+      "completed_at": "2026-09-13T06:43:59.216791+00:00",
+      "wall_seconds": 16.820818,
+      "selected_attempt": "RESUME02",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "dba809b5ae7fcaf4c6075abdefb2d7f001eb0cff5907369363d451caf6ef1b9f",
+        "_content_list.json": "19effc7e7fb338ed60aba6c53915d0294aa81795e6cec90f041902d201068881",
+        "_middle.json": "5cf37df95daf2806c862a293f8e49d7b342c0054ba7c542cd84515f370bf9a93",
+        "_model.json": "eb2b6b82c06a19a4d8d574fe7ef9f145cd10381b44273592153f4fa23dc6541a"
+      }
+    },
+    {
+      "document_id": "KB-B012-VINCI-URD2025",
+      "page": 242,
+      "themes": [
+        "energy"
+      ],
+      "output_directory": "artifacts/scale_batch_012/mineru_targets/KB-B012-VINCI-URD2025-p0242",
+      "status": "complete",
+      "started_at": "2026-09-13T06:22:26.010254+00:00",
+      "completed_at": "2026-09-13T06:22:46.391227+00:00",
+      "wall_seconds": 20.38119,
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "0aa5b757cae8685d5df7bb824c5c2497eb51b5a4bcad3e0a3ae20168f94a2d7f",
+        "_content_list.json": "c662663862a0fde1e82430d9e02a0dee00a5e72a53f81f39a54668cd3b5f507c",
+        "_middle.json": "2e362d0501b2cc7a9ba9a25971908fe389219103f0105f471de59c308f608a5c",
+        "_model.json": "3096791ca76f0d3a69b995cd62a9ed429268c99dd1085902bb8fb7bd7a0b55e0"
+      }
+    },
+    {
+      "document_id": "KB-B012-VINCI-URD2025",
+      "page": 243,
+      "themes": [
+        "ghg_emissions"
+      ],
+      "output_directory": "artifacts/scale_batch_012/mineru_targets/KB-B012-VINCI-URD2025-p0243",
+      "status": "complete",
+      "started_at": "2026-09-13T06:22:46.391962+00:00",
+      "completed_at": "2026-09-13T06:23:15.883527+00:00",
+      "wall_seconds": 29.491871,
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "94bf96aede4fff1a40d7f8c3ff099324fe6aa922ef60104af71874c3b39fb7be",
+        "_content_list.json": "abda72768ed6c09ec22e81ed7c1e649ea4ffc1dd20f613a0e4005cb1d79bb480",
+        "_middle.json": "54c0f07bb5ff3a9e64ae74acdc1292159c8ba6bc4aa03dcd4a6ad5a427a5df8b",
+        "_model.json": "4b99cddfd162224fd782e0bc8f4edbf99b56d1ee4528e1b4e5976938830a2c55"
+      }
+    },
+    {
+      "document_id": "KB-B012-VINCI-URD2025",
+      "page": 249,
+      "themes": [
+        "circularity"
+      ],
+      "output_directory": "artifacts/scale_batch_012/mineru_targets/KB-B012-VINCI-URD2025-p0249",
+      "status": "complete",
+      "started_at": "2026-09-13T06:23:15.887267+00:00",
+      "completed_at": "2026-09-13T06:23:37.512007+00:00",
+      "wall_seconds": 21.624967,
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "e7c9d4321831262b26e0133e0908e5f6ceb21de7ea6db8b890697e28c9d57da8",
+        "_content_list.json": "f353b67e793f39b6c70efa518dd4f78daf4359635ba15d5a032ea8512fe8978d",
+        "_middle.json": "6fa5ba425187b8cc345973b8c315eb62d4630eec0f9dea7a8b7ac0c47ae1855b",
+        "_model.json": "2dc4de3c1a1841e80839f9a7510b1d64b64824320f4dfec1801d574c678b7aa8"
+      }
+    },
+    {
+      "document_id": "KB-B012-VINCI-URD2025",
+      "page": 254,
+      "themes": [
+        "water"
+      ],
+      "output_directory": "artifacts/scale_batch_012/mineru_targets/KB-B012-VINCI-URD2025-p0254",
+      "status": "complete",
+      "started_at": "2026-09-13T06:23:37.513091+00:00",
+      "completed_at": "2026-09-13T06:23:54.901442+00:00",
+      "wall_seconds": 17.388531,
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "97e8e16f89d4fc2d49348ba48c069418311f04ae01ad2da3d1d1d0db32579857",
+        "_content_list.json": "52979d0e348e47c776558eb4d77749e2ca41cd0bf89abfc73ed231ed2852567a",
+        "_middle.json": "65a8af96e4d47fda2b1a704a4780c3411607d2a03e00185b5db694bb4d961197",
+        "_model.json": "c94e4ef769c948e977d0d65d2411ef7e9dced3fd8fd01c59f9b3e65eafeb09b8"
+      }
+    },
+    {
+      "document_id": "KB-B012-VINCI-URD2025",
+      "page": 256,
+      "themes": [
+        "biodiversity"
+      ],
+      "output_directory": "artifacts/scale_batch_012/mineru_targets/KB-B012-VINCI-URD2025-p0256",
+      "status": "complete",
+      "started_at": "2026-09-13T06:23:54.902184+00:00",
+      "completed_at": "2026-09-13T06:24:12.035344+00:00",
+      "wall_seconds": 17.13334,
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "d0db758a3c49241a0b17dad672c1e346f80a2fb7d317332a828484282417bf1b",
+        "_content_list.json": "f1156347b5aeaade11d2a259d3cbaacefbad4339dbb476a79d64528d2661b3e1",
+        "_middle.json": "a8cb108f7df340e34441bee25fae7a369cea5f8b9dc2f1e1b2a761d60a946b34",
+        "_model.json": "44cbbacba9874a97edcdd7e378667ec20e8a3c465af710a331b6fba89c6cee10"
+      }
+    },
+    {
+      "document_id": "KB-B012-VINCI-URD2025",
+      "page": 271,
+      "themes": [
+        "workforce"
+      ],
+      "output_directory": "artifacts/scale_batch_012/mineru_targets/KB-B012-VINCI-URD2025-p0271",
+      "status": "complete",
+      "started_at": "2026-09-13T06:24:12.036056+00:00",
+      "completed_at": "2026-09-13T06:24:30.910690+00:00",
+      "wall_seconds": 18.874832,
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "7d06b5c2895c7fce864cd2c329f0e48a64b3b1066b751d1fa48fe09dda2b6ad0",
+        "_content_list.json": "81f67a16736bd8a7ab5fba8e1984c8e88c3b212cc6385442032a7be4a4f4ef67",
+        "_middle.json": "71d6c619e31c94774c0f400b2751ccbb7a534eaa16fd96b250ed242e263fb337",
+        "_model.json": "85e3c5be8ad2c543d920c07f9c7a97b4848cf33e2a9db5636d0b8bb6e5ce7dd3"
+      }
+    },
+    {
+      "document_id": "KB-B012-VINCI-URD2025",
+      "page": 278,
+      "themes": [
+        "health_safety"
+      ],
+      "output_directory": "artifacts/scale_batch_012/mineru_targets_RESUME02/KB-B012-VINCI-URD2025-p0278",
+      "status": "complete",
+      "started_at": "2026-09-13T06:43:59.218617+00:00",
+      "completed_at": "2026-09-13T06:44:16.337374+00:00",
+      "wall_seconds": 17.118963,
+      "selected_attempt": "RESUME02",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "13b19e7f99641c7772b449bf5022fafb14407fb9eff0af4b5811dbdd3f3d799f",
+        "_content_list.json": "cec350803b45f1e68d28019fe792bdc1eceea4c1b2ba0504011f779d70275c70",
+        "_middle.json": "a64d8777b7e649bafae73a64c1981100343824ea2b6c28b67a5b11a8f9ba02ba",
+        "_model.json": "213f66508be3308bfe4e0f1bc6796805128bab0095a6b43edbfb27ffb3e071cd"
+      }
+    },
+    {
+      "document_id": "KB-B012-VINCI-URD2025",
+      "page": 348,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_012/mineru_targets/KB-B012-VINCI-URD2025-p0348",
+      "status": "complete",
+      "started_at": "2026-09-13T06:24:46.111853+00:00",
+      "completed_at": "2026-09-13T06:25:01.686412+00:00",
+      "wall_seconds": 15.574729,
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "5535635595dece303678c9098ee83e00b23edb81438f785f50b5e78f9dd4ef4e",
+        "_content_list.json": "9234e7c7cd846f2687be045cef0436d6b871788235e82109878f69061e93286c",
+        "_middle.json": "4aa383d567863ac45322eb91f43b87ef2d4d8b376c978d9d154b650893df5379",
+        "_model.json": "4725ecf73615d1da0b80fb99f4d5d7e6e2f3b3062359803889a95315f433610c"
+      }
+    }
+  ]
+}

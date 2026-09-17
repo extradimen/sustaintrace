@@ -1,0 +1,96 @@
+{
+  "atomic_scoring_projection": "data/annotations/p20_simulated/p20_atomic_slot_gold_v0.1.lock.json",
+  "calculation_plans": "configs/framework/p20_calculation_plans_v0.1.lock.json",
+  "evidence_handle_whitelist": "configs/framework/p20_evidence_handle_whitelist_v0.1.lock.json",
+  "execution_config": "configs/experiments/p20-v29-unseen-lockbox-local.json",
+  "experiment_id": "P20-V29-UNSEEN-LOCKBOX-V01",
+  "inference_allowed": false,
+  "layout_fallback_registry": "configs/framework/p20_layout_fallback_registry_v0.1.lock.json",
+  "parent": "data/tasks/p20_task_pack_v0.1.lock.json",
+  "parser_registry": "data/manifests/p20_mineru_target_registry_RESUME01_v0.1.lock.json",
+  "reference_consistency_audit": "data/results/p20_prefreeze_reference_consistency_audit_v0.1.lock.json",
+  "reference_freeze": "data/manifests/p20_simulated_reference_freeze_v0.1.lock.json",
+  "release_condition": "Payload-specific user authorization for Holcim 2025 Sustainability Statement pages 85,86,87,111,112,113,114,120,121,134,135,136 to Ollama Cloud qwen3.5:397b-cloud solely for P20 Stage A/Stage B single-attempt candidate inference.",
+  "schema_version": "2.9",
+  "scoring_rules": "configs/framework/p20_scoring_rules_v0.1.lock.json",
+  "semantic_qualifiers": "configs/framework/p20_semantic_qualifiers_v0.1.lock.json",
+  "slot_contracts": "configs/framework/p20_slot_contracts_v0.1.lock.json",
+  "source_registry": "data/manifests/p20_source_registry_v0.1.lock.json",
+  "status": "frozen_local_pack_pending_payload_specific_cloud_authorization",
+  "table_graph": "configs/framework/p20_two_dimensional_table_graph_v0.1.lock.json",
+  "tasks": [
+    {
+      "document_id": "P20-HOLCIM-SS2025",
+      "question": "Using Holcim's reported 2025 absolute gross Scope 1, market-based Scope 2, and total Scope 3 emissions, calculate their sum in Mt CO2e and compare it with the disclosed market-based total for Scopes 1, 2 and 3; then calculate the percentage change in that disclosed total from restated 2024 to 2025, state the direction, and round to two decimals.",
+      "question_status": "frozen",
+      "reference_file": "data/annotations/p20_simulated/P20-GHG-CALC-001.json",
+      "target_pages": [
+        86,
+        87
+      ],
+      "task_id": "P20-GHG-CALC-001",
+      "task_type": "deterministic_calculation"
+    },
+    {
+      "document_id": "P20-HOLCIM-SS2025",
+      "question": "What 2025 and restated 2024 values does Holcim report for total energy consumption, fossil energy consumption, renewable energy consumption, and their fossil and renewable shares; what year-on-year change does the narrative report for total energy; and which contractual instruments does Holcim describe for purchasing renewable electricity?",
+      "question_status": "frozen",
+      "reference_file": "data/annotations/p20_simulated/P20-ENERGY-001.json",
+      "target_pages": [
+        85
+      ],
+      "task_id": "P20-ENERGY-001",
+      "task_type": "direct_extraction_and_relation"
+    },
+    {
+      "document_id": "P20-HOLCIM-SS2025",
+      "question": "For 2025 and restated 2024, report Holcim's total Scope 3 emissions and Category 1 purchased goods and services and Category 15 investments emissions in Mt CO2e; deterministically sum Categories 1 and 15 for each year and calculate their share of the corresponding disclosed Scope 3 total to two decimals; also report the percentage of Scope 3 calculated using primary data.",
+      "question_status": "frozen",
+      "reference_file": "data/annotations/p20_simulated/P20-SCOPE3-001.json",
+      "target_pages": [
+        87
+      ],
+      "task_id": "P20-SCOPE3-001",
+      "task_type": "deterministic_calculation"
+    },
+    {
+      "document_id": "P20-HOLCIM-SS2025",
+      "question": "For year-end 2025, report Holcim's global employee headcount and the contract-table permanent and temporary employee counts; deterministically sum the two contract counts, compare that sum with global headcount, and explain the difference using the stated coverage of newly acquired entities. Also report non-guaranteed-hours employees and distinguish the count from the rounded percentage disclosure.",
+      "question_status": "frozen",
+      "reference_file": "data/annotations/p20_simulated/P20-WORKFORCE-001.json",
+      "target_pages": [
+        120,
+        121
+      ],
+      "task_id": "P20-WORKFORCE-001",
+      "task_type": "deterministic_calculation"
+    },
+    {
+      "document_id": "P20-HOLCIM-SS2025",
+      "question": "For Holcim's 2025 EU Taxonomy turnover, CapEx and OpEx, report each denominator, eligible amount or share, aligned amount and aligned share; identify the stated drivers of the aligned turnover, CapEx and OpEx changes; and preserve the qualification applied to 2024 comparative information and the North American spin-off boundary.",
+      "question_status": "frozen",
+      "reference_file": "data/annotations/p20_simulated/P20-TAXONOMY-001.json",
+      "target_pages": [
+        111,
+        112,
+        113,
+        114
+      ],
+      "task_id": "P20-TAXONOMY-001",
+      "task_type": "scope_subject_boundary"
+    },
+    {
+      "document_id": "P20-HOLCIM-SS2025",
+      "question": "What information and criteria were covered by Holcim's 2025 independent assurance engagement, what assurance level and conclusion were provided, which professional standard governed the work, what was explicitly outside the verifier's responsibility, how does limited assurance differ from reasonable assurance, and who signed and dated the report?",
+      "question_status": "frozen",
+      "reference_file": "data/annotations/p20_simulated/P20-ASSURE-001.json",
+      "target_pages": [
+        134,
+        135,
+        136
+      ],
+      "task_id": "P20-ASSURE-001",
+      "task_type": "scope_subject_boundary"
+    }
+  ]
+}

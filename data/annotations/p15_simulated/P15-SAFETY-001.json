@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "task_id": "P15-SAFETY-001",
+  "reference_author": "codex_gpt_simulated_expert",
+  "reference_status": "verified_against_frozen_pages",
+  "answer": "In 2025, 99% of employees were covered by an internally validated HSE system. Per 200,000 work hours, employee and third-party lost-time injury and illness rates were 0.12 and 0.32, while total recordable case rates were 0.26 and 0.36. Fatalities were zero for employees, third-party personnel and contractors. For third-party personnel and contractors, a fatality is included only when it occurred at a Novartis site.",
+  "normalized_value": {
+    "hse_coverage_percent": 99,
+    "employee_lti_rate": 0.12,
+    "third_party_lti_rate": 0.32,
+    "employee_recordable_rate": 0.26,
+    "third_party_recordable_rate": 0.36,
+    "employee_fatalities": 0,
+    "third_party_fatalities": 0,
+    "contractor_fatalities": 0,
+    "rate_denominator_work_hours": 200000,
+    "fatality_site_boundary": "third-party personnel and contractor fatalities included only if occurring at a Novartis site"
+  },
+  "evidence": [
+    {"source_id": "P15-NOVARTIS-NFM2025", "pdf_page": 32, "quote": "Employees covered by an internally validated HSE system (%)"},
+    {"source_id": "P15-NOVARTIS-NFM2025", "pdf_page": 32, "quote": "Lost-time injury and illness rate (per 200 000 work hours)"},
+    {"source_id": "P15-NOVARTIS-NFM2025", "pdf_page": 32, "quote": "Total recordable case rate (per 200 000 work hours)"},
+    {"source_id": "P15-NOVARTIS-NFM2025", "pdf_page": 32, "quote": "Fatalities"},
+    {"source_id": "P15-NOVARTIS-NFM2025", "pdf_page": 32, "quote": "only included if it occurred at a Novartis site"}
+  ],
+  "provenance": {"reference_is_simulated": true, "candidate_model_used": false}
+}

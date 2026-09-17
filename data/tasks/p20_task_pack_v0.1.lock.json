@@ -1,0 +1,59 @@
+{
+  "schema_version": "2.9",
+  "experiment_id": "P20-V29-UNSEEN-LOCKBOX-V01",
+  "status": "questions_and_page_windows_frozen_before_target_mineru_reference_creation_and_candidate_inference",
+  "page_coordinate_system": "one_based_pdf_page_index",
+  "document_id": "P20-HOLCIM-SS2025",
+  "document_sha256": "55b975cd13fc361638ed13bf32856a2629e46e88bdfc6ad9208bd8807992a599",
+  "inference_allowed": false,
+  "tasks": [
+    {
+      "task_id": "P20-GHG-CALC-001",
+      "document_id": "P20-HOLCIM-SS2025",
+      "task_type": "deterministic_calculation",
+      "question_status": "frozen",
+      "question": "Using Holcim's reported 2025 absolute gross Scope 1, market-based Scope 2, and total Scope 3 emissions, calculate their sum in Mt CO2e and compare it with the disclosed market-based total for Scopes 1, 2 and 3; then calculate the percentage change in that disclosed total from restated 2024 to 2025, state the direction, and round to two decimals.",
+      "target_pages": [86, 87]
+    },
+    {
+      "task_id": "P20-ENERGY-001",
+      "document_id": "P20-HOLCIM-SS2025",
+      "task_type": "direct_extraction_and_relation",
+      "question_status": "frozen",
+      "question": "What 2025 and restated 2024 values does Holcim report for total energy consumption, fossil energy consumption, renewable energy consumption, and their fossil and renewable shares; what year-on-year change does the narrative report for total energy; and which contractual instruments does Holcim describe for purchasing renewable electricity?",
+      "target_pages": [85]
+    },
+    {
+      "task_id": "P20-SCOPE3-001",
+      "document_id": "P20-HOLCIM-SS2025",
+      "task_type": "deterministic_calculation",
+      "question_status": "frozen",
+      "question": "For 2025 and restated 2024, report Holcim's total Scope 3 emissions and Category 1 purchased goods and services and Category 15 investments emissions in Mt CO2e; deterministically sum Categories 1 and 15 for each year and calculate their share of the corresponding disclosed Scope 3 total to two decimals; also report the percentage of Scope 3 calculated using primary data.",
+      "target_pages": [87]
+    },
+    {
+      "task_id": "P20-WORKFORCE-001",
+      "document_id": "P20-HOLCIM-SS2025",
+      "task_type": "deterministic_calculation",
+      "question_status": "frozen",
+      "question": "For year-end 2025, report Holcim's global employee headcount and the contract-table permanent and temporary employee counts; deterministically sum the two contract counts, compare that sum with global headcount, and explain the difference using the stated coverage of newly acquired entities. Also report non-guaranteed-hours employees and distinguish the count from the rounded percentage disclosure.",
+      "target_pages": [120, 121]
+    },
+    {
+      "task_id": "P20-TAXONOMY-001",
+      "document_id": "P20-HOLCIM-SS2025",
+      "task_type": "scope_subject_boundary",
+      "question_status": "frozen",
+      "question": "For Holcim's 2025 EU Taxonomy turnover, CapEx and OpEx, report each denominator, eligible amount or share, aligned amount and aligned share; identify the stated drivers of the aligned turnover, CapEx and OpEx changes; and preserve the qualification applied to 2024 comparative information and the North American spin-off boundary.",
+      "target_pages": [111, 112, 113, 114]
+    },
+    {
+      "task_id": "P20-ASSURE-001",
+      "document_id": "P20-HOLCIM-SS2025",
+      "task_type": "scope_subject_boundary",
+      "question_status": "frozen",
+      "question": "What information and criteria were covered by Holcim's 2025 independent assurance engagement, what assurance level and conclusion were provided, which professional standard governed the work, what was explicitly outside the verifier's responsibility, how does limited assurance differ from reasonable assurance, and who signed and dated the report?",
+      "target_pages": [134, 135, 136]
+    }
+  ]
+}

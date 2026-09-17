@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/esg-reliable-discovery/workbench-repair-plan-v1.0.schema.json",
+  "title": "Workbench repair plan v1.0",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version", "record_kind", "repair_plan_id", "fact_record_id",
+    "source_failure_record_ids", "promotion_gate_id", "plan_state", "decision",
+    "routes", "unresolved_blocking_reasons", "postvalidation_requirements", "rollback",
+    "execution_performed", "promotion_performed", "cloud_transfer_performed",
+    "locked_experiments_modified"
+  ],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "record_kind": {"const": "workbench_repair_plan"},
+    "repair_plan_id": {"type": "string", "pattern": "^workbench-repair-plan-[0-9a-f]{24}$"},
+    "fact_record_id": {"type": "string", "minLength": 1},
+    "source_failure_record_ids": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "promotion_gate_id": {"type": ["string", "null"]},
+    "plan_state": {"const": "planned_read_only"},
+    "decision": {"enum": ["blocked_fail_closed", "supervised_candidate", "automatic_candidate_not_executed", "no_strategy"]},
+    "routes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["blocking_reason", "catalog_signature", "strategy_id", "strategy_name", "risk_level", "execution_policy", "maturity", "actions", "validation_gates"],
+        "properties": {
+          "blocking_reason": {"type": "string"},
+          "catalog_signature": {"type": "string"},
+          "strategy_id": {"type": "string"},
+          "strategy_name": {"type": "string"},
+          "risk_level": {"enum": ["low", "medium", "high"]},
+          "execution_policy": {"enum": ["automatic", "supervised", "blocked"]},
+          "maturity": {"enum": ["historical_observation", "development_validated", "unseen_validated"]},
+          "actions": {"type": "array", "items": {"type": "string"}},
+          "validation_gates": {"type": "array", "items": {"type": "string"}}
+        }
+      }
+    },
+    "unresolved_blocking_reasons": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "postvalidation_requirements": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "rollback": {"type": "string"},
+    "execution_performed": {"const": false},
+    "promotion_performed": {"const": false},
+    "cloud_transfer_performed": {"const": false},
+    "locked_experiments_modified": {"const": false}
+  }
+}

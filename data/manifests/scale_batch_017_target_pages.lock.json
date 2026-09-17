@@ -1,0 +1,299 @@
+{
+  "schema_version": "0.1",
+  "registry_id": "KB-SCALE-BATCH-017-TARGET-PAGES-v0.1",
+  "batch_id": "KB-SCALE-BATCH-017",
+  "created_at": "2026-09-13T10:46:16.154174+00:00",
+  "status": "target_pages_locked_after_assurance_preflight_before_mineru",
+  "cloud_transmission": false,
+  "assurance_window_preflight": [
+    {
+      "document_id": "KB-B017-ROCKWOOL-AR2025",
+      "pages": [
+        166,
+        168
+      ],
+      "required_literal_checks": {
+        "issuer_identity": true,
+        "reporting_period": true,
+        "opinion_or_conclusion": true,
+        "signatory_identity": true
+      },
+      "window_text_sha256": "a0cf1995f987fc7efe8d313d3dd17950fcb9590aa02f68b7350d38a77fca37d1",
+      "status": "passed_before_target_freeze"
+    },
+    {
+      "document_id": "KB-B017-HUSQVARNA-AR2025",
+      "pages": [
+        124,
+        125
+      ],
+      "required_literal_checks": {
+        "issuer_identity": true,
+        "reporting_period": true,
+        "opinion_or_conclusion": true,
+        "signatory_identity": true
+      },
+      "window_text_sha256": "9269f1b02a13609139c141dd1da608f99930c497977fce19a9179f5f919562fa",
+      "status": "passed_before_target_freeze"
+    },
+    {
+      "document_id": "KB-B017-SWECO-AR2025",
+      "pages": [
+        176
+      ],
+      "required_literal_checks": {
+        "issuer_identity": true,
+        "reporting_period": true,
+        "opinion_or_conclusion": true,
+        "signatory_identity": true
+      },
+      "window_text_sha256": "0faec24bf929668097af46f6d399c6750b399d3380e94d78d476221266a797c0",
+      "status": "passed_before_target_freeze"
+    }
+  ],
+  "documents": [
+    {
+      "document_id": "KB-B017-ROCKWOOL-AR2025",
+      "source_group_id": "KB-ROCKWOOL-2025",
+      "local_path": "data/raw/scale_batch_017/rockwool-annual-report-2025.pdf",
+      "document_sha256": "fb77087de1294a80fb31f087ec5895b86227c8e28ee6d9f53b71cc2ab93c0973",
+      "selection_rule": "audited_theme_page_selection_v0.3_with_assurance_window_preflight",
+      "target_pages": [
+        {
+          "page": 12,
+          "themes": [
+            "targets"
+          ],
+          "native_text_sha256": "38a4da1ac63e395e875b46984bce734f3f2f1c3c8d98b3b34d57854e9588e189",
+          "native_text_characters": 7248
+        },
+        {
+          "page": 68,
+          "themes": [
+            "energy",
+            "ghg_emissions"
+          ],
+          "native_text_sha256": "220e8f412b6b4956ab8f17d2fa00be6ae9f8c804e684383d9da2beb2afabc9c0",
+          "native_text_characters": 7818
+        },
+        {
+          "page": 76,
+          "themes": [
+            "water"
+          ],
+          "native_text_sha256": "1c6c1472fc723afdef44cb32b6e72df5dffd9ed489ceba5868a98011541b2294",
+          "native_text_characters": 8159
+        },
+        {
+          "page": 80,
+          "themes": [
+            "circularity"
+          ],
+          "native_text_sha256": "2eef3e3f018d2f873746e5090431fb46480944f32de65a1161be9fe03e36b4b5",
+          "native_text_characters": 3358
+        },
+        {
+          "page": 85,
+          "themes": [
+            "biodiversity"
+          ],
+          "native_text_sha256": "1a6fa5c1591be5079a37ee42d8daed6acdfc7e8605fb51b7152b26f2fed0a094",
+          "native_text_characters": 6459
+        },
+        {
+          "page": 89,
+          "themes": [
+            "health_safety"
+          ],
+          "native_text_sha256": "eb0b54a4b177d2b6cc7f9e0944e3e153585585a95d9aad39e39a5673a94bced4",
+          "native_text_characters": 7395
+        },
+        {
+          "page": 91,
+          "themes": [
+            "workforce"
+          ],
+          "native_text_sha256": "e9994f337f2e3292ecfdc66c54209f0e2a30eba7ae5e4975cf2c0b69bb26ccea",
+          "native_text_characters": 6678
+        },
+        {
+          "page": 166,
+          "themes": [
+            "assurance"
+          ],
+          "native_text_sha256": "d6d6e0845fe5a69da1d1048d3663955280381dba7f6e2e5906c438733fd3b0f8",
+          "native_text_characters": 3687
+        },
+        {
+          "page": 168,
+          "themes": [
+            "assurance"
+          ],
+          "native_text_sha256": "d4ad81734f8030f80eafcd5c1755b47becf4cc96da2f94cba995dcd9e1c25fb5",
+          "native_text_characters": 4951
+        }
+      ]
+    },
+    {
+      "document_id": "KB-B017-HUSQVARNA-AR2025",
+      "source_group_id": "KB-HUSQVARNA-2025",
+      "local_path": "data/raw/scale_batch_017/husqvarna-group-annual-report-2025.pdf",
+      "document_sha256": "33bef8acfbaaaba22e71b0096e146e81545687ce864e39f543752ec90affa57c",
+      "selection_rule": "audited_theme_page_selection_v0.3_with_assurance_window_preflight",
+      "target_pages": [
+        {
+          "page": 38,
+          "themes": [
+            "targets"
+          ],
+          "native_text_sha256": "083c91087eda95c8395e8038326769d2d326e1974102f7bb5849c4030db8d0a4",
+          "native_text_characters": 9607
+        },
+        {
+          "page": 50,
+          "themes": [
+            "ghg_emissions"
+          ],
+          "native_text_sha256": "d9e46d03ac7bc38d2f728df93c2f3e6a4f6633471fa5813845e26a8febb64096",
+          "native_text_characters": 10836
+        },
+        {
+          "page": 52,
+          "themes": [
+            "energy",
+            "water"
+          ],
+          "native_text_sha256": "c06d998b89070b35b56c1dfa573f3a2a7cdf0bb6305c8a632ff3221549ad9b59",
+          "native_text_characters": 12045
+        },
+        {
+          "page": 54,
+          "themes": [
+            "circularity"
+          ],
+          "native_text_sha256": "9aaccc6b0d9ca1bdb46a08fd1a127620543e56a252ec0a3f024cfc18a8dc9f06",
+          "native_text_characters": 12692
+        },
+        {
+          "page": 60,
+          "themes": [
+            "health_safety",
+            "workforce"
+          ],
+          "native_text_sha256": "8b434b561178a62ea45dfdf13c8b3bd487877f76de35956e0724b78772985da7",
+          "native_text_characters": 10913
+        },
+        {
+          "page": 67,
+          "themes": [
+            "biodiversity"
+          ],
+          "native_text_sha256": "d071f3bca9cbb28b43694536905b061b97c0e81e3473c28fedc0e6bb2ce9bf12",
+          "native_text_characters": 8645
+        },
+        {
+          "page": 124,
+          "themes": [
+            "assurance"
+          ],
+          "native_text_sha256": "22c2695004ee0fd7ceb4fb5ce037f6c65835232df8a6b043f689263ff7d743ea",
+          "native_text_characters": 9605
+        },
+        {
+          "page": 125,
+          "themes": [
+            "assurance"
+          ],
+          "native_text_sha256": "070b04d6b94ddba99daa677cec1f43a2e0f505a548ebe4598d2e87a6c974f35c",
+          "native_text_characters": 4163
+        }
+      ]
+    },
+    {
+      "document_id": "KB-B017-SWECO-AR2025",
+      "source_group_id": "KB-SWECO-2025",
+      "local_path": "data/raw/scale_batch_017/sweco-annual-report-2025.pdf",
+      "document_sha256": "a9dd16431de2e15788fa86a9e173eaa0046f23bfee5a4e0a1680ea77c177b539",
+      "selection_rule": "audited_theme_page_selection_v0.3_with_assurance_window_preflight",
+      "target_pages": [
+        {
+          "page": 70,
+          "themes": [
+            "targets"
+          ],
+          "native_text_sha256": "f80ba5035db12dc5d8cb341b3fa425eeacbf828af6c7ec02d75436ba3982961e",
+          "native_text_characters": 6884
+        },
+        {
+          "page": 73,
+          "themes": [
+            "energy"
+          ],
+          "native_text_sha256": "f51cd49c49369547156052eb22f35a7e66719c2d5970b90a170f2675d70bfa7e",
+          "native_text_characters": 4899
+        },
+        {
+          "page": 74,
+          "themes": [
+            "ghg_emissions"
+          ],
+          "native_text_sha256": "507fea4d00847328e309c2bcaf5ec6fde75f5d89bcdeb6ea5fa3bae5092ce4e3",
+          "native_text_characters": 6370
+        },
+        {
+          "page": 77,
+          "themes": [
+            "water"
+          ],
+          "native_text_sha256": "ccab129f399815545036c65947ff65196c41937aa5c6770a177ab572cceb3f08",
+          "native_text_characters": 8939
+        },
+        {
+          "page": 78,
+          "themes": [
+            "biodiversity"
+          ],
+          "native_text_sha256": "91e8225cd0970ee54bb2c88878dca9077d3e00df93388da938c983e09ce0b28c",
+          "native_text_characters": 7298
+        },
+        {
+          "page": 80,
+          "themes": [
+            "circularity"
+          ],
+          "native_text_sha256": "f68ba47fb926dfec7f8199da357c38e2c1d001cc9f808541ceed6f8ae6317aec",
+          "native_text_characters": 7637
+        },
+        {
+          "page": 91,
+          "themes": [
+            "workforce"
+          ],
+          "native_text_sha256": "863c0bb27591d069f99cd4c72e993e3ca61cacd7dd73ecb4e4dd977026787595",
+          "native_text_characters": 5010
+        },
+        {
+          "page": 95,
+          "themes": [
+            "health_safety"
+          ],
+          "native_text_sha256": "c2f317332d024ca26dcdaa672da270db2ecc9984f33e97227110317cf920441c",
+          "native_text_characters": 7821
+        },
+        {
+          "page": 176,
+          "themes": [
+            "assurance"
+          ],
+          "native_text_sha256": "0faec24bf929668097af46f6d399c6750b399d3380e94d78d476221266a797c0",
+          "native_text_characters": 11740
+        }
+      ]
+    }
+  ],
+  "totals": {
+    "documents": 3,
+    "unique_target_pages": 26,
+    "assurance_windows_passed": 3
+  }
+}

@@ -1,0 +1,257 @@
+{
+  "schema_version": "0.1",
+  "registry_id": "KB-SCALE-BATCH-010-TARGET-PAGES-v0.1",
+  "batch_id": "KB-SCALE-BATCH-010",
+  "created_at": "2026-09-13T03:21:50.046816+00:00",
+  "status": "target_pages_locked_before_mineru",
+  "cloud_transmission": false,
+  "documents": [
+    {
+      "document_id": "KB-B010-PUMA-AR2025",
+      "source_group_id": "KB-PUMA-2025",
+      "local_path": "data/raw/scale_batch_010/puma-annual-report-2025.pdf",
+      "document_sha256": "d376e7dc2454df73f0750285e2cba255dc9ad05d61faa1aa5d508eb16991e13e",
+      "selection_rule": "highest_keyword_hit_page_per_theme_v0.1",
+      "target_pages": [
+        {
+          "page": 96,
+          "themes": [
+            "targets"
+          ],
+          "native_text_sha256": "9df1daef6b503663053e3d8f3bb1c5a6f46995d57b8d52f24a0bc7265e505e52",
+          "native_text_characters": 3988
+        },
+        {
+          "page": 104,
+          "themes": [
+            "energy"
+          ],
+          "native_text_sha256": "967d264e4de5a9f9f812b3be9da607a55632369d965554c6b4a85864f2ff7186",
+          "native_text_characters": 4877
+        },
+        {
+          "page": 108,
+          "themes": [
+            "ghg_emissions"
+          ],
+          "native_text_sha256": "f17e42cb6e088a7817c471ded62599d51aac2c209e0194b28cceba72353edd8d",
+          "native_text_characters": 4148
+        },
+        {
+          "page": 124,
+          "themes": [
+            "water"
+          ],
+          "native_text_sha256": "8b0ca9cc9520e733174076bf008ced39bcbebb2ec4a17f3e4798392109968933",
+          "native_text_characters": 5365
+        },
+        {
+          "page": 127,
+          "themes": [
+            "biodiversity"
+          ],
+          "native_text_sha256": "2e86af65d1e7e326bb83d92b64bb35974aa30348996f9285fa8ae3192aad5746",
+          "native_text_characters": 4776
+        },
+        {
+          "page": 138,
+          "themes": [
+            "circularity"
+          ],
+          "native_text_sha256": "0f1e3ca27140516e3b865141e06186ed2d0b1b1b454335c83f897fe5fbb2eb24",
+          "native_text_characters": 5077
+        },
+        {
+          "page": 165,
+          "themes": [
+            "workforce"
+          ],
+          "native_text_sha256": "79cea717ba97f7baf07bad04497db98318b488c4e2785a35f7df3d40d5697581",
+          "native_text_characters": 4332
+        },
+        {
+          "page": 167,
+          "themes": [
+            "health_safety"
+          ],
+          "native_text_sha256": "3282341ead905bb13f9670d808c832cb0c025a671e95d4774784878e084e2323",
+          "native_text_characters": 4364
+        },
+        {
+          "page": 350,
+          "themes": [
+            "assurance"
+          ],
+          "native_text_sha256": "400a8070cd1b9c627db5fdb34b46f450b688a1884239dc34d808c41867db18f2",
+          "native_text_characters": 3494
+        }
+      ]
+    },
+    {
+      "document_id": "KB-B010-ADIDAS-AR2025",
+      "source_group_id": "KB-ADIDAS-2025",
+      "local_path": "data/raw/scale_batch_010/adidas-annual-report-2025.pdf",
+      "document_sha256": "4cbe02b41e4ef94abc6e232da497f01b919fb85258a48507f3323046c8d784f9",
+      "selection_rule": "highest_keyword_hit_page_per_theme_v0.1",
+      "target_pages": [
+        {
+          "page": 171,
+          "themes": [
+            "targets"
+          ],
+          "native_text_sha256": "8e973e6c2d53d993936d93f2a345976c62891884725364a7468522878980a525",
+          "native_text_characters": 3653
+        },
+        {
+          "page": 184,
+          "themes": [
+            "energy"
+          ],
+          "native_text_sha256": "dc08d05c8d9a1653501dee0758c53595abb7e812b2bf8474910be1496b730d1a",
+          "native_text_characters": 5675
+        },
+        {
+          "page": 185,
+          "themes": [
+            "ghg_emissions"
+          ],
+          "native_text_sha256": "e50d5b6f8dff584312ca9478d0e1de22760f753cc6410290105ce81d1aa07106",
+          "native_text_characters": 5452
+        },
+        {
+          "page": 203,
+          "themes": [
+            "water"
+          ],
+          "native_text_sha256": "48d214e7c5bc05973f25c156dce9faa87e9e282c09d8c884636b991c71b292dc",
+          "native_text_characters": 3870
+        },
+        {
+          "page": 206,
+          "themes": [
+            "biodiversity"
+          ],
+          "native_text_sha256": "a38f4fbe9d5914f6bfcf99ece53ef7819fc64cb0d2e542056aedf86516753d18",
+          "native_text_characters": 4236
+        },
+        {
+          "page": 221,
+          "themes": [
+            "circularity"
+          ],
+          "native_text_sha256": "8cae0af48aaec1f06f58b20ed4ead1d9fed76ad8246da662de7db446d776018f",
+          "native_text_characters": 4724
+        },
+        {
+          "page": 247,
+          "themes": [
+            "workforce"
+          ],
+          "native_text_sha256": "957f6405a3e238313224a5c0403f0213dcb410c5dbfd0a0b9b45bdf918a17570",
+          "native_text_characters": 5985
+        },
+        {
+          "page": 262,
+          "themes": [
+            "health_safety"
+          ],
+          "native_text_sha256": "1f8f04b22906f73740ea2b7af19bc16dfb4fcf1ed84e0b48cc6aa635f7f03fde",
+          "native_text_characters": 3784
+        },
+        {
+          "page": 420,
+          "themes": [
+            "assurance"
+          ],
+          "native_text_sha256": "0a0a037c33a60a3c1a5adfdcc770b275bf7fc15b32f7949270143aec8a5dad46",
+          "native_text_characters": 3459
+        }
+      ]
+    },
+    {
+      "document_id": "KB-B010-VEOLIA-URD2025",
+      "source_group_id": "KB-VEOLIA-2025",
+      "local_path": "data/raw/scale_batch_010/veolia-universal-registration-document-2025.pdf",
+      "document_sha256": "09786eaedb20a992123e4b0f0d3c0f3484529ddf6093465c93251a0ce691232c",
+      "selection_rule": "highest_keyword_hit_page_per_theme_v0.1",
+      "target_pages": [
+        {
+          "page": 208,
+          "themes": [
+            "targets"
+          ],
+          "native_text_sha256": "cd68228b62fe384f1bf47098a9c84bb0abeb22e4ae9562d8612ca573094e66da",
+          "native_text_characters": 10024
+        },
+        {
+          "page": 218,
+          "themes": [
+            "energy"
+          ],
+          "native_text_sha256": "4962e8fcbd55718389b7d482988c643d5b711a706c80dbe6346383806ccd85dd",
+          "native_text_characters": 7024
+        },
+        {
+          "page": 219,
+          "themes": [
+            "ghg_emissions"
+          ],
+          "native_text_sha256": "5f9f66c0cc3f46e24830596d1071b5877b9a0584911c44b566c1ecc180d05f20",
+          "native_text_characters": 8912
+        },
+        {
+          "page": 234,
+          "themes": [
+            "water"
+          ],
+          "native_text_sha256": "e87540dedf3ba7c37478a9a0d075b5b224859eca5c026ff2fae70b1e4f25990e",
+          "native_text_characters": 9089
+        },
+        {
+          "page": 239,
+          "themes": [
+            "biodiversity"
+          ],
+          "native_text_sha256": "33855af2a6d46fa1748f7105b2803856fa2b65f5853936695cf41fa5e5aef4df",
+          "native_text_characters": 11329
+        },
+        {
+          "page": 244,
+          "themes": [
+            "circularity"
+          ],
+          "native_text_sha256": "480796769229e07966dda90f765758fa93cf9abd95913ea06074d4c346eb48d1",
+          "native_text_characters": 7264
+        },
+        {
+          "page": 266,
+          "themes": [
+            "health_safety"
+          ],
+          "native_text_sha256": "fd7fcaea0cb6fbfcf82d2a6379735dde7a93ca5298c272ed9260482bdcb68408",
+          "native_text_characters": 9137
+        },
+        {
+          "page": 275,
+          "themes": [
+            "workforce"
+          ],
+          "native_text_sha256": "705bd9ddb646139fc34d1518b7b11cd834206b3ad403e26c9b033f93e1d4c1af",
+          "native_text_characters": 8204
+        },
+        {
+          "page": 328,
+          "themes": [
+            "assurance"
+          ],
+          "native_text_sha256": "7d4a5e1aee139855c722622dbdd5ea5a7a99ae22e9e60f8a95f177cd786da9db",
+          "native_text_characters": 9335
+        }
+      ]
+    }
+  ],
+  "totals": {
+    "documents": 3,
+    "unique_target_pages": 27
+  }
+}

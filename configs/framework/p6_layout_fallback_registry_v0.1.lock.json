@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0",
+  "status": "frozen_before_candidate_inference",
+  "trigger_audit": "data/results/p6_parser_anomaly_audit_v0.1.lock.json",
+  "trigger_audit_sha256": "9d7d21ab46134bde378b243f21d46e7a60c09bda5084283c12ef3eea88442cfd",
+  "selection_rule": "task-independent frozen parser anomaly trigger",
+  "targets": [
+    {
+      "task_id": "P6-TARGET-001",
+      "document_id": "P6-UNILEVER-AR2025",
+      "document_sha256": "dcdc67ff84977e2beeb6b7a8113b6862fae1880838c613eceac42ba4b605d9d7",
+      "pdf_path": "data/raw/p6_staging/unilever-annual-report-2025.pdf",
+      "pdf_page": 232,
+      "trigger_reasons": [
+        "mineru_table_detected",
+        "native_to_mineru_numeric_recall_below_threshold"
+      ]
+    },
+    {
+      "task_id": "P6-CALC-001",
+      "document_id": "P6-UNILEVER-AR2025",
+      "document_sha256": "dcdc67ff84977e2beeb6b7a8113b6862fae1880838c613eceac42ba4b605d9d7",
+      "pdf_path": "data/raw/p6_staging/unilever-annual-report-2025.pdf",
+      "pdf_page": 235,
+      "trigger_reasons": [
+        "mineru_table_detected",
+        "native_to_mineru_numeric_recall_below_threshold"
+      ]
+    },
+    {
+      "task_id": "P6-DEX-001",
+      "document_id": "P6-UNILEVER-AR2025",
+      "document_sha256": "dcdc67ff84977e2beeb6b7a8113b6862fae1880838c613eceac42ba4b605d9d7",
+      "pdf_path": "data/raw/p6_staging/unilever-annual-report-2025.pdf",
+      "pdf_page": 235,
+      "trigger_reasons": [
+        "mineru_table_detected",
+        "native_to_mineru_numeric_recall_below_threshold"
+      ]
+    },
+    {
+      "task_id": "P6-PLASTIC-001",
+      "document_id": "P6-UNILEVER-AR2025",
+      "document_sha256": "dcdc67ff84977e2beeb6b7a8113b6862fae1880838c613eceac42ba4b605d9d7",
+      "pdf_path": "data/raw/p6_staging/unilever-annual-report-2025.pdf",
+      "pdf_page": 247,
+      "trigger_reasons": [
+        "mineru_table_detected",
+        "native_to_mineru_numeric_recall_below_threshold"
+      ]
+    },
+    {
+      "task_id": "P6-CONFLICT-001",
+      "document_id": "P6-UNILEVER-AR2025",
+      "document_sha256": "dcdc67ff84977e2beeb6b7a8113b6862fae1880838c613eceac42ba4b605d9d7",
+      "pdf_path": "data/raw/p6_staging/unilever-annual-report-2025.pdf",
+      "pdf_page": 262,
+      "trigger_reasons": [
+        "mineru_table_detected",
+        "native_to_mineru_numeric_recall_below_threshold"
+      ]
+    }
+  ]
+}

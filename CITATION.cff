@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software or benchmark, please cite the archived release."
+title: "SustainTrace: Evidence-Grounded ESG Knowledge Discovery and Controlled Repair"
+type: software
+authors:
+  - family-names: "Wang"
+    given-names: "Michael"
+version: 0.1.0
+date-released: 2026-09-17
+license: Apache-2.0
+repository-code: "https://github.com/extradimen/sustaintrace"
+url: "https://github.com/extradimen/sustaintrace"

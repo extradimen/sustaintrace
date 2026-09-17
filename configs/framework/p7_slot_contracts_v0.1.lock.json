@@ -1,0 +1,34 @@
+{
+  "schema_version":"1.0",
+  "status":"frozen_before_p7_candidate_inference",
+  "ontology":"configs/ontology/esg_atomic_claim_registry_v1.2.lock.json",
+  "contracts":{
+    "P7-SAFETY-001":[
+      {"slot_id":"ffr_2025","predicate_id":"reports_disclosure_status","value_type":"number","canonical_unit":"per_million_hours_worked","period":"2025","scope_id":"group_total_safety"},
+      {"slot_id":"ffr_2024","predicate_id":"reports_disclosure_status","value_type":"number","canonical_unit":"per_million_hours_worked","period":"2024","scope_id":"group_total_safety"},
+      {"slot_id":"fatalities_2025","predicate_id":"reports_disclosure_status","value_type":"number","canonical_unit":"number","period":"2025","scope_id":"group_total_safety"},
+      {"slot_id":"contractor_fatalities_2025","predicate_id":"reports_disclosure_status","value_type":"number","canonical_unit":"number","period":"2025","scope_id":"contractor_safety"}
+    ],
+    "P7-TARGET-001":[
+      {"slot_id":"target_reduction","predicate_id":"reports_emissions_change","value_type":"number","canonical_unit":"percent","period":"2030 vs 2018","scope_id":"operational_scope_1_2","direction":"decrease"},
+      {"slot_id":"decision_dependency","predicate_id":"defines_activity_scope","value_type":"string","period":"2025","scope_id":"decarbonisation_target"},
+      {"slot_id":"transition_action","predicate_id":"defines_activity_scope","value_type":"string","period":"to 2030","scope_id":"Dunkirk_transition"}
+    ],
+    "P7-PORTFOLIO-001":[
+      {"slot_id":"historical_reduction","predicate_id":"reports_emissions_change","value_type":"number","canonical_unit":"percent","period":"since 2018","scope_id":"historical_absolute_including_divestments","direction":"decrease"},
+      {"slot_id":"sold_site_rule","predicate_id":"defines_activity_scope","value_type":"string","period":"retrospective","scope_id":"reporting_year_portfolio"},
+      {"slot_id":"acquired_site_rule","predicate_id":"defines_activity_scope","value_type":"string","period":"retrospective","scope_id":"reporting_year_portfolio"}
+    ],
+    "P7-INTENSITY-001":[
+      {"slot_id":"disposed_asset_intensity","predicate_id":"reports_emissions","value_type":"number","canonical_unit":"tCO2e_per_tonne_crude_steel","period":"disposed_since_2018","scope_id":"disposed_assets"},
+      {"slot_id":"current_group_intensity","predicate_id":"reports_emissions","value_type":"number","canonical_unit":"tCO2e_per_tonne_crude_steel","period":"2025","scope_id":"adjusted_2025_portfolio_scope_1_2_steel_mining"},
+      {"slot_id":"causal_evidence_state","predicate_id":"reports_disclosure_status","value_type":"string","period":"2025","scope_id":"cross_population_comparison"}
+    ],
+    "P7-ASSURE-001":[
+      {"slot_id":"assurance_level","predicate_id":"reports_disclosure_status","value_type":"string","period":"2025","scope_id":"sustainability_assurance"},
+      {"slot_id":"assured_subject","predicate_id":"defines_activity_scope","value_type":"string","period":"2025","scope_id":"sustainability_assurance"},
+      {"slot_id":"criteria","predicate_id":"defines_activity_scope","value_type":"string","period":"2025","scope_id":"sustainability_assurance"},
+      {"slot_id":"excluded_information","predicate_id":"defines_activity_scope","value_type":"string","period":"2025","scope_id":"sustainability_assurance"}
+    ]
+  }
+}

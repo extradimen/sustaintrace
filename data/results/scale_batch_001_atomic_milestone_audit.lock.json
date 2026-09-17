@@ -1,0 +1,47 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-001-RESUME01",
+  "status": "atomic_projection_and_validation_complete",
+  "locked_experiments_modified": false,
+  "counts": {
+    "source_evidence_candidates": 41,
+    "source_table_candidates": 5,
+    "atomic_fact_candidates": 14,
+    "rejected_ambiguous_rows": 7,
+    "table_graph_coordinate_exact": 14,
+    "native_quote_present": 14,
+    "native_period_header_present": 14,
+    "native_full_row_header_present": 4,
+    "strict_coordinate_corroborated": 4,
+    "held_tier_c": 14,
+    "promoted_tier_b": 0,
+    "global_fact_records": 1076,
+    "global_failure_records": 66,
+    "global_failure_signatures": 17,
+    "pytest_passed": 423,
+    "ruff_errors": 0
+  },
+  "decision": "All projected cells remain Tier C. Parser corroboration is not independent assurance, and native PDF line wrapping prevents strict full-row binding for ten cells.",
+  "artifacts": [
+    {
+      "path": "data/knowledge_bases/v0.1/increments/scale_batch_001_atomic_fact_records.jsonl",
+      "sha256": "e85d9bb177278686ae801ef4c54bec725d9335008b07000035b2dfb13e12618e"
+    },
+    {
+      "path": "data/knowledge_bases/v0.1/increments/scale_batch_001_atomic_validations.jsonl",
+      "sha256": "fca8952c191a831a68ea0a8cf0908ab84b02c3d2b96a1eabe424c760cc195642"
+    },
+    {
+      "path": "data/manifests/scale_batch_001_table_graphs.lock.json",
+      "sha256": "2ecf0c12f82accff381a0c8defe889eed2fc5e3775ac8e1263e62a28ad10e827"
+    },
+    {
+      "path": "data/knowledge_bases/v0.1/fact_records.jsonl",
+      "sha256": "624c24b1fac1449707453fca25aa4b2f0ce1ed7a7929b5554c5349e59f332b23"
+    },
+    {
+      "path": "data/knowledge_bases/v0.1/migration_manifest.lock.json",
+      "sha256": "f96af053ecffb2d46ba6d638351e6b3dacf648b91b3f7f948cecb3afc0711a0f"
+    }
+  ]
+}

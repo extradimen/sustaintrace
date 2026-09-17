@@ -1,0 +1,75 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-015",
+  "status": "source_selection_frozen_before_acquisition",
+  "policy": {
+    "local_only": true,
+    "cloud_transmission": false,
+    "locked_experiments_untouched": [
+      "P3-P23",
+      "KB-SCALE-BATCH-001-through-014"
+    ],
+    "download_resume": true,
+    "overwrite_verified_files": false,
+    "fact_promotion_requires_independent_gate": true,
+    "performance_baseline_required": true,
+    "native_table_corroboration_version": "v34_bounded_layout_column_reassembly_v1",
+    "assurance_window_preflight_required": true,
+    "assurance_window_required_fields": [
+      "issuer_identity",
+      "reporting_period",
+      "opinion_or_conclusion",
+      "signatory_identity"
+    ]
+  },
+  "selection_rationale": "Three previously unused issuer-hosted English 2025 integrated annual and sustainability reports from biopharma, dairy and healthcare. The batch continues the assurance-window preflight introduced in Batch 14 and broadens sector/layout coverage without cloud transmission.",
+  "performance_baseline": {
+    "comparison_parent": "data/results/scale_batch_014_performance_baseline.lock.json",
+    "separate_from_knowledge_quality": true,
+    "target_pages_per_document": 9
+  },
+  "documents": [
+    {
+      "document_id": "KB-B015-UCB-IAR2025",
+      "source_group_id": "KB-UCB-2025",
+      "company": "UCB SA/NV",
+      "title": "UCB Integrated Annual Report 2025",
+      "report_year": 2025,
+      "official_landing_page": "https://www.ucb.com/investors/download-center",
+      "download_url": "https://www.ucb.com/sites/default/files/2026-02/IAR_2025_WEB.pdf",
+      "official_domain": "www.ucb.com",
+      "local_path": "data/raw/scale_batch_015/ucb-integrated-annual-report-2025.pdf",
+      "source_role": "primary_report",
+      "language": "English",
+      "prior_experiment_use": false
+    },
+    {
+      "document_id": "KB-B015-ARLA-AR2025",
+      "source_group_id": "KB-ARLA-2025",
+      "company": "Arla Foods amba",
+      "title": "Arla Foods Annual Report 2025",
+      "report_year": 2025,
+      "official_landing_page": "https://www.arla.com/company/investor/annual-reports/",
+      "download_url": "https://www.arla.com/492cfc/globalassets/arla-global/company---overview/investor/annual-reports/2025/arla-annual-report-2025.pdf",
+      "official_domain": "www.arla.com",
+      "local_path": "data/raw/scale_batch_015/arla-annual-report-2025.pdf",
+      "source_role": "primary_report",
+      "language": "English",
+      "prior_experiment_use": false
+    },
+    {
+      "document_id": "KB-B015-FRESENIUS-AR2025",
+      "source_group_id": "KB-FRESENIUS-2025",
+      "company": "Fresenius SE & Co. KGaA",
+      "title": "Fresenius Annual Report 2025",
+      "report_year": 2025,
+      "official_landing_page": "https://www.fresenius.com/financial-results",
+      "download_url": "https://www.fresenius.com/sites/default/files/2026-03/fresenius_annual_report_2025.pdf",
+      "official_domain": "www.fresenius.com",
+      "local_path": "data/raw/scale_batch_015/fresenius-annual-report-2025.pdf",
+      "source_role": "primary_report",
+      "language": "English",
+      "prior_experiment_use": false
+    }
+  ]
+}

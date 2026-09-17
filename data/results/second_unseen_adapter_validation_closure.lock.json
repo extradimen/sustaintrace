@@ -1,0 +1,50 @@
+{
+  "schema_version": "0.1",
+  "record_kind": "milestone_closure",
+  "status": "second_unseen_adapter_validation_complete",
+  "results": {
+    "components": 3,
+    "passed": 1,
+    "failed": 2,
+    "shadow_candidate": ["NATIVE_PDF_CORROBORATION_INCOMPLETE"],
+    "returned_to_development": [
+      "TABLE_CELL_BINDING_INCOMPLETE",
+      "CALCULATION_LINEAGE_INCOMPLETE"
+    ],
+    "pytest_passed": 527,
+    "ruff_passed": true,
+    "json_audit_passed": true,
+    "sha256_audit_passed": true
+  },
+  "failure_mechanisms": {
+    "TABLE_CELL_BINDING_INCOMPLETE": "bbox row text lost superscript or numeric tokens although page, year and cell were correct",
+    "CALCULATION_LINEAGE_INCOMPLETE": "frozen operation graph requested add, which is not in the current deterministic operation whitelist"
+  },
+  "artifacts": [
+    {
+      "path": "data/manifests/second_unseen_adapter_validation_v0.1.lock.json",
+      "sha256": "b0089ac57390d2076e1f5b267ea8cfddc76fa000aececc3ae303d97d8b35206e"
+    },
+    {
+      "path": "artifacts/second_unseen_adapter_validation_v0.1/validation_summary.lock.json",
+      "sha256": "99acb572a5a5a5d00b9af9c9815604ef7a85c0c2861647677605de44ff811c23"
+    },
+    {
+      "path": "scripts/run_second_unseen_adapter_validation_v01.py",
+      "sha256": "51ad5a38a9e4ab1fb17db4790f34cf175e831529be37130504009bbd93eca45b"
+    },
+    {
+      "path": "docs/164_三类适配器第二轮未见验证结果_v0.1.md",
+      "sha256": "e57414efd26689917ac068d08cb2e837f6dabaed5a6c4cfd96bf3da168c95c65"
+    }
+  ],
+  "safety": {
+    "single_execution": true,
+    "result_retried": false,
+    "fact_write_performed": false,
+    "trust_promotion_performed": false,
+    "cloud_transmission_performed": false,
+    "historical_result_modified": false
+  },
+  "next_gate": "develop auditable superscript-aware row labels and whitelist deterministic add, then use new records for validation"
+}

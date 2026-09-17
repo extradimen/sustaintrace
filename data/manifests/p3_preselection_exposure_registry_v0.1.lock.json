@@ -1,0 +1,18 @@
+{
+  "schema_version":"1.0",
+  "status":"active_exclusion_registry",
+  "purpose":"Prevent reports whose substantive contents were exposed during source discovery from entering the P3 unseen lockbox.",
+  "excluded_reports":[
+    {
+      "issuer":"Schneider Electric",
+      "report":"2024 Sustainability Report",
+      "reason":"Search result exposed substantive ESG passages and values before source lock."
+    },
+    {
+      "issuer":"PepsiCo",
+      "report":"2024 ESG Summary",
+      "reason":"PDF text was exposed by the discovery tool before source lock."
+    }
+  ],
+  "rule":"Any additional report whose substantive body is exposed before source hashing must be added here and excluded from P3."
+}

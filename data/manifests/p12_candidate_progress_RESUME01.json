@@ -1,0 +1,153 @@
+{
+  "checkpoint_resume_enabled": true,
+  "cloud_authorization": "data/manifests/p12_cloud_authorization_2026-09-08.lock.json",
+  "experiment_id": "P12-V21-UNSEEN-LOCKBOX-V01",
+  "records": [
+    {
+      "retried": false,
+      "stage_a": "passed",
+      "stage_a_result": {
+        "archive_directory": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P12-V21-UNSEEN-LOCKBOX-V01/runs/P12-SAFETY-001-QWEN397B-v21-RESUME01-stage-a",
+        "elapsed_seconds": 7.770568124993588,
+        "framework_evidence_state": "supported",
+        "model": "qwen3.5:397b-cloud",
+        "run_id": "P12-SAFETY-001-QWEN397B-v21-RESUME01-stage-a",
+        "task_id": "P12-SAFETY-001"
+      },
+      "stage_b": "failed",
+      "stage_b_error": "KeyError:'predicate_id'",
+      "stage_b_failure_taxonomy": {
+        "category": "frozen_configuration",
+        "error_type": "KeyError",
+        "model_call_started": true,
+        "owner": "framework",
+        "retry_policy": "no_retry_in_locked_experiment",
+        "score_as_model_failure": false,
+        "stage": "stage_b"
+      },
+      "task_id": "P12-SAFETY-001",
+      "task_type": "direct_extraction"
+    },
+    {
+      "retried": false,
+      "stage_a": "failed",
+      "stage_a_error": "OllamaError:v1.3 Stage A model behavior failed; archived at /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P12-V21-UNSEEN-LOCKBOX-V01/runs/P12-CALC-001-QWEN397B-v21-RESUME01-stage-a: ValueError:v21_calculation_schema_failure:'comparison_value' is a required property",
+      "stage_a_failure_taxonomy": {
+        "category": "model_behavior",
+        "error_type": "OllamaError",
+        "model_call_started": true,
+        "owner": "candidate_model",
+        "retry_policy": "no_retry_in_locked_experiment",
+        "score_as_model_failure": true,
+        "stage": "stage_a"
+      },
+      "task_id": "P12-CALC-001",
+      "task_type": "deterministic_calculation"
+    },
+    {
+      "retried": false,
+      "stage_a": "passed",
+      "stage_a_result": {
+        "archive_directory": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P12-V21-UNSEEN-LOCKBOX-V01/runs/P12-TARGET-001-QWEN397B-v21-RESUME01-stage-a",
+        "elapsed_seconds": 11.752379457990173,
+        "framework_evidence_state": "supported",
+        "model": "qwen3.5:397b-cloud",
+        "run_id": "P12-TARGET-001-QWEN397B-v21-RESUME01-stage-a",
+        "task_id": "P12-TARGET-001"
+      },
+      "stage_b": "failed",
+      "stage_b_error": "ValueError:v21_object_fields_missing:scope_1_2",
+      "stage_b_failure_taxonomy": {
+        "category": "executor",
+        "error_type": "ValueError",
+        "model_call_started": false,
+        "owner": "framework",
+        "retry_policy": "no_retry_in_locked_experiment",
+        "score_as_model_failure": false,
+        "stage": "stage_b"
+      },
+      "task_id": "P12-TARGET-001",
+      "task_type": "scope_subject_boundary"
+    },
+    {
+      "retried": false,
+      "stage_a": "passed",
+      "stage_a_result": {
+        "archive_directory": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P12-V21-UNSEEN-LOCKBOX-V01/runs/P12-BOUNDARY-001-QWEN397B-v21-RESUME01-stage-a",
+        "elapsed_seconds": 21.886191624987987,
+        "framework_evidence_state": "supported",
+        "model": "qwen3.5:397b-cloud",
+        "run_id": "P12-BOUNDARY-001-QWEN397B-v21-RESUME01-stage-a",
+        "task_id": "P12-BOUNDARY-001"
+      },
+      "stage_b": "failed",
+      "stage_b_error": "KeyError:'predicate_id'",
+      "stage_b_failure_taxonomy": {
+        "category": "frozen_configuration",
+        "error_type": "KeyError",
+        "model_call_started": true,
+        "owner": "framework",
+        "retry_policy": "no_retry_in_locked_experiment",
+        "score_as_model_failure": false,
+        "stage": "stage_b"
+      },
+      "task_id": "P12-BOUNDARY-001",
+      "task_type": "scope_subject_boundary"
+    },
+    {
+      "retried": false,
+      "stage_a": "passed",
+      "stage_a_result": {
+        "archive_directory": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P12-V21-UNSEEN-LOCKBOX-V01/runs/P12-SCOPE3-001-QWEN397B-v21-RESUME01-stage-a",
+        "elapsed_seconds": 11.764147124995361,
+        "framework_evidence_state": "supported",
+        "model": "qwen3.5:397b-cloud",
+        "run_id": "P12-SCOPE3-001-QWEN397B-v21-RESUME01-stage-a",
+        "task_id": "P12-SCOPE3-001"
+      },
+      "stage_b": "failed",
+      "stage_b_error": "OllamaError:v1.3 Stage B model behavior failed; archived at /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P12-V21-UNSEEN-LOCKBOX-V01/runs/P12-SCOPE3-001-QWEN397B-v21-RESUME01-stage-b: ValueError:v21_collection_envelope_not_contracted:selected_inclusions_exclusions",
+      "stage_b_failure_taxonomy": {
+        "category": "model_behavior",
+        "error_type": "OllamaError",
+        "model_call_started": true,
+        "owner": "candidate_model",
+        "retry_policy": "no_retry_in_locked_experiment",
+        "score_as_model_failure": true,
+        "stage": "stage_b"
+      },
+      "task_id": "P12-SCOPE3-001",
+      "task_type": "scope_subject_boundary"
+    },
+    {
+      "retried": false,
+      "stage_a": "passed",
+      "stage_a_result": {
+        "archive_directory": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P12-V21-UNSEEN-LOCKBOX-V01/runs/P12-ASSURE-001-QWEN397B-v21-RESUME01-stage-a",
+        "elapsed_seconds": 21.006023374997312,
+        "framework_evidence_state": "supported",
+        "model": "qwen3.5:397b-cloud",
+        "run_id": "P12-ASSURE-001-QWEN397B-v21-RESUME01-stage-a",
+        "task_id": "P12-ASSURE-001"
+      },
+      "stage_b": "failed",
+      "stage_b_error": "OllamaError:v1.3 Stage B model behavior failed; archived at /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P12-V21-UNSEEN-LOCKBOX-V01/runs/P12-ASSURE-001-QWEN397B-v21-RESUME01-stage-b: ValueError:v21_collection_envelope_not_contracted:reasonable_assurance_subjects",
+      "stage_b_failure_taxonomy": {
+        "category": "model_behavior",
+        "error_type": "OllamaError",
+        "model_call_started": true,
+        "owner": "candidate_model",
+        "retry_policy": "no_retry_in_locked_experiment",
+        "score_as_model_failure": true,
+        "stage": "stage_b"
+      },
+      "task_id": "P12-ASSURE-001",
+      "task_type": "scope_subject_boundary"
+    }
+  ],
+  "reference_loaded_by_orchestrator": false,
+  "resume_lineage": "data/manifests/p12_resume01_lineage_v0.1.lock.json",
+  "schema_version": "2.1",
+  "single_attempt_per_stage": true,
+  "updated_at": "2026-09-08T06:04:10.384613+00:00"
+}

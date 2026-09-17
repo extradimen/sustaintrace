@@ -1,0 +1,51 @@
+{
+  "schema_version": "2.5",
+  "experiment_id": "P16-V25-UNSEEN-LOCKBOX-V01",
+  "status": "local_readiness_passed_waiting_for_explicit_cloud_authorization",
+  "document_id": "P16-SANOFI-SS2025",
+  "document_sha256": "82547ddb72b6b05dca88f93ed4cfe13010cb5690a5693b96721e9be3ff9c8fcc",
+  "task_count": 6,
+  "slot_count": 60,
+  "unique_target_page_count": 15,
+  "unique_target_pages": [26, 30, 31, 38, 43, 44, 45, 68, 90, 118, 129, 130, 131, 132, 133],
+  "mineru": {
+    "success_count": 15,
+    "failure_count": 0,
+    "registry": "data/manifests/p16_mineru_target_registry_v0.1.lock.json",
+    "registry_sha256": "d18a1d2d0b836c369f7c0dbcc8d9ee987cbd3bd5e4f5ee91d95ade5f5cbff521",
+    "recovery_lineage": "data/manifests/p16_mineru_recovery_lineage_RESUME01_v0.1.lock.json",
+    "declared_native_fallback_pages": [133]
+  },
+  "prefreeze_integrity": {
+    "status": "passed",
+    "audit": "data/results/p16_v25_prefreeze_integrity_audit_RESUME01_v0.1.lock.json",
+    "audit_sha256": "1bcb2da642bec0bee0ed7bc30df04dd1c68f720be3a7b35b8d74607069759e4c",
+    "references_and_contracts_freeze": "data/manifests/p16_simulated_reference_and_contract_freeze_v0.1.lock.json",
+    "freeze_sha256": "5bdce8b4a7191a531ab99e77e1ae729f554c076461ae3aaab211d756cf354860",
+    "evidence_quotes_checked": 52,
+    "contract_preflights_passed": 60,
+    "deterministic_calculation_passed": true
+  },
+  "verification": {
+    "pytest": "252 passed",
+    "ruff": "passed",
+    "json_validation": "all P16 lock JSON artifacts parse successfully",
+    "artifact_hash_validation": "passed"
+  },
+  "cloud_boundary": {
+    "candidate_model": "qwen3.5:397b-cloud",
+    "cloud_transmission_count": 0,
+    "candidate_model_call_count": 0,
+    "explicit_authorization_received": false,
+    "required_authorization_scope": "Sanofi Sustainability Statement 2025 pages 26,30,31,38,43,44,45,68,90,118,129,130,131,132,133 solely for P16 Stage A/Stage B single-attempt candidate inference"
+  },
+  "local_task_pack": {
+    "path": "data/tasks/p16_local_execution_task_pack_v0.1.lock.json",
+    "sha256": "d6d54c24e12e6181e9dfbef2d05d767d488fc7f55bfdff227a1a9b48d20ec36b"
+  },
+  "report": {
+    "path": "docs/75_P16_v2.5本地预冻结与云授权边界_v0.1.md",
+    "sha256": "dc9f082ad33c0868e44696b641e07e00a731c1dedf4020ebaba62d8fc5d8722c"
+  },
+  "locked_prior_experiments_modified": false
+}

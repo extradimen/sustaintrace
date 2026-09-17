@@ -1,0 +1,68 @@
+{
+  "schema_version": "0.3",
+  "batch_id": "KB-SCALE-BATCH-023-RESUME02",
+  "parent_batch_id": "KB-SCALE-BATCH-023-RESUME01",
+  "status": "final_replacement_source_set_frozen_before_resumed_diagnostics",
+  "resume_reason": "RWE states that sustainability KPI assurance is issued in a separate report, so the annual report cannot supply the required signed assurance evidence. Glencore's report contains the complete ERM CVS statement.",
+  "reused_verified_documents": ["KB-B023-ARKEMA-URD2025", "KB-B023-CRH-SPR2025"],
+  "policy": {
+    "local_only": true,
+    "cloud_transmission": false,
+    "overwrite_verified_files": false,
+    "fact_promotion_requires_independent_gate": true,
+    "performance_baseline_required": true,
+    "native_table_corroboration_version": "v34_bounded_layout_column_reassembly_v1",
+    "assurance_window_preflight_required": true,
+    "cross_experiment_sha256_deduplication_required": true,
+    "locked_experiments_untouched": ["P3-P23", "KB-SCALE-BATCH-001-through-022"]
+  },
+  "performance_baseline": {
+    "comparison_parent": "data/results/scale_batch_022_performance_baseline.lock.json",
+    "separate_from_knowledge_quality": true,
+    "target_pages_per_document": 9
+  },
+  "documents": [
+    {
+      "document_id": "KB-B023-GLENCORE-SR2025",
+      "source_group_id": "KB-GLENCORE-2025",
+      "company": "Glencore plc",
+      "title": "Glencore Sustainability Report 2025",
+      "report_year": 2025,
+      "official_landing_page": "https://www.glencore.com/publications",
+      "download_url": "https://www.glencore.com/.rest/api/v1/documents/static/58d43f94-38de-4535-a765-9db9fbb7ad52/GLEN-2025-Sustainability-Report.pdf",
+      "official_domain": "www.glencore.com",
+      "local_path": "data/raw/scale_batch_023/glencore-sustainability-report-2025.pdf",
+      "source_role": "primary_report",
+      "language": "English",
+      "prior_experiment_use": false
+    },
+    {
+      "document_id": "KB-B023-ARKEMA-URD2025",
+      "source_group_id": "KB-ARKEMA-2025",
+      "company": "Arkema S.A.",
+      "title": "Arkema Universal Registration Document 2025",
+      "report_year": 2025,
+      "official_landing_page": "https://www.arkema.com/global/en/investor-relations/financials/universal-registration-document/",
+      "download_url": "https://www.arkema.com/files/live/sites/shared_arkema/files/downloads/investorrelations/en/finance/ARKEMA_URD_2025_UK_MEL.pdf",
+      "official_domain": "www.arkema.com",
+      "local_path": "data/raw/scale_batch_023/arkema-universal-registration-document-2025.pdf",
+      "source_role": "primary_report",
+      "language": "English",
+      "prior_experiment_use": false
+    },
+    {
+      "document_id": "KB-B023-CRH-SPR2025",
+      "source_group_id": "KB-CRH-2025",
+      "company": "CRH plc",
+      "title": "CRH Sustainability Performance Report 2025",
+      "report_year": 2025,
+      "official_landing_page": "https://www.crh.com/our-sustainability/publications/",
+      "download_url": "https://www.crh.com/wp-content/uploads/2026/03/crh-2025-sustainability-performance-report_final_interactive.pdf",
+      "official_domain": "www.crh.com",
+      "local_path": "data/raw/scale_batch_023/crh-sustainability-performance-report-2025.pdf",
+      "source_role": "primary_report",
+      "language": "English",
+      "prior_experiment_use": false
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "blocked_independent_evidence_incomplete": 3,
+  "inputs": {
+    "derived_adjudications_sha256": "4681f035309b81e8fa8a4254af0c9869667a4fc738715c06c752340e90431d97",
+    "source_manifest_sha256": "9c8cac85c003afd147a44fa401e981db440abf074bedcea2d65dcc0e04d199bb"
+  },
+  "locked_experiments_modified_or_rescored": false,
+  "newly_promoted_to_tier_b": 1,
+  "next_gate": "post_execution_validation_and_rollback_closure",
+  "outputs": {
+    "adjudications_sha256": "1af861815a24210251af17a52473cf3923dfb4d0ff15fb7d13fabaf91c12994b",
+    "trusted_facts_sha256": "0255e2246591217a88ce44044af89b0758c61830b7772121eb11d0abb58ed9c4"
+  },
+  "reviewed": 4,
+  "schema_version": "0.1",
+  "source_candidate_records_modified": 0,
+  "status": "target_performance_six_dimension_review_and_tier_b_overlay_complete",
+  "total_trusted_tier_b": 50
+}

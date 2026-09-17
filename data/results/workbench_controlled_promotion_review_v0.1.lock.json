@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "record_kind": "workbench_controlled_promotion_review_milestone",
+  "milestone_id": "WORKBENCH-CONTROLLED-PROMOTION-REVIEW-V0.1",
+  "status": "passed",
+  "completed_at": "2026-09-16T23:21:00+08:00",
+  "capabilities": [
+    "deterministic_job_local_review_queue",
+    "optimistic_version_check",
+    "approve_for_promotion_staging",
+    "request_more_evidence",
+    "reject_candidate",
+    "append_decision_history",
+    "review_ui"
+  ],
+  "safety_invariants": {
+    "approval_is_staging_only": true,
+    "automatic_trust_promotion": false,
+    "trusted_layer_modified": false,
+    "locked_experiments_modified": false,
+    "cloud_transfer_performed": false,
+    "stale_review_decision_rejected": true,
+    "second_terminal_decision_rejected": true
+  },
+  "validation": {
+    "pytest": {"collected": 570, "passed": 570},
+    "ruff": "passed",
+    "frontend_eslint": "passed",
+    "frontend_production_build": "passed",
+    "api_restart_recovery": "passed",
+    "api_health": "passed"
+  },
+  "artifacts": {
+    "src/esg_reliable_discovery/workbench_promotion_review.py": "f7dc3efc67c953729f153e16974049df5d34241c5dcf28a0a6504ac32a7b3631",
+    "src/esg_reliable_discovery/workbench_pipeline.py": "f3f312f6eba6775afa7e02d1b690552c4623a3d2c4def91856fa08e97fdd48b3",
+    "src/esg_reliable_discovery/workbench_api.py": "3f027f9ce4ecfd5efa5ac8745b3a28afe1979bdaacce4b8acb1b1e3c92ca3c16",
+    "schemas/knowledge/workbench-promotion-review-v1.0.schema.json": "8678e6528c1e879ca0d2dc62842d49a39cf3e5c0d4a100c75a50749540d19974",
+    "tests/test_workbench_promotion_review.py": "e1996b0368285d29de87ec310ffe32211f587768bf20bf1efee8b842211bc485",
+    "tests/test_workbench_pipeline.py": "579e3bc91d3a7be8b2065ad04123459360e9380355335b0d457ebc9fa77fe569",
+    "tests/test_workbench_api.py": "7bd6f3f4ec820a737cc9020fae0e8245a4f742f9d9ea02500c37098e3d792a0a",
+    "workbench-ui/components/workbench/fact-evidence-sheet.tsx": "9204e147aae980a3420bc9b24bef9a7d706cd38f6f701621ac7fc87a9d78be5b",
+    "workbench-ui/components/workbench/report-library.tsx": "22d66e185d246a854b51a87d8af89ad083b40a0adea02bc4b8fbd0bd447565c7"
+  },
+  "next_boundary": "promotion_staging_commit_with_independent_source_policy"
+}

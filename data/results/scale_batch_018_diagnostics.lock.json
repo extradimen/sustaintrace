@@ -1,0 +1,683 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-018",
+  "created_at": "2026-09-13T11:52:37.307270+00:00",
+  "status": "local_diagnostics_complete",
+  "cloud_transmission": false,
+  "documents": [
+    {
+      "document_id": "KB-B018-EPIROC-ASR2025",
+      "source_group_id": "KB-EPIROC-2025",
+      "company": "Epiroc AB",
+      "local_path": "data/raw/scale_batch_018/epiroc-annual-and-sustainability-report-2025.pdf",
+      "sha256": "0f6ac036c297f60a21cb21e6a37defaa480e4e9c5977582d714bb9ace5a6842c",
+      "pdfinfo_pages": 241,
+      "extracted_pages": 241,
+      "page_count_consistent": true,
+      "encrypted": "no",
+      "extractable_pages": 240,
+      "extractable_ratio": 0.995851,
+      "total_text_characters": 1157692,
+      "theme_hit_totals": {
+        "assurance": 28,
+        "biodiversity": 20,
+        "circularity": 87,
+        "energy": 57,
+        "ghg_emissions": 106,
+        "health_safety": 15,
+        "targets": 13,
+        "water": 8,
+        "workforce": 406
+      },
+      "candidate_pages_by_theme": {
+        "ghg_emissions": [
+          {
+            "page": 108,
+            "hits": 24
+          },
+          {
+            "page": 106,
+            "hits": 18
+          },
+          {
+            "page": 100,
+            "hits": 11
+          },
+          {
+            "page": 98,
+            "hits": 9
+          },
+          {
+            "page": 83,
+            "hits": 4
+          }
+        ],
+        "energy": [
+          {
+            "page": 106,
+            "hits": 16
+          },
+          {
+            "page": 105,
+            "hits": 5
+          },
+          {
+            "page": 41,
+            "hits": 3
+          },
+          {
+            "page": 96,
+            "hits": 3
+          },
+          {
+            "page": 97,
+            "hits": 3
+          }
+        ],
+        "water": [
+          {
+            "page": 93,
+            "hits": 4
+          },
+          {
+            "page": 21,
+            "hits": 1
+          },
+          {
+            "page": 81,
+            "hits": 1
+          },
+          {
+            "page": 95,
+            "hits": 1
+          },
+          {
+            "page": 158,
+            "hits": 1
+          }
+        ],
+        "workforce": [
+          {
+            "page": 132,
+            "hits": 36
+          },
+          {
+            "page": 124,
+            "hits": 22
+          },
+          {
+            "page": 198,
+            "hits": 21
+          },
+          {
+            "page": 128,
+            "hits": 18
+          },
+          {
+            "page": 131,
+            "hits": 18
+          }
+        ],
+        "health_safety": [
+          {
+            "page": 128,
+            "hits": 6
+          },
+          {
+            "page": 126,
+            "hits": 3
+          },
+          {
+            "page": 158,
+            "hits": 2
+          },
+          {
+            "page": 21,
+            "hits": 1
+          },
+          {
+            "page": 42,
+            "hits": 1
+          }
+        ],
+        "assurance": [
+          {
+            "page": 234,
+            "hits": 16
+          },
+          {
+            "page": 232,
+            "hits": 4
+          },
+          {
+            "page": 2,
+            "hits": 2
+          },
+          {
+            "page": 218,
+            "hits": 2
+          },
+          {
+            "page": 88,
+            "hits": 1
+          }
+        ],
+        "targets": [
+          {
+            "page": 41,
+            "hits": 2
+          },
+          {
+            "page": 100,
+            "hits": 2
+          },
+          {
+            "page": 106,
+            "hits": 2
+          },
+          {
+            "page": 42,
+            "hits": 1
+          },
+          {
+            "page": 90,
+            "hits": 1
+          }
+        ],
+        "biodiversity": [
+          {
+            "page": 93,
+            "hits": 6
+          },
+          {
+            "page": 111,
+            "hits": 3
+          },
+          {
+            "page": 119,
+            "hits": 3
+          },
+          {
+            "page": 9,
+            "hits": 1
+          },
+          {
+            "page": 101,
+            "hits": 1
+          }
+        ],
+        "circularity": [
+          {
+            "page": 117,
+            "hits": 10
+          },
+          {
+            "page": 118,
+            "hits": 9
+          },
+          {
+            "page": 115,
+            "hits": 8
+          },
+          {
+            "page": 114,
+            "hits": 7
+          },
+          {
+            "page": 113,
+            "hits": 6
+          }
+        ]
+      },
+      "layout_text_path": "data/interim/scale_batch_018/KB-B018-EPIROC-ASR2025.layout.txt",
+      "page_index_path": "data/interim/scale_batch_018/KB-B018-EPIROC-ASR2025.page_index.jsonl"
+    },
+    {
+      "document_id": "KB-B018-ALFA-LAVAL-ASR2025",
+      "source_group_id": "KB-ALFA-LAVAL-2025",
+      "company": "Alfa Laval AB (publ)",
+      "local_path": "data/raw/scale_batch_018/alfa-laval-annual-and-sustainability-report-2025.pdf",
+      "sha256": "dd35e84d8605d0eb174b55e4ab7cb0e46f50572c436efd91c9463c216b436177",
+      "pdfinfo_pages": 156,
+      "extracted_pages": 156,
+      "page_count_consistent": true,
+      "encrypted": "no",
+      "extractable_pages": 153,
+      "extractable_ratio": 0.980769,
+      "total_text_characters": 992743,
+      "theme_hit_totals": {
+        "assurance": 24,
+        "biodiversity": 22,
+        "circularity": 70,
+        "energy": 78,
+        "ghg_emissions": 200,
+        "health_safety": 16,
+        "targets": 27,
+        "water": 40,
+        "workforce": 331
+      },
+      "candidate_pages_by_theme": {
+        "ghg_emissions": [
+          {
+            "page": 35,
+            "hits": 34
+          },
+          {
+            "page": 58,
+            "hits": 27
+          },
+          {
+            "page": 31,
+            "hits": 17
+          },
+          {
+            "page": 57,
+            "hits": 15
+          },
+          {
+            "page": 33,
+            "hits": 14
+          }
+        ],
+        "energy": [
+          {
+            "page": 34,
+            "hits": 23
+          },
+          {
+            "page": 58,
+            "hits": 12
+          },
+          {
+            "page": 57,
+            "hits": 10
+          },
+          {
+            "page": 33,
+            "hits": 7
+          },
+          {
+            "page": 31,
+            "hits": 6
+          }
+        ],
+        "water": [
+          {
+            "page": 38,
+            "hits": 17
+          },
+          {
+            "page": 37,
+            "hits": 8
+          },
+          {
+            "page": 60,
+            "hits": 4
+          },
+          {
+            "page": 22,
+            "hits": 3
+          },
+          {
+            "page": 59,
+            "hits": 2
+          }
+        ],
+        "workforce": [
+          {
+            "page": 61,
+            "hits": 37
+          },
+          {
+            "page": 45,
+            "hits": 29
+          },
+          {
+            "page": 47,
+            "hits": 25
+          },
+          {
+            "page": 44,
+            "hits": 22
+          },
+          {
+            "page": 65,
+            "hits": 17
+          }
+        ],
+        "health_safety": [
+          {
+            "page": 61,
+            "hits": 4
+          },
+          {
+            "page": 50,
+            "hits": 3
+          },
+          {
+            "page": 49,
+            "hits": 2
+          },
+          {
+            "page": 65,
+            "hits": 2
+          },
+          {
+            "page": 18,
+            "hits": 1
+          }
+        ],
+        "assurance": [
+          {
+            "page": 145,
+            "hits": 15
+          },
+          {
+            "page": 81,
+            "hits": 2
+          },
+          {
+            "page": 142,
+            "hits": 2
+          },
+          {
+            "page": 144,
+            "hits": 2
+          },
+          {
+            "page": 146,
+            "hits": 2
+          }
+        ],
+        "targets": [
+          {
+            "page": 33,
+            "hits": 7
+          },
+          {
+            "page": 30,
+            "hits": 4
+          },
+          {
+            "page": 18,
+            "hits": 2
+          },
+          {
+            "page": 20,
+            "hits": 2
+          },
+          {
+            "page": 29,
+            "hits": 2
+          }
+        ],
+        "biodiversity": [
+          {
+            "page": 20,
+            "hits": 9
+          },
+          {
+            "page": 64,
+            "hits": 4
+          },
+          {
+            "page": 19,
+            "hits": 2
+          },
+          {
+            "page": 68,
+            "hits": 2
+          },
+          {
+            "page": 69,
+            "hits": 2
+          }
+        ],
+        "circularity": [
+          {
+            "page": 42,
+            "hits": 13
+          },
+          {
+            "page": 64,
+            "hits": 11
+          },
+          {
+            "page": 40,
+            "hits": 10
+          },
+          {
+            "page": 41,
+            "hits": 6
+          },
+          {
+            "page": 60,
+            "hits": 5
+          }
+        ]
+      },
+      "layout_text_path": "data/interim/scale_batch_018/KB-B018-ALFA-LAVAL-ASR2025.layout.txt",
+      "page_index_path": "data/interim/scale_batch_018/KB-B018-ALFA-LAVAL-ASR2025.page_index.jsonl"
+    },
+    {
+      "document_id": "KB-B018-SSAB-AR2025",
+      "source_group_id": "KB-SSAB-2025",
+      "company": "SSAB AB (publ)",
+      "local_path": "data/raw/scale_batch_018/ssab-annual-report-2025.pdf",
+      "sha256": "f2c778dec52913b4b4bab5fd9e7487a2cee9e25b94e68bed9919be4abee3530f",
+      "pdfinfo_pages": 189,
+      "extracted_pages": 189,
+      "page_count_consistent": true,
+      "encrypted": "no",
+      "extractable_pages": 189,
+      "extractable_ratio": 1.0,
+      "total_text_characters": 1144863,
+      "theme_hit_totals": {
+        "assurance": 21,
+        "biodiversity": 10,
+        "circularity": 46,
+        "energy": 16,
+        "ghg_emissions": 165,
+        "health_safety": 31,
+        "targets": 14,
+        "water": 2,
+        "workforce": 256
+      },
+      "candidate_pages_by_theme": {
+        "ghg_emissions": [
+          {
+            "page": 84,
+            "hits": 31
+          },
+          {
+            "page": 85,
+            "hits": 27
+          },
+          {
+            "page": 83,
+            "hits": 25
+          },
+          {
+            "page": 87,
+            "hits": 19
+          },
+          {
+            "page": 79,
+            "hits": 13
+          }
+        ],
+        "energy": [
+          {
+            "page": 86,
+            "hits": 9
+          },
+          {
+            "page": 80,
+            "hits": 2
+          },
+          {
+            "page": 83,
+            "hits": 2
+          },
+          {
+            "page": 67,
+            "hits": 1
+          },
+          {
+            "page": 81,
+            "hits": 1
+          }
+        ],
+        "water": [
+          {
+            "page": 96,
+            "hits": 1
+          },
+          {
+            "page": 115,
+            "hits": 1
+          }
+        ],
+        "workforce": [
+          {
+            "page": 104,
+            "hits": 23
+          },
+          {
+            "page": 105,
+            "hits": 23
+          },
+          {
+            "page": 101,
+            "hits": 19
+          },
+          {
+            "page": 100,
+            "hits": 13
+          },
+          {
+            "page": 103,
+            "hits": 11
+          }
+        ],
+        "health_safety": [
+          {
+            "page": 106,
+            "hits": 11
+          },
+          {
+            "page": 13,
+            "hits": 4
+          },
+          {
+            "page": 23,
+            "hits": 3
+          },
+          {
+            "page": 104,
+            "hits": 3
+          },
+          {
+            "page": 103,
+            "hits": 2
+          }
+        ],
+        "assurance": [
+          {
+            "page": 183,
+            "hits": 11
+          },
+          {
+            "page": 184,
+            "hits": 3
+          },
+          {
+            "page": 178,
+            "hits": 2
+          },
+          {
+            "page": 182,
+            "hits": 2
+          },
+          {
+            "page": 3,
+            "hits": 1
+          }
+        ],
+        "targets": [
+          {
+            "page": 80,
+            "hits": 3
+          },
+          {
+            "page": 84,
+            "hits": 3
+          },
+          {
+            "page": 82,
+            "hits": 2
+          },
+          {
+            "page": 87,
+            "hits": 2
+          },
+          {
+            "page": 9,
+            "hits": 1
+          }
+        ],
+        "biodiversity": [
+          {
+            "page": 96,
+            "hits": 2
+          },
+          {
+            "page": 98,
+            "hits": 2
+          },
+          {
+            "page": 115,
+            "hits": 2
+          },
+          {
+            "page": 75,
+            "hits": 1
+          },
+          {
+            "page": 95,
+            "hits": 1
+          }
+        ],
+        "circularity": [
+          {
+            "page": 92,
+            "hits": 9
+          },
+          {
+            "page": 93,
+            "hits": 9
+          },
+          {
+            "page": 91,
+            "hits": 3
+          },
+          {
+            "page": 94,
+            "hits": 3
+          },
+          {
+            "page": 10,
+            "hits": 2
+          }
+        ]
+      },
+      "layout_text_path": "data/interim/scale_batch_018/KB-B018-SSAB-AR2025.layout.txt",
+      "page_index_path": "data/interim/scale_batch_018/KB-B018-SSAB-AR2025.page_index.jsonl"
+    }
+  ],
+  "totals": {
+    "documents": 3,
+    "pdf_pages": 586,
+    "extractable_pages": 582
+  }
+}

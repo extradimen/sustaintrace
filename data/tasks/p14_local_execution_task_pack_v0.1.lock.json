@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "experiment_id": "P14-V23-UNSEEN-LOCKBOX-V01",
+  "status": "frozen_local_pack_pending_explicit_cloud_authorization",
+  "inference_allowed": false,
+  "parent": "data/tasks/p14_task_pack_v0.1.lock.json",
+  "source_registry": "data/manifests/p14_source_registry_v0.1.lock.json",
+  "parser_registry": "data/manifests/p14_mineru_target_registry_RESUME04_v0.1.json",
+  "reference_freeze": "data/manifests/p14_simulated_reference_and_contract_freeze_v0.1.lock.json",
+  "slot_contracts": "configs/framework/p14_slot_contracts_v0.1.lock.json",
+  "semantic_qualifiers": "configs/framework/p14_semantic_qualifiers_v0.1.lock.json",
+  "table_graph": "configs/framework/p14_two_dimensional_table_graph_v0.1.lock.json",
+  "layout_fallback_registry": "configs/framework/p14_layout_fallback_registry_v0.1.lock.json",
+  "calculation_plans": "configs/framework/p14_calculation_plans_v0.1.lock.json",
+  "tasks": [
+    {"task_id": "P14-GHG-CALC-001", "reference_file": "data/annotations/p14_simulated/P14-GHG-CALC-001.json", "target_pages": [213]},
+    {"task_id": "P14-TARGET-001", "reference_file": "data/annotations/p14_simulated/P14-TARGET-001.json", "target_pages": [206, 208, 212, 213]},
+    {"task_id": "P14-WATER-001", "reference_file": "data/annotations/p14_simulated/P14-WATER-001.json", "target_pages": [225, 229]},
+    {"task_id": "P14-SAFETY-001", "reference_file": "data/annotations/p14_simulated/P14-SAFETY-001.json", "target_pages": [248]},
+    {"task_id": "P14-SLB-001", "reference_file": "data/annotations/p14_simulated/P14-SLB-001.json", "target_pages": [282, 288, 289]},
+    {"task_id": "P14-ASSURE-001", "reference_file": "data/annotations/p14_simulated/P14-ASSURE-001.json", "target_pages": [285, 286, 287]}
+  ],
+  "release_condition": "User must explicitly authorize L'Oréal 2025 URD pages 206,208,212,213,225,229,248,282,285,286,287,288,289 to Ollama Cloud qwen3.5:397b-cloud solely for P14 Stage A/Stage B single-attempt candidate inference."
+}

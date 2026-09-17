@@ -1,0 +1,247 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-007",
+  "updated_at": "2026-09-12T21:47:16.492909+00:00",
+  "status": "complete",
+  "cloud_transmission": false,
+  "total_target_pages": 25,
+  "complete_pages": 18,
+  "failed_pages": 7,
+  "pending_pages": 0,
+  "records": [
+    {
+      "document_id": "KB-B007-ABB-ARS2025",
+      "page": 73,
+      "themes": [
+        "biodiversity"
+      ],
+      "output_directory": "artifacts/scale_batch_007/mineru_targets/KB-B007-ABB-ARS2025-p0073",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B007-ABB-ARS2025",
+      "page": 232,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_007/mineru_targets/KB-B007-ABB-ARS2025-p0232",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_007/mineru_targets/KB-B007-ABB-ARS2025-p0232/esg_rd_mineru_run.json"
+    },
+    {
+      "document_id": "KB-B007-ABB-ARS2025",
+      "page": 311,
+      "themes": [
+        "targets"
+      ],
+      "output_directory": "artifacts/scale_batch_007/mineru_targets/KB-B007-ABB-ARS2025-p0311",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B007-ABB-ARS2025",
+      "page": 320,
+      "themes": [
+        "energy"
+      ],
+      "output_directory": "artifacts/scale_batch_007/mineru_targets/KB-B007-ABB-ARS2025-p0320",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B007-ABB-ARS2025",
+      "page": 336,
+      "themes": [
+        "circularity"
+      ],
+      "output_directory": "artifacts/scale_batch_007/mineru_targets/KB-B007-ABB-ARS2025-p0336",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_007/mineru_targets/KB-B007-ABB-ARS2025-p0336/esg_rd_mineru_run.json"
+    },
+    {
+      "document_id": "KB-B007-ABB-ARS2025",
+      "page": 341,
+      "themes": [
+        "water"
+      ],
+      "output_directory": "artifacts/scale_batch_007/mineru_targets/KB-B007-ABB-ARS2025-p0341",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_007/mineru_targets/KB-B007-ABB-ARS2025-p0341/esg_rd_mineru_run.json"
+    },
+    {
+      "document_id": "KB-B007-ABB-ARS2025",
+      "page": 363,
+      "themes": [
+        "workforce"
+      ],
+      "output_directory": "artifacts/scale_batch_007/mineru_targets/KB-B007-ABB-ARS2025-p0363",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_007/mineru_targets/KB-B007-ABB-ARS2025-p0363/esg_rd_mineru_run.json"
+    },
+    {
+      "document_id": "KB-B007-ABB-ARS2025",
+      "page": 365,
+      "themes": [
+        "health_safety"
+      ],
+      "output_directory": "artifacts/scale_batch_007/mineru_targets/KB-B007-ABB-ARS2025-p0365",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_007/mineru_targets/KB-B007-ABB-ARS2025-p0365/esg_rd_mineru_run.json"
+    },
+    {
+      "document_id": "KB-B007-ABB-ARS2025",
+      "page": 417,
+      "themes": [
+        "ghg_emissions"
+      ],
+      "output_directory": "artifacts/scale_batch_007/mineru_targets/KB-B007-ABB-ARS2025-p0417",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_007/mineru_targets/KB-B007-ABB-ARS2025-p0417/esg_rd_mineru_run.json"
+    },
+    {
+      "document_id": "KB-B007-NOKIA-AR2025",
+      "page": 21,
+      "themes": [
+        "biodiversity"
+      ],
+      "output_directory": "artifacts/scale_batch_007/mineru_targets/KB-B007-NOKIA-AR2025-p0021",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B007-NOKIA-AR2025",
+      "page": 56,
+      "themes": [
+        "health_safety"
+      ],
+      "output_directory": "artifacts/scale_batch_007/mineru_targets/KB-B007-NOKIA-AR2025-p0056",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_007/mineru_targets/KB-B007-NOKIA-AR2025-p0056/esg_rd_mineru_run.json"
+    },
+    {
+      "document_id": "KB-B007-NOKIA-AR2025",
+      "page": 120,
+      "themes": [
+        "targets"
+      ],
+      "output_directory": "artifacts/scale_batch_007/mineru_targets/KB-B007-NOKIA-AR2025-p0120",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B007-NOKIA-AR2025",
+      "page": 122,
+      "themes": [
+        "energy"
+      ],
+      "output_directory": "artifacts/scale_batch_007/mineru_targets/KB-B007-NOKIA-AR2025-p0122",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B007-NOKIA-AR2025",
+      "page": 123,
+      "themes": [
+        "ghg_emissions"
+      ],
+      "output_directory": "artifacts/scale_batch_007/mineru_targets/KB-B007-NOKIA-AR2025-p0123",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B007-NOKIA-AR2025",
+      "page": 132,
+      "themes": [
+        "water"
+      ],
+      "output_directory": "artifacts/scale_batch_007/mineru_targets/KB-B007-NOKIA-AR2025-p0132",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B007-NOKIA-AR2025",
+      "page": 133,
+      "themes": [
+        "circularity"
+      ],
+      "output_directory": "artifacts/scale_batch_007/mineru_targets/KB-B007-NOKIA-AR2025-p0133",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B007-NOKIA-AR2025",
+      "page": 152,
+      "themes": [
+        "workforce"
+      ],
+      "output_directory": "artifacts/scale_batch_007/mineru_targets/KB-B007-NOKIA-AR2025-p0152",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B007-NOKIA-AR2025",
+      "page": 287,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_007/mineru_targets/KB-B007-NOKIA-AR2025-p0287",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B007-ATLAS-COPCO-AR2025",
+      "page": 50,
+      "themes": [
+        "energy"
+      ],
+      "output_directory": "artifacts/scale_batch_007/mineru_targets/KB-B007-ATLAS-COPCO-AR2025-p0050",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B007-ATLAS-COPCO-AR2025",
+      "page": 55,
+      "themes": [
+        "ghg_emissions",
+        "targets"
+      ],
+      "output_directory": "artifacts/scale_batch_007/mineru_targets/KB-B007-ATLAS-COPCO-AR2025-p0055",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B007-ATLAS-COPCO-AR2025",
+      "page": 57,
+      "themes": [
+        "circularity"
+      ],
+      "output_directory": "artifacts/scale_batch_007/mineru_targets/KB-B007-ATLAS-COPCO-AR2025-p0057",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B007-ATLAS-COPCO-AR2025",
+      "page": 70,
+      "themes": [
+        "health_safety"
+      ],
+      "output_directory": "artifacts/scale_batch_007/mineru_targets/KB-B007-ATLAS-COPCO-AR2025-p0070",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B007-ATLAS-COPCO-AR2025",
+      "page": 72,
+      "themes": [
+        "workforce"
+      ],
+      "output_directory": "artifacts/scale_batch_007/mineru_targets/KB-B007-ATLAS-COPCO-AR2025-p0072",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B007-ATLAS-COPCO-AR2025",
+      "page": 79,
+      "themes": [
+        "biodiversity",
+        "water"
+      ],
+      "output_directory": "artifacts/scale_batch_007/mineru_targets/KB-B007-ATLAS-COPCO-AR2025-p0079",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B007-ATLAS-COPCO-AR2025",
+      "page": 169,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_007/mineru_targets/KB-B007-ATLAS-COPCO-AR2025-p0169",
+      "status": "complete"
+    }
+  ]
+}

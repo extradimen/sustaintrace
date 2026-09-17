@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0",
+  "manifest_id": "P0-EN-INTL-v0.1",
+  "locked_at": "2026-09-01T14:34:47.606954+00:00",
+  "manifest_sha256": "8da6ab126cfb5d07a8546e292923102d87f371ea7eb4b7f9391350a324305d65",
+  "verified_document_count": 10,
+  "documents": [
+    {
+      "document_id": "MSFT-ESR-2024",
+      "sha256": "7d4872c7b4a64b4bf9bac1af440a1d124a449d595cf49a1d62d510130db593cc",
+      "bytes": 20024685,
+      "page_count": 88
+    },
+    {
+      "document_id": "SIE-AR-2024",
+      "sha256": "75f568180a8d35287f970a4812817dcd2b5c690ec937bf80f17b6fe68f42521e",
+      "bytes": 4671939,
+      "page_count": 222
+    },
+    {
+      "document_id": "SIE-SR-2024",
+      "sha256": "043285e4a589c2831e29276e9e0aaea582269ca87a747f1ae22fdfbc445a813f",
+      "bytes": 3933309,
+      "page_count": 170
+    },
+    {
+      "document_id": "NESN-NFS-2024",
+      "sha256": "c1c577517577e28ef8b979b0c3158cb263fd3853e7e699ddd27b37cd6f5ffc0d",
+      "bytes": 5878090,
+      "page_count": 198
+    },
+    {
+      "document_id": "DBS-SR-2024",
+      "sha256": "776b17a3a42a85716cd7622c42aca7ccd23f01e6ca05bb262dfd1ed8f7e97583",
+      "bytes": 18538552,
+      "page_count": 121
+    },
+    {
+      "document_id": "EQNR-AR-2024",
+      "sha256": "2ac6b90b7b44c11fd87a7bbf7b72fa518297d38495c98b2ef086f787ba8d392a",
+      "bytes": 48867924,
+      "page_count": 337
+    },
+    {
+      "document_id": "RIO-AR-2024",
+      "sha256": "9395d60945f16c7191c252550af39ac0874d765727ef12692bf05ac5ce119115",
+      "bytes": 17258854,
+      "page_count": 336
+    },
+    {
+      "document_id": "TM-SDB-2024",
+      "sha256": "ecee5ee5bde82cd93d3fb7ef12d7ec07bdd22bc18309340a95e1f8ec42f7fab0",
+      "bytes": 8062315,
+      "page_count": 136
+    },
+    {
+      "document_id": "NOVN-NIS-2024",
+      "sha256": "7898ce336a3073f92d44a3ca36d9e1deefb6fcd0647ae4605e167aaa85e73285",
+      "bytes": 5157707,
+      "page_count": 75
+    },
+    {
+      "document_id": "KO-EU-2024",
+      "sha256": "c71a25d345a5b3c5342cce74d63ae9d3e436d9c91e5370ce44014970543c7ec9",
+      "bytes": 300625,
+      "page_count": 14
+    }
+  ]
+}

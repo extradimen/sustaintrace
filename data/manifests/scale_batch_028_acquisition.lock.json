@@ -1,0 +1,43 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-028",
+  "status": "source_set_frozen",
+  "documents": [
+    {
+      "document_id": "KB-B028-TELIA-AR2025",
+      "local_path": "data/raw/scale_batch_028/telia-annual-report-2025.pdf",
+      "bytes": 14289842,
+      "pages": 272,
+      "sha256": "572c00695eca26b8bea90e2c9d0cdaaeaddf845f2851969c4f9c9d2cba85ecf7",
+      "pdf_valid": true,
+      "exact_sha256_duplicate": false
+    },
+    {
+      "document_id": "KB-B028-ASSA-ABLOY-AR2025",
+      "local_path": "data/raw/scale_batch_028/assa-abloy-annual-report-2025.pdf",
+      "bytes": 10964823,
+      "pages": 176,
+      "sha256": "cfbb6cbd864e00b71c55bf5c7803da470f7230129308012ebef6f80dda273b90",
+      "pdf_valid": true,
+      "exact_sha256_duplicate": false
+    },
+    {
+      "document_id": "KB-B028-LOOMIS-ASR2025",
+      "local_path": "data/raw/scale_batch_028/loomis-annual-and-sustainability-report-2025.pdf",
+      "bytes": 17516013,
+      "pages": 176,
+      "sha256": "c601ba6cac8ac150b79e8061312120ba2c3136f22a9c24f302602e16fcf6d46a",
+      "pdf_valid": true,
+      "exact_sha256_duplicate": false
+    }
+  ],
+  "rejected_documents": [
+    {
+      "company": "Telefonaktiebolaget LM Ericsson",
+      "reason": "official_download_endpoint_returned_http_403_before_local_file_creation",
+      "frozen": false
+    }
+  ],
+  "cross_experiment_sha256_deduplication": "passed",
+  "cloud_transmission": false
+}

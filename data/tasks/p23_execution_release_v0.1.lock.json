@@ -1,0 +1,15 @@
+{
+  "authorization_record": "data/manifests/p23_cloud_authorization_exact_2026-09-12_v0.1.lock.json",
+  "authorization_record_sha256": "279f0716a4e9f0d64c477da28f2ff8c343e30a78d6a23d91e808d8b86f76b8d3",
+  "experiment_id": "P23-V32-UNSEEN-LOCKBOX-V01",
+  "inference_allowed": true,
+  "integrity_gate_result": "data/results/p23_v32_local_readiness_v0.1.lock.json",
+  "integrity_gate_result_sha256": "35534bb7a74ca7009717e0ec3e09c6de9315e832859a9a63fb708f0b566a140e",
+  "posthoc_semantic_repair_allowed": false,
+  "schema_version": "3.2",
+  "silent_retry_allowed": false,
+  "single_attempt_per_stage": true,
+  "status": "released_after_exact_cloud_authorization",
+  "structural_task_pack": "data/tasks/p23_local_execution_task_pack_v0.1.lock.json",
+  "structural_task_pack_sha256": "849d78373f199a21bbf8f825ed17941c20bb5044f24bb0c94454802d9e7fa140"
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-003",
+  "created_at": "2026-09-12T15:49:51.106618+00:00",
+  "source_config": "configs/knowledge/scale_batch_003_v0.1.json",
+  "documents": [
+    {
+      "document_id": "KB-B003-INGKA-ASSR-FY25",
+      "local_path": "data/raw/scale_batch_003/ingka-assr-fy25.pdf",
+      "bytes": 13500340,
+      "sha256": "c09017beac2a249075f6d609ef7424dfa1a4eaa50d205da75ae8b984b6dc28b8",
+      "pdf_header_valid": true,
+      "download_status": "reused_verified_pdf",
+      "resumed_from_bytes": 0
+    },
+    {
+      "document_id": "KB-B003-AZ-SDA2025",
+      "local_path": "data/raw/scale_batch_003/astrazeneca-sustainability-data-annex-2025.pdf",
+      "bytes": 810471,
+      "sha256": "39795cbb1cd6542a8d596bd9f8fec061b6e7815cab978b456ba226d4bc48a754",
+      "pdf_header_valid": true,
+      "download_status": "reused_verified_pdf",
+      "resumed_from_bytes": 0
+    },
+    {
+      "document_id": "KB-B003-DHL-AR2025",
+      "local_path": "data/raw/scale_batch_003/dhl-group-annual-report-2025.pdf",
+      "bytes": 0,
+      "partial_bytes": 0,
+      "sha256": null,
+      "pdf_header_valid": false,
+      "download_status": "failed_preserved",
+      "error_type": "TimeoutError",
+      "error": "The read operation timed out"
+    }
+  ]
+}

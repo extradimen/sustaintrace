@@ -1,0 +1,9 @@
+{
+  "schema_version":"1.0","task_id":"P1-07-1","reference_author":"codex_gpt_simulated_expert","reference_status":"verified",
+  "question":"What organizational and emissions boundaries did SoftBank apply to its fiscal 2023 Scope 1 and 2 figures, and what share of consolidated sales did the reported coverage represent?","answer_status":"verified_fact",
+  "answer":"Scope 1 direct company emissions and Scope 2 indirect emissions from purchased electricity, heat and steam for SoftBank Corp. and major subsidiaries; coverage represented 99.5% of consolidated sales.","normalized_value":99.5,"normalized_unit":"% of consolidated sales","reported_unit":"%",
+  "subject":"SoftBank Corp. and major subsidiaries","scope_boundary":"Scope 1 and Scope 2; major subsidiaries; 99.5% consolidated-sales coverage","period":"fiscal 2023","calculation":null,
+  "evidence":[{"document_id":"SBKK-SR-2024","document_sha256":"7c5f044cac2bd9355bccc34ff1c73c7cbec58e8cfaf6288eafd32a05ec7e1e79","pdf_page":79,"printed_page":"79","verbatim_excerpt":"The carbon neutrality target covers Scope 1 ... and Scope 2 ... for SoftBank Corp. and its major subsidiaries (representing 100% of consolidated sales).","role":"claim_support"},{"document_id":"SBKK-SR-2024","document_sha256":"7c5f044cac2bd9355bccc34ff1c73c7cbec58e8cfaf6288eafd32a05ec7e1e79","pdf_page":79,"printed_page":"79","verbatim_excerpt":"In FY2023, Scope 1 and 2 GHG emissions totaled 520,662 t-CO2 ... This data’s coverage extends over 99.5% of consolidated group sales","role":"claim_support"}],
+  "search_record":{"pages_reviewed":[79],"terms_used":["carbon neutrality target covers","coverage"],"notes":"Distinguishes target boundary (100% of sales) from FY2023 data coverage (99.5%)."},"controlled_intervention_id":null,
+  "provenance_attestation":{"is_human":false,"is_ai_simulation":true,"candidate_model_excluded":true}
+}

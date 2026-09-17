@@ -1,0 +1,84 @@
+{
+  "answer": "At 31 December 2025, the Board was 6 male, 6 female and 12 total (50.00% female); management was 8,794 male, 9,318 female and 18,112 total (51.45% female); all employees were 34,089 male, 32,752 female and 66,841 total (49.00% female). Board and management figures are headcounts; the all-employee total is FTE and male/female values are derived by applying diversity percentages to total FTE.",
+  "evidence": [
+    {
+      "pdf_page": 79,
+      "quote": "Employees by gender",
+      "source_id": "P23-GSK-AR2025"
+    },
+    {
+      "pdf_page": 79,
+      "quote": "Board",
+      "source_id": "P23-GSK-AR2025"
+    },
+    {
+      "pdf_page": 79,
+      "quote": "8,794",
+      "source_id": "P23-GSK-AR2025"
+    },
+    {
+      "pdf_page": 79,
+      "quote": "9,318",
+      "source_id": "P23-GSK-AR2025"
+    },
+    {
+      "pdf_page": 79,
+      "quote": "18,112",
+      "source_id": "P23-GSK-AR2025"
+    },
+    {
+      "pdf_page": 79,
+      "quote": "34,089",
+      "source_id": "P23-GSK-AR2025"
+    },
+    {
+      "pdf_page": 79,
+      "quote": "32,752",
+      "source_id": "P23-GSK-AR2025"
+    },
+    {
+      "pdf_page": 79,
+      "quote": "66,841",
+      "source_id": "P23-GSK-AR2025"
+    },
+    {
+      "pdf_page": 79,
+      "quote": "Headcounts as of 31 December 2025",
+      "source_id": "P23-GSK-AR2025"
+    },
+    {
+      "pdf_page": 79,
+      "quote": "full-time equivalent employees (FTEs)",
+      "source_id": "P23-GSK-AR2025"
+    },
+    {
+      "pdf_page": 79,
+      "quote": "applying ‘all employees’ gender diversity percentages",
+      "source_id": "P23-GSK-AR2025"
+    }
+  ],
+  "normalized_value": {
+    "all_employees_female": 32752,
+    "all_employees_female_share_percent": 49.0,
+    "all_employees_male": 34089,
+    "all_employees_total_fte": 66841,
+    "board_female": 6,
+    "board_female_share_percent": 50.0,
+    "board_male": 6,
+    "board_total": 12,
+    "management_female": 9318,
+    "management_female_share_percent": 51.45,
+    "management_male": 8794,
+    "management_total": 18112,
+    "method": "all-employee male and female values calculated by applying gender diversity percentages to total FTE",
+    "reporting_date": "31 December 2025"
+  },
+  "provenance": {
+    "candidate_model_used": false,
+    "reference_is_simulated": true
+  },
+  "reference_author": "codex_gpt_simulated_expert",
+  "reference_status": "verified_against_frozen_mineru_pages_and_native_layout",
+  "schema_version": "1.0",
+  "task_id": "P23-WORKFORCE-CALC-001"
+}

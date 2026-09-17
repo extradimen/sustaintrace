@@ -1,0 +1,607 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-019-MINERU-FINAL",
+  "updated_at": "2026-09-13T15:00:39.441626+00:00",
+  "status": "complete",
+  "cloud_transmission": false,
+  "total_target_pages": 29,
+  "complete_pages": 29,
+  "failed_pages": 0,
+  "pending_pages": 0,
+  "post_completion_shutdown_recovered_pages": 0,
+  "recovered_pages": [],
+  "parent_attempts": [
+    "data/results/scale_batch_019_mineru_summary.lock.json",
+    "data/results/scale_batch_019_mineru_RESUME01_summary.lock.json",
+    "data/results/scale_batch_019_mineru_RESUME02_summary.lock.json"
+  ],
+  "parent_failures_preserved": true,
+  "records": [
+    {
+      "document_id": "KB-B019-BOLIDEN-ASR2025",
+      "page": 78,
+      "themes": [
+        "ghg_emissions",
+        "targets"
+      ],
+      "output_directory": "artifacts/scale_batch_019/mineru_targets_RESUME02/KB-B019-BOLIDEN-ASR2025-p0078",
+      "status": "complete",
+      "started_at": "2026-09-13T14:41:41.494464+00:00",
+      "completed_at": "2026-09-13T14:42:02.762286+00:00",
+      "wall_seconds": 21.268203,
+      "selected_attempt": "RESUME02",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "92196672bd86ab39adbb8e9807ba7f380c7f9f841fe1782be05dbedadca1b973",
+        "_content_list.json": "c802ec50cc3606c38c90564c79c28acef6b01c5bf7af9a2bfa649a222d0524ee",
+        "_middle.json": "025b42f30ef9a3697801e41d13290d02997da3467b94eb13856562b070d01406",
+        "_model.json": "19f090f63ce3e7beda9317f42dfe1cb6fcdf55670b46c368cc0ef87a27ef3a46"
+      }
+    },
+    {
+      "document_id": "KB-B019-BOLIDEN-ASR2025",
+      "page": 80,
+      "themes": [
+        "energy"
+      ],
+      "output_directory": "artifacts/scale_batch_019/mineru_targets_RESUME01/KB-B019-BOLIDEN-ASR2025-p0080",
+      "status": "complete",
+      "started_at": "2026-09-13T14:20:02.197855+00:00",
+      "completed_at": "2026-09-13T14:20:17.942907+00:00",
+      "wall_seconds": 15.745272,
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "4b05719763449221217557903e1dfa3ca580e40ec3fa1549fb2aee968e9725c1",
+        "_content_list.json": "266824065b5814e44f3f639c5ca5dde652bffd9f6f66f51ba99f8346b5dbcbe8",
+        "_middle.json": "226a7bc11c1e36853c0d1dce1cbf160eab099e2bd71ea8107d1ae84fb33408aa",
+        "_model.json": "2120ae3e205c0f02ba92c813e0b7ea764efae1129bf1402d8ad95ddbac95cf5f"
+      }
+    },
+    {
+      "document_id": "KB-B019-BOLIDEN-ASR2025",
+      "page": 81,
+      "themes": [
+        "ghg_emissions"
+      ],
+      "output_directory": "artifacts/scale_batch_019/mineru_targets_RESUME01/KB-B019-BOLIDEN-ASR2025-p0081",
+      "status": "complete",
+      "started_at": "2026-09-13T14:20:17.943340+00:00",
+      "completed_at": "2026-09-13T14:20:36.184188+00:00",
+      "wall_seconds": 18.241104,
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "8b42f2dd5794bfb34bed260b456d9af15293d5afa5f0442ae098aef0ef74dc24",
+        "_content_list.json": "2047561306e23806dae25d8593dcc752df6ad22677d9b9e4506e4986823667cb",
+        "_middle.json": "166913c09a09edffeba70db24279c3315fbda87facb7be7dc203afd2f45de33e",
+        "_model.json": "b8b9efeb0348a6d75428561c3d4a3c56aaaeb6f3897795202cf6011b9450240a"
+      }
+    },
+    {
+      "document_id": "KB-B019-BOLIDEN-ASR2025",
+      "page": 90,
+      "themes": [
+        "water"
+      ],
+      "output_directory": "artifacts/scale_batch_019/mineru_targets_RESUME02/KB-B019-BOLIDEN-ASR2025-p0090",
+      "status": "complete",
+      "started_at": "2026-09-13T14:42:02.762760+00:00",
+      "completed_at": "2026-09-13T14:42:25.166677+00:00",
+      "wall_seconds": 22.404318,
+      "selected_attempt": "RESUME02",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "29ec7f16c386c9718dbebccc927b86c42199cd85634acd923aa58ffcc20dd0de",
+        "_content_list.json": "f9bd37f416b436874f43928970e6ae2ae2b73c55669404955aea39f3d8c38bc6",
+        "_middle.json": "9b6ada0340917065aee2fa037840f92f56b216c69c16db2a2421e696bd8bfbda",
+        "_model.json": "cfc2c847245c4aa900ef33857aa1a24fc3aa559e7e9f82e87d7f14a63d617e90"
+      }
+    },
+    {
+      "document_id": "KB-B019-BOLIDEN-ASR2025",
+      "page": 91,
+      "themes": [
+        "biodiversity"
+      ],
+      "output_directory": "artifacts/scale_batch_019/mineru_targets_RESUME01/KB-B019-BOLIDEN-ASR2025-p0091",
+      "status": "complete",
+      "started_at": "2026-09-13T14:20:53.297401+00:00",
+      "completed_at": "2026-09-13T14:21:10.662713+00:00",
+      "wall_seconds": 17.365555,
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "e37e0da2aa629414a442c07b8f527f691c052c6ed3d331dd5c9b08b68739accb",
+        "_content_list.json": "3548d0d3cd7e101490f1c0757b2c933ef884cb4869ab496a480ca39792729db5",
+        "_middle.json": "60b328815626b15a52b6102ada73132a46440947c200dd3865413e128960502f",
+        "_model.json": "ebff2dd7a21f22f083d2e37cd393a62f2eab34d6995fb7117eeb0f8d2301302f"
+      }
+    },
+    {
+      "document_id": "KB-B019-BOLIDEN-ASR2025",
+      "page": 95,
+      "themes": [
+        "circularity"
+      ],
+      "output_directory": "artifacts/scale_batch_019/mineru_targets_RESUME02/KB-B019-BOLIDEN-ASR2025-p0095",
+      "status": "complete",
+      "started_at": "2026-09-13T14:42:25.167135+00:00",
+      "completed_at": "2026-09-13T14:42:45.369733+00:00",
+      "wall_seconds": 20.202962,
+      "selected_attempt": "RESUME02",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "331b3e1da66810ae0f1eea608983f2b0f673f37d7cf75898c4e598a32c71a415",
+        "_content_list.json": "64c6d428c25cd8bc57663e3f1270e9571e5b6584f7222f8dfea066795da00b08",
+        "_middle.json": "a47be12347839041b578ae046425e2013756d4203f46d9aef77cf99e14ebac0e",
+        "_model.json": "5fc7f77e3159a3a16bed1e098ff7128154f172bff192323186bdf5e9d0e617bf"
+      }
+    },
+    {
+      "document_id": "KB-B019-BOLIDEN-ASR2025",
+      "page": 105,
+      "themes": [
+        "workforce"
+      ],
+      "output_directory": "artifacts/scale_batch_019/mineru_targets_RESUME01/KB-B019-BOLIDEN-ASR2025-p0105",
+      "status": "complete",
+      "started_at": "2026-09-13T14:21:27.916437+00:00",
+      "completed_at": "2026-09-13T14:21:47.031549+00:00",
+      "wall_seconds": 19.115379,
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "e86d75c3faa0c978267236e4c66738f255df2b693621f624a4e7622e1307021a",
+        "_content_list.json": "c9723f4bbdfb3f0c8c48ff5a11dc6bf3aa31376101bdfd648e36e15c531e053d",
+        "_middle.json": "1a8d0378a7640f94c56e7afe7a03a31321754cd3944120f2a5ef43031715f69c",
+        "_model.json": "9ad5e924d0a141ec5074d17f39b83c7c56764167264d033eb4b435f16bfa9f2c"
+      }
+    },
+    {
+      "document_id": "KB-B019-BOLIDEN-ASR2025",
+      "page": 108,
+      "themes": [
+        "health_safety"
+      ],
+      "output_directory": "artifacts/scale_batch_019/mineru_targets_RESUME01/KB-B019-BOLIDEN-ASR2025-p0108",
+      "status": "complete",
+      "started_at": "2026-09-13T14:21:47.031969+00:00",
+      "completed_at": "2026-09-13T14:22:06.132512+00:00",
+      "wall_seconds": 19.100809,
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "4d46a92c445ff5c785782c9821dba0f395307be64f1455d3855135a0763e06d6",
+        "_content_list.json": "f5dd9270e34517c27b3d67cc354bdcc10fc2ec15198eed2db6f189c20caac465",
+        "_middle.json": "d1ebbd236f2fd1fd7f9819308529acf826880a6f9344097b95d0d884552c6a20",
+        "_model.json": "d432bea106992ca020913420e49991a854cbda79399f3a9023fb841074577f58"
+      }
+    },
+    {
+      "document_id": "KB-B019-BOLIDEN-ASR2025",
+      "page": 122,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_019/mineru_targets_RESUME01/KB-B019-BOLIDEN-ASR2025-p0122",
+      "status": "complete",
+      "started_at": "2026-09-13T14:22:06.132950+00:00",
+      "completed_at": "2026-09-13T14:22:22.561508+00:00",
+      "wall_seconds": 16.42879,
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "c0d19b5b16769114105f75ed2451463abeb8235b18d900c6961979029107c921",
+        "_content_list.json": "9c266ac5e3a5fdbee6a8333182b2ee8dc42cffb1354e529d7edd77b2f3536919",
+        "_middle.json": "af83c8c975c8fae697b5f314e84e0931c89dbf3031eb29ef825d9ca1cc758e8d",
+        "_model.json": "6d50607897b195817a6a7def87f0a2460fd61c65bf18595d055c1676f6b3dab3"
+      }
+    },
+    {
+      "document_id": "KB-B019-BOLIDEN-ASR2025",
+      "page": 123,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_019/mineru_targets_RESUME02/KB-B019-BOLIDEN-ASR2025-p0123",
+      "status": "complete",
+      "started_at": "2026-09-13T14:42:45.370159+00:00",
+      "completed_at": "2026-09-13T14:43:07.878753+00:00",
+      "wall_seconds": 22.509005,
+      "selected_attempt": "RESUME02",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "40a4afaf14444437ff35eefaff754520f5127f305d10fe638945dabf8cfa4fdf",
+        "_content_list.json": "4f7f0f879e53fefe37ca88ed1bcb802bdd654bdc44784c2267f0f2d100e24d6c",
+        "_middle.json": "305db275757725367ce2864eee40cd8ee10feb4acef056159a870a90c60f09e5",
+        "_model.json": "b9420b5d1d1cefb19d4862c06877d6fa97956b3abb2579cb1d098a783b23628c"
+      }
+    },
+    {
+      "document_id": "KB-B019-METSO-AR2025",
+      "page": 86,
+      "themes": [
+        "ghg_emissions",
+        "targets"
+      ],
+      "output_directory": "artifacts/scale_batch_019/mineru_targets_RESUME01/KB-B019-METSO-AR2025-p0086",
+      "status": "complete",
+      "started_at": "2026-09-13T14:22:39.449120+00:00",
+      "completed_at": "2026-09-13T14:22:54.391426+00:00",
+      "wall_seconds": 14.942516,
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "881869f0b62bc329ab9d231f04831bb116cf3de138238e3fd8a683270d8ba907",
+        "_content_list.json": "d0e047dd8793059afc723aebb1e2d5bef0e76add6569862cebb2c92d57a108a9",
+        "_middle.json": "6bbe598f0a5a15678dd95b6b78f297e401dcd68748a4f3911691498ad119bc52",
+        "_model.json": "19c71fc0598fb5e17a20fb4fa0ff2f8a8e2546f48f92d3ac08701feff6704f74"
+      }
+    },
+    {
+      "document_id": "KB-B019-METSO-AR2025",
+      "page": 94,
+      "themes": [
+        "energy",
+        "ghg_emissions"
+      ],
+      "output_directory": "artifacts/scale_batch_019/mineru_targets_RESUME02/KB-B019-METSO-AR2025-p0094",
+      "status": "complete",
+      "started_at": "2026-09-13T14:43:07.879547+00:00",
+      "completed_at": "2026-09-13T14:43:27.381607+00:00",
+      "wall_seconds": 19.502409,
+      "selected_attempt": "RESUME02",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "56bb1bad55fe8c54ba936a4f499aa03212b9c428e3510aadedd876ec521a8291",
+        "_content_list.json": "f2daf0657e7af9c7a2f97bb685e9562bf6a4d053bd6470eb69f13ba2d293c5ab",
+        "_middle.json": "64c4fb01bf421097f403e71bc6954607ea5da9d13957385ce578a45e21fa9722",
+        "_model.json": "81a54b1aeb0f2dd18ce78e5e348fb9099ced76979532cb5d99bbf3beb6c60cc0"
+      }
+    },
+    {
+      "document_id": "KB-B019-METSO-AR2025",
+      "page": 98,
+      "themes": [
+        "water"
+      ],
+      "output_directory": "artifacts/scale_batch_019/mineru_targets_RESUME01/KB-B019-METSO-AR2025-p0098",
+      "status": "complete",
+      "started_at": "2026-09-13T14:23:11.730404+00:00",
+      "completed_at": "2026-09-13T14:23:28.129787+00:00",
+      "wall_seconds": 16.399611,
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "d2c11238c44bced7a0a4526782565406d774a65a40f06832ca3416eb95bc9277",
+        "_content_list.json": "e07f3af45c7f608967130c8ac5659178c172549c8165e840ead936c5b84dce0f",
+        "_middle.json": "9e852968e9b708678ccdb48b5880ddb462fc058f29c678afc47c5a48a5c9fdf1",
+        "_model.json": "4ed17604335ba547ed649080ce12aca7e3981430d8b08552a470a5c81f9eb313"
+      }
+    },
+    {
+      "document_id": "KB-B019-METSO-AR2025",
+      "page": 102,
+      "themes": [
+        "biodiversity"
+      ],
+      "output_directory": "artifacts/scale_batch_019/mineru_targets_RESUME01/KB-B019-METSO-AR2025-p0102",
+      "status": "complete",
+      "started_at": "2026-09-13T14:23:28.130305+00:00",
+      "completed_at": "2026-09-13T14:23:43.009404+00:00",
+      "wall_seconds": 14.879307,
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "2cb2996c5268f0651f40aa41ce8a36d82917e098d18e7c8424331900f6b2837b",
+        "_content_list.json": "98c6aef9d8a3ac0880d36d67d023ad9c32fef8c4608cdcf0853c64eb92e5d2a8",
+        "_middle.json": "f32e1456830fd35b9d3fa8e35f6d456a3e61ce29c06455460659a3eeb269845b",
+        "_model.json": "7c99233cc8a63cded08a946a78359b64545ec75f33cf34c7c9b9090b1df06605"
+      }
+    },
+    {
+      "document_id": "KB-B019-METSO-AR2025",
+      "page": 106,
+      "themes": [
+        "circularity"
+      ],
+      "output_directory": "artifacts/scale_batch_019/mineru_targets_RESUME02/KB-B019-METSO-AR2025-p0106",
+      "status": "complete",
+      "started_at": "2026-09-13T14:43:27.382007+00:00",
+      "completed_at": "2026-09-13T14:43:45.239942+00:00",
+      "wall_seconds": 17.858255,
+      "selected_attempt": "RESUME02",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "c9957514aa58f04ad969bfba87160b0d1d3d535f0d69ae8b9ccdd5ffa3b799f0",
+        "_content_list.json": "5949685df7bcaea99858adba6d12f5b41844b81dd736ec0ffccdc453cdb1a8a9",
+        "_middle.json": "48db7f440829e1a9613bf7fc336bd814f494afb2c95999ee8f4a8b5e344df785",
+        "_model.json": "6a95723e26631c5e75aa34743bd8c0d7c28ea7cde4ff9946909ec74cf5b013c9"
+      }
+    },
+    {
+      "document_id": "KB-B019-METSO-AR2025",
+      "page": 115,
+      "themes": [
+        "workforce"
+      ],
+      "output_directory": "artifacts/scale_batch_019/mineru_targets_RESUME01/KB-B019-METSO-AR2025-p0115",
+      "status": "complete",
+      "started_at": "2026-09-13T14:23:57.081969+00:00",
+      "completed_at": "2026-09-13T14:24:15.375622+00:00",
+      "wall_seconds": 18.293911,
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "f32a58a6193784440cb8f91cf929d16bc40f98115a6ea5e5fe634698eaf68f3a",
+        "_content_list.json": "e0f672cb39eb6f7971c6818e213ae657d42a50e66fa2a67f4394337ac6e3f1ee",
+        "_middle.json": "14697f96e3ff8c99f2955deb8a2de4b3ce60076d7277d17bfa4e9c68e52eb2cf",
+        "_model.json": "b1bb19b8563147a100ec7f71dbbb747f7287cd4bdfe9d667c767e5324799394c"
+      }
+    },
+    {
+      "document_id": "KB-B019-METSO-AR2025",
+      "page": 117,
+      "themes": [
+        "health_safety"
+      ],
+      "output_directory": "artifacts/scale_batch_019/mineru_targets_RESUME01/KB-B019-METSO-AR2025-p0117",
+      "status": "complete",
+      "started_at": "2026-09-13T14:24:15.376101+00:00",
+      "completed_at": "2026-09-13T14:24:35.071209+00:00",
+      "wall_seconds": 19.695383,
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "9112ea7b41a3f5914f60e78cda78c0885d938d1d049c0088edb36ad47214c925",
+        "_content_list.json": "152a50edc49bd1b40f482f3c7f26f0bdf59ba2bf14e117bfc8a0da13612bb431",
+        "_middle.json": "a1e788bdbdde27d153d807e22cbbb827bf2097a1fc7c76d3cb8e3152ded75852",
+        "_model.json": "30f379b27d637fe331cf97de48c2895fbf36c12af3e0c9bcbb5097292b7012f3"
+      }
+    },
+    {
+      "document_id": "KB-B019-METSO-AR2025",
+      "page": 239,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_019/mineru_targets_RESUME01/KB-B019-METSO-AR2025-p0239",
+      "status": "complete",
+      "started_at": "2026-09-13T14:24:35.071759+00:00",
+      "completed_at": "2026-09-13T14:24:53.802731+00:00",
+      "wall_seconds": 18.731235,
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "426264d1a965c82b4d8b0a40d009387ec60abd7603620ac528558d15f9b8bed3",
+        "_content_list.json": "847d27d738b0a36e84c2963599e5bf1bbe2fc85b944aa48c29d06cf9221e81d1",
+        "_middle.json": "765283850b08afb8c56ecd5bd9185a91d1b20476df2e7f4ea3566c23d02859bb",
+        "_model.json": "70c5f1113a45bcada46c8f270eed5991bf534da02abf0d446cee71bcead96d00"
+      }
+    },
+    {
+      "document_id": "KB-B019-METSO-AR2025",
+      "page": 240,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_019/mineru_targets_RESUME02/KB-B019-METSO-AR2025-p0240",
+      "status": "complete",
+      "started_at": "2026-09-13T14:43:45.240359+00:00",
+      "completed_at": "2026-09-13T14:44:04.441656+00:00",
+      "wall_seconds": 19.201643,
+      "selected_attempt": "RESUME02",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "376de86cb813105f44484c5bdc697069377a712bc7312c9f7763a3754edae26a",
+        "_content_list.json": "05a07fe40b18c084057da5027fb4bbeaedba6e4712508b87f42b3ea758394a84",
+        "_middle.json": "6e97e4e57d7d7ef5e7ef6159e8d4e52f7a3eb74f783aa1e495062c7f77496f0a",
+        "_model.json": "908291dace1d7ea2aa58c51d2582d1715fab3d2214b0b277c72c417736666e65"
+      }
+    },
+    {
+      "document_id": "KB-B019-NESTE-AR2025",
+      "page": 36,
+      "themes": [
+        "ghg_emissions",
+        "targets"
+      ],
+      "output_directory": "artifacts/scale_batch_019/mineru_targets_RESUME01/KB-B019-NESTE-AR2025-p0036",
+      "status": "complete",
+      "started_at": "2026-09-13T14:17:14.212800+00:00",
+      "completed_at": "2026-09-13T14:17:34.393512+00:00",
+      "wall_seconds": 20.180453,
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "e416c7d923e62d84c97e8878c8144011a3518d56da0d6b21303e7279f736138d",
+        "_content_list.json": "6baf0f3974d74aa181c24811bf1ca9a27d956a802ca4baf11889f2f7ce92edf3",
+        "_middle.json": "385bbb57a1af2fe60bd37553e8705305f67e5b774e764b319dc8b0553db5c322",
+        "_model.json": "26eed11e852484826ce5e03048a5f92cb890321ec86726cf757eac149c7f72d7"
+      }
+    },
+    {
+      "document_id": "KB-B019-NESTE-AR2025",
+      "page": 37,
+      "themes": [
+        "circularity",
+        "energy"
+      ],
+      "output_directory": "artifacts/scale_batch_019/mineru_targets_RESUME02/KB-B019-NESTE-AR2025-p0037",
+      "status": "complete",
+      "started_at": "2026-09-13T14:41:02.665462+00:00",
+      "completed_at": "2026-09-13T14:41:23.809703+00:00",
+      "wall_seconds": 21.144618,
+      "selected_attempt": "RESUME02",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "46de47861bc6e298a988442b65a6a3e8a3bfc132f9c57bf3ac7b0f5c58d02fde",
+        "_content_list.json": "fc41c78f3e4cf72e5e0b7db0f5dc634a6dc23f8035bf9285a3fddab307272b95",
+        "_middle.json": "c227258d69507102f75129ab575431e7e45d8c6c28f78e3b92b9126f8bee4ca1",
+        "_model.json": "dd2d8330a3c7d8a353fd10e326897f1da8ee080a445adb695947c14c07753aa0"
+      }
+    },
+    {
+      "document_id": "KB-B019-NESTE-AR2025",
+      "page": 39,
+      "themes": [
+        "health_safety"
+      ],
+      "output_directory": "artifacts/scale_batch_019/mineru_targets_RESUME01/KB-B019-NESTE-AR2025-p0039",
+      "status": "complete",
+      "started_at": "2026-09-13T14:17:49.338082+00:00",
+      "completed_at": "2026-09-13T14:18:03.323000+00:00",
+      "wall_seconds": 13.985066,
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "48d9ca94b2790310d15172f788d13af0fa92be49bce363415f1a360c3b36950b",
+        "_content_list.json": "505802a583243338181a59950913eebd4e75ec1efeab5ce8e0aebcb241bbc269",
+        "_middle.json": "231b15c11750ea1d9b55acb15b873553512982b54d5a607671e720ae380e25c1",
+        "_model.json": "b108ff2494ad607fb071528a7d55a9479d2834058c925b93ea60f8cf6fafa7e8"
+      }
+    },
+    {
+      "document_id": "KB-B019-NESTE-AR2025",
+      "page": 40,
+      "themes": [
+        "workforce"
+      ],
+      "output_directory": "artifacts/scale_batch_019/mineru_targets_RESUME01/KB-B019-NESTE-AR2025-p0040",
+      "status": "complete",
+      "started_at": "2026-09-13T14:18:03.323479+00:00",
+      "completed_at": "2026-09-13T14:18:18.564772+00:00",
+      "wall_seconds": 15.241485,
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "c9f791edfb0164bf6022bcaaf6cbb169bfebf6c37cc1f4365825ee1832c4d8a9",
+        "_content_list.json": "738f1d13ebc222bd4051972af852bf27fff1db784b26843ae1bfff87d68f2d78",
+        "_middle.json": "d83843fd66bba33719d9ed7a0e60d61b0cc6b0101c102041765d0b47273b1176",
+        "_model.json": "433506fd2fc9b7069d6193b8013d862f9f2d1b841b9ec8fff62404f797d58d66"
+      }
+    },
+    {
+      "document_id": "KB-B019-NESTE-AR2025",
+      "page": 41,
+      "themes": [
+        "workforce"
+      ],
+      "output_directory": "artifacts/scale_batch_019/mineru_targets_RESUME01/KB-B019-NESTE-AR2025-p0041",
+      "status": "complete",
+      "started_at": "2026-09-13T14:18:18.565124+00:00",
+      "completed_at": "2026-09-13T14:18:33.252752+00:00",
+      "wall_seconds": 14.687827,
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "8bd284a47b173a5adcc108b36b74d87b4966c884f2cea0f557e43b41f6b29ce8",
+        "_content_list.json": "7f2d4182eab242ca826c32b87f8c00238105ff8e39ee1863e1648a18c30f1143",
+        "_middle.json": "f70b701f24997e19f260e0fb63147547f978d38daf9c71e300ecfd65b0844ca0",
+        "_model.json": "29e0f2e50a74b5330382974f3eac19b28dc70543709b41c0df96178b8e8e481d"
+      }
+    },
+    {
+      "document_id": "KB-B019-NESTE-AR2025",
+      "page": 50,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_019/mineru_targets_RESUME01/KB-B019-NESTE-AR2025-p0050",
+      "status": "complete",
+      "started_at": "2026-09-13T14:18:33.253132+00:00",
+      "completed_at": "2026-09-13T14:18:47.988882+00:00",
+      "wall_seconds": 14.735954,
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "2847b194609c2a338419a28785631aca456b4e574639429b2e38ed966b8e9083",
+        "_content_list.json": "10c2e089806250f53597ee57a4e0f72fd4449cf98cea6a67e9cc1fdf5fb7538d",
+        "_middle.json": "57bbe16b6c01ec10e9a2fc81ffb86ec537be8d264b7182361f917d53f3f13e7d",
+        "_model.json": "f907f6087b2191fe7c423fbd86ca39b0d889ad923cb4983b181364ba2c339aac"
+      }
+    },
+    {
+      "document_id": "KB-B019-NESTE-AR2025",
+      "page": 51,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_019/mineru_targets_RESUME01/KB-B019-NESTE-AR2025-p0051",
+      "status": "complete",
+      "started_at": "2026-09-13T14:18:47.989254+00:00",
+      "completed_at": "2026-09-13T14:19:01.872985+00:00",
+      "wall_seconds": 13.883925,
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "a949a593d01c786b0db58dc7c21a4ab5f8fc7d7a3bbbf0858c6da73a2d026bb2",
+        "_content_list.json": "ddc803298d9aa2338984dcf6e87cd1ab6f7289b1f5c327e7867a3f56ae3ba316",
+        "_middle.json": "76dd42906be6876b132c027e5219e6c60437a4ba5d1b5f954a09ccd3e995ea6b",
+        "_model.json": "9ae124acc1b4bb7ae1dedb5a0983b2a5c41c185a82750e775f28a7a211c37aeb"
+      }
+    },
+    {
+      "document_id": "KB-B019-NESTE-AR2025",
+      "page": 110,
+      "themes": [
+        "energy",
+        "ghg_emissions"
+      ],
+      "output_directory": "artifacts/scale_batch_019/mineru_targets_RESUME02/KB-B019-NESTE-AR2025-p0110",
+      "status": "complete",
+      "started_at": "2026-09-13T14:41:23.810230+00:00",
+      "completed_at": "2026-09-13T14:41:41.494002+00:00",
+      "wall_seconds": 17.68409,
+      "selected_attempt": "RESUME02",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "1bffca0010e358fcfa1302f382503c6ed333728d0d60c459ee34b32a582949e3",
+        "_content_list.json": "b36bc1d1ffdc1b1bbe077ce5cdb59eab5ac9322637fc6b0c63e960ab0e288d6e",
+        "_middle.json": "655e12cf3ac61f4de38fa12c3a7dddd7b0fe98c452975c26e16c215bd21bbfda",
+        "_model.json": "b0c2a8b0eba87d14b016857b74f5e2fb50390ea41effbe5917111bd1e0c1ea58"
+      }
+    },
+    {
+      "document_id": "KB-B019-NESTE-AR2025",
+      "page": 117,
+      "themes": [
+        "biodiversity"
+      ],
+      "output_directory": "artifacts/scale_batch_019/mineru_targets_RESUME01/KB-B019-NESTE-AR2025-p0117",
+      "status": "complete",
+      "started_at": "2026-09-13T14:19:16.661798+00:00",
+      "completed_at": "2026-09-13T14:19:31.608165+00:00",
+      "wall_seconds": 14.946576,
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "6af592846e36f7bc6f528c3782ba3439772954b84f6fb273dcb0974c0bad00f5",
+        "_content_list.json": "ed36ff56e69d61dbedb1f67fc7e9dc57c4da21e2ea6be7fc2bfc5907b0212ede",
+        "_middle.json": "e9512f33af8176b5aeb760ea35395b6e73cc52cf38de792ce8a3a901b33e022c",
+        "_model.json": "5e598cd88e6796401fbb95553cfd558327b85d7117907cb9e7a7a8a95c27e97d"
+      }
+    },
+    {
+      "document_id": "KB-B019-NESTE-AR2025",
+      "page": 121,
+      "themes": [
+        "circularity"
+      ],
+      "output_directory": "artifacts/scale_batch_019/mineru_targets_RESUME01/KB-B019-NESTE-AR2025-p0121",
+      "status": "complete",
+      "started_at": "2026-09-13T14:19:31.608533+00:00",
+      "completed_at": "2026-09-13T14:19:46.244766+00:00",
+      "wall_seconds": 14.636438,
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "c0f2f4b96d61235013a0730daebab63461f32c6a4dc678bc0da13cd097cc5a42",
+        "_content_list.json": "304e224c658af347740d23cf046d793e1b3ccabf93dfaff52dfb8fb59bb6a64d",
+        "_middle.json": "c6afc68fd9c47bacfc0793762e938b17d520b27d2a9ca4dee4577d61b300899f",
+        "_model.json": "a00e56a8815982c70fc850a81b5b8bdebf85c1b593d2a480c389cb88472dcddf"
+      }
+    }
+  ]
+}

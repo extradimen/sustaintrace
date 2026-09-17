@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/esg-reliable-discovery/unit-attachment-repair-v0.1.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "record_kind", "attachment_id", "fact_record_id", "task_id", "attached_unit", "pdf_page", "validation", "parent_artifacts", "execution_mode", "rollback", "fact_source_modified", "promotion_performed"],
+  "properties": {
+    "schema_version": {"const": "0.1"},
+    "record_kind": {"const": "unit_attachment_repair"},
+    "attachment_id": {"type": "string", "pattern": "^unit-[0-9a-f]{24}$"},
+    "fact_record_id": {"type": "string", "pattern": "^fact-[0-9a-f]{24}$"},
+    "task_id": {"type": "string"},
+    "attached_unit": {"type": "string", "minLength": 1},
+    "pdf_page": {"type": "integer", "minimum": 1},
+    "validation": {"type": "object", "additionalProperties": false, "required": ["unique_field_quote", "marker_in_bound_quote", "marker_in_native_pdf_page", "parent_hashes_valid"], "properties": {"unique_field_quote": {"const": true}, "marker_in_bound_quote": {"const": true}, "marker_in_native_pdf_page": {"const": true}, "parent_hashes_valid": {"const": true}}},
+    "parent_artifacts": {"type": "array", "minItems": 2, "items": {"type": "object", "additionalProperties": false, "required": ["path", "sha256"], "properties": {"path": {"type": "string"}, "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}}}},
+    "execution_mode": {"const": "derived_layer_only"},
+    "rollback": {"type": "object", "additionalProperties": false, "required": ["action", "source_restoration_required"], "properties": {"action": {"const": "delete_derived_attachment_record"}, "source_restoration_required": {"const": false}}},
+    "fact_source_modified": {"const": false},
+    "promotion_performed": {"const": false}
+  }
+}

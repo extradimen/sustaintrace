@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "lineage_id": "P17-MINERU-RESUME01-v0.1",
+  "experiment_id": "P17-V26-UNSEEN-LOCKBOX-V01",
+  "status": "infrastructure_recovery_authorized_by_protocol",
+  "recorded_date": "2026-09-10",
+  "parent_output_root": "artifacts/p17/mineru_targets",
+  "resume_output_root": "artifacts/p17/mineru_targets_RESUME01",
+  "frozen_source_sha256": "7a7fd36bf7f274e776ef7eda30d3cda4335a99cbb45f097ae5e8268ccf7759e7",
+  "frozen_config": "configs/parsers/p17-mineru-3.4.0-runtime.json",
+  "frozen_pages": [127, 129, 130, 141, 142, 172, 178, 179, 372, 373, 374, 375],
+  "parent_failure": {
+    "completed_pages": [],
+    "failed_pages": [127, 129, 130, 141, 142, 172, 178, 179, 372, 373, 374, 375],
+    "classification": "sandbox_infrastructure_failure",
+    "cause": "MinerU local API bootstrap could not bind a loopback socket: PermissionError [Errno 1].",
+    "failure_records_preserved": true
+  },
+  "resume_policy": "Run only pages without successful checkpoints, using the same source, page list, parser version and runtime configuration; do not overwrite parent failures.",
+  "cloud_transmission_allowed": false
+}

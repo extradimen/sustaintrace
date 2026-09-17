@@ -1,0 +1,13 @@
+{
+  "schema_version":"1.0",
+  "experiment_id":"P12-V21-UNSEEN-LOCKBOX-V01",
+  "status":"frozen_before_candidate_inference",
+  "qualifiers":{
+    "period":"2025 fiscal/reporting year",
+    "calculation_scope":"Scope 1 and market-based Scope 2 totals include companies with operational control; Scope 3 is Group total including Chinese joint ventures",
+    "rounding":"retain 887.34 calculated value and 887.4 disclosed one-decimal value; comparison is equal only after disclosed rounding",
+    "target_scope":"Scope 1+2 production target and Scope 3 Category 11 passenger-car/light-commercial-vehicle use-phase target are separate objects",
+    "assurance_scope":"limited assurance overall; reasonable assurance only for EU Taxonomy, DCI and BYR",
+    "missingness":"do not infer a 2025 Scope 3 target-progress percentage when not stated in the frozen pages"
+  }
+}

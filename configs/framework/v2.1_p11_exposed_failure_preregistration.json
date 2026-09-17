@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "version": "2.1-development",
+  "status": "preregistered_before_implementation",
+  "allowed_development_evidence": [
+    "P11 exposed model-behavior failures and qualifier omissions"
+  ],
+  "locked_experiments_not_to_modify": [
+    "P3", "P4", "P5", "P6", "P7", "P8", "P9", "P10", "P11"
+  ],
+  "objectives": [
+    "accept an explicitly contracted grounded collection envelope and deterministically project every model-emitted member without semantic rewriting",
+    "flatten object-valued aggregate contracts into candidate-visible atomic scalar slots before inference",
+    "support a grounded issuer comparison observation in deterministic sum requests and report the recomputed-versus-disclosed difference",
+    "fail closed when frozen required qualifier literals are absent from the candidate evidence span"
+  ],
+  "prohibited_actions": [
+    "rerun or rescore P3-P11",
+    "use an unseen P12 report during v2.1 development",
+    "invent, paraphrase, or repair collection members after model inference",
+    "coerce an object-valued candidate result into an object after inference",
+    "silently retry model-behavior failures"
+  ],
+  "release_gates": [
+    "P11 exposed-failure regression tests pass",
+    "entire pytest suite passes",
+    "ruff passes",
+    "machine-readable development result and Chinese report are archived"
+  ]
+}

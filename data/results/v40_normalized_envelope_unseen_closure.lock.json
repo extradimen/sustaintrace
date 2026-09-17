@@ -1,0 +1,48 @@
+{
+  "schema_version": "0.1",
+  "experiment_id": "V4.0-NORMALIZED-ENVELOPE-UNSEEN-V01",
+  "status": "completed_contract_failed",
+  "attempt_count": 1,
+  "failure_class": "interface_behavior_failure",
+  "failure": "component_result_not_positive",
+  "root_cause": "the positive component result is nested under raw_result, while v4.0 recognizes only top-level or observed status and eligibility fields",
+  "observed": {
+    "normalized_status": "blocked",
+    "raw_payload_preserved": true,
+    "parent_hash_preserved": true,
+    "attachment_applicable": false,
+    "promotion_eligible": false
+  },
+  "lineage": {
+    "manifest": {
+      "path": "data/manifests/v40_normalized_envelope_unseen_v0.1.lock.json",
+      "sha256": "5f80ade3a419335ff0e8140acde645e4d0afb80943565fbe9bd5f619ea62390e"
+    },
+    "result": {
+      "path": "artifacts/v40_normalized_envelope_unseen_v0.1/result.lock.json",
+      "sha256": "e31df85b0e5b02b3f563926c73f5e3d98651cb85d5a43fdaba1f578864c75513"
+    },
+    "parent_diagnostic": {
+      "path": "artifacts/v39_volvo_repeated_value_table_unseen_RESUME01_v0.1/result.lock.json",
+      "sha256": "24bd0aea5d4a99c65778453399ea26ea6c2bbb3412dc4dd025689aac29970488",
+      "modified": false
+    }
+  },
+  "verification": {
+    "full_suite_tests_passed": 540,
+    "ruff": "passed",
+    "json_validation": "passed"
+  },
+  "safety": {
+    "retry_performed": false,
+    "post_hoc_repair_performed": false,
+    "attachment_generated": false,
+    "unregistered_gap_created": false,
+    "historical_result_modified": false,
+    "fact_write_performed": false,
+    "trust_promotion_performed": false,
+    "gap_mutation_performed": false,
+    "cloud_transmission_performed": false
+  },
+  "next_gate": "use this exposed failure only to add validated raw_result envelope support, then test on a newly frozen artifact"
+}

@@ -1,0 +1,59 @@
+{
+  "schema_version": "2.4",
+  "experiment_id": "P15-V24-UNSEEN-LOCKBOX-V01",
+  "status": "questions_and_page_windows_frozen_before_reference_creation_and_candidate_inference",
+  "page_coordinate_system": "one_based_pdf_page_index",
+  "document_id": "P15-NOVARTIS-NFM2025",
+  "document_sha256": "8dbc7f74b114b52eafa7a454bd0cbe49efae3a8ea61e931f7eb075d39336758b",
+  "inference_allowed": false,
+  "tasks": [
+    {
+      "task_id": "P15-GHG-CALC-001",
+      "document_id": "P15-NOVARTIS-NFM2025",
+      "task_type": "deterministic_calculation",
+      "question_status": "frozen",
+      "question": "Using Novartis' reported 2025 gross Scope 1, gross market-based Scope 2 and gross Scope 3 GHG emissions, calculate their sum and compare it with the disclosed total gross market-based GHG emissions, retaining the reported thousand-tCO2e unit and explaining any exact or rounding difference.",
+      "target_pages": [27, 28]
+    },
+    {
+      "task_id": "P15-TARGET-001",
+      "document_id": "P15-NOVARTIS-NFM2025",
+      "task_type": "scope_subject_boundary",
+      "question_status": "frozen",
+      "question": "What near- and long-term GHG targets does Novartis report, including base year, Scope 1 and 2 and Scope 3 reduction percentages and years, the Scope 3 categories in the near-term focus, SBTi validation, treatment of residual emissions, and reported 2025 progress?",
+      "target_pages": [20, 21, 22]
+    },
+    {
+      "task_id": "P15-WATER-QUALITY-001",
+      "document_id": "P15-NOVARTIS-NFM2025",
+      "task_type": "direct_extraction",
+      "question_status": "frozen",
+      "question": "What 2025 water-quality targets and results does Novartis report for its own manufacturing sites and high-risk suppliers, and what boundary rules, exemptions, assumptions and supplier-list qualifications define these indicators?",
+      "target_pages": [29, 30]
+    },
+    {
+      "task_id": "P15-SAFETY-001",
+      "document_id": "P15-NOVARTIS-NFM2025",
+      "task_type": "direct_extraction",
+      "question_status": "frozen",
+      "question": "What 2025 workforce health and safety metrics does Novartis report for HSE-system coverage, lost-time injury and illness rates, total recordable case rates and fatalities across employees, third-party personnel and contractors, including the stated rate denominator and site boundary?",
+      "target_pages": [31, 32]
+    },
+    {
+      "task_id": "P15-ACCESS-001",
+      "document_id": "P15-NOVARTIS-NFM2025",
+      "task_type": "scope_subject_boundary",
+      "question_status": "frozen",
+      "question": "What 2025 access-to-medicines results does Novartis report for patients reached and countries with products sold, and what portfolio, sales, calculation and geographic boundary qualifications define those two indicators?",
+      "target_pages": [36]
+    },
+    {
+      "task_id": "P15-ASSURE-001",
+      "document_id": "P15-NOVARTIS-NFM2025",
+      "task_type": "scope_subject_boundary",
+      "question_status": "frozen",
+      "question": "What sustainability information is covered by Novartis' independent limited-assurance report, what conclusion and professional standards are stated, and what earlier-period, other-information, GHG-credit and forward-looking exclusions or limitations apply?",
+      "target_pages": [43, 44, 45]
+    }
+  ]
+}

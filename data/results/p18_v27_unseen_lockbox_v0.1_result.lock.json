@@ -1,0 +1,66 @@
+{
+  "schema_version": "2.7",
+  "experiment_id": "P18-V27-UNSEEN-LOCKBOX-V01",
+  "status": "completed_and_scored_with_model_behavior_failures",
+  "decision": "P18_COMPLETED_SINGLE_ATTEMPT_ELIGIBLE_AS_V27_UNSEEN_RESULT",
+  "candidate_model": "qwen3.5:397b-cloud",
+  "task_count": 6,
+  "single_candidate_attempt_per_behavioral_stage": true,
+  "silent_retry": false,
+  "posthoc_semantic_repair": false,
+  "reference_visible_to_candidate": false,
+  "stage_a": {
+    "tasks_run": 6,
+    "framework_valid": 2,
+    "model_behavior_failed": 4,
+    "infrastructure_failed": 0
+  },
+  "stage_b": {
+    "eligible_tasks": 2,
+    "framework_valid": 2,
+    "model_behavior_failed": 0,
+    "infrastructure_failed": 0,
+    "not_required_or_not_reached": 4
+  },
+  "scoring": {
+    "aggregate_score": null,
+    "required_atomic_slots": 61,
+    "credited_valid_slots": 22,
+    "exact_slots": 13,
+    "numeric_exact_slots": 13,
+    "numeric_reference_slots": 50,
+    "string_exact_slots": 0,
+    "string_reference_slots": 11,
+    "verified_run_archives": 8
+  },
+  "task_results": {
+    "P18-GHG-CALC-001": "Stage A model behavior failure: v24 calculation metric unmatched",
+    "P18-ENERGY-001": "Stage A model behavior failure: candidate omitted required task_id",
+    "P18-SCOPE3-001": "Stage A model behavior failure: v24 calculation metric unmatched",
+    "P18-WORKFORCE-001": "Stage A model behavior failure: v24 calculation metric unmatched",
+    "P18-TAXONOMY-001": "Stage A and Stage B passed; 15/15 slots credited and 13/15 exact",
+    "P18-ASSURE-001": "Stage A and Stage B passed; 7/7 slots credited and 0/7 exact-string"
+  },
+  "integrity_audit": {
+    "candidate_outputs_preserved": true,
+    "failed_outputs_preserved": true,
+    "all_run_checksums_verified": true,
+    "candidate_attempts_repeated": false,
+    "locked_predecessors_modified": false
+  },
+  "framework_findings": {
+    "calculation_metric_binding": "Three independent deterministic tasks failed at the same empty metric-matching boundary, exposing a v2.7 calculation binding weakness.",
+    "base_schema_discipline": "The energy extraction response omitted task_id and failed the frozen Stage A schema.",
+    "structured_projection": "Taxonomy and assurance both completed Stage B with full slot presence; numeric taxonomy values were highly exact while free-text strings differed from the frozen literal references."
+  },
+  "artifacts": {
+    "progress": "data/manifests/p18_candidate_progress.json",
+    "progress_sha256": "1509c332cb84217eafc47c239d102dff940209fe8b5b5e02a3f495634f2ccd36",
+    "dimension_scores": "data/results/p18_v27_dimension_scores_v0.1.lock.json",
+    "dimension_scores_sha256": "4bcd413d3ca93417cdc97689a9069f4caa4a50034898f0d87615a0dace40a6ad",
+    "execution_release": "data/tasks/p18_execution_release_v0.1.lock.json",
+    "execution_release_sha256": "92e9dcccd61d86d3512044189ced0b91ed0c4c18fa0729b61bc449cda6e4e062",
+    "authorization": "data/manifests/p18_cloud_authorization_exact_2026-09-10_v0.1.lock.json",
+    "authorization_sha256": "c8ae83f6d83bb569868c07bab69355d80ecd90e03d46c5fe24724ed7db5edf3a"
+  }
+}

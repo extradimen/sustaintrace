@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "experiment_id": "P19-V28-UNSEEN-LOCKBOX-V01",
+  "recovery_id": "P19-MINERU-RESUME01",
+  "parent_output_root": "artifacts/p19/mineru_targets",
+  "resume_output_root": "artifacts/p19/mineru_targets_RESUME01",
+  "frozen_task_pack": "data/tasks/p19_task_pack_v0.1.lock.json",
+  "frozen_source_sha256": "f5475f1e043eaa99526772c0e06677a74ab2c2abb8181755afbe02a10e395092",
+  "interruption_class": "infrastructure_sandbox_loopback_denied",
+  "interruption_evidence": "All eight initial target records contain PermissionError [Errno 1] while MinerU attempted to bind 127.0.0.1; no target parse succeeded.",
+  "completed_pages_reused": [],
+  "remaining_pages": [58, 65, 66, 80, 123, 124, 135, 136],
+  "policy": "Use the same frozen source, questions, page windows and runtime configuration; create a separate RESUME archive and run only incomplete pages."
+}

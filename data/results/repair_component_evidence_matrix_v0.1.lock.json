@@ -1,0 +1,98 @@
+{
+  "schema_version": "0.1",
+  "record_kind": "repair_component_evidence_matrix",
+  "status": "component_evidence_consolidation_complete",
+  "evidence_scale": {
+    "L1": "development regression only",
+    "L2": "unseen fail-closed behavior demonstrated",
+    "L3": "at least one new unseen success after frozen development",
+    "L4": "repeated unseen success across heterogeneous reports; not yet reached"
+  },
+  "components": [
+    {
+      "component": "FIELD_EVIDENCE_BINDING_INCOMPLETE",
+      "evidence_level": "L2",
+      "unseen_contracts": {"passed": 1, "failed": 0, "total": 1},
+      "distinct_reports": 1,
+      "demonstrated": "compound evidence collections are rejected when a unique field binding cannot be established",
+      "known_boundary": "no unseen positive unique-field completion has yet been demonstrated",
+      "promotion_gate_role": "blocking_screen_only"
+    },
+    {
+      "component": "PERIOD_ATTACHMENT_INCOMPLETE",
+      "evidence_level": "L2",
+      "exposed_screens": {"eligible": 1, "ineligible": 1, "total": 2},
+      "unseen_contracts": {"passed": 1, "failed": 0, "total": 1},
+      "distinct_reports": 3,
+      "demonstrated": "ambiguous value-to-period attachment fails closed; unique period binding can pass the exposed screen",
+      "known_boundary": "unseen evidence currently demonstrates rejection rather than positive completion",
+      "promotion_gate_role": "blocking_screen_only"
+    },
+    {
+      "component": "UNIT_ATTACHMENT_INCOMPLETE",
+      "evidence_level": "L2",
+      "exposed_screens": {"eligible": 1, "ineligible": 1, "total": 2},
+      "unseen_contracts": {"passed": 1, "failed": 0, "total": 1},
+      "distinct_reports": 3,
+      "demonstrated": "missing or non-identical unit markers fail closed; an identical bound marker can pass the exposed screen",
+      "known_boundary": "unseen evidence currently demonstrates rejection rather than positive completion",
+      "promotion_gate_role": "blocking_screen_only"
+    },
+    {
+      "component": "TABLE_CELL_BINDING_INCOMPLETE",
+      "evidence_level": "L3",
+      "unseen_contracts": {"passed": 1, "failed": 3, "total": 4},
+      "distinct_reports": 3,
+      "demonstrated": "new row-year-cell binding succeeded after row-token, structured-quote and multi-level-header repairs",
+      "known_boundary": "only one post-repair unseen success; arbitrary complex or merged tables are not established",
+      "promotion_gate_role": "conditional_shadow_evidence"
+    },
+    {
+      "component": "NATIVE_PDF_CORROBORATION_INCOMPLETE",
+      "evidence_level": "L3",
+      "unseen_contracts": {"passed": 1, "failed": 1, "total": 2},
+      "distinct_reports": 2,
+      "demonstrated": "contract-provided row tokens generalized to one new report after removal of a case-specific condition",
+      "known_boundary": "one post-repair unseen success is insufficient for heterogeneous-layout claims",
+      "promotion_gate_role": "conditional_shadow_evidence"
+    },
+    {
+      "component": "CALCULATION_LINEAGE_INCOMPLETE",
+      "evidence_level": "L3",
+      "unseen_contracts": {"passed": 1, "failed": 3, "total": 4},
+      "distinct_reports": 1,
+      "demonstrated": "exact row binding and a frozen binary add graph succeeded on a new fact",
+      "known_boundary": "all unseen calculation cases are from one report and the operation whitelist remains narrow",
+      "promotion_gate_role": "conditional_shadow_evidence"
+    }
+  ],
+  "aggregate": {
+    "components": 6,
+    "levels": {"L2": 3, "L3": 3, "L4": 0},
+    "automatic_promotion_ready_components": 0,
+    "supervised_dry_run_ready_components": 6
+  },
+  "promotion_preconditions": [
+    "source hash and local artifact match",
+    "raw evidence is preserved",
+    "all type-required dimensions are explicitly passed or not applicable by frozen policy",
+    "no unresolved conflict or higher-severity knowledge gap remains",
+    "calculated facts include a successful deterministic replay",
+    "the gate emits an auditable rollback plan",
+    "no component result alone can authorize promotion"
+  ],
+  "source_closures": [
+    {"path": "data/results/unseen_repair_component_validation_closure.lock.json", "sha256": "1f2e0e41fb808f536cd72c12b9eefc329d789a80869fd68a6da99b780110cf27"},
+    {"path": "data/results/period_unit_binding_screens_closure.lock.json", "sha256": "1b1d968567cbc2855523ff51107fc0c95efef9ccf11b1a055e0d5af483550c39"},
+    {"path": "data/results/second_unseen_adapter_validation_closure.lock.json", "sha256": "609ff866c0e12ef2106874e5454fe9187b7a1dde73db72c99cb930d318a83fda"},
+    {"path": "data/results/third_unseen_adapter_validation_closure.lock.json", "sha256": "7619e9c4d7d1853c156ebb19cdc7708da20bcd6a8a783eeb40a1061bc73b522a"},
+    {"path": "data/results/fourth_unseen_adapter_validation_closure.lock.json", "sha256": "f55dbdfa428189f0b1e505d39f13cff27704ff94070e65c87e31d1b12237cd3a"}
+  ],
+  "safety": {
+    "historical_results_modified": false,
+    "fact_write_performed": false,
+    "trust_promotion_performed": false,
+    "cloud_transmission_performed": false
+  },
+  "next_gate": "implement a stratified read-only supervised promotion dry-run"
+}

@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["schema_version", "record_kind", "validation_id", "case_id", "fact_record_id", "task_id", "predicate", "value", "resolved_population", "checks", "validation_status", "execution_performed", "promotion_performed", "rollback"],
+  "properties": {
+    "schema_version": {"const": "0.1"},
+    "record_kind": {"const": "organizational_population_boundary_validation"},
+    "validation_id": {"type": "string"},
+    "case_id": {"type": "string"},
+    "fact_record_id": {"type": "string"},
+    "task_id": {"type": "string"},
+    "predicate": {"type": "string"},
+    "value": {"type": ["number", "integer", "string"]},
+    "resolved_population": {
+      "type": "object",
+      "required": ["scope_role", "period", "worker_type", "global_headcount", "covered_headcount", "excluded_headcount", "permanent_employees", "temporary_employees", "excluded_entity_reason", "audit_status"]
+    },
+    "checks": {"type": "object", "minProperties": 10, "additionalProperties": {"type": "boolean"}},
+    "validation_status": {"enum": ["ready_for_supervised_execution", "blocked_explicitly_unaudited", "not_ready"]},
+    "execution_performed": {"const": false},
+    "promotion_performed": {"const": false},
+    "rollback": {"type": "string"}
+  },
+  "additionalProperties": false
+}

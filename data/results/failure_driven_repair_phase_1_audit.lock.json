@@ -1,0 +1,134 @@
+{
+  "audit_id": "ESG-FAILURE-DRIVEN-REPAIR-PHASE-1-v0.1",
+  "inputs": {
+    "configs/knowledge/repair_strategy_catalog_v0.1.json": "b12a71fa9e111bc83e80a3881f282269b3473cc77a7ee31e085b6e3927f2d82b",
+    "data/knowledge_bases/v0.1/failure_records.jsonl": "bac85772c9a3830c54fa03a2107851c35097ecd2540d58d7ae59479c4e4327ad",
+    "schemas/knowledge/failure-signature-priority-v0.1.schema.json": "7fd1a937a7c03fd996037ea4b4b532bfe7b381e3d865161e83290fa39a40005f"
+  },
+  "locked_experiments_modified_or_rescored": false,
+  "next_gate": "implement top capability workstream on exposed failures only",
+  "output": {
+    "path": "data/knowledge_bases/v0.1/failure_signature_priorities.jsonl",
+    "sha256": "8d51f33617f3a6e2d56f5388acd0323ca2ef5e5c3ece92dafeb15b9c0492bf9a"
+  },
+  "priority_method": {
+    "infrastructure_events_are_retained_but_zero_scored": true,
+    "ranking_inputs": [
+      "failure category impact",
+      "affected experiment breadth",
+      "bounded raw observations",
+      "strategy maturity gap",
+      "risk penalty"
+    ],
+    "raw_frequency_is_not_capability_priority": true
+  },
+  "schema_version": "0.1",
+  "scope": {
+    "capability_signatures": 18,
+    "failure_records": 1032,
+    "failure_signatures": 32,
+    "lane_observations": {
+      "knowledge_capability": 41,
+      "operational_infrastructure": 965,
+      "source_acquisition_integrity": 26
+    }
+  },
+  "status": "failure_corpus_triaged_and_capability_queue_frozen",
+  "top_capability_queue": [
+    {
+      "affected_experiments": 3,
+      "affected_tasks": 5,
+      "capability_rank": 1,
+      "execution_policy": "supervised",
+      "failure_category": "model_behavior",
+      "failure_owner": "candidate_model",
+      "failure_signature": "EVIDENCE_GROUNDING_MISMATCH",
+      "incident_episodes": 3,
+      "lane": "knowledge_capability",
+      "raw_observations": 5,
+      "record_kind": "failure_signature_priority",
+      "research_priority_score": 140,
+      "risk_level": "medium",
+      "schema_version": "0.1",
+      "source_artifacts": 3,
+      "strategy_id": "RS-EVIDENCE-RESELECTION",
+      "strategy_maturity": "historical_observation"
+    },
+    {
+      "affected_experiments": 3,
+      "affected_tasks": 4,
+      "capability_rank": 2,
+      "execution_policy": "supervised",
+      "failure_category": "model_behavior",
+      "failure_owner": "candidate_model",
+      "failure_signature": "CALCULATION_CONTRACT_VIOLATION",
+      "incident_episodes": 3,
+      "lane": "knowledge_capability",
+      "raw_observations": 4,
+      "record_kind": "failure_signature_priority",
+      "research_priority_score": 123,
+      "risk_level": "medium",
+      "schema_version": "0.1",
+      "source_artifacts": 3,
+      "strategy_id": "RS-CALCULATION-CONTRACT-LOWERING",
+      "strategy_maturity": "development_validated"
+    },
+    {
+      "affected_experiments": 1,
+      "affected_tasks": 1,
+      "capability_rank": 3,
+      "execution_policy": "supervised",
+      "failure_category": "retrieval_or_evidence_selection",
+      "failure_owner": "unknown",
+      "failure_signature": "EVIDENCE_SELECTION_GAP",
+      "incident_episodes": 1,
+      "lane": "knowledge_capability",
+      "raw_observations": 1,
+      "record_kind": "failure_signature_priority",
+      "research_priority_score": 122,
+      "risk_level": "medium",
+      "schema_version": "0.1",
+      "source_artifacts": 1,
+      "strategy_id": "RS-EVIDENCE-RESELECTION",
+      "strategy_maturity": "historical_observation"
+    },
+    {
+      "affected_experiments": 1,
+      "affected_tasks": 1,
+      "capability_rank": 4,
+      "execution_policy": "supervised",
+      "failure_category": "retrieval_or_evidence_selection",
+      "failure_owner": "framework",
+      "failure_signature": "TARGET_ASSURANCE_WINDOW_INCOMPLETE",
+      "incident_episodes": 1,
+      "lane": "knowledge_capability",
+      "raw_observations": 1,
+      "record_kind": "failure_signature_priority",
+      "research_priority_score": 122,
+      "risk_level": "medium",
+      "schema_version": "0.1",
+      "source_artifacts": 1,
+      "strategy_id": "RS-EVIDENCE-RESELECTION",
+      "strategy_maturity": "historical_observation"
+    },
+    {
+      "affected_experiments": 2,
+      "affected_tasks": 6,
+      "capability_rank": 5,
+      "execution_policy": "supervised",
+      "failure_category": "model_behavior",
+      "failure_owner": "candidate_model",
+      "failure_signature": "COLLECTION_SHAPE_VIOLATION",
+      "incident_episodes": 2,
+      "lane": "knowledge_capability",
+      "raw_observations": 6,
+      "record_kind": "failure_signature_priority",
+      "research_priority_score": 117,
+      "risk_level": "medium",
+      "schema_version": "0.1",
+      "source_artifacts": 2,
+      "strategy_id": "RS-COLLECTION-CONTRACT-PROJECTION",
+      "strategy_maturity": "development_validated"
+    }
+  ]
+}

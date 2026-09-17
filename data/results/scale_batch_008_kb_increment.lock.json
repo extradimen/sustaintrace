@@ -1,0 +1,32 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-008",
+  "status": "increment_built_candidates_not_promoted",
+  "fact_candidates": 48,
+  "trusted_facts_promoted": 0,
+  "evidence_gaps": 1,
+  "failure_observations": 31,
+  "gaps": [
+    {
+      "document_id": "KB-B008-SANDVIK-AR2025",
+      "page": 80,
+      "theme": "circularity",
+      "reason": "no_theme_line_in_mineru_markdown"
+    }
+  ],
+  "outputs": {
+    "facts": {
+      "path": "data/knowledge_bases/v0.1/increments/scale_batch_008_fact_records.jsonl",
+      "sha256": "6e412e8d326fd06e7f798430c01cdccc59375c72149a4f83c9dbe1ef48e80b7b"
+    },
+    "failures": {
+      "path": "data/knowledge_bases/v0.1/increments/scale_batch_008_failure_records.jsonl",
+      "sha256": "6664b24e2cb39cb7b3aef6b79f74577a4fd219da7070e020dc5617b3d24f5383"
+    }
+  },
+  "policy": {
+    "cloud_transmission": false,
+    "locked_experiments_modified": false,
+    "automatic_promotion": false
+  }
+}

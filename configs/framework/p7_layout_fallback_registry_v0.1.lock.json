@@ -1,0 +1,19 @@
+{
+  "schema_version":"1.0",
+  "status":"frozen_before_candidate_inference",
+  "selection_rule":"task-page native PDF fallback frozen from layout complexity before candidate inference; no reference-answer selection",
+  "targets":[
+    {"task_id":"P7-SAFETY-001","document_id":"P7-ARCELORMITTAL-SR2025","document_sha256":"6fea5a01167e914af111dfe0d1699048c4bdeb7ee9214bda85343628bbcb3cd6","pdf_path":"data/raw/p7_staging/arcelormittal-sustainability-report-2025.pdf","pdf_page":50},
+    {"task_id":"P7-CALC-001","document_id":"P7-ARCELORMITTAL-SR2025","document_sha256":"6fea5a01167e914af111dfe0d1699048c4bdeb7ee9214bda85343628bbcb3cd6","pdf_path":"data/raw/p7_staging/arcelormittal-sustainability-report-2025.pdf","pdf_page":3},
+    {"task_id":"P7-CALC-001","document_id":"P7-ARCELORMITTAL-SR2025","document_sha256":"6fea5a01167e914af111dfe0d1699048c4bdeb7ee9214bda85343628bbcb3cd6","pdf_path":"data/raw/p7_staging/arcelormittal-sustainability-report-2025.pdf","pdf_page":6},
+    {"task_id":"P7-TARGET-001","document_id":"P7-ARCELORMITTAL-SR2025","document_sha256":"6fea5a01167e914af111dfe0d1699048c4bdeb7ee9214bda85343628bbcb3cd6","pdf_path":"data/raw/p7_staging/arcelormittal-sustainability-report-2025.pdf","pdf_page":20},
+    {"task_id":"P7-PORTFOLIO-001","document_id":"P7-ARCELORMITTAL-SR2025","document_sha256":"6fea5a01167e914af111dfe0d1699048c4bdeb7ee9214bda85343628bbcb3cd6","pdf_path":"data/raw/p7_staging/arcelormittal-sustainability-report-2025.pdf","pdf_page":4},
+    {"task_id":"P7-PORTFOLIO-001","document_id":"P7-ARCELORMITTAL-SR2025","document_sha256":"6fea5a01167e914af111dfe0d1699048c4bdeb7ee9214bda85343628bbcb3cd6","pdf_path":"data/raw/p7_staging/arcelormittal-sustainability-report-2025.pdf","pdf_page":65},
+    {"task_id":"P7-PORTFOLIO-001","document_id":"P7-ARCELORMITTAL-SR2025","document_sha256":"6fea5a01167e914af111dfe0d1699048c4bdeb7ee9214bda85343628bbcb3cd6","pdf_path":"data/raw/p7_staging/arcelormittal-sustainability-report-2025.pdf","pdf_page":66},
+    {"task_id":"P7-INTENSITY-001","document_id":"P7-ARCELORMITTAL-SR2025","document_sha256":"6fea5a01167e914af111dfe0d1699048c4bdeb7ee9214bda85343628bbcb3cd6","pdf_path":"data/raw/p7_staging/arcelormittal-sustainability-report-2025.pdf","pdf_page":4},
+    {"task_id":"P7-INTENSITY-001","document_id":"P7-ARCELORMITTAL-SR2025","document_sha256":"6fea5a01167e914af111dfe0d1699048c4bdeb7ee9214bda85343628bbcb3cd6","pdf_path":"data/raw/p7_staging/arcelormittal-sustainability-report-2025.pdf","pdf_page":52},
+    {"task_id":"P7-ASSURE-001","document_id":"P7-ARCELORMITTAL-SR2025","document_sha256":"6fea5a01167e914af111dfe0d1699048c4bdeb7ee9214bda85343628bbcb3cd6","pdf_path":"data/raw/p7_staging/arcelormittal-sustainability-report-2025.pdf","pdf_page":89},
+    {"task_id":"P7-ASSURE-001","document_id":"P7-ARCELORMITTAL-SR2025","document_sha256":"6fea5a01167e914af111dfe0d1699048c4bdeb7ee9214bda85343628bbcb3cd6","pdf_path":"data/raw/p7_staging/arcelormittal-sustainability-report-2025.pdf","pdf_page":90},
+    {"task_id":"P7-ASSURE-001","document_id":"P7-ARCELORMITTAL-SR2025","document_sha256":"6fea5a01167e914af111dfe0d1699048c4bdeb7ee9214bda85343628bbcb3cd6","pdf_path":"data/raw/p7_staging/arcelormittal-sustainability-report-2025.pdf","pdf_page":91}
+  ]
+}

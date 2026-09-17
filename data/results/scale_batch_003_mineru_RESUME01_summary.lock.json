@@ -1,0 +1,40 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-003-MINERU-RESUME01",
+  "updated_at": "2026-09-12T16:19:35.989595+00:00",
+  "status": "complete",
+  "cloud_transmission": false,
+  "total_target_pages": 3,
+  "complete_pages": 3,
+  "failed_pages": 0,
+  "pending_pages": 0,
+  "records": [
+    {
+      "document_id": "KB-B003-AZ-SDA2025",
+      "page": 2,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_003/mineru_targets_RESUME01/KB-B003-AZ-SDA2025-p0002",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B003-DHL-AR2025",
+      "page": 79,
+      "themes": [
+        "targets"
+      ],
+      "output_directory": "artifacts/scale_batch_003/mineru_targets_RESUME01/KB-B003-DHL-AR2025-p0079",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B003-DHL-AR2025",
+      "page": 127,
+      "themes": [
+        "water"
+      ],
+      "output_directory": "artifacts/scale_batch_003/mineru_targets_RESUME01/KB-B003-DHL-AR2025-p0127",
+      "status": "complete"
+    }
+  ]
+}

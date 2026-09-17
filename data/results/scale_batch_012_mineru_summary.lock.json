@@ -1,0 +1,328 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-012",
+  "updated_at": "2026-09-13T06:25:01.686908+00:00",
+  "status": "complete",
+  "cloud_transmission": false,
+  "total_target_pages": 26,
+  "complete_pages": 24,
+  "failed_pages": 2,
+  "pending_pages": 0,
+  "records": [
+    {
+      "document_id": "KB-B012-AIR-LIQUIDE-URD2025",
+      "page": 311,
+      "themes": [
+        "targets"
+      ],
+      "output_directory": "artifacts/scale_batch_012/mineru_targets/KB-B012-AIR-LIQUIDE-URD2025-p0311",
+      "status": "complete",
+      "started_at": "2026-09-13T06:17:06.576024+00:00",
+      "completed_at": "2026-09-13T06:17:27.292681+00:00",
+      "wall_seconds": 20.716739
+    },
+    {
+      "document_id": "KB-B012-AIR-LIQUIDE-URD2025",
+      "page": 319,
+      "themes": [
+        "ghg_emissions"
+      ],
+      "output_directory": "artifacts/scale_batch_012/mineru_targets/KB-B012-AIR-LIQUIDE-URD2025-p0319",
+      "status": "complete",
+      "started_at": "2026-09-13T06:17:27.293018+00:00",
+      "completed_at": "2026-09-13T06:17:44.379693+00:00",
+      "wall_seconds": 17.086854
+    },
+    {
+      "document_id": "KB-B012-AIR-LIQUIDE-URD2025",
+      "page": 324,
+      "themes": [
+        "energy"
+      ],
+      "output_directory": "artifacts/scale_batch_012/mineru_targets/KB-B012-AIR-LIQUIDE-URD2025-p0324",
+      "status": "complete",
+      "started_at": "2026-09-13T06:17:44.380087+00:00",
+      "completed_at": "2026-09-13T06:18:03.154657+00:00",
+      "wall_seconds": 18.774767
+    },
+    {
+      "document_id": "KB-B012-AIR-LIQUIDE-URD2025",
+      "page": 328,
+      "themes": [
+        "water"
+      ],
+      "output_directory": "artifacts/scale_batch_012/mineru_targets/KB-B012-AIR-LIQUIDE-URD2025-p0328",
+      "status": "complete",
+      "started_at": "2026-09-13T06:18:03.155012+00:00",
+      "completed_at": "2026-09-13T06:18:19.148222+00:00",
+      "wall_seconds": 15.99338
+    },
+    {
+      "document_id": "KB-B012-AIR-LIQUIDE-URD2025",
+      "page": 330,
+      "themes": [
+        "biodiversity",
+        "circularity"
+      ],
+      "output_directory": "artifacts/scale_batch_012/mineru_targets/KB-B012-AIR-LIQUIDE-URD2025-p0330",
+      "status": "complete",
+      "started_at": "2026-09-13T06:18:19.149546+00:00",
+      "completed_at": "2026-09-13T06:18:34.910587+00:00",
+      "wall_seconds": 15.761205
+    },
+    {
+      "document_id": "KB-B012-AIR-LIQUIDE-URD2025",
+      "page": 331,
+      "themes": [
+        "workforce"
+      ],
+      "output_directory": "artifacts/scale_batch_012/mineru_targets/KB-B012-AIR-LIQUIDE-URD2025-p0331",
+      "status": "complete",
+      "started_at": "2026-09-13T06:18:34.910946+00:00",
+      "completed_at": "2026-09-13T06:18:51.767745+00:00",
+      "wall_seconds": 16.856976
+    },
+    {
+      "document_id": "KB-B012-AIR-LIQUIDE-URD2025",
+      "page": 339,
+      "themes": [
+        "health_safety"
+      ],
+      "output_directory": "artifacts/scale_batch_012/mineru_targets/KB-B012-AIR-LIQUIDE-URD2025-p0339",
+      "status": "complete",
+      "started_at": "2026-09-13T06:18:51.768135+00:00",
+      "completed_at": "2026-09-13T06:19:07.564899+00:00",
+      "wall_seconds": 15.796929
+    },
+    {
+      "document_id": "KB-B012-AIR-LIQUIDE-URD2025",
+      "page": 365,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_012/mineru_targets/KB-B012-AIR-LIQUIDE-URD2025-p0365",
+      "status": "complete",
+      "started_at": "2026-09-13T06:19:07.565252+00:00",
+      "completed_at": "2026-09-13T06:19:22.347561+00:00",
+      "wall_seconds": 14.782465
+    },
+    {
+      "document_id": "KB-B012-STORA-ENSO-AR2025",
+      "page": 95,
+      "themes": [
+        "targets"
+      ],
+      "output_directory": "artifacts/scale_batch_012/mineru_targets/KB-B012-STORA-ENSO-AR2025-p0095",
+      "status": "complete",
+      "started_at": "2026-09-13T06:19:22.347952+00:00",
+      "completed_at": "2026-09-13T06:19:40.057774+00:00",
+      "wall_seconds": 17.710008
+    },
+    {
+      "document_id": "KB-B012-STORA-ENSO-AR2025",
+      "page": 97,
+      "themes": [
+        "energy"
+      ],
+      "output_directory": "artifacts/scale_batch_012/mineru_targets/KB-B012-STORA-ENSO-AR2025-p0097",
+      "status": "complete",
+      "started_at": "2026-09-13T06:19:40.058211+00:00",
+      "completed_at": "2026-09-13T06:19:57.837925+00:00",
+      "wall_seconds": 17.7799
+    },
+    {
+      "document_id": "KB-B012-STORA-ENSO-AR2025",
+      "page": 99,
+      "themes": [
+        "ghg_emissions"
+      ],
+      "output_directory": "artifacts/scale_batch_012/mineru_targets/KB-B012-STORA-ENSO-AR2025-p0099",
+      "status": "complete",
+      "started_at": "2026-09-13T06:19:57.838335+00:00",
+      "completed_at": "2026-09-13T06:20:15.766880+00:00",
+      "wall_seconds": 17.928734
+    },
+    {
+      "document_id": "KB-B012-STORA-ENSO-AR2025",
+      "page": 105,
+      "themes": [
+        "water"
+      ],
+      "output_directory": "artifacts/scale_batch_012/mineru_targets/KB-B012-STORA-ENSO-AR2025-p0105",
+      "status": "complete",
+      "started_at": "2026-09-13T06:20:15.767292+00:00",
+      "completed_at": "2026-09-13T06:20:32.605860+00:00",
+      "wall_seconds": 16.838745
+    },
+    {
+      "document_id": "KB-B012-STORA-ENSO-AR2025",
+      "page": 108,
+      "themes": [
+        "biodiversity"
+      ],
+      "output_directory": "artifacts/scale_batch_012/mineru_targets/KB-B012-STORA-ENSO-AR2025-p0108",
+      "status": "complete",
+      "started_at": "2026-09-13T06:20:32.606289+00:00",
+      "completed_at": "2026-09-13T06:20:49.566684+00:00",
+      "wall_seconds": 16.960638
+    },
+    {
+      "document_id": "KB-B012-STORA-ENSO-AR2025",
+      "page": 113,
+      "themes": [
+        "circularity"
+      ],
+      "output_directory": "artifacts/scale_batch_012/mineru_targets/KB-B012-STORA-ENSO-AR2025-p0113",
+      "status": "complete",
+      "started_at": "2026-09-13T06:20:49.567749+00:00",
+      "completed_at": "2026-09-13T06:21:07.774794+00:00",
+      "wall_seconds": 18.207229
+    },
+    {
+      "document_id": "KB-B012-STORA-ENSO-AR2025",
+      "page": 120,
+      "themes": [
+        "workforce"
+      ],
+      "output_directory": "artifacts/scale_batch_012/mineru_targets/KB-B012-STORA-ENSO-AR2025-p0120",
+      "status": "complete",
+      "started_at": "2026-09-13T06:21:07.775424+00:00",
+      "completed_at": "2026-09-13T06:21:29.495397+00:00",
+      "wall_seconds": 21.720202
+    },
+    {
+      "document_id": "KB-B012-STORA-ENSO-AR2025",
+      "page": 121,
+      "themes": [
+        "health_safety"
+      ],
+      "output_directory": "artifacts/scale_batch_012/mineru_targets/KB-B012-STORA-ENSO-AR2025-p0121",
+      "status": "complete",
+      "started_at": "2026-09-13T06:21:29.495790+00:00",
+      "completed_at": "2026-09-13T06:21:51.737051+00:00",
+      "wall_seconds": 22.241495
+    },
+    {
+      "document_id": "KB-B012-STORA-ENSO-AR2025",
+      "page": 213,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_012/mineru_targets/KB-B012-STORA-ENSO-AR2025-p0213",
+      "status": "complete",
+      "started_at": "2026-09-13T06:21:51.737540+00:00",
+      "completed_at": "2026-09-13T06:22:10.470594+00:00",
+      "wall_seconds": 18.733254
+    },
+    {
+      "document_id": "KB-B012-VINCI-URD2025",
+      "page": 229,
+      "themes": [
+        "targets"
+      ],
+      "output_directory": "artifacts/scale_batch_012/mineru_targets/KB-B012-VINCI-URD2025-p0229",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_012/mineru_targets/KB-B012-VINCI-URD2025-p0229/esg_rd_mineru_run.json",
+      "started_at": "2026-09-13T06:22:10.471137+00:00",
+      "completed_at": "2026-09-13T06:22:26.009736+00:00",
+      "wall_seconds": 15.538763
+    },
+    {
+      "document_id": "KB-B012-VINCI-URD2025",
+      "page": 242,
+      "themes": [
+        "energy"
+      ],
+      "output_directory": "artifacts/scale_batch_012/mineru_targets/KB-B012-VINCI-URD2025-p0242",
+      "status": "complete",
+      "started_at": "2026-09-13T06:22:26.010254+00:00",
+      "completed_at": "2026-09-13T06:22:46.391227+00:00",
+      "wall_seconds": 20.38119
+    },
+    {
+      "document_id": "KB-B012-VINCI-URD2025",
+      "page": 243,
+      "themes": [
+        "ghg_emissions"
+      ],
+      "output_directory": "artifacts/scale_batch_012/mineru_targets/KB-B012-VINCI-URD2025-p0243",
+      "status": "complete",
+      "started_at": "2026-09-13T06:22:46.391962+00:00",
+      "completed_at": "2026-09-13T06:23:15.883527+00:00",
+      "wall_seconds": 29.491871
+    },
+    {
+      "document_id": "KB-B012-VINCI-URD2025",
+      "page": 249,
+      "themes": [
+        "circularity"
+      ],
+      "output_directory": "artifacts/scale_batch_012/mineru_targets/KB-B012-VINCI-URD2025-p0249",
+      "status": "complete",
+      "started_at": "2026-09-13T06:23:15.887267+00:00",
+      "completed_at": "2026-09-13T06:23:37.512007+00:00",
+      "wall_seconds": 21.624967
+    },
+    {
+      "document_id": "KB-B012-VINCI-URD2025",
+      "page": 254,
+      "themes": [
+        "water"
+      ],
+      "output_directory": "artifacts/scale_batch_012/mineru_targets/KB-B012-VINCI-URD2025-p0254",
+      "status": "complete",
+      "started_at": "2026-09-13T06:23:37.513091+00:00",
+      "completed_at": "2026-09-13T06:23:54.901442+00:00",
+      "wall_seconds": 17.388531
+    },
+    {
+      "document_id": "KB-B012-VINCI-URD2025",
+      "page": 256,
+      "themes": [
+        "biodiversity"
+      ],
+      "output_directory": "artifacts/scale_batch_012/mineru_targets/KB-B012-VINCI-URD2025-p0256",
+      "status": "complete",
+      "started_at": "2026-09-13T06:23:54.902184+00:00",
+      "completed_at": "2026-09-13T06:24:12.035344+00:00",
+      "wall_seconds": 17.13334
+    },
+    {
+      "document_id": "KB-B012-VINCI-URD2025",
+      "page": 271,
+      "themes": [
+        "workforce"
+      ],
+      "output_directory": "artifacts/scale_batch_012/mineru_targets/KB-B012-VINCI-URD2025-p0271",
+      "status": "complete",
+      "started_at": "2026-09-13T06:24:12.036056+00:00",
+      "completed_at": "2026-09-13T06:24:30.910690+00:00",
+      "wall_seconds": 18.874832
+    },
+    {
+      "document_id": "KB-B012-VINCI-URD2025",
+      "page": 278,
+      "themes": [
+        "health_safety"
+      ],
+      "output_directory": "artifacts/scale_batch_012/mineru_targets/KB-B012-VINCI-URD2025-p0278",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_012/mineru_targets/KB-B012-VINCI-URD2025-p0278/esg_rd_mineru_run.json",
+      "started_at": "2026-09-13T06:24:30.911560+00:00",
+      "completed_at": "2026-09-13T06:24:46.111386+00:00",
+      "wall_seconds": 15.199986
+    },
+    {
+      "document_id": "KB-B012-VINCI-URD2025",
+      "page": 348,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_012/mineru_targets/KB-B012-VINCI-URD2025-p0348",
+      "status": "complete",
+      "started_at": "2026-09-13T06:24:46.111853+00:00",
+      "completed_at": "2026-09-13T06:25:01.686412+00:00",
+      "wall_seconds": 15.574729
+    }
+  ]
+}

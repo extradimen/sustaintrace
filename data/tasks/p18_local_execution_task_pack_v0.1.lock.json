@@ -1,0 +1,92 @@
+{
+  "atomic_scoring_projection": "data/annotations/p18_simulated/p18_atomic_slot_gold_v0.1.lock.json",
+  "calculation_plans": "configs/framework/p18_calculation_plans_v0.1.lock.json",
+  "evidence_handle_whitelist": "configs/framework/p18_evidence_handle_whitelist_v0.1.lock.json",
+  "execution_config": "configs/experiments/p18-v27-unseen-lockbox-local.json",
+  "experiment_id": "P18-V27-UNSEEN-LOCKBOX-V01",
+  "inference_allowed": false,
+  "layout_fallback_registry": "configs/framework/p18_layout_fallback_registry_v0.1.lock.json",
+  "parent": "data/tasks/p18_task_pack_v0.1.lock.json",
+  "parser_registry": "data/manifests/p18_mineru_target_registry_v0.1.lock.json",
+  "reference_consistency_audit": "data/results/p18_prefreeze_reference_consistency_audit_v0.1.lock.json",
+  "reference_freeze": "data/manifests/p18_simulated_reference_freeze_v0.1.lock.json",
+  "release_condition": "User must explicitly authorize Deutsche Telekom Annual Report 2025 pages 109,121,122,123,131,133,370,371 to Ollama Cloud qwen3.5:397b-cloud solely for P18 Stage A/Stage B single-attempt candidate inference.",
+  "schema_version": "2.7",
+  "scoring_rules": "configs/framework/p18_scoring_rules_v0.1.lock.json",
+  "semantic_qualifiers": "configs/framework/p18_semantic_qualifiers_v0.1.lock.json",
+  "slot_contracts": "configs/framework/p18_slot_contracts_v0.1.lock.json",
+  "source_registry": "data/manifests/p18_source_registry_v0.1.lock.json",
+  "status": "frozen_local_pack_pending_explicit_cloud_authorization",
+  "table_graph": "configs/framework/p18_two_dimensional_table_graph_v0.1.lock.json",
+  "tasks": [
+    {
+      "document_id": "P18-DEUTSCHE-TELEKOM-AR2025",
+      "question": "Using Deutsche Telekom's reported 2025 market-based Scope 1 and Scope 2 emissions, calculate their sum and compare it with the disclosed Scope 1 and 2 market-based total, retaining the t CO2e unit; then calculate the percentage change in that disclosed total from 2024 to 2025, state whether it increased or decreased, and round the percentage to two decimals.",
+      "question_status": "frozen",
+      "reference_file": "data/annotations/p18_simulated/P18-GHG-CALC-001.json",
+      "target_pages": [
+        133
+      ],
+      "task_id": "P18-GHG-CALC-001",
+      "task_type": "deterministic_calculation"
+    },
+    {
+      "document_id": "P18-DEUTSCHE-TELEKOM-AR2025",
+      "question": "What 2025 and 2024 values does Deutsche Telekom report for total fossil energy consumption, total renewable energy consumption, self-generated non-fuel renewable energy, and total energy consumption, all in MWh; what narrative year-on-year GWh values are stated; and what retrospective qualification applies to the 2024 figures?",
+      "question_status": "frozen",
+      "reference_file": "data/annotations/p18_simulated/P18-ENERGY-001.json",
+      "target_pages": [
+        131
+      ],
+      "task_id": "P18-ENERGY-001",
+      "task_type": "direct_extraction_and_relation"
+    },
+    {
+      "document_id": "P18-DEUTSCHE-TELEKOM-AR2025",
+      "question": "For 2025 and 2024, report Deutsche Telekom's total, upstream, and downstream Scope 3 emissions in t CO2e; deterministically sum upstream and downstream for each year and compare each recomputed value with the corresponding disclosed Scope 3 total, preserving any one-unit rounding difference.",
+      "question_status": "frozen",
+      "reference_file": "data/annotations/p18_simulated/P18-SCOPE3-001.json",
+      "target_pages": [
+        133
+      ],
+      "task_id": "P18-SCOPE3-001",
+      "task_type": "deterministic_calculation"
+    },
+    {
+      "document_id": "P18-DEUTSCHE-TELEKOM-AR2025",
+      "question": "For December 31, 2025 and 2024, report Deutsche Telekom's Germany, International, and total employee FTE counts; deterministically sum Germany and International for each year and compare each recomputed value with the disclosed total, preserving any one-FTE difference.",
+      "question_status": "frozen",
+      "reference_file": "data/annotations/p18_simulated/P18-WORKFORCE-001.json",
+      "target_pages": [
+        109
+      ],
+      "task_id": "P18-WORKFORCE-001",
+      "task_type": "deterministic_calculation"
+    },
+    {
+      "document_id": "P18-DEUTSCHE-TELEKOM-AR2025",
+      "question": "What 2025 EU Taxonomy totals, taxonomy-eligible and taxonomy-aligned values and shares, and non-material activity shares does Deutsche Telekom report for turnover and capex; why was alignment not assessed for the non-material activities; and what changed for taxonomy-relevant opex in 2025?",
+      "question_status": "frozen",
+      "reference_file": "data/annotations/p18_simulated/P18-TAXONOMY-001.json",
+      "target_pages": [
+        121,
+        122,
+        123
+      ],
+      "task_id": "P18-TAXONOMY-001",
+      "task_type": "scope_subject_boundary"
+    },
+    {
+      "document_id": "P18-DEUTSCHE-TELEKOM-AR2025",
+      "question": "What part of Deutsche Telekom's 2025 Combined Sustainability Statement received limited assurance, which named indicators received reasonable assurance, what references were excluded, what conclusions or opinion were stated, which standard governed the engagement, and how does the report distinguish limited from reasonable assurance?",
+      "question_status": "frozen",
+      "reference_file": "data/annotations/p18_simulated/P18-ASSURE-001.json",
+      "target_pages": [
+        370,
+        371
+      ],
+      "task_id": "P18-ASSURE-001",
+      "task_type": "scope_subject_boundary"
+    }
+  ]
+}

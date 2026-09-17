@@ -1,0 +1,121 @@
+{
+  "schema_version": "0.1",
+  "record_kind": "unseen_repair_component_validation_manifest",
+  "status": "frozen_not_executed",
+  "selection_rule": "real locked records not used as development fixtures for the corresponding component",
+  "cases": [
+    {
+      "component": "FIELD_EVIDENCE_BINDING_INCOMPLETE",
+      "gap_id": "gap-02bd6916345a761c183f2403",
+      "fact_record_id": "fact-0d7af8243b72b4055764c1f8",
+      "task_id": "P18-ASSURE-001",
+      "source": {
+        "path": "data/raw/p18_staging/deutsche_telekom_annual_report_2025_en.pdf",
+        "sha256": "de5d9b0705793c4bf0b994b52ecc242800d79ee18736958dbff32aade7b79a5c"
+      },
+      "pages": [370, 371],
+      "expected_contract": {
+        "status": "blocked",
+        "reason": "multiple assurance procedure statements do not uniquely bind the compound field",
+        "required_fields": ["field_id", "collection_cardinality", "evidence_coordinates", "unique_binding", "blocking_reasons"]
+      }
+    },
+    {
+      "component": "TABLE_CELL_BINDING_INCOMPLETE",
+      "gap_id": "gap-03c18fbb71f3d6cdfe6b8eb5",
+      "fact_record_id": "fact-d9fe4e3cbecf1d7865da6391",
+      "task_id": "P23-WATER-CALC-001",
+      "source": {
+        "path": "data/raw/p23_staging/gsk-annual-report-2025.pdf",
+        "sha256": "a3ef37d848fca940f85b6c33815a5d47d1f32726fd389a03910653e24af0f4d2"
+      },
+      "pages": [78],
+      "expected_contract": {
+        "status": "passed",
+        "row": "areas of high water stress",
+        "column": "2024",
+        "value": "0.3",
+        "required_fields": ["page", "row_header", "column_header", "cell_value", "cell_coordinates", "parser_native_agreement"]
+      }
+    },
+    {
+      "component": "NATIVE_PDF_CORROBORATION_INCOMPLETE",
+      "gap_id": "gap-1ba7c3691eed34ffa15eb8a3",
+      "fact_record_id": "fact-7f0dc778365b7afaea468cac",
+      "task_id": "P18-GHG-CALC-001",
+      "source": {
+        "path": "data/raw/p18_staging/deutsche_telekom_annual_report_2025_en.pdf",
+        "sha256": "de5d9b0705793c4bf0b994b52ecc242800d79ee18736958dbff32aade7b79a5c"
+      },
+      "pages": [133],
+      "expected_contract": {
+        "status": "passed",
+        "value": "16,375",
+        "required_fields": ["page", "source_literal", "parser_literal", "normalized_literal", "literal_agreement", "layout_agreement"]
+      }
+    },
+    {
+      "component": "CALCULATION_LINEAGE_INCOMPLETE",
+      "gap_id": "gap-7702e0fdfb0de1b636bd0138",
+      "fact_record_id": "fact-d1ddf9f7ff9a245f0edb614a",
+      "task_id": "P22-ENERGY-CALC-001",
+      "source": {
+        "path": "data/raw/p22_staging/bayer-annual-report-2025.pdf",
+        "sha256": "0af4a9d19fd9d4cba72c1ec062802199873f2379f84112dc2db5dc9605ce769b"
+      },
+      "pages": [149],
+      "expected_contract": {
+        "status": "passed",
+        "operation": "percentage_change",
+        "inputs": [1560, 2013],
+        "value_rounded_2dp": 29.04,
+        "required_fields": ["input_cells", "operation_graph", "replay_output", "replay_status"]
+      }
+    },
+    {
+      "component": "PERIOD_ATTACHMENT_INCOMPLETE",
+      "gap_id": "gap-0052724760b404d19d6c27bb",
+      "fact_record_id": "fact-63d6dc3aa15af6a9d7269f46",
+      "task_id": "P15-TARGET-001",
+      "source": {
+        "path": "data/raw/p15_staging/novartis-report-nonfinancial-matters-2025.pdf",
+        "sha256": "8dbc7f74b114b52eafa7a454bd0cbe49efae3a8ea61e931f7eb075d39336758b"
+      },
+      "pages": [20, 21, 22],
+      "expected_contract": {
+        "eligibility": "ineligible",
+        "reason": "the value 90 percent is attached to different scopes and both 2030 and 2040; no single frozen cell or field"
+      }
+    },
+    {
+      "component": "UNIT_ATTACHMENT_INCOMPLETE",
+      "gap_id": "gap-28cee884a153b31a67566f66",
+      "fact_record_id": "fact-f2eb57b3c3909848b2a72fae",
+      "task_id": "P16-ACCESS-001",
+      "source": {
+        "path": "data/raw/p16_staging/sanofi-sustainability-statement-2025.pdf",
+        "sha256": "82547ddb72b6b05dca88f93ed4cfe13010cb5690a5693b96721e9be3ff9c8fcc"
+      },
+      "pages": [90],
+      "expected_contract": {
+        "eligibility": "eligible",
+        "value": "37,116",
+        "unit_marker": "Number of HCPs and HCWs engaged with NCD training programs",
+        "conversion_allowed": false
+      }
+    }
+  ],
+  "parent_hashes": {
+    "fact_records": "1da6f28e8c1b3125d07a52d39aed4e095c6f40ef71378173c36a1486f7cb890c",
+    "knowledge_gap_records": "858a37ede7bd213c1c3d1e9136d5d8be6bc6e6f12f147124318347cb3a8cef76",
+    "read_only_diagnostics_closure": "2e37f0a91f290a7d62d317f698e27e75dcf0dd92fbd889283784398611c97ef6",
+    "period_unit_screens_closure": "1b1d968567cbc2855523ff51107fc0c95efef9ccf11b1a055e0d5af483550c39"
+  },
+  "safety": {
+    "fact_write_allowed": false,
+    "trust_promotion_allowed": false,
+    "semantic_inference_allowed": false,
+    "cloud_transmission_allowed": false,
+    "bulk_repair_allowed": false
+  }
+}

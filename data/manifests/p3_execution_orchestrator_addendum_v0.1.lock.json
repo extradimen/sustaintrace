@@ -1,0 +1,14 @@
+{
+  "schema_version":"1.0",
+  "addendum_id":"P3-EXECUTION-ORCHESTRATOR-ADDENDUM-V01",
+  "status":"frozen_before_first_p3_candidate_inference",
+  "base_freeze":"data/manifests/p3_candidate_execution_freeze_v0.1.lock.json",
+  "base_freeze_sha256":"8066f441dd535cd15d16f94200eb1a98302ab7e4136b2b154022bd70ddf1d4ae",
+  "orchestrator_path":"scripts/run_p3_unseen.py",
+  "orchestrator_sha256":"3d907ba3fb367fad85917591ecbe88a6f51e0c2a1bef7eff3d43feaae5823aa2",
+  "tests_passed":156,
+  "orchestrator_reference_access":false,
+  "single_attempt_guard":true,
+  "failure_continuation":true,
+  "posthoc_repair":false
+}

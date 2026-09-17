@@ -1,0 +1,10 @@
+{
+  "schema_version":"1.0",
+  "experiment_id":"P8-V17-UNSEEN-LOCKBOX-V01",
+  "status":"parser_and_task_family_frozen_before_reference_creation_and_candidate_inference",
+  "source_manifest":"data/manifests/p8_source_acquisition_v0.1.lock.json",
+  "parser_stack":["MinerU 3.4.0 page-window pipeline","native PDF text and vector coordinate fallback","v1.5 spatial period binding","v1.7 inequality-threshold comparison","v1.7 attribution-versus-independent-causality classification","v1.7 multi-fragment string projection"],
+  "task_families":["direct_multiyear_extraction","deterministic_change_and_reported_comparison","target_threshold_and_offset_boundary","baseline_restatement_method","scope3_exclusion_boundary","multi-level_assurance_scope"],
+  "failure_policy":{"ambiguous_spatial_binding":"fail_closed","unsupported_attribution":"retain_as_unsupported","independent_causality":"requires_separate_identification_evidence","multi_fragment_grounding":"every_fragment_must_be_verbatim_grounded"},
+  "cloud_transmission_allowed":false
+}

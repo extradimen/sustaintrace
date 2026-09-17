@@ -1,0 +1,35 @@
+{
+  "schema_version": "0.1",
+  "policy": {
+    "automatic_fuzzy_merge": false,
+    "preserve_reported_subject_label": true,
+    "scope_note": "Group and legal-entity labels may resolve to one issuer entity, but the original reporting scope remains on every fact edge."
+  },
+  "canonical_entities": [
+    {
+      "canonical_name": "BASF SE",
+      "aliases": ["BASF Group", "BASF SE"],
+      "disambiguation": "German chemicals issuer; Group versus parent-company scope is retained in fact qualifiers."
+    },
+    {
+      "canonical_name": "Bayer AG",
+      "aliases": ["Bayer AG", "Bayer AG and Group"],
+      "disambiguation": "German life-sciences issuer; consolidated scope is retained on the fact edge."
+    },
+    {
+      "canonical_name": "BMW AG",
+      "aliases": ["BMW AG", "BMW Group"],
+      "disambiguation": "German automotive issuer; BMW Group denotes consolidated reporting scope."
+    },
+    {
+      "canonical_name": "Deutsche Telekom AG",
+      "aliases": ["Deutsche Telekom AG", "Deutsche Telekom AG and Group"],
+      "disambiguation": "German telecommunications issuer; Group scope remains explicit in qualifiers."
+    },
+    {
+      "canonical_name": "Holcim Ltd",
+      "aliases": ["Holcim Ltd", "Holcim Ltd Group"],
+      "disambiguation": "Swiss building-materials issuer; consolidated scope remains explicit in qualifiers."
+    }
+  ]
+}

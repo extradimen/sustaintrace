@@ -1,0 +1,13 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-006-RESUME01",
+  "parent_run": "data/results/scale_batch_006_mineru_summary.lock.json",
+  "parent_status": "complete",
+  "parent_complete_pages": 0,
+  "parent_failed_pages": 25,
+  "resume_reason": "All parent tasks failed because the restricted execution sandbox denied MinerU's localhost ephemeral-port bind; this is an infrastructure failure, not model or document behavior.",
+  "reuse_policy": "Retry only parent records whose status is failed, with the same frozen source files, target-page registry, parser configuration, and page identifiers.",
+  "output_root": "artifacts/scale_batch_006/mineru_targets_RESUME01",
+  "summary": "data/results/scale_batch_006_mineru_RESUME01_summary.lock.json",
+  "cloud_transmission": false
+}

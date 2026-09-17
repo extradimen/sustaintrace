@@ -1,0 +1,25 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-010",
+  "status": "increment_built_candidates_not_promoted",
+  "fact_candidates": 46,
+  "trusted_facts_promoted": 0,
+  "evidence_gaps": 0,
+  "failure_observations": 28,
+  "gaps": [],
+  "outputs": {
+    "facts": {
+      "path": "data/knowledge_bases/v0.1/increments/scale_batch_010_fact_records.jsonl",
+      "sha256": "7a1df5dd955ee0555a61bad7174318986be50002961f2f8afea19fac433d7917"
+    },
+    "failures": {
+      "path": "data/knowledge_bases/v0.1/increments/scale_batch_010_failure_records.jsonl",
+      "sha256": "608cd64c1be1836d62f9cffc3f4896586b57919bbe65157a77ce0a7cbb60a567"
+    }
+  },
+  "policy": {
+    "cloud_transmission": false,
+    "locked_experiments_modified": false,
+    "automatic_promotion": false
+  }
+}

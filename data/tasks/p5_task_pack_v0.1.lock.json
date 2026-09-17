@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0",
+  "experiment_id": "P5-V14-UNSEEN-LOCKBOX-V01",
+  "status": "questions_and_page_windows_frozen_before_reference_authoring",
+  "source_manifest": "data/manifests/p5_source_acquisition_v0.1.lock.json",
+  "discovery_index_manifest": "artifacts/p5/discovery_index_v01/index_manifest.json",
+  "discovery_index_manifest_sha256": "efc84f9d0b55c4fd669e4d355bb837029ed8d19501933e86960f4d2a33fa0ee8",
+  "tasks": [
+    {
+      "task_id": "P5-DEX-001",
+      "task_type": "direct_extraction",
+      "question": "What gross Scope 1 GHG emissions did Ahold Delhaize report for 2025 and restated 2024, in ktCO2e?",
+      "source_id": "P5-AHOLD-AR2025",
+      "pdf_pages": [295]
+    },
+    {
+      "task_id": "P5-CALC-001",
+      "task_type": "deterministic_calculation",
+      "question": "Using the reported 2025 and restated 2024 gross Scope 1 GHG emissions, what was the percentage change from 2024 to 2025? State the direction and show the framework calculation.",
+      "source_id": "P5-AHOLD-AR2025",
+      "pdf_pages": [295]
+    },
+    {
+      "task_id": "P5-SCOPE-001",
+      "task_type": "scope_subject_boundary",
+      "question": "What total water consumption was reported for 2025 and which operations are included in the stated boundary?",
+      "source_id": "P5-AHOLD-AR2025",
+      "pdf_pages": [364]
+    },
+    {
+      "task_id": "P5-XPAGE-001",
+      "task_type": "cross_page_relation",
+      "question": "How does the 2025 headline reduction in absolute Scope 1 and 2 emissions relate to the detailed reported 2025 total and the 2018 baseline?",
+      "source_id": "P5-AHOLD-AR2025",
+      "pdf_pages": [7, 295]
+    },
+    {
+      "task_id": "P5-DEX-002",
+      "task_type": "direct_extraction",
+      "question": "What shares of high-risk-country own-brand production sites met acceptable, stepping-stone, and combined social-compliance standards in 2025?",
+      "source_id": "P5-AHOLD-AR2025",
+      "pdf_pages": [318]
+    },
+    {
+      "task_id": "P5-ASSURE-001",
+      "task_type": "scope_subject_boundary",
+      "question": "What assurance level and subject matter are stated for the sustainability statements, and who performed the engagement?",
+      "source_id": "P5-AHOLD-AR2025",
+      "pdf_pages": [330, 331]
+    }
+  ],
+  "reference_answers_present": false,
+  "candidate_model_called": false,
+  "framework_frozen": true,
+  "p3_and_p4_unchanged": true
+}

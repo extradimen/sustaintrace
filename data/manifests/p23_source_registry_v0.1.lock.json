@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "registry_id": "P23-SOURCE-REGISTRY-v0.1",
+  "experiment_id": "P23-V32-UNSEEN-LOCKBOX-V01",
+  "status": "source_frozen_before_task_authoring_and_candidate_inference",
+  "candidates": [
+    {
+      "candidate_id": "P23-CAND-001",
+      "document_id": "P23-GSK-AR2025",
+      "company": "GSK plc",
+      "title": "2025 Annual Report",
+      "language": "English",
+      "eligibility_status": "eligible",
+      "sha256": "a3ef37d848fca940f85b6c33815a5d47d1f32726fd389a03910653e24af0f4d2",
+      "official_landing_page": "https://www.gsk.com/en-gb/investors/financial-reports/annual-report-2025/",
+      "local_path": "data/raw/p23_staging/gsk-annual-report-2025.pdf",
+      "page_count": 331
+    }
+  ]
+}

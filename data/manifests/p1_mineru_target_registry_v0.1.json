@@ -1,0 +1,310 @@
+{
+  "parser": "MinerU 3.4.0 pipeline",
+  "schema_version": "1.0",
+  "targets": [
+    {
+      "document_id": "AAPL-EPR-2025",
+      "document_sha256": "597676e8b48ac45529303abc7ef47425ca62ff4efc3a375962a077a033525f74",
+      "local_path": "p1/apple/AAPL-EPR-2025.pdf",
+      "output_directory": "artifacts/parsing/P1-APPLE-049/mineru-3.4.0-pipeline-v06-r2",
+      "pdf_page": 49,
+      "run_record_sha256": "20d2728fc4358b3a5ba66a61b2ed1861f325031f3e0274319b3b0278675ef479",
+      "status": "reused_verified_success",
+      "target_id": "AAPL-EPR-2025-p0049",
+      "task_ids": [
+        "P1-01-2"
+      ]
+    },
+    {
+      "document_id": "AAPL-EPR-2025",
+      "document_sha256": "597676e8b48ac45529303abc7ef47425ca62ff4efc3a375962a077a033525f74",
+      "local_path": "p1/apple/AAPL-EPR-2025.pdf",
+      "output_directory": "artifacts/parsing/P1-MINERU-TARGETS/AAPL-EPR-2025-p0104",
+      "pdf_page": 104,
+      "run_record_sha256": "a2330f026add2211972b0e14c2a2ca089bc699129ca2b089361260620e9c11c6",
+      "status": "reused_verified_success",
+      "target_id": "AAPL-EPR-2025-p0104",
+      "task_ids": [
+        "P1-01-1"
+      ]
+    },
+    {
+      "document_id": "AAPL-EPR-2025",
+      "document_sha256": "597676e8b48ac45529303abc7ef47425ca62ff4efc3a375962a077a033525f74",
+      "local_path": "p1/apple/AAPL-EPR-2025.pdf",
+      "output_directory": "artifacts/parsing/P1-MINERU-TARGETS/AAPL-EPR-2025-p0105",
+      "pdf_page": 105,
+      "run_record_sha256": "59de256ca1a952de00bd5f0a522e8a1e1f9627704f147312ff8a9d3f578266b0",
+      "status": "reused_verified_success",
+      "target_id": "AAPL-EPR-2025-p0105",
+      "task_ids": [
+        "P1-01-1"
+      ]
+    },
+    {
+      "document_id": "ABX-SR-2024",
+      "document_sha256": "3087499761aeedcd4f711848b7250d08433ace4c8b161e3d73810fde15c193ef",
+      "local_path": "p1/barrick/ABX-SR-2024.pdf",
+      "output_directory": "artifacts/parsing/P1-MINERU-TARGETS/ABX-SR-2024-p0071",
+      "pdf_page": 71,
+      "run_record_sha256": "d289f3cb6f76f6277bbb6014068b8799d798fd9fb44aeba761c96b3ab0797a9c",
+      "status": "reused_verified_success",
+      "target_id": "ABX-SR-2024-p0071",
+      "task_ids": [
+        "P1-10-1"
+      ]
+    },
+    {
+      "document_id": "ABX-SR-2024",
+      "document_sha256": "3087499761aeedcd4f711848b7250d08433ace4c8b161e3d73810fde15c193ef",
+      "local_path": "p1/barrick/ABX-SR-2024.pdf",
+      "output_directory": "artifacts/parsing/P1-MINERU-TARGETS/ABX-SR-2024-p0091",
+      "pdf_page": 91,
+      "run_record_sha256": "7e9149203a476213f8729194af0275b98e2eeb08b474539a81cf71a12d10f359",
+      "status": "reused_verified_success",
+      "target_id": "ABX-SR-2024-p0091",
+      "task_ids": [
+        "P1-10-2"
+      ]
+    },
+    {
+      "document_id": "ANZ-ESG-2024",
+      "document_sha256": "fb12855ad12a8435a7dfc798c0f49cfc5f53f7463f541a08dceec21eb37de7bc",
+      "local_path": "p1/anz/ANZ-ESG-2024.pdf",
+      "output_directory": "artifacts/parsing/P1-MINERU-TARGETS/ANZ-ESG-2024-p0065",
+      "pdf_page": 65,
+      "run_record_sha256": "a4529867d9a16c0641c8fd7641ec4cf519b77a618de885412692c115b7a242e0",
+      "status": "reused_verified_success",
+      "target_id": "ANZ-ESG-2024-p0065",
+      "task_ids": [
+        "P1-06-1",
+        "P1-06-2"
+      ]
+    },
+    {
+      "document_id": "ANZ-ESG-2024",
+      "document_sha256": "fb12855ad12a8435a7dfc798c0f49cfc5f53f7463f541a08dceec21eb37de7bc",
+      "local_path": "p1/anz/ANZ-ESG-2024.pdf",
+      "output_directory": "artifacts/parsing/P1-MINERU-TARGETS/ANZ-ESG-2024-p0074",
+      "pdf_page": 74,
+      "run_record_sha256": "d4480dd40fdcab1cda00e352f2ffadcdbd9932bd8d240ac7ad675fd6d3dc8e9c",
+      "status": "reused_verified_success",
+      "target_id": "ANZ-ESG-2024-p0074",
+      "task_ids": [
+        "P1-06-1"
+      ]
+    },
+    {
+      "document_id": "BASF-AR-2024",
+      "document_sha256": "6e09f996af8866f1a4a30df24f8c8447083282526e4800c83885c245bb33cc1c",
+      "local_path": "p1/basf/BASF-AR-2024.pdf",
+      "output_directory": "artifacts/parsing/P1-MINERU-TARGETS/BASF-AR-2024-p0200",
+      "pdf_page": 200,
+      "run_record_sha256": "b6e58b892be01d6f4ae64ec7184af0d926d76f8cbe3a1dac9e0f3d6f7066dbc1",
+      "status": "reused_verified_success",
+      "target_id": "BASF-AR-2024-p0200",
+      "task_ids": [
+        "P1-02-1",
+        "P1-02-2"
+      ]
+    },
+    {
+      "document_id": "BN-IR-2024",
+      "document_sha256": "1a29f6e56e4f721bacdf1e06dc9f627953807419019d89897d77cdb7a9e8ae28",
+      "local_path": "p1/danone/BN-IR-2024.pdf",
+      "output_directory": "artifacts/parsing/P1-MINERU-TARGETS/BN-IR-2024-p0009",
+      "pdf_page": 9,
+      "run_record_sha256": "18f62757667bd5a67c83dc3c4536745b5f869ccafe16b54d255f0302d5ead3bf",
+      "status": "reused_verified_success",
+      "target_id": "BN-IR-2024-p0009",
+      "task_ids": [
+        "P1-08-1",
+        "P1-08-2"
+      ]
+    },
+    {
+      "document_id": "CRM-IR-2024",
+      "document_sha256": "1cdd2fade9f3aca498fb0e4b24f59112f2f6f065ece09c6a6771cda854e9fb80",
+      "local_path": "p1/salesforce/CRM-IR-2024.pdf",
+      "output_directory": "artifacts/parsing/P1-MINERU-TARGETS/CRM-IR-2024-p0093",
+      "pdf_page": 93,
+      "run_record_sha256": "6bcdac285ad5a29c4f1e82dcf67de4dd0eb4a9afe0dbbf79e082e507f874a30d",
+      "status": "reused_verified_success",
+      "target_id": "CRM-IR-2024-p0093",
+      "task_ids": [
+        "P1-04-1",
+        "P1-04-2"
+      ]
+    },
+    {
+      "document_id": "DD-SR-2025",
+      "document_sha256": "a6ccd9ed842ceeb3c46074ded124d4034211c70afe887994e6c126d8020cfa12",
+      "local_path": "p1/dupont/DD-SR-2025.pdf",
+      "output_directory": "artifacts/parsing/P1-MINERU-TARGETS/DD-SR-2025-p0021",
+      "pdf_page": 21,
+      "run_record_sha256": "33b1dcee3da83b3cc4aa362743c88262791dbb60ab4d70a1af105b6493a19971",
+      "status": "reused_verified_success",
+      "target_id": "DD-SR-2025-p0021",
+      "task_ids": [
+        "P1-09-1"
+      ]
+    },
+    {
+      "document_id": "DD-SR-2025",
+      "document_sha256": "a6ccd9ed842ceeb3c46074ded124d4034211c70afe887994e6c126d8020cfa12",
+      "local_path": "p1/dupont/DD-SR-2025.pdf",
+      "output_directory": "artifacts/parsing/P1-MINERU-TARGETS/DD-SR-2025-p0093",
+      "pdf_page": 93,
+      "run_record_sha256": "75c4ee1ebeb68899142d6e05f9e7c7196ec7a3eeaa261a57edf0104f925ca0ea",
+      "status": "reused_verified_success",
+      "target_id": "DD-SR-2025-p0093",
+      "task_ids": [
+        "P1-09-1"
+      ]
+    },
+    {
+      "document_id": "DD-SR-2025",
+      "document_sha256": "a6ccd9ed842ceeb3c46074ded124d4034211c70afe887994e6c126d8020cfa12",
+      "local_path": "p1/dupont/DD-SR-2025.pdf",
+      "output_directory": "artifacts/parsing/P1-MINERU-TARGETS/DD-SR-2025-p0097",
+      "pdf_page": 97,
+      "run_record_sha256": "6e68351fe00512d893870b1698d3e97eb8dedf13006f3e0cace3efd857825214",
+      "status": "reused_verified_success",
+      "target_id": "DD-SR-2025-p0097",
+      "task_ids": [
+        "P1-09-2"
+      ]
+    },
+    {
+      "document_id": "ENEL-IR-2024",
+      "document_sha256": "29144b4aeafaddc22783325cfadb6868905922eb8250dddf148ccf896679f840",
+      "local_path": "p1/enel/ENEL-IR-2024.pdf",
+      "output_directory": "artifacts/parsing/P1-MINERU-TARGETS/ENEL-IR-2024-p0129",
+      "output_file_count": 9,
+      "pdf_page": 129,
+      "run_record_sha256": "3a4b3173256558cc78f8d8f3a7167a78c981d3656278d81a9e8afd9885386172",
+      "status": "parsed",
+      "target_id": "ENEL-IR-2024-p0129",
+      "task_ids": [
+        "P1-11-1",
+        "P1-11-2"
+      ]
+    },
+    {
+      "document_id": "HITACHI-SR-2024",
+      "document_sha256": "f1415cbb31a4ada7af2dcbd7e6ed13524e4bff8059173e7e1bc9ad120561e6b1",
+      "local_path": "p1/hitachi/HITACHI-SR-2024.pdf",
+      "output_directory": "artifacts/parsing/P1-MINERU-TARGETS/HITACHI-SR-2024-p0067",
+      "output_file_count": 9,
+      "pdf_page": 67,
+      "run_record_sha256": "b3938b10dd9a2017a3f61848d719dc726118739b485cc978eb089a6cc2beb54c",
+      "status": "parsed",
+      "target_id": "HITACHI-SR-2024-p0067",
+      "task_ids": [
+        "P1-03-1"
+      ]
+    },
+    {
+      "document_id": "HITACHI-SR-2024",
+      "document_sha256": "f1415cbb31a4ada7af2dcbd7e6ed13524e4bff8059173e7e1bc9ad120561e6b1",
+      "local_path": "p1/hitachi/HITACHI-SR-2024.pdf",
+      "output_directory": "artifacts/parsing/P1-MINERU-TARGETS/HITACHI-SR-2024-p0095",
+      "output_file_count": 9,
+      "pdf_page": 95,
+      "run_record_sha256": "407b47738dea07888fdd7aadf5d01382a81b2fd79600a2b6171c89b0cc9e3c22",
+      "status": "parsed",
+      "target_id": "HITACHI-SR-2024-p0095",
+      "task_ids": [
+        "P1-03-1",
+        "P1-03-2"
+      ]
+    },
+    {
+      "document_id": "SAMSUNG-SR-2024",
+      "document_sha256": "10e8067428e488958c8558c831cfa4145e84865a372943040e47093852135d18",
+      "local_path": "p1/samsung/SAMSUNG-SR-2024.pdf",
+      "output_directory": "artifacts/parsing/P1-MINERU-TARGETS/SAMSUNG-SR-2024-p0062",
+      "output_file_count": 12,
+      "pdf_page": 62,
+      "run_record_sha256": "8e8ab160b4d328b943108b1a60047399e5fa3922ba4df07b5515ccc80f889866",
+      "status": "parsed",
+      "target_id": "SAMSUNG-SR-2024-p0062",
+      "task_ids": [
+        "P1-05-1",
+        "P1-05-2"
+      ]
+    },
+    {
+      "document_id": "SBKK-SR-2024",
+      "document_sha256": "7c5f044cac2bd9355bccc34ff1c73c7cbec58e8cfaf6288eafd32a05ec7e1e79",
+      "local_path": "p1/softbank/SBKK-SR-2024.pdf",
+      "output_directory": "artifacts/parsing/P1-MINERU-TARGETS/SBKK-SR-2024-p0017",
+      "output_file_count": 9,
+      "pdf_page": 17,
+      "run_record_sha256": "d5b04e5e6df92111ee8dcc5e4704b8a83e11bd56b10b84f4783e7f974d5afb51",
+      "status": "parsed",
+      "target_id": "SBKK-SR-2024-p0017",
+      "task_ids": [
+        "P1-07-2"
+      ]
+    },
+    {
+      "document_id": "SBKK-SR-2024",
+      "document_sha256": "7c5f044cac2bd9355bccc34ff1c73c7cbec58e8cfaf6288eafd32a05ec7e1e79",
+      "local_path": "p1/softbank/SBKK-SR-2024.pdf",
+      "output_directory": "artifacts/parsing/P1-MINERU-TARGETS/SBKK-SR-2024-p0079",
+      "output_file_count": 9,
+      "pdf_page": 79,
+      "run_record_sha256": "8fbfb69a9e5b4f58df0147ea7434423f4f7671ae490462bb78cf29c09a609c27",
+      "status": "parsed",
+      "target_id": "SBKK-SR-2024-p0079",
+      "task_ids": [
+        "P1-07-1",
+        "P1-07-2"
+      ]
+    },
+    {
+      "document_id": "VOLV-B-AR-2024",
+      "document_sha256": "214cc7b27d96278ab4ed3734447a01ebeec71b1d2ce741c4b1d2190e4e51734d",
+      "local_path": "p1/volvo/VOLV-B-AR-2024.pdf",
+      "output_directory": "artifacts/parsing/P1-MINERU-TARGETS/VOLV-B-AR-2024-p0158",
+      "output_file_count": 9,
+      "pdf_page": 158,
+      "run_record_sha256": "e76aa05404ea4bdd46f564d9e29949c536c4e9c367269ec166e0805647d64d6a",
+      "status": "parsed",
+      "target_id": "VOLV-B-AR-2024-p0158",
+      "task_ids": [
+        "P1-12-2"
+      ]
+    },
+    {
+      "document_id": "VOLV-B-AR-2024",
+      "document_sha256": "214cc7b27d96278ab4ed3734447a01ebeec71b1d2ce741c4b1d2190e4e51734d",
+      "local_path": "p1/volvo/VOLV-B-AR-2024.pdf",
+      "output_directory": "artifacts/parsing/P1-MINERU-TARGETS/VOLV-B-AR-2024-p0160",
+      "output_file_count": 9,
+      "pdf_page": 160,
+      "run_record_sha256": "892700c86bbdc285dca8ff27a2affa773c62bb5ef3342b97b1fa0529a87a7182",
+      "status": "parsed",
+      "target_id": "VOLV-B-AR-2024-p0160",
+      "task_ids": [
+        "P1-12-1"
+      ]
+    },
+    {
+      "document_id": "VOLV-B-AR-2024",
+      "document_sha256": "214cc7b27d96278ab4ed3734447a01ebeec71b1d2ce741c4b1d2190e4e51734d",
+      "local_path": "p1/volvo/VOLV-B-AR-2024.pdf",
+      "output_directory": "artifacts/parsing/P1-MINERU-TARGETS/VOLV-B-AR-2024-p0217",
+      "output_file_count": 11,
+      "pdf_page": 217,
+      "run_record_sha256": "7421fe56381aaa9e3e3b7984101abf0d948e8b87ca99eb5c93031ad0208e01ea",
+      "status": "parsed",
+      "target_id": "VOLV-B-AR-2024-p0217",
+      "task_ids": [
+        "P1-12-2"
+      ]
+    }
+  ],
+  "unique_target_count": 22
+}

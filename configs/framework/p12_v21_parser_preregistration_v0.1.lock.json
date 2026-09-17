@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "experiment_id": "P12-V21-UNSEEN-LOCKBOX-V01",
+  "status": "parser_rules_frozen_before_body_parsing_and_task_authoring",
+  "framework_version": "v2.1",
+  "document_id": "P12-VOLKSWAGEN-AR2025",
+  "document_sha256": "6f3f1b606fe771020dad30685ad0140114e0f23fd6f0921bd47f0975e07d4338",
+  "parser": {
+    "discovery_only": "native pdftotext with page separators; may locate candidate pages but may not create reference answers",
+    "primary_evidence": "MinerU target pages only",
+    "fallback_evidence": "native PDF bbox-layout plus v2.1 two-dimensional table graph",
+    "page_numbering": "one-based physical PDF pages",
+    "evidence_selection": "task page windows frozen before simulated reference authoring",
+    "cloud_transmission": false
+  },
+  "planned_task_families": [
+    "safety direct extraction",
+    "deterministic calculation with disclosed comparison",
+    "climate target object flattened to atomic fields",
+    "reporting boundary with mandatory qualifiers",
+    "scope 3 methodology grounded collection envelope",
+    "assurance scope and exclusions grounded collection envelope"
+  ],
+  "minimum_independent_consistency_gates": [
+    "every cited reference page belongs to the frozen task window",
+    "every reference literal is present verbatim or deterministically numeric-equivalent in frozen evidence",
+    "every requested field is answerable inside the frozen page window",
+    "every collection member and mandatory qualifier is independently grounded"
+  ],
+  "candidate_model": "qwen3.5:397b-cloud",
+  "candidate_inference_allowed": false
+}

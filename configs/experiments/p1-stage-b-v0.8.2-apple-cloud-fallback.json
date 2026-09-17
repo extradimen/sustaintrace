@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "experiment_id": "P1-STAGE-B-V082-APPLE-CLOUD-FALLBACK",
+  "status": "completed_passed",
+  "framework_freeze_id": "P1-STAGE-B-FREEZE-v0.8.2",
+  "triggering_local_run": "P1-01-2-GEMMA4-12B-stage-b-v082-r1",
+  "triggering_local_outcome": "1200_second_timeout_no_model_output",
+  "fallback_model": "qwen3.5:397b-cloud",
+  "fallback_digest": "68d2a0796c11e1fedd0456a2d55e58cca4077be6a218428a7a7f4e21f8177cbc",
+  "fallback_parameter_size": "397B",
+  "fallback_quantization": "BF16",
+  "run_id": "P1-01-2-QWEN397B-stage-b-v082-r1",
+  "same_parent_run": "P1-01-2-GEMMA4-12B-v075-r1",
+  "same_framework_schema_prompt_ontology_and_evidence": true,
+  "transmission_scope": {
+    "selected_public_evidence_handles": ["M049-B0031"],
+    "stage_a_answer": true,
+    "ontology_constraints": true,
+    "full_report": false
+  },
+  "explicit_user_authorization_received": true,
+  "local_result_overwritten": false,
+  "fallback_scored_as_separate_model_arm": true,
+  "silent_retry": false,
+  "reference_answer_visible_during_inference": false,
+  "elapsed_seconds": 59.65374233300099,
+  "validation_status": "passed",
+  "semantic_completeness": "passed_observed_claim",
+  "validated_claim_count": 1,
+  "validated_claim": {
+    "claim_kind": "observed",
+    "metric_id": "freshwater_use_avoided",
+    "normalized_value": 161,
+    "canonical_unit": "million_gallons",
+    "period_year": 2024,
+    "scope_id": "corporate_offices_and_data_centers",
+    "evidence_handle": "M049-B0031"
+  },
+  "sha256s_sha256": "03abfd2e4896e9fd7f5ce945255907f6ad88c784e454980fcedae28d2faa7e50"
+}

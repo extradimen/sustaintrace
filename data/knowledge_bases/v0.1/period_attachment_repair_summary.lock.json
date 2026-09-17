@@ -1,0 +1,28 @@
+{
+  "attachments_created": 31,
+  "fact_sources_modified": 0,
+  "facts_with_only_period_gap_before_repair": 5,
+  "next_gate": "re-audit repaired facts and then validate unit attachment candidates",
+  "output": {
+    "path": "data/knowledge_bases/v0.1/period_attachment_repairs.jsonl",
+    "sha256": "4b9a46cd0c70833f4af876eee4d44a5f92e78621c4175ebcd48d9330daf03d50"
+  },
+  "parent_artifacts": [
+    {
+      "path": "data/knowledge_bases/v0.1/fact_records.jsonl",
+      "sha256": "8af57e7b7bda85deef8f90586f8225aedcf1da24e0669300115b8f1f7499bf5b"
+    },
+    {
+      "path": "data/knowledge_bases/v0.1/joint_fact_qualifications.jsonl",
+      "sha256": "9f63f2f3f819ddc456a8ddc5601c92a080f8b15759dd183f5dd946d5ba8fda0c"
+    },
+    {
+      "path": "data/knowledge_bases/v0.1/knowledge_gap_records.jsonl",
+      "sha256": "858a37ede7bd213c1c3d1e9136d5d8be6bc6e6f12f147124318347cb3a8cef76"
+    }
+  ],
+  "promotions_performed": 0,
+  "rollback_ledgers": 31,
+  "schema_version": "0.1",
+  "status": "derived_period_repairs_executed_no_fact_promotion"
+}

@@ -1,0 +1,35 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-014",
+  "created_at": "2026-09-13T07:41:26.145699+00:00",
+  "source_config": "configs/knowledge/scale_batch_014_v0.1.json",
+  "documents": [
+    {
+      "document_id": "KB-B014-SCA-AR2025",
+      "local_path": "data/raw/scale_batch_014/sca-annual-report-2025.pdf",
+      "bytes": 18388159,
+      "sha256": "47307fff6ceff81324c577b6b069b641d46b1cf0253d3ab4a93adcc0ae961bd5",
+      "pdf_header_valid": true,
+      "download_status": "downloaded",
+      "resumed_from_bytes": 0
+    },
+    {
+      "document_id": "KB-B014-TRELLEBORG-AR2025",
+      "local_path": "data/raw/scale_batch_014/trelleborg-annual-report-2025.pdf",
+      "bytes": 17184903,
+      "sha256": "8a5cc7172c54f5f5bf9c12d5db75f8bd0d734539436aa89cc590b435a837223f",
+      "pdf_header_valid": true,
+      "download_status": "downloaded",
+      "resumed_from_bytes": 0
+    },
+    {
+      "document_id": "KB-B014-ESSITY-AR2025",
+      "local_path": "data/raw/scale_batch_014/essity-annual-report-2025.pdf",
+      "bytes": 13798111,
+      "sha256": "95bb4e9968ebfe8350ad8bc6055f3fe5d204c2c53a23669cede94831559e63b7",
+      "pdf_header_valid": true,
+      "download_status": "downloaded",
+      "resumed_from_bytes": 0
+    }
+  ]
+}

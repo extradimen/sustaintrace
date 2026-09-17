@@ -1,0 +1,40 @@
+{
+  "schema_version": "3.2",
+  "experiment_id": "P23-V32-UNSEEN-LOCKBOX-V01",
+  "status": "local_milestone_complete_waiting_for_payload_specific_cloud_authorization",
+  "document_id": "P23-GSK-AR2025",
+  "document_sha256": "a3ef37d848fca940f85b6c33815a5d47d1f32726fd389a03910653e24af0f4d2",
+  "progress": {
+    "source_freeze_percent": 100,
+    "question_page_window_freeze_percent": 100,
+    "mineru_parse_percent": 100,
+    "reference_and_contract_freeze_percent": 100,
+    "local_validation_percent": 100,
+    "cloud_candidate_inference_percent": 0,
+    "scoring_and_final_archive_percent": 0
+  },
+  "counts": {
+    "tasks": 6,
+    "unique_pages": 4,
+    "mineru_successes": 4,
+    "preserved_infrastructure_failures": 4,
+    "reference_quotes": 49,
+    "atomic_slots": 64,
+    "pytest_passed": 296
+  },
+  "quality_gates": {
+    "reference_consistency": "passed",
+    "calculation_plan_preflight": "passed",
+    "ruff": "passed",
+    "p23_json": "passed",
+    "full_repository_json": "known_preexisting_failure_outside_p23"
+  },
+  "cloud_boundary": {
+    "candidate_model": "qwen3.5:397b-cloud",
+    "authorized_pages_required": [54, 55, 78, 79],
+    "authorized_scope_required": "P23 Stage A/Stage B single-attempt candidate inference",
+    "cloud_transmission_count": 0,
+    "candidate_model_call_count": 0
+  },
+  "locked_prior_experiments_modified": false
+}

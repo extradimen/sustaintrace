@@ -1,0 +1,107 @@
+{
+  "checkpoint_resume_enabled": true,
+  "cloud_authorization": "data/manifests/p15_cloud_authorization_2026-09-09.lock.json",
+  "experiment_id": "P15-V24-UNSEEN-LOCKBOX-V01",
+  "records": [
+    {
+      "retried": false,
+      "stage_a": "failed",
+      "stage_a_error": "OllamaError:Ollama connection failed: [Errno 1] Operation not permitted",
+      "stage_a_failure_taxonomy": {
+        "category": "executor",
+        "error_type": "OllamaError",
+        "model_call_started": false,
+        "owner": "framework",
+        "retry_policy": "no_retry_in_locked_experiment",
+        "score_as_model_failure": false,
+        "stage": "stage_a"
+      },
+      "task_id": "P15-GHG-CALC-001",
+      "task_type": "deterministic_calculation"
+    },
+    {
+      "retried": false,
+      "stage_a": "failed",
+      "stage_a_error": "OllamaError:Ollama connection failed: [Errno 1] Operation not permitted",
+      "stage_a_failure_taxonomy": {
+        "category": "executor",
+        "error_type": "OllamaError",
+        "model_call_started": false,
+        "owner": "framework",
+        "retry_policy": "no_retry_in_locked_experiment",
+        "score_as_model_failure": false,
+        "stage": "stage_a"
+      },
+      "task_id": "P15-TARGET-001",
+      "task_type": "scope_subject_boundary"
+    },
+    {
+      "retried": false,
+      "stage_a": "failed",
+      "stage_a_error": "OllamaError:Ollama connection failed: [Errno 1] Operation not permitted",
+      "stage_a_failure_taxonomy": {
+        "category": "executor",
+        "error_type": "OllamaError",
+        "model_call_started": false,
+        "owner": "framework",
+        "retry_policy": "no_retry_in_locked_experiment",
+        "score_as_model_failure": false,
+        "stage": "stage_a"
+      },
+      "task_id": "P15-WATER-QUALITY-001",
+      "task_type": "direct_extraction"
+    },
+    {
+      "retried": false,
+      "stage_a": "failed",
+      "stage_a_error": "OllamaError:Ollama connection failed: [Errno 1] Operation not permitted",
+      "stage_a_failure_taxonomy": {
+        "category": "executor",
+        "error_type": "OllamaError",
+        "model_call_started": false,
+        "owner": "framework",
+        "retry_policy": "no_retry_in_locked_experiment",
+        "score_as_model_failure": false,
+        "stage": "stage_a"
+      },
+      "task_id": "P15-SAFETY-001",
+      "task_type": "direct_extraction"
+    },
+    {
+      "retried": false,
+      "stage_a": "failed",
+      "stage_a_error": "OllamaError:Ollama connection failed: [Errno 1] Operation not permitted",
+      "stage_a_failure_taxonomy": {
+        "category": "executor",
+        "error_type": "OllamaError",
+        "model_call_started": false,
+        "owner": "framework",
+        "retry_policy": "no_retry_in_locked_experiment",
+        "score_as_model_failure": false,
+        "stage": "stage_a"
+      },
+      "task_id": "P15-ACCESS-001",
+      "task_type": "scope_subject_boundary"
+    },
+    {
+      "retried": false,
+      "stage_a": "failed",
+      "stage_a_error": "OllamaError:Ollama connection failed: [Errno 1] Operation not permitted",
+      "stage_a_failure_taxonomy": {
+        "category": "executor",
+        "error_type": "OllamaError",
+        "model_call_started": false,
+        "owner": "framework",
+        "retry_policy": "no_retry_in_locked_experiment",
+        "score_as_model_failure": false,
+        "stage": "stage_a"
+      },
+      "task_id": "P15-ASSURE-001",
+      "task_type": "scope_subject_boundary"
+    }
+  ],
+  "reference_loaded_by_orchestrator": false,
+  "schema_version": "2.4",
+  "single_attempt_per_stage": true,
+  "updated_at": "2026-09-09T14:21:31.057210+00:00"
+}

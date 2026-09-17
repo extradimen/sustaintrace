@@ -1,0 +1,53 @@
+{
+  "schema_version": "2.6",
+  "status": "development_regression_and_pipeline_integration_passed",
+  "development_source": "P16 exposed failures only",
+  "locked_parent_result": "data/results/p16_v25_unseen_lockbox_v0.1_result.lock.json",
+  "locked_parent_result_sha256": "022497ca2502c17f73414faa9859a2f63ca18e9a82b8eb263265ff8e2aed7ad8",
+  "changes": {
+    "unlabeled_calculation_inputs": "accepted only when the frozen plan declares an exact candidate_input_role_order and unit",
+    "candidate_evidence_handles": "compact deterministic membership audit before semantic projection",
+    "atomic_partial_projection": "valid emitted atoms are preserved while missing required slots remain explicit and no values are invented",
+    "annotated_numeric_literals": "source annotations remain in verbatim evidence while the grounded numeric value remains atomic",
+    "semantic_single_block_spans": "frozen alternative literal groups may lower an ordered span to one evidence block while retaining candidate-selected verbatim source text"
+  },
+  "safety_properties": {
+    "candidate_operation_trusted": false,
+    "unfrozen_positional_role_binding_allowed": false,
+    "invented_handle_allowed": false,
+    "missing_slot_value_invention_allowed": false,
+    "source_verbatim_rewritten": false,
+    "posthoc_hidden_reference_used": false
+  },
+  "verification": {
+    "p16_exposed_regression_tests": 4,
+    "p16_exposed_regression_status": "passed",
+    "full_pytest_tests": 256,
+    "full_pytest_status": "passed",
+    "ruff_status": "passed"
+  },
+  "files": {
+    "v26_integrity": {
+      "path": "src/esg_reliable_discovery/v26_integrity.py",
+      "sha256": "09c3d850abe314c1befa6753a56ea8d220c6038bf8967cda2239da24e8086004"
+    },
+    "stage_a_runner": {
+      "path": "src/esg_reliable_discovery/v13_stage_a_runner.py",
+      "sha256": "5c6e4881a78b52f8a5e026ad7befe98b7c902b836dbe7d7ce580bb50801f8482"
+    },
+    "stage_b_runner": {
+      "path": "src/esg_reliable_discovery/v13_stage_b_runner.py",
+      "sha256": "aa0acf0adcaa409ad4f7ffc8c44ca3dab4f084c3f01112edd00ce669218b1bc9"
+    },
+    "regression_tests": {
+      "path": "tests/test_v26_p16_exposed_regression.py",
+      "sha256": "13fa830d70d31e5d0b52020bbb60baaa07317dd2caa1a4ae2a58fe8cc99118d2"
+    }
+  },
+  "immutability": {
+    "p3_through_p16_modified": false,
+    "p16_rerun": false,
+    "p16_rescore": false,
+    "v2.6_ready_for_new_unseen_lockbox": true
+  }
+}

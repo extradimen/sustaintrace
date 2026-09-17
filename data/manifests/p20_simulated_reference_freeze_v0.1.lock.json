@@ -1,0 +1,59 @@
+{
+  "candidate_reference_visibility": false,
+  "cloud_transmission_allowed": false,
+  "document_id": "P20-HOLCIM-SS2025",
+  "document_sha256": "55b975cd13fc361638ed13bf32856a2629e46e88bdfc6ad9208bd8807992a599",
+  "experiment_id": "P20-V29-UNSEEN-LOCKBOX-V01",
+  "integrity_audit": {
+    "all_quotes_exact_substrings_of_frozen_MinerU_markdown": true,
+    "all_reference_pages_within_frozen_task_windows": true,
+    "candidate_model_used": false,
+    "cloud_transmission_occurred": false,
+    "evidence_quote_count": 50,
+    "numeric_values_cross_checked_against_native_layout": true,
+    "reference_count": 6
+  },
+  "manifest_id": "P20-SIMULATED-REFERENCE-FREEZE-v0.1",
+  "references": [
+    {
+      "path": "data/annotations/p20_simulated/P20-ASSURE-001.json",
+      "sha256": "4ee6cc303f301fa97629c630c43191aafafbdd6609b6ab3b3db0381f8dece67d",
+      "task_id": "P20-ASSURE-001"
+    },
+    {
+      "path": "data/annotations/p20_simulated/P20-ENERGY-001.json",
+      "sha256": "ebcd9b69b1f3aa60d21c9c4b0be13fff50a15f21c212142c3f7fae5418cab385",
+      "task_id": "P20-ENERGY-001"
+    },
+    {
+      "path": "data/annotations/p20_simulated/P20-GHG-CALC-001.json",
+      "sha256": "756d9cea5b64250a36c675574612425056ef11c0dce93e980e1d973e427c1485",
+      "task_id": "P20-GHG-CALC-001"
+    },
+    {
+      "path": "data/annotations/p20_simulated/P20-SCOPE3-001.json",
+      "sha256": "2b32dcfbdda05a04f8d29f3a6a8ddaa2dc76331afd89ded0e5f29609fd0133df",
+      "task_id": "P20-SCOPE3-001"
+    },
+    {
+      "path": "data/annotations/p20_simulated/P20-TAXONOMY-001.json",
+      "sha256": "6241674f68eaee7dde0df35fd829d6b6d7db8727ab2b3190be576f2eddd13823",
+      "task_id": "P20-TAXONOMY-001"
+    },
+    {
+      "path": "data/annotations/p20_simulated/P20-WORKFORCE-001.json",
+      "sha256": "2ff0c04bb4a9e292caf58e308930ad9919e2a0897d7f679700e44904971805a1",
+      "task_id": "P20-WORKFORCE-001"
+    }
+  ],
+  "schema_version": "1.0",
+  "status": "simulated_references_frozen_after_questions_page_windows_and_parser_outputs_and_before_candidate_inference",
+  "target_registry": {
+    "path": "data/manifests/p20_mineru_target_registry_RESUME01_v0.1.lock.json",
+    "sha256": "d01df6e57f754af0c7ae9608222422c6570fc8025c653210adc28fc31e3fa8e4"
+  },
+  "task_pack": {
+    "path": "data/tasks/p20_task_pack_v0.1.lock.json",
+    "sha256": "a41201260608c5e89e5616d1829193c5c62b45fcc3413ef2a44e69d8ad55a55b"
+  }
+}

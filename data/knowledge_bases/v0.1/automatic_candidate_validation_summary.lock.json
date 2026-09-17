@@ -1,0 +1,15 @@
+{
+  "candidate_count": 4,
+  "execution_count": 0,
+  "next_gate": "execute only in a new operational run with immutable parent lineage",
+  "not_ready": 0,
+  "output": {
+    "path": "data/knowledge_bases/v0.1/automatic_candidate_validations.jsonl",
+    "sha256": "388ed2f7a330eba306e63e31883d6cb3251d0679c9de4df85674657f4401f7c5"
+  },
+  "ready_not_executed": 4,
+  "rollback_ledgers_prepared": 4,
+  "schema_version": "0.1",
+  "status": "automatic_candidate_validation_complete_no_execution",
+  "strategy_catalog_sha256": "b0723192ecb92fcca97a4e151f638d8b6d296ca1cdbff1d7e06168c4e9635205"
+}

@@ -1,0 +1,73 @@
+{
+  "answer": "At year-end 2025, global employee headcount was 46,055. The contract table covered 40,590 permanent and 3,285 temporary employees, summing to 43,875; the 2,180 difference is exactly the newly acquired-entity population excluded from contract-type and other SF metrics. Non-guaranteed-hours employees numbered 140, while the separate percentage table rounded their share to 0%.",
+  "evidence": [
+    {
+      "pdf_page": 120,
+      "quote": "Holcim’s workforce comprised 46 055 employees",
+      "source_id": "P20-HOLCIM-SS2025"
+    },
+    {
+      "pdf_page": 120,
+      "quote": "excludes 2 180 employees from newly acquired entities",
+      "source_id": "P20-HOLCIM-SS2025"
+    },
+    {
+      "pdf_page": 121,
+      "quote": "Number of employees (headcount)",
+      "source_id": "P20-HOLCIM-SS2025"
+    },
+    {
+      "pdf_page": 121,
+      "quote": "Number of permanent employees",
+      "source_id": "P20-HOLCIM-SS2025"
+    },
+    {
+      "pdf_page": 121,
+      "quote": "Number of temporary employees",
+      "source_id": "P20-HOLCIM-SS2025"
+    },
+    {
+      "pdf_page": 121,
+      "quote": "Number of non-guaranteed hours employees",
+      "source_id": "P20-HOLCIM-SS2025"
+    },
+    {
+      "pdf_page": 121,
+      "quote": "<td>43 875</td>",
+      "source_id": "P20-HOLCIM-SS2025"
+    },
+    {
+      "pdf_page": 121,
+      "quote": "<td>40 590</td>",
+      "source_id": "P20-HOLCIM-SS2025"
+    },
+    {
+      "pdf_page": 121,
+      "quote": "<td>3 285</td>",
+      "source_id": "P20-HOLCIM-SS2025"
+    },
+    {
+      "pdf_page": 121,
+      "quote": "<td>140</td>",
+      "source_id": "P20-HOLCIM-SS2025"
+    }
+  ],
+  "normalized_value": {
+    "calculated_contract_headcount::2025": 43875,
+    "difference_headcount::2025": 2180,
+    "exclusion_explanation": "newly acquired entities such as ZinCo and Alkern had not implemented Success Factors and were excluded from contract-type metrics",
+    "global_headcount::2025": 46055,
+    "non_guaranteed_hours_headcount::2025": 140,
+    "non_guaranteed_hours_rounded_percent::2025": 0,
+    "permanent_headcount_contract_table::2025": 40590,
+    "temporary_headcount_contract_table::2025": 3285
+  },
+  "provenance": {
+    "candidate_model_used": false,
+    "reference_is_simulated": true
+  },
+  "reference_author": "codex_gpt_simulated_expert",
+  "reference_status": "verified_against_frozen_mineru_pages_and_native_layout",
+  "schema_version": "1.0",
+  "task_id": "P20-WORKFORCE-001"
+}

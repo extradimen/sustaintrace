@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "experiment_id": "P15-V24-UNSEEN-LOCKBOX-V01",
+  "status": "frozen_local_pack_pending_explicit_cloud_authorization",
+  "inference_allowed": false,
+  "parent": "data/tasks/p15_task_pack_v0.1.lock.json",
+  "source_registry": "data/manifests/p15_source_registry_v0.1.lock.json",
+  "parser_registry": "data/manifests/p15_mineru_target_registry_RESUME03_v0.1.json",
+  "reference_freeze": "data/manifests/p15_simulated_reference_and_contract_freeze_v0.1.lock.json",
+  "prefreeze_audit": "data/results/p15_v24_prefreeze_integrity_audit_RESUME01_v0.1.lock.json",
+  "slot_contracts": "configs/framework/p15_slot_contracts_v0.1.lock.json",
+  "semantic_qualifiers": "configs/framework/p15_semantic_qualifiers_v0.1.lock.json",
+  "table_graph": "configs/framework/p15_two_dimensional_table_graph_v0.1.lock.json",
+  "layout_fallback_registry": "configs/framework/p15_layout_fallback_registry_v0.1.lock.json",
+  "calculation_plans": "configs/framework/p15_calculation_plans_v0.1.lock.json",
+  "tasks": [
+    {"task_id":"P15-GHG-CALC-001","reference_file":"data/annotations/p15_simulated/P15-GHG-CALC-001.json","target_pages":[27,28]},
+    {"task_id":"P15-TARGET-001","reference_file":"data/annotations/p15_simulated/P15-TARGET-001.json","target_pages":[20,21,22]},
+    {"task_id":"P15-WATER-QUALITY-001","reference_file":"data/annotations/p15_simulated/P15-WATER-QUALITY-001.json","target_pages":[29,30]},
+    {"task_id":"P15-SAFETY-001","reference_file":"data/annotations/p15_simulated/P15-SAFETY-001.json","target_pages":[31,32]},
+    {"task_id":"P15-ACCESS-001","reference_file":"data/annotations/p15_simulated/P15-ACCESS-001.json","target_pages":[36]},
+    {"task_id":"P15-ASSURE-001","reference_file":"data/annotations/p15_simulated/P15-ASSURE-001.json","target_pages":[43,44,45]}
+  ],
+  "release_condition": "User must explicitly authorize Novartis Report on Nonfinancial Matters 2025 pages 20,21,22,27,28,29,30,31,32,36,43,44,45 to Ollama Cloud qwen3.5:397b-cloud solely for P15 Stage A/Stage B single-attempt candidate inference."
+}

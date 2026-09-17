@@ -1,0 +1,58 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-004",
+  "status": "source_locked_pending_acquisition",
+  "policy": {
+    "local_only": true,
+    "cloud_transmission": false,
+    "locked_experiments_untouched": ["P3-P23"],
+    "download_resume": true,
+    "overwrite_verified_files": false,
+    "fact_promotion_requires_independent_gate": true
+  },
+  "selection_rationale": "Three previously unused issuers spanning health technology, construction materials, and packaging/paper. Each source is an official English 2025 annual, universal-registration, or sustainability report and was excluded from P3-P23 and scale batches 001-003.",
+  "documents": [
+    {
+      "document_id": "KB-B004-PHILIPS-AR2025",
+      "source_group_id": "KB-PHILIPS-2025",
+      "company": "Koninklijke Philips N.V.",
+      "title": "Annual Report 2025",
+      "report_year": 2025,
+      "official_landing_page": "https://www.results.philips.com/ar25",
+      "download_url": "https://www.results.philips.com/publications/ar25/downloads/files/en/PhilipsFullAnnualReport2025-English.pdf",
+      "official_domain": "results.philips.com",
+      "local_path": "data/raw/scale_batch_004/philips-annual-report-2025.pdf",
+      "source_role": "primary_report",
+      "language": "English",
+      "prior_experiment_use": false
+    },
+    {
+      "document_id": "KB-B004-SAINTGOBAIN-URD2025",
+      "source_group_id": "KB-SAINT-GOBAIN-2025",
+      "company": "Compagnie de Saint-Gobain S.A.",
+      "title": "Universal Registration Document 2025",
+      "report_year": 2025,
+      "official_landing_page": "https://www.saint-gobain.com/en/press/corporate-publications",
+      "download_url": "https://www.saint-gobain.com/sites/saint-gobain.com/files/media/document/Saint-Gobain_2025_DEU_VA.pdf",
+      "official_domain": "saint-gobain.com",
+      "local_path": "data/raw/scale_batch_004/saint-gobain-urd-2025.pdf",
+      "source_role": "primary_report",
+      "language": "English",
+      "prior_experiment_use": false
+    },
+    {
+      "document_id": "KB-B004-MONDI-SDR2025",
+      "source_group_id": "KB-MONDI-2025",
+      "company": "Mondi plc",
+      "title": "Sustainable Development Report 2025",
+      "report_year": 2025,
+      "official_landing_page": "https://www.mondigroup.com/sustainability/reports-and-publications/",
+      "download_url": "https://www.mondigroup.com/globalassets/mondigroup.com/sustainability/reports-and-publications/2025/mondi-group-sustainable-development-report-2025.pdf",
+      "official_domain": "mondigroup.com",
+      "local_path": "data/raw/scale_batch_004/mondi-sustainable-development-report-2025.pdf",
+      "source_role": "primary_report",
+      "language": "English",
+      "prior_experiment_use": false
+    }
+  ]
+}

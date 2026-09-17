@@ -1,0 +1,8 @@
+{
+  "schema_version":"1.0","task_id":"P1-06-1","reference_author":"codex_gpt_simulated_expert","reference_status":"verified",
+  "question":"How does ANZ define the population used for its Women in Leadership measure, including which role groups and worker types are included or excluded?","answer_status":"verified_fact",
+  "answer":"Women as a proportion of the entire Senior Manager, Executive, Senior Executive and Group Executive Committee populations (ANZ Groups 3, 2 and 1); all employees are included regardless of leave status, while contractors are excluded from the WIL measure even though included in FTE.","normalized_value":null,"normalized_unit":null,"reported_unit":null,"subject":"ANZ Group Holdings Limited","scope_boundary":"Senior Manager, Executive, Senior Executive and Group Executive Committee populations; employees including leave status; contractors excluded","period":"2024","calculation":null,
+  "evidence":[{"document_id":"ANZ-ESG-2024","document_sha256":"fb12855ad12a8435a7dfc798c0f49cfc5f53f7463f541a08dceec21eb37de7bc","pdf_page":65,"printed_page":"65","verbatim_excerpt":"Includes all employees regardless of leave status but not contractors (which are included in FTE).","role":"claim_support"}],
+  "search_record":{"pages_reviewed":[65,74],"terms_used":["Women in Leadership","Senior Manager","contractors"],"notes":"Definition footnote and glossary were cross-checked."},"controlled_intervention_id":null,
+  "provenance_attestation":{"is_human":false,"is_ai_simulation":true,"candidate_model_excluded":true}
+}

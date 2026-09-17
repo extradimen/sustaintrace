@@ -1,0 +1,31 @@
+{
+  "boundary_plan_counts": {
+    "explicit_label_candidate": 15,
+    "not_blocked": 10,
+    "semantic_supervision_required": 28
+  },
+  "exact_year_label_candidates": 3,
+  "inputs": {
+    "source_native_bindings_sha256": "e152197d51d9368871a4dadd0bcb65109dfb74f69c8e88674bd3bea54a46b5dd",
+    "tier_b_queue_sha256": "5baaba1ac80923d01e636e17aac85df4805195919d6c6e39c52d81a7911f5917"
+  },
+  "locked_experiments_modified_or_rescored": false,
+  "next_gate": "validate exact-year label candidates and correct non-temporal period classification in a derived layer",
+  "non_temporal_period_gap_misclassifications": 11,
+  "output": {
+    "path": "data/knowledge_bases/v0.1/tier_b_blocker_matrix.jsonl",
+    "sha256": "172a36db63b2aa934d05d6520b64a44f36b70865178f532848b888d75527fd0a"
+  },
+  "period_plan_counts": {
+    "ambiguous_or_role_specific": 4,
+    "exact_year_label_candidate": 3,
+    "explicit_predicate_year_requires_coordinate": 9,
+    "non_temporal_predicate_gap_misclassification": 11,
+    "not_blocked": 26
+  },
+  "promotions_performed": 0,
+  "records": 53,
+  "repairs_executed": 0,
+  "schema_version": "0.1",
+  "status": "tier_b_blocker_matrix_complete_no_repairs_executed"
+}

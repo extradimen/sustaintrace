@@ -1,0 +1,338 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-010-RESUME01",
+  "updated_at": "2026-09-13T03:43:38.275050+00:00",
+  "status": "complete",
+  "cloud_transmission": false,
+  "total_target_pages": 27,
+  "complete_pages": 26,
+  "failed_pages": 1,
+  "pending_pages": 0,
+  "records": [
+    {
+      "document_id": "KB-B010-PUMA-AR2025",
+      "page": 96,
+      "themes": [
+        "targets"
+      ],
+      "output_directory": "artifacts/scale_batch_010/mineru_targets_RESUME01/KB-B010-PUMA-AR2025-p0096",
+      "status": "complete",
+      "started_at": "2026-09-13T03:25:04.835278+00:00",
+      "completed_at": "2026-09-13T03:25:23.155543+00:00",
+      "wall_seconds": 18.320193
+    },
+    {
+      "document_id": "KB-B010-PUMA-AR2025",
+      "page": 104,
+      "themes": [
+        "energy"
+      ],
+      "output_directory": "artifacts/scale_batch_010/mineru_targets_RESUME01/KB-B010-PUMA-AR2025-p0104",
+      "status": "complete",
+      "started_at": "2026-09-13T03:25:23.156096+00:00",
+      "completed_at": "2026-09-13T03:25:51.180251+00:00",
+      "wall_seconds": 28.024248
+    },
+    {
+      "document_id": "KB-B010-PUMA-AR2025",
+      "page": 108,
+      "themes": [
+        "ghg_emissions"
+      ],
+      "output_directory": "artifacts/scale_batch_010/mineru_targets_RESUME01/KB-B010-PUMA-AR2025-p0108",
+      "status": "complete",
+      "started_at": "2026-09-13T03:25:51.180932+00:00",
+      "completed_at": "2026-09-13T03:26:56.414051+00:00",
+      "wall_seconds": 65.23333
+    },
+    {
+      "document_id": "KB-B010-PUMA-AR2025",
+      "page": 124,
+      "themes": [
+        "water"
+      ],
+      "output_directory": "artifacts/scale_batch_010/mineru_targets_RESUME01/KB-B010-PUMA-AR2025-p0124",
+      "status": "complete",
+      "started_at": "2026-09-13T03:26:56.416438+00:00",
+      "completed_at": "2026-09-13T03:28:09.869204+00:00",
+      "wall_seconds": 73.452995
+    },
+    {
+      "document_id": "KB-B010-PUMA-AR2025",
+      "page": 127,
+      "themes": [
+        "biodiversity"
+      ],
+      "output_directory": "artifacts/scale_batch_010/mineru_targets_RESUME01/KB-B010-PUMA-AR2025-p0127",
+      "status": "complete",
+      "started_at": "2026-09-13T03:28:09.870492+00:00",
+      "completed_at": "2026-09-13T03:29:08.313192+00:00",
+      "wall_seconds": 58.442878
+    },
+    {
+      "document_id": "KB-B010-PUMA-AR2025",
+      "page": 138,
+      "themes": [
+        "circularity"
+      ],
+      "output_directory": "artifacts/scale_batch_010/mineru_targets_RESUME01/KB-B010-PUMA-AR2025-p0138",
+      "status": "complete",
+      "started_at": "2026-09-13T03:29:08.314346+00:00",
+      "completed_at": "2026-09-13T03:30:05.554759+00:00",
+      "wall_seconds": 57.240591
+    },
+    {
+      "document_id": "KB-B010-PUMA-AR2025",
+      "page": 165,
+      "themes": [
+        "workforce"
+      ],
+      "output_directory": "artifacts/scale_batch_010/mineru_targets_RESUME01/KB-B010-PUMA-AR2025-p0165",
+      "status": "complete",
+      "started_at": "2026-09-13T03:30:05.557248+00:00",
+      "completed_at": "2026-09-13T03:30:57.031693+00:00",
+      "wall_seconds": 51.474605
+    },
+    {
+      "document_id": "KB-B010-PUMA-AR2025",
+      "page": 167,
+      "themes": [
+        "health_safety"
+      ],
+      "output_directory": "artifacts/scale_batch_010/mineru_targets_RESUME01/KB-B010-PUMA-AR2025-p0167",
+      "status": "complete",
+      "started_at": "2026-09-13T03:30:57.034410+00:00",
+      "completed_at": "2026-09-13T03:31:47.174941+00:00",
+      "wall_seconds": 50.140677
+    },
+    {
+      "document_id": "KB-B010-PUMA-AR2025",
+      "page": 350,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_010/mineru_targets_RESUME01/KB-B010-PUMA-AR2025-p0350",
+      "status": "complete",
+      "started_at": "2026-09-13T03:31:47.175854+00:00",
+      "completed_at": "2026-09-13T03:32:43.048485+00:00",
+      "wall_seconds": 55.872803
+    },
+    {
+      "document_id": "KB-B010-ADIDAS-AR2025",
+      "page": 171,
+      "themes": [
+        "targets"
+      ],
+      "output_directory": "artifacts/scale_batch_010/mineru_targets_RESUME01/KB-B010-ADIDAS-AR2025-p0171",
+      "status": "complete",
+      "started_at": "2026-09-13T03:32:43.050327+00:00",
+      "completed_at": "2026-09-13T03:33:39.537263+00:00",
+      "wall_seconds": 56.48711
+    },
+    {
+      "document_id": "KB-B010-ADIDAS-AR2025",
+      "page": 184,
+      "themes": [
+        "energy"
+      ],
+      "output_directory": "artifacts/scale_batch_010/mineru_targets_RESUME01/KB-B010-ADIDAS-AR2025-p0184",
+      "status": "complete",
+      "started_at": "2026-09-13T03:33:39.539561+00:00",
+      "completed_at": "2026-09-13T03:34:42.588767+00:00",
+      "wall_seconds": 63.049415
+    },
+    {
+      "document_id": "KB-B010-ADIDAS-AR2025",
+      "page": 185,
+      "themes": [
+        "ghg_emissions"
+      ],
+      "output_directory": "artifacts/scale_batch_010/mineru_targets_RESUME01/KB-B010-ADIDAS-AR2025-p0185",
+      "status": "complete",
+      "started_at": "2026-09-13T03:34:42.590840+00:00",
+      "completed_at": "2026-09-13T03:36:06.598982+00:00",
+      "wall_seconds": 84.008401
+    },
+    {
+      "document_id": "KB-B010-ADIDAS-AR2025",
+      "page": 203,
+      "themes": [
+        "water"
+      ],
+      "output_directory": "artifacts/scale_batch_010/mineru_targets_RESUME01/KB-B010-ADIDAS-AR2025-p0203",
+      "status": "complete",
+      "started_at": "2026-09-13T03:36:06.600184+00:00",
+      "completed_at": "2026-09-13T03:36:28.058382+00:00",
+      "wall_seconds": 21.516016
+    },
+    {
+      "document_id": "KB-B010-ADIDAS-AR2025",
+      "page": 206,
+      "themes": [
+        "biodiversity"
+      ],
+      "output_directory": "artifacts/scale_batch_010/mineru_targets_RESUME01/KB-B010-ADIDAS-AR2025-p0206",
+      "status": "complete",
+      "started_at": "2026-09-13T03:36:28.059300+00:00",
+      "completed_at": "2026-09-13T03:36:42.438082+00:00",
+      "wall_seconds": 14.378922
+    },
+    {
+      "document_id": "KB-B010-ADIDAS-AR2025",
+      "page": 221,
+      "themes": [
+        "circularity"
+      ],
+      "output_directory": "artifacts/scale_batch_010/mineru_targets_RESUME01/KB-B010-ADIDAS-AR2025-p0221",
+      "status": "complete",
+      "started_at": "2026-09-13T03:36:42.438513+00:00",
+      "completed_at": "2026-09-13T03:37:02.662161+00:00",
+      "wall_seconds": 20.223848
+    },
+    {
+      "document_id": "KB-B010-ADIDAS-AR2025",
+      "page": 247,
+      "themes": [
+        "workforce"
+      ],
+      "output_directory": "artifacts/scale_batch_010/mineru_targets_RESUME01/KB-B010-ADIDAS-AR2025-p0247",
+      "status": "complete",
+      "started_at": "2026-09-13T03:37:02.663954+00:00",
+      "completed_at": "2026-09-13T03:37:19.835722+00:00",
+      "wall_seconds": 17.171939
+    },
+    {
+      "document_id": "KB-B010-ADIDAS-AR2025",
+      "page": 262,
+      "themes": [
+        "health_safety"
+      ],
+      "output_directory": "artifacts/scale_batch_010/mineru_targets_RESUME01/KB-B010-ADIDAS-AR2025-p0262",
+      "status": "complete",
+      "started_at": "2026-09-13T03:37:19.836213+00:00",
+      "completed_at": "2026-09-13T03:37:48.382398+00:00",
+      "wall_seconds": 28.546469
+    },
+    {
+      "document_id": "KB-B010-ADIDAS-AR2025",
+      "page": 420,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_010/mineru_targets_RESUME01/KB-B010-ADIDAS-AR2025-p0420",
+      "status": "complete",
+      "started_at": "2026-09-13T03:37:48.383524+00:00",
+      "completed_at": "2026-09-13T03:38:09.245794+00:00",
+      "wall_seconds": 20.862475
+    },
+    {
+      "document_id": "KB-B010-VEOLIA-URD2025",
+      "page": 208,
+      "themes": [
+        "targets"
+      ],
+      "output_directory": "artifacts/scale_batch_010/mineru_targets_RESUME01/KB-B010-VEOLIA-URD2025-p0208",
+      "status": "complete",
+      "started_at": "2026-09-13T03:38:09.246347+00:00",
+      "completed_at": "2026-09-13T03:38:27.356082+00:00",
+      "wall_seconds": 18.109915
+    },
+    {
+      "document_id": "KB-B010-VEOLIA-URD2025",
+      "page": 218,
+      "themes": [
+        "energy"
+      ],
+      "output_directory": "artifacts/scale_batch_010/mineru_targets_RESUME01/KB-B010-VEOLIA-URD2025-p0218",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_010/mineru_targets_RESUME01/KB-B010-VEOLIA-URD2025-p0218/esg_rd_mineru_run.json",
+      "started_at": "2026-09-13T03:38:27.357286+00:00",
+      "completed_at": "2026-09-13T03:38:44.438260+00:00",
+      "wall_seconds": 17.081139
+    },
+    {
+      "document_id": "KB-B010-VEOLIA-URD2025",
+      "page": 219,
+      "themes": [
+        "ghg_emissions"
+      ],
+      "output_directory": "artifacts/scale_batch_010/mineru_targets_RESUME01/KB-B010-VEOLIA-URD2025-p0219",
+      "status": "complete",
+      "started_at": "2026-09-13T03:38:44.438901+00:00",
+      "completed_at": "2026-09-13T03:39:06.483783+00:00",
+      "wall_seconds": 22.045098
+    },
+    {
+      "document_id": "KB-B010-VEOLIA-URD2025",
+      "page": 234,
+      "themes": [
+        "water"
+      ],
+      "output_directory": "artifacts/scale_batch_010/mineru_targets_RESUME01/KB-B010-VEOLIA-URD2025-p0234",
+      "status": "complete",
+      "started_at": "2026-09-13T03:39:06.484396+00:00",
+      "completed_at": "2026-09-13T03:39:29.283527+00:00",
+      "wall_seconds": 22.799355
+    },
+    {
+      "document_id": "KB-B010-VEOLIA-URD2025",
+      "page": 239,
+      "themes": [
+        "biodiversity"
+      ],
+      "output_directory": "artifacts/scale_batch_010/mineru_targets_RESUME01/KB-B010-VEOLIA-URD2025-p0239",
+      "status": "complete",
+      "started_at": "2026-09-13T03:39:29.284438+00:00",
+      "completed_at": "2026-09-13T03:39:49.774292+00:00",
+      "wall_seconds": 20.490054
+    },
+    {
+      "document_id": "KB-B010-VEOLIA-URD2025",
+      "page": 244,
+      "themes": [
+        "circularity"
+      ],
+      "output_directory": "artifacts/scale_batch_010/mineru_targets_RESUME01/KB-B010-VEOLIA-URD2025-p0244",
+      "status": "complete",
+      "started_at": "2026-09-13T03:39:49.775305+00:00",
+      "completed_at": "2026-09-13T03:40:21.151881+00:00",
+      "wall_seconds": 31.376894
+    },
+    {
+      "document_id": "KB-B010-VEOLIA-URD2025",
+      "page": 266,
+      "themes": [
+        "health_safety"
+      ],
+      "output_directory": "artifacts/scale_batch_010/mineru_targets_RESUME01/KB-B010-VEOLIA-URD2025-p0266",
+      "status": "complete",
+      "started_at": "2026-09-13T03:40:21.155123+00:00",
+      "completed_at": "2026-09-13T03:41:34.832057+00:00",
+      "wall_seconds": 73.677657
+    },
+    {
+      "document_id": "KB-B010-VEOLIA-URD2025",
+      "page": 275,
+      "themes": [
+        "workforce"
+      ],
+      "output_directory": "artifacts/scale_batch_010/mineru_targets_RESUME01/KB-B010-VEOLIA-URD2025-p0275",
+      "status": "complete",
+      "started_at": "2026-09-13T03:41:34.834500+00:00",
+      "completed_at": "2026-09-13T03:42:37.205646+00:00",
+      "wall_seconds": 62.371828
+    },
+    {
+      "document_id": "KB-B010-VEOLIA-URD2025",
+      "page": 328,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_010/mineru_targets_RESUME01/KB-B010-VEOLIA-URD2025-p0328",
+      "status": "complete",
+      "started_at": "2026-09-13T03:42:37.208097+00:00",
+      "completed_at": "2026-09-13T03:43:38.273392+00:00",
+      "wall_seconds": 61.065865
+    }
+  ]
+}

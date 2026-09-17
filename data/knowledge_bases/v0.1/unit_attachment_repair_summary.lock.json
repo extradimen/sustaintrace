@@ -1,0 +1,28 @@
+{
+  "attachments_created": 0,
+  "fact_sources_modified": 0,
+  "native_pages_checked": 0,
+  "next_gate": "re-audit remaining gaps after validated period and unit attachments",
+  "output": {
+    "path": "data/knowledge_bases/v0.1/unit_attachment_repairs.jsonl",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "parent_artifacts": [
+    {
+      "path": "data/knowledge_bases/v0.1/fact_records.jsonl",
+      "sha256": "8af57e7b7bda85deef8f90586f8225aedcf1da24e0669300115b8f1f7499bf5b"
+    },
+    {
+      "path": "data/knowledge_bases/v0.1/field_evidence_bindings.jsonl",
+      "sha256": "d0e0eaf14664dc61e8b0219ae424d35274e96539ade9485542df4b76a80e4be9"
+    },
+    {
+      "path": "data/knowledge_bases/v0.1/knowledge_gap_records.jsonl",
+      "sha256": "858a37ede7bd213c1c3d1e9136d5d8be6bc6e6f12f147124318347cb3a8cef76"
+    }
+  ],
+  "promotions_performed": 0,
+  "rollback_ledgers": 0,
+  "schema_version": "0.1",
+  "status": "derived_unit_repairs_executed_no_fact_promotion"
+}

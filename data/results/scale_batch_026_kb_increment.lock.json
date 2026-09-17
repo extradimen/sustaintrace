@@ -1,0 +1,50 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-026",
+  "status": "increment_built_candidates_not_promoted",
+  "fact_candidates": 45,
+  "trusted_facts_promoted": 0,
+  "evidence_gaps": 4,
+  "failure_observations": 74,
+  "gaps": [
+    {
+      "document_id": "KB-B026-STOREBRAND-AR2025",
+      "page": 120,
+      "theme": "health_safety",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B026-SEB-AR2025",
+      "page": 163,
+      "theme": "health_safety",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B026-SEB-AR2025",
+      "page": 179,
+      "theme": "circularity",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B026-SEB-AR2025",
+      "page": 344,
+      "theme": "assurance",
+      "reason": "no_theme_line_in_mineru_markdown"
+    }
+  ],
+  "outputs": {
+    "facts": {
+      "path": "data/knowledge_bases/v0.1/increments/scale_batch_026_fact_records.jsonl",
+      "sha256": "56dc5d9ca2a410f1e79b38e95548c52b3fd672b0e21f257ad268a6ba987eac46"
+    },
+    "failures": {
+      "path": "data/knowledge_bases/v0.1/increments/scale_batch_026_failure_records.jsonl",
+      "sha256": "a20028e56ecb900822fc33a4e6e1daed4bfd37cf30d0debace3f8446776549e0"
+    }
+  },
+  "policy": {
+    "cloud_transmission": false,
+    "locked_experiments_modified": false,
+    "automatic_promotion": false
+  }
+}

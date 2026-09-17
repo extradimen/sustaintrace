@@ -1,0 +1,86 @@
+{
+  "experiment_id": "P22-V31-UNSEEN-LOCKBOX-V01",
+  "graphs": [
+    {
+      "graph_id": "P22-TAXONOMY-P130",
+      "header_axis": [
+        "denominator",
+        "eligible share",
+        "aligned amount",
+        "aligned share"
+      ],
+      "pdf_page": 130,
+      "row_axis": [
+        "turnover",
+        "CapEx",
+        "OpEx"
+      ]
+    },
+    {
+      "graph_id": "P22-ENERGY-P149",
+      "header_axis": [
+        "2024",
+        "2025"
+      ],
+      "pdf_page": 149,
+      "row_axis": [
+        "fossil",
+        "renewable",
+        "total",
+        "fossil share",
+        "renewable share"
+      ]
+    },
+    {
+      "graph_id": "P22-GHG-P151",
+      "header_axis": [
+        "2019",
+        "2024 restated",
+        "2025",
+        "change"
+      ],
+      "pdf_page": 151,
+      "row_axis": [
+        "Scope 1",
+        "Scope 2 market",
+        "Scope 3",
+        "total market"
+      ]
+    },
+    {
+      "graph_id": "P22-WATER-P172",
+      "header_axis": [
+        "Crop Science 2024/2025",
+        "Pharmaceuticals 2024/2025",
+        "Consumer Health 2024/2025",
+        "Other 2024/2025",
+        "Total 2024/2025"
+      ],
+      "pdf_page": 172,
+      "row_axis": [
+        "withdrawal",
+        "discharge",
+        "consumption",
+        "recycling"
+      ]
+    },
+    {
+      "graph_id": "P22-SAFETY-P204",
+      "header_axis": [
+        "2024",
+        "2025"
+      ],
+      "known_anomaly": "fatality dashes misread as 1 by primary parser; native-layout fallback controls fatality evidence",
+      "pdf_page": 204,
+      "row_axis": [
+        "total accidents",
+        "employee accidents",
+        "nonemployee accidents",
+        "rates",
+        "fatalities"
+      ]
+    }
+  ],
+  "schema_version": "3.1",
+  "status": "frozen_before_candidate_inference"
+}

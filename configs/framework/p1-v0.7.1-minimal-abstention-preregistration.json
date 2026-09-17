@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "framework_version": "P1-PIPELINE-v0.7.1-MINIMAL-ABSTENTION",
+  "status": "preregistered_before_inference",
+  "registered_at": "2026-09-04T10:30:00+08:00",
+  "parent_framework": "P1-PIPELINE-v0.7-TOOL-OWNED-SEMANTIC-STATE",
+  "triggering_archived_run": "P1-01-1-GEMMA4-12B-v07-r1",
+  "observed_failure": "Core null abstention was correct, but redundant task metadata fields were omitted.",
+  "only_change": "For abstention tasks, model output contains exactly answer, normalized_value, and evidence_handles, all fixed to null/null/empty. Task id, question, subject, scope, period, source hashes, and target pages remain framework-owned in the immutable task context manifest.",
+  "unchanged": [
+    "Ordinary supported-fact contract.",
+    "Controlled-conflict grounded source-claim contract.",
+    "Deterministic-calculation contract.",
+    "MinerU evidence, model digest, source documents, tasks, hidden references, timeout, and archival rules."
+  ],
+  "model_output_repair_allowed": false,
+  "reference_answer_visible_during_inference": false,
+  "inference_allowed": false,
+  "next_gate": "implementation_tests_and_hash_freeze"
+}

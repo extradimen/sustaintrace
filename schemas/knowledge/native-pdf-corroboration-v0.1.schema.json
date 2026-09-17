@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/esg-reliable-discovery/native-pdf-corroboration-v0.1.schema.json",
+  "title": "Native PDF corroboration v0.1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "record_kind", "fact_record_id", "task_id", "pdf_path", "pdf_page", "status", "literal_found", "cell_labels_required", "cell_labels_found", "promotion_eligible", "reason"],
+  "properties": {
+    "schema_version": {"const": "0.1"},
+    "record_kind": {"const": "native_pdf_corroboration"},
+    "fact_record_id": {"type": "string", "pattern": "^fact-[0-9a-f]{24}$"},
+    "task_id": {"type": "string", "minLength": 1},
+    "pdf_path": {"type": ["string", "null"]},
+    "pdf_page": {"type": ["integer", "null"], "minimum": 1},
+    "status": {"enum": ["passed_scalar_and_cell_labels", "passed_scalar_only", "failed_literal", "failed_cell_labels", "unavailable_pdf_or_page"]},
+    "literal_found": {"type": "boolean"},
+    "cell_labels_required": {"type": "boolean"},
+    "cell_labels_found": {"type": "boolean"},
+    "promotion_eligible": {"const": false},
+    "reason": {"type": "string", "minLength": 1}
+  }
+}

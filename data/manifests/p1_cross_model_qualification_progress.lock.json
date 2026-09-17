@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "result_id": "P1-CROSS-MODEL-QUALIFICATION-PROGRESS-v0.1",
+  "status": "baseline_qualification_complete",
+  "as_of": "2026-09-04T01:35:00+08:00",
+  "formal_runs_completed": 8,
+  "runs": [
+    {"run_id": "P1-02-2-GEMMA4-12B-r1", "model_arm": "EDGE-GEMMA4-12B", "outcome": "pipeline_defect_discovery", "archived": true},
+    {"run_id": "P1-02-2-GEMMA4-12B-r2", "model_arm": "EDGE-GEMMA4-12B", "outcome": "passed", "archived": true},
+    {"run_id": "P1-02-2-QWEN397B-r1", "model_arm": "CLOUD-QWEN35-397B", "outcome": "model_contract_failure", "archived": true},
+    {"run_id": "P1-02-2-GPTOSS120B-r1", "model_arm": "CLOUD-GPTOSS-120B", "outcome": "model_contract_failure", "archived": true},
+    {"run_id": "P1-01-1-GEMMA4-12B-r1", "model_arm": "EDGE-GEMMA4-12B", "outcome": "passed_correct_abstention", "archived": true},
+    {"run_id": "P1-04-2-GEMMA4-12B-r1", "model_arm": "EDGE-GEMMA4-12B", "outcome": "passed_correct_conflict", "archived": true},
+    {"run_id": "P1-02-1-GEMMA4-12B-r1", "model_arm": "EDGE-GEMMA4-12B", "outcome": "semantic_failure_incorrect_abstention_on_calculable_task", "archived": true},
+    {"run_id": "P1-09-1-GEMMA4-12B-r1", "model_arm": "EDGE-GEMMA4-12B", "outcome": "correct_semantics_failed_verbatim_evidence_contract", "archived": true},
+    {"run_id": "P1-01-2-GEMMA4-12B-r1", "model_arm": "EDGE-GEMMA4-12B", "outcome": "correct_semantics_failed_verbatim_evidence_contract", "archived": true}
+  ],
+  "note": "formal_runs_completed counts qualification runs after the initial defect-discovery run",
+  "qualified_so_far": [],
+  "conditionally_viable_so_far": ["EDGE-GEMMA4-12B"],
+  "not_qualified_so_far": ["CLOUD-QWEN35-397B", "CLOUD-GPTOSS-120B"],
+  "posthoc_output_repair_applied": false,
+  "batch_evaluation_started": false,
+  "qualification_conclusion": "No model qualified for the full 216-run matrix under pipeline v0.3.",
+  "registered_next_framework": "P1-PIPELINE-v0.4 task-conditioned schemas plus deterministic evidence handles"
+}

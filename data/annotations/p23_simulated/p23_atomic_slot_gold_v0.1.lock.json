@@ -1,0 +1,83 @@
+{
+  "experiment_id": "P23-V32-UNSEEN-LOCKBOX-V01",
+  "schema_version": "3.2",
+  "status": "frozen_atomic_scoring_projection_before_candidate_inference",
+  "values": {
+    "P23-ASSURE-001": {
+      "assurance_level": "limited assurance",
+      "ghg_governing_standards": "ISAE3000 and ISAE3410",
+      "ghg_subject": "GHG statements",
+      "provider": "Deloitte",
+      "responsible_business_subject": "2025 information underlying the Responsible Business Performance Rating",
+      "scope_exclusion": "no basis in cited wording to extend assurance to all environmental metrics or wider long-term targets"
+    },
+    "P23-BOUNDARY-001": {
+      "boundary": "includes biogenic land-related emissions and removals from bioenergy feedstocks",
+      "scope2_renewable_electricity_target_percent": 100,
+      "scope2_renewable_electricity_target_year": 2030,
+      "target_2030_absolute_reduction_percent": 80,
+      "target_2030_baseline_year": 2020,
+      "target_2030_remaining_treatment": "investment in nature-based solutions for remaining 20%",
+      "target_2030_scope": "all scopes",
+      "target_2045_absolute_reduction_percent": 90,
+      "target_2045_baseline_year": 2020,
+      "target_2045_residual_treatment": "all residual emissions neutralised",
+      "target_2045_scope": "full value chain; all scopes"
+    },
+    "P23-ENERGY-CALC-001": {
+      "boundary": "total operations and UK operations reported separately",
+      "calculated_total_energy_change_percent": -3.69,
+      "calculated_uk_energy_change_percent": -4.56,
+      "renewable_electricity_change_percentage_points": 9,
+      "renewable_electricity_percent::2024": 90,
+      "renewable_electricity_percent::2025": 99,
+      "total_energy_gwh::2024": 2577,
+      "total_energy_gwh::2025": 2482,
+      "uk_energy_gwh::2024": 658,
+      "uk_energy_gwh::2025": 628
+    },
+    "P23-GHG-CALC-001": {
+      "boundary": "Scope 1 plus market-based Scope 2; thousand tonnes CO2e",
+      "calculated_change_percent": -13.98,
+      "calculated_operational_total_thousand_tco2e::2024": 565,
+      "calculated_operational_total_thousand_tco2e::2025": 486,
+      "issuer_reduction_percent": 14,
+      "rounding_comparison": "consistent",
+      "scope1_energy_thousand_tco2e::2024": 289,
+      "scope1_energy_thousand_tco2e::2025": 280,
+      "scope1_other_thousand_tco2e::2024": 232,
+      "scope1_other_thousand_tco2e::2025": 199,
+      "scope2_market_thousand_tco2e::2024": 44,
+      "scope2_market_thousand_tco2e::2025": 7
+    },
+    "P23-WATER-CALC-001": {
+      "boundary": "overall water use in operations; supplied water in million m3",
+      "calculated_high_stress_change_percent": 0.0,
+      "calculated_total_water_change_percent": -2.86,
+      "high_stress_water_million_m3::2024": 0.3,
+      "high_stress_water_million_m3::2025": 0.3,
+      "issuer_additional_reduction_percent": 3,
+      "reduction_from_2020_baseline_percent": 30,
+      "rounding_comparison": "consistent",
+      "sites_water_stewardship_percent::2025": 100,
+      "total_supplied_water_million_m3::2024": 7.0,
+      "total_supplied_water_million_m3::2025": 6.8
+    },
+    "P23-WORKFORCE-CALC-001": {
+      "all_employees_female": 32752,
+      "all_employees_female_share_percent": 49.0,
+      "all_employees_male": 34089,
+      "all_employees_total_fte": 66841,
+      "board_female": 6,
+      "board_female_share_percent": 50.0,
+      "board_male": 6,
+      "board_total": 12,
+      "management_female": 9318,
+      "management_female_share_percent": 51.45,
+      "management_male": 8794,
+      "management_total": 18112,
+      "method": "all-employee male and female values calculated by applying gender diversity percentages to total FTE",
+      "reporting_date": "31 December 2025"
+    }
+  }
+}

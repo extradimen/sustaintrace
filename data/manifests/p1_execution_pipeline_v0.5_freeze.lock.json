@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "freeze_id": "P1-EXECUTION-PIPELINE-FREEZE-v0.5",
+  "status": "frozen_integration_acceptance_passed",
+  "frozen_at": "2026-09-04T03:05:00+08:00",
+  "preregistration_sha256": "68b390a63bb83e43e1575a0dfb124715abc3ae77836c9924b711b53cb0d804d4",
+  "core_sha256": "a47ef129dc08f63a4062078e63a1d70fb88bee6b0ae6e2a1a3c5cb642beab7fe",
+  "runner_sha256": "a852c27839bd209bc25c29ec9fb1641675cbf5ff0dd1214c3aaf6114ace21851",
+  "scorer_sha256": "0532308f90ea5765cb18df311f84b27f4453953c826a4d782bf11f2b5cb74b2f",
+  "system_prompt_sha256": "5a65719b42d691ef50cc1ae5a28573e405eed122cb9d15de8fadbca362ae4455",
+  "test_count_passed": 110,
+  "available_evidence_handles_are_schema_enum": true,
+  "calculation_input_handles_are_schema_enum": true,
+  "unknown_handle_policy": "hard_failure",
+  "posthoc_semantic_repair_allowed": false,
+  "reference_answer_visible_during_inference": false,
+  "inference_allowed": true,
+  "integration_acceptance_run_id": "P1-01-2-GEMMA4-12B-v05-r1",
+  "integration_acceptance_checksum_sha256": "e89fea30de01885da38f9c4775469b87606e67283ea91bba7fe529c1b6835bd7",
+  "integration_outcome": "passed_exact_available_handle_selection",
+  "known_parser_limitation": "pdftotext layout lines can interleave independent PDF columns",
+  "next_gate": "mineru_layout_block_integration"
+}

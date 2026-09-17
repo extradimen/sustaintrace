@@ -1,0 +1,21 @@
+{
+  "schema_version":"2.2","experiment_id":"P13-V22-UNSEEN-LOCKBOX-V01","status":"frozen_before_candidate_inference",
+  "coordinate_system":"pdf_page/table_id/row_id/column_id/cell_id",
+  "construction":"Native PDF layout rows and columns checked manually; each numeric value retains explicit metric row, 2025 column and unit.",
+  "tables":[
+    {"pdf_page":150,"table_id":"P150-GHG-TARGET-ABSOLUTE","columns":["metric","unit","base_2021","target_2030","target_2050"],"rows":[["Total Scopes 1 and 2 (market-based) emissions","tCO2e",292067,70096,29207],["Total Scope 3 emissions","tCO2e",68510345,51382759,6851035]]},
+    {"pdf_page":152,"table_id":"P152-GHG-INVENTORY","columns":["metric","unit","2025","2024","change_percent"],"rows":[["Gross Scope 1 GHG emissions","tCO2e",100309,106360,-5.7],["Gross location-based Scope 2 GHG emissions","tCO2e",409343,433505,-5.6],["Gross market-based Scope 2 GHG emissions","tCO2e",23849,37348,-36.1],["Total Gross indirect Scope 3 GHG emissions","tCO2e",60581278,61044106,-0.8]]},
+    {"pdf_page":153,"table_id":"P153-GHG-TOTALS","columns":["metric","unit","2025","2024","change_percent"],"rows":[["Total GHG emissions location-based","tCO2e",61090929,61583971,-0.8],["Total GHG emissions market-based","tCO2e",60705436,61187814,-0.8]]},
+    {"pdf_page":213,"table_id":"P213-WOMEN-REPRESENTATION","columns":["population","2021_percent","2025_percent","2030_target_percent"],"rows":[["all new hires",41,37,null],["frontline managers",23,32,null],["senior leadership",24,32,40]]},
+    {"pdf_page":344,"table_id":"P344-WATER","columns":["metric","unit","2025","2024","2023","2022"],"rows":[["estimated withdrawal coverage","percent",85,85,84,83],["total water withdrawals other than cooling","m3",1944796,1843662,1899190,1921569],["cooling water returned without impact","m3",890844,880927,813411,622951],["water withdrawal intensity","m3 per million EUR",48.4,48.3,52.9,56.2],["withdrawals in water-stressed areas","m3",874433,862855,874114,842216]]},
+    {"pdf_page":353,"table_id":"P353-SAFETY","columns":["metric","unit","total_2025","employees_2025","temporary_workers_2025"],"rows":[["lost-time accidents","count",92,79,13],["LTIR","per million hours",0.26,0.27,0.22],["hours worked","hours",355229799,295665967,59563832]]},
+    {"pdf_page":339,"table_id":"P339-REASONABLE-ASSURANCE-SUBJECTS","columns":["subject","unit","2025_value"],"rows":[["Zero-CO2 sites","sites",195],["electricity sourced from renewables","percent",99],["measured energy consumption","MWh",948449],["Scope 1 GHG emissions","tCO2e",100309],["market-based Scope 2 GHG emissions","tCO2e",23849]]}
+  ],
+  "deterministic_checks":{
+    "ghg_sum":"100309 + 23849 + 60581278 = 60705436",
+    "lost_time_accident_sum":"79 + 13 = 92",
+    "hours_sum":"295665967 + 59563832 = 355229799",
+    "ltir":"92 * 1000000 / 355229799 = 0.2590, disclosed as 0.26"
+  },
+  "candidate_output_modified":false
+}

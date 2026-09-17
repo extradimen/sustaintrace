@@ -1,0 +1,29 @@
+{
+  "execution_policy_counts": {
+    "deterministic_candidate": 878,
+    "supervised": 1782
+  },
+  "gap_records": 2660,
+  "inputs": {
+    "calculation_replays_sha256": "18beaaa8d03f2a1278aea48ff11f69118f4535e35486dc5e2eda14c4417a41b6",
+    "joint_qualifications_sha256": "9f63f2f3f819ddc456a8ddc5601c92a080f8b15759dd183f5dd946d5ba8fda0c",
+    "native_corroborations_sha256": "629eb32a213c75eb44d433c80afa060173efb70a25e27a1b02adc14e13a35cc4"
+  },
+  "next_gate": "rank deterministic candidates by expected promotion yield and validate rollback",
+  "output": {
+    "path": "data/knowledge_bases/v0.1/knowledge_gap_records.jsonl",
+    "sha256": "858a37ede7bd213c1c3d1e9136d5d8be6bc6e6f12f147124318347cb3a8cef76"
+  },
+  "repairs_executed": 0,
+  "schema_version": "0.1",
+  "signature_counts": {
+    "BOUNDARY_ATTACHMENT_INCOMPLETE": 934,
+    "CALCULATION_LINEAGE_INCOMPLETE": 49,
+    "FIELD_EVIDENCE_BINDING_INCOMPLETE": 680,
+    "NATIVE_PDF_CORROBORATION_INCOMPLETE": 49,
+    "PERIOD_ATTACHMENT_INCOMPLETE": 761,
+    "TABLE_CELL_BINDING_INCOMPLETE": 119,
+    "UNIT_ATTACHMENT_INCOMPLETE": 68
+  },
+  "status": "knowledge_gap_inventory_complete_no_repairs_executed"
+}

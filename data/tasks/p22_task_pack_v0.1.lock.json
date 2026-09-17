@@ -1,0 +1,61 @@
+{
+  "schema_version": "3.1",
+  "experiment_id": "P22-V31-UNSEEN-LOCKBOX-V01",
+  "status": "questions_and_page_windows_frozen_before_simulated_reference_and_candidate_inference",
+  "page_coordinate_system": "one_based_pdf_page_index",
+  "document_id": "P22-BAYER-AR2025",
+  "document_sha256": "0af4a9d19fd9d4cba72c1ec062802199873f2379f84112dc2db5dc9605ce769b",
+  "inference_allowed": false,
+  "candidate_model_used": false,
+  "cloud_transmission_occurred": false,
+  "tasks": [
+    {
+      "task_id": "P22-TAXONOMY-001",
+      "document_id": "P22-BAYER-AR2025",
+      "task_type": "scope_subject_boundary",
+      "question_status": "frozen",
+      "question": "For Bayer's 2025 EU Taxonomy turnover, CapEx and OpEx, report each denominator, taxonomy-eligible amount and share where disclosed, and taxonomy-aligned amount and share. Preserve the distinction between zero, not identified and not separately tabled, and state the materiality treatment affecting CapEx and OpEx.",
+      "target_pages": [130, 132]
+    },
+    {
+      "task_id": "P22-ENERGY-CALC-001",
+      "document_id": "P22-BAYER-AR2025",
+      "task_type": "deterministic_calculation",
+      "question_status": "frozen",
+      "question": "Report Bayer's 2024 and 2025 total, fossil and renewable energy consumption and the disclosed fossil and renewable shares. Calculate the percentage change in total energy consumption and renewable energy consumption from 2024 to 2025 to two decimals, preserving the thousand-MWh unit and high-climate-impact-sector boundary.",
+      "target_pages": [149]
+    },
+    {
+      "task_id": "P22-GHG-CALC-001",
+      "document_id": "P22-BAYER-AR2025",
+      "task_type": "deterministic_calculation",
+      "question_status": "frozen",
+      "question": "Using Bayer's 2025 and restated 2024 gross Scope 1 and gross market-based Scope 2 emissions, calculate their sum for each year and the percentage change from 2024 to 2025 to two decimals. Also report gross Scope 3 and total market-based emissions for both years, preserve the restatement and financial-scope/environmentally-relevant-site boundary, and do not conflate the calculated Scope 1 plus Scope 2 subtotal with total market-based emissions including Scope 3.",
+      "target_pages": [151]
+    },
+    {
+      "task_id": "P22-WATER-CALC-001",
+      "document_id": "P22-BAYER-AR2025",
+      "task_type": "deterministic_calculation",
+      "question_status": "frozen",
+      "question": "For 2024 and 2025, report Bayer's total water withdrawal, discharge and issuer-disclosed consumption; independently calculate withdrawal minus discharge and compare it with disclosed consumption for each year. Also report consumption in areas at water risk, water recycling and reuse, and water intensity, preserving units, site thresholds and the issuer's calculation definition.",
+      "target_pages": [171, 172]
+    },
+    {
+      "task_id": "P22-SAFETY-CALC-001",
+      "document_id": "P22-BAYER-AR2025",
+      "task_type": "deterministic_calculation",
+      "question_status": "frozen",
+      "question": "For 2024 and 2025, report Bayer's total recordable work-related accidents and the employee and nonemployee components; sum the two components and compare with the total for each year. Also report the total and component accident rates, work-related fatalities by workforce/value-chain category, the rate formula and the headcount coverage definition.",
+      "target_pages": [203, 204]
+    },
+    {
+      "task_id": "P22-ASSURE-001",
+      "document_id": "P22-BAYER-AR2025",
+      "task_type": "scope_subject_boundary",
+      "question_status": "frozen",
+      "question": "Identify the subject, reporting period, criteria, assurance level, conclusion form and governing standard of Bayer's 2025 sustainability assurance; state excluded information and how limited assurance differs from reasonable assurance, and identify the provider, location, date and signatories.",
+      "target_pages": [374, 375, 377]
+    }
+  ]
+}

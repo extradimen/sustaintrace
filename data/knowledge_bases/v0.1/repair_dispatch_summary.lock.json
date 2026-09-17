@@ -1,0 +1,22 @@
+{
+  "artifacts": {
+    "decisions": {
+      "path": "data/knowledge_bases/v0.1/repair_dispatch_decisions.jsonl",
+      "sha256": "8f0fd4c62908b48bbb9f1b6266b9e791067501d57bf05ec6cebd691c92a69817"
+    },
+    "executor_catalog_sha256": "89ce71f32d7a4385b6861145bd3ea03bc7ce2d23eff539ae308444d9e5194deb",
+    "strategy_catalog_sha256": "b0723192ecb92fcca97a4e151f638d8b6d296ca1cdbff1d7e06168c4e9635205"
+  },
+  "automatic_candidates": 4,
+  "blocked": 4,
+  "blocking_reason_counts": {
+    "frozen_execution_contract_incomplete": 4,
+    "frozen_execution_contract_missing": 4
+  },
+  "execution_started": 0,
+  "locked_experiments_modified_or_rescored": false,
+  "next_gate": "freeze action-specific input and expected-output contracts",
+  "ready_for_execution": 0,
+  "schema_version": "0.1",
+  "status": "repair_dispatch_gate_audited"
+}

@@ -1,0 +1,79 @@
+{
+  "batch_id": "KB-SCALE-BATCH-016-PERFORMANCE",
+  "comparison_parent": "data/results/scale_batch_015_performance_baseline.lock.json",
+  "completed_at": "2026-09-13T09:18:06.342720+00:00",
+  "mineru": {
+    "checkpoint_reuse_pages": 26,
+    "final_complete_pages": 29,
+    "initial_attempt_wall_seconds": 521.342613,
+    "initial_failures": 3,
+    "post_completion_shutdown_failures": 3,
+    "resume01_failures": 0,
+    "resume01_wall_seconds": 58.695215,
+    "status": "complete",
+    "successful_processing_wall_seconds": 531.19704,
+    "successful_target_pages": 29,
+    "successful_target_pages_per_hour": 196.53724,
+    "target_page_wall_seconds": {
+      "KB-B016-AKZONOBEL-AR2025:p0024": 21.672452,
+      "KB-B016-AKZONOBEL-AR2025:p0045": 19.173589,
+      "KB-B016-AKZONOBEL-AR2025:p0046": 15.886353,
+      "KB-B016-AKZONOBEL-AR2025:p0049": 17.639243,
+      "KB-B016-AKZONOBEL-AR2025:p0074": 15.659621,
+      "KB-B016-AKZONOBEL-AR2025:p0075": 15.891656,
+      "KB-B016-AKZONOBEL-AR2025:p0077": 20.154589,
+      "KB-B016-AKZONOBEL-AR2025:p0224": 17.648733,
+      "KB-B016-AKZONOBEL-AR2025:p0226": 16.645553,
+      "KB-B016-COLOPLAST-AR2025:p0048": 20.530499,
+      "KB-B016-COLOPLAST-AR2025:p0055": 24.101056,
+      "KB-B016-COLOPLAST-AR2025:p0060": 22.144038,
+      "KB-B016-COLOPLAST-AR2025:p0061": 22.822434,
+      "KB-B016-COLOPLAST-AR2025:p0069": 20.915653,
+      "KB-B016-COLOPLAST-AR2025:p0072": 17.616454,
+      "KB-B016-COLOPLAST-AR2025:p0079": 19.446235,
+      "KB-B016-COLOPLAST-AR2025:p0085": 18.572813,
+      "KB-B016-COLOPLAST-AR2025:p0162": 19.002521,
+      "KB-B016-COLOPLAST-AR2025:p0164": 16.947254,
+      "KB-B016-NOVONESIS-AR2025:p0071": 14.623566,
+      "KB-B016-NOVONESIS-AR2025:p0074": 16.495305,
+      "KB-B016-NOVONESIS-AR2025:p0075": 19.858831,
+      "KB-B016-NOVONESIS-AR2025:p0083": 15.934903,
+      "KB-B016-NOVONESIS-AR2025:p0085": 14.980399,
+      "KB-B016-NOVONESIS-AR2025:p0087": 20.263571,
+      "KB-B016-NOVONESIS-AR2025:p0096": 16.613532,
+      "KB-B016-NOVONESIS-AR2025:p0099": 14.623137,
+      "KB-B016-NOVONESIS-AR2025:p0197": 18.520004,
+      "KB-B016-NOVONESIS-AR2025:p0199": 16.813046
+    },
+    "total_attempt_wall_seconds": 580.037828
+  },
+  "mineru_comparison": {
+    "batch_015_pages_per_hour": 162.383097,
+    "batch_016_pages_per_hour": 196.53724,
+    "interpretation_gate": "throughput_only_quality_measured_separately",
+    "relative_change_percent": 21.033
+  },
+  "policy": {
+    "cloud_transmission": false,
+    "locked_experiments_modified": false,
+    "performance_separate_from_knowledge_quality": true
+  },
+  "provisional_comparison": {
+    "batch_015_pages_per_second": 311.087431,
+    "batch_016_pages_per_second": 401.132501,
+    "interpretation_gate": "diagnostic_only_not_semantic_quality_or_mineru_speed",
+    "relative_change_percent": 28.945
+  },
+  "schema_version": "0.1",
+  "started_at": "2026-09-13T09:18:04.791571+00:00",
+  "status": "diagnostic_and_mineru_baseline_complete",
+  "whole_report_diagnostic": {
+    "documents": 3,
+    "extractable_pages": 619,
+    "pages_per_second": 401.132501,
+    "pdf_pages": 622,
+    "peak_rss_bytes": 41992192,
+    "peak_rss_mb": 40.047,
+    "wall_seconds": 1.55061
+  }
+}

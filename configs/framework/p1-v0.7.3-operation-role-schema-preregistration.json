@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "framework_version": "P1-PIPELINE-v0.7.3-OPERATION-ROLE-SCHEMA",
+  "status": "preregistered_before_inference",
+  "registered_at": "2026-09-04T11:10:00+08:00",
+  "parent_framework": "P1-PIPELINE-v0.7.2-MINIMAL-CROSS-PAGE",
+  "triggering_archived_run": "P1-02-1-GEMMA4-12B-v072-r1",
+  "observed_failure": "Correct values and evidence were submitted, but percentage_change used numerator/denominator roles and was rejected.",
+  "only_change": "Make calculation_request operation-conditioned in JSON Schema: percentage_change permits exactly current/prior; ratio_percent exactly numerator/denominator; difference exactly minuend/subtrahend; sum only addends. The deterministic executor remains unchanged.",
+  "unchanged": [
+    "All task-specific non-calculation contracts.",
+    "Calculation formulas and grounding checks.",
+    "Tasks, sources, MinerU artifacts, model digest, timeout, references, and archival rules."
+  ],
+  "posthoc_role_repair_allowed": false,
+  "reference_answer_visible_during_inference": false,
+  "inference_allowed": false,
+  "next_gate": "implementation_tests_and_hash_freeze"
+}

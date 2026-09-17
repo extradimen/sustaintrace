@@ -1,0 +1,60 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-002",
+  "status": "local_ingestion_and_atomic_projection_complete",
+  "source_documents": 3,
+  "source_pages": 597,
+  "extractable_source_pages": 596,
+  "frozen_target_pages": 26,
+  "mineru": {
+    "initial_complete": 22,
+    "initial_infrastructure_failures": 4,
+    "resume_complete": 4,
+    "final_usable_pages": 26,
+    "model_failures": 0
+  },
+  "knowledge_increment": {
+    "evidence_snippet_candidates": 40,
+    "atomic_fact_candidates": 16,
+    "failure_observations": 6,
+    "evidence_gaps": 4,
+    "promoted_tier_b": 0
+  },
+  "atomic_validation": {
+    "coordinate_exact": 16,
+    "native_quote_present": 15,
+    "native_row_header_present": 16,
+    "native_column_header_present": 16,
+    "strictly_corroborated": 15,
+    "held_tier_c": 16
+  },
+  "global_knowledge_bases": {
+    "fact_records": 1132,
+    "trusted_fact_records": 50,
+    "failure_records": 72,
+    "failure_signatures": 17
+  },
+  "quality_gates": {
+    "pytest_collected_and_passed": 425,
+    "ruff": "passed",
+    "cloud_transmission": false,
+    "locked_experiments_modified": false,
+    "automatic_promotion": false
+  },
+  "artifact_sha256": {
+    "data/manifests/scale_batch_002_acquisition.lock.json": "0afe5a26c2cb83c69ecaae82b6c74b067b9b290c7ff44434f1b3d7841609bf32",
+    "data/results/scale_batch_002_diagnostics.lock.json": "e3864e0183923845e3cc554bb355b94e938beb9425d0eeb83b9f7d60b27bc085",
+    "data/manifests/scale_batch_002_target_pages.lock.json": "a60ee3e2987356d695cd7ad89d99a9c8ef0b20437cc5808da31eeec564245868",
+    "data/results/scale_batch_002_mineru_summary.lock.json": "ad7d57a4fa58b97cd29e16f4e7d205c5d3be4cfe3956a2c9f381a64a62a83244",
+    "data/results/scale_batch_002_mineru_RESUME01_summary.lock.json": "835979a10195302e38d994d85d99871366a1120b1d0809cca6ff0cb1a992e84f",
+    "data/results/scale_batch_002_kb_increment.lock.json": "3a57c6096b86e2b303312ddf6b1a3a23b39953faedc51daf4c2371744df92aa4",
+    "data/results/scale_batch_002_atomic_projection.lock.json": "74baadc0c59c23d940bfe06148438f12c98736387ae0d4974d9d7f3b5c69d63d",
+    "data/results/scale_batch_002_atomic_validation.lock.json": "517da35c88fc48309106427b3ff671832843cd94f2c2873827f81672e7624933",
+    "data/knowledge_bases/v0.1/migration_manifest.lock.json": "692c023de2ea6b64c68c7d333e687903a3985dd053291fec0b7b56614dd98f67"
+  },
+  "exposed_generalization_fixed": {
+    "issue": "ESRS tables may place EFRAG ID and Unit before the Indicator and year columns",
+    "resolution": "bind Indicator/Metric, Unit and period columns explicitly; use a deterministic narrative-column fallback; normalize controlled superscript year and numeric footnotes while retaining raw literals",
+    "trusted_kb_contamination": false
+  }
+}

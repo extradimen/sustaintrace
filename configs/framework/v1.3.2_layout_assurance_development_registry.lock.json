@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "status": "development_frozen_before_v1.3.2_regression",
+  "trigger_policy": "P3-exposed assurance task whose MinerU-selected evidence omitted the visible assurance-level heading.",
+  "targets": [
+    {
+      "task_id": "P3-XPAGE-002",
+      "document_id": "P3-DIAGEO-AR2024",
+      "pdf_path": "data/raw/p3_staging/diageo/diageo-annual-report-2024.pdf",
+      "document_sha256": "94b8147ed3b8f42e30b937c6f03a8ad34a466bf9671124672ec2afa26f7d8658",
+      "pdf_page": 131,
+      "scoring_only_anchors": ["Independent Limited Assurance Report"]
+    }
+  ],
+  "guardrails": [
+    "The anchor is scoring-only and is never supplied to the extractor or model.",
+    "Every visible line is emitted; no expected-value selection occurs.",
+    "This is development-only and cannot define P4 targets."
+  ]
+}

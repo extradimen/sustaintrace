@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-015-MINERU-RESUME01",
+  "updated_at": "2026-09-13T08:38:41.703986+00:00",
+  "status": "complete",
+  "cloud_transmission": false,
+  "total_target_pages": 3,
+  "complete_pages": 3,
+  "failed_pages": 0,
+  "pending_pages": 0,
+  "records": [
+    {
+      "document_id": "KB-B015-UCB-IAR2025",
+      "page": 60,
+      "themes": [
+        "ghg_emissions"
+      ],
+      "output_directory": "artifacts/scale_batch_015/mineru_targets_RESUME01/KB-B015-UCB-IAR2025-p0060",
+      "status": "complete",
+      "started_at": "2026-09-13T08:37:42.268367+00:00",
+      "completed_at": "2026-09-13T08:38:04.330846+00:00",
+      "wall_seconds": 22.0629
+    },
+    {
+      "document_id": "KB-B015-ARLA-AR2025",
+      "page": 53,
+      "themes": [
+        "biodiversity"
+      ],
+      "output_directory": "artifacts/scale_batch_015/mineru_targets_RESUME01/KB-B015-ARLA-AR2025-p0053",
+      "status": "complete",
+      "started_at": "2026-09-13T08:38:04.331229+00:00",
+      "completed_at": "2026-09-13T08:38:23.360543+00:00",
+      "wall_seconds": 19.029677
+    },
+    {
+      "document_id": "KB-B015-FRESENIUS-AR2025",
+      "page": 188,
+      "themes": [
+        "biodiversity"
+      ],
+      "output_directory": "artifacts/scale_batch_015/mineru_targets_RESUME01/KB-B015-FRESENIUS-AR2025-p0188",
+      "status": "complete",
+      "started_at": "2026-09-13T08:38:23.360924+00:00",
+      "completed_at": "2026-09-13T08:38:41.703695+00:00",
+      "wall_seconds": 18.343121
+    }
+  ]
+}

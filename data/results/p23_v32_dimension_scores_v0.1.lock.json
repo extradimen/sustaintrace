@@ -1,0 +1,711 @@
+{
+  "aggregate_score": null,
+  "candidate_model": "qwen3.5:397b-cloud",
+  "experiment_id": "P23-V32-UNSEEN-LOCKBOX-V01",
+  "inputs": {
+    "atomic_gold": "data/annotations/p23_simulated/p23_atomic_slot_gold_v0.1.lock.json",
+    "atomic_gold_sha256": "4dbcad94107fe85bf65ab09f91a9c83680e51c475b1dd9e2e201c6d8e3f209c9",
+    "progress": "data/manifests/p23_candidate_progress.json",
+    "progress_sha256": "0256c66cd70884c370da120d068f352d76e3d15b1f62e0992bbf2c7378dc36f1",
+    "slot_contracts": "configs/framework/p23_slot_contracts_v0.1.lock.json",
+    "slot_contracts_sha256": "792191982816fafb0925c13be24dc56ed40a6c7ee522469d37fd51446ba8b133",
+    "task_pack": "data/tasks/p23_local_execution_task_pack_v0.1.lock.json",
+    "task_pack_sha256": "849d78373f199a21bbf8f825ed17941c20bb5044f24bb0c94454802d9e7fa140"
+  },
+  "protocol": {
+    "calculation_tasks_credit_only_frozen_deterministic_slot_projection": true,
+    "failed_raw_outputs_preserved": true,
+    "framework_failure_not_attributed_to_candidate_model": true,
+    "invalid_or_framework_blocked_outputs_receive_no_slot_credit": true,
+    "no_candidate_retry": true,
+    "no_posthoc_semantic_repair": true,
+    "partial_projection_credit_allowed": true
+  },
+  "reference_type": "simulated_expert_reference_not_independent_human_gold",
+  "schema_version": "3.2",
+  "status": "dimension_scoring_completed_with_framework_and_model_failures",
+  "summary_dimensions": {
+    "credited_valid_slots": 8,
+    "final_pipeline_total_tasks": 6,
+    "final_pipeline_valid_tasks": 3,
+    "framework_failed_tasks": 2,
+    "literal_or_numeric_exact_slots": 8,
+    "model_behavior_failed_tasks": 1,
+    "numeric_exact_slots": 8,
+    "numeric_reference_slots": 46,
+    "required_slots": 64,
+    "stage_a_total_tasks": 6,
+    "stage_a_valid_tasks": 5,
+    "text_literal_exact_slots": 0,
+    "text_literal_reference_slots": 18,
+    "text_normalized_exact_slots": 0,
+    "text_normalized_reference_slots": 18,
+    "verified_all_run_archives": 6
+  },
+  "task_dimensions": {
+    "P23-ASSURE-001": {
+      "credited_valid_slot_count": 0,
+      "dimensions": [
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "provider",
+          "text_comparison_v28": {
+            "candidate_original": null,
+            "literal_exact": false,
+            "normalized_exact": false,
+            "reference_original": "Deloitte",
+            "semantic_rewrite_applied": false,
+            "token_jaccard": 0.0
+          },
+          "value_type": "string"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "assurance_level",
+          "text_comparison_v28": {
+            "candidate_original": null,
+            "literal_exact": false,
+            "normalized_exact": false,
+            "reference_original": "limited assurance",
+            "semantic_rewrite_applied": false,
+            "token_jaccard": 0.0
+          },
+          "value_type": "string"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "ghg_governing_standards",
+          "text_comparison_v28": {
+            "candidate_original": null,
+            "literal_exact": false,
+            "normalized_exact": false,
+            "reference_original": "ISAE3000 and ISAE3410",
+            "semantic_rewrite_applied": false,
+            "token_jaccard": 0.0
+          },
+          "value_type": "string"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "ghg_subject",
+          "text_comparison_v28": {
+            "candidate_original": null,
+            "literal_exact": false,
+            "normalized_exact": false,
+            "reference_original": "GHG statements",
+            "semantic_rewrite_applied": false,
+            "token_jaccard": 0.0
+          },
+          "value_type": "string"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "responsible_business_subject",
+          "text_comparison_v28": {
+            "candidate_original": null,
+            "literal_exact": false,
+            "normalized_exact": false,
+            "reference_original": "2025 information underlying the Responsible Business Performance Rating",
+            "semantic_rewrite_applied": false,
+            "token_jaccard": 0.0
+          },
+          "value_type": "string"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "scope_exclusion",
+          "text_comparison_v28": {
+            "candidate_original": null,
+            "literal_exact": false,
+            "normalized_exact": false,
+            "reference_original": "no basis in cited wording to extend assurance to all environmental metrics or wider long-term targets",
+            "semantic_rewrite_applied": false,
+            "token_jaccard": 0.0
+          },
+          "value_type": "string"
+        }
+      ],
+      "failure_taxonomy": {
+        "category": "executor",
+        "error_type": "AttributeError",
+        "model_call_started": false,
+        "owner": "framework",
+        "retry_policy": "no_retry_in_locked_experiment",
+        "score_as_model_failure": false,
+        "stage": "stage_b"
+      },
+      "final_pipeline_valid": false,
+      "literal_or_numeric_exact_slot_count": 0,
+      "required_slot_count": 6,
+      "stage_a_valid": true,
+      "stage_b_status": "failed"
+    },
+    "P23-BOUNDARY-001": {
+      "credited_valid_slot_count": 0,
+      "dimensions": [
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "target_2030_absolute_reduction_percent",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "target_2030_baseline_year",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "target_2030_scope",
+          "text_comparison_v28": {
+            "candidate_original": null,
+            "literal_exact": false,
+            "normalized_exact": false,
+            "reference_original": "all scopes",
+            "semantic_rewrite_applied": false,
+            "token_jaccard": 0.0
+          },
+          "value_type": "string"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "target_2030_remaining_treatment",
+          "text_comparison_v28": {
+            "candidate_original": null,
+            "literal_exact": false,
+            "normalized_exact": false,
+            "reference_original": "investment in nature-based solutions for remaining 20%",
+            "semantic_rewrite_applied": false,
+            "token_jaccard": 0.0
+          },
+          "value_type": "string"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "target_2045_absolute_reduction_percent",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "target_2045_baseline_year",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "target_2045_scope",
+          "text_comparison_v28": {
+            "candidate_original": null,
+            "literal_exact": false,
+            "normalized_exact": false,
+            "reference_original": "full value chain; all scopes",
+            "semantic_rewrite_applied": false,
+            "token_jaccard": 0.0
+          },
+          "value_type": "string"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "target_2045_residual_treatment",
+          "text_comparison_v28": {
+            "candidate_original": null,
+            "literal_exact": false,
+            "normalized_exact": false,
+            "reference_original": "all residual emissions neutralised",
+            "semantic_rewrite_applied": false,
+            "token_jaccard": 0.0
+          },
+          "value_type": "string"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "scope2_renewable_electricity_target_percent",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "scope2_renewable_electricity_target_year",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "boundary",
+          "text_comparison_v28": {
+            "candidate_original": null,
+            "literal_exact": false,
+            "normalized_exact": false,
+            "reference_original": "includes biogenic land-related emissions and removals from bioenergy feedstocks",
+            "semantic_rewrite_applied": false,
+            "token_jaccard": 0.0
+          },
+          "value_type": "string"
+        }
+      ],
+      "failure_taxonomy": {
+        "category": "executor",
+        "error_type": "AttributeError",
+        "model_call_started": false,
+        "owner": "framework",
+        "retry_policy": "no_retry_in_locked_experiment",
+        "score_as_model_failure": false,
+        "stage": "stage_b"
+      },
+      "final_pipeline_valid": false,
+      "literal_or_numeric_exact_slot_count": 0,
+      "required_slot_count": 11,
+      "stage_a_valid": true,
+      "stage_b_status": "failed"
+    },
+    "P23-ENERGY-CALC-001": {
+      "credited_valid_slot_count": 3,
+      "dimensions": [
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "total_energy_gwh::2024",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "total_energy_gwh::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": true,
+          "exact_value_match": true,
+          "slot_id": "calculated_total_energy_change_percent",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "uk_energy_gwh::2024",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "uk_energy_gwh::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": true,
+          "exact_value_match": true,
+          "slot_id": "calculated_uk_energy_change_percent",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "renewable_electricity_percent::2024",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "renewable_electricity_percent::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": true,
+          "exact_value_match": true,
+          "slot_id": "renewable_electricity_change_percentage_points",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "boundary",
+          "text_comparison_v28": {
+            "candidate_original": null,
+            "literal_exact": false,
+            "normalized_exact": false,
+            "reference_original": "total operations and UK operations reported separately",
+            "semantic_rewrite_applied": false,
+            "token_jaccard": 0.0
+          },
+          "value_type": "string"
+        }
+      ],
+      "failure_taxonomy": null,
+      "final_pipeline_valid": true,
+      "literal_or_numeric_exact_slot_count": 3,
+      "required_slot_count": 10,
+      "stage_a_valid": true,
+      "stage_b_status": "not_required"
+    },
+    "P23-GHG-CALC-001": {
+      "credited_valid_slot_count": 3,
+      "dimensions": [
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "scope1_energy_thousand_tco2e::2024",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "scope1_other_thousand_tco2e::2024",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "scope2_market_thousand_tco2e::2024",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": true,
+          "exact_value_match": true,
+          "slot_id": "calculated_operational_total_thousand_tco2e::2024",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "scope1_energy_thousand_tco2e::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "scope1_other_thousand_tco2e::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "scope2_market_thousand_tco2e::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": true,
+          "exact_value_match": true,
+          "slot_id": "calculated_operational_total_thousand_tco2e::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": true,
+          "exact_value_match": true,
+          "slot_id": "calculated_change_percent",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "issuer_reduction_percent",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "rounding_comparison",
+          "text_comparison_v28": {
+            "candidate_original": null,
+            "literal_exact": false,
+            "normalized_exact": false,
+            "reference_original": "consistent",
+            "semantic_rewrite_applied": false,
+            "token_jaccard": 0.0
+          },
+          "value_type": "string"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "boundary",
+          "text_comparison_v28": {
+            "candidate_original": null,
+            "literal_exact": false,
+            "normalized_exact": false,
+            "reference_original": "Scope 1 plus market-based Scope 2; thousand tonnes CO2e",
+            "semantic_rewrite_applied": false,
+            "token_jaccard": 0.0
+          },
+          "value_type": "string"
+        }
+      ],
+      "failure_taxonomy": null,
+      "final_pipeline_valid": true,
+      "literal_or_numeric_exact_slot_count": 3,
+      "required_slot_count": 12,
+      "stage_a_valid": true,
+      "stage_b_status": "not_required"
+    },
+    "P23-WATER-CALC-001": {
+      "credited_valid_slot_count": 2,
+      "dimensions": [
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "total_supplied_water_million_m3::2024",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "total_supplied_water_million_m3::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": true,
+          "exact_value_match": true,
+          "slot_id": "calculated_total_water_change_percent",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "issuer_additional_reduction_percent",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "rounding_comparison",
+          "text_comparison_v28": {
+            "candidate_original": null,
+            "literal_exact": false,
+            "normalized_exact": false,
+            "reference_original": "consistent",
+            "semantic_rewrite_applied": false,
+            "token_jaccard": 0.0
+          },
+          "value_type": "string"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "high_stress_water_million_m3::2024",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "high_stress_water_million_m3::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": true,
+          "exact_value_match": true,
+          "slot_id": "calculated_high_stress_change_percent",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "reduction_from_2020_baseline_percent",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "sites_water_stewardship_percent::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "boundary",
+          "text_comparison_v28": {
+            "candidate_original": null,
+            "literal_exact": false,
+            "normalized_exact": false,
+            "reference_original": "overall water use in operations; supplied water in million m3",
+            "semantic_rewrite_applied": false,
+            "token_jaccard": 0.0
+          },
+          "value_type": "string"
+        }
+      ],
+      "failure_taxonomy": null,
+      "final_pipeline_valid": true,
+      "literal_or_numeric_exact_slot_count": 2,
+      "required_slot_count": 11,
+      "stage_a_valid": true,
+      "stage_b_status": "not_required"
+    },
+    "P23-WORKFORCE-CALC-001": {
+      "credited_valid_slot_count": 0,
+      "dimensions": [
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "board_male",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "board_female",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "board_total",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "board_female_share_percent",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "management_male",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "management_female",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "management_total",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "management_female_share_percent",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "all_employees_male",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "all_employees_female",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "all_employees_total_fte",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "all_employees_female_share_percent",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "reporting_date",
+          "text_comparison_v28": {
+            "candidate_original": null,
+            "literal_exact": false,
+            "normalized_exact": false,
+            "reference_original": "31 December 2025",
+            "semantic_rewrite_applied": false,
+            "token_jaccard": 0.0
+          },
+          "value_type": "string"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "method",
+          "text_comparison_v28": {
+            "candidate_original": null,
+            "literal_exact": false,
+            "normalized_exact": false,
+            "reference_original": "all-employee male and female values calculated by applying gender diversity percentages to total FTE",
+            "semantic_rewrite_applied": false,
+            "token_jaccard": 0.0
+          },
+          "value_type": "string"
+        }
+      ],
+      "failure_taxonomy": {
+        "category": "model_behavior",
+        "error_type": "OllamaError",
+        "model_call_started": true,
+        "owner": "candidate_model",
+        "retry_policy": "no_retry_in_locked_experiment",
+        "score_as_model_failure": true,
+        "stage": "stage_a"
+      },
+      "final_pipeline_valid": false,
+      "literal_or_numeric_exact_slot_count": 0,
+      "required_slot_count": 14,
+      "stage_a_valid": false,
+      "stage_b_status": "not_reached"
+    }
+  }
+}

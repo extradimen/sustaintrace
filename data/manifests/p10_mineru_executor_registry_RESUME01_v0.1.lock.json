@@ -1,0 +1,136 @@
+{
+  "parent": "data/manifests/p10_mineru_target_registry_RESUME03_v0.1.lock.json",
+  "parser": "MinerU 3.4.0 pipeline",
+  "schema_version": "1.0",
+  "status": "executor_compatible_provenance_wrappers_frozen_after_authorization_before_inference",
+  "targets": [
+    {
+      "document_id": "P10-SHELL-AR2025",
+      "document_sha256": "90b21028e1616c41c7d73c3e996fd6128d837a41b38d432286e991aed3fbd9a1",
+      "local_path": "data/raw/p10_staging/shell-annual-report-2025.pdf",
+      "output_directory": "artifacts/p10/executor_registry_RESUME01/P10-SHELL-AR2025-p0338",
+      "output_file_count": 1,
+      "pdf_page": 338,
+      "run_record_sha256": "3e1524e5c1e989eca340246a02c561a1f5878a00a7f144394ef4064378f04f00",
+      "status": "parsed_reused_without_semantic_change",
+      "target_id": "P10-SHELL-AR2025-p0338",
+      "task_ids": [
+        "P10-BOUNDARY-001"
+      ]
+    },
+    {
+      "document_id": "P10-SHELL-AR2025",
+      "document_sha256": "90b21028e1616c41c7d73c3e996fd6128d837a41b38d432286e991aed3fbd9a1",
+      "local_path": "data/raw/p10_staging/shell-annual-report-2025.pdf",
+      "output_directory": "artifacts/p10/executor_registry_RESUME01/P10-SHELL-AR2025-p0339",
+      "output_file_count": 1,
+      "pdf_page": 339,
+      "run_record_sha256": "84033d10b37990bc7b2b882458330853f77990a29e76dce0dbafb3d27e0eba84",
+      "status": "parsed_reused_without_semantic_change",
+      "target_id": "P10-SHELL-AR2025-p0339",
+      "task_ids": [
+        "P10-BOUNDARY-001"
+      ]
+    },
+    {
+      "document_id": "P10-SHELL-AR2025",
+      "document_sha256": "90b21028e1616c41c7d73c3e996fd6128d837a41b38d432286e991aed3fbd9a1",
+      "local_path": "data/raw/p10_staging/shell-annual-report-2025.pdf",
+      "output_directory": "artifacts/p10/executor_registry_RESUME01/P10-SHELL-AR2025-p0360",
+      "output_file_count": 1,
+      "pdf_page": 360,
+      "run_record_sha256": "6c9378484cad81bda3afed7f3256b370f09b958e45db006b7a04d990314197f3",
+      "status": "parsed_reused_without_semantic_change",
+      "target_id": "P10-SHELL-AR2025-p0360",
+      "task_ids": [
+        "P10-TARGET-001"
+      ]
+    },
+    {
+      "document_id": "P10-SHELL-AR2025",
+      "document_sha256": "90b21028e1616c41c7d73c3e996fd6128d837a41b38d432286e991aed3fbd9a1",
+      "local_path": "data/raw/p10_staging/shell-annual-report-2025.pdf",
+      "output_directory": "artifacts/p10/executor_registry_RESUME01/P10-SHELL-AR2025-p0361",
+      "output_file_count": 1,
+      "pdf_page": 361,
+      "run_record_sha256": "e4532d83b7a25644433ee7489d7bc5839f403563cc42561f82a04b4c85d73568",
+      "status": "parsed_reused_without_semantic_change",
+      "target_id": "P10-SHELL-AR2025-p0361",
+      "task_ids": [
+        "P10-TARGET-001"
+      ]
+    },
+    {
+      "document_id": "P10-SHELL-AR2025",
+      "document_sha256": "90b21028e1616c41c7d73c3e996fd6128d837a41b38d432286e991aed3fbd9a1",
+      "local_path": "data/raw/p10_staging/shell-annual-report-2025.pdf",
+      "output_directory": "artifacts/p10/executor_registry_RESUME01/P10-SHELL-AR2025-p0369",
+      "output_file_count": 1,
+      "pdf_page": 369,
+      "run_record_sha256": "ef6d80b9c51ace916d6cdcb6f51517bf59a2d2c0254b2302dfae7e9ecff39aff",
+      "status": "parsed_reused_without_semantic_change",
+      "target_id": "P10-SHELL-AR2025-p0369",
+      "task_ids": [
+        "P10-CALC-001",
+        "P10-SCOPE3-001"
+      ]
+    },
+    {
+      "document_id": "P10-SHELL-AR2025",
+      "document_sha256": "90b21028e1616c41c7d73c3e996fd6128d837a41b38d432286e991aed3fbd9a1",
+      "local_path": "data/raw/p10_staging/shell-annual-report-2025.pdf",
+      "output_directory": "artifacts/p10/executor_registry_RESUME01/P10-SHELL-AR2025-p0370",
+      "output_file_count": 1,
+      "pdf_page": 370,
+      "run_record_sha256": "463adc74f4637b9c4e4251e3d54849880742702e9983a2ea033a3d0b1bed310a",
+      "status": "parsed_reused_without_semantic_change",
+      "target_id": "P10-SHELL-AR2025-p0370",
+      "task_ids": [
+        "P10-SCOPE3-001"
+      ]
+    },
+    {
+      "document_id": "P10-SHELL-AR2025",
+      "document_sha256": "90b21028e1616c41c7d73c3e996fd6128d837a41b38d432286e991aed3fbd9a1",
+      "local_path": "data/raw/p10_staging/shell-annual-report-2025.pdf",
+      "output_directory": "artifacts/p10/executor_registry_RESUME01/P10-SHELL-AR2025-p0420",
+      "output_file_count": 1,
+      "pdf_page": 420,
+      "run_record_sha256": "4b6f806a7c70d64e4c15aa87e1ca4135bdde45d5efba841f641a0d53ac31c861",
+      "status": "parsed_reused_without_semantic_change",
+      "target_id": "P10-SHELL-AR2025-p0420",
+      "task_ids": [
+        "P10-SAFETY-001"
+      ]
+    },
+    {
+      "document_id": "P10-SHELL-AR2025",
+      "document_sha256": "90b21028e1616c41c7d73c3e996fd6128d837a41b38d432286e991aed3fbd9a1",
+      "local_path": "data/raw/p10_staging/shell-annual-report-2025.pdf",
+      "output_directory": "artifacts/p10/executor_registry_RESUME01/P10-SHELL-AR2025-p0426",
+      "output_file_count": 1,
+      "pdf_page": 426,
+      "run_record_sha256": "9ce81e7510348463da82c5101ae16671b132aea3d922fecf2df33dd08c21728c",
+      "status": "parsed_reused_without_semantic_change",
+      "target_id": "P10-SHELL-AR2025-p0426",
+      "task_ids": [
+        "P10-ASSURE-001"
+      ]
+    },
+    {
+      "document_id": "P10-SHELL-AR2025",
+      "document_sha256": "90b21028e1616c41c7d73c3e996fd6128d837a41b38d432286e991aed3fbd9a1",
+      "local_path": "data/raw/p10_staging/shell-annual-report-2025.pdf",
+      "output_directory": "artifacts/p10/executor_registry_RESUME01/P10-SHELL-AR2025-p0427",
+      "output_file_count": 1,
+      "pdf_page": 427,
+      "run_record_sha256": "1a3ae7ab2efd48ee4f23c50e5f1155fc2f0d3c010595e9cd28c1f4429280eefe",
+      "status": "parsed_reused_without_semantic_change",
+      "target_id": "P10-SHELL-AR2025-p0427",
+      "task_ids": [
+        "P10-ASSURE-001"
+      ]
+    }
+  ],
+  "unique_target_count": 9
+}

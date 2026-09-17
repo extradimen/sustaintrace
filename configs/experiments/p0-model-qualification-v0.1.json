@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0",
+  "plan_id": "P0-MODEL-QUAL-v0.1",
+  "status": "draft",
+  "dataset_split": "P0",
+  "framework_version": "V0",
+  "frozen_inputs": {
+    "document_manifest": "8da6ab126cfb5d07a8546e292923102d87f371ea7eb4b7f9391350a324305d65",
+    "task_pack": "80491e7e0dce558cb89689026aa59d88d9834c9a00c0b885b12c668eac1b4916",
+    "finding_card_schema": "e2aac00a4996600dbb56ae2531f4a69f539f8edb4ac66929a74048f284a57520",
+    "system_prompt": "2b1d91528dae3dab26440e0c3090969ec8f0f385422236d81b0b1e68b686a3c3"
+  },
+  "repetitions_per_task": 5,
+  "tasks": [
+    {"task_id": "P0-TEXT-001", "include_images": false, "purpose": "direct text extraction"},
+    {"task_id": "P0-TABLE-001", "include_images": true, "purpose": "table metric extraction"},
+    {"task_id": "P0-CALC-001", "include_images": true, "purpose": "deterministic calculation from table"},
+    {"task_id": "P0-TARGET-001", "include_images": true, "purpose": "target tracking and exhaustive enumeration"},
+    {"task_id": "P0-ABSTAIN-001", "include_images": true, "purpose": "correct abstention under missing information"},
+    {"task_id": "P0-CONFLICT-001", "include_images": true, "purpose": "controlled conflict and source attribution"},
+    {"task_id": "P0-OPEN-001", "include_images": true, "purpose": "open decision-relevant knowledge discovery"}
+  ],
+  "selection_rule": {
+    "aggregate_score": null,
+    "pareto_dimensions": [
+      "schema_success_rate",
+      "answer_correctness",
+      "evidence_accuracy",
+      "boundary_accuracy",
+      "abstention_accuracy",
+      "run_to_run_jaccard",
+      "latency",
+      "memory"
+    ],
+    "hard_safeguards": [
+      "no forged evidence locator",
+      "no unsupported source attribution",
+      "false discovery rate does not exceed the registered ceiling",
+      "all failed model outputs remain archived"
+    ]
+  }
+}

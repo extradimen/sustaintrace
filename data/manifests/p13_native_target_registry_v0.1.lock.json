@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "experiment_id": "P13-V22-UNSEEN-LOCKBOX-V01",
+  "status": "native_fallback_outputs_frozen",
+  "parser": "pdftotext -layout -enc UTF-8",
+  "source_sha256": "6ca8d7f0faa864cf46a98b1ae8c3ae85979d310d6c0f436dc169d525c706b568",
+  "outputs": [
+    {"page":148,"path":"artifacts/p13/native_pdf_targets/P13-SCHNEIDER-URD2025-p0148.txt","sha256":"c806fb594fc70de01d634aa31bcf31753b958f9f5ce55f9ab18d3fb9158be80a"},
+    {"page":149,"path":"artifacts/p13/native_pdf_targets/P13-SCHNEIDER-URD2025-p0149.txt","sha256":"2e9ad82751ee1ff72983bc4d73393f71b996a1ae53153239dd96923f9b789730"},
+    {"page":150,"path":"artifacts/p13/native_pdf_targets/P13-SCHNEIDER-URD2025-p0150.txt","sha256":"50e08b1c0c8a1a3d39d185767a6f2f827c9d6855ae5536d53b6d183a4b4cb414"},
+    {"page":152,"path":"artifacts/p13/native_pdf_targets/P13-SCHNEIDER-URD2025-p0152.txt","sha256":"3071e039ca8e707a904b8241a53aec0f5618c04a2881fb15d574e17cf88cde53"},
+    {"page":153,"path":"artifacts/p13/native_pdf_targets/P13-SCHNEIDER-URD2025-p0153.txt","sha256":"bba3ac35af3afc57a2e85e8e5f5a552d8de1c6ffb95752b01d620b46814652bd"},
+    {"page":213,"path":"artifacts/p13/native_pdf_targets/P13-SCHNEIDER-URD2025-p0213.txt","sha256":"52d6e4b25f58992f7ecb3131dc7ac9a26d2a1247ce37d4603774e332e7f02e41"},
+    {"page":315,"path":"artifacts/p13/native_pdf_targets/P13-SCHNEIDER-URD2025-p0315.txt","sha256":"ded910fa58fc506c655024ac53f91a77f851ddda6263bf6eaca6319ccef31e7a"},
+    {"page":333,"path":"artifacts/p13/native_pdf_targets/P13-SCHNEIDER-URD2025-p0333.txt","sha256":"f0d263fca0dccdf07d29b51efabde2f8a02c6f425662bdeb2d8753559894a412"},
+    {"page":334,"path":"artifacts/p13/native_pdf_targets/P13-SCHNEIDER-URD2025-p0334.txt","sha256":"b3f573e13858a0c63f936c222ba374a081bfd2b9492dd62bfd80a7d8503de319"},
+    {"page":339,"path":"artifacts/p13/native_pdf_targets/P13-SCHNEIDER-URD2025-p0339.txt","sha256":"47a5ac98042bcfd1166a3bacfc4222997b3c724881bcc5aceb98d011711651e9"},
+    {"page":340,"path":"artifacts/p13/native_pdf_targets/P13-SCHNEIDER-URD2025-p0340.txt","sha256":"5caf6f275c5a9f9508078b0347685abbd60b6abf50e38cc98730e6af4a534b5a"},
+    {"page":344,"path":"artifacts/p13/native_pdf_targets/P13-SCHNEIDER-URD2025-p0344.txt","sha256":"313e08bd7f02cb2528346699bba7e6d3ba947b837584b00769bb86126b8105c2"},
+    {"page":353,"path":"artifacts/p13/native_pdf_targets/P13-SCHNEIDER-URD2025-p0353.txt","sha256":"e8b321a124cfc29a9a20d9d9cb532c0fdf1a9eabd59b652ecf4f6f6230257b46"}
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-013-ACQUISITION-RESUME02",
+  "status": "completed_same_url_transport_fallback",
+  "parent_attempt": "data/manifests/scale_batch_013_acquisition_RESUME01.lock.json",
+  "parent_attempt_sha256": "74b9bf9047a0efbd50c467a96d182bb1f339810c8eef7694edd5dbf5beca7737",
+  "failed_parent_document": "KB-B013-ELECTROLUX-AR2025",
+  "parent_failure_signature": "OFFICIAL_SOURCE_READ_TIMEOUT",
+  "recovery_method": "curl_same_official_url_with_resume_capability",
+  "source_url_changed": false,
+  "recovered_file": "data/raw/scale_batch_013/electrolux-group-annual-report-2025.pdf",
+  "recovered_bytes": 37222297,
+  "recovered_sha256": "dcaf78e2d04f7b6b793d458826d304983dbb593b50a1404208414261bd7d2630",
+  "recovered_pdf_pages": 186,
+  "final_manifest": "data/manifests/scale_batch_013_acquisition_FINAL.lock.json",
+  "final_manifest_sha256": "58f90030819b371823ceb9601fbf5e609952595fd2adfce734650398ef67137a",
+  "reused_verified_documents": [
+    "KB-B013-WARTSILA-AR2025",
+    "KB-B013-SKF-ASR2025"
+  ],
+  "parent_outputs_preserved": true,
+  "cloud_model_transmission": false
+}

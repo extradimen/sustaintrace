@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "lock_id": "P2-TASK-REFERENCE-FREEZE-v0.1",
+  "status": "frozen_before_candidate_inference",
+  "task_pack_path": "data/tasks/p2_task_pack_v0.1.lock.json",
+  "task_pack_sha256": "e8df8914fb4130c1071c449ddec2538c57193ec8cfdf38921a44ac37f608343e",
+  "reference_directory": "data/annotations/p2_simulated",
+  "reference_count": 12,
+  "controlled_intervention_directory": "data/controlled_interventions/p2",
+  "controlled_intervention_count": 2,
+  "ordered_component_digest_sha256": "ae7b25880c55d9a5b5256bb608b2388b6f3576aa75036b0c3002e1501066ff1f",
+  "reference_provenance": {
+    "is_human_gold": false,
+    "is_ai_simulated": true,
+    "author": "codex_gpt_simulated_expert",
+    "candidate_model_excluded": true
+  },
+  "separation_attestation": {
+    "candidate_inference_started": false,
+    "candidate_runner_received_reference_files": false,
+    "framework_change_permitted_after_this_lock": false,
+    "prompt_change_permitted_after_this_lock": false,
+    "model_config_change_permitted_after_this_lock": false
+  }
+}

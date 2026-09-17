@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "framework_version": "P1-PIPELINE-v0.7.4-PERIOD-KEYED-CALCULATION",
+  "status": "preregistered_before_inference",
+  "registered_at": "2026-09-04T11:35:00+08:00",
+  "parent_framework": "P1-PIPELINE-v0.7.3-OPERATION-ROLE-SCHEMA",
+  "triggering_archived_run": "P1-02-1-GEMMA4-12B-v073-r1",
+  "observed_failure": "The model used legal current/prior roles but attached them to the wrong year values.",
+  "only_change": "For percentage_change, replace model-authored semantic roles with period_year on each grounded observation. Require exactly two distinct years. The framework assigns the larger year to current and the smaller year to prior before executing the unchanged percentage-change formula.",
+  "grounding": "Each value must occur in its evidence handle. Each period_year must occur in the same table row or its immutable table_header_context.",
+  "unchanged": [
+    "Ratio, difference, and sum role contracts.",
+    "All non-calculation task contracts.",
+    "Percentage-change formula, source documents, tasks, MinerU artifacts, model digest, timeout, and archival rules."
+  ],
+  "posthoc_semantic_repair_allowed": false,
+  "reference_answer_visible_during_inference": false,
+  "inference_allowed": false,
+  "next_gate": "implementation_tests_and_hash_freeze"
+}

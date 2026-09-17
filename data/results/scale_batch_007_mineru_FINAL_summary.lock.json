@@ -1,0 +1,491 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-007-MINERU-FINAL",
+  "updated_at": "2026-09-12T22:38:04.779145+00:00",
+  "status": "complete",
+  "cloud_transmission": false,
+  "total_target_pages": 25,
+  "complete_pages": 25,
+  "failed_pages": 0,
+  "pending_pages": 0,
+  "post_completion_shutdown_recovered_pages": 6,
+  "recovered_pages": [
+    {
+      "document_id": "KB-B007-ABB-ARS2025",
+      "page": 336
+    },
+    {
+      "document_id": "KB-B007-ABB-ARS2025",
+      "page": 341
+    },
+    {
+      "document_id": "KB-B007-ABB-ARS2025",
+      "page": 363
+    },
+    {
+      "document_id": "KB-B007-ABB-ARS2025",
+      "page": 365
+    },
+    {
+      "document_id": "KB-B007-ABB-ARS2025",
+      "page": 417
+    },
+    {
+      "document_id": "KB-B007-NOKIA-AR2025",
+      "page": 56
+    }
+  ],
+  "parent_attempts": [
+    "data/results/scale_batch_007_mineru_summary.lock.json",
+    "data/results/scale_batch_007_mineru_RESUME01_summary.lock.json",
+    "data/results/scale_batch_007_mineru_RESUME02_summary.lock.json"
+  ],
+  "parent_failures_preserved": true,
+  "records": [
+    {
+      "document_id": "KB-B007-ABB-ARS2025",
+      "page": 73,
+      "themes": [
+        "biodiversity"
+      ],
+      "output_directory": "artifacts/scale_batch_007/mineru_targets/KB-B007-ABB-ARS2025-p0073",
+      "status": "complete",
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "fc492b1833cae78c2d69acbb9c976c0654ada3da1fa3da3076d0b81cb5aa8207",
+        "_content_list.json": "7326d96f6863260dc8f85f1107d781d5697baf4a60fc07de0f7feb15bc2ffb3a",
+        "_middle.json": "f3b8007cd2b637d52888f5689536b529f26e8af77df1f9b727ec3d569a943cd6",
+        "_model.json": "cc172ce6a5a4f75fbd4f037ec4e25078ec8126b6dde18ad21025e0900ff6ea13"
+      }
+    },
+    {
+      "document_id": "KB-B007-ABB-ARS2025",
+      "page": 232,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_007/mineru_targets_RESUME01/KB-B007-ABB-ARS2025-p0232",
+      "status": "complete",
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "daa4fa8bc2c22bb1f5d901e7509553e7799afceb15d8446aeb75af36af3f7863",
+        "_content_list.json": "f7fa7f4d121a7f27ea7db12eabbd7bcee7c326f9ad646418cc534240e8b48e4e",
+        "_middle.json": "f72d0aaadade0b519de83584bbc6c9d287fd713c8f9f05441a2e781183ee2575",
+        "_model.json": "56b021e287d97f0dbb99555d93a2d9159fe0f8abc2d2038641dc4ec900999403"
+      }
+    },
+    {
+      "document_id": "KB-B007-ABB-ARS2025",
+      "page": 311,
+      "themes": [
+        "targets"
+      ],
+      "output_directory": "artifacts/scale_batch_007/mineru_targets/KB-B007-ABB-ARS2025-p0311",
+      "status": "complete",
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "119cb39f45ec8819c504759cf60a734245f56523bb948b0856f3b74acba8edb7",
+        "_content_list.json": "7d1bc82595af714df1fa83e23df15f60ce99296707f9c9a3aba038a9fd9339e3",
+        "_middle.json": "56c03670f15b8a64546c9a8e58f5fee67967b96967b235e3350d096e8173349c",
+        "_model.json": "a8befe05b47e165dfb47a3850012fb3273850ebb82a7a7bb2614a17ed7a0345a"
+      }
+    },
+    {
+      "document_id": "KB-B007-ABB-ARS2025",
+      "page": 320,
+      "themes": [
+        "energy"
+      ],
+      "output_directory": "artifacts/scale_batch_007/mineru_targets/KB-B007-ABB-ARS2025-p0320",
+      "status": "complete",
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "d649cd7f24829096e0f92f3f294baf8fb21678872b11b5e8103c6ce778a49bdb",
+        "_content_list.json": "dd0e6aab9b4b9dc9225274d3f643fe08010b2f214b15e5a3661ebb07c4b934c8",
+        "_middle.json": "96710ccdd69acad40060baedb22bc16eac05cab2477b73ba9337e65bd021a3b6",
+        "_model.json": "d6d70841f8b7ebc1698b74c29e97032195e876156a61ffc4fde2add288c13eb4"
+      }
+    },
+    {
+      "document_id": "KB-B007-ABB-ARS2025",
+      "page": 336,
+      "themes": [
+        "circularity"
+      ],
+      "output_directory": "artifacts/scale_batch_007/mineru_targets_RESUME02/KB-B007-ABB-ARS2025-p0336",
+      "status": "complete",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_007/mineru_targets_RESUME02/KB-B007-ABB-ARS2025-p0336/esg_rd_mineru_run.json",
+      "selected_attempt": "RESUME02",
+      "completion_basis": "post_completion_shutdown_abort_with_three_identical_required_output_sets",
+      "original_status": "failed",
+      "original_returncode": -6,
+      "output_sha256": {
+        ".md": "43bb391d568f774629b6af6ce9885190123be4d3c4f5b35e3133bb0f627c06bb",
+        "_content_list.json": "997b588a832fb37073ced7478e6579388645d42609e17b9634ca410f496a2a6e",
+        "_middle.json": "7808decd12a664eda0062d82a5819b234d6a7c5a2254c718bc384ae8f38a7db8",
+        "_model.json": "61efa9ea36f8b30bdc7fdf4f69ce45ab14e837d9d9f6eac3f3d2082d6621934c"
+      }
+    },
+    {
+      "document_id": "KB-B007-ABB-ARS2025",
+      "page": 341,
+      "themes": [
+        "water"
+      ],
+      "output_directory": "artifacts/scale_batch_007/mineru_targets_RESUME02/KB-B007-ABB-ARS2025-p0341",
+      "status": "complete",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_007/mineru_targets_RESUME02/KB-B007-ABB-ARS2025-p0341/esg_rd_mineru_run.json",
+      "selected_attempt": "RESUME02",
+      "completion_basis": "post_completion_shutdown_abort_with_three_identical_required_output_sets",
+      "original_status": "failed",
+      "original_returncode": -6,
+      "output_sha256": {
+        ".md": "63cb61b83005c4d7ea2b591a0f55ac7f4a112bbc5e64b5bf9fcd36da7f2a7b13",
+        "_content_list.json": "29c212d0382e18bd5e8d5f15ca35f974b4930e39471a8da565e28c5cbfd21f8a",
+        "_middle.json": "3eb9a076c648007a5d34bcab1a0a9d3a68303f640bed3dc927c9e5c8821fab8c",
+        "_model.json": "67909368759ba2249428484c9fbd4bf504a6c946ef46ea9507e80eeb362f9ff0"
+      }
+    },
+    {
+      "document_id": "KB-B007-ABB-ARS2025",
+      "page": 363,
+      "themes": [
+        "workforce"
+      ],
+      "output_directory": "artifacts/scale_batch_007/mineru_targets_RESUME02/KB-B007-ABB-ARS2025-p0363",
+      "status": "complete",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_007/mineru_targets_RESUME02/KB-B007-ABB-ARS2025-p0363/esg_rd_mineru_run.json",
+      "selected_attempt": "RESUME02",
+      "completion_basis": "post_completion_shutdown_abort_with_three_identical_required_output_sets",
+      "original_status": "failed",
+      "original_returncode": -6,
+      "output_sha256": {
+        ".md": "0adb3655e987c890183e48afffc3893c3d5b48089408a88efa4f7d952b386af0",
+        "_content_list.json": "0025238443aa79c12f9796430831d948d417db13925e433649be14f3a13b84b7",
+        "_middle.json": "9a97ecd4d1705f218712be81e5dcc3bda4619d0d38b0592a5c55ba58ff9c2a9f",
+        "_model.json": "885824470ce26712c2bcf72fd6fb91fe171b8531c5998867562d1af6b9b8adc5"
+      }
+    },
+    {
+      "document_id": "KB-B007-ABB-ARS2025",
+      "page": 365,
+      "themes": [
+        "health_safety"
+      ],
+      "output_directory": "artifacts/scale_batch_007/mineru_targets_RESUME02/KB-B007-ABB-ARS2025-p0365",
+      "status": "complete",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_007/mineru_targets_RESUME02/KB-B007-ABB-ARS2025-p0365/esg_rd_mineru_run.json",
+      "selected_attempt": "RESUME02",
+      "completion_basis": "post_completion_shutdown_abort_with_three_identical_required_output_sets",
+      "original_status": "failed",
+      "original_returncode": -6,
+      "output_sha256": {
+        ".md": "5ef449417c8c535c0f0bed08a9ced2371f05f3f1fe3bd429a9945557db7b1613",
+        "_content_list.json": "c70b31224338ce2ce35e0e5586e5fc023547c97032b80aadddc1d1ef3a3d2bf0",
+        "_middle.json": "bb611f852369cfabfb8d49845591f7d1e60f4c3a90d34bdce43135f882de2b6a",
+        "_model.json": "90bbb7037d9e53c08a4879cbbd4cb3270204b597cc6ee58b2d63475fc2a34219"
+      }
+    },
+    {
+      "document_id": "KB-B007-ABB-ARS2025",
+      "page": 417,
+      "themes": [
+        "ghg_emissions"
+      ],
+      "output_directory": "artifacts/scale_batch_007/mineru_targets_RESUME02/KB-B007-ABB-ARS2025-p0417",
+      "status": "complete",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_007/mineru_targets_RESUME02/KB-B007-ABB-ARS2025-p0417/esg_rd_mineru_run.json",
+      "selected_attempt": "RESUME02",
+      "completion_basis": "post_completion_shutdown_abort_with_three_identical_required_output_sets",
+      "original_status": "failed",
+      "original_returncode": -6,
+      "output_sha256": {
+        ".md": "92b6b7ccfa45dbe157e77ea527fac776ff0d271de49859d010008184cd1cbc32",
+        "_content_list.json": "9dcc0d5ec6d65cf46a6fcb38e5a45e7f62e5d9e119fbedfc55827b768ba74ea9",
+        "_middle.json": "aa0a769b5546f5c6e242cdaf8dbe5bc95074cd445d9d9fa40e4d15745f9e2683",
+        "_model.json": "846e7e2c939dd4f61cbba6bd8ba7a2105c4b5465ffa6aa8740abec073c339db3"
+      }
+    },
+    {
+      "document_id": "KB-B007-ATLAS-COPCO-AR2025",
+      "page": 50,
+      "themes": [
+        "energy"
+      ],
+      "output_directory": "artifacts/scale_batch_007/mineru_targets/KB-B007-ATLAS-COPCO-AR2025-p0050",
+      "status": "complete",
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "0983260134a8d4a83cf9439a9f990d2da992769afc737ffc28eb01c7a8cc99ff",
+        "_content_list.json": "a29f01d7709d9b615a75a262eb3d31cc6ed7fbd64879c1e42558e7a33555e825",
+        "_middle.json": "3d29baccdeb96edabc44e63adb444ff3cf5a62ad84e6606ac394374a8c771c31",
+        "_model.json": "1a97964d86c6c6fa19a7e1d10567a73705002a81a09e276e9e58c820d7cdd2d3"
+      }
+    },
+    {
+      "document_id": "KB-B007-ATLAS-COPCO-AR2025",
+      "page": 55,
+      "themes": [
+        "ghg_emissions",
+        "targets"
+      ],
+      "output_directory": "artifacts/scale_batch_007/mineru_targets/KB-B007-ATLAS-COPCO-AR2025-p0055",
+      "status": "complete",
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "6331aadf6123c612d48c9e8dd65524a800a42ab69c475a29bb2d195b14682db6",
+        "_content_list.json": "6a619a54d2157de7768ff7b048521744c9b5508766fd24c708ec92af6f5ec438",
+        "_middle.json": "1feb2027ca2345a88ce1512d608bc616e0103ab89a61a1a2d90b524270282a5a",
+        "_model.json": "65029800fd12c6371b2d7f1570f5d03d6952640d798a6904f4358f3d4ed966bc"
+      }
+    },
+    {
+      "document_id": "KB-B007-ATLAS-COPCO-AR2025",
+      "page": 57,
+      "themes": [
+        "circularity"
+      ],
+      "output_directory": "artifacts/scale_batch_007/mineru_targets/KB-B007-ATLAS-COPCO-AR2025-p0057",
+      "status": "complete",
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "df7d5312ba568e3813dbca0cf4a93a29799094216b789d0ab3a6db7b8f1d22d1",
+        "_content_list.json": "6ee4ee4000c01c1e25c2fd5ca99a79a1d1151cf455c66533e2126b4acd44d205",
+        "_middle.json": "7c5ea474d9d80fff13021066118203484f4ef6051cdc673aa8bb641d5543f5de",
+        "_model.json": "88d6b61e172f251b05e87f870062117b71a232cfd08495fac81e7e0b45167894"
+      }
+    },
+    {
+      "document_id": "KB-B007-ATLAS-COPCO-AR2025",
+      "page": 70,
+      "themes": [
+        "health_safety"
+      ],
+      "output_directory": "artifacts/scale_batch_007/mineru_targets/KB-B007-ATLAS-COPCO-AR2025-p0070",
+      "status": "complete",
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "158fc3b2fd288fb0dc284dc2e200cc998f2b83bc8ef70456aca5e7ba9ce4130a",
+        "_content_list.json": "00aa03332f03700a7ccf77d69cfc69b3b4976b9eb0898e0b185dfe0635e3550c",
+        "_middle.json": "5ac806691b35cd2821931b73f773f595487f739679e032b0bc03d7a26a4c86d5",
+        "_model.json": "ee1599e04554032ef2c9acd736980a39906f11b3085101188d2431b9f974e444"
+      }
+    },
+    {
+      "document_id": "KB-B007-ATLAS-COPCO-AR2025",
+      "page": 72,
+      "themes": [
+        "workforce"
+      ],
+      "output_directory": "artifacts/scale_batch_007/mineru_targets/KB-B007-ATLAS-COPCO-AR2025-p0072",
+      "status": "complete",
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "771a581df2bacdc4df8b4fb5c12a6ced0f881ae63bd176fe95bfb006b3ae7da1",
+        "_content_list.json": "733f45b1fd6ab6901ac6728d65592eaa5e27b852df893ccb8f6b8caf3fe83859",
+        "_middle.json": "37dac3f4574df99ecd7950add6a53b1cb85221bbae7dfac31fb9d00683421942",
+        "_model.json": "111ae93a16620d2f95c0415fe9117d47630fb71c17f013b6dbd9854772277f38"
+      }
+    },
+    {
+      "document_id": "KB-B007-ATLAS-COPCO-AR2025",
+      "page": 79,
+      "themes": [
+        "biodiversity",
+        "water"
+      ],
+      "output_directory": "artifacts/scale_batch_007/mineru_targets/KB-B007-ATLAS-COPCO-AR2025-p0079",
+      "status": "complete",
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "e9a20583535c1c9b4a9c70a73b15a1623a34029e0f3e5a2f3232a8b9122610ee",
+        "_content_list.json": "f473bffc96e86fcf0b9d60892a68c2dad09090337ff21987b6259c94993100cc",
+        "_middle.json": "cbe6e9751efa2f26ea392ebfffa3cb415c0549e5f4ece37e96eeca6efd490db7",
+        "_model.json": "75884c439c28b921e84ed45a6a761c995ade503c93a71d8d181aa603387f08c6"
+      }
+    },
+    {
+      "document_id": "KB-B007-ATLAS-COPCO-AR2025",
+      "page": 169,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_007/mineru_targets/KB-B007-ATLAS-COPCO-AR2025-p0169",
+      "status": "complete",
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "7d7c348543946df243d788c11004393bff80ca4ed35d01a66a6e680a60df359f",
+        "_content_list.json": "a490bc576724e2c79a93b2e7ccabb9cce0cce82d0802ac04f27877cbf2eb4b84",
+        "_middle.json": "1c673b7ab676eda0b90c87a4f20092f6d12954488d451b3b8066a4877e9a384e",
+        "_model.json": "bd840a52d397daffcbd46f734d46d65dba23fa7ead95439640d8f799fe5abaf5"
+      }
+    },
+    {
+      "document_id": "KB-B007-NOKIA-AR2025",
+      "page": 21,
+      "themes": [
+        "biodiversity"
+      ],
+      "output_directory": "artifacts/scale_batch_007/mineru_targets/KB-B007-NOKIA-AR2025-p0021",
+      "status": "complete",
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "a3485abc084c2d3f65f4d3cdf007356a0e9bda43cfca3b3f256d875f97ff359e",
+        "_content_list.json": "8c19bed5c06458cf54b9aeabf0a96c673b252f123675787de9de7762b8a6bafe",
+        "_middle.json": "5bbfebb75edba786d026ef92d3a2fc14941150a24af9f298315b981ea11f9bec",
+        "_model.json": "7213227b59cf89f65961ae47b04ef1d7d8cf80bcddadcb959db61cccf946886a"
+      }
+    },
+    {
+      "document_id": "KB-B007-NOKIA-AR2025",
+      "page": 56,
+      "themes": [
+        "health_safety"
+      ],
+      "output_directory": "artifacts/scale_batch_007/mineru_targets_RESUME02/KB-B007-NOKIA-AR2025-p0056",
+      "status": "complete",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_007/mineru_targets_RESUME02/KB-B007-NOKIA-AR2025-p0056/esg_rd_mineru_run.json",
+      "selected_attempt": "RESUME02",
+      "completion_basis": "post_completion_shutdown_abort_with_three_identical_required_output_sets",
+      "original_status": "failed",
+      "original_returncode": -6,
+      "output_sha256": {
+        ".md": "67fe87227dd056c8805893e9744e1b5e5de67d1d5929518f86a4ccfee8d2e7f1",
+        "_content_list.json": "5787f3788b4945a3130608e84be63b54cbb29aa2c771733b9d6e5f0b88e3b7a0",
+        "_middle.json": "5c5670f82607ed3cb7c73f17b0c865741a35837d1a782128d66a2212d15c59a2",
+        "_model.json": "54caa13cd03fbfe1cfc265e53913937d23c8deac21e94e585936a325860e7035"
+      }
+    },
+    {
+      "document_id": "KB-B007-NOKIA-AR2025",
+      "page": 120,
+      "themes": [
+        "targets"
+      ],
+      "output_directory": "artifacts/scale_batch_007/mineru_targets/KB-B007-NOKIA-AR2025-p0120",
+      "status": "complete",
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "72313f9cd5389b8bf5e45eb15a7469a98d6e807d7ae23bfa77dcd8905c354f16",
+        "_content_list.json": "5f15fbbc43968092c231fe5296ef1ca199cc742abb500e504f8103c564d31877",
+        "_middle.json": "7ce8a6c38c71bb2e558158ca0051bb1fd4d9063c00c39c2f6c559e6b8662a88b",
+        "_model.json": "582d89849b39042567c04181b146c6b06f0fa010ae9f05f281b09b8f202fbfd7"
+      }
+    },
+    {
+      "document_id": "KB-B007-NOKIA-AR2025",
+      "page": 122,
+      "themes": [
+        "energy"
+      ],
+      "output_directory": "artifacts/scale_batch_007/mineru_targets/KB-B007-NOKIA-AR2025-p0122",
+      "status": "complete",
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "3bf66c4243299fde3cc87ecf765b8954b2ca084fe516f2cbd4979a78d0450ce9",
+        "_content_list.json": "bee9f5306436d22500beaf724c55a7004945755cbc98f1d0284c669d37632549",
+        "_middle.json": "ea257260ae28e6c468fb69fe325352dfcc974f419b2bf3208ee5b808569b1f95",
+        "_model.json": "099ceb173cee99b3d08ef1291fc62c68d962f2cd1278903fb06c7ba7f2952f3b"
+      }
+    },
+    {
+      "document_id": "KB-B007-NOKIA-AR2025",
+      "page": 123,
+      "themes": [
+        "ghg_emissions"
+      ],
+      "output_directory": "artifacts/scale_batch_007/mineru_targets/KB-B007-NOKIA-AR2025-p0123",
+      "status": "complete",
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "85eab68486153670a82b41baa0b48f51227fe5ee6b4e0766a6cbfd4198320a9e",
+        "_content_list.json": "33fc87fe9c0e5b2c85dc60bdc40f1deae8b13baa23cbdc0463de73fe26c7e847",
+        "_middle.json": "ed13fb13b4c0dc3bd62ac387ec4e4142a37ff7f6789208426362868aa2fe2eb5",
+        "_model.json": "3a3b4ac0f67f90987a03376142c1ed7a2011e517e9fd9b79d501c81d5130e8dc"
+      }
+    },
+    {
+      "document_id": "KB-B007-NOKIA-AR2025",
+      "page": 132,
+      "themes": [
+        "water"
+      ],
+      "output_directory": "artifacts/scale_batch_007/mineru_targets/KB-B007-NOKIA-AR2025-p0132",
+      "status": "complete",
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "bcb623c4e7f1f80b264e998095df9ff5f3ef186e4f96206bb841f6824356d0e0",
+        "_content_list.json": "990a95b174d02ae971653a718026a68f7175554516df50202afb2bc04e593898",
+        "_middle.json": "949308c5b13fdf568326362fe32f13703d5382ce323c1100d83ae1125ed10f91",
+        "_model.json": "46e5954c501079902fc2197b4ee9f17cbd1f67d6e3076c6c23b1824a6d0efff8"
+      }
+    },
+    {
+      "document_id": "KB-B007-NOKIA-AR2025",
+      "page": 133,
+      "themes": [
+        "circularity"
+      ],
+      "output_directory": "artifacts/scale_batch_007/mineru_targets/KB-B007-NOKIA-AR2025-p0133",
+      "status": "complete",
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "1383af133ed20874e9e5f4085b942c5f218c0990568efa8ee40dda40c42f0060",
+        "_content_list.json": "a72dec0364779c8c10b9739377bb4cc13fccca275497c65a1fad1d201220948e",
+        "_middle.json": "20d16a9696e116037c845615b5a3e4456bbcb15340e158011e14479a07b8680f",
+        "_model.json": "624300f98bb25e1584f30a120b616baad146cc4f4fc907fbc7001ccd81b2bbce"
+      }
+    },
+    {
+      "document_id": "KB-B007-NOKIA-AR2025",
+      "page": 152,
+      "themes": [
+        "workforce"
+      ],
+      "output_directory": "artifacts/scale_batch_007/mineru_targets/KB-B007-NOKIA-AR2025-p0152",
+      "status": "complete",
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "7d518d64d02a828170245d5d79fa0adc49fa0874f7caef4ec3e9f072027f6fbc",
+        "_content_list.json": "92a71a4ab2dfb0729b425b33bbce7630d5ff931bb92100609613e3b54c076710",
+        "_middle.json": "c2fa2b777b10e9253d17de0547886557f8b90af056d62c5ea67aae5ef7f28e53",
+        "_model.json": "73c74545913791237a24a617d3cb14e64c6634b10f979b5a552bb50e246d7c9e"
+      }
+    },
+    {
+      "document_id": "KB-B007-NOKIA-AR2025",
+      "page": 287,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_007/mineru_targets/KB-B007-NOKIA-AR2025-p0287",
+      "status": "complete",
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "4286a66e50c66c5c4f7c5f3a85fbce3285769f1e06ea3b0432cb31a52c515edb",
+        "_content_list.json": "50734619f8957430cfa2c6b82fca2c0fb144827862ae2874362f1421433335c4",
+        "_middle.json": "5a24c00c25060fb43477bdfad0ed6d745990a1eac1060e9d8885f543dc598014",
+        "_model.json": "c4e01df214b539d54b6a9abdc49c923cc24174a2f17a0933755e24768e4d2485"
+      }
+    }
+  ]
+}

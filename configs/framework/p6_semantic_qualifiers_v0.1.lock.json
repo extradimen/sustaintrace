@@ -1,0 +1,8 @@
+{
+  "schema_version":"1.0",
+  "status":"frozen_before_p6_candidate_inference",
+  "qualifiers":{
+    "P6-TARGET-001":{"reduction_2025":{"direction":"decrease"}},
+    "P6-DEX-001":{"reported_change":{"direction":"decrease"}}
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "adjudications": 9,
+  "coordinate_method_counts": {
+    "baseline_clause": 1,
+    "narrative_relation": 1,
+    "table_header_column_position": 5,
+    "target_clause": 2
+  },
+  "inputs": {
+    "blocker_matrix_sha256": "172a36db63b2aa934d05d6520b64a44f36b70865178f532848b888d75527fd0a",
+    "fact_records_sha256": "8af57e7b7bda85deef8f90586f8225aedcf1da24e0669300115b8f1f7499bf5b",
+    "prior_period_resolutions_sha256": "96bc6e574d607661c41698998fadc77d2a97380032ff10432d63d78e469cd068"
+  },
+  "locked_experiments_modified_or_rescored": false,
+  "newly_ready_for_independent_source_review": 3,
+  "next_gate": "independently corroborate the three newly ready BASF facts; retain four truly ambiguous period blockers; address boundary semantics separately",
+  "output": {
+    "path": "data/knowledge_bases/v0.1/period_coordinate_adjudications.jsonl",
+    "sha256": "6932d2cac80fcb66794fc4c705e99d28b0d0b84592368daa4c31ea25688e2726"
+  },
+  "period_role_counts": {
+    "baseline_year": 1,
+    "reporting_year": 6,
+    "target_year": 2
+  },
+  "promotions_performed": 0,
+  "remaining_boundary_blockers": 43,
+  "remaining_period_blocker_fact_ids": [
+    "fact-13f596f084681dd4cdf45571",
+    "fact-3bbb9a2720f83919fcebe4d5",
+    "fact-d0051ce279cdcdcec6f51870",
+    "fact-e381ac17f73b6fc2d216fe50"
+  ],
+  "remaining_period_blockers": 4,
+  "rollback_ledgers": 9,
+  "schema_version": "0.1",
+  "source_fact_records_modified": 0,
+  "status": "explicit_period_coordinates_adjudicated_in_derived_layer",
+  "still_boundary_blocked_after_period_resolution": 6
+}

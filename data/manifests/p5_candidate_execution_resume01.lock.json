@@ -1,0 +1,3 @@
+{
+  "schema_version":"1.0","resume_id":"P5-CANDIDATE-EXECUTION-RESUME01","status":"frozen_before_first_candidate_request","parent_experiment":"P5-V14-UNSEEN-LOCKBOX-V01","experiment_id":"P5-V14-UNSEEN-LOCKBOX-V01-RESUME01","parent_progress":"data/manifests/p5_candidate_progress.json","failure_class":"pre-inference task packaging validation","candidate_requests_sent":0,"run_directories_created":0,"semantic_changes":false,"changed_field":"question_status=frozen only","candidate_model":"qwen3.5:397b-cloud","single_attempt_policy_preserved":true
+}

@@ -1,0 +1,184 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-009",
+  "status": "table_graphs_built_fail_closed",
+  "source_table_candidates": 2,
+  "graphs": [
+    {
+      "source_fact_record_id": "fact-40c8599bdc8736cd1bd6c83d",
+      "document_id": "KB-B009-HM-ASR2025",
+      "pdf_page": 54,
+      "graphs": [
+        {
+          "table_index": 0,
+          "status": "ambiguous_no_two_axis_period_header",
+          "rows": [
+            [
+              "",
+              "2025"
+            ],
+            [
+              "Percentage of people in own workforce who are covered by the undertaking's health and safety management system, based on legal requirements and/or recognised standards or guidelines (%)",
+              "100"
+            ],
+            [
+              "Number of fatalities in own workforce as a result of work-related injuries and work-related ill health",
+              "0"
+            ],
+            [
+              "Number of fatalities as a result of work-related injuries and work-related ill health of other workers working",
+              "0"
+            ],
+            [
+              "on undertaking's sites Number of recordable work-related accidents for own workforce",
+              "3,190"
+            ],
+            [
+              "Rate of recordable work-related accidents for own workforce (%)",
+              "17.5"
+            ]
+          ],
+          "cells": []
+        }
+      ]
+    },
+    {
+      "source_fact_record_id": "fact-5f9ab10c923369c990d3ef88",
+      "document_id": "KB-B009-CARLSBERG-AR2025",
+      "pdf_page": 66,
+      "graphs": [
+        {
+          "table_index": 0,
+          "status": "two_axis_graph_built",
+          "header_row_index": 0,
+          "column_headers": [
+            "",
+            "2025",
+            "2024"
+          ],
+          "period_columns": [
+            1,
+            2
+          ],
+          "indicator_column": 0,
+          "unit_column": null,
+          "rejected_rows": [],
+          "rows": [
+            [
+              "",
+              "2025",
+              "2024"
+            ],
+            [
+              "Share of Scope 2 GHG emissions covered by contractual instruments",
+              "67",
+              "73"
+            ],
+            [
+              "Share of Scope 2 GHG emissions covered by energy attribute certificates (unbundled)",
+              "60",
+              "72"
+            ],
+            [
+              "Share of Scope 2 GHG emissions covered by power purchase agreements (bundled)",
+              "7",
+              "1"
+            ]
+          ],
+          "cells": [
+            {
+              "cell_handle": "cell-d1d5d954f729d887bace",
+              "table_index": 0,
+              "row_index": 1,
+              "column_index": 1,
+              "row_header": "Share of Scope 2 GHG emissions covered by contractual instruments",
+              "row_header_column_index": 0,
+              "column_header": "2025",
+              "normalized_period": 2025,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "67",
+              "normalized_value": "67",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-ad113368914909ff4c33",
+              "table_index": 0,
+              "row_index": 1,
+              "column_index": 2,
+              "row_header": "Share of Scope 2 GHG emissions covered by contractual instruments",
+              "row_header_column_index": 0,
+              "column_header": "2024",
+              "normalized_period": 2024,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "73",
+              "normalized_value": "73",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-2f37e8d25128416c4125",
+              "table_index": 0,
+              "row_index": 2,
+              "column_index": 1,
+              "row_header": "Share of Scope 2 GHG emissions covered by energy attribute certificates (unbundled)",
+              "row_header_column_index": 0,
+              "column_header": "2025",
+              "normalized_period": 2025,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "60",
+              "normalized_value": "60",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-4b35d2440914238e5e86",
+              "table_index": 0,
+              "row_index": 2,
+              "column_index": 2,
+              "row_header": "Share of Scope 2 GHG emissions covered by energy attribute certificates (unbundled)",
+              "row_header_column_index": 0,
+              "column_header": "2024",
+              "normalized_period": 2024,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "72",
+              "normalized_value": "72",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-89f0cd8e5659e9794e93",
+              "table_index": 0,
+              "row_index": 3,
+              "column_index": 1,
+              "row_header": "Share of Scope 2 GHG emissions covered by power purchase agreements (bundled)",
+              "row_header_column_index": 0,
+              "column_header": "2025",
+              "normalized_period": 2025,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "7",
+              "normalized_value": "7",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-19c63b2bd0f673062ba6",
+              "table_index": 0,
+              "row_index": 3,
+              "column_index": 2,
+              "row_header": "Share of Scope 2 GHG emissions covered by power purchase agreements (bundled)",
+              "row_header_column_index": 0,
+              "column_header": "2024",
+              "normalized_period": 2024,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "1",
+              "normalized_value": "1",
+              "normalized_unit": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

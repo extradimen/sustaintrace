@@ -1,0 +1,36 @@
+{
+  "schema_version": "0.1",
+  "experiment_id": "KB-SCALE-BATCH-019",
+  "development_source": "Batch 19 pre-freeze assurance-window failure only",
+  "status": "controlled_source_substitution_strategy_extended",
+  "change": {
+    "failure_signature": "ISSUER_SOURCE_ASSURANCE_PERIOD_ANOMALY",
+    "strategy_id": "RS-OFFICIAL-SOURCE-SUBSTITUTION",
+    "description": "Reject an issuer-authored assurance-period anomaly before target freeze, preserve the source and failure, and substitute a different unused official report in an explicit RESUME lineage without editing source text.",
+    "candidate_source": "Covestro Annual Report 2025",
+    "replacement_source": "Boliden Annual and Sustainability Report 2025",
+    "candidate_output_mutation": false,
+    "locked_batch_replay": false,
+    "semantic_repair": false
+  },
+  "validation": {
+    "original_source_preserved": true,
+    "replacement_official_source_verified": true,
+    "replacement_sha256_locked": true,
+    "replacement_assurance_preflight_passed": true,
+    "target_freeze_occurred_after_substitution": true,
+    "repair_strategy_catalog_covers_observed_signatures": true,
+    "full_pytest_passed": 473,
+    "ruff": "passed"
+  },
+  "evidence": {
+    "failure_manifest": "data/manifests/scale_batch_019_assurance_preflight_failures.lock.json",
+    "resume_config": "configs/knowledge/scale_batch_019_RESUME01_v0.2.json",
+    "replacement_acquisition": "data/manifests/scale_batch_019_acquisition_RESUME01.lock.json"
+  },
+  "policy": {
+    "cloud_transmission": false,
+    "automatic_execution_enabled": false,
+    "requires_strategy_adjudication": true
+  }
+}

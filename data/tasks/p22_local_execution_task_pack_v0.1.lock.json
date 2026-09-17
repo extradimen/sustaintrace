@@ -1,0 +1,95 @@
+{
+  "atomic_scoring_projection": "data/annotations/p22_simulated/p22_atomic_slot_gold_v0.1.lock.json",
+  "calculation_plans": "configs/framework/p22_calculation_plans_v0.1.lock.json",
+  "evidence_handle_whitelist": "configs/framework/p22_evidence_handle_whitelist_v0.1.lock.json",
+  "execution_config": "configs/experiments/p22-v31-unseen-lockbox-local.json",
+  "experiment_id": "P22-V31-UNSEEN-LOCKBOX-V01",
+  "inference_allowed": false,
+  "layout_fallback_registry": "configs/framework/p22_layout_fallback_registry_v0.1.lock.json",
+  "parent": "data/tasks/p22_task_pack_v0.1.lock.json",
+  "parser_anomaly_audit": "data/results/p22_parser_anomaly_audit_v0.1.lock.json",
+  "parser_registry": "data/manifests/p22_mineru_target_registry_v0.1.lock.json",
+  "reference_consistency_audit": "data/results/p22_prefreeze_reference_consistency_audit_v0.1.lock.json",
+  "reference_freeze": "data/manifests/p22_simulated_reference_freeze_v0.1.lock.json",
+  "release_condition": "Payload-specific authorization for Bayer Annual Report 2025 pages 130,132,149,151,171,172,203,204,374,375,377 to Ollama Cloud qwen3.5:397b-cloud solely for P22 Stage A/Stage B single-attempt candidate inference.",
+  "schema_version": "3.1",
+  "scoring_rules": "configs/framework/p22_scoring_rules_v0.1.lock.json",
+  "semantic_qualifiers": "configs/framework/p22_semantic_qualifiers_v0.1.lock.json",
+  "slot_contracts": "configs/framework/p22_slot_contracts_v0.1.lock.json",
+  "source_registry": "data/manifests/p22_source_registry_v0.1.lock.json",
+  "status": "frozen_local_pack_pending_payload_specific_cloud_authorization",
+  "table_graph": "configs/framework/p22_two_dimensional_table_graph_v0.1.lock.json",
+  "tasks": [
+    {
+      "document_id": "P22-BAYER-AR2025",
+      "question": "For Bayer's 2025 EU Taxonomy turnover, CapEx and OpEx, report each denominator, taxonomy-eligible amount and share where disclosed, and taxonomy-aligned amount and share. Preserve the distinction between zero, not identified and not separately tabled, and state the materiality treatment affecting CapEx and OpEx.",
+      "question_status": "frozen",
+      "reference_file": "data/annotations/p22_simulated/P22-TAXONOMY-001.json",
+      "target_pages": [
+        130,
+        132
+      ],
+      "task_id": "P22-TAXONOMY-001",
+      "task_type": "scope_subject_boundary"
+    },
+    {
+      "document_id": "P22-BAYER-AR2025",
+      "question": "Report Bayer's 2024 and 2025 total, fossil and renewable energy consumption and the disclosed fossil and renewable shares. Calculate the percentage change in total energy consumption and renewable energy consumption from 2024 to 2025 to two decimals, preserving the thousand-MWh unit and high-climate-impact-sector boundary.",
+      "question_status": "frozen",
+      "reference_file": "data/annotations/p22_simulated/P22-ENERGY-CALC-001.json",
+      "target_pages": [
+        149
+      ],
+      "task_id": "P22-ENERGY-CALC-001",
+      "task_type": "deterministic_calculation"
+    },
+    {
+      "document_id": "P22-BAYER-AR2025",
+      "question": "Using Bayer's 2025 and restated 2024 gross Scope 1 and gross market-based Scope 2 emissions, calculate their sum for each year and the percentage change from 2024 to 2025 to two decimals. Also report gross Scope 3 and total market-based emissions for both years, preserve the restatement and financial-scope/environmentally-relevant-site boundary, and do not conflate the calculated Scope 1 plus Scope 2 subtotal with total market-based emissions including Scope 3.",
+      "question_status": "frozen",
+      "reference_file": "data/annotations/p22_simulated/P22-GHG-CALC-001.json",
+      "target_pages": [
+        151
+      ],
+      "task_id": "P22-GHG-CALC-001",
+      "task_type": "deterministic_calculation"
+    },
+    {
+      "document_id": "P22-BAYER-AR2025",
+      "question": "For 2024 and 2025, report Bayer's total water withdrawal, discharge and issuer-disclosed consumption; independently calculate withdrawal minus discharge and compare it with disclosed consumption for each year. Also report consumption in areas at water risk, water recycling and reuse, and water intensity, preserving units, site thresholds and the issuer's calculation definition.",
+      "question_status": "frozen",
+      "reference_file": "data/annotations/p22_simulated/P22-WATER-CALC-001.json",
+      "target_pages": [
+        171,
+        172
+      ],
+      "task_id": "P22-WATER-CALC-001",
+      "task_type": "deterministic_calculation"
+    },
+    {
+      "document_id": "P22-BAYER-AR2025",
+      "question": "For 2024 and 2025, report Bayer's total recordable work-related accidents and the employee and nonemployee components; sum the two components and compare with the total for each year. Also report the total and component accident rates, work-related fatalities by workforce/value-chain category, the rate formula and the headcount coverage definition.",
+      "question_status": "frozen",
+      "reference_file": "data/annotations/p22_simulated/P22-SAFETY-CALC-001.json",
+      "target_pages": [
+        203,
+        204
+      ],
+      "task_id": "P22-SAFETY-CALC-001",
+      "task_type": "deterministic_calculation"
+    },
+    {
+      "document_id": "P22-BAYER-AR2025",
+      "question": "Identify the subject, reporting period, criteria, assurance level, conclusion form and governing standard of Bayer's 2025 sustainability assurance; state excluded information and how limited assurance differs from reasonable assurance, and identify the provider, location, date and signatories.",
+      "question_status": "frozen",
+      "reference_file": "data/annotations/p22_simulated/P22-ASSURE-001.json",
+      "target_pages": [
+        374,
+        375,
+        377
+      ],
+      "task_id": "P22-ASSURE-001",
+      "task_type": "scope_subject_boundary"
+    }
+  ]
+}

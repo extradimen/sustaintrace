@@ -1,0 +1,33 @@
+{
+  "schema_version":"2.1",
+  "experiment_id":"P12-V21-UNSEEN-LOCKBOX-V01",
+  "status":"completed_but_invalid_for_cross_version_aggregate_due_frozen_contract_defects",
+  "decision":"P12_RETAIN_AS_DIAGNOSTIC_ONLY_DO_NOT_USE_FOR_V21_SCORE_COMPARISON",
+  "candidate_model":"qwen3.5:397b-cloud",
+  "task_count":6,
+  "single_candidate_attempt_per_behavioral_stage":true,
+  "silent_retry":false,
+  "posthoc_semantic_repair":false,
+  "reference_visible_to_candidate":false,
+  "initial_executor_failure":{"cause":"sandbox denied local Ollama socket before model call","model_calls_started":0,"recovery":"RESUME01 with identical frozen configuration"},
+  "stage_a":{"tasks_run":6,"framework_valid":5,"model_behavior_failed":1,"infrastructure_failed":0},
+  "stage_b":{"eligible_after_stage_a":5,"framework_valid":0,"model_behavior_failed":2,"frozen_configuration_failed":3,"model_calls_started":4},
+  "task_results":{
+    "P12-SAFETY-001":{"stage_a":"passed; exact 4/1/1/2 extraction","stage_b":"frozen contract missing predicate_id caused post-call framework failure","score_status":"diagnostic_only"},
+    "P12-CALC-001":{"stage_a":"model omitted required comparison_value while extracting all three correct inputs","stage_b":"not reached","score_status":"model_behavior_failure"},
+    "P12-TARGET-001":{"stage_a":"passed; target objects materially match frozen reference","stage_b":"frozen object contract member structure incompatible with v2.1 adapter before model call","score_status":"diagnostic_only"},
+    "P12-BOUNDARY-001":{"stage_a":"passed; answer materially matches frozen reference","stage_b":"frozen contract missing predicate_id caused post-call framework failure","score_status":"diagnostic_only"},
+    "P12-SCOPE3-001":{"stage_a":"passed; totals, boundary and double counting grounded","stage_b":"candidate collection envelope did not satisfy frozen contract","score_status":"model_behavior_failure"},
+    "P12-ASSURE-001":{"stage_a":"passed; assurance scope, levels, standard and value-chain limit grounded","stage_b":"candidate collection envelope did not satisfy frozen contract","score_status":"model_behavior_failure"}
+  },
+  "integrity_findings":[
+    "The prefreeze audit incorrectly declared contract compatibility without executing the same v2.1 adapter and slot-schema path used at runtime.",
+    "Several scalar contracts omitted predicate_id, and object/array contracts were not expressed in the v2.1 contracted member envelope.",
+    "Two Stage B framework failures occurred after a cloud model call, leaving run directories without complete SHA256 archives.",
+    "Repairing or rerunning P12 would contaminate the unseen lockbox, so all outputs are retained without retry."
+  ],
+  "positive_model_observation":"Five of six Stage A outputs were grounded and materially correct; this observation is descriptive and not a valid aggregate v2.1 score.",
+  "checkpoint":"data/manifests/p12_candidate_progress_RESUME01.json",
+  "resume_lineage":"data/manifests/p12_resume01_lineage_v0.1.lock.json",
+  "p3_through_p11_modified":false
+}

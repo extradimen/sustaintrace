@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "freeze_id": "P1-SOURCE-AND-SAMPLE-FREEZE-v0.1",
+  "status": "frozen",
+  "candidate_count": 22,
+  "eligible_count": 13,
+  "selected_count": 12,
+  "reserve_count": 1,
+  "selection_seed": 20260903,
+  "selection_algorithm": "python_random.Random.sample_over_candidate_id_sorted_strata_v1",
+  "selected_strata": {
+    "financial_or_digital_services": 4,
+    "high_environmental_exposure": 4,
+    "medium_physical_operations": 4
+  },
+  "selected_regions": {
+    "Asia Pacific": 4,
+    "Europe": 4,
+    "North America": 4
+  },
+  "reserve_document_id": "TTE-SC-2024",
+  "source_registry_sha256": "78bff70845dd91286dcc0ae8ae1ea9551df9a715043bc23fc95a30925d085732",
+  "sample_manifest_sha256": "7d2d4c87bff8afe8bf0fac746476c8f317d269aaba4370049ab350f508c3fe02",
+  "acquisition_manifest_sha256": "70b1925cb084e5b03004b93d5c0b0098886bda564a1c5cc720028cbae87508a3",
+  "p1_inference_allowed": false,
+  "next_gate": "task_pack_frozen"
+}

@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "record_id": "P17-ROCHE-PROTOCOL-EXCLUSION-v0.1",
+  "status": "excluded_before_task_or_reference_freeze_and_before_candidate_inference",
+  "recorded_date": "2026-09-10",
+  "parent_manifest": "data/manifests/p17_source_acquisition_v0.1.lock.json",
+  "document_id": "P17-ROCHE-AR2025",
+  "document_sha256": "111a16ec739a16fd93cb3554d9631dd68807c83928423e17377fd7204b65c064",
+  "exclusion_reasons": [
+    "Roche Annual Report 2025 was already used in P2, so the source was not unseen in P1-P16.",
+    "The report body was locally extracted for exploratory page discovery before the P17 parsing rules were frozen, violating the required lockbox sequencing."
+  ],
+  "exposure_scope": {
+    "local_body_extraction_occurred": true,
+    "task_pack_frozen": false,
+    "simulated_reference_frozen": false,
+    "candidate_inference_started": false,
+    "cloud_transmission_occurred": false
+  },
+  "disposition": {
+    "eligible_for_p17_unseen_lockbox": false,
+    "eligible_for_future_unseen_lockbox": false,
+    "retained_as_exposed_development_material": true,
+    "p17_recovery_required": true,
+    "recovery_policy": "Select a new official English report not used in P1-P16, create a RESUME lineage, and freeze parsing rules before any body extraction."
+  },
+  "immutability": {
+    "original_source_acquisition_manifest_preserved": true,
+    "p3_through_p16_modified": false,
+    "prior_lockboxes_rerun_or_rescored": false
+  }
+}

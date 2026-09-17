@@ -1,0 +1,30 @@
+{
+  "schema_version": "2.5",
+  "experiment_id": "P16-V25-UNSEEN-LOCKBOX-V01",
+  "status": "passed_before_candidate_inference",
+  "recovery_id": "P16-CALCULATION-PLAN-RESUME01",
+  "candidate_model_call_count_before_preflight": 0,
+  "cloud_transmission_count_before_preflight": 0,
+  "checks": {
+    "calculation_binding_schema_v23": "passed",
+    "v25_decimal_plan_execution": "passed",
+    "expected_calculated_total": 3741.0,
+    "expected_difference": 0.0,
+    "runner_python_compilation": "passed",
+    "authorization_scope_match": "passed",
+    "local_readiness_gate": "passed"
+  },
+  "frozen_inputs": {
+    "calculation_plan": "configs/framework/p16_calculation_plans_RESUME01_v0.1.lock.json",
+    "calculation_plan_sha256": "21ab5c2e74d5e9829cf82f2d58e6499eb67967285b83094160e605d83f2ef97b",
+    "recovery_lineage": "data/manifests/p16_calculation_plan_recovery_lineage_RESUME01_v0.1.lock.json",
+    "recovery_lineage_sha256": "143621602574980877421a0547bcb8503309701cef19375d94f9f13a67c83106",
+    "authorization": "data/manifests/p16_cloud_authorization_2026-09-10.lock.json",
+    "authorization_sha256": "7c6fc71ec92ee534974eec998d47bd48b70da673310a8ec4cd172e6cabf7c997",
+    "execution_task_pack": "data/tasks/p16_execution_task_pack_v0.1.lock.json",
+    "execution_task_pack_sha256": "f1881ee8abb3ec07657ec7a5f4ac3f96ff536db4537fe554741bb61c4b7e4c1f"
+  },
+  "semantic_change": false,
+  "model_output_used": false,
+  "hidden_reference_visible_to_candidate": false
+}

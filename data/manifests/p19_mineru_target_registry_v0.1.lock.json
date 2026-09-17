@@ -1,0 +1,121 @@
+{
+  "document_id": "P19-NOVO-NORDISK-AR2025",
+  "document_sha256": "f5475f1e043eaa99526772c0e06677a74ab2c2abb8181755afbe02a10e395092",
+  "experiment_id": "P19-V28-UNSEEN-LOCKBOX-V01",
+  "failure_count": 0,
+  "recovery_lineage": [
+    "data/manifests/p19_mineru_recovery_lineage_RESUME01_v0.1.lock.json",
+    "data/manifests/p19_mineru_recovery_lineage_RESUME02_v0.1.lock.json"
+  ],
+  "schema_version": "1.0",
+  "status": "all_target_pages_successfully_parsed_and_hash_verified",
+  "success_count": 8,
+  "target_count": 8,
+  "targets": [
+    {
+      "document_id": "P19-NOVO-NORDISK-AR2025",
+      "document_sha256": "f5475f1e043eaa99526772c0e06677a74ab2c2abb8181755afbe02a10e395092",
+      "output_directory": "artifacts/p19/mineru_targets_RESUME01/P19-NOVO-NORDISK-AR2025-p0058",
+      "pdf_page": 58,
+      "recovery_generation": "RESUME01",
+      "run_record_sha256": "8774af9da807c459847b74a62af27f12807ddd991d4f95e48c52211278a8ad4d",
+      "status": "success_verified",
+      "target_id": "P19-NOVO-NORDISK-AR2025-p0058",
+      "task_ids": [
+        "P19-WORKFORCE-001"
+      ]
+    },
+    {
+      "document_id": "P19-NOVO-NORDISK-AR2025",
+      "document_sha256": "f5475f1e043eaa99526772c0e06677a74ab2c2abb8181755afbe02a10e395092",
+      "output_directory": "artifacts/p19/mineru_targets_RESUME02/P19-NOVO-NORDISK-AR2025-p0065",
+      "pdf_page": 65,
+      "recovery_generation": "RESUME02",
+      "run_record_sha256": "765fd198f106a2794e53cfa53da059f2d01426f9396a3711f3647262e19d52a7",
+      "status": "success_verified",
+      "target_id": "P19-NOVO-NORDISK-AR2025-p0065",
+      "task_ids": [
+        "P19-ENERGY-001"
+      ]
+    },
+    {
+      "document_id": "P19-NOVO-NORDISK-AR2025",
+      "document_sha256": "f5475f1e043eaa99526772c0e06677a74ab2c2abb8181755afbe02a10e395092",
+      "output_directory": "artifacts/p19/mineru_targets_RESUME01/P19-NOVO-NORDISK-AR2025-p0066",
+      "pdf_page": 66,
+      "recovery_generation": "RESUME01",
+      "run_record_sha256": "7dcdecc5909ad08830208ade7b17ac7ace2c705675a049652add2ae90579406f",
+      "status": "success_verified",
+      "target_id": "P19-NOVO-NORDISK-AR2025-p0066",
+      "task_ids": [
+        "P19-GHG-CALC-001",
+        "P19-SCOPE3-001"
+      ]
+    },
+    {
+      "document_id": "P19-NOVO-NORDISK-AR2025",
+      "document_sha256": "f5475f1e043eaa99526772c0e06677a74ab2c2abb8181755afbe02a10e395092",
+      "output_directory": "artifacts/p19/mineru_targets_RESUME01/P19-NOVO-NORDISK-AR2025-p0080",
+      "pdf_page": 80,
+      "recovery_generation": "RESUME01",
+      "run_record_sha256": "816cce754ac314d26eeab9c0e08aa108bbfbee313ae05909c624128a6e8b6966",
+      "status": "success_verified",
+      "target_id": "P19-NOVO-NORDISK-AR2025-p0080",
+      "task_ids": [
+        "P19-TAXONOMY-001"
+      ]
+    },
+    {
+      "document_id": "P19-NOVO-NORDISK-AR2025",
+      "document_sha256": "f5475f1e043eaa99526772c0e06677a74ab2c2abb8181755afbe02a10e395092",
+      "output_directory": "artifacts/p19/mineru_targets_RESUME01/P19-NOVO-NORDISK-AR2025-p0123",
+      "pdf_page": 123,
+      "recovery_generation": "RESUME01",
+      "run_record_sha256": "eb93f710d298a396604880166fac09d565e8e3c0015b2d22e8eb404b78ade61e",
+      "status": "success_verified",
+      "target_id": "P19-NOVO-NORDISK-AR2025-p0123",
+      "task_ids": [
+        "P19-ASSURE-001"
+      ]
+    },
+    {
+      "document_id": "P19-NOVO-NORDISK-AR2025",
+      "document_sha256": "f5475f1e043eaa99526772c0e06677a74ab2c2abb8181755afbe02a10e395092",
+      "output_directory": "artifacts/p19/mineru_targets_RESUME01/P19-NOVO-NORDISK-AR2025-p0124",
+      "pdf_page": 124,
+      "recovery_generation": "RESUME01",
+      "run_record_sha256": "067867719f868ebdce0947c27ceefeed600e4d93d700a91a531e4f0f39d12d5a",
+      "status": "success_verified",
+      "target_id": "P19-NOVO-NORDISK-AR2025-p0124",
+      "task_ids": [
+        "P19-ASSURE-001"
+      ]
+    },
+    {
+      "document_id": "P19-NOVO-NORDISK-AR2025",
+      "document_sha256": "f5475f1e043eaa99526772c0e06677a74ab2c2abb8181755afbe02a10e395092",
+      "output_directory": "artifacts/p19/mineru_targets_RESUME01/P19-NOVO-NORDISK-AR2025-p0135",
+      "pdf_page": 135,
+      "recovery_generation": "RESUME01",
+      "run_record_sha256": "25c9c68c89f53e27e3b103b912ad59cd75103242d324bc6254eac7793f840a7d",
+      "status": "success_verified",
+      "target_id": "P19-NOVO-NORDISK-AR2025-p0135",
+      "task_ids": [
+        "P19-TAXONOMY-001"
+      ]
+    },
+    {
+      "document_id": "P19-NOVO-NORDISK-AR2025",
+      "document_sha256": "f5475f1e043eaa99526772c0e06677a74ab2c2abb8181755afbe02a10e395092",
+      "output_directory": "artifacts/p19/mineru_targets_RESUME01/P19-NOVO-NORDISK-AR2025-p0136",
+      "pdf_page": 136,
+      "recovery_generation": "RESUME01",
+      "run_record_sha256": "05a58f0f38a1cff898575e590bc321dbc568fe65553c274b9db64942bfc08bf8",
+      "status": "success_verified",
+      "target_id": "P19-NOVO-NORDISK-AR2025-p0136",
+      "task_ids": [
+        "P19-TAXONOMY-001"
+      ]
+    }
+  ]
+}

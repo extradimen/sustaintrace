@@ -1,0 +1,508 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-001-RESUME01",
+  "status": "table_graphs_built_fail_closed",
+  "source_table_candidates": 5,
+  "graphs": [
+    {
+      "source_fact_record_id": "fact-07a36e31e73564047ce64350",
+      "document_id": "KB-B001-SSE-SR2025",
+      "pdf_page": 11,
+      "graphs": [
+        {
+          "table_index": 0,
+          "status": "ambiguous_no_two_axis_period_header",
+          "rows": [
+            [
+              "Scopes 1 and 2 Reduce the carbon intensity of scope 1 GHG emissions",
+              "by 80% by 2030"
+            ],
+            [
+              "36% progress",
+              ""
+            ],
+            [
+              "2024/25: 218gCO\u2082e/kWh (29% reduction from base year)",
+              ""
+            ],
+            [
+              "Reduce absolute scope 1 and 2 GHG emissions",
+              "by 72.5% by 2030"
+            ],
+            [
+              "67% progress",
+              ""
+            ],
+            [
+              "2024/25: 5.70MtCO\u2082e (48% reduction from base year) Scope 3",
+              ""
+            ],
+            [
+              "Reduce absolute GHG emissions from use of products sold 46% progress",
+              "by 50% by 2034"
+            ],
+            [
+              "2024/25: 1.95MtCO\u2082e (23% reduction from base year)",
+              ""
+            ],
+            [
+              "",
+              ""
+            ],
+            [
+              "Engage with 90% of suppliers by spend to set science-based targets 51% engaged",
+              "by 2030"
+            ]
+          ],
+          "cells": []
+        }
+      ]
+    },
+    {
+      "source_fact_record_id": "fact-1bc5b9b12b3f75a6cc49f927",
+      "document_id": "KB-B001-DANONE-URD2025",
+      "pdf_page": 227,
+      "graphs": [
+        {
+          "table_index": 0,
+          "status": "two_axis_graph_built",
+          "header_row_index": 1,
+          "column_headers": [
+            "(in kt CO\u2082e) Baseline (2020)",
+            "2025 vs. 2024 %",
+            "2025 vs. 2020 %"
+          ],
+          "period_columns": [
+            0,
+            1,
+            2
+          ],
+          "indicator_column": 0,
+          "unit_column": null,
+          "rejected_rows": [
+            {
+              "row_index": 2,
+              "reason": "multiple_numeric_tokens_in_one_cell"
+            },
+            {
+              "row_index": 3,
+              "reason": "multiple_numeric_tokens_in_one_cell"
+            },
+            {
+              "row_index": 4,
+              "reason": "multiple_numeric_tokens_in_one_cell"
+            },
+            {
+              "row_index": 5,
+              "reason": "multiple_numeric_tokens_in_one_cell"
+            },
+            {
+              "row_index": 6,
+              "reason": "multiple_numeric_tokens_in_one_cell"
+            },
+            {
+              "row_index": 7,
+              "reason": "multiple_numeric_tokens_in_one_cell"
+            },
+            {
+              "row_index": 8,
+              "reason": "multiple_numeric_tokens_in_one_cell"
+            }
+          ],
+          "rows": [
+            [
+              "GHG emissions reductions",
+              "",
+              ""
+            ],
+            [
+              "(in kt CO\u2082e) Baseline (2020)",
+              "2025 vs. 2024 %",
+              "2025 vs. 2020 %"
+            ],
+            [
+              "Direct operations (scope 1 & 2)",
+              "1,044 (8.6)%",
+              "(40.2)%"
+            ],
+            [
+              "Agriculture: milk",
+              "7,927 (5.7)%",
+              "(29.3)%"
+            ],
+            [
+              "Agriculture: other ingredients",
+              "5,942 (6.6)%",
+              "(11.5)%"
+            ],
+            [
+              "Packaging",
+              "2,406 (1.1)%",
+              "(3.0)%"
+            ],
+            [
+              "Logistics",
+              "1,853 (8.0)%",
+              "(10.3)%"
+            ],
+            [
+              "Co-manufacturing",
+              "1,581 (11.6)%",
+              "(42.3)%"
+            ],
+            [
+              "Others",
+              "1,171 (2.8)%",
+              "(22.3)%"
+            ]
+          ],
+          "cells": []
+        }
+      ]
+    },
+    {
+      "source_fact_record_id": "fact-15c228a5d1f5012457ea957d",
+      "document_id": "KB-B001-DANONE-URD2025",
+      "pdf_page": 240,
+      "graphs": [
+        {
+          "table_index": 0,
+          "status": "two_axis_graph_built",
+          "header_row_index": 0,
+          "column_headers": [
+            "",
+            "2024",
+            "2025"
+          ],
+          "period_columns": [
+            1,
+            2
+          ],
+          "indicator_column": 0,
+          "unit_column": null,
+          "rejected_rows": [],
+          "rows": [
+            [
+              "",
+              "2024",
+              "2025"
+            ],
+            [
+              "Water related to the production process (in thousands of m\u00b3)",
+              "32,336",
+              "33,184"
+            ],
+            [
+              "Water recycled and reused (in thousands of m\u00b3)",
+              "1,291",
+              "1,457"
+            ],
+            [
+              "Water withdrawal intensity (in m\u00b3 per million euros of revenue)",
+              "2,188",
+              "2,191"
+            ],
+            [
+              "Water ratio (in m\u00b3 per tons produced)",
+              "1.00",
+              "1.06"
+            ]
+          ],
+          "cells": [
+            {
+              "cell_handle": "cell-a9f760e37456aa646bc6",
+              "table_index": 0,
+              "row_index": 1,
+              "column_index": 1,
+              "row_header": "Water related to the production process (in thousands of m\u00b3)",
+              "row_header_column_index": 0,
+              "column_header": "2024",
+              "normalized_period": 2024,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "32,336",
+              "normalized_value": "32336",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-002648c4c3774fead884",
+              "table_index": 0,
+              "row_index": 1,
+              "column_index": 2,
+              "row_header": "Water related to the production process (in thousands of m\u00b3)",
+              "row_header_column_index": 0,
+              "column_header": "2025",
+              "normalized_period": 2025,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "33,184",
+              "normalized_value": "33184",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-f366e57f4997ab3fcf71",
+              "table_index": 0,
+              "row_index": 2,
+              "column_index": 1,
+              "row_header": "Water recycled and reused (in thousands of m\u00b3)",
+              "row_header_column_index": 0,
+              "column_header": "2024",
+              "normalized_period": 2024,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "1,291",
+              "normalized_value": "1291",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-70cb6affcae52af402bc",
+              "table_index": 0,
+              "row_index": 2,
+              "column_index": 2,
+              "row_header": "Water recycled and reused (in thousands of m\u00b3)",
+              "row_header_column_index": 0,
+              "column_header": "2025",
+              "normalized_period": 2025,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "1,457",
+              "normalized_value": "1457",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-c3c99cdbfe8f3adaa0d2",
+              "table_index": 0,
+              "row_index": 3,
+              "column_index": 1,
+              "row_header": "Water withdrawal intensity (in m\u00b3 per million euros of revenue)",
+              "row_header_column_index": 0,
+              "column_header": "2024",
+              "normalized_period": 2024,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "2,188",
+              "normalized_value": "2188",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-515b324279d869f56f41",
+              "table_index": 0,
+              "row_index": 3,
+              "column_index": 2,
+              "row_header": "Water withdrawal intensity (in m\u00b3 per million euros of revenue)",
+              "row_header_column_index": 0,
+              "column_header": "2025",
+              "normalized_period": 2025,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "2,191",
+              "normalized_value": "2191",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-722801ba274481e59f55",
+              "table_index": 0,
+              "row_index": 4,
+              "column_index": 1,
+              "row_header": "Water ratio (in m\u00b3 per tons produced)",
+              "row_header_column_index": 0,
+              "column_header": "2024",
+              "normalized_period": 2024,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "1.00",
+              "normalized_value": "1.00",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-34180d5bb11faac324ed",
+              "table_index": 0,
+              "row_index": 4,
+              "column_index": 2,
+              "row_header": "Water ratio (in m\u00b3 per tons produced)",
+              "row_header_column_index": 0,
+              "column_header": "2025",
+              "normalized_period": 2025,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "1.06",
+              "normalized_value": "1.06",
+              "normalized_unit": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_fact_record_id": "fact-62be0466ffd7165db9313599",
+      "document_id": "KB-B001-DANONE-URD2025",
+      "pdf_page": 272,
+      "graphs": [
+        {
+          "table_index": 0,
+          "status": "two_axis_graph_built",
+          "header_row_index": 0,
+          "column_headers": [
+            "Dan'Cares coverage",
+            "2024",
+            "2025"
+          ],
+          "period_columns": [
+            1,
+            2
+          ],
+          "indicator_column": 0,
+          "unit_column": null,
+          "rejected_rows": [],
+          "rows": [
+            [
+              "Dan'Cares coverage",
+              "2024",
+              "2025"
+            ],
+            [
+              "Employees who received health coverage fully meeting the criteria defined by Dan'Cares",
+              "97.9%",
+              "97.8%"
+            ]
+          ],
+          "cells": [
+            {
+              "cell_handle": "cell-a77422483719764a99eb",
+              "table_index": 0,
+              "row_index": 1,
+              "column_index": 1,
+              "row_header": "Employees who received health coverage fully meeting the criteria defined by Dan'Cares",
+              "row_header_column_index": 0,
+              "column_header": "2024",
+              "normalized_period": 2024,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "97.9%",
+              "normalized_value": "97.9",
+              "normalized_unit": "percent"
+            },
+            {
+              "cell_handle": "cell-1a9208805f31859121a4",
+              "table_index": 0,
+              "row_index": 1,
+              "column_index": 2,
+              "row_header": "Employees who received health coverage fully meeting the criteria defined by Dan'Cares",
+              "row_header_column_index": 0,
+              "column_header": "2025",
+              "normalized_period": 2025,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "97.8%",
+              "normalized_value": "97.8",
+              "normalized_unit": "percent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_fact_record_id": "fact-5706bda0d19e48388c1453e4",
+      "document_id": "KB-B001-DANONE-URD2025",
+      "pdf_page": 272,
+      "graphs": [
+        {
+          "table_index": 0,
+          "status": "two_axis_graph_built",
+          "header_row_index": 0,
+          "column_headers": [
+            "Metrics related to collective bargaining agreements",
+            "2024",
+            "2025"
+          ],
+          "period_columns": [
+            1,
+            2
+          ],
+          "indicator_column": 0,
+          "unit_column": null,
+          "rejected_rows": [],
+          "rows": [
+            [
+              "Metrics related to collective bargaining agreements",
+              "2024",
+              "2025"
+            ],
+            [
+              "Employees covered by collective bargaining agreements globally",
+              "69.0%",
+              "69.0%"
+            ],
+            [
+              "Employees covered by more than one collective bargaining agreement in France",
+              "9,109",
+              "9,175"
+            ]
+          ],
+          "cells": [
+            {
+              "cell_handle": "cell-fa6777b95903c88515bd",
+              "table_index": 0,
+              "row_index": 1,
+              "column_index": 1,
+              "row_header": "Employees covered by collective bargaining agreements globally",
+              "row_header_column_index": 0,
+              "column_header": "2024",
+              "normalized_period": 2024,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "69.0%",
+              "normalized_value": "69.0",
+              "normalized_unit": "percent"
+            },
+            {
+              "cell_handle": "cell-386a2f40efa0188b152d",
+              "table_index": 0,
+              "row_index": 1,
+              "column_index": 2,
+              "row_header": "Employees covered by collective bargaining agreements globally",
+              "row_header_column_index": 0,
+              "column_header": "2025",
+              "normalized_period": 2025,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "69.0%",
+              "normalized_value": "69.0",
+              "normalized_unit": "percent"
+            },
+            {
+              "cell_handle": "cell-73e8dacddc4152da1579",
+              "table_index": 0,
+              "row_index": 2,
+              "column_index": 1,
+              "row_header": "Employees covered by more than one collective bargaining agreement in France",
+              "row_header_column_index": 0,
+              "column_header": "2024",
+              "normalized_period": 2024,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "9,109",
+              "normalized_value": "9109",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-487771ec71854eb76a70",
+              "table_index": 0,
+              "row_index": 2,
+              "column_index": 2,
+              "row_header": "Employees covered by more than one collective bargaining agreement in France",
+              "row_header_column_index": 0,
+              "column_header": "2025",
+              "normalized_period": 2025,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "9,175",
+              "normalized_value": "9175",
+              "normalized_unit": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

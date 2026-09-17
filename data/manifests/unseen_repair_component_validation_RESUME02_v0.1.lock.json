@@ -1,0 +1,30 @@
+{
+  "schema_version": "0.1",
+  "record_kind": "unseen_repair_component_validation_manifest_resume",
+  "status": "frozen_not_executed",
+  "resume_lineage": {
+    "parent_manifest": "data/manifests/unseen_repair_component_validation_RESUME01_v0.1.lock.json",
+    "parent_sha256": "e3a3eb1e7376b5708742885150594ec4aac850594e58748c22b31e5e3faef0dc",
+    "reason": "pre-execution evidence audit found that the selected unit marker is present in the native page but absent from the frozen fact quotes",
+    "execution_started": false
+  },
+  "frozen_cases": {
+    "source": "data/manifests/unseen_repair_component_validation_v0.1.lock.json#cases",
+    "count": 6,
+    "overrides": {
+      "gap-28cee884a153b31a67566f66": {
+        "expected_contract": {
+          "eligibility": "ineligible",
+          "reason": "native row label is present but no identical unit marker exists in the frozen bound quotes"
+        }
+      }
+    }
+  },
+  "safety": {
+    "fact_write_allowed": false,
+    "trust_promotion_allowed": false,
+    "semantic_inference_allowed": false,
+    "cloud_transmission_allowed": false,
+    "bulk_repair_allowed": false
+  }
+}

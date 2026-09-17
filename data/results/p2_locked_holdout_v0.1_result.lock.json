@@ -1,0 +1,33 @@
+{
+  "schema_version":"1.0",
+  "experiment_id":"P2-LOCKED-HOLDOUT-V01",
+  "status":"completed_scored",
+  "candidate_model":"qwen3.5:397b-cloud",
+  "candidate_digest":"68d2a0796c11e1fedd0456a2d55e58cca4077be6a218428a7a7f4e21f8177cbc",
+  "task_count":12,
+  "candidate_attempts_per_task":1,
+  "reference_type":"AI-simulated reference, explicitly not human gold",
+  "stage_a":{"tasks_run":12,"framework_valid":9,"framework_failed":3,"reference_answer_exact":9,"reference_answer_not_exact_or_not_emitted":3},
+  "stage_b":{"eligible_tasks":6,"started":5,"not_started_due_to_stage_a_failure":1,"framework_valid":2,"framework_failed":3,"complete_task_semantic_fidelity":0,"partial_task_semantic_fidelity":2},
+  "no_aggregate_score":true,
+  "task_results":[
+    {"task_id":"P2-DEX-001","stage_a":"valid_exact","stage_b":"failed_empty_claims","semantic_note":"Stage A extracted 27,532 exactly; Stage B emitted no claims."},
+    {"task_id":"P2-DEX-002","stage_a":"failed_not_exact","stage_b":"not_started","semantic_note":"Model abstained despite exact Scope 3 value being present in the table."},
+    {"task_id":"P2-CALC-001","stage_a":"failed_no_final_answer","stage_b":"not_required","semantic_note":"Both numeric inputs were exact, but the selected prior-period block did not ground the model-supplied year."},
+    {"task_id":"P2-CALC-002","stage_a":"valid_exact","stage_b":"not_required","semantic_note":"Deterministic framework computed a 34.4032% decrease; reference rounded result is 34.40%."},
+    {"task_id":"P2-XPAGE-001","stage_a":"valid_exact","stage_b":"failed_extra_property","semantic_note":"Stage A exactly related 44%, 43%, FY19, and the Digicel Pacific exclusion; Stage B added forbidden claim_id."},
+    {"task_id":"P2-XPAGE-002","stage_a":"valid_exact","stage_b":"valid_partial_semantics","semantic_note":"Stage B represented the 100% observed/target electricity claims but omitted the associated emissions change."},
+    {"task_id":"P2-SCOPE-001","stage_a":"valid_exact","stage_b":"valid_wrong_metric","semantic_note":"Stage B preserved values and years but misclassified combined Scope 1+2 emissions as Scope 1 methane emissions."},
+    {"task_id":"P2-SCOPE-002","stage_a":"valid_exact","stage_b":"failed_metric_unit_mismatch","semantic_note":"Stage A exactly recovered the purchase boundary, target, and progress; Stage B forced intensity percentages into total gross Scope 3."},
+    {"task_id":"P2-CONFLICT-001","stage_a":"failed_not_exact","stage_b":"not_required","semantic_note":"Model used Meta's rounded 8.2M headline instead of the exact table value 8,151,769, causing grounding failure."},
+    {"task_id":"P2-CONFLICT-002","stage_a":"valid_exact","stage_b":"not_required","semantic_note":"Correctly retained and contrasted official 27,532 and controlled-note 30,000."},
+    {"task_id":"P2-ABSTAIN-001","stage_a":"valid_exact","stage_b":"not_required","semantic_note":"Correct abstention: report lists CH4 among covered gases but provides no separate absolute amount."},
+    {"task_id":"P2-ABSTAIN-002","stage_a":"valid_exact","stage_b":"not_required","semantic_note":"Correct abstention: P&G summary provides percentage progress but no absolute combined Scope 1+2 amount."}
+  ],
+  "failure_taxonomy":{"table_exact_value_selection":2,"period_grounding_contract":1,"stage_b_schema_compliance":2,"ontology_metric_or_unit_coverage":2,"stage_b_completeness":1},
+  "archive_root":"research_archive/P2-LOCKED-HOLDOUT-V01/runs",
+  "progress_manifest":"data/manifests/p2_locked_holdout_progress.json",
+  "posthoc_repair_applied":false,
+  "silent_retry_applied":false,
+  "human_validation_claimed":false
+}

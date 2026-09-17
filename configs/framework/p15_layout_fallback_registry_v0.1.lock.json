@@ -1,0 +1,22 @@
+{
+  "schema_version": "2.4",
+  "experiment_id": "P15-V24-UNSEEN-LOCKBOX-V01",
+  "status": "frozen_after_source_and_page_windows_before_reference_creation",
+  "selection_rule": "all frozen task pages are eligible; references cannot select candidate evidence",
+  "semantic_change": false,
+  "targets": [
+    {"task_id": "P15-TARGET-001", "document_id": "P15-NOVARTIS-NFM2025", "document_sha256": "8dbc7f74b114b52eafa7a454bd0cbe49efae3a8ea61e931f7eb075d39336758b", "pdf_path": "data/raw/p15_staging/novartis-report-nonfinancial-matters-2025.pdf", "pdf_page": 20},
+    {"task_id": "P15-TARGET-001", "document_id": "P15-NOVARTIS-NFM2025", "document_sha256": "8dbc7f74b114b52eafa7a454bd0cbe49efae3a8ea61e931f7eb075d39336758b", "pdf_path": "data/raw/p15_staging/novartis-report-nonfinancial-matters-2025.pdf", "pdf_page": 21},
+    {"task_id": "P15-TARGET-001", "document_id": "P15-NOVARTIS-NFM2025", "document_sha256": "8dbc7f74b114b52eafa7a454bd0cbe49efae3a8ea61e931f7eb075d39336758b", "pdf_path": "data/raw/p15_staging/novartis-report-nonfinancial-matters-2025.pdf", "pdf_page": 22},
+    {"task_id": "P15-GHG-CALC-001", "document_id": "P15-NOVARTIS-NFM2025", "document_sha256": "8dbc7f74b114b52eafa7a454bd0cbe49efae3a8ea61e931f7eb075d39336758b", "pdf_path": "data/raw/p15_staging/novartis-report-nonfinancial-matters-2025.pdf", "pdf_page": 27},
+    {"task_id": "P15-GHG-CALC-001", "document_id": "P15-NOVARTIS-NFM2025", "document_sha256": "8dbc7f74b114b52eafa7a454bd0cbe49efae3a8ea61e931f7eb075d39336758b", "pdf_path": "data/raw/p15_staging/novartis-report-nonfinancial-matters-2025.pdf", "pdf_page": 28},
+    {"task_id": "P15-WATER-QUALITY-001", "document_id": "P15-NOVARTIS-NFM2025", "document_sha256": "8dbc7f74b114b52eafa7a454bd0cbe49efae3a8ea61e931f7eb075d39336758b", "pdf_path": "data/raw/p15_staging/novartis-report-nonfinancial-matters-2025.pdf", "pdf_page": 29},
+    {"task_id": "P15-WATER-QUALITY-001", "document_id": "P15-NOVARTIS-NFM2025", "document_sha256": "8dbc7f74b114b52eafa7a454bd0cbe49efae3a8ea61e931f7eb075d39336758b", "pdf_path": "data/raw/p15_staging/novartis-report-nonfinancial-matters-2025.pdf", "pdf_page": 30},
+    {"task_id": "P15-SAFETY-001", "document_id": "P15-NOVARTIS-NFM2025", "document_sha256": "8dbc7f74b114b52eafa7a454bd0cbe49efae3a8ea61e931f7eb075d39336758b", "pdf_path": "data/raw/p15_staging/novartis-report-nonfinancial-matters-2025.pdf", "pdf_page": 31},
+    {"task_id": "P15-SAFETY-001", "document_id": "P15-NOVARTIS-NFM2025", "document_sha256": "8dbc7f74b114b52eafa7a454bd0cbe49efae3a8ea61e931f7eb075d39336758b", "pdf_path": "data/raw/p15_staging/novartis-report-nonfinancial-matters-2025.pdf", "pdf_page": 32},
+    {"task_id": "P15-ACCESS-001", "document_id": "P15-NOVARTIS-NFM2025", "document_sha256": "8dbc7f74b114b52eafa7a454bd0cbe49efae3a8ea61e931f7eb075d39336758b", "pdf_path": "data/raw/p15_staging/novartis-report-nonfinancial-matters-2025.pdf", "pdf_page": 36},
+    {"task_id": "P15-ASSURE-001", "document_id": "P15-NOVARTIS-NFM2025", "document_sha256": "8dbc7f74b114b52eafa7a454bd0cbe49efae3a8ea61e931f7eb075d39336758b", "pdf_path": "data/raw/p15_staging/novartis-report-nonfinancial-matters-2025.pdf", "pdf_page": 43},
+    {"task_id": "P15-ASSURE-001", "document_id": "P15-NOVARTIS-NFM2025", "document_sha256": "8dbc7f74b114b52eafa7a454bd0cbe49efae3a8ea61e931f7eb075d39336758b", "pdf_path": "data/raw/p15_staging/novartis-report-nonfinancial-matters-2025.pdf", "pdf_page": 44},
+    {"task_id": "P15-ASSURE-001", "document_id": "P15-NOVARTIS-NFM2025", "document_sha256": "8dbc7f74b114b52eafa7a454bd0cbe49efae3a8ea61e931f7eb075d39336758b", "pdf_path": "data/raw/p15_staging/novartis-report-nonfinancial-matters-2025.pdf", "pdf_page": 45}
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["schema_version", "record_kind", "adjudication_id", "plan_id", "validation_id", "fact_record_id", "task_id", "predicate", "value", "resolved_population", "source_artifact", "source_artifact_sha256", "source_pages", "source_text", "resolved_signature", "effective_blockers", "effective_status", "execution_mode", "rollback", "source_fact_modified", "promotion_performed"],
+  "properties": {
+    "schema_version": {"const": "0.1"},
+    "record_kind": {"const": "organizational_population_boundary_adjudication"},
+    "adjudication_id": {"type": "string"},
+    "plan_id": {"type": "string"},
+    "validation_id": {"type": "string"},
+    "fact_record_id": {"type": "string"},
+    "task_id": {"type": "string"},
+    "predicate": {"type": "string"},
+    "value": {"type": ["number", "integer", "string"]},
+    "resolved_population": {"type": "object"},
+    "source_artifact": {"type": "string"},
+    "source_artifact_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "source_pages": {"type": "array", "items": {"type": "integer"}, "minItems": 1},
+    "source_text": {"type": "string"},
+    "resolved_signature": {"const": "BOUNDARY_ATTACHMENT_INCOMPLETE"},
+    "effective_blockers": {"type": "array", "maxItems": 0},
+    "effective_status": {"const": "ready_for_independent_source_review"},
+    "execution_mode": {"const": "derived_layer_only"},
+    "rollback": {"type": "string"},
+    "source_fact_modified": {"const": false},
+    "promotion_performed": {"const": false}
+  },
+  "additionalProperties": false
+}

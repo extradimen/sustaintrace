@@ -1,0 +1,35 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-011",
+  "created_at": "2026-09-13T04:19:23.702902+00:00",
+  "source_config": "configs/knowledge/scale_batch_011_RESUME01_v0.2.json",
+  "documents": [
+    {
+      "document_id": "KB-B011-ENI-SS2025",
+      "local_path": "data/raw/scale_batch_011/eni-annual-report-2025-sustainability.pdf",
+      "bytes": 4017377,
+      "sha256": "999dd84dcfbd0baad741187e0006b22e1d86e6ddf0058e20f2cef7eaede1128c",
+      "pdf_header_valid": true,
+      "download_status": "downloaded",
+      "resumed_from_bytes": 0
+    },
+    {
+      "document_id": "KB-B011-DSMF-SS2025",
+      "local_path": "data/raw/scale_batch_011/dsm-firmenich-sustainability-statements-2025.pdf",
+      "bytes": 8887728,
+      "sha256": "af9005c9e4a93942b3f4d759f376f1e8312af6abbf935cb403333dc850151e16",
+      "pdf_header_valid": true,
+      "download_status": "reused_verified_pdf",
+      "resumed_from_bytes": 0
+    },
+    {
+      "document_id": "KB-B011-DB-AR2025",
+      "local_path": "data/raw/scale_batch_011/deutsche-bank-annual-report-2025.pdf",
+      "bytes": 8075373,
+      "sha256": "e0cb39de25bcbf5c3ecb493a791559326ceb249f7e2c27e7ebfebd83d05b00e3",
+      "pdf_header_valid": true,
+      "download_status": "reused_verified_pdf",
+      "resumed_from_bytes": 0
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "checkpoint_resume_enabled": true,
+  "experiment_id": "V13-STAGE-B-FULL-REGRESSION-DEV04",
+  "parent_stage_a_experiment": "V13-END-TO-END-DEVELOPMENT-DEV01",
+  "records": [
+    {
+      "error": "OllamaError:v1.3 Stage B model behavior failed; archived at /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/V13-STAGE-B-FULL-REGRESSION-DEV04/runs/P3-DEX-001-QWEN397B-v13-stage-b-full-dev04-r1: ValueError:v13_slot_schema_failure:{'slot_id': 'gross_scope3_2025', 'value': '13891', 'verbatim_value': '13,891', 'evidence_handle': 'P175-L0077'} is not valid under any of the given schemas",
+      "retried": false,
+      "status": "failed",
+      "task_id": "P3-DEX-001"
+    },
+    {
+      "result": {
+        "archive_directory": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/V13-STAGE-B-FULL-REGRESSION-DEV04/runs/P3-DEX-002-QWEN397B-v13-stage-b-full-dev04-r1",
+        "elapsed_seconds": 12.735452207998605,
+        "run_id": "P3-DEX-002-QWEN397B-v13-stage-b-full-dev04-r1",
+        "task_id": "P3-DEX-002",
+        "validated_claim_count": 1
+      },
+      "retried": false,
+      "status": "passed",
+      "task_id": "P3-DEX-002"
+    },
+    {
+      "result": {
+        "archive_directory": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/V13-STAGE-B-FULL-REGRESSION-DEV04/runs/P3-XPAGE-001-QWEN397B-v13-stage-b-full-dev04-r1",
+        "elapsed_seconds": 61.85372637498949,
+        "run_id": "P3-XPAGE-001-QWEN397B-v13-stage-b-full-dev04-r1",
+        "task_id": "P3-XPAGE-001",
+        "validated_claim_count": 5
+      },
+      "retried": false,
+      "status": "passed",
+      "task_id": "P3-XPAGE-001"
+    },
+    {
+      "result": {
+        "archive_directory": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/V13-STAGE-B-FULL-REGRESSION-DEV04/runs/P3-XPAGE-002-QWEN397B-v13-stage-b-full-dev04-r1",
+        "elapsed_seconds": 63.61536500000511,
+        "run_id": "P3-XPAGE-002-QWEN397B-v13-stage-b-full-dev04-r1",
+        "task_id": "P3-XPAGE-002",
+        "validated_claim_count": 3
+      },
+      "retried": false,
+      "status": "passed",
+      "task_id": "P3-XPAGE-002"
+    },
+    {
+      "result": {
+        "archive_directory": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/V13-STAGE-B-FULL-REGRESSION-DEV04/runs/P3-SCOPE-001-QWEN397B-v13-stage-b-full-dev04-r1",
+        "elapsed_seconds": 61.57774958299706,
+        "run_id": "P3-SCOPE-001-QWEN397B-v13-stage-b-full-dev04-r1",
+        "task_id": "P3-SCOPE-001",
+        "validated_claim_count": 3
+      },
+      "retried": false,
+      "status": "passed",
+      "task_id": "P3-SCOPE-001"
+    },
+    {
+      "result": {
+        "archive_directory": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/V13-STAGE-B-FULL-REGRESSION-DEV04/runs/P3-SCOPE-002-QWEN397B-v13-stage-b-full-dev04-r1",
+        "elapsed_seconds": 70.44477237500541,
+        "run_id": "P3-SCOPE-002-QWEN397B-v13-stage-b-full-dev04-r1",
+        "task_id": "P3-SCOPE-002",
+        "validated_claim_count": 5
+      },
+      "retried": false,
+      "status": "passed",
+      "task_id": "P3-SCOPE-002"
+    }
+  ],
+  "schema_version": "1.0",
+  "updated_at": "2026-09-04T21:47:22.318693+00:00"
+}

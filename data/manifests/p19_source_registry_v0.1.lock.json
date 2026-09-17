@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "registry_id": "P19-SOURCE-REGISTRY-v0.1",
+  "experiment_id": "P19-V28-UNSEEN-LOCKBOX-V01",
+  "status": "source_frozen_before_task_authoring_and_candidate_inference",
+  "candidates": [
+    {
+      "candidate_id": "P19-CAND-001",
+      "document_id": "P19-NOVO-NORDISK-AR2025",
+      "company": "Novo Nordisk A/S",
+      "title": "Novo Nordisk Annual Report 2025",
+      "language": "English",
+      "eligibility_status": "eligible",
+      "sha256": "f5475f1e043eaa99526772c0e06677a74ab2c2abb8181755afbe02a10e395092",
+      "official_landing_page": "https://annualreport.novonordisk.com/2025/services/downloads.html",
+      "local_path": "data/raw/p19_staging/novo-nordisk-annual-report-2025.pdf",
+      "page_count": 137
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "task_id": "P17-SCOPE3-BOUNDARY-001",
+  "reference_author": "codex_gpt_simulated_expert",
+  "reference_status": "verified_against_frozen_pages",
+  "answer": "BMW Group marks four Scope 3 categories as ‘No reporting’: fuel- and energy-related activities not included in Scope 1 or 2, waste generated in operations, processing of sold products, and investments. Upstream and downstream leased assets are ‘Partial reporting’. Leased infrastructure is captured under BMW Group locations (Scope 1) or purchased electricity/heating/cooling (Scope 2). Vehicle-use emissions where BMW Group is the lessor are allocated in full to use of sold products, while third-party-brand leased-vehicle emissions are planned from reporting year 2026. The omitted categories are not significant, collectively associated with less than 3% of total emissions and limited measurability/influence; significant categories cover around 98% of total Scope 3 emissions.",
+  "normalized_value": {
+    "no_reporting_categories": ["fuel- and energy-related activities not included in Scope 1 or Scope 2", "waste generated in operations", "processing of sold products", "investments"],
+    "partial_reporting_categories": ["upstream leased assets", "downstream leased assets"],
+    "upstream_leased_assets_allocation": "leased infrastructure recognized in Scope 1 BMW Group locations or Scope 2 purchased electricity/heating/cooling",
+    "downstream_leased_assets_allocation": "BMW Group lessor vehicle-use emissions allocated to use of sold products; third-party brand leased vehicles planned from 2026",
+    "materiality_threshold_description": "associated omitted categories account for less than 3% of total emissions and are not significant",
+    "significant_scope_3_coverage_percent_approx": 98
+  },
+  "evidence": [
+    {"source_id":"P17-BMW-GROUP-REPORT-2025","pdf_page":129,"quote":"account for less than 3% of total emissions and are not significant"},
+    {"source_id":"P17-BMW-GROUP-REPORT-2025","pdf_page":129,"quote":"The significant categories cover around 98% of the BMW Group’s total Scope 3 emissions."},
+    {"source_id":"P17-BMW-GROUP-REPORT-2025","pdf_page":130,"quote":"Fuel- and energy-related activities (not included in Scope 1 or Scope 2)"},
+    {"source_id":"P17-BMW-GROUP-REPORT-2025","pdf_page":130,"quote":"Waste generated in operations"},
+    {"source_id":"P17-BMW-GROUP-REPORT-2025","pdf_page":130,"quote":"Processing of sold products"},
+    {"source_id":"P17-BMW-GROUP-REPORT-2025","pdf_page":130,"quote":"Investments"},
+    {"source_id":"P17-BMW-GROUP-REPORT-2025","pdf_page":130,"quote":"Upstream leased assets"},
+    {"source_id":"P17-BMW-GROUP-REPORT-2025","pdf_page":130,"quote":"Downstream leased assets"}
+  ],
+  "provenance": {"reference_is_simulated":true,"candidate_model_used":false}
+}

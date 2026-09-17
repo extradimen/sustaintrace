@@ -1,0 +1,87 @@
+{
+  "answer": "Deloitte GmbH conducted limited assurance over Bayer's Consolidated Sustainability Statement for 2025 against CSRD, Article 8 EU Taxonomy, HGB 315b/315c, ESRS/materiality and executive-director criteria. Its negative-form conclusion was that nothing came to its attention. ISAE 3000 (Revised) governed; external-company references were excluded. Limited assurance is less extensive and substantially lower than reasonable assurance. The report was signed in Düsseldorf on March 2, 2026 by Andreas Wermelt and Silvia Geberth.",
+  "evidence": [
+    {
+      "parser": "mineru",
+      "pdf_page": 374,
+      "quote": "We have conducted a limited assurance engagement on the Consolidated Sustainability Statement of Bayer Aktiengesellschaft",
+      "source_id": "P22-BAYER-AR2025"
+    },
+    {
+      "parser": "mineru",
+      "pdf_page": 374,
+      "quote": "References to information provided by the Company outside the combined management report were not subject to our assurance engagement.",
+      "source_id": "P22-BAYER-AR2025"
+    },
+    {
+      "parser": "mineru",
+      "pdf_page": 374,
+      "quote": "nothing has come to our attention",
+      "source_id": "P22-BAYER-AR2025"
+    },
+    {
+      "parser": "mineru",
+      "pdf_page": 374,
+      "quote": "International Standard on Assurance Engagements (ISAE) 3000 (Revised)",
+      "source_id": "P22-BAYER-AR2025"
+    },
+    {
+      "parser": "mineru",
+      "pdf_page": 375,
+      "quote": "less in extent than for, a reasonable assurance engagement",
+      "source_id": "P22-BAYER-AR2025"
+    },
+    {
+      "parser": "mineru",
+      "pdf_page": 375,
+      "quote": "the level of assurance obtained is substantially lower than the assurance that would have been obtained had a reasonable assurance engagement been performed",
+      "source_id": "P22-BAYER-AR2025"
+    },
+    {
+      "parser": "mineru",
+      "pdf_page": 377,
+      "quote": "Düsseldorf/Germany, March 2, 2026",
+      "source_id": "P22-BAYER-AR2025"
+    },
+    {
+      "parser": "mineru",
+      "pdf_page": 377,
+      "quote": "## Deloitte GmbH",
+      "source_id": "P22-BAYER-AR2025"
+    },
+    {
+      "parser": "mineru",
+      "pdf_page": 377,
+      "quote": "Andreas Wermelt",
+      "source_id": "P22-BAYER-AR2025"
+    },
+    {
+      "parser": "mineru",
+      "pdf_page": 377,
+      "quote": "Silvia Geberth",
+      "source_id": "P22-BAYER-AR2025"
+    }
+  ],
+  "normalized_value": {
+    "assurance_level": "limited assurance",
+    "conclusion_form": "nothing has come to our attention",
+    "criteria": "CSRD | EU Taxonomy Article 8 | HGB 315b/315c | ESRS/materiality | executive-director specifying criteria",
+    "date": "2026-03-02",
+    "excluded_information": "references outside the combined management report",
+    "governing_standard": "ISAE 3000 (Revised)",
+    "location": "Düsseldorf/Germany",
+    "procedure_difference": "less extensive and substantially lower assurance than reasonable assurance",
+    "provider": "Deloitte GmbH Wirtschaftsprüfungsgesellschaft",
+    "reporting_period": "2025-01-01/2025-12-31",
+    "signatories": "Andreas Wermelt | Silvia Geberth",
+    "subject": "Consolidated Sustainability Statement included in combined management report"
+  },
+  "provenance": {
+    "candidate_model_used": false,
+    "reference_is_simulated": true
+  },
+  "reference_author": "codex_gpt_simulated_expert",
+  "reference_status": "verified_against_frozen_mineru_pages_native_layout_and_visual_fallback",
+  "schema_version": "1.0",
+  "task_id": "P22-ASSURE-001"
+}

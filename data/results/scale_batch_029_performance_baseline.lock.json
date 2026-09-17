@@ -1,0 +1,86 @@
+{
+  "batch_id": "KB-SCALE-BATCH-029-PERFORMANCE",
+  "comparison_parent": "data/results/scale_batch_028_performance_baseline.lock.json",
+  "completed_at": "2026-09-14T02:17:00.363103+00:00",
+  "mineru": {
+    "attempt_wall_seconds": [
+      86.004219,
+      456.143984,
+      342.301325,
+      224.484868
+    ],
+    "final_complete_pages": 30,
+    "initial_failure_class": "sandbox_local_server_port_bind_denied",
+    "initial_failures": 30,
+    "post_completion_shutdown_recovered_pages": 13,
+    "resume_completed_pages": 17,
+    "status": "complete_after_audited_resume_and_hash_recovery",
+    "successful_processing_wall_seconds": 456.140739,
+    "successful_target_pages": 30,
+    "successful_target_pages_per_hour": 236.769029,
+    "target_page_wall_seconds": {
+      "KB-B029-INVESTOR-AR2025:p0076": 17.61694,
+      "KB-B029-INVESTOR-AR2025:p0081": 15.876754,
+      "KB-B029-INVESTOR-AR2025:p0082": 14.555878,
+      "KB-B029-INVESTOR-AR2025:p0083": 15.563904,
+      "KB-B029-INVESTOR-AR2025:p0090": 15.774718,
+      "KB-B029-INVESTOR-AR2025:p0098": 14.35366,
+      "KB-B029-INVESTOR-AR2025:p0104": 15.543492,
+      "KB-B029-INVESTOR-AR2025:p0113": 15.902616,
+      "KB-B029-INVESTOR-AR2025:p0186": 16.391859,
+      "KB-B029-INVESTOR-AR2025:p0187": 14.501043,
+      "KB-B029-SWEDAVIA-ASR2025:p0069": 13.451063,
+      "KB-B029-SWEDAVIA-ASR2025:p0079": 13.398597,
+      "KB-B029-SWEDAVIA-ASR2025:p0083": 14.920537,
+      "KB-B029-SWEDAVIA-ASR2025:p0085": 13.363882,
+      "KB-B029-SWEDAVIA-ASR2025:p0100": 14.537056,
+      "KB-B029-SWEDAVIA-ASR2025:p0102": 14.482923,
+      "KB-B029-SWEDAVIA-ASR2025:p0113": 15.558566,
+      "KB-B029-SWEDAVIA-ASR2025:p0115": 15.520353,
+      "KB-B029-SWEDAVIA-ASR2025:p0187": 14.531781,
+      "KB-B029-SWEDAVIA-ASR2025:p0188": 14.54469,
+      "KB-B029-VATTENFALL-ASR2025:p0093": 15.583395,
+      "KB-B029-VATTENFALL-ASR2025:p0097": 16.945524,
+      "KB-B029-VATTENFALL-ASR2025:p0105": 14.453673,
+      "KB-B029-VATTENFALL-ASR2025:p0106": 14.456461,
+      "KB-B029-VATTENFALL-ASR2025:p0109": 16.035788,
+      "KB-B029-VATTENFALL-ASR2025:p0110": 15.871481,
+      "KB-B029-VATTENFALL-ASR2025:p0127": 14.661728,
+      "KB-B029-VATTENFALL-ASR2025:p0141": 16.644799,
+      "KB-B029-VATTENFALL-ASR2025:p0150": 15.535506,
+      "KB-B029-VATTENFALL-ASR2025:p0151": 15.562072
+    },
+    "total_attempt_wall_seconds": 1108.934396
+  },
+  "mineru_comparison": {
+    "batch_028_pages_per_hour": 233.457987,
+    "batch_029_pages_per_hour": 236.769029,
+    "interpretation_gate": "throughput_only_quality_measured_separately",
+    "relative_change_percent": 1.418
+  },
+  "policy": {
+    "cloud_transmission": false,
+    "locked_experiments_modified": false,
+    "parent_results_overwritten": false,
+    "performance_separate_from_knowledge_quality": true
+  },
+  "provisional_comparison": {
+    "batch_028_pages_per_second": 367.355427,
+    "batch_029_pages_per_second": 344.423777,
+    "interpretation_gate": "diagnostic_only_not_semantic_quality_or_mineru_speed",
+    "relative_change_percent": -6.242,
+    "status": "comparable"
+  },
+  "schema_version": "0.1",
+  "started_at": "2026-09-14T01:51:48.930024+00:00",
+  "status": "diagnostic_and_mineru_baseline_complete",
+  "whole_report_diagnostic": {
+    "documents": 3,
+    "extractable_pages": 612,
+    "pages_per_second": 344.423777,
+    "pdf_pages": 613,
+    "peak_rss_bytes": 49676288,
+    "peak_rss_mb": 47.375,
+    "wall_seconds": 1.779784
+  }
+}

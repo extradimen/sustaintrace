@@ -1,0 +1,15 @@
+{
+  "schema_version":"2.2","experiment_id":"P13-V22-UNSEEN-LOCKBOX-V01","status":"passed","candidate_inference_released_locally":true,"cloud_transmission_authorized":false,
+  "contract_sha256":"0d5daf9b1d13ae367586e48c6f6d90dd3e94ba8a34d3698d55e8f69bf1f159d1",
+  "tasks":{
+    "P13-GHG-CALC-001":{"raw_contract_count":8,"candidate_contract_count":8,"schema_valid":true,"projector_valid":true,"validated_fixture_claim_count":8},
+    "P13-TARGET-001":{"raw_contract_count":12,"candidate_contract_count":12,"schema_valid":true,"projector_valid":true,"validated_fixture_claim_count":12},
+    "P13-WATER-001":{"raw_contract_count":6,"candidate_contract_count":6,"schema_valid":true,"projector_valid":true,"validated_fixture_claim_count":6},
+    "P13-SAFETY-001":{"raw_contract_count":9,"candidate_contract_count":9,"schema_valid":true,"projector_valid":true,"validated_fixture_claim_count":9},
+    "P13-WOMEN-001":{"raw_contract_count":8,"candidate_contract_count":8,"schema_valid":true,"projector_valid":true,"validated_fixture_claim_count":8},
+    "P13-ASSURE-001":{"raw_contract_count":8,"candidate_contract_count":8,"schema_valid":true,"projector_valid":true,"validated_fixture_claim_count":8}
+  },
+  "total_candidate_contract_count":51,
+  "method":"Exact production slot_output_schema plus validate_and_project_slots_v21 using deterministic grounded fixtures; no candidate model call.",
+  "note":"Local contract release does not authorize cloud transmission or candidate inference."
+}

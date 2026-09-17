@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/esg-reliable-discovery/open-discovery-adjudication-v1.schema.json",
+  "title": "Open Discovery Adjudication v1.0",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "adjudication_id",
+    "task_id",
+    "candidate_finding_id",
+    "candidate_sha256",
+    "review_a_sha256",
+    "review_b_sha256",
+    "adjudicator_id",
+    "disputed_fields",
+    "final_disposition",
+    "resolution_basis",
+    "adjudicated_at"
+  ],
+  "properties": {
+    "adjudication_id": {"type": "string", "minLength": 1},
+    "task_id": {"type": "string", "minLength": 1},
+    "candidate_finding_id": {"type": "string", "minLength": 1},
+    "candidate_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "review_a_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "review_b_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "adjudicator_id": {"type": "string", "minLength": 1},
+    "disputed_fields": {
+      "type": "array",
+      "items": {"type": "string", "minLength": 1},
+      "uniqueItems": true
+    },
+    "final_disposition": {
+      "enum": ["accept", "revise_boundary", "reject_false", "reject_unsupported", "reject_duplicate", "uncertain"]
+    },
+    "canonical_duplicate_cluster_id": {"type": ["string", "null"], "minLength": 1},
+    "resolution_basis": {"type": "string", "minLength": 1},
+    "adjudicated_at": {"type": "string", "format": "date-time"}
+  }
+}

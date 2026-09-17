@@ -1,0 +1,33 @@
+{
+  "schema_version":"1.0",
+  "experiment_id":"P4-V13-UNSEEN-LOCKBOX-V01-RESUME02",
+  "status":"completed_scored_with_one_reference_invalid_task",
+  "supersedes":"data/results/p4_v13_unseen_lockbox_v0.1_result.lock.json",
+  "supersession_reason":"Post-run reference adjudication found that P4-DEX-003's simulated gold reversed two spatially encoded water measures.",
+  "candidate_model":"qwen3.5:397b-cloud",
+  "candidate_digest":"68d2a0796c11e1fedd0456a2d55e58cca4077be6a218428a7a7f4e21f8177cbc",
+  "pipeline_version":"ESG-RD-v1.3-SLOT-ATOMIC-PROJECTION",
+  "task_count":9,
+  "semantically_scorable_task_count":8,
+  "candidate_attempts_per_task":1,
+  "stage_a":{"tasks_run":9,"framework_valid":6,"framework_failed":3,"semantic_exact":5,"semantic_failed":3,"reference_invalid_unscorable":1},
+  "stage_b":{"eligible_tasks":6,"framework_valid":6,"framework_failed":0,"semantically_scorable_tasks":5,"complete_semantic_fidelity":5,"reference_invalid_unscorable":1,"scorable_atomic_claims_exact":12,"scorable_atomic_claims_total":12,"unscorable_atomic_claims":3},
+  "task_results":[
+    {"task_id":"P4-DEX-001","framework":"passed","semantics":"exact","stage_b":"exact"},
+    {"task_id":"P4-CALC-001","framework":"failed","semantics":"failed","stage_b":"not_required","failure":"period_year string violated integer schema"},
+    {"task_id":"P4-XPAGE-001","framework":"passed","semantics":"exact","stage_b":"exact"},
+    {"task_id":"P4-DEX-002","framework":"passed","semantics":"exact","stage_b":"exact"},
+    {"task_id":"P4-CONFLICT-001","framework":"failed","semantics":"failed","stage_b":"not_required","failure":"model emitted legacy source_claims instead of frozen relation schema"},
+    {"task_id":"P4-SCOPE-001","framework":"passed","semantics":"exact","stage_b":"exact"},
+    {"task_id":"P4-DEX-003","framework":"passed","semantics":"reference_invalid_unscorable","stage_b":"reference_invalid_unscorable","incident":"data/results/p4_reference_adjudication_incident_v0.1.lock.json"},
+    {"task_id":"P4-CALC-002","framework":"failed","semantics":"failed","stage_b":"not_required","failure":"2018 period not grounded on selected value line"},
+    {"task_id":"P4-SCOPE-002","framework":"passed","semantics":"exact","stage_b":"exact"}
+  ],
+  "comparison_to_p3":{"p3_stage_b_framework_valid":"0/6","p4_stage_b_framework_valid":"6/6","p4_stage_b_complete_semantic_fidelity_on_valid_references":"5/5","interpretation":"Prospective support for v1.3 structural and semantic projection on the five valid-reference Stage B tasks; sample size is small and one simulated reference failed spatial adjudication."},
+  "decision":"PROMOTE_V1_3_AS_RESEARCH_PROTOTYPE_WITH_REFERENCE_PIPELINE_REVISION_REQUIRED",
+  "next_iteration":"Build deterministic 2D chart/table relation reconstruction for both candidate evidence and gold authoring; normalize controlled year tokens; add a dedicated same-document discrepancy interface; evaluate on new P5 only.",
+  "reference_type":"AI-simulated expert reference; no independent human gold claimed",
+  "posthoc_repair_applied":false,
+  "silent_retry_applied":false,
+  "no_aggregate_score":true
+}

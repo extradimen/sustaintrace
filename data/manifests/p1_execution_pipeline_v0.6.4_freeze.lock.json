@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "freeze_id": "P1-EXECUTION-PIPELINE-FREEZE-v0.6.4",
+  "status": "superseded_after_redundant_state_contradiction",
+  "frozen_at": "2026-09-04T08:10:00+08:00",
+  "preregistration_sha256": "1761ee542318aca0ad81f550e6475a5a7635a36572eed50244f29d31f5e4920d",
+  "calculation_core_sha256": "6c9f7e6754ca87e6cbbb3ace94141579c56f57d0026592b87c5a5650ed5d80de",
+  "mineru_block_loader_sha256": "91b5c1d0fdf760c4bc6f7cf4f50cccd82663de6577adb68b6c7386d8220379ba",
+  "runner_sha256": "1e40a91f8cdd6b3c9015f36d7d14325a6ebcd98bb192481b39563471cd46cd18",
+  "system_prompt_sha256": "f9ca529c217af510690199ff6814d354e8ca1b5b42ede01e91b9955f303e22ee",
+  "model_calculation_answer_fields_allowed": false,
+  "semantic_roles_required": true,
+  "framework_owns_numeric_result": true,
+  "framework_owns_direction": true,
+  "test_count_passed": 118,
+  "reference_answer_visible_during_inference": false,
+  "posthoc_semantic_repair_allowed": false,
+  "inference_allowed": true,
+  "next_gate": "basf_tool_owned_calculation_acceptance"
+}

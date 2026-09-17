@@ -1,0 +1,146 @@
+{
+  "checkpoint_resume_enabled": true,
+  "cloud_authorization": "data/manifests/p11_cloud_authorization_2026-09-08.lock.json",
+  "experiment_id": "P11-V20-UNSEEN-LOCKBOX-V01",
+  "records": [
+    {
+      "retried": false,
+      "stage_a": "passed",
+      "stage_a_result": {
+        "archive_directory": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P11-V20-UNSEEN-LOCKBOX-V01/runs/P11-SAFETY-001-QWEN397B-v20-stage-a",
+        "elapsed_seconds": 11.359464708002633,
+        "framework_evidence_state": "supported",
+        "model": "qwen3.5:397b-cloud",
+        "run_id": "P11-SAFETY-001-QWEN397B-v20-stage-a",
+        "task_id": "P11-SAFETY-001"
+      },
+      "stage_b": "passed",
+      "stage_b_result": {
+        "archive_directory": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P11-V20-UNSEEN-LOCKBOX-V01/runs/P11-SAFETY-001-QWEN397B-v20-stage-b",
+        "elapsed_seconds": 67.38372162500309,
+        "run_id": "P11-SAFETY-001-QWEN397B-v20-stage-b",
+        "task_id": "P11-SAFETY-001",
+        "validated_claim_count": 8
+      },
+      "task_id": "P11-SAFETY-001",
+      "task_type": "direct_extraction"
+    },
+    {
+      "retried": false,
+      "stage_a": "failed",
+      "stage_a_error": "OllamaError:v1.3 Stage A model behavior failed; archived at /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P11-V20-UNSEEN-LOCKBOX-V01/runs/P11-CALC-001-QWEN397B-v20-stage-a: ValueError:v074_schema_failure:{'operation': 'sum', 'inputs': [{'value': 288.3, 'evidence_handle': 'M176-T0005-R0003-C0001', 'period_year': '2025', 'metric': 'Gross Scope 1 GHG emissions', 'unit': 'ktCO\u2082e'}, {'value': 70.7, 'evidence_handle': 'M177-T0001-R0002-C0002', 'period_year': '2025', 'metric': 'Gross market-based Scope 2 GHG emissions', 'unit': 'ktCO\u2082e'}], 'comparison_value': {'value': 359, 'evidence_handle': 'M176-T0001-R0012-C0002', 'period_year': '2025', 'metric': 'Total Scope 1 and 2 GHG emissions (market-based)', 'unit': 'ktCO\u2082e'}} is not valid under any of the given schemas",
+      "stage_a_failure_taxonomy": {
+        "category": "model_behavior",
+        "error_type": "OllamaError",
+        "model_call_started": true,
+        "owner": "candidate_model",
+        "retry_policy": "no_retry_in_locked_experiment",
+        "score_as_model_failure": true,
+        "stage": "stage_a"
+      },
+      "task_id": "P11-CALC-001",
+      "task_type": "deterministic_calculation"
+    },
+    {
+      "retried": false,
+      "stage_a": "passed",
+      "stage_a_result": {
+        "archive_directory": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P11-V20-UNSEEN-LOCKBOX-V01/runs/P11-TARGET-001-QWEN397B-v20-stage-a",
+        "elapsed_seconds": 21.75546191700414,
+        "framework_evidence_state": "supported",
+        "model": "qwen3.5:397b-cloud",
+        "run_id": "P11-TARGET-001-QWEN397B-v20-stage-a",
+        "task_id": "P11-TARGET-001"
+      },
+      "stage_b": "failed",
+      "stage_b_error": "OllamaError:v1.3 Stage B model behavior failed; archived at /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P11-V20-UNSEEN-LOCKBOX-V01/runs/P11-TARGET-001-QWEN397B-v20-stage-b: ValueError:v13_slot_schema_failure:{'slot_id': 'siemens_group', 'value': 'SBTi:Reduce Scope 1 & 2 emissions by 90% | 938 | 2030 | (90)% | Scope 1 59%Scope 2 41% | 2% | (62)%', 'verbatim_value': 'SBTi:Reduce Scope 1 & 2 emissions by 90% | 938 | 2030 | (90)% | Scope 1 59%Scope 2 41% | 2% | (62)%', 'evidence_handle': 'M170-T0003-R0006'} is not valid under any of the given schemas",
+      "stage_b_failure_taxonomy": {
+        "category": "model_behavior",
+        "error_type": "OllamaError",
+        "model_call_started": true,
+        "owner": "candidate_model",
+        "retry_policy": "no_retry_in_locked_experiment",
+        "score_as_model_failure": true,
+        "stage": "stage_b"
+      },
+      "task_id": "P11-TARGET-001",
+      "task_type": "scope_subject_boundary"
+    },
+    {
+      "retried": false,
+      "stage_a": "passed",
+      "stage_a_result": {
+        "archive_directory": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P11-V20-UNSEEN-LOCKBOX-V01/runs/P11-BOUNDARY-001-QWEN397B-v20-stage-a",
+        "elapsed_seconds": 8.718215291999513,
+        "framework_evidence_state": "supported",
+        "model": "qwen3.5:397b-cloud",
+        "run_id": "P11-BOUNDARY-001-QWEN397B-v20-stage-a",
+        "task_id": "P11-BOUNDARY-001"
+      },
+      "stage_b": "passed",
+      "stage_b_result": {
+        "archive_directory": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P11-V20-UNSEEN-LOCKBOX-V01/runs/P11-BOUNDARY-001-QWEN397B-v20-stage-b",
+        "elapsed_seconds": 75.47810587500135,
+        "run_id": "P11-BOUNDARY-001-QWEN397B-v20-stage-b",
+        "task_id": "P11-BOUNDARY-001",
+        "validated_claim_count": 6
+      },
+      "task_id": "P11-BOUNDARY-001",
+      "task_type": "scope_subject_boundary"
+    },
+    {
+      "retried": false,
+      "stage_a": "passed",
+      "stage_a_result": {
+        "archive_directory": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P11-V20-UNSEEN-LOCKBOX-V01/runs/P11-SCOPE3-001-QWEN397B-v20-stage-a",
+        "elapsed_seconds": 11.853187208005693,
+        "framework_evidence_state": "supported",
+        "model": "qwen3.5:397b-cloud",
+        "run_id": "P11-SCOPE3-001-QWEN397B-v20-stage-a",
+        "task_id": "P11-SCOPE3-001"
+      },
+      "stage_b": "failed",
+      "stage_b_error": "OllamaError:v1.3 Stage B model behavior failed; archived at /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P11-V20-UNSEEN-LOCKBOX-V01/runs/P11-SCOPE3-001-QWEN397B-v20-stage-b: ValueError:v13_slot_schema_failure:{'slot_id': 'assumptions', 'value': ['operating hours per year', 'power demand of a product', \"product's use phase duration\"], 'verbatim_value': \"assumptions about product use (for exampleoperating hours per year), product specifications (for example power demand of a product) and the product's use phase duration\", 'evidence_handle': 'M178-T0001-R0007-C0001'} is not valid under any of the given schemas",
+      "stage_b_failure_taxonomy": {
+        "category": "model_behavior",
+        "error_type": "OllamaError",
+        "model_call_started": true,
+        "owner": "candidate_model",
+        "retry_policy": "no_retry_in_locked_experiment",
+        "score_as_model_failure": true,
+        "stage": "stage_b"
+      },
+      "task_id": "P11-SCOPE3-001",
+      "task_type": "scope_subject_boundary"
+    },
+    {
+      "retried": false,
+      "stage_a": "passed",
+      "stage_a_result": {
+        "archive_directory": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P11-V20-UNSEEN-LOCKBOX-V01/runs/P11-ASSURE-001-QWEN397B-v20-stage-a",
+        "elapsed_seconds": 9.792632207994757,
+        "framework_evidence_state": "supported",
+        "model": "qwen3.5:397b-cloud",
+        "run_id": "P11-ASSURE-001-QWEN397B-v20-stage-a",
+        "task_id": "P11-ASSURE-001"
+      },
+      "stage_b": "failed",
+      "stage_b_error": "OllamaError:v1.3 Stage B model behavior failed; archived at /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P11-V20-UNSEEN-LOCKBOX-V01/runs/P11-ASSURE-001-QWEN397B-v20-stage-b: ValueError:v13_slot_schema_failure:{'slot_id': 'excluded_information', 'value': ['reports of other assurance practitioners in relation to the assurance of information, from sources within the value chain'], 'verbatim_value': 'reports of other assurance practitioners in relation to the assurance of information, from sources within the value chain', 'evidence_handle': 'M257-B0006'} is not valid under any of the given schemas",
+      "stage_b_failure_taxonomy": {
+        "category": "model_behavior",
+        "error_type": "OllamaError",
+        "model_call_started": true,
+        "owner": "candidate_model",
+        "retry_policy": "no_retry_in_locked_experiment",
+        "score_as_model_failure": true,
+        "stage": "stage_b"
+      },
+      "task_id": "P11-ASSURE-001",
+      "task_type": "scope_subject_boundary"
+    }
+  ],
+  "reference_loaded_by_orchestrator": false,
+  "schema_version": "2.0",
+  "single_attempt_per_stage": true,
+  "updated_at": "2026-09-07T18:29:01.207709+00:00"
+}

@@ -1,0 +1,243 @@
+{
+  "schema_version": "0.1",
+  "registry_id": "KB-SCALE-BATCH-007-TARGET-PAGES-v0.1",
+  "batch_id": "KB-SCALE-BATCH-007",
+  "created_at": "2026-09-12T21:40:24.272957+00:00",
+  "status": "target_pages_locked_before_mineru",
+  "cloud_transmission": false,
+  "documents": [
+    {
+      "document_id": "KB-B007-ABB-ARS2025",
+      "source_group_id": "KB-ABB-2025",
+      "local_path": "data/raw/scale_batch_007/abb-annual-reporting-suite-2025.pdf",
+      "document_sha256": "79246a74008abc09050a8e3fe61957c8ff7b03eec177acaa0a53d7d32b777be3",
+      "selection_rule": "highest_keyword_hit_page_per_theme_v0.1",
+      "target_pages": [
+        {
+          "page": 73,
+          "themes": [
+            "biodiversity"
+          ],
+          "native_text_sha256": "680448ed438f7fb0fd8d0c682982b5c0b44d46f08f8797e48b5dadd90c70776e",
+          "native_text_characters": 3450
+        },
+        {
+          "page": 232,
+          "themes": [
+            "assurance"
+          ],
+          "native_text_sha256": "78afb2a6c91e868a32e85990fe71533d9ca790beb6ac33791a17869afb80c879",
+          "native_text_characters": 2930
+        },
+        {
+          "page": 311,
+          "themes": [
+            "targets"
+          ],
+          "native_text_sha256": "36cf76bd121a98373260c6d1e9a17772be383e9a7e66777665289df65f2ca160",
+          "native_text_characters": 5312
+        },
+        {
+          "page": 320,
+          "themes": [
+            "energy"
+          ],
+          "native_text_sha256": "5e3a0898c54828f913f1aab6fe4e45139bb401ce882798b99881c3a774b90cbc",
+          "native_text_characters": 5695
+        },
+        {
+          "page": 336,
+          "themes": [
+            "circularity"
+          ],
+          "native_text_sha256": "3aa13b5abf3bb395dba03498a391c9199d250bb51cd24963f5a87d1b552e3aa4",
+          "native_text_characters": 6225
+        },
+        {
+          "page": 341,
+          "themes": [
+            "water"
+          ],
+          "native_text_sha256": "9131074150f7980b99368d3f938c0aedc3b94abe2473a04d865150f0604b73b3",
+          "native_text_characters": 5195
+        },
+        {
+          "page": 363,
+          "themes": [
+            "workforce"
+          ],
+          "native_text_sha256": "8aca3a1b25cc65a65a1528c9322944a8485bf858c1041da009fef531f439bf09",
+          "native_text_characters": 5245
+        },
+        {
+          "page": 365,
+          "themes": [
+            "health_safety"
+          ],
+          "native_text_sha256": "25e1e8d71ad819744acf5b937d72368cd60b1aed6e702749e54993d0c271af55",
+          "native_text_characters": 5407
+        },
+        {
+          "page": 417,
+          "themes": [
+            "ghg_emissions"
+          ],
+          "native_text_sha256": "974a7c27b3977933c4c969567a1f7f75644f671954fa6ac9caa54a29cc7ac5fe",
+          "native_text_characters": 6505
+        }
+      ]
+    },
+    {
+      "document_id": "KB-B007-NOKIA-AR2025",
+      "source_group_id": "KB-NOKIA-2025",
+      "local_path": "data/raw/scale_batch_007/nokia-annual-report-2025.pdf",
+      "document_sha256": "fa6067b17c09d25b05571ceec218fb3f524054fc8cb7d8eb899221c7b7404455",
+      "selection_rule": "highest_keyword_hit_page_per_theme_v0.1",
+      "target_pages": [
+        {
+          "page": 21,
+          "themes": [
+            "biodiversity"
+          ],
+          "native_text_sha256": "991acd2c97bc3120977fe19748d5e1dfbeca8ba1fc1c38b2bb36287f64c32605",
+          "native_text_characters": 7816
+        },
+        {
+          "page": 56,
+          "themes": [
+            "health_safety"
+          ],
+          "native_text_sha256": "54bfe78e4cad98b676958292492a3841d13e8273750115c4fc0d556e9076f5b7",
+          "native_text_characters": 5208
+        },
+        {
+          "page": 120,
+          "themes": [
+            "targets"
+          ],
+          "native_text_sha256": "5dee0ccfe8fc4ac16afa1bd787d6ffe640c2094c725f7da1ed352744af07bbe5",
+          "native_text_characters": 9320
+        },
+        {
+          "page": 122,
+          "themes": [
+            "energy"
+          ],
+          "native_text_sha256": "cde7452067987c4c12069a0eb11b5feacce6fb64403f9f01e141b406cff89660",
+          "native_text_characters": 11437
+        },
+        {
+          "page": 123,
+          "themes": [
+            "ghg_emissions"
+          ],
+          "native_text_sha256": "09df2cca2507ee45bbad64829b2babc869f4cd6b83688ba096eb2673c63747c1",
+          "native_text_characters": 11161
+        },
+        {
+          "page": 132,
+          "themes": [
+            "water"
+          ],
+          "native_text_sha256": "728ce4b71daf37b7676ce72d08b10201f2aa4e347592c937c06696766f6cd6bc",
+          "native_text_characters": 12599
+        },
+        {
+          "page": 133,
+          "themes": [
+            "circularity"
+          ],
+          "native_text_sha256": "003ef8fdf506a90513cb05922257208f641c733ebaea5aa6e4a2076a8eee151f",
+          "native_text_characters": 13582
+        },
+        {
+          "page": 152,
+          "themes": [
+            "workforce"
+          ],
+          "native_text_sha256": "9a8d057a24c60dbc1868233dda5f42c87d07e170d847fdcf9759ea105c32d918",
+          "native_text_characters": 10390
+        },
+        {
+          "page": 287,
+          "themes": [
+            "assurance"
+          ],
+          "native_text_sha256": "5dfc7d0c4f43fe35577c5708918ff1347651664791c670961c6ce2dcd41d6ac6",
+          "native_text_characters": 10531
+        }
+      ]
+    },
+    {
+      "document_id": "KB-B007-ATLAS-COPCO-AR2025",
+      "source_group_id": "KB-ATLAS-COPCO-2025",
+      "local_path": "data/raw/scale_batch_007/atlas-copco-annual-report-2025.pdf",
+      "document_sha256": "70d076bd915ecb111549426d3bf2b585626e117e20509f42c84dd001915e4164",
+      "selection_rule": "highest_keyword_hit_page_per_theme_v0.1",
+      "target_pages": [
+        {
+          "page": 50,
+          "themes": [
+            "energy"
+          ],
+          "native_text_sha256": "ea0bb0bc97a6d9c8faf8658989494bd3f9d3a27e15676003165813597a9edbab",
+          "native_text_characters": 6180
+        },
+        {
+          "page": 55,
+          "themes": [
+            "ghg_emissions",
+            "targets"
+          ],
+          "native_text_sha256": "16c19a7a3a637469067d8143e5f1e2451de261645f8cf6ae559f23b34df7bd21",
+          "native_text_characters": 15074
+        },
+        {
+          "page": 57,
+          "themes": [
+            "circularity"
+          ],
+          "native_text_sha256": "aca43217df5983ed50a729f8b33a2197bc60ac07c1501ceb71d0f9b5406b9b08",
+          "native_text_characters": 10627
+        },
+        {
+          "page": 70,
+          "themes": [
+            "health_safety"
+          ],
+          "native_text_sha256": "af880005e54e5797861511e3e39e6a173c98c38606e83964af171384d5452d39",
+          "native_text_characters": 6624
+        },
+        {
+          "page": 72,
+          "themes": [
+            "workforce"
+          ],
+          "native_text_sha256": "bf53b435f43b47565c484a8fcc6e6b69ff234148dcfa4ed966d738e879f3ee84",
+          "native_text_characters": 11271
+        },
+        {
+          "page": 79,
+          "themes": [
+            "biodiversity",
+            "water"
+          ],
+          "native_text_sha256": "cd12eb48f8534162a4c2f9a780762a9962a3e4127cc5a0daffccd2b74286c07c",
+          "native_text_characters": 9776
+        },
+        {
+          "page": 169,
+          "themes": [
+            "assurance"
+          ],
+          "native_text_sha256": "73f26b112f62d15e288c657afe7c5bd0e426a6a554c66af9324539f718f6e54e",
+          "native_text_characters": 10172
+        }
+      ]
+    }
+  ],
+  "totals": {
+    "documents": 3,
+    "unique_target_pages": 25
+  }
+}

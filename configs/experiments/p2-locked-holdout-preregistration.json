@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0",
+  "plan_id": "P2-LOCKED-HOLDOUT-v0.1",
+  "status": "completed_scored",
+  "purpose": "Final out-of-sample generalization evaluation after the framework is frozen on P1.",
+  "source_constraints": {
+    "official_english_reports_only": true,
+    "companies_not_in_p0_or_p1": true,
+    "reports_not_used_in_prompt_or_framework_development": true,
+    "document_hashes_frozen_before_task_authoring": true
+  },
+  "minimum_report_count": 6,
+  "minimum_task_count": 12,
+  "required_task_types": [
+    "direct_extraction",
+    "deterministic_calculation",
+    "cross_page_relation",
+    "scope_subject_boundary",
+    "controlled_conflict",
+    "abstention"
+  ],
+  "reference_type": "AI-simulated synthetic reference, explicitly not human gold",
+  "separation_rules": {
+    "framework_changes_after_p2_task_exposure": false,
+    "prompt_changes_after_p2_task_exposure": false,
+    "model_config_changes_after_p2_task_exposure": false,
+    "candidate_runner_can_read_reference_answers": false,
+    "failed_runs_excluded": false,
+    "aggregate_score": false
+  },
+  "release_gate": "P1 framework version, parser policy, prompts, schemas, model matrix, and scoring policy all hash-frozen",
+  "source_manifest_path": "data/manifests/p2_blind_source_manifest_v0.1.json",
+  "source_manifest_sha256": "cdb4e36cd298066e9f90fd7bd7ff28696791c66d286b87c9ad6b0058b3c0706c",
+  "selected_report_count": 6,
+  "execution_release_path": "data/manifests/p2_execution_release_v0.1.lock.json",
+  "execution_release_sha256": "f20bfe4b309314f347ef0fd675268224af719a9608d6ca193c883e64ef0a4e0a",
+  "source_selection_started": true,
+  "source_selection_completed": true,
+  "task_authoring_started": true,
+  "candidate_inference_allowed": true,
+  "task_pack_path": "data/tasks/p2_task_pack_v0.1.lock.json",
+  "task_pack_sha256": "e8df8914fb4130c1071c449ddec2538c57193ec8cfdf38921a44ac37f608343e",
+  "task_reference_freeze_path": "data/manifests/p2_task_and_reference_freeze_v0.1.lock.json",
+  "parser_execution_freeze_path": "data/manifests/p2_parser_execution_freeze_v0.1.lock.json",
+  "result_path": "data/results/p2_locked_holdout_v0.1_result.lock.json",
+  "result_sha256": "5bd74f1b6b985228b236bac35be36ca90ede07f5890be616d52218b2454173a3",
+  "candidate_inference_completed": true,
+  "candidate_inference_gate_basis": ["P1 qualification passed", "P2 source hashes frozen", "P2 tasks and AI-simulated references frozen", "P2 parser artifacts frozen"],
+  "posthoc_repair_applied": false,
+  "silent_retry_applied": false
+}

@@ -1,0 +1,17 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-001-RESUME01",
+  "status": "evidence_gate_complete_no_automatic_promotion",
+  "candidate_count": 41,
+  "mineru_exact_count": 41,
+  "native_normalized_exact_count": 14,
+  "held_tier_c_count": 41,
+  "promoted_tier_b_count": 0,
+  "validation_output": "data/knowledge_bases/v0.1/increments/scale_batch_001_evidence_validations.jsonl",
+  "validation_sha256": "cfaab76917696e0d7026cf895443768cf43044abdf8b8f776c115506684b6446",
+  "policy": {
+    "no_semantic_guessing": true,
+    "no_automatic_promotion_without_atomic_projection": true,
+    "locked_experiments_modified": false
+  }
+}

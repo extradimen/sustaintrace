@@ -1,0 +1,90 @@
+{
+  "answer": "In GWh, total energy was 1,726 in 2025 and 1,400 in 2024; fossil energy was 742 and 476; renewable energy was 984 and 924; and renewable shares were 57% and 66%. The narrative says total energy increased by 23%. The 2024 figures were restated because contractual biomass-derived heat and steam was classified as renewable for both 2024 and 2025, with the fossil and renewable heat/steam rows updated accordingly.",
+  "evidence": [
+    {
+      "pdf_page": 65,
+      "quote": "Total energy consumption increased by 23% compared to 2024",
+      "source_id": "P19-NOVO-NORDISK-AR2025"
+    },
+    {
+      "pdf_page": 65,
+      "quote": "Total energy consumption related to own operations",
+      "source_id": "P19-NOVO-NORDISK-AR2025"
+    },
+    {
+      "pdf_page": 65,
+      "quote": "1,726",
+      "source_id": "P19-NOVO-NORDISK-AR2025"
+    },
+    {
+      "pdf_page": 65,
+      "quote": "1,400",
+      "source_id": "P19-NOVO-NORDISK-AR2025"
+    },
+    {
+      "pdf_page": 65,
+      "quote": "Total energy consumption from fossil sources",
+      "source_id": "P19-NOVO-NORDISK-AR2025"
+    },
+    {
+      "pdf_page": 65,
+      "quote": "742",
+      "source_id": "P19-NOVO-NORDISK-AR2025"
+    },
+    {
+      "pdf_page": 65,
+      "quote": "476",
+      "source_id": "P19-NOVO-NORDISK-AR2025"
+    },
+    {
+      "pdf_page": 65,
+      "quote": "Total energy consumption from renewable sources",
+      "source_id": "P19-NOVO-NORDISK-AR2025"
+    },
+    {
+      "pdf_page": 65,
+      "quote": "984",
+      "source_id": "P19-NOVO-NORDISK-AR2025"
+    },
+    {
+      "pdf_page": 65,
+      "quote": "924",
+      "source_id": "P19-NOVO-NORDISK-AR2025"
+    },
+    {
+      "pdf_page": 65,
+      "quote": "57%",
+      "source_id": "P19-NOVO-NORDISK-AR2025"
+    },
+    {
+      "pdf_page": 65,
+      "quote": "66%",
+      "source_id": "P19-NOVO-NORDISK-AR2025"
+    },
+    {
+      "pdf_page": 65,
+      "quote": "we now include contractual biomass-derived sources in Kalundborg, Denmark, under renewable energy (both for 2024 and 2025)",
+      "source_id": "P19-NOVO-NORDISK-AR2025"
+    }
+  ],
+  "normalized_value": {
+    "fossil_energy_gwh::2024": 476,
+    "fossil_energy_gwh::2025": 742,
+    "narrative_change_percent": 23,
+    "qualification": "contractual biomass-derived heat and steam classified as renewable for both 2024 and 2025; affected 2024 fossil and renewable heat/steam values were restated",
+    "renewable_energy_gwh::2024": 924,
+    "renewable_energy_gwh::2025": 984,
+    "renewable_share_percent::2024": 66,
+    "renewable_share_percent::2025": 57,
+    "total_energy_gwh::2024": 1400,
+    "total_energy_gwh::2025": 1726
+  },
+  "provenance": {
+    "candidate_model_used": false,
+    "reference_is_simulated": true
+  },
+  "reference_author": "codex_gpt_simulated_expert",
+  "reference_status": "verified_against_frozen_mineru_pages_and_native_layout",
+  "schema_version": "1.0",
+  "task_id": "P19-ENERGY-001"
+}

@@ -1,0 +1,36 @@
+{
+  "batch_id": "KB-SCALE-BATCH-019-PERFORMANCE",
+  "comparison_parent": "data/results/scale_batch_018_performance_baseline.lock.json",
+  "completed_at": "2026-09-13T13:21:07.474933+00:00",
+  "mineru": {
+    "checkpoint_reuse_pages": 0,
+    "initial_failure_wall_seconds": 0,
+    "resume_wall_seconds": 0,
+    "status": "pending_target_page_execution",
+    "successful_target_pages_per_hour": null,
+    "target_page_wall_seconds": {}
+  },
+  "policy": {
+    "cloud_transmission": false,
+    "locked_experiments_modified": false,
+    "performance_separate_from_knowledge_quality": true
+  },
+  "provisional_comparison": {
+    "batch_018_pages_per_second": 487.466016,
+    "batch_019_pages_per_second": 280.970161,
+    "interpretation_gate": "diagnostic_only_not_semantic_quality_or_mineru_speed",
+    "relative_change_percent": -42.361
+  },
+  "schema_version": "0.1",
+  "started_at": "2026-09-13T13:21:04.498884+00:00",
+  "status": "diagnostic_baseline_recorded_target_pages_pending",
+  "whole_report_diagnostic": {
+    "documents": 3,
+    "extractable_pages": 832,
+    "pages_per_second": 280.970161,
+    "pdf_pages": 836,
+    "peak_rss_bytes": 44171264,
+    "peak_rss_mb": 42.125,
+    "wall_seconds": 2.975405
+  }
+}

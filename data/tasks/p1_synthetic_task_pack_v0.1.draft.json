@@ -1,0 +1,160 @@
+{
+  "schema_version": "1.0",
+  "benchmark_type": "synthetic_reference_benchmark",
+  "status": "frozen",
+  "reference_author": "codex_gpt_simulated_expert",
+  "candidate_exclusion": ["current_codex_gpt_context", "gpt_family_unseen_claims"],
+  "tasks": [
+    {
+      "task_id": "P1-01-1",
+      "candidate_id": "P1-CAND-004",
+      "document_id": "AAPL-EPR-2025",
+      "task_type": "abstention",
+      "question_status": "frozen",
+      "question": "What absolute amount of methane (CH4) emissions did Apple report for fiscal 2024, expressed in metric tons of CO2 equivalent?",
+      "target_pages": [104, 105],
+      "reference_file": "data/annotations/p1_synthetic/P1-01-1.json"
+    },
+    {
+      "task_id": "P1-01-2",
+      "candidate_id": "P1-CAND-004",
+      "document_id": "AAPL-EPR-2025",
+      "task_type": "scope_subject_boundary",
+      "question_status": "frozen",
+      "question": "For Apple fiscal 2024, what volume of freshwater use was avoided by low-water design, and to which operational boundary does that figure apply?",
+      "target_pages": [49],
+      "reference_file": "data/annotations/p1_synthetic/P1-01-2.json"
+    },
+    {
+      "task_id": "P1-02-1",
+      "candidate_id": "P1-CAND-005",
+      "document_id": "BASF-AR-2024",
+      "task_type": "deterministic_calculation",
+      "question_status": "frozen",
+      "question": "Using BASF's financially controlled total gross Scope 3 emissions, calculate the percentage change from 2023 to 2024 and report whether it was an increase or decrease, rounded to two decimals.",
+      "target_pages": [200],
+      "reference_file": "data/annotations/p1_synthetic/P1-02-1.json"
+    },
+    {
+      "task_id": "P1-02-2",
+      "candidate_id": "P1-CAND-005",
+      "document_id": "BASF-AR-2024",
+      "task_type": "direct_extraction",
+      "question_status": "frozen",
+      "question": "What were BASF's 2024 financially controlled Scope 1 methane emissions, in million metric tons of CO2 equivalent?",
+      "target_pages": [200],
+      "reference_file": "data/annotations/p1_synthetic/P1-02-2.json"
+    },
+    {
+      "task_id": "P1-03-1",
+      "candidate_id": "P1-CAND-008",
+      "document_id": "HITACHI-SR-2024",
+      "task_type": "cross_page_relation",
+      "question_status": "frozen",
+      "question": "For Hitachi fiscal 2023, report both (a) renewable electricity generation and its share of electricity usage within the target range, and (b) total Scope 1 and 2 emissions and their share of total Scope 1, 2 and 3 emissions.",
+      "target_pages": [67, 95],
+      "reference_file": "data/annotations/p1_synthetic/P1-03-1.json"
+    },
+    {
+      "task_id": "P1-03-2",
+      "candidate_id": "P1-CAND-008",
+      "document_id": "HITACHI-SR-2024",
+      "task_type": "direct_extraction",
+      "question_status": "frozen",
+      "question": "What total Scope 3 emissions and corresponding share of total value-chain emissions did Hitachi report for fiscal 2023?",
+      "target_pages": [95],
+      "reference_file": "data/annotations/p1_synthetic/P1-03-2.json"
+    },
+    {
+      "task_id": "P1-04-1",
+      "candidate_id": "P1-CAND-009",
+      "document_id": "CRM-IR-2024",
+      "task_type": "deterministic_calculation",
+      "question_status": "frozen",
+      "question": "Calculate the percentage change in Salesforce's market-based emissions from operations and value chain from fiscal 2023 to fiscal 2024, rounded to two decimals.",
+      "target_pages": [93],
+      "reference_file": "data/annotations/p1_synthetic/P1-04-1.json"
+    },
+    {
+      "task_id": "P1-04-2", "candidate_id": "P1-CAND-009", "document_id": "CRM-IR-2024", "task_type": "controlled_conflict", "question_status": "frozen",
+      "question": "A controlled analyst note states that Salesforce's fiscal 2024 market-based emissions from operations and value chain were 1,250,000 tCO2e. Compare this with the official report, identify whether a conflict exists, and preserve source attribution.",
+      "target_pages": [93], "controlled_intervention_id": "P1-CI-001", "reference_file": "data/annotations/p1_synthetic/P1-04-2.json"
+    },
+    {
+      "task_id": "P1-05-1", "candidate_id": "P1-CAND-011", "document_id": "SAMSUNG-SR-2024", "task_type": "direct_extraction", "question_status": "frozen",
+      "question": "What market-based Scope 1 and Scope 2 greenhouse gas emissions did Samsung Electronics report for 2023, individually and in total?",
+      "target_pages": [62], "reference_file": "data/annotations/p1_synthetic/P1-05-1.json"
+    },
+    {
+      "task_id": "P1-05-2", "candidate_id": "P1-CAND-011", "document_id": "SAMSUNG-SR-2024", "task_type": "abstention", "question_status": "frozen",
+      "question": "What absolute nitrogen trifluoride (NF3) emissions did Samsung Electronics report for 2023, in thousand tonnes of CO2 equivalent?",
+      "target_pages": [62], "reference_file": "data/annotations/p1_synthetic/P1-05-2.json"
+    },
+    {
+      "task_id": "P1-06-1", "candidate_id": "P1-CAND-016", "document_id": "ANZ-ESG-2024", "task_type": "scope_subject_boundary", "question_status": "frozen",
+      "question": "How does ANZ define the population used for its Women in Leadership measure, including which role groups and worker types are included or excluded?",
+      "target_pages": [65, 74], "reference_file": "data/annotations/p1_synthetic/P1-06-1.json"
+    },
+    {
+      "task_id": "P1-06-2", "candidate_id": "P1-CAND-016", "document_id": "ANZ-ESG-2024", "task_type": "direct_extraction", "question_status": "frozen",
+      "question": "What was ANZ's Women in Leadership result for 2024, by how many percentage points did it exceed its target, and what was the annual change?",
+      "target_pages": [65], "reference_file": "data/annotations/p1_synthetic/P1-06-2.json"
+    },
+    {
+      "task_id": "P1-07-1", "candidate_id": "P1-CAND-017", "document_id": "SBKK-SR-2024", "task_type": "scope_subject_boundary", "question_status": "frozen",
+      "question": "What organizational and emissions boundaries did SoftBank apply to its fiscal 2023 Scope 1 and 2 figures, and what share of consolidated sales did the reported coverage represent?",
+      "target_pages": [79], "reference_file": "data/annotations/p1_synthetic/P1-07-1.json"
+    },
+    {
+      "task_id": "P1-07-2", "candidate_id": "P1-CAND-017", "document_id": "SBKK-SR-2024", "task_type": "cross_page_relation", "question_status": "frozen",
+      "question": "Relate SoftBank's stated Scope 1 and 2 carbon-neutrality target year to its fiscal 2023 combined Scope 1 and 2 emissions result and target value.",
+      "target_pages": [17, 79], "reference_file": "data/annotations/p1_synthetic/P1-07-2.json"
+    },
+    {
+      "task_id": "P1-08-1", "candidate_id": "P1-CAND-018", "document_id": "BN-IR-2024", "task_type": "deterministic_calculation", "question_status": "frozen",
+      "question": "Danone reported a 25% reduction in fresh-milk methane emissions versus 2020 against a 30% reduction target for 2030. Calculate both the remaining percentage-point gap and the proportion of the target already achieved.",
+      "target_pages": [9], "reference_file": "data/annotations/p1_synthetic/P1-08-1.json"
+    },
+    {
+      "task_id": "P1-08-2", "candidate_id": "P1-CAND-018", "document_id": "BN-IR-2024", "task_type": "controlled_conflict", "question_status": "frozen",
+      "question": "A controlled analyst note states that Danone reduced market-based Scope 1 and 2 energy and industrial emissions by 31.5% from 2020 to 2024. Compare this with Danone's report and identify the source-specific conflict.",
+      "target_pages": [9], "controlled_intervention_id": "P1-CI-002", "reference_file": "data/annotations/p1_synthetic/P1-08-2.json"
+    },
+    {
+      "task_id":"P1-09-1","candidate_id":"P1-CAND-019","document_id":"DD-SR-2025","task_type":"cross_page_relation","question_status":"frozen",
+      "question":"Relate DuPont's 2030 renewable-power sourcing target to its 2024 result, stating the target, result, and whether the target had already been exceeded.","target_pages":[21,93],"reference_file":"data/annotations/p1_synthetic/P1-09-1.json"
+    },
+    {
+      "task_id":"P1-09-2","candidate_id":"P1-CAND-019","document_id":"DD-SR-2025","task_type":"abstention","question_status":"frozen",
+      "question":"How much of DuPont's 2024 water withdrawal came individually from surface water, groundwater, seawater, produced water, and third-party water?","target_pages":[97],"reference_file":"data/annotations/p1_synthetic/P1-09-2.json"
+    },
+    {
+      "task_id":"P1-10-1","candidate_id":"P1-CAND-020","document_id":"ABX-SR-2024","task_type":"deterministic_calculation","question_status":"frozen",
+      "question":"Using Barrick's reported market-based Scope 1 and Scope 2 emissions, calculate the percentage change in their combined total from 2019 to 2024, rounded to two decimals.","target_pages":[71],"reference_file":"data/annotations/p1_synthetic/P1-10-1.json"
+    },
+    {
+      "task_id":"P1-10-2","candidate_id":"P1-CAND-020","document_id":"ABX-SR-2024","task_type":"scope_subject_boundary","question_status":"frozen",
+      "question":"What organizational boundary and coverage did Barrick apply to its emissions accounting, and which site types were excluded for what stated reason?","target_pages":[91],"reference_file":"data/annotations/p1_synthetic/P1-10-2.json"
+    },
+    {
+      "task_id":"P1-11-1","candidate_id":"P1-CAND-021","document_id":"ENEL-IR-2024","task_type":"direct_extraction","question_status":"frozen",
+      "question":"How much consolidated new renewable capacity did Enel install in 2024, and how much of that capacity was battery energy storage systems (BESS)?","target_pages":[129],"reference_file":"data/annotations/p1_synthetic/P1-11-1.json"
+    },
+    {
+      "task_id":"P1-11-2","candidate_id":"P1-CAND-021","document_id":"ENEL-IR-2024","task_type":"controlled_conflict","question_status":"frozen",
+      "question":"A controlled analyst note states that Enel installed 4.4 GW of consolidated new renewable capacity in 2024, including 1.3 GW of BESS. Compare it with the official report and identify the source-specific conflict.","target_pages":[129],"controlled_intervention_id":"P1-CI-003","reference_file":"data/annotations/p1_synthetic/P1-11-2.json"
+    },
+    {
+      "task_id":"P1-12-1","candidate_id":"P1-CAND-022","document_id":"VOLV-B-AR-2024","task_type":"direct_extraction","question_status":"frozen",
+      "question":"How many trucks with zero or very low tailpipe emissions did Volvo Group deliver in 2024, and what percentage of truck volumes did they represent?","target_pages":[160],"reference_file":"data/annotations/p1_synthetic/P1-12-1.json"
+    },
+    {
+      "task_id":"P1-12-2","candidate_id":"P1-CAND-022","document_id":"VOLV-B-AR-2024","task_type":"cross_page_relation","question_status":"frozen",
+      "question":"For Volvo Group, relate the approximate lifecycle-footprint share attributed to Scope 3.11 use of sold products to the reported 2024 Scope 3.11 emissions and their change from 2023, rounded to two decimals.","target_pages":[158,217],"reference_file":"data/annotations/p1_synthetic/P1-12-2.json"
+    }
+  ],
+  "designed_task_count": 24,
+  "verified_reference_count": 24,
+  "target_task_count": 24,
+  "inference_allowed": false
+}

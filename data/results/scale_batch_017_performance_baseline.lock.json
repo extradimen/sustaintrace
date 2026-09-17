@@ -1,0 +1,76 @@
+{
+  "batch_id": "KB-SCALE-BATCH-017-PERFORMANCE",
+  "comparison_parent": "data/results/scale_batch_016_performance_baseline.lock.json",
+  "completed_at": "2026-09-13T10:43:58.113210+00:00",
+  "mineru": {
+    "checkpoint_reuse_pages": 17,
+    "final_complete_pages": 26,
+    "initial_attempt_wall_seconds": 387.350127,
+    "initial_failures": 9,
+    "post_completion_shutdown_failures": 9,
+    "resume01_failures": 0,
+    "resume01_wall_seconds": 169.072888,
+    "status": "complete",
+    "successful_processing_wall_seconds": 431.49513,
+    "successful_target_pages": 26,
+    "successful_target_pages_per_hour": 216.920177,
+    "target_page_wall_seconds": {
+      "KB-B017-HUSQVARNA-AR2025:p0038": 14.958171,
+      "KB-B017-HUSQVARNA-AR2025:p0050": 14.408882,
+      "KB-B017-HUSQVARNA-AR2025:p0052": 15.945855,
+      "KB-B017-HUSQVARNA-AR2025:p0054": 27.434702,
+      "KB-B017-HUSQVARNA-AR2025:p0060": 16.5729,
+      "KB-B017-HUSQVARNA-AR2025:p0067": 14.9632,
+      "KB-B017-HUSQVARNA-AR2025:p0124": 14.835023,
+      "KB-B017-HUSQVARNA-AR2025:p0125": 18.007473,
+      "KB-B017-ROCKWOOL-AR2025:p0012": 18.47256,
+      "KB-B017-ROCKWOOL-AR2025:p0068": 15.968973,
+      "KB-B017-ROCKWOOL-AR2025:p0076": 15.697577,
+      "KB-B017-ROCKWOOL-AR2025:p0080": 21.429394,
+      "KB-B017-ROCKWOOL-AR2025:p0085": 14.514907,
+      "KB-B017-ROCKWOOL-AR2025:p0089": 19.472191,
+      "KB-B017-ROCKWOOL-AR2025:p0091": 15.585927,
+      "KB-B017-ROCKWOOL-AR2025:p0166": 17.623301,
+      "KB-B017-ROCKWOOL-AR2025:p0168": 14.838395,
+      "KB-B017-SWECO-AR2025:p0070": 14.426208,
+      "KB-B017-SWECO-AR2025:p0073": 15.744713,
+      "KB-B017-SWECO-AR2025:p0074": 13.928476,
+      "KB-B017-SWECO-AR2025:p0077": 17.105958,
+      "KB-B017-SWECO-AR2025:p0078": 14.936954,
+      "KB-B017-SWECO-AR2025:p0080": 15.133542,
+      "KB-B017-SWECO-AR2025:p0091": 18.32668,
+      "KB-B017-SWECO-AR2025:p0095": 15.552651,
+      "KB-B017-SWECO-AR2025:p0176": 15.610517
+    },
+    "total_attempt_wall_seconds": 556.423015
+  },
+  "mineru_comparison": {
+    "batch_016_pages_per_hour": 196.53724,
+    "batch_017_pages_per_hour": 216.920177,
+    "interpretation_gate": "throughput_only_quality_measured_separately",
+    "relative_change_percent": 10.371
+  },
+  "policy": {
+    "cloud_transmission": false,
+    "locked_experiments_modified": false,
+    "performance_separate_from_knowledge_quality": true
+  },
+  "provisional_comparison": {
+    "batch_016_pages_per_second": 401.132501,
+    "batch_017_pages_per_second": 301.059112,
+    "interpretation_gate": "diagnostic_only_not_semantic_quality_or_mineru_speed",
+    "relative_change_percent": -24.948
+  },
+  "schema_version": "0.1",
+  "started_at": "2026-09-13T10:43:56.445173+00:00",
+  "status": "diagnostic_and_mineru_baseline_complete",
+  "whole_report_diagnostic": {
+    "documents": 3,
+    "extractable_pages": 499,
+    "pages_per_second": 301.059112,
+    "pdf_pages": 502,
+    "peak_rss_bytes": 40763392,
+    "peak_rss_mb": 38.875,
+    "wall_seconds": 1.667447
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "framework_version": "P1-PIPELINE-v0.6.6-MULTIPAGE-MINERU",
+  "status": "preregistered_before_inference",
+  "registered_at": "2026-09-04T09:30:00+08:00",
+  "parent_framework": "P1-PIPELINE-v0.6.5-MINIMAL-CALCULATION-CONTRACT",
+  "purpose": "Resolve and combine every locked MinerU target-page artifact for a task so cross-page tasks use the same evidence contract as single-page tasks.",
+  "allowed_changes": [
+    "Resolve target artifacts exclusively from the frozen P1 MinerU target registry.",
+    "Verify registry document id, document hash, task membership, requested page coverage, run-record hash, source hash, and parser success before loading evidence.",
+    "Combine page-local MinerU handles in ascending PDF-page order.",
+    "Record every content-list and run-record hash in the task context manifest."
+  ],
+  "prohibited_changes": [
+    "No task, question, target-page, source-document, intervention, model-digest, or reference-answer changes.",
+    "No reference answer may enter the inference request.",
+    "No post-inference evidence repair, page substitution, semantic repair, or output rewriting.",
+    "No fallback to Poppler line text when a MinerU artifact is absent or invalid."
+  ],
+  "evidence_order": "pdf_page_ascending_then_mineru_block_order",
+  "table_mode": "deterministic_caption_and_row_handles",
+  "calculation_contract": "v0.6.5_minimal_tool_owned",
+  "first_gate": "cross_page_packet_unit_and_integrity_tests",
+  "inference_allowed": false
+}

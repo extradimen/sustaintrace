@@ -1,0 +1,158 @@
+{
+  "document_id": "P22-BAYER-AR2025",
+  "document_sha256": "0af4a9d19fd9d4cba72c1ec062802199873f2379f84112dc2db5dc9605ce769b",
+  "experiment_id": "P22-V31-UNSEEN-LOCKBOX-V01",
+  "failure_count": 0,
+  "recovery_lineage": [
+    "data/manifests/p22_mineru_resume_RESUME01_v0.1.lock.json"
+  ],
+  "schema_version": "1.0",
+  "status": "all_target_pages_successfully_parsed_and_hash_verified",
+  "success_count": 11,
+  "target_count": 11,
+  "targets": [
+    {
+      "document_id": "P22-BAYER-AR2025",
+      "document_sha256": "0af4a9d19fd9d4cba72c1ec062802199873f2379f84112dc2db5dc9605ce769b",
+      "output_directory": "artifacts/p22/mineru_targets_RESUME01/P22-BAYER-AR2025-p0130",
+      "pdf_page": 130,
+      "recovery_generation": "RESUME01",
+      "run_record_sha256": "410cac8d3ba6f87251e9c7cf3da1ca53a5301b5447840af8f86effbd8b683336",
+      "status": "success_verified",
+      "target_id": "P22-BAYER-AR2025-p0130",
+      "task_ids": [
+        "P22-TAXONOMY-001"
+      ]
+    },
+    {
+      "document_id": "P22-BAYER-AR2025",
+      "document_sha256": "0af4a9d19fd9d4cba72c1ec062802199873f2379f84112dc2db5dc9605ce769b",
+      "output_directory": "artifacts/p22/mineru_targets/P22-BAYER-AR2025-p0132",
+      "pdf_page": 132,
+      "recovery_generation": "initial",
+      "run_record_sha256": "8a27041244e0d326e1eea3ced1729ada3dbe3d2309286a445007c09184fe15e6",
+      "status": "success_verified",
+      "target_id": "P22-BAYER-AR2025-p0132",
+      "task_ids": [
+        "P22-TAXONOMY-001"
+      ]
+    },
+    {
+      "document_id": "P22-BAYER-AR2025",
+      "document_sha256": "0af4a9d19fd9d4cba72c1ec062802199873f2379f84112dc2db5dc9605ce769b",
+      "output_directory": "artifacts/p22/mineru_targets/P22-BAYER-AR2025-p0149",
+      "pdf_page": 149,
+      "recovery_generation": "initial",
+      "run_record_sha256": "e60c415e526a4894ac4fe0df0752a49a15695cf1cc50e7c9e77c50651e55e93f",
+      "status": "success_verified",
+      "target_id": "P22-BAYER-AR2025-p0149",
+      "task_ids": [
+        "P22-ENERGY-CALC-001"
+      ]
+    },
+    {
+      "document_id": "P22-BAYER-AR2025",
+      "document_sha256": "0af4a9d19fd9d4cba72c1ec062802199873f2379f84112dc2db5dc9605ce769b",
+      "output_directory": "artifacts/p22/mineru_targets/P22-BAYER-AR2025-p0151",
+      "pdf_page": 151,
+      "recovery_generation": "initial",
+      "run_record_sha256": "42f4bbcd1a185c8af64a227525ad753682b2f86897a5857211bf9d8dbb82ba28",
+      "status": "success_verified",
+      "target_id": "P22-BAYER-AR2025-p0151",
+      "task_ids": [
+        "P22-GHG-CALC-001"
+      ]
+    },
+    {
+      "document_id": "P22-BAYER-AR2025",
+      "document_sha256": "0af4a9d19fd9d4cba72c1ec062802199873f2379f84112dc2db5dc9605ce769b",
+      "output_directory": "artifacts/p22/mineru_targets/P22-BAYER-AR2025-p0171",
+      "pdf_page": 171,
+      "recovery_generation": "initial",
+      "run_record_sha256": "93947c32ac1652977305e30498b2f288a8b9137525edf949936f3ccdd8459871",
+      "status": "success_verified",
+      "target_id": "P22-BAYER-AR2025-p0171",
+      "task_ids": [
+        "P22-WATER-CALC-001"
+      ]
+    },
+    {
+      "document_id": "P22-BAYER-AR2025",
+      "document_sha256": "0af4a9d19fd9d4cba72c1ec062802199873f2379f84112dc2db5dc9605ce769b",
+      "output_directory": "artifacts/p22/mineru_targets/P22-BAYER-AR2025-p0172",
+      "pdf_page": 172,
+      "recovery_generation": "initial",
+      "run_record_sha256": "0ea4c24d9616f81d7a2cc638700417f9aff075d92659a646da04d576912c2c6a",
+      "status": "success_verified",
+      "target_id": "P22-BAYER-AR2025-p0172",
+      "task_ids": [
+        "P22-WATER-CALC-001"
+      ]
+    },
+    {
+      "document_id": "P22-BAYER-AR2025",
+      "document_sha256": "0af4a9d19fd9d4cba72c1ec062802199873f2379f84112dc2db5dc9605ce769b",
+      "output_directory": "artifacts/p22/mineru_targets/P22-BAYER-AR2025-p0203",
+      "pdf_page": 203,
+      "recovery_generation": "initial",
+      "run_record_sha256": "3eb94614f073ec132a4d8835ad40bab4874b931e36e3f6dcc01a9649b7178a47",
+      "status": "success_verified",
+      "target_id": "P22-BAYER-AR2025-p0203",
+      "task_ids": [
+        "P22-SAFETY-CALC-001"
+      ]
+    },
+    {
+      "document_id": "P22-BAYER-AR2025",
+      "document_sha256": "0af4a9d19fd9d4cba72c1ec062802199873f2379f84112dc2db5dc9605ce769b",
+      "output_directory": "artifacts/p22/mineru_targets/P22-BAYER-AR2025-p0204",
+      "pdf_page": 204,
+      "recovery_generation": "initial",
+      "run_record_sha256": "981fc156068eac97b6312f6ee5cf020a57a4edec847aa2879c3dd3d39f9b50e8",
+      "status": "success_verified",
+      "target_id": "P22-BAYER-AR2025-p0204",
+      "task_ids": [
+        "P22-SAFETY-CALC-001"
+      ]
+    },
+    {
+      "document_id": "P22-BAYER-AR2025",
+      "document_sha256": "0af4a9d19fd9d4cba72c1ec062802199873f2379f84112dc2db5dc9605ce769b",
+      "output_directory": "artifacts/p22/mineru_targets_RESUME01/P22-BAYER-AR2025-p0374",
+      "pdf_page": 374,
+      "recovery_generation": "RESUME01",
+      "run_record_sha256": "5cfd6b5707dd5bc1402b6d9abe2cbf7e69d0c496c99c27e00d8e074a8cd9bde4",
+      "status": "success_verified",
+      "target_id": "P22-BAYER-AR2025-p0374",
+      "task_ids": [
+        "P22-ASSURE-001"
+      ]
+    },
+    {
+      "document_id": "P22-BAYER-AR2025",
+      "document_sha256": "0af4a9d19fd9d4cba72c1ec062802199873f2379f84112dc2db5dc9605ce769b",
+      "output_directory": "artifacts/p22/mineru_targets/P22-BAYER-AR2025-p0375",
+      "pdf_page": 375,
+      "recovery_generation": "initial",
+      "run_record_sha256": "5c227f4ef9a7b05127b8aa62fd94bcc1d55d6fdc016ce8d980a1b70af560071a",
+      "status": "success_verified",
+      "target_id": "P22-BAYER-AR2025-p0375",
+      "task_ids": [
+        "P22-ASSURE-001"
+      ]
+    },
+    {
+      "document_id": "P22-BAYER-AR2025",
+      "document_sha256": "0af4a9d19fd9d4cba72c1ec062802199873f2379f84112dc2db5dc9605ce769b",
+      "output_directory": "artifacts/p22/mineru_targets/P22-BAYER-AR2025-p0377",
+      "pdf_page": 377,
+      "recovery_generation": "initial",
+      "run_record_sha256": "a8eaecf85385e87a04452a2c527341980203cac2d65c9aa048dca6cfb865d70b",
+      "status": "success_verified",
+      "target_id": "P22-BAYER-AR2025-p0377",
+      "task_ids": [
+        "P22-ASSURE-001"
+      ]
+    }
+  ]
+}

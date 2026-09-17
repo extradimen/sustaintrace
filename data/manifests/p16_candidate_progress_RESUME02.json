@@ -1,0 +1,71 @@
+{
+  "experiment_id": "P16-V25-UNSEEN-LOCKBOX-V01",
+  "parent_progress": "data/manifests/p16_candidate_progress_RESUME01.json",
+  "records": [
+    {
+      "retried": false,
+      "stage_a": "reused_from_RESUME01",
+      "stage_b": "failed",
+      "stage_b_error": "OllamaError:v1.3 Stage B model behavior failed; archived at /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P16-V25-UNSEEN-LOCKBOX-V01/runs/P16-POLLUTION-001-QWEN397B-v25-RESUME02-stage-b: ValueError:v13_slot_schema_failure:[{'slot_id': 'voc_air_tons', 'value': 616, 'verbatim_value': '616 (a)', 'evidence_handle': 'M043-T0010-R0002-C0001'}, {'slot_id': 'dichloromethane_air_tons', 'value': 21, 'verbatim_value': '21', 'evidence_handle': 'M043-T0010-R0003-C0001'}, {'slot_id': 'voc_smp_threshold_tons_per_year', 'value': 1, 'verbatim_value': 'one', 'evidence_handle': 'M044-B0008'}, {'slot_id': 'svhc_generated_used_procured_kg', 'value': 1611558, 'verbatim_value': '1,611,558', 'evidence_handle': 'M045-T0008-R0001-C0001'}, {'slot_id': 'svhc_total_leaving_facilities_kg', 'value': 908, 'verbatim_value': '908', 'evidence_handle': 'M045-T0008-R0003-C0001'}, {'slot_id': 'svhc_leaving_as_emissions_kg', 'value': 908, 'verbatim_value': '908', 'evidence_handle': 'M045-T0008-R0003-C0001'}, {'slot_id': 'svhc_substance_count', 'value': 54, 'verbatim_value': '54', 'evidence_handle': 'M045-B0009'}, {'slot_id': 'svhc_boundary', 'value': 'manufacturing operations and related activities', 'verbatim_value': 'manufacturing operations and related activities', 'evidence_handle': 'M045-B0009'}, {'slot_id': 'water_dichloromethane_site_count', 'value': 2, 'verbatim_value': 'two', 'evidence_handle': 'M045-B0003'}, {'slot_id': 'water_dichloromethane_method', 'value': 'E-PRTR reporting threshold was exceeded. Dichloromethane releases are calculated from wastewater analysis performed on samples collected at the discharge point of our sites. Our dichloromethane figures are consolidated annually.', 'verbatim_value': 'E-PRTR reporting threshold was exceeded. Dichloromethane releases are calculated from wastewater analysis performed on samples collected at the discharge point of our sites. Our dichloromethane figures are consolidated annually.', 'evidence_handle': 'M045-B0003'}] is too short",
+      "stage_b_failure_taxonomy": {
+        "category": "model_behavior",
+        "error_type": "OllamaError",
+        "model_call_started": true,
+        "owner": "candidate_model",
+        "retry_policy": "no_retry_in_locked_experiment",
+        "score_as_model_failure": true,
+        "stage": "stage_b"
+      },
+      "task_id": "P16-POLLUTION-001"
+    },
+    {
+      "retried": false,
+      "stage_a": "reused_from_RESUME01",
+      "stage_b": "failed",
+      "stage_b_error": "OllamaError:v1.3 Stage B model behavior failed; archived at /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P16-V25-UNSEEN-LOCKBOX-V01/runs/P16-SAFETY-001-QWEN397B-v25-RESUME02-stage-b: ValueError:v13_slot_schema_failure:{'slot_id': 'boundary_and_estimate', 'value': 'November hours were rolled over to December', 'verbatim_value': 'hours worked from November were rolled over to December', 'evidence_handle': 'M068-B0010'} is not valid under any of the given schemas",
+      "stage_b_failure_taxonomy": {
+        "category": "model_behavior",
+        "error_type": "OllamaError",
+        "model_call_started": true,
+        "owner": "candidate_model",
+        "retry_policy": "no_retry_in_locked_experiment",
+        "score_as_model_failure": true,
+        "stage": "stage_b"
+      },
+      "task_id": "P16-SAFETY-001"
+    },
+    {
+      "retried": false,
+      "stage_a": "reused_from_RESUME01",
+      "stage_b": "passed",
+      "stage_b_result": {
+        "archive_directory": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P16-V25-UNSEEN-LOCKBOX-V01/runs/P16-ACCESS-001-QWEN397B-v25-RESUME02-stage-b",
+        "elapsed_seconds": 61.593278750020545,
+        "run_id": "P16-ACCESS-001-QWEN397B-v25-RESUME02-stage-b",
+        "task_id": "P16-ACCESS-001",
+        "validated_claim_count": 7
+      },
+      "task_id": "P16-ACCESS-001"
+    },
+    {
+      "retried": false,
+      "stage_a": "reused_from_RESUME01",
+      "stage_b": "failed",
+      "stage_b_error": "OllamaError:v1.3 Stage B model behavior failed; archived at /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P16-V25-UNSEEN-LOCKBOX-V01/runs/P16-ASSURE-001-QWEN397B-v25-RESUME02-stage-b: ValueError:v13_slot_schema_failure:{'slot_id': 'relative_and_scope_limitation', 'value': 'This engagement does not provide a guarantee regarding the viability or the quality of the management of Sanofi, in particular it does not provide an assessment, of the relevance of the choices made by Sanofi in terms of action plans, targets, policies, scenario analyses and transition plans, which would go beyond compliance with the ESRS reporting requirements.', 'verbatim_value': 'This engagement does not provide a guarantee regarding the viability or the quality of the management of Sanofi, in particular it does not provide an assessment, of the relevance of the choices made by Sanofi in terms of action plans, targets, policies, scenario analyses and transition plans, which would go beyond compliance with the ESRS reporting requirements.', 'evidence_handle': 'M129-B0021'} is not valid under any of the given schemas",
+      "stage_b_failure_taxonomy": {
+        "category": "model_behavior",
+        "error_type": "OllamaError",
+        "model_call_started": true,
+        "owner": "candidate_model",
+        "retry_policy": "no_retry_in_locked_experiment",
+        "score_as_model_failure": true,
+        "stage": "stage_b"
+      },
+      "task_id": "P16-ASSURE-001"
+    }
+  ],
+  "resume_id": "RESUME02",
+  "schema_version": "2.5",
+  "single_attempt_per_stage": true,
+  "updated_at": "2026-09-09T17:55:54.406267+00:00"
+}

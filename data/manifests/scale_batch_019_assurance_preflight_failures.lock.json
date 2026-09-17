@@ -1,0 +1,16 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-019",
+  "status": "source_rejected_before_target_freeze",
+  "document_id": "KB-B019-COVESTRO-AR2025",
+  "document_sha256": "2261d315e45aa60057333818c30e6c5cbad38b98bb903d2c48e10fee6f7136cc",
+  "pdf_page": 341,
+  "failure_signature": "assurance_reporting_period_inconsistent_with_report_year",
+  "source_literal": "for the financial year from January 1, 2025 to December 31, 2026",
+  "expected_report_period": "January 1, 2025 to December 31, 2025",
+  "parser_error_ruled_out": true,
+  "visual_render_checked": true,
+  "decision": "Do not freeze Covestro target pages and do not use this assurance window for Tier B promotion. Preserve the official PDF and failure evidence; substitute a new issuer before final source-set freeze.",
+  "replacement_config": "configs/knowledge/scale_batch_019_RESUME01_v0.2.json",
+  "locked_prior_results_modified": false
+}

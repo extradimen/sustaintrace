@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "experiment_id": "V16-P6-EXPOSED-FAILURE-DEV-V01",
+  "status": "completed",
+  "created_at": "2026-09-05T12:07:33.480402+00:00",
+  "not_a_lockbox_result": true,
+  "model_requests_sent": 0,
+  "candidate_outputs_reused_without_modification": true,
+  "p3_p4_p5_p6_archives_modified": false,
+  "results": {
+    "P6-CALC-001-DEV": {
+      "operation": "reported_vs_recalculated_percentage_comparison",
+      "recalculated_observation": {
+        "value": -10.416666666666664,
+        "provenance": "deterministic_framework_from_displayed_inputs"
+      },
+      "issuer_reported_observation": {
+        "value": -12.0,
+        "evidence_handle": "M235-T0009-R0002",
+        "provenance": "issuer_reported_literal"
+      },
+      "signed_percentage_point_delta": 1.5833333333333357,
+      "absolute_percentage_point_delta": 1.5833333333333357,
+      "comparison_state": "displayed_inputs_do_not_reproduce_reported_percentage",
+      "values_forced_to_agree": false,
+      "framework_owned_operation": true
+    },
+    "P6-CONFLICT-001-DEV": {
+      "conflict_state": "scope_resolves_apparent_conflict",
+      "values_differ": true,
+      "scopes_differ": true,
+      "causal_explanation_state": "causal_explanation_unsupported",
+      "causal_supporting_handles": [],
+      "scope_resolution_does_not_imply_causality": true,
+      "framework_owned_classification": true
+    }
+  },
+  "source_artifacts": {
+    "research_archive/P6-V15-UNSEEN-LOCKBOX-V01/runs/P6-CALC-001-QWEN397B-v15-stage-a-r1/normalized_output.json": "ba4e97a358a5e255c93b7c98fbd31a0d95593cdf8a3eb4289b39a7ddfcdba3bb",
+    "research_archive/P6-V15-UNSEEN-LOCKBOX-V01/runs/P6-CONFLICT-001-QWEN397B-v15-stage-a-r1/normalized_output.json": "90d83e53cc192a7d2faf3597cae008c9fbc257c472ec6e31ba9a521befaf91e3",
+    "research_archive/P6-V15-UNSEEN-LOCKBOX-V01/runs/P6-CONFLICT-001-QWEN397B-v15-stage-b-r1/normalized_output.json": "d6558955c7cee83000c029533e8d04023328b225c1c0cd9d769cecd520541896"
+  },
+  "interpretation": "Both exposed P6 limitations are now represented deterministically; unseen generalization remains untested."
+}

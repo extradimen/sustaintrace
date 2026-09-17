@@ -1,0 +1,117 @@
+{
+  "candidate_model_called": false,
+  "development_set": "P15 exposed failures only",
+  "ghg_calculation_regression": {
+    "binding_audit": {
+      "adapter_applied": true,
+      "candidate_comparison_value_modified": false,
+      "candidate_operation_fields_ignored": [
+        "operation",
+        "difference",
+        "explanation"
+      ],
+      "candidate_semantics_modified": false,
+      "deterministic_unit_alias_adaptations": [
+        {
+          "role_id": "scope_1",
+          "source_unit": "1 000 tCO2e"
+        },
+        {
+          "role_id": "market_scope_2",
+          "source_unit": "1 000 tCO2e"
+        },
+        {
+          "role_id": "scope_3",
+          "source_unit": "1 000 tCO2e"
+        },
+        {
+          "role_id": "reported_total",
+          "source_unit": "1 000 tCO2e"
+        }
+      ],
+      "framework_operation_remains_frozen": true,
+      "source_shape": "legacy_calculation_request",
+      "v25_scalar_comparison_with_separate_handle_adapted": true
+    },
+    "legacy_binary_float_total": 4377.099999999999,
+    "numeric_method": "decimal fixed-point from model-bound source literals",
+    "passed": true,
+    "v25_values": {
+      "calculated_total": 4377.1,
+      "difference": 0.0,
+      "market_scope_2": 14.9,
+      "reported_total": 4377.1,
+      "scope_1": 192.3,
+      "scope_3": 4169.9
+    }
+  },
+  "inputs": {
+    "calculation_plans": "configs/framework/p15_calculation_plans_v0.1.lock.json",
+    "calculation_plans_sha256": "856ec6d26ed2187ebf888eccccc5da3ea3cde0062d98299aecfad0fadfadfa89",
+    "slot_contracts": "configs/framework/p15_slot_contracts_v0.1.lock.json",
+    "slot_contracts_sha256": "7dd6b3a947f2d022bf6f65c017ea362aa0128c9bd3636b798b4550d2e8ced5e8"
+  },
+  "p15_modified_rerun_or_rescored": false,
+  "schema_version": "2.5",
+  "stage_b_regressions": {
+    "P15-ASSURE-001": {
+      "contract_selection": {
+        "candidate_semantics_modified": false,
+        "required_terms_modified": false,
+        "single_block_ordered_span_slots": [
+          {
+            "eligible_handles": [
+              "M044-B0008"
+            ],
+            "reason": "all required terms occur in one evidence block",
+            "slot_id": "standards"
+          },
+          {
+            "eligible_handles": [
+              "M043-B0004",
+              "M043-B0008"
+            ],
+            "reason": "all required terms occur in one evidence block",
+            "slot_id": "earlier_and_other_information_exclusion"
+          }
+        ]
+      },
+      "status": "passed",
+      "validated_claim_count": 9
+    },
+    "P15-SAFETY-001": {
+      "contract_selection": {
+        "candidate_semantics_modified": false,
+        "required_terms_modified": false,
+        "single_block_ordered_span_slots": []
+      },
+      "status": "passed",
+      "validated_claim_count": 10
+    },
+    "P15-WATER-QUALITY-001": {
+      "contract_selection": {
+        "candidate_semantics_modified": false,
+        "required_terms_modified": false,
+        "single_block_ordered_span_slots": [
+          {
+            "eligible_handles": [
+              "M030-B0008"
+            ],
+            "reason": "all required terms occur in one evidence block",
+            "slot_id": "supplier_classes"
+          },
+          {
+            "eligible_handles": [
+              "M030-B0008"
+            ],
+            "reason": "all required terms occur in one evidence block",
+            "slot_id": "supplier_list_qualification"
+          }
+        ]
+      },
+      "status": "passed",
+      "validated_claim_count": 10
+    }
+  },
+  "status": "passed"
+}

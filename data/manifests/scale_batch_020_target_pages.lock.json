@@ -1,0 +1,402 @@
+{
+  "schema_version": "0.1",
+  "registry_id": "KB-SCALE-BATCH-020-TARGET-PAGES-v0.1",
+  "batch_id": "KB-SCALE-BATCH-020",
+  "created_at": "2026-09-13T16:23:17.183953+00:00",
+  "status": "target_pages_locked_after_assurance_preflight_before_mineru",
+  "cloud_transmission": false,
+  "assurance_window_preflight": [
+    {
+      "document_id": "KB-B020-SOLVAY-AIR2025",
+      "pages": [
+        322,
+        323,
+        324,
+        325
+      ],
+      "required_literal_checks": {
+        "issuer_identity": true,
+        "reporting_period": true,
+        "opinion_or_conclusion": true,
+        "signatory_identity": true
+      },
+      "window_text_sha256": "a2c682cf42480abfde3bbedf6dad469c51e5860723b223ad8b61a0cc2ed41e16",
+      "visual_review": {
+        "pages": [
+          322,
+          325
+        ],
+        "status": "passed_against_rendered_source_before_target_freeze",
+        "checked_fields": [
+          "issuer_identity",
+          "opinion_or_conclusion",
+          "reporting_period",
+          "signatory_identity"
+        ]
+      },
+      "status": "passed_before_target_freeze"
+    },
+    {
+      "document_id": "KB-B020-KERING-URD2025",
+      "pages": [
+        303,
+        304,
+        305,
+        306
+      ],
+      "required_literal_checks": {
+        "issuer_identity": true,
+        "reporting_period": true,
+        "opinion_or_conclusion": true,
+        "signatory_identity": true
+      },
+      "window_text_sha256": "1e6a9ba41d6dcc19353a66986824d44184d104e89f3ee435742ac226664199c4",
+      "visual_review": {
+        "pages": [
+          303,
+          306
+        ],
+        "status": "passed_against_rendered_source_before_target_freeze",
+        "checked_fields": [
+          "issuer_identity",
+          "opinion_or_conclusion",
+          "reporting_period",
+          "signatory_identity"
+        ]
+      },
+      "status": "passed_before_target_freeze"
+    },
+    {
+      "document_id": "KB-B020-CARREFOUR-URD2025",
+      "pages": [
+        238,
+        239,
+        240,
+        241
+      ],
+      "required_literal_checks": {
+        "issuer_identity": true,
+        "reporting_period": true,
+        "opinion_or_conclusion": true,
+        "signatory_identity": true
+      },
+      "window_text_sha256": "0c3cc5cd62824b7cb733d90e1007f71922da7a6343309f591ecd65b05f95e936",
+      "visual_review": {
+        "pages": [
+          238,
+          241
+        ],
+        "status": "passed_against_rendered_source_before_target_freeze",
+        "checked_fields": [
+          "issuer_identity",
+          "opinion_or_conclusion",
+          "reporting_period",
+          "signatory_identity"
+        ]
+      },
+      "status": "passed_before_target_freeze"
+    }
+  ],
+  "documents": [
+    {
+      "document_id": "KB-B020-SOLVAY-AIR2025",
+      "source_group_id": "KB-SOLVAY-2025",
+      "local_path": "data/raw/scale_batch_020/solvay-annual-integrated-report-2025.pdf",
+      "document_sha256": "6e69c2a5af1653efc7786101d4f752d40cb07aab1f3a32f0a5e332e3d8370e15",
+      "selection_rule": "audited_theme_page_selection_v0.4_with_contiguous_assurance_window_preflight_and_visual_review",
+      "target_pages": [
+        {
+          "page": 143,
+          "themes": [
+            "energy",
+            "targets"
+          ],
+          "native_text_sha256": "da3134c70a9228c128e90b6afd6cbef080b2cba4af5c4496f0257408cc50b525",
+          "native_text_characters": 6816
+        },
+        {
+          "page": 145,
+          "themes": [
+            "ghg_emissions",
+            "targets"
+          ],
+          "native_text_sha256": "26ac9131587194c239aeb4681ce45452d2db14737bde1e12d222953b617444ff",
+          "native_text_characters": 7738
+        },
+        {
+          "page": 166,
+          "themes": [
+            "water"
+          ],
+          "native_text_sha256": "0777ea1a1fb69a8f2e0459590befbfa862ddc1d5cf147df4df91ef0316525f51",
+          "native_text_characters": 4291
+        },
+        {
+          "page": 167,
+          "themes": [
+            "biodiversity"
+          ],
+          "native_text_sha256": "41a2e3d66631fd2beefe7a848e57229d9ffeb83b301a67019d60a41468357be2",
+          "native_text_characters": 4721
+        },
+        {
+          "page": 170,
+          "themes": [
+            "circularity"
+          ],
+          "native_text_sha256": "965259e76cb404e3bb583c1382015c775c1fbc10fbe5d6c5295e0a4d7f9bfd77",
+          "native_text_characters": 6518
+        },
+        {
+          "page": 177,
+          "themes": [
+            "workforce"
+          ],
+          "native_text_sha256": "b3ba667b5a868a1c4e40e9a2ba81d3372d9247ac5bb5f6ffd1f864c334ef034b",
+          "native_text_characters": 5364
+        },
+        {
+          "page": 180,
+          "themes": [
+            "health_safety"
+          ],
+          "native_text_sha256": "9900cb7bdc0360540bad12a2bf94286220bc20b7cd9fe7b186be7774318b2ad3",
+          "native_text_characters": 7714
+        },
+        {
+          "page": 322,
+          "themes": [
+            "assurance"
+          ],
+          "native_text_sha256": "ebfafd75a2092779c15e28a468e59d6a8296a9ffda7391d954f3a516746d85f6",
+          "native_text_characters": 6565
+        },
+        {
+          "page": 323,
+          "themes": [
+            "assurance"
+          ],
+          "native_text_sha256": "b250a53ed8b5a5db3a922b77ed4061269e37202f380cad22fb2d936bbd55bbb3",
+          "native_text_characters": 5585
+        },
+        {
+          "page": 324,
+          "themes": [
+            "assurance"
+          ],
+          "native_text_sha256": "c3d29177a175b93c629d3adccc0dad4037d20bfda2417579454a2f46c9ebe0aa",
+          "native_text_characters": 5645
+        },
+        {
+          "page": 325,
+          "themes": [
+            "assurance"
+          ],
+          "native_text_sha256": "cb8107083f499c2870fdbf485f57568591d78dfb14d2904e9ed47fd094a7933c",
+          "native_text_characters": 6132
+        }
+      ]
+    },
+    {
+      "document_id": "KB-B020-KERING-URD2025",
+      "source_group_id": "KB-KERING-2025",
+      "local_path": "data/raw/scale_batch_020/kering-universal-registration-document-2025.pdf",
+      "document_sha256": "5a3e9d1669714950c2b73db8d3d0d42fea290688fc376ade902c7188e2d9293f",
+      "selection_rule": "audited_theme_page_selection_v0.4_with_contiguous_assurance_window_preflight_and_visual_review",
+      "target_pages": [
+        {
+          "page": 201,
+          "themes": [
+            "energy"
+          ],
+          "native_text_sha256": "33ceceb9cf142d6675f6f20d4d5d50e7c42c320156a9efd77eea560c039d1cd1",
+          "native_text_characters": 7532
+        },
+        {
+          "page": 207,
+          "themes": [
+            "ghg_emissions",
+            "targets"
+          ],
+          "native_text_sha256": "63c296aa8c8d6700cbe178cd0d6404a1ec66a9ef433794f71b0affb4364160fa",
+          "native_text_characters": 6308
+        },
+        {
+          "page": 219,
+          "themes": [
+            "water"
+          ],
+          "native_text_sha256": "e4670f04f28735d9190efb8fd89fe29b7cc65dfb55bd81943dabd39df6c73b55",
+          "native_text_characters": 8178
+        },
+        {
+          "page": 223,
+          "themes": [
+            "biodiversity"
+          ],
+          "native_text_sha256": "530c9a6b2cbe2611b93114ca9e04c1be88b926f094e8fce29effb486f3345635",
+          "native_text_characters": 7904
+        },
+        {
+          "page": 234,
+          "themes": [
+            "circularity"
+          ],
+          "native_text_sha256": "b891c038e45b8a1191d44224f18c7104965690de4ab90293ace101a7bf8d1d1c",
+          "native_text_characters": 7628
+        },
+        {
+          "page": 263,
+          "themes": [
+            "workforce"
+          ],
+          "native_text_sha256": "04a2c158102aa53c5fd7ad76c5b62c182d5dc5bdf8c832867ceb54a6375b0779",
+          "native_text_characters": 6583
+        },
+        {
+          "page": 265,
+          "themes": [
+            "health_safety"
+          ],
+          "native_text_sha256": "4fa41b1f6d506dbd44777b1b86b143efa981f9a7aa0e229a52f0f42ce333d3d5",
+          "native_text_characters": 7212
+        },
+        {
+          "page": 303,
+          "themes": [
+            "assurance"
+          ],
+          "native_text_sha256": "f22729122013b5e44301bc88ed98c467cc70e7b32d18fef42f84e1e9b925ed86",
+          "native_text_characters": 5644
+        },
+        {
+          "page": 304,
+          "themes": [
+            "assurance"
+          ],
+          "native_text_sha256": "264d506be8fb104568dc7911760b4ede6706b6c74b9ca29557bbf0aa34a111b5",
+          "native_text_characters": 4662
+        },
+        {
+          "page": 305,
+          "themes": [
+            "assurance"
+          ],
+          "native_text_sha256": "d67bba4041cb1df8af1785a165e25fefba1d2469a81536f9a13a05d682d38cbf",
+          "native_text_characters": 5726
+        },
+        {
+          "page": 306,
+          "themes": [
+            "assurance"
+          ],
+          "native_text_sha256": "54b39c9264182215e3198f0a6a0deb210339223cc352a02522b424fd5fece169",
+          "native_text_characters": 3181
+        }
+      ]
+    },
+    {
+      "document_id": "KB-B020-CARREFOUR-URD2025",
+      "source_group_id": "KB-CARREFOUR-2025",
+      "local_path": "data/raw/scale_batch_020/carrefour-universal-registration-document-2025.pdf",
+      "document_sha256": "1fdfba97d1ce09f311363c7f909a7781cea3d6841324a14e1dd0b57f92beede1",
+      "selection_rule": "audited_theme_page_selection_v0.4_with_contiguous_assurance_window_preflight_and_visual_review",
+      "target_pages": [
+        {
+          "page": 98,
+          "themes": [
+            "ghg_emissions",
+            "targets"
+          ],
+          "native_text_sha256": "829022049060c0e071214581b6fd13e6b03821511a3770d91566e197638ca433",
+          "native_text_characters": 5007
+        },
+        {
+          "page": 102,
+          "themes": [
+            "energy"
+          ],
+          "native_text_sha256": "11b428ace903ae9201be1972dc9da30370e0428819d6855fcfc2a5510661083d",
+          "native_text_characters": 4276
+        },
+        {
+          "page": 122,
+          "themes": [
+            "water"
+          ],
+          "native_text_sha256": "169dab50aee4346bb6a293a35c77d371c5b69bf20a3dd36841ef40aac05d5bb7",
+          "native_text_characters": 6585
+        },
+        {
+          "page": 126,
+          "themes": [
+            "biodiversity"
+          ],
+          "native_text_sha256": "b87304a02d07d23bbf83d7e3edb38fabaf76c2a8d048805a7576b4d198b5969e",
+          "native_text_characters": 5782
+        },
+        {
+          "page": 143,
+          "themes": [
+            "circularity"
+          ],
+          "native_text_sha256": "e734f3487424b154bc6715d1f5ddf3be8c79c3a5393268e58dc5b1a9cbae61a4",
+          "native_text_characters": 9644
+        },
+        {
+          "page": 165,
+          "themes": [
+            "workforce"
+          ],
+          "native_text_sha256": "55d6bb2a148fe5bb465a1ad678f00e8d4edac191368f909f9f3ad95590362f08",
+          "native_text_characters": 6090
+        },
+        {
+          "page": 183,
+          "themes": [
+            "health_safety"
+          ],
+          "native_text_sha256": "7ea13db547d8cee3ea6edf7980a9e0a4ee0b033f29dfa5f403b2c689a82ccc6d",
+          "native_text_characters": 8094
+        },
+        {
+          "page": 238,
+          "themes": [
+            "assurance"
+          ],
+          "native_text_sha256": "d33981e094a1f5b98c3a04b4c03033d79ea82fe97da0081bdf3e9215583725c3",
+          "native_text_characters": 7015
+        },
+        {
+          "page": 239,
+          "themes": [
+            "assurance"
+          ],
+          "native_text_sha256": "8f66f4e356b4f7d66b104db806344f58ef936627130823b5a3ab1d6937e52b1d",
+          "native_text_characters": 8268
+        },
+        {
+          "page": 240,
+          "themes": [
+            "assurance"
+          ],
+          "native_text_sha256": "c8bfd8124e399f5ddb99ca55f4d49994fddf28008b77465b2c693b941a2ea22c",
+          "native_text_characters": 6468
+        },
+        {
+          "page": 241,
+          "themes": [
+            "assurance"
+          ],
+          "native_text_sha256": "3f18ad0b308449b043c4ccf68ff2c7d2ff6e47935518b174fb5fc3bef9d3aeef",
+          "native_text_characters": 2465
+        }
+      ]
+    }
+  ],
+  "totals": {
+    "documents": 3,
+    "unique_target_pages": 33,
+    "assurance_windows_passed": 3
+  }
+}

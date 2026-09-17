@@ -1,0 +1,24 @@
+{
+  "inputs": {
+    "assurance_boundaries_sha256": "a22b689f1ae1f10955516a0a1ba97be1958e484e06b6dc8b2fe39114a935e0eb",
+    "fact_records_sha256": "8af57e7b7bda85deef8f90586f8225aedcf1da24e0669300115b8f1f7499bf5b"
+  },
+  "locked_experiments_modified_or_rescored": false,
+  "newly_promoted_to_tier_b": 9,
+  "next_gate": "implement_metric_component_boundary_validator_with_negative_regression",
+  "outputs": {
+    "adjudications": {
+      "path": "data/knowledge_bases/v0.1/tier_b_independent_adjudications.jsonl",
+      "sha256": "020c9b2b56f4ed9259598e82f158658878bc2ad685549bed6a67fa695151cabd"
+    },
+    "trusted_facts": {
+      "path": "data/knowledge_bases/v0.1/trusted_fact_records.jsonl",
+      "sha256": "d91f15a0b239457757a7138f5f0cae63629671ca3d70a17a4f7f80e74435110e"
+    }
+  },
+  "reviewed": 9,
+  "schema_version": "0.1",
+  "source_candidate_records_modified": 0,
+  "status": "assurance_metadata_six_dimension_review_and_tier_b_overlay_complete",
+  "total_trusted_tier_b": 36
+}

@@ -1,0 +1,66 @@
+{
+  "schema_version": "2.4",
+  "experiment_id": "P15-V24-UNSEEN-LOCKBOX-V01",
+  "status": "frozen_before_candidate_inference_after_prefreeze_integrity_audit",
+  "coordinate_system": "pdf_page/table_id/row_id/column_id/cell_id",
+  "construction": "MinerU table HTML checked against the frozen PDF-page layout; every value is bound to metric row, year column, unit and page.",
+  "tables": [
+    {
+      "pdf_page":27,
+      "table_id":"P27-GHG-INVENTORY",
+      "columns":["metric","2025","2024","assured"],
+      "unit":"1 000 tCO2e unless otherwise stated",
+      "rows":[
+        ["Gross Scope 1 GHG emissions",192.3,210.6,true],
+        ["Gross market-based Scope 2 GHG emissions",14.9,29.8,true],
+        ["Gross location-based Scope 2 GHG emissions",183.8,198.5,true],
+        ["Gross Scope 3 GHG emissions",4169.9,4282.2,true],
+        ["Total Gross GHG emissions market-based",4377.1,4522.6,false],
+        ["Total Gross GHG emissions location-based",4546.0,4691.3,false]
+      ]
+    },
+    {
+      "pdf_page":30,
+      "table_id":"P30-WATER-QUALITY",
+      "columns":["indicator","2025","2024","target_year","target_percent","progress_percent","assured_2025"],
+      "rows":[
+        ["Own manufacturing sites meeting water quality standards",97,97,2025,100,97,true],
+        ["High-risk suppliers meeting water quality standards",100,100,2025,100,100,true]
+      ]
+    },
+    {
+      "pdf_page":32,
+      "table_id":"P32-WORKFORCE-SAFETY",
+      "columns":["metric","subject","2025","2024","assured_2025"],
+      "rows":[
+        ["Employees covered by internally validated HSE system","employees",99,99,true],
+        ["Lost-time injury and illness rate per 200000 work hours","employees",0.12,0.13,true],
+        ["Lost-time injury and illness rate per 200000 work hours","third-party personnel",0.32,0.30,true],
+        ["Total recordable case rate per 200000 work hours","employees",0.26,0.31,true],
+        ["Total recordable case rate per 200000 work hours","third-party personnel",0.36,0.39,true],
+        ["Fatalities","employees",0,0,true],
+        ["Fatalities","third-party personnel",0,0,true],
+        ["Fatalities","contractors",0,0,true]
+      ]
+    },
+    {
+      "pdf_page":36,
+      "table_id":"P36-ACCESS",
+      "columns":["metric","2025","2024","assured_2025"],
+      "rows":[
+        ["Patients reached (millions)",304,296,true],
+        ["Countries with products sold",118,118,true]
+      ]
+    }
+  ],
+  "non_cell_qualifiers":[
+    {"pdf_page":30,"table_id":"P30-WATER-QUALITY","text":"The target year, target and progress were not assured."},
+    {"pdf_page":32,"table_id":"P32-WORKFORCE-SAFETY","text":"Rates use 200,000 work hours; third-party and contractor fatalities are included only at a Novartis site."},
+    {"pdf_page":36,"table_id":"P36-ACCESS","text":"Patient and country metrics have separate portfolio, estimation, sales and geographic boundaries."}
+  ],
+  "deterministic_checks": {
+    "ghg_market_total":"192.3 + 14.9 + 4169.9 = 4377.1",
+    "ghg_difference":"4377.1 - 4377.1 = 0.0"
+  },
+  "candidate_output_modified": false
+}

@@ -1,0 +1,41 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-013",
+  "created_at": "2026-09-13T07:09:13.039168+00:00",
+  "source_config": "configs/knowledge/scale_batch_013_v0.1.json",
+  "documents": [
+    {
+      "document_id": "KB-B013-WARTSILA-AR2025",
+      "local_path": "data/raw/scale_batch_013/wartsila-annual-report-2025.pdf",
+      "bytes": 0,
+      "partial_bytes": 0,
+      "sha256": null,
+      "pdf_header_valid": false,
+      "download_status": "failed_preserved",
+      "error_type": "URLError",
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    {
+      "document_id": "KB-B013-ELECTROLUX-AR2025",
+      "local_path": "data/raw/scale_batch_013/electrolux-group-annual-report-2025.pdf",
+      "bytes": 0,
+      "partial_bytes": 0,
+      "sha256": null,
+      "pdf_header_valid": false,
+      "download_status": "failed_preserved",
+      "error_type": "URLError",
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    {
+      "document_id": "KB-B013-SKF-ASR2025",
+      "local_path": "data/raw/scale_batch_013/skf-annual-and-sustainability-report-2025.pdf",
+      "bytes": 0,
+      "partial_bytes": 0,
+      "sha256": null,
+      "pdf_header_valid": false,
+      "download_status": "failed_preserved",
+      "error_type": "URLError",
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    }
+  ]
+}

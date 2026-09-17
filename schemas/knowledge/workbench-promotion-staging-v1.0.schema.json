@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/esg/workbench-promotion-staging-v1.0.schema.json",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "record_kind",
+    "staging_id",
+    "review_id",
+    "review_version",
+    "fact_record_id",
+    "state",
+    "checks",
+    "blocking_reasons",
+    "source_ids",
+    "trusted_collision_record_ids",
+    "proposed_overlay",
+    "promotion_performed",
+    "trusted_layer_modified",
+    "rollback_action"
+  ],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "record_kind": {"const": "workbench_promotion_staging"},
+    "staging_id": {"type": "string", "pattern": "^workbench-promotion-staging-"},
+    "review_id": {"type": "string"},
+    "review_version": {"type": "integer", "minimum": 1},
+    "fact_record_id": {"type": "string"},
+    "state": {
+      "enum": [
+        "ready_for_tier_b_overlay_commit",
+        "blocked_promotion_preconditions",
+        "already_trusted_equivalent"
+      ]
+    },
+    "checks": {"type": "object", "additionalProperties": {"type": "boolean"}},
+    "blocking_reasons": {"type": "array", "items": {"type": "string"}},
+    "source_ids": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "trusted_collision_record_ids": {
+      "type": "array",
+      "items": {"type": "string"},
+      "uniqueItems": true
+    },
+    "proposed_overlay": {"type": ["object", "null"]},
+    "promotion_performed": {"const": false},
+    "trusted_layer_modified": {"const": false},
+    "rollback_action": {"type": "string", "minLength": 1}
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,12 @@
+{
+  "assurance_page_text_sha256": {},
+  "batch_id": "KB-SCALE-BATCH-026-NATIVE-COORDINATE-AUDIT",
+  "checks": {},
+  "policy": {
+    "automatic_promotion": false,
+    "cloud_transmission": false
+  },
+  "promotable_facts": 0,
+  "schema_version": "0.1",
+  "status": "selected_cells_and_assurance_boundaries_passed"
+}

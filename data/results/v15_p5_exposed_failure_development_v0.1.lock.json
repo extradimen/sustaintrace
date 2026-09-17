@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "experiment_id": "V15-P5-EXPOSED-FAILURE-DEV-V01",
+  "status": "completed",
+  "created_at": "2026-09-05T05:28:30.351284+00:00",
+  "development_data_status": "P5 failures exposed before v1.5 development",
+  "not_a_lockbox_result": true,
+  "model_requests_sent": 0,
+  "candidate_outputs_reused_without_modification": true,
+  "p3_p4_p5_archives_modified": false,
+  "results": {
+    "P5-CALC-001-DEV": {
+      "status": "passed",
+      "period_bindings": [
+        {
+          "evidence_handle": "M295-T0003-R0004-C0002",
+          "value_node_id": "p0295-word-0048",
+          "header_node_id": "p0295-word-0025",
+          "relation": "same_column_nearest_explicit_year_above",
+          "x_delta": 2.20798,
+          "y_delta": 27.94333,
+          "graph_schema_version": "v1.4-spatial-graph-0.1"
+        },
+        {
+          "evidence_handle": "M295-T0003-R0004-C0003",
+          "value_node_id": "p0295-word-0049",
+          "header_node_id": "p0295-word-0022",
+          "relation": "same_column_nearest_explicit_year_above",
+          "x_delta": 2.20798,
+          "y_delta": 35.44333,
+          "graph_schema_version": "v1.4-spatial-graph-0.1"
+        }
+      ],
+      "result": {
+        "operation": "percentage_change",
+        "inputs": [
+          1569.0,
+          1695.0
+        ],
+        "result": -7.433628318584071,
+        "executed_by": "deterministic_framework",
+        "model_result_used": false,
+        "direction": "decrease"
+      }
+    },
+    "P5-SCOPE-001-DEV": {
+      "status": "passed",
+      "complete": true,
+      "validated_claim_count": 2,
+      "grounding_comparison": "unicode_nfkc_apostrophe_equivalence"
+    }
+  },
+  "source_artifacts": {
+    "research_archive/P5-V14-UNSEEN-LOCKBOX-V01-RESUME02/runs/P5-CALC-001-QWEN397B-v14-stage-a-r1/model_generated_content.json": "142a616b9af6228ba368424d925e4f7620c1bf81223536c2449b337e1af1924f",
+    "research_archive/P5-V14-UNSEEN-LOCKBOX-V01-RESUME02/runs/P5-SCOPE-001-QWEN397B-v14-stage-b-r1/model_generated_content.json": "ae7c98f2c5a62c01417bc662b479dd43553e1abc1711ca53c04fae97b83a152c"
+  },
+  "interpretation": "Both exposed P5 failures pass under v1.5 deterministic grounding; unseen generalization remains untested."
+}

@@ -1,0 +1,86 @@
+{
+  "authorization_record": "data/manifests/p13_cloud_authorization_2026-09-09.lock.json",
+  "authorization_record_sha256": "f4a199eef46f3d75b3130926a798cf1f8eb02d15650c38d8b39dbefe901d32ab",
+  "experiment_id": "P13-V22-UNSEEN-LOCKBOX-V01",
+  "inference_allowed": true,
+  "integrity_gate_result": "data/results/p13_v22_prefreeze_integrity_audit_v0.1.lock.json",
+  "page_coordinate_system": "one_based_pdf_page_index",
+  "parent": "data/tasks/p13_task_pack_v0.1.lock.json",
+  "schema_version": "1.0",
+  "status": "released_after_explicit_cloud_authorization",
+  "tasks": [
+    {
+      "document_id": "P13-SCHNEIDER-URD2025",
+      "question": "Using Schneider Electric's reported 2025 Scope 1, market-based Scope 2 and Scope 3 emissions, calculate their sum and compare it with the disclosed market-based total GHG emissions, retaining units and explaining any exact or rounding difference.",
+      "question_status": "frozen",
+      "reference_file": "data/annotations/p13_simulated/P13-GHG-CALC-001.json",
+      "target_pages": [
+        152,
+        153
+      ],
+      "task_id": "P13-GHG-CALC-001",
+      "task_type": "deterministic_calculation"
+    },
+    {
+      "document_id": "P13-SCHNEIDER-URD2025",
+      "question": "What 2030 and 2050 GHG reduction targets does Schneider Electric report for Scope 1 and 2 and Scope 3, including base year, absolute target values, accounting method, inventory coverage, SBTi status and stated exclusions?",
+      "question_status": "frozen",
+      "reference_file": "data/annotations/p13_simulated/P13-TARGET-001.json",
+      "target_pages": [
+        148,
+        149,
+        150
+      ],
+      "task_id": "P13-TARGET-001",
+      "task_type": "scope_subject_boundary"
+    },
+    {
+      "document_id": "P13-SCHNEIDER-URD2025",
+      "question": "What 2025 water withdrawal indicators does Schneider Electric report, including total withdrawals excluding cooling, withdrawals in water-stressed areas, coverage, intensity and the treatment of cooling water?",
+      "question_status": "frozen",
+      "reference_file": "data/annotations/p13_simulated/P13-WATER-001.json",
+      "target_pages": [
+        344
+      ],
+      "task_id": "P13-WATER-001",
+      "task_type": "direct_extraction"
+    },
+    {
+      "document_id": "P13-SCHNEIDER-URD2025",
+      "question": "What 2025 lost-time accident and hours-worked data does Schneider Electric report for employees and temporary workers, and do the disclosed components deterministically reconcile to the reported total LTIR?",
+      "question_status": "frozen",
+      "reference_file": "data/annotations/p13_simulated/P13-SAFETY-001.json",
+      "target_pages": [
+        353
+      ],
+      "task_id": "P13-SAFETY-001",
+      "task_type": "deterministic_calculation"
+    },
+    {
+      "document_id": "P13-SCHNEIDER-URD2025",
+      "question": "What 2025 representation of women in new hires, frontline management and senior leadership does Schneider Electric report, and what 2030 women-in-leadership target and population boundary accompany those figures?",
+      "question_status": "frozen",
+      "reference_file": "data/annotations/p13_simulated/P13-WOMEN-001.json",
+      "target_pages": [
+        213
+      ],
+      "task_id": "P13-WOMEN-001",
+      "task_type": "scope_subject_boundary"
+    },
+    {
+      "document_id": "P13-SCHNEIDER-URD2025",
+      "question": "How does Schneider Electric distinguish the scope, selected indicators, reporting criteria and conclusions of its 2025 limited-assurance and reasonable-assurance engagements, including what information is explicitly excluded?",
+      "question_status": "frozen",
+      "reference_file": "data/annotations/p13_simulated/P13-ASSURE-001.json",
+      "target_pages": [
+        315,
+        333,
+        334,
+        339,
+        340
+      ],
+      "task_id": "P13-ASSURE-001",
+      "task_type": "scope_subject_boundary"
+    }
+  ]
+}

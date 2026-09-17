@@ -1,0 +1,19 @@
+{
+  "inputs": {
+    "boundaries_sha256": "751bbc55c1cfcca73673b5ecc61640aa18bb68037d0ea5e0f797d08d1fe5c2f4",
+    "facts_sha256": "8af57e7b7bda85deef8f90586f8225aedcf1da24e0669300115b8f1f7499bf5b",
+    "scope_manifest_sha256": "2c01a30c72b65ad6034029d7ce65f184a8771a861bbca587ce20ec860d41a311"
+  },
+  "locked_experiments_modified_or_rescored": false,
+  "newly_promoted_to_tier_b": 2,
+  "next_gate": "implement_target_and_performance_boundary_validator",
+  "outputs": {
+    "adjudications_sha256": "253aa9c810e29a62804b71957796d465b2fe3fcf285bfa721801d647a304a64a",
+    "trusted_facts_sha256": "4ae0dd25fb527bd020f4c38c5d375b34d85e7166c6888657502366f718118ce2"
+  },
+  "reviewed": 2,
+  "schema_version": "0.1",
+  "source_candidate_records_modified": 0,
+  "status": "population_six_dimension_review_and_tier_b_overlay_complete",
+  "total_trusted_tier_b": 49
+}

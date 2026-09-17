@@ -1,0 +1,16 @@
+{
+  "schema_version":"1.0",
+  "development_id":"V18-P8-EXPOSED-FAILURE-DEVELOPMENT-V01",
+  "status":"frozen_before_v1.8_implementation",
+  "allowed_development_evidence":[
+    "P8-CALC-001 calculation_period_not_grounded for a reporting-year value paired with previous-year language in one evidence block",
+    "P8-SCOPE3-001 omission of Categories 11 and 15 from a non-contiguous collection slot",
+    "P8-ASSURE-001 omission of separately located limited-assurance subjects from a collection slot"
+  ],
+  "prohibited_actions":["rerun P8 candidate inference","rescore P8","modify P3-P8 locked results","use unseen P9 evidence during development"],
+  "mechanisms":[
+    "deterministic reporting-year and previous-year binding with original period literals retained",
+    "ordered non-contiguous evidence-fragment collection with per-member grounding, canonical identity and duplicate rejection"
+  ],
+  "success_criteria":["P8 exposed regression tests pass","all existing tests pass","Ruff passes","no candidate output is rewritten"]
+}

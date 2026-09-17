@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "prompt_id": "P0-EVIDENCE-DISCOVERY-v0.1",
+  "prompt_locked": true,
+  "task_pack_frozen": false,
+  "locked_at": "2026-09-01T20:45:00+08:00",
+  "artifacts": {
+    "instruction_prompt": {
+      "path": "prompts/p0_evidence_discovery_v0.1.txt",
+      "sha256": "2b1d91528dae3dab26440e0c3090969ec8f0f385422236d81b0b1e68b686a3c3"
+    },
+    "finding_card_schema": {
+      "path": "templates/finding_card.schema.json",
+      "sha256": "e2aac00a4996600dbb56ae2531f4a69f539f8edb4ac66929a74048f284a57520"
+    },
+    "task_pack": {
+      "path": "data/tasks/p0_task_pack_v0.1.json",
+      "sha256": "80491e7e0dce558cb89689026aa59d88d9834c9a00c0b885b12c668eac1b4916"
+    },
+    "closed_gold_lock": {
+      "path": "data/annotations/p0_closed_gold.lock.json",
+      "sha256": "df32d0be7391095eaeca5c173771d599fb0180448f9d67407dc99880b2859917"
+    },
+    "prompt_guard": {
+      "path": "src/esg_reliable_discovery/prompt_guard.py",
+      "sha256": "604f48618f89a526074751476af799b766dd2a32671e56acc96bcc78ee04657d"
+    }
+  },
+  "leakage_audit": {
+    "scope": "instruction_prompt_only",
+    "gold_card_count": 6,
+    "finding_count": 0,
+    "passed": true,
+    "runtime_sources_excluded": true
+  },
+  "limitations": [
+    "The scanner detects explicit phrase and metric-value leakage, not every semantic hint.",
+    "Runtime source pages and controlled interventions are legitimate inputs and are outside the instruction-only audit.",
+    "The prompt is locked independently; the P0 task pack remains unfrozen until open-discovery review and smoke checks finish."
+  ]
+}

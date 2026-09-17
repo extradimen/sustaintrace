@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "experiment_id": "P16-V25-UNSEEN-LOCKBOX-V01",
+  "recovery_id": "P16-PREFREEZE-AUDIT-RESUME01",
+  "parent_result": "data/results/p16_v25_prefreeze_integrity_audit_v0.1.lock.json",
+  "resume_result": "data/results/p16_v25_prefreeze_integrity_audit_RESUME01_v0.1.lock.json",
+  "status": "frozen_before_resume_audit",
+  "failure_class": "reference_quote_literal_not_present_in_parser_serialization",
+  "failed_item": {
+    "task_id": "P16-TARGET-001",
+    "pdf_page": 38,
+    "quote": "TOTAL SCOPE 1 & 2"
+  },
+  "correction": "Replaced the redundant HTML-sensitive label quote with the exact frozen-page label 'Gross market-based Scope 2 GHG emissions'; normalized values, task question, page window and semantics are unchanged.",
+  "candidate_inference_started": false,
+  "cloud_transmission_count": 0
+}

@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0",
+  "experiment_id": "P12-V21-UNSEEN-LOCKBOX-V01",
+  "status": "questions_and_page_windows_frozen_before_reference_creation_and_candidate_inference",
+  "inference_allowed": false,
+  "tasks": [
+    {
+      "task_id": "P12-SAFETY-001",
+      "document_id": "P12-VOLKSWAGEN-AR2025",
+      "task_type": "direct_extraction",
+      "question_status": "frozen",
+      "question": "What work-related deaths did the Volkswagen Group report for 2025, including the total and the breakdown among employees, non-employees and other workers?",
+      "target_pages": [366]
+    },
+    {
+      "task_id": "P12-CALC-001",
+      "document_id": "P12-VOLKSWAGEN-AR2025",
+      "task_type": "deterministic_calculation",
+      "question_status": "frozen",
+      "question": "Using the Volkswagen Group's reported 2025 total Scope 1 emissions including companies with operational control, total market-based Scope 2 emissions including those companies, and total Scope 3 emissions, calculate their sum and compare it with the disclosed market-based total GHG emissions, retaining units and rounding context.",
+      "target_pages": [274, 275, 281]
+    },
+    {
+      "task_id": "P12-TARGET-001",
+      "document_id": "P12-VOLKSWAGEN-AR2025",
+      "task_type": "scope_subject_boundary",
+      "question_status": "frozen",
+      "question": "What 2030 Scope 1 and 2 and Scope 3 use-phase reduction targets did the Volkswagen Group report, including base years, baseline values, target reductions, 2025 progress, accounting method and SBTi alignment?",
+      "target_pages": [259, 260]
+    },
+    {
+      "task_id": "P12-BOUNDARY-001",
+      "document_id": "P12-VOLKSWAGEN-AR2025",
+      "task_type": "scope_subject_boundary",
+      "question_status": "frozen",
+      "question": "What is the consolidation and reporting boundary of Volkswagen's 2025 Sustainability Report, including the stated adjustments for environmental and governance data and treatment of the upstream and downstream value chain?",
+      "target_pages": [214, 215]
+    },
+    {
+      "task_id": "P12-SCOPE3-001",
+      "document_id": "P12-VOLKSWAGEN-AR2025",
+      "task_type": "scope_subject_boundary",
+      "question_status": "frozen",
+      "question": "What total Scope 3 and Category 11 use-of-sold-products emissions did the Volkswagen Group report for 2025, and what reporting boundary, material-category treatment, double-counting issue and selected methodological assumptions or exclusions apply?",
+      "target_pages": [274, 275, 276, 280]
+    },
+    {
+      "task_id": "P12-ASSURE-001",
+      "document_id": "P12-VOLKSWAGEN-AR2025",
+      "task_type": "scope_subject_boundary",
+      "question_status": "frozen",
+      "question": "What sustainability information did Volkswagen's independent auditor cover, under which assurance levels and standard, and how are limited assurance, reasonable assurance and value-chain information limitations distinguished?",
+      "target_pages": [659, 660, 663]
+    }
+  ]
+}

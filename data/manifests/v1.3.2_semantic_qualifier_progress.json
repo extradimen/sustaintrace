@@ -1,0 +1,42 @@
+{
+  "checkpoint_resume_enabled": true,
+  "experiment_id": "V132-SEMANTIC-QUALIFIER-REGRESSION-DEV01",
+  "records": [
+    {
+      "retried": false,
+      "stage_a": "passed",
+      "stage_a_result": {
+        "archive_directory": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/V132-SEMANTIC-QUALIFIER-REGRESSION-DEV01/runs/P3-XPAGE-002-QWEN397B-v132-stage-a-r1",
+        "elapsed_seconds": 48.38302008299797,
+        "framework_evidence_state": "supported",
+        "model": "qwen3.5:397b-cloud",
+        "run_id": "P3-XPAGE-002-QWEN397B-v132-stage-a-r1",
+        "task_id": "P3-XPAGE-002"
+      },
+      "stage_b": "passed",
+      "stage_b_result": {
+        "archive_directory": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/V132-SEMANTIC-QUALIFIER-REGRESSION-DEV01/runs/P3-XPAGE-002-QWEN397B-v132-stage-b-r1",
+        "elapsed_seconds": 50.39918208299787,
+        "run_id": "P3-XPAGE-002-QWEN397B-v132-stage-b-r1",
+        "task_id": "P3-XPAGE-002",
+        "validated_claim_count": 3
+      },
+      "task_id": "P3-XPAGE-002"
+    },
+    {
+      "retried": false,
+      "stage_a": "reused_frozen_parent",
+      "stage_b": "passed",
+      "stage_b_result": {
+        "archive_directory": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/V132-SEMANTIC-QUALIFIER-REGRESSION-DEV01/runs/P3-SCOPE-002-QWEN397B-v132-stage-b-r1",
+        "elapsed_seconds": 57.74373679100245,
+        "run_id": "P3-SCOPE-002-QWEN397B-v132-stage-b-r1",
+        "task_id": "P3-SCOPE-002",
+        "validated_claim_count": 5
+      },
+      "task_id": "P3-SCOPE-002"
+    }
+  ],
+  "schema_version": "1.0",
+  "updated_at": "2026-09-04T20:58:56.566768+00:00"
+}

@@ -1,0 +1,12 @@
+{
+  "schema_version":"1.0",
+  "status":"prior_adjudication_retracted",
+  "retracts":"data/results/p4_reference_adjudication_incident_v0.1.lock.json",
+  "reason":"Direct visual inspection of the rendered PDF shows a stacked bar plus legend. The frozen reference was correct: 2024 withdrawn 97.9, discharged 52.9, consumed 45.0 million m3.",
+  "visual_evidence":"The dark-blue separate bar is total withdrawal 97.9; the light-blue and slate stacked segments are discharge 52.9 and consumption 45.0, matching the report legend.",
+  "candidate_2024_output":{"withdrawn":95.6,"discharged":52.9,"consumed":97.9},
+  "candidate_scoring":"partial: one of three requested measures correct",
+  "frozen_reference_modified":false,
+  "candidate_output_modified":false,
+  "lesson":"Coordinate text plus conservation arithmetic is insufficient when chart semantics are encoded by color and stacking; rendered visual or vector-style evidence is required."
+}

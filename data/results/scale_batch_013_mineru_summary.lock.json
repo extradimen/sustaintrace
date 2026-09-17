@@ -1,0 +1,297 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-013",
+  "updated_at": "2026-09-13T07:30:28.871583+00:00",
+  "status": "complete",
+  "cloud_transmission": false,
+  "total_target_pages": 23,
+  "complete_pages": 19,
+  "failed_pages": 4,
+  "pending_pages": 0,
+  "records": [
+    {
+      "document_id": "KB-B013-WARTSILA-AR2025",
+      "page": 101,
+      "themes": [
+        "biodiversity",
+        "circularity",
+        "water"
+      ],
+      "output_directory": "artifacts/scale_batch_013/mineru_targets/KB-B013-WARTSILA-AR2025-p0101",
+      "status": "complete",
+      "started_at": "2026-09-13T07:21:47.920713+00:00",
+      "completed_at": "2026-09-13T07:22:08.782397+00:00",
+      "wall_seconds": 20.861981
+    },
+    {
+      "document_id": "KB-B013-WARTSILA-AR2025",
+      "page": 117,
+      "themes": [
+        "targets"
+      ],
+      "output_directory": "artifacts/scale_batch_013/mineru_targets/KB-B013-WARTSILA-AR2025-p0117",
+      "status": "complete",
+      "started_at": "2026-09-13T07:22:08.782924+00:00",
+      "completed_at": "2026-09-13T07:22:26.846173+00:00",
+      "wall_seconds": 18.063739
+    },
+    {
+      "document_id": "KB-B013-WARTSILA-AR2025",
+      "page": 123,
+      "themes": [
+        "energy"
+      ],
+      "output_directory": "artifacts/scale_batch_013/mineru_targets/KB-B013-WARTSILA-AR2025-p0123",
+      "status": "complete",
+      "started_at": "2026-09-13T07:22:26.846556+00:00",
+      "completed_at": "2026-09-13T07:22:44.827108+00:00",
+      "wall_seconds": 17.981042
+    },
+    {
+      "document_id": "KB-B013-WARTSILA-AR2025",
+      "page": 124,
+      "themes": [
+        "ghg_emissions"
+      ],
+      "output_directory": "artifacts/scale_batch_013/mineru_targets/KB-B013-WARTSILA-AR2025-p0124",
+      "status": "complete",
+      "started_at": "2026-09-13T07:22:44.827475+00:00",
+      "completed_at": "2026-09-13T07:23:01.764992+00:00",
+      "wall_seconds": 16.937978
+    },
+    {
+      "document_id": "KB-B013-WARTSILA-AR2025",
+      "page": 129,
+      "themes": [
+        "workforce"
+      ],
+      "output_directory": "artifacts/scale_batch_013/mineru_targets/KB-B013-WARTSILA-AR2025-p0129",
+      "status": "complete",
+      "started_at": "2026-09-13T07:23:01.765369+00:00",
+      "completed_at": "2026-09-13T07:23:20.351875+00:00",
+      "wall_seconds": 18.587012
+    },
+    {
+      "document_id": "KB-B013-WARTSILA-AR2025",
+      "page": 132,
+      "themes": [
+        "health_safety"
+      ],
+      "output_directory": "artifacts/scale_batch_013/mineru_targets/KB-B013-WARTSILA-AR2025-p0132",
+      "status": "complete",
+      "started_at": "2026-09-13T07:23:20.352266+00:00",
+      "completed_at": "2026-09-13T07:23:37.532491+00:00",
+      "wall_seconds": 17.180694
+    },
+    {
+      "document_id": "KB-B013-WARTSILA-AR2025",
+      "page": 226,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_013/mineru_targets/KB-B013-WARTSILA-AR2025-p0226",
+      "status": "complete",
+      "started_at": "2026-09-13T07:23:37.532904+00:00",
+      "completed_at": "2026-09-13T07:23:52.852676+00:00",
+      "wall_seconds": 15.32019
+    },
+    {
+      "document_id": "KB-B013-ELECTROLUX-AR2025",
+      "page": 90,
+      "themes": [
+        "ghg_emissions",
+        "targets"
+      ],
+      "output_directory": "artifacts/scale_batch_013/mineru_targets/KB-B013-ELECTROLUX-AR2025-p0090",
+      "status": "complete",
+      "started_at": "2026-09-13T07:23:52.853113+00:00",
+      "completed_at": "2026-09-13T07:24:11.445319+00:00",
+      "wall_seconds": 18.592712
+    },
+    {
+      "document_id": "KB-B013-ELECTROLUX-AR2025",
+      "page": 91,
+      "themes": [
+        "energy"
+      ],
+      "output_directory": "artifacts/scale_batch_013/mineru_targets/KB-B013-ELECTROLUX-AR2025-p0091",
+      "status": "complete",
+      "started_at": "2026-09-13T07:24:11.445795+00:00",
+      "completed_at": "2026-09-13T07:24:33.947191+00:00",
+      "wall_seconds": 22.502008
+    },
+    {
+      "document_id": "KB-B013-ELECTROLUX-AR2025",
+      "page": 98,
+      "themes": [
+        "water"
+      ],
+      "output_directory": "artifacts/scale_batch_013/mineru_targets/KB-B013-ELECTROLUX-AR2025-p0098",
+      "status": "complete",
+      "started_at": "2026-09-13T07:24:33.947636+00:00",
+      "completed_at": "2026-09-13T07:24:59.483007+00:00",
+      "wall_seconds": 25.53607
+    },
+    {
+      "document_id": "KB-B013-ELECTROLUX-AR2025",
+      "page": 101,
+      "themes": [
+        "biodiversity"
+      ],
+      "output_directory": "artifacts/scale_batch_013/mineru_targets/KB-B013-ELECTROLUX-AR2025-p0101",
+      "status": "complete",
+      "started_at": "2026-09-13T07:24:59.483571+00:00",
+      "completed_at": "2026-09-13T07:25:24.492909+00:00",
+      "wall_seconds": 25.010024
+    },
+    {
+      "document_id": "KB-B013-ELECTROLUX-AR2025",
+      "page": 106,
+      "themes": [
+        "circularity"
+      ],
+      "output_directory": "artifacts/scale_batch_013/mineru_targets/KB-B013-ELECTROLUX-AR2025-p0106",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_013/mineru_targets/KB-B013-ELECTROLUX-AR2025-p0106/esg_rd_mineru_run.json",
+      "started_at": "2026-09-13T07:25:24.493562+00:00",
+      "completed_at": "2026-09-13T07:25:49.866190+00:00",
+      "wall_seconds": 25.373315
+    },
+    {
+      "document_id": "KB-B013-ELECTROLUX-AR2025",
+      "page": 113,
+      "themes": [
+        "workforce"
+      ],
+      "output_directory": "artifacts/scale_batch_013/mineru_targets/KB-B013-ELECTROLUX-AR2025-p0113",
+      "status": "complete",
+      "started_at": "2026-09-13T07:25:49.866764+00:00",
+      "completed_at": "2026-09-13T07:26:16.647912+00:00",
+      "wall_seconds": 26.781878
+    },
+    {
+      "document_id": "KB-B013-ELECTROLUX-AR2025",
+      "page": 116,
+      "themes": [
+        "health_safety"
+      ],
+      "output_directory": "artifacts/scale_batch_013/mineru_targets/KB-B013-ELECTROLUX-AR2025-p0116",
+      "status": "complete",
+      "started_at": "2026-09-13T07:26:16.648597+00:00",
+      "completed_at": "2026-09-13T07:26:47.328904+00:00",
+      "wall_seconds": 30.681144
+    },
+    {
+      "document_id": "KB-B013-ELECTROLUX-AR2025",
+      "page": 130,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_013/mineru_targets/KB-B013-ELECTROLUX-AR2025-p0130",
+      "status": "complete",
+      "started_at": "2026-09-13T07:26:47.331015+00:00",
+      "completed_at": "2026-09-13T07:27:11.999563+00:00",
+      "wall_seconds": 24.66921
+    },
+    {
+      "document_id": "KB-B013-SKF-ASR2025",
+      "page": 42,
+      "themes": [
+        "biodiversity",
+        "water"
+      ],
+      "output_directory": "artifacts/scale_batch_013/mineru_targets/KB-B013-SKF-ASR2025-p0042",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_013/mineru_targets/KB-B013-SKF-ASR2025-p0042/esg_rd_mineru_run.json",
+      "started_at": "2026-09-13T07:27:12.000205+00:00",
+      "completed_at": "2026-09-13T07:27:37.586423+00:00",
+      "wall_seconds": 25.586912
+    },
+    {
+      "document_id": "KB-B013-SKF-ASR2025",
+      "page": 58,
+      "themes": [
+        "targets"
+      ],
+      "output_directory": "artifacts/scale_batch_013/mineru_targets/KB-B013-SKF-ASR2025-p0058",
+      "status": "complete",
+      "started_at": "2026-09-13T07:27:37.587887+00:00",
+      "completed_at": "2026-09-13T07:28:03.846430+00:00",
+      "wall_seconds": 26.259256
+    },
+    {
+      "document_id": "KB-B013-SKF-ASR2025",
+      "page": 59,
+      "themes": [
+        "energy"
+      ],
+      "output_directory": "artifacts/scale_batch_013/mineru_targets/KB-B013-SKF-ASR2025-p0059",
+      "status": "complete",
+      "started_at": "2026-09-13T07:28:03.846972+00:00",
+      "completed_at": "2026-09-13T07:28:26.486188+00:00",
+      "wall_seconds": 22.639833
+    },
+    {
+      "document_id": "KB-B013-SKF-ASR2025",
+      "page": 61,
+      "themes": [
+        "ghg_emissions"
+      ],
+      "output_directory": "artifacts/scale_batch_013/mineru_targets/KB-B013-SKF-ASR2025-p0061",
+      "status": "complete",
+      "started_at": "2026-09-13T07:28:26.486747+00:00",
+      "completed_at": "2026-09-13T07:28:48.748490+00:00",
+      "wall_seconds": 22.262351
+    },
+    {
+      "document_id": "KB-B013-SKF-ASR2025",
+      "page": 68,
+      "themes": [
+        "circularity"
+      ],
+      "output_directory": "artifacts/scale_batch_013/mineru_targets/KB-B013-SKF-ASR2025-p0068",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_013/mineru_targets/KB-B013-SKF-ASR2025-p0068/esg_rd_mineru_run.json",
+      "started_at": "2026-09-13T07:28:48.749218+00:00",
+      "completed_at": "2026-09-13T07:29:12.329242+00:00",
+      "wall_seconds": 23.580664
+    },
+    {
+      "document_id": "KB-B013-SKF-ASR2025",
+      "page": 77,
+      "themes": [
+        "workforce"
+      ],
+      "output_directory": "artifacts/scale_batch_013/mineru_targets/KB-B013-SKF-ASR2025-p0077",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_013/mineru_targets/KB-B013-SKF-ASR2025-p0077/esg_rd_mineru_run.json",
+      "started_at": "2026-09-13T07:29:12.329833+00:00",
+      "completed_at": "2026-09-13T07:29:37.792281+00:00",
+      "wall_seconds": 25.46314
+    },
+    {
+      "document_id": "KB-B013-SKF-ASR2025",
+      "page": 79,
+      "themes": [
+        "health_safety"
+      ],
+      "output_directory": "artifacts/scale_batch_013/mineru_targets/KB-B013-SKF-ASR2025-p0079",
+      "status": "complete",
+      "started_at": "2026-09-13T07:29:37.792894+00:00",
+      "completed_at": "2026-09-13T07:30:04.417168+00:00",
+      "wall_seconds": 26.625003
+    },
+    {
+      "document_id": "KB-B013-SKF-ASR2025",
+      "page": 96,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_013/mineru_targets/KB-B013-SKF-ASR2025-p0096",
+      "status": "complete",
+      "started_at": "2026-09-13T07:30:04.417923+00:00",
+      "completed_at": "2026-09-13T07:30:28.871066+00:00",
+      "wall_seconds": 24.453797
+    }
+  ]
+}

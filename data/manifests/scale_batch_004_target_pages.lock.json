@@ -1,0 +1,243 @@
+{
+  "schema_version": "0.1",
+  "registry_id": "KB-SCALE-BATCH-004-TARGET-PAGES-v0.1",
+  "batch_id": "KB-SCALE-BATCH-004-RESUME01",
+  "created_at": "2026-09-12T16:31:06.158570+00:00",
+  "status": "target_pages_locked_before_mineru",
+  "cloud_transmission": false,
+  "documents": [
+    {
+      "document_id": "KB-B004-PHILIPS-AR2025",
+      "source_group_id": "KB-PHILIPS-2025",
+      "local_path": "data/raw/scale_batch_004/philips-annual-report-2025.pdf",
+      "document_sha256": "ff527efe35aa923bd6b592c38549bf1f9f207ac3cef2cec6695a7b9cd93efc6d",
+      "selection_rule": "highest_keyword_hit_page_per_theme_v0.1",
+      "target_pages": [
+        {
+          "page": 47,
+          "themes": [
+            "biodiversity"
+          ],
+          "native_text_sha256": "eebf310d16bbaa906aed85aedefbf5edbc76af96934e1a71092efc330ba1fceb",
+          "native_text_characters": 5195
+        },
+        {
+          "page": 188,
+          "themes": [
+            "energy"
+          ],
+          "native_text_sha256": "f88b9135cd626ea35bd83c76f74ebfc767c2693a8a25fce44d3325ee84155948",
+          "native_text_characters": 10242
+        },
+        {
+          "page": 189,
+          "themes": [
+            "ghg_emissions"
+          ],
+          "native_text_sha256": "0f7d57b74d80fd23f5ec019d8f8cb6fda2fed1ba252d927d2a57dac62b55f737",
+          "native_text_characters": 11381
+        },
+        {
+          "page": 210,
+          "themes": [
+            "water"
+          ],
+          "native_text_sha256": "387bc9b9f288ee261d032faf1b7881b09cd8335903807c4a5083470e75cd876f",
+          "native_text_characters": 9267
+        },
+        {
+          "page": 221,
+          "themes": [
+            "workforce"
+          ],
+          "native_text_sha256": "004bf69751abbd23b95798f15c22d00828c916cd84ef94aab60c2a3c38acab4d",
+          "native_text_characters": 9606
+        },
+        {
+          "page": 225,
+          "themes": [
+            "health_safety"
+          ],
+          "native_text_sha256": "4ea6372855d7f78ce7acb681c53c62cbe1c96b066a991d205a338a1c69d020da",
+          "native_text_characters": 8903
+        },
+        {
+          "page": 233,
+          "themes": [
+            "targets"
+          ],
+          "native_text_sha256": "e2712d20a1b8cef65bdb254414385ebee541704b068ea72b2d5867da42871ad4",
+          "native_text_characters": 8410
+        },
+        {
+          "page": 244,
+          "themes": [
+            "circularity"
+          ],
+          "native_text_sha256": "89b7ddac3411bfceb176e6534a1deb79d0313b4c7d3617696a32dd9fc8d2f070",
+          "native_text_characters": 10147
+        },
+        {
+          "page": 245,
+          "themes": [
+            "assurance"
+          ],
+          "native_text_sha256": "6872ebf10179a8549a9f53e15c5e35a476d0896390ab4ad119e613cac713cd63",
+          "native_text_characters": 7064
+        }
+      ]
+    },
+    {
+      "document_id": "KB-B004-MONDI-SDR2025",
+      "source_group_id": "KB-MONDI-2025",
+      "local_path": "data/raw/scale_batch_004/mondi-sustainable-development-report-2025.pdf",
+      "document_sha256": "679d3fb649fa89627f78ac07cd23723120b859cf3bf6538036cc91596a8ff46c",
+      "selection_rule": "highest_keyword_hit_page_per_theme_v0.1",
+      "target_pages": [
+        {
+          "page": 37,
+          "themes": [
+            "circularity"
+          ],
+          "native_text_sha256": "c64edcb3aad427bd8198244539e6d66f8d64c16c878161442d0caf643ffd7659",
+          "native_text_characters": 8108
+        },
+        {
+          "page": 46,
+          "themes": [
+            "workforce"
+          ],
+          "native_text_sha256": "e690c7fea224f04cf5daf8632cf26eb344d07cc98be8f5b510506cfc1af19c88",
+          "native_text_characters": 10093
+        },
+        {
+          "page": 48,
+          "themes": [
+            "health_safety"
+          ],
+          "native_text_sha256": "c22e190cd0163e76a5822026e35dbbb3c19c79c04f3c57830d87211284720a59",
+          "native_text_characters": 8967
+        },
+        {
+          "page": 57,
+          "themes": [
+            "targets"
+          ],
+          "native_text_sha256": "3a67dccb789e4d3b9c57da0f117d4723de845b4f8fc471be5198a0c606a42297",
+          "native_text_characters": 6638
+        },
+        {
+          "page": 64,
+          "themes": [
+            "energy",
+            "ghg_emissions"
+          ],
+          "native_text_sha256": "59dea12ce047b0bc8ef01afd7a53c81dcb65d08d9b88f1e366473550bdcc05b2",
+          "native_text_characters": 9131
+        },
+        {
+          "page": 71,
+          "themes": [
+            "biodiversity"
+          ],
+          "native_text_sha256": "e4921a28e8e7de6832f6ca9d87399fa38d9730cd0e58fdefb7f68fb84cf0d586",
+          "native_text_characters": 7785
+        },
+        {
+          "page": 81,
+          "themes": [
+            "water"
+          ],
+          "native_text_sha256": "4e4b49f8a8ad90a4b77badf9b10eed8d45e85bc5ed74aa6410497c9c8712804c",
+          "native_text_characters": 14034
+        },
+        {
+          "page": 107,
+          "themes": [
+            "assurance"
+          ],
+          "native_text_sha256": "893a78c1469a35d01cc520835395ac9e0a4c6095b1cc92b62eb0af8b628ad776",
+          "native_text_characters": 9335
+        }
+      ]
+    },
+    {
+      "document_id": "KB-B004-AIRLIQUIDE-URD2025",
+      "source_group_id": "KB-AIR-LIQUIDE-2025",
+      "local_path": "data/raw/scale_batch_004/air-liquide-urd-2025.pdf",
+      "document_sha256": "128d234ab0c14d6165097a46f21a5bda821554dbd63ee2a7d3052c84956b993b",
+      "selection_rule": "highest_keyword_hit_page_per_theme_v0.1",
+      "target_pages": [
+        {
+          "page": 311,
+          "themes": [
+            "targets"
+          ],
+          "native_text_sha256": "6d98b27155b1bdb0bda4daa6aacb623e88b1a96d67710f2d244514dfdf224565",
+          "native_text_characters": 7486
+        },
+        {
+          "page": 319,
+          "themes": [
+            "ghg_emissions"
+          ],
+          "native_text_sha256": "0d234bfcecd596eb328b70620338f91d7220c00c12d1f2fc9fbcf28e6360f48e",
+          "native_text_characters": 5153
+        },
+        {
+          "page": 324,
+          "themes": [
+            "energy"
+          ],
+          "native_text_sha256": "0decb46e24f181f8b96659ac1449965d2b505a0058e38fc8a1b09d9c1b6c87e3",
+          "native_text_characters": 8816
+        },
+        {
+          "page": 328,
+          "themes": [
+            "water"
+          ],
+          "native_text_sha256": "ee63a752272bb9d6ad17eca5fe54ec3de217e64786d713da13779244f4daaba0",
+          "native_text_characters": 6150
+        },
+        {
+          "page": 330,
+          "themes": [
+            "biodiversity",
+            "circularity"
+          ],
+          "native_text_sha256": "92440220f63e682f71cee0e68181bce11999119fb4fb97d0b2c5516bef997ee8",
+          "native_text_characters": 8823
+        },
+        {
+          "page": 331,
+          "themes": [
+            "workforce"
+          ],
+          "native_text_sha256": "6341f1794b896848b6ac20bb9896875251910d179540e63b9ef4845e252c22e0",
+          "native_text_characters": 5869
+        },
+        {
+          "page": 339,
+          "themes": [
+            "health_safety"
+          ],
+          "native_text_sha256": "9133bcf2e2b26ba593cb9b9e2a5fe5656dc5be1012c2fd85b64b388dd36cf112",
+          "native_text_characters": 4084
+        },
+        {
+          "page": 365,
+          "themes": [
+            "assurance"
+          ],
+          "native_text_sha256": "13f13436f7b9e6495015de9023f41935ede52be731fadbe76244071bf4c75850",
+          "native_text_characters": 6660
+        }
+      ]
+    }
+  ],
+  "totals": {
+    "documents": 3,
+    "unique_target_pages": 25
+  }
+}

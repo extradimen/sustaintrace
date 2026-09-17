@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0",
+  "experiment_id": "P14-V23-UNSEEN-LOCKBOX-V01",
+  "status": "all_13_target_pages_parsed_and_verified",
+  "source_sha256": "db63807f5963c3e70422bbb9a0763f2f53be4139d5ee57984717bfa056275aa2",
+  "parser": "MinerU 3.4.0 pipeline",
+  "runtime_config": "configs/parsers/p14-mineru-3.4.0-runtime.json",
+  "target_pages": [206, 208, 212, 213, 225, 229, 248, 282, 285, 286, 287, 288, 289],
+  "recovery_runs": [
+    {
+      "run": "INITIAL",
+      "result": "infrastructure_failure",
+      "failed_page": 206,
+      "reason": "sandbox_denied_local_loopback_port_binding",
+      "audit_record": "artifacts/p14/mineru_targets/P14-LOREAL-URD2025-p0206/esg_rd_mineru_run.json",
+      "audit_record_sha256": "e0448991746ce5674c12a7af36f0ed729ef1e60c2daf403fd5c6838029b7bc50"
+    },
+    {
+      "run": "RESUME01",
+      "result": "partial_success_then_infrastructure_failure",
+      "successful_pages": [206, 208],
+      "failed_page": 212,
+      "reason": "recursive_mutex_lock_failed_during_local_runtime_shutdown",
+      "failure_audit_record": "artifacts/p14/mineru_targets_RESUME01/P14-LOREAL-URD2025-p0212/esg_rd_mineru_run.json",
+      "failure_audit_record_sha256": "922b800cfcbf654805d6f48322831bc2bcdeba1121872a6b9b58b77c69127c83"
+    },
+    {
+      "run": "RESUME02",
+      "result": "partial_success_then_infrastructure_failure",
+      "reused_pages": [206, 208],
+      "successful_pages": [212, 213, 225, 229],
+      "failed_page": 248,
+      "reason": "recursive_mutex_lock_failed_during_local_runtime_shutdown",
+      "failure_audit_record": "artifacts/p14/mineru_targets_RESUME02/P14-LOREAL-URD2025-p0248/esg_rd_mineru_run.json",
+      "failure_audit_record_sha256": "da0aaf766ae591f8673716653e56a5a82c0ed9a46e1ba5d0bb719bee19cb82d6"
+    },
+    {
+      "run": "RESUME03",
+      "result": "partial_success_then_infrastructure_failure",
+      "reused_pages": [206, 208, 212, 213, 225, 229],
+      "successful_pages": [248, 282, 285, 286, 287],
+      "failed_page": 288,
+      "reason": "recursive_mutex_lock_failed_during_local_runtime_shutdown",
+      "failure_audit_record": "artifacts/p14/mineru_targets_RESUME03/P14-LOREAL-URD2025-p0288/esg_rd_mineru_run.json",
+      "failure_audit_record_sha256": "d021061499a02d16378b389d7e68c9ee374239712f6c6eba96dc6e8060a4079f"
+    },
+    {
+      "run": "RESUME04",
+      "result": "complete",
+      "reused_pages": [206, 208, 212, 213, 225, 229, 248, 282, 285, 286, 287],
+      "successful_pages": [288, 289],
+      "final_registry": "data/manifests/p14_mineru_target_registry_RESUME04_v0.1.json",
+      "final_registry_sha256": "c3db5722d31b01ab412d16815b840ca9131eea97c02a32b89fc5959c745cbf11"
+    }
+  ],
+  "integrity_assertions": {
+    "successful_target_count": 13,
+    "all_run_returncodes_zero": true,
+    "all_source_hashes_match": true,
+    "all_zero_based_page_indices_match": true,
+    "successful_targets_reparsed": false,
+    "cloud_transmission_count": 0
+  }
+}

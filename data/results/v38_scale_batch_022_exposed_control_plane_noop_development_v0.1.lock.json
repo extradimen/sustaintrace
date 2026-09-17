@@ -1,0 +1,39 @@
+{
+  "schema_version": "0.1",
+  "experiment_id": "KB-SCALE-BATCH-022",
+  "development_source": "Batch 22 exposed a valid empty Tier B promotion partition and exact failure-signature aliases",
+  "status": "deterministic_noop_promotion_and_signature_routing_integrated",
+  "change": {
+    "failure_signature": "TIER_B_EMPTY_PROMOTION_PARTITION",
+    "strategy_id": "RS-PREFLIGHT-CONTRACT-REJECT",
+    "description": "Permit a reviewed batch with zero promotable facts to emit a complete fail-closed promotion audit instead of entering the non-empty idempotency branch; register exact duplicate-source and sandbox-loopback signatures with their bounded repair strategies.",
+    "affected_batch": "KB-SCALE-BATCH-022",
+    "candidate_output_mutation": false,
+    "trusted_fact_mutation": false,
+    "locked_batch_replay": false,
+    "semantic_repair": false
+  },
+  "validation": {
+    "all_candidates_reviewed": true,
+    "zero_candidates_promoted": true,
+    "blocked_reason_preserved": "candidate_metric_outside_frozen_assurance_scope",
+    "source_and_assurance_checks_passed": true,
+    "empty_partition_summary_written": true,
+    "prior_locked_batches_modified": false,
+    "focused_regression_tests_passed": 2,
+    "full_pytest_passed": 478,
+    "ruff": "passed"
+  },
+  "evidence": {
+    "implementation": "scripts/promote_scale_batch_019_six_dimension_facts_v01.py",
+    "batch_wrapper": "scripts/promote_scale_batch_022_six_dimension_facts_v01.py",
+    "promotion_audit": "data/results/scale_batch_022_tier_b_promotion.lock.json",
+    "repair_catalog": "configs/knowledge/repair_strategy_catalog_v0.1.json"
+  },
+  "policy": {
+    "cloud_transmission": false,
+    "automatic_execution_enabled": true,
+    "fail_closed": true,
+    "no_promotion_is_a_valid_review_outcome": true
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0",
+  "task_id": "P17-GHG-CALC-001",
+  "reference_author": "codex_gpt_simulated_expert",
+  "reference_status": "verified_against_frozen_page_with_native_layout_cross_check_for_superscript_footnotes",
+  "answer": "BMW Group reported 2025 market-based Scope 1 emissions of 667,275 t CO2e and market-based Scope 2 emissions of 144,145 t CO2e. Their sum is 811,420 t CO2e, exactly equal to the disclosed Scope 1+2 total, so the difference is 0 t CO2e. Compared with 836,963 t CO2e in 2024, the disclosed total decreased by 3.05% (calculated before rounding).",
+  "normalized_value": {
+    "scope_1_2025_tco2e": 667275,
+    "scope_2_market_based_2025_tco2e": 144145,
+    "calculated_scope_1_2_2025_tco2e": 811420,
+    "disclosed_scope_1_2_2025_tco2e": 811420,
+    "difference_tco2e": 0,
+    "disclosed_scope_1_2_2024_tco2e": 836963,
+    "calculated_change_percent": -3.05,
+    "direction": "decrease"
+  },
+  "calculation_plan": {
+    "candidate_input_role_order": ["scope_1_2025", "scope_2_market_based_2025"],
+    "sum_operation": "scope_1_2025 + scope_2_market_based_2025",
+    "change_operation": "(disclosed_2025 - disclosed_2024) / disclosed_2024 * 100",
+    "unit": "t CO2e",
+    "rounding": "two decimal places, half up"
+  },
+  "evidence": [
+    {"source_id":"P17-BMW-GROUP-REPORT-2025","pdf_page":127,"quote":"SCOPE 1: DIRECT GREENHOUSE GAS EMISSIONS"},
+    {"source_id":"P17-BMW-GROUP-REPORT-2025","pdf_page":127,"quote":"667,275"},
+    {"source_id":"P17-BMW-GROUP-REPORT-2025","pdf_page":127,"quote":"SCOPE 2: INDIRECT GREENHOUSE GAS EMISSIONS"},
+    {"source_id":"P17-BMW-GROUP-REPORT-2025","pdf_page":127,"quote":"144,145"},
+    {"source_id":"P17-BMW-GROUP-REPORT-2025","pdf_page":127,"quote":"Total emissions Scope 1+2"},
+    {"source_id":"P17-BMW-GROUP-REPORT-2025","pdf_page":127,"quote":"811,420"},
+    {"source_id":"P17-BMW-GROUP-REPORT-2025","pdf_page":127,"quote":"836,963"}
+  ],
+  "provenance": {"reference_is_simulated":true,"candidate_model_used":false}
+}

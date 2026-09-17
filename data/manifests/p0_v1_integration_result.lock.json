@@ -1,0 +1,26 @@
+{
+  "archive_checksums_sha256": "f31a952f5cf5e3c9af38b19839bbd3af0780ea16f7c1f1dff4944890744f73ab",
+  "completed_at": "2026-09-02T09:02:37+08:00",
+  "content_performance_status": "partial_failure",
+  "dimensions": {
+    "abstention_accuracy": null,
+    "answer_correctness": 0,
+    "boundary_accuracy": 0,
+    "calculation_accuracy": null,
+    "classification_accuracy": 1,
+    "evidence_accuracy": 1,
+    "schema_validity": 1,
+    "status_accuracy": 1
+  },
+  "engineering_integration_status": "passed",
+  "experiment_id": "P0-GEMMA4-12B-V1-INTEGRATION-001",
+  "framework_injection_applied": true,
+  "model_generated_content_sha256": "93b43386c5a54e6f0261c029a252bb72f1f6252e544183a8c744356117a429d3",
+  "normalized_output_sha256": "ad86cca8c6cc3264763378dc1356667e26637fab4e51999d553a988162ba218a",
+  "posthoc_semantic_repair_applied": false,
+  "preregistration_sha256": "efed70b8dc725f7ce59230deb7d317443572151d3e8216adde58ce93202a79e8",
+  "run_id": "gemma4-12b-p0-text-001-v1-r1",
+  "schema_version": "1.0",
+  "score_sha256": "0168551dcb6adafe774128ca09475c455824077836e2dd76cb4d4e9aef4d3f1c",
+  "task_id": "P0-TEXT-001"
+}

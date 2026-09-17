@@ -1,0 +1,17 @@
+{
+  "schema_version":"1.0","experiment_id":"P5-V14-UNSEEN-LOCKBOX-V01-RESUME02","status":"completed_and_scored","candidate_model":"qwen3.5:397b-cloud","candidate_digest":"68d2a0796c11e1fedd0456a2d55e58cca4077be6a218428a7a7f4e21f8177cbc",
+  "task_count":6,
+  "stage_a":{"tasks_run":6,"framework_valid":5,"framework_failed":1,"semantic_exact":5,"semantic_failed_or_undeliverable":1},
+  "stage_b":{"eligible_tasks":5,"framework_valid":4,"framework_failed":1,"complete_semantic_fidelity":4,"deliverable_atomic_claims_exact":11,"required_atomic_claims":13,"raw_candidate_slots_semantically_correct":13},
+  "task_results":{"P5-DEX-001":"exact_stage_a_and_b","P5-CALC-001":"framework_failed_period_not_grounded","P5-SCOPE-001":"stage_a_exact_stage_b_verbatim_grounding_failed","P5-XPAGE-001":"exact_stage_a_and_b","P5-DEX-002":"exact_stage_a_and_b","P5-ASSURE-001":"exact_stage_a_and_b"},
+  "failure_findings":{
+    "P5-CALC-001":"Candidate selected correct values and years, but each narrow numeric cell lacked its year in the cell-local evidence context; fail-closed validation rejected the request.",
+    "P5-SCOPE-001":"Candidate preserved the correct boundary meaning but changed the source curly apostrophe to ASCII, so strict verbatim grounding rejected Stage B."
+  },
+  "archive":{"run_directories":11,"sha256_manifests_verified":11,"verification_failures":0},
+  "verification":{"pytest":"189 passed","ruff":"all checks passed"},
+  "pre_inference_incidents":["initial execution task pack omitted question_status; zero requests sent","MinerU artifact stem differed from document_id; resolved with portable aliases before requests"],
+  "single_candidate_attempt":true,"silent_retry":false,"posthoc_semantic_repair":false,"reference_visible_to_candidate":false,"human_gold_claimed":false,"p3_or_p4_modified":false,
+  "decision":"V1_4_PASSES_UNSEEN_P5_WITH_EXPLICIT_FAIL_CLOSED_LIMITATIONS",
+  "next_iteration":"Develop v1.5 only on exposed P5 failures: bind table cell values to frozen spatial column headers, and use Unicode-normalized comparison while preserving original verbatim evidence."
+}

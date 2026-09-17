@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.0",
+  "derived_from": "data/manifests/p5_source_acquisition_v0.1.lock.json",
+  "documents": [
+    {
+      "document_id": "P5-AHOLD-AR2025",
+      "local_path": "data/raw/p5_staging/ahold-delhaize-annual-report-2025.pdf",
+      "sha256": "0e01680d6285f1cf8f0f30709219d17c4266571a48f0f4b1c1e6505a7f9c628f"
+    }
+  ]
+}

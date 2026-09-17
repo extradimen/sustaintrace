@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "plan_id": "P0-V3-TOOLS-DEV-v0.1",
+  "status": "completed",
+  "evidence_role": "development_only_not_unseen_performance",
+  "framework_version": "V3",
+  "model_snapshot": "gemma4:12b@4eb23ef187e2c5462566d6a1d3bbbc2f1346d0b4327cbb66d58fffbcc9b2b05c",
+  "think": false,
+  "frozen_inputs": {
+    "evidence_handle_policy": "c9d675f161bf007ec78becfbe551d45ce144ff5af38269ed2e5996a4903237e0",
+    "calculation_policy": "9a30288599575711a95ff7d1672fd5051f6eb6fd00b88f19462600b8c2237d3a",
+    "prompt": "89e5c55ef189b9c1cfaaeb4ad706f4fc8e077a6e5eba4f6e41ff8026cb83be67",
+    "v3_tools": "e2b119cfc0484c6098cee9faec82467063ea01898b50531e21b11aa9459030b7",
+    "task_context": "67e0104dec85146862a0cddf7fae50d4fb2b81bababdab33a6842f452e6d9bbb",
+    "task_runner": "467211c261d3172000999848fa5fd412015a38b16bc0a4eafa823de11d482e62",
+    "task_contracts": "7090b223c7df44d92021224569c272fb027e3451b431d3c943b7c6240a6636b3"
+  },
+  "runs": [
+    {"order": 1, "task_id": "P0-CONFLICT-001", "run_id": "gemma4-12b-p0-conflict-001-v3-dev-r1", "include_images": true, "status": "passed"},
+    {"order": 2, "task_id": "P0-CALC-001", "run_id": "gemma4-12b-p0-calc-001-v3-dev-r1", "include_images": true, "status": "expected_safety_rejection"}
+  ],
+  "completed_at": "2026-09-02T10:15:00+08:00",
+  "decision": "v3_engineering_acceptance_passed_proceed_to_p1_freeze"
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-010",
+  "status": "pre_acquisition_source_failure_preserved_and_substituted_before_parsing",
+  "document_id": "KB-B010-NESTLE-NFS2025",
+  "url": "https://www.nestle.com/sites/default/files/2026-02/non-financial-statement-2025.pdf",
+  "attempts": [
+    {
+      "attempt": 1,
+      "method": "curl_follow_redirects_resume",
+      "result": "HTTP_403"
+    },
+    {
+      "attempt": 2,
+      "method": "curl_follow_redirects_resume_browser_user_agent_official_referer",
+      "result": "HTTP_403"
+    }
+  ],
+  "replacement_document_id": "KB-B010-PUMA-AR2025",
+  "replacement_config": "configs/knowledge/scale_batch_010_RESUME01_v0.2.json",
+  "policy": {
+    "failed_source_overwritten": false,
+    "replacement_frozen_before_parsing": true,
+    "cloud_transmission": false
+  }
+}

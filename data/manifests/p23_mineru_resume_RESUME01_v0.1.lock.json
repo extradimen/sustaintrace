@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "manifest_id": "P23-MINERU-RESUME01-v0.1",
+  "experiment_id": "P23-V32-UNSEEN-LOCKBOX-V01",
+  "parent_output_root": "artifacts/p23/mineru_targets",
+  "resume_output_root": "artifacts/p23/mineru_targets_RESUME01",
+  "interruption_class": "infrastructure_permission_error_local_loopback_bind",
+  "interruption_evidence": [
+    "artifacts/p23/mineru_targets/P23-GSK-AR2025-p0054/esg_rd_mineru_run.json",
+    "artifacts/p23/mineru_targets/P23-GSK-AR2025-p0055/esg_rd_mineru_run.json",
+    "artifacts/p23/mineru_targets/P23-GSK-AR2025-p0078/esg_rd_mineru_run.json",
+    "artifacts/p23/mineru_targets/P23-GSK-AR2025-p0079/esg_rd_mineru_run.json"
+  ],
+  "completed_parent_pages": [],
+  "pages_to_run": [54, 55, 78, 79],
+  "frozen_configuration_reused": true,
+  "semantic_retry": false,
+  "cloud_transmission_allowed": false
+}

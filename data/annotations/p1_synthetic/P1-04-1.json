@@ -1,0 +1,10 @@
+{
+  "schema_version": "1.0", "task_id": "P1-04-1", "reference_author": "codex_gpt_simulated_expert", "reference_status": "verified",
+  "question": "Calculate the percentage change in Salesforce's market-based emissions from operations and value chain from fiscal 2023 to fiscal 2024, rounded to two decimals.",
+  "answer_status": "verified_fact", "answer": "3.90% increase", "normalized_value": 3.9, "normalized_unit": "%", "reported_unit": "metric tons CO2e",
+  "subject": "Salesforce, Inc.", "scope_boundary": "emissions from operations and value chain; market-based method", "period": "fiscal 2023 to fiscal 2024",
+  "calculation": {"expression": "(1200000 - 1155000) / 1155000 * 100", "inputs": [1200000, 1155000], "unrounded_result": 3.896103896103896, "rounding_rule": "two decimal places"},
+  "evidence": [{"document_id": "CRM-IR-2024", "document_sha256": "1cdd2fade9f3aca498fb0e4b24f59112f2f6f065ece09c6a6771cda854e9fb80", "pdf_page": 93, "printed_page": "10", "verbatim_excerpt": "Emissions from operations and value chain - MBM 1,200,000 1,155,000", "role": "calculation_input"}],
+  "search_record": {"pages_reviewed": [72, 93], "terms_used": ["Emissions from operations and value chain - MBM"], "notes": "FY2024 and FY2023 column alignment visually verified."},
+  "controlled_intervention_id": null, "provenance_attestation": {"is_human": false, "is_ai_simulation": true, "candidate_model_excluded": true}
+}

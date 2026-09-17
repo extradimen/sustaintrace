@@ -1,0 +1,89 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-030-SUPPLEMENTAL-MINERU-RESUME02",
+  "updated_at": "2026-09-14T02:34:57.831525+00:00",
+  "status": "complete",
+  "cloud_transmission": false,
+  "total_target_pages": 6,
+  "complete_pages": 5,
+  "failed_pages": 1,
+  "pending_pages": 0,
+  "records": [
+    {
+      "document_id": "KB-B030-NCC-ASR2025",
+      "page": 58,
+      "themes": [
+        "biodiversity",
+        "circularity",
+        "water"
+      ],
+      "output_directory": "artifacts/scale_batch_030/mineru_targets_RESUME02/KB-B030-NCC-ASR2025-p0058",
+      "status": "complete",
+      "started_at": "2026-09-14T02:33:26.486145+00:00",
+      "completed_at": "2026-09-14T02:33:41.090397+00:00",
+      "wall_seconds": 14.604233
+    },
+    {
+      "document_id": "KB-B030-NCC-ASR2025",
+      "page": 74,
+      "themes": [
+        "energy"
+      ],
+      "output_directory": "artifacts/scale_batch_030/mineru_targets_RESUME02/KB-B030-NCC-ASR2025-p0074",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_030/mineru_targets_RESUME02/KB-B030-NCC-ASR2025-p0074/esg_rd_mineru_run.json",
+      "started_at": "2026-09-14T02:33:41.092096+00:00",
+      "completed_at": "2026-09-14T02:33:56.999906+00:00",
+      "wall_seconds": 15.907788
+    },
+    {
+      "document_id": "KB-B030-NCC-ASR2025",
+      "page": 78,
+      "themes": [
+        "biodiversity"
+      ],
+      "output_directory": "artifacts/scale_batch_030/mineru_targets_RESUME02/KB-B030-NCC-ASR2025-p0078",
+      "status": "complete",
+      "started_at": "2026-09-14T02:33:57.000271+00:00",
+      "completed_at": "2026-09-14T02:34:13.899314+00:00",
+      "wall_seconds": 16.899023
+    },
+    {
+      "document_id": "KB-B030-NCC-ASR2025",
+      "page": 81,
+      "themes": [
+        "circularity"
+      ],
+      "output_directory": "artifacts/scale_batch_030/mineru_targets_RESUME02/KB-B030-NCC-ASR2025-p0081",
+      "status": "complete",
+      "started_at": "2026-09-14T02:34:13.899647+00:00",
+      "completed_at": "2026-09-14T02:34:28.723136+00:00",
+      "wall_seconds": 14.823472
+    },
+    {
+      "document_id": "KB-B030-NCC-ASR2025",
+      "page": 85,
+      "themes": [
+        "health_safety",
+        "workforce"
+      ],
+      "output_directory": "artifacts/scale_batch_030/mineru_targets_RESUME02/KB-B030-NCC-ASR2025-p0085",
+      "status": "complete",
+      "started_at": "2026-09-14T02:34:28.723476+00:00",
+      "completed_at": "2026-09-14T02:34:42.239064+00:00",
+      "wall_seconds": 13.515571
+    },
+    {
+      "document_id": "KB-B030-NCC-ASR2025",
+      "page": 154,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_030/mineru_targets_RESUME02/KB-B030-NCC-ASR2025-p0154",
+      "status": "complete",
+      "started_at": "2026-09-14T02:34:42.239388+00:00",
+      "completed_at": "2026-09-14T02:34:57.831171+00:00",
+      "wall_seconds": 15.591765
+    }
+  ]
+}

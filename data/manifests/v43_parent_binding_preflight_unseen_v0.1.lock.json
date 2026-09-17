@@ -1,0 +1,32 @@
+{
+  "schema_version": "0.1",
+  "validation_id": "V4.3-DIAGNOSTIC-PARENT-BINDING-PREFLIGHT-UNSEEN-V01",
+  "status": "frozen_before_execution",
+  "selection_rule": "one registered calculation-lineage gap not used by the v4.3 development regression",
+  "fixture": {
+    "fixture_id": "V43-UNSEEN-P22-GHG-CALC-PARENT-BINDING",
+    "fact_record_id": "fact-28a3fc4350ab74c7ab7b7be0",
+    "gap_id": "gap-578c1be1876f1fe12204ab95",
+    "gap_signature": "CALCULATION_LINEAGE_INCOMPLETE"
+  },
+  "satisfied_dimensions": [
+    "calculation_lineage"
+  ],
+  "immutable_stores": {
+    "facts": {
+      "path": "data/knowledge_bases/v0.1/fact_records.jsonl",
+      "sha256": "1da6f28e8c1b3125d07a52d39aed4e095c6f40ef71378173c36a1486f7cb890c"
+    },
+    "gaps": {
+      "path": "data/knowledge_bases/v0.1/knowledge_gap_records.jsonl",
+      "sha256": "858a37ede7bd213c1c3d1e9136d5d8be6bc6e6f12f147124318347cb3a8cef76"
+    }
+  },
+  "execution_contract": {
+    "expected_preflight_status": "passed",
+    "expected_adapter_invocation_count": 1,
+    "diagnostic_execution": "read_only_sentinel_only; historical P22 diagnostic is not rerun",
+    "parent_mutation_forbidden": true,
+    "silent_retry_forbidden": true
+  }
+}

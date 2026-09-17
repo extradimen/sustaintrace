@@ -1,0 +1,322 @@
+{
+  "schema_version": "0.1",
+  "registry_id": "KB-SCALE-BATCH-016-TARGET-PAGES-v0.1",
+  "batch_id": "KB-SCALE-BATCH-016",
+  "created_at": "2026-09-13T09:20:58.930922+00:00",
+  "status": "target_pages_locked_after_assurance_preflight_before_mineru",
+  "cloud_transmission": false,
+  "assurance_window_preflight": [
+    {
+      "document_id": "KB-B016-AKZONOBEL-AR2025",
+      "pages": [
+        224,
+        226
+      ],
+      "required_literal_checks": {
+        "issuer_identity": true,
+        "reporting_period": true,
+        "opinion_or_conclusion": true,
+        "signatory_identity": true
+      },
+      "window_text_sha256": "736f25c893b391bd6bca02feb43f6c69253336f61a2e49db2c73158512d10907",
+      "status": "passed_before_target_freeze"
+    },
+    {
+      "document_id": "KB-B016-NOVONESIS-AR2025",
+      "pages": [
+        197,
+        199
+      ],
+      "required_literal_checks": {
+        "issuer_identity": true,
+        "reporting_period": true,
+        "opinion_or_conclusion": true,
+        "signatory_identity": true
+      },
+      "window_text_sha256": "3a9614edae0e216d148e2d4e4f13c7e3bfbbea781ad8d5151c4a6bee10aa16fe",
+      "status": "passed_before_target_freeze"
+    },
+    {
+      "document_id": "KB-B016-COLOPLAST-AR2025",
+      "pages": [
+        162,
+        164
+      ],
+      "required_literal_checks": {
+        "issuer_identity": true,
+        "reporting_period": true,
+        "opinion_or_conclusion": true,
+        "signatory_identity": true
+      },
+      "window_text_sha256": "33945bab757a6a5ccb670ecb400d254dd8a6f8717472461886f91f062081c6d1",
+      "status": "passed_before_target_freeze"
+    }
+  ],
+  "documents": [
+    {
+      "document_id": "KB-B016-AKZONOBEL-AR2025",
+      "source_group_id": "KB-AKZONOBEL-2025",
+      "local_path": "data/raw/scale_batch_016/akzonobel-annual-report-2025.pdf",
+      "document_sha256": "43dd8b8c446d83c9fdaf93d1b9f6d8e8f26046e017db7a6b089289f186f58541",
+      "selection_rule": "audited_theme_page_selection_v0.3_with_assurance_window_preflight",
+      "target_pages": [
+        {
+          "page": 24,
+          "themes": [
+            "targets"
+          ],
+          "native_text_sha256": "5c6c2d34cf6cbcd4e449e128aaed89d62943f8331b1537d23318ecd177ee9077",
+          "native_text_characters": 9435
+        },
+        {
+          "page": 45,
+          "themes": [
+            "energy"
+          ],
+          "native_text_sha256": "ec30fd5e9f909d04306af75c27dc564795340e12168f0343459e26ca4860145d",
+          "native_text_characters": 8494
+        },
+        {
+          "page": 46,
+          "themes": [
+            "ghg_emissions"
+          ],
+          "native_text_sha256": "0b9eb6c88da7aaa499e247a76add62af520014d6d6038cf40be63262a5d42194",
+          "native_text_characters": 5775
+        },
+        {
+          "page": 49,
+          "themes": [
+            "water"
+          ],
+          "native_text_sha256": "704483fc5b689966fc7183e43dcb4c423fe72b30d1341b7dab4c23db608d2f4e",
+          "native_text_characters": 8054
+        },
+        {
+          "page": 74,
+          "themes": [
+            "circularity"
+          ],
+          "native_text_sha256": "dcda98e4668a9a9154e8f5c8e7289ebbb7e270c3deecbc2312d028aeba7a0647",
+          "native_text_characters": 9037
+        },
+        {
+          "page": 75,
+          "themes": [
+            "health_safety",
+            "workforce"
+          ],
+          "native_text_sha256": "b39d7337534fa6126e25df146dfe0cea19de48b067b94b34511837f247c79bfa",
+          "native_text_characters": 8613
+        },
+        {
+          "page": 77,
+          "themes": [
+            "biodiversity"
+          ],
+          "native_text_sha256": "0a3061bf8993ec83b999d290297be367896006159f20a6e1b4cb798386030ea8",
+          "native_text_characters": 10250
+        },
+        {
+          "page": 224,
+          "themes": [
+            "assurance"
+          ],
+          "native_text_sha256": "4937fd61e158e378e638fd2d6f7f06932be314791195b225c9df61873adb98b8",
+          "native_text_characters": 7626
+        },
+        {
+          "page": 226,
+          "themes": [
+            "assurance"
+          ],
+          "native_text_sha256": "7d2338ac0619d3f866571afa8b1980dee64cc990a57e2588edac999460c3beac",
+          "native_text_characters": 5777
+        }
+      ]
+    },
+    {
+      "document_id": "KB-B016-NOVONESIS-AR2025",
+      "source_group_id": "KB-NOVONESIS-2025",
+      "local_path": "data/raw/scale_batch_016/novonesis-annual-report-2025.pdf",
+      "document_sha256": "dd3bf837735c9cd24760e717099568a0fe012707cb97536ca199e5e2ea98a2dc",
+      "selection_rule": "audited_theme_page_selection_v0.3_with_assurance_window_preflight",
+      "target_pages": [
+        {
+          "page": 71,
+          "themes": [
+            "targets"
+          ],
+          "native_text_sha256": "07b0db8c64b3a2e0e02c878c4b4aa23fdd69ba7a28f1fd0ba0a9633a1f2133b8",
+          "native_text_characters": 3957
+        },
+        {
+          "page": 74,
+          "themes": [
+            "energy"
+          ],
+          "native_text_sha256": "98594c377668805a938f62b41f52873130f6855336300635854ad58b8a5a98ef",
+          "native_text_characters": 8899
+        },
+        {
+          "page": 75,
+          "themes": [
+            "ghg_emissions"
+          ],
+          "native_text_sha256": "d07689da14e980afbfb9bc5bfb4c703b00bd3894769b6ab4c9f5b940857f7041",
+          "native_text_characters": 5820
+        },
+        {
+          "page": 83,
+          "themes": [
+            "water"
+          ],
+          "native_text_sha256": "6bdbc83a17915fff08c59915ee38bad744221a38fbb3e45a5eefa201d09ae05f",
+          "native_text_characters": 6453
+        },
+        {
+          "page": 85,
+          "themes": [
+            "biodiversity"
+          ],
+          "native_text_sha256": "a6424d3b8e2d94bb6559ffb11fc0b29235439feb2242b7bf96845c348d469c54",
+          "native_text_characters": 6303
+        },
+        {
+          "page": 87,
+          "themes": [
+            "circularity"
+          ],
+          "native_text_sha256": "b423d3a6eb4df1c11c1105ae4bb01cfe41fd68f102a4169b4dfd72917830be68",
+          "native_text_characters": 6602
+        },
+        {
+          "page": 96,
+          "themes": [
+            "workforce"
+          ],
+          "native_text_sha256": "feaefb38ae0e58bf317ce4ced0b237760192507381a452ef0b0e6e677933853b",
+          "native_text_characters": 7987
+        },
+        {
+          "page": 99,
+          "themes": [
+            "health_safety"
+          ],
+          "native_text_sha256": "4f41b8f3d77edcfaf514d85fd7c43b0f284833bd4e3cf842985658870e119cfe",
+          "native_text_characters": 3566
+        },
+        {
+          "page": 197,
+          "themes": [
+            "assurance"
+          ],
+          "native_text_sha256": "f3bf9b41bdc9178fe80512a360f4aac994c4d01c5a38a9073cef2fd6cce687af",
+          "native_text_characters": 5351
+        },
+        {
+          "page": 199,
+          "themes": [
+            "assurance"
+          ],
+          "native_text_sha256": "368519727a6f981bf2dab4d20d5c3eff9fc70e36820d9620afbacccc15385474",
+          "native_text_characters": 4142
+        }
+      ]
+    },
+    {
+      "document_id": "KB-B016-COLOPLAST-AR2025",
+      "source_group_id": "KB-COLOPLAST-2024-25",
+      "local_path": "data/raw/scale_batch_016/coloplast-annual-report-2024-25.pdf",
+      "document_sha256": "a59cdb9a92afb70dbabc0e723125c98f1233958a9b02296ff23e3a6855aa642d",
+      "selection_rule": "audited_theme_page_selection_v0.3_with_assurance_window_preflight",
+      "target_pages": [
+        {
+          "page": 48,
+          "themes": [
+            "water"
+          ],
+          "native_text_sha256": "4563523fb9e45fcc37af48052c25c04ea787b40cb6689dfc11797fcf656e358d",
+          "native_text_characters": 3223
+        },
+        {
+          "page": 55,
+          "themes": [
+            "targets"
+          ],
+          "native_text_sha256": "65798055a4a7b5419df3d6b21a229cf9fb1e3b5c53465409b07e53acd3e4c267",
+          "native_text_characters": 10854
+        },
+        {
+          "page": 60,
+          "themes": [
+            "energy"
+          ],
+          "native_text_sha256": "1a4b59efb6f523edfc0c2396a5cfdd4f8a62ff3311d6797d7970b2b714996247",
+          "native_text_characters": 6941
+        },
+        {
+          "page": 61,
+          "themes": [
+            "ghg_emissions"
+          ],
+          "native_text_sha256": "828003a6853d36e16e73323857e7863f30c36d77528988d974d6967e7f0a719a",
+          "native_text_characters": 9234
+        },
+        {
+          "page": 69,
+          "themes": [
+            "circularity"
+          ],
+          "native_text_sha256": "345af215c936a8168f6e0a5371c63d409ae3f3c051de6d4f53cd2f6b1831b62b",
+          "native_text_characters": 11926
+        },
+        {
+          "page": 72,
+          "themes": [
+            "biodiversity"
+          ],
+          "native_text_sha256": "23bd7459b2b6227d00617ba04c51ba3c6ce122422dfb04ecccba172f52927978",
+          "native_text_characters": 4780
+        },
+        {
+          "page": 79,
+          "themes": [
+            "health_safety"
+          ],
+          "native_text_sha256": "10ff5ccafd13cb726b1cd0bd7b6d2aeebe60cff9a1c429a6cfac132c60a18823",
+          "native_text_characters": 8675
+        },
+        {
+          "page": 85,
+          "themes": [
+            "workforce"
+          ],
+          "native_text_sha256": "5899646b6a8dc1848c4c3bf7208101ea73e431e57caf7f80cc49e1be491d52d3",
+          "native_text_characters": 5438
+        },
+        {
+          "page": 162,
+          "themes": [
+            "assurance"
+          ],
+          "native_text_sha256": "e2dac69e8c4f1e5fefeb1e7f9ea021802fa07f8bfdc217a5f81b2233a7059299",
+          "native_text_characters": 6533
+        },
+        {
+          "page": 164,
+          "themes": [
+            "assurance"
+          ],
+          "native_text_sha256": "26f7f44afeb41088c0056e04994fac90e6fdbcca9fa7ae6ab5fb29597ebbbef5",
+          "native_text_characters": 6874
+        }
+      ]
+    }
+  ],
+  "totals": {
+    "documents": 3,
+    "unique_target_pages": 29,
+    "assurance_windows_passed": 3
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-029",
+  "status": "source_set_frozen",
+  "documents": [
+    {
+      "document_id": "KB-B029-INVESTOR-AR2025",
+      "local_path": "data/raw/scale_batch_029/investor-annual-report-2025.pdf",
+      "bytes": 8197575,
+      "pages": 196,
+      "sha256": "e7a5af97f82433a1b1346a26ff2bcca9f342e2399dcbd190f7077ecae3150100",
+      "pdf_valid": true,
+      "exact_sha256_duplicate": false
+    },
+    {
+      "document_id": "KB-B029-VATTENFALL-ASR2025",
+      "local_path": "data/raw/scale_batch_029/vattenfall-annual-and-sustainability-report-2025.pdf",
+      "bytes": 23690227,
+      "pages": 219,
+      "sha256": "be8ba08ffe79f95fea1e82c4484c7b68d1c2abe4c3f46015ffcf9dfebc12533f",
+      "pdf_valid": true,
+      "exact_sha256_duplicate": false
+    },
+    {
+      "document_id": "KB-B029-SWEDAVIA-ASR2025",
+      "local_path": "data/raw/scale_batch_029/swedavia-annual-and-sustainability-report-2025.pdf",
+      "bytes": 17530271,
+      "pages": 198,
+      "sha256": "95c7ad31487d729c99c3d42f3a5344ae1eb506ad1cf3524f6a3d16f1dbfce0d3",
+      "pdf_valid": true,
+      "exact_sha256_duplicate": false
+    }
+  ],
+  "rejected_documents": [
+    {
+      "company": "Swedbank AB (publ)",
+      "reason": "official_download_endpoint_returned_http_403_before_local_file_creation",
+      "frozen": false
+    },
+    {
+      "company": "Stora Enso Oyj",
+      "reason": "exact_sha256_duplicate_of_scale_batch_012_detected_before_freeze",
+      "duplicate_sha256": "00377e8fb8a6b2fc866d38a7f68e6cccd8099c9fe5f79be4da96d7f46bb4bbf0",
+      "frozen": false
+    }
+  ],
+  "cross_experiment_sha256_deduplication": "passed",
+  "cloud_transmission": false
+}

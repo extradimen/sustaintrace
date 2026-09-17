@@ -1,0 +1,7 @@
+{
+  "schema_version": "1.0", "intervention_id": "P1-CI-002", "intervention_type": "numeric_claim_contradiction",
+  "source_document_id": "BN-IR-2024", "source_document_sha256": "1a29f6e56e4f721bacdf1e06dc9f627953807419019d89897d77cdb7a9e8ae28", "source_page": 9,
+  "injected_text": "Danone reduced market-based Scope 1 and 2 energy and industrial emissions by 31.5% from 2020 to 2024.",
+  "known_source_value": 34.5, "injected_value": 31.5, "known_source_unit": "% reduction", "known_source_period": "2020 to 2024",
+  "expected_relation": "contradicted_by_source", "construction_note": "Deliberately false analyst note; not a Danone statement.", "publication_safe": true
+}

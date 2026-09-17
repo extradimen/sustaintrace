@@ -1,0 +1,32 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-001",
+  "status": "infrastructure_failures_preserved_before_resume",
+  "failures": [
+    {
+      "document_id": "KB-B001-SAP-IR2025",
+      "failure_class": "remote_access_policy",
+      "http_status": 403,
+      "server_control": "AkamaiGHost",
+      "partial_file_created": false,
+      "replacement_in_resume01": "KB-B001-VW-SR2025"
+    },
+    {
+      "document_id": "KB-B001-AZ-SDA2025",
+      "failure_class": "remote_access_policy",
+      "http_status": 403,
+      "server_control": "CloudFront",
+      "partial_file_created": false,
+      "replacement_in_resume01": "KB-B001-SSE-SR2025"
+    },
+    {
+      "document_id": "KB-B001-AZ-ASSURANCE2025",
+      "failure_class": "remote_access_policy",
+      "http_status": 403,
+      "server_control": "CloudFront",
+      "partial_file_created": false,
+      "replacement_in_resume01": null
+    }
+  ],
+  "policy_note": "No protected source was bypassed; inaccessible sources remain eligible for a later browser-assisted acquisition lane."
+}

@@ -1,0 +1,8 @@
+{
+  "schema_version":"1.0","task_id":"P1-08-2","reference_author":"codex_gpt_simulated_expert","reference_status":"verified",
+  "question":"A controlled analyst note states that Danone reduced market-based Scope 1 and 2 energy and industrial emissions by 31.5% from 2020 to 2024. Compare this with Danone's report and identify the source-specific conflict.","answer_status":"conflict",
+  "answer":{"official_report_reduction_percent":34.5,"controlled_note_reduction_percent":31.5,"difference_percentage_points":3.0,"relation":"controlled note contradicts official report"},"normalized_value":34.5,"normalized_unit":"% reduction","reported_unit":"%","subject":"Danone S.A.","scope_boundary":"absolute energy and industrial emissions, market-based Scope 1 and 2","period":"2020 to 2024","calculation":{"expression":"34.5 - 31.5","inputs":[34.5,31.5],"unrounded_result":3.0,"rounding_rule":"exact subtraction"},
+  "evidence":[{"document_id":"BN-IR-2024","document_sha256":"1a29f6e56e4f721bacdf1e06dc9f627953807419019d89897d77cdb7a9e8ae28","pdf_page":9,"printed_page":"15-16","verbatim_excerpt":"ABSOLUTE ENERGY AND INDUSTRIAL EMISSIONS REDUCTION, SCOPES 1 AND 2, MARKET-BASED SINCE 2020 34.5% in 2024 vs. baseline","role":"conflict_source"}],
+  "search_record":{"pages_reviewed":[9],"terms_used":["34.5%","Scopes 1 and 2"],"notes":"Compared with separately hashed controlled intervention P1-CI-002."},"controlled_intervention_id":"P1-CI-002",
+  "provenance_attestation":{"is_human":false,"is_ai_simulation":true,"candidate_model_excluded":true}
+}

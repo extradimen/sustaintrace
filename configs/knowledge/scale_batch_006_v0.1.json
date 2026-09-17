@@ -1,0 +1,58 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-006",
+  "status": "source_locked_acquisition_verified",
+  "policy": {
+    "local_only": true,
+    "cloud_transmission": false,
+    "locked_experiments_untouched": ["P3-P23"],
+    "download_resume": true,
+    "overwrite_verified_files": false,
+    "fact_promotion_requires_independent_gate": true
+  },
+  "selection_rationale": "Three previously unused issuers spanning commercial vehicles, tires and mobility, and consumer health and hygiene. Each official English 2025 report contains structured sustainability disclosures suitable for auditable local extraction and later six-dimensional Tier-B review.",
+  "documents": [
+    {
+      "document_id": "KB-B006-VOLVO-AR2025",
+      "source_group_id": "KB-VOLVO-2025",
+      "company": "AB Volvo",
+      "title": "Volvo Group Annual Report 2025",
+      "report_year": 2025,
+      "official_landing_page": "https://www.volvogroup.com/en/news-and-media/events/2026/feb/annual-report-2025.html",
+      "download_url": "https://www.volvogroup.com/content/dam/volvo-group/markets/master/events/2026/volvo-group%E2%80%93annual-report-2025.pdf",
+      "official_domain": "volvogroup.com",
+      "local_path": "data/raw/scale_batch_006/volvo-group-annual-report-2025.pdf",
+      "source_role": "primary_report",
+      "language": "English",
+      "prior_experiment_use": false
+    },
+    {
+      "document_id": "KB-B006-MICHELIN-URD2025",
+      "source_group_id": "KB-MICHELIN-2025",
+      "company": "Compagnie Générale des Établissements Michelin",
+      "title": "2025 Universal Registration Document",
+      "report_year": 2025,
+      "official_landing_page": "https://www.michelin.com/en/publications?search=Registration&year=All+years",
+      "download_url": "https://dgaddcosprod.blob.core.windows.net/cxf-corporate/attachments/f40ixh7py2bnps4raz3p2z4q-universal-registration-document-for-2025.pdf",
+      "official_domain": "michelin.com",
+      "local_path": "data/raw/scale_batch_006/michelin-universal-registration-document-2025.pdf",
+      "source_role": "primary_report",
+      "language": "English",
+      "prior_experiment_use": false
+    },
+    {
+      "document_id": "KB-B006-RECKITT-AR2025",
+      "source_group_id": "KB-RECKITT-2025",
+      "company": "Reckitt Benckiser Group plc",
+      "title": "Annual Report and Accounts 2025",
+      "report_year": 2025,
+      "official_landing_page": "https://www.reckitt.com/investors/latest-annual-report/",
+      "download_url": "https://eu-assets.contentstack.com/v3/assets/blt93c8bc7a598af9f0/blta91d7493b18e1c8c/69c2b58b9279f23ea6e8288b/Reckitt_Annual_Report_and_Accounts_2025_%282%29.pdf",
+      "official_domain": "reckitt.com",
+      "local_path": "data/raw/scale_batch_006/reckitt-annual-report-2025.pdf",
+      "source_role": "primary_report",
+      "language": "English",
+      "prior_experiment_use": false
+    }
+  ]
+}

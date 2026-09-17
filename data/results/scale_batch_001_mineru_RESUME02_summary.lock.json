@@ -1,0 +1,22 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-001-RESUME01",
+  "updated_at": "2026-09-12T14:53:51.597517+00:00",
+  "status": "complete",
+  "cloud_transmission": false,
+  "total_target_pages": 1,
+  "complete_pages": 1,
+  "failed_pages": 0,
+  "pending_pages": 0,
+  "records": [
+    {
+      "document_id": "KB-B001-DANONE-URD2025",
+      "page": 227,
+      "themes": [
+        "ghg_emissions"
+      ],
+      "output_directory": "artifacts/scale_batch_001/mineru_targets_RESUME02/KB-B001-DANONE-URD2025-p0227",
+      "status": "complete"
+    }
+  ]
+}

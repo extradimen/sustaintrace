@@ -1,0 +1,122 @@
+{
+  "document_id": "P18-DEUTSCHE-TELEKOM-AR2025",
+  "document_sha256": "de5d9b0705793c4bf0b994b52ecc242800d79ee18736958dbff32aade7b79a5c",
+  "experiment_id": "P18-V27-UNSEEN-LOCKBOX-V01",
+  "failure_count": 0,
+  "recovery_lineage": [
+    "data/manifests/p18_mineru_recovery_lineage_RESUME01_v0.1.lock.json",
+    "data/manifests/p18_mineru_recovery_lineage_RESUME02_v0.1.lock.json",
+    "data/manifests/p18_mineru_recovery_lineage_RESUME03_v0.1.lock.json"
+  ],
+  "schema_version": "1.0",
+  "status": "all_target_pages_successfully_parsed_and_hash_verified",
+  "success_count": 8,
+  "target_count": 8,
+  "targets": [
+    {
+      "document_id": "P18-DEUTSCHE-TELEKOM-AR2025",
+      "document_sha256": "de5d9b0705793c4bf0b994b52ecc242800d79ee18736958dbff32aade7b79a5c",
+      "output_directory": "artifacts/p18/mineru_targets_RESUME01/P18-DEUTSCHE-TELEKOM-AR2025-p0109",
+      "pdf_page": 109,
+      "recovery_generation": "RESUME01",
+      "run_record_sha256": "54668d17c22613adbd81144a984804030a1f2e1803ae4ccba2b96aaedc73bd90",
+      "status": "success_verified",
+      "target_id": "P18-DEUTSCHE-TELEKOM-AR2025-p0109",
+      "task_ids": [
+        "P18-WORKFORCE-001"
+      ]
+    },
+    {
+      "document_id": "P18-DEUTSCHE-TELEKOM-AR2025",
+      "document_sha256": "de5d9b0705793c4bf0b994b52ecc242800d79ee18736958dbff32aade7b79a5c",
+      "output_directory": "artifacts/p18/mineru_targets_RESUME02/P18-DEUTSCHE-TELEKOM-AR2025-p0121",
+      "pdf_page": 121,
+      "recovery_generation": "RESUME02",
+      "run_record_sha256": "5d83157d564122933d30cd5cf13176edd7df090006807ac0396f244e3bab1e78",
+      "status": "success_verified",
+      "target_id": "P18-DEUTSCHE-TELEKOM-AR2025-p0121",
+      "task_ids": [
+        "P18-TAXONOMY-001"
+      ]
+    },
+    {
+      "document_id": "P18-DEUTSCHE-TELEKOM-AR2025",
+      "document_sha256": "de5d9b0705793c4bf0b994b52ecc242800d79ee18736958dbff32aade7b79a5c",
+      "output_directory": "artifacts/p18/mineru_targets_RESUME03/P18-DEUTSCHE-TELEKOM-AR2025-p0122",
+      "pdf_page": 122,
+      "recovery_generation": "RESUME03",
+      "run_record_sha256": "f29d3219b83f5fa666269d5cebaf75df8bc62571f6e1c7e054516ab6fbac324b",
+      "status": "success_verified",
+      "target_id": "P18-DEUTSCHE-TELEKOM-AR2025-p0122",
+      "task_ids": [
+        "P18-TAXONOMY-001"
+      ]
+    },
+    {
+      "document_id": "P18-DEUTSCHE-TELEKOM-AR2025",
+      "document_sha256": "de5d9b0705793c4bf0b994b52ecc242800d79ee18736958dbff32aade7b79a5c",
+      "output_directory": "artifacts/p18/mineru_targets_RESUME01/P18-DEUTSCHE-TELEKOM-AR2025-p0123",
+      "pdf_page": 123,
+      "recovery_generation": "RESUME01",
+      "run_record_sha256": "7fd1e86f27cbff242a8bdbfbe049985984b1f0a90fcc3b3b403f25a7700c1f27",
+      "status": "success_verified",
+      "target_id": "P18-DEUTSCHE-TELEKOM-AR2025-p0123",
+      "task_ids": [
+        "P18-TAXONOMY-001"
+      ]
+    },
+    {
+      "document_id": "P18-DEUTSCHE-TELEKOM-AR2025",
+      "document_sha256": "de5d9b0705793c4bf0b994b52ecc242800d79ee18736958dbff32aade7b79a5c",
+      "output_directory": "artifacts/p18/mineru_targets_RESUME01/P18-DEUTSCHE-TELEKOM-AR2025-p0131",
+      "pdf_page": 131,
+      "recovery_generation": "RESUME01",
+      "run_record_sha256": "3566c77a73f93117160febc471d25cece5bce8d7ee6dbd373d4922ee6df379cd",
+      "status": "success_verified",
+      "target_id": "P18-DEUTSCHE-TELEKOM-AR2025-p0131",
+      "task_ids": [
+        "P18-ENERGY-001"
+      ]
+    },
+    {
+      "document_id": "P18-DEUTSCHE-TELEKOM-AR2025",
+      "document_sha256": "de5d9b0705793c4bf0b994b52ecc242800d79ee18736958dbff32aade7b79a5c",
+      "output_directory": "artifacts/p18/mineru_targets_RESUME01/P18-DEUTSCHE-TELEKOM-AR2025-p0133",
+      "pdf_page": 133,
+      "recovery_generation": "RESUME01",
+      "run_record_sha256": "117262943506e67cd0f18062464472c9dfb503355e73b48f917dbd149eeae8a1",
+      "status": "success_verified",
+      "target_id": "P18-DEUTSCHE-TELEKOM-AR2025-p0133",
+      "task_ids": [
+        "P18-GHG-CALC-001",
+        "P18-SCOPE3-001"
+      ]
+    },
+    {
+      "document_id": "P18-DEUTSCHE-TELEKOM-AR2025",
+      "document_sha256": "de5d9b0705793c4bf0b994b52ecc242800d79ee18736958dbff32aade7b79a5c",
+      "output_directory": "artifacts/p18/mineru_targets_RESUME01/P18-DEUTSCHE-TELEKOM-AR2025-p0370",
+      "pdf_page": 370,
+      "recovery_generation": "RESUME01",
+      "run_record_sha256": "3d361d67ee170cee46fdaf42c58509b1388b43f00fea0af19b0887fc63d72f9f",
+      "status": "success_verified",
+      "target_id": "P18-DEUTSCHE-TELEKOM-AR2025-p0370",
+      "task_ids": [
+        "P18-ASSURE-001"
+      ]
+    },
+    {
+      "document_id": "P18-DEUTSCHE-TELEKOM-AR2025",
+      "document_sha256": "de5d9b0705793c4bf0b994b52ecc242800d79ee18736958dbff32aade7b79a5c",
+      "output_directory": "artifacts/p18/mineru_targets_RESUME01/P18-DEUTSCHE-TELEKOM-AR2025-p0371",
+      "pdf_page": 371,
+      "recovery_generation": "RESUME01",
+      "run_record_sha256": "c9be06a2c2dd01b7bb6e2a08a260d632689d920949180a88df50af41ae12c481",
+      "status": "success_verified",
+      "target_id": "P18-DEUTSCHE-TELEKOM-AR2025-p0371",
+      "task_ids": [
+        "P18-ASSURE-001"
+      ]
+    }
+  ]
+}

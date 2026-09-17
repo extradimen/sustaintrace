@@ -1,0 +1,35 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-001-RESUME01",
+  "created_at": "2026-09-12T14:20:40.635248+00:00",
+  "source_config": "configs/knowledge/scale_batch_001_RESUME01_v0.2.json",
+  "documents": [
+    {
+      "document_id": "KB-B001-VW-SR2025",
+      "local_path": "data/raw/scale_batch_001/volkswagen-sustainability-report-2025.pdf",
+      "bytes": 9033340,
+      "sha256": "533330a5b8f7fe1f0387fed8fa30cd3053808c26af8e19a3fb96705e9f621131",
+      "pdf_header_valid": true,
+      "download_status": "downloaded",
+      "resumed_from_bytes": 0
+    },
+    {
+      "document_id": "KB-B001-SSE-SR2025",
+      "local_path": "data/raw/scale_batch_001/sse-sustainability-report-2025.pdf",
+      "bytes": 5609648,
+      "sha256": "8637e3b39c08055a32f00e028abf3e82fa31c252043f2cdd5d592b52c4aac83a",
+      "pdf_header_valid": true,
+      "download_status": "downloaded",
+      "resumed_from_bytes": 0
+    },
+    {
+      "document_id": "KB-B001-DANONE-URD2025",
+      "local_path": "data/raw/scale_batch_001/danone-urd-2025-accessible.pdf",
+      "bytes": 15009117,
+      "sha256": "f8607c4e1c499be832f952a4b10b01f9f358a5a3dbf2d90aa416124f024a06e0",
+      "pdf_header_valid": true,
+      "download_status": "downloaded",
+      "resumed_from_bytes": 0
+    }
+  ]
+}

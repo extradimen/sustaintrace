@@ -1,0 +1,78 @@
+{
+  "artifact_sha256": {
+    "configs/knowledge/scale_batch_008_RESUME01_v0.2.json": "44cf44ed1a648f8897f92b423bd505cfee6e536ba017f7b565dbae6da8a63a39",
+    "configs/knowledge/scale_batch_008_v0.1.json": "33ad9ad29478911a4e3c9532aaf0a46099ff7283fd5534e17dbdc72003e8c418",
+    "configs/parsers/scale-batch-008-mineru-3.4.0-runtime.json": "f4cc15451e8552a8130f0dfae3dfec8d63a9646921c25258d2068a7054fa670f",
+    "data/knowledge_bases/v0.1/migration_manifest.lock.json": "378dc7d331e5d38d54cb3eb7325de3a82f238b4d0ccf7619a58e5eff8f8ff012",
+    "data/knowledge_bases/v0.1/tier_b_independent_adjudications.jsonl": "8d61c53708f3549cc50b687b7b8fc5a08e7315d52b058cd1249d409c830753b0",
+    "data/knowledge_bases/v0.1/trusted_fact_records.jsonl": "2d83579886061161524f0e4497ebf4561055dde3b6fb79b9daf93efc8b974b2f",
+    "data/manifests/scale_batch_008_acquisition.lock.json": "2edb33835c4524897860169781f44c800914856b9724adad7211a7e5865c17a6",
+    "data/manifests/scale_batch_008_acquisition_failures.lock.json": "adbde6264a9541d0055c2be4e0faba45f29d23f8d91688209c327fef50cafeee",
+    "data/manifests/scale_batch_008_target_pages.lock.json": "7022b3e6f568bf3ed44797639c640d396d24b791cefa0b1f090aabd694bdd100",
+    "data/results/scale_batch_008_atomic_projection.lock.json": "44bebd85808a7149b1cd526d4ec11209204005bde6de5ad374d90eb41abe4ed1",
+    "data/results/scale_batch_008_atomic_validation.lock.json": "64d46bb964e1ea96b5b5684b3842743948544fc424475e24aeb28ac287f93898",
+    "data/results/scale_batch_008_diagnostics.lock.json": "e7e60140d7b059d7749d82206c7117312b1569d1d9b674173e474d1e1d1a13e2",
+    "data/results/scale_batch_008_gap_repair.lock.json": "a09a7b0d2653ad98421c35010c659eae5c81be1b3e5454d6c8babf118dde284b",
+    "data/results/scale_batch_008_kb_increment.lock.json": "33747c298132a8eb69fdff37f4918e720af6e38e3110add84008b4a211ef9add",
+    "data/results/scale_batch_008_mineru_FINAL_summary.lock.json": "f6bb5656b2f903f6f5d05cfdf3f3e06f426303e68c6852ecf38414c99c485b34",
+    "data/results/scale_batch_008_mineru_RESUME01_summary.lock.json": "0ffe9faeef8b694a87c8e8da037204bb8577b64aa6b27be1f3d68baf4ea23558",
+    "data/results/scale_batch_008_mineru_RESUME02_summary.lock.json": "1b2a61b599a86769e1c45937a66361621602f5f78762969d7d2f6c30e8342aac",
+    "data/results/scale_batch_008_mineru_summary.lock.json": "e34b261b15d78729e69fa85f1ef7ad1ae18d43af36e6e3df6448f1195a1684cb",
+    "data/results/scale_batch_008_native_coordinate_audit.lock.json": "4e6f32c0a40a432fa0d8ab4fe47e8e8b7b14e6e88e010f3f60b3f1b5c6561d4e",
+    "data/results/scale_batch_008_tier_b_promotion.lock.json": "8f8fc8f5ab2d597604f5e0568e4caf63bd2ff8f51b5d807b39804f61acb3fa04"
+  },
+  "atomic_validation": {
+    "coordinate_exact": 2,
+    "native_column_header_present": 2,
+    "native_quote_present": 2,
+    "native_row_header_present": 0,
+    "strictly_corroborated_by_initial_validator": 0,
+    "strictly_corroborated_by_native_layout_audit": 1
+  },
+  "batch_id": "KB-SCALE-BATCH-008",
+  "extractable_source_pages": 427,
+  "frozen_target_pages": 26,
+  "global_knowledge_bases": {
+    "fact_records": 1482,
+    "failure_records": 258,
+    "failure_signatures": 20,
+    "trusted_fact_records": 73
+  },
+  "knowledge_increment": {
+    "atomic_fact_candidates": 2,
+    "evidence_snippet_candidates": 48,
+    "failure_observations": 31,
+    "gap_repair_candidates": 1,
+    "held_tier_c_after_six_dimension_review": 1,
+    "parent_evidence_gaps": 1,
+    "promoted_tier_b": 1,
+    "rejected_ambiguous_table_rows": 0,
+    "remaining_evidence_gaps": 0,
+    "total_new_fact_records": 51
+  },
+  "mineru": {
+    "final_usable_pages": 26,
+    "model_failures": 0,
+    "post_completion_shutdown_recovered_pages": 7,
+    "remaining_failures": 0
+  },
+  "quality_gates": {
+    "automatic_promotion": false,
+    "cloud_transmission": false,
+    "json_artifacts_parse": "passed",
+    "locked_experiments_modified": false,
+    "pytest_collected_and_passed": 458,
+    "ruff": "passed",
+    "sha256_manifest": "passed"
+  },
+  "schema_version": "0.1",
+  "source_documents": 3,
+  "source_pages": 431,
+  "source_substitution": {
+    "reason": "official issuer asset returned HTTP 403 before acquisition freeze",
+    "replaced_document": "Ericsson Annual Report 2025",
+    "replacement": "Vestas Annual Report 2025",
+    "replacement_frozen_before_parsing": true
+  },
+  "status": "local_ingestion_projection_gap_repair_and_tier_b_sampling_complete"
+}

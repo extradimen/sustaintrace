@@ -1,0 +1,48 @@
+{
+  "schema_version": "2.3",
+  "experiment_id": "P14-V23-UNSEEN-LOCKBOX-V01",
+  "status": "passed_pending_explicit_cloud_authorization",
+  "audit_date": "2026-09-09",
+  "gates": {
+    "official_source_and_sha256_frozen": true,
+    "source_pdf_integrity_verified": true,
+    "questions_and_page_windows_frozen_before_reference": true,
+    "mineru_target_pages_complete": "13/13",
+    "mineru_infrastructure_failures_archived": true,
+    "mineru_resume_lineage_complete": true,
+    "reference_page_window_consistency": "43/43",
+    "reference_quote_grounding": "43/43",
+    "reference_contract_key_match": "6/6_tasks_56/56_slots",
+    "direction_literal_consistency": "6/6_decrease_bindings",
+    "framework_owned_calculation": "42428+24206+6355052=6421686;difference=0",
+    "two_dimensional_table_graph": "6_tables_on_5_pages_shape_validated",
+    "slot_contracts_complete": "56/56",
+    "json_validation": "passed",
+    "pytest": "244 passed",
+    "ruff": "passed",
+    "candidate_run_directories_created": 0,
+    "cloud_transmission_detected": false
+  },
+  "artifact_sha256": {
+    "source_acquisition": "e7ee191ed19988e6684f91535718cfed6cdd04ceceae05c21ebae6cee1bf270b",
+    "source_registry": "1610dd307e78698a391accc8ed4e049ec5631d4a3cffd8f838e8bc29b3aab33d",
+    "task_pack": "62953a88f94dffb1e404303aa2b7e435829b99166dfaa837cac97afb44a8201a",
+    "parser_and_task_preregistration": "90d5f59797c9ac7f01e2a4a0fd7bd6c2219020d4a8953c717e9e60061f34f364",
+    "mineru_registry": "c3db5722d31b01ab412d16815b840ca9131eea97c02a32b89fc5959c745cbf11",
+    "mineru_recovery_lineage": "6d2dc289c6266c917168258ea78e1ecc0d1f5ab027ffc05d64cb3a2e7943856a",
+    "reference_and_contract_freeze": "49618c033f47f9a6ebd7a7009f6216bafb0ac9c38a9d45432d28cd7099d6cee5",
+    "slot_contracts": "a03c28d027b35ff72fbe6390370cfafbe52196e752f62b9b428cf160e16c8113",
+    "semantic_qualifiers": "08847cb07fd152ee09a9d9ebc68316e17199a4db59c1d1bce073883d034549db",
+    "two_dimensional_table_graph": "ab25f123868ac09332b1acf95ce527e471737545ba4f5155263b8c883836a44a",
+    "layout_fallback_registry": "b71c8225be72c41583c7e6a0ea661d924abd676d3f993593fa492e68b937b1bf",
+    "calculation_plans": "54cd9443f5577bf003fe594727dd4e513abd73f31a1885237e1537d47b576f60",
+    "local_execution_pack": "ea88e8dce630a545165045ab2732ddad68bc0ce8ed6eb0365a9c368d53dd15f9",
+    "p14_prefreeze_test": "9631e098ec4e645cc55e01624504466e97ebe5aed43a88ed73ee7fb7447cf173"
+  },
+  "release_decision": "All P14 local prefreeze gates passed. Candidate inference remains blocked solely by missing explicit authorization for the L'Oréal report, exact pages, qwen3.5:397b-cloud and P14 Stage A/Stage B single-attempt scope.",
+  "immutability": {
+    "p3_through_p13_modified": false,
+    "p14_candidate_inference_started": false,
+    "reference_edits_after_candidate_inference": false
+  }
+}

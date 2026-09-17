@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "experiment_id": "P19-V28-UNSEEN-LOCKBOX-V01",
+  "document_id": "P19-NOVO-NORDISK-AR2025",
+  "parent_failure": "data/manifests/p19_source_download_failure_INITIAL_v0.1.lock.json",
+  "recovery_generation": "RESUME01",
+  "resume_offset_bytes": 2407125,
+  "transport": "HTTP Range",
+  "final_size_bytes": 32314137,
+  "final_sha256": "f5475f1e043eaa99526772c0e06677a74ab2c2abb8181755afbe02a10e395092",
+  "pdf_pages": 137,
+  "status": "completed_and_verified",
+  "duplicate_download_started": false,
+  "semantic_experiment_started_during_download": false
+}

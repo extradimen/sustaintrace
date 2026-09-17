@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0",
+  "framework_freeze_id": "P1-EXECUTION-PIPELINE-FREEZE-v0.7.1",
+  "model": "gemma4:12b",
+  "model_digest": "4eb23ef187e2c5462566d6a1d3bbbc2f1346d0b4327cbb66d58fffbcc9b2b05c",
+  "status": "superseded_by_v0.7.2_cross_page_acceptance",
+  "results": [
+    {
+      "task_type": "abstention",
+      "task_id": "P1-01-1",
+      "run_id": "P1-01-1-GEMMA4-12B-v071-r1",
+      "outcome": "passed",
+      "framework_evidence_state": "absent",
+      "elapsed_seconds": 736.1278380000003,
+      "sha256s_sha256": "739656dbdcbb74822a8b7ba4bfad8ae6307d44c47ab2bc8e5ef8d47ea1e0055b"
+    },
+    {
+      "task_type": "controlled_conflict",
+      "task_id": "P1-04-2",
+      "run_id": "P1-04-2-GEMMA4-12B-v071-r1",
+      "outcome": "passed",
+      "framework_evidence_state": "contradictory_sources",
+      "elapsed_seconds": 560.7555818750043,
+      "sha256s_sha256": "5f7bca801b60182d72de5d36111f7be77c951da7e0f6d1a575b6528ef8fc445a"
+    }
+  ],
+  "pending": [],
+  "v0.7.2_cross_page_result": {
+    "task_type": "cross_page_relation",
+    "task_id": "P1-09-1",
+    "run_id": "P1-09-1-GEMMA4-12B-v072-r1",
+    "outcome": "passed",
+    "framework_evidence_state": "supported",
+    "elapsed_seconds": 206.15105374999985,
+    "sha256s_sha256": "33e3f1389360f502f54a1965aa928deea3a5554aa41f2d4f3146ecda3dc9ee23"
+  },
+  "methodological_note": "The three acceptance runs used successively frozen prompt hashes. A final same-hash six-type requalification is required before P2."
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "registry_id": "P12-SOURCE-REGISTRY-v0.1",
+  "status": "source_frozen_before_task_authoring_and_candidate_inference",
+  "candidates": [
+    {
+      "candidate_id": "P12-CAND-001",
+      "document_id": "P12-VOLKSWAGEN-AR2025",
+      "company": "Volkswagen Aktiengesellschaft",
+      "title": "Volkswagen Group Annual Report 2025",
+      "language": "English",
+      "eligibility_status": "eligible",
+      "sha256": "6f3f1b606fe771020dad30685ad0140114e0f23fd6f0921bd47f0975e07d4338",
+      "official_landing_page": "https://annualreport2025.volkswagen-group.com/services/downloads.html",
+      "local_path": "data/raw/p12_staging/volkswagen-group-annual-report-2025.pdf",
+      "page_count": 673
+    }
+  ]
+}

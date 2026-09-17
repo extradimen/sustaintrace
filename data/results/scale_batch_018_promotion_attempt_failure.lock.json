@@ -1,0 +1,21 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-018",
+  "created_at": "2026-09-13T12:23:43Z",
+  "stage": "tier_b_adjudication_schema_validation",
+  "status": "failed_preserved_then_corrected_before_any_global_write",
+  "error_type": "ValueError",
+  "error": "record 59 failed schema validation: 'whole_statement_inclusion_with_comparatives_excluded' is not one of ['direct_independent_statement', 'metric_explicitly_listed', 'whole_statement_inclusion_with_exclusions_checked']",
+  "cause": "new descriptive assurance_scope_basis value was not in the frozen controlled vocabulary",
+  "state_impact": {
+    "trusted_fact_records_written_before_failure": false,
+    "tier_b_adjudications_written_before_failure": false,
+    "native_coordinate_audit_completed": true,
+    "locked_experiments_modified": false
+  },
+  "recovery": {
+    "action": "use existing controlled value whole_statement_inclusion_with_exclusions_checked",
+    "semantic_change": false,
+    "successful_result": "data/results/scale_batch_018_tier_b_promotion.lock.json"
+  }
+}

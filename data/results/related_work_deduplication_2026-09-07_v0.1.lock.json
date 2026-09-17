@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-09-07",
+  "status": "initial_deduplication_review_complete",
+  "venues_searched": [
+    "SoftwareX/ScienceDirect",
+    "GitHub",
+    "arXiv",
+    "ACL Anthology"
+  ],
+  "closest_projects": [
+    "CHATREPORT",
+    "Open Sustainability Analyst",
+    "Climate Finance Bench",
+    "ClimRetrieve",
+    "SustainableQA",
+    "Corporate Emission Reports",
+    "ReportParse",
+    "QueryDoc",
+    "ClimaQA"
+  ],
+  "generic_esg_qa_novelty": "not_supported",
+  "full_framework_duplicate_found": false,
+  "qualified_claim": "No exact duplicate was identified in this initial search; systematic bibliographic review remains required before publication.",
+  "recommended_positioning": "atomic-evidence and failure-attributable reliable knowledge discovery and evaluation for corporate sustainability disclosures",
+  "report": "docs/56_同类研究排重与研究定位_v0.1.md"
+}

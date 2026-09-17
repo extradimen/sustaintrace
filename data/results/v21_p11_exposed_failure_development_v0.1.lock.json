@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0",
+  "result_id": "V21-P11-EXPOSED-FAILURE-DEVELOPMENT-V01",
+  "created_at": "2026-09-08T08:50:43+08:00",
+  "status": "development_regression_passed",
+  "development_data_boundary": "P11 exposed failures only",
+  "locked_experiments_unchanged": [
+    "P3", "P4", "P5", "P6", "P7", "P8", "P9", "P10", "P11"
+  ],
+  "implemented": {
+    "grounded_collection_envelope": true,
+    "pre_candidate_object_contract_flattening": true,
+    "grounded_sum_comparison_observation": true,
+    "required_qualifier_fail_closed_gate": true,
+    "stage_a_optional_integration": true,
+    "stage_b_optional_integration": true,
+    "default_behavior_for_older_runs_changed": false
+  },
+  "verification": {
+    "p11_exposed_regressions": "4 passed",
+    "full_pytest": "229 passed",
+    "ruff": "passed"
+  },
+  "sha256": {
+    "configs/framework/v2.1_p11_exposed_failure_preregistration.json": "9199e399b677e79de34af54fda8e3c6e5fef202cfef2319c44e71c626fe2e9fb",
+    "src/esg_reliable_discovery/v21_contract_adapters.py": "41d0c2e55a8f3407c9bb19e8290602f84417eeee233cf380977a7eea233fb64f",
+    "src/esg_reliable_discovery/v21_calculation.py": "fe47c4aeac56a5a2e41c0a9accc33fd649a6309efce817c5613d61a8d855210b",
+    "tests/test_v21_p11_exposed_regression.py": "7248ead24b712df004c931e16b56ca0af922ef30cdc02bb1912d94416a9b67cd",
+    "src/esg_reliable_discovery/v13_atomic_projection.py": "aeb313231e8cd2abaaee03e8f039ef5c338ef2109628806b74cb2b44afdc3bf8",
+    "src/esg_reliable_discovery/v13_stage_a_runner.py": "18a0c472a6fbcf8e12020ce69cf85bb59dace0887b290167d611f2a39606f2cb",
+    "src/esg_reliable_discovery/v13_stage_b_runner.py": "43edc35ac32f95a38459ddd87bd8a4f7841f6a8b4e50717642ea71b491879f32"
+  },
+  "next_milestone": "select and locally freeze a new unseen P12 official English report"
+}

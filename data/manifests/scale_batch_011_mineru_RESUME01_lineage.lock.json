@@ -1,0 +1,24 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-011-RESUME01",
+  "status": "frozen_before_resume_execution",
+  "parent_run": "data/results/scale_batch_011_mineru_summary.lock.json",
+  "parent_run_sha256": "194c0e32b30788aa55edf643fb30b7cc9d9abdff25cc7d0cdcbf7b01537efa41",
+  "registry": "data/manifests/scale_batch_011_target_pages.lock.json",
+  "registry_sha256": "816d68db218f0e6ea3a6ac6e3c20317ad656a77ca6f0162dc31c3f9ab8a980c0",
+  "source_config": "configs/knowledge/scale_batch_011_RESUME01_v0.2.json",
+  "source_config_sha256": "739de6067a6a35ba3f410c52fe4e3ac328544ecd608707364f7b46b9f331a949",
+  "parser_config": "configs/parsers/scale-batch-011-mineru-3.4.0-runtime.json",
+  "parser_config_sha256": "f4cc15451e8552a8130f0dfae3dfec8d63a9646921c25258d2068a7054fa670f",
+  "failed_parent_pages": [
+    "KB-B011-DB-AR2025:p0304",
+    "KB-B011-DB-AR2025:p0341",
+    "KB-B011-DB-AR2025:p0343",
+    "KB-B011-DB-AR2025:p0417"
+  ],
+  "completed_parent_pages_reused": 23,
+  "resume_policy": "run_only_parent_failures_in_new_output_directory",
+  "parent_failure_class": "MINERU_POST_PROCESS_SHUTDOWN_MUTEX_ABORT",
+  "parent_outputs_preserved": true,
+  "cloud_transmission": false
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "experiment_id": "P10-V19-INFRA-RECOVERY-01",
+  "parent_experiment": "P10-V19-UNSEEN-LOCKBOX-V01",
+  "status": "completed",
+  "original_lockbox_modified": false,
+  "aggregate_version_comparison_allowed": false,
+  "single_recovery_attempt_per_stage": true,
+  "recovered": {
+    "P10-CALC-001:stage_a": "passed; deterministic result -5.47945205479452 percent, decrease",
+    "P10-TARGET-001:stage_a": "passed; source-supported answer",
+    "P10-SAFETY-001:stage_b": "failed before model call because frozen slot contracts lack predicate_id"
+  },
+  "interpretation": {
+    "network_hypothesis": "confirmed for CALC and TARGET because identical frozen packets succeeded when transport was available",
+    "safety_stage_b": "original timeout concealed an independent frozen-contract defect; it is not a model failure",
+    "retry_policy": "no further retries"
+  },
+  "verification": {
+    "pytest": "216 passed",
+    "ruff": "passed",
+    "successful_run_sha256_manifests": "verified"
+  },
+  "checkpoint": "data/manifests/p10_infra_recovery_progress.json"
+}

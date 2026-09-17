@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "registry_id": "P20-SOURCE-REGISTRY-v0.1",
+  "experiment_id": "P20-V29-UNSEEN-LOCKBOX-V01",
+  "status": "source_frozen_before_task_authoring_and_candidate_inference",
+  "candidates": [
+    {
+      "candidate_id": "P20-CAND-001",
+      "document_id": "P20-HOLCIM-SS2025",
+      "company": "Holcim Ltd",
+      "title": "Holcim 2025 Sustainability Statement",
+      "language": "English",
+      "eligibility_status": "eligible",
+      "sha256": "55b975cd13fc361638ed13bf32856a2629e46e88bdfc6ad9208bd8807992a599",
+      "official_landing_page": "https://www.holcim.com/investors/publications/annual-report-2025",
+      "local_path": "data/raw/p20_staging/holcim-sustainability-statement-2025.pdf",
+      "page_count": 158
+    }
+  ]
+}

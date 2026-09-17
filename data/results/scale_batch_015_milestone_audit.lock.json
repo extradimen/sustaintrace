@@ -1,0 +1,78 @@
+{
+  "artifact_sha256": {
+    "configs/knowledge/scale_batch_015_v0.1.json": "cd8da82715c7d65c095fe4623233b2bee4b64d32e0f91321a72642e00714b824",
+    "configs/parsers/scale-batch-015-mineru-3.4.0-runtime.json": "f4cc15451e8552a8130f0dfae3dfec8d63a9646921c25258d2068a7054fa670f",
+    "data/knowledge_bases/v0.1/increments/scale_batch_015_atomic_fact_records.jsonl": "b2a6d4972f56a899c2d6b31d4ff5756f598e2d3aba22d200ea268f156c740da7",
+    "data/knowledge_bases/v0.1/increments/scale_batch_015_atomic_validations.jsonl": "6c7f12e213b8663aef912d2b6ce6c1035bcc2d1af20ba1e559f648c42fb01a32",
+    "data/knowledge_bases/v0.1/increments/scale_batch_015_fact_records.jsonl": "2b663e8c79a1380189c1ba59b2b3a97853df72fbcd6fad81807c094f534ecda5",
+    "data/knowledge_bases/v0.1/increments/scale_batch_015_failure_records.jsonl": "c1ba7703527864d5a2edfe97ca88be31ac265ab909c9733504a966f4f313b3da",
+    "data/knowledge_bases/v0.1/migration_manifest.lock.json": "75a55d7ddac2c822a3ca4fc46014125e74ccc026f21b7a9921bd89aec7813e22",
+    "data/knowledge_bases/v0.1/tier_b_independent_adjudications.jsonl": "4dd046ff789bb53f561c86d1b6d55986b9e37b4213991e95971c44c02d606a19",
+    "data/knowledge_bases/v0.1/trusted_fact_records.jsonl": "9a01f25568c2ed95595a0e2a3a027d8f1ec19e3c77e702fdd14041e8e9310df5",
+    "data/manifests/scale_batch_015_acquisition.lock.json": "f3b99d1a803c6d8a20c7524c68fb4e787674d3a61bfbc215e17d7e9634da0043",
+    "data/manifests/scale_batch_015_acquisition_attempt.lock.json": "155e05e6d47c4b83499f37bc69bbbeb36363db3e77e5729aa21315593adcdb8b",
+    "data/manifests/scale_batch_015_mineru_RESUME01_lineage.lock.json": "ce7f2e7ca699bad4eadf9ffbb353a263780936382c088815a501fa26a7e6f5cc",
+    "data/manifests/scale_batch_015_target_pages.lock.json": "8cb80e02a1ee071eef543cc06bbeeb973a3fa00e14128201c7f0ff68833f8cf8",
+    "data/results/scale_batch_015_atomic_projection.lock.json": "66131d549c550982485fb187a02ee01285113b7d565828e483ed9b003dc53b01",
+    "data/results/scale_batch_015_atomic_validation.lock.json": "7c5af3a78f780ddbb21e69293051a519eebc31fe008e31e5ca71e00a350638de",
+    "data/results/scale_batch_015_diagnostics.lock.json": "abadf32fb8996183327051242e9ed5a8ca5011e419a0c75f9f33c09d725ba9d4",
+    "data/results/scale_batch_015_kb_increment.lock.json": "63c61e3c5175f805414206c8815a6b978860b1ab2fe9e31703006f9ead100cfa",
+    "data/results/scale_batch_015_mineru_FINAL_summary.lock.json": "9f7f6e0f2403c01d7cb577096a10dcf4015ac57a62d63db4a3cb25008c5653a2",
+    "data/results/scale_batch_015_mineru_RESUME01_summary.lock.json": "d5a38f9cac6dbee26ff401caceb5532615ec5070b32562428745a600062870e5",
+    "data/results/scale_batch_015_mineru_summary.lock.json": "0f5ec6261a99ecd9783ff7fd6ee036efb76c2754ef7163ed3128eeae76b22a3e",
+    "data/results/scale_batch_015_native_coordinate_audit.lock.json": "cdf47dc086a79f6caf1a4ae0e47f67abdf9b172b55a748a43d30cbb75daf4697",
+    "data/results/scale_batch_015_performance_baseline.lock.json": "5cb1d75e7674f588d8e5b4b637dcb31b649246d825fd40c47d0f90adc0606226",
+    "data/results/scale_batch_015_tier_b_promotion.lock.json": "5067c7a9364f71579b4257a551b469b6f3c08ea29549d005b8a46096fc76aa53"
+  },
+  "assurance_window_preflight_passed": 3,
+  "atomic_validation": {
+    "coordinate_corroborated": 54,
+    "coordinate_exact": 60
+  },
+  "batch_id": "KB-SCALE-BATCH-015",
+  "extractable_source_pages": 897,
+  "frozen_target_pages": 29,
+  "global_knowledge_bases": {
+    "fact_records": 1924,
+    "failure_records": 328,
+    "failure_signatures": 24,
+    "repair_observations": 24,
+    "trusted_fact_records": 107
+  },
+  "knowledge_increment": {
+    "atomic_fact_candidates": 60,
+    "evidence_snippet_candidates": 42,
+    "failure_observations": 6,
+    "held_tier_c_after_six_dimension_review": 38,
+    "promoted_tier_b": 22,
+    "rejected_ambiguous_rows": 11,
+    "remaining_evidence_gaps": 7,
+    "total_new_fact_records": 102
+  },
+  "mineru": {
+    "final_usable_pages": 29,
+    "remaining_failures": 0,
+    "resume01_completed_pages": 3,
+    "successful_pages_per_hour": 162.383097
+  },
+  "performance": {
+    "change_vs_batch_014_percent": 18.594,
+    "checkpoint_reuse_pages": 26,
+    "target_page_success_wall_seconds": 642.92406,
+    "whole_report_pages_per_second": 311.087431,
+    "whole_report_wall_seconds": 2.886648
+  },
+  "quality_gates": {
+    "automatic_promotion": false,
+    "cloud_transmission": false,
+    "json_artifacts_parse": "passed_except_preexisting_known_concatenated_p1_fixture",
+    "locked_experiments_modified": false,
+    "pytest_collected_and_passed": 473,
+    "ruff": "passed",
+    "sha256_manifest": "passed"
+  },
+  "schema_version": "0.1",
+  "source_documents": 3,
+  "source_pages": 898,
+  "status": "local_ingestion_projection_tier_b_review_and_performance_complete"
+}

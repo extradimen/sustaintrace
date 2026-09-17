@@ -1,0 +1,178 @@
+{
+  "parser": "MinerU 3.4.0 pipeline",
+  "schema_version": "1.0",
+  "targets": [
+    {
+      "document_id": "P7-ARCELORMITTAL-SR2025",
+      "document_sha256": "6fea5a01167e914af111dfe0d1699048c4bdeb7ee9214bda85343628bbcb3cd6",
+      "local_path": "data/raw/p7_staging/arcelormittal-sustainability-report-2025.pdf",
+      "output_directory": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/p7/mineru_targets/P7-ARCELORMITTAL-SR2025-p0003",
+      "pdf_page": 3,
+      "run_record_sha256": "796021edbe45432e096bc37e2f9a5046014521eb3d78c7e129ad4081b71f3e64",
+      "status": "reused_verified_success",
+      "target_id": "P7-ARCELORMITTAL-SR2025-p0003",
+      "task_ids": [
+        "P7-CALC-001",
+        "P7-SAFETY-001"
+      ]
+    },
+    {
+      "document_id": "P7-ARCELORMITTAL-SR2025",
+      "document_sha256": "6fea5a01167e914af111dfe0d1699048c4bdeb7ee9214bda85343628bbcb3cd6",
+      "local_path": "data/raw/p7_staging/arcelormittal-sustainability-report-2025.pdf",
+      "output_directory": "artifacts/p7/mineru_targets_RESUME01/P7-ARCELORMITTAL-SR2025-p0004",
+      "output_file_count": 9,
+      "pdf_page": 4,
+      "run_record_sha256": "f1e160aca7e51abc8b40ea8c6975a2c4aa9fda37c288f5524a2c82215f782d71",
+      "status": "parsed",
+      "target_id": "P7-ARCELORMITTAL-SR2025-p0004",
+      "task_ids": [
+        "P7-INTENSITY-001",
+        "P7-PORTFOLIO-001",
+        "P7-TARGET-001"
+      ]
+    },
+    {
+      "document_id": "P7-ARCELORMITTAL-SR2025",
+      "document_sha256": "6fea5a01167e914af111dfe0d1699048c4bdeb7ee9214bda85343628bbcb3cd6",
+      "local_path": "data/raw/p7_staging/arcelormittal-sustainability-report-2025.pdf",
+      "output_directory": "artifacts/p7/mineru_targets_RESUME01/P7-ARCELORMITTAL-SR2025-p0006",
+      "output_file_count": 8,
+      "pdf_page": 6,
+      "run_record_sha256": "bcb90d53bd36c45e982591c3262c72fd5aeea6bbdda471f90bd1efe9014d112c",
+      "status": "parsed",
+      "target_id": "P7-ARCELORMITTAL-SR2025-p0006",
+      "task_ids": [
+        "P7-CALC-001"
+      ]
+    },
+    {
+      "document_id": "P7-ARCELORMITTAL-SR2025",
+      "document_sha256": "6fea5a01167e914af111dfe0d1699048c4bdeb7ee9214bda85343628bbcb3cd6",
+      "local_path": "data/raw/p7_staging/arcelormittal-sustainability-report-2025.pdf",
+      "output_directory": "artifacts/p7/mineru_targets_RESUME01/P7-ARCELORMITTAL-SR2025-p0020",
+      "output_file_count": 9,
+      "pdf_page": 20,
+      "run_record_sha256": "0a58266071be3681ee9378bf5f9ffcc6620d970f3693c7cc4b932026694aecff",
+      "status": "parsed",
+      "target_id": "P7-ARCELORMITTAL-SR2025-p0020",
+      "task_ids": [
+        "P7-PORTFOLIO-001",
+        "P7-TARGET-001"
+      ]
+    },
+    {
+      "document_id": "P7-ARCELORMITTAL-SR2025",
+      "document_sha256": "6fea5a01167e914af111dfe0d1699048c4bdeb7ee9214bda85343628bbcb3cd6",
+      "local_path": "data/raw/p7_staging/arcelormittal-sustainability-report-2025.pdf",
+      "output_directory": "artifacts/p7/mineru_targets_RESUME01/P7-ARCELORMITTAL-SR2025-p0024",
+      "output_file_count": 9,
+      "pdf_page": 24,
+      "run_record_sha256": "fb1da53f4833b88aba98df3933ceb987a72a072cf85d9cc33100a248bf83b532",
+      "status": "parsed",
+      "target_id": "P7-ARCELORMITTAL-SR2025-p0024",
+      "task_ids": [
+        "P7-INTENSITY-001"
+      ]
+    },
+    {
+      "document_id": "P7-ARCELORMITTAL-SR2025",
+      "document_sha256": "6fea5a01167e914af111dfe0d1699048c4bdeb7ee9214bda85343628bbcb3cd6",
+      "local_path": "data/raw/p7_staging/arcelormittal-sustainability-report-2025.pdf",
+      "output_directory": "artifacts/p7/mineru_targets_RESUME01/P7-ARCELORMITTAL-SR2025-p0050",
+      "output_file_count": 9,
+      "pdf_page": 50,
+      "run_record_sha256": "9a6f789b8ea76fa33c32dd2a5f088b7933e6fa0a4e8076ade4faf958e0b9b49c",
+      "status": "parsed",
+      "target_id": "P7-ARCELORMITTAL-SR2025-p0050",
+      "task_ids": [
+        "P7-SAFETY-001"
+      ]
+    },
+    {
+      "document_id": "P7-ARCELORMITTAL-SR2025",
+      "document_sha256": "6fea5a01167e914af111dfe0d1699048c4bdeb7ee9214bda85343628bbcb3cd6",
+      "local_path": "data/raw/p7_staging/arcelormittal-sustainability-report-2025.pdf",
+      "output_directory": "artifacts/p7/mineru_targets_RESUME01/P7-ARCELORMITTAL-SR2025-p0052",
+      "output_file_count": 9,
+      "pdf_page": 52,
+      "run_record_sha256": "573b35a4fedb4089ced77a28fdcd93fb79375e405bcd5111333216bd200bc109",
+      "status": "parsed",
+      "target_id": "P7-ARCELORMITTAL-SR2025-p0052",
+      "task_ids": [
+        "P7-INTENSITY-001"
+      ]
+    },
+    {
+      "document_id": "P7-ARCELORMITTAL-SR2025",
+      "document_sha256": "6fea5a01167e914af111dfe0d1699048c4bdeb7ee9214bda85343628bbcb3cd6",
+      "local_path": "data/raw/p7_staging/arcelormittal-sustainability-report-2025.pdf",
+      "output_directory": "artifacts/p7/mineru_targets_RESUME01/P7-ARCELORMITTAL-SR2025-p0065",
+      "output_file_count": 9,
+      "pdf_page": 65,
+      "run_record_sha256": "65dc676ba249c15ec51af19cb183822471ae9eeb7eeba9d9ad5b6b35f5f9efc1",
+      "status": "parsed",
+      "target_id": "P7-ARCELORMITTAL-SR2025-p0065",
+      "task_ids": [
+        "P7-PORTFOLIO-001"
+      ]
+    },
+    {
+      "document_id": "P7-ARCELORMITTAL-SR2025",
+      "document_sha256": "6fea5a01167e914af111dfe0d1699048c4bdeb7ee9214bda85343628bbcb3cd6",
+      "local_path": "data/raw/p7_staging/arcelormittal-sustainability-report-2025.pdf",
+      "output_directory": "artifacts/p7/mineru_targets_RESUME01/P7-ARCELORMITTAL-SR2025-p0066",
+      "output_file_count": 9,
+      "pdf_page": 66,
+      "run_record_sha256": "cb2248dbf603ae7ef69073c7134227e8d0eb8c2452e6a51400784bf7d508c4f1",
+      "status": "parsed",
+      "target_id": "P7-ARCELORMITTAL-SR2025-p0066",
+      "task_ids": [
+        "P7-PORTFOLIO-001"
+      ]
+    },
+    {
+      "document_id": "P7-ARCELORMITTAL-SR2025",
+      "document_sha256": "6fea5a01167e914af111dfe0d1699048c4bdeb7ee9214bda85343628bbcb3cd6",
+      "local_path": "data/raw/p7_staging/arcelormittal-sustainability-report-2025.pdf",
+      "output_directory": "artifacts/p7/mineru_targets_RESUME01/P7-ARCELORMITTAL-SR2025-p0089",
+      "output_file_count": 9,
+      "pdf_page": 89,
+      "run_record_sha256": "3559e7a0cc3d5ba1265723adea3ef2e1a8ba85574d0b9afd99e20e77c7fb420a",
+      "status": "parsed",
+      "target_id": "P7-ARCELORMITTAL-SR2025-p0089",
+      "task_ids": [
+        "P7-ASSURE-001"
+      ]
+    },
+    {
+      "document_id": "P7-ARCELORMITTAL-SR2025",
+      "document_sha256": "6fea5a01167e914af111dfe0d1699048c4bdeb7ee9214bda85343628bbcb3cd6",
+      "local_path": "data/raw/p7_staging/arcelormittal-sustainability-report-2025.pdf",
+      "output_directory": "artifacts/p7/mineru_targets_RESUME01/P7-ARCELORMITTAL-SR2025-p0090",
+      "output_file_count": 9,
+      "pdf_page": 90,
+      "run_record_sha256": "1732583d15c55152b1c26a9c928eb5943fafc41200492517b03ea124cfe65fa9",
+      "status": "parsed",
+      "target_id": "P7-ARCELORMITTAL-SR2025-p0090",
+      "task_ids": [
+        "P7-ASSURE-001"
+      ]
+    },
+    {
+      "document_id": "P7-ARCELORMITTAL-SR2025",
+      "document_sha256": "6fea5a01167e914af111dfe0d1699048c4bdeb7ee9214bda85343628bbcb3cd6",
+      "local_path": "data/raw/p7_staging/arcelormittal-sustainability-report-2025.pdf",
+      "output_directory": "artifacts/p7/mineru_targets_RESUME01/P7-ARCELORMITTAL-SR2025-p0091",
+      "output_file_count": 9,
+      "pdf_page": 91,
+      "run_record_sha256": "423b24313655a3bf6357b05d6e5faa33912e3590d9a0f32df0927441390562e2",
+      "status": "parsed",
+      "target_id": "P7-ARCELORMITTAL-SR2025-p0091",
+      "task_ids": [
+        "P7-ASSURE-001"
+      ]
+    }
+  ],
+  "unique_target_count": 12
+}

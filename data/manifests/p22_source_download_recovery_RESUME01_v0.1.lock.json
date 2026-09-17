@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "experiment_id": "P22-V31-UNSEEN-LOCKBOX-V01",
+  "document_id": "P22-BAYER-AR2025",
+  "parent_failure": "data/manifests/p22_source_download_failure_INITIAL_v0.1.lock.json",
+  "source_url": "https://reports.bayer.com/annual-report-2025/en/_assets/downloads/entire-bayer-ar25.pdf",
+  "recovery_method": "issuer-operated official Annual Report 2025 download endpoint",
+  "issuer_and_report_identity_changed": false,
+  "third_party_mirror_used": false,
+  "file_size_bytes": 8778862,
+  "sha256": "0af4a9d19fd9d4cba72c1ec062802199873f2379f84112dc2db5dc9605ce769b",
+  "page_count": 430,
+  "status": "recovery_succeeded_and_verified"
+}

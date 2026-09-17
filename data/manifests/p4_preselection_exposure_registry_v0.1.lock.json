@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "status": "active_exclusion_registry",
+  "purpose": "Prevent reports whose substantive contents were exposed before source freeze from entering the P4 unseen lockbox.",
+  "excluded_reports": [
+    {
+      "issuer": "NVIDIA Corporation",
+      "report": "Sustainability Report Fiscal Year 2025",
+      "reason": "Search and PDF discovery output exposed substantive passages and values before source lock."
+    },
+    {
+      "issuer": "Intel Corporation",
+      "report": "2024-25 Corporate Responsibility Report",
+      "reason": "PDF discovery output exposed substantive passages, page locations, targets, and definitions before source lock."
+    }
+  ],
+  "rule": "Any additional report whose substantive body is exposed before hashing and source freeze must be added here and excluded from P4."
+}

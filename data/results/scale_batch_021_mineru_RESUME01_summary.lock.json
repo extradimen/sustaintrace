@@ -1,0 +1,333 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-021-MINERU-RESUME01",
+  "updated_at": "2026-09-13T17:13:18.800984+00:00",
+  "status": "complete",
+  "cloud_transmission": false,
+  "total_target_pages": 26,
+  "complete_pages": 19,
+  "failed_pages": 7,
+  "pending_pages": 0,
+  "records": [
+    {
+      "document_id": "KB-B021-CAPGEMINI-URD2025",
+      "page": 211,
+      "themes": [
+        "circularity"
+      ],
+      "output_directory": "artifacts/scale_batch_021/mineru_targets_RESUME01/KB-B021-CAPGEMINI-URD2025-p0211",
+      "status": "complete",
+      "started_at": "2026-09-13T17:05:21.873483+00:00",
+      "completed_at": "2026-09-13T17:05:41.809575+00:00",
+      "wall_seconds": 19.936204
+    },
+    {
+      "document_id": "KB-B021-CAPGEMINI-URD2025",
+      "page": 214,
+      "themes": [
+        "biodiversity"
+      ],
+      "output_directory": "artifacts/scale_batch_021/mineru_targets_RESUME01/KB-B021-CAPGEMINI-URD2025-p0214",
+      "status": "complete",
+      "started_at": "2026-09-13T17:05:41.809964+00:00",
+      "completed_at": "2026-09-13T17:06:04.783017+00:00",
+      "wall_seconds": 22.973178
+    },
+    {
+      "document_id": "KB-B021-CAPGEMINI-URD2025",
+      "page": 216,
+      "themes": [
+        "water"
+      ],
+      "output_directory": "artifacts/scale_batch_021/mineru_targets_RESUME01/KB-B021-CAPGEMINI-URD2025-p0216",
+      "status": "complete",
+      "started_at": "2026-09-13T17:06:04.783541+00:00",
+      "completed_at": "2026-09-13T17:06:21.137875+00:00",
+      "wall_seconds": 16.354423
+    },
+    {
+      "document_id": "KB-B021-CAPGEMINI-URD2025",
+      "page": 233,
+      "themes": [
+        "workforce"
+      ],
+      "output_directory": "artifacts/scale_batch_021/mineru_targets_RESUME01/KB-B021-CAPGEMINI-URD2025-p0233",
+      "status": "complete",
+      "started_at": "2026-09-13T17:06:21.138247+00:00",
+      "completed_at": "2026-09-13T17:06:38.960965+00:00",
+      "wall_seconds": 17.822817
+    },
+    {
+      "document_id": "KB-B021-CAPGEMINI-URD2025",
+      "page": 256,
+      "themes": [
+        "health_safety"
+      ],
+      "output_directory": "artifacts/scale_batch_021/mineru_targets_RESUME01/KB-B021-CAPGEMINI-URD2025-p0256",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_021/mineru_targets_RESUME01/KB-B021-CAPGEMINI-URD2025-p0256/esg_rd_mineru_run.json",
+      "started_at": "2026-09-13T17:06:38.961349+00:00",
+      "completed_at": "2026-09-13T17:06:54.951400+00:00",
+      "wall_seconds": 15.990138
+    },
+    {
+      "document_id": "KB-B021-CAPGEMINI-URD2025",
+      "page": 317,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_021/mineru_targets_RESUME01/KB-B021-CAPGEMINI-URD2025-p0317",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_021/mineru_targets_RESUME01/KB-B021-CAPGEMINI-URD2025-p0317/esg_rd_mineru_run.json",
+      "started_at": "2026-09-13T17:06:54.951743+00:00",
+      "completed_at": "2026-09-13T17:07:10.292027+00:00",
+      "wall_seconds": 15.340367
+    },
+    {
+      "document_id": "KB-B021-CAPGEMINI-URD2025",
+      "page": 318,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_021/mineru_targets_RESUME01/KB-B021-CAPGEMINI-URD2025-p0318",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_021/mineru_targets_RESUME01/KB-B021-CAPGEMINI-URD2025-p0318/esg_rd_mineru_run.json",
+      "started_at": "2026-09-13T17:07:10.292402+00:00",
+      "completed_at": "2026-09-13T17:07:26.294654+00:00",
+      "wall_seconds": 16.00234
+    },
+    {
+      "document_id": "KB-B021-CAPGEMINI-URD2025",
+      "page": 319,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_021/mineru_targets_RESUME01/KB-B021-CAPGEMINI-URD2025-p0319",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_021/mineru_targets_RESUME01/KB-B021-CAPGEMINI-URD2025-p0319/esg_rd_mineru_run.json",
+      "started_at": "2026-09-13T17:07:26.295068+00:00",
+      "completed_at": "2026-09-13T17:07:42.432480+00:00",
+      "wall_seconds": 16.1375
+    },
+    {
+      "document_id": "KB-B021-CAPGEMINI-URD2025",
+      "page": 320,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_021/mineru_targets_RESUME01/KB-B021-CAPGEMINI-URD2025-p0320",
+      "status": "complete",
+      "started_at": "2026-09-13T17:07:42.433258+00:00",
+      "completed_at": "2026-09-13T17:08:00.006053+00:00",
+      "wall_seconds": 17.572887
+    },
+    {
+      "document_id": "KB-B021-REXEL-URD2025",
+      "page": 226,
+      "themes": [
+        "biodiversity"
+      ],
+      "output_directory": "artifacts/scale_batch_021/mineru_targets_RESUME01/KB-B021-REXEL-URD2025-p0226",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_021/mineru_targets_RESUME01/KB-B021-REXEL-URD2025-p0226/esg_rd_mineru_run.json",
+      "started_at": "2026-09-13T17:08:00.006703+00:00",
+      "completed_at": "2026-09-13T17:08:15.503773+00:00",
+      "wall_seconds": 15.497156
+    },
+    {
+      "document_id": "KB-B021-REXEL-URD2025",
+      "page": 266,
+      "themes": [
+        "energy"
+      ],
+      "output_directory": "artifacts/scale_batch_021/mineru_targets_RESUME01/KB-B021-REXEL-URD2025-p0266",
+      "status": "complete",
+      "started_at": "2026-09-13T17:08:15.504176+00:00",
+      "completed_at": "2026-09-13T17:08:32.262418+00:00",
+      "wall_seconds": 16.758334
+    },
+    {
+      "document_id": "KB-B021-REXEL-URD2025",
+      "page": 269,
+      "themes": [
+        "circularity"
+      ],
+      "output_directory": "artifacts/scale_batch_021/mineru_targets_RESUME01/KB-B021-REXEL-URD2025-p0269",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_021/mineru_targets_RESUME01/KB-B021-REXEL-URD2025-p0269/esg_rd_mineru_run.json",
+      "started_at": "2026-09-13T17:08:32.262839+00:00",
+      "completed_at": "2026-09-13T17:08:47.463181+00:00",
+      "wall_seconds": 15.200426
+    },
+    {
+      "document_id": "KB-B021-REXEL-URD2025",
+      "page": 277,
+      "themes": [
+        "health_safety"
+      ],
+      "output_directory": "artifacts/scale_batch_021/mineru_targets_RESUME01/KB-B021-REXEL-URD2025-p0277",
+      "status": "complete",
+      "started_at": "2026-09-13T17:08:47.463604+00:00",
+      "completed_at": "2026-09-13T17:09:03.485207+00:00",
+      "wall_seconds": 16.02169
+    },
+    {
+      "document_id": "KB-B021-REXEL-URD2025",
+      "page": 341,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_021/mineru_targets_RESUME01/KB-B021-REXEL-URD2025-p0341",
+      "status": "complete",
+      "started_at": "2026-09-13T17:09:03.485632+00:00",
+      "completed_at": "2026-09-13T17:09:19.705755+00:00",
+      "wall_seconds": 16.220211
+    },
+    {
+      "document_id": "KB-B021-REXEL-URD2025",
+      "page": 342,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_021/mineru_targets_RESUME01/KB-B021-REXEL-URD2025-p0342",
+      "status": "complete",
+      "started_at": "2026-09-13T17:09:19.706162+00:00",
+      "completed_at": "2026-09-13T17:09:35.555592+00:00",
+      "wall_seconds": 15.849517
+    },
+    {
+      "document_id": "KB-B021-REXEL-URD2025",
+      "page": 343,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_021/mineru_targets_RESUME01/KB-B021-REXEL-URD2025-p0343",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_021/mineru_targets_RESUME01/KB-B021-REXEL-URD2025-p0343/esg_rd_mineru_run.json",
+      "started_at": "2026-09-13T17:09:35.555988+00:00",
+      "completed_at": "2026-09-13T17:09:50.292113+00:00",
+      "wall_seconds": 14.736205
+    },
+    {
+      "document_id": "KB-B021-REXEL-URD2025",
+      "page": 344,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_021/mineru_targets_RESUME01/KB-B021-REXEL-URD2025-p0344",
+      "status": "complete",
+      "started_at": "2026-09-13T17:09:50.292521+00:00",
+      "completed_at": "2026-09-13T17:10:07.452833+00:00",
+      "wall_seconds": 17.160406
+    },
+    {
+      "document_id": "KB-B021-REXEL-URD2025",
+      "page": 347,
+      "themes": [
+        "water"
+      ],
+      "output_directory": "artifacts/scale_batch_021/mineru_targets_RESUME01/KB-B021-REXEL-URD2025-p0347",
+      "status": "complete",
+      "started_at": "2026-09-13T17:10:07.453374+00:00",
+      "completed_at": "2026-09-13T17:10:28.933667+00:00",
+      "wall_seconds": 21.480411
+    },
+    {
+      "document_id": "KB-B021-EIFFAGE-URD2025",
+      "page": 114,
+      "themes": [
+        "energy"
+      ],
+      "output_directory": "artifacts/scale_batch_021/mineru_targets_RESUME01/KB-B021-EIFFAGE-URD2025-p0114",
+      "status": "complete",
+      "started_at": "2026-09-13T17:10:28.934344+00:00",
+      "completed_at": "2026-09-13T17:10:53.908915+00:00",
+      "wall_seconds": 24.974706
+    },
+    {
+      "document_id": "KB-B021-EIFFAGE-URD2025",
+      "page": 117,
+      "themes": [
+        "ghg_emissions",
+        "targets"
+      ],
+      "output_directory": "artifacts/scale_batch_021/mineru_targets_RESUME01/KB-B021-EIFFAGE-URD2025-p0117",
+      "status": "complete",
+      "started_at": "2026-09-13T17:10:53.910988+00:00",
+      "completed_at": "2026-09-13T17:11:14.892907+00:00",
+      "wall_seconds": 20.982026
+    },
+    {
+      "document_id": "KB-B021-EIFFAGE-URD2025",
+      "page": 126,
+      "themes": [
+        "water"
+      ],
+      "output_directory": "artifacts/scale_batch_021/mineru_targets_RESUME01/KB-B021-EIFFAGE-URD2025-p0126",
+      "status": "complete",
+      "started_at": "2026-09-13T17:11:14.893932+00:00",
+      "completed_at": "2026-09-13T17:11:36.658018+00:00",
+      "wall_seconds": 21.764202
+    },
+    {
+      "document_id": "KB-B021-EIFFAGE-URD2025",
+      "page": 127,
+      "themes": [
+        "biodiversity"
+      ],
+      "output_directory": "artifacts/scale_batch_021/mineru_targets_RESUME01/KB-B021-EIFFAGE-URD2025-p0127",
+      "status": "complete",
+      "started_at": "2026-09-13T17:11:36.658478+00:00",
+      "completed_at": "2026-09-13T17:12:00.881428+00:00",
+      "wall_seconds": 24.13072
+    },
+    {
+      "document_id": "KB-B021-EIFFAGE-URD2025",
+      "page": 144,
+      "themes": [
+        "circularity"
+      ],
+      "output_directory": "artifacts/scale_batch_021/mineru_targets_RESUME01/KB-B021-EIFFAGE-URD2025-p0144",
+      "status": "complete",
+      "started_at": "2026-09-13T17:12:00.882040+00:00",
+      "completed_at": "2026-09-13T17:12:20.354346+00:00",
+      "wall_seconds": 19.472247
+    },
+    {
+      "document_id": "KB-B021-EIFFAGE-URD2025",
+      "page": 218,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_021/mineru_targets_RESUME01/KB-B021-EIFFAGE-URD2025-p0218",
+      "status": "complete",
+      "started_at": "2026-09-13T17:12:20.354887+00:00",
+      "completed_at": "2026-09-13T17:12:40.627804+00:00",
+      "wall_seconds": 20.272853
+    },
+    {
+      "document_id": "KB-B021-EIFFAGE-URD2025",
+      "page": 219,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_021/mineru_targets_RESUME01/KB-B021-EIFFAGE-URD2025-p0219",
+      "status": "complete",
+      "started_at": "2026-09-13T17:12:40.628415+00:00",
+      "completed_at": "2026-09-13T17:13:00.772065+00:00",
+      "wall_seconds": 20.143584
+    },
+    {
+      "document_id": "KB-B021-EIFFAGE-URD2025",
+      "page": 220,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_021/mineru_targets_RESUME01/KB-B021-EIFFAGE-URD2025-p0220",
+      "status": "complete",
+      "started_at": "2026-09-13T17:13:00.772525+00:00",
+      "completed_at": "2026-09-13T17:13:18.800568+00:00",
+      "wall_seconds": 18.027986
+    }
+  ]
+}

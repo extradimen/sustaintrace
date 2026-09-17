@@ -1,0 +1,104 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-025",
+  "status": "table_graphs_built_fail_closed",
+  "source_table_candidates": 2,
+  "graphs": [
+    {
+      "source_fact_record_id": "fact-774fbdfcf6573c6c816c4076",
+      "document_id": "KB-B025-EQUINOR-AR2025",
+      "pdf_page": 123,
+      "graphs": [
+        {
+          "table_index": 0,
+          "status": "ambiguous_no_two_axis_period_header",
+          "rows": [
+            [
+              "Material impact, risk or opportunity Category",
+              "Up- stream",
+              "Own Ops",
+              "Down- stream",
+              "Short term",
+              "Medium term",
+              "Long term"
+            ],
+            [
+              "Land- and sea-use change",
+              "Negative actual impact",
+              "X",
+              "X",
+              "",
+              "X",
+              "X",
+              "X"
+            ],
+            [
+              "Impacts on the state of species",
+              "Negative potential impact",
+              "",
+              "X",
+              "",
+              "X",
+              "X",
+              "X"
+            ],
+            [
+              "Impacts on the extent and condition of ecosystems",
+              "Negative actual impact",
+              "X",
+              "X",
+              "X",
+              "X",
+              "X",
+              "X"
+            ]
+          ],
+          "cells": []
+        }
+      ]
+    },
+    {
+      "source_fact_record_id": "fact-596f0f1e4fcadbeb9527cf08",
+      "document_id": "KB-B025-EQUINOR-AR2025",
+      "pdf_page": 128,
+      "graphs": [
+        {
+          "table_index": 0,
+          "status": "ambiguous_no_two_axis_period_header",
+          "rows": [
+            [
+              "Material impact, risk or opportunity Category",
+              "Up- stream",
+              "Own Ops",
+              "Down- stream",
+              "Short term",
+              "Medium term",
+              "Long term"
+            ],
+            [
+              "Use of virgin resources",
+              "Negative actual impact",
+              "X",
+              "X",
+              "",
+              "X",
+              "X",
+              "X"
+            ],
+            [
+              "Wastewater and drilling waste",
+              "Negative actual impact",
+              "",
+              "X",
+              "",
+              "X",
+              "X",
+              "X"
+            ]
+          ],
+          "cells": []
+        }
+      ]
+    }
+  ]
+}

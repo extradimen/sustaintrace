@@ -1,0 +1,44 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-007",
+  "status": "increment_built_candidates_not_promoted",
+  "fact_candidates": 42,
+  "trusted_facts_promoted": 0,
+  "evidence_gaps": 3,
+  "failure_observations": 19,
+  "gaps": [
+    {
+      "document_id": "KB-B007-ABB-ARS2025",
+      "page": 417,
+      "theme": "ghg_emissions",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B007-NOKIA-AR2025",
+      "page": 56,
+      "theme": "health_safety",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B007-ATLAS-COPCO-AR2025",
+      "page": 55,
+      "theme": "targets",
+      "reason": "no_theme_line_in_mineru_markdown"
+    }
+  ],
+  "outputs": {
+    "facts": {
+      "path": "data/knowledge_bases/v0.1/increments/scale_batch_007_fact_records.jsonl",
+      "sha256": "af434ae9a079920873d500d80cab27c5375db1d15ada79af07d7bb586c44a87b"
+    },
+    "failures": {
+      "path": "data/knowledge_bases/v0.1/increments/scale_batch_007_failure_records.jsonl",
+      "sha256": "1f6a0023c561c4d5e616a0237e95bbca98598ba16e36eed18197b8259d62af59"
+    }
+  },
+  "policy": {
+    "cloud_transmission": false,
+    "locked_experiments_modified": false,
+    "automatic_promotion": false
+  }
+}

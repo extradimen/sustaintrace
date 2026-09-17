@@ -1,0 +1,59 @@
+{
+  "schema_version": "2.5",
+  "experiment_id": "P16-V25-UNSEEN-LOCKBOX-V01",
+  "status": "questions_and_page_windows_frozen_before_reference_creation_and_candidate_inference",
+  "page_coordinate_system": "one_based_pdf_page_index",
+  "document_id": "P16-SANOFI-SS2025",
+  "document_sha256": "82547ddb72b6b05dca88f93ed4cfe13010cb5690a5693b96721e9be3ff9c8fcc",
+  "inference_allowed": false,
+  "tasks": [
+    {
+      "task_id": "P16-GHG-CALC-001",
+      "document_id": "P16-SANOFI-SS2025",
+      "task_type": "deterministic_calculation",
+      "question_status": "frozen",
+      "question": "Using Sanofi's reported 2025 gross market-based Scope 1, gross market-based Scope 2 and significant Scope 3 GHG emissions, calculate their sum and compare it with the disclosed total GHG emissions for the transition-plan scope, retaining the reported ktCO2e unit and explaining any exact or rounding difference.",
+      "target_pages": [38]
+    },
+    {
+      "task_id": "P16-TARGET-001",
+      "document_id": "P16-SANOFI-SS2025",
+      "task_type": "scope_subject_boundary",
+      "question_status": "frozen",
+      "question": "What near-term and net-zero GHG targets does Sanofi report, including base year, Scope 1 and 2 and Scope 3 reduction percentages and years, covered Scope 3 categories, SBTi status following the Opella divestment, treatment of residual emissions, and reported 2025 progress?",
+      "target_pages": [26, 30, 31, 38]
+    },
+    {
+      "task_id": "P16-POLLUTION-001",
+      "document_id": "P16-SANOFI-SS2025",
+      "task_type": "direct_extraction",
+      "question_status": "frozen",
+      "question": "What 2025 air-pollution and substances-of-very-high-concern results does Sanofi report for VOCs, dichloromethane and SVHCs, and what site, solvent-use, threshold, measurement and substance-list boundaries qualify those indicators?",
+      "target_pages": [43, 44, 45]
+    },
+    {
+      "task_id": "P16-SAFETY-001",
+      "document_id": "P16-SANOFI-SS2025",
+      "task_type": "direct_extraction",
+      "question_status": "frozen",
+      "question": "What 2025 own-workforce safety results does Sanofi report for management-system coverage, fatalities, recordable accidents, recordable-accident rate, recordable ill-health cases, lost-time injury frequency and serious injuries, including the stated denominators, voluntary-status notes and December-hours estimate?",
+      "target_pages": [68, 118]
+    },
+    {
+      "task_id": "P16-ACCESS-001",
+      "document_id": "P16-SANOFI-SS2025",
+      "task_type": "scope_subject_boundary",
+      "question_status": "frozen",
+      "question": "What 2025 cumulative Global Health Unit results does Sanofi report for NCD partnerships, countries supported, beneficiaries reached, healthcare professionals and workers engaged, and supply-chain facilities upskilled, and what period and restatement qualifications define these indicators?",
+      "target_pages": [90]
+    },
+    {
+      "task_id": "P16-ASSURE-001",
+      "document_id": "P16-SANOFI-SS2025",
+      "task_type": "scope_subject_boundary",
+      "question_status": "frozen",
+      "question": "What sustainability and EU Taxonomy information is covered by Sanofi's statutory auditors' limited-assurance report, what three conclusions are stated, which professional guidance governs the work, and what comparative-period, forward-looking and assurance-level limitations apply?",
+      "target_pages": [129, 130, 131, 132, 133]
+    }
+  ]
+}

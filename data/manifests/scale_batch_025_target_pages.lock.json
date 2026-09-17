@@ -1,0 +1,372 @@
+{
+  "schema_version": "0.1",
+  "registry_id": "KB-SCALE-BATCH-025-TARGET-PAGES-v0.1",
+  "batch_id": "KB-SCALE-BATCH-025",
+  "created_at": "2026-09-13T19:27:45.621081+00:00",
+  "status": "target_pages_locked_after_assurance_preflight_before_mineru",
+  "cloud_transmission": false,
+  "assurance_window_preflight": [
+    {
+      "document_id": "KB-B025-EQUINOR-AR2025",
+      "pages": [
+        305,
+        306,
+        307
+      ],
+      "required_literal_checks": {
+        "issuer_identity": true,
+        "reporting_period": true,
+        "opinion_or_conclusion": true,
+        "signatory_identity": true
+      },
+      "window_text_sha256": "0eaaa95ef6fe8ce86f85020a6f8fc9cdfa4a211e2ee03a6ca2c611e6c2561c3c",
+      "visual_review": {
+        "pages": [
+          305,
+          307
+        ],
+        "status": "passed_against_rendered_source_before_target_freeze",
+        "checked_fields": [
+          "issuer_identity",
+          "opinion_or_conclusion",
+          "reporting_period",
+          "signatory_identity"
+        ]
+      },
+      "status": "passed_before_target_freeze"
+    },
+    {
+      "document_id": "KB-B025-AKERBP-AR2025",
+      "pages": [
+        126,
+        127
+      ],
+      "required_literal_checks": {
+        "issuer_identity": true,
+        "reporting_period": true,
+        "opinion_or_conclusion": true,
+        "signatory_identity": true
+      },
+      "window_text_sha256": "033ea225b53dd62ed0272f984ae3a7c9109dbc1f0ef91f3a0069da211b6aa110",
+      "visual_review": {
+        "pages": [
+          126,
+          127
+        ],
+        "status": "passed_against_rendered_source_before_target_freeze",
+        "checked_fields": [
+          "issuer_identity",
+          "opinion_or_conclusion",
+          "reporting_period",
+          "signatory_identity"
+        ]
+      },
+      "status": "passed_before_target_freeze"
+    },
+    {
+      "document_id": "KB-B025-DNB-AR2025",
+      "pages": [
+        350,
+        351,
+        352,
+        353
+      ],
+      "required_literal_checks": {
+        "issuer_identity": true,
+        "reporting_period": true,
+        "opinion_or_conclusion": true,
+        "signatory_identity": true
+      },
+      "window_text_sha256": "32ce5e7bd6fe71ed55160caa4c1a37bfdbb0b48e5fa53c65d42a3030331b2f57",
+      "visual_review": {
+        "pages": [
+          350,
+          353
+        ],
+        "status": "passed_against_rendered_source_before_target_freeze",
+        "checked_fields": [
+          "issuer_identity",
+          "opinion_or_conclusion",
+          "reporting_period",
+          "signatory_identity"
+        ]
+      },
+      "status": "passed_before_target_freeze"
+    }
+  ],
+  "documents": [
+    {
+      "document_id": "KB-B025-EQUINOR-AR2025",
+      "source_group_id": "KB-EQUINOR-2025",
+      "local_path": "data/raw/scale_batch_025/equinor-annual-report-2025.pdf",
+      "document_sha256": "4266bb0b2f31bb9a8cc2ed11248cd579e0f98bb3c81fcffaf5c93a89e62e5d98",
+      "selection_rule": "audited_theme_page_selection_v0.8_with_complete_signed_assurance_window_preflight_visual_review_and_duplicate_gate",
+      "target_pages": [
+        {
+          "page": 101,
+          "themes": [
+            "targets"
+          ],
+          "native_text_sha256": "09d59db7d9f8acd4f8252fb3e96e2cb120ae81cb5f64d1c3e4c59ec700a28c74",
+          "native_text_characters": 10686
+        },
+        {
+          "page": 112,
+          "themes": [
+            "energy"
+          ],
+          "native_text_sha256": "4994d25574cf2b4389f6eaf8234dbfe0bee707c6fa70db1c891972eda343e7ce",
+          "native_text_characters": 10077
+        },
+        {
+          "page": 113,
+          "themes": [
+            "ghg_emissions"
+          ],
+          "native_text_sha256": "3cc344cc58f06179956ec536b223dde18616e0a99efe41910c5534a8f5789ed2",
+          "native_text_characters": 11030
+        },
+        {
+          "page": 123,
+          "themes": [
+            "biodiversity"
+          ],
+          "native_text_sha256": "b2e4870ceb849f769196fc04cf7dd399c2bee8c5eecd2301aee5d2c335f7c56e",
+          "native_text_characters": 9409
+        },
+        {
+          "page": 128,
+          "themes": [
+            "circularity"
+          ],
+          "native_text_sha256": "d88ca4f83cadc23c47ec351966b197dd367bba4bbae432bc4d7b4aa8b5384364",
+          "native_text_characters": 10094
+        },
+        {
+          "page": 138,
+          "themes": [
+            "workforce"
+          ],
+          "native_text_sha256": "46b85ab47e5005c5661df354106e80a772a04146f20c77b0ce06114f7da385c9",
+          "native_text_characters": 7759
+        },
+        {
+          "page": 162,
+          "themes": [
+            "health_safety"
+          ],
+          "native_text_sha256": "3cff552561e6aaf6ab20186e2ceb08b947f5ff811b021f0cba57671d256f026d",
+          "native_text_characters": 4119
+        },
+        {
+          "page": 305,
+          "themes": [
+            "assurance"
+          ],
+          "native_text_sha256": "9873f6254e529e5644804dd0f621c471ea9ef5861b6e7e2d7996b8362bbf79f1",
+          "native_text_characters": 3689
+        },
+        {
+          "page": 306,
+          "themes": [
+            "assurance"
+          ],
+          "native_text_sha256": "0340e4fc0c47484e57b02adcb2008d608854a7b8e137d2eb9ff2cba7d7602e9d",
+          "native_text_characters": 5969
+        },
+        {
+          "page": 307,
+          "themes": [
+            "assurance"
+          ],
+          "native_text_sha256": "54132045877f0c89b829e1e921af6334943d7016d06a20486253cfcaf246f00f",
+          "native_text_characters": 4753
+        }
+      ]
+    },
+    {
+      "document_id": "KB-B025-AKERBP-AR2025",
+      "source_group_id": "KB-AKERBP-2025",
+      "local_path": "data/raw/scale_batch_025/aker-bp-annual-report-2025.pdf",
+      "document_sha256": "c5afca29558be6e5daf6cf8e31b378fdd2542bd29b847f3ec96fce10172a1a15",
+      "selection_rule": "audited_theme_page_selection_v0.8_with_complete_signed_assurance_window_preflight_visual_review_and_duplicate_gate",
+      "target_pages": [
+        {
+          "page": 62,
+          "themes": [
+            "targets"
+          ],
+          "native_text_sha256": "3f889c85c29c2673f8eb5b23849c4f7bef1691ef0387fff500245846b9cdd89f",
+          "native_text_characters": 3738
+        },
+        {
+          "page": 73,
+          "themes": [
+            "energy"
+          ],
+          "native_text_sha256": "5be71e78ecdc64847dd116dc43fb2d51a5b12ce71c4d23079de60ae24244f3b7",
+          "native_text_characters": 8510
+        },
+        {
+          "page": 74,
+          "themes": [
+            "ghg_emissions"
+          ],
+          "native_text_sha256": "7c18609dfdeeba4a88e7ae20bd0cab24f5ab29d490479bcceeff942ca4096496",
+          "native_text_characters": 5968
+        },
+        {
+          "page": 85,
+          "themes": [
+            "water"
+          ],
+          "native_text_sha256": "9dc6d4fb937e458245dacd41d0950db9444a2c2a3e7a6df495ffbf1d426429a3",
+          "native_text_characters": 3193
+        },
+        {
+          "page": 86,
+          "themes": [
+            "biodiversity"
+          ],
+          "native_text_sha256": "f9b30744eb33ad8c7b32706d5d8380e0f9972f192b66765647da114496211720",
+          "native_text_characters": 8130
+        },
+        {
+          "page": 94,
+          "themes": [
+            "circularity"
+          ],
+          "native_text_sha256": "250ddec5d1eacfd37d5bbf2ec911b665cdf25716c1ed8a6745537f837b5607fc",
+          "native_text_characters": 6114
+        },
+        {
+          "page": 103,
+          "themes": [
+            "workforce"
+          ],
+          "native_text_sha256": "05132068f2b2c85eb99895983e11107e1c6a954b9ce8c796152bb225e9feb438",
+          "native_text_characters": 8371
+        },
+        {
+          "page": 110,
+          "themes": [
+            "health_safety"
+          ],
+          "native_text_sha256": "6ac9352ededea88d7ab968f3249e4eada91eed6ed014ca0833610e4154dc8699",
+          "native_text_characters": 7008
+        },
+        {
+          "page": 126,
+          "themes": [
+            "assurance"
+          ],
+          "native_text_sha256": "0fe21da60fce943671750b9dd5cea77ece6c31afa9dd9e99001d5565d08f1b68",
+          "native_text_characters": 15958
+        },
+        {
+          "page": 127,
+          "themes": [
+            "assurance"
+          ],
+          "native_text_sha256": "97ccf2209a494d149862420e4d9abcc5bebb5c1e0a42e2a6ff614197bea86260",
+          "native_text_characters": 4833
+        }
+      ]
+    },
+    {
+      "document_id": "KB-B025-DNB-AR2025",
+      "source_group_id": "KB-DNB-2025",
+      "local_path": "data/raw/scale_batch_025/dnb-annual-report-2025.pdf",
+      "document_sha256": "e793bbb20582975be0ee87825cafe7d05ad8e80f986f446d8cbfad7e2c84c125",
+      "selection_rule": "audited_theme_page_selection_v0.8_with_complete_signed_assurance_window_preflight_visual_review_and_duplicate_gate",
+      "target_pages": [
+        {
+          "page": 83,
+          "themes": [
+            "targets"
+          ],
+          "native_text_sha256": "3d87d0c8b4ad3b55fc07e43a9b99759468e9a1a2280c47967af9826c6a3c0583",
+          "native_text_characters": 7964
+        },
+        {
+          "page": 94,
+          "themes": [
+            "health_safety"
+          ],
+          "native_text_sha256": "3c91547aea2b393751782dc2a12b398b5b6ff0aba34489ca04efe9e422659014",
+          "native_text_characters": 4068
+        },
+        {
+          "page": 124,
+          "themes": [
+            "energy"
+          ],
+          "native_text_sha256": "abc11efb324a237c0a57c5aa74d18e331d757538208fda46304b79bfbbff238d",
+          "native_text_characters": 4698
+        },
+        {
+          "page": 134,
+          "themes": [
+            "ghg_emissions"
+          ],
+          "native_text_sha256": "37e17a5c9b66221003e01aefaa33f4ecb1deea8b1404bd8e1c43e2b5c428c737",
+          "native_text_characters": 4379
+        },
+        {
+          "page": 154,
+          "themes": [
+            "workforce"
+          ],
+          "native_text_sha256": "78a662eb50ca245145e912f1e955168f080bf50229fd6d18d0364726ac48f40f",
+          "native_text_characters": 7409
+        },
+        {
+          "page": 202,
+          "themes": [
+            "biodiversity",
+            "circularity"
+          ],
+          "native_text_sha256": "c7a5082ae26d35a303ddcd03aeaee0755a367f6f5f7902cc550bea1513ae56cb",
+          "native_text_characters": 80293
+        },
+        {
+          "page": 350,
+          "themes": [
+            "assurance"
+          ],
+          "native_text_sha256": "180225790c2149652a577dd44938d87860354c6d2c1836cd687d54739e8d7fc9",
+          "native_text_characters": 4479
+        },
+        {
+          "page": 351,
+          "themes": [
+            "assurance"
+          ],
+          "native_text_sha256": "68193ae959891929a4d03f53835f3b81e9d759a956cbc5215e2ab6199abd054d",
+          "native_text_characters": 4902
+        },
+        {
+          "page": 352,
+          "themes": [
+            "assurance"
+          ],
+          "native_text_sha256": "7a0f62c890f5d38876a49f141c5af1e73961afa26ea460c543ac2e6f109de062",
+          "native_text_characters": 4629
+        },
+        {
+          "page": 353,
+          "themes": [
+            "assurance"
+          ],
+          "native_text_sha256": "8b81776474166702fa408ec051926166285501ac1661adfcf411860c9c62513e",
+          "native_text_characters": 794
+        }
+      ]
+    }
+  ],
+  "totals": {
+    "documents": 3,
+    "unique_target_pages": 30,
+    "assurance_windows_passed": 3
+  }
+}

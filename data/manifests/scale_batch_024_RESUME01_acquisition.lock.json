@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.2",
+  "batch_id": "KB-SCALE-BATCH-024-RESUME01",
+  "parent_batch_id": "KB-SCALE-BATCH-024",
+  "status": "replacement_source_set_frozen",
+  "documents": [
+    {
+      "document_id": "KB-B024-FORTUM-FIN2025",
+      "local_path": "data/raw/scale_batch_024/fortum-financials-2025.pdf",
+      "bytes": 12403590,
+      "pages": 258,
+      "sha256": "0f348698addddf27181efe6c999fe17f4ca4390c510e97ce192d254c029764ce",
+      "pdf_valid": true,
+      "exact_sha256_duplicate": false
+    },
+    {
+      "document_id": "KB-B024-YARA-AR2025",
+      "local_path": "data/raw/scale_batch_024/yara-annual-report-2025.pdf",
+      "bytes": 7728369,
+      "pages": 321,
+      "sha256": "95ecc7a0b18ca97ee9d579bc3799ed58052a31584ef6b21ac55d466aa77ce5d2",
+      "pdf_valid": true,
+      "exact_sha256_duplicate": false
+    },
+    {
+      "document_id": "KB-B024-TELENOR-AR2025",
+      "local_path": "data/raw/scale_batch_024/telenor-annual-report-2025.pdf",
+      "bytes": 20073365,
+      "pages": 299,
+      "sha256": "308f8724d892dfb85582b8278c3a9852b8771f5cd2297fde020916ccecb2d701",
+      "pdf_valid": true,
+      "exact_sha256_duplicate": false
+    }
+  ],
+  "rejected_documents": [
+    {
+      "document_id": "KB-B024-HYDRO-IAR2025",
+      "local_path": "data/raw/scale_batch_024/hydro-integrated-annual-report-2025.pdf",
+      "sha256": "ce2c00e3511a18b4620472e939aa4d213103d35ef7fff968a99fd5f8b0578513",
+      "failure_signature": "ISSUER_SOURCE_ASSURANCE_REPORT_SEPARATE",
+      "evidence": "PDF page 70 says limited assurance is explained in the assurance opinion, while full-document text contains only cross-references and no signed KPMG assurance opinion"
+    }
+  ],
+  "cross_experiment_sha256_deduplication": "passed",
+  "cloud_transmission": false
+}

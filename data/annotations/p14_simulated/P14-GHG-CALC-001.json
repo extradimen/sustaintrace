@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "task_id": "P14-GHG-CALC-001",
+  "reference_author": "codex_gpt_simulated_expert",
+  "reference_status": "verified_against_frozen_pages",
+  "answer": "For 2025 L'Oreal reported Scope 1 of 42,428 tCO2eq, market-based Scope 2 of 24,206 tCO2eq and total Scope 3 of 6,355,052 tCO2eq. Their sum is 6,421,686 tCO2eq, exactly equal to the disclosed market-based total, so the difference is 0 tCO2eq.",
+  "normalized_value": {
+    "scope_1_tco2e": 42428,
+    "market_scope_2_tco2e": 24206,
+    "scope_3_tco2e": 6355052,
+    "calculated_total_tco2e": 6421686,
+    "disclosed_total_tco2e": 6421686,
+    "difference_tco2e": 0,
+    "comparison": "exact_equal",
+    "rounding_context": "all inputs and total disclosed as whole tCO2eq"
+  },
+  "evidence": [
+    {"source_id": "P14-LOREAL-URD2025", "pdf_page": 213, "quote": "Gross Scope 1 GHG emissions"},
+    {"source_id": "P14-LOREAL-URD2025", "pdf_page": 213, "quote": "42,428"},
+    {"source_id": "P14-LOREAL-URD2025", "pdf_page": 213, "quote": "24,206"},
+    {"source_id": "P14-LOREAL-URD2025", "pdf_page": 213, "quote": "Total Scope 3 GHG emissions"},
+    {"source_id": "P14-LOREAL-URD2025", "pdf_page": 213, "quote": "6,355,052"},
+    {"source_id": "P14-LOREAL-URD2025", "pdf_page": 213, "quote": "6,421,686"}
+  ],
+  "provenance": {"reference_is_simulated": true, "candidate_model_used": false}
+}

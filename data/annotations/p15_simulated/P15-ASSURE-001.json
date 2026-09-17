@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "task_id": "P15-ASSURE-001",
+  "reference_author": "codex_gpt_simulated_expert",
+  "reference_status": "verified_against_frozen_pages",
+  "answer": "The independent practitioner provided limited assurance over the 2025 Sustainability Information marked with Δ on report pages 12, 18, 22, 25, 27, 30, 32, 33, 35, 36 and 39. Nothing came to attention indicating that it was not prepared, in all material respects, under the Reporting Criteria. The engagement followed ISAE 3000 (Revised) and, for GHG statements, ISAE 3410. It excludes earlier periods, other report/Annual Report/Form 20-F/website information and media; expresses no conclusion that 124,300 tonnes of carbon-removal credits caused or will cause that reduction; and provides no assurance on forward-looking assumptions or achievability. Limited-assurance procedures are less extensive than reasonable assurance and therefore provide substantially lower assurance.",
+  "normalized_value": {
+    "assurance_level": "limited assurance",
+    "covered_pages": "12, 18, 22, 25, 27, 30, 32, 33, 35, 36 and 39 marked with Δ",
+    "reporting_period": "year ended December 31, 2025",
+    "conclusion": "nothing has come to our attention that causes us to believe the Sustainability Information is not prepared, in all material respects, in accordance with the Reporting Criteria",
+    "standards": "ISAE 3000 (Revised) and ISAE 3410 for greenhouse gas emissions",
+    "earlier_and_other_information_exclusion": "earlier periods and other information in the Report, Annual Report, Form 20-F or website, including images, audio and embedded videos",
+    "carbon_credit_conclusion_exclusion": "no conclusion whether carbon removal credits resulted or will result in a reduction of 124,300 tonnes CO2e",
+    "forward_looking_exclusion": "no assurance on assumptions and achievability of forward-looking information",
+    "relative_assurance": "procedures are less extensive than reasonable assurance and the assurance level is substantially lower"
+  },
+  "evidence": [
+    {"source_id": "P15-NOVARTIS-NFM2025", "pdf_page": 43, "quote": "limited assurance engagement"},
+    {"source_id": "P15-NOVARTIS-NFM2025", "pdf_page": 43, "quote": "pages 12, 18, 22, 25, 27, 30, 32, 33, 35, 36 and 39"},
+    {"source_id": "P15-NOVARTIS-NFM2025", "pdf_page": 43, "quote": "nothing has come to our attention"},
+    {"source_id": "P15-NOVARTIS-NFM2025", "pdf_page": 43, "quote": "earlier periods"},
+    {"source_id": "P15-NOVARTIS-NFM2025", "pdf_page": 43, "quote": "we express no conclusion about whether the carbon removal credits have resulted, or will result"},
+    {"source_id": "P15-NOVARTIS-NFM2025", "pdf_page": 43, "quote": "We do not provide any assurance on the assumptions and achievability of forward-looking information"},
+    {"source_id": "P15-NOVARTIS-NFM2025", "pdf_page": 44, "quote": "ISAE 3000"},
+    {"source_id": "P15-NOVARTIS-NFM2025", "pdf_page": 44, "quote": "ISAE 3410"},
+    {"source_id": "P15-NOVARTIS-NFM2025", "pdf_page": 44, "quote": "substantially lower than the assurance"}
+  ],
+  "provenance": {"reference_is_simulated": true, "candidate_model_used": false}
+}

@@ -1,0 +1,303 @@
+{
+  "experiment_id": "P23-V32-UNSEEN-LOCKBOX-V01",
+  "plans": {
+    "P23-ENERGY-CALC-001": {
+      "candidate_handle_role_map": {
+        "M078-T0006-R0010-C0001": "total_2025",
+        "M078-T0006-R0010-C0002": "total_2024",
+        "M078-T0006-R0011-C0001": "uk_2025",
+        "M078-T0006-R0011-C0002": "uk_2024",
+        "M078-T0006-R0012-C0001": "renewable_2025",
+        "M078-T0006-R0012-C0002": "renewable_2024"
+      },
+      "candidate_may_select_operation": false,
+      "output_slot_map": [
+        {
+          "slot_id": "calculated_total_energy_change_percent",
+          "source_value_id": "total_change"
+        },
+        {
+          "slot_id": "calculated_uk_energy_change_percent",
+          "source_value_id": "uk_change"
+        },
+        {
+          "slot_id": "renewable_electricity_change_percentage_points",
+          "source_value_id": "renewable_pp"
+        }
+      ],
+      "roles": [
+        {
+          "role_id": "total_2024",
+          "unit": "GWh"
+        },
+        {
+          "role_id": "total_2025",
+          "unit": "GWh"
+        },
+        {
+          "role_id": "uk_2024",
+          "unit": "GWh"
+        },
+        {
+          "role_id": "uk_2025",
+          "unit": "GWh"
+        },
+        {
+          "role_id": "renewable_2024",
+          "unit": "percent"
+        },
+        {
+          "role_id": "renewable_2025",
+          "unit": "percent"
+        }
+      ],
+      "steps": [
+        {
+          "inputs": [
+            "total_2025",
+            "total_2024"
+          ],
+          "operation": "percentage_change",
+          "rounding_decimals": 2,
+          "step_id": "total_change"
+        },
+        {
+          "inputs": [
+            "uk_2025",
+            "uk_2024"
+          ],
+          "operation": "percentage_change",
+          "rounding_decimals": 2,
+          "step_id": "uk_change"
+        },
+        {
+          "inputs": [
+            "renewable_2025",
+            "renewable_2024"
+          ],
+          "operation": "difference",
+          "step_id": "renewable_pp"
+        }
+      ]
+    },
+    "P23-GHG-CALC-001": {
+      "candidate_handle_role_map": {
+        "M078-T0006-R0001-C0001": "s1e_2025",
+        "M078-T0006-R0001-C0002": "s1e_2024",
+        "M078-T0006-R0002-C0001": "s1o_2025",
+        "M078-T0006-R0002-C0002": "s1o_2024",
+        "M078-T0006-R0003-C0001": "s2m_2025",
+        "M078-T0006-R0003-C0002": "s2m_2024"
+      },
+      "candidate_may_select_operation": false,
+      "output_slot_map": [
+        {
+          "slot_id": "calculated_operational_total_thousand_tco2e::2024",
+          "source_value_id": "total_2024"
+        },
+        {
+          "slot_id": "calculated_operational_total_thousand_tco2e::2025",
+          "source_value_id": "total_2025"
+        },
+        {
+          "slot_id": "calculated_change_percent",
+          "source_value_id": "change"
+        }
+      ],
+      "roles": [
+        {
+          "role_id": "s1e_2024",
+          "unit": "thousand tonnes CO2e"
+        },
+        {
+          "role_id": "s1o_2024",
+          "unit": "thousand tonnes CO2e"
+        },
+        {
+          "role_id": "s2m_2024",
+          "unit": "thousand tonnes CO2e"
+        },
+        {
+          "role_id": "s1e_2025",
+          "unit": "thousand tonnes CO2e"
+        },
+        {
+          "role_id": "s1o_2025",
+          "unit": "thousand tonnes CO2e"
+        },
+        {
+          "role_id": "s2m_2025",
+          "unit": "thousand tonnes CO2e"
+        }
+      ],
+      "steps": [
+        {
+          "inputs": [
+            "s1e_2024",
+            "s1o_2024",
+            "s2m_2024"
+          ],
+          "operation": "sum",
+          "step_id": "total_2024"
+        },
+        {
+          "inputs": [
+            "s1e_2025",
+            "s1o_2025",
+            "s2m_2025"
+          ],
+          "operation": "sum",
+          "step_id": "total_2025"
+        },
+        {
+          "inputs": [
+            "total_2025",
+            "total_2024"
+          ],
+          "operation": "percentage_change",
+          "rounding_decimals": 2,
+          "step_id": "change"
+        }
+      ]
+    },
+    "P23-WATER-CALC-001": {
+      "candidate_handle_role_map": {
+        "M078-T0006-R0013-C0001": "total_2025",
+        "M078-T0006-R0013-C0002": "total_2024",
+        "M078-T0006-R0014-C0001": "stress_2025",
+        "M078-T0006-R0014-C0002": "stress_2024"
+      },
+      "candidate_may_select_operation": false,
+      "output_slot_map": [
+        {
+          "slot_id": "calculated_total_water_change_percent",
+          "source_value_id": "total_change"
+        },
+        {
+          "slot_id": "calculated_high_stress_change_percent",
+          "source_value_id": "stress_change"
+        }
+      ],
+      "roles": [
+        {
+          "role_id": "total_2024",
+          "unit": "million m3"
+        },
+        {
+          "role_id": "total_2025",
+          "unit": "million m3"
+        },
+        {
+          "role_id": "stress_2024",
+          "unit": "million m3"
+        },
+        {
+          "role_id": "stress_2025",
+          "unit": "million m3"
+        }
+      ],
+      "steps": [
+        {
+          "inputs": [
+            "total_2025",
+            "total_2024"
+          ],
+          "operation": "percentage_change",
+          "rounding_decimals": 2,
+          "step_id": "total_change"
+        },
+        {
+          "inputs": [
+            "stress_2025",
+            "stress_2024"
+          ],
+          "operation": "percentage_change",
+          "rounding_decimals": 2,
+          "step_id": "stress_change"
+        }
+      ]
+    },
+    "P23-WORKFORCE-CALC-001": {
+      "candidate_handle_role_map": {
+        "M079-T0011-R0001-C0002": "board_female",
+        "M079-T0011-R0001-C0003": "board_total",
+        "M079-T0011-R0002-C0002": "management_female",
+        "M079-T0011-R0002-C0003": "management_total",
+        "M079-T0011-R0003-C0002": "all_female",
+        "M079-T0011-R0003-C0003": "all_total"
+      },
+      "candidate_may_select_operation": false,
+      "output_slot_map": [
+        {
+          "slot_id": "board_female_share_percent",
+          "source_value_id": "board_share"
+        },
+        {
+          "slot_id": "management_female_share_percent",
+          "source_value_id": "management_share"
+        },
+        {
+          "slot_id": "all_employees_female_share_percent",
+          "source_value_id": "all_share"
+        }
+      ],
+      "roles": [
+        {
+          "role_id": "board_female",
+          "unit": "count"
+        },
+        {
+          "role_id": "board_total",
+          "unit": "count"
+        },
+        {
+          "role_id": "management_female",
+          "unit": "count"
+        },
+        {
+          "role_id": "management_total",
+          "unit": "count"
+        },
+        {
+          "role_id": "all_female",
+          "unit": "count"
+        },
+        {
+          "role_id": "all_total",
+          "unit": "count"
+        }
+      ],
+      "steps": [
+        {
+          "inputs": [
+            "board_female",
+            "board_total"
+          ],
+          "operation": "percentage_share",
+          "rounding_decimals": 2,
+          "step_id": "board_share"
+        },
+        {
+          "inputs": [
+            "management_female",
+            "management_total"
+          ],
+          "operation": "percentage_share",
+          "rounding_decimals": 2,
+          "step_id": "management_share"
+        },
+        {
+          "inputs": [
+            "all_female",
+            "all_total"
+          ],
+          "operation": "percentage_share",
+          "rounding_decimals": 2,
+          "step_id": "all_share"
+        }
+      ]
+    }
+  },
+  "schema_version": "3.2",
+  "status": "frozen_before_candidate_inference"
+}

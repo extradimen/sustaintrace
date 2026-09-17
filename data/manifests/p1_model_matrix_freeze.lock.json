@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "freeze_id": "P1-MODEL-MATRIX-FREEZE-v0.1",
+  "status": "frozen_nonperformance_smoke_passed",
+  "frozen_at": "2026-09-04T00:20:00+08:00",
+  "matrix_sha256": "7c89d6ddc1b8ce27dd88cec614ccf1e586863bd8849344aa36eb45b17de3952e",
+  "model_config_sha256": {
+    "EDGE-GEMMA4-12B": "0297c5e4ca396e30076ed591b71d3525b13052e686d2ed8b10197afa2de95c2c",
+    "CLOUD-QWEN35-397B": "fbcc4eb3b454d2ba42c3f570778a107333804ead63025aa3b590dd18bb3eae96",
+    "CLOUD-GPTOSS-120B": "ce3718bb397d25648d68e9e6d63d5eb7f0462f8dcbe088e912ce8ab5666c7964"
+  },
+  "structured_output_parser_sha256": "d0bcc24c849a9f988a28c662c6182746b9e92cc794c1c7f301d02a4b774f55fa",
+  "passed_smoke_run_checksum_sha256": {
+    "P1-SMOKE-GEMMA4-12B-r1": "de0635707ac5e1ac6699605d2f83d1b05a13a300982776cb9da5ad1996110713",
+    "P1-SMOKE-QWEN397B-r3": "7aaad87b0c89b6fb2944039b844613bccffcbe4e30a727898afabef92a139a7f",
+    "P1-SMOKE-GPTOSS120B-r3": "bee4f7eca4374cf25b7a1e86812002ee235757e933b9a580d6f85ef3148e7f8a"
+  },
+  "archived_failed_smoke_run_checksum_sha256": {
+    "P1-SMOKE-QWEN397B-r2": "aea17a730def62035a8557344f8227854844285b76704cf2a0a7b86dd8a9c459",
+    "P1-SMOKE-GPTOSS120B-r2": "64d6dc4e093fc7201fc27b04d6039d3722a507d36d891db4f147b6ba7bd0cc30"
+  },
+  "identity_probe_passed": true,
+  "current_codex_gpt_context_included": false,
+  "performance_evaluation_performed": false,
+  "execution_pipeline_frozen": true,
+  "inference_allowed": false,
+  "next_gate": "integration_acceptance"
+}

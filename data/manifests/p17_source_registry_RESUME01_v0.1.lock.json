@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "registry_id": "P17-SOURCE-REGISTRY-RESUME01-v0.1",
+  "status": "replacement_source_frozen_before_task_authoring_and_candidate_inference",
+  "lineage": "data/manifests/p17_source_selection_recovery_lineage_RESUME01_v0.1.lock.json",
+  "candidates": [
+    {
+      "candidate_id": "P17-CAND-001",
+      "document_id": "P17-BMW-GROUP-REPORT-2025",
+      "company": "Bayerische Motoren Werke Aktiengesellschaft",
+      "title": "BMW Group Report 2025",
+      "language": "English",
+      "eligibility_status": "eligible",
+      "sha256": "7a7fd36bf7f274e776ef7eda30d3cda4335a99cbb45f097ae5e8268ccf7759e7",
+      "official_landing_page": "https://www.bmwgroup.com/en/report/2025/downloads/index.html",
+      "local_path": "data/raw/p17_staging/bmw-group-report-2025.pdf",
+      "page_count": 434
+    }
+  ],
+  "cloud_transmission_allowed": false
+}

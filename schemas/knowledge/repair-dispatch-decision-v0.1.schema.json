@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "record_kind", "dispatch_id", "plan_id", "failure_record_id", "strategy_id", "executor_id", "decision", "blocking_reasons", "execution_started", "execution_state"],
+  "properties": {
+    "schema_version": {"const": "0.1"},
+    "record_kind": {"const": "repair_dispatch_decision"},
+    "dispatch_id": {"type": "string", "pattern": "^repair-dispatch-[0-9a-f]{24}$"},
+    "plan_id": {"type": "string"},
+    "failure_record_id": {"type": "string"},
+    "strategy_id": {"type": "string"},
+    "executor_id": {"type": ["string", "null"]},
+    "decision": {"enum": ["ready_for_execution", "blocked"]},
+    "blocking_reasons": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "execution_started": {"const": false},
+    "execution_state": {"type": ["object", "null"]}
+  }
+}

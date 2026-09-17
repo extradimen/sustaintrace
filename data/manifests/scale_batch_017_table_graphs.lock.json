@@ -1,0 +1,99 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-017",
+  "status": "table_graphs_built_fail_closed",
+  "source_table_candidates": 2,
+  "graphs": [
+    {
+      "source_fact_record_id": "fact-b545bfcc27101e9fdd9a901d",
+      "document_id": "KB-B017-ROCKWOOL-AR2025",
+      "pdf_page": 68,
+      "graphs": [
+        {
+          "table_index": 0,
+          "status": "ambiguous_no_two_axis_period_header",
+          "rows": [
+            [
+              "Entity specific disclosure",
+              "",
+              "2025"
+            ],
+            [
+              "Building insultation",
+              "Energy saved (TWh)",
+              "495"
+            ],
+            [
+              "",
+              "Avoided GHG emissions (Mt)",
+              "72"
+            ],
+            [
+              "Technical insulation",
+              "Energy saved (TWh)",
+              "3,878"
+            ],
+            [
+              "",
+              "Avoided GHG emissions (Mt)",
+              "674"
+            ]
+          ],
+          "cells": []
+        }
+      ]
+    },
+    {
+      "source_fact_record_id": "fact-a45a55e84a9d1ced023f6f01",
+      "document_id": "KB-B017-ROCKWOOL-AR2025",
+      "pdf_page": 76,
+      "graphs": [
+        {
+          "table_index": 0,
+          "status": "two_axis_graph_built",
+          "header_row_index": 1,
+          "column_headers": [
+            "Group policy Policy for Safety, Health &",
+            "Description | Scope | Accountability Description: The SHE policy and manual set out",
+            "Reduction of water use intensity (per",
+            "20 percent by 2030",
+            "13 percent by 2025",
+            "2015",
+            "Stone wool factories",
+            "Customers, affected communities"
+          ],
+          "period_columns": [
+            3,
+            4,
+            5
+          ],
+          "indicator_column": 0,
+          "unit_column": null,
+          "rejected_rows": [],
+          "rows": [
+            [
+              "E3-1",
+              "Target name",
+              "Target year and value",
+              "Result",
+              "Baseline year and value",
+              "Scope",
+              "Affected stakeholders considered"
+            ],
+            [
+              "Group policy Policy for Safety, Health &",
+              "Description | Scope | Accountability Description: The SHE policy and manual set out",
+              "Reduction of water use intensity (per",
+              "20 percent by 2030",
+              "13 percent by 2025",
+              "2015",
+              "Stone wool factories",
+              "Customers, affected communities"
+            ]
+          ],
+          "cells": []
+        }
+      ]
+    }
+  ]
+}

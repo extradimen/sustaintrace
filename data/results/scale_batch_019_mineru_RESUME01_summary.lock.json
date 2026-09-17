@@ -1,0 +1,376 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-019-MINERU-RESUME01",
+  "updated_at": "2026-09-13T14:25:10.176020+00:00",
+  "status": "complete",
+  "cloud_transmission": false,
+  "total_target_pages": 29,
+  "complete_pages": 20,
+  "failed_pages": 9,
+  "pending_pages": 0,
+  "records": [
+    {
+      "document_id": "KB-B019-NESTE-AR2025",
+      "page": 36,
+      "themes": [
+        "ghg_emissions",
+        "targets"
+      ],
+      "output_directory": "artifacts/scale_batch_019/mineru_targets_RESUME01/KB-B019-NESTE-AR2025-p0036",
+      "status": "complete",
+      "started_at": "2026-09-13T14:17:14.212800+00:00",
+      "completed_at": "2026-09-13T14:17:34.393512+00:00",
+      "wall_seconds": 20.180453
+    },
+    {
+      "document_id": "KB-B019-NESTE-AR2025",
+      "page": 37,
+      "themes": [
+        "circularity",
+        "energy"
+      ],
+      "output_directory": "artifacts/scale_batch_019/mineru_targets_RESUME01/KB-B019-NESTE-AR2025-p0037",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_019/mineru_targets_RESUME01/KB-B019-NESTE-AR2025-p0037/esg_rd_mineru_run.json",
+      "started_at": "2026-09-13T14:17:34.393855+00:00",
+      "completed_at": "2026-09-13T14:17:49.337694+00:00",
+      "wall_seconds": 14.943922
+    },
+    {
+      "document_id": "KB-B019-NESTE-AR2025",
+      "page": 39,
+      "themes": [
+        "health_safety"
+      ],
+      "output_directory": "artifacts/scale_batch_019/mineru_targets_RESUME01/KB-B019-NESTE-AR2025-p0039",
+      "status": "complete",
+      "started_at": "2026-09-13T14:17:49.338082+00:00",
+      "completed_at": "2026-09-13T14:18:03.323000+00:00",
+      "wall_seconds": 13.985066
+    },
+    {
+      "document_id": "KB-B019-NESTE-AR2025",
+      "page": 40,
+      "themes": [
+        "workforce"
+      ],
+      "output_directory": "artifacts/scale_batch_019/mineru_targets_RESUME01/KB-B019-NESTE-AR2025-p0040",
+      "status": "complete",
+      "started_at": "2026-09-13T14:18:03.323479+00:00",
+      "completed_at": "2026-09-13T14:18:18.564772+00:00",
+      "wall_seconds": 15.241485
+    },
+    {
+      "document_id": "KB-B019-NESTE-AR2025",
+      "page": 41,
+      "themes": [
+        "workforce"
+      ],
+      "output_directory": "artifacts/scale_batch_019/mineru_targets_RESUME01/KB-B019-NESTE-AR2025-p0041",
+      "status": "complete",
+      "started_at": "2026-09-13T14:18:18.565124+00:00",
+      "completed_at": "2026-09-13T14:18:33.252752+00:00",
+      "wall_seconds": 14.687827
+    },
+    {
+      "document_id": "KB-B019-NESTE-AR2025",
+      "page": 50,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_019/mineru_targets_RESUME01/KB-B019-NESTE-AR2025-p0050",
+      "status": "complete",
+      "started_at": "2026-09-13T14:18:33.253132+00:00",
+      "completed_at": "2026-09-13T14:18:47.988882+00:00",
+      "wall_seconds": 14.735954
+    },
+    {
+      "document_id": "KB-B019-NESTE-AR2025",
+      "page": 51,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_019/mineru_targets_RESUME01/KB-B019-NESTE-AR2025-p0051",
+      "status": "complete",
+      "started_at": "2026-09-13T14:18:47.989254+00:00",
+      "completed_at": "2026-09-13T14:19:01.872985+00:00",
+      "wall_seconds": 13.883925
+    },
+    {
+      "document_id": "KB-B019-NESTE-AR2025",
+      "page": 110,
+      "themes": [
+        "energy",
+        "ghg_emissions"
+      ],
+      "output_directory": "artifacts/scale_batch_019/mineru_targets_RESUME01/KB-B019-NESTE-AR2025-p0110",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_019/mineru_targets_RESUME01/KB-B019-NESTE-AR2025-p0110/esg_rd_mineru_run.json",
+      "started_at": "2026-09-13T14:19:01.873390+00:00",
+      "completed_at": "2026-09-13T14:19:16.661440+00:00",
+      "wall_seconds": 14.788257
+    },
+    {
+      "document_id": "KB-B019-NESTE-AR2025",
+      "page": 117,
+      "themes": [
+        "biodiversity"
+      ],
+      "output_directory": "artifacts/scale_batch_019/mineru_targets_RESUME01/KB-B019-NESTE-AR2025-p0117",
+      "status": "complete",
+      "started_at": "2026-09-13T14:19:16.661798+00:00",
+      "completed_at": "2026-09-13T14:19:31.608165+00:00",
+      "wall_seconds": 14.946576
+    },
+    {
+      "document_id": "KB-B019-NESTE-AR2025",
+      "page": 121,
+      "themes": [
+        "circularity"
+      ],
+      "output_directory": "artifacts/scale_batch_019/mineru_targets_RESUME01/KB-B019-NESTE-AR2025-p0121",
+      "status": "complete",
+      "started_at": "2026-09-13T14:19:31.608533+00:00",
+      "completed_at": "2026-09-13T14:19:46.244766+00:00",
+      "wall_seconds": 14.636438
+    },
+    {
+      "document_id": "KB-B019-BOLIDEN-ASR2025",
+      "page": 78,
+      "themes": [
+        "ghg_emissions",
+        "targets"
+      ],
+      "output_directory": "artifacts/scale_batch_019/mineru_targets_RESUME01/KB-B019-BOLIDEN-ASR2025-p0078",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_019/mineru_targets_RESUME01/KB-B019-BOLIDEN-ASR2025-p0078/esg_rd_mineru_run.json",
+      "started_at": "2026-09-13T14:19:46.245134+00:00",
+      "completed_at": "2026-09-13T14:20:02.197435+00:00",
+      "wall_seconds": 15.952525
+    },
+    {
+      "document_id": "KB-B019-BOLIDEN-ASR2025",
+      "page": 80,
+      "themes": [
+        "energy"
+      ],
+      "output_directory": "artifacts/scale_batch_019/mineru_targets_RESUME01/KB-B019-BOLIDEN-ASR2025-p0080",
+      "status": "complete",
+      "started_at": "2026-09-13T14:20:02.197855+00:00",
+      "completed_at": "2026-09-13T14:20:17.942907+00:00",
+      "wall_seconds": 15.745272
+    },
+    {
+      "document_id": "KB-B019-BOLIDEN-ASR2025",
+      "page": 81,
+      "themes": [
+        "ghg_emissions"
+      ],
+      "output_directory": "artifacts/scale_batch_019/mineru_targets_RESUME01/KB-B019-BOLIDEN-ASR2025-p0081",
+      "status": "complete",
+      "started_at": "2026-09-13T14:20:17.943340+00:00",
+      "completed_at": "2026-09-13T14:20:36.184188+00:00",
+      "wall_seconds": 18.241104
+    },
+    {
+      "document_id": "KB-B019-BOLIDEN-ASR2025",
+      "page": 90,
+      "themes": [
+        "water"
+      ],
+      "output_directory": "artifacts/scale_batch_019/mineru_targets_RESUME01/KB-B019-BOLIDEN-ASR2025-p0090",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_019/mineru_targets_RESUME01/KB-B019-BOLIDEN-ASR2025-p0090/esg_rd_mineru_run.json",
+      "started_at": "2026-09-13T14:20:36.184651+00:00",
+      "completed_at": "2026-09-13T14:20:53.297008+00:00",
+      "wall_seconds": 17.112595
+    },
+    {
+      "document_id": "KB-B019-BOLIDEN-ASR2025",
+      "page": 91,
+      "themes": [
+        "biodiversity"
+      ],
+      "output_directory": "artifacts/scale_batch_019/mineru_targets_RESUME01/KB-B019-BOLIDEN-ASR2025-p0091",
+      "status": "complete",
+      "started_at": "2026-09-13T14:20:53.297401+00:00",
+      "completed_at": "2026-09-13T14:21:10.662713+00:00",
+      "wall_seconds": 17.365555
+    },
+    {
+      "document_id": "KB-B019-BOLIDEN-ASR2025",
+      "page": 95,
+      "themes": [
+        "circularity"
+      ],
+      "output_directory": "artifacts/scale_batch_019/mineru_targets_RESUME01/KB-B019-BOLIDEN-ASR2025-p0095",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_019/mineru_targets_RESUME01/KB-B019-BOLIDEN-ASR2025-p0095/esg_rd_mineru_run.json",
+      "started_at": "2026-09-13T14:21:10.663135+00:00",
+      "completed_at": "2026-09-13T14:21:27.916016+00:00",
+      "wall_seconds": 17.253123
+    },
+    {
+      "document_id": "KB-B019-BOLIDEN-ASR2025",
+      "page": 105,
+      "themes": [
+        "workforce"
+      ],
+      "output_directory": "artifacts/scale_batch_019/mineru_targets_RESUME01/KB-B019-BOLIDEN-ASR2025-p0105",
+      "status": "complete",
+      "started_at": "2026-09-13T14:21:27.916437+00:00",
+      "completed_at": "2026-09-13T14:21:47.031549+00:00",
+      "wall_seconds": 19.115379
+    },
+    {
+      "document_id": "KB-B019-BOLIDEN-ASR2025",
+      "page": 108,
+      "themes": [
+        "health_safety"
+      ],
+      "output_directory": "artifacts/scale_batch_019/mineru_targets_RESUME01/KB-B019-BOLIDEN-ASR2025-p0108",
+      "status": "complete",
+      "started_at": "2026-09-13T14:21:47.031969+00:00",
+      "completed_at": "2026-09-13T14:22:06.132512+00:00",
+      "wall_seconds": 19.100809
+    },
+    {
+      "document_id": "KB-B019-BOLIDEN-ASR2025",
+      "page": 122,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_019/mineru_targets_RESUME01/KB-B019-BOLIDEN-ASR2025-p0122",
+      "status": "complete",
+      "started_at": "2026-09-13T14:22:06.132950+00:00",
+      "completed_at": "2026-09-13T14:22:22.561508+00:00",
+      "wall_seconds": 16.42879
+    },
+    {
+      "document_id": "KB-B019-BOLIDEN-ASR2025",
+      "page": 123,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_019/mineru_targets_RESUME01/KB-B019-BOLIDEN-ASR2025-p0123",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_019/mineru_targets_RESUME01/KB-B019-BOLIDEN-ASR2025-p0123/esg_rd_mineru_run.json",
+      "started_at": "2026-09-13T14:22:22.562065+00:00",
+      "completed_at": "2026-09-13T14:22:39.448615+00:00",
+      "wall_seconds": 16.886785
+    },
+    {
+      "document_id": "KB-B019-METSO-AR2025",
+      "page": 86,
+      "themes": [
+        "ghg_emissions",
+        "targets"
+      ],
+      "output_directory": "artifacts/scale_batch_019/mineru_targets_RESUME01/KB-B019-METSO-AR2025-p0086",
+      "status": "complete",
+      "started_at": "2026-09-13T14:22:39.449120+00:00",
+      "completed_at": "2026-09-13T14:22:54.391426+00:00",
+      "wall_seconds": 14.942516
+    },
+    {
+      "document_id": "KB-B019-METSO-AR2025",
+      "page": 94,
+      "themes": [
+        "energy",
+        "ghg_emissions"
+      ],
+      "output_directory": "artifacts/scale_batch_019/mineru_targets_RESUME01/KB-B019-METSO-AR2025-p0094",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_019/mineru_targets_RESUME01/KB-B019-METSO-AR2025-p0094/esg_rd_mineru_run.json",
+      "started_at": "2026-09-13T14:22:54.391936+00:00",
+      "completed_at": "2026-09-13T14:23:11.729921+00:00",
+      "wall_seconds": 17.338226
+    },
+    {
+      "document_id": "KB-B019-METSO-AR2025",
+      "page": 98,
+      "themes": [
+        "water"
+      ],
+      "output_directory": "artifacts/scale_batch_019/mineru_targets_RESUME01/KB-B019-METSO-AR2025-p0098",
+      "status": "complete",
+      "started_at": "2026-09-13T14:23:11.730404+00:00",
+      "completed_at": "2026-09-13T14:23:28.129787+00:00",
+      "wall_seconds": 16.399611
+    },
+    {
+      "document_id": "KB-B019-METSO-AR2025",
+      "page": 102,
+      "themes": [
+        "biodiversity"
+      ],
+      "output_directory": "artifacts/scale_batch_019/mineru_targets_RESUME01/KB-B019-METSO-AR2025-p0102",
+      "status": "complete",
+      "started_at": "2026-09-13T14:23:28.130305+00:00",
+      "completed_at": "2026-09-13T14:23:43.009404+00:00",
+      "wall_seconds": 14.879307
+    },
+    {
+      "document_id": "KB-B019-METSO-AR2025",
+      "page": 106,
+      "themes": [
+        "circularity"
+      ],
+      "output_directory": "artifacts/scale_batch_019/mineru_targets_RESUME01/KB-B019-METSO-AR2025-p0106",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_019/mineru_targets_RESUME01/KB-B019-METSO-AR2025-p0106/esg_rd_mineru_run.json",
+      "started_at": "2026-09-13T14:23:43.009883+00:00",
+      "completed_at": "2026-09-13T14:23:57.081444+00:00",
+      "wall_seconds": 14.071758
+    },
+    {
+      "document_id": "KB-B019-METSO-AR2025",
+      "page": 115,
+      "themes": [
+        "workforce"
+      ],
+      "output_directory": "artifacts/scale_batch_019/mineru_targets_RESUME01/KB-B019-METSO-AR2025-p0115",
+      "status": "complete",
+      "started_at": "2026-09-13T14:23:57.081969+00:00",
+      "completed_at": "2026-09-13T14:24:15.375622+00:00",
+      "wall_seconds": 18.293911
+    },
+    {
+      "document_id": "KB-B019-METSO-AR2025",
+      "page": 117,
+      "themes": [
+        "health_safety"
+      ],
+      "output_directory": "artifacts/scale_batch_019/mineru_targets_RESUME01/KB-B019-METSO-AR2025-p0117",
+      "status": "complete",
+      "started_at": "2026-09-13T14:24:15.376101+00:00",
+      "completed_at": "2026-09-13T14:24:35.071209+00:00",
+      "wall_seconds": 19.695383
+    },
+    {
+      "document_id": "KB-B019-METSO-AR2025",
+      "page": 239,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_019/mineru_targets_RESUME01/KB-B019-METSO-AR2025-p0239",
+      "status": "complete",
+      "started_at": "2026-09-13T14:24:35.071759+00:00",
+      "completed_at": "2026-09-13T14:24:53.802731+00:00",
+      "wall_seconds": 18.731235
+    },
+    {
+      "document_id": "KB-B019-METSO-AR2025",
+      "page": 240,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_019/mineru_targets_RESUME01/KB-B019-METSO-AR2025-p0240",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_019/mineru_targets_RESUME01/KB-B019-METSO-AR2025-p0240/esg_rd_mineru_run.json",
+      "started_at": "2026-09-13T14:24:53.804372+00:00",
+      "completed_at": "2026-09-13T14:25:10.175484+00:00",
+      "wall_seconds": 16.371341
+    }
+  ]
+}

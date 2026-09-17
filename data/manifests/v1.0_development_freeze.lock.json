@@ -1,0 +1,27 @@
+{
+  "schema_version":"1.0",
+  "freeze_id":"ESG-RD-v1.0-DEVELOPMENT-FREEZE",
+  "status":"frozen_before_p2_development_regression",
+  "hashes":{
+    "preregistration":"02252c2bf57d2b2d4d8ec2311bdcd483d67f8333ea64f601a4bd069a7e147f3a",
+    "ontology":"10cfc2515845fdfa6b407229e83016c0896b69103eb4e2d0e2237378eb6dd115",
+    "projection_contracts":"f688403df98f4e20a3cc32555ebec546c1cfe7459afd63a7be15e16280fbbabd",
+    "reporting_year_registry":"ad2b488fecdfb6dddbbe7c34e0bad8ecec1152fedbe39fa5d798887d102ff937",
+    "stage_a_runner":"af607ec4ec41fbf27def50ae0f7f82319d56547727a42a1e4a5e42bc19bfd37e",
+    "stage_b_runner":"4cbe52e533d530fc212ab14e6ed732dcc36b8bf79104bbb9e6a38bc2f17a9113",
+    "stage_b_core":"4389126562ca86f12dcdb26fbac6d98c58ac2658c29e50b5842c5b88f511b758",
+    "period_context_core":"54cff6bf4a0b2742e0acdd479b422ebb478c31f7372503c885e7cf9116fefb81",
+    "stage_a_prompt":"9bca15e9e2f44bbe60214bb149b0969c0efe8cc25b10d17bd3c03be76a7dae31",
+    "stage_b_prompt":"236fdacb634c0fe4d2fd7c442c82cdededa9f2538847224c6c4c4329502b8ff1",
+    "model_config":"fbcc4eb3b454d2ba42c3f570778a107333804ead63025aa3b590dd18bb3eae96",
+    "p2_mineru_registry":"87c5b7def19bb544c57623b86b691df51758c1a5ed8ce5520f41c86a0a9ad6c8"
+  },
+  "model":"qwen3.5:397b-cloud",
+  "model_digest":"68d2a0796c11e1fedd0456a2d55e58cca4077be6a218428a7a7f4e21f8177cbc",
+  "tests_passed":147,
+  "p2_role":"exposed development regression only",
+  "p3_required_for_generalization":true,
+  "reference_visible_during_inference":false,
+  "single_attempt_per_regression_task":true,
+  "posthoc_repair":false
+}

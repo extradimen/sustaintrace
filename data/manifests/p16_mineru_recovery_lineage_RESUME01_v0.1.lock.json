@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "experiment_id": "P16-V25-UNSEEN-LOCKBOX-V01",
+  "recovery_id": "P16-MINERU-RESUME01",
+  "parent_output_root": "artifacts/p16/mineru_targets",
+  "resume_output_root": "artifacts/p16/mineru_targets_RESUME01",
+  "status": "frozen_before_recovery_execution",
+  "failure_class": "infrastructure_sandbox_loopback_bind_denied",
+  "failure_evidence": "Each completed primary record returned nonzero with PermissionError [Errno 1] while MinerU attempted to bind its local orchestration server to 127.0.0.1; no page produced a successful parser checkpoint.",
+  "source_sha256": "82547ddb72b6b05dca88f93ed4cfe13010cb5690a5693b96721e9be3ff9c8fcc",
+  "frozen_pages": [26, 30, 31, 38, 43, 44, 45, 68, 90, 118, 129, 130, 131, 132, 133],
+  "reused_successful_pages": [],
+  "pages_to_run": [26, 30, 31, 38, 43, 44, 45, 68, 90, 118, 129, 130, 131, 132, 133],
+  "configuration_change": "Execution outside the restricted sandbox only; source, parser configuration, questions and page windows unchanged.",
+  "overwrite_allowed": false
+}

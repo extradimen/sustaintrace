@@ -1,0 +1,41 @@
+{
+  "artifacts": {
+    "configs/knowledge/repair_strategy_catalog_v0.1.json": "b0723192ecb92fcca97a4e151f638d8b6d296ca1cdbff1d7e06168c4e9635205",
+    "data/knowledge_bases/v0.1/fact_records.jsonl": "8af57e7b7bda85deef8f90586f8225aedcf1da24e0669300115b8f1f7499bf5b",
+    "data/knowledge_bases/v0.1/failure_records.jsonl": "cdf7f70b06d49538cb06d986b68c9886fdec8f5a2e949d01031fecd5bf151333",
+    "data/knowledge_bases/v0.1/repair_execution_events.jsonl": "9a777b2dbdd98c76445d07637b5492149aea2dbfbe09658b63b3318cc3b8a2dd",
+    "data/knowledge_bases/v0.1/repair_execution_states.jsonl": "4611c1c307bf24c17534b60614067d5e6e9865e96ee5dfc829171fb6d1c62631",
+    "data/knowledge_bases/v0.1/trusted_fact_records.jsonl": "0255e2246591217a88ce44044af89b0758c61830b7772121eb11d0abb58ed9c4",
+    "schemas/knowledge/control-plane-query-response-v0.1.schema.json": "0e4c42b7c0d8434bdd2dd92f0cc9b2a0258e6f83a6defd7a8581e34a52da610c",
+    "schemas/knowledge/repair-lifecycle-query-response-v0.1.schema.json": "545620a271b5496479f5665ee16a225f13860328e65ea95feaa76c4e8a118b69",
+    "src/esg_reliable_discovery/knowledge_query.py": "a588e912854c2de0dd8e108181ff9a97e1d50eff1fd806cecc0921f192d57983",
+    "src/esg_reliable_discovery/repair_execution.py": "d4c4382e5fc7733a70ab3510fc67091caf4ddd2a62331ce311c3694997591c07"
+  },
+  "facts": {
+    "candidates_not_trusted": 971,
+    "facts": 1021,
+    "trusted_tier_b": 50
+  },
+  "locked_experiments_modified_or_rescored": false,
+  "negative_repair_outcomes_preserved": 3,
+  "next_gate": "connect policy-selected repair actions to the execution state machine",
+  "read_only_interface": true,
+  "regression_observations_visible_by_explicit_opt_in": true,
+  "repairs": {
+    "candidate_validations": 4,
+    "execution_states": {
+      "blocked_preflight": 1,
+      "promoted": 1,
+      "rolled_back": 2
+    },
+    "failure_observations": 36,
+    "failure_signatures": 14,
+    "regression_observations": 3,
+    "repair_executions": 4,
+    "repair_plans": 36,
+    "repair_strategies": 11
+  },
+  "schema_version": "0.1",
+  "status": "control_plane_query_interface_passed",
+  "successful_validated_repairs_exposed": 1
+}

@@ -1,0 +1,74 @@
+{
+  "schema_version": "1.0",
+  "benchmark_id": "P0-MINERU-ATOMIC-v0.1",
+  "parser": {
+    "name": "MinerU",
+    "version": "3.4.0",
+    "backend": "pipeline",
+    "dependency_lock": {"pdftext": "0.6.3", "pypdfium2": "4.30.0"}
+  },
+  "cases": [
+    {
+      "task_id": "P0-TEXT-001",
+      "parsed_text_path": "artifacts/parsing/P0-TEXT-001/mineru-3.4.0-pipeline-page18-r2/MSFT-ESR-2024/auto/MSFT-ESR-2024.md",
+      "assertions": [
+        {"assertion_id": "text-subject", "dimension": "subject", "kind": "regex_present", "pattern": "Clearloop"},
+        {"assertion_id": "text-value-unit", "dimension": "value_unit", "kind": "regex_present", "pattern": "6\\.6[- ]megawatt|6\\.6 MW"},
+        {"assertion_id": "text-boundary", "dimension": "geographic_boundary", "kind": "regex_present", "pattern": "Mississippi Delta region"}
+      ]
+    },
+    {
+      "task_id": "P0-TABLE-001",
+      "parsed_text_path": "artifacts/parsing/P0-TABLE-001/mineru-3.4.0-pipeline-page118-r2/SIE-SR-2024/auto/SIE-SR-2024.md",
+      "assertions": [
+        {"assertion_id": "table-label", "dimension": "metric", "kind": "regex_present", "pattern": "Allegations of bribery"},
+        {"assertion_id": "table-same-row", "dimension": "table_alignment", "kind": "regex_present", "pattern": "Allegations of bribery.{0,500}>16<.{0,200}>21<.{0,200}>-23\\.8%<"},
+        {"assertion_id": "table-period-headings", "dimension": "period", "kind": "regex_present", "pattern": "FY 2024.{0,100}FY 2023"}
+      ]
+    },
+    {
+      "task_id": "P0-TARGET-001",
+      "parsed_text_path": "artifacts/parsing/P0-TARGET-001/mineru-3.4.0-pipeline-page109-r1/DBS-SR-2024/auto/DBS-SR-2024.md",
+      "assertions": [
+        {"assertion_id": "target-steel", "dimension": "target_status", "kind": "regex_present", "pattern": "Steel \\(not on track\\)"},
+        {"assertion_id": "target-shipping", "dimension": "target_status", "kind": "regex_present", "pattern": "Shipping \\(not on track\\)"},
+        {"assertion_id": "target-boundary", "dimension": "boundary", "kind": "regex_present", "pattern": "nine priority sectors"}
+      ]
+    },
+    {
+      "task_id": "P0-ABSTAIN-001",
+      "parsed_text_path": "artifacts/parsing/P0-ABSTAIN-001/mineru-3.4.0-pipeline-page34-r1/TM-SDB-2024/auto/TM-SDB-2024.md",
+      "visual_review": "passed_no_requested_value_or_date_on_rendered_page",
+      "assertions": [
+        {"assertion_id": "abstain-subject", "dimension": "subject", "kind": "regex_present", "pattern": "Circular Core"},
+        {"assertion_id": "abstain-no-tonnage", "dimension": "false_discovery_control", "kind": "regex_absent", "pattern": "metric tons?|tonnes?"},
+        {"assertion_id": "abstain-no-completion-date", "dimension": "false_discovery_control", "kind": "regex_absent", "pattern": "completion date|completed (?:by|in)"}
+      ]
+    },
+    {
+      "task_id": "P0-CONFLICT-001",
+      "parsed_text_path": "artifacts/parsing/P0-CONFLICT-001/mineru-3.4.0-pipeline-page10-r1/KO-EU-2024/auto/KO-EU-2024.md",
+      "assertions": [
+        {"assertion_id": "conflict-metric", "dimension": "metric", "kind": "regex_present", "pattern": "collected and refilled or collected for recycling"},
+        {"assertion_id": "conflict-2023", "dimension": "period_value", "kind": "regex_present", "pattern": "2023 62%"},
+        {"assertion_id": "conflict-2024", "dimension": "period_value", "kind": "regex_present", "pattern": "2024 65%"},
+        {"assertion_id": "conflict-no-injected-value", "dimension": "source_separation", "kind": "regex_absent", "pattern": "55%"}
+      ]
+    },
+    {
+      "task_id": "P0-OPEN-001",
+      "parsed_text_path": "artifacts/parsing/P0-OPEN-001/mineru-3.4.0-pipeline-page27-r1/NOVN-NIS-2024/auto/NOVN-NIS-2024.md",
+      "assertions": [
+        {"assertion_id": "open-capex", "dimension": "decision_relevance", "kind": "regex_present", "pattern": "USD 40 million"},
+        {"assertion_id": "open-emissions", "dimension": "decision_relevance", "kind": "regex_present", "pattern": "Scope 1 and 2\\) by 20% from the prior year and 71% from a 2016 base"},
+        {"assertion_id": "open-renewable", "dimension": "decision_relevance", "kind": "regex_present", "pattern": "96% of our purchased electricity consumption was renewable"},
+        {"assertion_id": "open-risk-table", "dimension": "table_alignment", "kind": "regex_present", "pattern": "Carbon pricing risk.{0,300}>70-184<.{0,200}>117-311<.{0,200}>72-213<"}
+      ]
+    }
+  ],
+  "limitations": [
+    "Atomic assertions test known critical fields and do not measure full-page transcription edit distance.",
+    "Negative assertions are valid only within the frozen supplied page.",
+    "Open-discovery novelty and usefulness require independent human review."
+  ]
+}

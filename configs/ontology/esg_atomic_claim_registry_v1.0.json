@@ -1,0 +1,32 @@
+{
+  "schema_version":"1.0",
+  "status":"development_frozen_before_v1_inference",
+  "metrics":{
+    "gross_scope_1_emissions":{"label":"Gross Scope 1 emissions","allowed_units":["million_metric_tons_co2e","tco2e","tonnes_co2e"],"allowed_scopes":["financial_control","reported_boundary"],"required_evidence_phrases":["scope 1 emissions"]},
+    "scope_1_methane_emissions":{"label":"Scope 1 methane emissions","allowed_units":["million_metric_tons_co2e","tco2e"],"allowed_scopes":["financial_control","reported_boundary"],"required_evidence_phrases":["methane emissions","ch4 emissions"]},
+    "total_gross_scope_3_emissions":{"label":"Total gross Scope 3 emissions","allowed_units":["million_metric_tons_co2e","tco2e"],"allowed_scopes":["financial_control","reported_boundary"],"required_evidence_phrases":["scope 3 emissions","gross scope 3"]},
+    "combined_scope_1_2_emissions":{"label":"Combined Scope 1 and 2 emissions","allowed_units":["million_metric_tons_co2e","tco2e","tonnes_co2e"],"allowed_scopes":["reported_boundary","gm_operations","sites_excluding_chugai"],"required_evidence_phrases":["scope 1 and 2 emissions","scope 1+2 emissions"]},
+    "combined_scope_1_2_reduction":{"label":"Combined Scope 1 and 2 emissions reduction","allowed_units":["percent"],"allowed_scopes":["reported_boundary","gm_operations","sites_excluding_chugai"],"required_evidence_phrases":["scope 1 and 2","scope 1+2"]},
+    "supply_chain_emissions_intensity_reduction":{"label":"Supply-chain emissions intensity reduction","allowed_units":["percent"],"allowed_scopes":["pg_purchased_inputs"],"required_evidence_phrases":["supply chain emissions"],"required_evidence_terms":["per unit"]},
+    "freshwater_use_avoided":{"label":"Freshwater use avoided","allowed_units":["million_gallons"],"allowed_scopes":["corporate_offices_and_data_centers"],"required_evidence_phrases":["freshwater","water use avoided"]},
+    "renewable_power_share":{"label":"Renewable power share","allowed_units":["percent"],"allowed_scopes":["operations_including_recs","reported_boundary"],"required_evidence_phrases":["renewable electricity","sustainable electricity"]},
+    "operations_value_chain_emissions_mbm":{"label":"Operations and value-chain emissions, market-based method","allowed_units":["tco2e"],"allowed_scopes":["operations_and_value_chain_mbm"],"required_evidence_phrases":["market-based"]}
+  },
+  "units":{
+    "million_metric_tons_co2e":{"label":"million metric tons CO2e"},
+    "million_gallons":{"label":"million gallons"},
+    "percent":{"label":"percent"},
+    "tco2e":{"label":"metric tons CO2e"},
+    "tonnes_co2e":{"label":"tonnes CO2e"}
+  },
+  "scopes":{
+    "financial_control":{"label":"financial control"},
+    "reported_boundary":{"label":"issuer-reported organizational boundary"},
+    "gm_operations":{"label":"GM Operations including GM Financial and excluding China JVs"},
+    "sites_excluding_chugai":{"label":"Roche sites under target boundary excluding Chugai"},
+    "pg_purchased_inputs":{"label":"P&G purchased raw, packaging, intermediate, storeroom and externally bought finished-product inputs"},
+    "corporate_offices_and_data_centers":{"label":"corporate offices and data centers"},
+    "operations_including_recs":{"label":"operations, renewable sources including RECs"},
+    "operations_and_value_chain_mbm":{"label":"operations and value chain, market-based method"}
+  }
+}

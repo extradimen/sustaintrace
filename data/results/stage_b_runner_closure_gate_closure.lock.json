@@ -1,0 +1,60 @@
+{
+  "schema_version": "0.1",
+  "closure_id": "ESG-STAGE-B-RUNNER-CLOSURE-GATE-CLOSURE-v0.1",
+  "created_at": "2026-09-14T13:28:26+08:00",
+  "status": "all_reusable_stage_b_entry_points_fail_closed",
+  "outcome": {
+    "runner_entry_points": 4,
+    "fully_gated_entry_points": 4,
+    "v13_caller_scripts_covered_by_central_entry_point": 28,
+    "enforced_boundaries": [
+      "pre_model",
+      "pre_knowledge_write"
+    ],
+    "model_executions_current_phase": 0,
+    "cloud_transmissions_current_phase": 0,
+    "historical_outputs_modified_or_rescored": 0
+  },
+  "behavior": {
+    "pre_model_violation": "raise_auditable_error_without_candidate_execution",
+    "pre_knowledge_write_violation": "retain_raw_failure_and_gate_audit_but_write_no_normalized_knowledge",
+    "candidate_output_rewritten": false,
+    "reference_answer_used_as_candidate_input": false
+  },
+  "artifacts": {
+    "result": {
+      "path": "data/results/stage_b_runner_closure_gate_v0.1.lock.json",
+      "sha256": "9c8a628a8fffd6c01908decc06d43a393b08605dafc782c93b0f016adfebe067"
+    },
+    "report": {
+      "path": "docs/157_StageB运行入口闭包门集成_v0.1.md",
+      "sha256": "e3a552397cf154da41cf9ee9330f4c087892b497f9268a53f814dbccb25db48a"
+    },
+    "audit_script": {
+      "path": "scripts/audit_stage_b_runner_closure_gate_v01.py",
+      "sha256": "8e04824f06acf74c47ecd13ad03effdc0de70e2f8d9b43c41d308d0354c288dd"
+    },
+    "dispatch_implementation": {
+      "path": "src/esg_reliable_discovery/repair_dispatch.py",
+      "sha256": "b70c314dbf8f7a935e66da1ee8179de22d8a6326065bd89dbd5c84bb2381f65e"
+    },
+    "regression_test": {
+      "path": "tests/test_stage_b_handle_closure_dispatch_v01.py",
+      "sha256": "c86fb215c5331b202b6077f1ef3988447d2ad09584a7ce52c09753b8df527244"
+    }
+  },
+  "runner_hashes": {
+    "src/esg_reliable_discovery/p1_stage_b_runner.py": "86f81ca39444eba4766e85cf97c3e63323cf2497e976e9420ab9dd97007d02b0",
+    "src/esg_reliable_discovery/v1_stage_b_runner.py": "710aea7ca64e6b519007b6216bdfd07408c0aa77ec2b8e9325fcc2984af5ea71",
+    "src/esg_reliable_discovery/v11_stage_b_runner.py": "3892130ee937e7dbbbc45e5794be51e067f6f98bb8d5596fc9154a4fc7871655",
+    "src/esg_reliable_discovery/v13_stage_b_runner.py": "1209e1c213982bf3d5f112ab762ef067ac5537106757f95d89290155e76a89a1"
+  },
+  "quality_gates": {
+    "pytest_collected_and_passed": 505,
+    "ruff": "passed",
+    "json_audit": "passed_with_documented_legacy_p1_exclusion",
+    "entry_point_ast_audit": "passed",
+    "locked_experiments_modified_or_rescored": false
+  },
+  "next_gate": "build the second repair queue from knowledge gaps and repair rankings"
+}

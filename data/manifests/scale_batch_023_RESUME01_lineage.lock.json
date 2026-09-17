@@ -1,0 +1,18 @@
+{
+  "schema_version": "0.1",
+  "run_id": "KB-SCALE-BATCH-023-RESUME01",
+  "parent_run_id": "KB-SCALE-BATCH-023",
+  "created_at": "2026-09-14T02:09:30+08:00",
+  "interruption_or_resume_reason": "Assurance preflight rejected LVMH because a signed assurance statement was absent; RWE replaced it after exact-SHA256 and PDF validation.",
+  "reused_items": [
+    "KB-B023-ARKEMA-URD2025 source PDF and acquisition metadata",
+    "KB-B023-CRH-SPR2025 source PDF and acquisition metadata"
+  ],
+  "pending_items": [
+    "resumed diagnostics",
+    "target page and assurance window freeze",
+    "MinerU execution",
+    "knowledge projection and adjudication"
+  ],
+  "parent_results_overwritten": false
+}

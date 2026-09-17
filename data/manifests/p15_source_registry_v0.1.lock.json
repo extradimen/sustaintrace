@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "registry_id": "P15-SOURCE-REGISTRY-v0.1",
+  "status": "source_frozen_before_task_authoring_and_candidate_inference",
+  "candidates": [
+    {
+      "candidate_id": "P15-CAND-001",
+      "document_id": "P15-NOVARTIS-NFM2025",
+      "company": "Novartis AG",
+      "title": "Report on Nonfinancial Matters 2025",
+      "language": "English",
+      "eligibility_status": "eligible",
+      "sha256": "8dbc7f74b114b52eafa7a454bd0cbe49efae3a8ea61e931f7eb075d39336758b",
+      "official_landing_page": "https://www.novartis.com/investors/reporting-and-transparency-hub",
+      "local_path": "data/raw/p15_staging/novartis-report-nonfinancial-matters-2025.pdf",
+      "page_count": 51
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-014",
+  "status": "increment_built_candidates_not_promoted",
+  "fact_candidates": 47,
+  "trusted_facts_promoted": 0,
+  "evidence_gaps": 4,
+  "failure_observations": 4,
+  "gaps": [
+    {
+      "document_id": "KB-B014-SCA-AR2025",
+      "page": 224,
+      "theme": "assurance",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B014-TRELLEBORG-AR2025",
+      "page": 62,
+      "theme": "biodiversity",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B014-TRELLEBORG-AR2025",
+      "page": 62,
+      "theme": "water",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B014-ESSITY-AR2025",
+      "page": 185,
+      "theme": "assurance",
+      "reason": "no_theme_line_in_mineru_markdown"
+    }
+  ],
+  "outputs": {
+    "facts": {
+      "path": "data/knowledge_bases/v0.1/increments/scale_batch_014_fact_records.jsonl",
+      "sha256": "3dc76b74a7100258f3818a87335c2c28841bcd672ab00fb59dacbd64390c564a"
+    },
+    "failures": {
+      "path": "data/knowledge_bases/v0.1/increments/scale_batch_014_failure_records.jsonl",
+      "sha256": "761d9c08b02cd19f449dd271ce1f8887d1b5f5a68f37e38dc17f00d5293499a9"
+    }
+  },
+  "policy": {
+    "cloud_transmission": false,
+    "locked_experiments_modified": false,
+    "automatic_promotion": false
+  }
+}

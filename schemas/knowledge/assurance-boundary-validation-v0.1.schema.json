@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/esg/assurance-boundary-validation-v0.1.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version", "record_kind", "validation_id", "case_id", "fact_record_id",
+    "task_id", "predicate", "value", "resolved_boundary", "checks",
+    "validation_status", "execution_performed", "promotion_performed", "rollback"
+  ],
+  "properties": {
+    "schema_version": {"const": "0.1"},
+    "record_kind": {"const": "assurance_boundary_validation"},
+    "validation_id": {"type": "string", "pattern": "^assurance-validation-[0-9a-f]{24}$"},
+    "case_id": {"type": "string", "pattern": "^boundary-case-[0-9a-f]{24}$"},
+    "fact_record_id": {"type": "string", "pattern": "^fact-[0-9a-f]{24}$"},
+    "task_id": {"type": "string", "pattern": "^P[0-9]+-ASSURE-001$"},
+    "predicate": {"type": "string", "minLength": 1},
+    "value": {},
+    "resolved_boundary": {"type": "string", "minLength": 1},
+    "checks": {
+      "type": "object",
+      "additionalProperties": {"type": "boolean"},
+      "minProperties": 6
+    },
+    "validation_status": {"enum": ["ready_for_supervised_execution", "not_ready"]},
+    "execution_performed": {"const": false},
+    "promotion_performed": {"const": false},
+    "rollback": {"const": "delete_validation_and_preserve_unresolved_candidate"}
+  }
+}

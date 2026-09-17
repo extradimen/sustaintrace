@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "check_id": "P0-MINERU-TABLE-CALC-INTEGRATION-001",
+  "tasks": ["P0-TABLE-001", "P0-CALC-001"],
+  "decision": "passed_for_enhanced_parse_and_deterministic_calculation_channels",
+  "parser": {
+    "name": "MinerU",
+    "version": "3.4.0",
+    "backend": "pipeline",
+    "dependency_lock": {"pdftext": "0.6.3", "pypdfium2": "4.30.0"},
+    "role": "enhanced_parse_channel_not_evidence_authority"
+  },
+  "input": {
+    "document_id": "SIE-SR-2024",
+    "document_sha256": "043285e4a589c2831e29276e9e0aaea582269ca87a747f1ae22fdfbc445a813f",
+    "pdf_page": 118
+  },
+  "attempts": [
+    {
+      "run": "r1",
+      "status": "dependency_compatibility_failed_archived",
+      "reason": "pdftext_0.7.1_PageChars_not_iterable",
+      "audit_record_sha256": "e16b12a8a970efa5c3489df74d580f398c189f762c0bd73925da6f156ab2215a"
+    },
+    {
+      "run": "r2",
+      "status": "passed",
+      "audit_record_sha256": "f3c1760ff5fd0ac46df7936468b048521be25e0948f74b4208dc00d5eeb360f0",
+      "markdown_sha256": "4669f3f08d1664f47d5339a53a3e1c7419b5132ecea3e9feba50c3e6ab791979"
+    }
+  ],
+  "checks": {
+    "FY2024_allegations": 16,
+    "FY2023_allegations": 21,
+    "reported_change_percent": -23.8,
+    "deterministic_change_percent": -23.80952380952381,
+    "reported_rounding_consistent": true,
+    "table_boundary_preserved": true,
+    "false_discovery_observed": false
+  },
+  "limitations": [
+    "This validates one table page only.",
+    "The source PDF and page handle remain the evidence authority."
+  ]
+}

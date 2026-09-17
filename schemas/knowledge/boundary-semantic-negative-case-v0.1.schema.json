@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/esg/boundary-semantic-negative-case-v0.1.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version", "record_kind", "case_id", "fact_record_id", "task_id", "predicate",
+    "boundary_class", "current_status", "unsafe_inference", "required_evidence",
+    "automatic_action", "source_fact_modified", "promotion_performed"
+  ],
+  "properties": {
+    "schema_version": {"const": "0.1"},
+    "record_kind": {"const": "boundary_semantic_negative_case"},
+    "case_id": {"type": "string", "pattern": "^boundary-case-[0-9a-f]{24}$"},
+    "fact_record_id": {"type": "string", "pattern": "^fact-[0-9a-f]{24}$"},
+    "task_id": {"type": "string", "minLength": 1},
+    "predicate": {"type": "string", "minLength": 1},
+    "boundary_class": {
+      "enum": ["assurance_scope_metadata", "metric_component_boundary", "taxonomy_classification_boundary", "organizational_population_boundary", "target_and_performance_boundary"]
+    },
+    "current_status": {"const": "supervised_block"},
+    "unsafe_inference": {"type": "string", "minLength": 1},
+    "required_evidence": {"type": "string", "minLength": 1},
+    "automatic_action": {"const": "report_unresolved_and_do_not_promote"},
+    "source_fact_modified": {"const": false},
+    "promotion_performed": {"const": false}
+  }
+}

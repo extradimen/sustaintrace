@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0",
+  "record_kind": "workbench_reliability_milestone",
+  "milestone_id": "WORKBENCH-SUPERVISOR-REPAIR-UI-V0.2",
+  "status": "passed",
+  "completed_at": "2026-09-16T23:12:00+08:00",
+  "scope": [
+    "single_instance_runtime_lock",
+    "detached_supervisor",
+    "bounded_component_restart",
+    "atomic_runtime_state",
+    "append_only_runtime_events",
+    "original_repaired_fact_comparison",
+    "rollback_reason_presentation"
+  ],
+  "safety_invariants": {
+    "completed_jobs_restarted": false,
+    "locked_experiments_modified": false,
+    "trusted_knowledge_layer_modified": false,
+    "cloud_transfer_performed": false,
+    "restart_budget": 8,
+    "restart_window_seconds": 300
+  },
+  "fault_injection": {
+    "component": "ui",
+    "terminated_pid": 18509,
+    "recovered_pid": 18628,
+    "restart_count": 1,
+    "result": "passed",
+    "evidence": "data/workbench/runtime/supervisor_events.jsonl"
+  },
+  "validation": {
+    "pytest": {
+      "collected": 566,
+      "passed": 566
+    },
+    "ruff": "passed",
+    "frontend_eslint": "passed",
+    "frontend_production_build": "passed",
+    "api_health": "passed",
+    "ui_http": "passed"
+  },
+  "artifacts": {
+    "scripts/run_workbench.py": "9442ba7bd98e1c634c2c8bfbb9c40665dfff0a9f6e56c34c78ed5942f3ccf7fb",
+    "tests/test_run_workbench.py": "adae0439709191fb448e480ebbc819ed615b17fed3d9c34001e69f2b0e3a43ee",
+    "workbench-ui/components/workbench/fact-evidence-sheet.tsx": "f7989da1a7f8891beb85cf9aabbb1488df89ce6594d9791e745e40b9c76b1048",
+    "workbench-ui/components/workbench/failure-center.tsx": "1561e76f0d192dfa669e6673897c80308ccee9f18db052223e4ae2f01c113f0b",
+    "workbench-ui/components/workbench/report-library.tsx": "295dd1d037f91c1d476ada307c23ef746756b0ec5f161723fe910ab5546892cd",
+    "README.md": "6e679969296b7846197187ef1a43fb461af6912eb9a61d16176d892ea3900d22"
+  },
+  "remaining_boundary": {
+    "automatic_trust_promotion": false,
+    "next_step": "controlled_promotion_review_queue"
+  }
+}

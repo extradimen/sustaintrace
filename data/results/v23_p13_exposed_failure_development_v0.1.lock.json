@@ -1,0 +1,30 @@
+{
+  "schema_version": "2.3",
+  "status": "development_regression_passed",
+  "development_source": "P13 exposed failures only",
+  "locked_experiments_modified": false,
+  "implemented": {
+    "reference_direction_literal_gate": "passed",
+    "framework_owned_calculation_plan": "passed",
+    "multi_step_safety_reconciliation": "passed",
+    "ordered_multi_handle_string_span": "passed"
+  },
+  "regression_tests": "6 passed",
+  "full_pytest": "239 passed",
+  "ruff": "passed",
+  "artifacts": {
+    "preregistration": {
+      "path": "configs/framework/v2.3_p13_exposed_failure_preregistration.json",
+      "sha256": "b01e87290b8eb94c299fcabbe671875da0a5c44435edb9e6c8aad85271a6bed6"
+    },
+    "implementation": {
+      "path": "src/esg_reliable_discovery/v23_preflight.py",
+      "sha256": "f0f4dc198ce340612351a57841a30fb8b67ead2a3c06bc66c4910747a2f5064c"
+    },
+    "tests": {
+      "path": "tests/test_v23_p13_exposed_regression.py",
+      "sha256": "f52246097fcf6c09762564b8712d0bccbda8bb8a98802bc121ddf7adb60593e5"
+    }
+  },
+  "next_gate": "integrate v2.3 into reusable candidate execution path before selecting P14"
+}

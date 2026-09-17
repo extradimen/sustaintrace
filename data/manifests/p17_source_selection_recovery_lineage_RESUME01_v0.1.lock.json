@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "lineage_id": "P17-SOURCE-SELECTION-RESUME01-v0.1",
+  "status": "recovery_open_new_source_required",
+  "recorded_date": "2026-09-10",
+  "experiment_id": "P17-V26-UNSEEN-LOCKBOX-V01",
+  "parent_manifest": "data/manifests/p17_source_acquisition_v0.1.lock.json",
+  "parent_document_id": "P17-ROCHE-AR2025",
+  "parent_disposition": "excluded",
+  "parent_exclusion_record": "data/manifests/p17_roche_protocol_exclusion_v0.1.lock.json",
+  "recovery_rules": [
+    "Do not reuse the Roche document for P17.",
+    "Do not overwrite or delete the original acquisition record.",
+    "Verify the replacement issuer and document are absent from P1-P16 before acceptance.",
+    "Freeze replacement source identity and SHA256 first.",
+    "Freeze parsing rules second and before any report-body extraction.",
+    "Only then discover and freeze task page windows, simulated references, contracts and execution configuration."
+  ],
+  "cloud_transmission_allowed": false
+}

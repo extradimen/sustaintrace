@@ -1,0 +1,10 @@
+{
+  "schema_version": "1.0",
+  "policy_id": "V3-EVIDENCE-HANDLES-001",
+  "model_supplied_locator": "source_handle",
+  "framework_resolved_fields": ["document_id", "document_sha256", "page"],
+  "official_handle_pattern": "S{one_based_page_index:03d}",
+  "controlled_intervention_handle_pattern": "I{one_based_intervention_index:03d}",
+  "unknown_handle_policy": "hard_failure",
+  "model_generated_content_preserved": true
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "task_id": "P17-WORKFORCE-001",
+  "reference_author": "codex_gpt_simulated_expert",
+  "reference_status": "verified_against_frozen_pages",
+  "answer": "At year-end 2025 BMW Group reported 155,497 employees. Permanent employees numbered 146,064: 116,968 male and 29,058 female (plus 38 not disclosed). Temporary employees numbered 9,433: 7,354 male and 2,079 female. At management level there were 12,647 employees: 9,866 male (78.0%) and 2,781 female (22.0%). BMW AG in Germany targets a 20–25% share of women across the four management levels below the Board of Management by 2030.",
+  "normalized_value": {
+    "employees_2025": 155497,
+    "permanent_2025": {"total":146064,"male":116968,"female":29058,"not_disclosed":38},
+    "temporary_2025": {"total":9433,"male":7354,"female":2079},
+    "management_2025": {"total":12647,"male":9866,"male_percent":78.0,"female":2781,"female_percent":22.0},
+    "management_target": {"subject":"BMW AG in Germany, four levels below Board of Management","female_share_range_percent":[20,25],"year":2030}
+  },
+  "evidence": [
+    {"source_id":"P17-BMW-GROUP-REPORT-2025","pdf_page":172,"quote":"Total number of employees"},
+    {"source_id":"P17-BMW-GROUP-REPORT-2025","pdf_page":172,"quote":"155,497"},
+    {"source_id":"P17-BMW-GROUP-REPORT-2025","pdf_page":172,"quote":"Number of permanentemployees"},
+    {"source_id":"P17-BMW-GROUP-REPORT-2025","pdf_page":172,"quote":"146,064"},
+    {"source_id":"P17-BMW-GROUP-REPORT-2025","pdf_page":172,"quote":"Number of temporaryemployees"},
+    {"source_id":"P17-BMW-GROUP-REPORT-2025","pdf_page":172,"quote":"9,433"},
+    {"source_id":"P17-BMW-GROUP-REPORT-2025","pdf_page":179,"quote":"Gender distribution at management level"},
+    {"source_id":"P17-BMW-GROUP-REPORT-2025","pdf_page":179,"quote":"target range of 20– 25%"},
+    {"source_id":"P17-BMW-GROUP-REPORT-2025","pdf_page":179,"quote":"by 2030"}
+  ],
+  "provenance": {"reference_is_simulated":true,"candidate_model_used":false}
+}

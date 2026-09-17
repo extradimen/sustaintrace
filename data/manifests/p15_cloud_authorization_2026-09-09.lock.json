@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "experiment_id": "P15-V24-UNSEEN-LOCKBOX-V01",
+  "status": "authorized_by_user",
+  "authorized_at_local_date": "2026-09-09",
+  "authorization_source": "explicit_user_message_in_current_thread",
+  "document_id": "P15-NOVARTIS-NFM2025",
+  "document_title": "Novartis Report on Nonfinancial Matters 2025",
+  "document_sha256": "8dbc7f74b114b52eafa7a454bd0cbe49efae3a8ea61e931f7eb075d39336758b",
+  "pages": [20, 21, 22, 27, 28, 29, 30, 31, 32, 36, 43, 44, 45],
+  "page_coordinate_system": "one_based_pdf_page_index",
+  "model": "qwen3.5:397b-cloud",
+  "allowed_scope": "P15 Stage A and Stage B single-attempt candidate inference only",
+  "silent_retry_allowed": false,
+  "post_hoc_semantic_repair_allowed": false,
+  "other_reports_or_pages_authorized": false
+}

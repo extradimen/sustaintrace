@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.0",
+  "check_id": "P0-MINERU-PAGE18-INTEGRATION-001",
+  "task_id": "P0-TEXT-001",
+  "completed_at": "2026-09-03T12:11:52.256554+00:00",
+  "decision": "passed_for_enhanced_parse_channel",
+  "parser": {
+    "name": "MinerU",
+    "version": "3.4.0",
+    "backend": "pipeline",
+    "method": "auto",
+    "model_source": "huggingface",
+    "fixed_revision": "ed6b654c018d742e65a17671e379c5e6ecc87ec9",
+    "role": "enhanced_parse_channel_not_evidence_authority"
+  },
+  "input": {
+    "document_id": "MSFT-ESR-2024",
+    "document_sha256": "7d4872c7b4a64b4bf9bac1af440a1d124a449d595cf49a1d62d510130db593cc",
+    "pdf_page": 18,
+    "start_page_zero_based": 17,
+    "end_page_zero_based": 17
+  },
+  "attempts": [
+    {
+      "run": "r1",
+      "status": "infrastructure_failed_archived",
+      "reason": "sandbox_denied_local_loopback_port_bind",
+      "audit_record_sha256": "e582afc29865a52986eb6310ab966cb4cd6875651772cc767547571c292f2202"
+    },
+    {
+      "run": "r2",
+      "status": "passed",
+      "returncode": 0,
+      "elapsed_seconds": 49.509,
+      "output_file_count_before_audit_record": 10,
+      "audit_record_sha256": "262b3840b1b103dd6a722b4d1a8075c85ebc1796a54e45103c10ee3de5deb4f2",
+      "markdown_sha256": "219478e6fe5f370098c85d50062df444cd9b65831322ed89f33991d005a2d514"
+    }
+  ],
+  "gold_dimension_checks": {
+    "project_subject": "pass_clearloop",
+    "geographic_boundary": "pass_mississippi_delta_region",
+    "reported_value": "pass_6.6",
+    "unit": "pass_megawatt_normalizable_to_MW",
+    "page_scope": "pass_only_original_pdf_page_18",
+    "false_discovery_observed": false
+  },
+  "warnings": [
+    {
+      "code": "MINERU_PDF_CLASSIFY_COMPATIBILITY_WARNING",
+      "message": "PdfImage object lacked get_pos during automatic classification; pipeline continued and completed successfully.",
+      "disposition": "retained_for_later_parser_robustness_testing"
+    }
+  ],
+  "limitations": [
+    "This check validates one text-heavy page and does not establish table, formula, multilingual, or full-report accuracy.",
+    "MinerU output is a derived parse channel; evidence authority remains the immutable source PDF and page handle.",
+    "P1 inference remains forbidden until the unseen evaluation package is frozen."
+  ]
+}

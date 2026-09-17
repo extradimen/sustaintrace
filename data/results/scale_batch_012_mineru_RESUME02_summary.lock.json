@@ -1,0 +1,37 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-012-RESUME02",
+  "updated_at": "2026-09-13T06:44:16.337666+00:00",
+  "status": "complete",
+  "cloud_transmission": false,
+  "total_target_pages": 2,
+  "complete_pages": 2,
+  "failed_pages": 0,
+  "pending_pages": 0,
+  "records": [
+    {
+      "document_id": "KB-B012-VINCI-URD2025",
+      "page": 229,
+      "themes": [
+        "targets"
+      ],
+      "output_directory": "artifacts/scale_batch_012/mineru_targets_RESUME02/KB-B012-VINCI-URD2025-p0229",
+      "status": "complete",
+      "started_at": "2026-09-13T06:43:42.395981+00:00",
+      "completed_at": "2026-09-13T06:43:59.216791+00:00",
+      "wall_seconds": 16.820818
+    },
+    {
+      "document_id": "KB-B012-VINCI-URD2025",
+      "page": 278,
+      "themes": [
+        "health_safety"
+      ],
+      "output_directory": "artifacts/scale_batch_012/mineru_targets_RESUME02/KB-B012-VINCI-URD2025-p0278",
+      "status": "complete",
+      "started_at": "2026-09-13T06:43:59.218617+00:00",
+      "completed_at": "2026-09-13T06:44:16.337374+00:00",
+      "wall_seconds": 17.118963
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "artifact": "templates/finding_card.schema.json",
+  "artifact_sha256": "e2aac00a4996600dbb56ae2531f4a69f539f8edb4ac66929a74048f284a57520",
+  "locked_at": "2026-09-01T14:40:00Z",
+  "compatible_p0_manifest_sha256": "8da6ab126cfb5d07a8546e292923102d87f371ea7eb4b7f9391350a324305d65",
+  "calibration_fixtures": [
+    {
+      "path": "tests/fixtures/finding_cards/verified_fact.json",
+      "sha256": "1f136778ccbb8337fbfd49de5670bd12c94f66f4e9495ce456c40267eb7f46a3"
+    },
+    {
+      "path": "tests/fixtures/finding_cards/insufficient_information.json",
+      "sha256": "4a7965322ab611c564102f84456ebc0c3b856926d689457ca94da5d37a5671fe"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "candidate_reference_visibility": false,
+  "cloud_transmission_allowed": false,
+  "document_id": "P23-GSK-AR2025",
+  "document_sha256": "a3ef37d848fca940f85b6c33815a5d47d1f32726fd389a03910653e24af0f4d2",
+  "experiment_id": "P23-V32-UNSEEN-LOCKBOX-V01",
+  "integrity_audit": {
+    "all_quotes_exact_substrings_of_frozen_parser_output": true,
+    "all_reference_pages_within_frozen_task_windows": true,
+    "candidate_model_used": false,
+    "cloud_transmission_occurred": false,
+    "evidence_quote_count": 49,
+    "numeric_values_cross_checked_against_native_layout": true,
+    "reference_count": 6
+  },
+  "manifest_id": "P23-SIMULATED-REFERENCE-FREEZE-v0.1",
+  "references": [
+    {
+      "path": "data/annotations/p23_simulated/P23-ASSURE-001.json",
+      "sha256": "0ea241c099d77aeb756c0557d453d25a740b60b1942de54dcc7ec41789d2eb6e",
+      "task_id": "P23-ASSURE-001"
+    },
+    {
+      "path": "data/annotations/p23_simulated/P23-BOUNDARY-001.json",
+      "sha256": "310c3c4cfc56ef78602c56c2d9d21a353d4eae0d22246be163a55948b29449ac",
+      "task_id": "P23-BOUNDARY-001"
+    },
+    {
+      "path": "data/annotations/p23_simulated/P23-ENERGY-CALC-001.json",
+      "sha256": "f9f37a4b5c05566ede29aa3583d77f5310830a62bdabbf6095a062bb2180f851",
+      "task_id": "P23-ENERGY-CALC-001"
+    },
+    {
+      "path": "data/annotations/p23_simulated/P23-GHG-CALC-001.json",
+      "sha256": "cc7f82825cb26d3b975dad787b7d17e60dfe85f5284ee392172137c67caad02c",
+      "task_id": "P23-GHG-CALC-001"
+    },
+    {
+      "path": "data/annotations/p23_simulated/P23-WATER-CALC-001.json",
+      "sha256": "b885e32137314c14bc1d34f082936af9f1f5a10e1a303e7850ea8b8bf873b99d",
+      "task_id": "P23-WATER-CALC-001"
+    },
+    {
+      "path": "data/annotations/p23_simulated/P23-WORKFORCE-CALC-001.json",
+      "sha256": "aef085c2bcf69299ede354e46e0052a23a2ec998f22bcfb0349422fe03ba7244",
+      "task_id": "P23-WORKFORCE-CALC-001"
+    }
+  ],
+  "schema_version": "1.0",
+  "status": "simulated_references_frozen_after_questions_page_windows_and_parser_outputs_and_before_candidate_inference",
+  "target_registry": {
+    "path": "data/manifests/p23_mineru_target_registry_v0.1.lock.json",
+    "sha256": "87aa221c8cac02005be42561785569617ada876445556242348853c09bf91b20"
+  },
+  "task_pack": {
+    "path": "data/tasks/p23_task_pack_v0.1.lock.json",
+    "sha256": "486ce2c4d46a31c8ab25635738447277e45e4a9ea7e304fd932fe10d9a37a5e7"
+  }
+}

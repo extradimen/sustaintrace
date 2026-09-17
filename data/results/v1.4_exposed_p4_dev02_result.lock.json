@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "experiment_id": "V14-EXPOSED-P4-DEV02",
+  "status": "development_regression_passed",
+  "freeze": "data/manifests/v1.4_exposed_p4_dev02_freeze.lock.json",
+  "results": {
+    "P4-CALC-001": {
+      "status": "interface_passed",
+      "finding": "FY23 and FY24 are normalized to 2023 and 2024 while originals are retained"
+    },
+    "P4-CONFLICT-001": {
+      "status": "interface_passed",
+      "finding": "462603 + 48798 = 511401 versus reported 511400; signed discrepancy = 1 tCO2e"
+    },
+    "P4-DEX-003": {
+      "status": "real_page_projection_passed",
+      "graph_counts": {"nodes": 504, "edges": 8036, "vector_shapes": 51},
+      "projected_values": {
+        "Total water withdrawn": {"value": "97.9", "relation": "adjacent_right_near_shape_top"},
+        "Total water discharged": {"value": "52.9", "relation": "contains_center"},
+        "Total water consumed": {"value": "45.0", "relation": "contains_center"}
+      }
+    }
+  },
+  "verification": {"pytest": "189 passed", "ruff": "all checks passed"},
+  "model_calls": 0,
+  "silent_retries": 0,
+  "posthoc_semantic_repairs": 0,
+  "p3_or_p4_rerun": false,
+  "p3_or_p4_rescored": false,
+  "interpretation": "The framework defects exposed by P4 now have deterministic, auditable interfaces. This is development evidence only; unseen validity requires P5."
+}

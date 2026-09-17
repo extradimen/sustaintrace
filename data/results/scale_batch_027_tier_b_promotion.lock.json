@@ -1,0 +1,115 @@
+{
+  "blocked_by_reason": {
+    "comparative_period_excluded_or_native_row_header_not_corroborated": [
+      "fact-29117ab9afba6f09149a57b9",
+      "fact-4a3e784c14dad12492d8c280",
+      "fact-6b6ddba223142376c869bf51",
+      "fact-73ec59e2d21449bef3f021e5",
+      "fact-7691da75a05edd44b90fa423",
+      "fact-7756ea96515e524e177b1683",
+      "fact-828d7b96566679f83bef4a6f",
+      "fact-94946eb1a7eb12808e44ce3f",
+      "fact-aed82a6758ced0edbf0a6bd7"
+    ]
+  },
+  "blocked_fact_ids": [
+    "fact-29117ab9afba6f09149a57b9",
+    "fact-4a3e784c14dad12492d8c280",
+    "fact-6b6ddba223142376c869bf51",
+    "fact-73ec59e2d21449bef3f021e5",
+    "fact-7691da75a05edd44b90fa423",
+    "fact-7756ea96515e524e177b1683",
+    "fact-828d7b96566679f83bef4a6f",
+    "fact-94946eb1a7eb12808e44ce3f",
+    "fact-aed82a6758ced0edbf0a6bd7"
+  ],
+  "inputs": {
+    "atomic_increment_sha256": "3fc7adaf273db8fcad554611028c00b7408b17fb9d5da1ea4cc74b9fecedce63",
+    "atomic_validations_sha256": "b8c974cd2a35eb71407d3e6f0f0ba462687bd10ab08a0af999a2fa5a5c459adf",
+    "native_coordinate_audit_sha256": "1685535ba9238e844a5adda09929ae171246547be298501659e7ec15aed84a86"
+  },
+  "locked_experiments_modified_or_rescored": false,
+  "native_audit": {
+    "assurance_page_text_sha256": {
+      "KB-B027-HANDELSBANKEN-AR2025:p142": "8222781b51be045895f18498b67fc98adf6a7d17c7bc3419e627d75e0df42bdb",
+      "KB-B027-HANDELSBANKEN-AR2025:p143": "a61c57959be390de808538ac4bb5dfbd67ee7abb9ec787a5f20cf58ead0c2350",
+      "KB-B027-SECURITAS-AR2025:p175": "62f91dce55bce749f5348bf4c2a59b110d95e5163debb62cf9f6ca2cab287ce3",
+      "KB-B027-SECURITAS-AR2025:p176": "619dcff590b0cb8c12d5901863d3979991618e3df4416c5c5069905d4ac0ce13"
+    },
+    "batch_id": "KB-SCALE-BATCH-027-NATIVE-COORDINATE-AUDIT",
+    "checks": {
+      "KB-B027-HANDELSBANKEN-AR2025:assurance_conclusion": true,
+      "KB-B027-HANDELSBANKEN-AR2025:assurance_issuer": true,
+      "KB-B027-HANDELSBANKEN-AR2025:assurance_period": true,
+      "KB-B027-HANDELSBANKEN-AR2025:assurance_signatory": true,
+      "KB-B027-HANDELSBANKEN-AR2025:source_sha256": true,
+      "KB-B027-SECURITAS-AR2025:assurance_conclusion": true,
+      "KB-B027-SECURITAS-AR2025:assurance_issuer": true,
+      "KB-B027-SECURITAS-AR2025:assurance_period": true,
+      "KB-B027-SECURITAS-AR2025:assurance_signatory": true,
+      "KB-B027-SECURITAS-AR2025:source_sha256": true,
+      "fact-06f27fbab3e3a5384832271b:coordinate": true,
+      "fact-06f27fbab3e3a5384832271b:document": true,
+      "fact-06f27fbab3e3a5384832271b:period": true,
+      "fact-06f27fbab3e3a5384832271b:row": true,
+      "fact-06f27fbab3e3a5384832271b:value": true,
+      "fact-2accd027061c74eea8d97546:coordinate": true,
+      "fact-2accd027061c74eea8d97546:document": true,
+      "fact-2accd027061c74eea8d97546:period": true,
+      "fact-2accd027061c74eea8d97546:row": true,
+      "fact-2accd027061c74eea8d97546:value": true,
+      "fact-42663e8e6d32d64f5ba3438d:coordinate": true,
+      "fact-42663e8e6d32d64f5ba3438d:document": true,
+      "fact-42663e8e6d32d64f5ba3438d:period": true,
+      "fact-42663e8e6d32d64f5ba3438d:row": true,
+      "fact-42663e8e6d32d64f5ba3438d:value": true,
+      "fact-61ff328fd86eeb88f9e4c656:coordinate": true,
+      "fact-61ff328fd86eeb88f9e4c656:document": true,
+      "fact-61ff328fd86eeb88f9e4c656:period": true,
+      "fact-61ff328fd86eeb88f9e4c656:row": true,
+      "fact-61ff328fd86eeb88f9e4c656:value": true,
+      "fact-af9b61979eed0b55ab126fcf:coordinate": true,
+      "fact-af9b61979eed0b55ab126fcf:document": true,
+      "fact-af9b61979eed0b55ab126fcf:period": true,
+      "fact-af9b61979eed0b55ab126fcf:row": true,
+      "fact-af9b61979eed0b55ab126fcf:value": true,
+      "fact-c4a43028480c67e2e32c54ce:coordinate": true,
+      "fact-c4a43028480c67e2e32c54ce:document": true,
+      "fact-c4a43028480c67e2e32c54ce:period": true,
+      "fact-c4a43028480c67e2e32c54ce:row": true,
+      "fact-c4a43028480c67e2e32c54ce:value": true,
+      "fact-f54afb968c84d69bee01887c:coordinate": true,
+      "fact-f54afb968c84d69bee01887c:document": true,
+      "fact-f54afb968c84d69bee01887c:period": true,
+      "fact-f54afb968c84d69bee01887c:row": true,
+      "fact-f54afb968c84d69bee01887c:value": true
+    },
+    "policy": {
+      "automatic_promotion": false,
+      "cloud_transmission": false
+    },
+    "promotable_facts": 7,
+    "schema_version": "0.1",
+    "status": "selected_cells_and_assurance_boundaries_passed"
+  },
+  "newly_promoted_to_tier_b": 7,
+  "next_gate": "scale_batch_027_global_kb_rebuild_and_closure",
+  "outputs": {
+    "adjudications_sha256": "76eaaf93d277d86f18b7b2e34a9da5661eb04ee0353e1bb539bb2306cbf82fc8",
+    "trusted_facts_sha256": "866c7e14eb92a86401fab4524d6fd909b67a3f9c3e0c5c728b7e5bea4045eb6b"
+  },
+  "promotable_fact_ids": [
+    "fact-06f27fbab3e3a5384832271b",
+    "fact-2accd027061c74eea8d97546",
+    "fact-42663e8e6d32d64f5ba3438d",
+    "fact-61ff328fd86eeb88f9e4c656",
+    "fact-af9b61979eed0b55ab126fcf",
+    "fact-c4a43028480c67e2e32c54ce",
+    "fact-f54afb968c84d69bee01887c"
+  ],
+  "reviewed": 16,
+  "schema_version": "0.1",
+  "source_candidate_records_modified": 0,
+  "status": "scale_batch_027_six_dimension_tier_b_review_complete",
+  "total_trusted_tier_b": 149
+}

@@ -1,0 +1,70 @@
+{
+  "answer": "At December 31, 2025, Germany had 70,751 FTEs and International 127,327, summing to 198,078 versus the disclosed total 198,079, a -1 FTE difference. For 2024, 74,550 plus 123,644 equals the disclosed total 198,194 exactly.",
+  "evidence": [
+    {
+      "pdf_page": 109,
+      "quote": "Germany",
+      "source_id": "P18-DEUTSCHE-TELEKOM-AR2025"
+    },
+    {
+      "pdf_page": 109,
+      "quote": "70,751",
+      "source_id": "P18-DEUTSCHE-TELEKOM-AR2025"
+    },
+    {
+      "pdf_page": 109,
+      "quote": "74,550",
+      "source_id": "P18-DEUTSCHE-TELEKOM-AR2025"
+    },
+    {
+      "pdf_page": 109,
+      "quote": "International",
+      "source_id": "P18-DEUTSCHE-TELEKOM-AR2025"
+    },
+    {
+      "pdf_page": 109,
+      "quote": "127,327",
+      "source_id": "P18-DEUTSCHE-TELEKOM-AR2025"
+    },
+    {
+      "pdf_page": 109,
+      "quote": "123,644",
+      "source_id": "P18-DEUTSCHE-TELEKOM-AR2025"
+    },
+    {
+      "pdf_page": 109,
+      "quote": "Total number of employees",
+      "source_id": "P18-DEUTSCHE-TELEKOM-AR2025"
+    },
+    {
+      "pdf_page": 109,
+      "quote": "198,079",
+      "source_id": "P18-DEUTSCHE-TELEKOM-AR2025"
+    },
+    {
+      "pdf_page": 109,
+      "quote": "198,194",
+      "source_id": "P18-DEUTSCHE-TELEKOM-AR2025"
+    }
+  ],
+  "normalized_value": {
+    "disclosed_total_fte::2024": 198194,
+    "disclosed_total_fte::2025": 198079,
+    "germany_fte::2024": 74550,
+    "germany_fte::2025": 70751,
+    "international_fte::2024": 123644,
+    "international_fte::2025": 127327,
+    "recomputed_minus_disclosed_fte::2024": 0,
+    "recomputed_minus_disclosed_fte::2025": -1,
+    "recomputed_total_fte::2024": 198194,
+    "recomputed_total_fte::2025": 198078
+  },
+  "provenance": {
+    "candidate_model_used": false,
+    "reference_is_simulated": true
+  },
+  "reference_author": "codex_gpt_simulated_expert",
+  "reference_status": "verified_against_frozen_mineru_pages_and_native_layout",
+  "schema_version": "1.0",
+  "task_id": "P18-WORKFORCE-001"
+}

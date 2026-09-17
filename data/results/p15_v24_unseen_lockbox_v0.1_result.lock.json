@@ -1,0 +1,51 @@
+{
+  "schema_version": "2.4",
+  "experiment_id": "P15-V24-UNSEEN-LOCKBOX-V01",
+  "status": "completed_and_locked",
+  "candidate_model": "qwen3.5:397b-cloud",
+  "reference_type": "simulated_expert_reference_not_independent_human_gold",
+  "execution": {
+    "authorized_pages": [20,21,22,27,28,29,30,31,32,36,43,44,45],
+    "single_attempt_per_stage": true,
+    "silent_retries": 0,
+    "posthoc_semantic_repairs": 0,
+    "infrastructure_resume": "RESUME01 after sandbox denied local Ollama connection before any request",
+    "model_run_archives": 11,
+    "model_run_archives_sha256_verified": 11
+  },
+  "summary_dimensions": {
+    "stage_a_valid_tasks": 5,
+    "stage_a_total_tasks": 6,
+    "final_pipeline_valid_tasks": 2,
+    "final_pipeline_total_tasks": 6,
+    "credited_valid_slots": 26,
+    "required_slots": 63,
+    "exact_slots": 20,
+    "numeric_exact_slots": 14,
+    "numeric_reference_slots": 35,
+    "string_exact_slots": 6,
+    "string_reference_slots": 28
+  },
+  "task_outcomes": {
+    "P15-GHG-CALC-001": "stage_a_model_behavior_failure_archived_no_retry",
+    "P15-TARGET-001": "stage_a_and_stage_b_passed",
+    "P15-WATER-QUALITY-001": "stage_a_passed_stage_b_model_behavior_failure_archived_no_retry",
+    "P15-SAFETY-001": "stage_a_passed_stage_b_model_behavior_failure_archived_no_retry",
+    "P15-ACCESS-001": "stage_a_and_stage_b_passed",
+    "P15-ASSURE-001": "stage_a_passed_stage_b_model_behavior_failure_archived_no_retry"
+  },
+  "inputs": {
+    "progress":"data/manifests/p15_candidate_progress_RESUME01.json",
+    "progress_sha256":"95d3c9bc4d70f0591126195451ee768756be263614410908a83cf0b2529e1529",
+    "dimension_scores":"data/results/p15_v24_dimension_scores_v0.1.lock.json",
+    "dimension_scores_sha256":"a42fb5f61220ae2735aee9af01efe555591a3e900cc34e220f95bc140d3cda83",
+    "execution_task_pack":"data/tasks/p15_execution_task_pack_v0.1.lock.json",
+    "execution_task_pack_sha256":"c090a82f2b338f7328fb736d775179856c1931fd889a08bbcc7ca4c4e0454399"
+  },
+  "immutability": {
+    "p3_through_p14_modified": false,
+    "p15_rerun_allowed": false,
+    "p15_rescore_allowed": false,
+    "p15_may_be_used_as_exposed_development_set": true
+  }
+}

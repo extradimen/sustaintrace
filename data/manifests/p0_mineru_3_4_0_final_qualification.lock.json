@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "qualification_id": "P0-MINERU-3.4.0-FINAL",
+  "decision": "qualified_as_enhanced_parse_channel_with_mandatory_source_page_verification",
+  "environment": {
+    "mineru": "3.4.0",
+    "backend": "pipeline",
+    "pdftext": "0.6.3",
+    "pypdfium2": "4.30.0",
+    "model_source": "huggingface",
+    "model_revision": "ed6b654c018d742e65a17671e379c5e6ecc87ec9",
+    "ocr_assets_verified": "25/25"
+  },
+  "coverage": {
+    "P0-TEXT-001": "pass",
+    "P0-TABLE-001": "pass",
+    "P0-CALC-001": "pass_with_external_deterministic_calculator",
+    "P0-TARGET-001": "pass",
+    "P0-ABSTAIN-001": "pass_after_visual_page_review",
+    "P0-CONFLICT-001": "pass_with_complex_header_alignment_warning",
+    "P0-OPEN-001": "parse_pass_human_blind_review_pending"
+  },
+  "visual_check": {
+    "task_id": "P0-ABSTAIN-001",
+    "render_sha256": "43a39870a49dea7505560c74c3203a8d2f3214765b86b2af692bfff7a8abc73a",
+    "result": "No achieved waste-reduction tonnage or completion date appears in text or diagram."
+  },
+  "conflict_check": {
+    "official_FY2023_percent": 62,
+    "official_FY2024_percent": 65,
+    "injected_FY2024_percent": 55,
+    "official_direction": "increase",
+    "injected_direction": "decrease",
+    "audit_record_sha256": "94f2b85a1d86b453cf04b0696e7c430a7ea45c10ebda7356eaf2baae304c87ec",
+    "markdown_sha256": "f72e853a7ed2453f4120e346c54e436cd3ba9e1f27866e916f88e99d81d5e670"
+  },
+  "known_failures_and_controls": [
+    "pdftext 0.7.1 is incompatible and is excluded by the dependency lock.",
+    "Complex table headers can be misaligned even when key values survive; claims must resolve to the source page.",
+    "Parser output is never the evidence authority.",
+    "Open-discovery scientific validity still requires the frozen blind-review protocol."
+  ],
+  "p1_inference_allowed": false
+}

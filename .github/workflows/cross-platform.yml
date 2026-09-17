@@ -1,0 +1,70 @@
+name: Cross-platform release validation
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      full_mineru:
+        description: Download pinned MinerU models and run the real parser smoke test
+        required: false
+        type: boolean
+        default: true
+  schedule:
+    - cron: "17 3 * * 1"
+
+jobs:
+  application:
+    name: ${{ matrix.os }} application and fallback parser
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Bootstrap application and Poppler
+        run: python bootstrap.py --skip-mineru --dev
+      - name: Verify packaged UI and knowledge seed
+        run: python -m pytest tests/test_workbench_api.py tests/test_workbench_native_fallback.py
+      - name: Ruff
+        run: .venv/bin/ruff check .
+        if: runner.os != 'Windows'
+      - name: Ruff (Windows)
+        run: .venv\Scripts\ruff.exe check .
+        if: runner.os == 'Windows'
+
+  full-mineru:
+    name: ${{ matrix.os }} full MinerU installation and PDF smoke test
+    if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.full_mineru)
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 90
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Cache pinned MinerU model snapshot
+        uses: actions/cache@v4
+        with:
+          path: models/mineru
+          key: mineru-assets-${{ runner.os }}-ed6b654c
+      - name: Install and parse smoke PDF
+        run: python bootstrap.py
+      - name: Verify installation state
+        run: python bootstrap.py --check
+      - uses: actions/upload-artifact@v4
+        with:
+          name: sustaintrace-bootstrap-${{ runner.os }}
+          path: |
+            data/install/bootstrap_state.json
+            data/install/smoke/
+          retention-days: 14

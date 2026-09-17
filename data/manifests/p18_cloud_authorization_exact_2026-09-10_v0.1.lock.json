@@ -1,0 +1,19 @@
+{
+  "schema_version": "2.7",
+  "experiment_id": "P18-V27-UNSEEN-LOCKBOX-V01",
+  "status": "authorized_by_user",
+  "authorized_at_date": "2026-09-10",
+  "authorization_source": "current_thread_exact_user_message",
+  "user_message": "需明确授权将 Deutsche Telekom Annual Report 2025 第109、121、122、123、131、133、370、371页冻结证据发送至 qwen3.5:397b-cloud，仅用于 P18 Stage A/Stage B 单次候选推理。另外不需要我决策或选择，就不要再询问，我已经授权",
+  "report": "Deutsche Telekom Annual Report 2025",
+  "document_id": "P18-DEUTSCHE-TELEKOM-AR2025",
+  "document_sha256": "de5d9b0705793c4bf0b994b52ecc242800d79ee18736958dbff32aade7b79a5c",
+  "pages": [109, 121, 122, 123, 131, 133, 370, 371],
+  "model": "qwen3.5:397b-cloud",
+  "experiment_scope": "P18 Stage A/Stage B single-attempt candidate inference",
+  "stage_scope": ["Stage A", "Stage B"],
+  "single_attempt_only": true,
+  "silent_retry_allowed": false,
+  "posthoc_semantic_repair_allowed": false,
+  "authorization_does_not_cover_other_reports_or_pages": true
+}

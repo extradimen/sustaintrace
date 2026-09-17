@@ -1,0 +1,53 @@
+{
+  "batch_id": "KB-SCALE-BATCH-010-NATIVE-COORDINATE-AUDIT",
+  "checks": {
+    "puma_footnote_period_2024_present": true,
+    "puma_main_assurance_period_2025_present": true,
+    "puma_source_sha256_matches": true,
+    "veolia_assurance_entity_present": true,
+    "veolia_assurance_period_present": true,
+    "veolia_assurance_section_present": true,
+    "veolia_biogenic_heading_present": true,
+    "veolia_page_footer_matches": true,
+    "veolia_scope_1_values_present": true,
+    "veolia_scope_2_values_present": true,
+    "veolia_scope_3_current_value_present": true,
+    "veolia_source_sha256_matches": true,
+    "veolia_year_headers_present": true
+  },
+  "native_puma_assurance_sha256": "d90110861766657ce282fa725cff5c8416eaea339c4dbb554b78caf288b10fc6",
+  "native_veolia_assurance_sha256": "263cabf0b8d656a2e4fd9994b2fff61e7db13c4646c7fbd36a2017601eb9635c",
+  "native_veolia_page_sha256": "8b54f2678b6a4632c36e6bbc84cf07e5bcbea4208c9bac8a3dc4faba03b4f95f",
+  "policy": {
+    "automatic_promotion": false,
+    "cloud_transmission": false
+  },
+  "puma": {
+    "assurance_pdf_page": 350,
+    "document_id": "KB-B010-PUMA-AR2025",
+    "promotion_blocker": "main text says financial year 2025 while translation footnote says the engagement related to Group Sustainability Statement 2024"
+  },
+  "schema_version": "0.1",
+  "status": "veolia_passed_puma_fail_closed_on_assurance_period_contradiction",
+  "veolia": {
+    "assurance_pdf_page": 328,
+    "assurance_quote": "This report covers the sustainability information relating to the year ended December 31, 2025, included in the Group management report and presented in Section 4.1, \u2018Sustainability Statement\u2019 of the Universal Registration Document.",
+    "columns": {
+      "scope_1": {
+        "2024": "5.8",
+        "2025": "6.7"
+      },
+      "scope_2": {
+        "2024": "0.2",
+        "2025": "0.1"
+      },
+      "scope_3": {
+        "2024": "not disclosed",
+        "2025": "7.6"
+      }
+    },
+    "document_id": "KB-B010-VEOLIA-URD2025",
+    "pdf_page": 219,
+    "unit": "Mt eq. CO2"
+  }
+}

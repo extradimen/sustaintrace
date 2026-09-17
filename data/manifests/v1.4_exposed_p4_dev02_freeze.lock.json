@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "experiment_id": "V14-EXPOSED-P4-DEV02",
+  "status": "frozen_before_result_record",
+  "data_class": "exposed_development_only",
+  "prohibitions": ["no P4 rescore", "no P4 result overwrite", "no generalization claim"],
+  "targets": ["P4-CALC-001", "P4-CONFLICT-001", "P4-DEX-003"],
+  "checks": {
+    "P4-CALC-001": "controlled FY literal normalization with original retention",
+    "P4-CONFLICT-001": "same-report grounded component-total discrepancy",
+    "P4-DEX-003": "shared text-vector spatial graph and colored chart projection"
+  },
+  "chart_source": {
+    "path": "data/raw/nestle/NESN-NFS-2024.pdf",
+    "sha256": "c1c577517577e28ef8b979b0c3158cb263fd3853e7e699ddd27b37cd6f5ffc0d",
+    "page": 50,
+    "extractors": ["pdftotext -bbox-layout", "pdftocairo -svg"]
+  },
+  "reference_policy": "The same spatial graph projection is used to produce candidate evidence and verify the simulated reference; reference values do not select graph nodes.",
+  "framework_source_sha256": {
+    "p1_v07.py": "fe87a53dfa1cdd4fc649acfa3eae19291faa2eb0b67381465e79f4b2b0b473dd",
+    "v14_spatial_graph.py": "e33914d3ba2de32d492706ecaa9b392ff2903de2b6d9f50da3d83f0bd3743ec1",
+    "v14_pdf_vector.py": "2e7fe8438ced4abc5734dd4f4d2345b50052242e0ad15138a52c38119bda3d9b",
+    "v14_discrepancy.py": "c427d6ad852ce65e25c51af987f6633d0260ef8b8db0444daf25c23d493c72c0"
+  }
+}

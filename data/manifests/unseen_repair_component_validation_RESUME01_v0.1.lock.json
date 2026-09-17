@@ -1,0 +1,28 @@
+{
+  "schema_version": "0.1",
+  "record_kind": "unseen_repair_component_validation_manifest_resume",
+  "status": "frozen_not_executed",
+  "resume_lineage": {
+    "parent_manifest": "data/manifests/unseen_repair_component_validation_v0.1.lock.json",
+    "parent_sha256": "f3d5a11d99a5a48549155a8dbe8ed361d77402236c92434eb02ca0715c19b27b",
+    "reason": "the initial manifest recorded an incorrect read-only diagnostics closure hash; detected before execution",
+    "cases_inherited_without_change": true
+  },
+  "frozen_cases": {
+    "source": "data/manifests/unseen_repair_component_validation_v0.1.lock.json#cases",
+    "count": 6
+  },
+  "parent_hashes": {
+    "fact_records": "1da6f28e8c1b3125d07a52d39aed4e095c6f40ef71378173c36a1486f7cb890c",
+    "knowledge_gap_records": "858a37ede7bd213c1c3d1e9136d5d8be6bc6e6f12f147124318347cb3a8cef76",
+    "read_only_diagnostics_closure": "921ca65534d33933c0dfd857733da005fa249183ac099efc51be52e597180760",
+    "period_unit_screens_closure": "1b1d968567cbc2855523ff51107fc0c95efef9ccf11b1a055e0d5af483550c39"
+  },
+  "safety": {
+    "fact_write_allowed": false,
+    "trust_promotion_allowed": false,
+    "semantic_inference_allowed": false,
+    "cloud_transmission_allowed": false,
+    "bulk_repair_allowed": false
+  }
+}

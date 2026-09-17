@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0",
+  "experiment_id": "P14-V23-UNSEEN-LOCKBOX-V01",
+  "status": "questions_and_page_windows_frozen_before_reference_creation_and_candidate_inference",
+  "inference_allowed": false,
+  "page_coordinate_system": "one_based_pdf_page_index",
+  "tasks": [
+    {
+      "task_id": "P14-GHG-CALC-001",
+      "document_id": "P14-LOREAL-URD2025",
+      "task_type": "deterministic_calculation",
+      "question_status": "frozen",
+      "question": "Using L'Oreal's reported 2025 Scope 1, market-based Scope 2 and total Scope 3 GHG emissions, calculate their sum and compare it with the disclosed market-based total GHG emissions, retaining units and explaining any exact or rounding difference.",
+      "target_pages": [213]
+    },
+    {
+      "task_id": "P14-TARGET-001",
+      "document_id": "P14-LOREAL-URD2025",
+      "task_type": "scope_subject_boundary",
+      "question_status": "frozen",
+      "question": "What 2030 and 2050 absolute GHG reduction targets does L'Oreal report, including base year, Scope 1 and 2 boundary, the material Scope 3 categories covered by the 2030 target, SBTi validation, the stated benchmark-exclusion position, and 2025 progress?",
+      "target_pages": [206, 208, 212, 213]
+    },
+    {
+      "task_id": "P14-WATER-001",
+      "document_id": "P14-LOREAL-URD2025",
+      "task_type": "direct_extraction",
+      "question_status": "frozen",
+      "question": "What 2025 water-resource targets and outcomes does L'Oreal report for recycled or reused industrial water, water-saving products, total water consumption, consumption in water-risk areas, total water recycled and reused, water intensity, and the stated factory-scope qualification?",
+      "target_pages": [225, 229]
+    },
+    {
+      "task_id": "P14-SAFETY-001",
+      "document_id": "P14-LOREAL-URD2025",
+      "task_type": "direct_extraction",
+      "question_status": "frozen",
+      "question": "What 2025 own-workforce health and safety metrics does L'Oreal report for management-system coverage, fatalities, recordable work-related accidents, eTIR and LTIR, and what exclusion accompanies the accident metrics?",
+      "target_pages": [248]
+    },
+    {
+      "task_id": "P14-SLB-001",
+      "document_id": "P14-LOREAL-URD2025",
+      "task_type": "scope_subject_boundary",
+      "question_status": "frozen",
+      "question": "For L'Oreal's sustainability-linked bond, what were the three 2025 KPI objectives, reported performances and achievement statuses, what boundary or rounding qualifications apply, and what information is outside the limited-assurance conclusion?",
+      "target_pages": [282, 288, 289]
+    },
+    {
+      "task_id": "P14-ASSURE-001",
+      "document_id": "P14-LOREAL-URD2025",
+      "task_type": "scope_subject_boundary",
+      "question_status": "frozen",
+      "question": "What does the statutory auditors' limited-assurance engagement on L'Oreal's 2025 Sustainability Report cover, what three conclusions are reported, and what limitations or matters are explicitly outside the engagement?",
+      "target_pages": [285, 286, 287]
+    }
+  ]
+}

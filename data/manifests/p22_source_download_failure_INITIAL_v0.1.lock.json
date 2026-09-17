@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "experiment_id": "P22-V31-UNSEEN-LOCKBOX-V01",
+  "document_id": "P22-BAYER-AR2025",
+  "classification": "infrastructure_http_403",
+  "source_url": "https://www.bayer.com/sites/default/files/2026-03/bayer-annual-report-2025.pdf",
+  "curl_exit_code": 22,
+  "http_status": 403,
+  "preserved_partial_bytes": 0,
+  "semantic_experiment_started": false,
+  "candidate_model_call_count": 0,
+  "recovery_policy": "Use the same issuer's official Annual Report 2025 download endpoint; do not use a third-party mirror.",
+  "status": "preserved_for_same_issuer_official_source_recovery"
+}

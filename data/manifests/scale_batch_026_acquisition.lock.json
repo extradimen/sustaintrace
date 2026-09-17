@@ -1,0 +1,37 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-026",
+  "status": "source_set_frozen",
+  "documents": [
+    {
+      "document_id": "KB-B026-STOREBRAND-AR2025",
+      "local_path": "data/raw/scale_batch_026/storebrand-annual-report-2025.pdf",
+      "bytes": 10596211,
+      "pages": 279,
+      "sha256": "56ae30f6f6d5ee245602de45a2f7292e42e13f748a996da0c3f15c4cd2e160b3",
+      "pdf_valid": true,
+      "exact_sha256_duplicate": false
+    },
+    {
+      "document_id": "KB-B026-ORKLA-AR2025",
+      "local_path": "data/raw/scale_batch_026/orkla-annual-report-2025.pdf",
+      "bytes": 125973147,
+      "pages": 282,
+      "sha256": "1ac3c951a126ac27733bdae3114237abcbeca4f568f881266ac8ae673239e271",
+      "pdf_valid": true,
+      "exact_sha256_duplicate": false
+    },
+    {
+      "document_id": "KB-B026-SEB-AR2025",
+      "local_path": "data/raw/scale_batch_026/seb-annual-report-2025.pdf",
+      "bytes": 14348731,
+      "pages": 350,
+      "sha256": "1bf07071afbab0269914a1a78d16e4e840e73e5efbe901af97b148d288b28083",
+      "pdf_valid": true,
+      "exact_sha256_duplicate": false
+    }
+  ],
+  "rejected_documents": [],
+  "cross_experiment_sha256_deduplication": "passed",
+  "cloud_transmission": false
+}

@@ -1,0 +1,8 @@
+{
+  "direct_extraction": 6,
+  "deterministic_calculation": 4,
+  "cross_page_relation": 4,
+  "scope_subject_boundary": 4,
+  "controlled_conflict": 3,
+  "abstention": 3
+}

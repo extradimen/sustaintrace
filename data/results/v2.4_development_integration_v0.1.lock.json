@@ -1,0 +1,56 @@
+{
+  "schema_version": "2.4",
+  "status": "development_regression_and_pipeline_integration_passed",
+  "development_source": "P14 exposed failures only",
+  "changes": [
+    {
+      "id": "V24-CALC-LEGACY-BINDING",
+      "problem": "A semantically correct legacy calculation_request failed the frozen v2.3 observations schema.",
+      "resolution": "Deterministically lower only reported value, evidence, period and unit bindings; ignore candidate operation and candidate-computed fields; execute the frozen framework DAG."
+    },
+    {
+      "id": "V24-ORDERED-SPAN-PREFLIGHT",
+      "problem": "The v2.2/v2.3 dry-run fixture omitted required_value_terms and falsely blocked two P14 Stage B tasks before model calls.",
+      "resolution": "Construct candidate-path fixtures from both required qualifier literals and required value terms, preserving ordered fragments."
+    },
+    {
+      "id": "V24-LAYOUT-REGISTRY-GATE",
+      "problem": "A compact task_ids layout registry reached a production evidence builder that requires one task_id per record.",
+      "resolution": "Reject compact, missing, invalid or duplicate task-page records before candidate inference."
+    }
+  ],
+  "production_integration": {
+    "stage_a_flags": [
+      "use_v24_calculation_adapter",
+      "use_v24_layout_gate"
+    ],
+    "stage_b_flags": [
+      "use_v24_preflight",
+      "use_v24_layout_gate"
+    ],
+    "candidate_semantics_modified": false,
+    "candidate_operation_trusted": false,
+    "hidden_reference_used": false
+  },
+  "verification": {
+    "p14_exposed_archive_regression": "passed",
+    "new_regression_tests": "5/5 passed",
+    "full_pytest": "249/249 passed",
+    "ruff": "passed",
+    "json_validation": "passed"
+  },
+  "artifacts": {
+    "implementation": "src/esg_reliable_discovery/v24_integrity.py",
+    "implementation_sha256": "4491069e6a8f956b703f08e0a6604a4248571250521a6908df42cfd5c3d7df4e",
+    "stage_a_integration": "src/esg_reliable_discovery/v13_stage_a_runner.py",
+    "stage_a_integration_sha256": "a36f0a30f6a1d16875bf5d3c321e9c5a1b525e686f5f38022cd42a6c322f897e",
+    "stage_b_integration": "src/esg_reliable_discovery/v13_stage_b_runner.py",
+    "stage_b_integration_sha256": "b9e807daae2468a43527e83aeda86c33e133164cc9a8a4d4e6b3f39053f43655",
+    "regression_tests": "tests/test_v24_p14_exposed_regression.py",
+    "regression_tests_sha256": "acf1084a7a29fb45e0dfd17609bbd2ab42991136788673a0696bbe73120119a3",
+    "archive_regression": "data/results/v2.4_p14_exposed_failure_regression_v0.1.lock.json",
+    "archive_regression_sha256": "9d3a2f442f20fa8b2d00b46a3747b62bc8f56478f261d154e1cbef7cef21b762"
+  },
+  "locked_experiments_modified_or_rerun": false,
+  "next_stage": "P15 unseen local freeze"
+}

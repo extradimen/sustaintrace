@@ -1,0 +1,45 @@
+{
+  "schema_version": "0.1",
+  "record_kind": "candidate_inventory_closure",
+  "status": "heterogeneous_component_candidate_inventory_complete",
+  "usable_inventory": {
+    "path": "data/results/heterogeneous_component_candidate_inventory_RESUME03_v0.1.lock.json",
+    "sha256": "5ead95a3cd21a9a68f531447fa4ac7f3adfd61883453b171c23d589439989bbd"
+  },
+  "shortlist_counts": {
+    "FIELD_EVIDENCE_BINDING_INCOMPLETE": 4,
+    "PERIOD_ATTACHMENT_INCOMPLETE": 4,
+    "UNIT_ATTACHMENT_INCOMPLETE": 1,
+    "TABLE_CELL_BINDING_INCOMPLETE": 4,
+    "NATIVE_PDF_CORROBORATION_INCOMPLETE": 2,
+    "CALCULATION_LINEAGE_INCOMPLETE": 0
+  },
+  "coverage_findings": {
+    "field_period_table": "sufficient unexposed report candidates for the next two-report validation",
+    "native_pdf": "exactly two unexposed reports remain",
+    "unit": "only Shell remains unexposed to the unit component",
+    "calculation": "no existing calculation-gap report remains unexposed because all calculation lineage records are Bayer"
+  },
+  "superseded_inventories": [
+    {
+      "path": "data/results/heterogeneous_component_candidate_inventory_v0.1.lock.json",
+      "reason": "did not exclude exposed screens and development fixtures"
+    },
+    {
+      "path": "data/results/heterogeneous_component_candidate_inventory_RESUME01_v0.1.lock.json",
+      "reason": "excluded individual fact IDs but not all facts from component-exposed reports"
+    },
+    {
+      "path": "data/results/heterogeneous_component_candidate_inventory_RESUME02_v0.1.lock.json",
+      "reason": "coverage-gap label did not distinguish zero from one remaining report"
+    }
+  ],
+  "safety": {
+    "shortlisted_sample_executed": false,
+    "superseded_inventory_used_for_execution": false,
+    "fact_write_performed": false,
+    "trust_promotion_performed": false,
+    "cloud_transmission_performed": false
+  },
+  "next_gate": "audit source pages and freeze heterogeneous component contracts; design new non-Bayer calculation tasks from frozen source numbers"
+}

@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Evidence repair triage v0.1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "record_kind",
+    "triage_id",
+    "failure_record_id",
+    "failure_signature",
+    "mode",
+    "causal_subtype",
+    "decision",
+    "new_lineage_required",
+    "candidate_output_may_be_semantically_rewritten",
+    "execution_performed"
+  ],
+  "properties": {
+    "schema_version": {"const": "0.1"},
+    "record_kind": {"const": "evidence_repair_triage"},
+    "triage_id": {"type": "string", "minLength": 1},
+    "failure_record_id": {"type": "string", "minLength": 1},
+    "failure_signature": {
+      "enum": [
+        "EVIDENCE_GROUNDING_MISMATCH",
+        "EVIDENCE_SELECTION_GAP",
+        "TARGET_ASSURANCE_WINDOW_INCOMPLETE"
+      ]
+    },
+    "mode": {"enum": ["locked_evaluation", "operational"]},
+    "causal_subtype": {"type": "string", "minLength": 1},
+    "decision": {"type": "string", "minLength": 1},
+    "new_lineage_required": {"type": "boolean"},
+    "candidate_output_may_be_semantically_rewritten": {"const": false},
+    "execution_performed": {"const": false}
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "schema_version": "2.5",
+  "experiment_id": "P16-V25-UNSEEN-LOCKBOX-V01",
+  "status": "frozen_before_candidate_inference",
+  "graphs": [
+    {"graph_id":"P16-GHG-P38","pdf_page":38,"header_axis":["2025","2024 excluding Opella","2024 including Opella","2023","2019 baseline","percent variation","2030","2045"],"row_axis":["gross market-based Scope 1","gross market-based Scope 2","significant Scope 3","transition-plan-scope total"],"selected_cells":[["gross market-based Scope 1","2025",235],["gross market-based Scope 2","2025",70],["significant Scope 3","2025",3436],["transition-plan-scope total","2025",3741]]},
+    {"graph_id":"P16-POLLUTION-P43","pdf_page":43,"header_axis":["2025","2024 excluding Opella","2024 including Opella","2023","2019 baseline","change vs 2019"],"row_axis":["VOCs mass balance","dichloromethane mass balance"],"selected_cells":[["VOCs mass balance","2025",616],["dichloromethane mass balance","2025",21]]},
+    {"graph_id":"P16-POLLUTION-P45","pdf_page":45,"header_axis":["2025","2024 excluding Opella","2024 including Opella","2023"],"row_axis":["SVHC generated used or procured","SVHC total leaving facilities","SVHC leaving as emissions","SVHC leaving in products"],"selected_cells":[["SVHC generated used or procured","2025",1611558],["SVHC total leaving facilities","2025",1494],["SVHC leaving as emissions","2025",908],["SVHC leaving in products","2025",586]]},
+    {"graph_id":"P16-SAFETY-P68","pdf_page":68,"header_axis":["2025","2024 Opella excluded","2024 Opella included","2023"],"row_axis":["HSE coverage","own-workforce fatalities","other-worker site fatalities","recordable accidents","recordable accident rate","recordable ill-health cases","LTI frequency rate","serious injuries and fatalities"],"selected_cells":[["HSE coverage","2025",100],["own-workforce fatalities","2025",0],["other-worker site fatalities","2025",0],["recordable accidents","2025",182],["recordable accident rate","2025",1.4],["recordable ill-health cases","2025",30],["LTI frequency rate","2025",0.9],["serious injuries and fatalities","2025",0]]},
+    {"graph_id":"P16-ACCESS-P90","pdf_page":90,"header_axis":["2025","2024","2023"],"row_axis":["NCD partnerships","countries supported","beneficiaries reached","HCPs and HCWs engaged","facilities upskilled"],"selected_cells":[["NCD partnerships","2025",73],["countries supported","2025",40],["beneficiaries reached","2025",4916098],["HCPs and HCWs engaged","2025",37116],["facilities upskilled","2025",666]]}
+  ]
+}

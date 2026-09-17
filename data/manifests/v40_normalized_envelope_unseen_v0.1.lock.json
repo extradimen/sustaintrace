@@ -1,0 +1,35 @@
+{
+  "schema_version": "0.1",
+  "experiment_id": "V4.0-NORMALIZED-ENVELOPE-UNSEEN-V01",
+  "status": "frozen_before_execution",
+  "input": {
+    "path": "artifacts/v39_volvo_repeated_value_table_unseen_RESUME01_v0.1/result.lock.json",
+    "sha256": "24bd0aea5d4a99c65778453399ea26ea6c2bbb3412dc4dd025689aac29970488",
+    "used_in_v4_0_development": false,
+    "known_structure_at_freeze": "positive component diagnostic is nested under raw_result"
+  },
+  "parent_binding": {
+    "case_id": "V39-TABLE-UNSEEN-VOLVO-001",
+    "fact_record_id": "fact-8b592f76837c3f3219cad2d7",
+    "gap_id": "v39-unseen-derived-gap",
+    "gap_registered_in_knowledge_base": false
+  },
+  "expected": {
+    "normalized_status": "passed",
+    "raw_payload_preserved": true,
+    "parent_hash_preserved": true,
+    "attachment_applicable": false,
+    "promotion_eligible": false
+  },
+  "execution_policy": {
+    "attempts": 1,
+    "interface_change_before_execution": false,
+    "silent_retry": false,
+    "post_hoc_repair": false,
+    "historical_result_mutation": false,
+    "fact_write": false,
+    "trust_promotion": false,
+    "gap_creation": false,
+    "cloud_transmission": false
+  }
+}

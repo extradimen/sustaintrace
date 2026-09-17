@@ -1,0 +1,20 @@
+{
+  "adjudications": 5,
+  "blocked_explicitly_unaudited": 2,
+  "inputs": {
+    "facts_sha256": "8af57e7b7bda85deef8f90586f8225aedcf1da24e0669300115b8f1f7499bf5b",
+    "plans_sha256": "53c37219ffe68c879e342dde803a63e8ace88544b43326bba083bb572ac98f0f",
+    "validations_sha256": "192dea1d9d8fa66abf136f408799c0e27503e36e9d3e53811bd50f0d2da23639"
+  },
+  "locked_experiments_modified_or_rescored": false,
+  "next_gate": "independent_six_dimension_review_for_five_candidates_only",
+  "output": {
+    "path": "data/knowledge_bases/v0.1/taxonomy_boundary_adjudications.jsonl",
+    "sha256": "0fd9679aac293d61bfc13380eecb9fcc3033b45814653ef00106229727e988cc"
+  },
+  "promotions_performed": 0,
+  "ready_for_independent_source_review": 5,
+  "schema_version": "0.1",
+  "source_fact_records_modified": 0,
+  "status": "taxonomy_boundaries_adjudicated_in_derived_layer"
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version":"1.0",
+  "status":"frozen_before_candidate_inference",
+  "ontology":"configs/ontology/esg_atomic_claim_registry_v1.0.json",
+  "contracts":{
+    "P3-DEX-001":[{"metric_id":"total_gross_scope_3_emissions","period_year":2025}],
+    "P3-DEX-002":[{"metric_id":"combined_scope_1_2_emissions","period_year":2024}],
+    "P3-XPAGE-001":[{"metric_id":"combined_scope_1_2_emissions","period_year":2020},{"metric_id":"combined_scope_1_2_emissions","period_year":2024},{"metric_id":"combined_scope_1_2_reduction","period_year":2024},{"metric_id":"combined_scope_1_2_emissions","period_year":2030,"claim_kind":"target"}],
+    "P3-XPAGE-002":[{"metric_id":"combined_scope_1_2_reduction","period_year":2024},{"metric_id":"combined_scope_1_2_emissions","period_year":2024}],
+    "P3-SCOPE-001":[{"metric_id":"combined_scope_1_2_emissions","period_year":2025}],
+    "P3-SCOPE-002":[{"metric_id":"total_gross_scope_3_emissions","period_year":2025}]
+  },
+  "novelty_warning":"Contracts use only the previously frozen ontology. Unit or scope mismatch on unseen reports is an evaluated generalization failure, not grounds for ontology amendment."
+}

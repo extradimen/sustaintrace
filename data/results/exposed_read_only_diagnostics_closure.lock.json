@@ -1,0 +1,76 @@
+{
+  "schema_version": "0.1",
+  "closure_id": "ESG-EXPOSED-READ-ONLY-DIAGNOSTICS-CLOSURE-v0.1",
+  "created_at": "2026-09-14T14:36:43+08:00",
+  "status": "four_read_only_adapters_exposed_validation_complete",
+  "outcome": {
+    "diagnostics": 4,
+    "passed": 3,
+    "blocked_fail_closed": 1,
+    "fact_writes": 0,
+    "trust_promotions": 0,
+    "semantic_inferences": 0,
+    "cloud_transmissions": 0,
+    "historical_outputs_modified_or_rescored": 0
+  },
+  "validated_findings": {
+    "field_binding": "blocked because five evidence items do not form one unique field binding",
+    "table_cell": "Category 2 Capital goods x 2024 -> 465 with native coordinates",
+    "native_pdf": "BMW 836,963 corroborated in the intended Scope 1+2 row",
+    "calculation_lineage": "51.61 - 30.25 = 21.36; disclosed 21.35; difference 0.01"
+  },
+  "resume_lineage": {
+    "parent_attempt": {
+      "path": "artifacts/second_repair_diagnostics_v0.1/diagnostic_summary.lock.json",
+      "sha256": "65a9722c37031d1c67c168cba15260467fb5caef40f0eb0e84cd8f0daab60c77"
+    },
+    "reason": "initial row header contained the preceding numeric cell 609",
+    "resolution": "RESUME01 excludes numeric tokens from the derived row label without changing source inputs"
+  },
+  "artifacts": {
+    "summary": {
+      "path": "artifacts/second_repair_diagnostics_RESUME01_v0.1/diagnostic_summary.lock.json",
+      "sha256": "cd6431dc0921e7ea5bfdd07e2bc0bcf03ff1860e3b3c95dea315366a649e538d"
+    },
+    "field_diagnostic": {
+      "path": "artifacts/second_repair_diagnostics_RESUME01_v0.1/field_evidence_binding_incomplete.diagnostic.json",
+      "sha256": "d32c70bd44612e4e0340d34ffd4378efc209610b2253eed9949824dac9b8759a"
+    },
+    "table_diagnostic": {
+      "path": "artifacts/second_repair_diagnostics_RESUME01_v0.1/table_cell_binding_incomplete.diagnostic.json",
+      "sha256": "24cef554ed711e2319d65d2b6db7df29b2afe7458e54ec57169a3d4f6c4f2f2e"
+    },
+    "native_pdf_diagnostic": {
+      "path": "artifacts/second_repair_diagnostics_RESUME01_v0.1/native_pdf_corroboration_incomplete.diagnostic.json",
+      "sha256": "cf361514aae95a50603c529bafc6e10270a9a646aa1c8c0651d0540593580b27"
+    },
+    "calculation_diagnostic": {
+      "path": "artifacts/second_repair_diagnostics_RESUME01_v0.1/calculation_lineage_incomplete.diagnostic.json",
+      "sha256": "f29c8f56aea70f858629a1fc4743181b3e56fcdb7b2b93932d412dd61ac26dff"
+    },
+    "implementation": {
+      "path": "src/esg_reliable_discovery/read_only_diagnostics.py",
+      "sha256": "72147ef97dddfbece1ba50d9cf5f4e0833d2ce3eda8b0bb5e5f7ff99e5d2370b"
+    },
+    "runner": {
+      "path": "scripts/run_exposed_read_only_diagnostics_v01.py",
+      "sha256": "ed088e945f6b2d7a45574ad7e8b9a6bcf05e15c9e63a0198cc8da6fe37d1d674"
+    },
+    "tests": {
+      "path": "tests/test_read_only_diagnostics_v01.py",
+      "sha256": "3f05809e4d05b3e3b87e72c9082cb8793f3d8cc8455e7f9398a387119941b56e"
+    },
+    "report": {
+      "path": "docs/160_四类只读诊断适配器已暴露验证_v0.1.md",
+      "sha256": "c060e57ad1282c90ca5f9f0b50a4765e802d762758c36bdb4832d77248a650de"
+    }
+  },
+  "quality_gates": {
+    "pytest_collected_and_passed": 520,
+    "ruff": "passed",
+    "json_and_sha256": "passed",
+    "visual_pdf_pages_reviewed": 4,
+    "locked_experiments_modified_or_rescored": false
+  },
+  "next_gate": "build deterministic positive and negative screens for period and unit binding"
+}

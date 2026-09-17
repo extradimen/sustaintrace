@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0",
+  "experiment_id": "P13-V22-UNSEEN-LOCKBOX-V01",
+  "status": "authorized_by_user",
+  "authorized_at": "2026-09-09",
+  "document_id": "P13-SCHNEIDER-URD2025",
+  "document_title": "Schneider Electric 2025 Universal Registration Document",
+  "document_sha256": "6ca8d7f0faa864cf46a98b1ae8c3ae85979d310d6c0f436dc169d525c706b568",
+  "pages": [148, 149, 150, 152, 153, 213, 315, 333, 334, 339, 340, 344, 353],
+  "model": "qwen3.5:397b-cloud",
+  "scope": ["P13 Stage A single candidate attempt", "P13 Stage B single candidate attempt"],
+  "authorization_interpretation": "The user's message contained display-noise tokens inside the report title and page-list prose, but uniquely identified Schneider Electric 2025, all 13 frozen page numbers, the exact cloud model, P13, both stages, and the single-attempt scope. It is bound here to the already frozen canonical document and page set without widening scope."
+}

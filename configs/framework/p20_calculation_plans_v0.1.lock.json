@@ -1,0 +1,180 @@
+{
+  "experiment_id": "P20-V29-UNSEEN-LOCKBOX-V01",
+  "plans": {
+    "P20-GHG-CALC-001": {
+      "candidate_handle_role_map": {
+        "M086-B0002": "scope1_2025",
+        "M086-B0003": "scope2_market_2025",
+        "M086-B0004": "scope3_2025",
+        "M086-B0005": "disclosed_total_2025",
+        "M087-T0007-R0026-C0003": "disclosed_total_2024"
+      },
+      "candidate_may_select_operation": false,
+      "roles": [
+        {
+          "role_id": "scope1_2025",
+          "unit": "Mt CO2e"
+        },
+        {
+          "role_id": "scope2_market_2025",
+          "unit": "Mt CO2e"
+        },
+        {
+          "role_id": "scope3_2025",
+          "unit": "Mt CO2e"
+        },
+        {
+          "role_id": "disclosed_total_2025",
+          "unit": "Mt CO2e"
+        },
+        {
+          "role_id": "disclosed_total_2024",
+          "unit": "Mt CO2e"
+        }
+      ],
+      "steps": [
+        {
+          "inputs": [
+            "scope1_2025",
+            "scope2_market_2025",
+            "scope3_2025"
+          ],
+          "operation": "sum",
+          "step_id": "calculated_total_2025"
+        },
+        {
+          "inputs": [
+            "calculated_total_2025",
+            "disclosed_total_2025"
+          ],
+          "operation": "difference",
+          "step_id": "difference"
+        },
+        {
+          "inputs": [
+            "disclosed_total_2025",
+            "disclosed_total_2024"
+          ],
+          "operation": "percentage_change",
+          "rounding_decimals": 2,
+          "step_id": "percentage_change"
+        }
+      ]
+    },
+    "P20-SCOPE3-001": {
+      "candidate_handle_role_map": {
+        "M087-T0007-R0008-C0003": "total_2024",
+        "M087-T0007-R0008-C0004": "total_2025",
+        "M087-T0007-R0010-C0003": "category1_2024",
+        "M087-T0007-R0010-C0004": "category1_2025",
+        "M087-T0007-R0024-C0003": "category15_2024",
+        "M087-T0007-R0024-C0004": "category15_2025"
+      },
+      "candidate_may_select_operation": false,
+      "roles": [
+        {
+          "role_id": "category1_2025",
+          "unit": "Mt CO2e"
+        },
+        {
+          "role_id": "category15_2025",
+          "unit": "Mt CO2e"
+        },
+        {
+          "role_id": "total_2025",
+          "unit": "Mt CO2e"
+        },
+        {
+          "role_id": "category1_2024",
+          "unit": "Mt CO2e"
+        },
+        {
+          "role_id": "category15_2024",
+          "unit": "Mt CO2e"
+        },
+        {
+          "role_id": "total_2024",
+          "unit": "Mt CO2e"
+        }
+      ],
+      "steps": [
+        {
+          "inputs": [
+            "category1_2025",
+            "category15_2025"
+          ],
+          "operation": "sum",
+          "step_id": "category1_plus_15_2025"
+        },
+        {
+          "inputs": [
+            "category1_plus_15_2025",
+            "total_2025"
+          ],
+          "operation": "percentage_share",
+          "rounding_decimals": 2,
+          "step_id": "share_2025"
+        },
+        {
+          "inputs": [
+            "category1_2024",
+            "category15_2024"
+          ],
+          "operation": "sum",
+          "step_id": "category1_plus_15_2024"
+        },
+        {
+          "inputs": [
+            "category1_plus_15_2024",
+            "total_2024"
+          ],
+          "operation": "percentage_share",
+          "rounding_decimals": 2,
+          "step_id": "share_2024"
+        }
+      ]
+    },
+    "P20-WORKFORCE-001": {
+      "candidate_handle_role_map": {
+        "M121-T0002-R0002-C0004": "global_headcount_2025",
+        "M121-T0004-R0002-C0005": "permanent_2025",
+        "M121-T0004-R0003-C0005": "temporary_2025"
+      },
+      "candidate_may_select_operation": false,
+      "roles": [
+        {
+          "role_id": "permanent_2025",
+          "unit": "headcount"
+        },
+        {
+          "role_id": "temporary_2025",
+          "unit": "headcount"
+        },
+        {
+          "role_id": "global_headcount_2025",
+          "unit": "headcount"
+        }
+      ],
+      "steps": [
+        {
+          "inputs": [
+            "permanent_2025",
+            "temporary_2025"
+          ],
+          "operation": "sum",
+          "step_id": "contract_headcount_2025"
+        },
+        {
+          "inputs": [
+            "global_headcount_2025",
+            "contract_headcount_2025"
+          ],
+          "operation": "difference",
+          "step_id": "difference"
+        }
+      ]
+    }
+  },
+  "schema_version": "2.9",
+  "status": "frozen_before_candidate_inference"
+}

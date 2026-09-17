@@ -1,0 +1,48 @@
+{
+  "schema_version": "2.7",
+  "experiment_id": "P18-V27-UNSEEN-LOCKBOX-V01",
+  "status": "local_validation_passed_waiting_for_explicit_cloud_authorization",
+  "validation": {
+    "pytest": {
+      "status": "passed",
+      "tests_collected": 271,
+      "command": "PYTHONPATH=src pytest -q"
+    },
+    "ruff": {
+      "status": "passed",
+      "command": ".venv/bin/ruff check ."
+    },
+    "json": {
+      "status": "passed",
+      "scope": "all P18 JSON artifacts under data and configs"
+    },
+    "referenced_sha256": {
+      "status": "passed",
+      "checks": 14,
+      "mismatches": []
+    }
+  },
+  "artifact_sha256": {
+    "readiness": "03e4d758772c40f80eb3ed6eb0fbb10c8011a8742e9a46b2fea142615933a284",
+    "local_report": "76f25fdd4cb85849a2ab80d6a38433ac47adf514449108e3c5e3a75fa44acf8d",
+    "freeze_script": "8c1025e23e1f23faa0250fb1f668683cb1ccd88b0b9e4cb0da322e087703447f",
+    "p18_regression_test": "7acf804c73c6fc2082d76b413f942474156af25f26d036ec35313f994dc06916"
+  },
+  "local_freeze_summary": {
+    "tasks": 6,
+    "unique_pages": 8,
+    "mineru_pages_successful": 8,
+    "evidence_quotes": 47,
+    "atomic_slots": 61
+  },
+  "cloud_boundary": {
+    "candidate_model": "qwen3.5:397b-cloud",
+    "candidate_model_call_count": 0,
+    "cloud_transmission_count": 0,
+    "explicit_authorization_received": false,
+    "authorized_pages_required": [109, 121, 122, 123, 131, 133, 370, 371],
+    "authorized_scope_required": "P18 Stage A/Stage B single-attempt candidate inference"
+  },
+  "prior_experiments_modified": false,
+  "created_at_utc": "2026-09-10T03:33:43Z"
+}

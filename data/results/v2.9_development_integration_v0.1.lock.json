@@ -1,0 +1,56 @@
+{
+  "schema_version": "2.9",
+  "status": "development_integration_passed",
+  "completed_at": "2026-09-10T11:37:20Z",
+  "development_source": {
+    "experiment_id": "P19-V28-UNSEEN-LOCKBOX-V01",
+    "exposed_failures_only": true,
+    "p19_locked_result": "data/results/p19_v28_unseen_lockbox_v0.1_result.lock.json",
+    "p19_locked_result_sha256": "43dc5ace9b0ce735b5a3d2727e790c037933992d2e98ca2baf7bd19c94b1efb8"
+  },
+  "implemented_controls": {
+    "whole_pack_pre_candidate_plan_gate": {
+      "status": "implemented",
+      "guarantee": "Every deterministic_calculation task must have a valid frozen plan and every operation must be supported before the first candidate call."
+    },
+    "exact_task_id_request_contract": {
+      "status": "implemented",
+      "method": "The exact experiment task_id is inserted as a JSON Schema const before the request is sent.",
+      "posthoc_task_id_synthesis": false
+    },
+    "calculation_identity_envelope": {
+      "status": "implemented",
+      "candidate_original_preserved": true,
+      "semantic_value_rewrite": false
+    },
+    "percentage_operations": {
+      "status": "implemented",
+      "operations": [
+        "percentage_change",
+        "percentage_share"
+      ],
+      "numeric_method": "decimal fixed-point from grounded source literals"
+    }
+  },
+  "validation": {
+    "pytest": {
+      "status": "passed",
+      "tests": 284
+    },
+    "ruff": {
+      "status": "passed"
+    },
+    "p19_rerun": false,
+    "locked_p3_through_p19_modified": false
+  },
+  "artifacts": {
+    "implementation": "src/esg_reliable_discovery/v29_integrity.py",
+    "implementation_sha256": "69e22c6816b900cc7c12e7e386b1a118b7745fdaaba709543f7d5d189e0b2b55",
+    "runner": "src/esg_reliable_discovery/v13_stage_a_runner.py",
+    "runner_sha256": "7bffa2528fc219eb3f1506b77efbf54880dacdfadcadee0bd4f264c9c8503f71",
+    "regression_tests": "tests/test_v29_p19_exposed_regression.py",
+    "regression_tests_sha256": "f3e46c7ffae8676691a67ac8bf86ad7dcb6091368d9db88bd91354a50cd257fd",
+    "chinese_report": "docs/87_v2.9正式流水线集成_v0.1.md"
+  },
+  "next_stage": "Select and locally freeze a new official English report for P20 without cloud transmission."
+}

@@ -1,0 +1,49 @@
+{
+  "assurance_page_text_sha256": {
+    "KB-B023-ARKEMA-URD2025:p277": "1a78e033a6266bf7816e430ef01a512b994b723e051ebfb5493bd5be5f120942",
+    "KB-B023-ARKEMA-URD2025:p278": "17ceaec8f02cebba9e61ed398eabb73b31644fdbbc15184da20a867e0c8a01f3",
+    "KB-B023-ARKEMA-URD2025:p279": "fd9ef02373eef414804e5571bf0b21d589c91165da6b4b853007865d90277547",
+    "KB-B023-ARKEMA-URD2025:p280": "fe77f9e1d927e1469002a0d6c27dde0092367326f8947b88ca0bed40aa694b5b",
+    "KB-B023-CRH-SPR2025:p90": "763c5e553895d4119a00ddc964fca6ff5f31cd10952eeac1ccf17a814209b944",
+    "KB-B023-CRH-SPR2025:p91": "4652fd2b8e27701dc52773a87969e214ebb543477295980d7f99531b400d7bd1",
+    "KB-B023-GLENCORE-SR2025:p52": "d6625171eaba958a0753b2b59772848547d78e9fe9ebae1c47346cc924a49f4e",
+    "KB-B023-GLENCORE-SR2025:p53": "bbd490e786c768d0bb9f8f84797db32f72ea00752441193646e40e73b4d513aa",
+    "KB-B023-GLENCORE-SR2025:p54": "e4a934e81fd45d2dc8cff5abdc724461e4f9f2b5e53471e82a5a1fc0da169481",
+    "KB-B023-GLENCORE-SR2025:p55": "9b6dcecd4aad49478bae3f2b1f9c3392dbade8ba1837f115a7c10dd8a7de236a"
+  },
+  "batch_id": "KB-SCALE-BATCH-023-NATIVE-COORDINATE-AUDIT",
+  "checks": {
+    "KB-B023-ARKEMA-URD2025:assurance_conclusion": true,
+    "KB-B023-ARKEMA-URD2025:assurance_issuer": true,
+    "KB-B023-ARKEMA-URD2025:assurance_period": true,
+    "KB-B023-ARKEMA-URD2025:assurance_signatory": true,
+    "KB-B023-ARKEMA-URD2025:source_sha256": true,
+    "KB-B023-CRH-SPR2025:assurance_conclusion": true,
+    "KB-B023-CRH-SPR2025:assurance_issuer": true,
+    "KB-B023-CRH-SPR2025:assurance_period": true,
+    "KB-B023-CRH-SPR2025:assurance_signatory": true,
+    "KB-B023-CRH-SPR2025:source_sha256": true,
+    "KB-B023-GLENCORE-SR2025:assurance_conclusion": true,
+    "KB-B023-GLENCORE-SR2025:assurance_issuer": true,
+    "KB-B023-GLENCORE-SR2025:assurance_period": true,
+    "KB-B023-GLENCORE-SR2025:assurance_signatory": true,
+    "KB-B023-GLENCORE-SR2025:source_sha256": true,
+    "fact-1000aed3a021cd253d5181f0:coordinate": true,
+    "fact-1000aed3a021cd253d5181f0:document": true,
+    "fact-1000aed3a021cd253d5181f0:period": true,
+    "fact-1000aed3a021cd253d5181f0:row": true,
+    "fact-1000aed3a021cd253d5181f0:value": true,
+    "fact-19bd0e277c26ae32ef47fc20:coordinate": true,
+    "fact-19bd0e277c26ae32ef47fc20:document": true,
+    "fact-19bd0e277c26ae32ef47fc20:period": true,
+    "fact-19bd0e277c26ae32ef47fc20:row": true,
+    "fact-19bd0e277c26ae32ef47fc20:value": true
+  },
+  "policy": {
+    "automatic_promotion": false,
+    "cloud_transmission": false
+  },
+  "promotable_facts": 2,
+  "schema_version": "0.1",
+  "status": "selected_cells_and_assurance_boundaries_passed"
+}

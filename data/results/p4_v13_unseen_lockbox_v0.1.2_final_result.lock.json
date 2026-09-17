@@ -1,0 +1,20 @@
+{
+  "schema_version":"1.0",
+  "experiment_id":"P4-V13-UNSEEN-LOCKBOX-V01-RESUME02",
+  "status":"completed_final_after_visual_reference_adjudication",
+  "supersedes":"data/results/p4_v13_unseen_lockbox_v0.1.1_superseding_result.lock.json",
+  "candidate_model":"qwen3.5:397b-cloud",
+  "candidate_digest":"68d2a0796c11e1fedd0456a2d55e58cca4077be6a218428a7a7f4e21f8177cbc",
+  "task_count":9,
+  "stage_a":{"tasks_run":9,"framework_valid":6,"framework_failed":3,"semantic_exact":5,"semantic_partial":1,"semantic_failed":3},
+  "stage_b":{"eligible_tasks":6,"framework_valid":6,"framework_failed":0,"complete_semantic_fidelity":5,"partial_semantic_fidelity":1,"atomic_claims_exact":13,"atomic_claims_total":15},
+  "task_results":{"P4-DEX-001":"exact","P4-CALC-001":"framework_failed","P4-XPAGE-001":"exact","P4-DEX-002":"exact","P4-CONFLICT-001":"framework_failed","P4-SCOPE-001":"exact","P4-DEX-003":"partial_1_of_3_measures_correct","P4-CALC-002":"framework_failed","P4-SCOPE-002":"exact"},
+  "reference_adjudication":{"frozen_reference_correct":true,"false_incident_retracted":"data/results/p4_reference_adjudication_retraction_v0.1.lock.json","reason":"Rendered chart confirms legend/color/stack semantics."},
+  "comparison_to_p3":{"p3_stage_b_framework_valid":"0/6","p4_stage_b_framework_valid":"6/6","p4_stage_b_complete_semantic_fidelity":"5/6"},
+  "decision":"PROMOTE_V1_3_AS_RESEARCH_PROTOTYPE_WITH_EXPLICIT_LIMITATIONS",
+  "next_iteration":"v1.4 must add year normalization, dedicated discrepancy calculation, and multimodal or vector-style chart relation evidence; test on exposed P4 failures only before new P5.",
+  "posthoc_repair_applied":false,
+  "silent_retry_applied":false,
+  "human_gold_claimed":false,
+  "no_aggregate_score":true
+}

@@ -1,0 +1,7 @@
+Convert the passed Stage A ESG answer and its resolved evidence into the required atomic slots. The framework owns subject, predicate, unit, period, scope, and claim kind. You must only fill the value and bind it to exact evidence.
+
+Return exactly {"slots":[...]} with one and only one item for every required slot contract. Each item contains exactly slot_id, value, verbatim_value, and evidence_handle. Do not output subject, predicate, metric, unit, period, scope, claim kind, claim ID, or commentary.
+
+Copy verbatim_value as one exact contiguous substring from the selected evidence block. A numeric value must occur literally in verbatim_value without changing magnitude. A string value must be an exact substring of verbatim_value. Do not calculate, summarize, infer, or repair a missing slot. If every required slot cannot be grounded, the output must fail rather than silently omit it.
+
+Use only the supplied Stage A answer, required slot contracts, and evidence blocks. Never use outside knowledge or a hidden reference. Output JSON only.

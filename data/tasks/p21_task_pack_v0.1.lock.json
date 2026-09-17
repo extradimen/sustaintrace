@@ -1,0 +1,77 @@
+{
+  "schema_version": "3.0",
+  "experiment_id": "P21-V30-UNSEEN-LOCKBOX-V01",
+  "status": "questions_and_page_windows_frozen_after_documented_pre_reference_answerability_correction_and_before_candidate_inference",
+  "pre_reference_answerability_correction": {
+    "performed_before_simulated_reference_freeze": true,
+    "candidate_model_used": false,
+    "cloud_transmission_occurred": false,
+    "page_windows_changed": false,
+    "corrections": [
+      {
+        "task_id": "P21-GHG-CALC-001",
+        "reason": "The frozen page window contains component rows but no issuer-disclosed Scope 1 plus Scope 2 subtotal; the original comparison request was therefore not answerable without importing an unfrozen page.",
+        "change": "Replaced comparison to a nonexistent disclosed subtotal with reporting the issuer's separate component-row year-on-year changes and an explicit non-conflation requirement."
+      },
+      {
+        "task_id": "P21-TAXONOMY-001",
+        "reason": "The frozen summary table discloses eligible shares but not exact eligible monetary amounts.",
+        "change": "Limited the eligible field to disclosed shares while retaining exact aligned amounts and shares."
+      }
+    ]
+  },
+  "page_coordinate_system": "one_based_pdf_page_index",
+  "document_id": "P21-BASF-AR2025",
+  "document_sha256": "6fa0a9f60a3149e585a5b52f06efde1e0aaa5d1156da0d71a1fd40822df7f8b7",
+  "inference_allowed": false,
+  "tasks": [
+    {
+      "task_id": "P21-GHG-CALC-001",
+      "document_id": "P21-BASF-AR2025",
+      "task_type": "deterministic_calculation",
+      "question_status": "frozen",
+      "question": "Using BASF's financial-control 2025 and adjusted 2024 gross Scope 1 and gross market-based Scope 2 emissions, calculate the Scope 1 plus market-based Scope 2 sum for each year and the percentage change from 2024 to 2025 to two decimals; also report the issuer's separate row-level year-on-year changes for gross Scope 1 and gross market-based Scope 2, and do not conflate the calculated Scope 1 plus Scope 2 sum with total market-based emissions including Scope 3.",
+      "target_pages": [194, 195]
+    },
+    {
+      "task_id": "P21-ENERGY-001",
+      "document_id": "P21-BASF-AR2025",
+      "task_type": "direct_extraction_and_relation",
+      "question_status": "frozen",
+      "question": "For financial and operational control, report BASF's 2025 and restated 2024 total energy consumption, renewable energy consumption and share, and fossil energy consumption and share; preserve the control basis, units, and restatement qualification.",
+      "target_pages": [192]
+    },
+    {
+      "task_id": "P21-SCOPE3-001",
+      "document_id": "P21-BASF-AR2025",
+      "task_type": "deterministic_calculation",
+      "question_status": "frozen",
+      "question": "For BASF's financial-control 2025 and adjusted 2024 Scope 3 disclosures, report total gross Scope 3, Category 1 purchased goods and services, and Category 12 end-of-life treatment of sold products; sum Categories 1 and 12 and calculate their share of total gross Scope 3 for each year to two decimals, preserving the comparative adjustment qualification.",
+      "target_pages": [194, 195]
+    },
+    {
+      "task_id": "P21-WORKFORCE-001",
+      "document_id": "P21-BASF-AR2025",
+      "task_type": "deterministic_calculation",
+      "question_status": "frozen",
+      "question": "At December 31, 2025, report BASF's total employees and permanent, temporary and apprentice counts; deterministically sum the three contract categories and compare the result with total employees. Also report the 2025 turnover rate and work-related fatality count, preserving the head-count and safety definitions.",
+      "target_pages": [262, 263]
+    },
+    {
+      "task_id": "P21-TAXONOMY-001",
+      "document_id": "P21-BASF-AR2025",
+      "task_type": "scope_subject_boundary",
+      "question_status": "frozen",
+      "question": "For BASF's 2025 EU Taxonomy sales revenue, capex and opex, report each denominator, the disclosed eligible share, and the aligned amount and share; preserve the discontinued-coatings boundary and distinguish eligible from aligned activities.",
+      "target_pages": [242, 245]
+    },
+    {
+      "task_id": "P21-ASSURE-001",
+      "document_id": "P21-BASF-AR2025",
+      "task_type": "scope_subject_boundary",
+      "question_status": "frozen",
+      "question": "Identify the subject, criteria, level, conclusion form and governing standard of BASF's 2025 sustainability assurance; state what information was excluded, how limited assurance differs from reasonable assurance, and identify the assurance provider, location, date and signatories.",
+      "target_pages": [433, 434, 436]
+    }
+  ]
+}

@@ -1,0 +1,396 @@
+{
+  "schema_version": "1.0",
+  "experiment_id": "P4-V13-PARSER-ANOMALY-AUDIT-V01",
+  "status": "locked_before_candidate_inference",
+  "task_text_used": false,
+  "expected_value_used": false,
+  "target_registry_sha256": "71af35265cf3043ace1b34b734f926a1028a938d3347fdf35f696a7f96144c8a",
+  "targets": [
+    {
+      "target_id": "P4-MSFT-ESR2025-p0028",
+      "document_id": "P4-MSFT-ESR2025",
+      "pdf_page": 28,
+      "task_ids": [
+        "P4-XPAGE-001"
+      ],
+      "mineru_run_sha256": "a0b749c7b2ffc58c21f615629021957d905f4388a0f2173b706c539d0adf488b",
+      "mineru_content_sha256": "5023cc4660b616092e92a73d6283c582fa38d67a988ee11b9f804d4489896eb3",
+      "native_layout_line_count": 50,
+      "native_layout_provenance": {
+        "parser": "poppler_pdftotext_bbox_layout",
+        "pdf_page": 28,
+        "line_count": 50,
+        "selection_rule": "all_visible_lines_no_hidden_reference_selection",
+        "coordinate_system": "PDF points from pdftotext bbox-layout",
+        "hidden_reference_value_used": false,
+        "adjacent_period_context_links": [
+          {
+            "value_handle": "P028-L0011",
+            "context_handle": "P028-L0010",
+            "explicit_years": [
+              "2025"
+            ],
+            "rule": "same_page_immediately_preceding_visual_line"
+          }
+        ]
+      },
+      "assessment": {
+        "fallback_required": false,
+        "reasons": [],
+        "numeric_token_recall": 1.0,
+        "numeric_recall_threshold": 0.95,
+        "native_numeric_token_count": 22,
+        "mineru_numeric_token_count": 22,
+        "mineru_table_detected": false,
+        "task_text_used": false,
+        "expected_value_used": false
+      }
+    },
+    {
+      "target_id": "P4-MSFT-ESR2025-p0029",
+      "document_id": "P4-MSFT-ESR2025",
+      "pdf_page": 29,
+      "task_ids": [
+        "P4-CALC-001",
+        "P4-DEX-001",
+        "P4-XPAGE-001"
+      ],
+      "mineru_run_sha256": "40d9c9ab8f8f8351f00e238593bf3b0002ec2549f6a6215173f4495b6c86850f",
+      "mineru_content_sha256": "89e0f99dde232b317741742a3db697933efd47495eeeb7572728de5fd2d4e84f",
+      "native_layout_line_count": 68,
+      "native_layout_provenance": {
+        "parser": "poppler_pdftotext_bbox_layout",
+        "pdf_page": 29,
+        "line_count": 68,
+        "selection_rule": "all_visible_lines_no_hidden_reference_selection",
+        "coordinate_system": "PDF points from pdftotext bbox-layout",
+        "hidden_reference_value_used": false,
+        "adjacent_period_context_links": []
+      },
+      "assessment": {
+        "fallback_required": true,
+        "reasons": [
+          "native_to_mineru_numeric_recall_below_threshold"
+        ],
+        "numeric_token_recall": 0.2608695652173913,
+        "numeric_recall_threshold": 0.95,
+        "native_numeric_token_count": 23,
+        "mineru_numeric_token_count": 6,
+        "mineru_table_detected": false,
+        "task_text_used": false,
+        "expected_value_used": false
+      }
+    },
+    {
+      "target_id": "P4-NESN-NFS2024-p0039",
+      "document_id": "P4-NESN-NFS2024",
+      "pdf_page": 39,
+      "task_ids": [
+        "P4-CALC-002"
+      ],
+      "mineru_run_sha256": "aaff6d4fdc7f18ff123dd354b23e9c75db03b3c1fe367c86eed1f8ab414ff2b3",
+      "mineru_content_sha256": "bef74e2f12442fa3761e000f263780867d5e1753754d190a7d2e34b6ae3a643a",
+      "native_layout_line_count": 71,
+      "native_layout_provenance": {
+        "parser": "poppler_pdftotext_bbox_layout",
+        "pdf_page": 39,
+        "line_count": 71,
+        "selection_rule": "all_visible_lines_no_hidden_reference_selection",
+        "coordinate_system": "PDF points from pdftotext bbox-layout",
+        "hidden_reference_value_used": false,
+        "adjacent_period_context_links": [
+          {
+            "value_handle": "P039-L0035",
+            "context_handle": "P039-L0034",
+            "explicit_years": [
+              "2018"
+            ],
+            "rule": "same_page_immediately_preceding_visual_line"
+          },
+          {
+            "value_handle": "P039-L0040",
+            "context_handle": "P039-L0039",
+            "explicit_years": [
+              "2018"
+            ],
+            "rule": "same_page_immediately_preceding_visual_line"
+          },
+          {
+            "value_handle": "P039-L0059",
+            "context_handle": "P039-L0058",
+            "explicit_years": [
+              "2018"
+            ],
+            "rule": "same_page_immediately_preceding_visual_line"
+          },
+          {
+            "value_handle": "P039-L0060",
+            "context_handle": "P039-L0059",
+            "explicit_years": [
+              "2019"
+            ],
+            "rule": "same_page_immediately_preceding_visual_line"
+          },
+          {
+            "value_handle": "P039-L0061",
+            "context_handle": "P039-L0060",
+            "explicit_years": [
+              "2020"
+            ],
+            "rule": "same_page_immediately_preceding_visual_line"
+          },
+          {
+            "value_handle": "P039-L0062",
+            "context_handle": "P039-L0061",
+            "explicit_years": [
+              "2021"
+            ],
+            "rule": "same_page_immediately_preceding_visual_line"
+          },
+          {
+            "value_handle": "P039-L0063",
+            "context_handle": "P039-L0062",
+            "explicit_years": [
+              "2022"
+            ],
+            "rule": "same_page_immediately_preceding_visual_line"
+          },
+          {
+            "value_handle": "P039-L0064",
+            "context_handle": "P039-L0063",
+            "explicit_years": [
+              "2023"
+            ],
+            "rule": "same_page_immediately_preceding_visual_line"
+          },
+          {
+            "value_handle": "P039-L0071",
+            "context_handle": "P039-L0070",
+            "explicit_years": [
+              "2024"
+            ],
+            "rule": "same_page_immediately_preceding_visual_line"
+          }
+        ]
+      },
+      "assessment": {
+        "fallback_required": true,
+        "reasons": [
+          "native_to_mineru_numeric_recall_below_threshold"
+        ],
+        "numeric_token_recall": 0.2727272727272727,
+        "numeric_recall_threshold": 0.95,
+        "native_numeric_token_count": 55,
+        "mineru_numeric_token_count": 18,
+        "mineru_table_detected": false,
+        "task_text_used": false,
+        "expected_value_used": false
+      }
+    },
+    {
+      "target_id": "P4-NESN-NFS2024-p0050",
+      "document_id": "P4-NESN-NFS2024",
+      "pdf_page": 50,
+      "task_ids": [
+        "P4-DEX-003"
+      ],
+      "mineru_run_sha256": "65f7fe17da6e436fc7ed4efef366d9812a7bff272a8ae65c5c23727cf7548102",
+      "mineru_content_sha256": "c950f6253ed1c7697d5c7364b3e5c29cb1d9d861058e47be0a2c487e452ca5d5",
+      "native_layout_line_count": 95,
+      "native_layout_provenance": {
+        "parser": "poppler_pdftotext_bbox_layout",
+        "pdf_page": 50,
+        "line_count": 95,
+        "selection_rule": "all_visible_lines_no_hidden_reference_selection",
+        "coordinate_system": "PDF points from pdftotext bbox-layout",
+        "hidden_reference_value_used": false,
+        "adjacent_period_context_links": [
+          {
+            "value_handle": "P050-L0011",
+            "context_handle": "P050-L0010",
+            "explicit_years": [
+              "2023"
+            ],
+            "rule": "same_page_immediately_preceding_visual_line"
+          },
+          {
+            "value_handle": "P050-L0013",
+            "context_handle": "P050-L0012",
+            "explicit_years": [
+              "2024"
+            ],
+            "rule": "same_page_immediately_preceding_visual_line"
+          },
+          {
+            "value_handle": "P050-L0061",
+            "context_handle": "P050-L0060",
+            "explicit_years": [
+              "2023"
+            ],
+            "rule": "same_page_immediately_preceding_visual_line"
+          }
+        ]
+      },
+      "assessment": {
+        "fallback_required": true,
+        "reasons": [
+          "mineru_table_detected",
+          "native_to_mineru_numeric_recall_below_threshold"
+        ],
+        "numeric_token_recall": 0.6,
+        "numeric_recall_threshold": 0.95,
+        "native_numeric_token_count": 25,
+        "mineru_numeric_token_count": 41,
+        "mineru_table_detected": true,
+        "task_text_used": false,
+        "expected_value_used": false
+      }
+    },
+    {
+      "target_id": "P4-NESN-NFS2024-p0123",
+      "document_id": "P4-NESN-NFS2024",
+      "pdf_page": 123,
+      "task_ids": [
+        "P4-SCOPE-002"
+      ],
+      "mineru_run_sha256": "a572a450c22842a26d60a4eb479c7b26497b914f3f424e5727b035a48a7ec3a6",
+      "mineru_content_sha256": "d297147a9eeac954b7bdbbaa09e9fa3dcd6da5a0733ef06e107becd15f9ee4b4",
+      "native_layout_line_count": 58,
+      "native_layout_provenance": {
+        "parser": "poppler_pdftotext_bbox_layout",
+        "pdf_page": 123,
+        "line_count": 58,
+        "selection_rule": "all_visible_lines_no_hidden_reference_selection",
+        "coordinate_system": "PDF points from pdftotext bbox-layout",
+        "hidden_reference_value_used": false,
+        "adjacent_period_context_links": []
+      },
+      "assessment": {
+        "fallback_required": true,
+        "reasons": [
+          "native_to_mineru_numeric_recall_below_threshold"
+        ],
+        "numeric_token_recall": 0.625,
+        "numeric_recall_threshold": 0.95,
+        "native_numeric_token_count": 8,
+        "mineru_numeric_token_count": 5,
+        "mineru_table_detected": false,
+        "task_text_used": false,
+        "expected_value_used": false
+      }
+    },
+    {
+      "target_id": "P4-NIKE-SD2024-p0024",
+      "document_id": "P4-NIKE-SD2024",
+      "pdf_page": 24,
+      "task_ids": [
+        "P4-CONFLICT-001",
+        "P4-DEX-002"
+      ],
+      "mineru_run_sha256": "e38ed20f483692173933afe2044568ff7983733ff28e53e86fc64dfb3e238d0e",
+      "mineru_content_sha256": "fba0c0b0a62398817a2f9653ee34b7ee0589376688ce4dc95b32e37c41b0dd73",
+      "native_layout_line_count": 278,
+      "native_layout_provenance": {
+        "parser": "poppler_pdftotext_bbox_layout",
+        "pdf_page": 24,
+        "line_count": 278,
+        "selection_rule": "all_visible_lines_no_hidden_reference_selection",
+        "coordinate_system": "PDF points from pdftotext bbox-layout",
+        "hidden_reference_value_used": false,
+        "adjacent_period_context_links": [
+          {
+            "value_handle": "P024-L0276",
+            "context_handle": "P024-L0275",
+            "explicit_years": [
+              "2023",
+              "2024"
+            ],
+            "rule": "same_page_immediately_preceding_visual_line"
+          }
+        ]
+      },
+      "assessment": {
+        "fallback_required": true,
+        "reasons": [
+          "mineru_table_detected",
+          "native_to_mineru_numeric_recall_below_threshold"
+        ],
+        "numeric_token_recall": 0.9349593495934959,
+        "numeric_recall_threshold": 0.95,
+        "native_numeric_token_count": 246,
+        "mineru_numeric_token_count": 233,
+        "mineru_table_detected": true,
+        "task_text_used": false,
+        "expected_value_used": false
+      }
+    },
+    {
+      "target_id": "P4-NIKE-SD2024-p0027",
+      "document_id": "P4-NIKE-SD2024",
+      "pdf_page": 27,
+      "task_ids": [
+        "P4-SCOPE-001"
+      ],
+      "mineru_run_sha256": "cb43e934587d12e635d3c833c46c67c894448f0cca6495b64dc8b5977bdaa25a",
+      "mineru_content_sha256": "3fbd7eeefccd49e769c30ab1c3383a1f232bc9c179104bca2477b09d1ef6caff",
+      "native_layout_line_count": 79,
+      "native_layout_provenance": {
+        "parser": "poppler_pdftotext_bbox_layout",
+        "pdf_page": 27,
+        "line_count": 79,
+        "selection_rule": "all_visible_lines_no_hidden_reference_selection",
+        "coordinate_system": "PDF points from pdftotext bbox-layout",
+        "hidden_reference_value_used": false,
+        "adjacent_period_context_links": []
+      },
+      "assessment": {
+        "fallback_required": true,
+        "reasons": [
+          "mineru_table_detected",
+          "native_to_mineru_numeric_recall_below_threshold"
+        ],
+        "numeric_token_recall": 0.875,
+        "numeric_recall_threshold": 0.95,
+        "native_numeric_token_count": 24,
+        "mineru_numeric_token_count": 25,
+        "mineru_table_detected": true,
+        "task_text_used": false,
+        "expected_value_used": false
+      }
+    },
+    {
+      "target_id": "P4-NIKE-SD2024-p0028",
+      "document_id": "P4-NIKE-SD2024",
+      "pdf_page": 28,
+      "task_ids": [
+        "P4-CONFLICT-001"
+      ],
+      "mineru_run_sha256": "681e48aeedb3aba55a7e06ef264931a8b21ca401a23cb57f8221fbfd6995f8a7",
+      "mineru_content_sha256": "128b0776fac6f180bd3ccaa161317dc5d32cbefe01f98e0de5f604e6da9ab7f5",
+      "native_layout_line_count": 73,
+      "native_layout_provenance": {
+        "parser": "poppler_pdftotext_bbox_layout",
+        "pdf_page": 28,
+        "line_count": 73,
+        "selection_rule": "all_visible_lines_no_hidden_reference_selection",
+        "coordinate_system": "PDF points from pdftotext bbox-layout",
+        "hidden_reference_value_used": false,
+        "adjacent_period_context_links": []
+      },
+      "assessment": {
+        "fallback_required": true,
+        "reasons": [
+          "mineru_table_detected",
+          "native_to_mineru_numeric_recall_below_threshold"
+        ],
+        "numeric_token_recall": 0.7333333333333333,
+        "numeric_recall_threshold": 0.95,
+        "native_numeric_token_count": 15,
+        "mineru_numeric_token_count": 17,
+        "mineru_table_detected": true,
+        "task_text_used": false,
+        "expected_value_used": false
+      }
+    }
+  ]
+}

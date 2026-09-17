@@ -1,0 +1,17 @@
+{
+  "schema_version":"2.2","experiment_id":"P13-V22-UNSEEN-LOCKBOX-V01","status":"frozen_before_candidate_inference",
+  "qualifiers":{
+    "reporting_period":"calendar year ended December 31, 2025 unless a target year or base year is explicitly named",
+    "page_coordinates":"one-based PDF page indexes, not printed footer pages inferred from section numbering",
+    "units":{"emissions":"tCO2e","water":"m3","water_intensity":"m3 per million EUR","safety_rates":"per million hours worked","representation":"percent"},
+    "ghg_calculation":"sum 2025 Scope 1, market-based Scope 2 and reported Scope 3; compare with market-based total; do not substitute location-based Scope 2",
+    "target_subject":"Schneider Electric Group targets only; do not substitute the separately disclosed AVEVA targets",
+    "scope_2_target_method":"market-based",
+    "water_boundary":"total withdrawal excludes cooling water returned without impact; cooling water is separately measured",
+    "safety_boundary":"reported groups are Schneider Electric employees and temporary workers; LTIR uses lost-time accidents times one million divided by hours worked",
+    "women_boundary":"new hires, frontline management and leadership are distinct populations; leadership means VPs and above excluding direct reports to the CEO",
+    "assurance_boundary":"statutory limited-assurance certification of CSRD/Article 8 information is distinct from voluntary reasonable assurance over five selected indicators",
+    "reference_type":"simulated expert reference; not independent human gold",
+    "cloud_transmission":"prohibited until user authorizes the named report, exact pages, model and Stage A/Stage B scope"
+  }
+}

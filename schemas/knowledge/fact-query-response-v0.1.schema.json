@@ -1,0 +1,63 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/esg/fact-query-response-v0.1.schema.json",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "record_kind",
+    "policy",
+    "filters",
+    "inventory",
+    "pagination",
+    "records"
+  ],
+  "properties": {
+    "schema_version": {"const": "0.1"},
+    "record_kind": {"const": "fact_query_response"},
+    "policy": {
+      "type": "object",
+      "required": ["default_scope", "include_candidates", "candidates_are_never_reported_as_trusted"],
+      "properties": {
+        "default_scope": {"const": "promoted_tier_b_only"},
+        "include_candidates": {"type": "boolean"},
+        "candidates_are_never_reported_as_trusted": {"const": true}
+      }
+    },
+    "filters": {"type": "object"},
+    "inventory": {
+      "type": "object",
+      "required": ["facts", "trusted_tier_b", "candidates_not_trusted"],
+      "properties": {
+        "facts": {"type": "integer", "minimum": 0},
+        "trusted_tier_b": {"type": "integer", "minimum": 0},
+        "candidates_not_trusted": {"type": "integer", "minimum": 0}
+      }
+    },
+    "pagination": {
+      "type": "object",
+      "required": ["matched", "returned", "offset", "limit"]
+    },
+    "records": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "fact",
+          "effective_trust",
+          "promotion_audit",
+          "joint_qualification",
+          "independent_adjudication",
+          "native_pdf_corroboration",
+          "tier_b_adjudication",
+          "unresolved_gaps"
+        ],
+        "properties": {
+          "effective_trust": {
+            "enum": ["trusted_tier_b", "candidate_not_trusted"]
+          },
+          "unresolved_gaps": {"type": "array"}
+        }
+      }
+    }
+  }
+}

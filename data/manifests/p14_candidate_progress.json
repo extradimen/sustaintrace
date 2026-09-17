@@ -1,0 +1,107 @@
+{
+  "checkpoint_resume_enabled": true,
+  "cloud_authorization": "data/manifests/p14_cloud_authorization_2026-09-09.lock.json",
+  "experiment_id": "P14-V23-UNSEEN-LOCKBOX-V01",
+  "records": [
+    {
+      "retried": false,
+      "stage_a": "failed",
+      "stage_a_error": "KeyError:'task_id'",
+      "stage_a_failure_taxonomy": {
+        "category": "executor",
+        "error_type": "KeyError",
+        "model_call_started": false,
+        "owner": "framework",
+        "retry_policy": "no_retry_in_locked_experiment",
+        "score_as_model_failure": false,
+        "stage": "stage_a"
+      },
+      "task_id": "P14-GHG-CALC-001",
+      "task_type": "deterministic_calculation"
+    },
+    {
+      "retried": false,
+      "stage_a": "failed",
+      "stage_a_error": "KeyError:'task_id'",
+      "stage_a_failure_taxonomy": {
+        "category": "executor",
+        "error_type": "KeyError",
+        "model_call_started": false,
+        "owner": "framework",
+        "retry_policy": "no_retry_in_locked_experiment",
+        "score_as_model_failure": false,
+        "stage": "stage_a"
+      },
+      "task_id": "P14-TARGET-001",
+      "task_type": "scope_subject_boundary"
+    },
+    {
+      "retried": false,
+      "stage_a": "failed",
+      "stage_a_error": "KeyError:'task_id'",
+      "stage_a_failure_taxonomy": {
+        "category": "executor",
+        "error_type": "KeyError",
+        "model_call_started": false,
+        "owner": "framework",
+        "retry_policy": "no_retry_in_locked_experiment",
+        "score_as_model_failure": false,
+        "stage": "stage_a"
+      },
+      "task_id": "P14-WATER-001",
+      "task_type": "direct_extraction"
+    },
+    {
+      "retried": false,
+      "stage_a": "failed",
+      "stage_a_error": "KeyError:'task_id'",
+      "stage_a_failure_taxonomy": {
+        "category": "executor",
+        "error_type": "KeyError",
+        "model_call_started": false,
+        "owner": "framework",
+        "retry_policy": "no_retry_in_locked_experiment",
+        "score_as_model_failure": false,
+        "stage": "stage_a"
+      },
+      "task_id": "P14-SAFETY-001",
+      "task_type": "direct_extraction"
+    },
+    {
+      "retried": false,
+      "stage_a": "failed",
+      "stage_a_error": "KeyError:'task_id'",
+      "stage_a_failure_taxonomy": {
+        "category": "executor",
+        "error_type": "KeyError",
+        "model_call_started": false,
+        "owner": "framework",
+        "retry_policy": "no_retry_in_locked_experiment",
+        "score_as_model_failure": false,
+        "stage": "stage_a"
+      },
+      "task_id": "P14-SLB-001",
+      "task_type": "scope_subject_boundary"
+    },
+    {
+      "retried": false,
+      "stage_a": "failed",
+      "stage_a_error": "KeyError:'task_id'",
+      "stage_a_failure_taxonomy": {
+        "category": "executor",
+        "error_type": "KeyError",
+        "model_call_started": false,
+        "owner": "framework",
+        "retry_policy": "no_retry_in_locked_experiment",
+        "score_as_model_failure": false,
+        "stage": "stage_a"
+      },
+      "task_id": "P14-ASSURE-001",
+      "task_type": "scope_subject_boundary"
+    }
+  ],
+  "reference_loaded_by_orchestrator": false,
+  "schema_version": "2.3",
+  "single_attempt_per_stage": true,
+  "updated_at": "2026-09-09T13:04:31.790561+00:00"
+}

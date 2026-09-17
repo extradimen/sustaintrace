@@ -1,0 +1,118 @@
+{
+  "blocked_by_reason": {
+    "native_row_header_not_corroborated": [
+      "fact-11f205c910e9d80ec477a6b3",
+      "fact-70d9d745655dac380b64d5b4"
+    ]
+  },
+  "blocked_fact_ids": [
+    "fact-11f205c910e9d80ec477a6b3",
+    "fact-70d9d745655dac380b64d5b4"
+  ],
+  "inputs": {
+    "atomic_increment_sha256": "c2d34df86ef4895acc8e63385a6e447b76b3a7326cbbf1223ad25c9897e5d253",
+    "atomic_validations_sha256": "ebbdd76e5c2dc9518ce4788d331761ab88683fb8f7f9bc9bd9efe3071b2eb285",
+    "native_coordinate_audit_sha256": "35b94142c590ab7c30f3d1f4085bbe93f0b8550886209fdabb9300d1a4ca4433"
+  },
+  "locked_experiments_modified_or_rescored": false,
+  "native_audit": {
+    "assurance_page_text_sha256": {
+      "KB-B021-CAPGEMINI-URD2025:p317": "3c78c6aa6c3eda8f6207a5c9e443a27caa6c0592962be01757fe942275914eb4",
+      "KB-B021-CAPGEMINI-URD2025:p318": "beb2382cb9b39cb8175a4230f551249b2ba6a11d755fbd5ed99562651a031a45",
+      "KB-B021-CAPGEMINI-URD2025:p319": "a61f950b349b8efb975ff8a0d248350f1e20ab470f3c79d9ee496ed8ee7ab23f",
+      "KB-B021-CAPGEMINI-URD2025:p320": "3e45e8ab36468fa1a30786eb29bfe96036758ab66744c570409c703bae19f755",
+      "KB-B021-REXEL-URD2025:p340": "f23156aad1b3b50aa9582e202035f48e28a3b75b166cfeb24ddb354cff4e2bd2",
+      "KB-B021-REXEL-URD2025:p341": "9358f133571098c793faaccac72c1fd71cc3e2260465f00d72b0f58db54ab816",
+      "KB-B021-REXEL-URD2025:p342": "5cd0624be9243d0d057a5d663e3832092ad01c805e85e7d708b00a6713761f1a",
+      "KB-B021-REXEL-URD2025:p343": "eb598de06a1f8f787651fd46128735736f1592b97a38fccd178691e740b52c33",
+      "KB-B021-REXEL-URD2025:p344": "4e8e2ca22b73318f1bdd85d2c73f90d719a34d9b5ff9eee3ecfa042422451a99"
+    },
+    "batch_id": "KB-SCALE-BATCH-021-NATIVE-COORDINATE-AUDIT",
+    "checks": {
+      "KB-B021-CAPGEMINI-URD2025:assurance_conclusion": true,
+      "KB-B021-CAPGEMINI-URD2025:assurance_issuer": true,
+      "KB-B021-CAPGEMINI-URD2025:assurance_period": true,
+      "KB-B021-CAPGEMINI-URD2025:assurance_signatory": true,
+      "KB-B021-CAPGEMINI-URD2025:source_sha256": true,
+      "KB-B021-REXEL-URD2025:assurance_conclusion": true,
+      "KB-B021-REXEL-URD2025:assurance_issuer": true,
+      "KB-B021-REXEL-URD2025:assurance_period": true,
+      "KB-B021-REXEL-URD2025:assurance_signatory": true,
+      "KB-B021-REXEL-URD2025:source_sha256": true,
+      "fact-2f41f5750dda979acbdeb108:coordinate": true,
+      "fact-2f41f5750dda979acbdeb108:document": true,
+      "fact-2f41f5750dda979acbdeb108:period": true,
+      "fact-2f41f5750dda979acbdeb108:row": true,
+      "fact-2f41f5750dda979acbdeb108:value": true,
+      "fact-3aace6e7321a4f83bea77a5c:coordinate": true,
+      "fact-3aace6e7321a4f83bea77a5c:document": true,
+      "fact-3aace6e7321a4f83bea77a5c:period": true,
+      "fact-3aace6e7321a4f83bea77a5c:row": true,
+      "fact-3aace6e7321a4f83bea77a5c:value": true,
+      "fact-4769317f2024c90591e7786b:coordinate": true,
+      "fact-4769317f2024c90591e7786b:document": true,
+      "fact-4769317f2024c90591e7786b:period": true,
+      "fact-4769317f2024c90591e7786b:row": true,
+      "fact-4769317f2024c90591e7786b:value": true,
+      "fact-63098bfb7b2b40b7a6d56978:coordinate": true,
+      "fact-63098bfb7b2b40b7a6d56978:document": true,
+      "fact-63098bfb7b2b40b7a6d56978:period": true,
+      "fact-63098bfb7b2b40b7a6d56978:row": true,
+      "fact-63098bfb7b2b40b7a6d56978:value": true,
+      "fact-689c8ad7b74e7668c34fd318:coordinate": true,
+      "fact-689c8ad7b74e7668c34fd318:document": true,
+      "fact-689c8ad7b74e7668c34fd318:period": true,
+      "fact-689c8ad7b74e7668c34fd318:row": true,
+      "fact-689c8ad7b74e7668c34fd318:value": true,
+      "fact-7babe00e90f91591483ca1db:coordinate": true,
+      "fact-7babe00e90f91591483ca1db:document": true,
+      "fact-7babe00e90f91591483ca1db:period": true,
+      "fact-7babe00e90f91591483ca1db:row": true,
+      "fact-7babe00e90f91591483ca1db:value": true,
+      "fact-8ceab3c738a122c48216bddd:coordinate": true,
+      "fact-8ceab3c738a122c48216bddd:document": true,
+      "fact-8ceab3c738a122c48216bddd:period": true,
+      "fact-8ceab3c738a122c48216bddd:row": true,
+      "fact-8ceab3c738a122c48216bddd:value": true,
+      "fact-abd58c704358c84c719de807:coordinate": true,
+      "fact-abd58c704358c84c719de807:document": true,
+      "fact-abd58c704358c84c719de807:period": true,
+      "fact-abd58c704358c84c719de807:row": true,
+      "fact-abd58c704358c84c719de807:value": true,
+      "fact-d0ae55d4bef70e678c4650e4:coordinate": true,
+      "fact-d0ae55d4bef70e678c4650e4:document": true,
+      "fact-d0ae55d4bef70e678c4650e4:period": true,
+      "fact-d0ae55d4bef70e678c4650e4:row": true,
+      "fact-d0ae55d4bef70e678c4650e4:value": true
+    },
+    "policy": {
+      "automatic_promotion": false,
+      "cloud_transmission": false
+    },
+    "promotable_facts": 9,
+    "schema_version": "0.1",
+    "status": "selected_cells_and_assurance_boundaries_passed"
+  },
+  "newly_promoted_to_tier_b": 9,
+  "next_gate": "scale_batch_021_global_kb_rebuild_and_closure",
+  "outputs": {
+    "adjudications_sha256": "360582fbbc2a64b2353e5f483688aa0e5ea3d05b78d52a252dada9e83ec2d117",
+    "trusted_facts_sha256": "1b378d566426256c36697066c13c8191b6c7f286e4395c1efc10749c0f24fcbb"
+  },
+  "promotable_fact_ids": [
+    "fact-2f41f5750dda979acbdeb108",
+    "fact-3aace6e7321a4f83bea77a5c",
+    "fact-4769317f2024c90591e7786b",
+    "fact-63098bfb7b2b40b7a6d56978",
+    "fact-689c8ad7b74e7668c34fd318",
+    "fact-7babe00e90f91591483ca1db",
+    "fact-8ceab3c738a122c48216bddd",
+    "fact-abd58c704358c84c719de807",
+    "fact-d0ae55d4bef70e678c4650e4"
+  ],
+  "reviewed": 11,
+  "schema_version": "0.1",
+  "source_candidate_records_modified": 0,
+  "status": "scale_batch_021_six_dimension_tier_b_review_complete",
+  "total_trusted_tier_b": 135
+}

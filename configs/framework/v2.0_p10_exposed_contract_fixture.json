@@ -1,0 +1,356 @@
+{
+  "audit": {
+    "P10-ASSURE-001": {
+      "candidate_inference_released": true,
+      "collection_slot_count": 2,
+      "slot_count": 10,
+      "status": "passed"
+    },
+    "P10-BOUNDARY-001": {
+      "candidate_inference_released": true,
+      "collection_slot_count": 3,
+      "slot_count": 5,
+      "status": "passed"
+    },
+    "P10-CALC-001": {
+      "candidate_inference_released": true,
+      "collection_slot_count": 0,
+      "slot_count": 4,
+      "status": "passed"
+    },
+    "P10-SAFETY-001": {
+      "candidate_inference_released": true,
+      "collection_slot_count": 0,
+      "slot_count": 8,
+      "status": "passed"
+    },
+    "P10-SCOPE3-001": {
+      "candidate_inference_released": true,
+      "collection_slot_count": 0,
+      "slot_count": 8,
+      "status": "passed"
+    },
+    "P10-TARGET-001": {
+      "candidate_inference_released": true,
+      "collection_slot_count": 0,
+      "slot_count": 10,
+      "status": "passed"
+    }
+  },
+  "contracts": {
+    "P10-ASSURE-001": [
+      {
+        "predicate_id": "esg_disclosure::assurance_level",
+        "slot_id": "assurance_level",
+        "value_type": "string"
+      },
+      {
+        "predicate_id": "esg_disclosure::standard",
+        "slot_id": "standard",
+        "value_type": "string"
+      },
+      {
+        "member_contract": {
+          "canonical_id": "nonempty_string",
+          "evidence_handle": "frozen_handle",
+          "verbatim_value": "grounded_nonempty_string"
+        },
+        "predicate_id": "esg_disclosure::criteria",
+        "slot_id": "criteria",
+        "value_type": "array"
+      },
+      {
+        "normalized_field": "page_range_statement_page_426",
+        "predicate_id": "esg_disclosure::page_range_introduction",
+        "slot_id": "page_range_introduction",
+        "value_type": "string"
+      },
+      {
+        "normalized_field": "page_range_coverage_page_427",
+        "predicate_id": "esg_disclosure::page_range_scope_statement",
+        "slot_id": "page_range_scope_statement",
+        "value_type": "string"
+      },
+      {
+        "predicate_id": "esg_disclosure::incorporated_reference_pages",
+        "slot_id": "incorporated_reference_pages",
+        "value_type": "string"
+      },
+      {
+        "normalized_field": "excluded",
+        "predicate_id": "esg_disclosure::excluded_information",
+        "slot_id": "excluded_information",
+        "value_type": "string"
+      },
+      {
+        "predicate_id": "esg_disclosure::procedure_difference",
+        "slot_id": "procedure_difference",
+        "value_type": "string"
+      },
+      {
+        "member_contract": {
+          "canonical_id": "nonempty_string",
+          "evidence_handle": "frozen_handle",
+          "verbatim_value": "grounded_nonempty_string"
+        },
+        "predicate_id": "esg_disclosure::procedure_exclusions",
+        "slot_id": "procedure_exclusions",
+        "value_type": "array"
+      },
+      {
+        "normalized_field": "conflict_status",
+        "predicate_id": "esg_disclosure::range_conflict_status",
+        "slot_id": "range_conflict_status",
+        "value_type": "string"
+      }
+    ],
+    "P10-BOUNDARY-001": [
+      {
+        "member_contract": {
+          "canonical_id": "nonempty_string",
+          "evidence_handle": "frozen_handle",
+          "verbatim_value": "grounded_nonempty_string"
+        },
+        "predicate_id": "esg_disclosure::operational_control",
+        "slot_id": "operational_control",
+        "value_type": "object"
+      },
+      {
+        "member_contract": {
+          "canonical_id": "nonempty_string",
+          "evidence_handle": "frozen_handle",
+          "verbatim_value": "grounded_nonempty_string"
+        },
+        "predicate_id": "esg_disclosure::financial_control",
+        "slot_id": "financial_control",
+        "value_type": "object"
+      },
+      {
+        "member_contract": {
+          "canonical_id": "nonempty_string",
+          "evidence_handle": "frozen_handle",
+          "verbatim_value": "grounded_nonempty_string"
+        },
+        "predicate_id": "esg_disclosure::esrs",
+        "slot_id": "esrs",
+        "value_type": "object"
+      },
+      {
+        "predicate_id": "esg_disclosure::equity",
+        "slot_id": "equity",
+        "value_type": "string"
+      },
+      {
+        "predicate_id": "esg_disclosure::scope_3_boundary",
+        "slot_id": "scope_3_boundary",
+        "value_type": "string"
+      }
+    ],
+    "P10-CALC-001": [
+      {
+        "canonical_unit": "MtCO2e",
+        "period": "2025",
+        "predicate_id": "esg_disclosure::input_2025_mtco2e",
+        "scope_id": "gross_scope_1_esrs",
+        "slot_id": "input_2025_mtco2e",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "MtCO2e",
+        "period": "2024",
+        "predicate_id": "esg_disclosure::input_2024_mtco2e",
+        "scope_id": "gross_scope_1_esrs",
+        "slot_id": "input_2024_mtco2e",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "percent",
+        "predicate_id": "esg_disclosure::percentage_change",
+        "slot_id": "percentage_change",
+        "value_type": "number"
+      },
+      {
+        "predicate_id": "esg_disclosure::direction",
+        "slot_id": "direction",
+        "value_type": "string"
+      }
+    ],
+    "P10-SAFETY-001": [
+      {
+        "canonical_unit": "count",
+        "period": "2025",
+        "predicate_id": "esg_disclosure::fatalities_2025",
+        "slot_id": "fatalities_2025",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "count",
+        "period": "2024",
+        "predicate_id": "esg_disclosure::fatalities_2024",
+        "slot_id": "fatalities_2024",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "count",
+        "period": "2025",
+        "predicate_id": "esg_disclosure::fpi_2025",
+        "slot_id": "fpi_2025",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "count",
+        "period": "2024_revised",
+        "predicate_id": "esg_disclosure::fpi_2024_revised",
+        "slot_id": "fpi_2024_revised",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "cases_per_100_million_hours",
+        "period": "2025",
+        "predicate_id": "esg_disclosure::fpi_frequency_2025",
+        "slot_id": "fpi_frequency_2025",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "cases_per_100_million_hours",
+        "period": "2024_revised",
+        "predicate_id": "esg_disclosure::fpi_frequency_2024_revised",
+        "slot_id": "fpi_frequency_2024_revised",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "count",
+        "period": "2024_original",
+        "predicate_id": "esg_disclosure::fpi_2024_original",
+        "slot_id": "fpi_2024_original",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "cases_per_100_million_hours",
+        "period": "2024_original",
+        "predicate_id": "esg_disclosure::fpi_frequency_2024_original",
+        "slot_id": "fpi_frequency_2024_original",
+        "value_type": "number"
+      }
+    ],
+    "P10-SCOPE3-001": [
+      {
+        "canonical_unit": "MtCO2e",
+        "period": "2025",
+        "predicate_id": "esg_disclosure::total_scope_3_2025_mtco2e",
+        "slot_id": "total_scope_3_2025_mtco2e",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "MtCO2e",
+        "period": "2024",
+        "predicate_id": "esg_disclosure::total_scope_3_2024_mtco2e",
+        "slot_id": "total_scope_3_2024_mtco2e",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "MtCO2e",
+        "period": "2025",
+        "predicate_id": "esg_disclosure::category_11_2025_mtco2e",
+        "slot_id": "category_11_2025_mtco2e",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "MtCO2e",
+        "period": "2024",
+        "predicate_id": "esg_disclosure::category_11_2024_mtco2e",
+        "slot_id": "category_11_2024_mtco2e",
+        "value_type": "number"
+      },
+      {
+        "predicate_id": "esg_disclosure::boundary",
+        "slot_id": "boundary",
+        "value_type": "string"
+      },
+      {
+        "canonical_unit": "MtCO2",
+        "period": "2025",
+        "predicate_id": "esg_disclosure::biogenic_co2_excluded_2025_mtco2",
+        "slot_id": "biogenic_co2_excluded_2025_mtco2",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "MtCO2",
+        "period": "2024",
+        "predicate_id": "esg_disclosure::biogenic_co2_excluded_2024_mtco2",
+        "slot_id": "biogenic_co2_excluded_2024_mtco2",
+        "value_type": "number"
+      },
+      {
+        "predicate_id": "esg_disclosure::caution",
+        "slot_id": "caution",
+        "value_type": "string"
+      }
+    ],
+    "P10-TARGET-001": [
+      {
+        "period": "2030_vs_2016",
+        "predicate_id": "esg_disclosure::scope_1_2_target",
+        "scope_id": "operational_control_net",
+        "slot_id": "scope_1_2_target",
+        "value_type": "string"
+      },
+      {
+        "period": "2016",
+        "predicate_id": "esg_disclosure::scope_1_2_baseline",
+        "slot_id": "scope_1_2_baseline",
+        "value_type": "string"
+      },
+      {
+        "predicate_id": "esg_disclosure::scope_1_2_carbon_credits",
+        "slot_id": "scope_1_2_carbon_credits",
+        "value_type": "string"
+      },
+      {
+        "period": "2030_vs_2016",
+        "predicate_id": "esg_disclosure::nci_target",
+        "scope_id": "products_sold_equity",
+        "slot_id": "nci_target",
+        "value_type": "string"
+      },
+      {
+        "period": "2016",
+        "predicate_id": "esg_disclosure::nci_baseline",
+        "slot_id": "nci_baseline",
+        "value_type": "string"
+      },
+      {
+        "predicate_id": "esg_disclosure::nci_boundary",
+        "slot_id": "nci_boundary",
+        "value_type": "string"
+      },
+      {
+        "period": "2030",
+        "predicate_id": "esg_disclosure::methane_target",
+        "slot_id": "methane_target",
+        "value_type": "string"
+      },
+      {
+        "predicate_id": "esg_disclosure::methane_boundary",
+        "slot_id": "methane_boundary",
+        "value_type": "string"
+      },
+      {
+        "predicate_id": "esg_disclosure::routine_flaring_target",
+        "slot_id": "routine_flaring_target",
+        "value_type": "string"
+      },
+      {
+        "period": "2025",
+        "predicate_id": "esg_disclosure::routine_flaring_status",
+        "slot_id": "routine_flaring_status",
+        "value_type": "string"
+      }
+    ]
+  },
+  "controlled_conflict_gate": "passed",
+  "schema_version": "2.0-development",
+  "source": "configs/framework/p10_slot_contracts_v0.1.lock.json",
+  "source_sha256": "a85e9ac5e775a1e1cf0cd9ec93473e08ef0351a1d7bf6a509a32c70f96867d73",
+  "status": "exposed_failure_development_fixture_not_a_p10_erratum"
+}

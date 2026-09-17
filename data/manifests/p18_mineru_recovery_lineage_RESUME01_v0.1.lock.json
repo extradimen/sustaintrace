@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "experiment_id": "P18-V27-UNSEEN-LOCKBOX-V01",
+  "recovery_id": "P18-MINERU-RESUME01",
+  "status": "infrastructure_recovery_authorized_by_protocol",
+  "parent_output_root": "artifacts/p18/mineru_targets",
+  "resume_output_root": "artifacts/p18/mineru_targets_RESUME01",
+  "interruption_class": "local_sandbox_socket_bind_denied",
+  "cause": "MinerU 3.4.0 could not bind its local loopback orchestration socket inside the restricted execution sandbox.",
+  "parent_failure_records_preserved": true,
+  "reuse_items": [],
+  "unfinished_pages": [109, 121, 122, 123, 131, 133, 370, 371],
+  "configuration_change": "none; same frozen PDF, SHA256, page windows, parser runtime, backend, method, and target pages",
+  "execution_environment_change": "run the same local parser outside the restricted socket sandbox",
+  "candidate_model_attempt_consumed": false,
+  "cloud_transmission_allowed": false
+}

@@ -1,0 +1,61 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-011-RESUME01",
+  "updated_at": "2026-09-13T05:12:54.648229+00:00",
+  "status": "complete",
+  "cloud_transmission": false,
+  "total_target_pages": 4,
+  "complete_pages": 4,
+  "failed_pages": 0,
+  "pending_pages": 0,
+  "records": [
+    {
+      "document_id": "KB-B011-DB-AR2025",
+      "page": 304,
+      "themes": [
+        "circularity"
+      ],
+      "output_directory": "artifacts/scale_batch_011/mineru_targets_RESUME01/KB-B011-DB-AR2025-p0304",
+      "status": "complete",
+      "started_at": "2026-09-13T05:11:44.438566+00:00",
+      "completed_at": "2026-09-13T05:12:02.604732+00:00",
+      "wall_seconds": 18.165853
+    },
+    {
+      "document_id": "KB-B011-DB-AR2025",
+      "page": 341,
+      "themes": [
+        "water"
+      ],
+      "output_directory": "artifacts/scale_batch_011/mineru_targets_RESUME01/KB-B011-DB-AR2025-p0341",
+      "status": "complete",
+      "started_at": "2026-09-13T05:12:02.605208+00:00",
+      "completed_at": "2026-09-13T05:12:20.388291+00:00",
+      "wall_seconds": 17.772314
+    },
+    {
+      "document_id": "KB-B011-DB-AR2025",
+      "page": 343,
+      "themes": [
+        "biodiversity"
+      ],
+      "output_directory": "artifacts/scale_batch_011/mineru_targets_RESUME01/KB-B011-DB-AR2025-p0343",
+      "status": "complete",
+      "started_at": "2026-09-13T05:12:20.388626+00:00",
+      "completed_at": "2026-09-13T05:12:38.252356+00:00",
+      "wall_seconds": 17.848885
+    },
+    {
+      "document_id": "KB-B011-DB-AR2025",
+      "page": 417,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_011/mineru_targets_RESUME01/KB-B011-DB-AR2025-p0417",
+      "status": "complete",
+      "started_at": "2026-09-13T05:12:38.252736+00:00",
+      "completed_at": "2026-09-13T05:12:54.647667+00:00",
+      "wall_seconds": 16.390319
+    }
+  ]
+}

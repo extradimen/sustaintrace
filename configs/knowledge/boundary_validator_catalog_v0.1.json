@@ -1,0 +1,36 @@
+{
+  "schema_version": "0.1",
+  "status": "five_validators_enabled_after_regression",
+  "validators": [
+    {
+      "validator_id": "BV-ASSURANCE-SCOPE-V01",
+      "boundary_class": "assurance_scope_metadata",
+      "status": "enabled",
+      "required_checks": ["signed statement", "engagement subject", "assurance level", "inclusions and exclusions"]
+    },
+    {
+      "validator_id": "BV-METRIC-COMPONENT-V01",
+      "boundary_class": "metric_component_boundary",
+      "status": "enabled",
+      "required_checks": ["row label", "column header", "category definition", "method and footnotes"]
+    },
+    {
+      "validator_id": "BV-TAXONOMY-CLASS-V01",
+      "boundary_class": "taxonomy_classification_boundary",
+      "status": "enabled",
+      "required_checks": ["denominator", "eligibility", "alignment", "materiality", "audit status"]
+    },
+    {
+      "validator_id": "BV-POPULATION-V01",
+      "boundary_class": "organizational_population_boundary",
+      "status": "enabled",
+      "required_checks": ["included entities", "excluded entities", "worker type", "population reconciliation"]
+    },
+    {
+      "validator_id": "BV-TARGET-PERFORMANCE-V01",
+      "boundary_class": "target_and_performance_boundary",
+      "status": "enabled",
+      "required_checks": ["target year", "baseline year", "scope coverage", "comparison relation"]
+    }
+  ]
+}

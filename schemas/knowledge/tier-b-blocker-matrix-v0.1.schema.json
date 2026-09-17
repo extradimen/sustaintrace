@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/esg/tier-b-blocker-matrix-v0.1.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version", "record_kind", "fact_record_id", "task_id", "predicate",
+    "blocking_signatures", "source_native_page", "context_years", "period_plan",
+    "boundary_plan", "execution_allowed", "reason"
+  ],
+  "properties": {
+    "schema_version": {"const": "0.1"},
+    "record_kind": {"const": "tier_b_blocker_matrix_item"},
+    "fact_record_id": {"type": "string", "pattern": "^fact-[0-9a-f]{24}$"},
+    "task_id": {"type": "string", "minLength": 1},
+    "predicate": {"type": "string", "minLength": 1},
+    "blocking_signatures": {"type": "array", "items": {"type": "string"}, "minItems": 1},
+    "source_native_page": {"type": ["integer", "null"], "minimum": 1},
+    "context_years": {"type": "array", "items": {"type": "string", "pattern": "^[0-9]{4}$"}},
+    "period_plan": {
+      "enum": [
+        "not_blocked",
+        "exact_year_label_candidate",
+        "explicit_predicate_year_requires_coordinate",
+        "non_temporal_predicate_gap_misclassification",
+        "ambiguous_or_role_specific"
+      ]
+    },
+    "boundary_plan": {
+      "enum": ["not_blocked", "explicit_label_candidate", "semantic_supervision_required"]
+    },
+    "execution_allowed": {"const": false},
+    "reason": {"type": "string", "minLength": 1}
+  }
+}

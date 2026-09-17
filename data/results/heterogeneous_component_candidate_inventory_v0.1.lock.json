@@ -1,0 +1,347 @@
+{
+  "schema_version": "0.1",
+  "record_kind": "heterogeneous_component_candidate_inventory",
+  "status": "candidate_inventory_complete_not_frozen_for_execution",
+  "selection_boundary": "metadata and frozen evidence structure only; adapters were not executed on shortlisted samples",
+  "components": [
+    {
+      "component": "FIELD_EVIDENCE_BINDING_INCOMPLETE",
+      "available_facts": 519,
+      "available_distinct_reports": 14,
+      "coverage_gap": null,
+      "shortlist": [
+        {
+          "gap_id": "gap-b75e3624c20601bda33e324f",
+          "fact_record_id": "fact-ca74c62d8686002b9d411436",
+          "task_id": "P18-GHG-CALC-001",
+          "document_id": "P18-DEUTSCHE-TELEKOM-AR2025",
+          "company": "Deutsche Telekom AG",
+          "sector": "telecommunications",
+          "layout": "atomic_literal_collection",
+          "value_type": "float",
+          "evidence_count": 5,
+          "source_path": "data/raw/p18_staging/deutsche_telekom_annual_report_2025_en.pdf",
+          "source_sha256": "de5d9b0705793c4bf0b994b52ecc242800d79ee18736958dbff32aade7b79a5c",
+          "screening_only": true
+        },
+        {
+          "gap_id": "gap-f228b58a6110d64b9e98c151",
+          "fact_record_id": "fact-9324f5730b37e5d7d7bed3ba",
+          "task_id": "P14-GHG-CALC-001",
+          "document_id": "P14-LOREAL-URD2025",
+          "company": "L'Oréal S.A.",
+          "sector": "consumer_beauty",
+          "layout": "atomic_literal_collection",
+          "value_type": "int",
+          "evidence_count": 6,
+          "source_path": "data/raw/p14_staging/loreal-2025-universal-registration-document.pdf",
+          "source_sha256": "db63807f5963c3e70422bbb9a0763f2f53be4139d5ee57984717bfa056275aa2",
+          "screening_only": true
+        },
+        {
+          "gap_id": "gap-e5c7e621493f43f223c46e9c",
+          "fact_record_id": "fact-ea789b989b68006d3f8b1d4c",
+          "task_id": "P16-ACCESS-001",
+          "document_id": "P16-SANOFI-SS2025",
+          "company": "Sanofi",
+          "sector": "pharmaceuticals",
+          "layout": "atomic_literal_collection",
+          "value_type": "str",
+          "evidence_count": 7,
+          "source_path": "data/raw/p16_staging/sanofi-sustainability-statement-2025.pdf",
+          "source_sha256": "82547ddb72b6b05dca88f93ed4cfe13010cb5690a5693b96721e9be3ff9c8fcc",
+          "screening_only": true
+        },
+        {
+          "gap_id": "gap-9ecdd2c05e8a762117e8177c",
+          "fact_record_id": "fact-d49792a54132f5db149cf6a9",
+          "task_id": "P17-GHG-CALC-001",
+          "document_id": "P17-BMW-GROUP-REPORT-2025",
+          "company": "Bayerische Motoren Werke Aktiengesellschaft",
+          "sector": "automotive",
+          "layout": "atomic_literal_collection",
+          "value_type": "str",
+          "evidence_count": 7,
+          "source_path": "data/raw/p17_staging/bmw-group-report-2025.pdf",
+          "source_sha256": "7a7fd36bf7f274e776ef7eda30d3cda4335a99cbb45f097ae5e8268ccf7759e7",
+          "screening_only": true
+        }
+      ]
+    },
+    {
+      "component": "PERIOD_ATTACHMENT_INCOMPLETE",
+      "available_facts": 574,
+      "available_distinct_reports": 14,
+      "coverage_gap": null,
+      "shortlist": [
+        {
+          "gap_id": "gap-8c21b90f7cfdd843bea2b192",
+          "fact_record_id": "fact-ef71816124680daff75eb6df",
+          "task_id": "P21-GHG-CALC-001",
+          "document_id": "P21-BASF-AR2025",
+          "company": "BASF SE",
+          "sector": "chemicals",
+          "layout": "structured_table",
+          "value_type": "float",
+          "evidence_count": 2,
+          "source_path": "data/raw/p21_staging/basf-report-2025.pdf",
+          "source_sha256": "6fa0a9f60a3149e585a5b52f06efde1e0aaa5d1156da0d71a1fd40822df7f8b7",
+          "screening_only": true
+        },
+        {
+          "gap_id": "gap-300b5955750d9f3c650aa784",
+          "fact_record_id": "fact-f755d95d353498c8bd75b003",
+          "task_id": "P11-CALC-001",
+          "document_id": "P11-SIEMENS-AR2025",
+          "company": "Siemens AG",
+          "sector": "industrial_technology",
+          "layout": "structured_table",
+          "value_type": "float",
+          "evidence_count": 3,
+          "source_path": "data/raw/p11_staging/siemens-annual-report-2025.pdf",
+          "source_sha256": "a702335f2c2d4f18d3ead4053df2fc3a9be3ad69b062bedd938f3b2551213b27",
+          "screening_only": true
+        },
+        {
+          "gap_id": "gap-07ce3f3dca6c1f633a282521",
+          "fact_record_id": "fact-de5a732c7bbc6ebaf935aa0b",
+          "task_id": "P22-GHG-CALC-001",
+          "document_id": "P22-BAYER-AR2025",
+          "company": "Bayer AG",
+          "sector": "life_sciences",
+          "layout": "structured_table",
+          "value_type": "float",
+          "evidence_count": 5,
+          "source_path": "data/raw/p22_staging/bayer-annual-report-2025.pdf",
+          "source_sha256": "0af4a9d19fd9d4cba72c1ec062802199873f2379f84112dc2db5dc9605ce769b",
+          "screening_only": true
+        },
+        {
+          "gap_id": "gap-e31e38c048fb5cf031d0bfa5",
+          "fact_record_id": "fact-753c7df093c6b69a796d9e6b",
+          "task_id": "P20-GHG-CALC-001",
+          "document_id": "P20-HOLCIM-SS2025",
+          "company": "Holcim Ltd",
+          "sector": "building_materials",
+          "layout": "structured_table",
+          "value_type": "float",
+          "evidence_count": 6,
+          "source_path": "data/raw/p20_staging/holcim-sustainability-statement-2025.pdf",
+          "source_sha256": "55b975cd13fc361638ed13bf32856a2629e46e88bdfc6ad9208bd8807992a599",
+          "screening_only": true
+        }
+      ]
+    },
+    {
+      "component": "UNIT_ATTACHMENT_INCOMPLETE",
+      "available_facts": 13,
+      "available_distinct_reports": 3,
+      "coverage_gap": null,
+      "shortlist": [
+        {
+          "gap_id": "gap-12b7f5ce62900efec68c145a",
+          "fact_record_id": "fact-f1d05716293b5d2e97a15ddb",
+          "task_id": "P22-SAFETY-CALC-001",
+          "document_id": "P22-BAYER-AR2025",
+          "company": "Bayer AG",
+          "sector": "life_sciences",
+          "layout": "structured_table",
+          "value_type": "int",
+          "evidence_count": 9,
+          "source_path": "data/raw/p22_staging/bayer-annual-report-2025.pdf",
+          "source_sha256": "0af4a9d19fd9d4cba72c1ec062802199873f2379f84112dc2db5dc9605ce769b",
+          "screening_only": true
+        },
+        {
+          "gap_id": "gap-9262444e6cacbde2d4168d67",
+          "fact_record_id": "fact-c16eefb40db40f233be44ec0",
+          "task_id": "P10-SAFETY-001",
+          "document_id": "P10-SHELL-AR2025",
+          "company": "Shell plc",
+          "sector": "energy",
+          "layout": "narrative_or_compound",
+          "value_type": "int",
+          "evidence_count": 3,
+          "source_path": "data/raw/p10_staging/shell-annual-report-2025.pdf",
+          "source_sha256": "90b21028e1616c41c7d73c3e996fd6128d837a41b38d432286e991aed3fbd9a1",
+          "screening_only": true
+        },
+        {
+          "gap_id": "gap-d7f75fb8b42cbfcbcc5c4066",
+          "fact_record_id": "fact-bcc9c90132c811d20df242a9",
+          "task_id": "P23-WORKFORCE-CALC-001",
+          "document_id": "P23-GSK-AR2025",
+          "company": "GSK plc",
+          "sector": "pharmaceuticals",
+          "layout": "atomic_literal_collection",
+          "value_type": "int",
+          "evidence_count": 11,
+          "source_path": "data/raw/p23_staging/gsk-annual-report-2025.pdf",
+          "source_sha256": "a3ef37d848fca940f85b6c33815a5d47d1f32726fd389a03910653e24af0f4d2",
+          "screening_only": true
+        }
+      ]
+    },
+    {
+      "component": "TABLE_CELL_BINDING_INCOMPLETE",
+      "available_facts": 114,
+      "available_distinct_reports": 10,
+      "coverage_gap": null,
+      "shortlist": [
+        {
+          "gap_id": "gap-87870fa5e61eb1459207c346",
+          "fact_record_id": "fact-fdc24fab4283b04cd8a75e67",
+          "task_id": "P22-ENERGY-CALC-001",
+          "document_id": "P22-BAYER-AR2025",
+          "company": "Bayer AG",
+          "sector": "life_sciences",
+          "layout": "structured_table",
+          "value_type": "float",
+          "evidence_count": 5,
+          "source_path": "data/raw/p22_staging/bayer-annual-report-2025.pdf",
+          "source_sha256": "0af4a9d19fd9d4cba72c1ec062802199873f2379f84112dc2db5dc9605ce769b",
+          "screening_only": true
+        },
+        {
+          "gap_id": "gap-96d5f2493908c398b458c9d8",
+          "fact_record_id": "fact-d2fb0ac1147b59de745aa32c",
+          "task_id": "P21-ENERGY-001",
+          "document_id": "P21-BASF-AR2025",
+          "company": "BASF SE",
+          "sector": "chemicals",
+          "layout": "structured_table",
+          "value_type": "float",
+          "evidence_count": 5,
+          "source_path": "data/raw/p21_staging/basf-report-2025.pdf",
+          "source_sha256": "6fa0a9f60a3149e585a5b52f06efde1e0aaa5d1156da0d71a1fd40822df7f8b7",
+          "screening_only": true
+        },
+        {
+          "gap_id": "gap-bc21ed4c48e1057fed6b0ea7",
+          "fact_record_id": "fact-8ee79ed2020c652a2277decc",
+          "task_id": "P20-GHG-CALC-001",
+          "document_id": "P20-HOLCIM-SS2025",
+          "company": "Holcim Ltd",
+          "sector": "building_materials",
+          "layout": "structured_table",
+          "value_type": "int",
+          "evidence_count": 6,
+          "source_path": "data/raw/p20_staging/holcim-sustainability-statement-2025.pdf",
+          "source_sha256": "55b975cd13fc361638ed13bf32856a2629e46e88bdfc6ad9208bd8807992a599",
+          "screening_only": true
+        },
+        {
+          "gap_id": "gap-4be2a15ab808f100c822689f",
+          "fact_record_id": "fact-53563d71cb7ece130591eb4a",
+          "task_id": "P18-SCOPE3-001",
+          "document_id": "P18-DEUTSCHE-TELEKOM-AR2025",
+          "company": "Deutsche Telekom AG",
+          "sector": "telecommunications",
+          "layout": "atomic_literal_collection",
+          "value_type": "int",
+          "evidence_count": 7,
+          "source_path": "data/raw/p18_staging/deutsche_telekom_annual_report_2025_en.pdf",
+          "source_sha256": "de5d9b0705793c4bf0b994b52ecc242800d79ee18736958dbff32aade7b79a5c",
+          "screening_only": true
+        }
+      ]
+    },
+    {
+      "component": "NATIVE_PDF_CORROBORATION_INCOMPLETE",
+      "available_facts": 35,
+      "available_distinct_reports": 5,
+      "coverage_gap": null,
+      "shortlist": [
+        {
+          "gap_id": "gap-9c5f76589d90c6212410caa0",
+          "fact_record_id": "fact-f02a9969807632e2ca1dceb7",
+          "task_id": "P18-SCOPE3-001",
+          "document_id": "P18-DEUTSCHE-TELEKOM-AR2025",
+          "company": "Deutsche Telekom AG",
+          "sector": "telecommunications",
+          "layout": "atomic_literal_collection",
+          "value_type": "int",
+          "evidence_count": 7,
+          "source_path": "data/raw/p18_staging/deutsche_telekom_annual_report_2025_en.pdf",
+          "source_sha256": "de5d9b0705793c4bf0b994b52ecc242800d79ee18736958dbff32aade7b79a5c",
+          "screening_only": true
+        },
+        {
+          "gap_id": "gap-7f808726ef0e99cd177cd019",
+          "fact_record_id": "fact-e27f5e5a74c5f90fa913bba3",
+          "task_id": "P19-WORKFORCE-001",
+          "document_id": "P19-NOVO-NORDISK-AR2025",
+          "company": "Novo Nordisk A/S",
+          "sector": "pharmaceuticals",
+          "layout": "atomic_literal_collection",
+          "value_type": "int",
+          "evidence_count": 7,
+          "source_path": "data/raw/p19_staging/novo-nordisk-annual-report-2025.pdf",
+          "source_sha256": "f5475f1e043eaa99526772c0e06677a74ab2c2abb8181755afbe02a10e395092",
+          "screening_only": true
+        },
+        {
+          "gap_id": "gap-54a4ffb8f59b38bc2188fdcb",
+          "fact_record_id": "fact-cf08ac052f400f635f90119a",
+          "task_id": "P23-GHG-CALC-001",
+          "document_id": "P23-GSK-AR2025",
+          "company": "GSK plc",
+          "sector": "pharmaceuticals",
+          "layout": "atomic_literal_collection",
+          "value_type": "int",
+          "evidence_count": 10,
+          "source_path": "data/raw/p23_staging/gsk-annual-report-2025.pdf",
+          "source_sha256": "a3ef37d848fca940f85b6c33815a5d47d1f32726fd389a03910653e24af0f4d2",
+          "screening_only": true
+        },
+        {
+          "gap_id": "gap-3931411f24ca16c0e6d33f4a",
+          "fact_record_id": "fact-fb6627e38244f3fdf5d9c0f3",
+          "task_id": "P17-GHG-CALC-001",
+          "document_id": "P17-BMW-GROUP-REPORT-2025",
+          "company": "Bayerische Motoren Werke Aktiengesellschaft",
+          "sector": "automotive",
+          "layout": "atomic_literal_collection",
+          "value_type": "int",
+          "evidence_count": 7,
+          "source_path": "data/raw/p17_staging/bmw-group-report-2025.pdf",
+          "source_sha256": "7a7fd36bf7f274e776ef7eda30d3cda4335a99cbb45f097ae5e8268ccf7759e7",
+          "screening_only": true
+        }
+      ]
+    },
+    {
+      "component": "CALCULATION_LINEAGE_INCOMPLETE",
+      "available_facts": 9,
+      "available_distinct_reports": 1,
+      "coverage_gap": "only_one_source_report_available",
+      "shortlist": [
+        {
+          "gap_id": "gap-dc41f6343c6ee358df1b36b4",
+          "fact_record_id": "fact-8c15c4daaa09bedad710e197",
+          "task_id": "P22-GHG-CALC-001",
+          "document_id": "P22-BAYER-AR2025",
+          "company": "Bayer AG",
+          "sector": "life_sciences",
+          "layout": "structured_table",
+          "value_type": "float",
+          "evidence_count": 5,
+          "source_path": "data/raw/p22_staging/bayer-annual-report-2025.pdf",
+          "source_sha256": "0af4a9d19fd9d4cba72c1ec062802199873f2379f84112dc2db5dc9605ce769b",
+          "screening_only": true
+        }
+      ]
+    }
+  ],
+  "parent_hashes": {
+    "fact_records": "1da6f28e8c1b3125d07a52d39aed4e095c6f40ef71378173c36a1486f7cb890c",
+    "knowledge_gap_records": "858a37ede7bd213c1c3d1e9136d5d8be6bc6e6f12f147124318347cb3a8cef76"
+  },
+  "safety": {
+    "new_sample_executed": false,
+    "fact_write_performed": false,
+    "trust_promotion_performed": false,
+    "cloud_transmission_performed": false
+  },
+  "next_gate": "audit shortlists against source pages, define positive and negative contracts, then freeze a single-execution manifest"
+}

@@ -1,0 +1,10 @@
+changelog:
+  categories:
+    - title: Features
+      labels: [enhancement]
+    - title: Reliability and evidence controls
+      labels: [reliability, audit]
+    - title: Fixes
+      labels: [bug]
+    - title: Other changes
+      labels: ["*"]

@@ -1,0 +1,365 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-016",
+  "updated_at": "2026-09-13T09:30:11.239156+00:00",
+  "status": "complete",
+  "cloud_transmission": false,
+  "total_target_pages": 29,
+  "complete_pages": 26,
+  "failed_pages": 3,
+  "pending_pages": 0,
+  "records": [
+    {
+      "document_id": "KB-B016-AKZONOBEL-AR2025",
+      "page": 24,
+      "themes": [
+        "targets"
+      ],
+      "output_directory": "artifacts/scale_batch_016/mineru_targets/KB-B016-AKZONOBEL-AR2025-p0024",
+      "status": "complete",
+      "started_at": "2026-09-13T09:21:29.860557+00:00",
+      "completed_at": "2026-09-13T09:21:51.533110+00:00",
+      "wall_seconds": 21.672452
+    },
+    {
+      "document_id": "KB-B016-AKZONOBEL-AR2025",
+      "page": 45,
+      "themes": [
+        "energy"
+      ],
+      "output_directory": "artifacts/scale_batch_016/mineru_targets/KB-B016-AKZONOBEL-AR2025-p0045",
+      "status": "complete",
+      "started_at": "2026-09-13T09:21:51.533916+00:00",
+      "completed_at": "2026-09-13T09:22:10.707494+00:00",
+      "wall_seconds": 19.173589
+    },
+    {
+      "document_id": "KB-B016-AKZONOBEL-AR2025",
+      "page": 46,
+      "themes": [
+        "ghg_emissions"
+      ],
+      "output_directory": "artifacts/scale_batch_016/mineru_targets/KB-B016-AKZONOBEL-AR2025-p0046",
+      "status": "complete",
+      "started_at": "2026-09-13T09:22:10.708245+00:00",
+      "completed_at": "2026-09-13T09:22:26.594588+00:00",
+      "wall_seconds": 15.886353
+    },
+    {
+      "document_id": "KB-B016-AKZONOBEL-AR2025",
+      "page": 49,
+      "themes": [
+        "water"
+      ],
+      "output_directory": "artifacts/scale_batch_016/mineru_targets/KB-B016-AKZONOBEL-AR2025-p0049",
+      "status": "complete",
+      "started_at": "2026-09-13T09:22:26.594922+00:00",
+      "completed_at": "2026-09-13T09:22:44.234154+00:00",
+      "wall_seconds": 17.639243
+    },
+    {
+      "document_id": "KB-B016-AKZONOBEL-AR2025",
+      "page": 74,
+      "themes": [
+        "circularity"
+      ],
+      "output_directory": "artifacts/scale_batch_016/mineru_targets/KB-B016-AKZONOBEL-AR2025-p0074",
+      "status": "complete",
+      "started_at": "2026-09-13T09:22:44.234534+00:00",
+      "completed_at": "2026-09-13T09:22:59.894145+00:00",
+      "wall_seconds": 15.659621
+    },
+    {
+      "document_id": "KB-B016-AKZONOBEL-AR2025",
+      "page": 75,
+      "themes": [
+        "health_safety",
+        "workforce"
+      ],
+      "output_directory": "artifacts/scale_batch_016/mineru_targets/KB-B016-AKZONOBEL-AR2025-p0075",
+      "status": "complete",
+      "started_at": "2026-09-13T09:22:59.894507+00:00",
+      "completed_at": "2026-09-13T09:23:15.786153+00:00",
+      "wall_seconds": 15.891656
+    },
+    {
+      "document_id": "KB-B016-AKZONOBEL-AR2025",
+      "page": 77,
+      "themes": [
+        "biodiversity"
+      ],
+      "output_directory": "artifacts/scale_batch_016/mineru_targets/KB-B016-AKZONOBEL-AR2025-p0077",
+      "status": "complete",
+      "started_at": "2026-09-13T09:23:15.786549+00:00",
+      "completed_at": "2026-09-13T09:23:35.941126+00:00",
+      "wall_seconds": 20.154589
+    },
+    {
+      "document_id": "KB-B016-AKZONOBEL-AR2025",
+      "page": 224,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_016/mineru_targets/KB-B016-AKZONOBEL-AR2025-p0224",
+      "status": "complete",
+      "started_at": "2026-09-13T09:23:35.941548+00:00",
+      "completed_at": "2026-09-13T09:23:53.590271+00:00",
+      "wall_seconds": 17.648733
+    },
+    {
+      "document_id": "KB-B016-AKZONOBEL-AR2025",
+      "page": 226,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_016/mineru_targets/KB-B016-AKZONOBEL-AR2025-p0226",
+      "status": "complete",
+      "started_at": "2026-09-13T09:23:53.590700+00:00",
+      "completed_at": "2026-09-13T09:24:10.236243+00:00",
+      "wall_seconds": 16.645553
+    },
+    {
+      "document_id": "KB-B016-NOVONESIS-AR2025",
+      "page": 71,
+      "themes": [
+        "targets"
+      ],
+      "output_directory": "artifacts/scale_batch_016/mineru_targets/KB-B016-NOVONESIS-AR2025-p0071",
+      "status": "complete",
+      "started_at": "2026-09-13T09:24:10.236654+00:00",
+      "completed_at": "2026-09-13T09:24:24.860210+00:00",
+      "wall_seconds": 14.623566
+    },
+    {
+      "document_id": "KB-B016-NOVONESIS-AR2025",
+      "page": 74,
+      "themes": [
+        "energy"
+      ],
+      "output_directory": "artifacts/scale_batch_016/mineru_targets/KB-B016-NOVONESIS-AR2025-p0074",
+      "status": "complete",
+      "started_at": "2026-09-13T09:24:24.860593+00:00",
+      "completed_at": "2026-09-13T09:24:41.355887+00:00",
+      "wall_seconds": 16.495305
+    },
+    {
+      "document_id": "KB-B016-NOVONESIS-AR2025",
+      "page": 75,
+      "themes": [
+        "ghg_emissions"
+      ],
+      "output_directory": "artifacts/scale_batch_016/mineru_targets/KB-B016-NOVONESIS-AR2025-p0075",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_016/mineru_targets/KB-B016-NOVONESIS-AR2025-p0075/esg_rd_mineru_run.json",
+      "started_at": "2026-09-13T09:24:41.356290+00:00",
+      "completed_at": "2026-09-13T09:24:55.999326+00:00",
+      "wall_seconds": 14.643044
+    },
+    {
+      "document_id": "KB-B016-NOVONESIS-AR2025",
+      "page": 83,
+      "themes": [
+        "water"
+      ],
+      "output_directory": "artifacts/scale_batch_016/mineru_targets/KB-B016-NOVONESIS-AR2025-p0083",
+      "status": "complete",
+      "started_at": "2026-09-13T09:24:55.999694+00:00",
+      "completed_at": "2026-09-13T09:25:11.934587+00:00",
+      "wall_seconds": 15.934903
+    },
+    {
+      "document_id": "KB-B016-NOVONESIS-AR2025",
+      "page": 85,
+      "themes": [
+        "biodiversity"
+      ],
+      "output_directory": "artifacts/scale_batch_016/mineru_targets/KB-B016-NOVONESIS-AR2025-p0085",
+      "status": "complete",
+      "started_at": "2026-09-13T09:25:11.934985+00:00",
+      "completed_at": "2026-09-13T09:25:26.915376+00:00",
+      "wall_seconds": 14.980399
+    },
+    {
+      "document_id": "KB-B016-NOVONESIS-AR2025",
+      "page": 87,
+      "themes": [
+        "circularity"
+      ],
+      "output_directory": "artifacts/scale_batch_016/mineru_targets/KB-B016-NOVONESIS-AR2025-p0087",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_016/mineru_targets/KB-B016-NOVONESIS-AR2025-p0087/esg_rd_mineru_run.json",
+      "started_at": "2026-09-13T09:25:26.915750+00:00",
+      "completed_at": "2026-09-13T09:25:42.475527+00:00",
+      "wall_seconds": 15.559786
+    },
+    {
+      "document_id": "KB-B016-NOVONESIS-AR2025",
+      "page": 96,
+      "themes": [
+        "workforce"
+      ],
+      "output_directory": "artifacts/scale_batch_016/mineru_targets/KB-B016-NOVONESIS-AR2025-p0096",
+      "status": "complete",
+      "started_at": "2026-09-13T09:25:42.475937+00:00",
+      "completed_at": "2026-09-13T09:25:59.089459+00:00",
+      "wall_seconds": 16.613532
+    },
+    {
+      "document_id": "KB-B016-NOVONESIS-AR2025",
+      "page": 99,
+      "themes": [
+        "health_safety"
+      ],
+      "output_directory": "artifacts/scale_batch_016/mineru_targets/KB-B016-NOVONESIS-AR2025-p0099",
+      "status": "complete",
+      "started_at": "2026-09-13T09:25:59.089864+00:00",
+      "completed_at": "2026-09-13T09:26:13.712991+00:00",
+      "wall_seconds": 14.623137
+    },
+    {
+      "document_id": "KB-B016-NOVONESIS-AR2025",
+      "page": 197,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_016/mineru_targets/KB-B016-NOVONESIS-AR2025-p0197",
+      "status": "complete",
+      "started_at": "2026-09-13T09:26:13.713401+00:00",
+      "completed_at": "2026-09-13T09:26:32.233394+00:00",
+      "wall_seconds": 18.520004
+    },
+    {
+      "document_id": "KB-B016-NOVONESIS-AR2025",
+      "page": 199,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_016/mineru_targets/KB-B016-NOVONESIS-AR2025-p0199",
+      "status": "complete",
+      "started_at": "2026-09-13T09:26:32.233856+00:00",
+      "completed_at": "2026-09-13T09:26:49.046883+00:00",
+      "wall_seconds": 16.813046
+    },
+    {
+      "document_id": "KB-B016-COLOPLAST-AR2025",
+      "page": 48,
+      "themes": [
+        "water"
+      ],
+      "output_directory": "artifacts/scale_batch_016/mineru_targets/KB-B016-COLOPLAST-AR2025-p0048",
+      "status": "complete",
+      "started_at": "2026-09-13T09:26:49.059217+00:00",
+      "completed_at": "2026-09-13T09:27:09.590051+00:00",
+      "wall_seconds": 20.530499
+    },
+    {
+      "document_id": "KB-B016-COLOPLAST-AR2025",
+      "page": 55,
+      "themes": [
+        "targets"
+      ],
+      "output_directory": "artifacts/scale_batch_016/mineru_targets/KB-B016-COLOPLAST-AR2025-p0055",
+      "status": "complete",
+      "started_at": "2026-09-13T09:27:09.590598+00:00",
+      "completed_at": "2026-09-13T09:27:33.691638+00:00",
+      "wall_seconds": 24.101056
+    },
+    {
+      "document_id": "KB-B016-COLOPLAST-AR2025",
+      "page": 60,
+      "themes": [
+        "energy"
+      ],
+      "output_directory": "artifacts/scale_batch_016/mineru_targets/KB-B016-COLOPLAST-AR2025-p0060",
+      "status": "complete",
+      "started_at": "2026-09-13T09:27:33.692410+00:00",
+      "completed_at": "2026-09-13T09:27:55.836434+00:00",
+      "wall_seconds": 22.144038
+    },
+    {
+      "document_id": "KB-B016-COLOPLAST-AR2025",
+      "page": 61,
+      "themes": [
+        "ghg_emissions"
+      ],
+      "output_directory": "artifacts/scale_batch_016/mineru_targets/KB-B016-COLOPLAST-AR2025-p0061",
+      "status": "complete",
+      "started_at": "2026-09-13T09:27:55.837090+00:00",
+      "completed_at": "2026-09-13T09:28:18.662133+00:00",
+      "wall_seconds": 22.822434
+    },
+    {
+      "document_id": "KB-B016-COLOPLAST-AR2025",
+      "page": 69,
+      "themes": [
+        "circularity"
+      ],
+      "output_directory": "artifacts/scale_batch_016/mineru_targets/KB-B016-COLOPLAST-AR2025-p0069",
+      "status": "complete",
+      "started_at": "2026-09-13T09:28:18.662622+00:00",
+      "completed_at": "2026-09-13T09:28:39.583707+00:00",
+      "wall_seconds": 20.915653
+    },
+    {
+      "document_id": "KB-B016-COLOPLAST-AR2025",
+      "page": 72,
+      "themes": [
+        "biodiversity"
+      ],
+      "output_directory": "artifacts/scale_batch_016/mineru_targets/KB-B016-COLOPLAST-AR2025-p0072",
+      "status": "complete",
+      "started_at": "2026-09-13T09:28:39.584205+00:00",
+      "completed_at": "2026-09-13T09:28:57.201956+00:00",
+      "wall_seconds": 17.616454
+    },
+    {
+      "document_id": "KB-B016-COLOPLAST-AR2025",
+      "page": 79,
+      "themes": [
+        "health_safety"
+      ],
+      "output_directory": "artifacts/scale_batch_016/mineru_targets/KB-B016-COLOPLAST-AR2025-p0079",
+      "status": "complete",
+      "started_at": "2026-09-13T09:28:57.202451+00:00",
+      "completed_at": "2026-09-13T09:29:16.649131+00:00",
+      "wall_seconds": 19.446235
+    },
+    {
+      "document_id": "KB-B016-COLOPLAST-AR2025",
+      "page": 85,
+      "themes": [
+        "workforce"
+      ],
+      "output_directory": "artifacts/scale_batch_016/mineru_targets/KB-B016-COLOPLAST-AR2025-p0085",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_016/mineru_targets/KB-B016-COLOPLAST-AR2025-p0085/esg_rd_mineru_run.json",
+      "started_at": "2026-09-13T09:29:16.649629+00:00",
+      "completed_at": "2026-09-13T09:29:35.287718+00:00",
+      "wall_seconds": 18.637958
+    },
+    {
+      "document_id": "KB-B016-COLOPLAST-AR2025",
+      "page": 162,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_016/mineru_targets/KB-B016-COLOPLAST-AR2025-p0162",
+      "status": "complete",
+      "started_at": "2026-09-13T09:29:35.288281+00:00",
+      "completed_at": "2026-09-13T09:29:54.290847+00:00",
+      "wall_seconds": 19.002521
+    },
+    {
+      "document_id": "KB-B016-COLOPLAST-AR2025",
+      "page": 164,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_016/mineru_targets/KB-B016-COLOPLAST-AR2025-p0164",
+      "status": "complete",
+      "started_at": "2026-09-13T09:29:54.291369+00:00",
+      "completed_at": "2026-09-13T09:30:11.238641+00:00",
+      "wall_seconds": 16.947254
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "schema_version": "0.1",
+  "record_kind": "third_unseen_adapter_validation_manifest",
+  "status": "frozen_not_executed",
+  "cases": [
+    {
+      "component": "TABLE_CELL_BINDING_INCOMPLETE",
+      "gap_id": "gap-183fdf7c307a691e97f3916f",
+      "fact_record_id": "fact-7a7e5a172cddb547b4402189",
+      "task_id": "P21-ENERGY-001",
+      "source": {
+        "path": "data/raw/p21_staging/basf-report-2025.pdf",
+        "sha256": "6fa0a9f60a3149e585a5b52f06efde1e0aaa5d1156da0d71a1fd40822df7f8b7"
+      },
+      "pages": [192],
+      "adapter_inputs": {
+        "row_label": "Total energy consumption from renewable sources",
+        "column_path": ["2025", "Operational control"],
+        "period": "2025",
+        "target_value": "5.2"
+      },
+      "expected_contract": {
+        "status": "passed",
+        "raw_and_normalized_row_required": true,
+        "column_path": ["2025", "Operational control"],
+        "value": "5.2"
+      }
+    },
+    {
+      "component": "CALCULATION_LINEAGE_INCOMPLETE",
+      "gap_id": "gap-c843e10ee7e2a25c32250ca1",
+      "fact_record_id": "fact-5b073b997f692208e1fcb3c9",
+      "task_id": "P22-ENERGY-CALC-001",
+      "source": {
+        "path": "data/raw/p22_staging/bayer-annual-report-2025.pdf",
+        "sha256": "0af4a9d19fd9d4cba72c1ec062802199873f2379f84112dc2db5dc9605ce769b"
+      },
+      "pages": [149],
+      "adapter_inputs": {
+        "page": 149,
+        "input_cells": [
+          {"row": "Total energy consumption", "column": "2024", "value_index": 0},
+          {"row": "Total energy consumption", "column": "2025", "value_index": 1}
+        ],
+        "operation": "percentage_change",
+        "rounding_decimals": 2
+      },
+      "expected_contract": {
+        "status": "passed",
+        "inputs": [9055, 8855],
+        "operation": "percentage_change",
+        "value": -2.21
+      }
+    }
+  ],
+  "parent_hashes": {
+    "fact_records": "1da6f28e8c1b3125d07a52d39aed4e095c6f40ef71378173c36a1486f7cb890c",
+    "knowledge_gap_records": "858a37ede7bd213c1c3d1e9136d5d8be6bc6e6f12f147124318347cb3a8cef76",
+    "development": "3a84903d46ac2b7141562dc356a626ffd2b4dce12b6e739ae093593da3f812bb"
+  },
+  "safety": {
+    "single_execution": true,
+    "fact_write_allowed": false,
+    "trust_promotion_allowed": false,
+    "semantic_inference_allowed": false,
+    "cloud_transmission_allowed": false,
+    "bulk_repair_allowed": false
+  }
+}

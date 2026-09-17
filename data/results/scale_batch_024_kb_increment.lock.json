@@ -1,0 +1,32 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-024-RESUME01",
+  "status": "increment_built_candidates_not_promoted",
+  "fact_candidates": 51,
+  "trusted_facts_promoted": 0,
+  "evidence_gaps": 1,
+  "failure_observations": 90,
+  "gaps": [
+    {
+      "document_id": "KB-B024-FORTUM-FIN2025",
+      "page": 47,
+      "theme": "water",
+      "reason": "no_theme_line_in_mineru_markdown"
+    }
+  ],
+  "outputs": {
+    "facts": {
+      "path": "data/knowledge_bases/v0.1/increments/scale_batch_024_fact_records.jsonl",
+      "sha256": "81f0a00ba639e9bc09b225d93581ea5e7d7f188776431bfe32f7640888186b83"
+    },
+    "failures": {
+      "path": "data/knowledge_bases/v0.1/increments/scale_batch_024_failure_records.jsonl",
+      "sha256": "bc122b51dbf7aca39ea8528d2b6e0f1b113cdd3df14834010f2511d4f51970e5"
+    }
+  },
+  "policy": {
+    "cloud_transmission": false,
+    "locked_experiments_modified": false,
+    "automatic_promotion": false
+  }
+}

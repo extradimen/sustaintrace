@@ -1,0 +1,50 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-028",
+  "status": "increment_built_candidates_not_promoted",
+  "fact_candidates": 48,
+  "trusted_facts_promoted": 0,
+  "evidence_gaps": 4,
+  "failure_observations": 85,
+  "gaps": [
+    {
+      "document_id": "KB-B028-TELIA-AR2025",
+      "page": 129,
+      "theme": "water",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B028-ASSA-ABLOY-AR2025",
+      "page": 171,
+      "theme": "assurance",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B028-LOOMIS-ASR2025",
+      "page": 89,
+      "theme": "circularity",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B028-LOOMIS-ASR2025",
+      "page": 118,
+      "theme": "water",
+      "reason": "no_theme_line_in_mineru_markdown"
+    }
+  ],
+  "outputs": {
+    "facts": {
+      "path": "data/knowledge_bases/v0.1/increments/scale_batch_028_fact_records.jsonl",
+      "sha256": "536bf4332fec6b1f5d99e9df48d23186018281453803d45b06aae0fe28ee4fd7"
+    },
+    "failures": {
+      "path": "data/knowledge_bases/v0.1/increments/scale_batch_028_failure_records.jsonl",
+      "sha256": "d7f1d28b3d09526a1896a359856fa40c864bc78ac209098bc70d8bb6b9fdb10b"
+    }
+  },
+  "policy": {
+    "cloud_transmission": false,
+    "locked_experiments_modified": false,
+    "automatic_promotion": false
+  }
+}

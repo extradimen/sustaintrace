@@ -1,0 +1,70 @@
+{
+  "artifact_sha256": {
+    "configs/knowledge/scale_batch_006_v0.1.json": "62c97351d24a35bb48cb1ed3a6154452d80a09caad0332fcd321cbc375565ecc",
+    "configs/parsers/scale-batch-006-mineru-3.4.0-runtime.json": "f4cc15451e8552a8130f0dfae3dfec8d63a9646921c25258d2068a7054fa670f",
+    "data/knowledge_bases/v0.1/migration_manifest.lock.json": "60b35e9ef4bc2c721d500c9dea4f1560093cb64e827aa23463712c6c813c1633",
+    "data/knowledge_bases/v0.1/tier_b_independent_adjudications.jsonl": "c95450b033d0fed12dedf826a6045a36c9ea5abc02da53c358210f71c8927a33",
+    "data/knowledge_bases/v0.1/trusted_fact_records.jsonl": "f560f44fc657e467ebb847a9a82ee701b6c8c75a562567fec325e4e51330b47d",
+    "data/manifests/scale_batch_006_acquisition.lock.json": "748e1a23f2609c8af6a42d7f3f9b7e588abaec5cc429cc17246a6aa7464b1851",
+    "data/manifests/scale_batch_006_acquisition_failures.lock.json": "e0438f90bc9f7ea55e88ab3bfcbfbee2f25a4ef987bb7bb968c3c09b47a01258",
+    "data/manifests/scale_batch_006_target_pages.lock.json": "7f90f2a6fa24e2e2d3bf6b008491b1a5caf401554249de2805170365b1ccd134",
+    "data/results/scale_batch_006_atomic_projection.lock.json": "891e961a126ebe3145b66596462c71854c9a6ab919c851fc871801e7c5e557e7",
+    "data/results/scale_batch_006_atomic_validation.lock.json": "3e51b13d37080cd04f7350b38622d8df7dcb20db98c543ac5eb43ec2edb672d8",
+    "data/results/scale_batch_006_diagnostics.lock.json": "fbfeee29092a7715c7104cfb2c5112340a40326bbcaa3e05680d3de5a0fc0e97",
+    "data/results/scale_batch_006_gap_repair.lock.json": "45bb4e6851153fac4e6143b118e5a44ac3e2493e7e1eafe84e7d17c5a21762f4",
+    "data/results/scale_batch_006_kb_increment.lock.json": "1c028b1642ebc6ac9da6f3e886dd515c7f32030ca75fd9a3d79825cdeaebad80",
+    "data/results/scale_batch_006_mineru_FINAL_summary.lock.json": "0399828cb21e2d3143786d926fde6ada0f426bb0c39ac5049f7ca6ec23fd5125",
+    "data/results/scale_batch_006_mineru_RESUME01_summary.lock.json": "d27d0175c7e43754f33a4d2f45af5a8c690174c20d0a6afb0b6ce1609c55242c",
+    "data/results/scale_batch_006_mineru_RESUME02_summary.lock.json": "00c7aeb8e2aab5541734d50170315d8aa5db25448427569d79a7dad08d1e1440",
+    "data/results/scale_batch_006_mineru_RESUME03_summary.lock.json": "0efb18cec75108b4078dbbfca38c8b8c902cfe8c93468ab02a6356301269d0bb",
+    "data/results/scale_batch_006_mineru_summary.lock.json": "2c70839b958f9154c559ddbea59fef744f49ce3f2fc7c1f2fb8521ab121cb134",
+    "data/results/scale_batch_006_tier_b_promotion.lock.json": "9d3a581b348c7b4e95ef125a6b942e569ecd711b2bfb7712a126e6b7b0436f87"
+  },
+  "atomic_validation": {
+    "coordinate_exact": 8,
+    "native_column_header_present": 8,
+    "native_quote_present": 8,
+    "native_row_header_present": 8,
+    "strictly_corroborated": 8
+  },
+  "batch_id": "KB-SCALE-BATCH-006",
+  "extractable_source_pages": 1001,
+  "frozen_target_pages": 25,
+  "global_knowledge_bases": {
+    "fact_records": 1378,
+    "failure_records": 208,
+    "failure_signatures": 20,
+    "trusted_fact_records": 69
+  },
+  "knowledge_increment": {
+    "atomic_fact_candidates": 8,
+    "evidence_snippet_candidates": 42,
+    "failure_observations": 56,
+    "gap_repair_candidates": 4,
+    "held_tier_c_after_six_dimension_review": 4,
+    "parent_evidence_gaps": 4,
+    "promoted_tier_b": 4,
+    "rejected_ambiguous_table_rows": 4,
+    "remaining_evidence_gaps": 0,
+    "total_new_fact_records": 54
+  },
+  "mineru": {
+    "final_usable_pages": 25,
+    "model_failures": 0,
+    "post_completion_shutdown_recovered_pages": 8,
+    "remaining_failures": 0
+  },
+  "quality_gates": {
+    "automatic_promotion": false,
+    "cloud_transmission": false,
+    "json_artifacts_parse": "passed",
+    "locked_experiments_modified": false,
+    "pytest_collected_and_passed": 450,
+    "ruff": "passed",
+    "sha256_manifest": "passed"
+  },
+  "schema_version": "0.1",
+  "source_documents": 3,
+  "source_pages": 1004,
+  "status": "local_ingestion_projection_gap_repair_and_tier_b_sampling_complete"
+}

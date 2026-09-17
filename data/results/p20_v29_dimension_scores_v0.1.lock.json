@@ -1,0 +1,810 @@
+{
+  "aggregate_score": null,
+  "candidate_model": "qwen3.5:397b-cloud",
+  "experiment_id": "P20-V29-UNSEEN-LOCKBOX-V01",
+  "inputs": {
+    "atomic_gold": "data/annotations/p20_simulated/p20_atomic_slot_gold_v0.1.lock.json",
+    "atomic_gold_sha256": "9bfd2951d2b8853914df301abb0de5d14efff5a82da68ecafd73b2b47910ce1c",
+    "progress": "data/manifests/p20_candidate_progress.json",
+    "progress_sha256": "0e54fa93648c5b8bc3d8748024809e60aaeee30337ce1db7a6f25454be5b9bab",
+    "slot_contracts": "configs/framework/p20_slot_contracts_v0.1.lock.json",
+    "slot_contracts_sha256": "28b5367fc816158663a794d6a8322b76913fea586480c4964dbb7c8ecc603b62",
+    "task_pack": "data/tasks/p20_local_execution_task_pack_v0.1.lock.json",
+    "task_pack_sha256": "8b99d46aedd1eb123a5e7de1ab7aac7ae5d219c40f6562706c2bfaa555e17bc9"
+  },
+  "protocol": {
+    "failed_raw_outputs_preserved": true,
+    "invalid_model_outputs_receive_no_slot_credit": true,
+    "no_posthoc_semantic_repair": true,
+    "no_silent_retry": true,
+    "original_text_values_preserved": true,
+    "partial_projection_credit_allowed": true,
+    "text_literal_and_normalized_dimensions_separated": true
+  },
+  "reference_type": "simulated_expert_reference_not_independent_human_gold",
+  "schema_version": "2.9",
+  "status": "dimension_scoring_completed_against_frozen_simulated_references",
+  "summary_dimensions": {
+    "credited_valid_slots": 0,
+    "final_pipeline_total_tasks": 6,
+    "final_pipeline_valid_tasks": 0,
+    "literal_or_numeric_exact_slots": 0,
+    "numeric_exact_slots": 0,
+    "numeric_reference_slots": 53,
+    "required_slots": 73,
+    "stage_a_total_tasks": 6,
+    "stage_a_valid_tasks": 0,
+    "text_literal_exact_slots": 0,
+    "text_literal_reference_slots": 20,
+    "text_normalized_exact_slots": 0,
+    "text_normalized_reference_slots": 20,
+    "verified_all_run_archives": 6
+  },
+  "task_dimensions": {
+    "P20-ASSURE-001": {
+      "credited_valid_slot_count": 0,
+      "dimensions": [
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "assured_subjects",
+          "text_comparison_v28": {
+            "candidate_original": null,
+            "literal_exact": false,
+            "normalized_exact": false,
+            "reference_original": "Double Materiality Assessment | selected Sustainability Indicators | Transition Plan Disclosures",
+            "semantic_rewrite_applied": false,
+            "token_jaccard": 0.0
+          },
+          "value_type": "string"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "criteria",
+          "text_comparison_v28": {
+            "candidate_original": null,
+            "literal_exact": false,
+            "normalized_exact": false,
+            "reference_original": "ESRS requirements | section-specific Methodology criteria | ESRS E1 Climate Change requirements",
+            "semantic_rewrite_applied": false,
+            "token_jaccard": 0.0
+          },
+          "value_type": "string"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "assurance_level",
+          "text_comparison_v28": {
+            "candidate_original": null,
+            "literal_exact": false,
+            "normalized_exact": false,
+            "reference_original": "limited assurance",
+            "semantic_rewrite_applied": false,
+            "token_jaccard": 0.0
+          },
+          "value_type": "string"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "conclusion_form",
+          "text_comparison_v28": {
+            "candidate_original": null,
+            "literal_exact": false,
+            "normalized_exact": false,
+            "reference_original": "nothing has come to our attention",
+            "semantic_rewrite_applied": false,
+            "token_jaccard": 0.0
+          },
+          "value_type": "string"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "governing_standard",
+          "text_comparison_v28": {
+            "candidate_original": null,
+            "literal_exact": false,
+            "normalized_exact": false,
+            "reference_original": "ISAE 3000 (Revised)",
+            "semantic_rewrite_applied": false,
+            "token_jaccard": 0.0
+          },
+          "value_type": "string"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "excluded_responsibility",
+          "text_comparison_v28": {
+            "candidate_original": null,
+            "literal_exact": false,
+            "normalized_exact": false,
+            "reference_original": "entire report; other applicable legal provisions; appropriateness or ambition of transition-strategy objectives",
+            "semantic_rewrite_applied": false,
+            "token_jaccard": 0.0
+          },
+          "value_type": "string"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "procedure_difference",
+          "text_comparison_v28": {
+            "candidate_original": null,
+            "literal_exact": false,
+            "normalized_exact": false,
+            "reference_original": "limited assurance procedures are less extensive and assurance is substantially lower than reasonable assurance",
+            "semantic_rewrite_applied": false,
+            "token_jaccard": 0.0
+          },
+          "value_type": "string"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "assurance_provider",
+          "text_comparison_v28": {
+            "candidate_original": null,
+            "literal_exact": false,
+            "normalized_exact": false,
+            "reference_original": "EY & Associés",
+            "semantic_rewrite_applied": false,
+            "token_jaccard": 0.0
+          },
+          "value_type": "string"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "signatory",
+          "text_comparison_v28": {
+            "candidate_original": null,
+            "literal_exact": false,
+            "normalized_exact": false,
+            "reference_original": "Christophe Schmeitzky",
+            "semantic_rewrite_applied": false,
+            "token_jaccard": 0.0
+          },
+          "value_type": "string"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "signature_location",
+          "text_comparison_v28": {
+            "candidate_original": null,
+            "literal_exact": false,
+            "normalized_exact": false,
+            "reference_original": "Paris-La Défense",
+            "semantic_rewrite_applied": false,
+            "token_jaccard": 0.0
+          },
+          "value_type": "string"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "signature_date",
+          "text_comparison_v28": {
+            "candidate_original": null,
+            "literal_exact": false,
+            "normalized_exact": false,
+            "reference_original": "2026-02-26",
+            "semantic_rewrite_applied": false,
+            "token_jaccard": 0.0
+          },
+          "value_type": "string"
+        }
+      ],
+      "failure_taxonomy": {
+        "category": "model_behavior",
+        "error_type": "OllamaError",
+        "model_call_started": true,
+        "owner": "candidate_model",
+        "retry_policy": "no_retry_in_locked_experiment",
+        "score_as_model_failure": true,
+        "stage": "stage_a"
+      },
+      "final_pipeline_valid": false,
+      "literal_or_numeric_exact_slot_count": 0,
+      "required_slot_count": 11,
+      "stage_a_valid": false,
+      "stage_b_status": "not_reached"
+    },
+    "P20-ENERGY-001": {
+      "credited_valid_slot_count": 0,
+      "dimensions": [
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "total_energy_mmwh::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "total_energy_mmwh::2024",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "fossil_energy_mmwh::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "fossil_energy_mmwh::2024",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "fossil_share_percent::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "fossil_share_percent::2024",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "renewable_energy_mmwh::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "renewable_energy_mmwh::2024",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "renewable_share_percent::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "renewable_share_percent::2024",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "narrative_change_percent",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "direction",
+          "text_comparison_v28": {
+            "candidate_original": null,
+            "literal_exact": false,
+            "normalized_exact": false,
+            "reference_original": "increase",
+            "semantic_rewrite_applied": false,
+            "token_jaccard": 0.0
+          },
+          "value_type": "string"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "renewable_electricity_instruments",
+          "text_comparison_v28": {
+            "candidate_original": null,
+            "literal_exact": false,
+            "normalized_exact": false,
+            "reference_original": "power purchase agreements (PPAs) | virtual power purchase agreements (VPPAs) | renewable energy certificates (RECs) and guarantees of origin (GOs)",
+            "semantic_rewrite_applied": false,
+            "token_jaccard": 0.0
+          },
+          "value_type": "string"
+        }
+      ],
+      "failure_taxonomy": {
+        "category": "model_behavior",
+        "error_type": "OllamaError",
+        "model_call_started": true,
+        "owner": "candidate_model",
+        "retry_policy": "no_retry_in_locked_experiment",
+        "score_as_model_failure": true,
+        "stage": "stage_a"
+      },
+      "final_pipeline_valid": false,
+      "literal_or_numeric_exact_slot_count": 0,
+      "required_slot_count": 13,
+      "stage_a_valid": false,
+      "stage_b_status": "not_reached"
+    },
+    "P20-GHG-CALC-001": {
+      "credited_valid_slot_count": 0,
+      "dimensions": [
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "scope1_gross_mtco2e::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "scope2_market_mtco2e::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "scope3_mtco2e::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "calculated_total_mtco2e::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "disclosed_total_market_mtco2e::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "difference_mtco2e::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "disclosed_total_market_mtco2e::2024",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "calculated_change_percent",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "direction",
+          "text_comparison_v28": {
+            "candidate_original": null,
+            "literal_exact": false,
+            "normalized_exact": false,
+            "reference_original": "increase",
+            "semantic_rewrite_applied": false,
+            "token_jaccard": 0.0
+          },
+          "value_type": "string"
+        }
+      ],
+      "failure_taxonomy": {
+        "category": "model_behavior",
+        "error_type": "OllamaError",
+        "model_call_started": true,
+        "owner": "candidate_model",
+        "retry_policy": "no_retry_in_locked_experiment",
+        "score_as_model_failure": true,
+        "stage": "stage_a"
+      },
+      "final_pipeline_valid": false,
+      "literal_or_numeric_exact_slot_count": 0,
+      "required_slot_count": 9,
+      "stage_a_valid": false,
+      "stage_b_status": "not_reached"
+    },
+    "P20-SCOPE3-001": {
+      "credited_valid_slot_count": 0,
+      "dimensions": [
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "scope3_total_mtco2e::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "category1_mtco2e::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "category15_mtco2e::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "category1_plus_15_mtco2e::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "category1_plus_15_share_percent::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "primary_data_percent::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "scope3_total_mtco2e::2024",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "category1_mtco2e::2024",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "category15_mtco2e::2024",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "category1_plus_15_mtco2e::2024",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "category1_plus_15_share_percent::2024",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "primary_data_percent::2024",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        }
+      ],
+      "failure_taxonomy": {
+        "category": "model_behavior",
+        "error_type": "OllamaError",
+        "model_call_started": true,
+        "owner": "candidate_model",
+        "retry_policy": "no_retry_in_locked_experiment",
+        "score_as_model_failure": true,
+        "stage": "stage_a"
+      },
+      "final_pipeline_valid": false,
+      "literal_or_numeric_exact_slot_count": 0,
+      "required_slot_count": 12,
+      "stage_a_valid": false,
+      "stage_b_status": "not_reached"
+    },
+    "P20-TAXONOMY-001": {
+      "credited_valid_slot_count": 0,
+      "dimensions": [
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "turnover_total_mchf::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "turnover_eligible_mchf::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "turnover_eligible_percent::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "turnover_aligned_mchf::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "turnover_aligned_percent::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "capex_total_mchf::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "capex_eligible_mchf::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "capex_eligible_percent::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "capex_aligned_mchf::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "capex_aligned_percent::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "opex_total_mchf::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "opex_eligible_mchf::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "opex_eligible_percent::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "opex_aligned_mchf::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "opex_aligned_percent::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "turnover_driver",
+          "text_comparison_v28": {
+            "candidate_original": null,
+            "literal_exact": false,
+            "normalized_exact": false,
+            "reference_original": "higher low-carbon cement sales and improved DNSH alignment for air pollution and climate adaptation",
+            "semantic_rewrite_applied": false,
+            "token_jaccard": 0.0
+          },
+          "value_type": "string"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "capex_driver",
+          "text_comparison_v28": {
+            "candidate_original": null,
+            "literal_exact": false,
+            "normalized_exact": false,
+            "reference_original": "accelerated decarbonization and circularity investments",
+            "semantic_rewrite_applied": false,
+            "token_jaccard": 0.0
+          },
+          "value_type": "string"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "opex_driver",
+          "text_comparison_v28": {
+            "candidate_original": null,
+            "literal_exact": false,
+            "normalized_exact": false,
+            "reference_original": "refined 2025 methodology improved identification of qualifying R&D",
+            "semantic_rewrite_applied": false,
+            "token_jaccard": 0.0
+          },
+          "value_type": "string"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "comparative_qualification",
+          "text_comparison_v28": {
+            "candidate_original": null,
+            "literal_exact": false,
+            "normalized_exact": false,
+            "reference_original": "2024 figures restated for discontinued operations and unaudited",
+            "semantic_rewrite_applied": false,
+            "token_jaccard": 0.0
+          },
+          "value_type": "string"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "spin_off_boundary",
+          "text_comparison_v28": {
+            "candidate_original": null,
+            "literal_exact": false,
+            "normalized_exact": false,
+            "reference_original": "North American business excluded from consolidated turnover, CapEx and OpEx KPIs for both 2024 and 2025",
+            "semantic_rewrite_applied": false,
+            "token_jaccard": 0.0
+          },
+          "value_type": "string"
+        }
+      ],
+      "failure_taxonomy": {
+        "category": "model_behavior",
+        "error_type": "OllamaError",
+        "model_call_started": true,
+        "owner": "candidate_model",
+        "retry_policy": "no_retry_in_locked_experiment",
+        "score_as_model_failure": true,
+        "stage": "stage_a"
+      },
+      "final_pipeline_valid": false,
+      "literal_or_numeric_exact_slot_count": 0,
+      "required_slot_count": 20,
+      "stage_a_valid": false,
+      "stage_b_status": "not_reached"
+    },
+    "P20-WORKFORCE-001": {
+      "credited_valid_slot_count": 0,
+      "dimensions": [
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "global_headcount::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "permanent_headcount_contract_table::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "temporary_headcount_contract_table::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "calculated_contract_headcount::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "difference_headcount::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "exclusion_explanation",
+          "text_comparison_v28": {
+            "candidate_original": null,
+            "literal_exact": false,
+            "normalized_exact": false,
+            "reference_original": "newly acquired entities such as ZinCo and Alkern had not implemented Success Factors and were excluded from contract-type metrics",
+            "semantic_rewrite_applied": false,
+            "token_jaccard": 0.0
+          },
+          "value_type": "string"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "non_guaranteed_hours_headcount::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "non_guaranteed_hours_rounded_percent::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        }
+      ],
+      "failure_taxonomy": {
+        "category": "model_behavior",
+        "error_type": "OllamaError",
+        "model_call_started": true,
+        "owner": "candidate_model",
+        "retry_policy": "no_retry_in_locked_experiment",
+        "score_as_model_failure": true,
+        "stage": "stage_a"
+      },
+      "final_pipeline_valid": false,
+      "literal_or_numeric_exact_slot_count": 0,
+      "required_slot_count": 8,
+      "stage_a_valid": false,
+      "stage_b_status": "not_reached"
+    }
+  }
+}

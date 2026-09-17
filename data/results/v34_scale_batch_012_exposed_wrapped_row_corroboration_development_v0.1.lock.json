@@ -1,0 +1,42 @@
+{
+  "schema_version": "0.1",
+  "development_id": "V3.4-SCALE-BATCH-012-EXPOSED-WRAPPED-ROW-CORROBORATION",
+  "status": "development_regression_complete",
+  "source_failure_signature": "NATIVE_ROW_HEADER_LINE_WRAP_MISMATCH",
+  "source_scope": "scale_batch_012_exposed_failure_only",
+  "change": {
+    "method": "bounded_layout_column_reassembly_v1",
+    "description": "Reassemble a wrapped row label only inside the physical indicator-column span and a bounded line window around one uniquely located value cell.",
+    "fail_closed_rules": [
+      "one header line must be uniquely identified",
+      "indicator and value columns must be ordered and non-overlapping",
+      "the row-value binding must occur exactly once",
+      "no fuzzy semantic matching or cross-table joining"
+    ]
+  },
+  "exposed_development_regression": {
+    "candidate_cells": 4,
+    "table_graph_coordinate_exact": 4,
+    "native_row_header_corroborated": 4,
+    "coordinate_corroborated": 4,
+    "automatic_tier_b_promotions": 0,
+    "output": "data/results/v34_batch_012_exposed_atomic_validation.json",
+    "output_sha256": "6acf7d7ceede78a099f67a1408ce6c8e6609c3dc7a2a3600045c29e4478847ee"
+  },
+  "quality_gates": {
+    "pytest_collected_and_passed": 473,
+    "ruff": "passed",
+    "locked_scale_batch_012_modified_or_rescored": false,
+    "cloud_transmission": false
+  },
+  "artifact_sha256": {
+    "src/esg_reliable_discovery/native_table_corroboration.py": "2a59582cb2ee6676519cb1df751f9fbc807aeb7245e09710a12792ed82243411",
+    "scripts/validate_scale_batch_atomic_projection_v01.py": "40ae5453168e0a2795f6ec1d79827ff7dc4a9cced6ffdaf834b0eebb4567381a",
+    "scripts/validate_v34_exposed_batch_012_v01.py": "092c6428af98fbb9c3a063d1faa8559db933ec1b75cd7cc9237c7cbdd3813a88",
+    "tests/test_native_table_corroboration_v34.py": "6bbb4492246ce776e08b3d5bbdef58a0bcff20f88df51b2091add1198fb09090",
+    "data/knowledge_bases/v0.1/development/v34_batch_012_atomic_validations.jsonl": "0b03df37b516c0f40e160872e7a678cdec8afd3914fa46fc253a552f2902673f",
+    "data/results/scale_batch_012_milestone_audit.lock.json": "aec451a34c9fee7f910055a56bb59f63c930383c34819aa02a4181d58c0e144a",
+    "data/results/scale_batch_012_atomic_validation.lock.json": "d036627e741a6e3a8c7f4475aa08298c58c91c2b8c6310e606504158aa95e545"
+  },
+  "next_gate": "scale_batch_013_unseen_local_ingestion"
+}

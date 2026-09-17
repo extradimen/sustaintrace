@@ -1,0 +1,50 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-023-RESUME02",
+  "status": "increment_built_candidates_not_promoted",
+  "fact_candidates": 41,
+  "trusted_facts_promoted": 0,
+  "evidence_gaps": 4,
+  "failure_observations": 37,
+  "gaps": [
+    {
+      "document_id": "KB-B023-ARKEMA-URD2025",
+      "page": 278,
+      "theme": "assurance",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B023-ARKEMA-URD2025",
+      "page": 279,
+      "theme": "assurance",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B023-ARKEMA-URD2025",
+      "page": 280,
+      "theme": "assurance",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B023-CRH-SPR2025",
+      "page": 76,
+      "theme": "circularity",
+      "reason": "no_theme_line_in_mineru_markdown"
+    }
+  ],
+  "outputs": {
+    "facts": {
+      "path": "data/knowledge_bases/v0.1/increments/scale_batch_023_fact_records.jsonl",
+      "sha256": "fa2ce3389545f28897ef8e634190313296737ecdd8b8a59508316bfd93812352"
+    },
+    "failures": {
+      "path": "data/knowledge_bases/v0.1/increments/scale_batch_023_failure_records.jsonl",
+      "sha256": "3335486c203641e3de3bb9650088c459330cb98803cf0ebb4160b39ca31102bc"
+    }
+  },
+  "policy": {
+    "cloud_transmission": false,
+    "locked_experiments_modified": false,
+    "automatic_promotion": false
+  }
+}

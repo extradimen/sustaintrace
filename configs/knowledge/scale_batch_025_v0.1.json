@@ -1,0 +1,65 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-025",
+  "status": "source_set_frozen_before_diagnostics",
+  "policy": {
+    "local_only": true,
+    "cloud_transmission": false,
+    "overwrite_verified_files": false,
+    "fact_promotion_requires_independent_gate": true,
+    "performance_baseline_required": true,
+    "native_table_corroboration_version": "v34_bounded_layout_column_reassembly_v1",
+    "assurance_window_preflight_required": true,
+    "cross_experiment_sha256_deduplication_required": true,
+    "locked_experiments_untouched": ["P3-P23", "KB-SCALE-BATCH-001-through-024"]
+  },
+  "performance_baseline": {
+    "comparison_parent": "data/results/scale_batch_024_RESUME01_performance_baseline.lock.json",
+    "separate_from_knowledge_quality": true,
+    "target_pages_per_document": 9
+  },
+  "documents": [
+    {
+      "document_id": "KB-B025-EQUINOR-AR2025",
+      "source_group_id": "KB-EQUINOR-2025",
+      "company": "Equinor ASA",
+      "title": "Equinor Annual Report 2025",
+      "report_year": 2025,
+      "official_landing_page": "https://www.equinor.com/investors/annual-reports",
+      "download_url": "https://cdn.equinor.com/files/h61q9gi9/global/9b3eac2a01f1ce70efa5c751106472c1a59a0ee3.pdf?2025-annual-report-equinor.pdf=",
+      "official_domain": "www.equinor.com",
+      "local_path": "data/raw/scale_batch_025/equinor-annual-report-2025.pdf",
+      "source_role": "primary_report",
+      "language": "English",
+      "prior_experiment_use": false
+    },
+    {
+      "document_id": "KB-B025-AKERBP-AR2025",
+      "source_group_id": "KB-AKERBP-2025",
+      "company": "Aker BP ASA",
+      "title": "Aker BP Annual Report 2025",
+      "report_year": 2025,
+      "official_landing_page": "https://akerbp.com/en/sustainability/",
+      "download_url": "https://akerbp.com/wp-content/uploads/2026/03/akerbp-annual-report-2025.pdf",
+      "official_domain": "akerbp.com",
+      "local_path": "data/raw/scale_batch_025/aker-bp-annual-report-2025.pdf",
+      "source_role": "primary_report",
+      "language": "English",
+      "prior_experiment_use": false
+    },
+    {
+      "document_id": "KB-B025-DNB-AR2025",
+      "source_group_id": "KB-DNB-2025",
+      "company": "DNB Bank ASA",
+      "title": "DNB Group Annual Report 2025",
+      "report_year": 2025,
+      "official_landing_page": "https://www.dnb.no/en/about-us/sustainability/sustainability-reports",
+      "download_url": "https://ir.dnb.no/sites/default/files/Annual%20Report%202025_0.pdf",
+      "official_domain": "ir.dnb.no",
+      "local_path": "data/raw/scale_batch_025/dnb-annual-report-2025.pdf",
+      "source_role": "primary_report",
+      "language": "English",
+      "prior_experiment_use": false
+    }
+  ]
+}

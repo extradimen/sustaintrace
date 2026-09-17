@@ -1,0 +1,99 @@
+{
+  "blocked_by_reason": {
+    "comparative_period_not_selected_or_native_literal_annotation_not_corroborated": [
+      "fact-0c43fa9d5b6d258f06d24177",
+      "fact-27e98c1d0e1091bce9eba19f",
+      "fact-33b12912e37ec818fb957ffc",
+      "fact-56931501050b43c6db524a2e",
+      "fact-906743edbb42571abb6828e2"
+    ]
+  },
+  "blocked_fact_ids": [
+    "fact-0c43fa9d5b6d258f06d24177",
+    "fact-27e98c1d0e1091bce9eba19f",
+    "fact-33b12912e37ec818fb957ffc",
+    "fact-56931501050b43c6db524a2e",
+    "fact-906743edbb42571abb6828e2"
+  ],
+  "inputs": {
+    "atomic_increment_sha256": "f5481bb95c0e7d6aa0a57e8a9894c748163e1be6667e7de5257efa1508047605",
+    "atomic_validations_sha256": "4aa077b3a96590d485f1f281e2df148594733f9f283d3fb1615578a939ebd6f4",
+    "native_coordinate_audit_sha256": "a1e9afc08c543b4e39ca10b3cbc8a43a91e420e404813341ef19df80a520d430"
+  },
+  "locked_experiments_modified_or_rescored": false,
+  "native_audit": {
+    "assurance_page_text_sha256": {
+      "KB-B024-TELENOR-AR2025:p277": "e3796c271f6b4dcc5415ddccd9b67683dd9f963b6a36c22640e5a8d7ceeb1327",
+      "KB-B024-TELENOR-AR2025:p278": "b20da87a66dbe2156561ed20bc0dfe9001421e76cf103b30920bbce0472a42c3",
+      "KB-B024-TELENOR-AR2025:p279": "35adab5da4dd35802a617e5bca0a5ccffa446c8241ad895d6d15ffd41a5d0442",
+      "KB-B024-TELENOR-AR2025:p280": "ff685cec1c4c83f49db13583ce5746f5997a3be1c46b6a1c830c8914cb42c814",
+      "KB-B024-YARA-AR2025:p308": "1575a17b7c6057b83acdd869b6c383ee7441897a15f4e31e8792c1873085848b",
+      "KB-B024-YARA-AR2025:p309": "2afa06e9be86fba3bafaa7d5e4bca678edd459c3c6129e1c8d56be2bd0056145",
+      "KB-B024-YARA-AR2025:p310": "f109666c2bf04b01b1a869655e6a0868d8d61cc0ff883f4f59ca4f6370d5d2df",
+      "KB-B024-YARA-AR2025:p311": "62a440d5e59e7d67ac4d9eeb719f10c27eab33a4970190f72710d1b883a9af7e"
+    },
+    "batch_id": "KB-SCALE-BATCH-024-NATIVE-COORDINATE-AUDIT",
+    "checks": {
+      "KB-B024-TELENOR-AR2025:assurance_conclusion": true,
+      "KB-B024-TELENOR-AR2025:assurance_issuer": true,
+      "KB-B024-TELENOR-AR2025:assurance_period": true,
+      "KB-B024-TELENOR-AR2025:assurance_signatory": true,
+      "KB-B024-TELENOR-AR2025:source_sha256": true,
+      "KB-B024-YARA-AR2025:assurance_conclusion": true,
+      "KB-B024-YARA-AR2025:assurance_issuer": true,
+      "KB-B024-YARA-AR2025:assurance_period": true,
+      "KB-B024-YARA-AR2025:assurance_signatory": true,
+      "KB-B024-YARA-AR2025:source_sha256": true,
+      "fact-32232e8ab521a7936180c2a9:coordinate": true,
+      "fact-32232e8ab521a7936180c2a9:document": true,
+      "fact-32232e8ab521a7936180c2a9:period": true,
+      "fact-32232e8ab521a7936180c2a9:row": true,
+      "fact-32232e8ab521a7936180c2a9:value": true,
+      "fact-905f6fc433c4da967372b27d:coordinate": true,
+      "fact-905f6fc433c4da967372b27d:document": true,
+      "fact-905f6fc433c4da967372b27d:period": true,
+      "fact-905f6fc433c4da967372b27d:row": true,
+      "fact-905f6fc433c4da967372b27d:value": true,
+      "fact-a9494da2f8301751ceb0831f:coordinate": true,
+      "fact-a9494da2f8301751ceb0831f:document": true,
+      "fact-a9494da2f8301751ceb0831f:period": true,
+      "fact-a9494da2f8301751ceb0831f:row": true,
+      "fact-a9494da2f8301751ceb0831f:value": true,
+      "fact-b29593659bfa4855929a179b:coordinate": true,
+      "fact-b29593659bfa4855929a179b:document": true,
+      "fact-b29593659bfa4855929a179b:period": true,
+      "fact-b29593659bfa4855929a179b:row": true,
+      "fact-b29593659bfa4855929a179b:value": true,
+      "fact-f55f010b8dd8689975e3f531:coordinate": true,
+      "fact-f55f010b8dd8689975e3f531:document": true,
+      "fact-f55f010b8dd8689975e3f531:period": true,
+      "fact-f55f010b8dd8689975e3f531:row": true,
+      "fact-f55f010b8dd8689975e3f531:value": true
+    },
+    "policy": {
+      "automatic_promotion": false,
+      "cloud_transmission": false
+    },
+    "promotable_facts": 5,
+    "schema_version": "0.1",
+    "status": "selected_cells_and_assurance_boundaries_passed"
+  },
+  "newly_promoted_to_tier_b": 5,
+  "next_gate": "scale_batch_024_global_kb_rebuild_and_closure",
+  "outputs": {
+    "adjudications_sha256": "1e175de090f41893869f091e27a64e3484d0e9d53e3b0b3c133f399d91626db1",
+    "trusted_facts_sha256": "3f7f3c113386ff5d312d58e7a24c991ba20a48e1c0da0f388d65ab27781b46c3"
+  },
+  "promotable_fact_ids": [
+    "fact-32232e8ab521a7936180c2a9",
+    "fact-905f6fc433c4da967372b27d",
+    "fact-a9494da2f8301751ceb0831f",
+    "fact-b29593659bfa4855929a179b",
+    "fact-f55f010b8dd8689975e3f531"
+  ],
+  "reviewed": 10,
+  "schema_version": "0.1",
+  "source_candidate_records_modified": 0,
+  "status": "scale_batch_024_six_dimension_tier_b_review_complete",
+  "total_trusted_tier_b": 142
+}

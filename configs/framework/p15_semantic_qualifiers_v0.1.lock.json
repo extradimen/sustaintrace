@@ -1,0 +1,17 @@
+{
+  "schema_version": "2.4",
+  "experiment_id": "P15-V24-UNSEEN-LOCKBOX-V01",
+  "status": "frozen_before_candidate_inference_after_prefreeze_integrity_audit",
+  "qualifiers": {
+    "reporting_period":"calendar year ended December 31, 2025 unless a target or base year is explicitly named",
+    "page_coordinates":"one-based PDF page indexes",
+    "ghg_calculation":"sum 2025 gross Scope 1, gross market-based Scope 2 and gross Scope 3 in 1 000 tCO2e, then subtract the disclosed total gross market-based emissions",
+    "target_boundary":"2022 base year; Scope 1 and 2 and the four named Scope 3 focus categories remain distinct",
+    "water_boundary":"preserve issuer assumptions, exemptions, inclusion rule and historical supplier-list qualification",
+    "safety_boundary":"rates are per 200,000 work hours; third-party and contractor fatalities require occurrence at a Novartis site",
+    "access_boundary":"preserve portfolio exclusions, estimation basis, possible multi-product double counting, sales threshold and UN geographic exclusions",
+    "assurance_boundary":"limited assurance covers only Δ-marked 2025 information on the enumerated report pages; exclusions are separate atomic propositions",
+    "reference_type":"simulated expert reference; not independent human gold",
+    "cloud_transmission":"prohibited until user explicitly authorizes the Novartis report, exact pages, qwen3.5:397b-cloud and P15 Stage A/Stage B single-attempt scope"
+  }
+}

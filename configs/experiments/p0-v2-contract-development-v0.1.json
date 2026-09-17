@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "plan_id": "P0-V2-CONTRACT-DEV-v0.1",
+  "status": "superseded_after_archived_text_failure",
+  "evidence_role": "development_only_not_unseen_performance",
+  "framework_version": "V2",
+  "model_snapshot": "gemma4:12b@4eb23ef187e2c5462566d6a1d3bbbc2f1346d0b4327cbb66d58fffbcc9b2b05c",
+  "think": false,
+  "frozen_inputs": {
+    "task_contracts": "64560ecfa5863d98e3a44afed9ae844db90b9ee5accdc1de13fac7629bd758e8",
+    "prompt": "da6eb7ff7d726a11e7202fa4039cb1f626117e9e921f235681b666e4ff38b26d",
+    "task_runner": "085c0e2ff8a99c126dc0997f384a12ab1860f3c2f77b9e6e3cfaae35d30e7b3d",
+    "injection_policy": "985537b12c21ae063cca56992ee38769ba94d7f4c266d197b14d49c6718015b7",
+    "finding_card_schema": "e2aac00a4996600dbb56ae2531f4a69f539f8edb4ac66929a74048f284a57520",
+    "scorer": "a658a75f08e18fe67a4cb1090ee63effa4aa8cc37e52e6900d6694dc9788db6b"
+  },
+  "runs": [
+    {"order": 1, "task_id": "P0-TEXT-001", "run_id": "gemma4-12b-p0-text-001-v2-dev-r1", "include_images": false, "status": "model_validation_failed_archived"},
+    {"order": 2, "task_id": "P0-CALC-001", "run_id": "gemma4-12b-p0-calc-001-v2-dev-r1", "include_images": true, "status": "not_run_after_contract_revision"},
+    {"order": 3, "task_id": "P0-ABSTAIN-001", "run_id": "gemma4-12b-p0-abstain-001-v2-dev-r1", "include_images": true, "status": "not_run_after_contract_revision"},
+    {"order": 4, "task_id": "P0-CONFLICT-001", "run_id": "gemma4-12b-p0-conflict-001-v2-dev-r1", "include_images": true, "status": "not_run_after_contract_revision"}
+  ]
+}

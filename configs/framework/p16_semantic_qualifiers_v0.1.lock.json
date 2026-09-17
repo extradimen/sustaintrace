@@ -1,0 +1,13 @@
+{
+  "schema_version": "2.5",
+  "experiment_id": "P16-V25-UNSEEN-LOCKBOX-V01",
+  "status": "frozen_before_candidate_inference",
+  "qualifiers": {
+    "P16-GHG-CALC-001": ["market-based", "significant Scope 3", "transition-plan scope", "2025", "ktCO2e"],
+    "P16-TARGET-001": ["2019 baseline", "Opella divestment", "SBTi resubmission", "categories 1-7", "residual emissions"],
+    "P16-POLLUTION-001": ["air emissions", "annual solvent mass balance", "E-PRTR threshold", "manufacturing operations", "54 substances"],
+    "P16-SAFETY-001": ["own workforce", "other workers on sites", "per million hours", "rolling 12 months", "November-hours estimate"],
+    "P16-ACCESS-001": ["Global Health Unit", "NCD", "cumulative 2022-2025", "restated prior years"],
+    "P16-ASSURE-001": ["limited assurance", "sections 3.1-3.5", "Article 8", "2023 comparatives excluded", "forward-looking uncertainty"]
+  }
+}

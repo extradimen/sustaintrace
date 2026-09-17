@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-016-MINERU-RESUME01",
+  "updated_at": "2026-09-13T09:46:55.917161+00:00",
+  "status": "complete",
+  "cloud_transmission": false,
+  "total_target_pages": 3,
+  "complete_pages": 3,
+  "failed_pages": 0,
+  "pending_pages": 0,
+  "records": [
+    {
+      "document_id": "KB-B016-NOVONESIS-AR2025",
+      "page": 75,
+      "themes": [
+        "ghg_emissions"
+      ],
+      "output_directory": "artifacts/scale_batch_016/mineru_targets_RESUME01/KB-B016-NOVONESIS-AR2025-p0075",
+      "status": "complete",
+      "started_at": "2026-09-13T09:45:57.219935+00:00",
+      "completed_at": "2026-09-13T09:46:17.078776+00:00",
+      "wall_seconds": 19.858831
+    },
+    {
+      "document_id": "KB-B016-NOVONESIS-AR2025",
+      "page": 87,
+      "themes": [
+        "circularity"
+      ],
+      "output_directory": "artifacts/scale_batch_016/mineru_targets_RESUME01/KB-B016-NOVONESIS-AR2025-p0087",
+      "status": "complete",
+      "started_at": "2026-09-13T09:46:17.079296+00:00",
+      "completed_at": "2026-09-13T09:46:37.342874+00:00",
+      "wall_seconds": 20.263571
+    },
+    {
+      "document_id": "KB-B016-COLOPLAST-AR2025",
+      "page": 85,
+      "themes": [
+        "workforce"
+      ],
+      "output_directory": "artifacts/scale_batch_016/mineru_targets_RESUME01/KB-B016-COLOPLAST-AR2025-p0085",
+      "status": "complete",
+      "started_at": "2026-09-13T09:46:37.343711+00:00",
+      "completed_at": "2026-09-13T09:46:55.916532+00:00",
+      "wall_seconds": 18.572813
+    }
+  ]
+}

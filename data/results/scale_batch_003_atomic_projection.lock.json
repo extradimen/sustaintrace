@@ -1,0 +1,19 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-003",
+  "status": "atomic_projection_complete_candidates_not_promoted",
+  "source_table_candidates": 1,
+  "atomic_fact_candidates": 5,
+  "rejected_ambiguous_rows": 0,
+  "promoted_tier_b": 0,
+  "outputs": {
+    "atomic_facts": {
+      "path": "data/knowledge_bases/v0.1/increments/scale_batch_003_atomic_fact_records.jsonl",
+      "sha256": "11c753705f367ff3b8c710a481db543ad30c445e0fb6f2b3761efe835c054960"
+    },
+    "table_graphs": {
+      "path": "data/manifests/scale_batch_003_table_graphs.lock.json",
+      "sha256": "1b0e8184d444945b63cd4e14b39a4dc3a5d48eeb6590dfd292aa99c81c88c670"
+    }
+  }
+}

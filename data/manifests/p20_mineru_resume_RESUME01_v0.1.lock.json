@@ -1,0 +1,23 @@
+{
+  "schema_version": "0.1",
+  "experiment_id": "P20-V29-UNSEEN-LOCKBOX-V01",
+  "resume_id": "P20-MINERU-RESUME01",
+  "status": "authorized_infrastructure_resume_pending",
+  "parent_archive": "artifacts/p20/mineru_targets",
+  "resume_archive": "artifacts/p20/mineru_targets_RESUME01",
+  "parent_outcome": {
+    "attempted_pages": [85, 86, 87, 111, 112, 113, 114, 120, 121, 134, 135, 136],
+    "successful_pages": [],
+    "failed_pages": [85, 86, 87, 111, 112, 113, 114, 120, 121, 134, 135, 136],
+    "failure_class": "infrastructure_sandbox_loopback_bind_denied",
+    "failure_signature": "PermissionError: [Errno 1] Operation not permitted while binding 127.0.0.1 ephemeral port"
+  },
+  "reuse": {
+    "document": "data/raw/p20_staging/holcim-sustainability-statement-2025.pdf",
+    "document_sha256": "55b975cd13fc361638ed13bf32856a2629e46e88bdfc6ad9208bd8807992a599",
+    "parser_config": "configs/parsers/p20-mineru-3.4.0-runtime.json",
+    "task_pack": "data/tasks/p20_task_pack_v0.1.lock.json"
+  },
+  "resume_policy": "same frozen document/config/page list; separate archive; execute only pages lacking a successful RESUME01 checkpoint",
+  "cloud_transmission": false
+}

@@ -1,0 +1,190 @@
+{
+  "candidate_output_rewritten": false,
+  "historical_output_modified": false,
+  "inputs": {
+    "P3-DEX-002": {
+      "research_archive/V13-END-TO-END-DEVELOPMENT-DEV01/runs/P3-DEX-002-QWEN397B-v13-e2e-stage-a-r1/normalized_output.json": "c01bf741f61de25fde8d2620025f97502cecdbe52257c34c7dc151357f4ea6a5",
+      "research_archive/V13-STAGE-B-FULL-REGRESSION-DEV05/runs/P3-DEX-002-QWEN397B-v13-stage-b-full-dev05-r1/normalized_output.json": "aadecd0112732846997a85867e7aea8fd7e1a0b9c2884b1ae332e4387df65dc6",
+      "research_archive/V13-STAGE-B-FULL-REGRESSION-DEV05/runs/P3-DEX-002-QWEN397B-v13-stage-b-full-dev05-r1/stage_b_context_manifest.json": "5ac8d9b61105c13283899ef57b952440877347ac02cfb047dbeca6dae3f947d2"
+    },
+    "P3-XPAGE-002": {
+      "research_archive/V13-END-TO-END-DEVELOPMENT-DEV01/runs/P3-XPAGE-002-QWEN397B-v13-e2e-stage-a-r1/normalized_output.json": "1210fa14143c24a663ca645fcc683a8e7ff9f6d338f193cbfb93f84e79eec8c8",
+      "research_archive/V13-STAGE-B-FULL-REGRESSION-DEV05/runs/P3-XPAGE-002-QWEN397B-v13-stage-b-full-dev05-r1/normalized_output.json": "da0bbac4975eb081e6284bccf52787bc633184e4ad2a5e21649adc5d9a251e31",
+      "research_archive/V13-STAGE-B-FULL-REGRESSION-DEV05/runs/P3-XPAGE-002-QWEN397B-v13-stage-b-full-dev05-r1/stage_b_context_manifest.json": "929c3aa2b8ade4dfcf5bc7d6909598bb5639b698fe1f0b0bfb7c0777f4ea3b91"
+    }
+  },
+  "model_execution_performed": false,
+  "next_gate": "add the closure gate to reusable Stage B runner entry points",
+  "records": [
+    {
+      "dispatch": {
+        "blocking_reasons": [],
+        "candidate_output_rewritten": false,
+        "decision": "ready_for_supervised_projection",
+        "execution_started": false,
+        "record_kind": "stage_b_handle_closure_dispatch",
+        "schema_version": "0.1",
+        "stage_a_resolved_handles": [
+          "M131-T0007-R0011"
+        ],
+        "stage_b_selected_handles": [
+          "M131-T0007-R0011"
+        ],
+        "task_id": "P3-DEX-002",
+        "unresolved_selected_handles": [],
+        "unselected_claim_handles": []
+      },
+      "restricted_projection": {
+        "candidate_output_rewritten": false,
+        "complete_projection_eligible": true,
+        "execution_performed": false,
+        "historical_output_modified": false,
+        "missing_slots": [],
+        "record_kind": "stage_b_closure_restricted_projection",
+        "retained_claims": [
+          {
+            "canonical_unit": "thousand_tonnes_co2e",
+            "claim_id": "CLAIM-0001",
+            "claim_kind": "observed",
+            "comparison_operator": null,
+            "direction": null,
+            "evidence_handle": "M131-T0007-R0011",
+            "field_ownership": {
+              "canonical_unit": "frozen_slot_contract",
+              "comparison_operator": "frozen_slot_contract",
+              "direction": "frozen_slot_contract",
+              "period": "frozen_slot_contract",
+              "predicate_id": "frozen_slot_contract",
+              "scope_id": "frozen_slot_contract",
+              "subject": "framework_source_registry",
+              "value": "model_emitted_numeric_literal_deterministically_normalized_and_grounded"
+            },
+            "model_emitted_value": 358,
+            "normalized_signed_value": 358,
+            "period": "FY2024",
+            "predicate_id": "reports_emissions",
+            "scope_id": "scope_1_2_market_based",
+            "slot_id": "market_scope12_2024",
+            "subject_id": "ENTITY::P3-DIAGEO-AR2024",
+            "subject_label": "Diageo plc",
+            "value": 358,
+            "value_type": "number",
+            "verbatim_value": "358"
+          }
+        ],
+        "schema_version": "0.1",
+        "status": "complete",
+        "task_id": "P3-DEX-002"
+      },
+      "task_id": "P3-DEX-002"
+    },
+    {
+      "dispatch": {
+        "blocking_reasons": [
+          "stage_b_selected_handle_outside_stage_a_closure"
+        ],
+        "candidate_output_rewritten": false,
+        "decision": "blocked",
+        "execution_started": false,
+        "record_kind": "stage_b_handle_closure_dispatch",
+        "schema_version": "0.1",
+        "stage_a_resolved_handles": [
+          "M037-B0002",
+          "M037-B0003",
+          "M131-B0004",
+          "M131-T0007-R0010",
+          "M131-T0007-R0011"
+        ],
+        "stage_b_selected_handles": [
+          "M037-B0003",
+          "M131-B0002",
+          "M131-B0004",
+          "M131-T0007-R0010",
+          "M131-T0007-R0011"
+        ],
+        "task_id": "P3-XPAGE-002",
+        "unresolved_selected_handles": [
+          "M131-B0002"
+        ],
+        "unselected_claim_handles": []
+      },
+      "restricted_projection": {
+        "candidate_output_rewritten": false,
+        "complete_projection_eligible": false,
+        "execution_performed": false,
+        "historical_output_modified": false,
+        "missing_slots": [
+          "assurance"
+        ],
+        "record_kind": "stage_b_closure_restricted_projection",
+        "retained_claims": [
+          {
+            "canonical_unit": "percent",
+            "claim_id": "CLAIM-0001",
+            "claim_kind": "observed",
+            "comparison_operator": null,
+            "direction": "decrease",
+            "evidence_handle": "M131-T0007-R0010",
+            "field_ownership": {
+              "canonical_unit": "frozen_slot_contract",
+              "comparison_operator": "frozen_slot_contract",
+              "direction": "frozen_slot_contract",
+              "period": "frozen_slot_contract",
+              "predicate_id": "frozen_slot_contract",
+              "scope_id": "frozen_slot_contract",
+              "subject": "framework_source_registry",
+              "value": "model_emitted_numeric_literal_deterministically_normalized_and_grounded"
+            },
+            "model_emitted_value": 10.7,
+            "normalized_signed_value": -10.7,
+            "period": "FY2024 vs FY2023",
+            "predicate_id": "reports_emissions_change",
+            "scope_id": "scope_1_2_market_based",
+            "slot_id": "yoy_change",
+            "subject_id": "ENTITY::P3-DIAGEO-AR2024",
+            "subject_label": "Diageo plc",
+            "value": 10.7,
+            "value_type": "number",
+            "verbatim_value": "(10.7)%"
+          },
+          {
+            "canonical_unit": "thousand_tonnes_co2e",
+            "claim_id": "CLAIM-0002",
+            "claim_kind": "observed",
+            "comparison_operator": null,
+            "direction": null,
+            "evidence_handle": "M131-T0007-R0011",
+            "field_ownership": {
+              "canonical_unit": "frozen_slot_contract",
+              "comparison_operator": "frozen_slot_contract",
+              "direction": "frozen_slot_contract",
+              "period": "frozen_slot_contract",
+              "predicate_id": "frozen_slot_contract",
+              "scope_id": "frozen_slot_contract",
+              "subject": "framework_source_registry",
+              "value": "model_emitted_numeric_literal_deterministically_normalized_and_grounded"
+            },
+            "model_emitted_value": 358,
+            "normalized_signed_value": 358,
+            "period": "FY2024",
+            "predicate_id": "reports_emissions",
+            "scope_id": "scope_1_2_market_based",
+            "slot_id": "total_emissions",
+            "subject_id": "ENTITY::P3-DIAGEO-AR2024",
+            "subject_label": "Diageo plc",
+            "value": 358,
+            "value_type": "number",
+            "verbatim_value": "358"
+          }
+        ],
+        "schema_version": "0.1",
+        "status": "partial_fail_closed",
+        "task_id": "P3-XPAGE-002"
+      },
+      "task_id": "P3-XPAGE-002"
+    }
+  ],
+  "result_id": "ESG-STAGE-B-HANDLE-CLOSURE-DISPATCH-v0.1",
+  "schema_version": "0.1",
+  "status": "dispatch_gate_integrated_exposed_regression_complete"
+}

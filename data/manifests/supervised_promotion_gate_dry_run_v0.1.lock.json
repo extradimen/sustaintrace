@@ -1,0 +1,31 @@
+{
+  "schema_version": "0.1",
+  "record_kind": "supervised_promotion_gate_dry_run_manifest",
+  "status": "frozen_not_executed",
+  "selection": {
+    "positive_controls": "three already-promoted Tier B facts from three distinct reports",
+    "candidate_cases": "three Tier C facts spanning table, calculation, and ambiguous-period gaps",
+    "purpose": "calibrate fail-closed decisions without writing or promoting facts"
+  },
+  "cases": [
+    {"fact_record_id": "fact-4f6b615deb687ed51454ed9e", "layer": "trusted_positive_control", "expected_decision": "eligible"},
+    {"fact_record_id": "fact-be71ce032ac2405fa1318636", "layer": "trusted_positive_control", "expected_decision": "eligible"},
+    {"fact_record_id": "fact-51fe568687932e2dd018135b", "layer": "trusted_positive_control", "expected_decision": "eligible"},
+    {"fact_record_id": "fact-61bd8e9933b6241a59c78a43", "layer": "tier_c_table_candidate", "expected_decision": "blocked"},
+    {"fact_record_id": "fact-dc5c3f556943596d742d6c29", "layer": "tier_c_calculation_candidate", "expected_decision": "blocked"},
+    {"fact_record_id": "fact-63d6dc3aa15af6a9d7269f46", "layer": "tier_c_ambiguous_period_candidate", "expected_decision": "blocked"}
+  ],
+  "parent_hashes": {
+    "fact_records": "1da6f28e8c1b3125d07a52d39aed4e095c6f40ef71378173c36a1486f7cb890c",
+    "trusted_fact_records": "866c7e14eb92a86401fab4524d6fd909b67a3f9c3e0c5c728b7e5bea4045eb6b",
+    "knowledge_gap_records": "858a37ede7bd213c1c3d1e9136d5d8be6bc6e6f12f147124318347cb3a8cef76",
+    "component_evidence_matrix": "15d12ac1ae24829e6f7209dc97c7c4cf2be3ff41ffe21f1f00a7fbac8e99b467",
+    "promotion_gate_code": "5b6f224e6c3835e2b60af11c1de7bbd572005debb53f81707a5feb1ead56cd44"
+  },
+  "safety": {
+    "dry_run_only": true,
+    "fact_write_allowed": false,
+    "trust_promotion_allowed": false,
+    "cloud_transmission_allowed": false
+  }
+}

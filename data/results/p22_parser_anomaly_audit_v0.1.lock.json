@@ -1,0 +1,27 @@
+{
+  "schema_version": "3.1",
+  "experiment_id": "P22-V31-UNSEEN-LOCKBOX-V01",
+  "status": "parser_anomaly_detected_before_reference_freeze_and_candidate_inference",
+  "document_id": "P22-BAYER-AR2025",
+  "pdf_page": 204,
+  "task_id": "P22-SAFETY-CALC-001",
+  "classification": "primary_parser_table_glyph_substitution",
+  "primary_parser_observation": {
+    "total_fatalities_2025": 1,
+    "nonemployee_fatalities_2025": 1,
+    "raw_output_preserved": true
+  },
+  "native_pdf_and_visual_observation": {
+    "total_fatalities_2025": 0,
+    "employee_fatalities_2025": 0,
+    "nonemployee_fatalities_2025": 0,
+    "value_chain_worker_fatalities_2025": 0,
+    "source_glyph": "dash indicating none",
+    "corroborating_page": 203,
+    "corroborating_text": "In 2025, no fatalities from work-related injuries and work-related ill health occurred affecting our own workforce ... There were also no fatalities in 2025 ... among value chain workers."
+  },
+  "resolution_policy": "Use the pre-frozen native-layout fallback for candidate evidence and simulated-reference verification; preserve the MinerU output and expose the discrepancy in the audit trail.",
+  "candidate_model_used": false,
+  "cloud_transmission_count": 0,
+  "hidden_reference_used_for_selection": false
+}

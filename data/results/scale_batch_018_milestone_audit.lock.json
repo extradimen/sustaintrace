@@ -1,0 +1,78 @@
+{
+  "artifact_sha256": {
+    "configs/knowledge/scale_batch_018_v0.1.json": "666c0321162ac573ade294f61d56f61c3bd6483d4a49a734827e4b73bf338323",
+    "configs/parsers/scale-batch-018-mineru-3.4.0-runtime.json": "f4cc15451e8552a8130f0dfae3dfec8d63a9646921c25258d2068a7054fa670f",
+    "data/knowledge_bases/v0.1/increments/scale_batch_018_atomic_fact_records.jsonl": "a0cd8c21a893e5fc80eabbfbf90fd458ee2440a6fbdd2a33992feace8abb2ddc",
+    "data/knowledge_bases/v0.1/increments/scale_batch_018_atomic_validations.jsonl": "1ddf40172ea011837772b3ec6b1eff340c712c58e7e973fb93faefec3c97d011",
+    "data/knowledge_bases/v0.1/increments/scale_batch_018_fact_records.jsonl": "517c2946ecfae3dd2079e879a2de4168d37921378ca37f5d75d6617c18afa65a",
+    "data/knowledge_bases/v0.1/increments/scale_batch_018_failure_records.jsonl": "422f89ac0ebd6dbfc42d76a90f04a59aeac66273204cb12846f72094bea5d68f",
+    "data/knowledge_bases/v0.1/migration_manifest.lock.json": "9e526b9ac90f51d032ffa16d5b71d3d28107da226efe67f9b8caaa0ea40b065c",
+    "data/knowledge_bases/v0.1/tier_b_independent_adjudications.jsonl": "dee04b4877b1777e813745eb6f1c2343225aa61c8205d645ec1c4c44a4277e84",
+    "data/knowledge_bases/v0.1/trusted_fact_records.jsonl": "28e68867a08555338ffd736f482f364c4e2281d0dc18f1c4133bc530e57330fd",
+    "data/manifests/scale_batch_018_acquisition.lock.json": "74b2d304f4c80502ede63922f6d98323edcb1ab5c81734baaf5eb785119d95be",
+    "data/manifests/scale_batch_018_acquisition_attempt.lock.json": "f37b0aba97a0693d6b3d4057f5938dae9a0e6343551d811630e4632c26a09d58",
+    "data/manifests/scale_batch_018_target_pages.lock.json": "e3fdab44ca0eabe06961093b3c25df81d9159df1edf6b999898753943c9dffa4",
+    "data/results/scale_batch_018_atomic_projection.lock.json": "112b6f9d747967bbd4d7e543b554b157e01abb03c896d20b3d296b635bde0369",
+    "data/results/scale_batch_018_atomic_validation.lock.json": "ce9b69d79dfdfe19b57a0cc6dead3c3732d637ce7aa47f2e840c185dda6a7d0e",
+    "data/results/scale_batch_018_diagnostics.lock.json": "a858d5749a4374c25cfbedbb82cc8c5a3c9c318ab5c3e9150b08727be0461b8a",
+    "data/results/scale_batch_018_kb_increment.lock.json": "173c8aa6e96c21cc482f537d5f664799197d0fcebdabb5806b9527e7d4dd21b9",
+    "data/results/scale_batch_018_mineru_FINAL_summary.lock.json": "71feb417fd4289fff807779cf81b6064ac733dad60ada2483a8ffeff7ac74bc9",
+    "data/results/scale_batch_018_mineru_summary.lock.json": "c4c855b92642bde0a15ff91147c0d2d3bc082fd050cecaa307eb5f628da1a779",
+    "data/results/scale_batch_018_native_coordinate_audit.lock.json": "45b811ae29e222ae463ffdc8855a400ac7e51004556b6c03f6d253e5a093caf5",
+    "data/results/scale_batch_018_performance_baseline.lock.json": "9714ac74d7f09acbc3e0758f181ebc97ad5135c28757a252c26dc37063b218e1",
+    "data/results/scale_batch_018_promotion_attempt_failure.lock.json": "5c15005d1b4a218965ea0855af98be0b2eed1a473f72e9593626b6a10efc9b56",
+    "data/results/scale_batch_018_tier_b_promotion.lock.json": "902796e74fb44245a06961fa1af25edb170fc9c95dd7aeb8d907b848cd305d90"
+  },
+  "assurance_window_preflight_passed": 3,
+  "atomic_validation": {
+    "coordinate_corroborated": 3,
+    "coordinate_exact": 3
+  },
+  "batch_id": "KB-SCALE-BATCH-018",
+  "extractable_source_pages": 582,
+  "frozen_target_pages": 28,
+  "global_knowledge_bases": {
+    "fact_records": 2071,
+    "failure_records": 349,
+    "failure_signatures": 24,
+    "repair_observations": 24,
+    "trusted_fact_records": 110
+  },
+  "knowledge_increment": {
+    "atomic_fact_candidates": 3,
+    "evidence_snippet_candidates": 49,
+    "failure_observations": 3,
+    "held_tier_c_after_six_dimension_review": 2,
+    "promoted_tier_b": 1,
+    "rejected_ambiguous_rows": 2,
+    "remaining_evidence_gaps": 4,
+    "total_new_fact_records": 52
+  },
+  "mineru": {
+    "final_usable_pages": 28,
+    "remaining_failures": 0,
+    "resume_completed_pages": 0,
+    "successful_pages_per_hour": 168.984107
+  },
+  "performance": {
+    "change_vs_batch_017_percent": -22.098,
+    "checkpoint_reuse_pages": 0,
+    "target_page_success_wall_seconds": 596.505802,
+    "whole_report_pages_per_second": 487.466016,
+    "whole_report_wall_seconds": 1.202135
+  },
+  "quality_gates": {
+    "automatic_promotion": false,
+    "cloud_transmission": false,
+    "failed_promotion_attempt_preserved": true,
+    "json_artifacts_parse": "passed_except_preexisting_known_concatenated_p1_fixture",
+    "locked_experiments_modified": false,
+    "pytest_collected_and_passed": 473,
+    "ruff": "passed",
+    "sha256_manifest": "passed"
+  },
+  "schema_version": "0.1",
+  "source_documents": 3,
+  "source_pages": 586,
+  "status": "local_ingestion_projection_tier_b_review_and_performance_complete"
+}

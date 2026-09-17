@@ -1,0 +1,25 @@
+{
+  "schema_version": "0.1",
+  "experiment_id": "V3.9-VOLVO-REPEATED-VALUE-TABLE-UNSEEN-V01-RESUME01",
+  "status": "frozen_infrastructure_resume",
+  "parent_manifest": "data/manifests/v39_volvo_repeated_value_table_unseen_v0.1.lock.json",
+  "parent_manifest_sha256": "c6ac39ec490de8d4a67310a807576cad28936986c294a19dc451618b7922e41f",
+  "interruption": "artifacts/v39_volvo_repeated_value_table_unseen_v0.1/interruption.lock.json",
+  "resume_scope": {
+    "identity_mapping": {
+      "fixture_id": "V39-TABLE-UNSEEN-VOLVO-001",
+      "source": "parent case.case_id"
+    },
+    "semantic_fields_changed": [],
+    "reason": "generic packager compatibility only; no prior result or diagnostic checkpoint exists"
+  },
+  "execution_policy": {
+    "attempts": 1,
+    "silent_retry": false,
+    "post_hoc_semantic_repair": false,
+    "fact_write": false,
+    "trust_promotion": false,
+    "gap_mutation": false,
+    "cloud_transmission": false
+  }
+}

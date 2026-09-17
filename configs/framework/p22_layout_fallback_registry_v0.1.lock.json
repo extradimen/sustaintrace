@@ -1,0 +1,23 @@
+{
+  "schema_version": "3.1",
+  "experiment_id": "P22-V31-UNSEEN-LOCKBOX-V01",
+  "status": "frozen_before_reference_creation_and_candidate_inference",
+  "selection_rule": "all frozen task/page pairs receive deterministic native-layout and visual cross-check without hidden-reference selection",
+  "semantic_change": false,
+  "default_primary_parser": "MinerU 3.4.0 checksum-verified target-page output",
+  "default_fallback_parser": "pdftotext -bbox-layout plus rendered-page inspection",
+  "default_fallback_reason": "pre-frozen dual-parser audit path; all visible lines exposed without hidden-reference selection",
+  "targets": [
+    {"task_id":"P22-TAXONOMY-001","document_id":"P22-BAYER-AR2025","document_sha256":"0af4a9d19fd9d4cba72c1ec062802199873f2379f84112dc2db5dc9605ce769b","pdf_path":"data/raw/p22_staging/bayer-annual-report-2025.pdf","pdf_page":130},
+    {"task_id":"P22-TAXONOMY-001","document_id":"P22-BAYER-AR2025","document_sha256":"0af4a9d19fd9d4cba72c1ec062802199873f2379f84112dc2db5dc9605ce769b","pdf_path":"data/raw/p22_staging/bayer-annual-report-2025.pdf","pdf_page":132},
+    {"task_id":"P22-ENERGY-CALC-001","document_id":"P22-BAYER-AR2025","document_sha256":"0af4a9d19fd9d4cba72c1ec062802199873f2379f84112dc2db5dc9605ce769b","pdf_path":"data/raw/p22_staging/bayer-annual-report-2025.pdf","pdf_page":149},
+    {"task_id":"P22-GHG-CALC-001","document_id":"P22-BAYER-AR2025","document_sha256":"0af4a9d19fd9d4cba72c1ec062802199873f2379f84112dc2db5dc9605ce769b","pdf_path":"data/raw/p22_staging/bayer-annual-report-2025.pdf","pdf_page":151},
+    {"task_id":"P22-WATER-CALC-001","document_id":"P22-BAYER-AR2025","document_sha256":"0af4a9d19fd9d4cba72c1ec062802199873f2379f84112dc2db5dc9605ce769b","pdf_path":"data/raw/p22_staging/bayer-annual-report-2025.pdf","pdf_page":171},
+    {"task_id":"P22-WATER-CALC-001","document_id":"P22-BAYER-AR2025","document_sha256":"0af4a9d19fd9d4cba72c1ec062802199873f2379f84112dc2db5dc9605ce769b","pdf_path":"data/raw/p22_staging/bayer-annual-report-2025.pdf","pdf_page":172},
+    {"task_id":"P22-SAFETY-CALC-001","document_id":"P22-BAYER-AR2025","document_sha256":"0af4a9d19fd9d4cba72c1ec062802199873f2379f84112dc2db5dc9605ce769b","pdf_path":"data/raw/p22_staging/bayer-annual-report-2025.pdf","pdf_page":203},
+    {"task_id":"P22-SAFETY-CALC-001","document_id":"P22-BAYER-AR2025","document_sha256":"0af4a9d19fd9d4cba72c1ec062802199873f2379f84112dc2db5dc9605ce769b","pdf_path":"data/raw/p22_staging/bayer-annual-report-2025.pdf","pdf_page":204,"known_primary_parser_anomaly":"MinerU misread em dashes in the 2025 fatality column as numeric 1 values; native layout and visual render show dashes (zero disclosed fatalities)."},
+    {"task_id":"P22-ASSURE-001","document_id":"P22-BAYER-AR2025","document_sha256":"0af4a9d19fd9d4cba72c1ec062802199873f2379f84112dc2db5dc9605ce769b","pdf_path":"data/raw/p22_staging/bayer-annual-report-2025.pdf","pdf_page":374},
+    {"task_id":"P22-ASSURE-001","document_id":"P22-BAYER-AR2025","document_sha256":"0af4a9d19fd9d4cba72c1ec062802199873f2379f84112dc2db5dc9605ce769b","pdf_path":"data/raw/p22_staging/bayer-annual-report-2025.pdf","pdf_page":375},
+    {"task_id":"P22-ASSURE-001","document_id":"P22-BAYER-AR2025","document_sha256":"0af4a9d19fd9d4cba72c1ec062802199873f2379f84112dc2db5dc9605ce769b","pdf_path":"data/raw/p22_staging/bayer-annual-report-2025.pdf","pdf_page":377}
+  ]
+}

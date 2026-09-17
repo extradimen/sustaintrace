@@ -1,0 +1,20 @@
+{
+  "schema_version": "2.3",
+  "experiment_id": "P14-V23-UNSEEN-LOCKBOX-V01",
+  "status": "frozen_before_candidate_inference_after_prefreeze_integrity_audit",
+  "plans": {
+    "P14-GHG-CALC-001": {
+      "roles": [
+        {"role_id": "scope_1", "unit": "tCO2e"},
+        {"role_id": "market_scope_2", "unit": "tCO2e"},
+        {"role_id": "scope_3", "unit": "tCO2e"},
+        {"role_id": "reported_total", "unit": "tCO2e"}
+      ],
+      "steps": [
+        {"step_id": "calculated_total", "operation": "sum", "inputs": ["scope_1", "market_scope_2", "scope_3"]},
+        {"step_id": "difference", "operation": "difference", "inputs": ["calculated_total", "reported_total"]}
+      ],
+      "candidate_may_select_operation": false
+    }
+  }
+}

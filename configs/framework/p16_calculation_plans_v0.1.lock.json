@@ -1,0 +1,17 @@
+{
+  "schema_version": "2.5",
+  "experiment_id": "P16-V25-UNSEEN-LOCKBOX-V01",
+  "status": "frozen_before_candidate_inference",
+  "plans": {
+    "P16-GHG-CALC-001": {
+      "inputs": ["market_scope_1_ktco2e", "market_scope_2_ktco2e", "significant_scope_3_ktco2e"],
+      "expression": "market_scope_1_ktco2e + market_scope_2_ktco2e + significant_scope_3_ktco2e",
+      "calculated_output": "calculated_transition_total_ktco2e",
+      "comparison_input": "disclosed_transition_total_ktco2e",
+      "difference_output": "difference_ktco2e",
+      "numeric_method": "Decimal fixed-point from source literals",
+      "unit": "ktCO2e",
+      "expected_identity": "235 + 70 + 3436 = 3741"
+    }
+  }
+}

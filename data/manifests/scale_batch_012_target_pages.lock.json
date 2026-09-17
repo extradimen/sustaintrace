@@ -1,0 +1,250 @@
+{
+  "schema_version": "0.1",
+  "registry_id": "KB-SCALE-BATCH-012-TARGET-PAGES-v0.1",
+  "batch_id": "KB-SCALE-BATCH-012",
+  "created_at": "2026-09-13T06:16:38.889648+00:00",
+  "status": "target_pages_locked_before_mineru",
+  "cloud_transmission": false,
+  "documents": [
+    {
+      "document_id": "KB-B012-AIR-LIQUIDE-URD2025",
+      "source_group_id": "KB-AIR-LIQUIDE-2025",
+      "local_path": "data/raw/scale_batch_012/air-liquide-2025-universal-registration-document.pdf",
+      "document_sha256": "128d234ab0c14d6165097a46f21a5bda821554dbd63ee2a7d3052c84956b993b",
+      "selection_rule": "highest_keyword_hit_page_per_theme_v0.1",
+      "target_pages": [
+        {
+          "page": 311,
+          "themes": [
+            "targets"
+          ],
+          "native_text_sha256": "6d98b27155b1bdb0bda4daa6aacb623e88b1a96d67710f2d244514dfdf224565",
+          "native_text_characters": 7486
+        },
+        {
+          "page": 319,
+          "themes": [
+            "ghg_emissions"
+          ],
+          "native_text_sha256": "0d234bfcecd596eb328b70620338f91d7220c00c12d1f2fc9fbcf28e6360f48e",
+          "native_text_characters": 5153
+        },
+        {
+          "page": 324,
+          "themes": [
+            "energy"
+          ],
+          "native_text_sha256": "0decb46e24f181f8b96659ac1449965d2b505a0058e38fc8a1b09d9c1b6c87e3",
+          "native_text_characters": 8816
+        },
+        {
+          "page": 328,
+          "themes": [
+            "water"
+          ],
+          "native_text_sha256": "ee63a752272bb9d6ad17eca5fe54ec3de217e64786d713da13779244f4daaba0",
+          "native_text_characters": 6150
+        },
+        {
+          "page": 330,
+          "themes": [
+            "biodiversity",
+            "circularity"
+          ],
+          "native_text_sha256": "92440220f63e682f71cee0e68181bce11999119fb4fb97d0b2c5516bef997ee8",
+          "native_text_characters": 8823
+        },
+        {
+          "page": 331,
+          "themes": [
+            "workforce"
+          ],
+          "native_text_sha256": "6341f1794b896848b6ac20bb9896875251910d179540e63b9ef4845e252c22e0",
+          "native_text_characters": 5869
+        },
+        {
+          "page": 339,
+          "themes": [
+            "health_safety"
+          ],
+          "native_text_sha256": "9133bcf2e2b26ba593cb9b9e2a5fe5656dc5be1012c2fd85b64b388dd36cf112",
+          "native_text_characters": 4084
+        },
+        {
+          "page": 365,
+          "themes": [
+            "assurance"
+          ],
+          "native_text_sha256": "13f13436f7b9e6495015de9023f41935ede52be731fadbe76244071bf4c75850",
+          "native_text_characters": 6660
+        }
+      ]
+    },
+    {
+      "document_id": "KB-B012-STORA-ENSO-AR2025",
+      "source_group_id": "KB-STORA-ENSO-2025",
+      "local_path": "data/raw/scale_batch_012/stora-enso-annual-report-2025.pdf",
+      "document_sha256": "00377e8fb8a6b2fc866d38a7f68e6cccd8099c9fe5f79be4da96d7f46bb4bbf0",
+      "selection_rule": "highest_keyword_hit_page_per_theme_v0.1",
+      "target_pages": [
+        {
+          "page": 95,
+          "themes": [
+            "targets"
+          ],
+          "native_text_sha256": "eb6b00cc9a4006a8308caaec0e5a939d06a3f894e75b0fe9d8f6e8e4ac844bf2",
+          "native_text_characters": 13262
+        },
+        {
+          "page": 97,
+          "themes": [
+            "energy"
+          ],
+          "native_text_sha256": "bd9b74eada018cca3bc013af22be3a798de981a5f0dbf379ee62a26a9ac83d7d",
+          "native_text_characters": 13359
+        },
+        {
+          "page": 99,
+          "themes": [
+            "ghg_emissions"
+          ],
+          "native_text_sha256": "bc833d176f7e65b23de8f7db1ba0923e6ef600540c5c97f2eec6c57121a32e68",
+          "native_text_characters": 15310
+        },
+        {
+          "page": 105,
+          "themes": [
+            "water"
+          ],
+          "native_text_sha256": "69417ef5919ab0e68a64fb4bc7baae496365e976168f7aff1c523f66655031db",
+          "native_text_characters": 10348
+        },
+        {
+          "page": 108,
+          "themes": [
+            "biodiversity"
+          ],
+          "native_text_sha256": "2e5c6f4fd07759c963b112cef243866cab62e68a776f71c9519eab3d9ec5f3f8",
+          "native_text_characters": 13982
+        },
+        {
+          "page": 113,
+          "themes": [
+            "circularity"
+          ],
+          "native_text_sha256": "67365c0b490f43aee62a6e0ea078952647474093f015b925497c32efb6b07aa8",
+          "native_text_characters": 11930
+        },
+        {
+          "page": 120,
+          "themes": [
+            "workforce"
+          ],
+          "native_text_sha256": "7763965f7ed9f5c4038a4a10da9f38c09a063056be6a765b47db47eea65db7a2",
+          "native_text_characters": 10868
+        },
+        {
+          "page": 121,
+          "themes": [
+            "health_safety"
+          ],
+          "native_text_sha256": "7d749fa80067bff7b20ba17bbe1496861086b5241bc6a8a3c441f3ae184e3acc",
+          "native_text_characters": 9850
+        },
+        {
+          "page": 213,
+          "themes": [
+            "assurance"
+          ],
+          "native_text_sha256": "db6268a50956baf97be3e14fb77c95fda58d4985b59c6ddd3086e8cc7ed9c295",
+          "native_text_characters": 7865
+        }
+      ]
+    },
+    {
+      "document_id": "KB-B012-VINCI-URD2025",
+      "source_group_id": "KB-VINCI-2025",
+      "local_path": "data/raw/scale_batch_012/vinci-2025-universal-registration-document.pdf",
+      "document_sha256": "6c5e06674848aea0c98924fb2e936c9e985b92c6deb47d46b59cdd8466fbbe96",
+      "selection_rule": "highest_keyword_hit_page_per_theme_v0.1",
+      "target_pages": [
+        {
+          "page": 229,
+          "themes": [
+            "targets"
+          ],
+          "native_text_sha256": "cfdd254bce5a32eeb948e20fdce53d5b78e2850eebcb40444b9d0eeb09734a8c",
+          "native_text_characters": 7058
+        },
+        {
+          "page": 242,
+          "themes": [
+            "energy"
+          ],
+          "native_text_sha256": "b1d1603595cc34ff85f4c85d6a54172dfe16d44f8bdd1ffd62b88f90909d0d5a",
+          "native_text_characters": 6842
+        },
+        {
+          "page": 243,
+          "themes": [
+            "ghg_emissions"
+          ],
+          "native_text_sha256": "b9d9d01e7413b38024ce878ab8cb3cefeb6e110478a60cbc19b95ab96c1efabe",
+          "native_text_characters": 10172
+        },
+        {
+          "page": 249,
+          "themes": [
+            "circularity"
+          ],
+          "native_text_sha256": "a67d9318895caa6d3bd49a5cf7a41c02c44ea0eac741123514760b138b5c8ad3",
+          "native_text_characters": 7646
+        },
+        {
+          "page": 254,
+          "themes": [
+            "water"
+          ],
+          "native_text_sha256": "e95ffdb1885f01cc9b614b2829779f812d17333f97af1d570908afd22c5e080c",
+          "native_text_characters": 6468
+        },
+        {
+          "page": 256,
+          "themes": [
+            "biodiversity"
+          ],
+          "native_text_sha256": "34f3154d3345244a06f1145fa43152fa02e81e227c6f6b4c9e21cb0570fe672f",
+          "native_text_characters": 4779
+        },
+        {
+          "page": 271,
+          "themes": [
+            "workforce"
+          ],
+          "native_text_sha256": "f77d19106af070b447725a30d450107aabc94dd3a8a85b5549755b662f2a4d77",
+          "native_text_characters": 7491
+        },
+        {
+          "page": 278,
+          "themes": [
+            "health_safety"
+          ],
+          "native_text_sha256": "822cdb35d456b4bc3c4512d38c9143d1c76a19e8e40b94544d07b9085839e5ea",
+          "native_text_characters": 7465
+        },
+        {
+          "page": 348,
+          "themes": [
+            "assurance"
+          ],
+          "native_text_sha256": "7da1bf2e6f5b6e7a892ffae662621f9552972489ff34e8c959be5f107860462d",
+          "native_text_characters": 6175
+        }
+      ]
+    }
+  ],
+  "totals": {
+    "documents": 3,
+    "unique_target_pages": 26
+  }
+}

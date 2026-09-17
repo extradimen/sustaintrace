@@ -1,0 +1,233 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-007",
+  "status": "table_graphs_built_fail_closed",
+  "source_table_candidates": 2,
+  "graphs": [
+    {
+      "source_fact_record_id": "fact-2413c36af92b4bf32a6610ac",
+      "document_id": "KB-B007-NOKIA-AR2025",
+      "pdf_page": 122,
+      "graphs": [
+        {
+          "table_index": 0,
+          "status": "two_axis_graph_built",
+          "header_row_index": 0,
+          "column_headers": [
+            "Energy production (MWh)",
+            "2025",
+            "2024"
+          ],
+          "period_columns": [
+            1,
+            2
+          ],
+          "indicator_column": 0,
+          "unit_column": null,
+          "rejected_rows": [
+            {
+              "row_index": 1,
+              "reason": "multiple_numeric_tokens_in_one_cell"
+            },
+            {
+              "row_index": 3,
+              "reason": "multiple_numeric_tokens_in_one_cell"
+            }
+          ],
+          "rows": [
+            [
+              "Energy production (MWh)",
+              "2025",
+              "2024"
+            ],
+            [
+              "Non-renewable energy production",
+              "19 204",
+              "15 377"
+            ],
+            [
+              "Renewable energy production",
+              "488",
+              "440"
+            ],
+            [
+              "Total energy production",
+              "19 692",
+              "15 817"
+            ]
+          ],
+          "cells": [
+            {
+              "cell_handle": "cell-1832ea0112c63932a4f9",
+              "table_index": 0,
+              "row_index": 2,
+              "column_index": 1,
+              "row_header": "Renewable energy production",
+              "row_header_column_index": 0,
+              "column_header": "2025",
+              "normalized_period": 2025,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "488",
+              "normalized_value": "488",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-1bac924290aa25c90045",
+              "table_index": 0,
+              "row_index": 2,
+              "column_index": 2,
+              "row_header": "Renewable energy production",
+              "row_header_column_index": 0,
+              "column_header": "2024",
+              "normalized_period": 2024,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "440",
+              "normalized_value": "440",
+              "normalized_unit": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_fact_record_id": "fact-6ee5dfceb935cdaec9384aa5",
+      "document_id": "KB-B007-ATLAS-COPCO-AR2025",
+      "pdf_page": 72,
+      "graphs": [
+        {
+          "table_index": 0,
+          "status": "two_axis_graph_built",
+          "header_row_index": 0,
+          "column_headers": [
+            "Turnover (headcount)",
+            "2025",
+            "2024"
+          ],
+          "period_columns": [
+            1,
+            2
+          ],
+          "indicator_column": 0,
+          "unit_column": null,
+          "rejected_rows": [],
+          "rows": [
+            [
+              "Turnover (headcount)",
+              "2025",
+              "2024"
+            ],
+            [
+              "Total number of employees that have left thecompany",
+              "6175",
+              "6453"
+            ],
+            [
+              "Total turnover, %",
+              "11",
+              "12"
+            ],
+            [
+              "Voluntary leave, %",
+              "5",
+              "6"
+            ]
+          ],
+          "cells": [
+            {
+              "cell_handle": "cell-a6612b4c15beb9aa8daf",
+              "table_index": 0,
+              "row_index": 1,
+              "column_index": 1,
+              "row_header": "Total number of employees that have left thecompany",
+              "row_header_column_index": 0,
+              "column_header": "2025",
+              "normalized_period": 2025,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "6175",
+              "normalized_value": "6175",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-84e9c69d89516906f5dc",
+              "table_index": 0,
+              "row_index": 1,
+              "column_index": 2,
+              "row_header": "Total number of employees that have left thecompany",
+              "row_header_column_index": 0,
+              "column_header": "2024",
+              "normalized_period": 2024,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "6453",
+              "normalized_value": "6453",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-8c8179e89526e25712a8",
+              "table_index": 0,
+              "row_index": 2,
+              "column_index": 1,
+              "row_header": "Total turnover, %",
+              "row_header_column_index": 0,
+              "column_header": "2025",
+              "normalized_period": 2025,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "11",
+              "normalized_value": "11",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-8ac192dd660dd2ab4b2f",
+              "table_index": 0,
+              "row_index": 2,
+              "column_index": 2,
+              "row_header": "Total turnover, %",
+              "row_header_column_index": 0,
+              "column_header": "2024",
+              "normalized_period": 2024,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "12",
+              "normalized_value": "12",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-4ad859c287b66fa4d35d",
+              "table_index": 0,
+              "row_index": 3,
+              "column_index": 1,
+              "row_header": "Voluntary leave, %",
+              "row_header_column_index": 0,
+              "column_header": "2025",
+              "normalized_period": 2025,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "5",
+              "normalized_value": "5",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-fbe1ccbb905df5ea80df",
+              "table_index": 0,
+              "row_index": 3,
+              "column_index": 2,
+              "row_header": "Voluntary leave, %",
+              "row_header_column_index": 0,
+              "column_header": "2024",
+              "normalized_period": 2024,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "6",
+              "normalized_value": "6",
+              "normalized_unit": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-024",
+  "status": "source_set_frozen_before_diagnostics",
+  "policy": {
+    "local_only": true,
+    "cloud_transmission": false,
+    "overwrite_verified_files": false,
+    "fact_promotion_requires_independent_gate": true,
+    "performance_baseline_required": true,
+    "native_table_corroboration_version": "v34_bounded_layout_column_reassembly_v1",
+    "assurance_window_preflight_required": true,
+    "cross_experiment_sha256_deduplication_required": true,
+    "locked_experiments_untouched": ["P3-P23", "KB-SCALE-BATCH-001-through-023"]
+  },
+  "performance_baseline": {
+    "comparison_parent": "data/results/scale_batch_023_RESUME02_performance_baseline.lock.json",
+    "separate_from_knowledge_quality": true,
+    "target_pages_per_document": 9
+  },
+  "documents": [
+    {
+      "document_id": "KB-B024-FORTUM-FIN2025",
+      "source_group_id": "KB-FORTUM-2025",
+      "company": "Fortum Oyj",
+      "title": "Fortum Financials 2025",
+      "report_year": 2025,
+      "official_landing_page": "https://www.fortum.com/investors/reports-and-presentations/fortum-annual-review-2025",
+      "download_url": "https://www.fortum.com/sites/default/files/investor-documents/Fortum-Financials2025.pdf",
+      "official_domain": "www.fortum.com",
+      "local_path": "data/raw/scale_batch_024/fortum-financials-2025.pdf",
+      "source_role": "primary_report",
+      "language": "English",
+      "prior_experiment_use": false
+    },
+    {
+      "document_id": "KB-B024-HYDRO-IAR2025",
+      "source_group_id": "KB-HYDRO-2025",
+      "company": "Norsk Hydro ASA",
+      "title": "Integrated Annual Report 2025",
+      "report_year": 2025,
+      "official_landing_page": "https://www.hydro.com/en/global/investors/reports-and-presentations/annual-reports/annual-report-2025/",
+      "download_url": "https://www.hydro.com/globalassets/06-investors/reports-and-presentations/annual-report/ar-2025/integrated-annual-report-2025.pdf",
+      "official_domain": "www.hydro.com",
+      "local_path": "data/raw/scale_batch_024/hydro-integrated-annual-report-2025.pdf",
+      "source_role": "primary_report",
+      "language": "English",
+      "prior_experiment_use": false
+    },
+    {
+      "document_id": "KB-B024-YARA-AR2025",
+      "source_group_id": "KB-YARA-2025",
+      "company": "Yara International ASA",
+      "title": "Yara Annual Report 2025",
+      "report_year": 2025,
+      "official_landing_page": "https://www.yara.com/investor-relations/latest-annual-report/",
+      "download_url": "https://www.yara.com/siteassets/investors/057-reports-and-presentations/annual-reports/2025/yara-annual-report-2025.pdf",
+      "official_domain": "www.yara.com",
+      "local_path": "data/raw/scale_batch_024/yara-annual-report-2025.pdf",
+      "source_role": "primary_report",
+      "language": "English",
+      "prior_experiment_use": false
+    }
+  ]
+}

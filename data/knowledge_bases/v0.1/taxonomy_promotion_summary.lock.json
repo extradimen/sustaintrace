@@ -1,0 +1,20 @@
+{
+  "explicitly_unaudited_not_promoted": 2,
+  "inputs": {
+    "boundaries_sha256": "0fd9679aac293d61bfc13380eecb9fcc3033b45814653ef00106229727e988cc",
+    "facts_sha256": "8af57e7b7bda85deef8f90586f8225aedcf1da24e0669300115b8f1f7499bf5b",
+    "independent_reviews_sha256": "b487e4e474aecea6cf17e260983203155433ba21ecb45adac3ad48c2d527cd28"
+  },
+  "locked_experiments_modified_or_rescored": false,
+  "newly_promoted_to_tier_b": 5,
+  "next_gate": "implement_organizational_population_boundary_validator",
+  "outputs": {
+    "adjudications_sha256": "52dd54b71f57865967f54e5ab5e136b0d1d7f6332918a636e61f56cfd349c8aa",
+    "trusted_facts_sha256": "56a9bca32fd16816ff4cd570eae2f43f867ceba610ee53ae33edb4933925003a"
+  },
+  "reviewed": 5,
+  "schema_version": "0.1",
+  "source_candidate_records_modified": 0,
+  "status": "taxonomy_six_dimension_review_and_tier_b_overlay_complete",
+  "total_trusted_tier_b": 47
+}

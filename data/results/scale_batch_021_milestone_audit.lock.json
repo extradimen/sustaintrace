@@ -1,0 +1,97 @@
+{
+  "artifact_sha256": {
+    "configs/knowledge/repair_strategy_catalog_v0.1.json": "b07c9808711e8e8a2cbed0d4ac51c936a2ebee27393d9b6c6e9bed8e415f11e4",
+    "configs/knowledge/scale_batch_021_v0.1.json": "49bf6318d082adc05f869755a47171da5e850ea479fca446f5e2d434b20c94cd",
+    "configs/parsers/scale-batch-021-mineru-3.4.0-runtime.json": "f4cc15451e8552a8130f0dfae3dfec8d63a9646921c25258d2068a7054fa670f",
+    "data/knowledge_bases/v0.1/increments/scale_batch_021_atomic_fact_records.jsonl": "c2d34df86ef4895acc8e63385a6e447b76b3a7326cbbf1223ad25c9897e5d253",
+    "data/knowledge_bases/v0.1/increments/scale_batch_021_atomic_validations.jsonl": "ebbdd76e5c2dc9518ce4788d331761ab88683fb8f7f9bc9bd9efe3071b2eb285",
+    "data/knowledge_bases/v0.1/increments/scale_batch_021_fact_records.jsonl": "16563e12c548d96452e43a5793f620813ac99bffa711ee3f074410ab34e23a8d",
+    "data/knowledge_bases/v0.1/increments/scale_batch_021_failure_records.jsonl": "115b71c1ea2182a3c2fa17678fe9004bb6f975d746071da2860824d2a16c519c",
+    "data/knowledge_bases/v0.1/migration_manifest.lock.json": "59885a475254e9717a7abc4e5e30f10037261eb2fdc8da8657983bf4b4098dc4",
+    "data/knowledge_bases/v0.1/repair_observations.jsonl": "eabf481c8e2609cdd01a78df018448aa10b6fa576e7491091947e273a889a060",
+    "data/knowledge_bases/v0.1/tier_b_independent_adjudications.jsonl": "360582fbbc2a64b2353e5f483688aa0e5ea3d05b78d52a252dada9e83ec2d117",
+    "data/knowledge_bases/v0.1/trusted_fact_records.jsonl": "1b378d566426256c36697066c13c8191b6c7f286e4395c1efc10749c0f24fcbb",
+    "data/manifests/scale_batch_021_acquisition.lock.json": "8ad3e7b8ccf0aa9de80dfa298b0ecd4adcafca19879cd59c39cc925855442d23",
+    "data/manifests/scale_batch_021_acquisition_failures.lock.json": "23d3c399fb4fbc402a44bcdaa6e2c3454af5a8ff7f8327456d9755cc429767a2",
+    "data/manifests/scale_batch_021_mineru_RESUME01_lineage.lock.json": "1697f2cc78bc8b14b84b27a771648ae366721d417a76366c53c1168cb3f44568",
+    "data/manifests/scale_batch_021_mineru_RESUME02_lineage.lock.json": "84e48899df839d44721ea96f82b07b6e816ae1e4f344f32a7b98ac3443b9cba1",
+    "data/manifests/scale_batch_021_table_graphs.lock.json": "5b9d2b957e6d8101486e51c9f655e475769c0fdc0a8d2f8049adbaa5e125ca33",
+    "data/manifests/scale_batch_021_target_pages.lock.json": "8b2229200c296b1db97f6bf1d19249a654b7c3ca5547c871289239f9a9bd3102",
+    "data/results/scale_batch_021_atomic_projection.lock.json": "a36cb36683072c22e0c931cd78efa2616ad9c21f50a49655c162d1d7e2b0221a",
+    "data/results/scale_batch_021_atomic_validation.lock.json": "e1756b3b899f25362fd151cb906307fe5fb9bf317ef3eeeae289a3910d5a0a28",
+    "data/results/scale_batch_021_diagnostics.lock.json": "781baa7769b20123959de0fde068121b592d813a6453158ae675acf86f6d07d4",
+    "data/results/scale_batch_021_kb_increment.lock.json": "b974ccdcf05a2820b9fa7b17148576378a03412844e12fd7ceaac3ab32cdff5e",
+    "data/results/scale_batch_021_mineru_FINAL_summary.lock.json": "18f2eeac57b05daf1af0919564658b9a9437ef5ea3c9abb9699db6c25745cd81",
+    "data/results/scale_batch_021_mineru_RESUME01_summary.lock.json": "e2b240323a3f3e58d9ac1fd6f3a52e65468c00319cf8068552c5acd8406a22fa",
+    "data/results/scale_batch_021_mineru_RESUME02_summary.lock.json": "e97da7b37fb319823efc15d862d37aa44585ffceeca673663c418bbb56f0d1cb",
+    "data/results/scale_batch_021_mineru_summary.lock.json": "2b3f5f65c50a2a0d1a075b041188b39b09a41573170529575eb2d783165e38a5",
+    "data/results/scale_batch_021_native_coordinate_audit.lock.json": "35b94142c590ab7c30f3d1f4085bbe93f0b8550886209fdabb9300d1a4ca4433",
+    "data/results/scale_batch_021_performance_baseline.lock.json": "1cd1ec45146f7a441ed0c9fc3f67021ba51797ff113bbda353cd99fba532ad4b",
+    "data/results/scale_batch_021_tier_b_promotion.lock.json": "17492168c634cb1dfa9a24eb3b6036e15c0b75a93c5353843ec1e5c9516770da",
+    "data/results/v37_scale_batch_021_exposed_structured_text_fallback_development_v0.1.lock.json": "022223979e2fd7b83cbe0e74d642a6bee94e8fca91d27545a286bc8323cb6f38",
+    "docs/142_\u89c4\u6a21\u5316\u77e5\u8bc6\u5f15\u5165\u7b2c\u4e8c\u5341\u4e00\u6279\u672c\u5730\u95ed\u73af\u4e0e\u7ed3\u6784\u5316\u6587\u672c\u56de\u9000_v0.1.md": "93016ae298bf2c17a2977583883be115042204367fcf00f57662b13a08f77c6b",
+    "src/esg_reliable_discovery/mineru_text_fallback.py": "d3c1d8a1fd939ea3ed20752559f3abff99f7c07b1382b6f0df8559e7c7365f5b",
+    "tests/test_mineru_text_fallback.py": "87eaf9344f06c1526e38b9ac53404424358371848c03551f8fa7272b5eac18cb"
+  },
+  "assurance_window_preflight_passed": 3,
+  "atomic_validation": {
+    "coordinate_corroborated": 9,
+    "coordinate_exact": 11
+  },
+  "batch_id": "KB-SCALE-BATCH-021",
+  "extractable_source_pages": 1475,
+  "frozen_target_pages": 34,
+  "global_knowledge_bases": {
+    "fact_records": 2270,
+    "failure_records": 435,
+    "failure_signatures": 27,
+    "repair_observations": 27,
+    "trusted_fact_records": 135
+  },
+  "knowledge_increment": {
+    "atomic_fact_candidates": 11,
+    "evidence_snippet_candidates": 46,
+    "failure_observations": 43,
+    "held_tier_c_after_six_dimension_review": 2,
+    "promoted_tier_b": 9,
+    "rejected_ambiguous_rows": 0,
+    "remaining_evidence_gaps": 10,
+    "total_new_fact_records": 57
+  },
+  "mineru": {
+    "final_usable_pages": 34,
+    "hash_recovered_pages": 6,
+    "remaining_failures": 0,
+    "resume_completed_pages": 20,
+    "successful_pages_per_hour": 201.212501
+  },
+  "performance": {
+    "change_vs_batch_020_percent": 25.918,
+    "target_page_success_wall_seconds": 608.312106,
+    "whole_report_pages_per_second": 357.681992,
+    "whole_report_wall_seconds": 4.174099
+  },
+  "quality_gates": {
+    "automatic_promotion": false,
+    "cloud_transmission": false,
+    "failed_runs_preserved": true,
+    "json_artifacts_parse": "9438_passed_except_preexisting_known_concatenated_p1_fixture",
+    "locked_experiments_modified": false,
+    "pytest_collected_and_passed": 476,
+    "ruff": "passed",
+    "sha256_manifest": "passed",
+    "structured_text_fallback_rewords_source": false
+  },
+  "scale_coverage": {
+    "completed_unique_reports": 96,
+    "completion_percent": 80.0,
+    "estimated_remaining_three_report_batches": 8,
+    "remaining_reports": 24,
+    "stage_target_reports": 120
+  },
+  "schema_version": "0.1",
+  "source_documents": 3,
+  "source_pages": 1493,
+  "source_substitutions_before_freeze": 3,
+  "status": "local_ingestion_projection_tier_b_review_and_repair_observation_complete"
+}

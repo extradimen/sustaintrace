@@ -1,0 +1,35 @@
+{
+  "authorization_does_not_cover_other_reports_or_pages": true,
+  "authorization_source": "current_thread_contextual_confirmation_immediately_following_exact_scope_request",
+  "authorized_at": "2026-09-11T17:42:27.903264+00:00",
+  "document_id": "P22-BAYER-AR2025",
+  "document_sha256": "0af4a9d19fd9d4cba72c1ec062802199873f2379f84112dc2db5dc9605ce769b",
+  "exact_scope_displayed_immediately_before_confirmation": "Bayer Annual Report 2025 pages 130,132,149,151,171,172,203,204,374,375,377; Ollama Cloud qwen3.5:397b-cloud; P22 Stage A/Stage B single-attempt candidate inference",
+  "experiment_id": "P22-V31-UNSEEN-LOCKBOX-V01",
+  "experiment_scope": "P22 Stage A/Stage B single-attempt candidate inference",
+  "model": "qwen3.5:397b-cloud",
+  "pages": [
+    130,
+    132,
+    149,
+    151,
+    171,
+    172,
+    203,
+    204,
+    374,
+    375,
+    377
+  ],
+  "posthoc_semantic_repair_allowed": false,
+  "report": "Bayer Annual Report 2025",
+  "schema_version": "3.1",
+  "silent_retry_allowed": false,
+  "single_attempt_only": true,
+  "stage_scope": [
+    "Stage A",
+    "Stage B"
+  ],
+  "status": "authorized_by_user",
+  "user_message": "继续啊"
+}

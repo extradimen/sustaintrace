@@ -1,0 +1,666 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-024-RESUME01",
+  "created_at": "2026-09-13T18:50:20.013852+00:00",
+  "status": "local_diagnostics_complete",
+  "cloud_transmission": false,
+  "documents": [
+    {
+      "document_id": "KB-B024-FORTUM-FIN2025",
+      "source_group_id": "KB-FORTUM-2025",
+      "company": "Fortum Oyj",
+      "local_path": "data/raw/scale_batch_024/fortum-financials-2025.pdf",
+      "sha256": "0f348698addddf27181efe6c999fe17f4ca4390c510e97ce192d254c029764ce",
+      "pdfinfo_pages": 258,
+      "extracted_pages": 258,
+      "page_count_consistent": true,
+      "encrypted": "no",
+      "extractable_pages": 257,
+      "extractable_ratio": 0.996124,
+      "total_text_characters": 1795450,
+      "theme_hit_totals": {
+        "assurance": 27,
+        "biodiversity": 285,
+        "circularity": 113,
+        "energy": 123,
+        "ghg_emissions": 297,
+        "health_safety": 22,
+        "targets": 26,
+        "water": 9,
+        "workforce": 374
+      },
+      "candidate_pages_by_theme": {
+        "ghg_emissions": [
+          {
+            "page": 63,
+            "hits": 39
+          },
+          {
+            "page": 56,
+            "hits": 25
+          },
+          {
+            "page": 58,
+            "hits": 23
+          },
+          {
+            "page": 62,
+            "hits": 20
+          },
+          {
+            "page": 64,
+            "hits": 20
+          }
+        ],
+        "energy": [
+          {
+            "page": 10,
+            "hits": 13
+          },
+          {
+            "page": 172,
+            "hits": 11
+          },
+          {
+            "page": 56,
+            "hits": 10
+          },
+          {
+            "page": 19,
+            "hits": 9
+          },
+          {
+            "page": 60,
+            "hits": 9
+          }
+        ],
+        "water": [
+          {
+            "page": 47,
+            "hits": 4
+          },
+          {
+            "page": 75,
+            "hits": 4
+          },
+          {
+            "page": 107,
+            "hits": 1
+          }
+        ],
+        "workforce": [
+          {
+            "page": 89,
+            "hits": 35
+          },
+          {
+            "page": 93,
+            "hits": 28
+          },
+          {
+            "page": 90,
+            "hits": 23
+          },
+          {
+            "page": 92,
+            "hits": 22
+          },
+          {
+            "page": 91,
+            "hits": 20
+          }
+        ],
+        "health_safety": [
+          {
+            "page": 92,
+            "hits": 16
+          },
+          {
+            "page": 108,
+            "hits": 2
+          },
+          {
+            "page": 27,
+            "hits": 1
+          },
+          {
+            "page": 41,
+            "hits": 1
+          },
+          {
+            "page": 91,
+            "hits": 1
+          }
+        ],
+        "assurance": [
+          {
+            "page": 232,
+            "hits": 6
+          },
+          {
+            "page": 231,
+            "hits": 5
+          },
+          {
+            "page": 3,
+            "hits": 3
+          },
+          {
+            "page": 222,
+            "hits": 3
+          },
+          {
+            "page": 40,
+            "hits": 2
+          }
+        ],
+        "targets": [
+          {
+            "page": 56,
+            "hits": 3
+          },
+          {
+            "page": 34,
+            "hits": 2
+          },
+          {
+            "page": 35,
+            "hits": 2
+          },
+          {
+            "page": 46,
+            "hits": 2
+          },
+          {
+            "page": 57,
+            "hits": 2
+          }
+        ],
+        "biodiversity": [
+          {
+            "page": 68,
+            "hits": 47
+          },
+          {
+            "page": 70,
+            "hits": 28
+          },
+          {
+            "page": 104,
+            "hits": 24
+          },
+          {
+            "page": 71,
+            "hits": 22
+          },
+          {
+            "page": 69,
+            "hits": 21
+          }
+        ],
+        "circularity": [
+          {
+            "page": 73,
+            "hits": 11
+          },
+          {
+            "page": 104,
+            "hits": 9
+          },
+          {
+            "page": 72,
+            "hits": 8
+          },
+          {
+            "page": 67,
+            "hits": 5
+          },
+          {
+            "page": 52,
+            "hits": 4
+          }
+        ]
+      },
+      "layout_text_path": "data/interim/scale_batch_024_RESUME01/KB-B024-FORTUM-FIN2025.layout.txt",
+      "page_index_path": "data/interim/scale_batch_024_RESUME01/KB-B024-FORTUM-FIN2025.page_index.jsonl"
+    },
+    {
+      "document_id": "KB-B024-YARA-AR2025",
+      "source_group_id": "KB-YARA-2025",
+      "company": "Yara International ASA",
+      "local_path": "data/raw/scale_batch_024/yara-annual-report-2025.pdf",
+      "sha256": "95ecc7a0b18ca97ee9d579bc3799ed58052a31584ef6b21ac55d466aa77ce5d2",
+      "pdfinfo_pages": 321,
+      "extracted_pages": 321,
+      "page_count_consistent": true,
+      "encrypted": "no",
+      "extractable_pages": 319,
+      "extractable_ratio": 0.993769,
+      "total_text_characters": 1447841,
+      "theme_hit_totals": {
+        "assurance": 37,
+        "biodiversity": 124,
+        "circularity": 49,
+        "energy": 68,
+        "ghg_emissions": 265,
+        "health_safety": 28,
+        "targets": 17,
+        "water": 56,
+        "workforce": 525
+      },
+      "candidate_pages_by_theme": {
+        "ghg_emissions": [
+          {
+            "page": 112,
+            "hits": 53
+          },
+          {
+            "page": 113,
+            "hits": 22
+          },
+          {
+            "page": 97,
+            "hits": 12
+          },
+          {
+            "page": 98,
+            "hits": 11
+          },
+          {
+            "page": 109,
+            "hits": 10
+          }
+        ],
+        "energy": [
+          {
+            "page": 111,
+            "hits": 19
+          },
+          {
+            "page": 110,
+            "hits": 9
+          },
+          {
+            "page": 80,
+            "hits": 4
+          },
+          {
+            "page": 200,
+            "hits": 4
+          },
+          {
+            "page": 96,
+            "hits": 3
+          }
+        ],
+        "water": [
+          {
+            "page": 124,
+            "hits": 17
+          },
+          {
+            "page": 121,
+            "hits": 9
+          },
+          {
+            "page": 122,
+            "hits": 8
+          },
+          {
+            "page": 123,
+            "hits": 6
+          },
+          {
+            "page": 81,
+            "hits": 4
+          }
+        ],
+        "workforce": [
+          {
+            "page": 151,
+            "hits": 31
+          },
+          {
+            "page": 150,
+            "hits": 26
+          },
+          {
+            "page": 152,
+            "hits": 26
+          },
+          {
+            "page": 148,
+            "hits": 23
+          },
+          {
+            "page": 137,
+            "hits": 17
+          }
+        ],
+        "health_safety": [
+          {
+            "page": 135,
+            "hits": 5
+          },
+          {
+            "page": 141,
+            "hits": 3
+          },
+          {
+            "page": 155,
+            "hits": 3
+          },
+          {
+            "page": 156,
+            "hits": 3
+          },
+          {
+            "page": 70,
+            "hits": 2
+          }
+        ],
+        "assurance": [
+          {
+            "page": 310,
+            "hits": 16
+          },
+          {
+            "page": 308,
+            "hits": 7
+          },
+          {
+            "page": 311,
+            "hits": 3
+          },
+          {
+            "page": 180,
+            "hits": 2
+          },
+          {
+            "page": 306,
+            "hits": 2
+          }
+        ],
+        "targets": [
+          {
+            "page": 109,
+            "hits": 3
+          },
+          {
+            "page": 98,
+            "hits": 2
+          },
+          {
+            "page": 112,
+            "hits": 2
+          },
+          {
+            "page": 16,
+            "hits": 1
+          },
+          {
+            "page": 80,
+            "hits": 1
+          }
+        ],
+        "biodiversity": [
+          {
+            "page": 126,
+            "hits": 21
+          },
+          {
+            "page": 125,
+            "hits": 20
+          },
+          {
+            "page": 127,
+            "hits": 16
+          },
+          {
+            "page": 181,
+            "hits": 11
+          },
+          {
+            "page": 81,
+            "hits": 9
+          }
+        ],
+        "circularity": [
+          {
+            "page": 130,
+            "hits": 9
+          },
+          {
+            "page": 124,
+            "hits": 6
+          },
+          {
+            "page": 132,
+            "hits": 6
+          },
+          {
+            "page": 129,
+            "hits": 4
+          },
+          {
+            "page": 181,
+            "hits": 4
+          }
+        ]
+      },
+      "layout_text_path": "data/interim/scale_batch_024_RESUME01/KB-B024-YARA-AR2025.layout.txt",
+      "page_index_path": "data/interim/scale_batch_024_RESUME01/KB-B024-YARA-AR2025.page_index.jsonl"
+    },
+    {
+      "document_id": "KB-B024-TELENOR-AR2025",
+      "source_group_id": "KB-TELENOR-2025",
+      "company": "Telenor ASA",
+      "local_path": "data/raw/scale_batch_024/telenor-annual-report-2025.pdf",
+      "sha256": "308f8724d892dfb85582b8278c3a9852b8771f5cd2297fde020916ccecb2d701",
+      "pdfinfo_pages": 299,
+      "extracted_pages": 299,
+      "page_count_consistent": true,
+      "encrypted": "no",
+      "extractable_pages": 299,
+      "extractable_ratio": 1.0,
+      "total_text_characters": 1763079,
+      "theme_hit_totals": {
+        "assurance": 31,
+        "biodiversity": 92,
+        "circularity": 67,
+        "energy": 69,
+        "ghg_emissions": 189,
+        "health_safety": 30,
+        "targets": 38,
+        "water": 0,
+        "workforce": 333
+      },
+      "candidate_pages_by_theme": {
+        "ghg_emissions": [
+          {
+            "page": 93,
+            "hits": 26
+          },
+          {
+            "page": 96,
+            "hits": 26
+          },
+          {
+            "page": 95,
+            "hits": 24
+          },
+          {
+            "page": 94,
+            "hits": 14
+          },
+          {
+            "page": 88,
+            "hits": 13
+          }
+        ],
+        "energy": [
+          {
+            "page": 92,
+            "hits": 23
+          },
+          {
+            "page": 89,
+            "hits": 7
+          },
+          {
+            "page": 96,
+            "hits": 7
+          },
+          {
+            "page": 87,
+            "hits": 5
+          },
+          {
+            "page": 85,
+            "hits": 4
+          }
+        ],
+        "water": [],
+        "workforce": [
+          {
+            "page": 116,
+            "hits": 28
+          },
+          {
+            "page": 117,
+            "hits": 22
+          },
+          {
+            "page": 119,
+            "hits": 21
+          },
+          {
+            "page": 115,
+            "hits": 16
+          },
+          {
+            "page": 213,
+            "hits": 16
+          }
+        ],
+        "health_safety": [
+          {
+            "page": 118,
+            "hits": 7
+          },
+          {
+            "page": 119,
+            "hits": 4
+          },
+          {
+            "page": 128,
+            "hits": 4
+          },
+          {
+            "page": 121,
+            "hits": 3
+          },
+          {
+            "page": 114,
+            "hits": 2
+          }
+        ],
+        "assurance": [
+          {
+            "page": 279,
+            "hits": 9
+          },
+          {
+            "page": 278,
+            "hits": 6
+          },
+          {
+            "page": 277,
+            "hits": 5
+          },
+          {
+            "page": 284,
+            "hits": 3
+          },
+          {
+            "page": 76,
+            "hits": 2
+          }
+        ],
+        "targets": [
+          {
+            "page": 91,
+            "hits": 7
+          },
+          {
+            "page": 88,
+            "hits": 5
+          },
+          {
+            "page": 94,
+            "hits": 5
+          },
+          {
+            "page": 87,
+            "hits": 3
+          },
+          {
+            "page": 90,
+            "hits": 3
+          }
+        ],
+        "biodiversity": [
+          {
+            "page": 98,
+            "hits": 22
+          },
+          {
+            "page": 99,
+            "hits": 18
+          },
+          {
+            "page": 152,
+            "hits": 14
+          },
+          {
+            "page": 97,
+            "hits": 10
+          },
+          {
+            "page": 61,
+            "hits": 4
+          }
+        ],
+        "circularity": [
+          {
+            "page": 106,
+            "hits": 12
+          },
+          {
+            "page": 103,
+            "hits": 8
+          },
+          {
+            "page": 76,
+            "hits": 6
+          },
+          {
+            "page": 101,
+            "hits": 6
+          },
+          {
+            "page": 104,
+            "hits": 6
+          }
+        ]
+      },
+      "layout_text_path": "data/interim/scale_batch_024_RESUME01/KB-B024-TELENOR-AR2025.layout.txt",
+      "page_index_path": "data/interim/scale_batch_024_RESUME01/KB-B024-TELENOR-AR2025.page_index.jsonl"
+    }
+  ],
+  "totals": {
+    "documents": 3,
+    "pdf_pages": 878,
+    "extractable_pages": 875
+  }
+}

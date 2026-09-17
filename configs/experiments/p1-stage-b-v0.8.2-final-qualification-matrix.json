@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0",
+  "experiment_id": "P1-STAGE-B-V082-FINAL-QUALIFICATION",
+  "status": "frozen_before_inference",
+  "framework_freeze_id": "P1-STAGE-B-FREEZE-v0.8.2",
+  "purpose": "Same-hash P1 qualification of atomic claim projection across table, narrative, scope, and target-versus-observed modalities before any P2 source selection.",
+  "frozen_hashes": {
+    "core_sha256": "faa6081c5821e1335a32f33fe766ad98aee56683465cfee807afe985f4a342fe",
+    "runner_sha256": "fe5b1bcd2cb0ff401d21c10d1da3560b503f436805ca3fef1bb0db8f386b9014",
+    "system_prompt_sha256": "b0c46b2ad1e730c2f8528ef55fc43c0439a05d24658c017d5605ebd428938607",
+    "ontology_sha256": "b8c64fa953c5e51a221493c2606ba426879486a2f8ab0efb35d65e4e14610ddb",
+    "source_registry_sha256": "78bff70845dd91286dcc0ae8ae1ea9551df9a715043bc23fc95a30925d085732"
+  },
+  "routing_policy": {
+    "local_first": true,
+    "local_model": "gemma4:12b",
+    "local_model_digest": "4eb23ef187e2c5462566d6a1d3bbbc2f1346d0b4327cbb66d58fffbcc9b2b05c",
+    "timeout_is_model_failure": true,
+    "silent_retry": false,
+    "fallback_is_separate_model_arm": true,
+    "fallback_requires_explicit_cloud_disclosure": true
+  },
+  "qualification_cases": [
+    {
+      "order": 1,
+      "task_id": "P1-02-2",
+      "parent_run_id": "P1-02-2-GEMMA4-12B-v076-r1",
+      "run_id": "P1-02-2-GEMMA4-12B-stage-b-v082-r1",
+      "metric_id": "scope_1_methane_emissions",
+      "required_claim_kinds": ["observed"],
+      "required_claim_count": 1,
+      "status": "passed",
+      "elapsed_seconds": 182.1943272500066,
+      "sha256s_sha256": "c1be2787af802755cf4bf3b4b7ce7c9775c3d1ba55e422805d51a70f082136d9"
+    },
+    {
+      "order": 2,
+      "task_id": "P1-01-2",
+      "parent_run_id": "P1-01-2-GEMMA4-12B-v075-r1",
+      "run_id": "P1-01-2-GEMMA4-12B-stage-b-v082-r1",
+      "metric_id": "freshwater_use_avoided",
+      "required_claim_kinds": ["observed"],
+      "required_claim_count": 1,
+      "status": "failed_timeout",
+      "elapsed_seconds": 1200.0023708330118,
+      "model_output_received": false,
+      "sha256s_sha256": "91d02c98a8c86150c2d3f623a75d3818733de818632de81fa0096f483b7379c6",
+      "fallback_run_id": "P1-01-2-QWEN397B-stage-b-v082-r1",
+      "fallback_status": "passed",
+      "fallback_elapsed_seconds": 59.65374233300099,
+      "fallback_sha256s_sha256": "03abfd2e4896e9fd7f5ce945255907f6ad88c784e454980fcedae28d2faa7e50"
+    },
+    {
+      "order": 3,
+      "task_id": "P1-09-1",
+      "parent_run_id": "P1-09-1-GEMMA4-12B-v072-r1",
+      "local_run_id": "P1-09-1-GEMMA4-12B-stage-b-v082-r1",
+      "fallback_run_id": "P1-09-1-QWEN397B-stage-b-v082-r1",
+      "metric_id": "renewable_power_share",
+      "required_claim_kinds": ["target", "observed"],
+      "required_claim_count": 2,
+      "local_status": "failed_timeout",
+      "fallback_status": "passed"
+    }
+  ],
+  "hard_gate": "All three cases must pass deterministic validation and preregistered semantic completeness under the exact v0.8.2 hashes. A recorded local timeout may be covered only by a separately identified, passed fallback arm and remains a local-model failure.",
+  "reference_type": "AI-simulated reference, explicitly not human gold",
+  "matrix_status": "passed_with_two_recorded_local_timeouts_and_independent_cloud_fallbacks",
+  "next_gate": "freeze_integrated_stage_a_stage_b_pipeline_and_requalify_all_six_task_types",
+  "p2_opened": false
+}

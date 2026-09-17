@@ -1,0 +1,131 @@
+{
+  "schema_version": "0.1",
+  "resume_id": "KB-SCALE-BATCH-019-MINERU-RESUME01",
+  "created_at": "2026-09-13T14:17:14.211886+00:00",
+  "parent_summary": "data/results/scale_batch_019_mineru_summary.lock.json",
+  "parent_summary_sha256": "8210bfe410f7b7dff1fea0bce3feeda310743d739f5913f884d3ef262e3d8f77",
+  "parent_failure_class": "sandbox_loopback_port_permission_denied",
+  "parent_failed_pages": 29,
+  "failed_page_keys": [
+    {
+      "document_id": "KB-B019-NESTE-AR2025",
+      "page": 36
+    },
+    {
+      "document_id": "KB-B019-NESTE-AR2025",
+      "page": 37
+    },
+    {
+      "document_id": "KB-B019-NESTE-AR2025",
+      "page": 39
+    },
+    {
+      "document_id": "KB-B019-NESTE-AR2025",
+      "page": 40
+    },
+    {
+      "document_id": "KB-B019-NESTE-AR2025",
+      "page": 41
+    },
+    {
+      "document_id": "KB-B019-NESTE-AR2025",
+      "page": 50
+    },
+    {
+      "document_id": "KB-B019-NESTE-AR2025",
+      "page": 51
+    },
+    {
+      "document_id": "KB-B019-NESTE-AR2025",
+      "page": 110
+    },
+    {
+      "document_id": "KB-B019-NESTE-AR2025",
+      "page": 117
+    },
+    {
+      "document_id": "KB-B019-NESTE-AR2025",
+      "page": 121
+    },
+    {
+      "document_id": "KB-B019-BOLIDEN-ASR2025",
+      "page": 78
+    },
+    {
+      "document_id": "KB-B019-BOLIDEN-ASR2025",
+      "page": 80
+    },
+    {
+      "document_id": "KB-B019-BOLIDEN-ASR2025",
+      "page": 81
+    },
+    {
+      "document_id": "KB-B019-BOLIDEN-ASR2025",
+      "page": 90
+    },
+    {
+      "document_id": "KB-B019-BOLIDEN-ASR2025",
+      "page": 91
+    },
+    {
+      "document_id": "KB-B019-BOLIDEN-ASR2025",
+      "page": 95
+    },
+    {
+      "document_id": "KB-B019-BOLIDEN-ASR2025",
+      "page": 105
+    },
+    {
+      "document_id": "KB-B019-BOLIDEN-ASR2025",
+      "page": 108
+    },
+    {
+      "document_id": "KB-B019-BOLIDEN-ASR2025",
+      "page": 122
+    },
+    {
+      "document_id": "KB-B019-BOLIDEN-ASR2025",
+      "page": 123
+    },
+    {
+      "document_id": "KB-B019-METSO-AR2025",
+      "page": 86
+    },
+    {
+      "document_id": "KB-B019-METSO-AR2025",
+      "page": 94
+    },
+    {
+      "document_id": "KB-B019-METSO-AR2025",
+      "page": 98
+    },
+    {
+      "document_id": "KB-B019-METSO-AR2025",
+      "page": 102
+    },
+    {
+      "document_id": "KB-B019-METSO-AR2025",
+      "page": 106
+    },
+    {
+      "document_id": "KB-B019-METSO-AR2025",
+      "page": 115
+    },
+    {
+      "document_id": "KB-B019-METSO-AR2025",
+      "page": 117
+    },
+    {
+      "document_id": "KB-B019-METSO-AR2025",
+      "page": 239
+    },
+    {
+      "document_id": "KB-B019-METSO-AR2025",
+      "page": 240
+    }
+  ],
+  "resume_scope": "failed_pages_only",
+  "successful_parent_pages_reused": 0,
+  "output_policy": "new_resume_directory_no_parent_overwrite",
+  "cloud_transmission": false
+}

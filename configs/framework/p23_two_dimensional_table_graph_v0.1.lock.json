@@ -1,0 +1,136 @@
+{
+  "experiment_id": "P23-V32-UNSEEN-LOCKBOX-V01",
+  "graphs": [
+    {
+      "bbox": [
+        84,
+        315,
+        912,
+        579
+      ],
+      "graph_id": "P23-METRICS-P078",
+      "header_axis": [
+        "2025",
+        "2024",
+        "2023"
+      ],
+      "pdf_page": 78,
+      "row_axis": [
+        "Scope 1 energy",
+        "Scope 1 other",
+        "Scope 2 market-based",
+        "total energy",
+        "UK energy",
+        "renewable electricity",
+        "total supplied water",
+        "high-stress supplied water"
+      ],
+      "selected_cells": [
+        [
+          "Scope 1 energy",
+          "2025",
+          280
+        ],
+        [
+          "Scope 1 energy",
+          "2024",
+          289
+        ],
+        [
+          "Scope 1 other",
+          "2025",
+          199
+        ],
+        [
+          "Scope 1 other",
+          "2024",
+          232
+        ],
+        [
+          "Scope 2 market-based",
+          "2025",
+          7
+        ],
+        [
+          "Scope 2 market-based",
+          "2024",
+          44
+        ],
+        [
+          "total energy",
+          "2025",
+          2482
+        ],
+        [
+          "total energy",
+          "2024",
+          2577
+        ],
+        [
+          "total supplied water",
+          "2025",
+          6.8
+        ],
+        [
+          "total supplied water",
+          "2024",
+          7.0
+        ]
+      ]
+    },
+    {
+      "bbox": [
+        85,
+        546,
+        912,
+        612
+      ],
+      "graph_id": "P23-WORKFORCE-P079",
+      "header_axis": [
+        "Male",
+        "Female",
+        "Total"
+      ],
+      "pdf_page": 79,
+      "row_axis": [
+        "Board",
+        "Management",
+        "All employees"
+      ],
+      "selected_cells": [
+        [
+          "Board",
+          "Female",
+          6
+        ],
+        [
+          "Board",
+          "Total",
+          12
+        ],
+        [
+          "Management",
+          "Female",
+          9318
+        ],
+        [
+          "Management",
+          "Total",
+          18112
+        ],
+        [
+          "All employees",
+          "Female",
+          32752
+        ],
+        [
+          "All employees",
+          "Total",
+          66841
+        ]
+      ]
+    }
+  ],
+  "schema_version": "3.2",
+  "status": "frozen_before_candidate_inference"
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": "2.5",
+  "experiment_id": "P16-V25-UNSEEN-LOCKBOX-V01",
+  "status": "frozen_before_candidate_inference_after_execution-shape_recovery",
+  "plans": {
+    "P16-GHG-CALC-001": {
+      "roles": [
+        {"role_id":"scope_1","unit":"thousand_tCO2e"},
+        {"role_id":"market_scope_2","unit":"thousand_tCO2e"},
+        {"role_id":"scope_3","unit":"thousand_tCO2e"},
+        {"role_id":"reported_total","unit":"thousand_tCO2e"}
+      ],
+      "steps": [
+        {"step_id":"calculated_total","operation":"sum","inputs":["scope_1","market_scope_2","scope_3"]},
+        {"step_id":"difference","operation":"difference","inputs":["calculated_total","reported_total"]}
+      ],
+      "candidate_may_select_operation": false,
+      "expected_identity": "235 + 70 + 3436 = 3741"
+    }
+  }
+}

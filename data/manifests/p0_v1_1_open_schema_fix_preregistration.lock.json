@@ -1,0 +1,12 @@
+{
+  "created_at": "2026-09-02T09:23:27+08:00",
+  "failure_preserved_run_id": "gemma4-12b-p0-open-001-v1-r1",
+  "fix_scope": "Hoist $defs from the array item schema to the multi-card schema root so root-local JSON references resolve during Ollama conversion.",
+  "framework_version": "V1.1",
+  "model_behavior_observed_in_failed_run": false,
+  "posthoc_semantic_repair_allowed": false,
+  "replacement_run_id": "gemma4-12b-p0-open-001-v1_1-r1",
+  "schema_version": "1.0",
+  "task_id": "P0-OPEN-001",
+  "task_runner_sha256": "888331d4b050258fa50df01a288b6852bbd49756056eb874ce00604838a5ea60"
+}

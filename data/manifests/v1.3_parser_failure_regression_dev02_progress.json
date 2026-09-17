@@ -1,0 +1,36 @@
+{
+  "checkpoint_resume_enabled": true,
+  "development_data_only": true,
+  "experiment_id": "V13-PARSER-FAILURE-REGRESSION-DEV02",
+  "p3_rerun": false,
+  "records": [
+    {
+      "result": {
+        "archive_directory": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/V13-PARSER-FAILURE-REGRESSION-DEV02/runs/P3-DEX-001-QWEN397B-v13-dev02-stage-a-r1",
+        "elapsed_seconds": 61.409365124985925,
+        "framework_evidence_state": "supported",
+        "model": "qwen3.5:397b-cloud",
+        "run_id": "P3-DEX-001-QWEN397B-v13-dev02-stage-a-r1",
+        "task_id": "P3-DEX-001"
+      },
+      "retried": false,
+      "status": "passed",
+      "task_id": "P3-DEX-001"
+    },
+    {
+      "result": {
+        "archive_directory": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/V13-PARSER-FAILURE-REGRESSION-DEV02/runs/P3-CALC-001-QWEN397B-v13-dev02-stage-a-r1",
+        "elapsed_seconds": 8.269806124997558,
+        "framework_evidence_state": "supported",
+        "model": "qwen3.5:397b-cloud",
+        "run_id": "P3-CALC-001-QWEN397B-v13-dev02-stage-a-r1",
+        "task_id": "P3-CALC-001"
+      },
+      "retried": false,
+      "status": "passed",
+      "task_id": "P3-CALC-001"
+    }
+  ],
+  "schema_version": "1.0",
+  "updated_at": "2026-09-04T19:46:03.130008+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "authorization_record": "data/manifests/p22_cloud_authorization_contextual_2026-09-12_v0.1.lock.json",
+  "authorization_record_sha256": "4c6f55b574f9139156f44f468edf91d295ea66320feacaf9c83a585441575eec",
+  "experiment_id": "P22-V31-UNSEEN-LOCKBOX-V01",
+  "inference_allowed": true,
+  "integrity_gate_result": "data/results/p22_v31_local_readiness_v0.1.lock.json",
+  "integrity_gate_result_sha256": "bb36e3f4a2f5fa1e680509c8b08c10c2b8c728b27d23404f4476011abb9b7957",
+  "posthoc_semantic_repair_allowed": false,
+  "schema_version": "3.1",
+  "silent_retry_allowed": false,
+  "single_attempt_per_stage": true,
+  "status": "released_after_contextual_confirmation_of_exact_cloud_scope",
+  "structural_task_pack": "data/tasks/p22_local_execution_task_pack_v0.1.lock.json",
+  "structural_task_pack_sha256": "a85237028440569df25475ed42bd065ee1b172bd69919fd2b6f71d9b2c761921"
+}

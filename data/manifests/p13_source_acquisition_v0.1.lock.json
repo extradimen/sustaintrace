@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "manifest_id": "P13-SOURCE-ACQUISITION-v0.1",
+  "status": "source_frozen_before_task_authoring_and_candidate_inference",
+  "frozen_date": "2026-09-09",
+  "selection_method": "Official issuer reporting page and download endpoint were verified before downloading; accepted bytes were hashed and PDF metadata verified before task authoring.",
+  "documents": [
+    {
+      "document_id": "P13-SCHNEIDER-URD2025",
+      "company": "Schneider Electric SE",
+      "title": "2025 Universal Registration Document",
+      "subtitle": "Financial and Sustainable Development Report",
+      "reporting_year": 2025,
+      "language": "English",
+      "source_type": "official_issuer_english_pdf",
+      "source_page_url": "https://www.se.com/us/en/download/document/2025-URD/",
+      "source_url": "https://download.schneider-electric.com/files?p_Doc_Ref=2025-URD&p_enDocType=Institutional+Document&p_File_Name=2025-universal-registration-document.pdf",
+      "resolved_download_host": "download.se.com",
+      "local_path": "data/raw/p13_staging/schneider-electric-2025-universal-registration-document.pdf",
+      "sha256": "6ca8d7f0faa864cf46a98b1ae8c3ae85979d310d6c0f436dc169d525c706b568",
+      "file_size_bytes": 48627487,
+      "page_count": 640,
+      "pdf_version": "1.7",
+      "encrypted": false,
+      "ingestion_status": "verified",
+      "eligibility": "issuer_and_report_new_and_unseen_in_P1_through_P12",
+      "metadata_note": "Official page identifies the English 2025 Universal Registration Document; embedded PDF metadata identifies Schneider Electric as author and the 2025 report title. The PDF states that it is the English translation of the ESEF version filed with the AMF on March 27, 2026."
+    }
+  ]
+}

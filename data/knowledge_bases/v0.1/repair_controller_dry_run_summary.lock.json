@@ -1,0 +1,22 @@
+{
+  "decision_counts": {
+    "automatic_candidate": 4,
+    "blocked": 6,
+    "supervised": 56
+  },
+  "execution_count": 0,
+  "failure_records": 66,
+  "inputs": {
+    "failures_sha256": "512e73323990aea76b56a3ca22f0f58ff8a9ee83210e779c34831c7cb2abdbe3",
+    "strategies_sha256": "6d21eb205210bdbe03fa630bd54aeb44697832cb15448c1a78e1912f64beed03"
+  },
+  "locked_experiments_modified": false,
+  "mode": "operational",
+  "next_gate": "implement validators and rollback ledger for automatic candidates",
+  "output": {
+    "path": "data/knowledge_bases/v0.1/repair_controller_dry_run.jsonl",
+    "sha256": "b243b67cb774fa0137ed89791544ff202d198d5b34f0c1440c2eef7143b2a918"
+  },
+  "schema_version": "0.1",
+  "status": "dry_run_complete_no_repairs_executed"
+}

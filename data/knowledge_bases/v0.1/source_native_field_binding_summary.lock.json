@@ -1,0 +1,25 @@
+{
+  "counts": {
+    "ambiguous_context_binding": 20,
+    "label_context_incomplete": 46,
+    "literal_not_found": 8,
+    "unavailable": 12,
+    "unique_context_binding": 59
+  },
+  "inputs": {
+    "facts_sha256": "8af57e7b7bda85deef8f90586f8225aedcf1da24e0669300115b8f1f7499bf5b",
+    "native_corroborations_sha256": "629eb32a213c75eb44d433c80afa060173efb70a25e27a1b02adc14e13a35cc4",
+    "qualifications_sha256": "9f63f2f3f819ddc456a8ddc5601c92a080f8b15759dd183f5dd946d5ba8fda0c"
+  },
+  "locked_experiments_modified_or_rescored": false,
+  "native_pages_extracted": 41,
+  "next_gate": "review unique native bindings; boundary semantics remain blocked",
+  "output": {
+    "path": "data/knowledge_bases/v0.1/source_native_field_bindings.jsonl",
+    "sha256": "e152197d51d9368871a4dadd0bcb65109dfb74f69c8e88674bd3bea54a46b5dd"
+  },
+  "promotion_count": 0,
+  "records": 145,
+  "schema_version": "0.1",
+  "status": "source_native_field_binding_diagnostic_complete_no_promotion"
+}

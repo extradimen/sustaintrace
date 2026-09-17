@@ -1,0 +1,41 @@
+{
+  "blocked_by_reason": {
+    "frozen_assurance_window_omits_identity_period_and_opinion": [
+      "fact-0ee1084737cd7da770afa776",
+      "fact-12b472bcdc555c98ae983e7a",
+      "fact-1bb10dc1f09958005e654061",
+      "fact-1c09e44aaabbcad13b697de5",
+      "fact-65f8e33bbea1ab6fd4a31956",
+      "fact-be683ad1745a2f90eabe5a2f",
+      "fact-e3045de0ee9a497e866789d5",
+      "fact-f598ae2714afecd460d38cbb"
+    ]
+  },
+  "blocked_fact_ids": [
+    "fact-0ee1084737cd7da770afa776",
+    "fact-12b472bcdc555c98ae983e7a",
+    "fact-1bb10dc1f09958005e654061",
+    "fact-1c09e44aaabbcad13b697de5",
+    "fact-65f8e33bbea1ab6fd4a31956",
+    "fact-be683ad1745a2f90eabe5a2f",
+    "fact-e3045de0ee9a497e866789d5",
+    "fact-f598ae2714afecd460d38cbb"
+  ],
+  "inputs": {
+    "atomic_increment_sha256": "46acda7be2ef0152d8cf8c421ccdf8094726baf0dc302060ac81fcccd4f1010e",
+    "atomic_validations_sha256": "fa2d527409657cb882ad0e5b118ce898a333a7f1dad088d53942f65d490b31ba",
+    "native_coordinate_audit_sha256": "2183ac70a1db4ae646dc158d669badf67d531672d92f2613d052f52a4a70a146"
+  },
+  "locked_experiments_modified_or_rescored": false,
+  "new_failure_observations": 1,
+  "newly_promoted_to_tier_b": 0,
+  "next_gate": "scale_batch_013_global_kb_rebuild_and_closure",
+  "outputs": {
+    "semantic_failures_sha256": "2376fc0ff776bc1f6e75115ee61a89752cb365cbaabf59634438cfffff995bef"
+  },
+  "promotable_fact_ids": [],
+  "reviewed": 8,
+  "schema_version": "0.1",
+  "source_candidate_records_modified": 0,
+  "status": "scale_batch_013_six_dimension_review_complete_zero_promotions"
+}

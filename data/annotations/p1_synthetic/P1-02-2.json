@@ -1,0 +1,9 @@
+{
+  "schema_version": "1.0", "task_id": "P1-02-2", "reference_author": "codex_gpt_simulated_expert", "reference_status": "verified",
+  "question": "What were BASF's 2024 financially controlled Scope 1 methane emissions, in million metric tons of CO2 equivalent?",
+  "answer_status": "verified_fact", "answer": 0.027, "normalized_value": 0.027, "normalized_unit": "million metric tons CO2e", "reported_unit": "million metric tons of CO2 equivalents",
+  "subject": "BASF Group", "scope_boundary": "Scope 1; financial control", "period": "2024", "calculation": null,
+  "evidence": [{"document_id": "BASF-AR-2024", "document_sha256": "6e09f996af8866f1a4a30df24f8c8447083282526e4800c83885c245bb33cc1c", "pdf_page": 200, "printed_page": "200", "verbatim_excerpt": "CH4 (methane) 0.027", "role": "claim_support"}],
+  "search_record": {"pages_reviewed": [200], "terms_used": ["CH4", "methane"], "notes": "2024 financial-control column visually verified."},
+  "controlled_intervention_id": null, "provenance_attestation": {"is_human": false, "is_ai_simulation": true, "candidate_model_excluded": true}
+}

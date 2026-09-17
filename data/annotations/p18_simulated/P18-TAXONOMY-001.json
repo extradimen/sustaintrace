@@ -1,0 +1,80 @@
+{
+  "answer": "For 2025, turnover totaled EUR 119,081 million and capex EUR 29,478 million. Reported taxonomy-eligible shares were 0.0%, aligned amounts EUR 0 million, and aligned shares 0.0% for both; non-material activities represented 2.5% of turnover and 1.6% of capex. Alignment was not assessed for those activities because each was under the 10% financial-materiality threshold and a cost-benefit decision was applied. Opex totaled EUR 3,198 million, its definition was broadened and the 2024 denominator retrospectively increased from EUR 0.4 billion to EUR 2.9 billion; eligible and aligned opex were not disclosed from 2025 because opex was not material.",
+  "evidence": [
+    {
+      "pdf_page": 121,
+      "quote": "account for less than 10 % of the Group’s total turnover and capex",
+      "source_id": "P18-DEUTSCHE-TELEKOM-AR2025"
+    },
+    {
+      "pdf_page": 121,
+      "quote": "assessment of their taxonomy-alignment was not carried out for cost-benefit reasons",
+      "source_id": "P18-DEUTSCHE-TELEKOM-AR2025"
+    },
+    {
+      "pdf_page": 122,
+      "quote": "EUR 0.4 billion previously reported to EUR 2.9 billion",
+      "source_id": "P18-DEUTSCHE-TELEKOM-AR2025"
+    },
+    {
+      "pdf_page": 122,
+      "quote": "taxonomy-eligible and taxonomy aligned opex will not be disclosed starting from the 2025 financial year",
+      "source_id": "P18-DEUTSCHE-TELEKOM-AR2025"
+    },
+    {
+      "pdf_page": 123,
+      "quote": "EU Taxonomy KPIs",
+      "source_id": "P18-DEUTSCHE-TELEKOM-AR2025"
+    },
+    {
+      "pdf_page": 123,
+      "quote": "119,081",
+      "source_id": "P18-DEUTSCHE-TELEKOM-AR2025"
+    },
+    {
+      "pdf_page": 123,
+      "quote": "29,478",
+      "source_id": "P18-DEUTSCHE-TELEKOM-AR2025"
+    },
+    {
+      "pdf_page": 123,
+      "quote": "3,198",
+      "source_id": "P18-DEUTSCHE-TELEKOM-AR2025"
+    },
+    {
+      "pdf_page": 123,
+      "quote": "2.5",
+      "source_id": "P18-DEUTSCHE-TELEKOM-AR2025"
+    },
+    {
+      "pdf_page": 123,
+      "quote": "1.6",
+      "source_id": "P18-DEUTSCHE-TELEKOM-AR2025"
+    }
+  ],
+  "normalized_value": {
+    "alignment_nonassessment_reason": "activities each below 10% of total turnover or capex and alignment not assessed for cost-benefit reasons",
+    "capex_aligned_million_eur::2025": 0,
+    "capex_aligned_percent::2025": 0.0,
+    "capex_eligible_percent::2025": 0.0,
+    "capex_nonmaterial_percent::2025": 1.6,
+    "capex_total_million_eur::2025": 29478,
+    "opex_2024_original_billion_eur": 0.4,
+    "opex_2024_restated_billion_eur": 2.9,
+    "opex_disclosure_status::2025": "taxonomy-eligible and taxonomy-aligned opex not disclosed because taxonomy-relevant opex is not material",
+    "opex_total_million_eur::2025": 3198,
+    "turnover_aligned_million_eur::2025": 0,
+    "turnover_aligned_percent::2025": 0.0,
+    "turnover_eligible_percent::2025": 0.0,
+    "turnover_nonmaterial_percent::2025": 2.5,
+    "turnover_total_million_eur::2025": 119081
+  },
+  "provenance": {
+    "candidate_model_used": false,
+    "reference_is_simulated": true
+  },
+  "reference_author": "codex_gpt_simulated_expert",
+  "reference_status": "verified_against_frozen_mineru_pages_and_native_layout",
+  "schema_version": "1.0",
+  "task_id": "P18-TAXONOMY-001"
+}

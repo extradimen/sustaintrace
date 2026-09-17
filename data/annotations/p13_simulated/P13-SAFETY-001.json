@@ -1,0 +1,7 @@
+{
+  "schema_version":"1.0","task_id":"P13-SAFETY-001","reference_author":"codex_gpt_simulated_expert","reference_status":"verified_against_frozen_pages",
+  "answer":"In 2025 Schneider Electric reported 92 lost-time accidents: 79 among employees and 13 among temporary workers. It reported 355,229,799 hours worked: 295,665,967 employee hours and 59,563,832 temporary-worker hours. Both totals reconcile exactly. Applying the stated LTIR formula gives 92 × 1,000,000 / 355,229,799 = 0.2590, which rounds to the disclosed total LTIR of 0.26 per million hours.",
+  "normalized_value":{"lost_time_accidents_total":92,"lost_time_accidents_employees":79,"lost_time_accidents_temporary_workers":13,"hours_total":355229799,"hours_employees":295665967,"hours_temporary_workers":59563832,"calculated_ltir":0.2590,"disclosed_ltir":0.26,"comparison":"equal_after_two_decimal_rounding"},
+  "evidence":[{"source_id":"P13-SCHNEIDER-URD2025","pdf_page":353,"quote":"Number of lost-time accidents(1)"},{"source_id":"P13-SCHNEIDER-URD2025","pdf_page":353,"quote":"of which Schneider Electric employees"},{"source_id":"P13-SCHNEIDER-URD2025","pdf_page":353,"quote":"of which temporary workers"},{"source_id":"P13-SCHNEIDER-URD2025","pdf_page":353,"quote":"Number of hours worked"},{"source_id":"P13-SCHNEIDER-URD2025","pdf_page":353,"quote":"Lost-Time Injury Rate (LTIR)(2)"}],
+  "provenance":{"reference_is_simulated":true,"candidate_model_used":false}
+}

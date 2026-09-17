@@ -1,0 +1,20 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-010-PERFORMANCE",
+  "status": "measurement_infrastructure_failure_preserved",
+  "failures": [
+    {
+      "stage": "post_diagnostic_peak_rss_collection",
+      "signature": "MACOS_TIME_L_SYSCTL_CLOCKRATE_SANDBOX_DENIED",
+      "diagnostic_process_completed": true,
+      "diagnostic_result_preserved": true,
+      "error": "time: sysctl kern.clockrate: Operation not permitted",
+      "recovery": "record wall time from emitted real-time measurement; leave peak RSS null; do not rerun the completed diagnostic"
+    }
+  ],
+  "policy": {
+    "silent_retry": false,
+    "successful_result_overwritten": false,
+    "cloud_transmission": false
+  }
+}

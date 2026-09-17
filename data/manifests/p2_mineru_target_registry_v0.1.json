@@ -1,0 +1,131 @@
+{
+  "parser": "MinerU 3.4.0 pipeline",
+  "schema_version": "1.0",
+  "targets": [
+    {
+      "document_id": "GM-CRD-2025",
+      "document_sha256": "a0d3e2348a5ac6f66c3101f403ce475e80af46ccfb5103e643873a485e7d017e",
+      "local_path": "data/raw/p2/gm/GM-CRD-2025.pdf",
+      "output_directory": "artifacts/p2/mineru_targets_retry1/GM-CRD-2025-p0022",
+      "pdf_page": 22,
+      "run_record_sha256": "b82f5cefa93b4288579540a13547102eb3655119ce81b3c0732b4df6adc361f0",
+      "status": "reused_verified_success",
+      "target_id": "GM-CRD-2025-p0022",
+      "task_ids": [
+        "P2-ABSTAIN-001",
+        "P2-SCOPE-001"
+      ]
+    },
+    {
+      "document_id": "META-SR-2025",
+      "document_sha256": "b44a27d7c12636d45b698269cac0300dfb53e9519c636e978386a48cdb110483",
+      "local_path": "data/raw/p2/meta/META-SR-2025.pdf",
+      "output_directory": "artifacts/p2/mineru_targets_retry1/META-SR-2025-p0012",
+      "pdf_page": 12,
+      "run_record_sha256": "75ab41904fbf298242fe96f68473a14d7620ee7c107c2c1b07e3f1ed363fffd4",
+      "status": "reused_verified_success",
+      "target_id": "META-SR-2025-p0012",
+      "task_ids": [
+        "P2-CONFLICT-001",
+        "P2-DEX-002"
+      ]
+    },
+    {
+      "document_id": "ORCL-CDP-2025",
+      "document_sha256": "7ebc74a40f35ee67d0f6e555ecb58f05f464579ef781495da82591cd38a582bc",
+      "local_path": "data/raw/p2/oracle/ORCL-CDP-2025.pdf",
+      "output_directory": "artifacts/p2/mineru_targets_retry1/ORCL-CDP-2025-p0100",
+      "pdf_page": 100,
+      "run_record_sha256": "77c9faaffe18d1c0f72d0b0ed2bc5d5038c6d1a0ac5d12e9fa869ae47c8b2736",
+      "status": "reused_verified_success",
+      "target_id": "ORCL-CDP-2025-p0100",
+      "task_ids": [
+        "P2-CALC-001",
+        "P2-CONFLICT-002",
+        "P2-DEX-001"
+      ]
+    },
+    {
+      "document_id": "ORCL-CDP-2025",
+      "document_sha256": "7ebc74a40f35ee67d0f6e555ecb58f05f464579ef781495da82591cd38a582bc",
+      "local_path": "data/raw/p2/oracle/ORCL-CDP-2025.pdf",
+      "output_directory": "artifacts/p2/mineru_targets_retry1/ORCL-CDP-2025-p0101",
+      "pdf_page": 101,
+      "run_record_sha256": "166f8c6e20fa1e53e2f6fcca744dc3168939cddf6edabca237ae7240b5ce2fb6",
+      "status": "reused_verified_success",
+      "target_id": "ORCL-CDP-2025-p0101",
+      "task_ids": [
+        "P2-CALC-001"
+      ]
+    },
+    {
+      "document_id": "PG-CR-2024",
+      "document_sha256": "22dee67eabf4702946807f2f5ec3460d06657f6937837db559fdcd2bb6e97d6d",
+      "local_path": "data/raw/p2/pg/PG-CR-2024.pdf",
+      "output_directory": "artifacts/p2/mineru_targets_retry1/PG-CR-2024-p0012",
+      "pdf_page": 12,
+      "run_record_sha256": "71d3851036f43aa731fed80866545bf14cf97abc5c28030ab0ffb510d91961ed",
+      "status": "reused_verified_success",
+      "target_id": "PG-CR-2024-p0012",
+      "task_ids": [
+        "P2-ABSTAIN-002",
+        "P2-SCOPE-002"
+      ]
+    },
+    {
+      "document_id": "ROG-AR-2025",
+      "document_sha256": "111a16ec739a16fd93cb3554d9631dd68807c83928423e17377fd7204b65c064",
+      "local_path": "data/raw/p2/roche/ROG-AR-2025.pdf",
+      "output_directory": "artifacts/p2/mineru_targets_retry1/ROG-AR-2025-p0019",
+      "pdf_page": 19,
+      "run_record_sha256": "81569353ac1171725b6a311505c9a0d9e02d541f45053893aa9bf869fde803d2",
+      "status": "reused_verified_success",
+      "target_id": "ROG-AR-2025-p0019",
+      "task_ids": [
+        "P2-XPAGE-002"
+      ]
+    },
+    {
+      "document_id": "ROG-AR-2025",
+      "document_sha256": "111a16ec739a16fd93cb3554d9631dd68807c83928423e17377fd7204b65c064",
+      "local_path": "data/raw/p2/roche/ROG-AR-2025.pdf",
+      "output_directory": "artifacts/p2/mineru_targets_retry1/ROG-AR-2025-p0097",
+      "pdf_page": 97,
+      "run_record_sha256": "5a4ffbb39659aa14d861738597c484409628da137c78e8ffb708d8258c2d8514",
+      "status": "reused_verified_success",
+      "target_id": "ROG-AR-2025-p0097",
+      "task_ids": [
+        "P2-CALC-002",
+        "P2-XPAGE-002"
+      ]
+    },
+    {
+      "document_id": "TLS-AR-2025",
+      "document_sha256": "68ebfdb17454e41ecffa869c89e4d905e29b7f4b3d94ed83e253dc9baaed2fef",
+      "local_path": "data/raw/p2/telstra/TLS-AR-2025.pdf",
+      "output_directory": "artifacts/p2/mineru_targets_retry1/TLS-AR-2025-p0007",
+      "pdf_page": 7,
+      "run_record_sha256": "9256d83980a59590023575b713c572228e96cffacdced4c702a5c8528b20ace8",
+      "status": "reused_verified_success",
+      "target_id": "TLS-AR-2025-p0007",
+      "task_ids": [
+        "P2-XPAGE-001"
+      ]
+    },
+    {
+      "document_id": "TLS-AR-2025",
+      "document_sha256": "68ebfdb17454e41ecffa869c89e4d905e29b7f4b3d94ed83e253dc9baaed2fef",
+      "local_path": "data/raw/p2/telstra/TLS-AR-2025.pdf",
+      "output_directory": "artifacts/p2/mineru_targets_retry1/TLS-AR-2025-p0010",
+      "output_file_count": 11,
+      "pdf_page": 10,
+      "run_record_sha256": "b9b2af8f6495d30062619a74fae1a48f308a71694e816def6fe7eb15ea55e776",
+      "status": "parsed",
+      "target_id": "TLS-AR-2025-p0010",
+      "task_ids": [
+        "P2-XPAGE-001"
+      ]
+    }
+  ],
+  "unique_target_count": 9
+}

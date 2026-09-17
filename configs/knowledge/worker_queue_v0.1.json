@@ -1,0 +1,318 @@
+{
+  "schema_version": "0.1",
+  "status": "active_deterministic_queue",
+  "tasks": [
+    {
+      "task_id": "population-targeted-regression-v01",
+      "mode": "deterministic",
+      "argv": [".venv/bin/pytest", "-q", "tests/test_organizational_population_boundary_validation_v01.py"],
+      "expected_outputs": []
+    },
+    {
+      "task_id": "full-pytest-after-population-v01",
+      "mode": "deterministic",
+      "argv": [".venv/bin/pytest", "-q"],
+      "expected_outputs": []
+    },
+    {
+      "task_id": "full-ruff-after-population-v01",
+      "mode": "deterministic",
+      "argv": [".venv/bin/ruff", "check", "."],
+      "expected_outputs": []
+    },
+    {
+      "task_id": "population-derived-adjudication-v01",
+      "mode": "deterministic",
+      "argv": [".venv/bin/python", "scripts/adjudicate_organizational_population_boundaries_v01.py"],
+      "expected_outputs": ["data/knowledge_bases/v0.1/organizational_population_boundary_adjudication_summary.lock.json"]
+    },
+    {
+      "task_id": "population-independent-promotion-v01",
+      "mode": "deterministic",
+      "argv": [".venv/bin/python", "scripts/promote_organizational_population_facts_v01.py"],
+      "expected_outputs": ["data/knowledge_bases/v0.1/population_promotion_summary.lock.json"]
+    },
+    {
+      "task_id": "population-promotion-regression-v01",
+      "mode": "deterministic",
+      "argv": [".venv/bin/pytest", "-q", "tests/test_organizational_population_promotion_v01.py"],
+      "expected_outputs": []
+    },
+    {
+      "task_id": "full-pytest-after-population-promotion-v01",
+      "mode": "deterministic",
+      "argv": [".venv/bin/pytest", "-q"],
+      "expected_outputs": []
+    },
+    {
+      "task_id": "full-ruff-after-population-promotion-v01",
+      "mode": "deterministic",
+      "argv": [".venv/bin/ruff", "check", "."],
+      "expected_outputs": []
+    },
+    {
+      "task_id": "target-performance-regression-v01",
+      "mode": "deterministic",
+      "argv": [".venv/bin/pytest", "-q", "tests/test_target_performance_boundary_validation_v01.py"],
+      "expected_outputs": []
+    },
+    {
+      "task_id": "semantic-controller-refresh-after-target-v01",
+      "mode": "deterministic",
+      "argv": [".venv/bin/python", "scripts/dry_run_semantic_boundary_controller_v01.py"],
+      "expected_outputs": ["data/knowledge_bases/v0.1/boundary_repair_controller_dry_run_summary.lock.json"]
+    },
+    {
+      "task_id": "full-pytest-after-target-validation-v01",
+      "mode": "deterministic",
+      "argv": [".venv/bin/pytest", "-q"],
+      "expected_outputs": []
+    },
+    {
+      "task_id": "full-ruff-after-target-validation-v01",
+      "mode": "deterministic",
+      "argv": [".venv/bin/ruff", "check", "."],
+      "expected_outputs": []
+    },
+    {
+      "task_id": "target-performance-derived-adjudication-v01",
+      "mode": "deterministic",
+      "argv": [".venv/bin/python", "scripts/adjudicate_target_performance_facts_v01.py"],
+      "expected_outputs": ["data/knowledge_bases/v0.1/target_performance_derived_adjudication_summary.lock.json"]
+    },
+    {
+      "task_id": "target-performance-derived-adjudication-regression-v01",
+      "mode": "deterministic",
+      "argv": [".venv/bin/pytest", "-q", "tests/test_target_performance_derived_adjudication_v01.py"],
+      "expected_outputs": []
+    },
+    {
+      "task_id": "target-performance-independent-promotion-v01",
+      "mode": "deterministic",
+      "argv": [".venv/bin/python", "scripts/promote_target_performance_facts_v01.py"],
+      "expected_outputs": ["data/knowledge_bases/v0.1/target_performance_promotion_summary.lock.json"]
+    },
+    {
+      "task_id": "target-performance-promotion-regression-v01",
+      "mode": "deterministic",
+      "argv": [".venv/bin/pytest", "-q", "tests/test_target_performance_promotion_v01.py"],
+      "expected_outputs": []
+    },
+    {
+      "task_id": "full-pytest-after-target-promotion-v01",
+      "mode": "deterministic",
+      "argv": [".venv/bin/pytest", "-q"],
+      "expected_outputs": []
+    },
+    {
+      "task_id": "full-ruff-after-target-promotion-v01",
+      "mode": "deterministic",
+      "argv": [".venv/bin/ruff", "check", "."],
+      "expected_outputs": []
+    },
+    {
+      "task_id": "repair-execution-state-machine-unit-v01",
+      "mode": "deterministic",
+      "argv": [".venv/bin/pytest", "-q", "tests/test_repair_execution_state_machine_v01.py"],
+      "expected_outputs": []
+    },
+    {
+      "task_id": "repair-execution-closure-replay-v01",
+      "mode": "deterministic",
+      "argv": [".venv/bin/python", "scripts/exercise_repair_execution_closure_v01.py"],
+      "expected_outputs": ["data/knowledge_bases/v0.1/repair_execution_closure_summary.lock.json"]
+    },
+    {
+      "task_id": "repair-execution-closure-regression-v01",
+      "mode": "deterministic",
+      "argv": [".venv/bin/pytest", "-q", "tests/test_repair_execution_closure_v01.py"],
+      "expected_outputs": []
+    },
+    {
+      "task_id": "full-pytest-after-repair-closure-v01",
+      "mode": "deterministic",
+      "argv": [".venv/bin/pytest", "-q"],
+      "expected_outputs": []
+    },
+    {
+      "task_id": "full-ruff-after-repair-closure-v01",
+      "mode": "deterministic",
+      "argv": [".venv/bin/ruff", "check", "."],
+      "expected_outputs": []
+    },
+    {
+      "task_id": "control-plane-query-targeted-regression-v01",
+      "mode": "deterministic",
+      "argv": [".venv/bin/pytest", "-q", "tests/test_control_plane_query_v01.py"],
+      "expected_outputs": []
+    },
+    {
+      "task_id": "control-plane-query-audit-v01",
+      "mode": "deterministic",
+      "argv": [".venv/bin/python", "scripts/audit_control_plane_query_v01.py"],
+      "expected_outputs": ["data/results/control_plane_query_v01_audit.lock.json"]
+    },
+    {
+      "task_id": "full-pytest-after-control-plane-query-v01",
+      "mode": "deterministic",
+      "argv": [".venv/bin/pytest", "-q"],
+      "expected_outputs": []
+    },
+    {
+      "task_id": "full-ruff-after-control-plane-query-v01",
+      "mode": "deterministic",
+      "argv": [".venv/bin/ruff", "check", "."],
+      "expected_outputs": []
+    },
+    {
+      "task_id": "repair-dispatch-unit-v01",
+      "mode": "deterministic",
+      "argv": [".venv/bin/pytest", "-q", "tests/test_repair_dispatch_v01.py"],
+      "expected_outputs": []
+    },
+    {
+      "task_id": "repair-dispatch-dry-run-v01",
+      "mode": "deterministic",
+      "argv": [".venv/bin/python", "scripts/dry_run_repair_dispatch_v01.py"],
+      "expected_outputs": ["data/knowledge_bases/v0.1/repair_dispatch_summary.lock.json"]
+    },
+    {
+      "task_id": "repair-dispatch-artifact-regression-v01",
+      "mode": "deterministic",
+      "argv": [".venv/bin/pytest", "-q", "tests/test_repair_dispatch_artifacts_v01.py"],
+      "expected_outputs": []
+    },
+    {
+      "task_id": "full-pytest-after-repair-dispatch-v01",
+      "mode": "deterministic",
+      "argv": [".venv/bin/pytest", "-q"],
+      "expected_outputs": []
+    },
+    {
+      "task_id": "full-ruff-after-repair-dispatch-v01",
+      "mode": "deterministic",
+      "argv": [".venv/bin/ruff", "check", "."],
+      "expected_outputs": []
+    },
+    {
+      "task_id": "control-plane-dispatch-regression-v02",
+      "mode": "deterministic",
+      "argv": [".venv/bin/pytest", "-q", "tests/test_control_plane_query_v01.py", "tests/test_repair_dispatch_artifacts_v01.py"],
+      "expected_outputs": []
+    },
+    {
+      "task_id": "control-plane-dispatch-audit-v02",
+      "mode": "deterministic",
+      "argv": [".venv/bin/python", "scripts/audit_control_plane_query_v02.py"],
+      "expected_outputs": ["data/results/control_plane_query_v02_audit.lock.json"]
+    },
+    {
+      "task_id": "full-pytest-after-control-plane-dispatch-v02",
+      "mode": "deterministic",
+      "argv": [".venv/bin/pytest", "-q"],
+      "expected_outputs": []
+    },
+    {
+      "task_id": "full-ruff-after-control-plane-dispatch-v02",
+      "mode": "deterministic",
+      "argv": [".venv/bin/ruff", "check", "."],
+      "expected_outputs": []
+    },
+    {
+      "task_id": "operational-handle-repair-execution-v01",
+      "mode": "deterministic",
+      "argv": [".venv/bin/python", "scripts/execute_operational_handle_repair_v01.py"],
+      "expected_outputs": ["data/operations/repair_cases/OP-REPAIR-HANDLE-P22-ENERGY-001/result_summary.lock.json"]
+    },
+    {
+      "task_id": "operational-handle-repair-regression-v01",
+      "mode": "deterministic",
+      "argv": [".venv/bin/pytest", "-q", "tests/test_operational_handle_repair_v01.py"],
+      "expected_outputs": []
+    },
+    {
+      "task_id": "full-pytest-after-operational-repair-v01",
+      "mode": "deterministic",
+      "argv": [".venv/bin/pytest", "-q"],
+      "expected_outputs": []
+    },
+    {
+      "task_id": "full-ruff-after-operational-repair-v01",
+      "mode": "deterministic",
+      "argv": [".venv/bin/ruff", "check", "."],
+      "expected_outputs": []
+    },
+    {
+      "task_id": "control-plane-operational-regression-v03",
+      "mode": "deterministic",
+      "argv": [".venv/bin/pytest", "-q", "tests/test_control_plane_query_v01.py", "tests/test_operational_handle_repair_v01.py"],
+      "expected_outputs": []
+    },
+    {
+      "task_id": "control-plane-operational-audit-v03",
+      "mode": "deterministic",
+      "argv": [".venv/bin/python", "scripts/audit_control_plane_query_v03.py"],
+      "expected_outputs": ["data/results/control_plane_query_v03_audit.lock.json"]
+    },
+    {
+      "task_id": "full-pytest-after-control-plane-operational-v03",
+      "mode": "deterministic",
+      "argv": [".venv/bin/pytest", "-q"],
+      "expected_outputs": []
+    },
+    {
+      "task_id": "full-ruff-after-control-plane-operational-v03",
+      "mode": "deterministic",
+      "argv": [".venv/bin/ruff", "check", "."],
+      "expected_outputs": []
+    },
+    {
+      "task_id": "operational-repair-negative-and-idempotency-v01",
+      "mode": "deterministic",
+      "argv": [".venv/bin/pytest", "-q", "tests/test_repair_operational_v01.py", "tests/test_operational_handle_repair_v01.py"],
+      "expected_outputs": []
+    },
+    {
+      "task_id": "full-pytest-after-operational-negative-v01",
+      "mode": "deterministic",
+      "argv": [".venv/bin/pytest", "-q"],
+      "expected_outputs": []
+    },
+    {
+      "task_id": "full-ruff-after-operational-negative-v01",
+      "mode": "deterministic",
+      "argv": [".venv/bin/ruff", "check", "."],
+      "expected_outputs": []
+    },
+    {
+      "task_id": "scale-batch-001-target-registry-v01",
+      "mode": "deterministic",
+      "argv": [".venv/bin/python", "scripts/build_scale_batch_target_registry_v01.py"],
+      "expected_outputs": ["data/manifests/scale_batch_001_target_pages.lock.json"]
+    },
+    {
+      "task_id": "scale-batch-001-registry-regression-v01",
+      "mode": "deterministic",
+      "argv": [".venv/bin/pytest", "-q", "tests/test_scale_batch_001_v01.py"],
+      "expected_outputs": []
+    },
+    {
+      "task_id": "scale-batch-001-mineru-targets-v01",
+      "mode": "deterministic",
+      "argv": [".venv/bin/python", "scripts/run_scale_batch_mineru_v01.py"],
+      "expected_outputs": ["data/results/scale_batch_001_mineru_summary.lock.json"]
+    },
+    {
+      "task_id": "scale-batch-001-full-pytest-v01",
+      "mode": "deterministic",
+      "argv": [".venv/bin/pytest", "-q"],
+      "expected_outputs": []
+    },
+    {
+      "task_id": "scale-batch-001-full-ruff-v01",
+      "mode": "deterministic",
+      "argv": [".venv/bin/ruff", "check", "."],
+      "expected_outputs": []
+    }
+  ]
+}

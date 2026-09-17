@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.0",
+  "status": "development_regression_recovery",
+  "parent_result": "data/results/v2.5_p15_exposed_failure_regression_v0.1.lock.json",
+  "parent_status": "P15 exposed failures passed but full-suite P13 grouped-comma regression failed",
+  "cause": "first grouped-space numeric regex incorrectly merged a preceding one-digit metric label with a following comma-grouped number",
+  "correction": "separate comma-grouped, space-grouped and plain-number token alternatives",
+  "candidate_model_called": false,
+  "locked_experiments_modified_rerun_or_rescored": false,
+  "resume_result": "data/results/v2.5_p15_exposed_failure_regression_RESUME01_v0.1.lock.json"
+}

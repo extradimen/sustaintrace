@@ -1,0 +1,65 @@
+{
+  "schema_version": "0.1",
+  "closure_id": "ESG-SECOND-REPAIR-QUEUE-CLOSURE-v0.1",
+  "created_at": "2026-09-14T13:48:48+08:00",
+  "status": "second_repair_queue_frozen_no_execution",
+  "outcome": {
+    "queue_records": 2660,
+    "deterministic_binding_screen": 829,
+    "read_only_diagnostic": 897,
+    "semantic_block": 934,
+    "repair_executions": 0,
+    "semantic_repairs": 0,
+    "historical_outputs_modified_or_rescored": 0,
+    "cloud_transmissions": 0
+  },
+  "inputs": {
+    "knowledge_gaps": {
+      "path": "data/knowledge_bases/v0.1/knowledge_gap_records.jsonl",
+      "sha256": "858a37ede7bd213c1c3d1e9136d5d8be6bc6e6f12f147124318347cb3a8cef76"
+    },
+    "repair_rankings": {
+      "path": "data/knowledge_bases/v0.1/repair_gap_rankings.jsonl",
+      "sha256": "2ea36c86ec405a8d1672936e65ba974e65c4a1e47051491909928bac4e6c6b11"
+    }
+  },
+  "artifacts": {
+    "queue": {
+      "path": "data/knowledge_bases/v0.1/second_repair_queue.jsonl",
+      "sha256": "d42b80dd509c8476097b7602953cf809403407eae5ccee17e38a0ed57301a8d7"
+    },
+    "summary": {
+      "path": "data/knowledge_bases/v0.1/second_repair_queue_summary.lock.json",
+      "sha256": "b5bbfcdb30eda171fc66b86766aa2c2ece4b9bd461720a754c3c119869b784e3"
+    },
+    "implementation": {
+      "path": "src/esg_reliable_discovery/repair_queue.py",
+      "sha256": "df4c29568ed2180046c384464d2e14fe3c8640e8532d8f63e8f3a1bafa67daba"
+    },
+    "builder": {
+      "path": "scripts/build_second_repair_queue_v01.py",
+      "sha256": "e3713e4cf9766c30e5652a1f618f08b1fdefc0a8f74f1a85020b4b6e796ec919"
+    },
+    "schema": {
+      "path": "schemas/knowledge/second-repair-queue-item-v0.1.schema.json",
+      "sha256": "71e9a6a5290096a941f2962738a56c01948c17e9527f970fc19165a619f8ffd6"
+    },
+    "tests": {
+      "path": "tests/test_second_repair_queue_v01.py",
+      "sha256": "4fc76cf1068ec28c2184f660b907341256528dc730ef360542f81907193531cf"
+    },
+    "report": {
+      "path": "docs/158_第二修复队列冻结与风险分层_v0.1.md",
+      "sha256": "6b6aef6135f325e8927c8519a9cb75ceaee5f589f6b2cb7ac26e8150b3269f72"
+    }
+  },
+  "quality_gates": {
+    "pytest_collected_and_passed": 512,
+    "ruff": "passed",
+    "json_audit": "passed_with_documented_legacy_p1_exclusion",
+    "queue_schema_validation": "passed",
+    "unique_queue_ids": 2660,
+    "locked_experiments_modified_or_rescored": false
+  },
+  "next_gate": "build exposed-only deterministic fixtures for read-only binders"
+}

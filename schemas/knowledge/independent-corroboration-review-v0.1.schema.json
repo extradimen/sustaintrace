@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/esg/independent-corroboration-review-v0.1.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version", "record_kind", "fact_record_id", "task_id", "predicate",
+    "value", "candidate_source", "assurance_scope_status", "review_status",
+    "independent_source_frozen", "promotion_eligible", "promotion_blockers",
+    "review_notes"
+  ],
+  "properties": {
+    "schema_version": {"const": "0.1"},
+    "record_kind": {"const": "independent_corroboration_review"},
+    "fact_record_id": {"type": "string", "pattern": "^fact-[0-9a-f]{24}$"},
+    "task_id": {"type": "string", "minLength": 1},
+    "predicate": {"type": "string", "minLength": 1},
+    "value": {},
+    "candidate_source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "source_class", "provider", "provider_role", "title", "url",
+        "assurance_level", "assurance_standard", "reporting_period",
+        "evidence_locator", "local_artifact", "local_artifact_sha256",
+        "parent_artifact", "parent_artifact_sha256"
+      ],
+      "properties": {
+        "source_class": {"const": "independent_assurance_statement"},
+        "provider": {"type": "string", "minLength": 1},
+        "provider_role": {"const": "independent_assurance_provider"},
+        "title": {"type": "string", "minLength": 1},
+        "url": {"type": "string", "pattern": "^https://"},
+        "assurance_level": {"const": "limited_assurance"},
+        "assurance_standard": {"type": "string", "minLength": 1},
+        "reporting_period": {"const": "2025"},
+        "local_artifact": {"type": "string", "minLength": 1},
+        "local_artifact_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+        "parent_artifact": {"type": "string", "minLength": 1},
+        "parent_artifact_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+        "evidence_locator": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["assurance_report_pages", "metric_scope_locator"],
+          "properties": {
+            "assurance_report_pages": {
+              "type": "array", "items": {"type": "integer", "minimum": 1},
+              "minItems": 1, "uniqueItems": true
+            },
+            "metric_scope_locator": {"type": "string", "minLength": 1}
+          }
+        }
+      }
+    },
+    "assurance_scope_status": {
+      "enum": [
+        "direct_independent_statement",
+        "metric_explicitly_listed",
+        "statement_level_requires_metric_adjudication",
+        "explicitly_excluded_or_unaudited"
+      ]
+    },
+    "review_status": {
+      "enum": [
+        "frozen_ready_for_dimension_adjudication",
+        "frozen_pending_metric_scope_adjudication",
+        "frozen_blocked_scope_exclusion"
+      ]
+    },
+    "independent_source_frozen": {"const": true},
+    "promotion_eligible": {"const": false},
+    "promotion_blockers": {
+      "type": "array", "items": {"type": "string"}, "minItems": 1, "uniqueItems": true
+    },
+    "review_notes": {"type": "array", "items": {"type": "string"}, "minItems": 1}
+  }
+}

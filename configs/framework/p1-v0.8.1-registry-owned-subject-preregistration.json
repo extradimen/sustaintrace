@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "framework_version": "P1-PIPELINE-v0.8.1-REGISTRY-OWNED-SUBJECT",
+  "status": "preregistered_before_inference",
+  "registered_at": "2026-09-04T20:00:00+08:00",
+  "parent_framework": "P1-PIPELINE-v0.8-STAGE-B-ATOMIC-CLAIM",
+  "triggering_archived_run": "P1-02-2-GEMMA4-12B-stage-b-v08-r1",
+  "observed_failure": "The model used the metric label as the subject, which would create an incorrect company node.",
+  "only_change": "Remove subject from model output. Resolve entity_id and entity_label deterministically from the frozen source registry using the selected evidence source document id, and add them only in the framework projection.",
+  "entity_resolution_rules": [
+    "All selected evidence for one atomic claim must resolve to one source document id.",
+    "The source registry must contain exactly one eligible candidate with that document id.",
+    "The source registry document SHA-256 must equal the frozen acquisition/source hash.",
+    "The framework entity id is ENTITY::<document_id>; label is the frozen registry company value."
+  ],
+  "unchanged": [
+    "Metric, value, verbatim value, unit, period, scope, and evidence-handle model fields.",
+    "All numeric, period, ontology, archive, timeout, and no-repair checks."
+  ],
+  "posthoc_subject_repair_allowed": false,
+  "reference_answer_visible_during_inference": false,
+  "inference_allowed": false,
+  "next_gate": "implementation_tests_and_hash_freeze"
+}

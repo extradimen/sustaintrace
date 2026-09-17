@@ -1,0 +1,59 @@
+{
+  "candidate_reference_visibility": false,
+  "cloud_transmission_allowed": false,
+  "document_id": "P18-DEUTSCHE-TELEKOM-AR2025",
+  "document_sha256": "de5d9b0705793c4bf0b994b52ecc242800d79ee18736958dbff32aade7b79a5c",
+  "experiment_id": "P18-V27-UNSEEN-LOCKBOX-V01",
+  "integrity_audit": {
+    "all_quotes_exact_substrings_of_frozen_MinerU_markdown": true,
+    "all_reference_pages_within_frozen_task_windows": true,
+    "candidate_model_used": false,
+    "cloud_transmission_occurred": false,
+    "evidence_quote_count": 47,
+    "numeric_values_cross_checked_against_native_layout": true,
+    "reference_count": 6
+  },
+  "manifest_id": "P18-SIMULATED-REFERENCE-FREEZE-v0.1",
+  "references": [
+    {
+      "path": "data/annotations/p18_simulated/P18-ASSURE-001.json",
+      "sha256": "ee166f76b9b1f13f4db781559beb61c6912c36b1a3f833a5f70bc8a124f5f336",
+      "task_id": "P18-ASSURE-001"
+    },
+    {
+      "path": "data/annotations/p18_simulated/P18-ENERGY-001.json",
+      "sha256": "accfbed788ee4f02675436dcf6ba7c29b3858c2a2594a0934e39568c3ae79fce",
+      "task_id": "P18-ENERGY-001"
+    },
+    {
+      "path": "data/annotations/p18_simulated/P18-GHG-CALC-001.json",
+      "sha256": "7a0511bed0831f30f1a246df134d6359ed056328f8e75f6bfaba83a385a4cb82",
+      "task_id": "P18-GHG-CALC-001"
+    },
+    {
+      "path": "data/annotations/p18_simulated/P18-SCOPE3-001.json",
+      "sha256": "df3b6f2bc1a585f11bd16db0edf3c00f673d8d76e9e856934bad78c6f2589462",
+      "task_id": "P18-SCOPE3-001"
+    },
+    {
+      "path": "data/annotations/p18_simulated/P18-TAXONOMY-001.json",
+      "sha256": "2e42f4c42495d632d897c3cf581cb49224e0c0a867f3c4218fea1fc9a2f958f8",
+      "task_id": "P18-TAXONOMY-001"
+    },
+    {
+      "path": "data/annotations/p18_simulated/P18-WORKFORCE-001.json",
+      "sha256": "d487b33599772f0635c9092a5206c9184812cfd059d93243dc3841fff24044b0",
+      "task_id": "P18-WORKFORCE-001"
+    }
+  ],
+  "schema_version": "1.0",
+  "status": "simulated_references_frozen_after_questions_and_page_windows_and_before_candidate_inference",
+  "target_registry": {
+    "path": "data/manifests/p18_mineru_target_registry_v0.1.lock.json",
+    "sha256": "9ecaf341c6fc334a780727292b7813d75fa2d422d98d92dd682f5a8c4833db1d"
+  },
+  "task_pack": {
+    "path": "data/tasks/p18_task_pack_v0.1.lock.json",
+    "sha256": "231955ba5c1f03ad06dbbf0dfc770b18d61ae15d5106faf451f714aac7b822aa"
+  }
+}

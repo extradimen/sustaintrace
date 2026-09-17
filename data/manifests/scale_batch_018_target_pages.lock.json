@@ -1,0 +1,318 @@
+{
+  "schema_version": "0.1",
+  "registry_id": "KB-SCALE-BATCH-018-TARGET-PAGES-v0.1",
+  "batch_id": "KB-SCALE-BATCH-018",
+  "created_at": "2026-09-13T11:54:04.521708+00:00",
+  "status": "target_pages_locked_after_assurance_preflight_before_mineru",
+  "cloud_transmission": false,
+  "assurance_window_preflight": [
+    {
+      "document_id": "KB-B018-EPIROC-ASR2025",
+      "pages": [
+        233,
+        234,
+        235
+      ],
+      "required_literal_checks": {
+        "issuer_identity": true,
+        "reporting_period": true,
+        "opinion_or_conclusion": true,
+        "signatory_identity": true
+      },
+      "window_text_sha256": "61f31bba107dde06a6ae11da98f6d6358691641d7812172f09ebebe49b2aeee3",
+      "status": "passed_before_target_freeze"
+    },
+    {
+      "document_id": "KB-B018-ALFA-LAVAL-ASR2025",
+      "pages": [
+        145,
+        146
+      ],
+      "required_literal_checks": {
+        "issuer_identity": true,
+        "reporting_period": true,
+        "opinion_or_conclusion": true,
+        "signatory_identity": true
+      },
+      "window_text_sha256": "7087f7ec4f37f32da02749035b5ed6a7e6799482c5ae241912ee3efcb6c23011",
+      "status": "passed_before_target_freeze"
+    },
+    {
+      "document_id": "KB-B018-SSAB-AR2025",
+      "pages": [
+        183,
+        184
+      ],
+      "required_literal_checks": {
+        "issuer_identity": true,
+        "reporting_period": true,
+        "opinion_or_conclusion": true,
+        "signatory_identity": true
+      },
+      "window_text_sha256": "a819e97d2f9f76d5f9045e9397be86854c3e883ac007a418fc8d63ffdb696054",
+      "status": "passed_before_target_freeze"
+    }
+  ],
+  "documents": [
+    {
+      "document_id": "KB-B018-EPIROC-ASR2025",
+      "source_group_id": "KB-EPIROC-2025",
+      "local_path": "data/raw/scale_batch_018/epiroc-annual-and-sustainability-report-2025.pdf",
+      "document_sha256": "0f6ac036c297f60a21cb21e6a37defaa480e4e9c5977582d714bb9ace5a6842c",
+      "selection_rule": "audited_theme_page_selection_v0.3_with_assurance_window_preflight",
+      "target_pages": [
+        {
+          "page": 41,
+          "themes": [
+            "targets"
+          ],
+          "native_text_sha256": "dd9dded995e42acc6a9dc93bfad9407f2eaa611aa5b88bf26279b6245cd6c75c",
+          "native_text_characters": 4649
+        },
+        {
+          "page": 93,
+          "themes": [
+            "biodiversity",
+            "water"
+          ],
+          "native_text_sha256": "75b92e6c4869706a552c9142b9e94f2c9897c2c48c0a7a310669fdbc1295802c",
+          "native_text_characters": 3887
+        },
+        {
+          "page": 106,
+          "themes": [
+            "energy",
+            "ghg_emissions"
+          ],
+          "native_text_sha256": "d393326e2135b55c3aabd36ff2a5989c62b83524acde8b34ca930c876bffadd5",
+          "native_text_characters": 6842
+        },
+        {
+          "page": 108,
+          "themes": [
+            "ghg_emissions"
+          ],
+          "native_text_sha256": "1ca60c66f4f59929c7f40e527b048b78c394aeb5b473c1823277b09a288b791d",
+          "native_text_characters": 8132
+        },
+        {
+          "page": 117,
+          "themes": [
+            "circularity"
+          ],
+          "native_text_sha256": "655833c08ecb2beef29f587e09108b830ef63a786ae94d1462b7b2b9180aa185",
+          "native_text_characters": 5546
+        },
+        {
+          "page": 128,
+          "themes": [
+            "health_safety"
+          ],
+          "native_text_sha256": "6583b23f95d84d593333224147b4dca62f2673ca1f68e4b91cb82b6d06530272",
+          "native_text_characters": 7213
+        },
+        {
+          "page": 132,
+          "themes": [
+            "workforce"
+          ],
+          "native_text_sha256": "5bab7e28f00b45d76e7006047ff5b1ad477c4b4ae27a7ecbed8cc3b50324f584",
+          "native_text_characters": 5604
+        },
+        {
+          "page": 233,
+          "themes": [
+            "assurance"
+          ],
+          "native_text_sha256": "ec631e57b8c0a305a650b84a4d6b6d7b1c843f31f9069709e6b8bb1a8e64b370",
+          "native_text_characters": 2723
+        },
+        {
+          "page": 234,
+          "themes": [
+            "assurance"
+          ],
+          "native_text_sha256": "3a63f1c2f6d2b4c3c55a51ad570c266a38dbcb5e6e881ff22492f5a32fa6dafb",
+          "native_text_characters": 4890
+        },
+        {
+          "page": 235,
+          "themes": [
+            "assurance"
+          ],
+          "native_text_sha256": "4bf9d8dc8697d5866a59803454e85d0143f7a4e90e05e07fe935e478da397b07",
+          "native_text_characters": 4672
+        }
+      ]
+    },
+    {
+      "document_id": "KB-B018-ALFA-LAVAL-ASR2025",
+      "source_group_id": "KB-ALFA-LAVAL-2025",
+      "local_path": "data/raw/scale_batch_018/alfa-laval-annual-and-sustainability-report-2025.pdf",
+      "document_sha256": "dd35e84d8605d0eb174b55e4ab7cb0e46f50572c436efd91c9463c216b436177",
+      "selection_rule": "audited_theme_page_selection_v0.3_with_assurance_window_preflight",
+      "target_pages": [
+        {
+          "page": 33,
+          "themes": [
+            "targets"
+          ],
+          "native_text_sha256": "9336d7f6fa4d2fcca06f8d8f9b80d482b65313484a261aaf4a07d28d3f073f17",
+          "native_text_characters": 7685
+        },
+        {
+          "page": 34,
+          "themes": [
+            "energy"
+          ],
+          "native_text_sha256": "1507858ef2081ea5d093019af9a90805ed91095d147c352c0a1bc769291b48bc",
+          "native_text_characters": 6617
+        },
+        {
+          "page": 35,
+          "themes": [
+            "ghg_emissions"
+          ],
+          "native_text_sha256": "2ecae20bfe56c2f41712abbaf4182c6d1e82f95c278fb7752484647ae60e58ed",
+          "native_text_characters": 6611
+        },
+        {
+          "page": 38,
+          "themes": [
+            "water"
+          ],
+          "native_text_sha256": "f6ff0a02d1139a43dc49655f8847148576bc21b778e4dcebab7e61575aaa469e",
+          "native_text_characters": 7273
+        },
+        {
+          "page": 42,
+          "themes": [
+            "circularity"
+          ],
+          "native_text_sha256": "62f67e9b9bdc26229eae937ca22040035b8be82acfdddbf0e5d1b79a31b2b7b6",
+          "native_text_characters": 6061
+        },
+        {
+          "page": 61,
+          "themes": [
+            "health_safety",
+            "workforce"
+          ],
+          "native_text_sha256": "c29bc543c128212afd2085bbaddf2b4aee87c0b6da3a442987f2b42edda606a0",
+          "native_text_characters": 10089
+        },
+        {
+          "page": 64,
+          "themes": [
+            "biodiversity"
+          ],
+          "native_text_sha256": "bdeb1ab5db042caa24f850812dad5cd65186e3b80e42b56bb247a9496fe6addb",
+          "native_text_characters": 7578
+        },
+        {
+          "page": 145,
+          "themes": [
+            "assurance"
+          ],
+          "native_text_sha256": "161cd8dd5d36f5cd791d00aac4ce4e7b4899cc66699d9667f348575df1dfebfc",
+          "native_text_characters": 6028
+        },
+        {
+          "page": 146,
+          "themes": [
+            "assurance"
+          ],
+          "native_text_sha256": "bf7c46b799213c64fca0cd747a2c3f63211e9fe9e65b0637a0956f1e33c8fc92",
+          "native_text_characters": 5370
+        }
+      ]
+    },
+    {
+      "document_id": "KB-B018-SSAB-AR2025",
+      "source_group_id": "KB-SSAB-2025",
+      "local_path": "data/raw/scale_batch_018/ssab-annual-report-2025.pdf",
+      "document_sha256": "f2c778dec52913b4b4bab5fd9e7487a2cee9e25b94e68bed9919be4abee3530f",
+      "selection_rule": "audited_theme_page_selection_v0.3_with_assurance_window_preflight",
+      "target_pages": [
+        {
+          "page": 80,
+          "themes": [
+            "targets"
+          ],
+          "native_text_sha256": "369e9b043b75ee694f3ffee8ade63b4d6e44e53b165a2d86ba2fd519614436f6",
+          "native_text_characters": 10178
+        },
+        {
+          "page": 84,
+          "themes": [
+            "ghg_emissions"
+          ],
+          "native_text_sha256": "a6c954e6c331e4f80aa091859199e9d8fcb1b0bb6b453e687ff95113f2ff0a60",
+          "native_text_characters": 6727
+        },
+        {
+          "page": 86,
+          "themes": [
+            "energy"
+          ],
+          "native_text_sha256": "02e0ff4c13f435e6bdc31903be98657c2a18ad0787dff76c44d50ebca40241c0",
+          "native_text_characters": 10094
+        },
+        {
+          "page": 92,
+          "themes": [
+            "circularity"
+          ],
+          "native_text_sha256": "2af81c4bfe9a2c5dfe9807237a10b968f76fbedcb447419145b82ba0dbb659b5",
+          "native_text_characters": 8209
+        },
+        {
+          "page": 96,
+          "themes": [
+            "biodiversity",
+            "water"
+          ],
+          "native_text_sha256": "2709318e0c1a7eeb1b34f63c0eb6aca72096f780118c1ed269373f521bc72cd2",
+          "native_text_characters": 7503
+        },
+        {
+          "page": 104,
+          "themes": [
+            "workforce"
+          ],
+          "native_text_sha256": "a55d525a4a37751a4c660d30c318de81042481df1b35ebd09fc76764b977c22e",
+          "native_text_characters": 7624
+        },
+        {
+          "page": 106,
+          "themes": [
+            "health_safety"
+          ],
+          "native_text_sha256": "f270994633c3f155649f09bc2f3cdedff7d306b71b046aec04da5b59e5e89752",
+          "native_text_characters": 5433
+        },
+        {
+          "page": 183,
+          "themes": [
+            "assurance"
+          ],
+          "native_text_sha256": "4874a6e428e147b69366aedb411454dff758f8b442eae8aa404f6febf16d927f",
+          "native_text_characters": 6577
+        },
+        {
+          "page": 184,
+          "themes": [
+            "assurance"
+          ],
+          "native_text_sha256": "a08c7b17544469796e514cdf567f49ad5ebbd43c75809395983d2d19f5b62960",
+          "native_text_characters": 6567
+        }
+      ]
+    }
+  ],
+  "totals": {
+    "documents": 3,
+    "unique_target_pages": 28,
+    "assurance_windows_passed": 3
+  }
+}

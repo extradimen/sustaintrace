@@ -1,0 +1,37 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-023",
+  "created_at": "2026-09-14T02:08:17+08:00",
+  "status": "complete_and_source_set_frozen",
+  "documents": [
+    {
+      "document_id": "KB-B023-LVMH-RSE2025",
+      "local_path": "data/raw/scale_batch_023/lvmh-social-and-environmental-responsibility-report-2025.pdf",
+      "bytes": 18617313,
+      "pages": 157,
+      "sha256": "ad955bac64c00e943f8431b6575e174b50b54e3c9ba23aa7a7423f60865b0045",
+      "pdf_valid": true,
+      "exact_sha256_duplicate": false
+    },
+    {
+      "document_id": "KB-B023-ARKEMA-URD2025",
+      "local_path": "data/raw/scale_batch_023/arkema-universal-registration-document-2025.pdf",
+      "bytes": 15306396,
+      "pages": 458,
+      "sha256": "de11061374f70634028b7ffc561e33f93d2f69bf26043888f09be18a8f4f1632",
+      "pdf_valid": true,
+      "exact_sha256_duplicate": false
+    },
+    {
+      "document_id": "KB-B023-CRH-SPR2025",
+      "local_path": "data/raw/scale_batch_023/crh-sustainability-performance-report-2025.pdf",
+      "bytes": 12177460,
+      "pages": 96,
+      "sha256": "838c40c5c4a2bf8ebfb225d5f6579e38de4565efad44d91ce6fd456dea3ef9ba",
+      "pdf_valid": true,
+      "exact_sha256_duplicate": false
+    }
+  ],
+  "cross_experiment_sha256_deduplication": "passed",
+  "cloud_transmission": false
+}

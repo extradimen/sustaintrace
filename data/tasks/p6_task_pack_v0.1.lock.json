@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0",
+  "experiment_id": "P6-V15-UNSEEN-LOCKBOX-V01",
+  "status": "questions_and_page_windows_frozen_before_reference_creation_and_candidate_inference",
+  "inference_allowed": false,
+  "tasks": [
+    {
+      "task_id": "P6-TARGET-001",
+      "document_id": "P6-UNILEVER-AR2025",
+      "task_type": "scope_subject_boundary",
+      "question_status": "frozen",
+      "question": "What was Unilever's 2025 progress against its absolute operational Scope 1 and 2 emissions target, and which emissions were explicitly excluded from the target scope?",
+      "target_pages": [232]
+    },
+    {
+      "task_id": "P6-DEX-001",
+      "document_id": "P6-UNILEVER-AR2025",
+      "task_type": "direct_extraction",
+      "question_status": "frozen",
+      "question": "What Gross Scope 1 GHG emissions did Unilever report for 2025, 2024 and 2023, and what year-on-year percentage change did it report for 2025 versus 2024?",
+      "target_pages": [235]
+    },
+    {
+      "task_id": "P6-CALC-001",
+      "document_id": "P6-UNILEVER-AR2025",
+      "task_type": "deterministic_calculation",
+      "question_status": "frozen",
+      "question": "Using reported Gross Scope 1 GHG emissions, calculate the percentage change from 2024 to 2025 and compare it with the report's rounded percentage change.",
+      "target_pages": [235]
+    },
+    {
+      "task_id": "P6-PLASTIC-001",
+      "document_id": "P6-UNILEVER-AR2025",
+      "task_type": "scope_subject_boundary",
+      "question_status": "frozen",
+      "question": "What operations and packaging were excluded from Unilever's plastic packaging targets, and how material was the collaborative-manufacturer exclusion?",
+      "target_pages": [247]
+    },
+    {
+      "task_id": "P6-CONFLICT-001",
+      "document_id": "P6-UNILEVER-AR2025",
+      "task_type": "scope_subject_boundary",
+      "question_status": "frozen",
+      "question": "Did Unilever report a 2025 work-related fatality? Resolve the apparent difference between the Unilever and Ice Cream health-and-safety tables using the stated allocation boundary.",
+      "target_pages": [262]
+    },
+    {
+      "task_id": "P6-ASSURE-001",
+      "document_id": "P6-UNILEVER-AR2025",
+      "task_type": "scope_subject_boundary",
+      "question_status": "frozen",
+      "question": "Who performed the sustainability assurance engagement, what level of assurance was provided, what statement and period were covered, and what accompanying information was excluded?",
+      "target_pages": [274, 275]
+    }
+  ]
+}

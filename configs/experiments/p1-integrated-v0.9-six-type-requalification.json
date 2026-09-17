@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "experiment_id": "P1-INTEGRATED-V09-SIX-TYPE-REQUALIFICATION",
+  "status": "stopped_after_calculation_contract_failure",
+  "purpose": "Final same-hash P1 qualification of the evidence-first Stage A and atomic-claim Stage B pipeline before P2.",
+  "authorized_cloud_scope": {
+    "model": "qwen3.5:397b-cloud",
+    "model_digest": "68d2a0796c11e1fedd0456a2d55e58cca4077be6a218428a7a7f4e21f8177cbc",
+    "public_selected_report_evidence_only": true,
+    "controlled_synthetic_conflict_note": true,
+    "full_pdf_upload": false,
+    "p2_data": false,
+    "user_authorized": true
+  },
+  "frozen_hashes": {
+    "stage_a_core_sha256": "dbc835662552796915be2842b558117c825d6b267655c7be9740c1e709e6b7f2",
+    "stage_a_runner_sha256": "03893ff2190229c8aebee6607cb574b471fc2001b601f5b87315594168718e7b",
+    "stage_a_prompt_sha256": "e747d115491b2a9080b26a341186aaae76e6df35021d8bc7a1496246ec75a969",
+    "stage_b_core_sha256": "faa6081c5821e1335a32f33fe766ad98aee56683465cfee807afe985f4a342fe",
+    "stage_b_runner_sha256": "fe5b1bcd2cb0ff401d21c10d1da3560b503f436805ca3fef1bb0db8f386b9014",
+    "stage_b_prompt_sha256": "b0c46b2ad1e730c2f8528ef55fc43c0439a05d24658c017d5605ebd428938607",
+    "ontology_sha256": "b8c64fa953c5e51a221493c2606ba426879486a2f8ab0efb35d65e4e14610ddb",
+    "mineru_registry_sha256": "e1ec7003d3cbb00b3232ecfdc1286f64e13bb36b24d866186e29dc2b73187880",
+    "source_registry_sha256": "78bff70845dd91286dcc0ae8ae1ea9551df9a715043bc23fc95a30925d085732",
+    "task_pack_sha256": "a278f711ee1bc5e95c6ae437c62e6685b669631c5462e1a41fd01dd48091f64b"
+  },
+  "run_order": [
+    {"order": 1, "task_type": "abstention", "task_id": "P1-01-1", "stage_a_run_id": "P1-01-1-QWEN397B-v09-r1", "stage_b_required": false, "status": "passed", "elapsed_seconds": 6.273741459008306, "sha256s_sha256": "e20d70b33573966fea412883a8aa7bb2e9a0846fdeead4737d56429679019775"},
+    {"order": 2, "task_type": "deterministic_calculation", "task_id": "P1-02-1", "stage_a_run_id": "P1-02-1-QWEN397B-v09-r1", "stage_b_required": false, "status": "failed_legacy_rich_contract", "sha256s_sha256": "8dbbd4bcb5e139d2a445216c26b930086ef87bb52ca1610737525f2374476db3"},
+    {"order": 3, "task_type": "direct_extraction", "task_id": "P1-02-2", "stage_a_run_id": "P1-02-2-QWEN397B-v09-r1", "stage_b_run_id": "P1-02-2-QWEN397B-stage-b-v09-r1", "stage_b_required": true, "status": "pending"},
+    {"order": 4, "task_type": "scope_subject_boundary", "task_id": "P1-01-2", "stage_a_run_id": "P1-01-2-QWEN397B-v09-r1", "stage_b_run_id": "P1-01-2-QWEN397B-stage-b-v09-r1", "stage_b_required": true, "status": "pending"},
+    {"order": 5, "task_type": "cross_page_relation", "task_id": "P1-09-1", "stage_a_run_id": "P1-09-1-QWEN397B-v09-r1", "stage_b_run_id": "P1-09-1-QWEN397B-stage-b-v09-r1", "stage_b_required": true, "status": "pending"},
+    {"order": 6, "task_type": "controlled_conflict", "task_id": "P1-04-2", "stage_a_run_id": "P1-04-2-QWEN397B-v09-r1", "stage_b_required": false, "status": "pending"}
+  ],
+  "gate_rules": {
+    "all_six_stage_a_tasks_must_pass": true,
+    "all_three_required_stage_b_tasks_must_pass": true,
+    "task_semantics_checked_after_archival": true,
+    "reference_visible_to_candidate_or_runner": false,
+    "failed_runs_excluded": false,
+    "silent_retry": false,
+    "posthoc_output_repair": false,
+    "aggregate_score": false
+  },
+  "reference_type": "AI-simulated reference, explicitly not human gold",
+  "failure_detail": "Correct evidence semantics were present, but the model output violated the frozen root and calculation-request schema; no repair was applied.",
+  "next_gate": "p1_integrated_v0.9.1_minimal_operation_contract",
+  "p2_eligible": false
+}
+}

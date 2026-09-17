@@ -1,0 +1,30 @@
+{
+  "schema_version": "2.3",
+  "experiment_id": "P14-V23-UNSEEN-LOCKBOX-V01",
+  "status": "frozen_before_candidate_inference_after_prefreeze_integrity_audit",
+  "qualifiers": {
+    "reporting_period": "calendar year ended December 31, 2025 unless a target year or base year is explicitly named",
+    "page_coordinates": "one-based PDF page indexes; do not infer printed footer pages from section numbering",
+    "units": {
+      "emissions": "tCO2e; source literal tCO2eq is retained in evidence",
+      "water": "m3",
+      "water_intensity": "m3 per million EUR of net sales on own operations",
+      "safety_rates": "as defined by the issuer",
+      "percentage": "percent"
+    },
+    "ghg_calculation": "sum 2025 Scope 1, market-based Scope 2 and total Scope 3, then subtract the disclosed market-based total; do not substitute location-based Scope 2 or material Scope 3",
+    "target_direction": "2030 and 2050 target magnitudes are decreases from the 2019 base year; preserve signed 2025 progress literals separately",
+    "scope_3_target_boundary": "purchased goods and services, upstream transportation and distribution, and business travel only",
+    "net_zero_boundary": "the 2050 objective covers overall Scopes 1, 2 and 3 and offsets residual emissions to achieve net zero",
+    "water_boundary": "water-risk consumption is calculated on the Group factory scope, defined in 2025",
+    "safety_boundary": "recordable accident metrics exclude commuting lost days and first-aid accidents as stated by the issuer",
+    "slb_kpi_1b_boundary": "cradle-to-shelf per product sold versus 2021; excludes Aēsop brand products; retain published and comparable performance separately",
+    "slb_kpi_2_boundary": "primary, secondary and tertiary packaging; 50.14 percent is rounded down to the published 50 percent",
+    "slb_assurance_boundary": "limited assurance covers the 2025 ESG KPIs; earlier periods and other information outside the ESG KPIs are excluded",
+    "statutory_assurance_boundary": "limited assurance covers the 2025 sustainability information and Article 8 disclosures; the three conclusion objects remain separate",
+    "assurance_procedure_boundary": "limited-assurance procedures are less extensive than reasonable-assurance procedures and do not assess management viability or quality choices for action plans, targets, policies, scenarios or transition plans",
+    "forward_looking_boundary": "forward-looking information remains subject to inherent uncertainty and is not converted into an observed outcome",
+    "reference_type": "simulated expert reference; not independent human gold",
+    "cloud_transmission": "prohibited until the user authorizes the L'Oréal report, exact pages, qwen3.5:397b-cloud and P14 Stage A/Stage B single-attempt scope"
+  }
+}

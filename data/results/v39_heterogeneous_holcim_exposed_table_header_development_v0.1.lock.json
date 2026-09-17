@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0",
+  "development_id": "V3.9-HETEROGENEOUS-HOLCIM-EXPOSED-TABLE-HEADER-DEVELOPMENT-V01",
+  "status": "development_regression_passed",
+  "development_source": {
+    "case_id": "HET-TABLE-POS-HOLCIM-001",
+    "failure": "ValueError:native_target_cell_not_unique",
+    "exposure_boundary": "the already exposed heterogeneous validation failure only"
+  },
+  "historical_validation": {
+    "manifest": "data/manifests/heterogeneous_component_validation_RESUME01_v0.1.lock.json",
+    "manifest_sha256": "118fb36b3f0cd41255efbe6e5f6b9316efadcec03743a349a8de9a3681b47f3b",
+    "result": "artifacts/heterogeneous_component_validation_v0.1/validation_summary.lock.json",
+    "result_sha256": "c9318f0aebdfbc4defa413c8c5f6d758f778085a9f6fc9781f4a75bf0b42ab03",
+    "modified": false,
+    "rerun": false,
+    "rescored": false
+  },
+  "root_cause": "The 2025 year header was vertically shifted by about 6.9 PDF coordinate units while still overlapping the 2023/2024 header boxes. The former three-unit baseline rule treated 2025 as a separate header band, so all three repeated value cells were associated with 2025.",
+  "implementation": {
+    "behavior": "Group year headers into connected visual bands using overlapping vertical boxes, choose the nearest complete band above the row, and bind each repeated numeric cell by unique horizontal proximity to the target year header.",
+    "fail_closed": [
+      "equidistant year-header ambiguity returns no unique header",
+      "genuinely separate non-overlapping header bands remain separate",
+      "multi-level secondary headers retain their existing second-stage binding"
+    ]
+  },
+  "regression": {
+    "holcim_source_page": 87,
+    "row": "Absolute Scope 2 emissions (market-based)",
+    "repeated_values": ["3", "3", "3"],
+    "target_period": "2025",
+    "selected_cell_x0": 551.54,
+    "targeted_tests": 13,
+    "targeted_tests_passed": 13,
+    "full_suite_tests_passed": 537,
+    "ruff": "passed"
+  },
+  "artifacts": {
+    "implementation": {
+      "path": "src/esg_reliable_discovery/read_only_diagnostics.py",
+      "sha256": "53ee15fa1869e001280bbbe3a2a9e181186d0c3286f09a866e53900e7de21375"
+    },
+    "regression_test": {
+      "path": "tests/test_contract_driven_read_only_diagnostics_v01.py",
+      "sha256": "e3fe2ddcb4e71a2d7ba54863679c5343a4af025a26f9eccec71f008ffb933e88"
+    }
+  },
+  "scientific_role": "development evidence only; not unseen generalization evidence and not a retrospective correction of the locked heterogeneous result",
+  "next_gate": "select and freeze a report never used by the table component, containing a repeated value across year columns, then execute exactly once"
+}

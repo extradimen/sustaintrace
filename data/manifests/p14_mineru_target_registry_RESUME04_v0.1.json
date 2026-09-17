@@ -1,0 +1,179 @@
+{
+  "parser": "MinerU 3.4.0 pipeline",
+  "schema_version": "1.0",
+  "targets": [
+    {
+      "document_id": "P14-LOREAL-URD2025",
+      "document_sha256": "db63807f5963c3e70422bbb9a0763f2f53be4139d5ee57984717bfa056275aa2",
+      "local_path": "data/raw/p14_staging/loreal-2025-universal-registration-document.pdf",
+      "output_directory": "artifacts/p14/mineru_targets_RESUME01/P14-LOREAL-URD2025-p0206",
+      "pdf_page": 206,
+      "run_record_sha256": "2e48758ce9b5a5210f9f50d4f883c5f87a8ae7720c24448eaf4c2c654c4eadac",
+      "status": "reused_verified_success",
+      "target_id": "P14-LOREAL-URD2025-p0206",
+      "task_ids": [
+        "P14-TARGET-001"
+      ]
+    },
+    {
+      "document_id": "P14-LOREAL-URD2025",
+      "document_sha256": "db63807f5963c3e70422bbb9a0763f2f53be4139d5ee57984717bfa056275aa2",
+      "local_path": "data/raw/p14_staging/loreal-2025-universal-registration-document.pdf",
+      "output_directory": "artifacts/p14/mineru_targets_RESUME01/P14-LOREAL-URD2025-p0208",
+      "pdf_page": 208,
+      "run_record_sha256": "b6f818468964ac136f08b2f89ffef539390885f03af16f78d1d2180bb82b82ed",
+      "status": "reused_verified_success",
+      "target_id": "P14-LOREAL-URD2025-p0208",
+      "task_ids": [
+        "P14-TARGET-001"
+      ]
+    },
+    {
+      "document_id": "P14-LOREAL-URD2025",
+      "document_sha256": "db63807f5963c3e70422bbb9a0763f2f53be4139d5ee57984717bfa056275aa2",
+      "local_path": "data/raw/p14_staging/loreal-2025-universal-registration-document.pdf",
+      "output_directory": "artifacts/p14/mineru_targets_RESUME02/P14-LOREAL-URD2025-p0212",
+      "pdf_page": 212,
+      "run_record_sha256": "4b7cace4e90a23c4e2cbd4f30967bf2eb7593749be507da2c3241fdc5d2fdabd",
+      "status": "reused_verified_success",
+      "target_id": "P14-LOREAL-URD2025-p0212",
+      "task_ids": [
+        "P14-TARGET-001"
+      ]
+    },
+    {
+      "document_id": "P14-LOREAL-URD2025",
+      "document_sha256": "db63807f5963c3e70422bbb9a0763f2f53be4139d5ee57984717bfa056275aa2",
+      "local_path": "data/raw/p14_staging/loreal-2025-universal-registration-document.pdf",
+      "output_directory": "artifacts/p14/mineru_targets_RESUME02/P14-LOREAL-URD2025-p0213",
+      "pdf_page": 213,
+      "run_record_sha256": "2ee384f04ce52481a35656cd67bbb9ecd5da26908ceab5bc8e30c11549dcf1ef",
+      "status": "reused_verified_success",
+      "target_id": "P14-LOREAL-URD2025-p0213",
+      "task_ids": [
+        "P14-GHG-CALC-001",
+        "P14-TARGET-001"
+      ]
+    },
+    {
+      "document_id": "P14-LOREAL-URD2025",
+      "document_sha256": "db63807f5963c3e70422bbb9a0763f2f53be4139d5ee57984717bfa056275aa2",
+      "local_path": "data/raw/p14_staging/loreal-2025-universal-registration-document.pdf",
+      "output_directory": "artifacts/p14/mineru_targets_RESUME02/P14-LOREAL-URD2025-p0225",
+      "pdf_page": 225,
+      "run_record_sha256": "bd96d50206341a123d7cf46095e81cee0f22bb2dc9fdb43c4fed747fa416ec7b",
+      "status": "reused_verified_success",
+      "target_id": "P14-LOREAL-URD2025-p0225",
+      "task_ids": [
+        "P14-WATER-001"
+      ]
+    },
+    {
+      "document_id": "P14-LOREAL-URD2025",
+      "document_sha256": "db63807f5963c3e70422bbb9a0763f2f53be4139d5ee57984717bfa056275aa2",
+      "local_path": "data/raw/p14_staging/loreal-2025-universal-registration-document.pdf",
+      "output_directory": "artifacts/p14/mineru_targets_RESUME02/P14-LOREAL-URD2025-p0229",
+      "pdf_page": 229,
+      "run_record_sha256": "81d70527b22ad5e7b26f57beadc60490819ff2248d591c63c4dc89756846d61f",
+      "status": "reused_verified_success",
+      "target_id": "P14-LOREAL-URD2025-p0229",
+      "task_ids": [
+        "P14-WATER-001"
+      ]
+    },
+    {
+      "document_id": "P14-LOREAL-URD2025",
+      "document_sha256": "db63807f5963c3e70422bbb9a0763f2f53be4139d5ee57984717bfa056275aa2",
+      "local_path": "data/raw/p14_staging/loreal-2025-universal-registration-document.pdf",
+      "output_directory": "artifacts/p14/mineru_targets_RESUME03/P14-LOREAL-URD2025-p0248",
+      "pdf_page": 248,
+      "run_record_sha256": "25bec9756f437ba8cb46d17c40ca49fd69ae394cce1a81a204fe4bece70e53ef",
+      "status": "reused_verified_success",
+      "target_id": "P14-LOREAL-URD2025-p0248",
+      "task_ids": [
+        "P14-SAFETY-001"
+      ]
+    },
+    {
+      "document_id": "P14-LOREAL-URD2025",
+      "document_sha256": "db63807f5963c3e70422bbb9a0763f2f53be4139d5ee57984717bfa056275aa2",
+      "local_path": "data/raw/p14_staging/loreal-2025-universal-registration-document.pdf",
+      "output_directory": "artifacts/p14/mineru_targets_RESUME03/P14-LOREAL-URD2025-p0282",
+      "pdf_page": 282,
+      "run_record_sha256": "58cb283063e8ff4cbdca88f983b4fc4643b2c291e345793105f271d3413a71c7",
+      "status": "reused_verified_success",
+      "target_id": "P14-LOREAL-URD2025-p0282",
+      "task_ids": [
+        "P14-SLB-001"
+      ]
+    },
+    {
+      "document_id": "P14-LOREAL-URD2025",
+      "document_sha256": "db63807f5963c3e70422bbb9a0763f2f53be4139d5ee57984717bfa056275aa2",
+      "local_path": "data/raw/p14_staging/loreal-2025-universal-registration-document.pdf",
+      "output_directory": "artifacts/p14/mineru_targets_RESUME03/P14-LOREAL-URD2025-p0285",
+      "pdf_page": 285,
+      "run_record_sha256": "eaa6043a611ed0a76a6460cea6599784b7bcb27265f6206dd958bac8fd80316c",
+      "status": "reused_verified_success",
+      "target_id": "P14-LOREAL-URD2025-p0285",
+      "task_ids": [
+        "P14-ASSURE-001"
+      ]
+    },
+    {
+      "document_id": "P14-LOREAL-URD2025",
+      "document_sha256": "db63807f5963c3e70422bbb9a0763f2f53be4139d5ee57984717bfa056275aa2",
+      "local_path": "data/raw/p14_staging/loreal-2025-universal-registration-document.pdf",
+      "output_directory": "artifacts/p14/mineru_targets_RESUME03/P14-LOREAL-URD2025-p0286",
+      "pdf_page": 286,
+      "run_record_sha256": "254e7b00b5b2badf66ceeeccf6a73cb6789d40cd368eb8f3ceb30d20c5145b52",
+      "status": "reused_verified_success",
+      "target_id": "P14-LOREAL-URD2025-p0286",
+      "task_ids": [
+        "P14-ASSURE-001"
+      ]
+    },
+    {
+      "document_id": "P14-LOREAL-URD2025",
+      "document_sha256": "db63807f5963c3e70422bbb9a0763f2f53be4139d5ee57984717bfa056275aa2",
+      "local_path": "data/raw/p14_staging/loreal-2025-universal-registration-document.pdf",
+      "output_directory": "artifacts/p14/mineru_targets_RESUME03/P14-LOREAL-URD2025-p0287",
+      "pdf_page": 287,
+      "run_record_sha256": "1d22acd7b545a94e0a19ece7da1fc360076ad291563d94bad792257081194962",
+      "status": "reused_verified_success",
+      "target_id": "P14-LOREAL-URD2025-p0287",
+      "task_ids": [
+        "P14-ASSURE-001"
+      ]
+    },
+    {
+      "document_id": "P14-LOREAL-URD2025",
+      "document_sha256": "db63807f5963c3e70422bbb9a0763f2f53be4139d5ee57984717bfa056275aa2",
+      "local_path": "data/raw/p14_staging/loreal-2025-universal-registration-document.pdf",
+      "output_directory": "artifacts/p14/mineru_targets_RESUME04/P14-LOREAL-URD2025-p0288",
+      "output_file_count": 9,
+      "pdf_page": 288,
+      "run_record_sha256": "b34e34e9fb965aeb9a0bf10ccd2c2ad5378929c206ea5d9211a95aab082fc15b",
+      "status": "parsed",
+      "target_id": "P14-LOREAL-URD2025-p0288",
+      "task_ids": [
+        "P14-SLB-001"
+      ]
+    },
+    {
+      "document_id": "P14-LOREAL-URD2025",
+      "document_sha256": "db63807f5963c3e70422bbb9a0763f2f53be4139d5ee57984717bfa056275aa2",
+      "local_path": "data/raw/p14_staging/loreal-2025-universal-registration-document.pdf",
+      "output_directory": "artifacts/p14/mineru_targets_RESUME04/P14-LOREAL-URD2025-p0289",
+      "output_file_count": 8,
+      "pdf_page": 289,
+      "run_record_sha256": "801a1671533fcbdd5422fc0763da463a56169d85674008d2d92048fe64fb69cf",
+      "status": "parsed",
+      "target_id": "P14-LOREAL-URD2025-p0289",
+      "task_ids": [
+        "P14-SLB-001"
+      ]
+    }
+  ],
+  "unique_target_count": 13
+}

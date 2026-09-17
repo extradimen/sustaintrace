@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "framework_version": "P1-INTEGRATED-v0.9.1",
+  "status": "preregistered_before_implementation_and_inference",
+  "triggering_run": "P1-02-1-QWEN397B-v09-r1",
+  "observed_failure": "The candidate identified the correct values, years, scope, formula and evidence but returned a legacy rich calculation object; the v0.9 schema rejected it before deterministic calculation.",
+  "changes": [
+    "For deterministic_calculation, the model root contains only calculation_request.",
+    "For percentage_change, calculation_request contains only operation and two period_year-value-evidence_handle observations.",
+    "Task id, subject, scope, requested period, formula, rounding and direction remain framework-owned and are not model fields.",
+    "For controlled_conflict, the model root contains only source_claims; task id, subject, scope and period remain framework-owned.",
+    "The system prompt states the exact minimal shapes for calculation and conflict tasks."
+  ],
+  "unchanged_rules": [
+    "The framework validates numeric values and years against selected evidence.",
+    "The framework assigns current and prior by period year and performs the registered calculation.",
+    "The framework derives conflict state only after source and value grounding.",
+    "No failed output is repaired or reused as a passing result.",
+    "All six tasks restart under the new exact hashes before P2 eligibility."
+  ],
+  "reference_visible_during_inference": false,
+  "p2_opened": false,
+  "next_gate": "implement_tests_hash_freeze_then_restart_six_type_matrix"
+}

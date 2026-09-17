@@ -1,0 +1,56 @@
+{
+  "schema_version": "0.1",
+  "development_id": "V4.1-RAW-RESULT-ENVELOPE-DEVELOPMENT-V01",
+  "status": "development_regression_passed",
+  "development_source": "v4.0 unseen interface failure only",
+  "historical_results_modified": false,
+  "implemented": {
+    "exact_parent_json_equality_check": true,
+    "single_raw_result_wrapper_allowed": true,
+    "whole_outer_payload_preserved": true,
+    "inner_identity_conflict_fail_closed": true,
+    "non_object_wrapper_fail_closed": true,
+    "nested_wrapper_fail_closed": true,
+    "outer_contract_and_execution_failure_fail_closed": true,
+    "inner_blocking_and_non_positive_status_fail_closed": true
+  },
+  "exposed_regression": {
+    "normalized_status": "passed",
+    "component_result_path": "raw_result",
+    "raw_payload_preserved": true,
+    "blocking_reasons": [],
+    "attachment_generated": false,
+    "attachment_reason": "parent gap intentionally unregistered"
+  },
+  "verification": {
+    "targeted_tests_passed": 10,
+    "full_suite_tests_passed": 544,
+    "ruff": "passed",
+    "json_validation": "passed"
+  },
+  "artifacts": {
+    "implementation": {
+      "path": "src/esg_reliable_discovery/postvalidation_attachment.py",
+      "sha256": "e877cc15177e2104f25bb84d1b7e3062235f9fe299e133907c66cc18a6bff01e"
+    },
+    "tests": {
+      "path": "tests/test_postvalidation_attachment_v01.py",
+      "sha256": "56951ddb2fed3b2810d62f27b3eb52e0bd4615fad7255c7ab26a654549b39031"
+    },
+    "runner": {
+      "path": "scripts/run_v41_raw_result_envelope_development_v01.py",
+      "sha256": "422bfac9d4cffe67052008774d65c049f99e8443c2f2767a6a7f9aad9c186675"
+    },
+    "development_summary": {
+      "path": "artifacts/v41_raw_result_envelope_development_v0.1/development_summary.lock.json",
+      "sha256": "cb5ac85530a11b02ecdb60ead46f7e1dd4d1e4bdd8d974d4ab82c0c946ba5a"
+    }
+  },
+  "safety": {
+    "fact_write_performed": false,
+    "trust_promotion_performed": false,
+    "gap_mutation_performed": false,
+    "cloud_transmission_performed": false
+  },
+  "next_gate": "inventory existing locked single-raw_result positives with a genuinely registered immutable parent gap; freeze one if available, otherwise record the coverage gap"
+}

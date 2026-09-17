@@ -1,0 +1,52 @@
+{
+  "schema_version": "0.1",
+  "record_kind": "unseen_validation_closure",
+  "status": "fourth_unseen_adapter_validation_complete",
+  "outcome": {
+    "passed": 2,
+    "failed": 0,
+    "total": 2,
+    "components": {
+      "TABLE_CELL_BINDING_INCOMPLETE": "passed",
+      "CALCULATION_LINEAGE_INCOMPLETE": "passed"
+    }
+  },
+  "artifacts": [
+    {
+      "path": "data/manifests/fourth_unseen_adapter_validation_v0.1.lock.json",
+      "sha256": "69b23d2d51306811f5920a756bc25b2bba10aa081ed0a66c2a1ddd18ea677749"
+    },
+    {
+      "path": "artifacts/fourth_unseen_adapter_validation_v0.1/validation_summary.lock.json",
+      "sha256": "f8c3b2aee9da5b90f4e48026658c31826e5fae4652b221849056f6957e974d1b"
+    },
+    {
+      "path": "artifacts/fourth_unseen_adapter_validation_v0.1/table_cell_binding_incomplete.unseen.json",
+      "sha256": "333b0c3c41fca78f9750e6030ff4a359fd99d13da690935b1c147313e2a0290b"
+    },
+    {
+      "path": "artifacts/fourth_unseen_adapter_validation_v0.1/calculation_lineage_incomplete.unseen.json",
+      "sha256": "0316a2876acdfcf8c13ec2e069498e7209587648ba199c370ee99a2625caeb78"
+    },
+    {
+      "path": "scripts/run_fourth_unseen_adapter_validation_v01.py",
+      "sha256": "6f5b0dd98a39a2825c76cc88ab3820d4d516be126e71d73c47b4e91904a9347e"
+    }
+  ],
+  "interpretation": {
+    "new_unseen_evidence": true,
+    "table_contract_generalized": true,
+    "calculation_contract_generalized": true,
+    "scope": "two newly frozen facts only",
+    "historical_failures_rewritten": false
+  },
+  "safety": {
+    "single_execution_completed": true,
+    "fact_write_performed": false,
+    "trust_promotion_performed": false,
+    "semantic_inference_performed": false,
+    "cloud_transmission_performed": false,
+    "bulk_repair_performed": false
+  },
+  "next_gate": "consolidate component evidence and define bounded supervised promotion trial"
+}

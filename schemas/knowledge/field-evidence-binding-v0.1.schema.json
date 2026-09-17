@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/esg-reliable-discovery/field-evidence-binding-v0.1.schema.json",
+  "title": "Field-level evidence binding v0.1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "record_kind",
+    "fact_record_id",
+    "binding_status",
+    "value_type",
+    "matched_evidence_indices",
+    "promotion_eligible",
+    "reason"
+  ],
+  "properties": {
+    "schema_version": {"const": "0.1"},
+    "record_kind": {"const": "field_evidence_binding"},
+    "fact_record_id": {"type": "string", "pattern": "^fact-[0-9a-f]{24}$"},
+    "binding_status": {
+      "enum": [
+        "unique_literal",
+        "multiple_literal",
+        "literal_not_found",
+        "unsupported_complex_value",
+        "source_grounding_failed"
+      ]
+    },
+    "value_type": {"enum": ["number", "string", "boolean", "null", "array", "object"]},
+    "matched_evidence_indices": {
+      "type": "array",
+      "items": {"type": "integer", "minimum": 0},
+      "uniqueItems": true
+    },
+    "promotion_eligible": {"const": false},
+    "reason": {"type": "string", "minLength": 1}
+  }
+}

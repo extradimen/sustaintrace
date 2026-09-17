@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "status": "frozen_before_p4_candidate_inference",
+  "qualifiers": {
+    "P4-XPAGE-001": {
+      "lifetime_contracted_volume": {"comparison_operator": ">"}
+    },
+    "P4-CALC-001": {
+      "absolute_increase": {"direction": "increase"},
+      "percentage_increase": {"direction": "increase"}
+    },
+    "P4-CALC-002": {
+      "absolute_reduction": {"direction": "decrease"},
+      "calculated_reduction_percent": {"direction": "decrease"},
+      "reported_reduction_percent": {"direction": "decrease"}
+    }
+  }
+}

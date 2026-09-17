@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "task_id": "P11-ASSURE-001",
+  "reference_author": "codex_gpt_simulated_expert",
+  "reference_status": "verified_against_frozen_pages",
+  "answer": "The independent German public auditor performed limited assurance over Siemens AG's Group Sustainability Report included in the Sustainability Statement for the financial year October 1, 2024 through September 30, 2025. The engagement followed ISAE 3000 (Revised). Reports by other assurance practitioners concerning value-chain information, and references to those reports, were outside this engagement. The auditor states that limited-assurance procedures differ in nature and timing and are less extensive than reasonable-assurance procedures, so the assurance obtained is substantially lower.",
+  "normalized_value": {
+    "assurance_level": "limited",
+    "subject": "Group Sustainability Report included in the Sustainability Statement",
+    "reporting_period": "2024-10-01 to 2025-09-30",
+    "standard": "ISAE 3000 (Revised)",
+    "excluded_information": [
+      "reports of other assurance practitioners on value-chain information",
+      "references to assurance reports or reports of other assurance practitioners"
+    ],
+    "procedure_difference": "procedures vary in nature and timing and are less extensive than reasonable assurance",
+    "relative_assurance": "substantially lower than reasonable assurance"
+  },
+  "evidence": [
+    {
+      "source_id": "P11-SIEMENS-AR2025",
+      "pdf_page": 257,
+      "quote": "limited assurance engagement on the Group Sustainability Report"
+    },
+    {
+      "source_id": "P11-SIEMENS-AR2025",
+      "pdf_page": 257,
+      "quote": "for the financial year from October 1, 2024 to September 30, 2025"
+    },
+    {
+      "source_id": "P11-SIEMENS-AR2025",
+      "pdf_page": 257,
+      "quote": "in accordance with the International Standard on Assurance Engagements (ISAE) 3000 (Revised)"
+    },
+    {
+      "source_id": "P11-SIEMENS-AR2025",
+      "pdf_page": 257,
+      "quote": "less in extent than for, a reasonable assurance engagement"
+    }
+  ],
+  "provenance": {
+    "reference_is_simulated": true,
+    "candidate_model_used": false
+  }
+}

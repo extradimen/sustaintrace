@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0", "task_id": "P1-03-1", "reference_author": "codex_gpt_simulated_expert", "reference_status": "verified",
+  "question": "For Hitachi fiscal 2023, report both (a) renewable electricity generation and its share of electricity usage within the target range, and (b) total Scope 1 and 2 emissions and their share of total Scope 1, 2 and 3 emissions.",
+  "answer_status": "verified_fact", "answer": {"renewable_electricity_generation_GWh": 769, "renewable_share_percent": 56, "scope_1_2_MtCO2e": 0.68, "scope_1_2_share_percent": 0.3}, "normalized_value": null, "normalized_unit": null, "reported_unit": null,
+  "subject": "Hitachi Group", "scope_boundary": "renewable electricity target range and Hitachi Group GHG reporting boundary", "period": "fiscal 2023", "calculation": null,
+  "evidence": [
+    {"document_id": "HITACHI-SR-2024", "document_sha256": "f1415cbb31a4ada7af2dcbd7e6ed13524e4bff8059173e7e1bc9ad120561e6b1", "pdf_page": 67, "printed_page": "66", "verbatim_excerpt": "Renewable electricity generation across the Hitachi Group in fiscal 2023 amounted to 769 GWh. This amounted to 56% of the electricity usage within the target range", "role": "claim_support"},
+    {"document_id": "HITACHI-SR-2024", "document_sha256": "f1415cbb31a4ada7af2dcbd7e6ed13524e4bff8059173e7e1bc9ad120561e6b1", "pdf_page": 95, "printed_page": "94", "verbatim_excerpt": "Total Scope 1 and 2 0.68 0.3", "role": "claim_support"}
+  ],
+  "search_record": {"pages_reviewed": [63, 67, 95], "terms_used": ["renewable electricity generation", "Total Scope 1 and 2"], "notes": "Narrative and GHG table checked across pages."},
+  "controlled_intervention_id": null, "provenance_attestation": {"is_human": false, "is_ai_simulation": true, "candidate_model_excluded": true}
+}

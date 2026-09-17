@@ -1,0 +1,62 @@
+{
+  "answer": "At year-end 2025, permanent employees were 64,974 and temporary employees 4,531; their sum of 69,505 exactly matches disclosed headcount. For 2024, 68,669 plus 5,487 equals the disclosed 74,156 exactly. No employees were on non-guaranteed-hours contracts. The 2024 employee metrics, including the displayed FTE and headcount, exclude Catalent; including Catalent, headcount was 77,349.",
+  "evidence": [
+    {
+      "pdf_page": 58,
+      "quote": "By end of 2025, Novo Nordisk employed 64,974 permanent and 4,531 temporary employees, similar to the 2024 split (68,669 permanent and 5,487 temporary).",
+      "source_id": "P19-NOVO-NORDISK-AR2025"
+    },
+    {
+      "pdf_page": 58,
+      "quote": "No employees in Novo Nordisk’s own workforce are hired on non-guaranteed hours contracts.",
+      "source_id": "P19-NOVO-NORDISK-AR2025"
+    },
+    {
+      "pdf_page": 58,
+      "quote": "Total number of employees (headcount)",
+      "source_id": "P19-NOVO-NORDISK-AR2025"
+    },
+    {
+      "pdf_page": 58,
+      "quote": "69,505",
+      "source_id": "P19-NOVO-NORDISK-AR2025"
+    },
+    {
+      "pdf_page": 58,
+      "quote": "74,156",
+      "source_id": "P19-NOVO-NORDISK-AR2025"
+    },
+    {
+      "pdf_page": 58,
+      "quote": "All 2024 employee related metrics exclude Catalent",
+      "source_id": "P19-NOVO-NORDISK-AR2025"
+    },
+    {
+      "pdf_page": 58,
+      "quote": "Including Catalent, FTE is 76,302 and headcount is 77,349.",
+      "source_id": "P19-NOVO-NORDISK-AR2025"
+    }
+  ],
+  "normalized_value": {
+    "difference_headcount::2024": 0,
+    "difference_headcount::2025": 0,
+    "disclosed_headcount::2024": 74156,
+    "disclosed_headcount::2025": 69505,
+    "non_guaranteed_hours_employees": false,
+    "permanent_headcount::2024": 68669,
+    "permanent_headcount::2025": 64974,
+    "qualification": "2024 employee-related metrics exclude Catalent; including Catalent, 2024 headcount was 77,349",
+    "recomputed_headcount::2024": 74156,
+    "recomputed_headcount::2025": 69505,
+    "temporary_headcount::2024": 5487,
+    "temporary_headcount::2025": 4531
+  },
+  "provenance": {
+    "candidate_model_used": false,
+    "reference_is_simulated": true
+  },
+  "reference_author": "codex_gpt_simulated_expert",
+  "reference_status": "verified_against_frozen_mineru_pages_and_native_layout",
+  "schema_version": "1.0",
+  "task_id": "P19-WORKFORCE-001"
+}

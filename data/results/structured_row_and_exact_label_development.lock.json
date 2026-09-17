@@ -1,0 +1,41 @@
+{
+  "schema_version": "0.1",
+  "record_kind": "development_regression_result",
+  "status": "structured_row_and_exact_label_development_complete",
+  "parent_failure_set": {
+    "path": "data/results/third_unseen_adapter_validation_closure.lock.json",
+    "sha256": "7619e9c4d7d1853c156ebb19cdc7708da20bcd6a8a783eeb40a1061bc73b522a"
+  },
+  "changes": [
+    "structured_multi_value_quote_target_validation",
+    "multi_level_column_path_binding",
+    "primary_and_secondary_header_coordinates",
+    "nearest_vertical_year_header_band",
+    "exact_bbox_row_label_matching",
+    "controlled_trailing_footnote_tolerance"
+  ],
+  "development_regressions": {
+    "exposed_failures_passed": 2,
+    "pytest_passed": 531,
+    "ruff_passed": true,
+    "json_audit_passed": true
+  },
+  "artifacts": [
+    {
+      "path": "src/esg_reliable_discovery/read_only_diagnostics.py",
+      "sha256": "49106c2dd2bdf09ee86d73872134bfe234540cbda39c4f85d7d237d759735537"
+    },
+    {
+      "path": "tests/test_contract_driven_read_only_diagnostics_v01.py",
+      "sha256": "a69f75243f8ba0308336489233eac5ceac08f172885354a91a0ee17b39ac4187"
+    }
+  ],
+  "safety": {
+    "unseen_performance_claimed": false,
+    "historical_result_modified": false,
+    "fact_write_performed": false,
+    "trust_promotion_performed": false,
+    "cloud_transmission_performed": false
+  },
+  "next_gate": "freeze new table and calculation facts for a fourth unseen validation"
+}

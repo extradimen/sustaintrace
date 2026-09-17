@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "experiment_id": "P16-V25-UNSEEN-LOCKBOX-V01",
+  "recovery_id": "RESUME02",
+  "status": "authorized_infrastructure_resume",
+  "parent_progress": "data/manifests/p16_candidate_progress_RESUME01.json",
+  "resume_progress": "data/manifests/p16_candidate_progress_RESUME02.json",
+  "failure_class": "local_stage_b_semantic_qualifier_registry_shape_error",
+  "failure_evidence": "AttributeError: 'list' object has no attribute 'get'",
+  "failed_before_stage_b_model_call": true,
+  "stage_b_cloud_transmission_count_before_recovery": 0,
+  "parent_qualifier_registry": "configs/framework/p16_semantic_qualifiers_v0.1.lock.json",
+  "resume_qualifier_registry": "configs/framework/p16_semantic_qualifiers_RESUME02_v0.1.lock.json",
+  "unfinished_stage_b_tasks": [
+    "P16-POLLUTION-001",
+    "P16-SAFETY-001",
+    "P16-ACCESS-001",
+    "P16-ASSURE-001"
+  ],
+  "same_frozen_slot_contracts": true,
+  "semantic_change": false,
+  "overwrite_parent": false,
+  "model_behavior_retry": false
+}

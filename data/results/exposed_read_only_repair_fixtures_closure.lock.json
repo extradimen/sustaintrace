@@ -1,0 +1,73 @@
+{
+  "schema_version": "0.1",
+  "closure_id": "ESG-EXPOSED-READ-ONLY-REPAIR-FIXTURES-CLOSURE-v0.1",
+  "created_at": "2026-09-14T14:14:47+08:00",
+  "status": "four_exposed_read_only_fixtures_prepared_not_executed",
+  "outcome": {
+    "fixture_count": 4,
+    "covered_signatures": [
+      "FIELD_EVIDENCE_BINDING_INCOMPLETE",
+      "TABLE_CELL_BINDING_INCOMPLETE",
+      "NATIVE_PDF_CORROBORATION_INCOMPLETE",
+      "CALCULATION_LINEAGE_INCOMPLETE"
+    ],
+    "blocked_candidates_preserved": 1,
+    "diagnostic_executions": 0,
+    "fact_writes": 0,
+    "trust_promotions": 0,
+    "cloud_transmissions": 0,
+    "historical_outputs_modified_or_rescored": 0
+  },
+  "selection_finding": {
+    "blocked_gap_id": "gap-02955420d181898ad69bf336",
+    "blocked_task_id": "P3-SCOPE-002",
+    "reason": "unique_native_source_path_missing",
+    "replacement_policy": "advance by stable gap_id order to the next fully hash-verifiable exposed record"
+  },
+  "artifacts": {
+    "summary": {
+      "path": "artifacts/second_repair_fixtures_v0.1/fixture_selection_summary.lock.json",
+      "sha256": "85ec44cd4821609b00880d3b0643476620f8ff60dd06ba70d518abbde3be02c5"
+    },
+    "field_fixture": {
+      "path": "artifacts/second_repair_fixtures_v0.1/field_evidence_binding_incomplete.fixture.json",
+      "sha256": "1aa7ad79c3925f0cb16b770c562e1abc555f82c3021471f9a1fa22cb938dc849"
+    },
+    "table_fixture": {
+      "path": "artifacts/second_repair_fixtures_v0.1/table_cell_binding_incomplete.fixture.json",
+      "sha256": "c973264fd708b68332b4c4703bf856c3c923e37955090fbea31a59705c20929a"
+    },
+    "native_pdf_fixture": {
+      "path": "artifacts/second_repair_fixtures_v0.1/native_pdf_corroboration_incomplete.fixture.json",
+      "sha256": "1b60cf16b73bb6c6002e24ff1330bb63c0f41be838e7e363f61114923dfe1fa6"
+    },
+    "calculation_fixture": {
+      "path": "artifacts/second_repair_fixtures_v0.1/calculation_lineage_incomplete.fixture.json",
+      "sha256": "5a2445af47170034107aea478140c1f8e80b9710c8d8e1e864bbe4b43f77c1dc"
+    },
+    "implementation": {
+      "path": "src/esg_reliable_discovery/repair_fixtures.py",
+      "sha256": "f59bc418be76a86783672c09bc7ac2d7c87001da78e3b6ccd39572336ee9c45c"
+    },
+    "builder": {
+      "path": "scripts/build_exposed_read_only_repair_fixtures_v01.py",
+      "sha256": "6e6129762b994f90a8b90b81722557c3a4574683a7a63b187f07f936ace21ed1"
+    },
+    "tests": {
+      "path": "tests/test_exposed_repair_fixtures_v01.py",
+      "sha256": "8270195fd7dde8681e31f57e2b33d7c36300c330bc66ab02128fb836f99c3d9a"
+    },
+    "report": {
+      "path": "docs/159_四类已暴露只读修复夹具_v0.1.md",
+      "sha256": "348456e92e3fca4cea4c44d7fa28a8b83d95f2b10df259579bed1025372c6bed"
+    }
+  },
+  "quality_gates": {
+    "pytest_collected_and_passed": 515,
+    "ruff": "passed",
+    "json_and_sha256": "passed",
+    "source_and_native_parent_hashes": "passed",
+    "locked_experiments_modified_or_rescored": false
+  },
+  "next_gate": "implement and validate four read-only diagnostic adapters"
+}

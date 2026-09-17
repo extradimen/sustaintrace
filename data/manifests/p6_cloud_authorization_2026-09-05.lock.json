@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.0",
+  "experiment_id": "P6-V15-UNSEEN-LOCKBOX-V01",
+  "status": "authorized_by_user",
+  "authorized_date": "2026-09-05",
+  "authorized_scope": "Transmit only frozen P6 Unilever page-window evidence to qwen3.5:397b-cloud for the preregistered P6 run.",
+  "candidate_model": "qwen3.5:397b-cloud",
+  "candidate_digest": "68d2a0796c11e1fedd0456a2d55e58cca4077be6a218428a7a7f4e21f8177cbc",
+  "single_candidate_attempt_per_stage": true,
+  "authorization_source": "explicit user message: 可以，然后继续"
+}

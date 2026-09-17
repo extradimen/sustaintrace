@@ -1,0 +1,53 @@
+{
+  "schema_version": "0.1",
+  "record_kind": "milestone_closure",
+  "status": "period_unit_binding_screens_exposed_validation_complete",
+  "scope": {
+    "period_screen": "one frozen cell or field maps to one year and parser/native evidence agree",
+    "unit_screen": "one marker appears in bound quote and native page without conversion or ambiguity",
+    "bulk_repair_performed": false
+  },
+  "results": {
+    "cases": 4,
+    "eligible": 2,
+    "ineligible": 2,
+    "pytest_passed": 524,
+    "ruff_passed": true,
+    "json_audit_passed": true,
+    "sha256_audit_passed": true
+  },
+  "artifacts": [
+    {
+      "path": "artifacts/period_unit_binding_screens_v0.1/screen_summary.lock.json",
+      "sha256": "3d3b577f034706bc24b98ecb49374bff9f18a0bbb72a3576b672ffda31cdb598"
+    },
+    {
+      "path": "src/esg_reliable_discovery/binding_screens.py",
+      "sha256": "b572803f1b6bf2b5ffc5f305c4408d031a258a105820404027cae21fa9545bd9"
+    },
+    {
+      "path": "scripts/run_exposed_period_unit_screens_v01.py",
+      "sha256": "1c0285325f82362190e3f38fd0caac39bcc1bb0792f3cf56e45e9bc77aebbf46"
+    },
+    {
+      "path": "tests/test_binding_screens_v01.py",
+      "sha256": "950c58eb410d5ae5b03277a7b5a57049c200857c56e9e452ece19a8e04568226"
+    },
+    {
+      "path": "docs/161_期间与单位唯一绑定筛选器已暴露验证_v0.1.md",
+      "sha256": "69c6a8e1efc88ebace209b3ebcb5d5828bc1370d7f4eaff9f744ba44f3df13bb"
+    }
+  ],
+  "parent_hashes": {
+    "fact_records": "1da6f28e8c1b3125d07a52d39aed4e095c6f40ef71378173c36a1486f7cb890c",
+    "knowledge_gap_records": "858a37ede7bd213c1c3d1e9136d5d8be6bc6e6f12f147124318347cb3a8cef76"
+  },
+  "safety": {
+    "fact_write_performed": false,
+    "trust_promotion_performed": false,
+    "semantic_inference_performed": false,
+    "cloud_transmission_performed": false,
+    "locked_historical_results_modified": false
+  },
+  "next_gate": "freeze and run an unseen validation set for four diagnostics and two binding screeners"
+}

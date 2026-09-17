@@ -1,0 +1,31 @@
+{
+  "adjudications": 15,
+  "coordinate_method_counts": {
+    "employment_type_clause": 4,
+    "enumerated_total": 1,
+    "geography_row": 4,
+    "metric_total_row": 1,
+    "own_operations_row": 3,
+    "taxonomy_denominator_row": 2
+  },
+  "inputs": {
+    "blocker_matrix_sha256": "172a36db63b2aa934d05d6520b64a44f36b70865178f532848b888d75527fd0a",
+    "fact_records_sha256": "8af57e7b7bda85deef8f90586f8225aedcf1da24e0669300115b8f1f7499bf5b",
+    "period_coordinate_adjudications_sha256": "6932d2cac80fcb66794fc4c705e99d28b0d0b84592368daa4c31ea25688e2726",
+    "simple_period_resolutions_sha256": "96bc6e574d607661c41698998fadc77d2a97380032ff10432d63d78e469cd068"
+  },
+  "locked_experiments_modified_or_rescored": false,
+  "newly_ready_for_independent_source_review": 15,
+  "next_gate": "independent-source review without treating boundary resolution as promotion",
+  "output": {
+    "path": "data/knowledge_bases/v0.1/boundary_coordinate_adjudications.jsonl",
+    "sha256": "ab8d397a456fcd6d65874e9a3cd5bed5053befae69b431812d7fdd21ebc816f4"
+  },
+  "promotions_performed": 0,
+  "remaining_boundary_blockers": 28,
+  "remaining_boundary_plan": "semantic_supervision_required",
+  "rollback_ledgers": 15,
+  "schema_version": "0.1",
+  "source_fact_records_modified": 0,
+  "status": "explicit_boundary_coordinates_adjudicated_in_derived_layer"
+}

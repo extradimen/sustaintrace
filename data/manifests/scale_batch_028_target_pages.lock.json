@@ -1,0 +1,369 @@
+{
+  "schema_version": "0.1",
+  "registry_id": "KB-SCALE-BATCH-028-TARGET-PAGES-v0.1",
+  "batch_id": "KB-SCALE-BATCH-028",
+  "created_at": "2026-09-14T00:17:46.367186+00:00",
+  "status": "target_pages_locked_after_assurance_preflight_before_mineru",
+  "cloud_transmission": false,
+  "assurance_window_preflight": [
+    {
+      "document_id": "KB-B028-TELIA-AR2025",
+      "pages": [
+        259,
+        260
+      ],
+      "required_literal_checks": {
+        "issuer_identity": true,
+        "reporting_period": true,
+        "opinion_or_conclusion": true,
+        "signatory_identity": true
+      },
+      "window_text_sha256": "bf7ba0a3339c64ebede976a695f1bbb6184842d5ff18ceca92ac18da109d6370",
+      "visual_review": {
+        "pages": [
+          259,
+          260
+        ],
+        "status": "passed_against_rendered_source_before_target_freeze",
+        "checked_fields": [
+          "issuer_identity",
+          "opinion_or_conclusion",
+          "reporting_period",
+          "signatory_identity"
+        ]
+      },
+      "status": "passed_before_target_freeze"
+    },
+    {
+      "document_id": "KB-B028-ASSA-ABLOY-AR2025",
+      "pages": [
+        170,
+        171
+      ],
+      "required_literal_checks": {
+        "issuer_identity": true,
+        "reporting_period": true,
+        "opinion_or_conclusion": true,
+        "signatory_identity": true
+      },
+      "window_text_sha256": "982d9d20511d90d57e41d349e79cb65aa9564df043882cf109da00566c54136e",
+      "visual_review": {
+        "pages": [
+          170,
+          171
+        ],
+        "status": "passed_against_rendered_source_before_target_freeze",
+        "checked_fields": [
+          "issuer_identity",
+          "opinion_or_conclusion",
+          "reporting_period",
+          "signatory_identity"
+        ]
+      },
+      "status": "passed_before_target_freeze"
+    },
+    {
+      "document_id": "KB-B028-LOOMIS-ASR2025",
+      "pages": [
+        165,
+        166
+      ],
+      "required_literal_checks": {
+        "issuer_identity": true,
+        "reporting_period": true,
+        "opinion_or_conclusion": true,
+        "signatory_identity": true
+      },
+      "window_text_sha256": "b2ffcd69b51d49ab926a515bc9efff5252ccc5cec777f0cb701603a65464cc65",
+      "visual_review": {
+        "pages": [
+          165,
+          166
+        ],
+        "status": "passed_against_rendered_source_before_target_freeze",
+        "checked_fields": [
+          "issuer_identity",
+          "opinion_or_conclusion",
+          "reporting_period",
+          "signatory_identity"
+        ]
+      },
+      "status": "passed_before_target_freeze"
+    }
+  ],
+  "documents": [
+    {
+      "document_id": "KB-B028-TELIA-AR2025",
+      "source_group_id": "KB-TELIA-2025",
+      "local_path": "data/raw/scale_batch_028/telia-annual-report-2025.pdf",
+      "document_sha256": "572c00695eca26b8bea90e2c9d0cdaaeaddf845f2851969c4f9c9d2cba85ecf7",
+      "selection_rule": "audited_theme_page_selection_v0.8_with_complete_signed_assurance_window_preflight_visual_review_and_duplicate_gate",
+      "target_pages": [
+        {
+          "page": 76,
+          "themes": [
+            "biodiversity"
+          ],
+          "native_text_sha256": "5c98f8d7638c2aa6275b5798334d264ca080bc5ab4f20ae0a4453e57efe57e15",
+          "native_text_characters": 5596
+        },
+        {
+          "page": 84,
+          "themes": [
+            "targets"
+          ],
+          "native_text_sha256": "29ae8add5c862b02b45fa452bbc7f2c515814d1e4a9b6fe907a68161c8ee496e",
+          "native_text_characters": 8327
+        },
+        {
+          "page": 85,
+          "themes": [
+            "energy"
+          ],
+          "native_text_sha256": "5549f20349558b111254c4f1e2c2a47893d95f00b238bdafe9cc0511b92c2d0d",
+          "native_text_characters": 11836
+        },
+        {
+          "page": 87,
+          "themes": [
+            "ghg_emissions"
+          ],
+          "native_text_sha256": "53b9a2454cbb928533bf7291bd3937d975e5ef60f372a49fed530d2a561b457c",
+          "native_text_characters": 8574
+        },
+        {
+          "page": 90,
+          "themes": [
+            "circularity"
+          ],
+          "native_text_sha256": "b9ed3e6f8b0ace20bcf23eeed90eed93dbfff8f76d7505539dde2294374ce079",
+          "native_text_characters": 9314
+        },
+        {
+          "page": 101,
+          "themes": [
+            "workforce"
+          ],
+          "native_text_sha256": "f7622fa335aa7622e405f90c8e21d8313cba25020c585d694c54024d790cac73",
+          "native_text_characters": 11734
+        },
+        {
+          "page": 103,
+          "themes": [
+            "health_safety"
+          ],
+          "native_text_sha256": "f4e9c9a691baba89edcb08d9fb0b90252dc8505a10de059d8939510711c80f7c",
+          "native_text_characters": 9915
+        },
+        {
+          "page": 129,
+          "themes": [
+            "water"
+          ],
+          "native_text_sha256": "09cfd4ea60497a9523931227652f8d878bdf5c908c3106f5cf52304fa868fa00",
+          "native_text_characters": 6214
+        },
+        {
+          "page": 259,
+          "themes": [
+            "assurance"
+          ],
+          "native_text_sha256": "8061a490082475b0782964e6eebc1c346aeaa6a620d78c032e021679beeae88f",
+          "native_text_characters": 7822
+        },
+        {
+          "page": 260,
+          "themes": [
+            "assurance"
+          ],
+          "native_text_sha256": "9fdd2d70d3e9756c98feaf618875ffa7c900ec7fe886d076ac6d36a8e2f55213",
+          "native_text_characters": 3220
+        }
+      ]
+    },
+    {
+      "document_id": "KB-B028-ASSA-ABLOY-AR2025",
+      "source_group_id": "KB-ASSA-ABLOY-2025",
+      "local_path": "data/raw/scale_batch_028/assa-abloy-annual-report-2025.pdf",
+      "document_sha256": "cfbb6cbd864e00b71c55bf5c7803da470f7230129308012ebef6f80dda273b90",
+      "selection_rule": "audited_theme_page_selection_v0.8_with_complete_signed_assurance_window_preflight_visual_review_and_duplicate_gate",
+      "target_pages": [
+        {
+          "page": 77,
+          "themes": [
+            "biodiversity"
+          ],
+          "native_text_sha256": "d1d8b9442e566f568d3f29250215b1fb7c71166322f50df10c604f0bc495f598",
+          "native_text_characters": 12087
+        },
+        {
+          "page": 90,
+          "themes": [
+            "targets"
+          ],
+          "native_text_sha256": "b7627cf5aaf14636f85d34dc19f47f8357f709aa40a216cff7721cc9aa91d274",
+          "native_text_characters": 9211
+        },
+        {
+          "page": 95,
+          "themes": [
+            "energy"
+          ],
+          "native_text_sha256": "7d5a05f3f262b5f6893927c01ecdf057aee680c0787521aa6ad75e32d96ae99f",
+          "native_text_characters": 16457
+        },
+        {
+          "page": 96,
+          "themes": [
+            "ghg_emissions"
+          ],
+          "native_text_sha256": "61f2b37b6903b3d030a431eafeb1bac17a310a286c81c44953ebbb45e07e745c",
+          "native_text_characters": 12229
+        },
+        {
+          "page": 98,
+          "themes": [
+            "water"
+          ],
+          "native_text_sha256": "a88ad7ec64213eb84f979e0ece427c0464852b8e2cee3b5ca0a697edc3f5110a",
+          "native_text_characters": 16578
+        },
+        {
+          "page": 99,
+          "themes": [
+            "circularity"
+          ],
+          "native_text_sha256": "f010b87daead1370f41d95da93e51c8fe62ae51ce28b0f8ca6858ba7f5ff1f27",
+          "native_text_characters": 13790
+        },
+        {
+          "page": 100,
+          "themes": [
+            "circularity"
+          ],
+          "native_text_sha256": "2189581088f7ef7acab63c4aa233d0327508d5b03e799818903ab43a1e90d194",
+          "native_text_characters": 14519
+        },
+        {
+          "page": 105,
+          "themes": [
+            "health_safety",
+            "workforce"
+          ],
+          "native_text_sha256": "1c8e7244643f5c918019cd1b34ccfba39a3c68eba8bfc39202caa966718dd95e",
+          "native_text_characters": 15127
+        },
+        {
+          "page": 170,
+          "themes": [
+            "assurance"
+          ],
+          "native_text_sha256": "3f79e815c54fdcc69e321d2efe3b5e72a058a8f64188696006f16987529f0d82",
+          "native_text_characters": 9609
+        },
+        {
+          "page": 171,
+          "themes": [
+            "assurance"
+          ],
+          "native_text_sha256": "c9223d3132765c0b952014029150fd117ee69ea3b7bbba1970eda0a0169233d0",
+          "native_text_characters": 6944
+        }
+      ]
+    },
+    {
+      "document_id": "KB-B028-LOOMIS-ASR2025",
+      "source_group_id": "KB-LOOMIS-2025",
+      "local_path": "data/raw/scale_batch_028/loomis-annual-and-sustainability-report-2025.pdf",
+      "document_sha256": "c601ba6cac8ac150b79e8061312120ba2c3136f22a9c24f302602e16fcf6d46a",
+      "selection_rule": "audited_theme_page_selection_v0.8_with_complete_signed_assurance_window_preflight_visual_review_and_duplicate_gate",
+      "target_pages": [
+        {
+          "page": 71,
+          "themes": [
+            "biodiversity"
+          ],
+          "native_text_sha256": "cb42298d7dc9c6c901ee0b5085a7e6262ec7274ed15910833f09436660357ecb",
+          "native_text_characters": 7262
+        },
+        {
+          "page": 78,
+          "themes": [
+            "targets"
+          ],
+          "native_text_sha256": "f2128b2df97fe9ed285e7c53f74239480c079a75749ff8a37f79f5e8adb13b57",
+          "native_text_characters": 10367
+        },
+        {
+          "page": 82,
+          "themes": [
+            "energy"
+          ],
+          "native_text_sha256": "5e5f4a19f06886e89a090147b3708f31889b03b643626015ce1c3ff439351f32",
+          "native_text_characters": 14664
+        },
+        {
+          "page": 83,
+          "themes": [
+            "ghg_emissions"
+          ],
+          "native_text_sha256": "ff335d09b9ca082837fe7b59d95eac96c972130d9350f8c783621f4270fec59c",
+          "native_text_characters": 12142
+        },
+        {
+          "page": 89,
+          "themes": [
+            "circularity"
+          ],
+          "native_text_sha256": "114bee671750df9ba43455b8bc7405a7b6c63d1b96270070f75e41117d74a278",
+          "native_text_characters": 14034
+        },
+        {
+          "page": 100,
+          "themes": [
+            "workforce"
+          ],
+          "native_text_sha256": "e91b5ae471f669c4453646418390542ea0a47c119f55c9af7dd0940f08ce3cdd",
+          "native_text_characters": 12343
+        },
+        {
+          "page": 104,
+          "themes": [
+            "health_safety"
+          ],
+          "native_text_sha256": "04176845bcd27667e27ec1cab125effbff9f104a8ea8656c0c1e2206df58d79a",
+          "native_text_characters": 11173
+        },
+        {
+          "page": 118,
+          "themes": [
+            "water"
+          ],
+          "native_text_sha256": "d1efb33b9ae31be49309bd296f87296b4cb08f7cd9b8d3e4e89d92bd378c3ecc",
+          "native_text_characters": 12388
+        },
+        {
+          "page": 165,
+          "themes": [
+            "assurance"
+          ],
+          "native_text_sha256": "bedc04149414c26cb91602c04f5126d61263bd7908c9286381bd6517cd5a1136",
+          "native_text_characters": 13262
+        },
+        {
+          "page": 166,
+          "themes": [
+            "assurance"
+          ],
+          "native_text_sha256": "f8e08b400f8f2ecd979c042299e5180baa96059b78811b36f24ba6b135baf27f",
+          "native_text_characters": 12316
+        }
+      ]
+    }
+  ],
+  "totals": {
+    "documents": 3,
+    "unique_target_pages": 30,
+    "assurance_windows_passed": 3
+  }
+}

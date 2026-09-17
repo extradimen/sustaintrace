@@ -1,0 +1,73 @@
+{
+  "checkpoint_resume_enabled": true,
+  "experiment_id": "P4-V13-UNSEEN-LOCKBOX-V01-RESUME01",
+  "records": [
+    {
+      "retried": false,
+      "stage_a": "failed",
+      "stage_a_error": "OllamaError:Ollama connection failed: [Errno 1] Operation not permitted",
+      "task_id": "P4-DEX-001",
+      "task_type": "direct_extraction"
+    },
+    {
+      "retried": false,
+      "stage_a": "failed",
+      "stage_a_error": "OllamaError:Ollama connection failed: [Errno 1] Operation not permitted",
+      "task_id": "P4-CALC-001",
+      "task_type": "deterministic_calculation"
+    },
+    {
+      "retried": false,
+      "stage_a": "failed",
+      "stage_a_error": "OllamaError:Ollama connection failed: [Errno 1] Operation not permitted",
+      "task_id": "P4-XPAGE-001",
+      "task_type": "cross_page_relation"
+    },
+    {
+      "retried": false,
+      "stage_a": "failed",
+      "stage_a_error": "OllamaError:Ollama connection failed: [Errno 1] Operation not permitted",
+      "task_id": "P4-DEX-002",
+      "task_type": "direct_extraction"
+    },
+    {
+      "retried": false,
+      "stage_a": "failed",
+      "stage_a_error": "OllamaError:Ollama connection failed: [Errno 1] Operation not permitted",
+      "task_id": "P4-CONFLICT-001",
+      "task_type": "source_conflict"
+    },
+    {
+      "retried": false,
+      "stage_a": "failed",
+      "stage_a_error": "OllamaError:Ollama connection failed: [Errno 1] Operation not permitted",
+      "task_id": "P4-SCOPE-001",
+      "task_type": "scope_subject_boundary"
+    },
+    {
+      "retried": false,
+      "stage_a": "failed",
+      "stage_a_error": "OllamaError:Ollama connection failed: [Errno 1] Operation not permitted",
+      "task_id": "P4-DEX-003",
+      "task_type": "direct_extraction"
+    },
+    {
+      "retried": false,
+      "stage_a": "failed",
+      "stage_a_error": "OllamaError:Ollama connection failed: [Errno 1] Operation not permitted",
+      "task_id": "P4-CALC-002",
+      "task_type": "deterministic_calculation"
+    },
+    {
+      "retried": false,
+      "stage_a": "failed",
+      "stage_a_error": "OllamaError:Ollama connection failed: [Errno 1] Operation not permitted",
+      "task_id": "P4-SCOPE-002",
+      "task_type": "scope_subject_boundary"
+    }
+  ],
+  "reference_loaded_by_orchestrator": false,
+  "schema_version": "1.0",
+  "single_attempt_per_stage": true,
+  "updated_at": "2026-09-04T23:57:44.939322+00:00"
+}

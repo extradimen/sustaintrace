@@ -1,0 +1,41 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-004",
+  "created_at": "2026-09-12T16:28:17.589203+00:00",
+  "source_config": "configs/knowledge/scale_batch_004_v0.1.json",
+  "documents": [
+    {
+      "document_id": "KB-B004-PHILIPS-AR2025",
+      "local_path": "data/raw/scale_batch_004/philips-annual-report-2025.pdf",
+      "bytes": 0,
+      "partial_bytes": 0,
+      "sha256": null,
+      "pdf_header_valid": false,
+      "download_status": "failed_preserved",
+      "error_type": "URLError",
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    {
+      "document_id": "KB-B004-SAINTGOBAIN-URD2025",
+      "local_path": "data/raw/scale_batch_004/saint-gobain-urd-2025.pdf",
+      "bytes": 0,
+      "partial_bytes": 0,
+      "sha256": null,
+      "pdf_header_valid": false,
+      "download_status": "failed_preserved",
+      "error_type": "URLError",
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    {
+      "document_id": "KB-B004-MONDI-SDR2025",
+      "local_path": "data/raw/scale_batch_004/mondi-sustainable-development-report-2025.pdf",
+      "bytes": 0,
+      "partial_bytes": 0,
+      "sha256": null,
+      "pdf_header_valid": false,
+      "download_status": "failed_preserved",
+      "error_type": "URLError",
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    }
+  ]
+}

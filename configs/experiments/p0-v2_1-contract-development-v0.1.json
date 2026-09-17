@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "plan_id": "P0-V2.1-CONTRACT-DEV-v0.1",
+  "status": "completed_development_diagnostic",
+  "evidence_role": "development_only_not_unseen_performance",
+  "framework_version": "V2.1",
+  "model_snapshot": "gemma4:12b@4eb23ef187e2c5462566d6a1d3bbbc2f1346d0b4327cbb66d58fffbcc9b2b05c",
+  "think": false,
+  "revision_basis": "V2 required metric successfully but left finding_type unconstrained; the archived TEXT output selected structural_anomaly for a registered text_fact task.",
+  "frozen_inputs": {
+    "task_contracts": "7090b223c7df44d92021224569c272fb027e3451b431d3c943b7c6240a6636b3",
+    "prompt": "da6eb7ff7d726a11e7202fa4039cb1f626117e9e921f235681b666e4ff38b26d",
+    "task_runner": "d0197f82f45e689cedbc389704c4bd5ddd0af2878befacb1c09ea3d2d552c617",
+    "injection_policy": "985537b12c21ae063cca56992ee38769ba94d7f4c266d197b14d49c6718015b7",
+    "finding_card_schema": "e2aac00a4996600dbb56ae2531f4a69f539f8edb4ac66929a74048f284a57520",
+    "scorer": "a658a75f08e18fe67a4cb1090ee63effa4aa8cc37e52e6900d6694dc9788db6b"
+  },
+  "runs": [
+    {"order": 1, "task_id": "P0-TEXT-001", "run_id": "gemma4-12b-p0-text-001-v2_1-dev-r1", "include_images": false, "status": "completed"},
+    {"order": 2, "task_id": "P0-CALC-001", "run_id": "gemma4-12b-p0-calc-001-v2_1-dev-r1", "include_images": true, "status": "completed_content_failure"},
+    {"order": 3, "task_id": "P0-ABSTAIN-001", "run_id": "gemma4-12b-p0-abstain-001-v2_1-dev-r1", "include_images": true, "status": "completed"},
+    {"order": 4, "task_id": "P0-CONFLICT-001", "run_id": "gemma4-12b-p0-conflict-001-v2_1-dev-r1", "include_images": true, "status": "model_validation_failed_archived"}
+  ]
+}

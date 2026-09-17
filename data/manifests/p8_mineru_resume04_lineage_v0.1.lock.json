@@ -1,0 +1,18 @@
+{
+  "schema_version":"1.0",
+  "experiment_id":"P8-V17-UNSEEN-LOCKBOX-V01",
+  "status":"completed_all_twelve_targets_verified",
+  "parent_resume":"data/manifests/p8_mineru_resume03_lineage_v0.1.lock.json",
+  "resume_output_root":"artifacts/p8/mineru_targets_RESUME04",
+  "failure_record":"artifacts/p8/mineru_targets_RESUME03/P8-RIOTINTO-AR2025-p0336/esg_rd_mineru_run.json",
+  "interruption_class":"parser_process_teardown_recursive_mutex_failure_after_artifact_emission",
+  "verified_reuse":["P8-RIOTINTO-AR2025-p0037","P8-RIOTINTO-AR2025-p0039","P8-RIOTINTO-AR2025-p0057","P8-RIOTINTO-AR2025-p0059","P8-RIOTINTO-AR2025-p0084","P8-RIOTINTO-AR2025-p0086","P8-RIOTINTO-AR2025-p0328","P8-RIOTINTO-AR2025-p0329","P8-RIOTINTO-AR2025-p0330","P8-RIOTINTO-AR2025-p0334","P8-RIOTINTO-AR2025-p0335"],
+  "unfinished_targets":["P8-RIOTINTO-AR2025-p0336"],
+  "resume_rule":"reuse only returncode-zero targets with matching source hash and page; do not reuse p0336 artifacts because its recorded returncode is -6; preserve all earlier failures; run only unfinished page",
+  "candidate_inference_started":false,
+  "cloud_transmission_occurred":false,
+  "final_registry":"data/manifests/p8_mineru_target_registry_RESUME04_v0.1.json",
+  "final_registry_sha256":"8b92d11e68001d65a7f38cdf233edc75373e0b54dfaaf8e36ed12280995642d2",
+  "verified_target_count":12,
+  "verification_errors":[]
+}

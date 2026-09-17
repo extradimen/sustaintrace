@@ -1,0 +1,77 @@
+{
+  "artifact_sha256": {
+    "configs/knowledge/scale_batch_010_RESUME01_v0.2.json": "fd2e77c597e29aa3737d74aeb19ff45c6f5205a8aaf95fbaef82251b9f98301d",
+    "configs/knowledge/scale_batch_010_v0.1.json": "2a3583e90791187f1acbe281f344b39832bb51c04798de7a78d77024a0f67691",
+    "configs/parsers/scale-batch-010-mineru-3.4.0-runtime.json": "f4cc15451e8552a8130f0dfae3dfec8d63a9646921c25258d2068a7054fa670f",
+    "data/knowledge_bases/v0.1/migration_manifest.lock.json": "e8609b432336d5244b3ae31344e6cc5836481dcb176c6683a5f85b4735e41eb6",
+    "data/knowledge_bases/v0.1/tier_b_independent_adjudications.jsonl": "1ca8fe6f99f7630457b21081a99a34c2a1f66d89c3b60118d5f8f7a12cf77414",
+    "data/knowledge_bases/v0.1/trusted_fact_records.jsonl": "f825d619366ba75a022ec11135a60c92131a9623d34e01203bc0e4914144be5d",
+    "data/manifests/scale_batch_010_acquisition.lock.json": "6a49d8e14abd3b160c166694a67fb99ade9b939eb3888bd40a14ad854e3f981c",
+    "data/manifests/scale_batch_010_mineru_RESUME01_lineage.lock.json": "a34a5a52565577e49384328384e138d17789ab60eb8e05f5644b7d82e7c00ab9",
+    "data/manifests/scale_batch_010_mineru_RESUME02_lineage.lock.json": "0bd2a2969fb91cfb335b2ad23f63e74af6fd3f18afda57e4203eeea1a82366bd",
+    "data/manifests/scale_batch_010_pre_acquisition_failures.lock.json": "2377dcfe21033ac8b75b997fce79aeead46f837ce65693705cfa5314a40c06a8",
+    "data/manifests/scale_batch_010_target_pages.lock.json": "3c41f5d8716e20b4ab528f24b0e9f9df2b8b1eedc5bcccbe44eda792d1739e5b",
+    "data/results/scale_batch_010_atomic_projection.lock.json": "d8c5d1b452577e1283ff0b304290c1922e8d1d5e05c37e3c3f4400bc86d875b6",
+    "data/results/scale_batch_010_atomic_validation.lock.json": "e5e567f1b31eca3c33013b7ea2339f4d4da8865a107ce12dd692332aa5830992",
+    "data/results/scale_batch_010_diagnostics.lock.json": "f864262470d2cf3324327949d576e2869f04d41d718396ac6c82d2bee00c4775",
+    "data/results/scale_batch_010_kb_increment.lock.json": "b99039bec3bf2c2a9bac0317ba32512e51844da866c42dde6f6e8d2cd942fb82",
+    "data/results/scale_batch_010_mineru_FINAL_summary.lock.json": "935f70000bc010fd850f731f98bf9d84687a225a86aff056d9887fa1d4d2ec54",
+    "data/results/scale_batch_010_mineru_RESUME01_summary.lock.json": "7227eb922b202db200ddd4bbe9a8464cdf961d4c15d5cdbb124bd2997f102265",
+    "data/results/scale_batch_010_mineru_RESUME02_summary.lock.json": "4f851a0f39d7e6dc5b9c64e222e7629395801c93012a9277c2b5fb50b3c83749",
+    "data/results/scale_batch_010_mineru_summary.lock.json": "8ea255e01da68f23a5d62394e282a2739015c12f731839e04e7587087a1f2f2f",
+    "data/results/scale_batch_010_native_coordinate_audit.lock.json": "3df1dc7980cb174528cff3f7b53580409e26b9a8d196d074b2375a341b4e52cc",
+    "data/results/scale_batch_010_performance_baseline.lock.json": "d4da38c80bfa89668e76f439aa20cd66690418ce0f5451c316b574e2fa04dc35",
+    "data/results/scale_batch_010_performance_measurement_failures.lock.json": "2838d34995d1e3ac6785e07e3229086515e0807ae56815dea3f62f041e21504f",
+    "data/results/scale_batch_010_tier_b_promotion.lock.json": "6105f8333a954d2bd9ad1ec4c515b7f0cd54e22f43fe7d4217336cafa2f0e464"
+  },
+  "atomic_validation": {
+    "coordinate_corroborated": 14,
+    "coordinate_exact": 17,
+    "strictly_promoted_after_native_and_assurance_audit": 3
+  },
+  "batch_id": "KB-SCALE-BATCH-010",
+  "extractable_source_pages": 1316,
+  "frozen_target_pages": 27,
+  "global_knowledge_bases": {
+    "fact_records": 1603,
+    "failure_records": 290,
+    "failure_signatures": 21,
+    "trusted_fact_records": 79
+  },
+  "knowledge_increment": {
+    "atomic_fact_candidates": 17,
+    "evidence_snippet_candidates": 46,
+    "failure_observations": 28,
+    "held_tier_c_after_six_dimension_review": 14,
+    "promoted_tier_b": 3,
+    "remaining_evidence_gaps": 0,
+    "total_new_fact_records": 63
+  },
+  "mineru": {
+    "final_usable_pages": 27,
+    "remaining_failures": 0,
+    "resume01_completed_pages": 26,
+    "resume02_completed_pages": 1,
+    "successful_pages_per_hour": 81.884242
+  },
+  "performance": {
+    "checkpoint_reuse_pages": 26,
+    "peak_rss_available": false,
+    "target_page_success_wall_seconds": 1187.041581,
+    "whole_report_pages_per_second": 440.0,
+    "whole_report_wall_seconds": 3.0
+  },
+  "quality_gates": {
+    "automatic_promotion": false,
+    "cloud_transmission": false,
+    "json_artifacts_parse": "passed",
+    "locked_experiments_modified": false,
+    "pytest_collected_and_passed": 466,
+    "ruff": "passed",
+    "sha256_manifest": "passed"
+  },
+  "schema_version": "0.1",
+  "source_documents": 3,
+  "source_pages": 1320,
+  "status": "local_ingestion_projection_tier_b_sampling_and_performance_baseline_complete"
+}

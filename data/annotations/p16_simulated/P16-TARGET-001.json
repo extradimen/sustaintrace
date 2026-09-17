@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0",
+  "task_id": "P16-TARGET-001",
+  "reference_author": "codex_gpt_simulated_expert",
+  "reference_status": "verified_against_frozen_pages",
+  "answer": "Against a 2019 baseline, Sanofi targets absolute Scope 1 and 2 reductions of 55% and Scope 3 reductions of 30% by 2030, followed by at least 90% across Scopes 1, 2 and 3 by 2045. The near-term Scope 3 boundary covers categories 1–7 listed in the report. SBTi validated the 2030 Scope 1 and 2 and 2045 net-zero targets in 2023, but after the 2025 Opella divestment Sanofi began recalculation and resubmission for revalidation in 2026. It plans community-focused projects to match residual emissions from 2030 and permanent removals from 2045. Reported 2025 progress was 49.4% below the 2019 baseline for market-based Scopes 1 and 2 and 13.7% below baseline for significant Scope 3.",
+  "normalized_value": {
+    "base_year": 2019,
+    "scope_1_2_2030_reduction_percent": 55,
+    "scope_3_2030_reduction_percent": 30,
+    "net_zero_year": 2045,
+    "net_zero_reduction_percent": 90,
+    "scope_3_near_term_categories": "categories 1 purchased goods and services, 2 capital goods, 3 fuel and energy-related activities, 4 upstream transport and distribution, 5 waste generated in operations, 6 business travel and 7 employee commuting",
+    "sbti_validation_year": 2023,
+    "sbti_status_after_opella": "targets are being recalculated and resubmitted for revalidation in 2026 following the 2025 Opella divestment",
+    "residual_emissions_from_2030": "community-focused projects are intended to match residual emissions reduced or sequestered from 2030",
+    "permanent_removal_from_year": 2045,
+    "scope_1_2_2025_vs_base_reduction_percent": 49.4,
+    "scope_3_2025_vs_base_reduction_percent": 13.7
+  },
+  "evidence": [
+    {"source_id":"P16-SANOFI-SS2025","pdf_page":26,"quote":"In 2023, the SBTi’s Target Validation Team assessed Sanofi’s corporate science-based targets"},
+    {"source_id":"P16-SANOFI-SS2025","pdf_page":26,"quote":"resubmitted and revalidated in 2026"},
+    {"source_id":"P16-SANOFI-SS2025","pdf_page":26,"quote":"Near-term target"},
+    {"source_id":"P16-SANOFI-SS2025","pdf_page":26,"quote":"-55%"},
+    {"source_id":"P16-SANOFI-SS2025","pdf_page":26,"quote":"-30%"},
+    {"source_id":"P16-SANOFI-SS2025","pdf_page":26,"quote":"-90%"},
+    {"source_id":"P16-SANOFI-SS2025","pdf_page":30,"quote":"we reduced our Scope 3 emissions by 14% versus the 2019 baseline"},
+    {"source_id":"P16-SANOFI-SS2025","pdf_page":38,"quote":"Gross market-based Scope 2 GHG emissions"},
+    {"source_id":"P16-SANOFI-SS2025","pdf_page":38,"quote":"-49.4%"},
+    {"source_id":"P16-SANOFI-SS2025","pdf_page":38,"quote":"-13.7%"}
+  ],
+  "provenance": {"reference_is_simulated":true,"candidate_model_used":false}
+}

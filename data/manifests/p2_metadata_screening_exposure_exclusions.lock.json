@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "lock_id": "P2-METADATA-SCREENING-EXPOSURE-EXCLUSIONS-v0.1",
+  "status": "frozen",
+  "reason": "Search-result snippets exposed report content or ESG metrics during metadata screening; conservative exclusion preserves the P2 blind holdout.",
+  "excluded_companies": [
+    "NVIDIA Corporation",
+    "AstraZeneca PLC",
+    "A.P. Moller - Maersk A/S",
+    "Sony Group Corporation",
+    "L'Oreal S.A.",
+    "Vale S.A. and PT Vale Indonesia Tbk"
+  ],
+  "exclusion_scope": "All reports surfaced for these issuers in the current P2 selection session.",
+  "report_content_used_for_framework_changes": false,
+  "eligible_for_p2": false
+}

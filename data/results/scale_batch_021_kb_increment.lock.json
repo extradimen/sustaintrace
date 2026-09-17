@@ -1,0 +1,86 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-021",
+  "status": "increment_built_candidates_not_promoted",
+  "fact_candidates": 46,
+  "trusted_facts_promoted": 0,
+  "evidence_gaps": 10,
+  "failure_observations": 43,
+  "gaps": [
+    {
+      "document_id": "KB-B021-CAPGEMINI-URD2025",
+      "page": 318,
+      "theme": "assurance",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B021-CAPGEMINI-URD2025",
+      "page": 319,
+      "theme": "assurance",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B021-CAPGEMINI-URD2025",
+      "page": 320,
+      "theme": "assurance",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B021-REXEL-URD2025",
+      "page": 342,
+      "theme": "assurance",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B021-REXEL-URD2025",
+      "page": 343,
+      "theme": "assurance",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B021-REXEL-URD2025",
+      "page": 344,
+      "theme": "assurance",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B021-EIFFAGE-URD2025",
+      "page": 215,
+      "theme": "health_safety",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B021-EIFFAGE-URD2025",
+      "page": 219,
+      "theme": "assurance",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B021-EIFFAGE-URD2025",
+      "page": 220,
+      "theme": "assurance",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B021-EIFFAGE-URD2025",
+      "page": 221,
+      "theme": "assurance",
+      "reason": "no_theme_line_in_mineru_markdown"
+    }
+  ],
+  "outputs": {
+    "facts": {
+      "path": "data/knowledge_bases/v0.1/increments/scale_batch_021_fact_records.jsonl",
+      "sha256": "16563e12c548d96452e43a5793f620813ac99bffa711ee3f074410ab34e23a8d"
+    },
+    "failures": {
+      "path": "data/knowledge_bases/v0.1/increments/scale_batch_021_failure_records.jsonl",
+      "sha256": "115b71c1ea2182a3c2fa17678fe9004bb6f975d746071da2860824d2a16c519c"
+    }
+  },
+  "policy": {
+    "cloud_transmission": false,
+    "locked_experiments_modified": false,
+    "automatic_promotion": false
+  }
+}

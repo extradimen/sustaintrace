@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/esg-reliable-discovery/repair-strategy-v0.1.schema.json",
+  "title": "Controlled repair strategy v0.1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "strategy_id",
+    "name",
+    "target_signatures",
+    "risk_level",
+    "execution_policy",
+    "preconditions",
+    "actions",
+    "validation_gates",
+    "rollback",
+    "evidence_artifacts",
+    "maturity"
+  ],
+  "properties": {
+    "strategy_id": {"type": "string", "pattern": "^RS-[A-Z0-9-]+$"},
+    "name": {"type": "string", "minLength": 1},
+    "target_signatures": {
+      "type": "array",
+      "items": {"type": "string", "pattern": "^[A-Z][A-Z0-9_]+$"},
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "risk_level": {"enum": ["low", "medium", "high"]},
+    "execution_policy": {"enum": ["automatic", "supervised", "blocked"]},
+    "preconditions": {"type": "array", "items": {"type": "string"}, "minItems": 1},
+    "actions": {"type": "array", "items": {"type": "string"}, "minItems": 1},
+    "validation_gates": {"type": "array", "items": {"type": "string"}, "minItems": 1},
+    "rollback": {"type": "string", "minLength": 1},
+    "evidence_artifacts": {"type": "array", "items": {"type": "string"}},
+    "maturity": {"enum": ["historical_observation", "development_validated", "unseen_validated"]}
+  }
+}

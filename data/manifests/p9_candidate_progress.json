@@ -1,0 +1,53 @@
+{
+  "checkpoint_resume_enabled": true,
+  "cloud_authorization": "data/manifests/p9_cloud_authorization_2026-09-06.lock.json",
+  "experiment_id": "P9-V18-UNSEEN-LOCKBOX-V01",
+  "records": [
+    {
+      "retried": false,
+      "stage_a": "failed",
+      "stage_a_error": "KeyError:'pdf_path'",
+      "task_id": "P9-SAFETY-001",
+      "task_type": "direct_extraction"
+    },
+    {
+      "retried": false,
+      "stage_a": "failed",
+      "stage_a_error": "KeyError:'pdf_path'",
+      "task_id": "P9-CALC-001",
+      "task_type": "deterministic_calculation"
+    },
+    {
+      "retried": false,
+      "stage_a": "failed",
+      "stage_a_error": "KeyError:'pdf_path'",
+      "task_id": "P9-TARGET-001",
+      "task_type": "scope_subject_boundary"
+    },
+    {
+      "retried": false,
+      "stage_a": "failed",
+      "stage_a_error": "KeyError:'pdf_path'",
+      "task_id": "P9-METHANE-001",
+      "task_type": "scope_subject_boundary"
+    },
+    {
+      "retried": false,
+      "stage_a": "failed",
+      "stage_a_error": "KeyError:'pdf_path'",
+      "task_id": "P9-SCOPE3-001",
+      "task_type": "scope_subject_boundary"
+    },
+    {
+      "retried": false,
+      "stage_a": "failed",
+      "stage_a_error": "KeyError:'pdf_path'",
+      "task_id": "P9-ASSURE-001",
+      "task_type": "scope_subject_boundary"
+    }
+  ],
+  "reference_loaded_by_orchestrator": false,
+  "schema_version": "1.0",
+  "single_attempt_per_stage": true,
+  "updated_at": "2026-09-06T11:37:36.254850+00:00"
+}

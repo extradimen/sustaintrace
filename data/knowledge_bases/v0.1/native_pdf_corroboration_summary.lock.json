@@ -1,0 +1,58 @@
+{
+  "candidate_records": 145,
+  "counts": {
+    "failed_cell_labels": 31,
+    "failed_literal": 6,
+    "passed_scalar_and_cell_labels": 35,
+    "passed_scalar_only": 61,
+    "unavailable_pdf_or_page": 12
+  },
+  "inputs": {
+    "facts_sha256": "8af57e7b7bda85deef8f90586f8225aedcf1da24e0669300115b8f1f7499bf5b",
+    "field_bindings_sha256": "d0e0eaf14664dc61e8b0219ae424d35274e96539ade9485542df4b76a80e4be9",
+    "joint_qualifications_sha256": "9f63f2f3f819ddc456a8ddc5601c92a080f8b15759dd183f5dd946d5ba8fda0c"
+  },
+  "next_gate": "adjudicate boundary and unit attachment before any Tier B promotion",
+  "output": {
+    "path": "data/knowledge_bases/v0.1/native_pdf_corroborations.jsonl",
+    "sha256": "629eb32a213c75eb44d433c80afa060173efb70a25e27a1b02adc14e13a35cc4"
+  },
+  "pdf_inventory": [
+    {
+      "path": "data/raw/p10_staging/shell-annual-report-2025.pdf",
+      "sha256": "90b21028e1616c41c7d73c3e996fd6128d837a41b38d432286e991aed3fbd9a1"
+    },
+    {
+      "path": "data/raw/p17_staging/bmw-group-report-2025.pdf",
+      "sha256": "7a7fd36bf7f274e776ef7eda30d3cda4335a99cbb45f097ae5e8268ccf7759e7"
+    },
+    {
+      "path": "data/raw/p18_staging/deutsche_telekom_annual_report_2025_en.pdf",
+      "sha256": "de5d9b0705793c4bf0b994b52ecc242800d79ee18736958dbff32aade7b79a5c"
+    },
+    {
+      "path": "data/raw/p19_staging/novo-nordisk-annual-report-2025.pdf",
+      "sha256": "f5475f1e043eaa99526772c0e06677a74ab2c2abb8181755afbe02a10e395092"
+    },
+    {
+      "path": "data/raw/p20_staging/holcim-sustainability-statement-2025.pdf",
+      "sha256": "55b975cd13fc361638ed13bf32856a2629e46e88bdfc6ad9208bd8807992a599"
+    },
+    {
+      "path": "data/raw/p21_staging/basf-report-2025.pdf",
+      "sha256": "6fa0a9f60a3149e585a5b52f06efde1e0aaa5d1156da0d71a1fd40822df7f8b7"
+    },
+    {
+      "path": "data/raw/p22_staging/bayer-annual-report-2025.pdf",
+      "sha256": "0af4a9d19fd9d4cba72c1ec062802199873f2379f84112dc2db5dc9605ce769b"
+    },
+    {
+      "path": "data/raw/p23_staging/gsk-annual-report-2025.pdf",
+      "sha256": "a3ef37d848fca940f85b6c33815a5d47d1f32726fd389a03910653e24af0f4d2"
+    }
+  ],
+  "pdf_pages_extracted": 41,
+  "promotion_count": 0,
+  "schema_version": "0.1",
+  "status": "native_pdf_corroboration_complete_no_promotion"
+}

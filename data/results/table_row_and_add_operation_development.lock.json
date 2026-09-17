@@ -1,0 +1,40 @@
+{
+  "schema_version": "0.1",
+  "record_kind": "development_regression_result",
+  "status": "table_row_and_add_operation_development_complete",
+  "parent_failure_set": {
+    "path": "data/results/second_unseen_adapter_validation_closure.lock.json",
+    "sha256": "609ff866c0e12ef2106874e5454fe9187b7a1dde73db72c99cb930d318a83fda"
+  },
+  "changes": [
+    "raw_and_normalized_table_row_representations",
+    "coordinate_preserving_row_tokens",
+    "spatial_gap_row_label_boundary",
+    "year_header_to_calculation_cell_binding",
+    "whitelisted_binary_add"
+  ],
+  "development_regressions": {
+    "exposed_failures_passed": 2,
+    "pytest_passed": 529,
+    "ruff_passed": true,
+    "json_audit_passed": true
+  },
+  "artifacts": [
+    {
+      "path": "src/esg_reliable_discovery/read_only_diagnostics.py",
+      "sha256": "3d1c30efffb0c2e540e5868f37069d1dff45d19f9f80c296f0f6aaf9fcc51009"
+    },
+    {
+      "path": "tests/test_contract_driven_read_only_diagnostics_v01.py",
+      "sha256": "862a5e687a564aa8807e8470ce272f2a14de887e43493fce0edc330d99ffb239"
+    }
+  ],
+  "safety": {
+    "unseen_performance_claimed": false,
+    "historical_result_modified": false,
+    "fact_write_performed": false,
+    "trust_promotion_performed": false,
+    "cloud_transmission_performed": false
+  },
+  "next_gate": "freeze new table and calculation facts for another unseen validation"
+}

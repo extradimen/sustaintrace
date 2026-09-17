@@ -1,0 +1,14 @@
+{
+  "schema_version":"1.0",
+  "experiment_id":"P8-V17-UNSEEN-LOCKBOX-V01",
+  "authorized_at_local_date":"2026-09-06",
+  "authorized_by":"user",
+  "report":"Rio Tinto Annual Report 2025",
+  "authorized_pages":[37,39,57,59,84,86,328,329,330,334,335,336],
+  "authorized_model":"qwen3.5:397b-cloud",
+  "provider":"Ollama Cloud",
+  "authorized_use":"P8 Stage A and Stage B single-candidate inference only",
+  "reference_transmission_allowed":false,
+  "scope_expansion_allowed":false,
+  "verbatim_user_authorization":"我授权将 Rio Tinto Annual Report 2025 第37、39、57、59、84、86、328、329、330、334、335、336页的冻结证据发送至 Ollama Cloud 的 qwen3.5:397b-cloud，仅用于 P8 Stage A/Stage B 单次候选推理。"
+}

@@ -1,0 +1,40 @@
+{
+  "experiment_id": "P23-V32-UNSEEN-LOCKBOX-V01",
+  "schema_version": "3.2",
+  "status": "final_validation_completed",
+  "validation": {
+    "pytest": {
+      "passed": 296,
+      "failed": 0,
+      "exit_code": 0
+    },
+    "ruff": {
+      "status": "passed",
+      "exit_code": 0
+    },
+    "p23_run_archives": {
+      "verified": 6,
+      "checksum_failures": 0
+    },
+    "json_audit": {
+      "files_checked": 978,
+      "p23_invalid_files": 0,
+      "known_pre_existing_unrelated_invalid_file": "configs/experiments/p1-integrated-v0.9-six-type-requalification.json",
+      "known_issue": "JSONDecodeError: Extra data at line 50 column 1",
+      "p23_affected": false
+    }
+  },
+  "locked_artifact_sha256": {
+    "data/manifests/p23_candidate_progress.json": "0256c66cd70884c370da120d068f352d76e3d15b1f62e0992bbf2c7378dc36f1",
+    "data/results/p23_v32_dimension_scores_v0.1.lock.json": "ba6bddc667978f48e2e93616b283ee2e6b3c9bc75c009ee5f496abb11e31a425",
+    "data/results/p23_v32_unseen_lockbox_v0.1_result.lock.json": "236743c88539b711fcb7b0f7a28e2f8ad6714d73be6c98a82d94d669791e7e5a",
+    "docs/98_P23_v3.2未见锁箱结果与完整性审计_v0.1.md": "eeefb7ec406bafc1451e13c3586226500ed78baf0ef0747a1b55daa60fcf618f"
+  },
+  "protocol": {
+    "p3_through_p22_modified": false,
+    "p23_rerun": false,
+    "p23_rescored": false,
+    "silent_retry": false,
+    "posthoc_semantic_repair": false
+  }
+}

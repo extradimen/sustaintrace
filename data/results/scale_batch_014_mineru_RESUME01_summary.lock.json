@@ -1,0 +1,25 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-014-MINERU-RESUME01",
+  "updated_at": "2026-09-13T07:57:16.800757+00:00",
+  "status": "complete",
+  "cloud_transmission": false,
+  "total_target_pages": 1,
+  "complete_pages": 1,
+  "failed_pages": 0,
+  "pending_pages": 0,
+  "records": [
+    {
+      "document_id": "KB-B014-SCA-AR2025",
+      "page": 127,
+      "themes": [
+        "energy"
+      ],
+      "output_directory": "artifacts/scale_batch_014/mineru_targets_RESUME01/KB-B014-SCA-AR2025-p0127",
+      "status": "complete",
+      "started_at": "2026-09-13T07:56:57.842830+00:00",
+      "completed_at": "2026-09-13T07:57:16.799965+00:00",
+      "wall_seconds": 18.957619
+    }
+  ]
+}

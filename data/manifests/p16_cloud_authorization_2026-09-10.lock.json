@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "experiment_id": "P16-V25-UNSEEN-LOCKBOX-V01",
+  "status": "authorized_by_user",
+  "authorization_date_local": "2026-09-10",
+  "authorization_basis": "The user replied '授权啊，机选' and then '继续' directly to the immediately preceding exact P16 authorization request; this record binds that confirmation only to the listed scope and does not broaden it.",
+  "document_id": "P16-SANOFI-SS2025",
+  "document_title": "Sanofi Sustainability Statement 2025",
+  "document_sha256": "82547ddb72b6b05dca88f93ed4cfe13010cb5690a5693b96721e9be3ff9c8fcc",
+  "pages": [26, 30, 31, 38, 43, 44, 45, 68, 90, 118, 129, 130, 131, 132, 133],
+  "model": "qwen3.5:397b-cloud",
+  "purpose": "P16 Stage A and Stage B single-attempt candidate inference only",
+  "stage_a_single_attempt": true,
+  "stage_b_single_attempt": true,
+  "silent_retry": false,
+  "posthoc_semantic_repair": false,
+  "other_pages_authorized": false,
+  "other_models_authorized": false,
+  "reference_visible_to_candidate": false
+}

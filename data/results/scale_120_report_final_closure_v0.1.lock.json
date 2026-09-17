@@ -1,0 +1,68 @@
+{
+  "schema_version": "0.1",
+  "closure_id": "ESG-KB-SCALE-120-REPORT-FINAL-CLOSURE-v0.1",
+  "created_at": "2026-09-14T10:44:01+08:00",
+  "status": "complete",
+  "effective_acceptance": {
+    "path": "data/results/scale_120_report_acceptance_v0.1.lock.json",
+    "sha256": "e9786d2ae24a247706a728afe884f7ee8c89b3c8c028a4fa001c54b808748366",
+    "unique_reports": 120,
+    "completion_percent": 100
+  },
+  "effective_batch_030_milestone": {
+    "path": "data/results/scale_batch_030_milestone_audit_RESUME01.lock.json",
+    "sha256": "a50289b4a65369a1f7f9e925d25e9e976c165aa0b5825b5765ef18eb34126773",
+    "supersedes_premature_original": true
+  },
+  "knowledge_bases": {
+    "migration_manifest": {
+      "path": "data/knowledge_bases/v0.1/migration_manifest.lock.json",
+      "sha256": "6f82e142c2cbef799e0344b50df9bd70a77adb6b3fc0c8dcc3a3b967515b5583"
+    },
+    "trusted_facts": {
+      "path": "data/knowledge_bases/v0.1/trusted_fact_records.jsonl",
+      "sha256": "866c7e14eb92a86401fab4524d6fd909b67a3f9c3e0c5c728b7e5bea4045eb6b"
+    },
+    "failures": {
+      "path": "data/knowledge_bases/v0.1/failure_records.jsonl",
+      "sha256": "bac85772c9a3830c54fa03a2107851c35097ecd2540d58d7ae59479c4e4327ad"
+    }
+  },
+  "reports": {
+    "batch_029": {
+      "path": "docs/150_规模化知识引入第二十九批与120份覆盖闭环_v0.1.md",
+      "sha256": "23e352943d7faffa700b245352e942a0ca9be6a32d6a332d320357ce5d6adf7a"
+    },
+    "batch_030": {
+      "path": "docs/151_真实第120份去重补充批次NCC本地闭环_v0.1.md",
+      "sha256": "b0c407644cf45665e02fdb2c795dfb631230d7c28e2cf29d6fe2dd3d170be9e5"
+    },
+    "terminal_summary": {
+      "path": "docs/152_ESG可信知识规模化引入120份报告终态验收_v0.1.md",
+      "sha256": "fca3842fe888db6fe7554ff56f09c8aa31d5f2df401cb9def58342034cc6171d"
+    }
+  },
+  "final_quality_gates": {
+    "pytest": {
+      "status": "passed",
+      "passed": 478
+    },
+    "ruff": "passed",
+    "all_data_json_parse": "passed",
+    "all_referenced_sha256_verified": true,
+    "locked_experiments_rerun_or_rescored": false,
+    "cloud_transmission_during_scale_stage": false
+  },
+  "terminal_counts": {
+    "unique_reports": 120,
+    "source_pages": 24174,
+    "extractable_source_pages": 24052,
+    "frozen_target_pages": 820,
+    "fact_records": 2708,
+    "trusted_tier_b_records": 149,
+    "failure_records": 1032,
+    "failure_signatures": 32,
+    "repair_observations": 28
+  },
+  "scientific_boundary": "The 120-report coverage target is complete; universal reliable extraction is not claimed. Strict table-to-atomic projection remains the principal bottleneck."
+}

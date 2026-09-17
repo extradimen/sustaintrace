@@ -1,0 +1,82 @@
+{
+  "schema_version": "2.4",
+  "experiment_id": "P15-V24-UNSEEN-LOCKBOX-V01",
+  "status": "frozen_before_candidate_inference_after_prefreeze_integrity_audit",
+  "contracts": {
+    "P15-GHG-CALC-001": [
+      {"slot_id":"scope_1_thousand_tco2e","predicate_id":"esg_disclosure::scope_1","value_type":"number","canonical_unit":"thousand_tCO2e","period":"2025"},
+      {"slot_id":"market_scope_2_thousand_tco2e","predicate_id":"esg_disclosure::market_scope_2","value_type":"number","canonical_unit":"thousand_tCO2e","period":"2025"},
+      {"slot_id":"scope_3_thousand_tco2e","predicate_id":"esg_disclosure::scope_3","value_type":"number","canonical_unit":"thousand_tCO2e","period":"2025"},
+      {"slot_id":"calculated_total_thousand_tco2e","predicate_id":"esg_calculation::scope_sum","value_type":"number","canonical_unit":"thousand_tCO2e","period":"2025"},
+      {"slot_id":"disclosed_total_thousand_tco2e","predicate_id":"esg_disclosure::market_total","value_type":"number","canonical_unit":"thousand_tCO2e","period":"2025"},
+      {"slot_id":"difference_thousand_tco2e","predicate_id":"esg_calculation::calculated_minus_disclosed","value_type":"number","canonical_unit":"thousand_tCO2e","period":"2025"},
+      {"slot_id":"comparison","predicate_id":"esg_calculation::comparison_status","value_type":"string"},
+      {"slot_id":"rounding_context","predicate_id":"esg_calculation::rounding_context","value_type":"string"}
+    ],
+    "P15-TARGET-001": [
+      {"slot_id":"net_zero_year","predicate_id":"esg_target::net_zero_year","value_type":"number"},
+      {"slot_id":"base_year","predicate_id":"esg_target::base_year","value_type":"number"},
+      {"slot_id":"scope_1_2_2030_reduction_percent","predicate_id":"esg_target::scope_1_2_reduction","value_type":"number","canonical_unit":"percent","period":"2030","direction":"decrease"},
+      {"slot_id":"scope_1_2_2040_minimum_reduction_percent","predicate_id":"esg_target::scope_1_2_minimum_reduction","value_type":"number","canonical_unit":"percent","period":"2040","direction":"decrease"},
+      {"slot_id":"scope_3_2030_reduction_percent","predicate_id":"esg_target::scope_3_reduction","value_type":"number","canonical_unit":"percent","period":"2030","direction":"decrease"},
+      {"slot_id":"scope_3_2040_reduction_percent","predicate_id":"esg_target::scope_3_reduction","value_type":"number","canonical_unit":"percent","period":"2040","direction":"decrease"},
+      {"slot_id":"scope_3_category_purchased_goods","predicate_id":"esg_target::scope_3_category","value_type":"string"},
+      {"slot_id":"scope_3_category_upstream_transport","predicate_id":"esg_target::scope_3_category","value_type":"string"},
+      {"slot_id":"scope_3_category_business_travel","predicate_id":"esg_target::scope_3_category","value_type":"string"},
+      {"slot_id":"scope_3_category_employee_commuting","predicate_id":"esg_target::scope_3_category","value_type":"string"},
+      {"slot_id":"sbti_validation_year","predicate_id":"esg_target::sbti_validation_year","value_type":"number"},
+      {"slot_id":"residual_treatment","predicate_id":"esg_target::residual_treatment","value_type":"string"},
+      {"slot_id":"scope_1_2_2025_yoy_reduction_percent","predicate_id":"esg_progress::scope_1_2_yoy","value_type":"number","canonical_unit":"percent","period":"2025","direction":"decrease"},
+      {"slot_id":"scope_1_2_2025_vs_base_reduction_percent","predicate_id":"esg_progress::scope_1_2_vs_base","value_type":"number","canonical_unit":"percent","period":"2025","direction":"decrease"},
+      {"slot_id":"scope_3_2025_yoy_reduction_percent","predicate_id":"esg_progress::scope_3_yoy","value_type":"number","canonical_unit":"percent","period":"2025","direction":"decrease"},
+      {"slot_id":"scope_3_2025_vs_base_reduction_percent","predicate_id":"esg_progress::scope_3_vs_base","value_type":"number","canonical_unit":"percent","period":"2025","direction":"decrease"},
+      {"slot_id":"all_scopes_2025_vs_base_reduction_percent","predicate_id":"esg_progress::all_scopes_vs_base","value_type":"number","canonical_unit":"percent","period":"2025","direction":"decrease"}
+    ],
+    "P15-WATER-QUALITY-001": [
+      {"slot_id":"own_sites_2025_percent","predicate_id":"esg_water_quality::own_sites_result","value_type":"number","canonical_unit":"percent","period":"2025"},
+      {"slot_id":"own_sites_target_percent","predicate_id":"esg_water_quality::own_sites_target","value_type":"number","canonical_unit":"percent","period":"2025"},
+      {"slot_id":"high_risk_suppliers_2025_percent","predicate_id":"esg_water_quality::supplier_result","value_type":"number","canonical_unit":"percent","period":"2025"},
+      {"slot_id":"high_risk_suppliers_target_percent","predicate_id":"esg_water_quality::supplier_target","value_type":"number","canonical_unit":"percent","period":"2025"},
+      {"slot_id":"maturity_levels_required","predicate_id":"esg_water_quality::maturity_levels","value_type":"number"},
+      {"slot_id":"no_api_discharge_assumption","predicate_id":"esg_boundary::no_api_discharge","value_type":"string"},
+      {"slot_id":"antibody_site_exemption","predicate_id":"esg_boundary::antibody_site_exemption","value_type":"string"},
+      {"slot_id":"other_site_boundary","predicate_id":"esg_boundary::other_sites","value_type":"string"},
+      {"slot_id":"supplier_classes","predicate_id":"esg_boundary::supplier_classes","value_type":"string","string_input_shape":"ordered_span","required_value_terms":["strategic","tactical","antibiotics"]},
+      {"slot_id":"supplier_list_qualification","predicate_id":"esg_boundary::supplier_list_qualification","value_type":"string","string_input_shape":"ordered_span","required_value_terms":["defined in 2021","updated in 2025","No new high-risk suppliers"]}
+    ],
+    "P15-SAFETY-001": [
+      {"slot_id":"hse_coverage_percent","predicate_id":"esg_safety::hse_coverage","value_type":"number","canonical_unit":"percent","period":"2025"},
+      {"slot_id":"employee_lti_rate","predicate_id":"esg_safety::employee_lti_rate","value_type":"number","period":"2025"},
+      {"slot_id":"third_party_lti_rate","predicate_id":"esg_safety::third_party_lti_rate","value_type":"number","period":"2025"},
+      {"slot_id":"employee_recordable_rate","predicate_id":"esg_safety::employee_recordable_rate","value_type":"number","period":"2025"},
+      {"slot_id":"third_party_recordable_rate","predicate_id":"esg_safety::third_party_recordable_rate","value_type":"number","period":"2025"},
+      {"slot_id":"employee_fatalities","predicate_id":"esg_safety::employee_fatalities","value_type":"number","canonical_unit":"count","period":"2025"},
+      {"slot_id":"third_party_fatalities","predicate_id":"esg_safety::third_party_fatalities","value_type":"number","canonical_unit":"count","period":"2025"},
+      {"slot_id":"contractor_fatalities","predicate_id":"esg_safety::contractor_fatalities","value_type":"number","canonical_unit":"count","period":"2025"},
+      {"slot_id":"rate_denominator_work_hours","predicate_id":"esg_safety::rate_denominator","value_type":"number","canonical_unit":"work_hours"},
+      {"slot_id":"fatality_site_boundary","predicate_id":"esg_safety::fatality_site_boundary","value_type":"string"}
+    ],
+    "P15-ACCESS-001": [
+      {"slot_id":"patients_reached_millions","predicate_id":"esg_access::patients_reached","value_type":"number","canonical_unit":"million_patients","period":"2025"},
+      {"slot_id":"countries_with_products_sold","predicate_id":"esg_access::countries","value_type":"number","canonical_unit":"count","period":"2025"},
+      {"slot_id":"patient_calculation_basis","predicate_id":"esg_boundary::patient_calculation","value_type":"string"},
+      {"slot_id":"patient_inclusions","predicate_id":"esg_boundary::patient_inclusions","value_type":"string"},
+      {"slot_id":"patient_exclusions","predicate_id":"esg_boundary::patient_exclusions","value_type":"string"},
+      {"slot_id":"patient_double_counting_limitation","predicate_id":"esg_boundary::patient_double_counting","value_type":"string"},
+      {"slot_id":"country_sales_threshold_usd","predicate_id":"esg_boundary::country_sales_threshold","value_type":"number","canonical_unit":"USD"},
+      {"slot_id":"country_operating_requirement","predicate_id":"esg_boundary::country_operations","value_type":"string"},
+      {"slot_id":"country_geographic_boundary","predicate_id":"esg_boundary::country_geography","value_type":"string"}
+    ],
+    "P15-ASSURE-001": [
+      {"slot_id":"assurance_level","predicate_id":"esg_assurance::level","value_type":"string"},
+      {"slot_id":"covered_pages","predicate_id":"esg_assurance::covered_pages","value_type":"string"},
+      {"slot_id":"reporting_period","predicate_id":"esg_assurance::period","value_type":"string"},
+      {"slot_id":"conclusion","predicate_id":"esg_assurance::conclusion","value_type":"string"},
+      {"slot_id":"standards","predicate_id":"esg_assurance::standards","value_type":"string","string_input_shape":"ordered_span","required_value_terms":["ISAE 3000","ISAE 3410"]},
+      {"slot_id":"earlier_and_other_information_exclusion","predicate_id":"esg_assurance::excluded_information","value_type":"string","string_input_shape":"ordered_span","required_value_terms":["earlier periods","other information"]},
+      {"slot_id":"carbon_credit_conclusion_exclusion","predicate_id":"esg_assurance::carbon_credit_exclusion","value_type":"string"},
+      {"slot_id":"forward_looking_exclusion","predicate_id":"esg_assurance::forward_looking_exclusion","value_type":"string"},
+      {"slot_id":"relative_assurance","predicate_id":"esg_assurance::relative_level","value_type":"string"}
+    ]
+  }
+}

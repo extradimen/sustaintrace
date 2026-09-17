@@ -1,0 +1,106 @@
+{
+  "checkpoint_resume_enabled": true,
+  "experiment_id": "P20-V29-UNSEEN-LOCKBOX-V01",
+  "records": [
+    {
+      "retried": false,
+      "stage_a": "failed",
+      "stage_a_error": "OllamaError:v1.3 Stage A model behavior failed; archived at /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P20-V29-UNSEEN-LOCKBOX-V01/runs/P20-GHG-CALC-001-QWEN397B-v29-stage-a: ValueError:v28_stage_a_task_id_missing",
+      "stage_a_failure_taxonomy": {
+        "category": "model_behavior",
+        "error_type": "OllamaError",
+        "model_call_started": true,
+        "owner": "candidate_model",
+        "retry_policy": "no_retry_in_locked_experiment",
+        "score_as_model_failure": true,
+        "stage": "stage_a"
+      },
+      "task_id": "P20-GHG-CALC-001",
+      "task_type": "deterministic_calculation"
+    },
+    {
+      "retried": false,
+      "stage_a": "failed",
+      "stage_a_error": "OllamaError:v1.3 Stage A model behavior failed; archived at /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P20-V29-UNSEEN-LOCKBOX-V01/runs/P20-ENERGY-001-QWEN397B-v29-stage-a: ValueError:v28_stage_a_task_id_missing",
+      "stage_a_failure_taxonomy": {
+        "category": "model_behavior",
+        "error_type": "OllamaError",
+        "model_call_started": true,
+        "owner": "candidate_model",
+        "retry_policy": "no_retry_in_locked_experiment",
+        "score_as_model_failure": true,
+        "stage": "stage_a"
+      },
+      "task_id": "P20-ENERGY-001",
+      "task_type": "direct_extraction_and_relation"
+    },
+    {
+      "retried": false,
+      "stage_a": "failed",
+      "stage_a_error": "OllamaError:v1.3 Stage A model behavior failed; archived at /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P20-V29-UNSEEN-LOCKBOX-V01/runs/P20-SCOPE3-001-QWEN397B-v29-stage-a: ValueError:v28_stage_a_task_id_missing",
+      "stage_a_failure_taxonomy": {
+        "category": "model_behavior",
+        "error_type": "OllamaError",
+        "model_call_started": true,
+        "owner": "candidate_model",
+        "retry_policy": "no_retry_in_locked_experiment",
+        "score_as_model_failure": true,
+        "stage": "stage_a"
+      },
+      "task_id": "P20-SCOPE3-001",
+      "task_type": "deterministic_calculation"
+    },
+    {
+      "retried": false,
+      "stage_a": "failed",
+      "stage_a_error": "OllamaError:v1.3 Stage A model behavior failed; archived at /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P20-V29-UNSEEN-LOCKBOX-V01/runs/P20-WORKFORCE-001-QWEN397B-v29-stage-a: ValueError:v28_stage_a_task_id_missing",
+      "stage_a_failure_taxonomy": {
+        "category": "model_behavior",
+        "error_type": "OllamaError",
+        "model_call_started": true,
+        "owner": "candidate_model",
+        "retry_policy": "no_retry_in_locked_experiment",
+        "score_as_model_failure": true,
+        "stage": "stage_a"
+      },
+      "task_id": "P20-WORKFORCE-001",
+      "task_type": "deterministic_calculation"
+    },
+    {
+      "retried": false,
+      "stage_a": "failed",
+      "stage_a_error": "OllamaError:v1.3 Stage A model behavior failed; archived at /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P20-V29-UNSEEN-LOCKBOX-V01/runs/P20-TAXONOMY-001-QWEN397B-v29-stage-a: ValueError:v28_stage_a_task_id_missing",
+      "stage_a_failure_taxonomy": {
+        "category": "model_behavior",
+        "error_type": "OllamaError",
+        "model_call_started": true,
+        "owner": "candidate_model",
+        "retry_policy": "no_retry_in_locked_experiment",
+        "score_as_model_failure": true,
+        "stage": "stage_a"
+      },
+      "task_id": "P20-TAXONOMY-001",
+      "task_type": "scope_subject_boundary"
+    },
+    {
+      "retried": false,
+      "stage_a": "failed",
+      "stage_a_error": "OllamaError:v1.3 Stage A model behavior failed; archived at /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P20-V29-UNSEEN-LOCKBOX-V01/runs/P20-ASSURE-001-QWEN397B-v29-stage-a: ValueError:v28_stage_a_task_id_missing",
+      "stage_a_failure_taxonomy": {
+        "category": "model_behavior",
+        "error_type": "OllamaError",
+        "model_call_started": true,
+        "owner": "candidate_model",
+        "retry_policy": "no_retry_in_locked_experiment",
+        "score_as_model_failure": true,
+        "stage": "stage_a"
+      },
+      "task_id": "P20-ASSURE-001",
+      "task_type": "scope_subject_boundary"
+    }
+  ],
+  "reference_loaded_by_orchestrator": false,
+  "schema_version": "2.9",
+  "single_attempt_per_stage": true,
+  "updated_at": "2026-09-11T11:30:14.700450+00:00"
+}

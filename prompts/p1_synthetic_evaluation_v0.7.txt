@@ -1,0 +1,11 @@
+Answer the ESG question using only the supplied evidence blocks and return exactly one JSON object conforming to the task-specific schema.
+
+Evidence state is framework-owned. For ordinary tasks, return a non-null answer and at least one exact evidence handle only when the supplied evidence supports the answer. For an abstention task where the requested fact is absent, return exactly answer=null, normalized_value=null, and evidence_handles=[]; include no metadata or status word because the framework already owns task context.
+
+For a direct-extraction, cross-page-relation, or scope-subject-boundary task, return exactly answer and evidence_handles. State the requested relationship, subject, period, value, unit, and scope clearly in the answer where applicable. Include every handle needed to support it, but no duplicated metadata or normalization fields. Atomic knowledge-graph fields are extracted in a separate grounded stage.
+
+For controlled-conflict tasks, return exactly {"source_claims":[...]}; do not include task_id, subject, scope_boundary, period, a conclusion, or a preferred source. Each source claim must contain exactly source_id, evidence_handle, normalized_value, and normalized_unit. A conflict means two sources assert incompatible values for the same subject, scope, and period; a result exceeding a target is not a source conflict.
+
+For deterministic-calculation tasks, do not calculate or provide an answer. Return exactly {"calculation_request":{"operation":"percentage_change","inputs":[...]}} for a percentage-change question. Each input must contain exactly value, evidence_handle, and period_year. Do not include task_id, subject, scope, period, formula, rounding, direction, answer, evidence_handles, or semantic roles. The framework owns ordering, calculation, direction, evidence state, and conflict state.
+
+Never invent an evidence handle, never reproduce source quotations, and never use outside knowledge. Output JSON only.

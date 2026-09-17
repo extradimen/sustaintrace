@@ -1,0 +1,69 @@
+{
+  "batch_id": "KB-SCALE-BATCH-010-PERFORMANCE",
+  "measurement_provenance": {
+    "diagnostic_result_reused_without_rerun": true,
+    "peak_rss_unavailable_reason": "macOS sysctl kern.clockrate denied in the sandbox after the diagnostic process completed",
+    "wall_time_source": "/usr/bin/time real output from the completed diagnostic process"
+  },
+  "mineru": {
+    "checkpoint_reuse_pages": 26,
+    "final_complete_pages": 27,
+    "initial_failure_wall_seconds": 107.6188,
+    "initial_failures": 27,
+    "post_completion_shutdown_failures": 1,
+    "resume01_failures": 1,
+    "resume01_wall_seconds": 1113.46472,
+    "resume02_failures": 0,
+    "resume02_wall_seconds": 90.658,
+    "status": "complete",
+    "successful_processing_wall_seconds": 1187.041581,
+    "successful_target_pages": 27,
+    "successful_target_pages_per_hour": 81.884242,
+    "target_page_wall_seconds": {
+      "KB-B010-ADIDAS-AR2025:p0171": 56.48711,
+      "KB-B010-ADIDAS-AR2025:p0184": 63.049415,
+      "KB-B010-ADIDAS-AR2025:p0185": 84.008401,
+      "KB-B010-ADIDAS-AR2025:p0203": 21.516016,
+      "KB-B010-ADIDAS-AR2025:p0206": 14.378922,
+      "KB-B010-ADIDAS-AR2025:p0221": 20.223848,
+      "KB-B010-ADIDAS-AR2025:p0247": 17.171939,
+      "KB-B010-ADIDAS-AR2025:p0262": 28.546469,
+      "KB-B010-ADIDAS-AR2025:p0420": 20.862475,
+      "KB-B010-PUMA-AR2025:p0096": 18.320193,
+      "KB-B010-PUMA-AR2025:p0104": 28.024248,
+      "KB-B010-PUMA-AR2025:p0108": 65.23333,
+      "KB-B010-PUMA-AR2025:p0124": 73.452995,
+      "KB-B010-PUMA-AR2025:p0127": 58.442878,
+      "KB-B010-PUMA-AR2025:p0138": 57.240591,
+      "KB-B010-PUMA-AR2025:p0165": 51.474605,
+      "KB-B010-PUMA-AR2025:p0167": 50.140677,
+      "KB-B010-PUMA-AR2025:p0350": 55.872803,
+      "KB-B010-VEOLIA-URD2025:p0208": 18.109915,
+      "KB-B010-VEOLIA-URD2025:p0218": 90.658,
+      "KB-B010-VEOLIA-URD2025:p0219": 22.045098,
+      "KB-B010-VEOLIA-URD2025:p0234": 22.799355,
+      "KB-B010-VEOLIA-URD2025:p0239": 20.490054,
+      "KB-B010-VEOLIA-URD2025:p0244": 31.376894,
+      "KB-B010-VEOLIA-URD2025:p0266": 73.677657,
+      "KB-B010-VEOLIA-URD2025:p0275": 62.371828,
+      "KB-B010-VEOLIA-URD2025:p0328": 61.065865
+    },
+    "total_attempt_wall_seconds": 1311.74152
+  },
+  "policy": {
+    "cloud_transmission": false,
+    "locked_experiments_modified": false,
+    "performance_separate_from_knowledge_quality": true
+  },
+  "schema_version": "0.1",
+  "status": "diagnostic_and_mineru_baseline_complete",
+  "whole_report_diagnostic": {
+    "documents": 3,
+    "extractable_pages": 1316,
+    "pages_per_second": 440.0,
+    "pdf_pages": 1320,
+    "peak_rss_bytes": null,
+    "peak_rss_mb": null,
+    "wall_seconds": 3.0
+  }
+}

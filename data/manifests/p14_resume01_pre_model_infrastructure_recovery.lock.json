@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "experiment_id": "P14-V23-UNSEEN-LOCKBOX-V01",
+  "status": "authorized_recovery_before_any_candidate_call",
+  "parent_progress": "data/manifests/p14_candidate_progress.json",
+  "parent_progress_sha256": "812fdfc0617f3ea3a55ffc8a6ea2d679f2eb17ec651caca24f2d0fe71d439e61",
+  "parent_layout_registry": "configs/framework/p14_layout_fallback_registry_v0.1.lock.json",
+  "parent_layout_registry_sha256": "b71c8225be72c41583c7e6a0ea661d924abd676d3f993593fa492e68b937b1bf",
+  "failure": {
+    "stage": "stage_a_evidence_packet_construction",
+    "error": "KeyError:task_id",
+    "cause": "layout fallback registry used compact task_ids arrays while the production evidence builder requires one task_id per record",
+    "affected_tasks": 6,
+    "candidate_model_calls_started": 0,
+    "candidate_run_directories_created": 0,
+    "cloud_evidence_transmissions": 0,
+    "candidate_attempts_consumed": 0
+  },
+  "recovery": {
+    "progress": "data/manifests/p14_candidate_progress_RESUME01.json",
+    "corrected_layout_registry": "configs/framework/p14_layout_fallback_registry_RESUME01_v0.1.lock.json",
+    "corrected_layout_registry_sha256": "29d6ac3e61124aadba6db1721686846435907e031eeec6b62da9a36772a3de8b",
+    "runner": "scripts/run_p14_v23_lockbox_resume01.py",
+    "runner_sha256": "8ff55a7bad23568d1d1fcd4908575942a43cb2491a03535f332dd88b610a5e16",
+    "run_id_marker": "RESUME01",
+    "tasks_to_run": ["P14-GHG-CALC-001", "P14-TARGET-001", "P14-WATER-001", "P14-SAFETY-001", "P14-SLB-001", "P14-ASSURE-001"],
+    "successful_candidate_tasks_reused": [],
+    "semantic_change": false
+  },
+  "protocol_basis": "pre-model infrastructure failures may be recovered under the same frozen task, evidence, reference, model and authorization configuration; model behavior failures may not be retried"
+}

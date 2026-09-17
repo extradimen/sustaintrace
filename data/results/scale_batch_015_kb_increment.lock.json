@@ -1,0 +1,68 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-015",
+  "status": "increment_built_candidates_not_promoted",
+  "fact_candidates": 42,
+  "trusted_facts_promoted": 0,
+  "evidence_gaps": 7,
+  "failure_observations": 6,
+  "gaps": [
+    {
+      "document_id": "KB-B015-FRESENIUS-AR2025",
+      "page": 188,
+      "theme": "biodiversity",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B015-FRESENIUS-AR2025",
+      "page": 207,
+      "theme": "targets",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B015-FRESENIUS-AR2025",
+      "page": 213,
+      "theme": "ghg_emissions",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B015-FRESENIUS-AR2025",
+      "page": 221,
+      "theme": "water",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B015-FRESENIUS-AR2025",
+      "page": 223,
+      "theme": "circularity",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B015-FRESENIUS-AR2025",
+      "page": 431,
+      "theme": "assurance",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B015-FRESENIUS-AR2025",
+      "page": 434,
+      "theme": "assurance",
+      "reason": "no_theme_line_in_mineru_markdown"
+    }
+  ],
+  "outputs": {
+    "facts": {
+      "path": "data/knowledge_bases/v0.1/increments/scale_batch_015_fact_records.jsonl",
+      "sha256": "2b663e8c79a1380189c1ba59b2b3a97853df72fbcd6fad81807c094f534ecda5"
+    },
+    "failures": {
+      "path": "data/knowledge_bases/v0.1/increments/scale_batch_015_failure_records.jsonl",
+      "sha256": "c1ba7703527864d5a2edfe97ca88be31ac265ab909c9733504a966f4f313b3da"
+    }
+  },
+  "policy": {
+    "cloud_transmission": false,
+    "locked_experiments_modified": false,
+    "automatic_promotion": false
+  }
+}

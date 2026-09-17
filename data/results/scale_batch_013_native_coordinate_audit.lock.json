@@ -1,0 +1,35 @@
+{
+  "batch_id": "KB-SCALE-BATCH-013-NATIVE-COORDINATE-AUDIT",
+  "blocked_by_reason": {
+    "frozen_assurance_window_omits_identity_period_and_opinion": [
+      "fact-0ee1084737cd7da770afa776",
+      "fact-12b472bcdc555c98ae983e7a",
+      "fact-1bb10dc1f09958005e654061",
+      "fact-1c09e44aaabbcad13b697de5",
+      "fact-65f8e33bbea1ab6fd4a31956",
+      "fact-be683ad1745a2f90eabe5a2f",
+      "fact-e3045de0ee9a497e866789d5",
+      "fact-f598ae2714afecd460d38cbb"
+    ]
+  },
+  "checks": {
+    "all_frozen_coordinates_corroborated": true,
+    "all_projected_values_present": true,
+    "employee_table_present": true,
+    "frozen_assurance_page_has_issuer_identity": false,
+    "frozen_assurance_page_has_limited_assurance_language": true,
+    "frozen_assurance_page_has_opinion": false,
+    "frozen_assurance_page_has_reporting_period": false,
+    "source_sha256_matches": true,
+    "year_headers_present": true
+  },
+  "native_data_page_sha256": "1f2014fdda6a24bb12ed199594c166e18ce9dbad543943bb0d6172117fe6ceca",
+  "native_frozen_assurance_page_sha256": "3db2bb6e7e153183c7f3d63bb0e0faae14ca8ba151a3a1383992be70bd108e87",
+  "policy": {
+    "automatic_promotion": false,
+    "cloud_transmission": false,
+    "post_hoc_window_expansion": false
+  },
+  "schema_version": "0.1",
+  "status": "coordinates_passed_assurance_window_failed_closed"
+}

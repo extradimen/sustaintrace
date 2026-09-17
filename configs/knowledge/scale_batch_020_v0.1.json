@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-020",
+  "status": "source_set_frozen_before_diagnostics",
+  "policy": {
+    "local_only": true,
+    "cloud_transmission": false,
+    "overwrite_verified_files": false,
+    "fact_promotion_requires_independent_gate": true,
+    "performance_baseline_required": true,
+    "native_table_corroboration_version": "v34_bounded_layout_column_reassembly_v1",
+    "assurance_window_preflight_required": true,
+    "assurance_window_required_fields": [
+      "issuer_identity",
+      "reporting_period",
+      "opinion_or_conclusion",
+      "signatory_identity"
+    ],
+    "locked_experiments_untouched": [
+      "P3-P23",
+      "KB-SCALE-BATCH-001-through-019"
+    ]
+  },
+  "selection_rationale": "Three previously unused issuer-hosted English 2025 reports were frozen after an Ahold Delhaize candidate was rejected by the cross-experiment issuer/report-series deduplication gate. Carrefour replaces that candidate before diagnostics and target-page freeze.",
+  "source_substitution": {
+    "removed_document_id": "KB-B020-AHOLD-AR2025",
+    "replacement_document_id": "KB-B020-CARREFOUR-URD2025",
+    "reason": "Ahold Delhaize Annual Report 2025 was already used in P5 and is not an independent new report sample. The downloaded file is retained as acquisition evidence but excluded from the frozen Batch 20 source set."
+  },
+  "performance_baseline": {
+    "comparison_parent": "data/results/scale_batch_019_performance_baseline.lock.json",
+    "separate_from_knowledge_quality": true,
+    "target_pages_per_document": 9
+  },
+  "documents": [
+    {
+      "document_id": "KB-B020-SOLVAY-AIR2025",
+      "source_group_id": "KB-SOLVAY-2025",
+      "company": "Solvay SA",
+      "title": "Solvay Annual Integrated Report 2025",
+      "report_year": 2025,
+      "official_landing_page": "https://www.solvay.com/en/investors/financial-reporting",
+      "download_url": "https://www.solvay.com/sites/g/files/srpend616/files/2026-03/Solvay_Annual%20Integrated%20Report_2025_0.pdf",
+      "official_domain": "www.solvay.com",
+      "local_path": "data/raw/scale_batch_020/solvay-annual-integrated-report-2025.pdf",
+      "source_role": "primary_report",
+      "language": "English",
+      "prior_experiment_use": false
+    },
+    {
+      "document_id": "KB-B020-KERING-URD2025",
+      "source_group_id": "KB-KERING-2025",
+      "company": "Kering SA",
+      "title": "Kering Universal Registration Document 2025",
+      "report_year": 2025,
+      "official_landing_page": "https://www.kering.com/en/finance/publications/",
+      "download_url": "https://www.kering.com/api/download-file/?path=02_Universal_Registration_Document_2025_EN_216d1c494b.pdf",
+      "official_domain": "www.kering.com",
+      "local_path": "data/raw/scale_batch_020/kering-universal-registration-document-2025.pdf",
+      "source_role": "primary_report",
+      "language": "English",
+      "prior_experiment_use": false
+    },
+    {
+      "document_id": "KB-B020-CARREFOUR-URD2025",
+      "source_group_id": "KB-CARREFOUR-2025",
+      "company": "Carrefour SA",
+      "title": "Carrefour Universal Registration Document 2025",
+      "report_year": 2025,
+      "official_landing_page": "https://www.carrefour.com/en/finance/regulated-information",
+      "download_url": "https://www.carrefour.com/sites/default/files/2026-04/CFR2025_URD_EN_PDF_MEL_270326_0.pdf",
+      "official_domain": "www.carrefour.com",
+      "local_path": "data/raw/scale_batch_020/carrefour-universal-registration-document-2025.pdf",
+      "source_role": "primary_report",
+      "language": "English",
+      "prior_experiment_use": false
+    }
+  ]
+}

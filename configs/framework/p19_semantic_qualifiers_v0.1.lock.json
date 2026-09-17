@@ -1,0 +1,28 @@
+{
+  "experiment_id": "P19-V28-UNSEEN-LOCKBOX-V01",
+  "qualifiers": {
+    "P19-ASSURE-001": {
+      "boundary": "limited assurance on 2025 Sustainability statement; 2023 comparative not assured"
+    },
+    "P19-ENERGY-001": {
+      "boundary": "own operations; preserve GWh, renewable-share and 2024 restatement qualification"
+    },
+    "P19-GHG-CALC-001": {
+      "boundary": "market-based Scope 1 and 2; retain 1,000 tCO2e"
+    },
+    "P19-SCOPE3-001": {
+      "boundary": "Category 1 and 2 shares of disclosed Scope 3 total"
+    },
+    "P19-TAXONOMY-001": {
+      "boundary": "separate total, eligible, aligned, non-material and OpEx immateriality"
+    },
+    "P19-WORKFORCE-001": {
+      "boundary": "permanent plus temporary headcount; 2024 excludes Catalent unless qualified"
+    },
+    "page_coordinates": "one-based PDF page indexes",
+    "reference_type": "AI-simulated research reference; not independent human gold",
+    "reporting_period": "calendar year 2025 unless a 2024 or 2023 comparative is explicitly named"
+  },
+  "schema_version": "2.8",
+  "status": "frozen_before_candidate_inference"
+}

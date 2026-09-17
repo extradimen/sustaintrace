@@ -1,0 +1,31 @@
+{
+  "authorization_does_not_cover_other_reports_or_pages": true,
+  "authorization_source": "current_thread_exact_user_message",
+  "authorized_at": "2026-09-10T10:25:48.773417+00:00",
+  "document_id": "P19-NOVO-NORDISK-AR2025",
+  "document_sha256": "f5475f1e043eaa99526772c0e06677a74ab2c2abb8181755afbe02a10e395092",
+  "experiment_id": "P19-V28-UNSEEN-LOCKBOX-V01",
+  "experiment_scope": "P19 Stage A/Stage B single-attempt candidate inference",
+  "model": "qwen3.5:397b-cloud",
+  "pages": [
+    58,
+    65,
+    66,
+    80,
+    123,
+    124,
+    135,
+    136
+  ],
+  "posthoc_semantic_repair_allowed": false,
+  "report": "Novo Nordisk Annual Report 2025",
+  "schema_version": "2.8",
+  "silent_retry_allowed": false,
+  "single_attempt_only": true,
+  "stage_scope": [
+    "Stage A",
+    "Stage B"
+  ],
+  "status": "authorized_by_user",
+  "user_message": "我授权将 Novo Nordisk Annual Report 2025 第58、65、66、80、123、124、135、136页的冻结证据发送至 Ollama Cloud 的 qwen3.5:397b-cloud，仅用于 P19 Stage A/Stage B 单次候选推理。"
+}

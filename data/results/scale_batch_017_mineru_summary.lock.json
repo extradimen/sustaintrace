@@ -1,0 +1,337 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-017",
+  "updated_at": "2026-09-13T10:53:06.456661+00:00",
+  "status": "complete",
+  "cloud_transmission": false,
+  "total_target_pages": 26,
+  "complete_pages": 17,
+  "failed_pages": 9,
+  "pending_pages": 0,
+  "records": [
+    {
+      "document_id": "KB-B017-ROCKWOOL-AR2025",
+      "page": 12,
+      "themes": [
+        "targets"
+      ],
+      "output_directory": "artifacts/scale_batch_017/mineru_targets/KB-B017-ROCKWOOL-AR2025-p0012",
+      "status": "complete",
+      "started_at": "2026-09-13T10:46:39.177296+00:00",
+      "completed_at": "2026-09-13T10:46:57.650013+00:00",
+      "wall_seconds": 18.47256
+    },
+    {
+      "document_id": "KB-B017-ROCKWOOL-AR2025",
+      "page": 68,
+      "themes": [
+        "energy",
+        "ghg_emissions"
+      ],
+      "output_directory": "artifacts/scale_batch_017/mineru_targets/KB-B017-ROCKWOOL-AR2025-p0068",
+      "status": "complete",
+      "started_at": "2026-09-13T10:46:57.650585+00:00",
+      "completed_at": "2026-09-13T10:47:13.619554+00:00",
+      "wall_seconds": 15.968973
+    },
+    {
+      "document_id": "KB-B017-ROCKWOOL-AR2025",
+      "page": 76,
+      "themes": [
+        "water"
+      ],
+      "output_directory": "artifacts/scale_batch_017/mineru_targets/KB-B017-ROCKWOOL-AR2025-p0076",
+      "status": "complete",
+      "started_at": "2026-09-13T10:47:13.620981+00:00",
+      "completed_at": "2026-09-13T10:47:29.318555+00:00",
+      "wall_seconds": 15.697577
+    },
+    {
+      "document_id": "KB-B017-ROCKWOOL-AR2025",
+      "page": 80,
+      "themes": [
+        "circularity"
+      ],
+      "output_directory": "artifacts/scale_batch_017/mineru_targets/KB-B017-ROCKWOOL-AR2025-p0080",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_017/mineru_targets/KB-B017-ROCKWOOL-AR2025-p0080/esg_rd_mineru_run.json",
+      "started_at": "2026-09-13T10:47:29.318878+00:00",
+      "completed_at": "2026-09-13T10:47:43.000700+00:00",
+      "wall_seconds": 13.681826
+    },
+    {
+      "document_id": "KB-B017-ROCKWOOL-AR2025",
+      "page": 85,
+      "themes": [
+        "biodiversity"
+      ],
+      "output_directory": "artifacts/scale_batch_017/mineru_targets/KB-B017-ROCKWOOL-AR2025-p0085",
+      "status": "complete",
+      "started_at": "2026-09-13T10:47:43.001027+00:00",
+      "completed_at": "2026-09-13T10:47:57.515928+00:00",
+      "wall_seconds": 14.514907
+    },
+    {
+      "document_id": "KB-B017-ROCKWOOL-AR2025",
+      "page": 89,
+      "themes": [
+        "health_safety"
+      ],
+      "output_directory": "artifacts/scale_batch_017/mineru_targets/KB-B017-ROCKWOOL-AR2025-p0089",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_017/mineru_targets/KB-B017-ROCKWOOL-AR2025-p0089/esg_rd_mineru_run.json",
+      "started_at": "2026-09-13T10:47:57.516467+00:00",
+      "completed_at": "2026-09-13T10:48:11.231880+00:00",
+      "wall_seconds": 13.715417
+    },
+    {
+      "document_id": "KB-B017-ROCKWOOL-AR2025",
+      "page": 91,
+      "themes": [
+        "workforce"
+      ],
+      "output_directory": "artifacts/scale_batch_017/mineru_targets/KB-B017-ROCKWOOL-AR2025-p0091",
+      "status": "complete",
+      "started_at": "2026-09-13T10:48:11.232227+00:00",
+      "completed_at": "2026-09-13T10:48:26.738304+00:00",
+      "wall_seconds": 15.585927
+    },
+    {
+      "document_id": "KB-B017-ROCKWOOL-AR2025",
+      "page": 166,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_017/mineru_targets/KB-B017-ROCKWOOL-AR2025-p0166",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_017/mineru_targets/KB-B017-ROCKWOOL-AR2025-p0166/esg_rd_mineru_run.json",
+      "started_at": "2026-09-13T10:48:26.738648+00:00",
+      "completed_at": "2026-09-13T10:48:40.427483+00:00",
+      "wall_seconds": 13.688961
+    },
+    {
+      "document_id": "KB-B017-ROCKWOOL-AR2025",
+      "page": 168,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_017/mineru_targets/KB-B017-ROCKWOOL-AR2025-p0168",
+      "status": "complete",
+      "started_at": "2026-09-13T10:48:40.427837+00:00",
+      "completed_at": "2026-09-13T10:48:55.266094+00:00",
+      "wall_seconds": 14.838395
+    },
+    {
+      "document_id": "KB-B017-HUSQVARNA-AR2025",
+      "page": 38,
+      "themes": [
+        "targets"
+      ],
+      "output_directory": "artifacts/scale_batch_017/mineru_targets/KB-B017-HUSQVARNA-AR2025-p0038",
+      "status": "complete",
+      "started_at": "2026-09-13T10:48:55.266460+00:00",
+      "completed_at": "2026-09-13T10:49:10.224491+00:00",
+      "wall_seconds": 14.958171
+    },
+    {
+      "document_id": "KB-B017-HUSQVARNA-AR2025",
+      "page": 50,
+      "themes": [
+        "ghg_emissions"
+      ],
+      "output_directory": "artifacts/scale_batch_017/mineru_targets/KB-B017-HUSQVARNA-AR2025-p0050",
+      "status": "complete",
+      "started_at": "2026-09-13T10:49:10.224840+00:00",
+      "completed_at": "2026-09-13T10:49:24.633587+00:00",
+      "wall_seconds": 14.408882
+    },
+    {
+      "document_id": "KB-B017-HUSQVARNA-AR2025",
+      "page": 52,
+      "themes": [
+        "energy",
+        "water"
+      ],
+      "output_directory": "artifacts/scale_batch_017/mineru_targets/KB-B017-HUSQVARNA-AR2025-p0052",
+      "status": "complete",
+      "started_at": "2026-09-13T10:49:24.633947+00:00",
+      "completed_at": "2026-09-13T10:49:40.579653+00:00",
+      "wall_seconds": 15.945855
+    },
+    {
+      "document_id": "KB-B017-HUSQVARNA-AR2025",
+      "page": 54,
+      "themes": [
+        "circularity"
+      ],
+      "output_directory": "artifacts/scale_batch_017/mineru_targets/KB-B017-HUSQVARNA-AR2025-p0054",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_017/mineru_targets/KB-B017-HUSQVARNA-AR2025-p0054/esg_rd_mineru_run.json",
+      "started_at": "2026-09-13T10:49:40.580045+00:00",
+      "completed_at": "2026-09-13T10:49:55.039267+00:00",
+      "wall_seconds": 14.459359
+    },
+    {
+      "document_id": "KB-B017-HUSQVARNA-AR2025",
+      "page": 60,
+      "themes": [
+        "health_safety",
+        "workforce"
+      ],
+      "output_directory": "artifacts/scale_batch_017/mineru_targets/KB-B017-HUSQVARNA-AR2025-p0060",
+      "status": "complete",
+      "started_at": "2026-09-13T10:49:55.039638+00:00",
+      "completed_at": "2026-09-13T10:50:11.612383+00:00",
+      "wall_seconds": 16.5729
+    },
+    {
+      "document_id": "KB-B017-HUSQVARNA-AR2025",
+      "page": 67,
+      "themes": [
+        "biodiversity"
+      ],
+      "output_directory": "artifacts/scale_batch_017/mineru_targets/KB-B017-HUSQVARNA-AR2025-p0067",
+      "status": "complete",
+      "started_at": "2026-09-13T10:50:11.612771+00:00",
+      "completed_at": "2026-09-13T10:50:26.575829+00:00",
+      "wall_seconds": 14.9632
+    },
+    {
+      "document_id": "KB-B017-HUSQVARNA-AR2025",
+      "page": 124,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_017/mineru_targets/KB-B017-HUSQVARNA-AR2025-p0124",
+      "status": "complete",
+      "started_at": "2026-09-13T10:50:26.576249+00:00",
+      "completed_at": "2026-09-13T10:50:41.411133+00:00",
+      "wall_seconds": 14.835023
+    },
+    {
+      "document_id": "KB-B017-HUSQVARNA-AR2025",
+      "page": 125,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_017/mineru_targets/KB-B017-HUSQVARNA-AR2025-p0125",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_017/mineru_targets/KB-B017-HUSQVARNA-AR2025-p0125/esg_rd_mineru_run.json",
+      "started_at": "2026-09-13T10:50:41.411519+00:00",
+      "completed_at": "2026-09-13T10:50:55.095405+00:00",
+      "wall_seconds": 13.684013
+    },
+    {
+      "document_id": "KB-B017-SWECO-AR2025",
+      "page": 70,
+      "themes": [
+        "targets"
+      ],
+      "output_directory": "artifacts/scale_batch_017/mineru_targets/KB-B017-SWECO-AR2025-p0070",
+      "status": "complete",
+      "started_at": "2026-09-13T10:50:55.095829+00:00",
+      "completed_at": "2026-09-13T10:51:09.521899+00:00",
+      "wall_seconds": 14.426208
+    },
+    {
+      "document_id": "KB-B017-SWECO-AR2025",
+      "page": 73,
+      "themes": [
+        "energy"
+      ],
+      "output_directory": "artifacts/scale_batch_017/mineru_targets/KB-B017-SWECO-AR2025-p0073",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_017/mineru_targets/KB-B017-SWECO-AR2025-p0073/esg_rd_mineru_run.json",
+      "started_at": "2026-09-13T10:51:09.522409+00:00",
+      "completed_at": "2026-09-13T10:51:23.061738+00:00",
+      "wall_seconds": 13.539454
+    },
+    {
+      "document_id": "KB-B017-SWECO-AR2025",
+      "page": 74,
+      "themes": [
+        "ghg_emissions"
+      ],
+      "output_directory": "artifacts/scale_batch_017/mineru_targets/KB-B017-SWECO-AR2025-p0074",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_017/mineru_targets/KB-B017-SWECO-AR2025-p0074/esg_rd_mineru_run.json",
+      "started_at": "2026-09-13T10:51:23.062133+00:00",
+      "completed_at": "2026-09-13T10:51:36.856153+00:00",
+      "wall_seconds": 13.79415
+    },
+    {
+      "document_id": "KB-B017-SWECO-AR2025",
+      "page": 77,
+      "themes": [
+        "water"
+      ],
+      "output_directory": "artifacts/scale_batch_017/mineru_targets/KB-B017-SWECO-AR2025-p0077",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_017/mineru_targets/KB-B017-SWECO-AR2025-p0077/esg_rd_mineru_run.json",
+      "started_at": "2026-09-13T10:51:36.856598+00:00",
+      "completed_at": "2026-09-13T10:51:51.688195+00:00",
+      "wall_seconds": 14.831735
+    },
+    {
+      "document_id": "KB-B017-SWECO-AR2025",
+      "page": 78,
+      "themes": [
+        "biodiversity"
+      ],
+      "output_directory": "artifacts/scale_batch_017/mineru_targets/KB-B017-SWECO-AR2025-p0078",
+      "status": "complete",
+      "started_at": "2026-09-13T10:51:51.688619+00:00",
+      "completed_at": "2026-09-13T10:52:06.625433+00:00",
+      "wall_seconds": 14.936954
+    },
+    {
+      "document_id": "KB-B017-SWECO-AR2025",
+      "page": 80,
+      "themes": [
+        "circularity"
+      ],
+      "output_directory": "artifacts/scale_batch_017/mineru_targets/KB-B017-SWECO-AR2025-p0080",
+      "status": "complete",
+      "started_at": "2026-09-13T10:52:06.625872+00:00",
+      "completed_at": "2026-09-13T10:52:21.759274+00:00",
+      "wall_seconds": 15.133542
+    },
+    {
+      "document_id": "KB-B017-SWECO-AR2025",
+      "page": 91,
+      "themes": [
+        "workforce"
+      ],
+      "output_directory": "artifacts/scale_batch_017/mineru_targets/KB-B017-SWECO-AR2025-p0091",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_017/mineru_targets/KB-B017-SWECO-AR2025-p0091/esg_rd_mineru_run.json",
+      "started_at": "2026-09-13T10:52:21.759679+00:00",
+      "completed_at": "2026-09-13T10:52:35.292522+00:00",
+      "wall_seconds": 13.53297
+    },
+    {
+      "document_id": "KB-B017-SWECO-AR2025",
+      "page": 95,
+      "themes": [
+        "health_safety"
+      ],
+      "output_directory": "artifacts/scale_batch_017/mineru_targets/KB-B017-SWECO-AR2025-p0095",
+      "status": "complete",
+      "started_at": "2026-09-13T10:52:35.292952+00:00",
+      "completed_at": "2026-09-13T10:52:50.845459+00:00",
+      "wall_seconds": 15.552651
+    },
+    {
+      "document_id": "KB-B017-SWECO-AR2025",
+      "page": 176,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_017/mineru_targets/KB-B017-SWECO-AR2025-p0176",
+      "status": "complete",
+      "started_at": "2026-09-13T10:52:50.845888+00:00",
+      "completed_at": "2026-09-13T10:53:06.456261+00:00",
+      "wall_seconds": 15.610517
+    }
+  ]
+}

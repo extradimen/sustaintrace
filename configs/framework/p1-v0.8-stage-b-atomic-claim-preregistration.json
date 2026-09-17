@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "framework_version": "P1-PIPELINE-v0.8-STAGE-B-ATOMIC-CLAIM",
+  "status": "preregistered_before_implementation_and_inference",
+  "registered_at": "2026-09-04T14:30:00+08:00",
+  "parent_framework": "P1-PIPELINE-v0.7.6-TWO-STAGE-FACT-EXTRACTION",
+  "purpose": "Convert a passed Stage A answer and its framework-resolved verbatim evidence into knowledge-graph-ready atomic ESG claims without reopening the full report.",
+  "model_input": [
+    "Stage A task id and answer",
+    "Only Stage A resolved evidence handles and verbatim excerpts",
+    "Frozen ontology identifiers and canonical-unit identifiers"
+  ],
+  "model_output_per_claim": [
+    "subject",
+    "metric_id",
+    "normalized_value",
+    "verbatim_value",
+    "canonical_unit",
+    "period_year",
+    "scope_id",
+    "evidence_handle"
+  ],
+  "deterministic_validation": [
+    "Stage A archive checksums must verify before use.",
+    "Evidence handles must be a subset of Stage A resolved evidence.",
+    "verbatim_value must occur literally in the selected evidence after whitespace normalization.",
+    "Numeric normalized_value must equal a numeric token in verbatim_value after comma removal.",
+    "period_year must occur in the evidence text or immutable MinerU table_header_context supplied by Stage A.",
+    "metric_id, canonical_unit, and scope_id must belong to the frozen ontology registry."
+  ],
+  "support_labels": {
+    "deterministically_grounded": ["evidence_handle", "verbatim_value", "normalized_value", "period_year", "canonical_unit_identifier"],
+    "evidence_linked_semantic_not_lexically_proven": ["subject", "metric_id", "scope_id"]
+  },
+  "knowledge_graph_projection": "Framework creates an observation node and deterministic subject--reports--observation, observation--metric--metric_id, observation--period--period_year, and observation--scope--scope_id edges only after validation.",
+  "prohibited": [
+    "No full-report access in Stage B.",
+    "No hidden simulated reference in the model request.",
+    "No invented evidence handle or ontology id.",
+    "No posthoc value, year, unit, metric, subject, or scope repair.",
+    "No claim that evidence-linked semantic fields are independently verified by a human."
+  ],
+  "first_acceptance_parent_run": "P1-02-2-GEMMA4-12B-v076-r1",
+  "inference_allowed": false,
+  "next_gate": "ontology_core_runner_tests_and_hash_freeze"
+}

@@ -1,0 +1,75 @@
+{
+  "artifact_sha256": {
+    "configs/knowledge/scale_batch_012_RESUME01_v0.2.json": "6284cf6997fa86b1b1a944870980233a3a0864de250215d0daccc8547fe05eb7",
+    "configs/parsers/scale-batch-012-mineru-3.4.0-runtime.json": "f4cc15451e8552a8130f0dfae3dfec8d63a9646921c25258d2068a7054fa670f",
+    "data/knowledge_bases/v0.1/migration_manifest.lock.json": "9509578473b1521e0be92d983d4d57a4f0fb8d1ab10e7d2ace0205af8386e0fa",
+    "data/knowledge_bases/v0.1/trusted_fact_records.jsonl": "f825d619366ba75a022ec11135a60c92131a9623d34e01203bc0e4914144be5d",
+    "data/manifests/scale_batch_012_acquisition.lock.json": "c50fffbd1a8e90fbe06e2a42f036cc8788b61bf656dcf1f00fc117dfbb32f88c",
+    "data/manifests/scale_batch_012_acquisition_FINAL.lock.json": "74e945d50b57e83c14c3799eab1226fbe3bb8b25c5e723d74bcb62dddbf53c8b",
+    "data/manifests/scale_batch_012_acquisition_RESUME01.lock.json": "88fcd35c59ee2b8b8b5c49258ed1b41afa7c6be7fdb7d733bdf6229028752d7f",
+    "data/manifests/scale_batch_012_acquisition_attempt.lock.json": "1a30a0ceebb9f4897279c67f79a2f50850deb49286d988357c913f11e446f66b",
+    "data/manifests/scale_batch_012_mineru_RESUME01_lineage.lock.json": "e276346dd21023327714c2e0111d1e1d4b43912c52d157c690cadfaf7ab9f31d",
+    "data/manifests/scale_batch_012_mineru_RESUME02_lineage.lock.json": "9e9ad34ad5de45c400597e4217f66cf4da9c5c2e2b02e9ab71194a718828f65c",
+    "data/manifests/scale_batch_012_target_pages.lock.json": "529772b08534193c66b82160b8949095dddb0b33d548b4ff83e784ea6ea490e7",
+    "data/results/scale_batch_012_atomic_projection.lock.json": "f97496f2a499eabf34561e95fd580f7b4b5e0fd0515255686a83b0ad6ef24851",
+    "data/results/scale_batch_012_atomic_validation.lock.json": "d036627e741a6e3a8c7f4475aa08298c58c91c2b8c6310e606504158aa95e545",
+    "data/results/scale_batch_012_diagnostics.lock.json": "e1932859bd1ec1ead1a47c353137160169c5d45e0e205bd64a83efb17fb025d9",
+    "data/results/scale_batch_012_kb_increment.lock.json": "9bf6adcb6f9343385012bcfa68aa7115357aa244a0833cb1eadef2e82d608ce8",
+    "data/results/scale_batch_012_mineru_FINAL_summary.lock.json": "2b9225704a2ae591906eb4914dd3bac3a7c04d3816481336b2da90ade81636ef",
+    "data/results/scale_batch_012_mineru_RESUME01_summary.lock.json": "bc6985e2b61fdc42385b85e45dd57fdaf9fd41cbe94b6c1006a86b2e7eebed61",
+    "data/results/scale_batch_012_mineru_RESUME02_summary.lock.json": "d4f116c661341902f0d733b13eb212f1b230e3edcc52a92795e19f06864de6f1",
+    "data/results/scale_batch_012_mineru_summary.lock.json": "0cfbedd7775d2b1914dba3832142a9f7f687b6fc0e7f92a69120a70c4321998c",
+    "data/results/scale_batch_012_native_coordinate_audit.lock.json": "3148bc2ad189b201bf7f647619f0a6d2c69f6edd0af2f5afc9ffa6b9d734fe27",
+    "data/results/scale_batch_012_performance_baseline.lock.json": "d8b942b8e4743948bd89f5263e44b328bab98768dcd41a6f5b9ea11389000d7f",
+    "data/results/scale_batch_012_tier_b_promotion.lock.json": "170a3252fe26a690f6b4e7e2f020296c23b5d74e07bd524a83b42731a6ed2b8d"
+  },
+  "atomic_validation": {
+    "coordinate_corroborated": 0,
+    "coordinate_exact": 4,
+    "native_row_header_line_wrap_failures": 1
+  },
+  "batch_id": "KB-SCALE-BATCH-012",
+  "extractable_source_pages": 1120,
+  "frozen_target_pages": 26,
+  "global_knowledge_bases": {
+    "fact_records": 1701,
+    "failure_records": 308,
+    "failure_signatures": 23,
+    "trusted_fact_records": 79
+  },
+  "knowledge_increment": {
+    "atomic_fact_candidates": 4,
+    "evidence_snippet_candidates": 51,
+    "failure_observations": 9,
+    "held_tier_c_after_six_dimension_review": 4,
+    "promoted_tier_b": 0,
+    "remaining_evidence_gaps": 0,
+    "total_new_fact_records": 55
+  },
+  "mineru": {
+    "final_usable_pages": 26,
+    "remaining_failures": 0,
+    "resume02_completed_pages": 2,
+    "successful_pages_per_hour": 195.693587
+  },
+  "performance": {
+    "change_vs_batch_011_percent": 124.294,
+    "checkpoint_reuse_pages": 24,
+    "target_page_success_wall_seconds": 478.298761,
+    "whole_report_pages_per_second": 286.293031,
+    "whole_report_wall_seconds": 3.950498
+  },
+  "quality_gates": {
+    "automatic_promotion": false,
+    "cloud_transmission": false,
+    "json_artifacts_parse": "passed_except_preexisting_known_concatenated_p1_fixture",
+    "locked_experiments_modified": false,
+    "pytest_collected_and_passed": 470,
+    "ruff": "passed",
+    "sha256_manifest": "passed"
+  },
+  "schema_version": "0.1",
+  "source_documents": 3,
+  "source_pages": 1131,
+  "status": "local_ingestion_projection_fail_closed_review_and_performance_complete"
+}

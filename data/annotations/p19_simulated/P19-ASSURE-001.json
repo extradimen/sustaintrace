@@ -1,0 +1,90 @@
+{
+  "answer": "Deloitte performed limited assurance on Novo Nordisk's Sustainability statement in the Management Report for 1 January–31 December 2025. The criteria were Danish Financial Statements Act section 99a, including ESRS and the Article 8 EU Taxonomy disclosures. The negative-form conclusion was that nothing came to attention indicating material non-compliance. ISAE 3000 (Revised) governed the engagement; limited procedures were less extensive and provided substantially lower assurance than reasonable assurance. Comparative 2023 information was not assured. Deloitte's Anders Vad Dons and Sumit Sudan signed in Copenhagen on 4 February 2026.",
+  "evidence": [
+    {
+      "pdf_page": 123,
+      "quote": "limited assurance engagement on the Sustainability statement of Novo Nordisk A/S",
+      "source_id": "P19-NOVO-NORDISK-AR2025"
+    },
+    {
+      "pdf_page": 123,
+      "quote": "financial year 1 January – 31 December 2025",
+      "source_id": "P19-NOVO-NORDISK-AR2025"
+    },
+    {
+      "pdf_page": 123,
+      "quote": "nothing has come to our attention",
+      "source_id": "P19-NOVO-NORDISK-AR2025"
+    },
+    {
+      "pdf_page": 123,
+      "quote": "European Sustainability Reporting Standards (ESRS)",
+      "source_id": "P19-NOVO-NORDISK-AR2025"
+    },
+    {
+      "pdf_page": 123,
+      "quote": "Article 8 of EU Regulation 2020/852",
+      "source_id": "P19-NOVO-NORDISK-AR2025"
+    },
+    {
+      "pdf_page": 123,
+      "quote": "ISAE 3000 (Revised)",
+      "source_id": "P19-NOVO-NORDISK-AR2025"
+    },
+    {
+      "pdf_page": 123,
+      "quote": "less in extent than for, a reasonable assurance engagement",
+      "source_id": "P19-NOVO-NORDISK-AR2025"
+    },
+    {
+      "pdf_page": 123,
+      "quote": "substantially lower",
+      "source_id": "P19-NOVO-NORDISK-AR2025"
+    },
+    {
+      "pdf_page": 123,
+      "quote": "financial year 2023 was not subject to an assurance engagement",
+      "source_id": "P19-NOVO-NORDISK-AR2025"
+    },
+    {
+      "pdf_page": 124,
+      "quote": "Copenhagen, 4 February 2026",
+      "source_id": "P19-NOVO-NORDISK-AR2025"
+    },
+    {
+      "pdf_page": 124,
+      "quote": "Deloitte",
+      "source_id": "P19-NOVO-NORDISK-AR2025"
+    },
+    {
+      "pdf_page": 124,
+      "quote": "Anders Vad Dons",
+      "source_id": "P19-NOVO-NORDISK-AR2025"
+    },
+    {
+      "pdf_page": 124,
+      "quote": "Sumit Sudan",
+      "source_id": "P19-NOVO-NORDISK-AR2025"
+    }
+  ],
+  "normalized_value": {
+    "assurance_level": "limited assurance",
+    "assurance_provider": "Deloitte Statsautoriseret Revisionspartnerselskab",
+    "assured_subject": "Sustainability statement included in the Management Report for 1 January–31 December 2025",
+    "conclusion_form": "nothing has come to our attention",
+    "criteria": "Danish Financial Statements Act section 99a including ESRS and Article 8 EU Taxonomy disclosures",
+    "governing_standard": "ISAE 3000 (Revised)",
+    "procedure_difference": "limited procedures are less extensive and provide substantially lower assurance than reasonable assurance",
+    "signatories": "Anders Vad Dons | Sumit Sudan",
+    "signature_date": "2026-02-04",
+    "unassured_comparative_period": 2023
+  },
+  "provenance": {
+    "candidate_model_used": false,
+    "reference_is_simulated": true
+  },
+  "reference_author": "codex_gpt_simulated_expert",
+  "reference_status": "verified_against_frozen_mineru_pages_and_native_layout",
+  "schema_version": "1.0",
+  "task_id": "P19-ASSURE-001"
+}

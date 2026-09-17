@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0",
+  "manifest_id": "P17-SIMULATED-REFERENCE-FREEZE-RESUME02-v0.1",
+  "experiment_id": "P17-V26-UNSEEN-LOCKBOX-V01",
+  "status": "simulated_references_frozen_after_questions_and_page_windows_and_before_candidate_inference",
+  "frozen_date": "2026-09-10",
+  "document_id": "P17-BMW-GROUP-REPORT-2025",
+  "document_sha256": "7a7fd36bf7f274e776ef7eda30d3cda4335a99cbb45f097ae5e8268ccf7759e7",
+  "task_pack": {
+    "path": "data/tasks/p17_task_pack_RESUME01_v0.1.lock.json",
+    "sha256": "cf202db0cf2024d022ee8d7a8e887d66da3b2e1155386b26749a2a702d68e503"
+  },
+  "target_registry": {
+    "path": "data/manifests/p17_mineru_target_registry_RESUME02_v0.1.json",
+    "sha256": "69272f9c993b37721356a7060e7f9f9ca02e67e5c250ec04158ae3f517363646"
+  },
+  "references": [
+    {"task_id":"P17-ASSURE-001","path":"data/annotations/p17_simulated/P17-ASSURE-001.json","sha256":"67b96a1c8c548b3c9b5160a21d01110b48f05f42f2ed922ce0e5d08cc110b61a"},
+    {"task_id":"P17-GHG-CALC-001","path":"data/annotations/p17_simulated/P17-GHG-CALC-001.json","sha256":"6302d0cffae5ffa1020bf84abd2da1c55cb5f10df5e9b02a8e3e96a661ab1837"},
+    {"task_id":"P17-SAFETY-001","path":"data/annotations/p17_simulated/P17-SAFETY-001.json","sha256":"3bc7ad870ede9ebe0064bcd4c42207083704acc6aadb7af995cf8ea283deedf2"},
+    {"task_id":"P17-SCOPE3-BOUNDARY-001","path":"data/annotations/p17_simulated/P17-SCOPE3-BOUNDARY-001.json","sha256":"a7bebce85e9b24589b6fda523f045e2745c00d3488c6618ecdf76b27c6a4f955"},
+    {"task_id":"P17-WATER-001","path":"data/annotations/p17_simulated/P17-WATER-001.json","sha256":"237e3b255375bbc8ab72690971e52bc607fbd122306412d3dfb1676a45eb8dc0"},
+    {"task_id":"P17-WORKFORCE-001","path":"data/annotations/p17_simulated/P17-WORKFORCE-001.json","sha256":"652ebb8de3b3a965e13c11003aec78398d3704140d3037a497567508db8043c3"}
+  ],
+  "integrity_audit": {
+    "reference_count": 6,
+    "evidence_quote_count": 43,
+    "all_reference_pages_within_frozen_task_windows": true,
+    "all_quotes_exact_substrings_of_frozen_MinerU_markdown": true,
+    "numeric_values_cross_checked_against_native_layout": true,
+    "known_mineru_superscript_fusion_on_page_127_handled_as_declared_native_layout_cross_check": true,
+    "candidate_model_used": false,
+    "cloud_transmission_occurred": false
+  },
+  "candidate_reference_visibility": false,
+  "cloud_transmission_allowed": false
+}

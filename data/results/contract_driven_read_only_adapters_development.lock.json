@@ -1,0 +1,39 @@
+{
+  "schema_version": "0.1",
+  "record_kind": "development_regression_result",
+  "status": "contract_driven_adapter_development_complete",
+  "parent_failure_set": {
+    "path": "data/results/unseen_repair_component_validation_closure.lock.json",
+    "sha256": "1f2e0e41fb808f536cd72c12b9eefc329d789a80869fd68a6da99b780110cf27"
+  },
+  "changes": [
+    "row_then_column_table_candidate_binding",
+    "contract_parameterized_native_pdf_row_tokens",
+    "contract_parameterized_calculation_operation_graph",
+    "comma_preserving_numeric_row_parser"
+  ],
+  "development_regressions": {
+    "exposed_failures_passed": 3,
+    "pytest_passed": 527,
+    "ruff_passed": true,
+    "json_audit_passed": true
+  },
+  "artifacts": [
+    {
+      "path": "src/esg_reliable_discovery/read_only_diagnostics.py",
+      "sha256": "162e478b9f3b37f419b06f680a866b6c1fbed93ffa0fdd9c446c1f71362b1507"
+    },
+    {
+      "path": "tests/test_contract_driven_read_only_diagnostics_v01.py",
+      "sha256": "6f8b616847cabb69136ef4bb86503c7a9aee66bfb74f9fdc030663c1696423d5"
+    }
+  ],
+  "safety": {
+    "unseen_performance_claimed": false,
+    "historical_result_modified": false,
+    "fact_write_performed": false,
+    "trust_promotion_performed": false,
+    "cloud_transmission_performed": false
+  },
+  "next_gate": "freeze new real records for second unseen validation of the three refactored adapters"
+}

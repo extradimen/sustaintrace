@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0",
+  "registration_id": "OLLAMA-LOCAL-GEMMA4-12B-v0.1",
+  "registration_status": "locked",
+  "provider": "ollama",
+  "deployment": "local",
+  "model_tag": "gemma4:12b",
+  "official_source": {
+    "url": "https://ollama.com/library/gemma4/tags",
+    "checked_at": "2026-09-01T22:55:00+08:00",
+    "publisher": "Ollama"
+  },
+  "expected_artifact": {
+    "download_size_gb": 7.6,
+    "context_window": 262144,
+    "input_modalities": ["text", "image"]
+  },
+  "observed_local_artifact": {
+    "resolved_digest": "4eb23ef187e2c5462566d6a1d3bbbc2f1346d0b4327cbb66d58fffbcc9b2b05c",
+    "size_bytes": 7556508396,
+    "format": "gguf",
+    "family": "gemma4",
+    "parameter_size": "11.9B",
+    "parameter_count": 11907350576,
+    "quantization": "Q4_K_M",
+    "context_window": 262144,
+    "embedding_length": 3840,
+    "capabilities": ["completion", "vision", "audio", "tools", "thinking"],
+    "minimum_ollama_version": "0.30.5",
+    "captured_at": "2026-09-02T02:09:03+08:00",
+    "capture_sources": ["GET /api/tags", "POST /api/show", "ollama show --verbose"]
+  },
+  "scientific_role": "Primary downloadable local multimodal candidate for P0 qualification; not selected in advance as the winning model.",
+  "qualification_results_observed": true
+}

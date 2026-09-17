@@ -1,0 +1,198 @@
+{
+  "experiment_id": "P19-V28-UNSEEN-LOCKBOX-V01",
+  "graphs": [
+    {
+      "graph_id": "P19-GHG-P066",
+      "header_axis": [
+        "2025",
+        "2024"
+      ],
+      "pdf_page": 66,
+      "row_axis": [
+        "Scope 1",
+        "Scope 2 market-based",
+        "Scope 1+2 market-based",
+        "Scope 3",
+        "Category 1",
+        "Category 2"
+      ],
+      "selected_cells": [
+        [
+          "Scope 1",
+          "2025",
+          120
+        ],
+        [
+          "Scope 2 market-based",
+          "2025",
+          63
+        ],
+        [
+          "Scope 1+2 market-based",
+          "2025",
+          183
+        ],
+        [
+          "Scope 1+2 market-based",
+          "2024",
+          101
+        ],
+        [
+          "Scope 3",
+          "2025",
+          2507
+        ],
+        [
+          "Category 1",
+          "2025",
+          1383
+        ],
+        [
+          "Category 2",
+          "2025",
+          609
+        ]
+      ]
+    },
+    {
+      "graph_id": "P19-ENERGY-P065",
+      "header_axis": [
+        "2025",
+        "2024"
+      ],
+      "pdf_page": 65,
+      "row_axis": [
+        "total",
+        "fossil",
+        "renewable",
+        "renewable share"
+      ],
+      "selected_cells": [
+        [
+          "total",
+          "2025",
+          1726
+        ],
+        [
+          "total",
+          "2024",
+          1400
+        ],
+        [
+          "fossil",
+          "2025",
+          742
+        ],
+        [
+          "renewable",
+          "2025",
+          984
+        ],
+        [
+          "renewable share",
+          "2025",
+          57
+        ]
+      ]
+    },
+    {
+      "graph_id": "P19-WORKFORCE-P058",
+      "header_axis": [
+        "2025",
+        "2024"
+      ],
+      "pdf_page": 58,
+      "row_axis": [
+        "permanent",
+        "temporary",
+        "total headcount"
+      ],
+      "selected_cells": [
+        [
+          "permanent",
+          "2025",
+          64974
+        ],
+        [
+          "temporary",
+          "2025",
+          4531
+        ],
+        [
+          "total headcount",
+          "2025",
+          69505
+        ],
+        [
+          "permanent",
+          "2024",
+          68669
+        ],
+        [
+          "temporary",
+          "2024",
+          5487
+        ],
+        [
+          "total headcount",
+          "2024",
+          74156
+        ]
+      ]
+    },
+    {
+      "graph_id": "P19-TAXONOMY",
+      "header_axis": [
+        "total",
+        "eligible percent",
+        "aligned mDKK",
+        "aligned percent",
+        "non-material percent"
+      ],
+      "pdf_page": 135,
+      "row_axis": [
+        "Turnover",
+        "CapEx"
+      ],
+      "selected_cells": [
+        [
+          "Turnover",
+          "total",
+          309064
+        ],
+        [
+          "Turnover",
+          "eligible percent",
+          100
+        ],
+        [
+          "CapEx",
+          "total",
+          94249
+        ],
+        [
+          "CapEx",
+          "eligible percent",
+          63
+        ],
+        [
+          "CapEx",
+          "aligned mDKK",
+          5835
+        ],
+        [
+          "CapEx",
+          "aligned percent",
+          6
+        ],
+        [
+          "CapEx",
+          "non-material percent",
+          3
+        ]
+      ]
+    }
+  ],
+  "schema_version": "2.8",
+  "status": "frozen_before_candidate_inference"
+}

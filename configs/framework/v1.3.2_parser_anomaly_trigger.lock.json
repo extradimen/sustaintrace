@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "status": "frozen_before_P4_source_or_task_selection",
+  "trigger_id": "V132-TASK-INDEPENDENT-PARSER-ANOMALY",
+  "fallback_parser": "poppler_pdftotext_bbox_layout",
+  "rules": [
+    {
+      "rule": "mineru_table_detected",
+      "condition": "Any MinerU block is typed as table or contains table_body.",
+      "action": "Add all native PDF visible lines with coordinates."
+    },
+    {
+      "rule": "numeric_recall_below_threshold",
+      "condition": "Native layout contains at least 3 numeric tokens and MinerU multiset numeric recall is below 0.95.",
+      "action": "Add all native PDF visible lines with coordinates."
+    }
+  ],
+  "selection_policy": "All visible lines are added; no question term or expected value selects a line.",
+  "numeric_recall_threshold": 0.95,
+  "minimum_native_numeric_tokens": 3,
+  "guardrails": [
+    "No task question is read by the trigger.",
+    "No hidden reference or expected value is read by the trigger.",
+    "Fallback provenance includes page, parser, reason, coordinates and artifact hashes.",
+    "P4 thresholds and rules cannot change after source or task selection."
+  ]
+}

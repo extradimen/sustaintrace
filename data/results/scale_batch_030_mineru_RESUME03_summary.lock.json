@@ -1,0 +1,25 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-030-SUPPLEMENTAL-MINERU-RESUME03",
+  "updated_at": "2026-09-14T02:35:25.772835+00:00",
+  "status": "complete",
+  "cloud_transmission": false,
+  "total_target_pages": 1,
+  "complete_pages": 1,
+  "failed_pages": 0,
+  "pending_pages": 0,
+  "records": [
+    {
+      "document_id": "KB-B030-NCC-ASR2025",
+      "page": 74,
+      "themes": [
+        "energy"
+      ],
+      "output_directory": "artifacts/scale_batch_030/mineru_targets_RESUME03/KB-B030-NCC-ASR2025-p0074",
+      "status": "complete",
+      "started_at": "2026-09-14T02:35:08.956387+00:00",
+      "completed_at": "2026-09-14T02:35:25.772215+00:00",
+      "wall_seconds": 16.815806
+    }
+  ]
+}

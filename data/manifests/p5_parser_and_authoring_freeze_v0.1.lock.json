@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0",
+  "freeze_id": "P5-PARSER-AND-AUTHORING-V01",
+  "status": "frozen_before_report_body_indexing",
+  "experiment_id": "P5-V14-UNSEEN-LOCKBOX-V01",
+  "source_manifest": "data/manifests/p5_source_acquisition_v0.1.lock.json",
+  "two_pass_parsing": {
+    "pass_1": "pdftotext UTF-8 with form-feed page boundaries over all accepted pages",
+    "pass_1_role": "locator and task-authoring only; inadmissible as candidate evidence",
+    "pass_2": "MinerU 3.4.0 pipeline auto over frozen question page windows",
+    "pass_2_role": "primary structured evidence",
+    "fallback_trigger": "configs/framework/v1.3.2_parser_anomaly_trigger.lock.json",
+    "fallback_trigger_sha256": "1650189dac1e28b87f372efdb8101bd689bb0bdc98867af2d7522903d49eed95",
+    "v14_vector_fallback": "When a frozen task page contains chart or table semantics dependent on two-dimensional layout or fill, add the shared pdftotext-bbox plus pdftocairo-SVG spatial graph.",
+    "v14_pdf_vector_sha256": "2e7fe8438ced4abc5734dd4f4d2345b50052242e0ad15138a52c38119bda3d9b",
+    "v14_spatial_graph_sha256": "e33914d3ba2de32d492706ecaa9b392ff2903de2b6d9f50da3d83f0bd3743ec1"
+  },
+  "task_authoring": {
+    "target_task_count": 6,
+    "minimum_task_count": 5,
+    "required_types": ["direct_extraction", "deterministic_calculation", "scope_subject_boundary", "cross_page_relation"],
+    "optional_types": ["controlled_conflict", "abstention"],
+    "candidate_packets_exclude_references": true,
+    "question_page_windows_frozen_before_reference_authoring": true,
+    "same_spatial_graph_used_for_candidate_and_reference_validation": true
+  },
+  "execution_constraints": {
+    "single_candidate_attempt_per_task": true,
+    "archive_all_failures": true,
+    "no_silent_retry": true,
+    "no_posthoc_semantic_repair": true,
+    "no_framework_change_after_task_freeze": true,
+    "p3_and_p4_remain_locked": true
+  }
+}

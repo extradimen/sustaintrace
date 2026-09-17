@@ -1,0 +1,26 @@
+{
+  "schema_version": "0.1",
+  "experiment_id": "P21-V30-UNSEEN-LOCKBOX-V01",
+  "resume_id": "P21-MINERU-RESUME01",
+  "status": "authorized_infrastructure_resume_pending",
+  "parent_archive": "artifacts/p21/mineru_targets",
+  "resume_archive": "artifacts/p21/mineru_targets_RESUME01",
+  "parent_outcome": {
+    "attempted_pages": [192, 194, 195, 242, 245, 262, 263, 433, 434, 436],
+    "successful_pages": [194, 195, 242, 245, 262, 263, 434, 436],
+    "failed_pages": [192, 433],
+    "failure_class": "local_parser_infrastructure",
+    "failure_signatures": [
+      "page 192: initial MinerU executable probe race reported unavailable before a run record was created",
+      "page 433: MinerU task returned code 1 after OCR with no semantic output"
+    ]
+  },
+  "reuse": {
+    "document": "data/raw/p21_staging/basf-report-2025.pdf",
+    "document_sha256": "6fa0a9f60a3149e585a5b52f06efde1e0aaa5d1156da0d71a1fd40822df7f8b7",
+    "parser_config": "configs/parsers/p21-mineru-3.4.0-runtime.json",
+    "task_pack": "data/tasks/p21_task_pack_v0.1.lock.json"
+  },
+  "resume_policy": "same frozen document, parser config and pages; separate archive; execute only pages without a successful parent checkpoint",
+  "cloud_transmission": false
+}

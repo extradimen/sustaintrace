@@ -1,0 +1,33 @@
+{
+  "blocked_by_reason": {
+    "native_pdf_line_wrapping_prevents_exact_row_header_corroboration": [
+      "fact-003f41c694326d4855d210d7",
+      "fact-5271e73eff4b9e6d328dd362",
+      "fact-9a328f6fb10792ea1f789497",
+      "fact-e9c1fa2b38450012c7a34190"
+    ]
+  },
+  "blocked_fact_ids": [
+    "fact-003f41c694326d4855d210d7",
+    "fact-5271e73eff4b9e6d328dd362",
+    "fact-9a328f6fb10792ea1f789497",
+    "fact-e9c1fa2b38450012c7a34190"
+  ],
+  "inputs": {
+    "atomic_increment_sha256": "e4cf8412bef3da1c098c0b8737be1965099c9ac9bdf93dbd4bcd3a636bf6200c",
+    "atomic_validations_sha256": "ee1316bab7f20fbbc41a8be68f6fed07a4110a1e96aceff2dd3ea17312955cf1",
+    "native_coordinate_audit_sha256": "3148bc2ad189b201bf7f647619f0a6d2c69f6edd0af2f5afc9ffa6b9d734fe27"
+  },
+  "locked_experiments_modified_or_rescored": false,
+  "new_failure_observations": 1,
+  "newly_promoted_to_tier_b": 0,
+  "next_gate": "scale_batch_012_global_kb_rebuild_and_closure",
+  "outputs": {
+    "semantic_failures_sha256": "cdc5bc5553d77d1f425c0bc0236778d757bae11729a29d6f733d03c350029603"
+  },
+  "promotable_fact_ids": [],
+  "reviewed": 4,
+  "schema_version": "0.1",
+  "source_candidate_records_modified": 0,
+  "status": "scale_batch_012_six_dimension_review_complete_zero_promotions"
+}

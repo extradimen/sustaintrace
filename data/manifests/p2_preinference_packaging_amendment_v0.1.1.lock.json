@@ -1,0 +1,15 @@
+{
+  "schema_version":"1.0",
+  "amendment_id":"P2-PREINFERENCE-PACKAGING-v0.1.1",
+  "status":"frozen_before_candidate_inference",
+  "reason":"The locked v0.9.1 runner requires source_document_sha256 and injected_text fields for controlled notes.",
+  "semantic_change":false,
+  "question_change":false,
+  "reference_answer_change":false,
+  "controlled_claim_change":false,
+  "framework_or_prompt_change":false,
+  "candidate_inference_started_before_amendment":false,
+  "changes":["Added source_document_sha256 equal to each frozen source hash.","Duplicated the already frozen claim verbatim into runner-required injected_text."],
+  "supersedes_component_hashes_in":"data/manifests/p2_task_and_reference_freeze_v0.1.lock.json",
+  "amended_component_sha256":{"P2-CI-001":"edcfb65089ae7bbb68d6816f6cddaafb7c0043a6a6dbc12f7e474015f4895135","P2-CI-002":"39226de1493e5be7f41efa949f1f86080ee3fa85e1f1e7117e9fcb335d92f7a8"}
+}

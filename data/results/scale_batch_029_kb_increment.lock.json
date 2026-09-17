@@ -1,0 +1,74 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-029",
+  "status": "increment_built_candidates_not_promoted",
+  "fact_candidates": 62,
+  "trusted_facts_promoted": 0,
+  "evidence_gaps": 8,
+  "failure_observations": 81,
+  "gaps": [
+    {
+      "document_id": "KB-B029-INVESTOR-AR2025",
+      "page": 104,
+      "theme": "health_safety",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B029-INVESTOR-AR2025",
+      "page": 113,
+      "theme": "circularity",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B029-INVESTOR-AR2025",
+      "page": 113,
+      "theme": "workforce",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B029-VATTENFALL-ASR2025",
+      "page": 141,
+      "theme": "biodiversity",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B029-VATTENFALL-ASR2025",
+      "page": 141,
+      "theme": "circularity",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B029-SWEDAVIA-ASR2025",
+      "page": 69,
+      "theme": "biodiversity",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B029-SWEDAVIA-ASR2025",
+      "page": 69,
+      "theme": "circularity",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B029-SWEDAVIA-ASR2025",
+      "page": 85,
+      "theme": "targets",
+      "reason": "no_theme_line_in_mineru_markdown"
+    }
+  ],
+  "outputs": {
+    "facts": {
+      "path": "data/knowledge_bases/v0.1/increments/scale_batch_029_fact_records.jsonl",
+      "sha256": "2d26e83425e9116e173c25dfbf47ad60f40bec4c26406acc252f6723a606fe01"
+    },
+    "failures": {
+      "path": "data/knowledge_bases/v0.1/increments/scale_batch_029_failure_records.jsonl",
+      "sha256": "a9989ebd58026fe594158581b48387b5ca2188e271fecadfca7d300695ecbb69"
+    }
+  },
+  "policy": {
+    "cloud_transmission": false,
+    "locked_experiments_modified": false,
+    "automatic_promotion": false
+  }
+}

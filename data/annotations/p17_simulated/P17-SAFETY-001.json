@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "task_id": "P17-SAFETY-001",
+  "reference_author": "codex_gpt_simulated_expert",
+  "reference_status": "verified_against_frozen_page_with_native_layout_cross_check_for_fatality_row",
+  "answer": "BMW Group reported 802 work-related accidents in 2025 versus 891 in 2024 (−10.0%): employees and other BMW Group employees were 517 versus 502 (+3.0%), and temporary agency workers were 285 versus 389 (−26.7%). The total accident-frequency rate was 2.6 versus 2.9 (−10.3%); the employee rate was 1.9 versus 1.8 (+5.6%), and the temporary-agency-worker rate was 8.3 versus 10.7 (−22.4%). Four people died from work-related accidents in 2025 versus two in 2024: one BMW Group employee and three workers of external companies at BMW Group sites. Reported fatalities from work-related ill health were zero.",
+  "normalized_value": {
+    "accident_counts": {"total_2025":802,"total_2024":891,"employees_2025":517,"employees_2024":502,"temporary_2025":285,"temporary_2024":389},
+    "accident_rates": {"total_2025":2.6,"total_2024":2.9,"employees_2025":1.9,"employees_2024":1.8,"temporary_2025":8.3,"temporary_2024":10.7},
+    "fatalities_2025_total": 4,
+    "fatalities_2025_bmw_employee": 1,
+    "fatalities_2025_external_site_workers": 3,
+    "work_related_ill_health_fatalities_2025": 0
+  },
+  "evidence": [
+    {"source_id":"P17-BMW-GROUP-REPORT-2025","pdf_page":178,"quote":"there were 802 occupational accidents within the BMW Group"},
+    {"source_id":"P17-BMW-GROUP-REPORT-2025","pdf_page":178,"quote":"the accident frequency rate was 2.6"},
+    {"source_id":"P17-BMW-GROUP-REPORT-2025","pdf_page":178,"quote":"There were a total of 4 fatalities due to work-related accidents"},
+    {"source_id":"P17-BMW-GROUP-REPORT-2025","pdf_page":178,"quote":"1 BMW Group employee and 3 workers of external companies working at BMW Group’s sites"},
+    {"source_id":"P17-BMW-GROUP-REPORT-2025","pdf_page":178,"quote":"0 reported fatalities due to work-related ill health"}
+  ],
+  "provenance": {"reference_is_simulated":true,"candidate_model_used":false}
+}

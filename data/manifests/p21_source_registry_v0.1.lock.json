@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "registry_id": "P21-SOURCE-REGISTRY-v0.1",
+  "experiment_id": "P21-V30-UNSEEN-LOCKBOX-V01",
+  "status": "source_frozen_before_task_authoring_and_candidate_inference",
+  "candidates": [
+    {
+      "candidate_id": "P21-CAND-001",
+      "document_id": "P21-BASF-AR2025",
+      "company": "BASF SE",
+      "title": "BASF Report 2025",
+      "language": "English",
+      "eligibility_status": "eligible",
+      "sha256": "6fa0a9f60a3149e585a5b52f06efde1e0aaa5d1156da0d71a1fd40822df7f8b7",
+      "official_landing_page": "https://report.basf.com/2025/en/services/downloads.html",
+      "local_path": "data/raw/p21_staging/basf-report-2025.pdf",
+      "page_count": 451
+    }
+  ]
+}

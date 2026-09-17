@@ -1,0 +1,134 @@
+{
+  "schema_version": "1.0",
+  "task_pack_id": "P0-TASKS-v0.1",
+  "dataset_split": "P0",
+  "frozen": false,
+  "tasks": [
+    {
+      "task_id": "P0-TEXT-001",
+      "task_type": "text_fact",
+      "input_scope": "specified_pages",
+      "source_documents": [
+        {
+          "document_id": "MSFT-ESR-2024",
+          "sha256": "7d4872c7b4a64b4bf9bac1af440a1d124a449d595cf49a1d62d510130db593cc",
+          "pages": [18]
+        }
+      ],
+      "intervention_id": null,
+      "instruction": "What project capacity, in MW, does Microsoft report for the Clearloop project in the Mississippi Delta? Return one finding card and preserve the project and geographic boundary.",
+      "allowed_claim_levels": ["L1"],
+      "output_contract": "finding_card_v1",
+      "scoring_dimensions": ["answer_correctness", "evidence_accuracy", "boundary_accuracy", "schema_validity"],
+      "expected_card_count": {"minimum": 1, "maximum": 1}
+    },
+    {
+      "task_id": "P0-TABLE-001",
+      "task_type": "table_metric",
+      "input_scope": "specified_pages",
+      "source_documents": [
+        {
+          "document_id": "SIE-SR-2024",
+          "sha256": "043285e4a589c2831e29276e9e0aaea582269ca87a747f1ae22fdfbc445a813f",
+          "pages": [118]
+        }
+      ],
+      "intervention_id": null,
+      "instruction": "Extract the FY2024 and FY2023 counts for allegations of bribery from the Compliance KPIs table. Return one finding card with both values and the exact table boundary.",
+      "allowed_claim_levels": ["L1"],
+      "output_contract": "finding_card_v1",
+      "scoring_dimensions": ["answer_correctness", "evidence_accuracy", "boundary_accuracy", "schema_validity"],
+      "expected_card_count": {"minimum": 1, "maximum": 1}
+    },
+    {
+      "task_id": "P0-CALC-001",
+      "task_type": "deterministic_calculation",
+      "input_scope": "specified_pages",
+      "source_documents": [
+        {
+          "document_id": "SIE-SR-2024",
+          "sha256": "043285e4a589c2831e29276e9e0aaea582269ca87a747f1ae22fdfbc445a813f",
+          "pages": [118]
+        }
+      ],
+      "intervention_id": null,
+      "instruction": "Using the reported FY2024 and FY2023 bribery-allegation counts, independently calculate the year-over-year percentage change and determine whether the table's displayed change is arithmetically consistent. Return one calculated-fact card.",
+      "allowed_claim_levels": ["L2"],
+      "output_contract": "finding_card_v1",
+      "scoring_dimensions": ["answer_correctness", "evidence_accuracy", "calculation_accuracy", "schema_validity"],
+      "expected_card_count": {"minimum": 1, "maximum": 1}
+    },
+    {
+      "task_id": "P0-TARGET-001",
+      "task_type": "target_tracking",
+      "input_scope": "specified_pages",
+      "source_documents": [
+        {
+          "document_id": "DBS-SR-2024",
+          "sha256": "776b17a3a42a85716cd7622c42aca7ccd23f01e6ca05bb262dfd1ed8f7e97583",
+          "pages": [109]
+        }
+      ],
+      "intervention_id": null,
+      "instruction": "For DBS responsible-financing targets, identify every priority sector explicitly reported as not on track in 2024. Do not infer causes or severity. Return one finding card.",
+      "allowed_claim_levels": ["L1"],
+      "output_contract": "finding_card_v1",
+      "scoring_dimensions": ["answer_correctness", "evidence_accuracy", "false_discovery_control", "schema_validity"],
+      "expected_card_count": {"minimum": 1, "maximum": 1}
+    },
+    {
+      "task_id": "P0-ABSTAIN-001",
+      "task_type": "abstention",
+      "input_scope": "specified_pages",
+      "source_documents": [
+        {
+          "document_id": "TM-SDB-2024",
+          "sha256": "ecee5ee5bde82cd93d3fb7ef12d7ec07bdd22bc18309340a95e1f8ec42f7fab0",
+          "pages": [34]
+        }
+      ],
+      "intervention_id": null,
+      "instruction": "How many metric tons of waste reduction did Toyota's Circular Core achieve, and by what date? Use only the supplied page. If the amount or date is not stated, abstain explicitly rather than estimate.",
+      "allowed_claim_levels": ["L1"],
+      "output_contract": "finding_card_v1",
+      "scoring_dimensions": ["abstention_accuracy", "evidence_accuracy", "false_discovery_control", "schema_validity"],
+      "expected_card_count": {"minimum": 1, "maximum": 1}
+    },
+    {
+      "task_id": "P0-CONFLICT-001",
+      "task_type": "controlled_conflict",
+      "input_scope": "controlled_bundle",
+      "source_documents": [
+        {
+          "document_id": "KO-EU-2024",
+          "sha256": "c71a25d345a5b3c5342cce74d63ae9d3e436d9c91e5370ce44014970543c7ec9",
+          "pages": [10]
+        }
+      ],
+      "intervention_id": "P0-CI-001",
+      "instruction": "Compare the supplied injected statement with the official table. Determine whether they agree, identify the conflicting values and direction of change, and do not attribute the injected statement to the company.",
+      "allowed_claim_levels": ["L3"],
+      "output_contract": "finding_card_v1",
+      "scoring_dimensions": ["answer_correctness", "evidence_accuracy", "boundary_accuracy", "false_discovery_control", "schema_validity"],
+      "expected_card_count": {"minimum": 1, "maximum": 1}
+    },
+    {
+      "task_id": "P0-OPEN-001",
+      "task_type": "open_discovery",
+      "input_scope": "specified_pages",
+      "source_documents": [
+        {
+          "document_id": "NOVN-NIS-2024",
+          "sha256": "7898ce336a3073f92d44a3ca36d9e1deefb6fcd0647ae4605e167aaa85e73285",
+          "pages": [27]
+        }
+      ],
+      "intervention_id": null,
+      "instruction": "Produce up to three distinct, decision-relevant findings from this climate-transition page. Every finding must be directly verifiable from the page; do not infer corporate motives or causal effects beyond the disclosed analysis.",
+      "allowed_claim_levels": ["L1", "L2", "L3"],
+      "output_contract": "finding_card_v1",
+      "scoring_dimensions": ["evidence_accuracy", "boundary_accuracy", "false_discovery_control", "schema_validity"],
+      "expected_card_count": {"minimum": 1, "maximum": 3}
+    }
+  ]
+}

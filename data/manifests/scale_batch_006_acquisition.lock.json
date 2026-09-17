@@ -1,0 +1,43 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-006",
+  "created_at": "2026-09-12T18:42:20Z",
+  "source_config": "configs/knowledge/scale_batch_006_v0.1.json",
+  "documents": [
+    {
+      "document_id": "KB-B006-VOLVO-AR2025",
+      "local_path": "data/raw/scale_batch_006/volvo-group-annual-report-2025.pdf",
+      "bytes": 13638579,
+      "pages": 232,
+      "sha256": "4a2a5c41dc1331d60103e5757af0e90a6a2ea234b9753138ae0ec4db315df969",
+      "pdf_header_valid": true,
+      "pdfinfo_valid": true,
+      "download_status": "downloaded_verified_pdf"
+    },
+    {
+      "document_id": "KB-B006-MICHELIN-URD2025",
+      "local_path": "data/raw/scale_batch_006/michelin-universal-registration-document-2025.pdf",
+      "bytes": 15095099,
+      "pages": 556,
+      "sha256": "c6c89753ba21d5a102463a9b2012058e8d7c6490ee52c49fd4ddc1624885fa71",
+      "pdf_header_valid": true,
+      "pdfinfo_valid": true,
+      "download_status": "downloaded_gzip_transport_decoded_verified_pdf"
+    },
+    {
+      "document_id": "KB-B006-RECKITT-AR2025",
+      "local_path": "data/raw/scale_batch_006/reckitt-annual-report-2025.pdf",
+      "bytes": 8012738,
+      "pages": 216,
+      "sha256": "f4190b49ca96687386cd877b52aba925bb5bad8fc0efa0c2873ef6eaebbffbd2",
+      "pdf_header_valid": true,
+      "pdfinfo_valid": true,
+      "download_status": "downloaded_verified_pdf"
+    }
+  ],
+  "totals": {
+    "documents": 3,
+    "bytes": 36746416,
+    "pages": 1004
+  }
+}

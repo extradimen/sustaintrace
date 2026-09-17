@@ -1,0 +1,140 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-006-RESUME02",
+  "updated_at": "2026-09-12T19:27:42.691345+00:00",
+  "status": "complete",
+  "cloud_transmission": false,
+  "total_target_pages": 13,
+  "complete_pages": 3,
+  "failed_pages": 10,
+  "pending_pages": 0,
+  "records": [
+    {
+      "document_id": "KB-B006-VOLVO-AR2025",
+      "page": 158,
+      "themes": [
+        "energy"
+      ],
+      "output_directory": "artifacts/scale_batch_006/mineru_targets_RESUME02/KB-B006-VOLVO-AR2025-p0158",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B006-VOLVO-AR2025",
+      "page": 160,
+      "themes": [
+        "ghg_emissions"
+      ],
+      "output_directory": "artifacts/scale_batch_006/mineru_targets_RESUME02/KB-B006-VOLVO-AR2025-p0160",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_006/mineru_targets_RESUME02/KB-B006-VOLVO-AR2025-p0160/esg_rd_mineru_run.json"
+    },
+    {
+      "document_id": "KB-B006-VOLVO-AR2025",
+      "page": 164,
+      "themes": [
+        "circularity"
+      ],
+      "output_directory": "artifacts/scale_batch_006/mineru_targets_RESUME02/KB-B006-VOLVO-AR2025-p0164",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_006/mineru_targets_RESUME02/KB-B006-VOLVO-AR2025-p0164/esg_rd_mineru_run.json"
+    },
+    {
+      "document_id": "KB-B006-VOLVO-AR2025",
+      "page": 165,
+      "themes": [
+        "biodiversity"
+      ],
+      "output_directory": "artifacts/scale_batch_006/mineru_targets_RESUME02/KB-B006-VOLVO-AR2025-p0165",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_006/mineru_targets_RESUME02/KB-B006-VOLVO-AR2025-p0165/esg_rd_mineru_run.json"
+    },
+    {
+      "document_id": "KB-B006-VOLVO-AR2025",
+      "page": 215,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_006/mineru_targets_RESUME02/KB-B006-VOLVO-AR2025-p0215",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_006/mineru_targets_RESUME02/KB-B006-VOLVO-AR2025-p0215/esg_rd_mineru_run.json"
+    },
+    {
+      "document_id": "KB-B006-MICHELIN-URD2025",
+      "page": 205,
+      "themes": [
+        "energy"
+      ],
+      "output_directory": "artifacts/scale_batch_006/mineru_targets_RESUME02/KB-B006-MICHELIN-URD2025-p0205",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_006/mineru_targets_RESUME02/KB-B006-MICHELIN-URD2025-p0205/esg_rd_mineru_run.json"
+    },
+    {
+      "document_id": "KB-B006-MICHELIN-URD2025",
+      "page": 207,
+      "themes": [
+        "ghg_emissions"
+      ],
+      "output_directory": "artifacts/scale_batch_006/mineru_targets_RESUME02/KB-B006-MICHELIN-URD2025-p0207",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_006/mineru_targets_RESUME02/KB-B006-MICHELIN-URD2025-p0207/esg_rd_mineru_run.json"
+    },
+    {
+      "document_id": "KB-B006-MICHELIN-URD2025",
+      "page": 235,
+      "themes": [
+        "water"
+      ],
+      "output_directory": "artifacts/scale_batch_006/mineru_targets_RESUME02/KB-B006-MICHELIN-URD2025-p0235",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B006-MICHELIN-URD2025",
+      "page": 255,
+      "themes": [
+        "circularity"
+      ],
+      "output_directory": "artifacts/scale_batch_006/mineru_targets_RESUME02/KB-B006-MICHELIN-URD2025-p0255",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_006/mineru_targets_RESUME02/KB-B006-MICHELIN-URD2025-p0255/esg_rd_mineru_run.json"
+    },
+    {
+      "document_id": "KB-B006-MICHELIN-URD2025",
+      "page": 271,
+      "themes": [
+        "health_safety"
+      ],
+      "output_directory": "artifacts/scale_batch_006/mineru_targets_RESUME02/KB-B006-MICHELIN-URD2025-p0271",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_006/mineru_targets_RESUME02/KB-B006-MICHELIN-URD2025-p0271/esg_rd_mineru_run.json"
+    },
+    {
+      "document_id": "KB-B006-MICHELIN-URD2025",
+      "page": 308,
+      "themes": [
+        "biodiversity"
+      ],
+      "output_directory": "artifacts/scale_batch_006/mineru_targets_RESUME02/KB-B006-MICHELIN-URD2025-p0308",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_006/mineru_targets_RESUME02/KB-B006-MICHELIN-URD2025-p0308/esg_rd_mineru_run.json"
+    },
+    {
+      "document_id": "KB-B006-MICHELIN-URD2025",
+      "page": 312,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_006/mineru_targets_RESUME02/KB-B006-MICHELIN-URD2025-p0312",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B006-MICHELIN-URD2025",
+      "page": 395,
+      "themes": [
+        "workforce"
+      ],
+      "output_directory": "artifacts/scale_batch_006/mineru_targets_RESUME02/KB-B006-MICHELIN-URD2025-p0395",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_006/mineru_targets_RESUME02/KB-B006-MICHELIN-URD2025-p0395/esg_rd_mineru_run.json"
+    }
+  ]
+}

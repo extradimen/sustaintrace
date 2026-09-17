@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "framework_id": "P1-PIPELINE-v0.6.5-MINIMAL-CALCULATION-CONTRACT",
+  "status": "preregistered_before_v0.6.5_candidate_inference",
+  "trigger_run_id": "P1-02-1-GEMMA4-12B-v064-r1",
+  "observed_failure": "The model provided a fully grounded calculation_request but contradicted it with extraction_status=insufficient_information and an empty duplicate evidence_handles array.",
+  "registered_changes": [
+    "Remove extraction_status from deterministic-calculation model output.",
+    "Remove the duplicate top-level evidence_handles field from deterministic-calculation model output.",
+    "Infer inputs_available when calculation_request is non-null and validates; infer insufficient_information when it is null.",
+    "Resolve calculation evidence from the unique evidence_handle values embedded in calculation inputs."
+  ],
+  "unchanged_constraints": {
+    "model_answer_fields_allowed": false,
+    "semantic_input_roles_required": true,
+    "framework_owns_result_and_direction": true,
+    "reference_visible_during_inference": false,
+    "posthoc_semantic_repair_allowed": false,
+    "aggregate_score_enabled": false
+  },
+  "inference_allowed": false
+}

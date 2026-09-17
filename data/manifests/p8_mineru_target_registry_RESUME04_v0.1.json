@@ -1,0 +1,168 @@
+{
+  "parser": "MinerU 3.4.0 pipeline",
+  "schema_version": "1.0",
+  "targets": [
+    {
+      "document_id": "P8-RIOTINTO-AR2025",
+      "document_sha256": "54a10cef07d653fa63adc26c4ee8f7610c643fcd968d642446b2728a91fed942",
+      "local_path": "data/raw/p8_staging/rio-tinto-annual-report-2025.pdf",
+      "output_directory": "artifacts/p8/mineru_targets/P8-RIOTINTO-AR2025-p0037",
+      "pdf_page": 37,
+      "run_record_sha256": "ee0d9dc3f2620a609f100ac7b6a0527304e534f2a5c9a13cf0f0a411a788e5b9",
+      "status": "reused_verified_success",
+      "target_id": "P8-RIOTINTO-AR2025-p0037",
+      "task_ids": [
+        "P8-BASELINE-001",
+        "P8-SAFETY-001",
+        "P8-TARGET-001"
+      ]
+    },
+    {
+      "document_id": "P8-RIOTINTO-AR2025",
+      "document_sha256": "54a10cef07d653fa63adc26c4ee8f7610c643fcd968d642446b2728a91fed942",
+      "local_path": "data/raw/p8_staging/rio-tinto-annual-report-2025.pdf",
+      "output_directory": "artifacts/p8/mineru_targets/P8-RIOTINTO-AR2025-p0039",
+      "pdf_page": 39,
+      "run_record_sha256": "bd198e2e534a1b34a5f7cd9652dcaba64b91a79c5277b827879aa4fd112cfc45",
+      "status": "reused_verified_success",
+      "target_id": "P8-RIOTINTO-AR2025-p0039",
+      "task_ids": [
+        "P8-SAFETY-001"
+      ]
+    },
+    {
+      "document_id": "P8-RIOTINTO-AR2025",
+      "document_sha256": "54a10cef07d653fa63adc26c4ee8f7610c643fcd968d642446b2728a91fed942",
+      "local_path": "data/raw/p8_staging/rio-tinto-annual-report-2025.pdf",
+      "output_directory": "artifacts/p8/mineru_targets/P8-RIOTINTO-AR2025-p0057",
+      "pdf_page": 57,
+      "run_record_sha256": "3d15f40d8e8343a7a436253493d5e2615579f8ab793c30aa77acf1fea32149a6",
+      "status": "reused_verified_success",
+      "target_id": "P8-RIOTINTO-AR2025-p0057",
+      "task_ids": [
+        "P8-CALC-001",
+        "P8-TARGET-001"
+      ]
+    },
+    {
+      "document_id": "P8-RIOTINTO-AR2025",
+      "document_sha256": "54a10cef07d653fa63adc26c4ee8f7610c643fcd968d642446b2728a91fed942",
+      "local_path": "data/raw/p8_staging/rio-tinto-annual-report-2025.pdf",
+      "output_directory": "artifacts/p8/mineru_targets_RESUME01/P8-RIOTINTO-AR2025-p0059",
+      "pdf_page": 59,
+      "run_record_sha256": "0810853e52428398e64c230c083af4f0a6c66298e99ca27276be7d33671b9687",
+      "status": "reused_verified_success",
+      "target_id": "P8-RIOTINTO-AR2025-p0059",
+      "task_ids": [
+        "P8-BASELINE-001"
+      ]
+    },
+    {
+      "document_id": "P8-RIOTINTO-AR2025",
+      "document_sha256": "54a10cef07d653fa63adc26c4ee8f7610c643fcd968d642446b2728a91fed942",
+      "local_path": "data/raw/p8_staging/rio-tinto-annual-report-2025.pdf",
+      "output_directory": "artifacts/p8/mineru_targets_RESUME01/P8-RIOTINTO-AR2025-p0084",
+      "pdf_page": 84,
+      "run_record_sha256": "1abd8f1148b7223a9aea2b0aa46f83c7afa62e27c4f2be5ab368b3e9834afd1d",
+      "status": "reused_verified_success",
+      "target_id": "P8-RIOTINTO-AR2025-p0084",
+      "task_ids": [
+        "P8-SCOPE3-001"
+      ]
+    },
+    {
+      "document_id": "P8-RIOTINTO-AR2025",
+      "document_sha256": "54a10cef07d653fa63adc26c4ee8f7610c643fcd968d642446b2728a91fed942",
+      "local_path": "data/raw/p8_staging/rio-tinto-annual-report-2025.pdf",
+      "output_directory": "artifacts/p8/mineru_targets_RESUME01/P8-RIOTINTO-AR2025-p0086",
+      "pdf_page": 86,
+      "run_record_sha256": "c7494a09c7c267271c96618b7bd05a9e044d8d25914164a20f814c639ce69717",
+      "status": "reused_verified_success",
+      "target_id": "P8-RIOTINTO-AR2025-p0086",
+      "task_ids": [
+        "P8-BASELINE-001",
+        "P8-TARGET-001"
+      ]
+    },
+    {
+      "document_id": "P8-RIOTINTO-AR2025",
+      "document_sha256": "54a10cef07d653fa63adc26c4ee8f7610c643fcd968d642446b2728a91fed942",
+      "local_path": "data/raw/p8_staging/rio-tinto-annual-report-2025.pdf",
+      "output_directory": "artifacts/p8/mineru_targets_RESUME02/P8-RIOTINTO-AR2025-p0328",
+      "pdf_page": 328,
+      "run_record_sha256": "2b9fcd917ce7327f24168dcc561393f36efc966692db2e7a127323579a83a2f6",
+      "status": "reused_verified_success",
+      "target_id": "P8-RIOTINTO-AR2025-p0328",
+      "task_ids": [
+        "P8-ASSURE-001"
+      ]
+    },
+    {
+      "document_id": "P8-RIOTINTO-AR2025",
+      "document_sha256": "54a10cef07d653fa63adc26c4ee8f7610c643fcd968d642446b2728a91fed942",
+      "local_path": "data/raw/p8_staging/rio-tinto-annual-report-2025.pdf",
+      "output_directory": "artifacts/p8/mineru_targets_RESUME02/P8-RIOTINTO-AR2025-p0329",
+      "pdf_page": 329,
+      "run_record_sha256": "2fcd5f0e6351d364019ceb1c26220390bc8b058e86efda698cf33692f68b8214",
+      "status": "reused_verified_success",
+      "target_id": "P8-RIOTINTO-AR2025-p0329",
+      "task_ids": [
+        "P8-ASSURE-001"
+      ]
+    },
+    {
+      "document_id": "P8-RIOTINTO-AR2025",
+      "document_sha256": "54a10cef07d653fa63adc26c4ee8f7610c643fcd968d642446b2728a91fed942",
+      "local_path": "data/raw/p8_staging/rio-tinto-annual-report-2025.pdf",
+      "output_directory": "artifacts/p8/mineru_targets_RESUME03/P8-RIOTINTO-AR2025-p0330",
+      "pdf_page": 330,
+      "run_record_sha256": "c874048b5bfd82a9ef7e2b70cc8522102d416d482063a16db83b943f364e7028",
+      "status": "reused_verified_success",
+      "target_id": "P8-RIOTINTO-AR2025-p0330",
+      "task_ids": [
+        "P8-ASSURE-001"
+      ]
+    },
+    {
+      "document_id": "P8-RIOTINTO-AR2025",
+      "document_sha256": "54a10cef07d653fa63adc26c4ee8f7610c643fcd968d642446b2728a91fed942",
+      "local_path": "data/raw/p8_staging/rio-tinto-annual-report-2025.pdf",
+      "output_directory": "artifacts/p8/mineru_targets_RESUME03/P8-RIOTINTO-AR2025-p0334",
+      "pdf_page": 334,
+      "run_record_sha256": "8243c99759d27575118375ed747f0a3341e5cd1ae072e172d3330fdc8924ecf0",
+      "status": "reused_verified_success",
+      "target_id": "P8-RIOTINTO-AR2025-p0334",
+      "task_ids": [
+        "P8-ASSURE-001"
+      ]
+    },
+    {
+      "document_id": "P8-RIOTINTO-AR2025",
+      "document_sha256": "54a10cef07d653fa63adc26c4ee8f7610c643fcd968d642446b2728a91fed942",
+      "local_path": "data/raw/p8_staging/rio-tinto-annual-report-2025.pdf",
+      "output_directory": "artifacts/p8/mineru_targets_RESUME03/P8-RIOTINTO-AR2025-p0335",
+      "pdf_page": 335,
+      "run_record_sha256": "0c9fa004130cb224c4ac2353c42a4bf6c2fc0f9464a5a9697b5be3a09ce03767",
+      "status": "reused_verified_success",
+      "target_id": "P8-RIOTINTO-AR2025-p0335",
+      "task_ids": [
+        "P8-ASSURE-001"
+      ]
+    },
+    {
+      "document_id": "P8-RIOTINTO-AR2025",
+      "document_sha256": "54a10cef07d653fa63adc26c4ee8f7610c643fcd968d642446b2728a91fed942",
+      "local_path": "data/raw/p8_staging/rio-tinto-annual-report-2025.pdf",
+      "output_directory": "artifacts/p8/mineru_targets_RESUME04/P8-RIOTINTO-AR2025-p0336",
+      "output_file_count": 10,
+      "pdf_page": 336,
+      "run_record_sha256": "32b30d6981074d1667e72adbc4fa022d9c106a5fa2317a2e57f08b10071e797a",
+      "status": "parsed",
+      "target_id": "P8-RIOTINTO-AR2025-p0336",
+      "task_ids": [
+        "P8-ASSURE-001"
+      ]
+    }
+  ],
+  "unique_target_count": 12
+}

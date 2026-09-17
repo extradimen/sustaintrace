@@ -1,0 +1,41 @@
+{
+  "answer": "Deloitte is identified as the external provider of limited assurance under ISAE 3000 and ISAE 3410 for GHG statements. Separately, the 2025 information underlying the Responsible Business Performance Rating is said to be subject to independent limited assurance by Deloitte. The cited wording does not support extending that assurance to every environmental metric or wider long-term target.",
+  "evidence": [
+    {
+      "pdf_page": 54,
+      "quote": "subject to independent limited assurance by Deloitte",
+      "source_id": "P23-GSK-AR2025"
+    },
+    {
+      "pdf_page": 54,
+      "quote": "wider set of long term environmental sustainability targets",
+      "source_id": "P23-GSK-AR2025"
+    },
+    {
+      "pdf_page": 78,
+      "quote": "external assurance provider, Deloitte",
+      "source_id": "P23-GSK-AR2025"
+    },
+    {
+      "pdf_page": 78,
+      "quote": "limited assurance in accordance with ISAE3000 and ISAE3410 on GHG statements",
+      "source_id": "P23-GSK-AR2025"
+    }
+  ],
+  "normalized_value": {
+    "assurance_level": "limited assurance",
+    "ghg_governing_standards": "ISAE3000 and ISAE3410",
+    "ghg_subject": "GHG statements",
+    "provider": "Deloitte",
+    "responsible_business_subject": "2025 information underlying the Responsible Business Performance Rating",
+    "scope_exclusion": "no basis in cited wording to extend assurance to all environmental metrics or wider long-term targets"
+  },
+  "provenance": {
+    "candidate_model_used": false,
+    "reference_is_simulated": true
+  },
+  "reference_author": "codex_gpt_simulated_expert",
+  "reference_status": "verified_against_frozen_mineru_pages_and_native_layout",
+  "schema_version": "1.0",
+  "task_id": "P23-ASSURE-001"
+}

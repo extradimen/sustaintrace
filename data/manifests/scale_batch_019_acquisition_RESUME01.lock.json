@@ -1,0 +1,36 @@
+{
+  "schema_version": "0.2",
+  "batch_id": "KB-SCALE-BATCH-019-RESUME01",
+  "created_at": "2026-09-13T13:38:00Z",
+  "parent_acquisition": "data/manifests/scale_batch_019_acquisition.lock.json",
+  "source_config": "configs/knowledge/scale_batch_019_RESUME01_v0.2.json",
+  "documents": [
+    {
+      "document_id": "KB-B019-NESTE-AR2025",
+      "local_path": "data/raw/scale_batch_019/neste-annual-report-2025.pdf",
+      "bytes": 15696160,
+      "sha256": "8dabbd87f76ca8550086082acb728911d1ad0121cde43111ddde8ec7668f8eae",
+      "pdf_header_valid": true,
+      "download_status": "reused_verified_parent_download",
+      "resumed_from_bytes": 15696160
+    },
+    {
+      "document_id": "KB-B019-BOLIDEN-ASR2025",
+      "local_path": "data/raw/scale_batch_019/boliden-annual-and-sustainability-report-2025.pdf",
+      "bytes": 13219664,
+      "sha256": "ecb892e7a804075324db3c5d229239091cff1d3937e714d94111d9997c74652d",
+      "pdf_header_valid": true,
+      "download_status": "downloaded_replacement",
+      "resumed_from_bytes": 0
+    },
+    {
+      "document_id": "KB-B019-METSO-AR2025",
+      "local_path": "data/raw/scale_batch_019/metso-annual-report-2025.pdf",
+      "bytes": 34442830,
+      "sha256": "c05a1ebd588ab9dd268904dd5203c9262ed27c71a1f6089c5da082658811fc3d",
+      "pdf_header_valid": true,
+      "download_status": "reused_verified_parent_download",
+      "resumed_from_bytes": 34442830
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "blocked_by_reason": {
+    "comparative_2024_explicitly_excluded_from_2025_limited_assurance": [
+      "fact-488ae3e2a6d43dbf33432906"
+    ]
+  },
+  "blocked_fact_ids": [
+    "fact-488ae3e2a6d43dbf33432906"
+  ],
+  "inputs": {
+    "atomic_increment_sha256": "e42b0fa91f7c7dad7beb0644ffa0e68ae8ac3bbd51852e64a70740b808f406d4",
+    "atomic_validations_sha256": "93dd8957049ada92e187bbb157f15e9dd6fc28c3bc5ad26456957c1e7d1c5567",
+    "native_coordinate_audit_sha256": "4e6f32c0a40a432fa0d8ab4fe47e8e8b7b14e6e88e010f3f60b3f1b5c6561d4e"
+  },
+  "locked_experiments_modified_or_rescored": false,
+  "native_audit": {
+    "batch_id": "KB-SCALE-BATCH-008-NATIVE-COORDINATE-AUDIT",
+    "checks": {
+      "page_footer_matches": true,
+      "row_fragments_present_in_order": true,
+      "row_values_present_in_order": true,
+      "source_sha256_matches": true,
+      "unit_heading_present": true,
+      "year_headers_present": true
+    },
+    "columns": {
+      "2024": "9.2",
+      "2025": "9.1",
+      "yearly_change_percent": "-1"
+    },
+    "document_id": "KB-B008-SANDVIK-AR2025",
+    "metric": "energy intensity per net revenue from high climate impact sectors",
+    "native_layout_sha256": "7b19ac521fc36a82de91ac9183b70d092164e282cd9ed22828f83e7963003680",
+    "pdf_page": 71,
+    "policy": {
+      "automatic_promotion": false,
+      "cloud_transmission": false
+    },
+    "schema_version": "0.1",
+    "source_sha256": "b3f7b20c4dc8a59fd92bc6a89ed5b8efa19a0328b816837cae7d8864438af165",
+    "status": "passed",
+    "unit": "MWh/MSEK"
+  },
+  "newly_promoted_to_tier_b": 1,
+  "next_gate": "scale_batch_008_global_kb_rebuild_and_closure",
+  "outputs": {
+    "adjudications_sha256": "8d61c53708f3549cc50b687b7b8fc5a08e7315d52b058cd1249d409c830753b0",
+    "trusted_facts_sha256": "2d83579886061161524f0e4497ebf4561055dde3b6fb79b9daf93efc8b974b2f"
+  },
+  "promotable_fact_ids": [
+    "fact-d4dae099a6653eda17f6e507"
+  ],
+  "reviewed": 2,
+  "schema_version": "0.1",
+  "source_candidate_records_modified": 0,
+  "status": "scale_batch_008_six_dimension_tier_b_sampling_complete",
+  "total_trusted_tier_b": 73
+}

@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "freeze_id": "P4-CANDIDATE-EXECUTION-FREEZE-V01.2-RESUME01",
+  "status": "frozen_before_first_model_call",
+  "parent_freeze": "data/manifests/p4_candidate_execution_freeze_v0.1.1.lock.json",
+  "parent_attempt_progress": "data/manifests/p4_candidate_progress.json",
+  "parent_attempt_progress_sha256": "8eee2c8bc282806bcfd749e91b0f5865d21e65d43288cdb2b052c6f77302ae27",
+  "parent_attempt_model_calls": 0,
+  "interruption_class": "preflight_contract_compatibility_failure",
+  "failure": "All tasks lacked the legacy question_status=frozen compatibility marker; no archive run directory or model request was created.",
+  "repair": "Added the same non-semantic compatibility marker to each already-frozen question without changing text, page windows, references, or task semantics.",
+  "task_pack_sha256": "5d849b823242057899aaf67eea33e88c38615e8b59e4b764b53c4f16945d1a58",
+  "resume_experiment_id": "P4-V13-UNSEEN-LOCKBOX-V01-RESUME01",
+  "runner_sha256": "6f9884f7553018d67de3df1635de4950e00a51bc790368da84236da5455e7926",
+  "single_attempt_rule_preserved": true,
+  "p3_rerun": false
+}

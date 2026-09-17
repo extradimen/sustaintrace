@@ -1,0 +1,60 @@
+{
+  "answer": "At December 31, 2025 BASF had 108,251 employees: 103,593 permanent, 1,995 temporary and 2,663 apprentices. The three categories sum to 108,251, so the difference is zero. Turnover was 7.5%; work-related injury/ill-health fatalities were zero. Counts are headcount, and apprentices are temporary-contract employees in accredited vocational training.",
+  "evidence": [
+    {
+      "pdf_page": 262,
+      "quote": "Employees (total)</td><td rowspan=1 colspan=1>78,717",
+      "source_id": "P21-BASF-AR2025"
+    },
+    {
+      "pdf_page": 262,
+      "quote": "Permanent employees</td><td rowspan=1 colspan=1>75,530",
+      "source_id": "P21-BASF-AR2025"
+    },
+    {
+      "pdf_page": 262,
+      "quote": "Temporary employees</td><td rowspan=1 colspan=1>1,095",
+      "source_id": "P21-BASF-AR2025"
+    },
+    {
+      "pdf_page": 262,
+      "quote": "Apprenticesc</td><td rowspan=1 colspan=1>2,092",
+      "source_id": "P21-BASF-AR2025"
+    },
+    {
+      "pdf_page": 262,
+      "quote": "Turnover rate as a percentage</td><td rowspan=1 colspan=1>7.5%",
+      "source_id": "P21-BASF-AR2025"
+    },
+    {
+      "pdf_page": 262,
+      "quote": "Apprentices are employees who have a temporary contract with BASF",
+      "source_id": "P21-BASF-AR2025"
+    },
+    {
+      "pdf_page": 263,
+      "quote": "Number of fatalities as a result of work-related injuries and work-related illhealth</td><td rowspan=1 colspan=1>0",
+      "source_id": "P21-BASF-AR2025"
+    }
+  ],
+  "normalized_value": {
+    "apprentice_definition": "temporary contract with in-company vocational training in an accredited education program",
+    "apprentice_headcount::2025": 2663,
+    "calculated_category_sum_headcount::2025": 108251,
+    "difference_headcount::2025": 0,
+    "measurement_basis": "headcount",
+    "permanent_employee_headcount::2025": 103593,
+    "temporary_employee_headcount::2025": 1995,
+    "total_employee_headcount::2025": 108251,
+    "turnover_rate_percent::2025": 7.5,
+    "work_related_fatalities::2025": 0
+  },
+  "provenance": {
+    "candidate_model_used": false,
+    "reference_is_simulated": true
+  },
+  "reference_author": "codex_gpt_simulated_expert",
+  "reference_status": "verified_against_frozen_mineru_pages_and_native_layout",
+  "schema_version": "1.0",
+  "task_id": "P21-WORKFORCE-001"
+}

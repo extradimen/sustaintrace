@@ -1,0 +1,48 @@
+{
+  "assurance_page_text_sha256": {
+    "KB-B020-SOLVAY-AIR2025:p322": "3ebd89929327f0cccb14423c57eabc49fdc43716d767656bc3df558c09a753cc",
+    "KB-B020-SOLVAY-AIR2025:p323": "4d2a76e10b5bba732e32f14412e0525b172817cb0b4da9cfcc1d6b196354e825",
+    "KB-B020-SOLVAY-AIR2025:p324": "0672f1691d66eaa968e028bd6bff511eb703dc3276a1d6935c2a88ff854944a6",
+    "KB-B020-SOLVAY-AIR2025:p325": "db7f63dd557f7313f1b530f900156bb52acb59cc16ea03ee275cb3bba2e5612e"
+  },
+  "batch_id": "KB-SCALE-BATCH-020-NATIVE-COORDINATE-AUDIT",
+  "checks": {
+    "assurance_conclusion": true,
+    "assurance_issuer": true,
+    "assurance_period": true,
+    "assurance_signatory": true,
+    "fact-45b4291a25ca042e8f06fcc4:coordinate": true,
+    "fact-45b4291a25ca042e8f06fcc4:document": true,
+    "fact-45b4291a25ca042e8f06fcc4:period": true,
+    "fact-45b4291a25ca042e8f06fcc4:row": true,
+    "fact-45b4291a25ca042e8f06fcc4:value": true,
+    "fact-48bdf3b86f6fb9eb227185b5:coordinate": true,
+    "fact-48bdf3b86f6fb9eb227185b5:document": true,
+    "fact-48bdf3b86f6fb9eb227185b5:period": true,
+    "fact-48bdf3b86f6fb9eb227185b5:row": true,
+    "fact-48bdf3b86f6fb9eb227185b5:value": true,
+    "fact-610b488ee80ae635f85b0403:coordinate": true,
+    "fact-610b488ee80ae635f85b0403:document": true,
+    "fact-610b488ee80ae635f85b0403:period": true,
+    "fact-610b488ee80ae635f85b0403:row": true,
+    "fact-610b488ee80ae635f85b0403:value": true,
+    "fact-9f793e667397c4077acaba5b:coordinate": true,
+    "fact-9f793e667397c4077acaba5b:document": true,
+    "fact-9f793e667397c4077acaba5b:period": true,
+    "fact-9f793e667397c4077acaba5b:row": true,
+    "fact-9f793e667397c4077acaba5b:value": true,
+    "fact-c4d93293d990e6daf0493c58:coordinate": true,
+    "fact-c4d93293d990e6daf0493c58:document": true,
+    "fact-c4d93293d990e6daf0493c58:period": true,
+    "fact-c4d93293d990e6daf0493c58:row": true,
+    "fact-c4d93293d990e6daf0493c58:value": true,
+    "source_sha256": true
+  },
+  "policy": {
+    "automatic_promotion": false,
+    "cloud_transmission": false
+  },
+  "promotable_facts": 5,
+  "schema_version": "0.1",
+  "status": "selected_cells_and_assurance_boundary_passed"
+}

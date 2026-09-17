@@ -1,0 +1,39 @@
+{
+  "schema_version": "0.1",
+  "experiment_id": "KB-SCALE-BATCH-021",
+  "development_source": "Batch 21 exposed MinerU empty-Markdown output with intact structured content list only",
+  "status": "deterministic_structured_text_fallback_integrated",
+  "change": {
+    "failure_signature": "MINERU_EMPTY_MARKDOWN_CONTENT_LIST_TEXT_AVAILABLE",
+    "strategy_id": "RS-PARSER-FALLBACK",
+    "description": "Prefer non-empty MinerU Markdown; when Markdown is empty but the frozen content-list contains ordered non-empty text blocks, consume those blocks verbatim in their original order as the evidence text source.",
+    "affected_page": "KB-B021-CAPGEMINI-URD2025:p0320",
+    "candidate_output_mutation": false,
+    "source_text_rewording": false,
+    "locked_batch_replay": false,
+    "semantic_repair": false
+  },
+  "validation": {
+    "original_empty_markdown_preserved": true,
+    "structured_content_list_preserved": true,
+    "ordered_text_projection_only": true,
+    "content_list_sha256_recorded_in_final_mineru_inventory": true,
+    "three_attempt_shutdown_abort_hash_gate_preserved": true,
+    "focused_regression_tests_passed": 3,
+    "full_pytest_passed": 476,
+    "ruff": "passed"
+  },
+  "evidence": {
+    "implementation": "src/esg_reliable_discovery/mineru_text_fallback.py",
+    "tests": "tests/test_mineru_text_fallback.py",
+    "initial_attempt": "data/results/scale_batch_021_mineru_summary.lock.json",
+    "resume_attempt": "data/results/scale_batch_021_mineru_RESUME01_summary.lock.json",
+    "final_inventory": "data/results/scale_batch_021_mineru_FINAL_summary.lock.json"
+  },
+  "policy": {
+    "cloud_transmission": false,
+    "automatic_execution_enabled": true,
+    "requires_nonempty_structured_text": true,
+    "fail_closed_when_both_markdown_and_structured_text_are_empty": true
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.1",
+  "policy_id": "TIER-B-INDEPENDENT-SOURCE-V01",
+  "purpose": "Prevent same-source repetition or parser agreement from being mistaken for independent fact verification.",
+  "eligible_source_classes": [
+    {
+      "class": "independent_assurance_statement",
+      "requirements": [
+        "provider is organizationally independent from the issuer",
+        "assurance scope explicitly covers the metric, entity, period and boundary",
+        "assurance level and standard are recorded"
+      ]
+    },
+    {
+      "class": "independent_registry_or_regulator_dataset",
+      "requirements": [
+        "dataset has its own provenance and methodology",
+        "entity, metric, period, unit and boundary are explicitly mappable",
+        "record version or retrieval timestamp and content hash are frozen"
+      ]
+    }
+  ],
+  "ineligible_as_independent": [
+    "a second parser applied to the same issuer PDF",
+    "another issuer-controlled page repeating the same disclosure",
+    "search snippets or unsaved web summaries",
+    "candidate model output",
+    "simulated reference or gold answer",
+    "a value inferred only from a chart without frozen coordinates and method"
+  ],
+  "required_match_dimensions": [
+    "entity",
+    "metric",
+    "period",
+    "unit",
+    "scope_boundary",
+    "value_or_replayable_calculation"
+  ],
+  "promotion_rule": {
+    "automatic": false,
+    "requires_all_dimensions": true,
+    "requires_frozen_source_artifact": true,
+    "requires_adjudication_record": true,
+    "target_trust_tier": "B"
+  }
+}

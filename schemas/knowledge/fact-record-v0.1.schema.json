@@ -1,0 +1,103 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/esg-reliable-discovery/fact-record-v0.1.schema.json",
+  "title": "ESG fact knowledge record v0.1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "record_kind",
+    "record_id",
+    "knowledge_status",
+    "trust_tier",
+    "subject",
+    "predicate",
+    "value",
+    "evidence",
+    "provenance",
+    "promotion"
+  ],
+  "properties": {
+    "schema_version": {"const": "0.1"},
+    "record_kind": {"const": "fact"},
+    "record_id": {"type": "string", "pattern": "^fact-[0-9a-f]{24}$"},
+    "knowledge_status": {
+      "enum": ["reference_candidate", "promoted_validated_fact", "quarantined"]
+    },
+    "trust_tier": {"enum": ["A", "B", "C", "D"]},
+    "subject": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["task_id", "document_ids"],
+      "properties": {
+        "task_id": {"type": "string", "minLength": 1},
+        "entity_label": {"type": ["string", "null"]},
+        "document_ids": {
+          "type": "array",
+          "items": {"type": "string", "minLength": 1},
+          "uniqueItems": true
+        },
+        "document_metadata": {
+          "type": "array",
+          "items": {"type": "object", "additionalProperties": true}
+        }
+      }
+    },
+    "predicate": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["raw_key", "canonical_key"],
+      "properties": {
+        "raw_key": {"type": "string", "minLength": 1},
+        "canonical_key": {"type": "string", "minLength": 1}
+      }
+    },
+    "value": {},
+    "qualifiers": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "period_literal": {"type": ["string", "null"]},
+        "value_origin": {"type": "string"},
+        "reference_period": {},
+        "normalized_unit": {},
+        "scope_boundary": {},
+        "calculation_expression": {},
+        "answer_status": {}
+      }
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": true,
+        "required": ["source_id", "pdf_page", "quote"],
+        "properties": {
+          "source_id": {"type": "string", "minLength": 1},
+          "pdf_page": {"type": "integer", "minimum": 1},
+          "quote": {"type": "string", "minLength": 1}
+        }
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["source_artifact", "source_sha256", "reference_status", "simulated"],
+      "properties": {
+        "source_artifact": {"type": "string", "minLength": 1},
+        "source_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+        "reference_status": {"type": ["string", "null"]},
+        "simulated": {"type": "boolean"}
+      }
+    },
+    "promotion": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["eligible", "reason"],
+      "properties": {
+        "eligible": {"type": "boolean"},
+        "reason": {"type": "string", "minLength": 1}
+      }
+    }
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-016",
+  "status": "table_graphs_built_fail_closed",
+  "source_table_candidates": 2,
+  "graphs": [
+    {
+      "source_fact_record_id": "fact-c7c85961048394d50b76cdfb",
+      "document_id": "KB-B016-NOVONESIS-AR2025",
+      "pdf_page": 99,
+      "graphs": [
+        {
+          "table_index": 0,
+          "status": "two_axis_graph_built",
+          "header_row_index": 0,
+          "column_headers": [
+            "",
+            "Unit",
+            "2025",
+            "2024"
+          ],
+          "period_columns": [
+            2,
+            3
+          ],
+          "indicator_column": 0,
+          "unit_column": 1,
+          "rejected_rows": [],
+          "rows": [
+            [
+              "",
+              "Unit",
+              "2025",
+              "2024"
+            ],
+            [
+              "Employees covered by Novonesis' health and safety management system",
+              "%",
+              "100",
+              "100"
+            ],
+            [
+              "Lost Time Injuries (LTI)",
+              "No.",
+              "26",
+              "28"
+            ],
+            [
+              "Lost Time Injury Frequency (LTIF) with absence per million working hours",
+              "Rate",
+              "1.4",
+              "1.5"
+            ],
+            [
+              "Fatalities",
+              "No.",
+              "",
+              ""
+            ]
+          ],
+          "cells": [
+            {
+              "cell_handle": "cell-322af103b21c4a190e73",
+              "table_index": 0,
+              "row_index": 1,
+              "column_index": 2,
+              "row_header": "Employees covered by Novonesis' health and safety management system",
+              "row_header_column_index": 0,
+              "column_header": "2025",
+              "normalized_period": 2025,
+              "unit": "%",
+              "unit_column_index": 1,
+              "raw_value": "100",
+              "normalized_value": "100",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-d7009755492de4b7ecd7",
+              "table_index": 0,
+              "row_index": 1,
+              "column_index": 3,
+              "row_header": "Employees covered by Novonesis' health and safety management system",
+              "row_header_column_index": 0,
+              "column_header": "2024",
+              "normalized_period": 2024,
+              "unit": "%",
+              "unit_column_index": 1,
+              "raw_value": "100",
+              "normalized_value": "100",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-69e7ea88a0b2749b8bf9",
+              "table_index": 0,
+              "row_index": 2,
+              "column_index": 2,
+              "row_header": "Lost Time Injuries (LTI)",
+              "row_header_column_index": 0,
+              "column_header": "2025",
+              "normalized_period": 2025,
+              "unit": "No.",
+              "unit_column_index": 1,
+              "raw_value": "26",
+              "normalized_value": "26",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-f2e6ba44d80d3fb2a7a0",
+              "table_index": 0,
+              "row_index": 2,
+              "column_index": 3,
+              "row_header": "Lost Time Injuries (LTI)",
+              "row_header_column_index": 0,
+              "column_header": "2024",
+              "normalized_period": 2024,
+              "unit": "No.",
+              "unit_column_index": 1,
+              "raw_value": "28",
+              "normalized_value": "28",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-5312e4a2d6b1bcf02b5a",
+              "table_index": 0,
+              "row_index": 3,
+              "column_index": 2,
+              "row_header": "Lost Time Injury Frequency (LTIF) with absence per million working hours",
+              "row_header_column_index": 0,
+              "column_header": "2025",
+              "normalized_period": 2025,
+              "unit": "Rate",
+              "unit_column_index": 1,
+              "raw_value": "1.4",
+              "normalized_value": "1.4",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-a5e130ac5b02739d1f37",
+              "table_index": 0,
+              "row_index": 3,
+              "column_index": 3,
+              "row_header": "Lost Time Injury Frequency (LTIF) with absence per million working hours",
+              "row_header_column_index": 0,
+              "column_header": "2024",
+              "normalized_period": 2024,
+              "unit": "Rate",
+              "unit_column_index": 1,
+              "raw_value": "1.5",
+              "normalized_value": "1.5",
+              "normalized_unit": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_fact_record_id": "fact-daffb0ac363147d385408f0d",
+      "document_id": "KB-B016-COLOPLAST-AR2025",
+      "pdf_page": 85,
+      "graphs": [
+        {
+          "table_index": 0,
+          "status": "ambiguous_no_two_axis_period_header",
+          "rows": [
+            [
+              "Employee headcount by gender",
+              "Unit",
+              "2024/25"
+            ],
+            [
+              "MaleFemaleOtherNot reported",
+              "Headcount",
+              "6,992"
+            ],
+            [
+              "Headcount",
+              "10,133"
+            ],
+            [
+              "Headcount",
+              "5"
+            ],
+            [
+              "Headcount",
+              "26"
+            ],
+            [
+              "Total employees",
+              "Headcount",
+              "17,156"
+            ]
+          ],
+          "cells": []
+        }
+      ]
+    }
+  ]
+}

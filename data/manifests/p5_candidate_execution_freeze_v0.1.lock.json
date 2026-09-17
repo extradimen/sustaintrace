@@ -1,0 +1,6 @@
+{
+  "schema_version":"1.0","freeze_id":"P5-CANDIDATE-EXECUTION-V01","status":"frozen_before_candidate_inference","experiment_id":"P5-V14-UNSEEN-LOCKBOX-V01",
+  "candidate":{"model":"qwen3.5:397b-cloud","digest":"68d2a0796c11e1fedd0456a2d55e58cca4077be6a218428a7a7f4e21f8177cbc","config":"configs/models/p1-ollama-cloud-qwen3.5-397b.json","config_sha256":"fbcc4eb3b454d2ba42c3f570778a107333804ead63025aa3b590dd18bb3eae96"},
+  "locked_inputs":{"task_pack_sha256":"045aa3cfb2a9ea0222c28dee119cae00d02dbb471b5bd9a85a57e69126572a33","reference_freeze_sha256":"354b31a1896bcbd16aa22944111b6cfd092f14e14026ad4a7988270d836c607e","mineru_registry_sha256":"ad4f65af34e3db61fd515de575be6b3faf56fd56d70dea85415c0bf32dcb55d9","layout_registry_sha256":"142fb9729645d43b8528b73c526fb115f7c5ad338c9369005c3d7332ef3695bd","slot_contracts_sha256":"982668bcb3913143969e915073b084440d206ab72b97e685ab66da70b839dc80","semantic_qualifiers_sha256":"11a7a5dce5b8d987f3edbee86a843c2b2a003d4c7f2557e86345ac38df174db4"},
+  "policy":{"single_attempt_per_stage":true,"failure_archived":true,"silent_retry":false,"posthoc_semantic_repair":false,"reference_visible_to_candidate":false,"checkpoint_resume":true}
+}

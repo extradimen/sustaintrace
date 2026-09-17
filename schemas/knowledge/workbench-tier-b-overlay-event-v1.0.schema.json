@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/esg/workbench-tier-b-overlay-event-v1.0.schema.json",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "record_kind",
+    "event_id",
+    "event_type",
+    "overlay_id",
+    "staging_id",
+    "fact_record_id",
+    "actor",
+    "rationale",
+    "occurred_at",
+    "parent_event_id",
+    "overlay",
+    "base_trusted_layer_modified"
+  ],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "record_kind": {"const": "workbench_tier_b_overlay_event"},
+    "event_id": {"type": "string", "pattern": "^workbench-tier-b-overlay-event-"},
+    "event_type": {"enum": ["overlay_committed", "overlay_withdrawn"]},
+    "overlay_id": {"type": "string", "pattern": "^workbench-tier-b-overlay-"},
+    "staging_id": {"type": "string"},
+    "fact_record_id": {"type": "string"},
+    "actor": {"type": "string", "minLength": 1},
+    "rationale": {"type": "string", "minLength": 1},
+    "occurred_at": {"type": "string", "format": "date-time"},
+    "parent_event_id": {"type": ["string", "null"]},
+    "overlay": {"type": ["object", "null"]},
+    "base_trusted_layer_modified": {"const": false}
+  },
+  "allOf": [
+    {
+      "if": {"properties": {"event_type": {"const": "overlay_committed"}}},
+      "then": {
+        "properties": {
+          "overlay": {"type": "object"},
+          "parent_event_id": {"type": "null"}
+        }
+      }
+    },
+    {
+      "if": {"properties": {"event_type": {"const": "overlay_withdrawn"}}},
+      "then": {
+        "properties": {
+          "overlay": {"type": "null"},
+          "parent_event_id": {"type": "string"}
+        }
+      }
+    }
+  ],
+  "additionalProperties": false
+}

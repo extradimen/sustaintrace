@@ -1,0 +1,95 @@
+{
+  "answer": "Recordable accidents were 439 in 2024 and 403 in 2025; employee/nonemployee components were 397/42 and 338/65, summing exactly to each total. Total accident rates were 2.20/2.16, employee rates 2.05/1.88 and nonemployee rates 7.58/9.87. Fatalities were two value-chain workers in 2024 and zero in every category in 2025. The rate is accidents divided by hours worked times one million; coverage uses headcount including casual employees.",
+  "evidence": [
+    {
+      "parser": "native_layout_and_mineru_narrative",
+      "pdf_page": 203,
+      "quote": "We registered a total of 403 recordable work-related accidents in 2025 (2024: 439)",
+      "source_id": "P22-BAYER-AR2025"
+    },
+    {
+      "parser": "native_layout_and_mineru_narrative",
+      "pdf_page": 203,
+      "quote": "the number of recordable work-related accidents registered in the reporting period is divided by the total number of hours worked by employees and nonemployees during the reporting period and then multiplied by one million",
+      "source_id": "P22-BAYER-AR2025"
+    },
+    {
+      "parser": "native_layout_and_mineru_narrative",
+      "pdf_page": 203,
+      "quote": "In 2025, no fatalities from work-related injuries and work-related ill health occurred affecting our own workforce (2024: zero).",
+      "source_id": "P22-BAYER-AR2025"
+    },
+    {
+      "parser": "native_layout_and_mineru_narrative",
+      "pdf_page": 203,
+      "quote": "There were also no fatalities in 2025 due to work-related injuries and workrelated ill health among value chain workers (2024: two).",
+      "source_id": "P22-BAYER-AR2025"
+    },
+    {
+      "parser": "mineru",
+      "pdf_page": 204,
+      "quote": "Recordable work-related accidents</td><td rowspan=1 colspan=1>439</td><td rowspan=1 colspan=1>403",
+      "source_id": "P22-BAYER-AR2025"
+    },
+    {
+      "parser": "mineru",
+      "pdf_page": 204,
+      "quote": "of which recordable work-related accidents of employees</td><td rowspan=1 colspan=1>397</td><td rowspan=1 colspan=1>338",
+      "source_id": "P22-BAYER-AR2025"
+    },
+    {
+      "parser": "mineru",
+      "pdf_page": 204,
+      "quote": "of which recordable work-related accidents of nonemployees</td><td rowspan=1 colspan=1>42</td><td rowspan=1 colspan=1>65",
+      "source_id": "P22-BAYER-AR2025"
+    },
+    {
+      "parser": "mineru",
+      "pdf_page": 204,
+      "quote": "Rate of recordable work-related accidents</td><td rowspan=1 colspan=1>2.20</td><td rowspan=1 colspan=1>2.16",
+      "source_id": "P22-BAYER-AR2025"
+    },
+    {
+      "parser": "mineru",
+      "pdf_page": 204,
+      "quote": "The health and safety data is based on number of employees (total headcount), including casual employees",
+      "source_id": "P22-BAYER-AR2025"
+    }
+  ],
+  "normalized_value": {
+    "calculated_component_sum::2024": 439,
+    "calculated_component_sum::2025": 403,
+    "coverage": "employee headcount including casual employees, seasonal employees, apprentices, interns and students",
+    "employee_accidents::2024": 397,
+    "employee_accidents::2025": 338,
+    "employee_fatalities::2024": 0,
+    "employee_fatalities::2025": 0,
+    "employee_rate::2024": 2.05,
+    "employee_rate::2025": 1.88,
+    "nonemployee_accidents::2024": 42,
+    "nonemployee_accidents::2025": 65,
+    "nonemployee_fatalities::2024": 0,
+    "nonemployee_fatalities::2025": 0,
+    "nonemployee_rate::2024": 7.58,
+    "nonemployee_rate::2025": 9.87,
+    "rate_formula": "accidents / total hours worked * 1,000,000",
+    "total_accidents::2024": 439,
+    "total_accidents::2025": 403,
+    "total_fatalities::2024": 2,
+    "total_fatalities::2025": 0,
+    "total_minus_component_sum::2024": 0,
+    "total_minus_component_sum::2025": 0,
+    "total_rate::2024": 2.2,
+    "total_rate::2025": 2.16,
+    "value_chain_fatalities::2024": 2,
+    "value_chain_fatalities::2025": 0
+  },
+  "provenance": {
+    "candidate_model_used": false,
+    "reference_is_simulated": true
+  },
+  "reference_author": "codex_gpt_simulated_expert",
+  "reference_status": "verified_against_frozen_mineru_pages_native_layout_and_visual_fallback",
+  "schema_version": "1.0",
+  "task_id": "P22-SAFETY-CALC-001"
+}

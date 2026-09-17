@@ -1,0 +1,125 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-019-MINERU-RESUME02",
+  "updated_at": "2026-09-13T14:44:04.442079+00:00",
+  "status": "complete",
+  "cloud_transmission": false,
+  "total_target_pages": 9,
+  "complete_pages": 9,
+  "failed_pages": 0,
+  "pending_pages": 0,
+  "records": [
+    {
+      "document_id": "KB-B019-NESTE-AR2025",
+      "page": 37,
+      "themes": [
+        "circularity",
+        "energy"
+      ],
+      "output_directory": "artifacts/scale_batch_019/mineru_targets_RESUME02/KB-B019-NESTE-AR2025-p0037",
+      "status": "complete",
+      "started_at": "2026-09-13T14:41:02.665462+00:00",
+      "completed_at": "2026-09-13T14:41:23.809703+00:00",
+      "wall_seconds": 21.144618
+    },
+    {
+      "document_id": "KB-B019-NESTE-AR2025",
+      "page": 110,
+      "themes": [
+        "energy",
+        "ghg_emissions"
+      ],
+      "output_directory": "artifacts/scale_batch_019/mineru_targets_RESUME02/KB-B019-NESTE-AR2025-p0110",
+      "status": "complete",
+      "started_at": "2026-09-13T14:41:23.810230+00:00",
+      "completed_at": "2026-09-13T14:41:41.494002+00:00",
+      "wall_seconds": 17.68409
+    },
+    {
+      "document_id": "KB-B019-BOLIDEN-ASR2025",
+      "page": 78,
+      "themes": [
+        "ghg_emissions",
+        "targets"
+      ],
+      "output_directory": "artifacts/scale_batch_019/mineru_targets_RESUME02/KB-B019-BOLIDEN-ASR2025-p0078",
+      "status": "complete",
+      "started_at": "2026-09-13T14:41:41.494464+00:00",
+      "completed_at": "2026-09-13T14:42:02.762286+00:00",
+      "wall_seconds": 21.268203
+    },
+    {
+      "document_id": "KB-B019-BOLIDEN-ASR2025",
+      "page": 90,
+      "themes": [
+        "water"
+      ],
+      "output_directory": "artifacts/scale_batch_019/mineru_targets_RESUME02/KB-B019-BOLIDEN-ASR2025-p0090",
+      "status": "complete",
+      "started_at": "2026-09-13T14:42:02.762760+00:00",
+      "completed_at": "2026-09-13T14:42:25.166677+00:00",
+      "wall_seconds": 22.404318
+    },
+    {
+      "document_id": "KB-B019-BOLIDEN-ASR2025",
+      "page": 95,
+      "themes": [
+        "circularity"
+      ],
+      "output_directory": "artifacts/scale_batch_019/mineru_targets_RESUME02/KB-B019-BOLIDEN-ASR2025-p0095",
+      "status": "complete",
+      "started_at": "2026-09-13T14:42:25.167135+00:00",
+      "completed_at": "2026-09-13T14:42:45.369733+00:00",
+      "wall_seconds": 20.202962
+    },
+    {
+      "document_id": "KB-B019-BOLIDEN-ASR2025",
+      "page": 123,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_019/mineru_targets_RESUME02/KB-B019-BOLIDEN-ASR2025-p0123",
+      "status": "complete",
+      "started_at": "2026-09-13T14:42:45.370159+00:00",
+      "completed_at": "2026-09-13T14:43:07.878753+00:00",
+      "wall_seconds": 22.509005
+    },
+    {
+      "document_id": "KB-B019-METSO-AR2025",
+      "page": 94,
+      "themes": [
+        "energy",
+        "ghg_emissions"
+      ],
+      "output_directory": "artifacts/scale_batch_019/mineru_targets_RESUME02/KB-B019-METSO-AR2025-p0094",
+      "status": "complete",
+      "started_at": "2026-09-13T14:43:07.879547+00:00",
+      "completed_at": "2026-09-13T14:43:27.381607+00:00",
+      "wall_seconds": 19.502409
+    },
+    {
+      "document_id": "KB-B019-METSO-AR2025",
+      "page": 106,
+      "themes": [
+        "circularity"
+      ],
+      "output_directory": "artifacts/scale_batch_019/mineru_targets_RESUME02/KB-B019-METSO-AR2025-p0106",
+      "status": "complete",
+      "started_at": "2026-09-13T14:43:27.382007+00:00",
+      "completed_at": "2026-09-13T14:43:45.239942+00:00",
+      "wall_seconds": 17.858255
+    },
+    {
+      "document_id": "KB-B019-METSO-AR2025",
+      "page": 240,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_019/mineru_targets_RESUME02/KB-B019-METSO-AR2025-p0240",
+      "status": "complete",
+      "started_at": "2026-09-13T14:43:45.240359+00:00",
+      "completed_at": "2026-09-13T14:44:04.441656+00:00",
+      "wall_seconds": 19.201643
+    }
+  ]
+}

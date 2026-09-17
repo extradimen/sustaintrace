@@ -1,0 +1,29 @@
+{
+  "audit_id": "ESG-EVIDENCE-REPAIR-TRIAGE-v0.1",
+  "causal_subtype_counts": {
+    "assurance_window_incomplete": 1,
+    "exact_value_present_but_abstained": 1,
+    "period_anchor_missing": 1,
+    "rounded_value_selected": 1,
+    "stage_b_handle_binding_failure": 2,
+    "truncated_quote": 1
+  },
+  "execution_performed": false,
+  "failure_records_triaged": 7,
+  "inputs": {
+    "data/knowledge_bases/v0.1/failure_records.jsonl": "bac85772c9a3830c54fa03a2107851c35097ecd2540d58d7ae59479c4e4327ad",
+    "schemas/knowledge/evidence-repair-triage-v0.1.schema.json": "a4c28d134221a816b4da40d9d4e46de2d995b5f238cae36ed200de0f2f9fe38a"
+  },
+  "locked_evaluation_decisions": {
+    "archive_only": 7
+  },
+  "locked_experiments_modified_or_rescored": false,
+  "next_gate": "build frozen operational validation contracts for each causal subtype",
+  "operational_router_implemented": true,
+  "output": {
+    "path": "data/knowledge_bases/v0.1/exposed_evidence_failure_triage.jsonl",
+    "sha256": "36f0151716c2912fee6c9b805090093978e192ae9b36b5e2766f4444ff3c2ab4"
+  },
+  "schema_version": "0.1",
+  "status": "exposed_failures_subtyped_locked_results_archive_only"
+}

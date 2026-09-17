@@ -1,0 +1,39 @@
+{
+  "assurance_pages": [
+    184,
+    185
+  ],
+  "assurance_scope": "Essity sustainability statement pages 47-99, financial year 2025",
+  "batch_id": "KB-SCALE-BATCH-014-NATIVE-COORDINATE-AUDIT",
+  "checks": {
+    "all_frozen_coordinates_corroborated": true,
+    "all_promotable_values_present": true,
+    "assurance_conclusion_present": true,
+    "assurance_issuer_present": true,
+    "assurance_period_present": true,
+    "assurance_signatory_present": true,
+    "assurance_statement_pages_present": true,
+    "emissions_rows_present": true,
+    "emissions_table_unit_present": true,
+    "source_sha256_matches": true,
+    "workforce_reporting_basis_present": true,
+    "workforce_table_present": true
+  },
+  "data_pages": [
+    68,
+    82
+  ],
+  "document_id": "KB-B014-ESSITY-AR2025",
+  "native_page_sha256": {
+    "184": "442640150039d86838777db00b201e6d41718f038a0d7ea103144f516cc573fb",
+    "185": "f531fe6a51165bff147fc0716ed2b8269f42d020ff74cc24cbd3016f7a9d8cbe",
+    "68": "a03ab65432493218e9dea5fcecd284cb82711289a211b8bc651a9e9e2d17f7c3",
+    "82": "a8065cd10df86928c835e8afa5ff375cce63a60c11257c0a9f4a15f298df902c"
+  },
+  "policy": {
+    "automatic_promotion": false,
+    "cloud_transmission": false
+  },
+  "schema_version": "0.1",
+  "status": "essity_2025_cells_passed_prior_periods_blocked"
+}

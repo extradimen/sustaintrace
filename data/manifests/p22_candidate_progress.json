@@ -1,0 +1,118 @@
+{
+  "checkpoint_resume_enabled": true,
+  "experiment_id": "P22-V31-UNSEEN-LOCKBOX-V01",
+  "records": [
+    {
+      "retried": false,
+      "stage_a": "passed",
+      "stage_a_result": {
+        "archive_directory": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P22-V31-UNSEEN-LOCKBOX-V01/runs/P22-TAXONOMY-001-QWEN397B-v31-stage-a",
+        "elapsed_seconds": 22.70462429197505,
+        "framework_evidence_state": "supported",
+        "model": "qwen3.5:397b-cloud",
+        "run_id": "P22-TAXONOMY-001-QWEN397B-v31-stage-a",
+        "task_id": "P22-TAXONOMY-001"
+      },
+      "stage_b": "passed",
+      "stage_b_result": {
+        "archive_directory": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P22-V31-UNSEEN-LOCKBOX-V01/runs/P22-TAXONOMY-001-QWEN397B-v31-stage-b",
+        "elapsed_seconds": 106.90413974999683,
+        "run_id": "P22-TAXONOMY-001-QWEN397B-v31-stage-b",
+        "task_id": "P22-TAXONOMY-001",
+        "validated_claim_count": 16
+      },
+      "task_id": "P22-TAXONOMY-001",
+      "task_type": "scope_subject_boundary"
+    },
+    {
+      "retried": false,
+      "stage_a": "failed",
+      "stage_a_error": "OllamaError:v1.3 Stage A model behavior failed; archived at /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P22-V31-UNSEEN-LOCKBOX-V01/runs/P22-ENERGY-CALC-001-QWEN397B-v31-stage-a: ValueError:v26_candidate_evidence_handles_invalid:['M149-T0001-R0014-C0001', 'M149-T0001-R0014-C0002', 'M149-T0001-R0021-C0001', 'M149-T0001-R0021-C0002']",
+      "stage_a_failure_taxonomy": {
+        "category": "model_behavior",
+        "error_type": "OllamaError",
+        "model_call_started": true,
+        "owner": "candidate_model",
+        "retry_policy": "no_retry_in_locked_experiment",
+        "score_as_model_failure": true,
+        "stage": "stage_a"
+      },
+      "task_id": "P22-ENERGY-CALC-001",
+      "task_type": "deterministic_calculation"
+    },
+    {
+      "retried": false,
+      "stage_a": "failed",
+      "stage_a_error": "OllamaError:v1.3 Stage A model behavior failed; archived at /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P22-V31-UNSEEN-LOCKBOX-V01/runs/P22-GHG-CALC-001-QWEN397B-v31-stage-a: ValueError:v26_candidate_evidence_handles_invalid:['M151-T0001-R0005-C0002', 'M151-T0001-R0005-C0003', 'M151-T0001-R0009-C0002', 'M151-T0001-R0009-C0003', 'M151-T0001-R0010-C0002', 'M151-T0001-R0010-C0003', 'M151-T0001-R0029-C0002', 'M151-T0001-R0029-C0003']",
+      "stage_a_failure_taxonomy": {
+        "category": "model_behavior",
+        "error_type": "OllamaError",
+        "model_call_started": true,
+        "owner": "candidate_model",
+        "retry_policy": "no_retry_in_locked_experiment",
+        "score_as_model_failure": true,
+        "stage": "stage_a"
+      },
+      "task_id": "P22-GHG-CALC-001",
+      "task_type": "deterministic_calculation"
+    },
+    {
+      "retried": false,
+      "stage_a": "failed",
+      "stage_a_error": "OllamaError:v1.3 Stage A model behavior failed; archived at /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P22-V31-UNSEEN-LOCKBOX-V01/runs/P22-WATER-CALC-001-QWEN397B-v31-stage-a: ValueError:v26_candidate_evidence_handles_invalid:['M171-T0007-R0003-C0001', 'M171-T0007-R0003-C0002', 'M172-T0002-R0002-C0009', 'M172-T0002-R0002-C0010', 'M172-T0002-R0003-C0009', 'M172-T0002-R0003-C0010', 'M172-T0002-R0004-C0009', 'M172-T0002-R0004-C0010', 'M172-T0002-R0005-C0009', 'M172-T0002-R0005-C0010', 'M172-T0004-R0002-C0001', 'M172-T0004-R0002-C0002']",
+      "stage_a_failure_taxonomy": {
+        "category": "model_behavior",
+        "error_type": "OllamaError",
+        "model_call_started": true,
+        "owner": "candidate_model",
+        "retry_policy": "no_retry_in_locked_experiment",
+        "score_as_model_failure": true,
+        "stage": "stage_a"
+      },
+      "task_id": "P22-WATER-CALC-001",
+      "task_type": "deterministic_calculation"
+    },
+    {
+      "retried": false,
+      "stage_a": "failed",
+      "stage_a_error": "OllamaError:v1.3 Stage A model behavior failed; archived at /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P22-V31-UNSEEN-LOCKBOX-V01/runs/P22-SAFETY-CALC-001-QWEN397B-v31-stage-a: ValueError:v26_candidate_evidence_handles_invalid:['M204-T0001-R0003-C0001', 'M204-T0001-R0003-C0002']",
+      "stage_a_failure_taxonomy": {
+        "category": "model_behavior",
+        "error_type": "OllamaError",
+        "model_call_started": true,
+        "owner": "candidate_model",
+        "retry_policy": "no_retry_in_locked_experiment",
+        "score_as_model_failure": true,
+        "stage": "stage_a"
+      },
+      "task_id": "P22-SAFETY-CALC-001",
+      "task_type": "deterministic_calculation"
+    },
+    {
+      "retried": false,
+      "stage_a": "passed",
+      "stage_a_result": {
+        "archive_directory": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P22-V31-UNSEEN-LOCKBOX-V01/runs/P22-ASSURE-001-QWEN397B-v31-stage-a",
+        "elapsed_seconds": 15.140753208019305,
+        "framework_evidence_state": "supported",
+        "model": "qwen3.5:397b-cloud",
+        "run_id": "P22-ASSURE-001-QWEN397B-v31-stage-a",
+        "task_id": "P22-ASSURE-001"
+      },
+      "stage_b": "passed",
+      "stage_b_result": {
+        "archive_directory": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P22-V31-UNSEEN-LOCKBOX-V01/runs/P22-ASSURE-001-QWEN397B-v31-stage-b",
+        "elapsed_seconds": 128.22856483299984,
+        "run_id": "P22-ASSURE-001-QWEN397B-v31-stage-b",
+        "task_id": "P22-ASSURE-001",
+        "validated_claim_count": 12
+      },
+      "task_id": "P22-ASSURE-001",
+      "task_type": "scope_subject_boundary"
+    }
+  ],
+  "reference_loaded_by_orchestrator": false,
+  "schema_version": "3.1",
+  "single_attempt_per_stage": true,
+  "updated_at": "2026-09-11T17:54:40.551692+00:00"
+}

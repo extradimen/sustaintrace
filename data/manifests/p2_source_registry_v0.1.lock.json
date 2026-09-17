@@ -1,0 +1,13 @@
+{
+  "schema_version":"1.0",
+  "registry_id":"P2-SOURCE-REGISTRY-v0.1",
+  "status":"frozen",
+  "candidates":[
+    {"candidate_id":"P2-CAND-001","document_id":"ROG-AR-2025","company":"Roche Holding Ltd","eligibility_status":"eligible","sha256":"111a16ec739a16fd93cb3554d9631dd68807c83928423e17377fd7204b65c064"},
+    {"candidate_id":"P2-CAND-002","document_id":"TLS-AR-2025","company":"Telstra Group Limited","eligibility_status":"eligible","sha256":"68ebfdb17454e41ecffa869c89e4d905e29b7f4b3d94ed83e253dc9baaed2fef"},
+    {"candidate_id":"P2-CAND-003","document_id":"GM-CRD-2025","company":"General Motors Company","eligibility_status":"eligible","sha256":"a0d3e2348a5ac6f66c3101f403ce475e80af46ccfb5103e643873a485e7d017e"},
+    {"candidate_id":"P2-CAND-004","document_id":"PG-CR-2024","company":"The Procter & Gamble Company","eligibility_status":"eligible","sha256":"22dee67eabf4702946807f2f5ec3460d06657f6937837db559fdcd2bb6e97d6d"},
+    {"candidate_id":"P2-CAND-005","document_id":"META-SR-2025","company":"Meta Platforms, Inc.","eligibility_status":"eligible","sha256":"b44a27d7c12636d45b698269cac0300dfb53e9519c636e978386a48cdb110483"},
+    {"candidate_id":"P2-CAND-006","document_id":"ORCL-CDP-2025","company":"Oracle Corporation","eligibility_status":"eligible","sha256":"7ebc74a40f35ee67d0f6e555ecb58f05f464579ef781495da82591cd38a582bc"}
+  ]
+}

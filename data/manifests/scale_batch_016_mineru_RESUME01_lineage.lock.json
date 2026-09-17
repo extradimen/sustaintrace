@@ -1,0 +1,27 @@
+{
+  "schema_version": "0.1",
+  "resume_id": "KB-SCALE-BATCH-016-MINERU-RESUME01",
+  "created_at": "2026-09-13T09:45:57.219093+00:00",
+  "parent_summary": "data/results/scale_batch_016_mineru_summary.lock.json",
+  "parent_summary_sha256": "6d489d8664746051cdd327bc44da54601b49af7c9a8231e8708d55c4b726275f",
+  "parent_failure_class": "mineru_postprocess_recursive_mutex_abort_after_page_processing",
+  "parent_failed_pages": 3,
+  "failed_page_keys": [
+    {
+      "document_id": "KB-B016-NOVONESIS-AR2025",
+      "page": 75
+    },
+    {
+      "document_id": "KB-B016-NOVONESIS-AR2025",
+      "page": 87
+    },
+    {
+      "document_id": "KB-B016-COLOPLAST-AR2025",
+      "page": 85
+    }
+  ],
+  "resume_scope": "failed_pages_only",
+  "successful_parent_pages_reused": 26,
+  "output_policy": "new_resume_directory_no_parent_overwrite",
+  "cloud_transmission": false
+}

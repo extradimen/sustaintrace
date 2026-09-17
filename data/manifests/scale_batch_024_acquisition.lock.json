@@ -1,0 +1,36 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-024",
+  "status": "complete_source_set_frozen",
+  "documents": [
+    {
+      "document_id": "KB-B024-FORTUM-FIN2025",
+      "local_path": "data/raw/scale_batch_024/fortum-financials-2025.pdf",
+      "bytes": 12403590,
+      "pages": 258,
+      "sha256": "0f348698addddf27181efe6c999fe17f4ca4390c510e97ce192d254c029764ce",
+      "pdf_valid": true,
+      "exact_sha256_duplicate": false
+    },
+    {
+      "document_id": "KB-B024-HYDRO-IAR2025",
+      "local_path": "data/raw/scale_batch_024/hydro-integrated-annual-report-2025.pdf",
+      "bytes": 7912991,
+      "pages": 307,
+      "sha256": "ce2c00e3511a18b4620472e939aa4d213103d35ef7fff968a99fd5f8b0578513",
+      "pdf_valid": true,
+      "exact_sha256_duplicate": false
+    },
+    {
+      "document_id": "KB-B024-YARA-AR2025",
+      "local_path": "data/raw/scale_batch_024/yara-annual-report-2025.pdf",
+      "bytes": 7728369,
+      "pages": 321,
+      "sha256": "95ecc7a0b18ca97ee9d579bc3799ed58052a31584ef6b21ac55d466aa77ce5d2",
+      "pdf_valid": true,
+      "exact_sha256_duplicate": false
+    }
+  ],
+  "cross_experiment_sha256_deduplication": "passed",
+  "cloud_transmission": false
+}

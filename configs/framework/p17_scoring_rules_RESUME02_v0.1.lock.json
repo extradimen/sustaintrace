@@ -1,0 +1,8 @@
+{
+  "schema_version": "2.6",
+  "experiment_id": "P17-V26-UNSEEN-LOCKBOX-V01",
+  "status": "frozen_before_candidate_inference",
+  "reference_projection": "data/annotations/p17_simulated/p17_atomic_slot_gold_RESUME02_v0.1.lock.json",
+  "dimensions": ["stage_a_schema_validity","stage_a_evidence_grounding","stage_a_answer_fidelity","stage_b_atomic_claim_validity","stage_b_slot_coverage","stage_b_exact_numeric_match","stage_b_exact_string_match","string_token_jaccard","boundary_fidelity","period_fidelity","parser_integrity"],
+  "rules": {"aggregate_score":null,"required_slot_count":74,"partial_projection_credit_allowed":true,"missing_slots_explicit":true,"missing_values_invented":false,"numeric_tolerance":0,"failed_model_outputs_retained":true,"single_attempt_per_stage":true,"silent_retry":false,"posthoc_semantic_repair":false}
+}

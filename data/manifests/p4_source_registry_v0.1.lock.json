@@ -1,0 +1,10 @@
+{
+  "schema_version":"1.0",
+  "registry_id":"P4-SOURCE-REGISTRY-v0.1",
+  "status":"frozen_before_candidate_inference",
+  "candidates":[
+    {"candidate_id":"P4-CAND-001","document_id":"P4-MSFT-ESR2025","company":"Microsoft Corporation","eligibility_status":"eligible","sha256":"7c20672f907103daa14a0c10c1ed8407f693108ad1869836ae348bc7c397aad9"},
+    {"candidate_id":"P4-CAND-002","document_id":"P4-NIKE-SD2024","company":"NIKE, Inc.","eligibility_status":"eligible","sha256":"f8ee63742f3a6599754a9692f743e834366982750144f741927dccb34778bbe5"},
+    {"candidate_id":"P4-CAND-003","document_id":"P4-NESN-NFS2024","company":"Nestle S.A.","eligibility_status":"eligible","sha256":"c1c577517577e28ef8b979b0c3158cb263fd3853e7e699ddd27b37cd6f5ffc0d"}
+  ]
+}

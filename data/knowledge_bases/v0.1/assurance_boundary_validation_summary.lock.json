@@ -1,0 +1,21 @@
+{
+  "executions_performed": 0,
+  "inputs": {
+    "boundary_semantic_negative_cases.jsonl": "6976c294f63dd75bc1dc1776d71f8f394dbab60d7f825c247a40ab756708e7ed",
+    "fact_records.jsonl": "8af57e7b7bda85deef8f90586f8225aedcf1da24e0669300115b8f1f7499bf5b",
+    "source_native_field_bindings.jsonl": "e152197d51d9368871a4dadd0bcb65109dfb74f69c8e88674bd3bea54a46b5dd",
+    "tier_b_blocker_resolutions.jsonl": "96bc6e574d607661c41698998fadc77d2a97380032ff10432d63d78e469cd068"
+  },
+  "next_gate": "validator_enabled_after_positive_and_negative_regression; execute only as supervised candidates before any promotion",
+  "output": {
+    "path": "data/knowledge_bases/v0.1/assurance_boundary_validations.jsonl",
+    "sha256": "71dba66b03d6b58d1959f4d7ad3c9878abd70a8f593dbabbbe68bc36d786cb18"
+  },
+  "promotions_performed": 0,
+  "records": 9,
+  "schema_version": "0.1",
+  "status": "assurance_boundary_validation_complete",
+  "validation_status_counts": {
+    "ready_for_supervised_execution": 9
+  }
+}

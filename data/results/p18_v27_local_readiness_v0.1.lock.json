@@ -1,0 +1,105 @@
+{
+  "artifacts": {
+    "atomic_gold": {
+      "path": "data/annotations/p18_simulated/p18_atomic_slot_gold_v0.1.lock.json",
+      "sha256": "c269aa0531834562bb0380c4dccab7dbd77050e1ace9c5c9c4a4583d145faf68"
+    },
+    "calculation_plans": {
+      "path": "configs/framework/p18_calculation_plans_v0.1.lock.json",
+      "sha256": "bb0ac5570994cf4f401ba41363185029ab7ca3e424cb993e6c6a210f2c21b6d9"
+    },
+    "execution_config": {
+      "path": "configs/experiments/p18-v27-unseen-lockbox-local.json",
+      "sha256": "ecb1749bed880bf8fc464af1f1f72852dcdfbcc28465c1d048d77191ca25d650"
+    },
+    "handle_whitelist": {
+      "path": "configs/framework/p18_evidence_handle_whitelist_v0.1.lock.json",
+      "sha256": "2956810bd235e130ca4d6ca014e5b5a4ba37c5a38dfbe896836647e391e84249"
+    },
+    "layout_registry": {
+      "path": "configs/framework/p18_layout_fallback_registry_v0.1.lock.json",
+      "sha256": "94c4f8c8b5e8d0aba32f576d1f974aa30f1c8f9312f6802fc4ad81c7cd8f945c"
+    },
+    "local_task_pack": {
+      "path": "data/tasks/p18_local_execution_task_pack_v0.1.lock.json",
+      "sha256": "cfce8afa37a0180f4eb9f4886a0670d90eeed612e5962196531a4040f1ea4062"
+    },
+    "report": {
+      "path": "docs/82_P18_v2.7本地预冻结与云授权边界_v0.1.md",
+      "sha256": "76f25fdd4cb85849a2ab80d6a38433ac47adf514449108e3c5e3a75fa44acf8d"
+    },
+    "scoring_rules": {
+      "path": "configs/framework/p18_scoring_rules_v0.1.lock.json",
+      "sha256": "2f94715a1824f88290718223c976ef54c5f6bf60f6da7d82ab9d77aff14e0f43"
+    },
+    "semantic_qualifiers": {
+      "path": "configs/framework/p18_semantic_qualifiers_v0.1.lock.json",
+      "sha256": "4e6d6a0d47faa1bd9e210a114f32fd842317b51be23329538870ed8fb8725733"
+    },
+    "slot_contracts": {
+      "path": "configs/framework/p18_slot_contracts_v0.1.lock.json",
+      "sha256": "28069e3f21e48b6d594f91efc8c81ac6c01d4683a5ddb0b2ff3ff5342865f494"
+    },
+    "table_graph": {
+      "path": "configs/framework/p18_two_dimensional_table_graph_v0.1.lock.json",
+      "sha256": "822e773b3555b4ba1442c41897c282c24fa0d1806f09f098a7fad7e25032251f"
+    }
+  },
+  "cloud_boundary": {
+    "authorized_pages_required": [
+      109,
+      121,
+      122,
+      123,
+      131,
+      133,
+      370,
+      371
+    ],
+    "authorized_scope_required": "P18 Stage A/Stage B single-attempt candidate inference",
+    "candidate_model": "qwen3.5:397b-cloud",
+    "candidate_model_call_count": 0,
+    "cloud_transmission_count": 0,
+    "explicit_authorization_received": false
+  },
+  "document_id": "P18-DEUTSCHE-TELEKOM-AR2025",
+  "document_sha256": "de5d9b0705793c4bf0b994b52ecc242800d79ee18736958dbff32aade7b79a5c",
+  "experiment_id": "P18-V27-UNSEEN-LOCKBOX-V01",
+  "locked_prior_experiments_modified": false,
+  "mineru": {
+    "failure_count": 0,
+    "preserved_infrastructure_failures": 11,
+    "recovery_generations": [
+      "RESUME01",
+      "RESUME02",
+      "RESUME03"
+    ],
+    "registry": "data/manifests/p18_mineru_target_registry_v0.1.lock.json",
+    "registry_sha256": "9ecaf341c6fc334a780727292b7813d75fa2d422d98d92dd682f5a8c4833db1d",
+    "success_count": 8
+  },
+  "prefreeze_integrity": {
+    "contract_preflights_passed": 61,
+    "deterministic_calculation_passed": true,
+    "evidence_quotes_checked": 47,
+    "reference_audit": "data/results/p18_prefreeze_reference_consistency_audit_v0.1.lock.json",
+    "reference_audit_sha256": "f70e4268d171af884dc024f43e59b37002613ab083011634b40cd09df6bb05f9",
+    "reference_freeze": "data/manifests/p18_simulated_reference_freeze_v0.1.lock.json",
+    "reference_freeze_sha256": "cea58fda5fee5d626d94a955d618b1c77fe876ba3621de42e2fac887617de7fb",
+    "status": "passed"
+  },
+  "schema_version": "2.7",
+  "slot_count": 61,
+  "status": "local_readiness_passed_waiting_for_explicit_cloud_authorization",
+  "task_count": 6,
+  "unique_target_pages": [
+    109,
+    121,
+    122,
+    123,
+    131,
+    133,
+    370,
+    371
+  ]
+}

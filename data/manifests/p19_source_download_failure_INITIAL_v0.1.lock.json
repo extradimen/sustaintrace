@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "experiment_id": "P19-V28-UNSEEN-LOCKBOX-V01",
+  "document_id": "P19-NOVO-NORDISK-AR2025",
+  "classification": "infrastructure_download_timeout",
+  "source_url": "https://annualreport.novonordisk.com/2025/_assets/downloads/novo-nordisk-annual-report-2025.pdf?h=9UdfHgQ-",
+  "curl_exit_code": 28,
+  "timeout_seconds": 600,
+  "expected_content_length_bytes": 32314137,
+  "preserved_partial_bytes": 2407125,
+  "preserved_partial_sha256": "0f91ea3f3b1b41892c7d9b3d81de67508e0f04ab816f03eb5f681459dbece302",
+  "semantic_experiment_started": false,
+  "candidate_model_call_count": 0,
+  "recovery_policy": "HTTP range resume from the preserved partial file; do not start a conflicting download",
+  "status": "preserved_for_RESUME01"
+}

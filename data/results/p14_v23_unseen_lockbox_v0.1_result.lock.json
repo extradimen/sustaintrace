@@ -1,0 +1,88 @@
+{
+  "schema_version": "2.3",
+  "experiment_id": "P14-V23-UNSEEN-LOCKBOX-V01",
+  "status": "completed_and_locked_with_framework_failures_retained",
+  "decision": "P14_RETAIN_AS_UNSEEN_DIAGNOSTIC_WITHOUT_RERUN_OR_POSTHOC_REPAIR",
+  "candidate_model": "qwen3.5:397b-cloud",
+  "document_id": "P14-LOREAL-URD2025",
+  "document_sha256": "db63807f5963c3e70422bbb9a0763f2f53be4139d5ee57984717bfa056275aa2",
+  "task_count": 6,
+  "single_candidate_attempt_per_behavioral_stage": true,
+  "silent_retry": false,
+  "posthoc_semantic_repair": false,
+  "reference_visible_to_candidate": false,
+  "stage_a": {
+    "tasks_run": 6,
+    "framework_valid": 5,
+    "model_behavior_failed": 1,
+    "infrastructure_failed": 0
+  },
+  "stage_b": {
+    "eligible_after_stage_a": 5,
+    "framework_valid": 3,
+    "pre_model_framework_failed": 2,
+    "model_behavior_failed": 0,
+    "model_calls_started": 3
+  },
+  "dimension_summary": {
+    "final_pipeline_valid_tasks": "3/6",
+    "credited_valid_slots": "26/56",
+    "exact_slots": "21/56",
+    "numeric_exact_slots": "18/32",
+    "string_exact_slots": "3/24",
+    "aggregate_score": null,
+    "score_note": "Invalid final outputs receive no slot credit; simulated references are not independent human gold."
+  },
+  "task_results": {
+    "P14-GHG-CALC-001": {
+      "stage_a": "model_behavior_failure",
+      "detail": "The model produced a semantically correct calculation_request object, but it did not satisfy the frozen v2.3 deterministic-calculation binding schema requiring observations.",
+      "score_status": "zero_slot_credit_invalid_output"
+    },
+    "P14-TARGET-001": {
+      "stage_a": "passed",
+      "stage_b": "passed",
+      "credited_slots": "13/13",
+      "exact_slots": "10/13"
+    },
+    "P14-WATER-001": {
+      "stage_a": "passed",
+      "stage_b": "passed",
+      "credited_slots": "7/7",
+      "exact_slots": "6/7"
+    },
+    "P14-SAFETY-001": {
+      "stage_a": "passed",
+      "stage_b": "passed",
+      "credited_slots": "6/6",
+      "exact_slots": "5/6"
+    },
+    "P14-SLB-001": {
+      "stage_a": "passed",
+      "stage_b": "pre_model_framework_failure",
+      "detail": "The frozen v2.3 string-span required-term gate rejected the Stage B task before a model call because the evidence span did not include both configured terms: earlier periods and ESG KPIs.",
+      "score_status": "zero_slot_credit_invalid_final_pipeline"
+    },
+    "P14-ASSURE-001": {
+      "stage_a": "passed",
+      "stage_b": "pre_model_framework_failure",
+      "detail": "The frozen v2.3 string-span required-term gate rejected the Stage B task before a model call because the evidence span did not include both configured terms: sustainability information and Article 8.",
+      "score_status": "zero_slot_credit_invalid_final_pipeline"
+    }
+  },
+  "integrity_findings": [
+    "The initial runner stopped before all candidate calls because the compact layout registry used task_ids arrays; no model attempt was consumed and no run archive was created by that failed invocation.",
+    "RESUME01 preserved the parent failure record and used an expanded one-task-per-page layout registry without changing frozen evidence, references, contracts or candidate semantics.",
+    "All nine created run archives passed SHA256SUMS verification.",
+    "All 244 tests and Ruff passed after scoring.",
+    "No behavioral stage was silently retried and no failed candidate output was repaired.",
+    "The calculation schema mismatch and two over-constrained pre-model string-span gates are exposed v2.3 development findings and must only be addressed in v2.4."
+  ],
+  "checkpoint": "data/manifests/p14_candidate_progress_RESUME01.json",
+  "checkpoint_sha256": "1e5e350b04e625c58e70ddfdbc8ee4048edefaaf0eaef72018674870206c33a0",
+  "dimension_scores": "data/results/p14_v23_dimension_scores_v0.1.lock.json",
+  "dimension_scores_sha256": "2e8f30a0d5daacf9d7aa5dd3f187473c962445e58d510ddc22e32f6f2e1bf20d",
+  "authorization_record": "data/manifests/p14_cloud_authorization_2026-09-09.lock.json",
+  "resume_lineage": "data/manifests/p14_resume01_pre_model_infrastructure_recovery.lock.json",
+  "p3_through_p13_modified": false
+}

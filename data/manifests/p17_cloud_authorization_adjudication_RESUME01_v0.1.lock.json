@@ -1,0 +1,13 @@
+{
+  "schema_version": "2.6",
+  "experiment_id": "P17-V26-UNSEEN-LOCKBOX-V01",
+  "status": "authorization_insufficient_cloud_execution_blocked",
+  "adjudicated_at_date": "2026-09-10",
+  "parent_record": "data/manifests/p17_cloud_authorization_2026-09-10.lock.json",
+  "reason": "The trusted user message said only '授权，继续' and did not itself identify the report, pages, cloud destination and experiment scope. External execution approval therefore rejected the transmission.",
+  "cloud_transmission_occurred": false,
+  "candidate_model_call_started": false,
+  "required_user_authorization": "我授权将 BMW Group Report 2025 第127、129、130、141、142、172、178、179、372、373、374、375页的冻结证据发送至 Ollama Cloud 的 qwen3.5:397b-cloud，仅用于 P17 Stage A/Stage B 单次候选推理。",
+  "prior_record_preserved": true,
+  "silent_retry_allowed": false
+}

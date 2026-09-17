@@ -1,0 +1,122 @@
+{
+  "schema_version": "0.1",
+  "record_kind": "heterogeneous_component_contract_reselection",
+  "status": "positive_reselection_complete_ready_for_manifest_freeze_with_field_limitation",
+  "resume_lineage": {
+    "parent": "data/results/heterogeneous_component_candidate_inventory_RESUME03_v0.1.lock.json",
+    "parent_sha256": "5ead95a3cd21a9a68f531447fa4ac7f3adfd61883453b171c23d589439989bbd",
+    "source_page_audit": "data/results/heterogeneous_component_source_page_audit_v0.1.lock.json",
+    "source_page_audit_sha256": "98a455004e8baa1e3a1697f9bfdfec85580fe455dc9617f3b33f1a9fafe1a795",
+    "reason": "RESUME03 shortlist supplied defensible negative field and period contracts but no positive contracts"
+  },
+  "selection_boundary": {
+    "adapter_execution_allowed": false,
+    "selection_inputs": [
+      "frozen fact metadata",
+      "frozen evidence quotes",
+      "native PDF text and layout",
+      "component-specific prior-report exclusions"
+    ],
+    "excluded_period_reports": [
+      "P12-VOLKSWAGEN-AR2025",
+      "P15-NOVARTIS-NFM2025",
+      "P22-BAYER-AR2025"
+    ],
+    "excluded_field_reports": [
+      "P12-VOLKSWAGEN-AR2025",
+      "P18-DEUTSCHE-TELEKOM-AR2025"
+    ]
+  },
+  "field_contracts": {
+    "positive": [],
+    "negative": [
+      {
+        "document_id": "P14-LOREAL-URD2025",
+        "fact_record_id": "fact-9324f5730b37e5d7d7bed3ba",
+        "gap_id": "gap-f228b58a6110d64b9e98c151",
+        "expected_status": "blocked",
+        "reason": "derived difference is not a uniquely bound source field"
+      },
+      {
+        "document_id": "P16-SANOFI-SS2025",
+        "fact_record_id": "fact-ea789b989b68006d3f8b1d4c",
+        "gap_id": "gap-e5c7e621493f43f223c46e9c",
+        "expected_status": "blocked",
+        "reason": "normalized cumulative-period phrase is assembled from a multi-literal evidence collection"
+      }
+    ],
+    "coverage_limit": {
+      "unexposed_gap_facts": 461,
+      "minimum_evidence_collection_cardinality": 2,
+      "positive_contracts_possible_under_current_adapter_contract": 0,
+      "reason": "the field diagnostic requires exactly one frozen source literal, while every unexposed field-gap fact has at least two evidence items",
+      "decision": "preserve negative-only heterogeneous evidence; do not narrow source literals after selection or fabricate a passing case"
+    }
+  },
+  "period_contracts": {
+    "positive": [
+      {
+        "document_id": "P19-NOVO-NORDISK-AR2025",
+        "fact_record_id": "fact-2d29009aaa6fdcf633ebfabd",
+        "gap_id": "gap-0eb1617d8d6ed0fc4b4f9011",
+        "source": {
+          "path": "data/raw/p19_staging/novo-nordisk-annual-report-2025.pdf",
+          "sha256": "f5475f1e043eaa99526772c0e06677a74ab2c2abb8181755afbe02a10e395092"
+        },
+        "page": 66,
+        "row_label": "Scope 2 GHG emissions - market-based",
+        "value": 63,
+        "parser_year": "2025",
+        "source_row_verified": true,
+        "year_header_verified": true,
+        "fact_id_previously_referenced_by_component_validation": false,
+        "expected_eligibility": "eligible"
+      },
+      {
+        "document_id": "P16-SANOFI-SS2025",
+        "fact_record_id": "fact-3aa11296f01c1fc32be45abe",
+        "gap_id": "gap-a52f25bbbb198460b520100a",
+        "source": {
+          "path": "data/raw/p16_staging/sanofi-sustainability-statement-2025.pdf",
+          "sha256": "82547ddb72b6b05dca88f93ed4cfe13010cb5690a5693b96721e9be3ff9c8fcc"
+        },
+        "page": 38,
+        "row_label": "Gross market-based Scope 1 emissions",
+        "value": 235,
+        "parser_year": "2025",
+        "source_row_verified": true,
+        "year_header_verified": true,
+        "fact_id_previously_referenced_by_component_validation": false,
+        "expected_eligibility": "eligible"
+      }
+    ],
+    "negative": [
+      {
+        "document_id": "P21-BASF-AR2025",
+        "fact_record_id": "fact-d0455266ea981b2d876fea44",
+        "gap_id": "gap-3247173e2bd75971460389cb",
+        "expected_eligibility": "ineligible",
+        "reason": "derived percentage is not a frozen source cell"
+      },
+      {
+        "document_id": "P10-SHELL-AR2025",
+        "fact_record_id": "fact-e6e29a2f164b88ef8e61b04d",
+        "gap_id": "gap-17c5ec51d2a57d83d5edc303",
+        "expected_eligibility": "ineligible",
+        "reason": "derived percentage is not a frozen source cell"
+      }
+    ]
+  },
+  "parent_hashes": {
+    "fact_records": "1da6f28e8c1b3125d07a52d39aed4e095c6f40ef71378173c36a1486f7cb890c",
+    "knowledge_gap_records": "858a37ede7bd213c1c3d1e9136d5d8be6bc6e6f12f147124318347cb3a8cef76"
+  },
+  "safety": {
+    "adapter_executed": false,
+    "fact_write_performed": false,
+    "trust_promotion_performed": false,
+    "gap_mutation_performed": false,
+    "cloud_transmission_performed": false
+  },
+  "next_gate": "freeze one heterogeneous execution manifest with explicit negative-only field coverage limitation"
+}

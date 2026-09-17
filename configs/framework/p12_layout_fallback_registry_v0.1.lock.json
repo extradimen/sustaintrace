@@ -1,0 +1,114 @@
+{
+  "schema_version": "1.0",
+  "selection_rule": "all frozen task pages eligible; references cannot select evidence",
+  "semantic_change": false,
+  "status": "executor_layout_registry_frozen_before_candidate_inference",
+  "targets": [
+    {
+      "document_id": "P12-VOLKSWAGEN-AR2025",
+      "document_sha256": "6f3f1b606fe771020dad30685ad0140114e0f23fd6f0921bd47f0975e07d4338",
+      "pdf_page": 366,
+      "pdf_path": "data/raw/p12_staging/volkswagen-group-annual-report-2025.pdf",
+      "task_id": "P12-SAFETY-001"
+    },
+    {
+      "document_id": "P12-VOLKSWAGEN-AR2025",
+      "document_sha256": "6f3f1b606fe771020dad30685ad0140114e0f23fd6f0921bd47f0975e07d4338",
+      "pdf_page": 274,
+      "pdf_path": "data/raw/p12_staging/volkswagen-group-annual-report-2025.pdf",
+      "task_id": "P12-CALC-001"
+    },
+    {
+      "document_id": "P12-VOLKSWAGEN-AR2025",
+      "document_sha256": "6f3f1b606fe771020dad30685ad0140114e0f23fd6f0921bd47f0975e07d4338",
+      "pdf_page": 275,
+      "pdf_path": "data/raw/p12_staging/volkswagen-group-annual-report-2025.pdf",
+      "task_id": "P12-CALC-001"
+    },
+    {
+      "document_id": "P12-VOLKSWAGEN-AR2025",
+      "document_sha256": "6f3f1b606fe771020dad30685ad0140114e0f23fd6f0921bd47f0975e07d4338",
+      "pdf_page": 281,
+      "pdf_path": "data/raw/p12_staging/volkswagen-group-annual-report-2025.pdf",
+      "task_id": "P12-CALC-001"
+    },
+    {
+      "document_id": "P12-VOLKSWAGEN-AR2025",
+      "document_sha256": "6f3f1b606fe771020dad30685ad0140114e0f23fd6f0921bd47f0975e07d4338",
+      "pdf_page": 259,
+      "pdf_path": "data/raw/p12_staging/volkswagen-group-annual-report-2025.pdf",
+      "task_id": "P12-TARGET-001"
+    },
+    {
+      "document_id": "P12-VOLKSWAGEN-AR2025",
+      "document_sha256": "6f3f1b606fe771020dad30685ad0140114e0f23fd6f0921bd47f0975e07d4338",
+      "pdf_page": 260,
+      "pdf_path": "data/raw/p12_staging/volkswagen-group-annual-report-2025.pdf",
+      "task_id": "P12-TARGET-001"
+    },
+    {
+      "document_id": "P12-VOLKSWAGEN-AR2025",
+      "document_sha256": "6f3f1b606fe771020dad30685ad0140114e0f23fd6f0921bd47f0975e07d4338",
+      "pdf_page": 214,
+      "pdf_path": "data/raw/p12_staging/volkswagen-group-annual-report-2025.pdf",
+      "task_id": "P12-BOUNDARY-001"
+    },
+    {
+      "document_id": "P12-VOLKSWAGEN-AR2025",
+      "document_sha256": "6f3f1b606fe771020dad30685ad0140114e0f23fd6f0921bd47f0975e07d4338",
+      "pdf_page": 215,
+      "pdf_path": "data/raw/p12_staging/volkswagen-group-annual-report-2025.pdf",
+      "task_id": "P12-BOUNDARY-001"
+    },
+    {
+      "document_id": "P12-VOLKSWAGEN-AR2025",
+      "document_sha256": "6f3f1b606fe771020dad30685ad0140114e0f23fd6f0921bd47f0975e07d4338",
+      "pdf_page": 274,
+      "pdf_path": "data/raw/p12_staging/volkswagen-group-annual-report-2025.pdf",
+      "task_id": "P12-SCOPE3-001"
+    },
+    {
+      "document_id": "P12-VOLKSWAGEN-AR2025",
+      "document_sha256": "6f3f1b606fe771020dad30685ad0140114e0f23fd6f0921bd47f0975e07d4338",
+      "pdf_page": 275,
+      "pdf_path": "data/raw/p12_staging/volkswagen-group-annual-report-2025.pdf",
+      "task_id": "P12-SCOPE3-001"
+    },
+    {
+      "document_id": "P12-VOLKSWAGEN-AR2025",
+      "document_sha256": "6f3f1b606fe771020dad30685ad0140114e0f23fd6f0921bd47f0975e07d4338",
+      "pdf_page": 276,
+      "pdf_path": "data/raw/p12_staging/volkswagen-group-annual-report-2025.pdf",
+      "task_id": "P12-SCOPE3-001"
+    },
+    {
+      "document_id": "P12-VOLKSWAGEN-AR2025",
+      "document_sha256": "6f3f1b606fe771020dad30685ad0140114e0f23fd6f0921bd47f0975e07d4338",
+      "pdf_page": 280,
+      "pdf_path": "data/raw/p12_staging/volkswagen-group-annual-report-2025.pdf",
+      "task_id": "P12-SCOPE3-001"
+    },
+    {
+      "document_id": "P12-VOLKSWAGEN-AR2025",
+      "document_sha256": "6f3f1b606fe771020dad30685ad0140114e0f23fd6f0921bd47f0975e07d4338",
+      "pdf_page": 659,
+      "pdf_path": "data/raw/p12_staging/volkswagen-group-annual-report-2025.pdf",
+      "task_id": "P12-ASSURE-001"
+    },
+    {
+      "document_id": "P12-VOLKSWAGEN-AR2025",
+      "document_sha256": "6f3f1b606fe771020dad30685ad0140114e0f23fd6f0921bd47f0975e07d4338",
+      "pdf_page": 660,
+      "pdf_path": "data/raw/p12_staging/volkswagen-group-annual-report-2025.pdf",
+      "task_id": "P12-ASSURE-001"
+    },
+    {
+      "document_id": "P12-VOLKSWAGEN-AR2025",
+      "document_sha256": "6f3f1b606fe771020dad30685ad0140114e0f23fd6f0921bd47f0975e07d4338",
+      "pdf_page": 663,
+      "pdf_path": "data/raw/p12_staging/volkswagen-group-annual-report-2025.pdf",
+      "task_id": "P12-ASSURE-001"
+    }
+  ],
+  "two_dimensional_table_graph": "configs/framework/p12_two_dimensional_table_graph_v0.1.lock.json"
+}

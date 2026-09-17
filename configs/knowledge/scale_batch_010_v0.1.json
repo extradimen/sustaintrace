@@ -1,0 +1,73 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-010",
+  "status": "selection_frozen_before_acquisition",
+  "policy": {
+    "local_only": true,
+    "cloud_transmission": false,
+    "locked_experiments_untouched": [
+      "P3-P23"
+    ],
+    "download_resume": true,
+    "overwrite_verified_files": false,
+    "fact_promotion_requires_independent_gate": true,
+    "performance_baseline_required": true
+  },
+  "selection_rationale": "Three previously unused official English 2025 reports with complementary consumer-goods, apparel-supply-chain and environmental-services coverage. Nestle provides a dedicated non-financial statement, adidas provides a 170-page ESRS sustainability statement with downloadable tables, and Veolia provides a compact official English URD centered on water, waste and circularity. All expose independent-assurance material suitable for scope-aware Tier-B review.",
+  "performance_baseline": {
+    "separate_from_knowledge_quality": true,
+    "metrics": [
+      "whole_report_diagnostic_wall_seconds",
+      "target_page_mineru_wall_seconds",
+      "successful_target_pages_per_hour",
+      "initial_failure_wall_seconds",
+      "resume_wall_seconds",
+      "checkpoint_reuse_pages",
+      "peak_rss_mb_when_available"
+    ]
+  },
+  "documents": [
+    {
+      "document_id": "KB-B010-NESTLE-NFS2025",
+      "source_group_id": "KB-NESTLE-2025",
+      "company": "Nestle S.A.",
+      "title": "Nestle Non-Financial Statement 2025",
+      "report_year": 2025,
+      "official_landing_page": "https://www.nestle.com/investors/annual-report",
+      "download_url": "https://www.nestle.com/sites/default/files/2026-02/non-financial-statement-2025.pdf",
+      "official_domain": "nestle.com",
+      "local_path": "data/raw/scale_batch_010/nestle-non-financial-statement-2025.pdf",
+      "source_role": "primary_report",
+      "language": "English",
+      "prior_experiment_use": false
+    },
+    {
+      "document_id": "KB-B010-ADIDAS-AR2025",
+      "source_group_id": "KB-ADIDAS-2025",
+      "company": "adidas AG",
+      "title": "adidas Annual Report 2025",
+      "report_year": 2025,
+      "official_landing_page": "https://report.adidas-group.com/2025/en/services/downloads.html",
+      "download_url": "https://report.adidas-group.com/2025/en/_assets/downloads/annual-report-adidas-ar25.pdf",
+      "official_domain": "report.adidas-group.com",
+      "local_path": "data/raw/scale_batch_010/adidas-annual-report-2025.pdf",
+      "source_role": "primary_report",
+      "language": "English",
+      "prior_experiment_use": false
+    },
+    {
+      "document_id": "KB-B010-VEOLIA-URD2025",
+      "source_group_id": "KB-VEOLIA-2025",
+      "company": "Veolia Environnement S.A.",
+      "title": "Veolia Universal Registration Document 2025",
+      "report_year": 2025,
+      "official_landing_page": "https://www.veolia.com/en/veolia-group/finance/financial-publications?finance_publication_type=11&page=1",
+      "download_url": "https://www.veolia.com/sites/g/files/dvc4206/files/document/2026/03/Finance_Veolia_URD_2025_en.pdf",
+      "official_domain": "veolia.com",
+      "local_path": "data/raw/scale_batch_010/veolia-universal-registration-document-2025.pdf",
+      "source_role": "primary_report",
+      "language": "English",
+      "prior_experiment_use": false
+    }
+  ]
+}

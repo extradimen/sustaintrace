@@ -1,0 +1,9 @@
+{
+  "schema_version":"1.0",
+  "development_id":"V22-P12-EXPOSED-FAILURE-DEV-V01",
+  "status":"frozen_before_v2.2_implementation",
+  "source_failures":["P12 Stage B scalar contracts missing predicate_id","P12 object contracts missing v2.1 object_fields","P12 array contracts missing an explicit candidate input envelope","P12 prefreeze audit did not execute the production schema and projector path"],
+  "permitted_changes":["candidate-free Stage B contract dry run using the production flattener, schema generator and projector","fail-closed validation before Ollama client construction","regression tests based only on exposed P12 failures"],
+  "prohibited_changes":["modify or rerun P3-P12","use a new unseen report during development","post-hoc repair of candidate semantics"],
+  "release_gate":["all exposed P12 malformed contracts rejected before model access","corrected fixtures pass the exact production path","full pytest and Ruff pass"]
+}

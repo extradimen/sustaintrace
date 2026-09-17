@@ -1,0 +1,57 @@
+{
+  "candidate_evidence_admissible": false,
+  "records": [
+    {
+      "index_path": "data/derived_facts/p3_discovery_index/P3-LENOVO-FY2025-ESG.pages.jsonl",
+      "index_sha256": "7df5267eb1b5d5179e1d7e584e06b1fc9510a39e7500c1561a5c216c5aa5f0c7",
+      "page_count": 145,
+      "source_id": "P3-LENOVO-FY2025-ESG",
+      "source_sha256": "5e52749d585a8c7eb9f6b05e800301f7282364562d32ba04b6742341319a7a4b",
+      "text_character_count": 361645
+    },
+    {
+      "index_path": "data/derived_facts/p3_discovery_index/P3-DIAGEO-AR2024.pages.jsonl",
+      "index_sha256": "a50c248b100f6713dfbc81b5b202b7d3291470145981a004c530d9a43bb1c403",
+      "page_count": 137,
+      "source_id": "P3-DIAGEO-AR2024",
+      "source_sha256": "94b8147ed3b8f42e30b937c6f03a8ad34a466bf9671124672ec2afa26f7d8658",
+      "text_character_count": 1216206
+    },
+    {
+      "index_path": "data/derived_facts/p3_discovery_index/P3-HEINEKEN-AR2025.pages.jsonl",
+      "index_sha256": "085b26b6c83f88cac1fde8dd73bcd26d2d9ade5a12a520276b68ee974db3f42c",
+      "page_count": 282,
+      "source_id": "P3-HEINEKEN-AR2025",
+      "source_sha256": "2dee3a7ac14103566f798aff09ce15bc354815c0848d2831fcb99d71bdfad259",
+      "text_character_count": 1061018
+    },
+    {
+      "index_path": "data/derived_facts/p3_discovery_index/P3-GSK-RBPR2024.pages.jsonl",
+      "index_sha256": "ac6d6ed816ffbbe6c28b3dbec66de7a2a8fb229aed6a948ed61754900824ccbc",
+      "page_count": 54,
+      "source_id": "P3-GSK-RBPR2024",
+      "source_sha256": "0d8f685d5b035bc6ef9ffd6ca79d247105323b93aea9158d79496d9f096221f9",
+      "text_character_count": 194542
+    },
+    {
+      "index_path": "data/derived_facts/p3_discovery_index/P3-AMD-CR2025.pages.jsonl",
+      "index_sha256": "69be33e483f3c8cf8f49a94a835d6065ee4a5a49010b1b8a2be1b4b4ea2a98b6",
+      "page_count": 109,
+      "source_id": "P3-AMD-CR2025",
+      "source_sha256": "a31017194c1b94df0ed60d49f2d41fae6de7f7960609c0a1b46790b393a88610",
+      "text_character_count": 323754
+    },
+    {
+      "index_path": "data/derived_facts/p3_discovery_index/P3-TD-SR2024.pages.jsonl",
+      "index_sha256": "4242dd424b0992bb0dd662cb8994199067d8d60a4d9d2fa0c7fc69d8ebe961cd",
+      "page_count": 114,
+      "source_id": "P3-TD-SR2024",
+      "source_sha256": "42a393a11223b1b82e04ee0fa7b792684593c9c100ee35fa971141af802340cc",
+      "text_character_count": 455234
+    }
+  ],
+  "schema_version": "1.0",
+  "source_manifest": "data/manifests/p3_source_acquisition_v0.1.lock.json",
+  "source_manifest_sha256": "2a0837250ad829b74fb5aef00f68bfbfc4771869a0f44bb7454c0f0ea14c3f9f",
+  "status": "deterministic_discovery_index_completed"
+}

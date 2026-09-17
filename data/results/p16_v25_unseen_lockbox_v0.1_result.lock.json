@@ -1,0 +1,63 @@
+{
+  "schema_version": "2.5",
+  "experiment_id": "P16-V25-UNSEEN-LOCKBOX-V01",
+  "status": "completed_and_locked",
+  "candidate_model": "qwen3.5:397b-cloud",
+  "reference_type": "simulated_expert_reference_not_independent_human_gold",
+  "execution": {
+    "authorized_pages": [26,30,31,38,43,44,45,68,90,118,129,130,131,132,133],
+    "single_attempt_per_model_stage": true,
+    "silent_retries": 0,
+    "posthoc_semantic_repairs": 0,
+    "infrastructure_resumes": [
+      "RESUME01 after sandbox denied local Ollama connection before any request",
+      "RESUME02 after the original semantic-qualifier registry shape stopped Stage B before any Stage B request"
+    ],
+    "model_run_archives": 10,
+    "model_run_archives_sha256_verified": 10
+  },
+  "summary_dimensions": {
+    "stage_a_valid_tasks": 4,
+    "stage_a_total_tasks": 6,
+    "final_pipeline_valid_tasks": 1,
+    "final_pipeline_total_tasks": 6,
+    "credited_valid_slots": 7,
+    "required_slots": 60,
+    "exact_slots": 5,
+    "numeric_exact_slots": 5,
+    "numeric_reference_slots": 40,
+    "string_exact_slots": 0,
+    "string_reference_slots": 20
+  },
+  "task_outcomes": {
+    "P16-GHG-CALC-001": "stage_a_model_behavior_failure_archived_no_retry",
+    "P16-TARGET-001": "stage_a_model_behavior_failure_archived_no_retry",
+    "P16-POLLUTION-001": "stage_a_passed_stage_b_model_behavior_failure_archived_no_retry",
+    "P16-SAFETY-001": "stage_a_passed_stage_b_model_behavior_failure_archived_no_retry",
+    "P16-ACCESS-001": "stage_a_and_stage_b_passed",
+    "P16-ASSURE-001": "stage_a_passed_stage_b_model_behavior_failure_archived_no_retry"
+  },
+  "inputs": {
+    "initial_infrastructure_progress": "data/manifests/p16_candidate_progress.json",
+    "initial_infrastructure_progress_sha256": "fafd454911a6264c46f92a169c7614b94813370f0267043da27b86ee15ee9c7f",
+    "stage_a_progress": "data/manifests/p16_candidate_progress_RESUME01.json",
+    "stage_a_progress_sha256": "32e3a898fa1ac76c6bfa8d165a453ca35570435c23cca03db6a90b1b90c7f12b",
+    "stage_b_progress": "data/manifests/p16_candidate_progress_RESUME02.json",
+    "stage_b_progress_sha256": "06c354816aa2286e7abfd579a455fdb1c499f280d926120ea72d2733aec6579e",
+    "dimension_scores": "data/results/p16_v25_dimension_scores_v0.1.lock.json",
+    "dimension_scores_sha256": "db7eb3da5b73f1b90bd6ac12a9f06df7b6c7e77964a21e699b3a4a68ee9fc3d9",
+    "execution_task_pack": "data/tasks/p16_execution_task_pack_v0.1.lock.json",
+    "execution_task_pack_sha256": "f1881ee8abb3ec07657ec7a5f4ac3f96ff536db4537fe554741bb61c4b7e4c1f"
+  },
+  "quality_gates": {
+    "pytest_tests_passed": 252,
+    "ruff": "passed",
+    "all_run_sha256_manifests": "passed"
+  },
+  "immutability": {
+    "p3_through_p15_modified": false,
+    "p16_rerun_allowed": false,
+    "p16_rescore_allowed": false,
+    "p16_may_be_used_as_exposed_development_set": true
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "candidate_reference_visibility": false,
+  "cloud_transmission_allowed": false,
+  "document_id": "P22-BAYER-AR2025",
+  "document_sha256": "0af4a9d19fd9d4cba72c1ec062802199873f2379f84112dc2db5dc9605ce769b",
+  "experiment_id": "P22-V31-UNSEEN-LOCKBOX-V01",
+  "integrity_audit": {
+    "all_quotes_exact_substrings_of_frozen_MinerU_markdown": true,
+    "all_reference_pages_within_frozen_task_windows": true,
+    "candidate_model_used": false,
+    "cloud_transmission_occurred": false,
+    "evidence_quote_count": 44,
+    "numeric_values_cross_checked_against_native_layout": true,
+    "page_204_fatality_parser_anomaly_logged_before_reference_freeze": true,
+    "reference_count": 6
+  },
+  "manifest_id": "P22-SIMULATED-REFERENCE-FREEZE-v0.1",
+  "references": [
+    {
+      "path": "data/annotations/p22_simulated/P22-ASSURE-001.json",
+      "sha256": "2bfc1e7a7cdbcaf5cb9a918e34ea5b11241f0804ca15092ab1df1fc580bd13f9",
+      "task_id": "P22-ASSURE-001"
+    },
+    {
+      "path": "data/annotations/p22_simulated/P22-ENERGY-CALC-001.json",
+      "sha256": "eab0cbb8d08750aa0e38eed9d415b46acc56c695daaa2036a2419ed054341431",
+      "task_id": "P22-ENERGY-CALC-001"
+    },
+    {
+      "path": "data/annotations/p22_simulated/P22-GHG-CALC-001.json",
+      "sha256": "1d0726e0f34894af4cb994668a1f8b0a2e381b75d641e222dc1f70477378c553",
+      "task_id": "P22-GHG-CALC-001"
+    },
+    {
+      "path": "data/annotations/p22_simulated/P22-SAFETY-CALC-001.json",
+      "sha256": "94e8ac34deba6a1aee5fae377faa00ea0b89d827ca9de4fd7f47486331ef90db",
+      "task_id": "P22-SAFETY-CALC-001"
+    },
+    {
+      "path": "data/annotations/p22_simulated/P22-TAXONOMY-001.json",
+      "sha256": "c6d9a22fe1c69b06a51a1f047e9ededf4f26ff721d28fa68272daa88e4d7c04c",
+      "task_id": "P22-TAXONOMY-001"
+    },
+    {
+      "path": "data/annotations/p22_simulated/P22-WATER-CALC-001.json",
+      "sha256": "c9a893ea87119cf71c15e014f86d9a6213b483424423d025bf2f9c4c1b1c2f79",
+      "task_id": "P22-WATER-CALC-001"
+    }
+  ],
+  "schema_version": "1.0",
+  "status": "simulated_references_frozen_after_documented_pre_reference_parser_anomaly_resolution_and_before_candidate_inference",
+  "target_registry": {
+    "path": "data/manifests/p22_mineru_target_registry_v0.1.lock.json",
+    "sha256": "2c1b8864009162642477ee8f8e60e540a1f1b3f7d9ef82d7eb60ca45a7fe1962"
+  },
+  "task_pack": {
+    "path": "data/tasks/p22_task_pack_v0.1.lock.json",
+    "sha256": "e6c24ca8626c29e63e069536b3bd3c3dc65e30e06d3471df4380da315bf1a56a"
+  }
+}

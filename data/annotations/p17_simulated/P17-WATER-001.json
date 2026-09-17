@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "task_id": "P17-WATER-001",
+  "reference_author": "codex_gpt_simulated_expert",
+  "reference_status": "verified_against_frozen_pages",
+  "answer": "In m3, BMW Group reported: total water consumption 1,861,542 in 2025 versus 2,093,253 in 2024 (−11.1%); consumption in water-risk areas 1,249,501 versus 1,411,145 (−11.5%); recycled and reused 4,905,853 versus 4,779,094 (+2.7%); stored water 455,054 versus 458,025 (−0.6%); changes in storage 354,528 versus 336,220 (+5.4%); and total withdrawals 5,699,543 versus 5,848,597 (−2.5%). The consumption methodology was aligned with standard practice and data infrastructure improved. Prior-year adjustments were −3,720,490 m3 for total consumption, −1,668,125 m3 for water-risk-area consumption, +665 m3 for recycled/reused, and +2,500 m3 each for stored water and storage change. The 2024 withdrawal comparator was determined for the first time.",
+  "normalized_value": {
+    "unit": "m3",
+    "total_consumption": {"2025":1861542,"2024":2093253,"change_percent":-11.1},
+    "water_risk_area_consumption": {"2025":1249501,"2024":1411145,"change_percent":-11.5},
+    "recycled_and_reused": {"2025":4905853,"2024":4779094,"change_percent":2.7},
+    "stored_water": {"2025":455054,"2024":458025,"change_percent":-0.6},
+    "storage_change": {"2025":354528,"2024":336220,"change_percent":5.4},
+    "withdrawals": {"2025":5699543,"2024":5848597,"change_percent":-2.5},
+    "qualification": "retrospective methodology/data-infrastructure adjustments; first-time 2024 comparative for water withdrawals"
+  },
+  "evidence": [
+    {"source_id":"P17-BMW-GROUP-REPORT-2025","pdf_page":141,"quote":"1,249,501 m<sup>3</sup>"},
+    {"source_id":"P17-BMW-GROUP-REPORT-2025","pdf_page":141,"quote":"4,905,853 m³"},
+    {"source_id":"P17-BMW-GROUP-REPORT-2025","pdf_page":142,"quote":"Total water consumption"},
+    {"source_id":"P17-BMW-GROUP-REPORT-2025","pdf_page":142,"quote":"1,861,542"},
+    {"source_id":"P17-BMW-GROUP-REPORT-2025","pdf_page":142,"quote":"Total water withdrawals"},
+    {"source_id":"P17-BMW-GROUP-REPORT-2025","pdf_page":142,"quote":"5,699,543"},
+    {"source_id":"P17-BMW-GROUP-REPORT-2025","pdf_page":142,"quote":"A comparative value was determined for the previous year as part of the first-time reporting on water withdrawal."}
+  ],
+  "provenance": {"reference_is_simulated":true,"candidate_model_used":false}
+}

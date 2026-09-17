@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "framework_version": "ESG-RD-v1.5",
+  "development_basis": "P5 exposed failures only",
+  "period_binding": {
+    "source": "native PDF text coordinates",
+    "value_match": "unique exact normalized literal on same page",
+    "header_match": "nearest explicit four-digit year above within 15 PDF points on x axis",
+    "ambiguous_value_policy": "fail_closed",
+    "source_text_modified": false
+  },
+  "unicode_grounding": {
+    "comparison_only": true,
+    "normalization": ["Unicode NFKC", "whitespace folding", "controlled apostrophe equivalence"],
+    "semantic_paraphrase_allowed": false,
+    "candidate_literal_modified": false,
+    "source_literal_modified": false
+  },
+  "evaluation_policy": {
+    "P3_P4_P5_locked": true,
+    "development_regression_is_lockbox": false,
+    "next_valid_generalization_test": "P6 unseen lockbox"
+  }
+}

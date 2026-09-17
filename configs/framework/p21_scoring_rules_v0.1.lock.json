@@ -1,0 +1,12 @@
+{
+  "experiment_id": "P21-V30-UNSEEN-LOCKBOX-V01",
+  "schema_version": "3.0",
+  "scoring": {
+    "exact_numeric_tolerance": 1e-09,
+    "missing_or_unsupported_slot": 0,
+    "no_posthoc_repair": true,
+    "string_rule": "controlled semantic equality",
+    "unit": "atomic slot"
+  },
+  "status": "frozen_before_candidate_inference"
+}

@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "freeze_id": "P1-EXECUTION-PIPELINE-FREEZE-v0.6.2",
+  "status": "superseded_after_reversed_year_inputs",
+  "frozen_at": "2026-09-04T05:35:00+08:00",
+  "preregistration_sha256": "20fe8466c4a81784b0097a3094f2d0855828317e42d18b9ffb0ebcdd31533d83",
+  "mineru_block_loader_sha256": "2191c492e892738d10b9395b58997a38e5829be3d135a45c05c4dfc1457545a8",
+  "runner_sha256": "6715630894b36481242f2c30c0b92f83bfb95f54d4e25bb6d4340ae04c3cfdc9",
+  "schema_core_sha256": "e4bbe4de82413cd4a0c81bc148076dcb6e013290523b1134432b75fe54239c20",
+  "basf_row_handle_count": 53,
+  "basf_row_text_characters": 3410,
+  "basf_prior_html_characters": 17569,
+  "target_row_handle": "M200-T0001-R0032",
+  "target_row_text": "Total gross Scope 3 emissions | 91.64 | 94.49",
+  "test_count_passed": 116,
+  "reference_answer_visible_during_inference": false,
+  "posthoc_semantic_repair_allowed": false,
+  "inference_allowed": true,
+  "next_gate": "basf_table_row_calculation_acceptance"
+}

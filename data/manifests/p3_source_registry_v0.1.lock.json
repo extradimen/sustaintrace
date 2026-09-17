@@ -1,0 +1,13 @@
+{
+  "schema_version":"1.0",
+  "registry_id":"P3-SOURCE-REGISTRY-v0.1",
+  "status":"frozen",
+  "candidates":[
+    {"candidate_id":"P3-CAND-001","document_id":"P3-LENOVO-FY2025-ESG","company":"Lenovo Group Limited","eligibility_status":"eligible","sha256":"5e52749d585a8c7eb9f6b05e800301f7282364562d32ba04b6742341319a7a4b"},
+    {"candidate_id":"P3-CAND-002","document_id":"P3-DIAGEO-AR2024","company":"Diageo plc","eligibility_status":"eligible","sha256":"94b8147ed3b8f42e30b937c6f03a8ad34a466bf9671124672ec2afa26f7d8658"},
+    {"candidate_id":"P3-CAND-003","document_id":"P3-HEINEKEN-AR2025","company":"Heineken N.V.","eligibility_status":"eligible","sha256":"2dee3a7ac14103566f798aff09ce15bc354815c0848d2831fcb99d71bdfad259"},
+    {"candidate_id":"P3-CAND-004","document_id":"P3-GSK-RBPR2024","company":"GSK plc","eligibility_status":"eligible","sha256":"0d8f685d5b035bc6ef9ffd6ca79d247105323b93aea9158d79496d9f096221f9"},
+    {"candidate_id":"P3-CAND-005","document_id":"P3-AMD-CR2025","company":"Advanced Micro Devices, Inc.","eligibility_status":"eligible","sha256":"a31017194c1b94df0ed60d49f2d41fae6de7f7960609c0a1b46790b393a88610"},
+    {"candidate_id":"P3-CAND-006","document_id":"P3-TD-SR2024","company":"The Toronto-Dominion Bank","eligibility_status":"eligible","sha256":"42a393a11223b1b82e04ee0fa7b792684593c9c100ee35fa971141af802340cc"}
+  ]
+}

@@ -1,0 +1,513 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-008-MINERU-FINAL",
+  "updated_at": "2026-09-13T00:37:51.211291+00:00",
+  "status": "complete",
+  "cloud_transmission": false,
+  "total_target_pages": 26,
+  "complete_pages": 26,
+  "failed_pages": 0,
+  "pending_pages": 0,
+  "post_completion_shutdown_recovered_pages": 7,
+  "recovered_pages": [
+    {
+      "document_id": "KB-B008-KONE-SS2025",
+      "page": 9
+    },
+    {
+      "document_id": "KB-B008-KONE-SS2025",
+      "page": 30
+    },
+    {
+      "document_id": "KB-B008-SANDVIK-AR2025",
+      "page": 69
+    },
+    {
+      "document_id": "KB-B008-SANDVIK-AR2025",
+      "page": 71
+    },
+    {
+      "document_id": "KB-B008-SANDVIK-AR2025",
+      "page": 76
+    },
+    {
+      "document_id": "KB-B008-VESTAS-AR2025",
+      "page": 20
+    },
+    {
+      "document_id": "KB-B008-VESTAS-AR2025",
+      "page": 93
+    }
+  ],
+  "parent_attempts": [
+    "data/results/scale_batch_008_mineru_summary.lock.json",
+    "data/results/scale_batch_008_mineru_RESUME01_summary.lock.json",
+    "data/results/scale_batch_008_mineru_RESUME02_summary.lock.json"
+  ],
+  "parent_failures_preserved": true,
+  "records": [
+    {
+      "document_id": "KB-B008-KONE-SS2025",
+      "page": 6,
+      "themes": [
+        "circularity"
+      ],
+      "output_directory": "artifacts/scale_batch_008/mineru_targets_RESUME02/KB-B008-KONE-SS2025-p0006",
+      "status": "complete",
+      "selected_attempt": "RESUME02",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "36617bfc412288f4fc60d7d118581dfb3542486298e12ad0204cfb35ab4725ed",
+        "_content_list.json": "f6c48f9cbeffec431ee07a0faf7e76564fd90b18bcdde7af7116b21f9cba9fd2",
+        "_middle.json": "c249832fa5377c536aa6e1085ab2b971d6ce7ec602d9c031d9667743b38d2957",
+        "_model.json": "e27adb4c5320b39b34f152e484c69909fada52522d64e59dd03d55e2be26c0f1"
+      }
+    },
+    {
+      "document_id": "KB-B008-KONE-SS2025",
+      "page": 9,
+      "themes": [
+        "biodiversity"
+      ],
+      "output_directory": "artifacts/scale_batch_008/mineru_targets_RESUME02/KB-B008-KONE-SS2025-p0009",
+      "status": "complete",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_008/mineru_targets_RESUME02/KB-B008-KONE-SS2025-p0009/esg_rd_mineru_run.json",
+      "selected_attempt": "RESUME02",
+      "completion_basis": "post_completion_shutdown_abort_with_three_identical_required_output_sets",
+      "original_status": "failed",
+      "original_returncode": -6,
+      "output_sha256": {
+        ".md": "a3b098f582271d7bd5205b4a78d129802d069b13fe02ab03cccadd911d120512",
+        "_content_list.json": "f0ec262007e7ae58c9549687d8fad8dacf4fb5e4c75f18817a6033f988e3ffad",
+        "_middle.json": "184ff61242bc4a2e11e5e5b928a42e8f6f38e508aa180735adf0ad8faea4e4e7",
+        "_model.json": "e88796fec7a38f103f8ed1a4ddbe1411a06942ca84d3169949cf174e0e621005"
+      }
+    },
+    {
+      "document_id": "KB-B008-KONE-SS2025",
+      "page": 16,
+      "themes": [
+        "water"
+      ],
+      "output_directory": "artifacts/scale_batch_008/mineru_targets_RESUME01/KB-B008-KONE-SS2025-p0016",
+      "status": "complete",
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "63479f15b786895a7aaa23f3f8b2b49c69c767b263abfbefbccb98e0e030cdb8",
+        "_content_list.json": "662e710df72004fb339f9557d152a0a79a91c397c24b78e2e22f5399a2f1d4ff",
+        "_middle.json": "c00620ddd741e07eb720d76ea7376d414f818baa7d46daa6a0989e37201f417f",
+        "_model.json": "c45efd1482debf92f2a67ff1dfda4fee4a977a085cc06b5d6381c275d7483a5a"
+      }
+    },
+    {
+      "document_id": "KB-B008-KONE-SS2025",
+      "page": 24,
+      "themes": [
+        "targets"
+      ],
+      "output_directory": "artifacts/scale_batch_008/mineru_targets/KB-B008-KONE-SS2025-p0024",
+      "status": "complete",
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "cb1f0013c54b6ced810be2feb3a62905e0b09686ec2d244e6353497e370abad9",
+        "_content_list.json": "771850cda74e8bf93eb7ea48ad7fc377f08e9d98951ff9c04c83a96a57c945a7",
+        "_middle.json": "2324e0a1faf80e6031b012e962c477a00af3744e830202f9031be4ab6ff81a6d",
+        "_model.json": "1e5838c7895d31dc962bf16becadad8cddc119660464c239498312cc11c70917"
+      }
+    },
+    {
+      "document_id": "KB-B008-KONE-SS2025",
+      "page": 30,
+      "themes": [
+        "energy"
+      ],
+      "output_directory": "artifacts/scale_batch_008/mineru_targets_RESUME02/KB-B008-KONE-SS2025-p0030",
+      "status": "complete",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_008/mineru_targets_RESUME02/KB-B008-KONE-SS2025-p0030/esg_rd_mineru_run.json",
+      "selected_attempt": "RESUME02",
+      "completion_basis": "post_completion_shutdown_abort_with_three_identical_required_output_sets",
+      "original_status": "failed",
+      "original_returncode": -6,
+      "output_sha256": {
+        ".md": "f7a7f56a2a9214717a57886a1452e9bc6ab574f71e1eb8f2c2ff3a05663f8af2",
+        "_content_list.json": "eea05e95ba4ca6981d9d315dcc81b3ca494a5156ab88f908ff0311984c9fbbbc",
+        "_middle.json": "f6074a8a9782a8d19a0468b504e5b4917ab7f798aea76dcb8c5ea4dfd6c72e9b",
+        "_model.json": "4c09a68c98ea8fa9c5a50465be22826ae916dcbbbb04a4a9e7233ac4b51d7b0f"
+      }
+    },
+    {
+      "document_id": "KB-B008-KONE-SS2025",
+      "page": 31,
+      "themes": [
+        "ghg_emissions"
+      ],
+      "output_directory": "artifacts/scale_batch_008/mineru_targets/KB-B008-KONE-SS2025-p0031",
+      "status": "complete",
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "b9c42e22c71228823791a5656bb9c2d8d09b9072bc7aeedbea6f6af09bb65790",
+        "_content_list.json": "33f8c4e9f1dfceda648f2ddf528b257ed88760ba49e15d1b471b53511217fdb7",
+        "_middle.json": "990efe060d1e514702a80dc8cc5baae21a874b54b3d38ea25130e86c7313756c",
+        "_model.json": "92f287cb9cb75e6580c72631a96569784a9e6689c38ee444fc917aae31840d74"
+      }
+    },
+    {
+      "document_id": "KB-B008-KONE-SS2025",
+      "page": 37,
+      "themes": [
+        "workforce"
+      ],
+      "output_directory": "artifacts/scale_batch_008/mineru_targets/KB-B008-KONE-SS2025-p0037",
+      "status": "complete",
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "b77e3fc196e84c2bd78bd4fd4bfeb595ea6a2557c83b0dce1ecf330cd037518e",
+        "_content_list.json": "73c128e312e6ddd1bc903e2f44896c5c02cc2cea7f1e345a46f8d8e8b472cae0",
+        "_middle.json": "e4ceffa57d990399354d3d859bfd8d39c66d56a2cc4beee3b71f7cde9f7ea49e",
+        "_model.json": "d3faf6934b56ba7b1afe37473d8cf13ff45b46c55f708a1fd8f70e25c28b9d60"
+      }
+    },
+    {
+      "document_id": "KB-B008-KONE-SS2025",
+      "page": 43,
+      "themes": [
+        "health_safety"
+      ],
+      "output_directory": "artifacts/scale_batch_008/mineru_targets_RESUME01/KB-B008-KONE-SS2025-p0043",
+      "status": "complete",
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "c04705dcc94dc7e26360d119ab46a4c078df15ec66d11afbde035f61c441f886",
+        "_content_list.json": "380cf778ef55b8147195ca1aab042c0ed19f923f8af3b74ca4e6614aa5fb4c27",
+        "_middle.json": "0038a5267f9e02ec8eb902fd73a681d88c82703df3084eb02ce556f04a961acc",
+        "_model.json": "619cb859167030f515dfa26139cd8dcd24fa1a9c116a0f331e01b4d468990fb7"
+      }
+    },
+    {
+      "document_id": "KB-B008-SANDVIK-AR2025",
+      "page": 69,
+      "themes": [
+        "targets"
+      ],
+      "output_directory": "artifacts/scale_batch_008/mineru_targets_RESUME02/KB-B008-SANDVIK-AR2025-p0069",
+      "status": "complete",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_008/mineru_targets_RESUME02/KB-B008-SANDVIK-AR2025-p0069/esg_rd_mineru_run.json",
+      "selected_attempt": "RESUME02",
+      "completion_basis": "post_completion_shutdown_abort_with_three_identical_required_output_sets",
+      "original_status": "failed",
+      "original_returncode": -6,
+      "output_sha256": {
+        ".md": "fdadae98fe05311677e570b63a090053fe4151e0f8ac33227093ef2fc7e060d0",
+        "_content_list.json": "6767a0d2509aebbced9cf7a8853c30539ffc89723c2a443ece0cc9d7825ec6fa",
+        "_middle.json": "6c4a0abdefe0845e23fcf105887e7d38067c8ee4d669e994313aa2ac897527a5",
+        "_model.json": "50837c4f96a714632c08365668b000973054cd14f5197db7a70a771fbd0ec16d"
+      }
+    },
+    {
+      "document_id": "KB-B008-SANDVIK-AR2025",
+      "page": 70,
+      "themes": [
+        "ghg_emissions"
+      ],
+      "output_directory": "artifacts/scale_batch_008/mineru_targets/KB-B008-SANDVIK-AR2025-p0070",
+      "status": "complete",
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "8cc3aff8ed2360cd2b399c5a8de11a2c06362b37ddbf8b6c7353f1c09dc0b9ea",
+        "_content_list.json": "6a467c3f9a0878d416364e06c7245ebd41b0be5dfb4f62b1efeb12f5fe7a1c7b",
+        "_middle.json": "b0fddd6878765df6da3f3c8deda0e498c8fed39f770a3fd9bb416bf9b5f4717f",
+        "_model.json": "4cbe8fd9b2937842c82021151f44cb366309cb3912f98c989f814a7bca359b52"
+      }
+    },
+    {
+      "document_id": "KB-B008-SANDVIK-AR2025",
+      "page": 71,
+      "themes": [
+        "energy"
+      ],
+      "output_directory": "artifacts/scale_batch_008/mineru_targets_RESUME02/KB-B008-SANDVIK-AR2025-p0071",
+      "status": "complete",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_008/mineru_targets_RESUME02/KB-B008-SANDVIK-AR2025-p0071/esg_rd_mineru_run.json",
+      "selected_attempt": "RESUME02",
+      "completion_basis": "post_completion_shutdown_abort_with_three_identical_required_output_sets",
+      "original_status": "failed",
+      "original_returncode": -6,
+      "output_sha256": {
+        ".md": "e17117b17d40c79144526c037df7a72e06334ecb0b5c429522d7e1eb41b6940a",
+        "_content_list.json": "3bd4a3b9d3d9ea62f4f0b94dcb47b73b552132c81497e256907a342c54ae819b",
+        "_middle.json": "91489578205ea1ef4b35b7d2acebe0969626299fe1c8b56d5051766bc62fcbac",
+        "_model.json": "43801029800f675f9c983087f1fd56a0bbadd20a9253c4e29c519afd2e0a252d"
+      }
+    },
+    {
+      "document_id": "KB-B008-SANDVIK-AR2025",
+      "page": 76,
+      "themes": [
+        "water"
+      ],
+      "output_directory": "artifacts/scale_batch_008/mineru_targets_RESUME02/KB-B008-SANDVIK-AR2025-p0076",
+      "status": "complete",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_008/mineru_targets_RESUME02/KB-B008-SANDVIK-AR2025-p0076/esg_rd_mineru_run.json",
+      "selected_attempt": "RESUME02",
+      "completion_basis": "post_completion_shutdown_abort_with_three_identical_required_output_sets",
+      "original_status": "failed",
+      "original_returncode": -6,
+      "output_sha256": {
+        ".md": "c55e244cc2e71aa190940832f0199d2bf34e956c394d97f0bf3cf22dd7457d0a",
+        "_content_list.json": "57db0a274363521ccbd912cc2687986abd1a233a21371779305dea55650a2414",
+        "_middle.json": "96aa7f41a5f0148ef3d3bc8d4720d875e4382e5c4cb7966e1008166bbc6a6c6b",
+        "_model.json": "7519c6326b85ca787b644f10cd1ea241660cfa37976d03312f831d0ac8eb17fc"
+      }
+    },
+    {
+      "document_id": "KB-B008-SANDVIK-AR2025",
+      "page": 77,
+      "themes": [
+        "biodiversity"
+      ],
+      "output_directory": "artifacts/scale_batch_008/mineru_targets/KB-B008-SANDVIK-AR2025-p0077",
+      "status": "complete",
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "d31f5dbae5b531fb744ff20669eaefff5fd28461e98d12fdfed041ebdbe0812f",
+        "_content_list.json": "eb33a6666262016be4292e7401921ac3f155614bb82ebc9f4dd109e4f5eedabe",
+        "_middle.json": "cc7ce857b62222129dc41bd6839f0d05a7f866a6686a7859c9adfa126ee235da",
+        "_model.json": "4e84c2c7828202dcdb18b72a137dfb2864a7e310d763b6b5f9adf3fc8f404784"
+      }
+    },
+    {
+      "document_id": "KB-B008-SANDVIK-AR2025",
+      "page": 80,
+      "themes": [
+        "circularity"
+      ],
+      "output_directory": "artifacts/scale_batch_008/mineru_targets/KB-B008-SANDVIK-AR2025-p0080",
+      "status": "complete",
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "86079c012adab56bdbcb1832de044a723e2313f8ce035475310c10e4f7c2fe3a",
+        "_content_list.json": "a73e3ea63b06336ea4ea614ac521e107d22c0849c350b32715ad9a68b4884ddf",
+        "_middle.json": "e5001efaf26b05f0ba882807c7a6c18db1416e6267deabe4546ffd08f0e37ad8",
+        "_model.json": "47b1ae7623b50c96e5690b20b1eb4fc9820df5c0f430fb06293e62573ef11cc3"
+      }
+    },
+    {
+      "document_id": "KB-B008-SANDVIK-AR2025",
+      "page": 90,
+      "themes": [
+        "workforce"
+      ],
+      "output_directory": "artifacts/scale_batch_008/mineru_targets/KB-B008-SANDVIK-AR2025-p0090",
+      "status": "complete",
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "6618232501bedd2d0ba46fc69e5c60d4574f51f3c8db177ce530c957e3801e6e",
+        "_content_list.json": "7d8bbc628d14467484e93b6a2e18554b23426bb8473c6f9db2cfc215ca21d34d",
+        "_middle.json": "b3fc0a021bb803034fffaf98f045e54aaa2d0d164aee2333b18c9fd851bd08a0",
+        "_model.json": "1d811adeb33e3fcb5aff4e0d6871d3d32f0b07f27e86492eba439d24de264aa7"
+      }
+    },
+    {
+      "document_id": "KB-B008-SANDVIK-AR2025",
+      "page": 91,
+      "themes": [
+        "health_safety"
+      ],
+      "output_directory": "artifacts/scale_batch_008/mineru_targets/KB-B008-SANDVIK-AR2025-p0091",
+      "status": "complete",
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "fa65d2b29b092470d981ef45124dc6840a0f4409240e7fac63876d72753e64d3",
+        "_content_list.json": "204ba5aa864398498970408536e1a73537e952909f33550e7a6f09e9a3f7b581",
+        "_middle.json": "351ea3a744afc3c0d55819a22d9303ccca86d04039995c8bbc32d945835dce9b",
+        "_model.json": "9023b90ac776d9c83429a2a01771c03ef896b9fca8e94b8c6ff3f5e00e1da7b8"
+      }
+    },
+    {
+      "document_id": "KB-B008-SANDVIK-AR2025",
+      "page": 112,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_008/mineru_targets_RESUME01/KB-B008-SANDVIK-AR2025-p0112",
+      "status": "complete",
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "4d70905a9cac1607f7e5fc6afeaf5be3d58226cd190fa0043724457936623b59",
+        "_content_list.json": "99b02cda80bc577cc8d7abe3b0867aa8b4349ca261f4f90a3c6b34db533c3ab0",
+        "_middle.json": "80d4c19c01095587fae4456686e64eddd81836e35cf047f2e38f4c97ce62f4e5",
+        "_model.json": "f100a5724654dcb1c3135958d811a0abe5169c43fb2889bf8a8fc439431dc9f4"
+      }
+    },
+    {
+      "document_id": "KB-B008-VESTAS-AR2025",
+      "page": 20,
+      "themes": [
+        "water"
+      ],
+      "output_directory": "artifacts/scale_batch_008/mineru_targets_RESUME02/KB-B008-VESTAS-AR2025-p0020",
+      "status": "complete",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_008/mineru_targets_RESUME02/KB-B008-VESTAS-AR2025-p0020/esg_rd_mineru_run.json",
+      "selected_attempt": "RESUME02",
+      "completion_basis": "post_completion_shutdown_abort_with_three_identical_required_output_sets",
+      "original_status": "failed",
+      "original_returncode": -6,
+      "output_sha256": {
+        ".md": "e9f3f36cec4f715f56484794d7ce29ae4c4e1a3aab84fb38dcc190bdb9fc11a3",
+        "_content_list.json": "f6c4a0a80f8f8d37b14a796b3017c5ddc49c4737750e5349bbd6d54afa174f0a",
+        "_middle.json": "7f43ad282d9e12aba84abebe72557ea73c86bd3eddff3326018df2d21aba46e5",
+        "_model.json": "02e2bedae3ca58ba27bacafaebe333475dfad780e2fd29ea930c29c0d20a0727"
+      }
+    },
+    {
+      "document_id": "KB-B008-VESTAS-AR2025",
+      "page": 87,
+      "themes": [
+        "targets"
+      ],
+      "output_directory": "artifacts/scale_batch_008/mineru_targets_RESUME02/KB-B008-VESTAS-AR2025-p0087",
+      "status": "complete",
+      "selected_attempt": "RESUME02",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "b04e6f142d5c8229a2fb97f6d1033ea9db7f7c9bfdb805f443370ee1f60bc622",
+        "_content_list.json": "b8a28d41c7220ca33d19e51b0b3a1de54915aca030df49446e347b6c1df5797e",
+        "_middle.json": "c56585846ae909c30f3baf0bf5bc4a4009e44c379d39d21d38ec2eca0d5b3154",
+        "_model.json": "136f79415b8464362747236610f59180fc2bd9455f72da59457b15565e43e8df"
+      }
+    },
+    {
+      "document_id": "KB-B008-VESTAS-AR2025",
+      "page": 88,
+      "themes": [
+        "energy"
+      ],
+      "output_directory": "artifacts/scale_batch_008/mineru_targets/KB-B008-VESTAS-AR2025-p0088",
+      "status": "complete",
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "bb374f2b03b6fe0887d438ccd9b0d0e46fb1da58eb77b0597bee38290c16f537",
+        "_content_list.json": "38d981765c714c7cf2fcec397eb291502afbf04e882ff7e9767e91890a66e1f9",
+        "_middle.json": "860fb70e17e410b1ba847efb4026039848df51fea87873dfbe390b6205ead800",
+        "_model.json": "a3f3c339febb2dd44e6019cf7a4e30e185df5cdf54c619e248c44748b30e6f0a"
+      }
+    },
+    {
+      "document_id": "KB-B008-VESTAS-AR2025",
+      "page": 89,
+      "themes": [
+        "ghg_emissions"
+      ],
+      "output_directory": "artifacts/scale_batch_008/mineru_targets_RESUME01/KB-B008-VESTAS-AR2025-p0089",
+      "status": "complete",
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "8300ac4a6fc77618fd1a4749bc304dcb73ccdc6956339114a14f17f0989a589f",
+        "_content_list.json": "069236407f37f5a9abe29343e3d9607f7ad8e010ed7bc0bfb4ba5d0bbb4b8915",
+        "_middle.json": "2dc1eca75b99467c1e9129e9e0197ed8b61be7e6172901afcc945338b1f3fc2e",
+        "_model.json": "d51bb7ca4fe0a9bd5bfbe9a7e787d683abfa4c134b20de1fda9437115381830d"
+      }
+    },
+    {
+      "document_id": "KB-B008-VESTAS-AR2025",
+      "page": 93,
+      "themes": [
+        "biodiversity"
+      ],
+      "output_directory": "artifacts/scale_batch_008/mineru_targets_RESUME02/KB-B008-VESTAS-AR2025-p0093",
+      "status": "complete",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_008/mineru_targets_RESUME02/KB-B008-VESTAS-AR2025-p0093/esg_rd_mineru_run.json",
+      "selected_attempt": "RESUME02",
+      "completion_basis": "post_completion_shutdown_abort_with_three_identical_required_output_sets",
+      "original_status": "failed",
+      "original_returncode": -6,
+      "output_sha256": {
+        ".md": "9728ebd16179e5a5bf95fd9ccd3e4df3f280f82892071e7bf516e22a9c30b665",
+        "_content_list.json": "e8818a92be3b5df194f9c6c201b4c90579d395dcc13185864d7b6d3a30ba491c",
+        "_middle.json": "4eaeeeb35840f0f29b5f9551adac5144431de41b4df0947ce4a23bc29e5fc328",
+        "_model.json": "590276d44f0e9871deaba0a4be329149def2a16bf3f810af9aa3db45272a7029"
+      }
+    },
+    {
+      "document_id": "KB-B008-VESTAS-AR2025",
+      "page": 96,
+      "themes": [
+        "circularity"
+      ],
+      "output_directory": "artifacts/scale_batch_008/mineru_targets/KB-B008-VESTAS-AR2025-p0096",
+      "status": "complete",
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "3596fc08ba755bd1cb6e82f2f6426089d95889fe52f7b56dffc6061a6d49214a",
+        "_content_list.json": "cbc56abe1c1086173ddeef49db9d7b566daffe88e344c6a75a17937980a8f98d",
+        "_middle.json": "b8b35a2d619397b04de450f3356d66b6413bdd9b274aa2eadbd73a2035c3d9be",
+        "_model.json": "a7e6f58803ab6862f0b4af908a7801fe01952e2a2182d8fcb24d0890d2307ac0"
+      }
+    },
+    {
+      "document_id": "KB-B008-VESTAS-AR2025",
+      "page": 102,
+      "themes": [
+        "health_safety"
+      ],
+      "output_directory": "artifacts/scale_batch_008/mineru_targets/KB-B008-VESTAS-AR2025-p0102",
+      "status": "complete",
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "19b4876f1fa18baa109929bacce051fb57e45241c38fef4a0a739d7c27c580dc",
+        "_content_list.json": "2b32b7fe4d54793e6cb11ba80b61c1c6ad5ef29626b638ce04e2c1f700d867bf",
+        "_middle.json": "47ae26c903e72e067e353ff8d8e0157d6049e6e6dc8b3cde97dd94024bf15a32",
+        "_model.json": "ebc8d611804a223bc6e011dcddc6f564930a6086c00c73eeb125e9087b2e63a8"
+      }
+    },
+    {
+      "document_id": "KB-B008-VESTAS-AR2025",
+      "page": 107,
+      "themes": [
+        "workforce"
+      ],
+      "output_directory": "artifacts/scale_batch_008/mineru_targets_RESUME01/KB-B008-VESTAS-AR2025-p0107",
+      "status": "complete",
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "2d76bd5e818bccfaea5801a79f1214ee1eba7697c7ed35f266811f38f07bb9cd",
+        "_content_list.json": "06c70aa69df16f1c34fec7ab91d581e6f7f5c2ea673d501a9b9a17ef8cfe5e7b",
+        "_middle.json": "1b0c6eae9b3384a871bbcace73376054c8cbfadd721c6e4dc71a9193cdb284c8",
+        "_model.json": "bf71c4f1aefbe35cd041a4f009e16cd8af1d30facd5084c7cc8ca29b40af4ca3"
+      }
+    },
+    {
+      "document_id": "KB-B008-VESTAS-AR2025",
+      "page": 193,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_008/mineru_targets_RESUME01/KB-B008-VESTAS-AR2025-p0193",
+      "status": "complete",
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "a416da75cc10c1cdb0e962f1f11199cd2edb812548ef3d398b49ab92d38315e5",
+        "_content_list.json": "30648211be67e4fc25eeddbfda9cc57e186e377fccbb7ad86808e8dc9df94b96",
+        "_middle.json": "1c6af340053078b5a3c23277d6d13bf0327226f5216512a6fe236c09e6b72726",
+        "_model.json": "4274021d73b8ba519d0d1aa7eb24aa82015a39ce986595aa8ff84d48879b6600"
+      }
+    }
+  ]
+}

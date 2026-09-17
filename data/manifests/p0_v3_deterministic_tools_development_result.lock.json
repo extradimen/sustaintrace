@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "completed_at": "2026-09-02T10:15:00+08:00",
+  "decision": "v3_engineering_acceptance_passed_proceed_to_p1_freeze",
+  "evidence_role": "development_only_not_unseen_performance",
+  "framework_version": "V3",
+  "model_snapshot": "gemma4:12b@4eb23ef187e2c5462566d6a1d3bbbc2f1346d0b4327cbb66d58fffbcc9b2b05c",
+  "plan_sha256": "01db28ca28ebdf1164447cb15d3ce3ded62989ade919700016c9e331e376826d",
+  "posthoc_semantic_repair_applied": false,
+  "result_record_sha256": "c1a0b26e4666e89adfbc558af35b56d6848d1d38485c6fd00e297ac0f8c27423",
+  "run_archive_checksums": {
+    "P0-CONFLICT-001": "4572767bf43314cfac38aa65fec3c05a3db7029f3208621292c82be5fa8f08a3",
+    "P0-CALC-001-expected-safety-rejection": "60cd51559b056a2828e49d350e7ee75442fad3806d3a9be10c42c98e64982330"
+  },
+  "scorers": {
+    "frozen_v1": "a658a75f08e18fe67a4cb1090ee63effa4aa8cc37e52e6900d6694dc9788db6b",
+    "development_v2": "88c334ca413ce6aee1357426ab17388eb35dbad35f50034a30775ecde3bd3251"
+  },
+  "mechanism_outcomes": {
+    "evidence_handle_resolution": "passed_with_distinct_official_and_intervention_immutable_locators",
+    "deterministic_calculation_verification": "passed_by_rejecting_positive_sign_model_error_without_modifying_output"
+  }
+}

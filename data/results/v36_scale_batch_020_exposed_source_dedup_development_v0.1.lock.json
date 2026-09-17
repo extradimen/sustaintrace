@@ -1,0 +1,37 @@
+{
+  "schema_version": "0.1",
+  "experiment_id": "KB-SCALE-BATCH-020",
+  "development_source": "Batch 20 pre-freeze cross-experiment report-series duplication only",
+  "status": "controlled_source_substitution_strategy_extended",
+  "change": {
+    "failure_signature": "SOURCE_REPORT_SERIES_ALREADY_USED",
+    "strategy_id": "RS-OFFICIAL-SOURCE-SUBSTITUTION",
+    "description": "Reject a previously used issuer/report series before diagnostics and target-page freeze, preserve the duplicate source evidence, and substitute a different unused official report without changing the batch research scope.",
+    "candidate_source": "Ahold Delhaize Annual Report 2025",
+    "replacement_source": "Carrefour Universal Registration Document 2025",
+    "candidate_output_mutation": false,
+    "locked_batch_replay": false,
+    "semantic_repair": false
+  },
+  "validation": {
+    "duplicate_source_preserved": true,
+    "prior_use_manifest_verified": true,
+    "replacement_official_source_verified": true,
+    "replacement_sha256_locked": true,
+    "replacement_assurance_preflight_passed": true,
+    "target_freeze_occurred_after_substitution": true,
+    "repair_strategy_catalog_covers_observed_signature": true,
+    "full_pytest_passed": 473,
+    "ruff": "passed"
+  },
+  "evidence": {
+    "duplicate_attempt": "data/manifests/scale_batch_020_acquisition_attempt.lock.json",
+    "replacement_acquisition": "data/manifests/scale_batch_020_acquisition.lock.json",
+    "target_registry": "data/manifests/scale_batch_020_target_pages.lock.json"
+  },
+  "policy": {
+    "cloud_transmission": false,
+    "automatic_execution_enabled": false,
+    "requires_strategy_adjudication": true
+  }
+}

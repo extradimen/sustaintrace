@@ -1,0 +1,43 @@
+{
+  "schema_version":"1.0",
+  "freeze_id":"P3-PARSER-AND-AUTHORING-V01",
+  "status":"frozen_before_report_body_indexing",
+  "source_manifest":"data/manifests/p3_source_acquisition_v0.1.lock.json",
+  "source_manifest_sha256":"2a0837250ad829b74fb5aef00f68bfbfc4771869a0f44bb7454c0f0ea14c3f9f",
+  "two_pass_parsing":{
+    "pass_1":"Use pdftotext with page boundaries to build a deterministic discovery index for all accepted reports.",
+    "pass_1_role":"Task-authoring locator only; not admissible as final evidence when MinerU evidence is available.",
+    "pass_2":"After tasks and page windows are frozen, parse only those windows with MinerU 3.4.0 pipeline.",
+    "pass_2_role":"Primary structured evidence channel for candidate packets and simulated-reference scoring.",
+    "fallback":"The frozen v1.1 visible text-layer fallback may be invoked only under its existing deterministic trigger and must record provenance."
+  },
+  "mineru":{
+    "version":"3.4.0",
+    "backend":"pipeline",
+    "method":"auto",
+    "runtime_lock_sha256":"baa209d710927504584141448237c6e4892fc4c657a7c69dd127a065ccd58aa5",
+    "tools_config_sha256":"7c791a9086197b8eb568f8f238f2447e5a82df8b27aeaad726ae856468925e92",
+    "asset_manifest_sha256":"05bcc88e0e3b187193ab69e41ce1e73f0519bf1984cf014936d79d3f1e83ee5c",
+    "asset_revision":"ed6b654c018d742e65a17671e379c5e6ecc87ec9",
+    "asset_count":40,
+    "asset_bytes":2595586833,
+    "asset_audit":"passed"
+  },
+  "task_authoring":{
+    "task_count":12,
+    "types":["direct_extraction","calculation","cross_page_relation","scope_subject_boundary","source_conflict","abstention"],
+    "count_per_type":2,
+    "required_report_coverage":6,
+    "candidate_packets_must_exclude_reference":true,
+    "questions_and_page_windows_frozen_before_mineru_candidate_execution":true,
+    "source_conflict_interventions_created_only_after official evidence is frozen":true,
+    "abstention_tasks_require an audited absence claim over the defined search scope":true
+  },
+  "execution_constraints":{
+    "no_candidate_inference_before_full_task_pack_freeze":true,
+    "single_attempt_per_task":true,
+    "archive_all_failures":true,
+    "no_posthoc_repair":true,
+    "no_source_replacement_after_body_indexing":true
+  }
+}

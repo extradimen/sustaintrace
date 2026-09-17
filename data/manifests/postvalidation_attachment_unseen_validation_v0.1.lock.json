@@ -1,0 +1,36 @@
+{
+  "schema_version": "0.1",
+  "record_kind": "postvalidation_attachment_unseen_validation_manifest",
+  "status": "frozen_not_executed",
+  "case": {
+    "fact_record_id": "fact-ceedb35b458686de09d1371e",
+    "gap_id": "gap-0b9e0c79555b60ae8077d2d4",
+    "gap_signature": "NATIVE_PDF_CORROBORATION_INCOMPLETE",
+    "diagnostic": {
+      "path": "artifacts/second_unseen_adapter_validation_v0.1/native_pdf_corroboration_incomplete.unseen.json",
+      "sha256": "c992d92ff66b1055e5255d511c6aaf482d1f7fe01229062dd344377de5776d9a"
+    },
+    "source": {
+      "path": "data/raw/p19_staging/novo-nordisk-annual-report-2025.pdf",
+      "sha256": "f5475f1e043eaa99526772c0e06677a74ab2c2abb8181755afbe02a10e395092"
+    },
+    "satisfied_dimensions": ["independent_corroboration"],
+    "expected": {
+      "attachment_valid": true,
+      "attachment_accepted_by_gate": true,
+      "final_gate_decision": "blocked",
+      "reason": "other fact qualification dimensions remain incomplete"
+    }
+  },
+  "parent_development": {
+    "path": "data/results/postvalidation_attachment_development.lock.json",
+    "sha256": "836b30c4487f717e4ee967f71c1663e0329c1595077a9c6d8cbaad69d3686495"
+  },
+  "safety": {
+    "single_execution": true,
+    "fact_write_allowed": false,
+    "gap_mutation_allowed": false,
+    "trust_promotion_allowed": false,
+    "cloud_transmission_allowed": false
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "batch_id": "KB-SCALE-BATCH-008-NATIVE-COORDINATE-AUDIT",
+  "checks": {
+    "page_footer_matches": true,
+    "row_fragments_present_in_order": true,
+    "row_values_present_in_order": true,
+    "source_sha256_matches": true,
+    "unit_heading_present": true,
+    "year_headers_present": true
+  },
+  "columns": {
+    "2024": "9.2",
+    "2025": "9.1",
+    "yearly_change_percent": "-1"
+  },
+  "document_id": "KB-B008-SANDVIK-AR2025",
+  "metric": "energy intensity per net revenue from high climate impact sectors",
+  "native_layout_sha256": "7b19ac521fc36a82de91ac9183b70d092164e282cd9ed22828f83e7963003680",
+  "pdf_page": 71,
+  "policy": {
+    "automatic_promotion": false,
+    "cloud_transmission": false
+  },
+  "schema_version": "0.1",
+  "source_sha256": "b3f7b20c4dc8a59fd92bc6a89ed5b8efa19a0328b816837cae7d8864438af165",
+  "status": "passed",
+  "unit": "MWh/MSEK"
+}

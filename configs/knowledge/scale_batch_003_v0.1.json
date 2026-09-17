@@ -1,0 +1,58 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-003",
+  "status": "source_locked_pending_acquisition",
+  "policy": {
+    "local_only": true,
+    "cloud_transmission": false,
+    "locked_experiments_untouched": ["P3-P23"],
+    "download_resume": true,
+    "overwrite_verified_files": false,
+    "fact_promotion_requires_independent_gate": true
+  },
+  "selection_rationale": "Three previously unused issuers spanning furniture retail, pharmaceuticals, and parcel/logistics services. The set combines an ESRS-inspired sustainability report, a compact assured KPI annex, and an integrated annual report with a Group Sustainability Statement.",
+  "documents": [
+    {
+      "document_id": "KB-B003-INGKA-ASSR-FY25",
+      "source_group_id": "KB-INGKA-FY2025",
+      "company": "Ingka Holding B.V.",
+      "title": "Annual Summary and Sustainability Report FY25",
+      "report_year": 2025,
+      "official_landing_page": "https://www.ingka.com/annual-summary-and-sustainability-report/",
+      "download_url": "https://assets.site.ingka.com/ingka-com/reports/IngkaGroup_AnnualSummaryandSustainabilityReport_FY25.pdf",
+      "official_domain": "ingka.com",
+      "local_path": "data/raw/scale_batch_003/ingka-assr-fy25.pdf",
+      "source_role": "primary_report",
+      "language": "English",
+      "prior_experiment_use": false
+    },
+    {
+      "document_id": "KB-B003-AZ-SDA2025",
+      "source_group_id": "KB-ASTRAZENECA-2025",
+      "company": "AstraZeneca PLC",
+      "title": "Sustainability Data Annex 2025",
+      "report_year": 2025,
+      "official_landing_page": "https://www.astrazeneca.com/sustainability/resources.html",
+      "download_url": "https://www.astrazeneca.com/content/dam/az/Sustainability/2026/pdf/Sustainability-Data-Annex-2025.pdf",
+      "official_domain": "astrazeneca.com",
+      "local_path": "data/raw/scale_batch_003/astrazeneca-sustainability-data-annex-2025.pdf",
+      "source_role": "primary_kpi_annex",
+      "language": "English",
+      "prior_experiment_use": false
+    },
+    {
+      "document_id": "KB-B003-DHL-AR2025",
+      "source_group_id": "KB-DHL-GROUP-2025",
+      "company": "Deutsche Post AG",
+      "title": "DHL Group Annual Report 2025",
+      "report_year": 2025,
+      "official_landing_page": "https://group.dhl.com/en/sustainability/sustainability-approach/sustainability-reports.html",
+      "download_url": "https://group.dhl.com/content/dam/deutschepostdhl/en/media-center/investors/documents/annual-reports/DHL-Group-2025-Annual-Report.pdf",
+      "official_domain": "group.dhl.com",
+      "local_path": "data/raw/scale_batch_003/dhl-group-annual-report-2025.pdf",
+      "source_role": "primary_report",
+      "language": "English",
+      "prior_experiment_use": false
+    }
+  ]
+}

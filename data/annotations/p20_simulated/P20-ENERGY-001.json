@@ -1,0 +1,63 @@
+{
+  "answer": "Total energy consumption was 85 MMWh in both 2025 and restated 2024; fossil energy was 47 and 49 MMWh, representing 55% and 58%; renewable energy was 13 and 12 MMWh, representing 16% and 14%. The narrative nevertheless reports a 0.4% increase, reflecting unrounded data. Renewable electricity instruments were PPAs, VPPAs, and RECs or guarantees of origin.",
+  "evidence": [
+    {
+      "pdf_page": 85,
+      "quote": "In 2025, our total energy consumption was 85 million megawatt hours (M MWh), a 0.4% increase compared to 2024.",
+      "source_id": "P20-HOLCIM-SS2025"
+    },
+    {
+      "pdf_page": 85,
+      "quote": "Energy consumption total",
+      "source_id": "P20-HOLCIM-SS2025"
+    },
+    {
+      "pdf_page": 85,
+      "quote": "Total energy consumption from fossil sources",
+      "source_id": "P20-HOLCIM-SS2025"
+    },
+    {
+      "pdf_page": 85,
+      "quote": "Total energy consumption from renewable sources",
+      "source_id": "P20-HOLCIM-SS2025"
+    },
+    {
+      "pdf_page": 85,
+      "quote": "Power purchase agreements (PPAs)",
+      "source_id": "P20-HOLCIM-SS2025"
+    },
+    {
+      "pdf_page": 85,
+      "quote": "Virtual power purchase agreements (VPPAs)",
+      "source_id": "P20-HOLCIM-SS2025"
+    },
+    {
+      "pdf_page": 85,
+      "quote": "Renewable energy certificates (RECs) and guarantees of origin (GOs)",
+      "source_id": "P20-HOLCIM-SS2025"
+    }
+  ],
+  "normalized_value": {
+    "direction": "increase",
+    "fossil_energy_mmwh::2024": 49,
+    "fossil_energy_mmwh::2025": 47,
+    "fossil_share_percent::2024": 58,
+    "fossil_share_percent::2025": 55,
+    "narrative_change_percent": 0.4,
+    "renewable_electricity_instruments": "power purchase agreements (PPAs) | virtual power purchase agreements (VPPAs) | renewable energy certificates (RECs) and guarantees of origin (GOs)",
+    "renewable_energy_mmwh::2024": 12,
+    "renewable_energy_mmwh::2025": 13,
+    "renewable_share_percent::2024": 14,
+    "renewable_share_percent::2025": 16,
+    "total_energy_mmwh::2024": 85,
+    "total_energy_mmwh::2025": 85
+  },
+  "provenance": {
+    "candidate_model_used": false,
+    "reference_is_simulated": true
+  },
+  "reference_author": "codex_gpt_simulated_expert",
+  "reference_status": "verified_against_frozen_mineru_pages_and_native_layout",
+  "schema_version": "1.0",
+  "task_id": "P20-ENERGY-001"
+}

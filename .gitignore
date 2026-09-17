@@ -1,0 +1,74 @@
+.DS_Store
+.env
+.venv/
+.mineru-venv/
+:memory:.ses
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+*.pdf
+
+# Credentials and local machine state
+secrets/
+*.key
+local_state/
+tmp/pdfs/
+configs/parsers/mineru-tools-huggingface.json
+
+# Downloaded reports, weights, and large runtime artifacts
+data/raw/
+data/external/
+data/interim/
+data/install/
+data/operations/
+data/workbench/
+models/
+artifacts/
+output/
+research_archive/
+docs/[0-9]*.md
+
+# Internal research replay tests require non-redistributable source PDFs or
+# private lockbox archives. The distributable test suite remains self-contained.
+tests/test_binding_screens_v01.py
+tests/test_contract_driven_read_only_diagnostics_v01.py
+tests/test_control_plane_query_v01.py
+tests/test_fact_promotion_audit_v01.py
+tests/test_independent_corroboration_reviews_v01.py
+tests/test_operational_handle_repair_v01.py
+tests/test_p17_v26_prefreeze.py
+tests/test_p18_v27_prefreeze.py
+tests/test_p1_runner.py
+tests/test_p1_v04_runner.py
+tests/test_p1_v06_runner.py
+tests/test_read_only_diagnostics_v01.py
+tests/test_scale_batch_001_v01.py
+tests/test_smoke_lock.py
+tests/test_stage_b_handle_closure_dispatch_v01.py
+tests/test_stage_b_projection_lineage_v01.py
+tests/test_v11_evidence.py
+tests/test_v12_direct.py
+tests/test_v25_p15_exposed_regression.py
+tests/test_v26_p16_exposed_regression.py
+tests/test_v27_p17_exposed_regression.py
+tests/test_v28_p18_exposed_regression.py
+tests/test_v30_p20_exposed_regression.py
+tests/test_v31_p21_exposed_regression.py
+tests/test_v32_p22_exposed_regression.py
+research_archive/**/raw_responses/
+research_archive/**/page_images/
+
+# Superseded infrastructure run retained locally for audit only; its verbose
+# Ollama manifest contains machine-specific absolute paths.
+research_archive/experiments/P0-INFRA-001/runs/r001-qwen3-0_6b-seed240901/
+
+# Keep directory placeholders
+!data/raw/.gitkeep
+!models/.gitkeep
+!research_archive/experiments/.gitkeep

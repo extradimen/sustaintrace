@@ -1,0 +1,26 @@
+{
+  "artifacts": {
+    "implementation": {
+      "path": "src/esg_reliable_discovery/knowledge_query.py",
+      "sha256": "68969d31f7040535c1f3d5b66639733a1766c61828ed7ab40a742630cd2a47f7"
+    },
+    "repair_gap_rankings": {
+      "path": "data/knowledge_bases/v0.1/repair_gap_rankings.jsonl",
+      "sha256": "2ea36c86ec405a8d1672936e65ba974e65c4a1e47051491909928bac4e6c6b11"
+    },
+    "schema": {
+      "path": "schemas/knowledge/fact-query-response-v0.1.schema.json",
+      "sha256": "879ed24eab3a384bc49f73996468f8351d31fb2630c350224daa39e58ed0d505"
+    }
+  },
+  "candidate_opt_in_task": "P23-GHG-CALC-001",
+  "candidate_records_returned": 12,
+  "candidates_not_trusted_inventory": 1011,
+  "default_policy": "promoted_tier_b_only",
+  "default_records_returned": 10,
+  "locked_experiments_modified_or_rescored": false,
+  "next_gate": "audit the 53 Tier B queue items blocked by period or boundary qualification",
+  "schema_version": "0.1",
+  "status": "passed",
+  "trusted_tier_b_inventory": 10
+}

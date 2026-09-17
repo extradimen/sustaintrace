@@ -1,0 +1,35 @@
+{
+  "answer": "Under financial control, gross Scope 1 plus gross market-based Scope 2 was 17.270 Mt CO2e in 2025 and 17.952 Mt CO2e in adjusted 2024, a -3.80% change. BASF separately reports row changes of -1% for gross Scope 1 and -21% for gross market-based Scope 2. The calculated two-scope sum is not BASF's total market-based emissions including Scope 3.",
+  "evidence": [
+    {
+      "pdf_page": 194,
+      "quote": "Gross Scope 1 emissions</td><td rowspan=1 colspan=1>15.369</td><td rowspan=1 colspan=1>15.115</td><td rowspan=1 colspan=1>15.556c</td><td rowspan=1 colspan=1>15.220c</td><td rowspan=1 colspan=1>-1%",
+      "source_id": "P21-BASF-AR2025"
+    },
+    {
+      "pdf_page": 194,
+      "quote": "Gross market-based Scope 2 emissions</td><td rowspan=1 colspan=1>1.901</td><td rowspan=1 colspan=1>2.052</td><td rowspan=1 colspan=1>2.396</td><td rowspan=1 colspan=1>2.460</td><td rowspan=1 colspan=1>-21%",
+      "source_id": "P21-BASF-AR2025"
+    }
+  ],
+  "normalized_value": {
+    "calculated_change_percent": -3.8,
+    "calculated_scope1_plus_scope2_mtco2e::2024_adjusted": 17.952,
+    "calculated_scope1_plus_scope2_mtco2e::2025": 17.27,
+    "issuer_scope1_row_change_percent": -1,
+    "issuer_scope2_market_row_change_percent": -21,
+    "non_conflation": "calculated Scope 1 plus market-based Scope 2 is not total market-based emissions including Scope 3",
+    "scope1_gross_mtco2e::2024_adjusted": 15.556,
+    "scope1_gross_mtco2e::2025": 15.369,
+    "scope2_market_gross_mtco2e::2024_adjusted": 2.396,
+    "scope2_market_gross_mtco2e::2025": 1.901
+  },
+  "provenance": {
+    "candidate_model_used": false,
+    "reference_is_simulated": true
+  },
+  "reference_author": "codex_gpt_simulated_expert",
+  "reference_status": "verified_against_frozen_mineru_pages_and_native_layout",
+  "schema_version": "1.0",
+  "task_id": "P21-GHG-CALC-001"
+}

@@ -1,0 +1,147 @@
+{
+  "document_id": "P21-BASF-AR2025",
+  "document_sha256": "6fa0a9f60a3149e585a5b52f06efde1e0aaa5d1156da0d71a1fd40822df7f8b7",
+  "experiment_id": "P21-V30-UNSEEN-LOCKBOX-V01",
+  "failure_count": 0,
+  "recovery_lineage": [
+    "data/manifests/p21_mineru_resume_RESUME01_v0.1.lock.json"
+  ],
+  "schema_version": "1.0",
+  "status": "all_target_pages_successfully_parsed_and_hash_verified",
+  "success_count": 10,
+  "target_count": 10,
+  "targets": [
+    {
+      "document_id": "P21-BASF-AR2025",
+      "document_sha256": "6fa0a9f60a3149e585a5b52f06efde1e0aaa5d1156da0d71a1fd40822df7f8b7",
+      "output_directory": "artifacts/p21/mineru_targets_RESUME01/P21-BASF-AR2025-p0192",
+      "pdf_page": 192,
+      "recovery_generation": "RESUME01",
+      "run_record_sha256": "b205e9b68dc253d9072396a8687f5440d3796a9528c74d2c8d07525b19542370",
+      "status": "success_verified",
+      "target_id": "P21-BASF-AR2025-p0192",
+      "task_ids": [
+        "P21-ENERGY-001"
+      ]
+    },
+    {
+      "document_id": "P21-BASF-AR2025",
+      "document_sha256": "6fa0a9f60a3149e585a5b52f06efde1e0aaa5d1156da0d71a1fd40822df7f8b7",
+      "output_directory": "artifacts/p21/mineru_targets/P21-BASF-AR2025-p0194",
+      "pdf_page": 194,
+      "recovery_generation": "initial",
+      "run_record_sha256": "c868bb56d16f0b57fa6bd83b38b8794f37097ff147f51a88973d74bacdda0cd3",
+      "status": "success_verified",
+      "target_id": "P21-BASF-AR2025-p0194",
+      "task_ids": [
+        "P21-GHG-CALC-001",
+        "P21-SCOPE3-001"
+      ]
+    },
+    {
+      "document_id": "P21-BASF-AR2025",
+      "document_sha256": "6fa0a9f60a3149e585a5b52f06efde1e0aaa5d1156da0d71a1fd40822df7f8b7",
+      "output_directory": "artifacts/p21/mineru_targets/P21-BASF-AR2025-p0195",
+      "pdf_page": 195,
+      "recovery_generation": "initial",
+      "run_record_sha256": "c88911e6892f63455d41db6e68e2cbe7499d265d4481af631e26370ef8f02891",
+      "status": "success_verified",
+      "target_id": "P21-BASF-AR2025-p0195",
+      "task_ids": [
+        "P21-GHG-CALC-001",
+        "P21-SCOPE3-001"
+      ]
+    },
+    {
+      "document_id": "P21-BASF-AR2025",
+      "document_sha256": "6fa0a9f60a3149e585a5b52f06efde1e0aaa5d1156da0d71a1fd40822df7f8b7",
+      "output_directory": "artifacts/p21/mineru_targets/P21-BASF-AR2025-p0242",
+      "pdf_page": 242,
+      "recovery_generation": "initial",
+      "run_record_sha256": "105ac1b0ed5d0e03770107c4335c31d9a693e22160c3f850d7ba0bd4262a3579",
+      "status": "success_verified",
+      "target_id": "P21-BASF-AR2025-p0242",
+      "task_ids": [
+        "P21-TAXONOMY-001"
+      ]
+    },
+    {
+      "document_id": "P21-BASF-AR2025",
+      "document_sha256": "6fa0a9f60a3149e585a5b52f06efde1e0aaa5d1156da0d71a1fd40822df7f8b7",
+      "output_directory": "artifacts/p21/mineru_targets/P21-BASF-AR2025-p0245",
+      "pdf_page": 245,
+      "recovery_generation": "initial",
+      "run_record_sha256": "2eb91696dbe4ed53830143ca5518a687428ab13fb68c9f28bb37cb25f6c3ca8d",
+      "status": "success_verified",
+      "target_id": "P21-BASF-AR2025-p0245",
+      "task_ids": [
+        "P21-TAXONOMY-001"
+      ]
+    },
+    {
+      "document_id": "P21-BASF-AR2025",
+      "document_sha256": "6fa0a9f60a3149e585a5b52f06efde1e0aaa5d1156da0d71a1fd40822df7f8b7",
+      "output_directory": "artifacts/p21/mineru_targets/P21-BASF-AR2025-p0262",
+      "pdf_page": 262,
+      "recovery_generation": "initial",
+      "run_record_sha256": "5ea696a58f99331dfb5b3bcb6f0131d73c7756530a2c10acf66790e3a3eee563",
+      "status": "success_verified",
+      "target_id": "P21-BASF-AR2025-p0262",
+      "task_ids": [
+        "P21-WORKFORCE-001"
+      ]
+    },
+    {
+      "document_id": "P21-BASF-AR2025",
+      "document_sha256": "6fa0a9f60a3149e585a5b52f06efde1e0aaa5d1156da0d71a1fd40822df7f8b7",
+      "output_directory": "artifacts/p21/mineru_targets/P21-BASF-AR2025-p0263",
+      "pdf_page": 263,
+      "recovery_generation": "initial",
+      "run_record_sha256": "d6cf48befd4d6ca04faa68d9d224ce829417b49d70e92d73d34c6dfc61e20344",
+      "status": "success_verified",
+      "target_id": "P21-BASF-AR2025-p0263",
+      "task_ids": [
+        "P21-WORKFORCE-001"
+      ]
+    },
+    {
+      "document_id": "P21-BASF-AR2025",
+      "document_sha256": "6fa0a9f60a3149e585a5b52f06efde1e0aaa5d1156da0d71a1fd40822df7f8b7",
+      "output_directory": "artifacts/p21/mineru_targets_RESUME01/P21-BASF-AR2025-p0433",
+      "pdf_page": 433,
+      "recovery_generation": "RESUME01",
+      "run_record_sha256": "7dfff7d0a7b69cd13ea82730f01e9e9b894c0cd9c0046d019fa8abee8dd72b0c",
+      "status": "success_verified",
+      "target_id": "P21-BASF-AR2025-p0433",
+      "task_ids": [
+        "P21-ASSURE-001"
+      ]
+    },
+    {
+      "document_id": "P21-BASF-AR2025",
+      "document_sha256": "6fa0a9f60a3149e585a5b52f06efde1e0aaa5d1156da0d71a1fd40822df7f8b7",
+      "output_directory": "artifacts/p21/mineru_targets/P21-BASF-AR2025-p0434",
+      "pdf_page": 434,
+      "recovery_generation": "initial",
+      "run_record_sha256": "ee4ce865414981b4c1d7159e7972b33eeee65af372f8a3de40354b994214687e",
+      "status": "success_verified",
+      "target_id": "P21-BASF-AR2025-p0434",
+      "task_ids": [
+        "P21-ASSURE-001"
+      ]
+    },
+    {
+      "document_id": "P21-BASF-AR2025",
+      "document_sha256": "6fa0a9f60a3149e585a5b52f06efde1e0aaa5d1156da0d71a1fd40822df7f8b7",
+      "output_directory": "artifacts/p21/mineru_targets/P21-BASF-AR2025-p0436",
+      "pdf_page": 436,
+      "recovery_generation": "initial",
+      "run_record_sha256": "28eaff9be654062e6918e7a663e5f4228128b8455a13b642310d0e0dd74c9435",
+      "status": "success_verified",
+      "target_id": "P21-BASF-AR2025-p0436",
+      "task_ids": [
+        "P21-ASSURE-001"
+      ]
+    }
+  ]
+}

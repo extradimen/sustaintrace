@@ -1,0 +1,172 @@
+{
+  "document_id": "P17-BMW-GROUP-REPORT-2025",
+  "document_sha256": "7a7fd36bf7f274e776ef7eda30d3cda4335a99cbb45f097ae5e8268ccf7759e7",
+  "experiment_id": "P17-V26-UNSEEN-LOCKBOX-V01",
+  "failure_count": 0,
+  "recovery_lineage": [
+    "data/manifests/p17_mineru_recovery_lineage_RESUME01_v0.1.lock.json",
+    "data/manifests/p17_mineru_recovery_lineage_RESUME02_v0.1.lock.json"
+  ],
+  "schema_version": "1.0",
+  "status": "all_target_pages_successfully_parsed_and_hash_verified",
+  "success_count": 12,
+  "target_count": 12,
+  "targets": [
+    {
+      "document_id": "P17-BMW-GROUP-REPORT-2025",
+      "document_sha256": "7a7fd36bf7f274e776ef7eda30d3cda4335a99cbb45f097ae5e8268ccf7759e7",
+      "output_directory": "artifacts/p17/mineru_targets_RESUME02/P17-BMW-GROUP-REPORT-2025-p0127",
+      "pdf_page": 127,
+      "recovery_generation": "RESUME02",
+      "run_record_sha256": "4ce8b27b68df60a9ccaf83f3f80735e1cf1db69f0e21d7baa7d947e92a635340",
+      "status": "success_verified",
+      "target_id": "P17-BMW-GROUP-REPORT-2025-p0127",
+      "task_ids": [
+        "P17-GHG-CALC-001"
+      ]
+    },
+    {
+      "document_id": "P17-BMW-GROUP-REPORT-2025",
+      "document_sha256": "7a7fd36bf7f274e776ef7eda30d3cda4335a99cbb45f097ae5e8268ccf7759e7",
+      "output_directory": "artifacts/p17/mineru_targets_RESUME01/P17-BMW-GROUP-REPORT-2025-p0129",
+      "pdf_page": 129,
+      "recovery_generation": "RESUME01",
+      "run_record_sha256": "14422039c886b611795ddbddac6c3613a824c2e399560a258e33565020b398cf",
+      "status": "success_verified",
+      "target_id": "P17-BMW-GROUP-REPORT-2025-p0129",
+      "task_ids": [
+        "P17-SCOPE3-BOUNDARY-001"
+      ]
+    },
+    {
+      "document_id": "P17-BMW-GROUP-REPORT-2025",
+      "document_sha256": "7a7fd36bf7f274e776ef7eda30d3cda4335a99cbb45f097ae5e8268ccf7759e7",
+      "output_directory": "artifacts/p17/mineru_targets_RESUME01/P17-BMW-GROUP-REPORT-2025-p0130",
+      "pdf_page": 130,
+      "recovery_generation": "RESUME01",
+      "run_record_sha256": "20afdd5f5c179bb2cc934b5ecb73226878e55754e9a72c1406aff8a81489b9ec",
+      "status": "success_verified",
+      "target_id": "P17-BMW-GROUP-REPORT-2025-p0130",
+      "task_ids": [
+        "P17-SCOPE3-BOUNDARY-001"
+      ]
+    },
+    {
+      "document_id": "P17-BMW-GROUP-REPORT-2025",
+      "document_sha256": "7a7fd36bf7f274e776ef7eda30d3cda4335a99cbb45f097ae5e8268ccf7759e7",
+      "output_directory": "artifacts/p17/mineru_targets_RESUME01/P17-BMW-GROUP-REPORT-2025-p0141",
+      "pdf_page": 141,
+      "recovery_generation": "RESUME01",
+      "run_record_sha256": "d49ff447b42592c3d9029a55c6105469182c34138b3973bf6744927009cde5e5",
+      "status": "success_verified",
+      "target_id": "P17-BMW-GROUP-REPORT-2025-p0141",
+      "task_ids": [
+        "P17-WATER-001"
+      ]
+    },
+    {
+      "document_id": "P17-BMW-GROUP-REPORT-2025",
+      "document_sha256": "7a7fd36bf7f274e776ef7eda30d3cda4335a99cbb45f097ae5e8268ccf7759e7",
+      "output_directory": "artifacts/p17/mineru_targets_RESUME01/P17-BMW-GROUP-REPORT-2025-p0142",
+      "pdf_page": 142,
+      "recovery_generation": "RESUME01",
+      "run_record_sha256": "9caf9040928ac1370889f4a224e69492cf0308c017dd99e12dbc32f287c57342",
+      "status": "success_verified",
+      "target_id": "P17-BMW-GROUP-REPORT-2025-p0142",
+      "task_ids": [
+        "P17-WATER-001"
+      ]
+    },
+    {
+      "document_id": "P17-BMW-GROUP-REPORT-2025",
+      "document_sha256": "7a7fd36bf7f274e776ef7eda30d3cda4335a99cbb45f097ae5e8268ccf7759e7",
+      "output_directory": "artifacts/p17/mineru_targets_RESUME01/P17-BMW-GROUP-REPORT-2025-p0172",
+      "pdf_page": 172,
+      "recovery_generation": "RESUME01",
+      "run_record_sha256": "9140e6c2af7f30d1b0f860f5e4a905cb40c7d1a719c1d27d2598b70e9cb8e683",
+      "status": "success_verified",
+      "target_id": "P17-BMW-GROUP-REPORT-2025-p0172",
+      "task_ids": [
+        "P17-WORKFORCE-001"
+      ]
+    },
+    {
+      "document_id": "P17-BMW-GROUP-REPORT-2025",
+      "document_sha256": "7a7fd36bf7f274e776ef7eda30d3cda4335a99cbb45f097ae5e8268ccf7759e7",
+      "output_directory": "artifacts/p17/mineru_targets_RESUME01/P17-BMW-GROUP-REPORT-2025-p0178",
+      "pdf_page": 178,
+      "recovery_generation": "RESUME01",
+      "run_record_sha256": "3839c1eb907f671fb2a12336c4ca397942e5fbab518c68bc706c892bcc58519a",
+      "status": "success_verified",
+      "target_id": "P17-BMW-GROUP-REPORT-2025-p0178",
+      "task_ids": [
+        "P17-SAFETY-001"
+      ]
+    },
+    {
+      "document_id": "P17-BMW-GROUP-REPORT-2025",
+      "document_sha256": "7a7fd36bf7f274e776ef7eda30d3cda4335a99cbb45f097ae5e8268ccf7759e7",
+      "output_directory": "artifacts/p17/mineru_targets_RESUME01/P17-BMW-GROUP-REPORT-2025-p0179",
+      "pdf_page": 179,
+      "recovery_generation": "RESUME01",
+      "run_record_sha256": "a4eeb5d8b84269c86f7ab248fbb884318fa7998071bd4a4ac2d2da2af478d643",
+      "status": "success_verified",
+      "target_id": "P17-BMW-GROUP-REPORT-2025-p0179",
+      "task_ids": [
+        "P17-WORKFORCE-001"
+      ]
+    },
+    {
+      "document_id": "P17-BMW-GROUP-REPORT-2025",
+      "document_sha256": "7a7fd36bf7f274e776ef7eda30d3cda4335a99cbb45f097ae5e8268ccf7759e7",
+      "output_directory": "artifacts/p17/mineru_targets_RESUME01/P17-BMW-GROUP-REPORT-2025-p0372",
+      "pdf_page": 372,
+      "recovery_generation": "RESUME01",
+      "run_record_sha256": "957cf41335863998bf7bb83c801f464bc2ef1fdb26d19268a713f15ff6833519",
+      "status": "success_verified",
+      "target_id": "P17-BMW-GROUP-REPORT-2025-p0372",
+      "task_ids": [
+        "P17-ASSURE-001"
+      ]
+    },
+    {
+      "document_id": "P17-BMW-GROUP-REPORT-2025",
+      "document_sha256": "7a7fd36bf7f274e776ef7eda30d3cda4335a99cbb45f097ae5e8268ccf7759e7",
+      "output_directory": "artifacts/p17/mineru_targets_RESUME01/P17-BMW-GROUP-REPORT-2025-p0373",
+      "pdf_page": 373,
+      "recovery_generation": "RESUME01",
+      "run_record_sha256": "de4680f53b5aa6bb8d98875faaecd7224e4bab45ea7f8505a6c1c95f61f39931",
+      "status": "success_verified",
+      "target_id": "P17-BMW-GROUP-REPORT-2025-p0373",
+      "task_ids": [
+        "P17-ASSURE-001"
+      ]
+    },
+    {
+      "document_id": "P17-BMW-GROUP-REPORT-2025",
+      "document_sha256": "7a7fd36bf7f274e776ef7eda30d3cda4335a99cbb45f097ae5e8268ccf7759e7",
+      "output_directory": "artifacts/p17/mineru_targets_RESUME01/P17-BMW-GROUP-REPORT-2025-p0374",
+      "pdf_page": 374,
+      "recovery_generation": "RESUME01",
+      "run_record_sha256": "9778a5a1095fd3ca9191cb3397e418ec4f4293c2de9fb1664ac33ed2f0031608",
+      "status": "success_verified",
+      "target_id": "P17-BMW-GROUP-REPORT-2025-p0374",
+      "task_ids": [
+        "P17-ASSURE-001"
+      ]
+    },
+    {
+      "document_id": "P17-BMW-GROUP-REPORT-2025",
+      "document_sha256": "7a7fd36bf7f274e776ef7eda30d3cda4335a99cbb45f097ae5e8268ccf7759e7",
+      "output_directory": "artifacts/p17/mineru_targets_RESUME01/P17-BMW-GROUP-REPORT-2025-p0375",
+      "pdf_page": 375,
+      "recovery_generation": "RESUME01",
+      "run_record_sha256": "4f475709d5ae67f4f1ff3a96d63c77c4fd0243c9b09cbf64863b64093b649d78",
+      "status": "success_verified",
+      "target_id": "P17-BMW-GROUP-REPORT-2025-p0375",
+      "task_ids": [
+        "P17-ASSURE-001"
+      ]
+    }
+  ]
+}

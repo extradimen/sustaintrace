@@ -1,0 +1,95 @@
+{
+  "answer": "For 2025, turnover totalled CHF 15,724m: CHF 7,603m (48.4%) was eligible and CHF 914m (5.8%) aligned. CapEx totalled CHF 1,809m: CHF 1,038m (57.4%) eligible and CHF 347m (19.2%) aligned. OpEx totalled CHF 949m: CHF 573m (60.4%) eligible and CHF 93m (9.8%) aligned. Turnover growth reflected low-carbon cement and better DNSH alignment; CapEx growth reflected decarbonization and circularity investment; OpEx growth reflected refined R&D identification. 2024 comparatives were restated and unaudited, and the spun-off North American business was excluded from both 2024 and 2025 KPIs.",
+  "evidence": [
+    {
+      "pdf_page": 111,
+      "quote": "remain unaudited",
+      "source_id": "P20-HOLCIM-SS2025"
+    },
+    {
+      "pdf_page": 111,
+      "quote": "Eligible and aligned</td><td>914</td><td>5.8%",
+      "source_id": "P20-HOLCIM-SS2025"
+    },
+    {
+      "pdf_page": 111,
+      "quote": "Total</td><td>15 724</td><td>100%",
+      "source_id": "P20-HOLCIM-SS2025"
+    },
+    {
+      "pdf_page": 111,
+      "quote": "total eligible CapEx amounted to CHF 1 038 million",
+      "source_id": "P20-HOLCIM-SS2025"
+    },
+    {
+      "pdf_page": 111,
+      "quote": "Taxonomy-aligned CapEx of CHF 347 million",
+      "source_id": "P20-HOLCIM-SS2025"
+    },
+    {
+      "pdf_page": 112,
+      "quote": "Eligible and aligned</td><td>93</td><td>9.8%",
+      "source_id": "P20-HOLCIM-SS2025"
+    },
+    {
+      "pdf_page": 112,
+      "quote": "Eligible but not aligned</td><td>480</td><td>50.6%",
+      "source_id": "P20-HOLCIM-SS2025"
+    },
+    {
+      "pdf_page": 112,
+      "quote": "Total</td><td>949</td><td>100%",
+      "source_id": "P20-HOLCIM-SS2025"
+    },
+    {
+      "pdf_page": 112,
+      "quote": "more refined assessment methodology implemented in 2025",
+      "source_id": "P20-HOLCIM-SS2025"
+    },
+    {
+      "pdf_page": 113,
+      "quote": "fully excluded from our reported consolidated Group turnover, CapEx, and OpEx KPIs for the two periods disclosed for 2024 and 2025",
+      "source_id": "P20-HOLCIM-SS2025"
+    },
+    {
+      "pdf_page": 114,
+      "quote": "<td>Turnover</td><td>15 724</td><td>48.4%</td><td>914</td>",
+      "source_id": "P20-HOLCIM-SS2025"
+    },
+    {
+      "pdf_page": 114,
+      "quote": "<td>1 809</td><td>57.4%</td><td>347 93</td>",
+      "source_id": "P20-HOLCIM-SS2025"
+    }
+  ],
+  "normalized_value": {
+    "capex_aligned_mchf::2025": 347,
+    "capex_aligned_percent::2025": 19.2,
+    "capex_driver": "accelerated decarbonization and circularity investments",
+    "capex_eligible_mchf::2025": 1038,
+    "capex_eligible_percent::2025": 57.4,
+    "capex_total_mchf::2025": 1809,
+    "comparative_qualification": "2024 figures restated for discontinued operations and unaudited",
+    "opex_aligned_mchf::2025": 93,
+    "opex_aligned_percent::2025": 9.8,
+    "opex_driver": "refined 2025 methodology improved identification of qualifying R&D",
+    "opex_eligible_mchf::2025": 573,
+    "opex_eligible_percent::2025": 60.4,
+    "opex_total_mchf::2025": 949,
+    "spin_off_boundary": "North American business excluded from consolidated turnover, CapEx and OpEx KPIs for both 2024 and 2025",
+    "turnover_aligned_mchf::2025": 914,
+    "turnover_aligned_percent::2025": 5.8,
+    "turnover_driver": "higher low-carbon cement sales and improved DNSH alignment for air pollution and climate adaptation",
+    "turnover_eligible_mchf::2025": 7603,
+    "turnover_eligible_percent::2025": 48.4,
+    "turnover_total_mchf::2025": 15724
+  },
+  "provenance": {
+    "candidate_model_used": false,
+    "reference_is_simulated": true
+  },
+  "reference_author": "codex_gpt_simulated_expert",
+  "reference_status": "verified_against_frozen_mineru_pages_and_native_layout",
+  "schema_version": "1.0",
+  "task_id": "P20-TAXONOMY-001"
+}

@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "experiment_id": "V132-SEMANTIC-QUALIFIER-REGRESSION-DEV01",
+  "status": "completed_semantically_audited",
+  "development_tasks": 2,
+  "framework_valid": 2,
+  "semantic_exact": 2,
+  "task_results": [
+    {
+      "task_id": "P3-XPAGE-002",
+      "result": "exact",
+      "preserved_semantics": {
+        "year_on_year_change": -10.7,
+        "direction": "decrease",
+        "assurance_level": "Limited Assurance",
+        "assurance_evidence_handle": "M131-B0002"
+      }
+    },
+    {
+      "task_id": "P3-SCOPE-002",
+      "result": "exact",
+      "preserved_semantics": {
+        "scope_1_2_excluded_share": {"operator": "<", "value": 5, "unit": "percent"},
+        "scope_3_excluded_share": {"operator": "<", "value": 10, "unit": "percent"}
+      }
+    }
+  ],
+  "aggregate_score": null,
+  "posthoc_repair_applied": false,
+  "p3_unseen_result_modified": false,
+  "promotion_status": "requires_uniform_v1.3.2_full_regression"
+}

@@ -1,0 +1,72 @@
+{
+  "model_inference_occurred_before_fix": false,
+  "reason": "MinerU names its artifact directory after the PDF filename stem, while the frozen evidence builder resolves the registered document_id.",
+  "records": [
+    {
+      "actual_artifact_directory": "microsoft-sustainability-report-2025",
+      "alias": "artifacts/p4/mineru_targets_RESUME01/P4-MSFT-ESR2025-p0028/P4-MSFT-ESR2025",
+      "content_list_alias": "artifacts/p4/mineru_targets_RESUME01/P4-MSFT-ESR2025-p0028/microsoft-sustainability-report-2025/auto/P4-MSFT-ESR2025_content_list.json",
+      "document_id": "P4-MSFT-ESR2025",
+      "status": "created_relative_alias",
+      "target_id": "P4-MSFT-ESR2025-p0028"
+    },
+    {
+      "actual_artifact_directory": "microsoft-sustainability-report-2025",
+      "alias": "artifacts/p4/mineru_targets_RESUME01/P4-MSFT-ESR2025-p0029/P4-MSFT-ESR2025",
+      "content_list_alias": "artifacts/p4/mineru_targets_RESUME01/P4-MSFT-ESR2025-p0029/microsoft-sustainability-report-2025/auto/P4-MSFT-ESR2025_content_list.json",
+      "document_id": "P4-MSFT-ESR2025",
+      "status": "created_relative_alias",
+      "target_id": "P4-MSFT-ESR2025-p0029"
+    },
+    {
+      "actual_artifact_directory": "nestle-non-financial-statement-2024",
+      "alias": "artifacts/p4/mineru_targets_RESUME01/P4-NESN-NFS2024-p0039/P4-NESN-NFS2024",
+      "content_list_alias": "artifacts/p4/mineru_targets_RESUME01/P4-NESN-NFS2024-p0039/nestle-non-financial-statement-2024/auto/P4-NESN-NFS2024_content_list.json",
+      "document_id": "P4-NESN-NFS2024",
+      "status": "created_relative_alias",
+      "target_id": "P4-NESN-NFS2024-p0039"
+    },
+    {
+      "actual_artifact_directory": "nestle-non-financial-statement-2024",
+      "alias": "artifacts/p4/mineru_targets_RESUME01/P4-NESN-NFS2024-p0050/P4-NESN-NFS2024",
+      "content_list_alias": "artifacts/p4/mineru_targets_RESUME01/P4-NESN-NFS2024-p0050/nestle-non-financial-statement-2024/auto/P4-NESN-NFS2024_content_list.json",
+      "document_id": "P4-NESN-NFS2024",
+      "status": "created_relative_alias",
+      "target_id": "P4-NESN-NFS2024-p0050"
+    },
+    {
+      "actual_artifact_directory": "nestle-non-financial-statement-2024",
+      "alias": "artifacts/p4/mineru_targets_RESUME01/P4-NESN-NFS2024-p0123/P4-NESN-NFS2024",
+      "content_list_alias": "artifacts/p4/mineru_targets_RESUME01/P4-NESN-NFS2024-p0123/nestle-non-financial-statement-2024/auto/P4-NESN-NFS2024_content_list.json",
+      "document_id": "P4-NESN-NFS2024",
+      "status": "created_relative_alias",
+      "target_id": "P4-NESN-NFS2024-p0123"
+    },
+    {
+      "actual_artifact_directory": "nike-fy24-sustainability-data",
+      "alias": "artifacts/p4/mineru_targets_RESUME01/P4-NIKE-SD2024-p0024/P4-NIKE-SD2024",
+      "content_list_alias": "artifacts/p4/mineru_targets_RESUME01/P4-NIKE-SD2024-p0024/nike-fy24-sustainability-data/auto/P4-NIKE-SD2024_content_list.json",
+      "document_id": "P4-NIKE-SD2024",
+      "status": "created_relative_alias",
+      "target_id": "P4-NIKE-SD2024-p0024"
+    },
+    {
+      "actual_artifact_directory": "nike-fy24-sustainability-data",
+      "alias": "artifacts/p4/mineru_targets_RESUME01/P4-NIKE-SD2024-p0027/P4-NIKE-SD2024",
+      "content_list_alias": "artifacts/p4/mineru_targets_RESUME01/P4-NIKE-SD2024-p0027/nike-fy24-sustainability-data/auto/P4-NIKE-SD2024_content_list.json",
+      "document_id": "P4-NIKE-SD2024",
+      "status": "created_relative_alias",
+      "target_id": "P4-NIKE-SD2024-p0027"
+    },
+    {
+      "actual_artifact_directory": "nike-fy24-sustainability-data",
+      "alias": "artifacts/p4/mineru_targets_RESUME01/P4-NIKE-SD2024-p0028/P4-NIKE-SD2024",
+      "content_list_alias": "artifacts/p4/mineru_targets_RESUME01/P4-NIKE-SD2024-p0028/nike-fy24-sustainability-data/auto/P4-NIKE-SD2024_content_list.json",
+      "document_id": "P4-NIKE-SD2024",
+      "status": "created_relative_alias",
+      "target_id": "P4-NIKE-SD2024-p0028"
+    }
+  ],
+  "schema_version": "1.0",
+  "status": "mineru_document_id_aliases_ready"
+}

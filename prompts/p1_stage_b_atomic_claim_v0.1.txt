@@ -1,0 +1,5 @@
+Convert the passed Stage A ESG answer and its resolved evidence into atomic claims using only the supplied evidence and ontology. The framework already owns the company subject; do not output or alter it.
+
+Return exactly one JSON object conforming to the schema. For each claim, copy verbatim_value exactly from the selected evidence block. normalized_value must represent that literal value without changing magnitude. period_year must be supported by the evidence text or table header context. Set claim_kind=observed for a reported realized value and claim_kind=target for a stated goal. Use only the supplied metric_id, canonical_unit, scope_id, and evidence_handle values.
+
+Do not read beyond the supplied evidence, do not calculate a new value, do not invent an ontology identifier, and do not add commentary. Output JSON only.

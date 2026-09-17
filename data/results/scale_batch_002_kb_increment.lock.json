@@ -1,0 +1,50 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-002",
+  "status": "increment_built_candidates_not_promoted",
+  "fact_candidates": 40,
+  "trusted_facts_promoted": 0,
+  "evidence_gaps": 4,
+  "failure_observations": 6,
+  "gaps": [
+    {
+      "document_id": "KB-B002-EON-SF2025",
+      "page": 26,
+      "theme": "targets",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B002-EON-SF2025",
+      "page": 53,
+      "theme": "energy",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B002-EON-SF2025",
+      "page": 55,
+      "theme": "water",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B002-MAERSK-AR2025",
+      "page": 112,
+      "theme": "biodiversity",
+      "reason": "no_theme_line_in_mineru_markdown"
+    }
+  ],
+  "outputs": {
+    "facts": {
+      "path": "data/knowledge_bases/v0.1/increments/scale_batch_002_fact_records.jsonl",
+      "sha256": "f6aafd480fd0017278d9ab496e5241c5222312bd4341808aa43ee8bf13d249e2"
+    },
+    "failures": {
+      "path": "data/knowledge_bases/v0.1/increments/scale_batch_002_failure_records.jsonl",
+      "sha256": "a777580c72261ea39f07c362d1eea6569e351e927a4cd59113eaa96ff13aa590"
+    }
+  },
+  "policy": {
+    "cloud_transmission": false,
+    "locked_experiments_modified": false,
+    "automatic_promotion": false
+  }
+}

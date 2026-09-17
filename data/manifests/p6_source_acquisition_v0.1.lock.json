@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "manifest_id": "P6-SOURCE-ACQUISITION-v0.1",
+  "status": "source_frozen_before_question_and_reference_design",
+  "frozen_date": "2026-09-05",
+  "documents": [
+    {
+      "document_id": "P6-UNILEVER-AR2025",
+      "company": "Unilever PLC",
+      "title": "Unilever Annual Report and Accounts 2025",
+      "reporting_year": 2025,
+      "language": "English",
+      "source_type": "official_issuer_website",
+      "source_url": "https://www.unilever.com/files/unilever-annual-report-and-accounts-2025.pdf",
+      "local_path": "data/raw/p6_staging/unilever-annual-report-2025.pdf",
+      "sha256": "dcdc67ff84977e2beeb6b7a8113b6862fae1880838c613eceac42ba4b605d9d7",
+      "file_size_bytes": 6462362,
+      "page_count": 285,
+      "pdf_version": "1.6",
+      "ingestion_status": "verified",
+      "eligibility": "new_and_unseen_in_P1_through_P5"
+    }
+  ]
+}

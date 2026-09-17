@@ -1,0 +1,86 @@
+{
+  "batch_id": "KB-SCALE-BATCH-027-PERFORMANCE",
+  "comparison_parent": "data/results/scale_batch_026_performance_baseline.lock.json",
+  "completed_at": "2026-09-13T23:49:44.375146+00:00",
+  "mineru": {
+    "attempt_wall_seconds": [
+      86.160832,
+      466.654503,
+      292.131438,
+      250.648782
+    ],
+    "final_complete_pages": 30,
+    "initial_failure_class": "sandbox_local_server_port_bind_denied",
+    "initial_failures": 30,
+    "post_completion_shutdown_recovered_pages": 5,
+    "resume_completed_pages": 25,
+    "status": "complete_after_audited_resume_and_hash_recovery",
+    "successful_processing_wall_seconds": 475.318103,
+    "successful_target_pages": 30,
+    "successful_target_pages_per_hour": 227.216256,
+    "target_page_wall_seconds": {
+      "KB-B027-HANDELSBANKEN-AR2025:p0079": 15.773155,
+      "KB-B027-HANDELSBANKEN-AR2025:p0086": 15.573,
+      "KB-B027-HANDELSBANKEN-AR2025:p0087": 16.174252,
+      "KB-B027-HANDELSBANKEN-AR2025:p0092": 14.552841,
+      "KB-B027-HANDELSBANKEN-AR2025:p0099": 14.761703,
+      "KB-B027-HANDELSBANKEN-AR2025:p0101": 17.121308,
+      "KB-B027-HANDELSBANKEN-AR2025:p0139": 13.476181,
+      "KB-B027-HANDELSBANKEN-AR2025:p0140": 15.796981,
+      "KB-B027-HANDELSBANKEN-AR2025:p0142": 15.027695,
+      "KB-B027-HANDELSBANKEN-AR2025:p0143": 13.657788,
+      "KB-B027-NORDEA-AR2025:p0104": 16.628279,
+      "KB-B027-NORDEA-AR2025:p0124": 16.895518,
+      "KB-B027-NORDEA-AR2025:p0128": 16.162903,
+      "KB-B027-NORDEA-AR2025:p0137": 16.726155,
+      "KB-B027-NORDEA-AR2025:p0149": 15.789721,
+      "KB-B027-NORDEA-AR2025:p0156": 16.940522,
+      "KB-B027-NORDEA-AR2025:p0158": 16.917862,
+      "KB-B027-NORDEA-AR2025:p0191": 15.667303,
+      "KB-B027-NORDEA-AR2025:p0375": 15.933914,
+      "KB-B027-NORDEA-AR2025:p0376": 13.500184,
+      "KB-B027-SECURITAS-AR2025:p0075": 16.488976,
+      "KB-B027-SECURITAS-AR2025:p0078": 16.953886,
+      "KB-B027-SECURITAS-AR2025:p0079": 17.070582,
+      "KB-B027-SECURITAS-AR2025:p0080": 15.878547,
+      "KB-B027-SECURITAS-AR2025:p0081": 15.790658,
+      "KB-B027-SECURITAS-AR2025:p0091": 17.120075,
+      "KB-B027-SECURITAS-AR2025:p0093": 16.719205,
+      "KB-B027-SECURITAS-AR2025:p0103": 15.528886,
+      "KB-B027-SECURITAS-AR2025:p0175": 15.952141,
+      "KB-B027-SECURITAS-AR2025:p0176": 14.737882
+    },
+    "total_attempt_wall_seconds": 1095.595555
+  },
+  "mineru_comparison": {
+    "batch_026_pages_per_hour": 225.59043,
+    "batch_027_pages_per_hour": 227.216256,
+    "interpretation_gate": "throughput_only_quality_measured_separately",
+    "relative_change_percent": 0.721
+  },
+  "policy": {
+    "cloud_transmission": false,
+    "locked_experiments_modified": false,
+    "parent_results_overwritten": false,
+    "performance_separate_from_knowledge_quality": true
+  },
+  "provisional_comparison": {
+    "batch_026_pages_per_second": null,
+    "batch_027_pages_per_second": 268.848951,
+    "interpretation_gate": "diagnostic_only_not_semantic_quality_or_mineru_speed",
+    "relative_change_percent": null,
+    "status": "parent_unavailable"
+  },
+  "schema_version": "0.1",
+  "started_at": "2026-09-13T22:35:10.059195+00:00",
+  "status": "diagnostic_and_mineru_baseline_complete",
+  "whole_report_diagnostic": {
+    "documents": 3,
+    "extractable_pages": 898,
+    "pages_per_second": 268.848951,
+    "pdf_pages": 909,
+    "peak_rss_bytes": 63422464,
+    "peak_rss_mb": 60.484,
+    "wall_seconds": 3.381081
+  }
+}

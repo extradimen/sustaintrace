@@ -1,0 +1,28 @@
+{
+  "schema_version":"1.0",
+  "experiment_id":"V12-P2-DEVELOPMENT-REGRESSION",
+  "freeze_manifest":"data/manifests/v1.2_development_freeze.lock.json",
+  "status":"completed_pass",
+  "role":"prospective development regression on an exposed P2 task; not generalization evidence",
+  "single_attempt":true,
+  "task_id":"P2-DEX-002",
+  "run_id":"P2-DEX-002-QWEN397B-v12-r1",
+  "model":"qwen3.5:397b-cloud",
+  "model_digest":"68d2a0796c11e1fedd0456a2d55e58cca4077be6a218428a7a7f4e21f8177cbc",
+  "elapsed_seconds":6.571926917007659,
+  "result":{
+    "status":"passed",
+    "answer":"8,151,769",
+    "evidence_handle":"P012-XROW0001",
+    "evidence_excerpt":"Scope 3 | 8,151,769 metric tons CO2e",
+    "normalized_value":8151769,
+    "normalized_unit":"metric tons CO2e",
+    "optional_normalization_validated":true,
+    "model_output_modified":false,
+    "reference_visible":false,
+    "posthoc_repair":false
+  },
+  "methodological_conclusion":"The preregistered validated-superset contract accepts useful model-emitted normalization only when it is grounded in the selected evidence; it does not weaken evidence or arbitrary-field constraints.",
+  "p3_claim_allowed":false,
+  "next_required_milestone":"Freeze and execute a genuinely unseen P3 evaluation before any generalization claim."
+}

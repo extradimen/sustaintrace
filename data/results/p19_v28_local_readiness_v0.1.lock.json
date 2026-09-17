@@ -1,0 +1,104 @@
+{
+  "artifacts": {
+    "atomic_gold": {
+      "path": "data/annotations/p19_simulated/p19_atomic_slot_gold_v0.1.lock.json",
+      "sha256": "3a266f9c0524a99a45e13c88a15b31d1b29c9fbeaaa1f61c301f20246577e74a"
+    },
+    "calculation_plans": {
+      "path": "configs/framework/p19_calculation_plans_v0.1.lock.json",
+      "sha256": "dc455d750dea3f5781e01682176a634432b9568bcbf993035d18ead57a0ea878"
+    },
+    "execution_config": {
+      "path": "configs/experiments/p19-v28-unseen-lockbox-local.json",
+      "sha256": "29d28174d98266a3a849d8871708dc7d2532ba6ab260575d6caa3b9d4f382130"
+    },
+    "handle_whitelist": {
+      "path": "configs/framework/p19_evidence_handle_whitelist_v0.1.lock.json",
+      "sha256": "a420215215d4988a493bdefcc8e519c77e0ae9185ce723b722762eda0aa63117"
+    },
+    "layout_registry": {
+      "path": "configs/framework/p19_layout_fallback_registry_v0.1.lock.json",
+      "sha256": "fcb77aae941b97d6f1140b5c6548fe7a09979f6f775356797a9847a247f209e3"
+    },
+    "local_task_pack": {
+      "path": "data/tasks/p19_local_execution_task_pack_v0.1.lock.json",
+      "sha256": "a06edc127afe57584c399cdf2fd6e606433ced8e23d14193d6fe96bfe76766d5"
+    },
+    "report": {
+      "path": "docs/85_P19_v2.8本地预冻结与云授权边界_v0.1.md",
+      "sha256": "caa187137b01976bb0d6ae10393f8629114da3383716861a4e5ab65bbfc4f211"
+    },
+    "scoring_rules": {
+      "path": "configs/framework/p19_scoring_rules_v0.1.lock.json",
+      "sha256": "515b301cc6280556ce969b543662ed0e003d33c751991b1ea278934fe8768edf"
+    },
+    "semantic_qualifiers": {
+      "path": "configs/framework/p19_semantic_qualifiers_v0.1.lock.json",
+      "sha256": "f8ef8dbd08e192adcc64f137056c37dca422765d7be3e99e8263d0f78e9faf41"
+    },
+    "slot_contracts": {
+      "path": "configs/framework/p19_slot_contracts_v0.1.lock.json",
+      "sha256": "65c26e96a6a6e73abea6cc1a03b73b247b8881e8022a773bf97abb4a9f4f0fe8"
+    },
+    "table_graph": {
+      "path": "configs/framework/p19_two_dimensional_table_graph_v0.1.lock.json",
+      "sha256": "8a5e730282a59008157266b7d82d691b48d9fcd7ba5e80e642ff2e9e91e81732"
+    }
+  },
+  "cloud_boundary": {
+    "authorized_pages_required": [
+      58,
+      65,
+      66,
+      80,
+      123,
+      124,
+      135,
+      136
+    ],
+    "authorized_scope_required": "P19 Stage A/Stage B single-attempt candidate inference",
+    "candidate_model": "qwen3.5:397b-cloud",
+    "candidate_model_call_count": 0,
+    "cloud_transmission_count": 0,
+    "explicit_payload_specific_authorization_received": false
+  },
+  "document_id": "P19-NOVO-NORDISK-AR2025",
+  "document_sha256": "f5475f1e043eaa99526772c0e06677a74ab2c2abb8181755afbe02a10e395092",
+  "experiment_id": "P19-V28-UNSEEN-LOCKBOX-V01",
+  "locked_prior_experiments_modified": false,
+  "mineru": {
+    "failure_count": 0,
+    "preserved_infrastructure_failures": 9,
+    "recovery_generations": [
+      "RESUME01",
+      "RESUME02"
+    ],
+    "registry": "data/manifests/p19_mineru_target_registry_v0.1.lock.json",
+    "registry_sha256": "20ea9857771d930cfc4fe384ea10f07251a2b4567637ee0b893b1b5c1df31498",
+    "success_count": 8
+  },
+  "prefreeze_integrity": {
+    "contract_preflights_passed": 65,
+    "deterministic_calculation_passed": true,
+    "evidence_quotes_checked": 62,
+    "reference_audit": "data/results/p19_prefreeze_reference_consistency_audit_v0.1.lock.json",
+    "reference_audit_sha256": "3af766f2992a022e388abfe073e0a1e6b96bcaff5cbeaaef8c9e37cd0d639a3f",
+    "reference_freeze": "data/manifests/p19_simulated_reference_freeze_v0.1.lock.json",
+    "reference_freeze_sha256": "db8b725ba4d30efa0412bb7c12325cb0549952603b9bc6e2ed99eb4864b278f0",
+    "status": "passed"
+  },
+  "schema_version": "2.8",
+  "slot_count": 65,
+  "status": "local_readiness_passed_waiting_for_payload_specific_cloud_authorization",
+  "task_count": 6,
+  "unique_target_pages": [
+    58,
+    65,
+    66,
+    80,
+    123,
+    124,
+    135,
+    136
+  ]
+}

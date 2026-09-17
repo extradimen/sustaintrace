@@ -1,0 +1,62 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-016",
+  "status": "increment_built_candidates_not_promoted",
+  "fact_candidates": 40,
+  "trusted_facts_promoted": 0,
+  "evidence_gaps": 6,
+  "failure_observations": 6,
+  "gaps": [
+    {
+      "document_id": "KB-B016-AKZONOBEL-AR2025",
+      "page": 74,
+      "theme": "circularity",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B016-AKZONOBEL-AR2025",
+      "page": 75,
+      "theme": "health_safety",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B016-AKZONOBEL-AR2025",
+      "page": 75,
+      "theme": "workforce",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B016-AKZONOBEL-AR2025",
+      "page": 77,
+      "theme": "biodiversity",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B016-NOVONESIS-AR2025",
+      "page": 199,
+      "theme": "assurance",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B016-COLOPLAST-AR2025",
+      "page": 72,
+      "theme": "biodiversity",
+      "reason": "no_theme_line_in_mineru_markdown"
+    }
+  ],
+  "outputs": {
+    "facts": {
+      "path": "data/knowledge_bases/v0.1/increments/scale_batch_016_fact_records.jsonl",
+      "sha256": "7afa5722a0d1505c2db21248a5c0b95d8a98437ec23302c056ee850e07dd9b80"
+    },
+    "failures": {
+      "path": "data/knowledge_bases/v0.1/increments/scale_batch_016_failure_records.jsonl",
+      "sha256": "d2f6442c6b185e051f9622e49b96380956f27098c7b32b1bbf50e10de07b5e59"
+    }
+  },
+  "policy": {
+    "cloud_transmission": false,
+    "locked_experiments_modified": false,
+    "automatic_promotion": false
+  }
+}

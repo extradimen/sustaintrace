@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "gold_pack_id": "P0-CLOSED-GOLD-v0.1",
+  "task_pack_sha256": "80491e7e0dce558cb89689026aa59d88d9834c9a00c0b885b12c668eac1b4916",
+  "finding_card_schema_sha256": "e2aac00a4996600dbb56ae2531f4a69f539f8edb4ac66929a74048f284a57520",
+  "scorer_sha256": "a658a75f08e18fe67a4cb1090ee63effa4aa8cc37e52e6900d6694dc9788db6b",
+  "closed_tasks_locked": true,
+  "open_discovery_locked": false,
+  "cards": [
+    {"task_id": "P0-ABSTAIN-001", "path": "data/annotations/p0_gold/P0-ABSTAIN-001.json", "sha256": "d7ad7aea1e71f2122b666c5a80e4abd40f39dd15a6ad52c336bad79377f4ffac"},
+    {"task_id": "P0-CALC-001", "path": "data/annotations/p0_gold/P0-CALC-001.json", "sha256": "4d19a25f71798248c0c81370c9b424859be92739f22f31c4b8a76d7219bed8a0"},
+    {"task_id": "P0-CONFLICT-001", "path": "data/annotations/p0_gold/P0-CONFLICT-001.json", "sha256": "2036be03c02ecc7aa80a5e801eecbec22fb229b681d20fb7b00f86ae09a5417d"},
+    {"task_id": "P0-TABLE-001", "path": "data/annotations/p0_gold/P0-TABLE-001.json", "sha256": "4947dc22e8d68d788a2b3608dd8b399f3ad8b2a727d1ac429a187d3ef6bc0542"},
+    {"task_id": "P0-TARGET-001", "path": "data/annotations/p0_gold/P0-TARGET-001.json", "sha256": "28d2ebc2bfd6b8639351c7edd7ac2aac924cec69f7f6106a35462a93c6b29452"},
+    {"task_id": "P0-TEXT-001", "path": "data/annotations/p0_gold/P0-TEXT-001.json", "sha256": "ef88a6d13673623a8811f7069b441e0c812523dd6b7a7aa6fd417a7f307a9bbd"}
+  ]
+}

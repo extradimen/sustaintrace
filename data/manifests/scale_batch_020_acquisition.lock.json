@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-020",
+  "created_at": "2026-09-13T16:19:17Z",
+  "source_config": "configs/knowledge/scale_batch_020_v0.1.json",
+  "source_attempt": "data/manifests/scale_batch_020_acquisition_attempt.lock.json",
+  "status": "three_unique_reports_downloaded_and_verified",
+  "documents": [
+    {
+      "document_id": "KB-B020-SOLVAY-AIR2025",
+      "local_path": "data/raw/scale_batch_020/solvay-annual-integrated-report-2025.pdf",
+      "bytes": 6425378,
+      "sha256": "6e69c2a5af1653efc7786101d4f752d40cb07aab1f3a32f0a5e332e3d8370e15",
+      "pdf_pages": 336,
+      "pdf_header_valid": true,
+      "download_status": "downloaded_verified"
+    },
+    {
+      "document_id": "KB-B020-KERING-URD2025",
+      "local_path": "data/raw/scale_batch_020/kering-universal-registration-document-2025.pdf",
+      "bytes": 9891767,
+      "sha256": "5a3e9d1669714950c2b73db8d3d0d42fea290688fc376ade902c7188e2d9293f",
+      "pdf_pages": 516,
+      "pdf_header_valid": true,
+      "download_status": "downloaded_verified"
+    },
+    {
+      "document_id": "KB-B020-CARREFOUR-URD2025",
+      "local_path": "data/raw/scale_batch_020/carrefour-universal-registration-document-2025.pdf",
+      "bytes": 11304927,
+      "sha256": "1fdfba97d1ce09f311363c7f909a7781cea3d6841324a14e1dd0b57f92beede1",
+      "pdf_pages": 588,
+      "pdf_header_valid": true,
+      "download_status": "downloaded_replacement_verified"
+    }
+  ],
+  "cloud_transmission": false
+}

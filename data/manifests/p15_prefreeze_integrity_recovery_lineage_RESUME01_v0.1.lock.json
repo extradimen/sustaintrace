@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "experiment_id": "P15-V24-UNSEEN-LOCKBOX-V01",
+  "status": "infrastructure_recovery_before_candidate_inference",
+  "parent_failed_audit": "data/results/p15_v24_prefreeze_integrity_audit_v0.1.lock.json",
+  "parent_failure": "binary floating-point representation produced 4377.099999999999 for an exact one-decimal source-literal calculation",
+  "candidate_model_attempts_consumed": 0,
+  "cloud_transmission_count": 0,
+  "reused_passed_items": [
+    "13-page MinerU output verification",
+    "46 evidence-quote checks",
+    "6 reference-to-contract key checks",
+    "13-record v2.4 layout gate",
+    "all 63 Stage B contract preflights"
+  ],
+  "resumed_item": "deterministic GHG calculation and final local freeze",
+  "correction": "Decimal fixed-point arithmetic using the frozen one-decimal source literals",
+  "new_audit": "data/results/p15_v24_prefreeze_integrity_audit_RESUME01_v0.1.lock.json",
+  "overwrites_parent": false
+}

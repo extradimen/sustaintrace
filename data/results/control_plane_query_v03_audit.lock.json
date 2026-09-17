@@ -1,0 +1,42 @@
+{
+  "artifacts": {
+    "data/operations/repair_cases/OP-REPAIR-HANDLE-P22-ENERGY-001/actual_output.json": "fad68154e37ae58707b064a0e0f7d87b48213c40a8a683cc150b9bf715150cb9",
+    "data/operations/repair_cases/OP-REPAIR-HANDLE-P22-ENERGY-001/execution_events.jsonl": "c8a75c2fd2c9a767bfedfd4d2f9b5fa88fd4eec8d1106b02e3b12007796f08a2",
+    "data/operations/repair_cases/OP-REPAIR-HANDLE-P22-ENERGY-001/execution_state.lock.json": "ed9d967d2b7964f32aa8c791e74af7bd08440808e80d9b309c1dbc6a67218a67",
+    "data/operations/repair_cases/OP-REPAIR-HANDLE-P22-ENERGY-001/frozen_expected_output.json": "fad68154e37ae58707b064a0e0f7d87b48213c40a8a683cc150b9bf715150cb9",
+    "data/operations/repair_cases/OP-REPAIR-HANDLE-P22-ENERGY-001/frozen_input.json": "136709e95b0880e43d5719f3c361ff5f734562698b51c5404a23b4b960de06de",
+    "data/operations/repair_cases/OP-REPAIR-HANDLE-P22-ENERGY-001/operational_plan.lock.json": "e4ae09d8da085886ff21d1bb33a337aef6f3ff375e97f81e27436d0e49a69c75",
+    "data/operations/repair_cases/OP-REPAIR-HANDLE-P22-ENERGY-001/result_summary.lock.json": "5499e100166571384186e23be68b8bc30dee0829cbc76adab5a84b07c4c1ca2e",
+    "src/esg_reliable_discovery/knowledge_query.py": "abd21e6a4aa804b47bee46fe31f61a2e3693af6866a67666d238869d1942fcbd"
+  },
+  "cloud_model_called": false,
+  "fact_inventory": {
+    "candidates_not_trusted": 971,
+    "facts": 1021,
+    "trusted_tier_b": 50
+  },
+  "locked_experiment_replayed": false,
+  "locked_experiments_modified_or_rescored": false,
+  "next_gate": "add isolated executor failure rollback and idempotency regression cases",
+  "operational_repair_executions": 1,
+  "operational_repair_promotions": 1,
+  "repair_inventory": {
+    "candidate_validations": 4,
+    "dispatch_blocked": 4,
+    "dispatch_decisions": 5,
+    "dispatch_ready": 1,
+    "execution_states": {
+      "blocked_preflight": 1,
+      "promoted": 2,
+      "rolled_back": 2
+    },
+    "failure_observations": 36,
+    "failure_signatures": 14,
+    "regression_observations": 3,
+    "repair_executions": 5,
+    "repair_plans": 36,
+    "repair_strategies": 11
+  },
+  "schema_version": "0.3",
+  "status": "operational_repair_indexed_in_control_plane"
+}

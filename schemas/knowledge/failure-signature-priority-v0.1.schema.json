@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Failure signature priority v0.1",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "record_kind",
+    "failure_signature",
+    "lane",
+    "raw_observations",
+    "incident_episodes",
+    "affected_experiments",
+    "affected_tasks",
+    "source_artifacts",
+    "failure_category",
+    "failure_owner",
+    "strategy_id",
+    "strategy_maturity",
+    "execution_policy",
+    "risk_level",
+    "research_priority_score",
+    "capability_rank"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {"const": "0.1"},
+    "record_kind": {"const": "failure_signature_priority"},
+    "failure_signature": {"type": "string", "minLength": 1},
+    "lane": {
+      "enum": [
+        "knowledge_capability",
+        "operational_infrastructure",
+        "source_acquisition_integrity"
+      ]
+    },
+    "raw_observations": {"type": "integer", "minimum": 1},
+    "incident_episodes": {"type": "integer", "minimum": 1},
+    "affected_experiments": {"type": "integer", "minimum": 1},
+    "affected_tasks": {"type": "integer", "minimum": 1},
+    "source_artifacts": {"type": "integer", "minimum": 1},
+    "failure_category": {"type": "string", "minLength": 1},
+    "failure_owner": {"type": "string", "minLength": 1},
+    "strategy_id": {"type": "string", "minLength": 1},
+    "strategy_maturity": {"type": "string", "minLength": 1},
+    "execution_policy": {"type": "string", "minLength": 1},
+    "risk_level": {"enum": ["low", "medium", "high"]},
+    "research_priority_score": {"type": "number"},
+    "capability_rank": {"type": ["integer", "null"], "minimum": 1}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "freeze_id": "P5-SIMULATED-REFERENCE-V01",
+  "status": "frozen_before_candidate_execution",
+  "experiment_id": "P5-V14-UNSEEN-LOCKBOX-V01",
+  "task_pack": "data/tasks/p5_task_pack_v0.1.lock.json",
+  "task_pack_sha256": "d19752849a720a0329af4fefd32ef6929105b5a5ecd5078d3f648ca7619fdf11",
+  "reference_type": "AI-simulated expert, not independent human gold",
+  "references": {
+    "P5-ASSURE-001": "571c3b34ed06b98ec02cac5cf4541662fe0f7767cc8b7488cc20d548aec08a9a",
+    "P5-CALC-001": "1cb92274d51ccac695f0966bbc6c12e43df5c055973f0576158023a1c6bb6927",
+    "P5-DEX-001": "8f0a5dc08e7a905ebf7bce7cd9002f51d2b707ce4adf317db5a910475a50ae13",
+    "P5-DEX-002": "b3944f5243b9d4c96f155a61689a13a7abfb06c330b9dea88c556c2963817cb3",
+    "P5-SCOPE-001": "ebe0458dd58aec8c56904f998d7b207c40603bdfd1ce62c096d61bc9bc820982",
+    "P5-XPAGE-001": "1f3a5d3f2908e473242ffaaab5fb44bbd062dfb9546a3086c064bb8b27329d9a"
+  },
+  "candidate_visibility": "forbidden",
+  "candidate_model_called": false,
+  "reference_authored_after_question_freeze": true,
+  "human_gold_claimed": false
+}

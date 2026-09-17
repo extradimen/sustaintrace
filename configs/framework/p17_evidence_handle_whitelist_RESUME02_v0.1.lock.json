@@ -1,0 +1,10 @@
+{
+  "schema_version": "2.6",
+  "experiment_id": "P17-V26-UNSEEN-LOCKBOX-V01",
+  "status": "frozen_before_candidate_inference",
+  "derivation": "Only evidence handles deterministically emitted from the 12 checksum-verified target-page parser records are allowed; Stage A v2.6 validates exact membership before semantic finalization.",
+  "document_id": "P17-BMW-GROUP-REPORT-2025",
+  "allowed_page_targets": ["P17-BMW-GROUP-REPORT-2025-p0127","P17-BMW-GROUP-REPORT-2025-p0129","P17-BMW-GROUP-REPORT-2025-p0130","P17-BMW-GROUP-REPORT-2025-p0141","P17-BMW-GROUP-REPORT-2025-p0142","P17-BMW-GROUP-REPORT-2025-p0172","P17-BMW-GROUP-REPORT-2025-p0178","P17-BMW-GROUP-REPORT-2025-p0179","P17-BMW-GROUP-REPORT-2025-p0372","P17-BMW-GROUP-REPORT-2025-p0373","P17-BMW-GROUP-REPORT-2025-p0374","P17-BMW-GROUP-REPORT-2025-p0375"],
+  "invented_handle_policy": "reject_and_archive_candidate_failure",
+  "silent_repair": false
+}

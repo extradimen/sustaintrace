@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "framework_version": "P1-PIPELINE-v0.8.2-CLAIM-KIND",
+  "status": "preregistered_before_dupont_inference",
+  "registered_at": "2026-09-04T20:30:00+08:00",
+  "parent_framework": "P1-STAGE-B-FREEZE-v0.8.1",
+  "trigger": "Pre-inference audit of the frozen DuPont parent answer found both a 2030 target and a 2024 observed result.",
+  "change": "Add required claim_kind with ontology-constrained values observed or target. Store it on the observation node so targets and realized values cannot collapse into the same semantic claim.",
+  "unchanged": [
+    "Framework-owned company entity resolution.",
+    "Metric, value, literal value, unit, year, scope, and evidence grounding.",
+    "Stage A parent, source documents, MinerU artifacts, model digest, timeout, and archival rules."
+  ],
+  "backward_interpretation": "The passed BASF and Apple claims are observed, but they are not silently rewritten; they remain v0.8.1 results and must be rerun for a same-hash v0.8.2 matrix.",
+  "posthoc_modality_repair_allowed": false,
+  "reference_answer_visible_during_inference": false,
+  "inference_allowed": false,
+  "next_gate": "implementation_tests_and_hash_freeze"
+}

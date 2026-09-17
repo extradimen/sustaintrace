@@ -1,0 +1,33 @@
+{
+  "blocked_by_reason": {
+    "row_label_dropped_near_miss_misbound_as_unnamed_metric": [
+      "fact-b316b271b9a60ee23b332bd9",
+      "fact-f3f8dd63fe11be1e0582e70d"
+    ],
+    "signed_independent_assurance_scope_not_in_frozen_evidence": [
+      "fact-28d528eadf640e532aba67cb"
+    ]
+  },
+  "blocked_fact_ids": [
+    "fact-28d528eadf640e532aba67cb",
+    "fact-b316b271b9a60ee23b332bd9",
+    "fact-f3f8dd63fe11be1e0582e70d"
+  ],
+  "inputs": {
+    "atomic_increment_sha256": "0e9fa567c888153689984bd372e432f553b2a80748eeda7a975f240c23c7a0cf",
+    "atomic_validations_sha256": "9a5509e37229e399c06b8e2878c52d3561fc5dfff21a86346233206b04e1e789",
+    "native_coordinate_audit_sha256": "662b91ebc3a3df52bc973897dac3e254ba086d7f5387d3513f3f8c607a674a67"
+  },
+  "locked_experiments_modified_or_rescored": false,
+  "new_failure_observations": 1,
+  "newly_promoted_to_tier_b": 0,
+  "next_gate": "scale_batch_011_global_kb_rebuild_and_closure",
+  "outputs": {
+    "semantic_failures_sha256": "1ebcabcd5c712c90982f2c93ad5b3ad818f1b728cd8e0981b82b3136fc178831"
+  },
+  "promotable_fact_ids": [],
+  "reviewed": 3,
+  "schema_version": "0.1",
+  "source_candidate_records_modified": 0,
+  "status": "scale_batch_011_six_dimension_review_complete_zero_promotions"
+}

@@ -1,0 +1,987 @@
+{
+  "aggregate_score": null,
+  "candidate_model": "qwen3.5:397b-cloud",
+  "experiment_id": "P22-V31-UNSEEN-LOCKBOX-V01",
+  "inputs": {
+    "atomic_gold": "data/annotations/p22_simulated/p22_atomic_slot_gold_v0.1.lock.json",
+    "atomic_gold_sha256": "d1fead7cb4e3225cf4096484b4d915a04dd9e6a7d1aa1c955fb069d679cfa48a",
+    "progress": "data/manifests/p22_candidate_progress.json",
+    "progress_sha256": "47c5b99ab9026d15cdad7fbd9a997edddeef6ab0b8854dc72187944478932c72",
+    "slot_contracts": "configs/framework/p22_slot_contracts_v0.1.lock.json",
+    "slot_contracts_sha256": "26244a0678326bc47b9e4cf2112b1c58bd6c7874daeda0132b54559eb28a178b",
+    "task_pack": "data/tasks/p22_local_execution_task_pack_v0.1.lock.json",
+    "task_pack_sha256": "a85237028440569df25475ed42bd065ee1b172bd69919fd2b6f71d9b2c761921"
+  },
+  "protocol": {
+    "failed_raw_outputs_preserved": true,
+    "framework_failed_outputs_receive_no_slot_credit": true,
+    "framework_failure_not_attributed_to_candidate_model": true,
+    "no_candidate_retry": true,
+    "no_posthoc_semantic_repair": true
+  },
+  "reference_type": "simulated_expert_reference_not_independent_human_gold",
+  "schema_version": "3.1",
+  "status": "dimension_scoring_completed_with_framework_integrity_failure",
+  "summary_dimensions": {
+    "credited_valid_slots": 28,
+    "final_pipeline_total_tasks": 6,
+    "final_pipeline_valid_tasks": 2,
+    "framework_failed_tasks": 4,
+    "literal_or_numeric_exact_slots": 16,
+    "model_behavior_failed_tasks": 0,
+    "numeric_exact_slots": 14,
+    "numeric_reference_slots": 78,
+    "required_slots": 97,
+    "stage_a_recorded_passed_tasks": 2,
+    "stage_a_total_tasks": 6,
+    "text_literal_exact_slots": 2,
+    "text_literal_reference_slots": 19,
+    "text_normalized_exact_slots": 2,
+    "text_normalized_reference_slots": 19,
+    "verified_all_run_archives": 8
+  },
+  "task_dimensions": {
+    "P22-ASSURE-001": {
+      "credited_valid_slot_count": 12,
+      "dimensions": [
+        {
+          "candidate_present_in_valid_final_output": true,
+          "exact_value_match": false,
+          "slot_id": "subject",
+          "text_comparison_v28": {
+            "candidate_original": "Consolidated Sustainability Statement of Bayer Aktiengesellschaft, Leverkusen/Germany",
+            "literal_exact": false,
+            "normalized_exact": false,
+            "reference_original": "Consolidated Sustainability Statement included in combined management report",
+            "semantic_rewrite_applied": false,
+            "token_jaccard": 0.23076923076923078
+          },
+          "value_type": "string"
+        },
+        {
+          "candidate_present_in_valid_final_output": true,
+          "exact_value_match": false,
+          "slot_id": "reporting_period",
+          "text_comparison_v28": {
+            "candidate_original": "financial year from January 1 to December 31, 2025",
+            "literal_exact": false,
+            "normalized_exact": false,
+            "reference_original": "2025-01-01/2025-12-31",
+            "semantic_rewrite_applied": false,
+            "token_jaccard": 0.18181818181818182
+          },
+          "value_type": "string"
+        },
+        {
+          "candidate_present_in_valid_final_output": true,
+          "exact_value_match": false,
+          "slot_id": "criteria",
+          "text_comparison_v28": {
+            "candidate_original": "Directive (EU) 2022/2464 of the European Parliament and of the Council of December 14, 2022 (Corporate Sustainability Reporting Directive, CSRD) and Article 8 of Regulation (EU) 2020/852 and Sections 315b and 315c German Commercial Code (HGB)",
+            "literal_exact": false,
+            "normalized_exact": false,
+            "reference_original": "CSRD | EU Taxonomy Article 8 | HGB 315b/315c | ESRS/materiality | executive-director specifying criteria",
+            "semantic_rewrite_applied": false,
+            "token_jaccard": 0.2
+          },
+          "value_type": "string"
+        },
+        {
+          "candidate_present_in_valid_final_output": true,
+          "exact_value_match": true,
+          "slot_id": "assurance_level",
+          "text_comparison_v28": {
+            "candidate_original": "limited assurance",
+            "literal_exact": true,
+            "normalized_exact": true,
+            "reference_original": "limited assurance",
+            "semantic_rewrite_applied": false,
+            "token_jaccard": 1.0
+          },
+          "value_type": "string"
+        },
+        {
+          "candidate_present_in_valid_final_output": true,
+          "exact_value_match": false,
+          "slot_id": "conclusion_form",
+          "text_comparison_v28": {
+            "candidate_original": "nothing has come to our attention that causes us to believe that the accompanying Consolidated Sustainability Statement is not prepared, in all material respects, in accordance with the requirements",
+            "literal_exact": false,
+            "normalized_exact": false,
+            "reference_original": "nothing has come to our attention",
+            "semantic_rewrite_applied": false,
+            "token_jaccard": 0.24
+          },
+          "value_type": "string"
+        },
+        {
+          "candidate_present_in_valid_final_output": true,
+          "exact_value_match": false,
+          "slot_id": "governing_standard",
+          "text_comparison_v28": {
+            "candidate_original": "International Standard on Assurance Engagements (ISAE) 3000 (Revised)",
+            "literal_exact": false,
+            "normalized_exact": false,
+            "reference_original": "ISAE 3000 (Revised)",
+            "semantic_rewrite_applied": false,
+            "token_jaccard": 0.375
+          },
+          "value_type": "string"
+        },
+        {
+          "candidate_present_in_valid_final_output": true,
+          "exact_value_match": false,
+          "slot_id": "excluded_information",
+          "text_comparison_v28": {
+            "candidate_original": "References to information provided by the Company outside the combined management report were not subject to our assurance engagement.",
+            "literal_exact": false,
+            "normalized_exact": false,
+            "reference_original": "references outside the combined management report",
+            "semantic_rewrite_applied": false,
+            "token_jaccard": 0.35294117647058826
+          },
+          "value_type": "string"
+        },
+        {
+          "candidate_present_in_valid_final_output": true,
+          "exact_value_match": false,
+          "slot_id": "procedure_difference",
+          "text_comparison_v28": {
+            "candidate_original": "The procedures performed in a limited assurance engagement vary in nature and timing from, and are less in extent than for, a reasonable assurance engagement. Consequently, the level of assurance obtained is substantially lower than the assurance that would have been obtained had a reasonable assurance engagement been performed.",
+            "literal_exact": false,
+            "normalized_exact": false,
+            "reference_original": "less extensive and substantially lower assurance than reasonable assurance",
+            "semantic_rewrite_applied": false,
+            "token_jaccard": 0.21875
+          },
+          "value_type": "string"
+        },
+        {
+          "candidate_present_in_valid_final_output": true,
+          "exact_value_match": false,
+          "slot_id": "provider",
+          "text_comparison_v28": {
+            "candidate_original": "Deloitte GmbH",
+            "literal_exact": false,
+            "normalized_exact": false,
+            "reference_original": "Deloitte GmbH Wirtschaftsprüfungsgesellschaft",
+            "semantic_rewrite_applied": false,
+            "token_jaccard": 0.5
+          },
+          "value_type": "string"
+        },
+        {
+          "candidate_present_in_valid_final_output": true,
+          "exact_value_match": true,
+          "slot_id": "location",
+          "text_comparison_v28": {
+            "candidate_original": "Düsseldorf/Germany",
+            "literal_exact": true,
+            "normalized_exact": true,
+            "reference_original": "Düsseldorf/Germany",
+            "semantic_rewrite_applied": false,
+            "token_jaccard": 1.0
+          },
+          "value_type": "string"
+        },
+        {
+          "candidate_present_in_valid_final_output": true,
+          "exact_value_match": false,
+          "slot_id": "date",
+          "text_comparison_v28": {
+            "candidate_original": "March 2, 2026",
+            "literal_exact": false,
+            "normalized_exact": false,
+            "reference_original": "2026-03-02",
+            "semantic_rewrite_applied": false,
+            "token_jaccard": 0.2
+          },
+          "value_type": "string"
+        },
+        {
+          "candidate_present_in_valid_final_output": true,
+          "exact_value_match": false,
+          "slot_id": "signatories",
+          "text_comparison_v28": {
+            "candidate_original": "Andreas Wermelt",
+            "literal_exact": false,
+            "normalized_exact": false,
+            "reference_original": "Andreas Wermelt | Silvia Geberth",
+            "semantic_rewrite_applied": false,
+            "token_jaccard": 0.5
+          },
+          "value_type": "string"
+        }
+      ],
+      "final_pipeline_valid": true,
+      "integrity_audit_failure_taxonomy": null,
+      "literal_or_numeric_exact_slot_count": 2,
+      "recorded_failure_taxonomy": null,
+      "required_slot_count": 12,
+      "stage_a_recorded_status": "passed",
+      "stage_a_valid_for_scoring": true,
+      "stage_b_status": "passed"
+    },
+    "P22-ENERGY-CALC-001": {
+      "credited_valid_slot_count": 0,
+      "dimensions": [
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "total_energy_thousand_mwh::2024",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "total_energy_thousand_mwh::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "fossil_energy_thousand_mwh::2024",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "fossil_energy_thousand_mwh::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "renewable_energy_thousand_mwh::2024",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "renewable_energy_thousand_mwh::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "fossil_share_percent::2024",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "fossil_share_percent::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "renewable_share_percent::2024",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "renewable_share_percent::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "calculated_total_energy_change_percent",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "calculated_renewable_energy_change_percent",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "renewable_share_change_percentage_points",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "boundary",
+          "text_comparison_v28": {
+            "candidate_original": null,
+            "literal_exact": false,
+            "normalized_exact": false,
+            "reference_original": "activities in high climate impact sectors",
+            "semantic_rewrite_applied": false,
+            "token_jaccard": 0.0
+          },
+          "value_type": "string"
+        }
+      ],
+      "final_pipeline_valid": false,
+      "integrity_audit_failure_taxonomy": {
+        "category": "framework_validation_order_bug",
+        "details": "v31 alias decoding and outer canonical handle audit passed, then a downstream adapter revalidated decoded canonical handles against the alias handle set",
+        "owner": "framework",
+        "score_as_model_failure": false
+      },
+      "literal_or_numeric_exact_slot_count": 0,
+      "recorded_failure_taxonomy": {
+        "category": "model_behavior",
+        "error_type": "OllamaError",
+        "model_call_started": true,
+        "owner": "candidate_model",
+        "retry_policy": "no_retry_in_locked_experiment",
+        "score_as_model_failure": true,
+        "stage": "stage_a"
+      },
+      "required_slot_count": 14,
+      "stage_a_recorded_status": "failed",
+      "stage_a_valid_for_scoring": false,
+      "stage_b_status": "not_reached"
+    },
+    "P22-GHG-CALC-001": {
+      "credited_valid_slot_count": 0,
+      "dimensions": [
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "scope1_gross_mtco2e::2024_restated",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "scope2_market_gross_mtco2e::2024_restated",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "calculated_scope1_plus_scope2_mtco2e::2024_restated",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "scope1_gross_mtco2e::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "scope2_market_gross_mtco2e::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "calculated_scope1_plus_scope2_mtco2e::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "calculated_change_percent",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "scope3_gross_mtco2e::2024_restated",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "scope3_gross_mtco2e::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "total_market_based_mtco2e::2024_restated",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "total_market_based_mtco2e::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "boundary",
+          "text_comparison_v28": {
+            "candidate_original": null,
+            "literal_exact": false,
+            "normalized_exact": false,
+            "reference_original": "financial scope of consolidation and environmentally relevant sites",
+            "semantic_rewrite_applied": false,
+            "token_jaccard": 0.0
+          },
+          "value_type": "string"
+        }
+      ],
+      "final_pipeline_valid": false,
+      "integrity_audit_failure_taxonomy": {
+        "category": "framework_validation_order_bug",
+        "details": "v31 alias decoding and outer canonical handle audit passed, then a downstream adapter revalidated decoded canonical handles against the alias handle set",
+        "owner": "framework",
+        "score_as_model_failure": false
+      },
+      "literal_or_numeric_exact_slot_count": 0,
+      "recorded_failure_taxonomy": {
+        "category": "model_behavior",
+        "error_type": "OllamaError",
+        "model_call_started": true,
+        "owner": "candidate_model",
+        "retry_policy": "no_retry_in_locked_experiment",
+        "score_as_model_failure": true,
+        "stage": "stage_a"
+      },
+      "required_slot_count": 12,
+      "stage_a_recorded_status": "failed",
+      "stage_a_valid_for_scoring": false,
+      "stage_b_status": "not_reached"
+    },
+    "P22-SAFETY-CALC-001": {
+      "credited_valid_slot_count": 0,
+      "dimensions": [
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "total_accidents::2024",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "employee_accidents::2024",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "nonemployee_accidents::2024",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "calculated_component_sum::2024",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "total_minus_component_sum::2024",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "total_accidents::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "employee_accidents::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "nonemployee_accidents::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "calculated_component_sum::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "total_minus_component_sum::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "total_rate::2024",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "total_rate::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "employee_rate::2024",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "employee_rate::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "nonemployee_rate::2024",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "nonemployee_rate::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "total_fatalities::2024",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "employee_fatalities::2024",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "nonemployee_fatalities::2024",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "value_chain_fatalities::2024",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "total_fatalities::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "employee_fatalities::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "nonemployee_fatalities::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "value_chain_fatalities::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "rate_formula",
+          "text_comparison_v28": {
+            "candidate_original": null,
+            "literal_exact": false,
+            "normalized_exact": false,
+            "reference_original": "accidents / total hours worked * 1,000,000",
+            "semantic_rewrite_applied": false,
+            "token_jaccard": 0.0
+          },
+          "value_type": "string"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "coverage",
+          "text_comparison_v28": {
+            "candidate_original": null,
+            "literal_exact": false,
+            "normalized_exact": false,
+            "reference_original": "employee headcount including casual employees, seasonal employees, apprentices, interns and students",
+            "semantic_rewrite_applied": false,
+            "token_jaccard": 0.0
+          },
+          "value_type": "string"
+        }
+      ],
+      "final_pipeline_valid": false,
+      "integrity_audit_failure_taxonomy": {
+        "category": "framework_validation_order_bug",
+        "details": "v31 alias decoding and outer canonical handle audit passed, then a downstream adapter revalidated decoded canonical handles against the alias handle set",
+        "owner": "framework",
+        "score_as_model_failure": false
+      },
+      "literal_or_numeric_exact_slot_count": 0,
+      "recorded_failure_taxonomy": {
+        "category": "model_behavior",
+        "error_type": "OllamaError",
+        "model_call_started": true,
+        "owner": "candidate_model",
+        "retry_policy": "no_retry_in_locked_experiment",
+        "score_as_model_failure": true,
+        "stage": "stage_a"
+      },
+      "required_slot_count": 26,
+      "stage_a_recorded_status": "failed",
+      "stage_a_valid_for_scoring": false,
+      "stage_b_status": "not_reached"
+    },
+    "P22-TAXONOMY-001": {
+      "credited_valid_slot_count": 16,
+      "dimensions": [
+        {
+          "candidate_present_in_valid_final_output": true,
+          "exact_value_match": true,
+          "slot_id": "turnover_denominator_million_eur::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": true,
+          "exact_value_match": true,
+          "slot_id": "turnover_eligible_million_eur::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": true,
+          "exact_value_match": true,
+          "slot_id": "turnover_eligible_share_percent::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": true,
+          "exact_value_match": true,
+          "slot_id": "turnover_aligned_million_eur::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": true,
+          "exact_value_match": true,
+          "slot_id": "turnover_aligned_share_percent::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": true,
+          "exact_value_match": true,
+          "slot_id": "capex_denominator_million_eur::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": true,
+          "exact_value_match": true,
+          "slot_id": "capex_eligible_million_eur::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": true,
+          "exact_value_match": true,
+          "slot_id": "capex_eligible_share_percent::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": true,
+          "exact_value_match": true,
+          "slot_id": "capex_aligned_million_eur::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": true,
+          "exact_value_match": true,
+          "slot_id": "capex_aligned_share_percent::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": true,
+          "exact_value_match": true,
+          "slot_id": "opex_denominator_million_eur::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": true,
+          "exact_value_match": false,
+          "slot_id": "opex_eligible_amount_disclosure::2025",
+          "text_comparison_v28": {
+            "candidate_original": "Material taxonomy-eligible and taxonomy-aligned operating expenditure could not be identified",
+            "literal_exact": false,
+            "normalized_exact": false,
+            "reference_original": "not separately disclosed",
+            "semantic_rewrite_applied": false,
+            "token_jaccard": 0.07692307692307693
+          },
+          "value_type": "string"
+        },
+        {
+          "candidate_present_in_valid_final_output": true,
+          "exact_value_match": true,
+          "slot_id": "opex_eligible_share_percent::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": true,
+          "exact_value_match": true,
+          "slot_id": "opex_aligned_million_eur::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": true,
+          "exact_value_match": true,
+          "slot_id": "opex_aligned_share_percent::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": true,
+          "exact_value_match": false,
+          "slot_id": "materiality_treatment",
+          "text_comparison_v28": {
+            "candidate_original": "classified as nonmaterial",
+            "literal_exact": false,
+            "normalized_exact": false,
+            "reference_original": "nonmaterial eligible CapEx excluded; active-ingredient turnover below 1%; material eligible/aligned OpEx not identified and no separate OpEx table",
+            "semantic_rewrite_applied": false,
+            "token_jaccard": 0.05
+          },
+          "value_type": "string"
+        }
+      ],
+      "final_pipeline_valid": true,
+      "integrity_audit_failure_taxonomy": null,
+      "literal_or_numeric_exact_slot_count": 14,
+      "recorded_failure_taxonomy": null,
+      "required_slot_count": 16,
+      "stage_a_recorded_status": "passed",
+      "stage_a_valid_for_scoring": true,
+      "stage_b_status": "passed"
+    },
+    "P22-WATER-CALC-001": {
+      "credited_valid_slot_count": 0,
+      "dimensions": [
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "withdrawal_million_m3::2024",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "discharge_million_m3::2024",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "calculated_consumption_million_m3::2024",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "disclosed_consumption_million_m3::2024",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "calculated_minus_disclosed_million_m3::2024",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "withdrawal_million_m3::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "discharge_million_m3::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "calculated_consumption_million_m3::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "disclosed_consumption_million_m3::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "calculated_minus_disclosed_million_m3::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "water_risk_consumption_million_m3::2024",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "water_risk_consumption_million_m3::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "recycling_reuse_million_m3::2024",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "recycling_reuse_million_m3::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "water_intensity_m3_per_million_eur::2024",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "water_intensity_m3_per_million_eur::2025",
+          "text_comparison_v28": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "definition",
+          "text_comparison_v28": {
+            "candidate_original": null,
+            "literal_exact": false,
+            "normalized_exact": false,
+            "reference_original": "withdrawal minus discharge at environmentally relevant sites",
+            "semantic_rewrite_applied": false,
+            "token_jaccard": 0.0
+          },
+          "value_type": "string"
+        }
+      ],
+      "final_pipeline_valid": false,
+      "integrity_audit_failure_taxonomy": {
+        "category": "framework_validation_order_bug",
+        "details": "v31 alias decoding and outer canonical handle audit passed, then a downstream adapter revalidated decoded canonical handles against the alias handle set",
+        "owner": "framework",
+        "score_as_model_failure": false
+      },
+      "literal_or_numeric_exact_slot_count": 0,
+      "recorded_failure_taxonomy": {
+        "category": "model_behavior",
+        "error_type": "OllamaError",
+        "model_call_started": true,
+        "owner": "candidate_model",
+        "retry_policy": "no_retry_in_locked_experiment",
+        "score_as_model_failure": true,
+        "stage": "stage_a"
+      },
+      "required_slot_count": 17,
+      "stage_a_recorded_status": "failed",
+      "stage_a_valid_for_scoring": false,
+      "stage_b_status": "not_reached"
+    }
+  }
+}

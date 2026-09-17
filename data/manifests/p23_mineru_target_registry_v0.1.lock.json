@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.0",
+  "experiment_id": "P23-V32-UNSEEN-LOCKBOX-V01",
+  "document_id": "P23-GSK-AR2025",
+  "document_sha256": "a3ef37d848fca940f85b6c33815a5d47d1f32726fd389a03910653e24af0f4d2",
+  "status": "all_target_pages_successfully_parsed_and_hash_verified",
+  "target_count": 4,
+  "success_count": 4,
+  "failure_count": 0,
+  "recovery_lineage": ["data/manifests/p23_mineru_resume_RESUME01_v0.1.lock.json"],
+  "targets": [
+    {
+      "target_id": "P23-GSK-AR2025-p0054",
+      "document_id": "P23-GSK-AR2025",
+      "document_sha256": "a3ef37d848fca940f85b6c33815a5d47d1f32726fd389a03910653e24af0f4d2",
+      "pdf_page": 54,
+      "task_ids": ["P23-BOUNDARY-001", "P23-ASSURE-001"],
+      "output_directory": "artifacts/p23/mineru_targets_RESUME01/P23-GSK-AR2025-p0054",
+      "recovery_generation": "RESUME01",
+      "run_record_sha256": "fc9f67777110cd807ed262eab5cedd92f7bbf0eff53a70f8718cb59757e44fce",
+      "content_list_sha256": "9546d78e63ee22d40947b38df83f5d2af9bc7fc0f9f52bf27ba4dcf0efb69466",
+      "status": "success_verified"
+    },
+    {
+      "target_id": "P23-GSK-AR2025-p0055",
+      "document_id": "P23-GSK-AR2025",
+      "document_sha256": "a3ef37d848fca940f85b6c33815a5d47d1f32726fd389a03910653e24af0f4d2",
+      "pdf_page": 55,
+      "task_ids": ["P23-GHG-CALC-001", "P23-WATER-CALC-001"],
+      "output_directory": "artifacts/p23/mineru_targets_RESUME01/P23-GSK-AR2025-p0055",
+      "recovery_generation": "RESUME01",
+      "run_record_sha256": "3448f05023cbef06977474859a30f749edd4d143dbd6ce3b4e11214ce866f1f4",
+      "content_list_sha256": "2bbcf6ea708d53181028a8b33769ab64cae2a49fd69930b80aa6df5a4ec1f63e",
+      "status": "success_verified"
+    },
+    {
+      "target_id": "P23-GSK-AR2025-p0078",
+      "document_id": "P23-GSK-AR2025",
+      "document_sha256": "a3ef37d848fca940f85b6c33815a5d47d1f32726fd389a03910653e24af0f4d2",
+      "pdf_page": 78,
+      "task_ids": ["P23-GHG-CALC-001", "P23-ENERGY-CALC-001", "P23-WATER-CALC-001", "P23-ASSURE-001"],
+      "output_directory": "artifacts/p23/mineru_targets_RESUME01/P23-GSK-AR2025-p0078",
+      "recovery_generation": "RESUME01",
+      "run_record_sha256": "8a909d5e932d55fa88aa19b4b2ea23e8ed4a382b200dcd984a629445fbc17b7b",
+      "content_list_sha256": "ec57f21068b7104abc76ed741ba17a415b15538037c3da6ac19ef66412373e69",
+      "status": "success_verified"
+    },
+    {
+      "target_id": "P23-GSK-AR2025-p0079",
+      "document_id": "P23-GSK-AR2025",
+      "document_sha256": "a3ef37d848fca940f85b6c33815a5d47d1f32726fd389a03910653e24af0f4d2",
+      "pdf_page": 79,
+      "task_ids": ["P23-WORKFORCE-CALC-001"],
+      "output_directory": "artifacts/p23/mineru_targets_RESUME01/P23-GSK-AR2025-p0079",
+      "recovery_generation": "RESUME01",
+      "run_record_sha256": "45746059039ab7c5599a662cc48572fb803e22691d84f6db23ea60c2aab484a7",
+      "content_list_sha256": "fcaf59924ef58489f141f7c2429743642c71bc211cd2c9ef061f8bcd6988cf7b",
+      "status": "success_verified"
+    }
+  ]
+}

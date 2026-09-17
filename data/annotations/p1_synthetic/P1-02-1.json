@@ -1,0 +1,10 @@
+{
+  "schema_version": "1.0", "task_id": "P1-02-1", "reference_author": "codex_gpt_simulated_expert", "reference_status": "verified",
+  "question": "Using BASF's financially controlled total gross Scope 3 emissions, calculate the percentage change from 2023 to 2024 and report whether it was an increase or decrease, rounded to two decimals.",
+  "answer_status": "verified_fact", "answer": "3.02% decrease", "normalized_value": -3.02, "normalized_unit": "%", "reported_unit": "million metric tons CO2e",
+  "subject": "BASF Group", "scope_boundary": "financial control; total gross Scope 3 emissions", "period": "2023 to 2024",
+  "calculation": {"expression": "(91.64 - 94.49) / 94.49 * 100", "inputs": [91.64, 94.49], "unrounded_result": -3.0161921896496984, "rounding_rule": "two decimal places"},
+  "evidence": [{"document_id": "BASF-AR-2024", "document_sha256": "6e09f996af8866f1a4a30df24f8c8447083282526e4800c83885c245bb33cc1c", "pdf_page": 200, "printed_page": "200", "verbatim_excerpt": "Total gross Scope 3 emissions 91.64 94.49", "role": "calculation_input"}],
+  "search_record": {"pages_reviewed": [199, 200], "terms_used": ["Total gross Scope 3 emissions", "financial control"], "notes": "Column headers and row alignment visually verified."},
+  "controlled_intervention_id": null, "provenance_attestation": {"is_human": false, "is_ai_simulation": true, "candidate_model_excluded": true}
+}

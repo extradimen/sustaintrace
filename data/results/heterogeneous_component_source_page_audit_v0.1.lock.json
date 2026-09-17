@@ -1,0 +1,911 @@
+{
+  "schema_version": "0.1",
+  "record_kind": "heterogeneous_component_source_page_audit",
+  "status": "source_page_audit_complete_not_frozen_for_execution",
+  "parent": {
+    "path": "data/results/heterogeneous_component_candidate_inventory_RESUME03_v0.1.lock.json",
+    "sha256": "5ead95a3cd21a9a68f531447fa4ac7f3adfd61883453b171c23d589439989bbd"
+  },
+  "candidate_records": [
+    {
+      "component": "FIELD_EVIDENCE_BINDING_INCOMPLETE",
+      "gap_id": "gap-f228b58a6110d64b9e98c151",
+      "fact_record_id": "fact-9324f5730b37e5d7d7bed3ba",
+      "document_id": "P14-LOREAL-URD2025",
+      "source_path": "data/raw/p14_staging/loreal-2025-universal-registration-document.pdf",
+      "source_sha256": "db63807f5963c3e70422bbb9a0763f2f53be4139d5ee57984717bfa056275aa2",
+      "source_hash_matches": true,
+      "evidence_pages": [
+        213
+      ],
+      "page_text_extraction_passed": true,
+      "value": 0,
+      "literal_probe": "0",
+      "literal_pages": [
+        213
+      ],
+      "literal_present_on_evidence_page": true,
+      "period_literal": null,
+      "quote_checks": [
+        {
+          "page": 213,
+          "quote": "Gross Scope 1 GHG emissions",
+          "check": "normalized_substring",
+          "matched": true
+        },
+        {
+          "page": 213,
+          "quote": "42,428",
+          "check": "normalized_substring",
+          "matched": true
+        },
+        {
+          "page": 213,
+          "quote": "24,206",
+          "check": "normalized_substring",
+          "matched": true
+        },
+        {
+          "page": 213,
+          "quote": "Total Scope 3 GHG emissions",
+          "check": "normalized_substring",
+          "matched": true
+        },
+        {
+          "page": 213,
+          "quote": "6,355,052",
+          "check": "normalized_substring",
+          "matched": true
+        },
+        {
+          "page": 213,
+          "quote": "6,421,686",
+          "check": "normalized_substring",
+          "matched": true
+        }
+      ],
+      "errors": [],
+      "screening_only": true
+    },
+    {
+      "component": "FIELD_EVIDENCE_BINDING_INCOMPLETE",
+      "gap_id": "gap-e5c7e621493f43f223c46e9c",
+      "fact_record_id": "fact-ea789b989b68006d3f8b1d4c",
+      "document_id": "P16-SANOFI-SS2025",
+      "source_path": "data/raw/p16_staging/sanofi-sustainability-statement-2025.pdf",
+      "source_sha256": "82547ddb72b6b05dca88f93ed4cfe13010cb5690a5693b96721e9be3ff9c8fcc",
+      "source_hash_matches": true,
+      "evidence_pages": [
+        90
+      ],
+      "page_text_extraction_passed": true,
+      "value": "cumulative 2022-2025",
+      "literal_probe": "cumulative 2022-2025",
+      "literal_pages": [],
+      "literal_present_on_evidence_page": false,
+      "period_literal": null,
+      "quote_checks": [
+        {
+          "page": 90,
+          "quote": "Number of NCD partnerships",
+          "check": "normalized_substring",
+          "matched": true
+        },
+        {
+          "page": 90,
+          "quote": "73",
+          "check": "normalized_substring",
+          "matched": true
+        },
+        {
+          "page": 90,
+          "quote": "4,916,098",
+          "check": "normalized_substring",
+          "matched": true
+        },
+        {
+          "page": 90,
+          "quote": "37,116",
+          "check": "normalized_substring",
+          "matched": true
+        },
+        {
+          "page": 90,
+          "quote": "666",
+          "check": "normalized_substring",
+          "matched": true
+        },
+        {
+          "page": 90,
+          "quote": "Cumulative figures (2022 - 2025)",
+          "check": "normalized_substring",
+          "matched": true
+        },
+        {
+          "page": 90,
+          "quote": "Figures restated to include full year data",
+          "check": "normalized_substring",
+          "matched": true
+        }
+      ],
+      "errors": [],
+      "screening_only": true
+    },
+    {
+      "component": "FIELD_EVIDENCE_BINDING_INCOMPLETE",
+      "gap_id": "gap-9ecdd2c05e8a762117e8177c",
+      "fact_record_id": "fact-d49792a54132f5db149cf6a9",
+      "document_id": "P17-BMW-GROUP-REPORT-2025",
+      "source_path": "data/raw/p17_staging/bmw-group-report-2025.pdf",
+      "source_sha256": "7a7fd36bf7f274e776ef7eda30d3cda4335a99cbb45f097ae5e8268ccf7759e7",
+      "source_hash_matches": true,
+      "evidence_pages": [
+        127
+      ],
+      "page_text_extraction_passed": true,
+      "value": "decrease",
+      "literal_probe": "decrease",
+      "literal_pages": [],
+      "literal_present_on_evidence_page": false,
+      "period_literal": null,
+      "quote_checks": [
+        {
+          "page": 127,
+          "quote": "SCOPE 1: DIRECT GREENHOUSE GAS EMISSIONS",
+          "check": "normalized_substring",
+          "matched": true
+        },
+        {
+          "page": 127,
+          "quote": "667,275",
+          "check": "normalized_substring",
+          "matched": true
+        },
+        {
+          "page": 127,
+          "quote": "SCOPE 2: INDIRECT GREENHOUSE GAS EMISSIONS",
+          "check": "normalized_substring",
+          "matched": true
+        },
+        {
+          "page": 127,
+          "quote": "144,145",
+          "check": "normalized_substring",
+          "matched": true
+        },
+        {
+          "page": 127,
+          "quote": "Total emissions Scope 1+2",
+          "check": "normalized_substring",
+          "matched": true
+        },
+        {
+          "page": 127,
+          "quote": "811,420",
+          "check": "normalized_substring",
+          "matched": true
+        },
+        {
+          "page": 127,
+          "quote": "836,963",
+          "check": "normalized_substring",
+          "matched": true
+        }
+      ],
+      "errors": [],
+      "screening_only": true
+    },
+    {
+      "component": "FIELD_EVIDENCE_BINDING_INCOMPLETE",
+      "gap_id": "gap-a0196e008f60742ef34eec16",
+      "fact_record_id": "fact-d21c76686be36396f57170e3",
+      "document_id": "P19-NOVO-NORDISK-AR2025",
+      "source_path": "data/raw/p19_staging/novo-nordisk-annual-report-2025.pdf",
+      "source_sha256": "f5475f1e043eaa99526772c0e06677a74ab2c2abb8181755afbe02a10e395092",
+      "source_hash_matches": true,
+      "evidence_pages": [
+        58
+      ],
+      "page_text_extraction_passed": true,
+      "value": "2024 employee-related metrics exclude Catalent; including Catalent, 2024 headcount was 77,349",
+      "literal_probe": "2024 employee-related metrics exclude Catalent; including Catalent, 2024 headcount was 77,349",
+      "literal_pages": [],
+      "literal_present_on_evidence_page": false,
+      "period_literal": null,
+      "quote_checks": [
+        {
+          "page": 58,
+          "quote": "By end of 2025, Novo Nordisk employed 64,974 permanent and 4,531 temporary employees, similar to the 2024 split (68,669 permanent and 5,487 temporary).",
+          "check": "normalized_substring",
+          "matched": false
+        },
+        {
+          "page": 58,
+          "quote": "No employees in Novo Nordisk’s own workforce are hired on non-guaranteed hours contracts.",
+          "check": "normalized_substring",
+          "matched": true
+        },
+        {
+          "page": 58,
+          "quote": "Total number of employees (headcount)",
+          "check": "normalized_substring",
+          "matched": true
+        },
+        {
+          "page": 58,
+          "quote": "69,505",
+          "check": "normalized_substring",
+          "matched": true
+        },
+        {
+          "page": 58,
+          "quote": "74,156",
+          "check": "normalized_substring",
+          "matched": true
+        },
+        {
+          "page": 58,
+          "quote": "All 2024 employee related metrics exclude Catalent",
+          "check": "normalized_substring",
+          "matched": true
+        },
+        {
+          "page": 58,
+          "quote": "Including Catalent, FTE is 76,302 and headcount is 77,349.",
+          "check": "normalized_substring",
+          "matched": true
+        }
+      ],
+      "errors": [],
+      "screening_only": true
+    },
+    {
+      "component": "PERIOD_ATTACHMENT_INCOMPLETE",
+      "gap_id": "gap-3247173e2bd75971460389cb",
+      "fact_record_id": "fact-d0455266ea981b2d876fea44",
+      "document_id": "P21-BASF-AR2025",
+      "source_path": "data/raw/p21_staging/basf-report-2025.pdf",
+      "source_sha256": "6fa0a9f60a3149e585a5b52f06efde1e0aaa5d1156da0d71a1fd40822df7f8b7",
+      "source_hash_matches": true,
+      "evidence_pages": [
+        194
+      ],
+      "page_text_extraction_passed": true,
+      "value": -3.8,
+      "literal_probe": "-3.8",
+      "literal_pages": [],
+      "literal_present_on_evidence_page": false,
+      "period_literal": null,
+      "quote_checks": [
+        {
+          "page": 194,
+          "quote": "Gross Scope 1 emissions</td><td rowspan=1 colspan=1>15.369</td><td rowspan=1 colspan=1>15.115</td><td rowspan=1 colspan=1>15.556c</td><td rowspan=1 colspan=1>15.220c</td><td rowspan=1 colspan=1>-1%",
+          "check": "normalized_substring",
+          "matched": false
+        },
+        {
+          "page": 194,
+          "quote": "Gross market-based Scope 2 emissions</td><td rowspan=1 colspan=1>1.901</td><td rowspan=1 colspan=1>2.052</td><td rowspan=1 colspan=1>2.396</td><td rowspan=1 colspan=1>2.460</td><td rowspan=1 colspan=1>-21%",
+          "check": "normalized_substring",
+          "matched": false
+        }
+      ],
+      "errors": [],
+      "screening_only": true
+    },
+    {
+      "component": "PERIOD_ATTACHMENT_INCOMPLETE",
+      "gap_id": "gap-300b5955750d9f3c650aa784",
+      "fact_record_id": "fact-f755d95d353498c8bd75b003",
+      "document_id": "P11-SIEMENS-AR2025",
+      "source_path": "data/raw/p11_staging/siemens-annual-report-2025.pdf",
+      "source_sha256": "a702335f2c2d4f18d3ead4053df2fc3a9be3ad69b062bedd938f3b2551213b27",
+      "source_hash_matches": true,
+      "evidence_pages": [
+        176,
+        177
+      ],
+      "page_text_extraction_passed": true,
+      "value": 0.0,
+      "literal_probe": "0",
+      "literal_pages": [
+        176,
+        177
+      ],
+      "literal_present_on_evidence_page": true,
+      "period_literal": null,
+      "quote_checks": [
+        {
+          "page": 176,
+          "quote": "Total gross Scope 1 GHG emissions</td><td rowspan=1 colspan=1>288.3",
+          "check": "normalized_substring",
+          "matched": true
+        },
+        {
+          "page": 177,
+          "quote": "Total gross Scope 2 GHG emissions</td><td rowspan=1 colspan=1>633.0</td><td rowspan=1 colspan=1>70.7",
+          "check": "normalized_substring",
+          "matched": true
+        },
+        {
+          "page": 176,
+          "quote": "Total Scope 1 and 2 GHG emissions (market-based) ... 938 ... 359",
+          "check": "skipped_nonliteral_or_compound",
+          "matched": null
+        }
+      ],
+      "errors": [],
+      "screening_only": true
+    },
+    {
+      "component": "PERIOD_ATTACHMENT_INCOMPLETE",
+      "gap_id": "gap-e31e38c048fb5cf031d0bfa5",
+      "fact_record_id": "fact-753c7df093c6b69a796d9e6b",
+      "document_id": "P20-HOLCIM-SS2025",
+      "source_path": "data/raw/p20_staging/holcim-sustainability-statement-2025.pdf",
+      "source_sha256": "55b975cd13fc361638ed13bf32856a2629e46e88bdfc6ad9208bd8807992a599",
+      "source_hash_matches": true,
+      "evidence_pages": [
+        86,
+        87
+      ],
+      "page_text_extraction_passed": true,
+      "value": 1.1,
+      "literal_probe": "1.1",
+      "literal_pages": [],
+      "literal_present_on_evidence_page": false,
+      "period_literal": null,
+      "quote_checks": [
+        {
+          "page": 86,
+          "quote": "Gross Scope 1 emissions: 52 million tons",
+          "check": "normalized_substring",
+          "matched": true
+        },
+        {
+          "page": 86,
+          "quote": "Scope 2 emissions (market-based): 3 million tons",
+          "check": "normalized_substring",
+          "matched": true
+        },
+        {
+          "page": 86,
+          "quote": "Total Scope 3 emissions: 37 million tons",
+          "check": "normalized_substring",
+          "matched": true
+        },
+        {
+          "page": 86,
+          "quote": "Total GHG emissions (Scopes 1, 2, and 3): 92 million tons",
+          "check": "normalized_substring",
+          "matched": true
+        },
+        {
+          "page": 87,
+          "quote": "Absolute emissions (Scopes 1, 2, &amp; 3) (market-based)",
+          "check": "normalized_substring",
+          "matched": true
+        },
+        {
+          "page": 87,
+          "quote": "<td>97</td><td>91</td><td>92</td>",
+          "check": "normalized_substring",
+          "matched": true
+        }
+      ],
+      "errors": [],
+      "screening_only": true
+    },
+    {
+      "component": "PERIOD_ATTACHMENT_INCOMPLETE",
+      "gap_id": "gap-17c5ec51d2a57d83d5edc303",
+      "fact_record_id": "fact-e6e29a2f164b88ef8e61b04d",
+      "document_id": "P10-SHELL-AR2025",
+      "source_path": "data/raw/p10_staging/shell-annual-report-2025.pdf",
+      "source_sha256": "90b21028e1616c41c7d73c3e996fd6128d837a41b38d432286e991aed3fbd9a1",
+      "source_hash_matches": true,
+      "evidence_pages": [
+        369
+      ],
+      "page_text_extraction_passed": true,
+      "value": -5.48,
+      "literal_probe": "-5.48",
+      "literal_pages": [],
+      "literal_present_on_evidence_page": false,
+      "period_literal": null,
+      "quote_checks": [
+        {
+          "page": 369,
+          "quote": "Gross Scope 1 GHG emissions ... 2025 69; 2024 73",
+          "check": "skipped_nonliteral_or_compound",
+          "matched": null
+        },
+        {
+          "page": 369,
+          "quote": "[B] ESRS reporting boundary.",
+          "check": "normalized_substring",
+          "matched": true
+        }
+      ],
+      "errors": [],
+      "screening_only": true
+    },
+    {
+      "component": "UNIT_ATTACHMENT_INCOMPLETE",
+      "gap_id": "gap-9262444e6cacbde2d4168d67",
+      "fact_record_id": "fact-c16eefb40db40f233be44ec0",
+      "document_id": "P10-SHELL-AR2025",
+      "source_path": "data/raw/p10_staging/shell-annual-report-2025.pdf",
+      "source_sha256": "90b21028e1616c41c7d73c3e996fd6128d837a41b38d432286e991aed3fbd9a1",
+      "source_hash_matches": true,
+      "evidence_pages": [
+        420
+      ],
+      "page_text_extraction_passed": true,
+      "value": 7,
+      "literal_probe": "7",
+      "literal_pages": [
+        420
+      ],
+      "literal_present_on_evidence_page": true,
+      "period_literal": null,
+      "quote_checks": [
+        {
+          "page": 420,
+          "quote": "Fatalities ... 2025 4; 2024 2",
+          "check": "skipped_nonliteral_or_compound",
+          "matched": null
+        },
+        {
+          "page": 420,
+          "quote": "Fatality and permanent impairment (FPI) ... 2025 8; 2024 8",
+          "check": "skipped_nonliteral_or_compound",
+          "matched": null
+        },
+        {
+          "page": 420,
+          "quote": "Revised from 7 FPIs to 8 FPIs and resulting FPI-F from 1.5 cases per 100 million hours to 1.7 cases per 100 million hours for 2024.",
+          "check": "normalized_substring",
+          "matched": false
+        }
+      ],
+      "errors": [],
+      "screening_only": true
+    },
+    {
+      "component": "TABLE_CELL_BINDING_INCOMPLETE",
+      "gap_id": "gap-87870fa5e61eb1459207c346",
+      "fact_record_id": "fact-fdc24fab4283b04cd8a75e67",
+      "document_id": "P22-BAYER-AR2025",
+      "source_path": "data/raw/p22_staging/bayer-annual-report-2025.pdf",
+      "source_sha256": "0af4a9d19fd9d4cba72c1ec062802199873f2379f84112dc2db5dc9605ce769b",
+      "source_hash_matches": true,
+      "evidence_pages": [
+        149
+      ],
+      "page_text_extraction_passed": true,
+      "value": 72.7,
+      "literal_probe": "72.7",
+      "literal_pages": [
+        149
+      ],
+      "literal_present_on_evidence_page": true,
+      "period_literal": "2025",
+      "quote_checks": [
+        {
+          "page": 149,
+          "quote": "Total fossil energy consumption</td><td rowspan=1 colspan=1>7,058</td><td rowspan=1 colspan=1>6,440",
+          "check": "normalized_substring",
+          "matched": true
+        },
+        {
+          "page": 149,
+          "quote": "Total renewable energy consumption</td><td rowspan=1 colspan=1>1,560</td><td rowspan=1 colspan=1>2,013",
+          "check": "normalized_substring",
+          "matched": true
+        },
+        {
+          "page": 149,
+          "quote": "Total energy consumption</td><td rowspan=1 colspan=1>9,055</td><td rowspan=1 colspan=1>8,855",
+          "check": "normalized_substring",
+          "matched": true
+        },
+        {
+          "page": 149,
+          "quote": "Share of fossil sources in total energy consumption (%)</td><td rowspan=1 colspan=1>77.9</td><td rowspan=1 colspan=1>72.7",
+          "check": "normalized_substring",
+          "matched": true
+        },
+        {
+          "page": 149,
+          "quote": "Share of renewable sources in total energy consumption (%)</td><td rowspan=1 colspan=1>17.2</td><td rowspan=1 colspan=1>22.7",
+          "check": "normalized_substring",
+          "matched": true
+        }
+      ],
+      "errors": [],
+      "screening_only": true
+    },
+    {
+      "component": "TABLE_CELL_BINDING_INCOMPLETE",
+      "gap_id": "gap-bc21ed4c48e1057fed6b0ea7",
+      "fact_record_id": "fact-8ee79ed2020c652a2277decc",
+      "document_id": "P20-HOLCIM-SS2025",
+      "source_path": "data/raw/p20_staging/holcim-sustainability-statement-2025.pdf",
+      "source_sha256": "55b975cd13fc361638ed13bf32856a2629e46e88bdfc6ad9208bd8807992a599",
+      "source_hash_matches": true,
+      "evidence_pages": [
+        86,
+        87
+      ],
+      "page_text_extraction_passed": true,
+      "value": 3,
+      "literal_probe": "3",
+      "literal_pages": [
+        86,
+        87
+      ],
+      "literal_present_on_evidence_page": true,
+      "period_literal": "2025",
+      "quote_checks": [
+        {
+          "page": 86,
+          "quote": "Gross Scope 1 emissions: 52 million tons",
+          "check": "normalized_substring",
+          "matched": true
+        },
+        {
+          "page": 86,
+          "quote": "Scope 2 emissions (market-based): 3 million tons",
+          "check": "normalized_substring",
+          "matched": true
+        },
+        {
+          "page": 86,
+          "quote": "Total Scope 3 emissions: 37 million tons",
+          "check": "normalized_substring",
+          "matched": true
+        },
+        {
+          "page": 86,
+          "quote": "Total GHG emissions (Scopes 1, 2, and 3): 92 million tons",
+          "check": "normalized_substring",
+          "matched": true
+        },
+        {
+          "page": 87,
+          "quote": "Absolute emissions (Scopes 1, 2, &amp; 3) (market-based)",
+          "check": "normalized_substring",
+          "matched": true
+        },
+        {
+          "page": 87,
+          "quote": "<td>97</td><td>91</td><td>92</td>",
+          "check": "normalized_substring",
+          "matched": true
+        }
+      ],
+      "errors": [],
+      "screening_only": true
+    },
+    {
+      "component": "TABLE_CELL_BINDING_INCOMPLETE",
+      "gap_id": "gap-ea9f4491050e8d4a2e9a69a5",
+      "fact_record_id": "fact-b076b69806c907f496990c75",
+      "document_id": "P11-SIEMENS-AR2025",
+      "source_path": "data/raw/p11_staging/siemens-annual-report-2025.pdf",
+      "source_sha256": "a702335f2c2d4f18d3ead4053df2fc3a9be3ad69b062bedd938f3b2551213b27",
+      "source_hash_matches": true,
+      "evidence_pages": [
+        176,
+        178
+      ],
+      "page_text_extraction_passed": true,
+      "value": 0,
+      "literal_probe": "0",
+      "literal_pages": [
+        176,
+        178
+      ],
+      "literal_present_on_evidence_page": true,
+      "period_literal": null,
+      "quote_checks": [
+        {
+          "page": 176,
+          "quote": "3.11 Use of sold products ... 134,133",
+          "check": "skipped_nonliteral_or_compound",
+          "matched": null
+        },
+        {
+          "page": 176,
+          "quote": "Total Gross indirect (Scope 3) GHG emissions ... 179,222 ... 159,144",
+          "check": "skipped_nonliteral_or_compound",
+          "matched": null
+        },
+        {
+          "page": 178,
+          "quote": "Calculations are completed at a portfolio element",
+          "check": "normalized_substring",
+          "matched": true
+        },
+        {
+          "page": 178,
+          "quote": "Primary data was used to calculate 0% of the calculated Scope 3 GHG emissions across all categories.",
+          "check": "normalized_substring",
+          "matched": true
+        }
+      ],
+      "errors": [],
+      "screening_only": true
+    },
+    {
+      "component": "TABLE_CELL_BINDING_INCOMPLETE",
+      "gap_id": "gap-591e05c5408c957f5e6b6c54",
+      "fact_record_id": "fact-98cb39de19a113aeb1a86efa",
+      "document_id": "P17-BMW-GROUP-REPORT-2025",
+      "source_path": "data/raw/p17_staging/bmw-group-report-2025.pdf",
+      "source_sha256": "7a7fd36bf7f274e776ef7eda30d3cda4335a99cbb45f097ae5e8268ccf7759e7",
+      "source_hash_matches": true,
+      "evidence_pages": [
+        178
+      ],
+      "page_text_extraction_passed": true,
+      "value": 3,
+      "literal_probe": "3",
+      "literal_pages": [
+        178
+      ],
+      "literal_present_on_evidence_page": true,
+      "period_literal": null,
+      "quote_checks": [
+        {
+          "page": 178,
+          "quote": "there were 802 occupational accidents within the BMW Group",
+          "check": "normalized_substring",
+          "matched": false
+        },
+        {
+          "page": 178,
+          "quote": "the accident frequency rate was 2.6",
+          "check": "normalized_substring",
+          "matched": true
+        },
+        {
+          "page": 178,
+          "quote": "There were a total of 4 fatalities due to work-related accidents",
+          "check": "normalized_substring",
+          "matched": true
+        },
+        {
+          "page": 178,
+          "quote": "1 BMW Group employee and 3 workers of external companies working at BMW Group’s sites",
+          "check": "normalized_substring",
+          "matched": false
+        },
+        {
+          "page": 178,
+          "quote": "0 reported fatalities due to work-related ill health",
+          "check": "normalized_substring",
+          "matched": false
+        }
+      ],
+      "errors": [],
+      "screening_only": true
+    },
+    {
+      "component": "NATIVE_PDF_CORROBORATION_INCOMPLETE",
+      "gap_id": "gap-54a4ffb8f59b38bc2188fdcb",
+      "fact_record_id": "fact-cf08ac052f400f635f90119a",
+      "document_id": "P23-GSK-AR2025",
+      "source_path": "data/raw/p23_staging/gsk-annual-report-2025.pdf",
+      "source_sha256": "a3ef37d848fca940f85b6c33815a5d47d1f32726fd389a03910653e24af0f4d2",
+      "source_hash_matches": true,
+      "evidence_pages": [
+        55,
+        78
+      ],
+      "page_text_extraction_passed": true,
+      "value": 289,
+      "literal_probe": "289",
+      "literal_pages": [
+        78
+      ],
+      "literal_present_on_evidence_page": true,
+      "period_literal": "2024",
+      "quote_checks": [
+        {
+          "page": 55,
+          "quote": "reduced our Scope 1 & 2 carbon emissions",
+          "check": "normalized_substring",
+          "matched": true
+        },
+        {
+          "page": 55,
+          "quote": "14% compared with 2024",
+          "check": "normalized_substring",
+          "matched": true
+        },
+        {
+          "page": 78,
+          "quote": "Scope 1 emissions (from energy)",
+          "check": "normalized_substring",
+          "matched": true
+        },
+        {
+          "page": 78,
+          "quote": "Scope 1 emissions (other",
+          "check": "normalized_substring",
+          "matched": true
+        },
+        {
+          "page": 78,
+          "quote": "Scope 2 emissions (market-based",
+          "check": "normalized_substring",
+          "matched": true
+        },
+        {
+          "page": 78,
+          "quote": "280",
+          "check": "normalized_substring",
+          "matched": true
+        },
+        {
+          "page": 78,
+          "quote": "289",
+          "check": "normalized_substring",
+          "matched": true
+        },
+        {
+          "page": 78,
+          "quote": "199",
+          "check": "normalized_substring",
+          "matched": true
+        },
+        {
+          "page": 78,
+          "quote": "232",
+          "check": "normalized_substring",
+          "matched": true
+        },
+        {
+          "page": 78,
+          "quote": "44",
+          "check": "normalized_substring",
+          "matched": true
+        }
+      ],
+      "errors": [],
+      "screening_only": true
+    },
+    {
+      "component": "NATIVE_PDF_CORROBORATION_INCOMPLETE",
+      "gap_id": "gap-35b498297ba4af57b800fe75",
+      "fact_record_id": "fact-f490fcd99c7edd0ae19a2b86",
+      "document_id": "P20-HOLCIM-SS2025",
+      "source_path": "data/raw/p20_staging/holcim-sustainability-statement-2025.pdf",
+      "source_sha256": "55b975cd13fc361638ed13bf32856a2629e46e88bdfc6ad9208bd8807992a599",
+      "source_hash_matches": true,
+      "evidence_pages": [
+        86,
+        87
+      ],
+      "page_text_extraction_passed": true,
+      "value": 91,
+      "literal_probe": "91",
+      "literal_pages": [
+        87
+      ],
+      "literal_present_on_evidence_page": true,
+      "period_literal": "2024",
+      "quote_checks": [
+        {
+          "page": 86,
+          "quote": "Gross Scope 1 emissions: 52 million tons",
+          "check": "normalized_substring",
+          "matched": true
+        },
+        {
+          "page": 86,
+          "quote": "Scope 2 emissions (market-based): 3 million tons",
+          "check": "normalized_substring",
+          "matched": true
+        },
+        {
+          "page": 86,
+          "quote": "Total Scope 3 emissions: 37 million tons",
+          "check": "normalized_substring",
+          "matched": true
+        },
+        {
+          "page": 86,
+          "quote": "Total GHG emissions (Scopes 1, 2, and 3): 92 million tons",
+          "check": "normalized_substring",
+          "matched": true
+        },
+        {
+          "page": 87,
+          "quote": "Absolute emissions (Scopes 1, 2, &amp; 3) (market-based)",
+          "check": "normalized_substring",
+          "matched": true
+        },
+        {
+          "page": 87,
+          "quote": "<td>97</td><td>91</td><td>92</td>",
+          "check": "normalized_substring",
+          "matched": true
+        }
+      ],
+      "errors": [],
+      "screening_only": true
+    }
+  ],
+  "calculation_designs": [
+    {
+      "task_id": "HET-CALC-SHELL-SCOPE1-PCT-001",
+      "document_id": "P10-SHELL-AR2025",
+      "source_path": "data/raw/p10_staging/shell-annual-report-2025.pdf",
+      "source_sha256": "90b21028e1616c41c7d73c3e996fd6128d837a41b38d432286e991aed3fbd9a1",
+      "pdf_page": 369,
+      "row_label": "Gross Scope 1 GHG emissions [C]",
+      "unit": "million tonnes CO2e",
+      "columns": {
+        "2025": 69,
+        "2024": 73
+      },
+      "operation": "percentage_change",
+      "expression": "(69 - 73) / 73 * 100",
+      "unrounded_expected": -5.47945205479452,
+      "rounding": {
+        "mode": "half_even",
+        "decimal_places": 2
+      },
+      "rounded_expected": -5.48,
+      "source_row_verified": true,
+      "screening_only": true,
+      "source_hash_matches": true,
+      "row_label_present": true,
+      "year_columns_present": true
+    },
+    {
+      "task_id": "HET-CALC-TOTALENERGIES-SCOPE12-PCT-001",
+      "document_id": "P9-TOTALENERGIES-URD2025",
+      "source_path": "data/raw/p9_staging/totalenergies-universal-registration-document-2025-en.pdf",
+      "source_sha256": "58e1798ad874228bb60ec110721e8880cefdd11802e2e392e619c0bbe9768c50",
+      "pdf_page": 181,
+      "row_label": "Scope 1+2",
+      "unit": "Mt CO2e",
+      "columns": {
+        "2025": 33,
+        "2024": 34
+      },
+      "operation": "percentage_change",
+      "expression": "(33 - 34) / 34 * 100",
+      "unrounded_expected": -2.941176470588235,
+      "rounding": {
+        "mode": "half_even",
+        "decimal_places": 2
+      },
+      "rounded_expected": -2.94,
+      "source_row_verified": true,
+      "screening_only": true,
+      "source_hash_matches": true,
+      "row_label_present": true,
+      "year_columns_present": true
+    }
+  ],
+  "summary": {
+    "candidate_records": 15,
+    "source_hashes_passed": 15,
+    "page_extractions_passed": 15,
+    "candidate_literals_present": 9,
+    "calculation_designs": 2,
+    "calculation_source_rows_verified": 2
+  },
+  "safety": {
+    "adapter_executed": false,
+    "fact_write_performed": false,
+    "trust_promotion_performed": false,
+    "cloud_transmission_performed": false
+  },
+  "next_gate": "manual semantic review and positive/negative contract freeze"
+}

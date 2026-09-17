@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0",
+  "task_id": "P14-TARGET-001",
+  "reference_author": "codex_gpt_simulated_expert",
+  "reference_status": "verified_against_frozen_pages",
+  "answer": "L'Oreal targets by 2030 a 57% absolute reduction in Scopes 1 and 2 and a 28% absolute reduction in material Scope 3 emissions from purchased goods and services, upstream transportation and distribution, and business travel, all versus 2019. By 2050 it targets a 90% reduction in overall Scopes 1, 2 and 3 emissions versus 2019, with residual emissions offset to reach net zero. The pathway was validated by SBTi, and L'Oreal states that it is not affected by EU Paris-aligned benchmark exclusions. Its 2025 progress versus 2019 was -58% for market-based Scopes 1 and 2, +5% for material Scope 3 and +1% for total market-based GHG emissions.",
+  "normalized_value": {
+    "scope_1_2_2030_reduction_percent": 57,
+    "scope_3_2030_reduction_percent": 28,
+    "scope_3_category_purchased_goods": "purchased goods and services",
+    "scope_3_category_upstream_transport": "upstream transportation and distribution",
+    "scope_3_category_business_travel": "business travel",
+    "base_year": 2019,
+    "overall_2050_reduction_percent": 90,
+    "residual_treatment": "offset to achieve net zero",
+    "sbti_status": "pathway validated by SBTi",
+    "benchmark_exclusion_status": "not affected by the EU Paris-aligned benchmark exclusions",
+    "scope_1_2_2025_progress_percent": -58,
+    "material_scope_3_2025_progress_percent": 5,
+    "total_market_ghg_2025_progress_percent": 1
+  },
+  "evidence": [
+    {"source_id": "P14-LOREAL-URD2025", "pdf_page": 206, "quote": "reduce absolute Scopes 1 & 2 greenhouse gas (GHG) emissions by 57% compared to 2019"},
+    {"source_id": "P14-LOREAL-URD2025", "pdf_page": 206, "quote": "reduce absolute Scope 3 greenhouse gas emissions from purchased goods and services, upstream transportation and distribution and business travel, by 28% compared to 2019"},
+    {"source_id": "P14-LOREAL-URD2025", "pdf_page": 208, "quote": "by 2050, to reduce overall emissions by 90%"},
+    {"source_id": "P14-LOREAL-URD2025", "pdf_page": 208, "quote": "with any residual emissions ofset to achieve net zero"},
+    {"source_id": "P14-LOREAL-URD2025", "pdf_page": 208, "quote": "pathway has been validated by the SBTi"},
+    {"source_id": "P14-LOREAL-URD2025", "pdf_page": 208, "quote": "L’Oréal is not afected by the EU Paris-aligned benchmark exclusions."},
+    {"source_id": "P14-LOREAL-URD2025", "pdf_page": 212, "quote": "-58%"},
+    {"source_id": "P14-LOREAL-URD2025", "pdf_page": 212, "quote": "+5%"},
+    {"source_id": "P14-LOREAL-URD2025", "pdf_page": 212, "quote": "+1%"},
+    {"source_id": "P14-LOREAL-URD2025", "pdf_page": 213, "quote": "Scopes 1 & 2 GHG emissions (market-based)"}
+  ],
+  "provenance": {"reference_is_simulated": true, "candidate_model_used": false}
+}

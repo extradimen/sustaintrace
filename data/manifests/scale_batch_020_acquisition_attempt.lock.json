@@ -1,0 +1,25 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-020-SOURCE-ATTEMPT",
+  "created_at": "2026-09-13T16:19:17Z",
+  "status": "candidate_rejected_before_diagnostics_and_target_freeze",
+  "candidate": {
+    "document_id": "KB-B020-AHOLD-AR2025",
+    "company": "Koninklijke Ahold Delhaize N.V.",
+    "title": "Ahold Delhaize Annual Report 2025",
+    "local_path": "data/raw/scale_batch_020/ahold-delhaize-annual-report-2025.pdf",
+    "bytes": 17713203,
+    "sha256": "11a2faee6b25677b14e9f3eee071d44d5e1483fe8ac3fd4e6cef64a22c47967a",
+    "pdf_pages": 365,
+    "pdf_header_valid": true,
+    "rejection_gate": "cross_experiment_issuer_report_series_deduplication",
+    "prior_use": {
+      "experiment_id": "P5-V14-UNSEEN-LOCKBOX-V01",
+      "document_id": "P5-AHOLD-AR2025",
+      "source_manifest": "data/manifests/p5_source_registry_v0.1.lock.json"
+    },
+    "included_in_batch_020": false
+  },
+  "replacement_document_id": "KB-B020-CARREFOUR-URD2025",
+  "cloud_transmission": false
+}

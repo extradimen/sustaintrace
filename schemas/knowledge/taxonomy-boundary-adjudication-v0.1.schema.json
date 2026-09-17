@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/esg/taxonomy-boundary-adjudication-v0.1.schema.json",
+  "type": "object", "additionalProperties": false,
+  "required": ["schema_version", "record_kind", "adjudication_id", "plan_id", "validation_id", "fact_record_id", "task_id", "predicate", "value", "resolved_classification", "source_artifact", "source_artifact_sha256", "source_page", "source_text", "resolved_signature", "effective_blockers", "effective_status", "execution_mode", "rollback", "source_fact_modified", "promotion_performed"],
+  "properties": {
+    "schema_version": {"const": "0.1"},
+    "record_kind": {"const": "taxonomy_boundary_adjudication"},
+    "adjudication_id": {"type": "string", "pattern": "^taxonomy-boundary-adj-[0-9a-f]{24}$"},
+    "plan_id": {"type": "string", "pattern": "^boundary-plan-[0-9a-f]{24}$"},
+    "validation_id": {"type": "string", "pattern": "^taxonomy-validation-[0-9a-f]{24}$"},
+    "fact_record_id": {"type": "string", "pattern": "^fact-[0-9a-f]{24}$"},
+    "task_id": {"type": "string", "minLength": 1},
+    "predicate": {"type": "string", "minLength": 1},
+    "value": {},
+    "resolved_classification": {"type": "object", "additionalProperties": true},
+    "source_artifact": {"type": "string", "minLength": 1},
+    "source_artifact_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "source_page": {"type": "integer", "minimum": 1},
+    "source_text": {"type": "string", "minLength": 1},
+    "resolved_signature": {"const": "BOUNDARY_ATTACHMENT_INCOMPLETE"},
+    "effective_blockers": {"type": "array", "maxItems": 0},
+    "effective_status": {"const": "ready_for_independent_source_review"},
+    "execution_mode": {"const": "derived_layer_only"},
+    "rollback": {"const": "delete_taxonomy_boundary_adjudication"},
+    "source_fact_modified": {"const": false},
+    "promotion_performed": {"const": false}
+  }
+}

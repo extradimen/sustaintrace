@@ -1,0 +1,19 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-030-SUPPLEMENTAL",
+  "status": "source_set_frozen",
+  "documents": [
+    {
+      "document_id": "KB-B030-NCC-ASR2025",
+      "local_path": "data/raw/scale_batch_030/ncc-annual-and-sustainability-report-2025.pdf",
+      "bytes": 6777680,
+      "pages": 166,
+      "sha256": "253f5b9bf6a12ec5ce7e1965711dcda91af42da1bd58cb37972b5d87af853de2",
+      "pdf_valid": true,
+      "exact_sha256_duplicate": false
+    }
+  ],
+  "rejected_documents": [],
+  "cross_experiment_sha256_deduplication": "passed_against_all_prior_scale_stage_pdfs",
+  "cloud_transmission": false
+}

@@ -1,0 +1,185 @@
+{
+  "artifacts": {
+    "atomic_gold": {
+      "path": "data/annotations/p22_simulated/p22_atomic_slot_gold_v0.1.lock.json",
+      "sha256": "d1fead7cb4e3225cf4096484b4d915a04dd9e6a7d1aa1c955fb069d679cfa48a"
+    },
+    "calculation_plans": {
+      "path": "configs/framework/p22_calculation_plans_v0.1.lock.json",
+      "sha256": "3967452a4c32dc8d20ad632e433e73d9d92c51f5b417146c2339a6f30c52c58a"
+    },
+    "execution_config": {
+      "path": "configs/experiments/p22-v31-unseen-lockbox-local.json",
+      "sha256": "957679e74aef3b861ff23cf73301698e8009a8ed120bc52df776558eb7455dd9"
+    },
+    "handle_whitelist": {
+      "path": "configs/framework/p22_evidence_handle_whitelist_v0.1.lock.json",
+      "sha256": "1de5243c54748a610c16d9c10631d546ce54580b1521fa2889604daf427c2cf4"
+    },
+    "layout_registry": {
+      "path": "configs/framework/p22_layout_fallback_registry_v0.1.lock.json",
+      "sha256": "bf2c561c112b5ef51e7a186e0bf7b93e80e657483336ad6d88eb8ff2f839b983"
+    },
+    "local_task_pack": {
+      "path": "data/tasks/p22_local_execution_task_pack_v0.1.lock.json",
+      "sha256": "a85237028440569df25475ed42bd065ee1b172bd69919fd2b6f71d9b2c761921"
+    },
+    "report": {
+      "path": "docs/94_P22_v3.1本地预冻结与云授权边界_v0.1.md",
+      "sha256": "d1b17dfe4b4aa761a3224882c98a2679e03327105fa1314fbf375d8bb8102ad5"
+    },
+    "scoring_rules": {
+      "path": "configs/framework/p22_scoring_rules_v0.1.lock.json",
+      "sha256": "d40ed00a912e22ee417942dc50cd8f7d973829e447daeb8b523ee4ed0260345c"
+    },
+    "semantic_qualifiers": {
+      "path": "configs/framework/p22_semantic_qualifiers_v0.1.lock.json",
+      "sha256": "56a496fb8808ef4a222388eb8d9c49345478a25cf20ee822ce0ec9945cd0af08"
+    },
+    "slot_contracts": {
+      "path": "configs/framework/p22_slot_contracts_v0.1.lock.json",
+      "sha256": "26244a0678326bc47b9e4cf2112b1c58bd6c7874daeda0132b54559eb28a178b"
+    },
+    "table_graph": {
+      "path": "configs/framework/p22_two_dimensional_table_graph_v0.1.lock.json",
+      "sha256": "885f2bb7d715ad8be555a323d57368885e6677edf9141c608b1ff02707e46a53"
+    }
+  },
+  "cloud_boundary": {
+    "authorized_pages_required": [
+      130,
+      132,
+      149,
+      151,
+      171,
+      172,
+      203,
+      204,
+      374,
+      375,
+      377
+    ],
+    "authorized_scope_required": "P22 Stage A/Stage B single-attempt candidate inference",
+    "candidate_model": "qwen3.5:397b-cloud",
+    "candidate_model_call_count": 0,
+    "cloud_transmission_count": 0,
+    "explicit_payload_specific_authorization_received": false
+  },
+  "document_id": "P22-BAYER-AR2025",
+  "document_sha256": "0af4a9d19fd9d4cba72c1ec062802199873f2379f84112dc2db5dc9605ce769b",
+  "experiment_id": "P22-V31-UNSEEN-LOCKBOX-V01",
+  "locked_prior_experiments_modified": false,
+  "mineru": {
+    "failure_count": 0,
+    "preserved_initial_failures": [
+      130,
+      374
+    ],
+    "recovery_generations": [
+      "RESUME01"
+    ],
+    "registry": "data/manifests/p22_mineru_target_registry_v0.1.lock.json",
+    "registry_sha256": "2c1b8864009162642477ee8f8e60e540a1f1b3f7d9ef82d7eb60ca45a7fe1962",
+    "success_count": 11
+  },
+  "prefreeze_integrity": {
+    "evidence_quotes_checked": 44,
+    "page_204_parser_anomaly_logged_and_resolved_before_reference_freeze": true,
+    "reference_audit": "data/results/p22_prefreeze_reference_consistency_audit_v0.1.lock.json",
+    "reference_audit_sha256": "deaaf2ba3709dcf6678d1bbd25fe13a245665d61bed88652a3386d4cf31011ac",
+    "reference_freeze": "data/manifests/p22_simulated_reference_freeze_v0.1.lock.json",
+    "reference_freeze_sha256": "7c8b6daadec5778a8ce12b4a334dc5c8e711b36e6aa6590814236705efebfd18",
+    "status": "passed",
+    "v29_whole_pack_preflight": {
+      "checked_operations": [
+        {
+          "operation": "percentage_change",
+          "step_id": "total_change",
+          "task_id": "P22-ENERGY-CALC-001"
+        },
+        {
+          "operation": "percentage_change",
+          "step_id": "renewable_change",
+          "task_id": "P22-ENERGY-CALC-001"
+        },
+        {
+          "operation": "sum",
+          "step_id": "sum_2024",
+          "task_id": "P22-GHG-CALC-001"
+        },
+        {
+          "operation": "sum",
+          "step_id": "sum_2025",
+          "task_id": "P22-GHG-CALC-001"
+        },
+        {
+          "operation": "percentage_change",
+          "step_id": "percentage_change",
+          "task_id": "P22-GHG-CALC-001"
+        },
+        {
+          "operation": "sum",
+          "step_id": "component_sum_2024",
+          "task_id": "P22-SAFETY-CALC-001"
+        },
+        {
+          "operation": "sum",
+          "step_id": "component_sum_2025",
+          "task_id": "P22-SAFETY-CALC-001"
+        },
+        {
+          "operation": "difference",
+          "step_id": "difference_2024",
+          "task_id": "P22-SAFETY-CALC-001"
+        },
+        {
+          "operation": "difference",
+          "step_id": "difference_2025",
+          "task_id": "P22-SAFETY-CALC-001"
+        },
+        {
+          "operation": "difference",
+          "step_id": "calculated_2024",
+          "task_id": "P22-WATER-CALC-001"
+        },
+        {
+          "operation": "difference",
+          "step_id": "calculated_2025",
+          "task_id": "P22-WATER-CALC-001"
+        },
+        {
+          "operation": "difference",
+          "step_id": "comparison_2024",
+          "task_id": "P22-WATER-CALC-001"
+        },
+        {
+          "operation": "difference",
+          "step_id": "comparison_2025",
+          "task_id": "P22-WATER-CALC-001"
+        }
+      ],
+      "deterministic_task_count": 4,
+      "plan_count": 4,
+      "status": "passed",
+      "task_count": 6,
+      "validated_before_candidate_call": true
+    }
+  },
+  "schema_version": "3.1",
+  "slot_count": 97,
+  "status": "local_readiness_passed_waiting_for_payload_specific_cloud_authorization",
+  "task_count": 6,
+  "unique_target_pages": [
+    130,
+    132,
+    149,
+    151,
+    171,
+    172,
+    203,
+    204,
+    374,
+    375,
+    377
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/esg-reliable-discovery/failure-record-v0.1.schema.json",
+  "title": "ESG failure knowledge record v0.1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "record_kind",
+    "record_id",
+    "experiment_id",
+    "task_id",
+    "failure_owner",
+    "failure_category",
+    "failure_signature",
+    "observed_stage_states",
+    "diagnostics",
+    "provenance"
+  ],
+  "properties": {
+    "schema_version": {"const": "0.1"},
+    "record_kind": {"const": "failure_observation"},
+    "record_id": {"type": "string", "pattern": "^failure-[0-9a-f]{24}$"},
+    "experiment_id": {"type": "string", "minLength": 1},
+    "task_id": {"type": "string", "minLength": 1},
+    "failure_owner": {
+      "enum": ["candidate_model", "framework", "document_pipeline", "infrastructure", "unknown"]
+    },
+    "failure_category": {
+      "enum": [
+        "model_behavior",
+        "executor_or_configuration",
+        "retrieval_or_evidence_selection",
+        "parser_or_document_structure",
+        "cloud_transport",
+        "reference_integrity",
+        "unknown"
+      ]
+    },
+    "failure_signature": {"type": "string", "pattern": "^[A-Z][A-Z0-9_]+$"},
+    "observed_stage_states": {"type": "object"},
+    "diagnostics": {"type": "array", "items": {}},
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["source_artifact", "source_sha256"],
+      "properties": {
+        "source_artifact": {"type": "string", "minLength": 1},
+        "source_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+      }
+    }
+  }
+}

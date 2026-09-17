@@ -1,0 +1,86 @@
+{
+  "schema_version": "0.1",
+  "result_id": "ESG-STAGE-B-RUNNER-CLOSURE-GATE-v0.1",
+  "status": "all_reusable_entry_points_fail_closed",
+  "runner_entry_points": [
+    {
+      "path": "src/esg_reliable_discovery/p1_stage_b_runner.py",
+      "sha256": "86f81ca39444eba4766e85cf97c3e63323cf2497e976e9420ab9dd97007d02b0",
+      "gate_phases": [
+        "pre_knowledge_write",
+        "pre_model"
+      ],
+      "complete": true
+    },
+    {
+      "path": "src/esg_reliable_discovery/v1_stage_b_runner.py",
+      "sha256": "710aea7ca64e6b519007b6216bdfd07408c0aa77ec2b8e9325fcc2984af5ea71",
+      "gate_phases": [
+        "pre_knowledge_write",
+        "pre_model"
+      ],
+      "complete": true
+    },
+    {
+      "path": "src/esg_reliable_discovery/v11_stage_b_runner.py",
+      "sha256": "3892130ee937e7dbbbc45e5794be51e067f6f98bb8d5596fc9154a4fc7871655",
+      "gate_phases": [
+        "pre_knowledge_write",
+        "pre_model"
+      ],
+      "complete": true
+    },
+    {
+      "path": "src/esg_reliable_discovery/v13_stage_b_runner.py",
+      "sha256": "1209e1c213982bf3d5f112ab762ef067ac5537106757f95d89290155e76a89a1",
+      "gate_phases": [
+        "pre_knowledge_write",
+        "pre_model"
+      ],
+      "complete": true
+    }
+  ],
+  "v13_caller_scripts": [
+    "scripts/resume_p7_safety_infra.py",
+    "scripts/resume_p8_stage_b_infra.py",
+    "scripts/run_p10_infra_recovery.py",
+    "scripts/run_p10_v19_lockbox.py",
+    "scripts/run_p11_v20_lockbox.py",
+    "scripts/run_p12_v21_lockbox.py",
+    "scripts/run_p13_v22_lockbox.py",
+    "scripts/run_p14_v23_lockbox.py",
+    "scripts/run_p15_v24_lockbox.py",
+    "scripts/run_p16_v25_lockbox.py",
+    "scripts/run_p16_v25_stage_b_resume02.py",
+    "scripts/run_p17_v26_lockbox.py",
+    "scripts/run_p18_v27_lockbox.py",
+    "scripts/run_p19_v28_lockbox.py",
+    "scripts/run_p20_v29_lockbox.py",
+    "scripts/run_p21_v30_lockbox.py",
+    "scripts/run_p22_v31_lockbox.py",
+    "scripts/run_p23_v32_lockbox.py",
+    "scripts/run_p4_v13_lockbox.py",
+    "scripts/run_p5_v14_lockbox.py",
+    "scripts/run_p6_v15_lockbox.py",
+    "scripts/run_p7_v16_lockbox.py",
+    "scripts/run_p8_v17_lockbox.py",
+    "scripts/run_p9_v18_lockbox.py",
+    "scripts/run_v132_semantic_qualifier_regression.py",
+    "scripts/run_v13_end_to_end_development.py",
+    "scripts/run_v13_stage_b_full_regression.py",
+    "scripts/run_v13_stage_b_type_regression.py"
+  ],
+  "counts": {
+    "runner_entry_points": 4,
+    "fully_gated_entry_points": 4,
+    "v13_caller_scripts_covered_by_central_entry_point": 28
+  },
+  "boundaries": [
+    "pre_model",
+    "pre_knowledge_write"
+  ],
+  "model_execution_performed": false,
+  "cloud_transmission_performed": false,
+  "historical_output_modified_or_rescored": false,
+  "next_gate": "build the second repair queue from knowledge gaps and repair rankings"
+}

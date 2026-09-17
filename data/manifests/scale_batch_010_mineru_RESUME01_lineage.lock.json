@@ -1,0 +1,14 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-010-RESUME01",
+  "parent_run": "data/results/scale_batch_010_mineru_summary.lock.json",
+  "parent_status": "complete",
+  "parent_complete_pages": 0,
+  "parent_failed_pages": 27,
+  "resume_reason": "All initial tasks were blocked before model execution because the sandbox denied MinerU binding an ephemeral localhost orchestration port (PermissionError errno 1).",
+  "failure_signature": "MINERU_LOCALHOST_BIND_SANDBOX_DENIED",
+  "reuse_policy": "Preserve all 27 initial failure records and retry only those failed tasks with identical frozen inputs and configuration in an explicitly labeled RESUME01 archive outside the restrictive sandbox.",
+  "output_root": "artifacts/scale_batch_010/mineru_targets_RESUME01",
+  "summary": "data/results/scale_batch_010_mineru_RESUME01_summary.lock.json",
+  "cloud_transmission": false
+}

@@ -1,0 +1,15 @@
+{
+  "schema_version": "0.1",
+  "run_id": "KB-SCALE-BATCH-003-MINERU-RESUME01",
+  "parent_run": "KB-SCALE-BATCH-003",
+  "parent_summary": "data/results/scale_batch_003_mineru_summary.lock.json",
+  "failure_signature": "MINERU_POSTPROCESS_RUNTIME_ABORT",
+  "resume_policy": "new output directory; retry only failed pages; retain parent failure records",
+  "retry_targets": [
+    {"document_id": "KB-B003-AZ-SDA2025", "page": 2},
+    {"document_id": "KB-B003-DHL-AR2025", "page": 79},
+    {"document_id": "KB-B003-DHL-AR2025", "page": 127}
+  ],
+  "reused_successful_pages": 20,
+  "cloud_transmission": false
+}

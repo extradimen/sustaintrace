@@ -1,0 +1,1 @@
+{"schema_version":"1.0","status":"frozen_before_p8_candidate_inference","qualifiers":{"P8-SAFETY-001":{},"P8-CALC-001":{"recomputed_change":{"direction":"decrease"}},"P8-TARGET-001":{"target_2025":{"direction":"decrease"},"gross_reduction":{"direction":"decrease"},"net_reduction":{"direction":"decrease"}},"P8-BASELINE-001":{},"P8-SCOPE3-001":{},"P8-ASSURE-001":{}}}

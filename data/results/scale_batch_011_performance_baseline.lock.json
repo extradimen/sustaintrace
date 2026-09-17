@@ -1,0 +1,77 @@
+{
+  "batch_id": "KB-SCALE-BATCH-011-PERFORMANCE",
+  "comparison_parent": "data/results/scale_batch_010_performance_baseline.lock.json",
+  "completed_at": "2026-09-13T04:20:08.526580+00:00",
+  "mineru": {
+    "checkpoint_reuse_pages": 23,
+    "final_complete_pages": 27,
+    "initial_attempt_wall_seconds": 1101.064908,
+    "initial_failures": 4,
+    "post_completion_shutdown_failures": 4,
+    "resume01_failures": 0,
+    "resume01_wall_seconds": 70.177371,
+    "status": "complete",
+    "successful_processing_wall_seconds": 1114.057886,
+    "successful_target_pages": 27,
+    "successful_target_pages_per_hour": 87.248608,
+    "target_page_wall_seconds": {
+      "KB-B011-DB-AR2025:p0301": 16.140611,
+      "KB-B011-DB-AR2025:p0304": 18.165853,
+      "KB-B011-DB-AR2025:p0307": 17.344921,
+      "KB-B011-DB-AR2025:p0323": 12.654827,
+      "KB-B011-DB-AR2025:p0341": 17.772314,
+      "KB-B011-DB-AR2025:p0343": 17.848885,
+      "KB-B011-DB-AR2025:p0417": 16.390319,
+      "KB-B011-DB-AR2025:p0427": 15.494568,
+      "KB-B011-DB-AR2025:p0435": 19.884916,
+      "KB-B011-DSMF-SS2025:p0003": 60.422805,
+      "KB-B011-DSMF-SS2025:p0030": 44.596788,
+      "KB-B011-DSMF-SS2025:p0039": 43.257129,
+      "KB-B011-DSMF-SS2025:p0042": 51.48923,
+      "KB-B011-DSMF-SS2025:p0056": 61.24937,
+      "KB-B011-DSMF-SS2025:p0075": 57.554442,
+      "KB-B011-DSMF-SS2025:p0088": 58.740471,
+      "KB-B011-DSMF-SS2025:p0089": 52.469677,
+      "KB-B011-DSMF-SS2025:p0096": 17.887309,
+      "KB-B011-ENI-SS2025:p0008": 93.768551,
+      "KB-B011-ENI-SS2025:p0026": 59.006962,
+      "KB-B011-ENI-SS2025:p0033": 45.597498,
+      "KB-B011-ENI-SS2025:p0035": 56.533055,
+      "KB-B011-ENI-SS2025:p0049": 52.605391,
+      "KB-B011-ENI-SS2025:p0050": 62.604076,
+      "KB-B011-ENI-SS2025:p0059": 49.249558,
+      "KB-B011-ENI-SS2025:p0072": 48.666658,
+      "KB-B011-ENI-SS2025:p0078": 46.661702
+    },
+    "total_attempt_wall_seconds": 1171.242279
+  },
+  "mineru_comparison": {
+    "batch_010_pages_per_hour": 81.884242,
+    "batch_011_pages_per_hour": 87.248608,
+    "interpretation_gate": "throughput_only_quality_measured_separately",
+    "relative_change_percent": 6.551
+  },
+  "policy": {
+    "cloud_transmission": false,
+    "locked_experiments_modified": false,
+    "performance_separate_from_knowledge_quality": true
+  },
+  "provisional_comparison": {
+    "batch_010_pages_per_second": 440.0,
+    "batch_011_pages_per_second": 442.100478,
+    "interpretation_gate": "diagnostic_only_not_semantic_quality_or_mineru_speed",
+    "relative_change_percent": 0.477
+  },
+  "schema_version": "0.1",
+  "started_at": "2026-09-13T04:20:06.271126+00:00",
+  "status": "diagnostic_and_mineru_baseline_complete",
+  "whole_report_diagnostic": {
+    "documents": 3,
+    "extractable_pages": 996,
+    "pages_per_second": 442.100478,
+    "pdf_pages": 997,
+    "peak_rss_bytes": 49266688,
+    "peak_rss_mb": 46.984,
+    "wall_seconds": 2.255143
+  }
+}

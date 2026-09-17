@@ -1,0 +1,69 @@
+{
+  "schema_version": "2.8",
+  "experiment_id": "P19-V28-UNSEEN-LOCKBOX-V01",
+  "status": "completed_and_scored_with_model_behavior_and_pre_call_executor_failures",
+  "decision": "P19_COMPLETED_NOT_ELIGIBLE_FOR_CROSS_VERSION_AGGREGATE_DUE_TO_PREFLIGHT_PLAN_OMISSION",
+  "candidate_model": "qwen3.5:397b-cloud",
+  "task_count": 6,
+  "single_candidate_attempt_per_behavioral_stage": true,
+  "silent_retry": false,
+  "posthoc_semantic_repair": false,
+  "reference_visible_to_candidate": false,
+  "stage_a": {
+    "tasks_entered": 6,
+    "cloud_model_calls": 5,
+    "framework_valid": 0,
+    "model_behavior_failed": 5,
+    "pre_call_executor_failed": 1
+  },
+  "stage_b": {
+    "eligible_tasks": 0,
+    "framework_valid": 0,
+    "model_behavior_failed": 0,
+    "infrastructure_failed": 0,
+    "not_reached": 6
+  },
+  "scoring": {
+    "aggregate_score": null,
+    "required_atomic_slots": 65,
+    "credited_valid_slots": 0,
+    "literal_or_numeric_exact_slots": 0,
+    "numeric_exact_slots": 0,
+    "numeric_reference_slots": 49,
+    "text_literal_exact_slots": 0,
+    "text_normalized_exact_slots": 0,
+    "text_reference_slots": 16,
+    "verified_run_archives": 5
+  },
+  "task_results": {
+    "P19-GHG-CALC-001": "Stage A model behavior failure: required task_id missing",
+    "P19-ENERGY-001": "Stage A model behavior failure: required task_id missing",
+    "P19-SCOPE3-001": "Stage A model behavior failure: required task_id missing",
+    "P19-WORKFORCE-001": "Pre-call executor failure: frozen calculation plan missing; no cloud model call occurred",
+    "P19-TAXONOMY-001": "Stage A model behavior failure: required task_id missing",
+    "P19-ASSURE-001": "Stage A model behavior failure: required task_id missing"
+  },
+  "integrity_audit": {
+    "candidate_outputs_preserved": true,
+    "failed_outputs_preserved": true,
+    "all_existing_run_checksums_verified": true,
+    "candidate_attempts_repeated": false,
+    "workforce_candidate_attempt_occurred": false,
+    "frozen_p3_through_p18_modified": false
+  },
+  "framework_findings": {
+    "task_id_contract": "All five cloud responses omitted the required task_id and were rejected by the frozen v2.8 gate without synthesis or repair.",
+    "preflight_plan_completeness": "The frozen calculation-plan registry omitted P19-WORKFORCE-001 although the task pack classified it as deterministic_calculation; the executor stopped before any model call.",
+    "comparability": "Because one of six tasks never received its authorized single candidate attempt, P19 is retained as an integrity finding but excluded from cross-version aggregate comparison."
+  },
+  "artifacts": {
+    "progress": "data/manifests/p19_candidate_progress.json",
+    "progress_sha256": "a7e2c7be80c399f08c421b5716c4a1f84fa3f244218cec8fe44c73523885d3a9",
+    "dimension_scores": "data/results/p19_v28_dimension_scores_v0.1.lock.json",
+    "dimension_scores_sha256": "7a382b4150e1f8ef60419680c4819256eefc581180edf247eff2ec766df679cf",
+    "execution_release": "data/tasks/p19_execution_release_v0.1.lock.json",
+    "execution_release_sha256": "2d3f445ed47e863e4fc3fb8391b688798ab4de331b2cefb265ecf663b4754cd5",
+    "authorization": "data/manifests/p19_cloud_authorization_exact_2026-09-10_v0.1.lock.json",
+    "authorization_sha256": "3708e09132ab90cf85158a8b457ffce785953a6fe875e93eec7ff4de57fc2d89"
+  }
+}

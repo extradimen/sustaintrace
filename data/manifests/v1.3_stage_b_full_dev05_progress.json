@@ -1,0 +1,81 @@
+{
+  "checkpoint_resume_enabled": true,
+  "experiment_id": "V13-STAGE-B-FULL-REGRESSION-DEV05",
+  "parent_stage_a_experiment": "V13-END-TO-END-DEVELOPMENT-DEV01",
+  "records": [
+    {
+      "result": {
+        "archive_directory": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/V13-STAGE-B-FULL-REGRESSION-DEV05/runs/P3-DEX-001-QWEN397B-v13-stage-b-full-dev05-r1",
+        "elapsed_seconds": 77.55493087500508,
+        "run_id": "P3-DEX-001-QWEN397B-v13-stage-b-full-dev05-r1",
+        "task_id": "P3-DEX-001",
+        "validated_claim_count": 1
+      },
+      "retried": false,
+      "status": "passed",
+      "task_id": "P3-DEX-001"
+    },
+    {
+      "result": {
+        "archive_directory": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/V13-STAGE-B-FULL-REGRESSION-DEV05/runs/P3-DEX-002-QWEN397B-v13-stage-b-full-dev05-r1",
+        "elapsed_seconds": 14.900747208987013,
+        "run_id": "P3-DEX-002-QWEN397B-v13-stage-b-full-dev05-r1",
+        "task_id": "P3-DEX-002",
+        "validated_claim_count": 1
+      },
+      "retried": false,
+      "status": "passed",
+      "task_id": "P3-DEX-002"
+    },
+    {
+      "result": {
+        "archive_directory": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/V13-STAGE-B-FULL-REGRESSION-DEV05/runs/P3-XPAGE-001-QWEN397B-v13-stage-b-full-dev05-r1",
+        "elapsed_seconds": 68.52794395798992,
+        "run_id": "P3-XPAGE-001-QWEN397B-v13-stage-b-full-dev05-r1",
+        "task_id": "P3-XPAGE-001",
+        "validated_claim_count": 5
+      },
+      "retried": false,
+      "status": "passed",
+      "task_id": "P3-XPAGE-001"
+    },
+    {
+      "result": {
+        "archive_directory": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/V13-STAGE-B-FULL-REGRESSION-DEV05/runs/P3-XPAGE-002-QWEN397B-v13-stage-b-full-dev05-r1",
+        "elapsed_seconds": 47.79449741700955,
+        "run_id": "P3-XPAGE-002-QWEN397B-v13-stage-b-full-dev05-r1",
+        "task_id": "P3-XPAGE-002",
+        "validated_claim_count": 3
+      },
+      "retried": false,
+      "status": "passed",
+      "task_id": "P3-XPAGE-002"
+    },
+    {
+      "result": {
+        "archive_directory": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/V13-STAGE-B-FULL-REGRESSION-DEV05/runs/P3-SCOPE-001-QWEN397B-v13-stage-b-full-dev05-r1",
+        "elapsed_seconds": 58.178210792000755,
+        "run_id": "P3-SCOPE-001-QWEN397B-v13-stage-b-full-dev05-r1",
+        "task_id": "P3-SCOPE-001",
+        "validated_claim_count": 3
+      },
+      "retried": false,
+      "status": "passed",
+      "task_id": "P3-SCOPE-001"
+    },
+    {
+      "result": {
+        "archive_directory": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/V13-STAGE-B-FULL-REGRESSION-DEV05/runs/P3-SCOPE-002-QWEN397B-v13-stage-b-full-dev05-r1",
+        "elapsed_seconds": 68.15052262500103,
+        "run_id": "P3-SCOPE-002-QWEN397B-v13-stage-b-full-dev05-r1",
+        "task_id": "P3-SCOPE-002",
+        "validated_claim_count": 5
+      },
+      "retried": false,
+      "status": "passed",
+      "task_id": "P3-SCOPE-002"
+    }
+  ],
+  "schema_version": "1.0",
+  "updated_at": "2026-09-04T22:02:20.060809+00:00"
+}

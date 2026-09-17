@@ -1,0 +1,19 @@
+{
+  "schema_version":"1.0",
+  "experiment_id":"V1-P2-DEVELOPMENT-REGRESSION",
+  "status":"completed_targeted_regressions",
+  "role":"development regression on exposed P2 failures; not generalization evidence",
+  "candidate_model":"qwen3.5:397b-cloud",
+  "single_attempt":true,
+  "posthoc_repair":false,
+  "results":[
+    {"task_id":"P2-CALC-001","stage":"A","status":"passed","finding":"Adjacent explicit date/reporting-year links grounded 29,930 as 2024 and 27,532 as 2025; deterministic result -8.012028%."},
+    {"task_id":"P2-DEX-002","stage":"A","status":"failed","finding":"Model still abstained on Meta exact Scope 3 table row and emitted a forbidden extra normalized_value field."},
+    {"task_id":"P2-CONFLICT-001","stage":"A","status":"failed","finding":"Model again selected rounded 8.2M headline instead of exact 8,151,769 table row; deterministic grounding rejected it."},
+    {"task_id":"P2-SCOPE-001","stage":"B","status":"passed","finding":"Three complete claims correctly used combined Scope 1+2 metrics and GM operations scope; methane misclassification eliminated."},
+    {"task_id":"P2-SCOPE-002","stage":"B","status":"failed","finding":"Model selected the correct supply-chain intensity metric, values and scope, but observed-period 2024 was not grounded inside the table row."}
+  ],
+  "mechanisms_confirmed":["auditable adjacent-block period linking for Stage A calculations","lexically grounded expanded ontology plus required-claim coverage for GM"],
+  "remaining_failures":["deterministic exact-row selection for visually duplicated tables","auditable report-period inheritance for Stage B observations"],
+  "p3_claim_allowed":false
+}

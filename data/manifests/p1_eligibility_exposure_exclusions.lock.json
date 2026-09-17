@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "exclusion_id": "P1-ELIGIBILITY-EXPOSURE-v0.1",
+  "status": "frozen",
+  "reason": "Representative pages viewed during source eligibility QA must not be used as P1 task targets or gold evidence for any GPT-family candidate.",
+  "page_numbering": "1-based PDF page",
+  "documents": [
+    {"candidate_id": "P1-CAND-004", "document_id": "AAPL-EPR-2025", "excluded_pages": [1, 63, 126]},
+    {"candidate_id": "P1-CAND-005", "document_id": "BASF-AR-2024", "excluded_pages": [1, 239, 477]},
+    {"candidate_id": "P1-CAND-008", "document_id": "HITACHI-SR-2024", "excluded_pages": [1, 109, 217]},
+    {"candidate_id": "P1-CAND-009", "document_id": "CRM-IR-2024", "excluded_pages": [1, 56, 111]},
+    {"candidate_id": "P1-CAND-011", "document_id": "SAMSUNG-SR-2024", "excluded_pages": [1, 42, 83]},
+    {"candidate_id": "P1-CAND-016", "document_id": "ANZ-ESG-2024", "excluded_pages": [1, 39, 77]},
+    {"candidate_id": "P1-CAND-017", "document_id": "SBKK-SR-2024", "excluded_pages": [1, 94, 188]},
+    {"candidate_id": "P1-CAND-018", "document_id": "BN-IR-2024", "excluded_pages": [1, 16, 31]},
+    {"candidate_id": "P1-CAND-019", "document_id": "DD-SR-2025", "excluded_pages": [1, 75, 150]},
+    {"candidate_id": "P1-CAND-020", "document_id": "ABX-SR-2024", "excluded_pages": [1, 69, 138]},
+    {"candidate_id": "P1-CAND-021", "document_id": "ENEL-IR-2024", "excluded_pages": [1, 349, 698]},
+    {"candidate_id": "P1-CAND-022", "document_id": "VOLV-B-AR-2024", "excluded_pages": [1, 110, 220]},
+    {"candidate_id": "P1-CAND-015", "document_id": "TTE-SC-2024", "excluded_pages": [1, 56, 112], "reserve_only": true}
+  ],
+  "inference_allowed": false
+}

@@ -1,0 +1,43 @@
+{
+  "blocked_by_reason": {
+    "native_numeric_coordinate_corroboration_not_established": [
+      "fact-6154378df6ff6d6f2af9236b"
+    ],
+    "prior_period_and_coordinate_corroboration_not_established": [
+      "fact-90e5305abbc116904c2cae6a"
+    ],
+    "prior_period_assurance_scope_not_established": [
+      "fact-a79136f5dd947b424922c74e",
+      "fact-caa61e048f3cd976849d17d4",
+      "fact-f0f8b94877c8ed66da35638e"
+    ]
+  },
+  "blocked_fact_ids": [
+    "fact-6154378df6ff6d6f2af9236b",
+    "fact-90e5305abbc116904c2cae6a",
+    "fact-a79136f5dd947b424922c74e",
+    "fact-caa61e048f3cd976849d17d4",
+    "fact-f0f8b94877c8ed66da35638e"
+  ],
+  "inputs": {
+    "atomic_increment_sha256": "a0d572f943a8847723fe299c73026217d7e784eb1c977df569d57342b2da63f1",
+    "atomic_validations_sha256": "96ff7a92b30df89259115b07a1888abc6f6ba193c0514bc38d5c1e39b6d9ddba"
+  },
+  "locked_experiments_modified_or_rescored": false,
+  "newly_promoted_to_tier_b": 3,
+  "next_gate": "scale_batch_007_global_kb_rebuild_and_closure",
+  "outputs": {
+    "adjudications_sha256": "e92d17b07383375cdb407e087c0a9b3b9cbad2b9683e2c73a511132278b7a995",
+    "trusted_facts_sha256": "3f599fb5bc44a55c5db376b351079eabdd4d982cda9cc1ec4b5de7ec00bd7681"
+  },
+  "promotable_fact_ids": [
+    "fact-2dc99cbc1fcc3f234be85773",
+    "fact-4b0e0b414f42482481b51f8a",
+    "fact-6ac845304b724ca730f173cf"
+  ],
+  "reviewed": 8,
+  "schema_version": "0.1",
+  "source_candidate_records_modified": 0,
+  "status": "scale_batch_007_six_dimension_tier_b_sampling_complete",
+  "total_trusted_tier_b": 72
+}

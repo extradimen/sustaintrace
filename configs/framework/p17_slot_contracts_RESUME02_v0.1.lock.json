@@ -1,0 +1,440 @@
+{
+  "contracts": {
+    "P17-ASSURE-001": [
+      {
+        "predicate_id": "esg_p17::p17-assure-001::provider",
+        "slot_id": "provider",
+        "value_type": "string"
+      },
+      {
+        "predicate_id": "esg_p17::p17-assure-001::governing_standard",
+        "slot_id": "governing_standard",
+        "value_type": "string"
+      },
+      {
+        "predicate_id": "esg_p17::p17-assure-001::limited_scope",
+        "slot_id": "limited_scope",
+        "value_type": "string"
+      },
+      {
+        "predicate_id": "esg_p17::p17-assure-001::reasonable_scope",
+        "slot_id": "reasonable_scope",
+        "value_type": "string"
+      },
+      {
+        "predicate_id": "esg_p17::p17-assure-001::excluded_section",
+        "slot_id": "excluded_section",
+        "value_type": "string"
+      },
+      {
+        "predicate_id": "esg_p17::p17-assure-001::limited_conclusion_form",
+        "slot_id": "limited_conclusion_form",
+        "value_type": "string"
+      },
+      {
+        "predicate_id": "esg_p17::p17-assure-001::reasonable_conclusion_form",
+        "slot_id": "reasonable_conclusion_form",
+        "value_type": "string"
+      },
+      {
+        "predicate_id": "esg_p17::p17-assure-001::procedure_difference",
+        "slot_id": "procedure_difference",
+        "value_type": "string"
+      }
+    ],
+    "P17-GHG-CALC-001": [
+      {
+        "canonical_unit": "t CO2e",
+        "predicate_id": "esg_p17::p17-ghg-calc-001::scope_1_2025_tco2e",
+        "slot_id": "scope_1_2025_tco2e",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "t CO2e",
+        "predicate_id": "esg_p17::p17-ghg-calc-001::scope_2_market_based_2025_tco2e",
+        "slot_id": "scope_2_market_based_2025_tco2e",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "t CO2e",
+        "predicate_id": "esg_p17::p17-ghg-calc-001::calculated_scope_1_2_2025_tco2e",
+        "slot_id": "calculated_scope_1_2_2025_tco2e",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "t CO2e",
+        "predicate_id": "esg_p17::p17-ghg-calc-001::disclosed_scope_1_2_2025_tco2e",
+        "slot_id": "disclosed_scope_1_2_2025_tco2e",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "t CO2e",
+        "predicate_id": "esg_p17::p17-ghg-calc-001::difference_tco2e",
+        "slot_id": "difference_tco2e",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "t CO2e",
+        "predicate_id": "esg_p17::p17-ghg-calc-001::disclosed_scope_1_2_2024_tco2e",
+        "slot_id": "disclosed_scope_1_2_2024_tco2e",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "percent",
+        "predicate_id": "esg_p17::p17-ghg-calc-001::calculated_change_percent",
+        "slot_id": "calculated_change_percent",
+        "value_type": "number"
+      },
+      {
+        "predicate_id": "esg_p17::p17-ghg-calc-001::direction",
+        "slot_id": "direction",
+        "value_type": "string"
+      }
+    ],
+    "P17-SAFETY-001": [
+      {
+        "canonical_unit": "count",
+        "predicate_id": "esg_p17::p17-safety-001::accident_counts::total_2025",
+        "slot_id": "accident_counts::total_2025",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "count",
+        "predicate_id": "esg_p17::p17-safety-001::accident_counts::total_2024",
+        "slot_id": "accident_counts::total_2024",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "count",
+        "predicate_id": "esg_p17::p17-safety-001::accident_counts::employees_2025",
+        "slot_id": "accident_counts::employees_2025",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "count",
+        "predicate_id": "esg_p17::p17-safety-001::accident_counts::employees_2024",
+        "slot_id": "accident_counts::employees_2024",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "count",
+        "predicate_id": "esg_p17::p17-safety-001::accident_counts::temporary_2025",
+        "slot_id": "accident_counts::temporary_2025",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "count",
+        "predicate_id": "esg_p17::p17-safety-001::accident_counts::temporary_2024",
+        "slot_id": "accident_counts::temporary_2024",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "count",
+        "predicate_id": "esg_p17::p17-safety-001::accident_rates::total_2025",
+        "slot_id": "accident_rates::total_2025",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "count",
+        "predicate_id": "esg_p17::p17-safety-001::accident_rates::total_2024",
+        "slot_id": "accident_rates::total_2024",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "count",
+        "predicate_id": "esg_p17::p17-safety-001::accident_rates::employees_2025",
+        "slot_id": "accident_rates::employees_2025",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "count",
+        "predicate_id": "esg_p17::p17-safety-001::accident_rates::employees_2024",
+        "slot_id": "accident_rates::employees_2024",
+        "value_type": "number"
+      },
+      {
+        "predicate_id": "esg_p17::p17-safety-001::accident_rates::temporary_2025",
+        "slot_id": "accident_rates::temporary_2025",
+        "value_type": "number"
+      },
+      {
+        "predicate_id": "esg_p17::p17-safety-001::accident_rates::temporary_2024",
+        "slot_id": "accident_rates::temporary_2024",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "count",
+        "predicate_id": "esg_p17::p17-safety-001::fatalities_2025_total",
+        "slot_id": "fatalities_2025_total",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "count",
+        "predicate_id": "esg_p17::p17-safety-001::fatalities_2025_bmw_employee",
+        "slot_id": "fatalities_2025_bmw_employee",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "count",
+        "predicate_id": "esg_p17::p17-safety-001::fatalities_2025_external_site_workers",
+        "slot_id": "fatalities_2025_external_site_workers",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "count",
+        "predicate_id": "esg_p17::p17-safety-001::work_related_ill_health_fatalities_2025",
+        "slot_id": "work_related_ill_health_fatalities_2025",
+        "value_type": "number"
+      }
+    ],
+    "P17-SCOPE3-BOUNDARY-001": [
+      {
+        "predicate_id": "esg_p17::p17-scope3-boundary-001::no_reporting_categories",
+        "slot_id": "no_reporting_categories",
+        "value_type": "string"
+      },
+      {
+        "predicate_id": "esg_p17::p17-scope3-boundary-001::partial_reporting_categories",
+        "slot_id": "partial_reporting_categories",
+        "value_type": "string"
+      },
+      {
+        "predicate_id": "esg_p17::p17-scope3-boundary-001::upstream_leased_assets_allocation",
+        "slot_id": "upstream_leased_assets_allocation",
+        "value_type": "string"
+      },
+      {
+        "predicate_id": "esg_p17::p17-scope3-boundary-001::downstream_leased_assets_allocation",
+        "slot_id": "downstream_leased_assets_allocation",
+        "value_type": "string"
+      },
+      {
+        "predicate_id": "esg_p17::p17-scope3-boundary-001::materiality_threshold_description",
+        "slot_id": "materiality_threshold_description",
+        "value_type": "string"
+      },
+      {
+        "canonical_unit": "percent",
+        "predicate_id": "esg_p17::p17-scope3-boundary-001::significant_scope_3_coverage_percent_approx",
+        "slot_id": "significant_scope_3_coverage_percent_approx",
+        "value_type": "number"
+      }
+    ],
+    "P17-WATER-001": [
+      {
+        "predicate_id": "esg_p17::p17-water-001::unit",
+        "slot_id": "unit",
+        "value_type": "string"
+      },
+      {
+        "canonical_unit": "m3",
+        "predicate_id": "esg_p17::p17-water-001::total_consumption::2025",
+        "slot_id": "total_consumption::2025",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "m3",
+        "predicate_id": "esg_p17::p17-water-001::total_consumption::2024",
+        "slot_id": "total_consumption::2024",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "percent",
+        "predicate_id": "esg_p17::p17-water-001::total_consumption::change_percent",
+        "slot_id": "total_consumption::change_percent",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "m3",
+        "predicate_id": "esg_p17::p17-water-001::water_risk_area_consumption::2025",
+        "slot_id": "water_risk_area_consumption::2025",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "m3",
+        "predicate_id": "esg_p17::p17-water-001::water_risk_area_consumption::2024",
+        "slot_id": "water_risk_area_consumption::2024",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "percent",
+        "predicate_id": "esg_p17::p17-water-001::water_risk_area_consumption::change_percent",
+        "slot_id": "water_risk_area_consumption::change_percent",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "m3",
+        "predicate_id": "esg_p17::p17-water-001::recycled_and_reused::2025",
+        "slot_id": "recycled_and_reused::2025",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "m3",
+        "predicate_id": "esg_p17::p17-water-001::recycled_and_reused::2024",
+        "slot_id": "recycled_and_reused::2024",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "percent",
+        "predicate_id": "esg_p17::p17-water-001::recycled_and_reused::change_percent",
+        "slot_id": "recycled_and_reused::change_percent",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "m3",
+        "predicate_id": "esg_p17::p17-water-001::stored_water::2025",
+        "slot_id": "stored_water::2025",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "m3",
+        "predicate_id": "esg_p17::p17-water-001::stored_water::2024",
+        "slot_id": "stored_water::2024",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "percent",
+        "predicate_id": "esg_p17::p17-water-001::stored_water::change_percent",
+        "slot_id": "stored_water::change_percent",
+        "value_type": "number"
+      },
+      {
+        "predicate_id": "esg_p17::p17-water-001::storage_change::2025",
+        "slot_id": "storage_change::2025",
+        "value_type": "number"
+      },
+      {
+        "predicate_id": "esg_p17::p17-water-001::storage_change::2024",
+        "slot_id": "storage_change::2024",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "percent",
+        "predicate_id": "esg_p17::p17-water-001::storage_change::change_percent",
+        "slot_id": "storage_change::change_percent",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "m3",
+        "predicate_id": "esg_p17::p17-water-001::withdrawals::2025",
+        "slot_id": "withdrawals::2025",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "m3",
+        "predicate_id": "esg_p17::p17-water-001::withdrawals::2024",
+        "slot_id": "withdrawals::2024",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "percent",
+        "predicate_id": "esg_p17::p17-water-001::withdrawals::change_percent",
+        "slot_id": "withdrawals::change_percent",
+        "value_type": "number"
+      },
+      {
+        "predicate_id": "esg_p17::p17-water-001::qualification",
+        "slot_id": "qualification",
+        "value_type": "string"
+      }
+    ],
+    "P17-WORKFORCE-001": [
+      {
+        "canonical_unit": "count",
+        "predicate_id": "esg_p17::p17-workforce-001::employees_2025",
+        "slot_id": "employees_2025",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "count",
+        "predicate_id": "esg_p17::p17-workforce-001::permanent_2025::total",
+        "slot_id": "permanent_2025::total",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "count",
+        "predicate_id": "esg_p17::p17-workforce-001::permanent_2025::male",
+        "slot_id": "permanent_2025::male",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "count",
+        "predicate_id": "esg_p17::p17-workforce-001::permanent_2025::female",
+        "slot_id": "permanent_2025::female",
+        "value_type": "number"
+      },
+      {
+        "predicate_id": "esg_p17::p17-workforce-001::permanent_2025::not_disclosed",
+        "slot_id": "permanent_2025::not_disclosed",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "count",
+        "predicate_id": "esg_p17::p17-workforce-001::temporary_2025::total",
+        "slot_id": "temporary_2025::total",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "count",
+        "predicate_id": "esg_p17::p17-workforce-001::temporary_2025::male",
+        "slot_id": "temporary_2025::male",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "count",
+        "predicate_id": "esg_p17::p17-workforce-001::temporary_2025::female",
+        "slot_id": "temporary_2025::female",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "count",
+        "predicate_id": "esg_p17::p17-workforce-001::management_2025::total",
+        "slot_id": "management_2025::total",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "count",
+        "predicate_id": "esg_p17::p17-workforce-001::management_2025::male",
+        "slot_id": "management_2025::male",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "percent",
+        "predicate_id": "esg_p17::p17-workforce-001::management_2025::male_percent",
+        "slot_id": "management_2025::male_percent",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "count",
+        "predicate_id": "esg_p17::p17-workforce-001::management_2025::female",
+        "slot_id": "management_2025::female",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "percent",
+        "predicate_id": "esg_p17::p17-workforce-001::management_2025::female_percent",
+        "slot_id": "management_2025::female_percent",
+        "value_type": "number"
+      },
+      {
+        "predicate_id": "esg_p17::p17-workforce-001::management_target::subject",
+        "slot_id": "management_target::subject",
+        "value_type": "string"
+      },
+      {
+        "predicate_id": "esg_p17::p17-workforce-001::management_target::female_share_range_percent",
+        "slot_id": "management_target::female_share_range_percent",
+        "value_type": "string"
+      },
+      {
+        "predicate_id": "esg_p17::p17-workforce-001::management_target::year",
+        "slot_id": "management_target::year",
+        "value_type": "number"
+      }
+    ]
+  },
+  "derivation": "deterministic recursive atomic projection of the six frozen normalized references; dictionary keys become ::-separated slot paths and lists become ordered pipe-separated strings",
+  "experiment_id": "P17-V26-UNSEEN-LOCKBOX-V01",
+  "schema_version": "2.6",
+  "status": "frozen_before_candidate_inference"
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/esg-reliable-discovery/repair-gap-ranking-v0.1.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "record_kind", "rank", "gap_signature", "gap_records", "affected_facts", "remaining_records", "sole_blocker_facts", "native_strong_facts", "risk", "execution_decision", "recommended_next_action", "score", "repairs_executed"],
+  "properties": {
+    "schema_version": {"const": "0.1"},
+    "record_kind": {"const": "repair_gap_ranking"},
+    "rank": {"type": "integer", "minimum": 1},
+    "gap_signature": {"type": "string"},
+    "gap_records": {"type": "integer", "minimum": 0},
+    "affected_facts": {"type": "integer", "minimum": 0},
+    "remaining_records": {"type": "integer", "minimum": 0},
+    "sole_blocker_facts": {"type": "integer", "minimum": 0},
+    "native_strong_facts": {"type": "integer", "minimum": 0},
+    "risk": {"enum": ["low", "medium", "high"]},
+    "execution_decision": {"enum": ["partially_executed", "safe_path_exhausted", "read_only_plan", "blocked"]},
+    "recommended_next_action": {"type": "string", "minLength": 1},
+    "score": {"type": "number"},
+    "repairs_executed": {"type": "integer", "minimum": 0}
+  }
+}

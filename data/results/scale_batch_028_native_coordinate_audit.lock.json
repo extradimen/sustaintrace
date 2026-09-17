@@ -1,0 +1,11 @@
+{
+  "batch_id": "KB-SCALE-BATCH-028-NATIVE-COORDINATE-AUDIT",
+  "checks": {},
+  "policy": {
+    "automatic_promotion": false,
+    "cloud_transmission": false
+  },
+  "promotable_facts": 0,
+  "schema_version": "0.1",
+  "status": "no_atomic_cells_available_for_native_coordinate_review"
+}

@@ -1,0 +1,52 @@
+{
+  "schema_version": "0.1",
+  "experiment_id": "V4.2-NOVO-FIELD-SELECTOR-UNSEEN-V01",
+  "status": "completed_contract_passed",
+  "attempt_count": 1,
+  "result": {
+    "fact_record_id": "fact-d21c76686be36396f57170e3",
+    "gap_id": "gap-a0196e008f60742ef34eec16",
+    "fact_evidence_count": 7,
+    "selected_collection_cardinality": 1,
+    "native_text_matches": 1,
+    "native_coordinate_matches": 1,
+    "diagnostic_status": "passed",
+    "envelope_status": "passed",
+    "attachment_valid": true,
+    "gate_decision": "blocked",
+    "gate_blocking_reasons": [
+      "INDEPENDENT_CORROBORATION_INCOMPLETE",
+      "OPEN_GAP:BOUNDARY_ATTACHMENT_INCOMPLETE",
+      "OPEN_GAP:PERIOD_ATTACHMENT_INCOMPLETE",
+      "PERIOD_BINDING_INCOMPLETE",
+      "SCOPE_BINDING_INCOMPLETE"
+    ]
+  },
+  "lineage": {
+    "manifest": {
+      "path": "data/manifests/v42_novo_field_selector_unseen_v0.1.lock.json",
+      "sha256": "78049defd68f3eae38af99bb7839023537736c842954d72035924378727f2b6e"
+    },
+    "result": {
+      "path": "artifacts/v42_novo_field_selector_unseen_v0.1/result.lock.json",
+      "sha256": "daee9de8c5632c660e7b2e036520950a498e33fe012bc9df3a516da55b085362"
+    }
+  },
+  "verification": {
+    "full_suite_tests_passed": 546,
+    "ruff": "passed",
+    "json_validation": "passed",
+    "source_hash_verified": true,
+    "fact_evidence_hash_verified": true
+  },
+  "interpretation": "A pre-frozen evidence member selector generalized once from Sanofi development to a different Novo Nordisk multi-evidence fact. It closes only the field-to-evidence binding dimension; it does not authorize fact promotion.",
+  "safety": {
+    "retry_performed": false,
+    "post_hoc_repair_performed": false,
+    "historical_result_modified": false,
+    "fact_write_performed": false,
+    "trust_promotion_performed": false,
+    "gap_mutation_performed": false,
+    "cloud_transmission_performed": false
+  }
+}

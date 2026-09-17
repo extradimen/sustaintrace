@@ -1,0 +1,59 @@
+{
+  "schema_version": "2.8",
+  "experiment_id": "P19-V28-UNSEEN-LOCKBOX-V01",
+  "status": "questions_and_page_windows_frozen_before_target_mineru_reference_creation_and_candidate_inference",
+  "page_coordinate_system": "one_based_pdf_page_index",
+  "document_id": "P19-NOVO-NORDISK-AR2025",
+  "document_sha256": "f5475f1e043eaa99526772c0e06677a74ab2c2abb8181755afbe02a10e395092",
+  "inference_allowed": false,
+  "tasks": [
+    {
+      "task_id": "P19-GHG-CALC-001",
+      "document_id": "P19-NOVO-NORDISK-AR2025",
+      "task_type": "deterministic_calculation",
+      "question_status": "frozen",
+      "question": "Using Novo Nordisk's reported 2025 Scope 1 and market-based Scope 2 GHG emissions, calculate their sum and compare it with the disclosed market-based Scope 1 and 2 total, retaining the 1,000 tCO2e unit; then calculate the percentage change in that disclosed total from 2024 to 2025, state whether it increased or decreased, and round the percentage to two decimals.",
+      "target_pages": [66]
+    },
+    {
+      "task_id": "P19-ENERGY-001",
+      "document_id": "P19-NOVO-NORDISK-AR2025",
+      "task_type": "direct_extraction_and_relation",
+      "question_status": "frozen",
+      "question": "What 2025 and 2024 values does Novo Nordisk report for total energy consumption, fossil energy, renewable energy, and the renewable share; what year-on-year percentage change does the narrative state for total energy; and what 2024 restatement qualification applies to renewable and fossil heat and steam?",
+      "target_pages": [65]
+    },
+    {
+      "task_id": "P19-SCOPE3-001",
+      "document_id": "P19-NOVO-NORDISK-AR2025",
+      "task_type": "deterministic_calculation",
+      "question_status": "frozen",
+      "question": "For 2025 and 2024, report Novo Nordisk's total Scope 3 emissions and its Category 1 purchased goods and services and Category 2 capital goods emissions, all in 1,000 tCO2e; deterministically sum Categories 1 and 2 for each year, calculate their share of the corresponding disclosed Scope 3 total to two decimals, and identify the report's explanation for the 2025 Scope 3 increase.",
+      "target_pages": [66]
+    },
+    {
+      "task_id": "P19-WORKFORCE-001",
+      "document_id": "P19-NOVO-NORDISK-AR2025",
+      "task_type": "deterministic_calculation",
+      "question_status": "frozen",
+      "question": "For year-end 2025 and 2024, report Novo Nordisk's permanent and temporary employee headcounts; deterministically sum the two employment types for each year and compare each recomputed value with the disclosed total employee headcount; also state whether any employees were hired on non-guaranteed-hours contracts and preserve the report's 2024 Catalent qualification.",
+      "target_pages": [58]
+    },
+    {
+      "task_id": "P19-TAXONOMY-001",
+      "document_id": "P19-NOVO-NORDISK-AR2025",
+      "task_type": "scope_subject_boundary",
+      "question_status": "frozen",
+      "question": "What 2025 EU Taxonomy totals, eligible shares, aligned amounts and aligned shares does Novo Nordisk report for turnover and CapEx; which economic activity produced aligned CapEx; what non-material share was not assessed; and why was OpEx eligibility not reported?",
+      "target_pages": [80, 135, 136]
+    },
+    {
+      "task_id": "P19-ASSURE-001",
+      "document_id": "P19-NOVO-NORDISK-AR2025",
+      "task_type": "scope_subject_boundary",
+      "question_status": "frozen",
+      "question": "What sustainability information and reporting criteria were covered by Novo Nordisk's 2025 independent assurance engagement, what level and conclusion were provided, which standard governed the engagement, how does the report distinguish limited from reasonable assurance, what comparative information was not assured, and who signed the report?",
+      "target_pages": [123, 124]
+    }
+  ]
+}

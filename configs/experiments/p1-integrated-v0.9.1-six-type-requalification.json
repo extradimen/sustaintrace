@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "experiment_id": "P1-INTEGRATED-V091-SIX-TYPE-REQUALIFICATION",
+  "status": "completed_passed",
+  "framework_freeze_id": "P1-INTEGRATED-FREEZE-v0.9.1",
+  "model": "qwen3.5:397b-cloud",
+  "model_digest": "68d2a0796c11e1fedd0456a2d55e58cca4077be6a218428a7a7f4e21f8177cbc",
+  "run_order": [
+    {"order": 1, "task_type": "deterministic_calculation", "task_id": "P1-02-1", "stage_a_run_id": "P1-02-1-QWEN397B-v091-r1", "stage_b_required": false, "status": "passed", "elapsed_seconds": 8.056687916003284, "sha256s_sha256": "fc2ba7cc7568211ba8076cabf86bae26dc7fcb511fc0a83dc138213ca499ebde"},
+    {"order": 2, "task_type": "controlled_conflict", "task_id": "P1-04-2", "stage_a_run_id": "P1-04-2-QWEN397B-v091-r1", "stage_b_required": false, "status": "passed", "elapsed_seconds": 10.619100291994982, "sha256s_sha256": "9bbf9e6c6835b4d2cca7239cfe6252475b0ad171acc4e6941c752a1289908ded"},
+    {"order": 3, "task_type": "abstention", "task_id": "P1-01-1", "stage_a_run_id": "P1-01-1-QWEN397B-v091-r1", "stage_b_required": false, "status": "passed", "elapsed_seconds": 6.174930292007048, "sha256s_sha256": "8941bad6fb9eb9ac560306fff5237515b7cad75d96724eee445fbf4c93297f1b"},
+    {"order": 4, "task_type": "direct_extraction", "task_id": "P1-02-2", "stage_a_run_id": "P1-02-2-QWEN397B-v091-r1", "stage_b_run_id": "P1-02-2-QWEN397B-stage-b-v091-r1", "stage_b_required": true, "status": "passed", "stage_a_elapsed_seconds": 10.82348649999767, "stage_a_sha256s_sha256": "21983cbe204369db827ff9dad6bb2894432fe9b43bda7dd5b33c357279ab4811", "stage_b_elapsed_seconds": 44.530219666004996, "stage_b_sha256s_sha256": "ba7be5a1f4b6ba000c73d834d7dc94670a335fb5051b98f20815377622f720cc"},
+    {"order": 5, "task_type": "scope_subject_boundary", "task_id": "P1-01-2", "stage_a_run_id": "P1-01-2-QWEN397B-v091-r1", "stage_b_run_id": "P1-01-2-QWEN397B-stage-b-v091-r1", "stage_b_required": true, "status": "passed", "stage_a_elapsed_seconds": 5.170884040999226, "stage_a_sha256s_sha256": "0f7429ef5091628205663133e12f611d56992aa812a6731d7ef8abe5b3a6c063", "stage_b_elapsed_seconds": 55.47007325000595, "stage_b_sha256s_sha256": "08b778ea2091d61ccf477dc2ea79c9c89e993b02e88bc6f28d7554336e9cf802"},
+    {"order": 6, "task_type": "cross_page_relation", "task_id": "P1-09-1", "stage_a_run_id": "P1-09-1-QWEN397B-v091-r1", "stage_b_run_id": "P1-09-1-QWEN397B-stage-b-v091-r1", "stage_b_required": true, "status": "passed", "stage_a_elapsed_seconds": 47.24627070799761, "stage_a_sha256s_sha256": "b0494b3508841451409e72c4285ca4477921838fea2fa7f601a7a23eb7d7437e", "stage_b_elapsed_seconds": 62.042681624996476, "stage_b_sha256s_sha256": "a5654f77a83c3e77636930f4de0506cfd3486eb041573fc34c1cfbc6ec0973d8"}
+  ],
+  "gate": "All six Stage A tasks and all three required Stage B projections must pass under the exact v0.9.1 freeze. Any failure stops the gate.",
+  "silent_retry": false,
+  "posthoc_output_repair": false,
+  "reference_visible_during_inference": false,
+  "reference_type": "AI-simulated reference, explicitly not human gold",
+  "completed_stage_a_tasks": 6,
+  "completed_required_stage_b_tasks": 3,
+  "qualification_result": "passed_all_hard_gates",
+  "p2_eligible": true,
+  "next_gate": "p2_blind_source_selection_and_hash_freeze"
+}

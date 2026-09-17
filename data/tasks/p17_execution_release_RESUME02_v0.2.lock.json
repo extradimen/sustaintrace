@@ -1,0 +1,16 @@
+{
+  "schema_version": "2.6",
+  "experiment_id": "P17-V26-UNSEEN-LOCKBOX-V01",
+  "status": "released_after_exact_cloud_authorization",
+  "inference_allowed": true,
+  "structural_task_pack": "data/tasks/p17_execution_task_pack_v0.1.lock.json",
+  "exact_authorization_record": "data/manifests/p17_cloud_authorization_exact_2026-09-10_v0.2.lock.json",
+  "exact_authorization_record_sha256": "73ec079418d1613cd5789ddec9e35ddd698e87baf50cc18becce02a2f15ffef5",
+  "integrity_gate_result": "data/results/p17_v26_local_readiness_RESUME03_v0.1.lock.json",
+  "integrity_gate_result_sha256": "b39bf1faf6646020ca31b5c480b57d182d8a25c0e222dc644efd18d8da919fc5",
+  "calculation_plan": "configs/framework/p17_calculation_plans_RESUME03_v0.1.lock.json",
+  "single_attempt_per_stage": true,
+  "silent_retry_allowed": false,
+  "posthoc_semantic_repair_allowed": false,
+  "prior_safety_hold_preserved": "data/tasks/p17_execution_task_pack_RESUME01_hold_v0.1.lock.json"
+}

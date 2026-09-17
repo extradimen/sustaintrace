@@ -1,0 +1,26 @@
+{
+  "automatic_repairs_executed": 0,
+  "class_counts": {
+    "assurance_scope_metadata": 9,
+    "metric_component_boundary": 6,
+    "organizational_population_boundary": 2,
+    "target_and_performance_boundary": 4,
+    "taxonomy_classification_boundary": 7
+  },
+  "inputs": {
+    "blocker_matrix_sha256": "172a36db63b2aa934d05d6520b64a44f36b70865178f532848b888d75527fd0a",
+    "explicit_boundary_adjudications_sha256": "ab8d397a456fcd6d65874e9a3cd5bed5053befae69b431812d7fdd21ebc816f4",
+    "ontology_sha256": "9ae3d7369f2067f693b48d126e0bf3f05270837cef4e23563b720ef2def9be63"
+  },
+  "locked_experiments_modified_or_rescored": false,
+  "negative_cases": 28,
+  "next_gate": "connect ontology classes to controller policies and permit execution only when a class-specific source-local validator is available",
+  "output": {
+    "path": "data/knowledge_bases/v0.1/boundary_semantic_negative_cases.jsonl",
+    "sha256": "6976c294f63dd75bc1dc1776d71f8f394dbab60d7f825c247a40ab756708e7ed"
+  },
+  "promotions_performed": 0,
+  "schema_version": "0.1",
+  "source_fact_records_modified": 0,
+  "status": "semantic_boundary_control_set_complete_fail_closed"
+}

@@ -1,0 +1,62 @@
+{
+  "schema_version": "0.1",
+  "experiment_id": "V3.9-VOLVO-REPEATED-VALUE-TABLE-UNSEEN-V01",
+  "status": "frozen_before_execution",
+  "scientific_role": "single unseen validation of the exposed-failure repair",
+  "selection": {
+    "selected_from": "existing local official reports",
+    "prior_read_only_table_component_use": false,
+    "development_source": false,
+    "selection_evidence": "native page inspection found the same numeric value in two year columns of one row"
+  },
+  "case": {
+    "case_id": "V39-TABLE-UNSEEN-VOLVO-001",
+    "gap_signature": "TABLE_CELL_BINDING_INCOMPLETE",
+    "gap_id": "v39-unseen-derived-gap",
+    "fact_record_id": "fact-8b592f76837c3f3219cad2d7",
+    "native_source": {
+      "document_id": "KB-B006-VOLVO-AR2025",
+      "path": "data/raw/scale_batch_006/volvo-group-annual-report-2025.pdf",
+      "sha256": "4a2a5c41dc1331d60103e5757af0e90a6a2ea234b9753138ae0ec4db315df969"
+    },
+    "evidence_pages": [174],
+    "source_literals": ["2"],
+    "diagnostic_contract": {
+      "required_fields": [
+        "page",
+        "row_header",
+        "normalized_row_header",
+        "column_header",
+        "column_path",
+        "header_coordinates",
+        "cell_value",
+        "cell_coordinates"
+      ]
+    },
+    "adapter_inputs": {
+      "row_label": "Other",
+      "period": "2025",
+      "target_value": 2
+    },
+    "expected": {
+      "outcome": "passed",
+      "row_equals": "Other",
+      "period": "2025",
+      "value": "2",
+      "native_candidate_count_in_row": 2,
+      "expected_target_cell_x0": 236.438
+    },
+    "rollback": {
+      "action": "delete derived validation result only"
+    }
+  },
+  "execution_policy": {
+    "attempts": 1,
+    "silent_retry": false,
+    "post_hoc_semantic_repair": false,
+    "fact_write": false,
+    "trust_promotion": false,
+    "gap_mutation": false,
+    "cloud_transmission": false
+  }
+}

@@ -1,0 +1,4328 @@
+{
+  "failure_record_count": 1032,
+  "schema_version": "0.1",
+  "signature_count": 32,
+  "signatures": [
+    {
+      "count": 4,
+      "examples": [
+        {
+          "experiment_id": "P12-V21-UNSEEN-LOCKBOX-V01",
+          "task_id": "P12-CALC-001"
+        },
+        {
+          "experiment_id": "P13-V22-UNSEEN-LOCKBOX-V01",
+          "task_id": "P13-GHG-CALC-001"
+        },
+        {
+          "experiment_id": "P13-V22-UNSEEN-LOCKBOX-V01",
+          "task_id": "P13-SAFETY-001"
+        },
+        {
+          "experiment_id": "P14-V23-UNSEEN-LOCKBOX-V01",
+          "task_id": "P14-GHG-CALC-001"
+        }
+      ],
+      "signature": "CALCULATION_CONTRACT_VIOLATION"
+    },
+    {
+      "count": 1,
+      "examples": [
+        {
+          "experiment_id": "P23-V32-UNSEEN-LOCKBOX-V01",
+          "task_id": "P23-WORKFORCE-CALC-001"
+        }
+      ],
+      "signature": "CALCULATION_HANDLE_UNMAPPED"
+    },
+    {
+      "count": 6,
+      "examples": [
+        {
+          "experiment_id": "P11-V20-UNSEEN-LOCKBOX-V01",
+          "task_id": "P11-ASSURE-001"
+        },
+        {
+          "experiment_id": "P11-V20-UNSEEN-LOCKBOX-V01",
+          "task_id": "P11-CALC-001"
+        },
+        {
+          "experiment_id": "P11-V20-UNSEEN-LOCKBOX-V01",
+          "task_id": "P11-SCOPE3-001"
+        },
+        {
+          "experiment_id": "P11-V20-UNSEEN-LOCKBOX-V01",
+          "task_id": "P11-TARGET-001"
+        },
+        {
+          "experiment_id": "P12-V21-UNSEEN-LOCKBOX-V01",
+          "task_id": "P12-ASSURE-001"
+        },
+        {
+          "experiment_id": "P12-V21-UNSEEN-LOCKBOX-V01",
+          "task_id": "P12-SCOPE3-001"
+        }
+      ],
+      "signature": "COLLECTION_SHAPE_VIOLATION"
+    },
+    {
+      "count": 1,
+      "examples": [
+        {
+          "experiment_id": "P2-LOCKED-HOLDOUT-V01",
+          "task_id": "P2-DEX-001"
+        }
+      ],
+      "signature": "EMPTY_KNOWLEDGE_PROJECTION"
+    },
+    {
+      "count": 5,
+      "examples": [
+        {
+          "experiment_id": "P2-LOCKED-HOLDOUT-V01",
+          "task_id": "P2-CONFLICT-001"
+        },
+        {
+          "experiment_id": "P2-LOCKED-HOLDOUT-V01",
+          "task_id": "P2-DEX-002"
+        },
+        {
+          "experiment_id": "P3-UNSEEN-GENERALIZATION-V01",
+          "task_id": "P3-DEX-002"
+        },
+        {
+          "experiment_id": "P3-UNSEEN-GENERALIZATION-V01",
+          "task_id": "P3-XPAGE-002"
+        },
+        {
+          "experiment_id": "P13-V22-UNSEEN-LOCKBOX-V01",
+          "task_id": "P13-ASSURE-001"
+        }
+      ],
+      "signature": "EVIDENCE_GROUNDING_MISMATCH"
+    },
+    {
+      "count": 1,
+      "examples": [
+        {
+          "experiment_id": "P2-LOCKED-HOLDOUT-V01",
+          "task_id": "P2-CALC-001"
+        }
+      ],
+      "signature": "EVIDENCE_SELECTION_GAP"
+    },
+    {
+      "count": 2,
+      "examples": [
+        {
+          "experiment_id": "P23-V32-UNSEEN-LOCKBOX-V01",
+          "task_id": "P23-ASSURE-001"
+        },
+        {
+          "experiment_id": "P23-V32-UNSEEN-LOCKBOX-V01",
+          "task_id": "P23-BOUNDARY-001"
+        }
+      ],
+      "signature": "EXECUTOR_TYPE_MISMATCH"
+    },
+    {
+      "count": 3,
+      "examples": [
+        {
+          "experiment_id": "P12-V21-UNSEEN-LOCKBOX-V01",
+          "task_id": "P12-BOUNDARY-001"
+        },
+        {
+          "experiment_id": "P12-V21-UNSEEN-LOCKBOX-V01",
+          "task_id": "P12-SAFETY-001"
+        },
+        {
+          "experiment_id": "P13-V22-UNSEEN-LOCKBOX-V01",
+          "task_id": "P13-TARGET-001"
+        }
+      ],
+      "signature": "FROZEN_CONTRACT_INCOMPLETE"
+    },
+    {
+      "count": 4,
+      "examples": [
+        {
+          "experiment_id": "P22-V31-UNSEEN-LOCKBOX-V01",
+          "task_id": "P22-ENERGY-CALC-001"
+        },
+        {
+          "experiment_id": "P22-V31-UNSEEN-LOCKBOX-V01",
+          "task_id": "P22-GHG-CALC-001"
+        },
+        {
+          "experiment_id": "P22-V31-UNSEEN-LOCKBOX-V01",
+          "task_id": "P22-SAFETY-CALC-001"
+        },
+        {
+          "experiment_id": "P22-V31-UNSEEN-LOCKBOX-V01",
+          "task_id": "P22-WATER-CALC-001"
+        }
+      ],
+      "signature": "HANDLE_CANONICALIZATION_MISMATCH"
+    },
+    {
+      "count": 1,
+      "examples": [
+        {
+          "experiment_id": "KB-SCALE-BATCH-019",
+          "task_id": "ASSURANCE-PREFLIGHT-KB-B019-COVESTRO-AR2025"
+        }
+      ],
+      "signature": "ISSUER_SOURCE_ASSURANCE_PERIOD_ANOMALY"
+    },
+    {
+      "count": 2,
+      "examples": [
+        {
+          "experiment_id": "KB-SCALE-BATCH-023-RESUME02",
+          "task_id": "PREFLIGHT-B023-1-ISSUER_SOURCE_ASSURANCE_REPORT_SEPARATE"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "PREFLIGHT-B024-1-ISSUER_SOURCE_ASSURANCE_REPORT_SEPARATE"
+        }
+      ],
+      "signature": "ISSUER_SOURCE_ASSURANCE_REPORT_SEPARATE"
+    },
+    {
+      "count": 1,
+      "examples": [
+        {
+          "experiment_id": "KB-SCALE-BATCH-023-RESUME02",
+          "task_id": "PREFLIGHT-B023-1-ISSUER_SOURCE_ASSURANCE_SIGNATORY_MISSING"
+        }
+      ],
+      "signature": "ISSUER_SOURCE_ASSURANCE_SIGNATORY_MISSING"
+    },
+    {
+      "count": 1,
+      "examples": [
+        {
+          "experiment_id": "KB-SCALE-BATCH-021",
+          "task_id": "MINERU-TEXT-FALLBACK-KB-B021-CAPGEMINI-URD2025-P0320"
+        }
+      ],
+      "signature": "MINERU_EMPTY_MARKDOWN_CONTENT_LIST_TEXT_AVAILABLE"
+    },
+    {
+      "count": 27,
+      "examples": [
+        {
+          "experiment_id": "KB-SCALE-BATCH-010",
+          "task_id": "MINERU-INITIAL-KB-B010-PUMA-AR2025-P0096"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-010",
+          "task_id": "MINERU-INITIAL-KB-B010-PUMA-AR2025-P0104"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-010",
+          "task_id": "MINERU-INITIAL-KB-B010-PUMA-AR2025-P0108"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-010",
+          "task_id": "MINERU-INITIAL-KB-B010-PUMA-AR2025-P0124"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-010",
+          "task_id": "MINERU-INITIAL-KB-B010-PUMA-AR2025-P0127"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-010",
+          "task_id": "MINERU-INITIAL-KB-B010-PUMA-AR2025-P0138"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-010",
+          "task_id": "MINERU-INITIAL-KB-B010-PUMA-AR2025-P0165"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-010",
+          "task_id": "MINERU-INITIAL-KB-B010-PUMA-AR2025-P0167"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-010",
+          "task_id": "MINERU-INITIAL-KB-B010-PUMA-AR2025-P0350"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-010",
+          "task_id": "MINERU-INITIAL-KB-B010-ADIDAS-AR2025-P0171"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-010",
+          "task_id": "MINERU-INITIAL-KB-B010-ADIDAS-AR2025-P0184"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-010",
+          "task_id": "MINERU-INITIAL-KB-B010-ADIDAS-AR2025-P0185"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-010",
+          "task_id": "MINERU-INITIAL-KB-B010-ADIDAS-AR2025-P0203"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-010",
+          "task_id": "MINERU-INITIAL-KB-B010-ADIDAS-AR2025-P0206"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-010",
+          "task_id": "MINERU-INITIAL-KB-B010-ADIDAS-AR2025-P0221"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-010",
+          "task_id": "MINERU-INITIAL-KB-B010-ADIDAS-AR2025-P0247"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-010",
+          "task_id": "MINERU-INITIAL-KB-B010-ADIDAS-AR2025-P0262"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-010",
+          "task_id": "MINERU-INITIAL-KB-B010-ADIDAS-AR2025-P0420"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-010",
+          "task_id": "MINERU-INITIAL-KB-B010-VEOLIA-URD2025-P0208"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-010",
+          "task_id": "MINERU-INITIAL-KB-B010-VEOLIA-URD2025-P0218"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-010",
+          "task_id": "MINERU-INITIAL-KB-B010-VEOLIA-URD2025-P0219"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-010",
+          "task_id": "MINERU-INITIAL-KB-B010-VEOLIA-URD2025-P0234"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-010",
+          "task_id": "MINERU-INITIAL-KB-B010-VEOLIA-URD2025-P0239"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-010",
+          "task_id": "MINERU-INITIAL-KB-B010-VEOLIA-URD2025-P0244"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-010",
+          "task_id": "MINERU-INITIAL-KB-B010-VEOLIA-URD2025-P0266"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-010",
+          "task_id": "MINERU-INITIAL-KB-B010-VEOLIA-URD2025-P0275"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-010",
+          "task_id": "MINERU-INITIAL-KB-B010-VEOLIA-URD2025-P0328"
+        }
+      ],
+      "signature": "MINERU_LOCALHOST_BIND_SANDBOX_DENIED"
+    },
+    {
+      "count": 10,
+      "examples": [
+        {
+          "experiment_id": "KB-SCALE-BATCH-001-RESUME01",
+          "task_id": "MINERU-KB-B001-DANONE-URD2025-P0227-RESUME01"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-002",
+          "task_id": "MINERU-KB-B002-EON-SF2025-P0031"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-002",
+          "task_id": "MINERU-KB-B002-MAERSK-AR2025-P0061"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-002",
+          "task_id": "MINERU-KB-B002-MAERSK-AR2025-P0098"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-002",
+          "task_id": "MINERU-KB-B002-MAERSK-AR2025-P0182"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-003",
+          "task_id": "MINERU-KB-B003-AZ-SDA2025-P0002"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-003",
+          "task_id": "MINERU-KB-B003-DHL-AR2025-P0079"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-003",
+          "task_id": "MINERU-KB-B003-DHL-AR2025-P0127"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-004-RESUME01",
+          "task_id": "MINERU-RESUME01-KB-B004-PHILIPS-AR2025-P0210"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-004-RESUME01",
+          "task_id": "MINERU-RESUME01-KB-B004-PHILIPS-AR2025-P0221"
+        }
+      ],
+      "signature": "MINERU_POSTPROCESS_RUNTIME_ABORT"
+    },
+    {
+      "count": 542,
+      "examples": [
+        {
+          "experiment_id": "KB-SCALE-BATCH-005",
+          "task_id": "MINERU-RESUME01-KB-B005-HENKEL-AR2025-P0184"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-005",
+          "task_id": "MINERU-RESUME01-KB-B005-HENKEL-AR2025-P0205"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-005",
+          "task_id": "MINERU-RESUME01-KB-B005-HENKEL-AR2025-P0207"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-005",
+          "task_id": "MINERU-RESUME01-KB-B005-HENKEL-AR2025-P0477"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-005",
+          "task_id": "MINERU-RESUME01-KB-B005-UPM-AR2025-P0096"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-005",
+          "task_id": "MINERU-RESUME01-KB-B005-UPM-AR2025-P0177"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-005",
+          "task_id": "MINERU-RESUME01-KB-B005-SIKA-SR2025-P0021"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-005",
+          "task_id": "MINERU-RESUME01-KB-B005-SIKA-SR2025-P0044"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-005",
+          "task_id": "MINERU-RESUME01-KB-B005-SIKA-SR2025-P0055"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-005",
+          "task_id": "MINERU-RESUME02-KB-B005-HENKEL-AR2025-P0184"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-005",
+          "task_id": "MINERU-RESUME02-KB-B005-HENKEL-AR2025-P0477"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-005",
+          "task_id": "MINERU-RESUME02-KB-B005-SIKA-SR2025-P0021"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-005",
+          "task_id": "MINERU-RESUME03-KB-B005-HENKEL-AR2025-P0477"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-005",
+          "task_id": "MINERU-RESUME03-KB-B005-SIKA-SR2025-P0021"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-006",
+          "task_id": "MINERU-RESUME01-KB-B006-VOLVO-AR2025-P0158"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-006",
+          "task_id": "MINERU-RESUME01-KB-B006-VOLVO-AR2025-P0160"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-006",
+          "task_id": "MINERU-RESUME01-KB-B006-VOLVO-AR2025-P0164"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-006",
+          "task_id": "MINERU-RESUME01-KB-B006-VOLVO-AR2025-P0165"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-006",
+          "task_id": "MINERU-RESUME01-KB-B006-VOLVO-AR2025-P0215"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-006",
+          "task_id": "MINERU-RESUME01-KB-B006-MICHELIN-URD2025-P0205"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-006",
+          "task_id": "MINERU-RESUME01-KB-B006-MICHELIN-URD2025-P0207"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-006",
+          "task_id": "MINERU-RESUME01-KB-B006-MICHELIN-URD2025-P0235"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-006",
+          "task_id": "MINERU-RESUME01-KB-B006-MICHELIN-URD2025-P0255"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-006",
+          "task_id": "MINERU-RESUME01-KB-B006-MICHELIN-URD2025-P0271"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-006",
+          "task_id": "MINERU-RESUME01-KB-B006-MICHELIN-URD2025-P0308"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-006",
+          "task_id": "MINERU-RESUME01-KB-B006-MICHELIN-URD2025-P0312"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-006",
+          "task_id": "MINERU-RESUME01-KB-B006-MICHELIN-URD2025-P0395"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-006",
+          "task_id": "MINERU-RESUME02-KB-B006-VOLVO-AR2025-P0160"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-006",
+          "task_id": "MINERU-RESUME02-KB-B006-VOLVO-AR2025-P0164"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-006",
+          "task_id": "MINERU-RESUME02-KB-B006-VOLVO-AR2025-P0165"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-006",
+          "task_id": "MINERU-RESUME02-KB-B006-VOLVO-AR2025-P0215"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-006",
+          "task_id": "MINERU-RESUME02-KB-B006-MICHELIN-URD2025-P0205"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-006",
+          "task_id": "MINERU-RESUME02-KB-B006-MICHELIN-URD2025-P0207"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-006",
+          "task_id": "MINERU-RESUME02-KB-B006-MICHELIN-URD2025-P0255"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-006",
+          "task_id": "MINERU-RESUME02-KB-B006-MICHELIN-URD2025-P0271"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-006",
+          "task_id": "MINERU-RESUME02-KB-B006-MICHELIN-URD2025-P0308"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-006",
+          "task_id": "MINERU-RESUME02-KB-B006-MICHELIN-URD2025-P0395"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-006",
+          "task_id": "MINERU-RESUME03-KB-B006-VOLVO-AR2025-P0165"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-006",
+          "task_id": "MINERU-RESUME03-KB-B006-VOLVO-AR2025-P0215"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-006",
+          "task_id": "MINERU-RESUME03-KB-B006-MICHELIN-URD2025-P0205"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-006",
+          "task_id": "MINERU-RESUME03-KB-B006-MICHELIN-URD2025-P0207"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-006",
+          "task_id": "MINERU-RESUME03-KB-B006-MICHELIN-URD2025-P0255"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-006",
+          "task_id": "MINERU-RESUME03-KB-B006-MICHELIN-URD2025-P0271"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-006",
+          "task_id": "MINERU-RESUME03-KB-B006-MICHELIN-URD2025-P0308"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-006",
+          "task_id": "MINERU-RESUME03-KB-B006-MICHELIN-URD2025-P0395"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-007",
+          "task_id": "MINERU-INITIAL-KB-B007-ABB-ARS2025-P0232"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-007",
+          "task_id": "MINERU-INITIAL-KB-B007-ABB-ARS2025-P0336"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-007",
+          "task_id": "MINERU-INITIAL-KB-B007-ABB-ARS2025-P0341"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-007",
+          "task_id": "MINERU-INITIAL-KB-B007-ABB-ARS2025-P0363"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-007",
+          "task_id": "MINERU-INITIAL-KB-B007-ABB-ARS2025-P0365"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-007",
+          "task_id": "MINERU-INITIAL-KB-B007-ABB-ARS2025-P0417"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-007",
+          "task_id": "MINERU-INITIAL-KB-B007-NOKIA-AR2025-P0056"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-007",
+          "task_id": "MINERU-RESUME01-KB-B007-ABB-ARS2025-P0336"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-007",
+          "task_id": "MINERU-RESUME01-KB-B007-ABB-ARS2025-P0341"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-007",
+          "task_id": "MINERU-RESUME01-KB-B007-ABB-ARS2025-P0363"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-007",
+          "task_id": "MINERU-RESUME01-KB-B007-ABB-ARS2025-P0365"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-007",
+          "task_id": "MINERU-RESUME01-KB-B007-ABB-ARS2025-P0417"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-007",
+          "task_id": "MINERU-RESUME01-KB-B007-NOKIA-AR2025-P0056"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-007",
+          "task_id": "MINERU-RESUME02-KB-B007-ABB-ARS2025-P0336"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-007",
+          "task_id": "MINERU-RESUME02-KB-B007-ABB-ARS2025-P0341"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-007",
+          "task_id": "MINERU-RESUME02-KB-B007-ABB-ARS2025-P0363"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-007",
+          "task_id": "MINERU-RESUME02-KB-B007-ABB-ARS2025-P0365"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-007",
+          "task_id": "MINERU-RESUME02-KB-B007-ABB-ARS2025-P0417"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-007",
+          "task_id": "MINERU-RESUME02-KB-B007-NOKIA-AR2025-P0056"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-008",
+          "task_id": "MINERU-INITIAL-KB-B008-KONE-SS2025-P0006"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-008",
+          "task_id": "MINERU-INITIAL-KB-B008-KONE-SS2025-P0009"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-008",
+          "task_id": "MINERU-INITIAL-KB-B008-KONE-SS2025-P0016"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-008",
+          "task_id": "MINERU-INITIAL-KB-B008-KONE-SS2025-P0030"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-008",
+          "task_id": "MINERU-INITIAL-KB-B008-KONE-SS2025-P0043"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-008",
+          "task_id": "MINERU-INITIAL-KB-B008-SANDVIK-AR2025-P0069"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-008",
+          "task_id": "MINERU-INITIAL-KB-B008-SANDVIK-AR2025-P0071"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-008",
+          "task_id": "MINERU-INITIAL-KB-B008-SANDVIK-AR2025-P0076"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-008",
+          "task_id": "MINERU-INITIAL-KB-B008-SANDVIK-AR2025-P0112"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-008",
+          "task_id": "MINERU-INITIAL-KB-B008-VESTAS-AR2025-P0020"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-008",
+          "task_id": "MINERU-INITIAL-KB-B008-VESTAS-AR2025-P0087"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-008",
+          "task_id": "MINERU-INITIAL-KB-B008-VESTAS-AR2025-P0089"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-008",
+          "task_id": "MINERU-INITIAL-KB-B008-VESTAS-AR2025-P0093"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-008",
+          "task_id": "MINERU-INITIAL-KB-B008-VESTAS-AR2025-P0107"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-008",
+          "task_id": "MINERU-INITIAL-KB-B008-VESTAS-AR2025-P0193"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-008",
+          "task_id": "MINERU-RESUME01-KB-B008-KONE-SS2025-P0006"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-008",
+          "task_id": "MINERU-RESUME01-KB-B008-KONE-SS2025-P0009"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-008",
+          "task_id": "MINERU-RESUME01-KB-B008-KONE-SS2025-P0030"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-008",
+          "task_id": "MINERU-RESUME01-KB-B008-SANDVIK-AR2025-P0069"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-008",
+          "task_id": "MINERU-RESUME01-KB-B008-SANDVIK-AR2025-P0071"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-008",
+          "task_id": "MINERU-RESUME01-KB-B008-SANDVIK-AR2025-P0076"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-008",
+          "task_id": "MINERU-RESUME01-KB-B008-VESTAS-AR2025-P0020"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-008",
+          "task_id": "MINERU-RESUME01-KB-B008-VESTAS-AR2025-P0087"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-008",
+          "task_id": "MINERU-RESUME01-KB-B008-VESTAS-AR2025-P0093"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-008",
+          "task_id": "MINERU-RESUME02-KB-B008-KONE-SS2025-P0009"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-008",
+          "task_id": "MINERU-RESUME02-KB-B008-KONE-SS2025-P0030"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-008",
+          "task_id": "MINERU-RESUME02-KB-B008-SANDVIK-AR2025-P0069"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-008",
+          "task_id": "MINERU-RESUME02-KB-B008-SANDVIK-AR2025-P0071"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-008",
+          "task_id": "MINERU-RESUME02-KB-B008-SANDVIK-AR2025-P0076"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-008",
+          "task_id": "MINERU-RESUME02-KB-B008-VESTAS-AR2025-P0020"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-008",
+          "task_id": "MINERU-RESUME02-KB-B008-VESTAS-AR2025-P0093"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-009",
+          "task_id": "MINERU-INITIAL-KB-B009-ORSTED-AR2025-P0079"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-009",
+          "task_id": "MINERU-INITIAL-KB-B009-ORSTED-AR2025-P0089"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-009",
+          "task_id": "MINERU-INITIAL-KB-B009-ORSTED-AR2025-P0094"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-009",
+          "task_id": "MINERU-INITIAL-KB-B009-CARLSBERG-AR2025-P0066"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-010",
+          "task_id": "MINERU-RESUME01-KB-B010-VEOLIA-URD2025-P0218"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-011",
+          "task_id": "MINERU-INITIAL-KB-B011-DB-AR2025-P0304"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-011",
+          "task_id": "MINERU-INITIAL-KB-B011-DB-AR2025-P0341"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-011",
+          "task_id": "MINERU-INITIAL-KB-B011-DB-AR2025-P0343"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-011",
+          "task_id": "MINERU-INITIAL-KB-B011-DB-AR2025-P0417"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-012",
+          "task_id": "MINERU-INITIAL-KB-B012-VINCI-URD2025-P0229"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-012",
+          "task_id": "MINERU-INITIAL-KB-B012-VINCI-URD2025-P0278"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-013",
+          "task_id": "MINERU-INITIAL-KB-B013-ELECTROLUX-AR2025-P0106"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-013",
+          "task_id": "MINERU-INITIAL-KB-B013-SKF-ASR2025-P0042"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-013",
+          "task_id": "MINERU-INITIAL-KB-B013-SKF-ASR2025-P0068"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-013",
+          "task_id": "MINERU-INITIAL-KB-B013-SKF-ASR2025-P0077"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-014",
+          "task_id": "MINERU-INITIAL-KB-B014-SCA-AR2025-P0127"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-015",
+          "task_id": "MINERU-INITIAL-KB-B015-UCB-IAR2025-P0060"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-015",
+          "task_id": "MINERU-INITIAL-KB-B015-ARLA-AR2025-P0053"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-015",
+          "task_id": "MINERU-INITIAL-KB-B015-FRESENIUS-AR2025-P0188"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-016",
+          "task_id": "MINERU-INITIAL-KB-B016-NOVONESIS-AR2025-P0075"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-016",
+          "task_id": "MINERU-INITIAL-KB-B016-NOVONESIS-AR2025-P0087"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-016",
+          "task_id": "MINERU-INITIAL-KB-B016-COLOPLAST-AR2025-P0085"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-017",
+          "task_id": "MINERU-INITIAL-KB-B017-ROCKWOOL-AR2025-P0080"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-017",
+          "task_id": "MINERU-INITIAL-KB-B017-ROCKWOOL-AR2025-P0089"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-017",
+          "task_id": "MINERU-INITIAL-KB-B017-ROCKWOOL-AR2025-P0166"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-017",
+          "task_id": "MINERU-INITIAL-KB-B017-HUSQVARNA-AR2025-P0054"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-017",
+          "task_id": "MINERU-INITIAL-KB-B017-HUSQVARNA-AR2025-P0125"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-017",
+          "task_id": "MINERU-INITIAL-KB-B017-SWECO-AR2025-P0073"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-017",
+          "task_id": "MINERU-INITIAL-KB-B017-SWECO-AR2025-P0074"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-017",
+          "task_id": "MINERU-INITIAL-KB-B017-SWECO-AR2025-P0077"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-017",
+          "task_id": "MINERU-INITIAL-KB-B017-SWECO-AR2025-P0091"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-019",
+          "task_id": "MINERU-RESUME01-KB-B019-NESTE-AR2025-P0037"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-019",
+          "task_id": "MINERU-RESUME01-KB-B019-NESTE-AR2025-P0110"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-019",
+          "task_id": "MINERU-RESUME01-KB-B019-BOLIDEN-ASR2025-P0078"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-019",
+          "task_id": "MINERU-RESUME01-KB-B019-BOLIDEN-ASR2025-P0090"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-019",
+          "task_id": "MINERU-RESUME01-KB-B019-BOLIDEN-ASR2025-P0095"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-019",
+          "task_id": "MINERU-RESUME01-KB-B019-BOLIDEN-ASR2025-P0123"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-019",
+          "task_id": "MINERU-RESUME01-KB-B019-METSO-AR2025-P0094"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-019",
+          "task_id": "MINERU-RESUME01-KB-B019-METSO-AR2025-P0106"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-019",
+          "task_id": "MINERU-RESUME01-KB-B019-METSO-AR2025-P0240"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-020",
+          "task_id": "MINERU-INITIAL-KB-B020-SOLVAY-AIR2025-P0180"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-020",
+          "task_id": "MINERU-INITIAL-KB-B020-KERING-URD2025-P0306"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-020",
+          "task_id": "MINERU-INITIAL-KB-B020-CARREFOUR-URD2025-P0122"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-021",
+          "task_id": "MINERU-INITIAL-KB-B021-CAPGEMINI-URD2025-P0211"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-021",
+          "task_id": "MINERU-INITIAL-KB-B021-CAPGEMINI-URD2025-P0214"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-021",
+          "task_id": "MINERU-INITIAL-KB-B021-CAPGEMINI-URD2025-P0216"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-021",
+          "task_id": "MINERU-INITIAL-KB-B021-CAPGEMINI-URD2025-P0233"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-021",
+          "task_id": "MINERU-INITIAL-KB-B021-CAPGEMINI-URD2025-P0256"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-021",
+          "task_id": "MINERU-INITIAL-KB-B021-CAPGEMINI-URD2025-P0317"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-021",
+          "task_id": "MINERU-INITIAL-KB-B021-CAPGEMINI-URD2025-P0318"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-021",
+          "task_id": "MINERU-INITIAL-KB-B021-CAPGEMINI-URD2025-P0319"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-021",
+          "task_id": "MINERU-INITIAL-KB-B021-CAPGEMINI-URD2025-P0320"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-021",
+          "task_id": "MINERU-INITIAL-KB-B021-REXEL-URD2025-P0226"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-021",
+          "task_id": "MINERU-INITIAL-KB-B021-REXEL-URD2025-P0266"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-021",
+          "task_id": "MINERU-INITIAL-KB-B021-REXEL-URD2025-P0269"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-021",
+          "task_id": "MINERU-INITIAL-KB-B021-REXEL-URD2025-P0277"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-021",
+          "task_id": "MINERU-INITIAL-KB-B021-REXEL-URD2025-P0341"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-021",
+          "task_id": "MINERU-INITIAL-KB-B021-REXEL-URD2025-P0342"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-021",
+          "task_id": "MINERU-INITIAL-KB-B021-REXEL-URD2025-P0343"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-021",
+          "task_id": "MINERU-INITIAL-KB-B021-REXEL-URD2025-P0344"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-021",
+          "task_id": "MINERU-INITIAL-KB-B021-REXEL-URD2025-P0347"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-021",
+          "task_id": "MINERU-INITIAL-KB-B021-EIFFAGE-URD2025-P0114"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-021",
+          "task_id": "MINERU-INITIAL-KB-B021-EIFFAGE-URD2025-P0117"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-021",
+          "task_id": "MINERU-INITIAL-KB-B021-EIFFAGE-URD2025-P0126"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-021",
+          "task_id": "MINERU-INITIAL-KB-B021-EIFFAGE-URD2025-P0127"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-021",
+          "task_id": "MINERU-INITIAL-KB-B021-EIFFAGE-URD2025-P0144"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-021",
+          "task_id": "MINERU-INITIAL-KB-B021-EIFFAGE-URD2025-P0218"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-021",
+          "task_id": "MINERU-INITIAL-KB-B021-EIFFAGE-URD2025-P0219"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-021",
+          "task_id": "MINERU-INITIAL-KB-B021-EIFFAGE-URD2025-P0220"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-021",
+          "task_id": "MINERU-RESUME01-KB-B021-CAPGEMINI-URD2025-P0256"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-021",
+          "task_id": "MINERU-RESUME01-KB-B021-CAPGEMINI-URD2025-P0317"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-021",
+          "task_id": "MINERU-RESUME01-KB-B021-CAPGEMINI-URD2025-P0318"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-021",
+          "task_id": "MINERU-RESUME01-KB-B021-CAPGEMINI-URD2025-P0319"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-021",
+          "task_id": "MINERU-RESUME01-KB-B021-REXEL-URD2025-P0226"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-021",
+          "task_id": "MINERU-RESUME01-KB-B021-REXEL-URD2025-P0269"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-021",
+          "task_id": "MINERU-RESUME01-KB-B021-REXEL-URD2025-P0343"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-021",
+          "task_id": "MINERU-RESUME02-KB-B021-CAPGEMINI-URD2025-P0256"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-021",
+          "task_id": "MINERU-RESUME02-KB-B021-CAPGEMINI-URD2025-P0317"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-021",
+          "task_id": "MINERU-RESUME02-KB-B021-CAPGEMINI-URD2025-P0319"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-021",
+          "task_id": "MINERU-RESUME02-KB-B021-REXEL-URD2025-P0226"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-021",
+          "task_id": "MINERU-RESUME02-KB-B021-REXEL-URD2025-P0269"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-021",
+          "task_id": "MINERU-RESUME02-KB-B021-REXEL-URD2025-P0343"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-022",
+          "task_id": "MINERU-RESUME01-KB-B022-ENGIE-URD2025-P0138"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-022",
+          "task_id": "MINERU-RESUME01-KB-B022-ENGIE-URD2025-P0154"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-022",
+          "task_id": "MINERU-RESUME01-KB-B022-ENGIE-URD2025-P0221"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-022",
+          "task_id": "MINERU-RESUME01-KB-B022-ORANGE-URD2025-P0362"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-022",
+          "task_id": "MINERU-RESUME01-KB-B022-ORANGE-URD2025-P0363"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-022",
+          "task_id": "MINERU-RESUME01-KB-B022-ORANGE-URD2025-P0382"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-022",
+          "task_id": "MINERU-RESUME01-KB-B022-ORANGE-URD2025-P0383"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-022",
+          "task_id": "MINERU-RESUME01-KB-B022-ORANGE-URD2025-P0400"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-022",
+          "task_id": "MINERU-RESUME01-KB-B022-ORANGE-URD2025-P0482"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-022",
+          "task_id": "MINERU-RESUME01-KB-B022-ORANGE-URD2025-P0483"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-022",
+          "task_id": "MINERU-RESUME01-KB-B022-SKANSKA-ASR2025-P0069"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-022",
+          "task_id": "MINERU-RESUME01-KB-B022-SKANSKA-ASR2025-P0070"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-022",
+          "task_id": "MINERU-RESUME01-KB-B022-SKANSKA-ASR2025-P0071"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-022",
+          "task_id": "MINERU-RESUME01-KB-B022-SKANSKA-ASR2025-P0075"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-022",
+          "task_id": "MINERU-RESUME01-KB-B022-SKANSKA-ASR2025-P0084"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-022",
+          "task_id": "MINERU-RESUME01-KB-B022-SKANSKA-ASR2025-P0208"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-022",
+          "task_id": "MINERU-RESUME01-KB-B022-SKANSKA-ASR2025-P0209"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-022",
+          "task_id": "MINERU-RESUME02-KB-B022-ENGIE-URD2025-P0138"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-022",
+          "task_id": "MINERU-RESUME02-KB-B022-ENGIE-URD2025-P0154"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-022",
+          "task_id": "MINERU-RESUME02-KB-B022-ENGIE-URD2025-P0221"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-022",
+          "task_id": "MINERU-RESUME02-KB-B022-ORANGE-URD2025-P0362"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-022",
+          "task_id": "MINERU-RESUME02-KB-B022-ORANGE-URD2025-P0363"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-022",
+          "task_id": "MINERU-RESUME02-KB-B022-ORANGE-URD2025-P0382"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-022",
+          "task_id": "MINERU-RESUME02-KB-B022-ORANGE-URD2025-P0383"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-022",
+          "task_id": "MINERU-RESUME02-KB-B022-ORANGE-URD2025-P0400"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-022",
+          "task_id": "MINERU-RESUME02-KB-B022-ORANGE-URD2025-P0482"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-022",
+          "task_id": "MINERU-RESUME02-KB-B022-ORANGE-URD2025-P0483"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-022",
+          "task_id": "MINERU-RESUME02-KB-B022-SKANSKA-ASR2025-P0069"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-022",
+          "task_id": "MINERU-RESUME02-KB-B022-SKANSKA-ASR2025-P0070"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-022",
+          "task_id": "MINERU-RESUME02-KB-B022-SKANSKA-ASR2025-P0071"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-022",
+          "task_id": "MINERU-RESUME02-KB-B022-SKANSKA-ASR2025-P0075"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-022",
+          "task_id": "MINERU-RESUME02-KB-B022-SKANSKA-ASR2025-P0084"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-022",
+          "task_id": "MINERU-RESUME02-KB-B022-SKANSKA-ASR2025-P0208"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-022",
+          "task_id": "MINERU-RESUME02-KB-B022-SKANSKA-ASR2025-P0209"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-022",
+          "task_id": "MINERU-RESUME03-KB-B022-ENGIE-URD2025-P0138"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-022",
+          "task_id": "MINERU-RESUME03-KB-B022-ENGIE-URD2025-P0154"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-022",
+          "task_id": "MINERU-RESUME03-KB-B022-ENGIE-URD2025-P0221"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-022",
+          "task_id": "MINERU-RESUME03-KB-B022-ORANGE-URD2025-P0362"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-022",
+          "task_id": "MINERU-RESUME03-KB-B022-ORANGE-URD2025-P0363"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-022",
+          "task_id": "MINERU-RESUME03-KB-B022-ORANGE-URD2025-P0382"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-022",
+          "task_id": "MINERU-RESUME03-KB-B022-ORANGE-URD2025-P0383"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-022",
+          "task_id": "MINERU-RESUME03-KB-B022-ORANGE-URD2025-P0400"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-022",
+          "task_id": "MINERU-RESUME03-KB-B022-ORANGE-URD2025-P0482"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-022",
+          "task_id": "MINERU-RESUME03-KB-B022-ORANGE-URD2025-P0483"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-022",
+          "task_id": "MINERU-RESUME03-KB-B022-SKANSKA-ASR2025-P0069"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-022",
+          "task_id": "MINERU-RESUME03-KB-B022-SKANSKA-ASR2025-P0070"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-022",
+          "task_id": "MINERU-RESUME03-KB-B022-SKANSKA-ASR2025-P0084"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-023-RESUME02",
+          "task_id": "MINERU-INITIAL-KB-B023-GLENCORE-SR2025-P0018"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-023-RESUME02",
+          "task_id": "MINERU-INITIAL-KB-B023-GLENCORE-SR2025-P0028"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-023-RESUME02",
+          "task_id": "MINERU-INITIAL-KB-B023-GLENCORE-SR2025-P0053"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-023-RESUME02",
+          "task_id": "MINERU-INITIAL-KB-B023-GLENCORE-SR2025-P0055"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-023-RESUME02",
+          "task_id": "MINERU-INITIAL-KB-B023-ARKEMA-URD2025-P0189"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-023-RESUME02",
+          "task_id": "MINERU-INITIAL-KB-B023-ARKEMA-URD2025-P0191"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-023-RESUME02",
+          "task_id": "MINERU-INITIAL-KB-B023-ARKEMA-URD2025-P0202"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-023-RESUME02",
+          "task_id": "MINERU-INITIAL-KB-B023-ARKEMA-URD2025-P0204"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-023-RESUME02",
+          "task_id": "MINERU-INITIAL-KB-B023-ARKEMA-URD2025-P0208"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-023-RESUME02",
+          "task_id": "MINERU-INITIAL-KB-B023-ARKEMA-URD2025-P0234"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-023-RESUME02",
+          "task_id": "MINERU-INITIAL-KB-B023-ARKEMA-URD2025-P0278"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-023-RESUME02",
+          "task_id": "MINERU-INITIAL-KB-B023-ARKEMA-URD2025-P0280"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-023-RESUME02",
+          "task_id": "MINERU-RESUME01-KB-B023-GLENCORE-SR2025-P0018"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-023-RESUME02",
+          "task_id": "MINERU-RESUME01-KB-B023-GLENCORE-SR2025-P0028"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-023-RESUME02",
+          "task_id": "MINERU-RESUME01-KB-B023-GLENCORE-SR2025-P0053"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-023-RESUME02",
+          "task_id": "MINERU-RESUME01-KB-B023-GLENCORE-SR2025-P0055"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-023-RESUME02",
+          "task_id": "MINERU-RESUME01-KB-B023-ARKEMA-URD2025-P0189"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-023-RESUME02",
+          "task_id": "MINERU-RESUME01-KB-B023-ARKEMA-URD2025-P0191"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-023-RESUME02",
+          "task_id": "MINERU-RESUME01-KB-B023-ARKEMA-URD2025-P0202"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-023-RESUME02",
+          "task_id": "MINERU-RESUME01-KB-B023-ARKEMA-URD2025-P0204"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-023-RESUME02",
+          "task_id": "MINERU-RESUME01-KB-B023-ARKEMA-URD2025-P0208"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-023-RESUME02",
+          "task_id": "MINERU-RESUME01-KB-B023-ARKEMA-URD2025-P0234"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-023-RESUME02",
+          "task_id": "MINERU-RESUME01-KB-B023-ARKEMA-URD2025-P0278"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-023-RESUME02",
+          "task_id": "MINERU-RESUME01-KB-B023-ARKEMA-URD2025-P0280"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-023-RESUME02",
+          "task_id": "MINERU-RESUME02-KB-B023-GLENCORE-SR2025-P0018"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-023-RESUME02",
+          "task_id": "MINERU-RESUME02-KB-B023-GLENCORE-SR2025-P0055"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-023-RESUME02",
+          "task_id": "MINERU-RESUME02-KB-B023-ARKEMA-URD2025-P0189"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-023-RESUME02",
+          "task_id": "MINERU-RESUME02-KB-B023-ARKEMA-URD2025-P0204"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-023-RESUME02",
+          "task_id": "MINERU-RESUME02-KB-B023-ARKEMA-URD2025-P0208"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-023-RESUME02",
+          "task_id": "MINERU-RESUME02-KB-B023-ARKEMA-URD2025-P0234"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-023-RESUME02",
+          "task_id": "MINERU-RESUME02-KB-B023-ARKEMA-URD2025-P0278"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-023-RESUME02",
+          "task_id": "MINERU-RESUME02-KB-B023-ARKEMA-URD2025-P0280"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-RESUME01-KB-B024-FORTUM-FIN2025-P0047"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-RESUME01-KB-B024-FORTUM-FIN2025-P0056"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-RESUME01-KB-B024-FORTUM-FIN2025-P0068"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-RESUME01-KB-B024-FORTUM-FIN2025-P0073"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-RESUME01-KB-B024-FORTUM-FIN2025-P0089"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-RESUME01-KB-B024-FORTUM-FIN2025-P0231"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-RESUME01-KB-B024-FORTUM-FIN2025-P0232"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-RESUME01-KB-B024-YARA-AR2025-P0111"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-RESUME01-KB-B024-YARA-AR2025-P0124"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-RESUME01-KB-B024-YARA-AR2025-P0126"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-RESUME01-KB-B024-YARA-AR2025-P0130"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-RESUME01-KB-B024-YARA-AR2025-P0135"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-RESUME01-KB-B024-YARA-AR2025-P0151"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-RESUME01-KB-B024-YARA-AR2025-P0308"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-RESUME01-KB-B024-YARA-AR2025-P0309"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-RESUME01-KB-B024-YARA-AR2025-P0310"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-RESUME01-KB-B024-TELENOR-AR2025-P0092"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-RESUME01-KB-B024-TELENOR-AR2025-P0093"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-RESUME01-KB-B024-TELENOR-AR2025-P0098"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-RESUME01-KB-B024-TELENOR-AR2025-P0106"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-RESUME01-KB-B024-TELENOR-AR2025-P0116"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-RESUME01-KB-B024-TELENOR-AR2025-P0277"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-RESUME01-KB-B024-TELENOR-AR2025-P0278"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-RESUME01-KB-B024-TELENOR-AR2025-P0279"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-RESUME01-KB-B024-TELENOR-AR2025-P0280"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-RESUME02-KB-B024-FORTUM-FIN2025-P0047"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-RESUME02-KB-B024-FORTUM-FIN2025-P0056"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-RESUME02-KB-B024-FORTUM-FIN2025-P0068"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-RESUME02-KB-B024-FORTUM-FIN2025-P0073"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-RESUME02-KB-B024-YARA-AR2025-P0111"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-RESUME02-KB-B024-YARA-AR2025-P0124"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-RESUME02-KB-B024-YARA-AR2025-P0126"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-RESUME02-KB-B024-YARA-AR2025-P0151"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-RESUME02-KB-B024-YARA-AR2025-P0308"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-RESUME02-KB-B024-YARA-AR2025-P0310"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-RESUME02-KB-B024-TELENOR-AR2025-P0092"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-RESUME02-KB-B024-TELENOR-AR2025-P0093"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-RESUME02-KB-B024-TELENOR-AR2025-P0106"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-RESUME02-KB-B024-TELENOR-AR2025-P0116"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-RESUME02-KB-B024-TELENOR-AR2025-P0277"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-RESUME02-KB-B024-TELENOR-AR2025-P0278"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-RESUME02-KB-B024-TELENOR-AR2025-P0279"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-RESUME02-KB-B024-TELENOR-AR2025-P0280"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-RESUME03-KB-B024-FORTUM-FIN2025-P0056"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-RESUME03-KB-B024-FORTUM-FIN2025-P0068"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-RESUME03-KB-B024-FORTUM-FIN2025-P0073"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-RESUME03-KB-B024-YARA-AR2025-P0111"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-RESUME03-KB-B024-YARA-AR2025-P0124"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-RESUME03-KB-B024-YARA-AR2025-P0126"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-RESUME03-KB-B024-YARA-AR2025-P0151"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-RESUME03-KB-B024-YARA-AR2025-P0308"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-RESUME03-KB-B024-TELENOR-AR2025-P0093"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-RESUME03-KB-B024-TELENOR-AR2025-P0106"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-RESUME03-KB-B024-TELENOR-AR2025-P0116"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-RESUME03-KB-B024-TELENOR-AR2025-P0277"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-RESUME03-KB-B024-TELENOR-AR2025-P0278"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-RESUME03-KB-B024-TELENOR-AR2025-P0279"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-RESUME03-KB-B024-TELENOR-AR2025-P0280"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-025",
+          "task_id": "MINERU-RESUME01-KB-B025-EQUINOR-AR2025-P0113"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-025",
+          "task_id": "MINERU-RESUME01-KB-B025-EQUINOR-AR2025-P0123"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-025",
+          "task_id": "MINERU-RESUME01-KB-B025-EQUINOR-AR2025-P0128"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-025",
+          "task_id": "MINERU-RESUME01-KB-B025-EQUINOR-AR2025-P0162"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-025",
+          "task_id": "MINERU-RESUME01-KB-B025-EQUINOR-AR2025-P0306"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-025",
+          "task_id": "MINERU-RESUME01-KB-B025-EQUINOR-AR2025-P0307"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-025",
+          "task_id": "MINERU-RESUME01-KB-B025-AKERBP-AR2025-P0073"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-025",
+          "task_id": "MINERU-RESUME01-KB-B025-AKERBP-AR2025-P0074"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-025",
+          "task_id": "MINERU-RESUME01-KB-B025-AKERBP-AR2025-P0086"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-025",
+          "task_id": "MINERU-RESUME01-KB-B025-AKERBP-AR2025-P0094"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-025",
+          "task_id": "MINERU-RESUME01-KB-B025-AKERBP-AR2025-P0127"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-025",
+          "task_id": "MINERU-RESUME01-KB-B025-DNB-AR2025-P0083"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-025",
+          "task_id": "MINERU-RESUME01-KB-B025-DNB-AR2025-P0134"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-025",
+          "task_id": "MINERU-RESUME01-KB-B025-DNB-AR2025-P0202"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-025",
+          "task_id": "MINERU-RESUME01-KB-B025-DNB-AR2025-P0350"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-025",
+          "task_id": "MINERU-RESUME01-KB-B025-DNB-AR2025-P0352"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-025",
+          "task_id": "MINERU-RESUME02-KB-B025-EQUINOR-AR2025-P0113"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-025",
+          "task_id": "MINERU-RESUME02-KB-B025-EQUINOR-AR2025-P0123"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-025",
+          "task_id": "MINERU-RESUME02-KB-B025-EQUINOR-AR2025-P0128"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-025",
+          "task_id": "MINERU-RESUME02-KB-B025-EQUINOR-AR2025-P0162"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-025",
+          "task_id": "MINERU-RESUME02-KB-B025-AKERBP-AR2025-P0086"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-025",
+          "task_id": "MINERU-RESUME02-KB-B025-AKERBP-AR2025-P0127"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-025",
+          "task_id": "MINERU-RESUME02-KB-B025-DNB-AR2025-P0083"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-025",
+          "task_id": "MINERU-RESUME02-KB-B025-DNB-AR2025-P0134"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-025",
+          "task_id": "MINERU-RESUME02-KB-B025-DNB-AR2025-P0350"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-025",
+          "task_id": "MINERU-RESUME03-KB-B025-EQUINOR-AR2025-P0113"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-025",
+          "task_id": "MINERU-RESUME03-KB-B025-EQUINOR-AR2025-P0162"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-025",
+          "task_id": "MINERU-RESUME03-KB-B025-AKERBP-AR2025-P0086"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-025",
+          "task_id": "MINERU-RESUME03-KB-B025-DNB-AR2025-P0083"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-025",
+          "task_id": "MINERU-RESUME03-KB-B025-DNB-AR2025-P0134"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-025",
+          "task_id": "MINERU-RESUME03-KB-B025-DNB-AR2025-P0350"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-026",
+          "task_id": "MINERU-RESUME01-KB-B026-STOREBRAND-AR2025-P0069"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-026",
+          "task_id": "MINERU-RESUME01-KB-B026-STOREBRAND-AR2025-P0070"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-026",
+          "task_id": "MINERU-RESUME01-KB-B026-STOREBRAND-AR2025-P0091"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-026",
+          "task_id": "MINERU-RESUME01-KB-B026-STOREBRAND-AR2025-P0163"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-026",
+          "task_id": "MINERU-RESUME01-KB-B026-ORKLA-AR2025-P0072"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-026",
+          "task_id": "MINERU-RESUME01-KB-B026-ORKLA-AR2025-P0073"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-026",
+          "task_id": "MINERU-RESUME01-KB-B026-ORKLA-AR2025-P0076"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-026",
+          "task_id": "MINERU-RESUME01-KB-B026-ORKLA-AR2025-P0081"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-026",
+          "task_id": "MINERU-RESUME01-KB-B026-ORKLA-AR2025-P0085"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-026",
+          "task_id": "MINERU-RESUME01-KB-B026-ORKLA-AR2025-P0091"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-026",
+          "task_id": "MINERU-RESUME01-KB-B026-ORKLA-AR2025-P0253"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-026",
+          "task_id": "MINERU-RESUME01-KB-B026-ORKLA-AR2025-P0254"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-026",
+          "task_id": "MINERU-RESUME01-KB-B026-SEB-AR2025-P0090"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-026",
+          "task_id": "MINERU-RESUME01-KB-B026-SEB-AR2025-P0105"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-026",
+          "task_id": "MINERU-RESUME01-KB-B026-SEB-AR2025-P0109"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-026",
+          "task_id": "MINERU-RESUME01-KB-B026-SEB-AR2025-P0112"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-026",
+          "task_id": "MINERU-RESUME01-KB-B026-SEB-AR2025-P0120"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-026",
+          "task_id": "MINERU-RESUME01-KB-B026-SEB-AR2025-P0163"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-026",
+          "task_id": "MINERU-RESUME01-KB-B026-SEB-AR2025-P0179"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-026",
+          "task_id": "MINERU-RESUME01-KB-B026-SEB-AR2025-P0343"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-026",
+          "task_id": "MINERU-RESUME01-KB-B026-SEB-AR2025-P0344"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-026",
+          "task_id": "MINERU-RESUME02-KB-B026-STOREBRAND-AR2025-P0163"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-026",
+          "task_id": "MINERU-RESUME02-KB-B026-ORKLA-AR2025-P0072"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-026",
+          "task_id": "MINERU-RESUME02-KB-B026-ORKLA-AR2025-P0073"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-026",
+          "task_id": "MINERU-RESUME02-KB-B026-ORKLA-AR2025-P0076"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-026",
+          "task_id": "MINERU-RESUME02-KB-B026-ORKLA-AR2025-P0081"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-026",
+          "task_id": "MINERU-RESUME02-KB-B026-ORKLA-AR2025-P0085"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-026",
+          "task_id": "MINERU-RESUME02-KB-B026-ORKLA-AR2025-P0091"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-026",
+          "task_id": "MINERU-RESUME02-KB-B026-ORKLA-AR2025-P0253"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-026",
+          "task_id": "MINERU-RESUME02-KB-B026-ORKLA-AR2025-P0254"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-026",
+          "task_id": "MINERU-RESUME02-KB-B026-SEB-AR2025-P0090"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-026",
+          "task_id": "MINERU-RESUME02-KB-B026-SEB-AR2025-P0109"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-026",
+          "task_id": "MINERU-RESUME02-KB-B026-SEB-AR2025-P0112"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-026",
+          "task_id": "MINERU-RESUME02-KB-B026-SEB-AR2025-P0163"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-026",
+          "task_id": "MINERU-RESUME02-KB-B026-SEB-AR2025-P0179"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-026",
+          "task_id": "MINERU-RESUME02-KB-B026-SEB-AR2025-P0343"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-026",
+          "task_id": "MINERU-RESUME02-KB-B026-SEB-AR2025-P0344"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-026",
+          "task_id": "MINERU-RESUME03-KB-B026-ORKLA-AR2025-P0073"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-026",
+          "task_id": "MINERU-RESUME03-KB-B026-ORKLA-AR2025-P0085"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-026",
+          "task_id": "MINERU-RESUME03-KB-B026-ORKLA-AR2025-P0253"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-026",
+          "task_id": "MINERU-RESUME03-KB-B026-SEB-AR2025-P0109"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-026",
+          "task_id": "MINERU-RESUME03-KB-B026-SEB-AR2025-P0112"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-026",
+          "task_id": "MINERU-RESUME03-KB-B026-SEB-AR2025-P0163"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-026",
+          "task_id": "MINERU-RESUME03-KB-B026-SEB-AR2025-P0344"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-027",
+          "task_id": "MINERU-RESUME01-KB-B027-NORDEA-AR2025-P0124"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-027",
+          "task_id": "MINERU-RESUME01-KB-B027-NORDEA-AR2025-P0137"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-027",
+          "task_id": "MINERU-RESUME01-KB-B027-NORDEA-AR2025-P0149"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-027",
+          "task_id": "MINERU-RESUME01-KB-B027-NORDEA-AR2025-P0158"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-027",
+          "task_id": "MINERU-RESUME01-KB-B027-NORDEA-AR2025-P0191"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-027",
+          "task_id": "MINERU-RESUME01-KB-B027-HANDELSBANKEN-AR2025-P0079"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-027",
+          "task_id": "MINERU-RESUME01-KB-B027-HANDELSBANKEN-AR2025-P0086"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-027",
+          "task_id": "MINERU-RESUME01-KB-B027-HANDELSBANKEN-AR2025-P0087"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-027",
+          "task_id": "MINERU-RESUME01-KB-B027-HANDELSBANKEN-AR2025-P0092"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-027",
+          "task_id": "MINERU-RESUME01-KB-B027-HANDELSBANKEN-AR2025-P0099"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-027",
+          "task_id": "MINERU-RESUME01-KB-B027-HANDELSBANKEN-AR2025-P0140"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-027",
+          "task_id": "MINERU-RESUME01-KB-B027-HANDELSBANKEN-AR2025-P0142"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-027",
+          "task_id": "MINERU-RESUME01-KB-B027-HANDELSBANKEN-AR2025-P0143"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-027",
+          "task_id": "MINERU-RESUME01-KB-B027-SECURITAS-AR2025-P0075"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-027",
+          "task_id": "MINERU-RESUME01-KB-B027-SECURITAS-AR2025-P0080"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-027",
+          "task_id": "MINERU-RESUME01-KB-B027-SECURITAS-AR2025-P0081"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-027",
+          "task_id": "MINERU-RESUME01-KB-B027-SECURITAS-AR2025-P0103"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-027",
+          "task_id": "MINERU-RESUME01-KB-B027-SECURITAS-AR2025-P0175"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-027",
+          "task_id": "MINERU-RESUME01-KB-B027-SECURITAS-AR2025-P0176"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-027",
+          "task_id": "MINERU-RESUME02-KB-B027-NORDEA-AR2025-P0137"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-027",
+          "task_id": "MINERU-RESUME02-KB-B027-NORDEA-AR2025-P0149"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-027",
+          "task_id": "MINERU-RESUME02-KB-B027-NORDEA-AR2025-P0158"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-027",
+          "task_id": "MINERU-RESUME02-KB-B027-NORDEA-AR2025-P0191"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-027",
+          "task_id": "MINERU-RESUME02-KB-B027-HANDELSBANKEN-AR2025-P0079"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-027",
+          "task_id": "MINERU-RESUME02-KB-B027-HANDELSBANKEN-AR2025-P0086"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-027",
+          "task_id": "MINERU-RESUME02-KB-B027-HANDELSBANKEN-AR2025-P0087"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-027",
+          "task_id": "MINERU-RESUME02-KB-B027-HANDELSBANKEN-AR2025-P0092"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-027",
+          "task_id": "MINERU-RESUME02-KB-B027-HANDELSBANKEN-AR2025-P0099"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-027",
+          "task_id": "MINERU-RESUME02-KB-B027-HANDELSBANKEN-AR2025-P0140"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-027",
+          "task_id": "MINERU-RESUME02-KB-B027-HANDELSBANKEN-AR2025-P0142"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-027",
+          "task_id": "MINERU-RESUME02-KB-B027-SECURITAS-AR2025-P0080"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-027",
+          "task_id": "MINERU-RESUME02-KB-B027-SECURITAS-AR2025-P0081"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-027",
+          "task_id": "MINERU-RESUME02-KB-B027-SECURITAS-AR2025-P0103"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-027",
+          "task_id": "MINERU-RESUME02-KB-B027-SECURITAS-AR2025-P0175"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-027",
+          "task_id": "MINERU-RESUME02-KB-B027-SECURITAS-AR2025-P0176"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-027",
+          "task_id": "MINERU-RESUME03-KB-B027-NORDEA-AR2025-P0137"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-027",
+          "task_id": "MINERU-RESUME03-KB-B027-NORDEA-AR2025-P0149"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-027",
+          "task_id": "MINERU-RESUME03-KB-B027-NORDEA-AR2025-P0191"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-027",
+          "task_id": "MINERU-RESUME03-KB-B027-HANDELSBANKEN-AR2025-P0092"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-027",
+          "task_id": "MINERU-RESUME03-KB-B027-SECURITAS-AR2025-P0176"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-RESUME01-KB-B028-TELIA-AR2025-P0076"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-RESUME01-KB-B028-TELIA-AR2025-P0090"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-RESUME01-KB-B028-TELIA-AR2025-P0101"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-RESUME01-KB-B028-TELIA-AR2025-P0103"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-RESUME01-KB-B028-TELIA-AR2025-P0129"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-RESUME01-KB-B028-TELIA-AR2025-P0259"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-RESUME01-KB-B028-ASSA-ABLOY-AR2025-P0077"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-RESUME01-KB-B028-ASSA-ABLOY-AR2025-P0095"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-RESUME01-KB-B028-ASSA-ABLOY-AR2025-P0096"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-RESUME01-KB-B028-ASSA-ABLOY-AR2025-P0098"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-RESUME01-KB-B028-ASSA-ABLOY-AR2025-P0100"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-RESUME01-KB-B028-ASSA-ABLOY-AR2025-P0170"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-RESUME01-KB-B028-ASSA-ABLOY-AR2025-P0171"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-RESUME01-KB-B028-LOOMIS-ASR2025-P0078"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-RESUME01-KB-B028-LOOMIS-ASR2025-P0083"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-RESUME01-KB-B028-LOOMIS-ASR2025-P0089"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-RESUME01-KB-B028-LOOMIS-ASR2025-P0100"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-RESUME01-KB-B028-LOOMIS-ASR2025-P0104"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-RESUME01-KB-B028-LOOMIS-ASR2025-P0118"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-RESUME01-KB-B028-LOOMIS-ASR2025-P0165"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-RESUME01-KB-B028-LOOMIS-ASR2025-P0166"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-RESUME02-KB-B028-TELIA-AR2025-P0090"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-RESUME02-KB-B028-TELIA-AR2025-P0101"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-RESUME02-KB-B028-TELIA-AR2025-P0103"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-RESUME02-KB-B028-TELIA-AR2025-P0259"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-RESUME02-KB-B028-ASSA-ABLOY-AR2025-P0077"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-RESUME02-KB-B028-ASSA-ABLOY-AR2025-P0095"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-RESUME02-KB-B028-ASSA-ABLOY-AR2025-P0096"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-RESUME02-KB-B028-ASSA-ABLOY-AR2025-P0098"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-RESUME02-KB-B028-ASSA-ABLOY-AR2025-P0100"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-RESUME02-KB-B028-ASSA-ABLOY-AR2025-P0170"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-RESUME02-KB-B028-ASSA-ABLOY-AR2025-P0171"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-RESUME02-KB-B028-LOOMIS-ASR2025-P0078"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-RESUME02-KB-B028-LOOMIS-ASR2025-P0083"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-RESUME02-KB-B028-LOOMIS-ASR2025-P0089"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-RESUME02-KB-B028-LOOMIS-ASR2025-P0100"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-RESUME02-KB-B028-LOOMIS-ASR2025-P0118"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-RESUME02-KB-B028-LOOMIS-ASR2025-P0165"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-RESUME02-KB-B028-LOOMIS-ASR2025-P0166"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-RESUME03-KB-B028-TELIA-AR2025-P0090"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-RESUME03-KB-B028-TELIA-AR2025-P0101"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-RESUME03-KB-B028-TELIA-AR2025-P0259"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-RESUME03-KB-B028-ASSA-ABLOY-AR2025-P0077"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-RESUME03-KB-B028-ASSA-ABLOY-AR2025-P0095"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-RESUME03-KB-B028-ASSA-ABLOY-AR2025-P0096"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-RESUME03-KB-B028-ASSA-ABLOY-AR2025-P0098"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-RESUME03-KB-B028-ASSA-ABLOY-AR2025-P0100"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-RESUME03-KB-B028-ASSA-ABLOY-AR2025-P0170"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-RESUME03-KB-B028-LOOMIS-ASR2025-P0078"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-RESUME03-KB-B028-LOOMIS-ASR2025-P0083"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-RESUME03-KB-B028-LOOMIS-ASR2025-P0089"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-RESUME03-KB-B028-LOOMIS-ASR2025-P0100"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-RESUME03-KB-B028-LOOMIS-ASR2025-P0118"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-RESUME03-KB-B028-LOOMIS-ASR2025-P0165"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-RESUME03-KB-B028-LOOMIS-ASR2025-P0166"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-029",
+          "task_id": "MINERU-RESUME01-KB-B029-INVESTOR-AR2025-P0082"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-029",
+          "task_id": "MINERU-RESUME01-KB-B029-INVESTOR-AR2025-P0083"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-029",
+          "task_id": "MINERU-RESUME01-KB-B029-INVESTOR-AR2025-P0090"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-029",
+          "task_id": "MINERU-RESUME01-KB-B029-INVESTOR-AR2025-P0098"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-029",
+          "task_id": "MINERU-RESUME01-KB-B029-INVESTOR-AR2025-P0104"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-029",
+          "task_id": "MINERU-RESUME01-KB-B029-INVESTOR-AR2025-P0113"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-029",
+          "task_id": "MINERU-RESUME01-KB-B029-INVESTOR-AR2025-P0186"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-029",
+          "task_id": "MINERU-RESUME01-KB-B029-INVESTOR-AR2025-P0187"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-029",
+          "task_id": "MINERU-RESUME01-KB-B029-VATTENFALL-ASR2025-P0093"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-029",
+          "task_id": "MINERU-RESUME01-KB-B029-VATTENFALL-ASR2025-P0105"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-029",
+          "task_id": "MINERU-RESUME01-KB-B029-VATTENFALL-ASR2025-P0106"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-029",
+          "task_id": "MINERU-RESUME01-KB-B029-VATTENFALL-ASR2025-P0109"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-029",
+          "task_id": "MINERU-RESUME01-KB-B029-VATTENFALL-ASR2025-P0127"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-029",
+          "task_id": "MINERU-RESUME01-KB-B029-VATTENFALL-ASR2025-P0150"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-029",
+          "task_id": "MINERU-RESUME01-KB-B029-VATTENFALL-ASR2025-P0151"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-029",
+          "task_id": "MINERU-RESUME01-KB-B029-SWEDAVIA-ASR2025-P0069"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-029",
+          "task_id": "MINERU-RESUME01-KB-B029-SWEDAVIA-ASR2025-P0079"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-029",
+          "task_id": "MINERU-RESUME01-KB-B029-SWEDAVIA-ASR2025-P0083"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-029",
+          "task_id": "MINERU-RESUME01-KB-B029-SWEDAVIA-ASR2025-P0085"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-029",
+          "task_id": "MINERU-RESUME01-KB-B029-SWEDAVIA-ASR2025-P0100"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-029",
+          "task_id": "MINERU-RESUME01-KB-B029-SWEDAVIA-ASR2025-P0102"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-029",
+          "task_id": "MINERU-RESUME01-KB-B029-SWEDAVIA-ASR2025-P0187"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-029",
+          "task_id": "MINERU-RESUME01-KB-B029-SWEDAVIA-ASR2025-P0188"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-029",
+          "task_id": "MINERU-RESUME02-KB-B029-INVESTOR-AR2025-P0082"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-029",
+          "task_id": "MINERU-RESUME02-KB-B029-INVESTOR-AR2025-P0083"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-029",
+          "task_id": "MINERU-RESUME02-KB-B029-INVESTOR-AR2025-P0090"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-029",
+          "task_id": "MINERU-RESUME02-KB-B029-INVESTOR-AR2025-P0113"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-029",
+          "task_id": "MINERU-RESUME02-KB-B029-INVESTOR-AR2025-P0187"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-029",
+          "task_id": "MINERU-RESUME02-KB-B029-VATTENFALL-ASR2025-P0105"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-029",
+          "task_id": "MINERU-RESUME02-KB-B029-VATTENFALL-ASR2025-P0106"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-029",
+          "task_id": "MINERU-RESUME02-KB-B029-VATTENFALL-ASR2025-P0109"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-029",
+          "task_id": "MINERU-RESUME02-KB-B029-VATTENFALL-ASR2025-P0127"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-029",
+          "task_id": "MINERU-RESUME02-KB-B029-VATTENFALL-ASR2025-P0151"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-029",
+          "task_id": "MINERU-RESUME02-KB-B029-SWEDAVIA-ASR2025-P0083"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-029",
+          "task_id": "MINERU-RESUME02-KB-B029-SWEDAVIA-ASR2025-P0100"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-029",
+          "task_id": "MINERU-RESUME02-KB-B029-SWEDAVIA-ASR2025-P0102"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-029",
+          "task_id": "MINERU-RESUME02-KB-B029-SWEDAVIA-ASR2025-P0187"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-029",
+          "task_id": "MINERU-RESUME02-KB-B029-SWEDAVIA-ASR2025-P0188"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-029",
+          "task_id": "MINERU-RESUME03-KB-B029-INVESTOR-AR2025-P0082"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-029",
+          "task_id": "MINERU-RESUME03-KB-B029-INVESTOR-AR2025-P0083"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-029",
+          "task_id": "MINERU-RESUME03-KB-B029-INVESTOR-AR2025-P0090"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-029",
+          "task_id": "MINERU-RESUME03-KB-B029-INVESTOR-AR2025-P0113"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-029",
+          "task_id": "MINERU-RESUME03-KB-B029-INVESTOR-AR2025-P0187"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-029",
+          "task_id": "MINERU-RESUME03-KB-B029-VATTENFALL-ASR2025-P0105"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-029",
+          "task_id": "MINERU-RESUME03-KB-B029-VATTENFALL-ASR2025-P0106"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-029",
+          "task_id": "MINERU-RESUME03-KB-B029-VATTENFALL-ASR2025-P0127"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-029",
+          "task_id": "MINERU-RESUME03-KB-B029-SWEDAVIA-ASR2025-P0083"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-029",
+          "task_id": "MINERU-RESUME03-KB-B029-SWEDAVIA-ASR2025-P0100"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-029",
+          "task_id": "MINERU-RESUME03-KB-B029-SWEDAVIA-ASR2025-P0102"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-029",
+          "task_id": "MINERU-RESUME03-KB-B029-SWEDAVIA-ASR2025-P0187"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-029",
+          "task_id": "MINERU-RESUME03-KB-B029-SWEDAVIA-ASR2025-P0188"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-030-SUPPLEMENTAL",
+          "task_id": "MINERU-RESUME01-KB-B030-NCC-ASR2025-P0058"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-030-SUPPLEMENTAL",
+          "task_id": "MINERU-RESUME01-KB-B030-NCC-ASR2025-P0074"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-030-SUPPLEMENTAL",
+          "task_id": "MINERU-RESUME01-KB-B030-NCC-ASR2025-P0078"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-030-SUPPLEMENTAL",
+          "task_id": "MINERU-RESUME01-KB-B030-NCC-ASR2025-P0081"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-030-SUPPLEMENTAL",
+          "task_id": "MINERU-RESUME01-KB-B030-NCC-ASR2025-P0085"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-030-SUPPLEMENTAL",
+          "task_id": "MINERU-RESUME01-KB-B030-NCC-ASR2025-P0154"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-030-SUPPLEMENTAL",
+          "task_id": "MINERU-RESUME02-KB-B030-NCC-ASR2025-P0074"
+        }
+      ],
+      "signature": "MINERU_POST_PROCESS_SHUTDOWN_MUTEX_ABORT"
+    },
+    {
+      "count": 223,
+      "examples": [
+        {
+          "experiment_id": "KB-SCALE-BATCH-022",
+          "task_id": "MINERU-INITIAL-KB-B022-ENGIE-URD2025-P0121"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-022",
+          "task_id": "MINERU-INITIAL-KB-B022-ENGIE-URD2025-P0122"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-022",
+          "task_id": "MINERU-INITIAL-KB-B022-ENGIE-URD2025-P0132"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-022",
+          "task_id": "MINERU-INITIAL-KB-B022-ENGIE-URD2025-P0133"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-022",
+          "task_id": "MINERU-INITIAL-KB-B022-ENGIE-URD2025-P0138"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-022",
+          "task_id": "MINERU-INITIAL-KB-B022-ENGIE-URD2025-P0140"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-022",
+          "task_id": "MINERU-INITIAL-KB-B022-ENGIE-URD2025-P0154"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-022",
+          "task_id": "MINERU-INITIAL-KB-B022-ENGIE-URD2025-P0174"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-022",
+          "task_id": "MINERU-INITIAL-KB-B022-ENGIE-URD2025-P0220"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-022",
+          "task_id": "MINERU-INITIAL-KB-B022-ENGIE-URD2025-P0221"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-022",
+          "task_id": "MINERU-INITIAL-KB-B022-ORANGE-URD2025-P0362"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-022",
+          "task_id": "MINERU-INITIAL-KB-B022-ORANGE-URD2025-P0363"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-022",
+          "task_id": "MINERU-INITIAL-KB-B022-ORANGE-URD2025-P0382"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-022",
+          "task_id": "MINERU-INITIAL-KB-B022-ORANGE-URD2025-P0383"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-022",
+          "task_id": "MINERU-INITIAL-KB-B022-ORANGE-URD2025-P0396"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-022",
+          "task_id": "MINERU-INITIAL-KB-B022-ORANGE-URD2025-P0400"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-022",
+          "task_id": "MINERU-INITIAL-KB-B022-ORANGE-URD2025-P0425"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-022",
+          "task_id": "MINERU-INITIAL-KB-B022-ORANGE-URD2025-P0428"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-022",
+          "task_id": "MINERU-INITIAL-KB-B022-ORANGE-URD2025-P0482"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-022",
+          "task_id": "MINERU-INITIAL-KB-B022-ORANGE-URD2025-P0483"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-022",
+          "task_id": "MINERU-INITIAL-KB-B022-ORANGE-URD2025-P0484"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-022",
+          "task_id": "MINERU-INITIAL-KB-B022-ORANGE-URD2025-P0485"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-022",
+          "task_id": "MINERU-INITIAL-KB-B022-SKANSKA-ASR2025-P0064"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-022",
+          "task_id": "MINERU-INITIAL-KB-B022-SKANSKA-ASR2025-P0069"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-022",
+          "task_id": "MINERU-INITIAL-KB-B022-SKANSKA-ASR2025-P0070"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-022",
+          "task_id": "MINERU-INITIAL-KB-B022-SKANSKA-ASR2025-P0071"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-022",
+          "task_id": "MINERU-INITIAL-KB-B022-SKANSKA-ASR2025-P0075"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-022",
+          "task_id": "MINERU-INITIAL-KB-B022-SKANSKA-ASR2025-P0076"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-022",
+          "task_id": "MINERU-INITIAL-KB-B022-SKANSKA-ASR2025-P0081"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-022",
+          "task_id": "MINERU-INITIAL-KB-B022-SKANSKA-ASR2025-P0084"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-022",
+          "task_id": "MINERU-INITIAL-KB-B022-SKANSKA-ASR2025-P0208"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-022",
+          "task_id": "MINERU-INITIAL-KB-B022-SKANSKA-ASR2025-P0209"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-INITIAL-KB-B024-FORTUM-FIN2025-P0047"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-INITIAL-KB-B024-FORTUM-FIN2025-P0056"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-INITIAL-KB-B024-FORTUM-FIN2025-P0063"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-INITIAL-KB-B024-FORTUM-FIN2025-P0068"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-INITIAL-KB-B024-FORTUM-FIN2025-P0073"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-INITIAL-KB-B024-FORTUM-FIN2025-P0089"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-INITIAL-KB-B024-FORTUM-FIN2025-P0092"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-INITIAL-KB-B024-FORTUM-FIN2025-P0231"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-INITIAL-KB-B024-FORTUM-FIN2025-P0232"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-INITIAL-KB-B024-YARA-AR2025-P0111"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-INITIAL-KB-B024-YARA-AR2025-P0112"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-INITIAL-KB-B024-YARA-AR2025-P0124"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-INITIAL-KB-B024-YARA-AR2025-P0126"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-INITIAL-KB-B024-YARA-AR2025-P0130"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-INITIAL-KB-B024-YARA-AR2025-P0135"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-INITIAL-KB-B024-YARA-AR2025-P0151"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-INITIAL-KB-B024-YARA-AR2025-P0308"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-INITIAL-KB-B024-YARA-AR2025-P0309"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-INITIAL-KB-B024-YARA-AR2025-P0310"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-INITIAL-KB-B024-YARA-AR2025-P0311"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-INITIAL-KB-B024-TELENOR-AR2025-P0091"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-INITIAL-KB-B024-TELENOR-AR2025-P0092"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-INITIAL-KB-B024-TELENOR-AR2025-P0093"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-INITIAL-KB-B024-TELENOR-AR2025-P0098"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-INITIAL-KB-B024-TELENOR-AR2025-P0106"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-INITIAL-KB-B024-TELENOR-AR2025-P0116"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-INITIAL-KB-B024-TELENOR-AR2025-P0118"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-INITIAL-KB-B024-TELENOR-AR2025-P0277"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-INITIAL-KB-B024-TELENOR-AR2025-P0278"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-INITIAL-KB-B024-TELENOR-AR2025-P0279"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-024-RESUME01",
+          "task_id": "MINERU-INITIAL-KB-B024-TELENOR-AR2025-P0280"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-025",
+          "task_id": "MINERU-INITIAL-KB-B025-EQUINOR-AR2025-P0101"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-025",
+          "task_id": "MINERU-INITIAL-KB-B025-EQUINOR-AR2025-P0112"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-025",
+          "task_id": "MINERU-INITIAL-KB-B025-EQUINOR-AR2025-P0113"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-025",
+          "task_id": "MINERU-INITIAL-KB-B025-EQUINOR-AR2025-P0123"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-025",
+          "task_id": "MINERU-INITIAL-KB-B025-EQUINOR-AR2025-P0128"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-025",
+          "task_id": "MINERU-INITIAL-KB-B025-EQUINOR-AR2025-P0138"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-025",
+          "task_id": "MINERU-INITIAL-KB-B025-EQUINOR-AR2025-P0162"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-025",
+          "task_id": "MINERU-INITIAL-KB-B025-EQUINOR-AR2025-P0305"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-025",
+          "task_id": "MINERU-INITIAL-KB-B025-EQUINOR-AR2025-P0306"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-025",
+          "task_id": "MINERU-INITIAL-KB-B025-EQUINOR-AR2025-P0307"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-025",
+          "task_id": "MINERU-INITIAL-KB-B025-AKERBP-AR2025-P0062"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-025",
+          "task_id": "MINERU-INITIAL-KB-B025-AKERBP-AR2025-P0073"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-025",
+          "task_id": "MINERU-INITIAL-KB-B025-AKERBP-AR2025-P0074"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-025",
+          "task_id": "MINERU-INITIAL-KB-B025-AKERBP-AR2025-P0085"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-025",
+          "task_id": "MINERU-INITIAL-KB-B025-AKERBP-AR2025-P0086"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-025",
+          "task_id": "MINERU-INITIAL-KB-B025-AKERBP-AR2025-P0094"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-025",
+          "task_id": "MINERU-INITIAL-KB-B025-AKERBP-AR2025-P0103"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-025",
+          "task_id": "MINERU-INITIAL-KB-B025-AKERBP-AR2025-P0110"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-025",
+          "task_id": "MINERU-INITIAL-KB-B025-AKERBP-AR2025-P0126"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-025",
+          "task_id": "MINERU-INITIAL-KB-B025-AKERBP-AR2025-P0127"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-025",
+          "task_id": "MINERU-INITIAL-KB-B025-DNB-AR2025-P0083"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-025",
+          "task_id": "MINERU-INITIAL-KB-B025-DNB-AR2025-P0094"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-025",
+          "task_id": "MINERU-INITIAL-KB-B025-DNB-AR2025-P0124"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-025",
+          "task_id": "MINERU-INITIAL-KB-B025-DNB-AR2025-P0134"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-025",
+          "task_id": "MINERU-INITIAL-KB-B025-DNB-AR2025-P0154"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-025",
+          "task_id": "MINERU-INITIAL-KB-B025-DNB-AR2025-P0202"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-025",
+          "task_id": "MINERU-INITIAL-KB-B025-DNB-AR2025-P0350"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-025",
+          "task_id": "MINERU-INITIAL-KB-B025-DNB-AR2025-P0351"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-025",
+          "task_id": "MINERU-INITIAL-KB-B025-DNB-AR2025-P0352"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-025",
+          "task_id": "MINERU-INITIAL-KB-B025-DNB-AR2025-P0353"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-026",
+          "task_id": "MINERU-INITIAL-KB-B026-STOREBRAND-AR2025-P0054"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-026",
+          "task_id": "MINERU-INITIAL-KB-B026-STOREBRAND-AR2025-P0069"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-026",
+          "task_id": "MINERU-INITIAL-KB-B026-STOREBRAND-AR2025-P0070"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-026",
+          "task_id": "MINERU-INITIAL-KB-B026-STOREBRAND-AR2025-P0078"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-026",
+          "task_id": "MINERU-INITIAL-KB-B026-STOREBRAND-AR2025-P0081"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-026",
+          "task_id": "MINERU-INITIAL-KB-B026-STOREBRAND-AR2025-P0091"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-026",
+          "task_id": "MINERU-INITIAL-KB-B026-STOREBRAND-AR2025-P0120"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-026",
+          "task_id": "MINERU-INITIAL-KB-B026-STOREBRAND-AR2025-P0163"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-026",
+          "task_id": "MINERU-INITIAL-KB-B026-STOREBRAND-AR2025-P0164"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-026",
+          "task_id": "MINERU-INITIAL-KB-B026-STOREBRAND-AR2025-P0165"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-026",
+          "task_id": "MINERU-INITIAL-KB-B026-ORKLA-AR2025-P0072"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-026",
+          "task_id": "MINERU-INITIAL-KB-B026-ORKLA-AR2025-P0073"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-026",
+          "task_id": "MINERU-INITIAL-KB-B026-ORKLA-AR2025-P0076"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-026",
+          "task_id": "MINERU-INITIAL-KB-B026-ORKLA-AR2025-P0081"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-026",
+          "task_id": "MINERU-INITIAL-KB-B026-ORKLA-AR2025-P0085"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-026",
+          "task_id": "MINERU-INITIAL-KB-B026-ORKLA-AR2025-P0091"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-026",
+          "task_id": "MINERU-INITIAL-KB-B026-ORKLA-AR2025-P0097"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-026",
+          "task_id": "MINERU-INITIAL-KB-B026-ORKLA-AR2025-P0099"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-026",
+          "task_id": "MINERU-INITIAL-KB-B026-ORKLA-AR2025-P0253"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-026",
+          "task_id": "MINERU-INITIAL-KB-B026-ORKLA-AR2025-P0254"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-026",
+          "task_id": "MINERU-INITIAL-KB-B026-SEB-AR2025-P0090"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-026",
+          "task_id": "MINERU-INITIAL-KB-B026-SEB-AR2025-P0105"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-026",
+          "task_id": "MINERU-INITIAL-KB-B026-SEB-AR2025-P0109"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-026",
+          "task_id": "MINERU-INITIAL-KB-B026-SEB-AR2025-P0112"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-026",
+          "task_id": "MINERU-INITIAL-KB-B026-SEB-AR2025-P0120"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-026",
+          "task_id": "MINERU-INITIAL-KB-B026-SEB-AR2025-P0137"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-026",
+          "task_id": "MINERU-INITIAL-KB-B026-SEB-AR2025-P0163"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-026",
+          "task_id": "MINERU-INITIAL-KB-B026-SEB-AR2025-P0179"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-026",
+          "task_id": "MINERU-INITIAL-KB-B026-SEB-AR2025-P0343"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-026",
+          "task_id": "MINERU-INITIAL-KB-B026-SEB-AR2025-P0344"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-027",
+          "task_id": "MINERU-INITIAL-KB-B027-NORDEA-AR2025-P0104"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-027",
+          "task_id": "MINERU-INITIAL-KB-B027-NORDEA-AR2025-P0124"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-027",
+          "task_id": "MINERU-INITIAL-KB-B027-NORDEA-AR2025-P0128"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-027",
+          "task_id": "MINERU-INITIAL-KB-B027-NORDEA-AR2025-P0137"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-027",
+          "task_id": "MINERU-INITIAL-KB-B027-NORDEA-AR2025-P0149"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-027",
+          "task_id": "MINERU-INITIAL-KB-B027-NORDEA-AR2025-P0156"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-027",
+          "task_id": "MINERU-INITIAL-KB-B027-NORDEA-AR2025-P0158"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-027",
+          "task_id": "MINERU-INITIAL-KB-B027-NORDEA-AR2025-P0191"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-027",
+          "task_id": "MINERU-INITIAL-KB-B027-NORDEA-AR2025-P0375"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-027",
+          "task_id": "MINERU-INITIAL-KB-B027-NORDEA-AR2025-P0376"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-027",
+          "task_id": "MINERU-INITIAL-KB-B027-HANDELSBANKEN-AR2025-P0079"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-027",
+          "task_id": "MINERU-INITIAL-KB-B027-HANDELSBANKEN-AR2025-P0086"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-027",
+          "task_id": "MINERU-INITIAL-KB-B027-HANDELSBANKEN-AR2025-P0087"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-027",
+          "task_id": "MINERU-INITIAL-KB-B027-HANDELSBANKEN-AR2025-P0092"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-027",
+          "task_id": "MINERU-INITIAL-KB-B027-HANDELSBANKEN-AR2025-P0099"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-027",
+          "task_id": "MINERU-INITIAL-KB-B027-HANDELSBANKEN-AR2025-P0101"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-027",
+          "task_id": "MINERU-INITIAL-KB-B027-HANDELSBANKEN-AR2025-P0139"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-027",
+          "task_id": "MINERU-INITIAL-KB-B027-HANDELSBANKEN-AR2025-P0140"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-027",
+          "task_id": "MINERU-INITIAL-KB-B027-HANDELSBANKEN-AR2025-P0142"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-027",
+          "task_id": "MINERU-INITIAL-KB-B027-HANDELSBANKEN-AR2025-P0143"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-027",
+          "task_id": "MINERU-INITIAL-KB-B027-SECURITAS-AR2025-P0075"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-027",
+          "task_id": "MINERU-INITIAL-KB-B027-SECURITAS-AR2025-P0078"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-027",
+          "task_id": "MINERU-INITIAL-KB-B027-SECURITAS-AR2025-P0079"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-027",
+          "task_id": "MINERU-INITIAL-KB-B027-SECURITAS-AR2025-P0080"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-027",
+          "task_id": "MINERU-INITIAL-KB-B027-SECURITAS-AR2025-P0081"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-027",
+          "task_id": "MINERU-INITIAL-KB-B027-SECURITAS-AR2025-P0091"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-027",
+          "task_id": "MINERU-INITIAL-KB-B027-SECURITAS-AR2025-P0093"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-027",
+          "task_id": "MINERU-INITIAL-KB-B027-SECURITAS-AR2025-P0103"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-027",
+          "task_id": "MINERU-INITIAL-KB-B027-SECURITAS-AR2025-P0175"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-027",
+          "task_id": "MINERU-INITIAL-KB-B027-SECURITAS-AR2025-P0176"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-INITIAL-KB-B028-TELIA-AR2025-P0076"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-INITIAL-KB-B028-TELIA-AR2025-P0084"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-INITIAL-KB-B028-TELIA-AR2025-P0085"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-INITIAL-KB-B028-TELIA-AR2025-P0087"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-INITIAL-KB-B028-TELIA-AR2025-P0090"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-INITIAL-KB-B028-TELIA-AR2025-P0101"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-INITIAL-KB-B028-TELIA-AR2025-P0103"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-INITIAL-KB-B028-TELIA-AR2025-P0129"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-INITIAL-KB-B028-TELIA-AR2025-P0259"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-INITIAL-KB-B028-TELIA-AR2025-P0260"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-INITIAL-KB-B028-ASSA-ABLOY-AR2025-P0077"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-INITIAL-KB-B028-ASSA-ABLOY-AR2025-P0090"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-INITIAL-KB-B028-ASSA-ABLOY-AR2025-P0095"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-INITIAL-KB-B028-ASSA-ABLOY-AR2025-P0096"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-INITIAL-KB-B028-ASSA-ABLOY-AR2025-P0098"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-INITIAL-KB-B028-ASSA-ABLOY-AR2025-P0099"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-INITIAL-KB-B028-ASSA-ABLOY-AR2025-P0100"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-INITIAL-KB-B028-ASSA-ABLOY-AR2025-P0105"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-INITIAL-KB-B028-ASSA-ABLOY-AR2025-P0170"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-INITIAL-KB-B028-ASSA-ABLOY-AR2025-P0171"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-INITIAL-KB-B028-LOOMIS-ASR2025-P0071"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-INITIAL-KB-B028-LOOMIS-ASR2025-P0078"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-INITIAL-KB-B028-LOOMIS-ASR2025-P0082"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-INITIAL-KB-B028-LOOMIS-ASR2025-P0083"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-INITIAL-KB-B028-LOOMIS-ASR2025-P0089"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-INITIAL-KB-B028-LOOMIS-ASR2025-P0100"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-INITIAL-KB-B028-LOOMIS-ASR2025-P0104"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-INITIAL-KB-B028-LOOMIS-ASR2025-P0118"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-INITIAL-KB-B028-LOOMIS-ASR2025-P0165"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-028",
+          "task_id": "MINERU-INITIAL-KB-B028-LOOMIS-ASR2025-P0166"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-029",
+          "task_id": "MINERU-INITIAL-KB-B029-INVESTOR-AR2025-P0076"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-029",
+          "task_id": "MINERU-INITIAL-KB-B029-INVESTOR-AR2025-P0081"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-029",
+          "task_id": "MINERU-INITIAL-KB-B029-INVESTOR-AR2025-P0082"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-029",
+          "task_id": "MINERU-INITIAL-KB-B029-INVESTOR-AR2025-P0083"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-029",
+          "task_id": "MINERU-INITIAL-KB-B029-INVESTOR-AR2025-P0090"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-029",
+          "task_id": "MINERU-INITIAL-KB-B029-INVESTOR-AR2025-P0098"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-029",
+          "task_id": "MINERU-INITIAL-KB-B029-INVESTOR-AR2025-P0104"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-029",
+          "task_id": "MINERU-INITIAL-KB-B029-INVESTOR-AR2025-P0113"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-029",
+          "task_id": "MINERU-INITIAL-KB-B029-INVESTOR-AR2025-P0186"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-029",
+          "task_id": "MINERU-INITIAL-KB-B029-INVESTOR-AR2025-P0187"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-029",
+          "task_id": "MINERU-INITIAL-KB-B029-VATTENFALL-ASR2025-P0093"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-029",
+          "task_id": "MINERU-INITIAL-KB-B029-VATTENFALL-ASR2025-P0097"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-029",
+          "task_id": "MINERU-INITIAL-KB-B029-VATTENFALL-ASR2025-P0105"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-029",
+          "task_id": "MINERU-INITIAL-KB-B029-VATTENFALL-ASR2025-P0106"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-029",
+          "task_id": "MINERU-INITIAL-KB-B029-VATTENFALL-ASR2025-P0109"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-029",
+          "task_id": "MINERU-INITIAL-KB-B029-VATTENFALL-ASR2025-P0110"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-029",
+          "task_id": "MINERU-INITIAL-KB-B029-VATTENFALL-ASR2025-P0127"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-029",
+          "task_id": "MINERU-INITIAL-KB-B029-VATTENFALL-ASR2025-P0141"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-029",
+          "task_id": "MINERU-INITIAL-KB-B029-VATTENFALL-ASR2025-P0150"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-029",
+          "task_id": "MINERU-INITIAL-KB-B029-VATTENFALL-ASR2025-P0151"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-029",
+          "task_id": "MINERU-INITIAL-KB-B029-SWEDAVIA-ASR2025-P0069"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-029",
+          "task_id": "MINERU-INITIAL-KB-B029-SWEDAVIA-ASR2025-P0079"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-029",
+          "task_id": "MINERU-INITIAL-KB-B029-SWEDAVIA-ASR2025-P0083"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-029",
+          "task_id": "MINERU-INITIAL-KB-B029-SWEDAVIA-ASR2025-P0085"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-029",
+          "task_id": "MINERU-INITIAL-KB-B029-SWEDAVIA-ASR2025-P0100"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-029",
+          "task_id": "MINERU-INITIAL-KB-B029-SWEDAVIA-ASR2025-P0102"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-029",
+          "task_id": "MINERU-INITIAL-KB-B029-SWEDAVIA-ASR2025-P0113"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-029",
+          "task_id": "MINERU-INITIAL-KB-B029-SWEDAVIA-ASR2025-P0115"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-029",
+          "task_id": "MINERU-INITIAL-KB-B029-SWEDAVIA-ASR2025-P0187"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-029",
+          "task_id": "MINERU-INITIAL-KB-B029-SWEDAVIA-ASR2025-P0188"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-030-SUPPLEMENTAL",
+          "task_id": "MINERU-INITIAL-KB-B030-NCC-ASR2025-P0058"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-030-SUPPLEMENTAL",
+          "task_id": "MINERU-INITIAL-KB-B030-NCC-ASR2025-P0073"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-030-SUPPLEMENTAL",
+          "task_id": "MINERU-INITIAL-KB-B030-NCC-ASR2025-P0074"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-030-SUPPLEMENTAL",
+          "task_id": "MINERU-INITIAL-KB-B030-NCC-ASR2025-P0075"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-030-SUPPLEMENTAL",
+          "task_id": "MINERU-INITIAL-KB-B030-NCC-ASR2025-P0078"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-030-SUPPLEMENTAL",
+          "task_id": "MINERU-INITIAL-KB-B030-NCC-ASR2025-P0081"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-030-SUPPLEMENTAL",
+          "task_id": "MINERU-INITIAL-KB-B030-NCC-ASR2025-P0085"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-030-SUPPLEMENTAL",
+          "task_id": "MINERU-INITIAL-KB-B030-NCC-ASR2025-P0091"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-030-SUPPLEMENTAL",
+          "task_id": "MINERU-INITIAL-KB-B030-NCC-ASR2025-P0154"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-030-SUPPLEMENTAL",
+          "task_id": "MINERU-INITIAL-KB-B030-NCC-ASR2025-P0155"
+        }
+      ],
+      "signature": "MINERU_SANDBOX_LOOPBACK_BIND_DENIED"
+    },
+    {
+      "count": 1,
+      "examples": [
+        {
+          "experiment_id": "KB-SCALE-BATCH-012",
+          "task_id": "KB-B012-STORA-ENSO-AR2025-P0105-ATOMIC-PROJECTION-AUDIT"
+        }
+      ],
+      "signature": "NATIVE_ROW_HEADER_LINE_WRAP_MISMATCH"
+    },
+    {
+      "count": 16,
+      "examples": [
+        {
+          "experiment_id": "KB-SCALE-BATCH-001-RESUME01",
+          "task_id": "ACQUIRE-KB-B001-SAP-IR2025"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-001-RESUME01",
+          "task_id": "ACQUIRE-KB-B001-AZ-SDA2025"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-001-RESUME01",
+          "task_id": "ACQUIRE-KB-B001-AZ-ASSURANCE2025"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-002",
+          "task_id": "ACQUIRE-KB-B002-EON-SF2025-ATTEMPT-1"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-002",
+          "task_id": "ACQUIRE-KB-B002-EON-SF2025-ATTEMPT-2"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-003",
+          "task_id": "ACQUIRE-KB-B003-AZ-SDA2025-ATTEMPT-1"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-004-RESUME01",
+          "task_id": "ACQUIRE-KB-B004-SAINTGOBAIN-URD2025-OFFICIAL"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-011",
+          "task_id": "ACQUIRE-RESUME01-KB-B011-MERCEDES-AR2025"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-012",
+          "task_id": "ACQUIRE-INITIAL-KB-B012-IBERDROLA-SR2025"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-021",
+          "task_id": "ACQUIRE-B021-COMPAGNIE-DE-SAINT-GOBAIN-SA"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-021",
+          "task_id": "ACQUIRE-B021-RENAULT-SA"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-021",
+          "task_id": "ACQUIRE-B021-BOUYGUES-SA"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-022",
+          "task_id": "ACQUIRE-B022-SAFRAN-SA"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-023-RESUME02",
+          "task_id": "PREFLIGHT-B023-1-OFFICIAL_SOURCE_HTTP_403"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-023-RESUME02",
+          "task_id": "PREFLIGHT-B023-2-OFFICIAL_SOURCE_HTTP_403"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-023-RESUME02",
+          "task_id": "PREFLIGHT-B023-2-OFFICIAL_SOURCE_HTTP_403"
+        }
+      ],
+      "signature": "OFFICIAL_SOURCE_HTTP_403"
+    },
+    {
+      "count": 4,
+      "examples": [
+        {
+          "experiment_id": "KB-SCALE-BATCH-003",
+          "task_id": "ACQUIRE-KB-B003-DHL-AR2025-ATTEMPT-1"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-003",
+          "task_id": "ACQUIRE-KB-B003-DHL-AR2025-ATTEMPT-2"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-013",
+          "task_id": "ACQUIRE-INITIAL-KB-B013-ELECTROLUX-AR2025"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-013",
+          "task_id": "ACQUIRE-RESUME01-KB-B013-ELECTROLUX-AR2025"
+        }
+      ],
+      "signature": "OFFICIAL_SOURCE_READ_TIMEOUT"
+    },
+    {
+      "count": 2,
+      "examples": [
+        {
+          "experiment_id": "P3-UNSEEN-GENERALIZATION-V01",
+          "task_id": "P3-CALC-001"
+        },
+        {
+          "experiment_id": "P3-UNSEEN-GENERALIZATION-V01",
+          "task_id": "P3-XPAGE-001"
+        }
+      ],
+      "signature": "PARSER_CONTENT_OMISSION"
+    },
+    {
+      "count": 2,
+      "examples": [
+        {
+          "experiment_id": "P3-UNSEEN-GENERALIZATION-V01",
+          "task_id": "P3-DEX-001"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-011",
+          "task_id": "KB-B011-ENI-SS2025-P0078-ATOMIC-PROJECTION-AUDIT"
+        }
+      ],
+      "signature": "PARSER_TABLE_STRUCTURE"
+    },
+    {
+      "count": 2,
+      "examples": [
+        {
+          "experiment_id": "P14-V23-UNSEEN-LOCKBOX-V01",
+          "task_id": "P14-ASSURE-001"
+        },
+        {
+          "experiment_id": "P14-V23-UNSEEN-LOCKBOX-V01",
+          "task_id": "P14-SLB-001"
+        }
+      ],
+      "signature": "PREFLIGHT_CONTRACT_GATE"
+    },
+    {
+      "count": 2,
+      "examples": [
+        {
+          "experiment_id": "KB-SCALE-BATCH-012",
+          "task_id": "MINERU-RESUME01-KB-B012-VINCI-URD2025-P0229"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-012",
+          "task_id": "MINERU-RESUME01-KB-B012-VINCI-URD2025-P0278"
+        }
+      ],
+      "signature": "SANDBOX_LOCALHOST_BIND_DENIED"
+    },
+    {
+      "count": 134,
+      "examples": [
+        {
+          "experiment_id": "KB-SCALE-BATCH-001-RESUME01",
+          "task_id": "MINERU-KB-B001-VW-SR2025-P0050"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-001-RESUME01",
+          "task_id": "MINERU-KB-B001-VW-SR2025-P0060"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-001-RESUME01",
+          "task_id": "MINERU-KB-B001-VW-SR2025-P0062"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-001-RESUME01",
+          "task_id": "MINERU-KB-B001-VW-SR2025-P0088"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-001-RESUME01",
+          "task_id": "MINERU-KB-B001-VW-SR2025-P0099"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-001-RESUME01",
+          "task_id": "MINERU-KB-B001-VW-SR2025-P0105"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-001-RESUME01",
+          "task_id": "MINERU-KB-B001-VW-SR2025-P0132"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-001-RESUME01",
+          "task_id": "MINERU-KB-B001-VW-SR2025-P0152"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-001-RESUME01",
+          "task_id": "MINERU-KB-B001-SSE-SR2025-P0003"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-001-RESUME01",
+          "task_id": "MINERU-KB-B001-SSE-SR2025-P0009"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-001-RESUME01",
+          "task_id": "MINERU-KB-B001-SSE-SR2025-P0011"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-001-RESUME01",
+          "task_id": "MINERU-KB-B001-SSE-SR2025-P0023"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-001-RESUME01",
+          "task_id": "MINERU-KB-B001-SSE-SR2025-P0025"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-001-RESUME01",
+          "task_id": "MINERU-KB-B001-SSE-SR2025-P0037"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-001-RESUME01",
+          "task_id": "MINERU-KB-B001-SSE-SR2025-P0039"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-001-RESUME01",
+          "task_id": "MINERU-KB-B001-SSE-SR2025-P0043"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-001-RESUME01",
+          "task_id": "MINERU-KB-B001-SSE-SR2025-P0048"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-001-RESUME01",
+          "task_id": "MINERU-KB-B001-DANONE-URD2025-P0202"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-001-RESUME01",
+          "task_id": "MINERU-KB-B001-DANONE-URD2025-P0210"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-001-RESUME01",
+          "task_id": "MINERU-KB-B001-DANONE-URD2025-P0226"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-001-RESUME01",
+          "task_id": "MINERU-KB-B001-DANONE-URD2025-P0227"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-001-RESUME01",
+          "task_id": "MINERU-KB-B001-DANONE-URD2025-P0229"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-001-RESUME01",
+          "task_id": "MINERU-KB-B001-DANONE-URD2025-P0240"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-001-RESUME01",
+          "task_id": "MINERU-KB-B001-DANONE-URD2025-P0272"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-001-RESUME01",
+          "task_id": "MINERU-KB-B001-DANONE-URD2025-P0299"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-001-RESUME01",
+          "task_id": "MINERU-KB-B001-DANONE-URD2025-P0346"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-001-RESUME01",
+          "task_id": "MINERU-GAP-REPAIR-KB-B002-MAERSK-AR2025-P0079"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-001-RESUME01",
+          "task_id": "MINERU-GAP-REPAIR-KB-B002-MAERSK-AR2025-P0080"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-004-RESUME01",
+          "task_id": "MINERU-KB-B004-PHILIPS-AR2025-P0047"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-004-RESUME01",
+          "task_id": "MINERU-KB-B004-PHILIPS-AR2025-P0188"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-004-RESUME01",
+          "task_id": "MINERU-KB-B004-PHILIPS-AR2025-P0189"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-004-RESUME01",
+          "task_id": "MINERU-KB-B004-PHILIPS-AR2025-P0210"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-004-RESUME01",
+          "task_id": "MINERU-KB-B004-PHILIPS-AR2025-P0221"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-004-RESUME01",
+          "task_id": "MINERU-KB-B004-PHILIPS-AR2025-P0225"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-004-RESUME01",
+          "task_id": "MINERU-KB-B004-PHILIPS-AR2025-P0233"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-004-RESUME01",
+          "task_id": "MINERU-KB-B004-PHILIPS-AR2025-P0244"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-004-RESUME01",
+          "task_id": "MINERU-KB-B004-PHILIPS-AR2025-P0245"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-004-RESUME01",
+          "task_id": "MINERU-KB-B004-MONDI-SDR2025-P0037"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-004-RESUME01",
+          "task_id": "MINERU-KB-B004-MONDI-SDR2025-P0046"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-004-RESUME01",
+          "task_id": "MINERU-KB-B004-MONDI-SDR2025-P0048"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-004-RESUME01",
+          "task_id": "MINERU-KB-B004-MONDI-SDR2025-P0057"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-004-RESUME01",
+          "task_id": "MINERU-KB-B004-MONDI-SDR2025-P0064"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-004-RESUME01",
+          "task_id": "MINERU-KB-B004-MONDI-SDR2025-P0071"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-004-RESUME01",
+          "task_id": "MINERU-KB-B004-MONDI-SDR2025-P0081"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-004-RESUME01",
+          "task_id": "MINERU-KB-B004-MONDI-SDR2025-P0107"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-004-RESUME01",
+          "task_id": "MINERU-KB-B004-AIRLIQUIDE-URD2025-P0311"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-004-RESUME01",
+          "task_id": "MINERU-KB-B004-AIRLIQUIDE-URD2025-P0319"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-004-RESUME01",
+          "task_id": "MINERU-KB-B004-AIRLIQUIDE-URD2025-P0324"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-004-RESUME01",
+          "task_id": "MINERU-KB-B004-AIRLIQUIDE-URD2025-P0328"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-004-RESUME01",
+          "task_id": "MINERU-KB-B004-AIRLIQUIDE-URD2025-P0330"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-004-RESUME01",
+          "task_id": "MINERU-KB-B004-AIRLIQUIDE-URD2025-P0331"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-004-RESUME01",
+          "task_id": "MINERU-KB-B004-AIRLIQUIDE-URD2025-P0339"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-004-RESUME01",
+          "task_id": "MINERU-KB-B004-AIRLIQUIDE-URD2025-P0365"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-005",
+          "task_id": "MINERU-KB-B005-HENKEL-AR2025-P0184"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-005",
+          "task_id": "MINERU-KB-B005-HENKEL-AR2025-P0203"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-005",
+          "task_id": "MINERU-KB-B005-HENKEL-AR2025-P0205"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-005",
+          "task_id": "MINERU-KB-B005-HENKEL-AR2025-P0207"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-005",
+          "task_id": "MINERU-KB-B005-HENKEL-AR2025-P0229"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-005",
+          "task_id": "MINERU-KB-B005-HENKEL-AR2025-P0255"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-005",
+          "task_id": "MINERU-KB-B005-HENKEL-AR2025-P0285"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-005",
+          "task_id": "MINERU-KB-B005-HENKEL-AR2025-P0287"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-005",
+          "task_id": "MINERU-KB-B005-HENKEL-AR2025-P0477"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-005",
+          "task_id": "MINERU-KB-B005-UPM-AR2025-P0079"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-005",
+          "task_id": "MINERU-KB-B005-UPM-AR2025-P0083"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-005",
+          "task_id": "MINERU-KB-B005-UPM-AR2025-P0084"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-005",
+          "task_id": "MINERU-KB-B005-UPM-AR2025-P0094"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-005",
+          "task_id": "MINERU-KB-B005-UPM-AR2025-P0096"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-005",
+          "task_id": "MINERU-KB-B005-UPM-AR2025-P0104"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-005",
+          "task_id": "MINERU-KB-B005-UPM-AR2025-P0109"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-005",
+          "task_id": "MINERU-KB-B005-UPM-AR2025-P0111"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-005",
+          "task_id": "MINERU-KB-B005-UPM-AR2025-P0177"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-005",
+          "task_id": "MINERU-KB-B005-SIKA-SR2025-P0021"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-005",
+          "task_id": "MINERU-KB-B005-SIKA-SR2025-P0031"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-005",
+          "task_id": "MINERU-KB-B005-SIKA-SR2025-P0039"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-005",
+          "task_id": "MINERU-KB-B005-SIKA-SR2025-P0044"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-005",
+          "task_id": "MINERU-KB-B005-SIKA-SR2025-P0055"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-005",
+          "task_id": "MINERU-KB-B005-SIKA-SR2025-P0070"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-005",
+          "task_id": "MINERU-KB-B005-SIKA-SR2025-P0076"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-005",
+          "task_id": "MINERU-KB-B005-SIKA-SR2025-P0079"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-005",
+          "task_id": "MINERU-KB-B005-SIKA-SR2025-P0135"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-006",
+          "task_id": "MINERU-KB-B006-VOLVO-AR2025-P0155"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-006",
+          "task_id": "MINERU-KB-B006-VOLVO-AR2025-P0158"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-006",
+          "task_id": "MINERU-KB-B006-VOLVO-AR2025-P0160"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-006",
+          "task_id": "MINERU-KB-B006-VOLVO-AR2025-P0164"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-006",
+          "task_id": "MINERU-KB-B006-VOLVO-AR2025-P0165"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-006",
+          "task_id": "MINERU-KB-B006-VOLVO-AR2025-P0166"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-006",
+          "task_id": "MINERU-KB-B006-VOLVO-AR2025-P0170"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-006",
+          "task_id": "MINERU-KB-B006-VOLVO-AR2025-P0174"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-006",
+          "task_id": "MINERU-KB-B006-VOLVO-AR2025-P0215"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-006",
+          "task_id": "MINERU-KB-B006-MICHELIN-URD2025-P0193"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-006",
+          "task_id": "MINERU-KB-B006-MICHELIN-URD2025-P0205"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-006",
+          "task_id": "MINERU-KB-B006-MICHELIN-URD2025-P0207"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-006",
+          "task_id": "MINERU-KB-B006-MICHELIN-URD2025-P0235"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-006",
+          "task_id": "MINERU-KB-B006-MICHELIN-URD2025-P0255"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-006",
+          "task_id": "MINERU-KB-B006-MICHELIN-URD2025-P0271"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-006",
+          "task_id": "MINERU-KB-B006-MICHELIN-URD2025-P0308"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-006",
+          "task_id": "MINERU-KB-B006-MICHELIN-URD2025-P0312"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-006",
+          "task_id": "MINERU-KB-B006-MICHELIN-URD2025-P0395"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-006",
+          "task_id": "MINERU-KB-B006-RECKITT-AR2025-P0044"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-006",
+          "task_id": "MINERU-KB-B006-RECKITT-AR2025-P0045"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-006",
+          "task_id": "MINERU-KB-B006-RECKITT-AR2025-P0046"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-006",
+          "task_id": "MINERU-KB-B006-RECKITT-AR2025-P0047"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-006",
+          "task_id": "MINERU-KB-B006-RECKITT-AR2025-P0049"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-006",
+          "task_id": "MINERU-KB-B006-RECKITT-AR2025-P0101"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-006",
+          "task_id": "MINERU-KB-B006-RECKITT-AR2025-P0203"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-019",
+          "task_id": "MINERU-INITIAL-KB-B019-NESTE-AR2025-P0036"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-019",
+          "task_id": "MINERU-INITIAL-KB-B019-NESTE-AR2025-P0037"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-019",
+          "task_id": "MINERU-INITIAL-KB-B019-NESTE-AR2025-P0039"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-019",
+          "task_id": "MINERU-INITIAL-KB-B019-NESTE-AR2025-P0040"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-019",
+          "task_id": "MINERU-INITIAL-KB-B019-NESTE-AR2025-P0041"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-019",
+          "task_id": "MINERU-INITIAL-KB-B019-NESTE-AR2025-P0050"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-019",
+          "task_id": "MINERU-INITIAL-KB-B019-NESTE-AR2025-P0051"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-019",
+          "task_id": "MINERU-INITIAL-KB-B019-NESTE-AR2025-P0110"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-019",
+          "task_id": "MINERU-INITIAL-KB-B019-NESTE-AR2025-P0117"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-019",
+          "task_id": "MINERU-INITIAL-KB-B019-NESTE-AR2025-P0121"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-019",
+          "task_id": "MINERU-INITIAL-KB-B019-BOLIDEN-ASR2025-P0078"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-019",
+          "task_id": "MINERU-INITIAL-KB-B019-BOLIDEN-ASR2025-P0080"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-019",
+          "task_id": "MINERU-INITIAL-KB-B019-BOLIDEN-ASR2025-P0081"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-019",
+          "task_id": "MINERU-INITIAL-KB-B019-BOLIDEN-ASR2025-P0090"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-019",
+          "task_id": "MINERU-INITIAL-KB-B019-BOLIDEN-ASR2025-P0091"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-019",
+          "task_id": "MINERU-INITIAL-KB-B019-BOLIDEN-ASR2025-P0095"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-019",
+          "task_id": "MINERU-INITIAL-KB-B019-BOLIDEN-ASR2025-P0105"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-019",
+          "task_id": "MINERU-INITIAL-KB-B019-BOLIDEN-ASR2025-P0108"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-019",
+          "task_id": "MINERU-INITIAL-KB-B019-BOLIDEN-ASR2025-P0122"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-019",
+          "task_id": "MINERU-INITIAL-KB-B019-BOLIDEN-ASR2025-P0123"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-019",
+          "task_id": "MINERU-INITIAL-KB-B019-METSO-AR2025-P0086"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-019",
+          "task_id": "MINERU-INITIAL-KB-B019-METSO-AR2025-P0094"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-019",
+          "task_id": "MINERU-INITIAL-KB-B019-METSO-AR2025-P0098"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-019",
+          "task_id": "MINERU-INITIAL-KB-B019-METSO-AR2025-P0102"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-019",
+          "task_id": "MINERU-INITIAL-KB-B019-METSO-AR2025-P0106"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-019",
+          "task_id": "MINERU-INITIAL-KB-B019-METSO-AR2025-P0115"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-019",
+          "task_id": "MINERU-INITIAL-KB-B019-METSO-AR2025-P0117"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-019",
+          "task_id": "MINERU-INITIAL-KB-B019-METSO-AR2025-P0239"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-019",
+          "task_id": "MINERU-INITIAL-KB-B019-METSO-AR2025-P0240"
+        }
+      ],
+      "signature": "SANDBOX_LOOPBACK_PORT_DENIED"
+    },
+    {
+      "count": 27,
+      "examples": [
+        {
+          "experiment_id": "KB-SCALE-BATCH-004-RESUME01",
+          "task_id": "ACQUIRE-KB-B004-PHILIPS-AR2025-SANDBOX"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-004-RESUME01",
+          "task_id": "ACQUIRE-KB-B004-SAINTGOBAIN-URD2025-SANDBOX"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-004-RESUME01",
+          "task_id": "ACQUIRE-KB-B004-MONDI-SDR2025-SANDBOX"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-011",
+          "task_id": "ACQUIRE-INITIAL-KB-B011-MERCEDES-AR2025"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-011",
+          "task_id": "ACQUIRE-INITIAL-KB-B011-DSMF-SS2025"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-011",
+          "task_id": "ACQUIRE-INITIAL-KB-B011-DB-AR2025"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-012",
+          "task_id": "ACQUIRE-SANDBOX-KB-B012-AIR-LIQUIDE-URD2025"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-012",
+          "task_id": "ACQUIRE-SANDBOX-KB-B012-IBERDROLA-SR2025"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-012",
+          "task_id": "ACQUIRE-SANDBOX-KB-B012-VINCI-URD2025"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-013",
+          "task_id": "ACQUIRE-SANDBOX-KB-B013-WARTSILA-AR2025"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-013",
+          "task_id": "ACQUIRE-SANDBOX-KB-B013-ELECTROLUX-AR2025"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-013",
+          "task_id": "ACQUIRE-SANDBOX-KB-B013-SKF-ASR2025"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-014",
+          "task_id": "ACQUIRE-SANDBOX-KB-B014-SCA-AR2025"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-014",
+          "task_id": "ACQUIRE-SANDBOX-KB-B014-TRELLEBORG-AR2025"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-014",
+          "task_id": "ACQUIRE-SANDBOX-KB-B014-ESSITY-AR2025"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-015",
+          "task_id": "ACQUIRE-SANDBOX-KB-B015-UCB-IAR2025"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-015",
+          "task_id": "ACQUIRE-SANDBOX-KB-B015-ARLA-AR2025"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-015",
+          "task_id": "ACQUIRE-SANDBOX-KB-B015-FRESENIUS-AR2025"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-016",
+          "task_id": "ACQUIRE-SANDBOX-KB-B016-AKZONOBEL-AR2025"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-016",
+          "task_id": "ACQUIRE-SANDBOX-KB-B016-NOVONESIS-AR2025"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-016",
+          "task_id": "ACQUIRE-SANDBOX-KB-B016-COLOPLAST-AR2025"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-017",
+          "task_id": "ACQUIRE-SANDBOX-KB-B017-ROCKWOOL-AR2025"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-017",
+          "task_id": "ACQUIRE-SANDBOX-KB-B017-HUSQVARNA-AR2025"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-017",
+          "task_id": "ACQUIRE-SANDBOX-KB-B017-SWECO-AR2025"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-018",
+          "task_id": "ACQUIRE-SANDBOX-KB-B018-EPIROC-ASR2025"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-018",
+          "task_id": "ACQUIRE-SANDBOX-KB-B018-ALFA-LAVAL-ASR2025"
+        },
+        {
+          "experiment_id": "KB-SCALE-BATCH-018",
+          "task_id": "ACQUIRE-SANDBOX-KB-B018-SSAB-AR2025"
+        }
+      ],
+      "signature": "SANDBOX_NETWORK_DNS_DENIED"
+    },
+    {
+      "count": 1,
+      "examples": [
+        {
+          "experiment_id": "P2-LOCKED-HOLDOUT-V01",
+          "task_id": "P2-XPAGE-001"
+        }
+      ],
+      "signature": "SCHEMA_CONTRACT_VIOLATION"
+    },
+    {
+      "count": 3,
+      "examples": [
+        {
+          "experiment_id": "P2-LOCKED-HOLDOUT-V01",
+          "task_id": "P2-SCOPE-002"
+        },
+        {
+          "experiment_id": "P3-UNSEEN-GENERALIZATION-V01",
+          "task_id": "P3-SCOPE-001"
+        },
+        {
+          "experiment_id": "P3-UNSEEN-GENERALIZATION-V01",
+          "task_id": "P3-SCOPE-002"
+        }
+      ],
+      "signature": "SEMANTIC_PROJECTION_MISMATCH"
+    },
+    {
+      "count": 1,
+      "examples": [
+        {
+          "experiment_id": "KB-SCALE-BATCH-020",
+          "task_id": "SOURCE-DEDUP-KB-B020-AHOLD-AR2025"
+        }
+      ],
+      "signature": "SOURCE_REPORT_SERIES_ALREADY_USED"
+    },
+    {
+      "count": 1,
+      "examples": [
+        {
+          "experiment_id": "KB-SCALE-BATCH-022",
+          "task_id": "ACQUIRE-B022-SANOFI"
+        }
+      ],
+      "signature": "SOURCE_REPORT_SERIES_ALREADY_USED_EXACT_SHA256"
+    },
+    {
+      "count": 1,
+      "examples": [
+        {
+          "experiment_id": "KB-SCALE-BATCH-025",
+          "task_id": "ATOMIC-PROJECTION-B025"
+        }
+      ],
+      "signature": "TABLE_FRAGMENT_WITHOUT_ATOMIC_NUMERIC_CELLS"
+    },
+    {
+      "count": 1,
+      "examples": [
+        {
+          "experiment_id": "KB-SCALE-BATCH-013",
+          "task_id": "KB-B013-WARTSILA-AR2025-P0226-ASSURANCE-WINDOW-AUDIT"
+        }
+      ],
+      "signature": "TARGET_ASSURANCE_WINDOW_INCOMPLETE"
+    }
+  ],
+  "status": "deterministically_grouped_pending_strategy_adjudication"
+}

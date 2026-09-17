@@ -1,0 +1,57 @@
+{
+  "answer": "The Combined Sustainability Statement received limited assurance. Reasonable assurance covered Total energy consumption, GHG gross emissions Scopes 1 and 2 (market-based), and Scope 2 location-based emissions. References outside the combined management report and references marked additional information that point elsewhere and are not designated as sustainability reporting were excluded. The limited conclusion used the negative-form ‘nothing has come to our attention’; the reasonable-assurance disclosures received a positive compliance opinion. The engagement followed ISAE 3000 (Revised), and limited procedures were less extensive and yielded substantially lower assurance than reasonable assurance.",
+  "evidence": [
+    {
+      "pdf_page": 370,
+      "quote": "limited assurance engagement on the Sustainability Statement",
+      "source_id": "P18-DEUTSCHE-TELEKOM-AR2025"
+    },
+    {
+      "pdf_page": 370,
+      "quote": "reasonable assurance engagement on the disclosures regarding the indicator",
+      "source_id": "P18-DEUTSCHE-TELEKOM-AR2025"
+    },
+    {
+      "pdf_page": 370,
+      "quote": "all references within the Combined Sustainability Statement to information outside of the combined management report",
+      "source_id": "P18-DEUTSCHE-TELEKOM-AR2025"
+    },
+    {
+      "pdf_page": 370,
+      "quote": "nothing has come to our attention",
+      "source_id": "P18-DEUTSCHE-TELEKOM-AR2025"
+    },
+    {
+      "pdf_page": 370,
+      "quote": "disclosures subject to a reasonable assurance engagement comply",
+      "source_id": "P18-DEUTSCHE-TELEKOM-AR2025"
+    },
+    {
+      "pdf_page": 371,
+      "quote": "ISAE 3000 (Revised)",
+      "source_id": "P18-DEUTSCHE-TELEKOM-AR2025"
+    },
+    {
+      "pdf_page": 371,
+      "quote": "the level of assurance obtained is substantially lower",
+      "source_id": "P18-DEUTSCHE-TELEKOM-AR2025"
+    }
+  ],
+  "normalized_value": {
+    "excluded_references": "references to information outside the combined management report | additional-information references not designated as sustainability reporting",
+    "governing_standard": "ISAE 3000 (Revised)",
+    "limited_conclusion_form": "negative assurance: nothing came to attention indicating material non-compliance",
+    "limited_scope": "Combined Sustainability Statement for January 1 to December 31, 2025",
+    "procedure_difference": "limited procedures vary in nature and timing and are less extensive, producing substantially lower assurance than reasonable assurance",
+    "reasonable_opinion_form": "positive opinion: specified disclosures comply in all material respects",
+    "reasonable_scope": "Total energy consumption | GHG gross emissions Scopes 1 and 2 (market-based) | Scope 2 (location-based) emissions"
+  },
+  "provenance": {
+    "candidate_model_used": false,
+    "reference_is_simulated": true
+  },
+  "reference_author": "codex_gpt_simulated_expert",
+  "reference_status": "verified_against_frozen_mineru_pages_and_native_layout",
+  "schema_version": "1.0",
+  "task_id": "P18-ASSURE-001"
+}

@@ -1,0 +1,106 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-028",
+  "status": "table_graphs_built_fail_closed",
+  "source_table_candidates": 3,
+  "graphs": [
+    {
+      "source_fact_record_id": "fact-6a6e6efb7887c23d260d60a6",
+      "document_id": "KB-B028-ASSA-ABLOY-AR2025",
+      "pdf_page": 105,
+      "graphs": [
+        {
+          "table_index": 0,
+          "status": "ambiguous_no_two_axis_period_header",
+          "rows": [
+            [
+              "Health and safetyFatalities",
+              "202510"
+            ],
+            [
+              "Lost time injuries",
+              "261"
+            ],
+            [
+              "Lost days (working days)",
+              "6,499"
+            ],
+            [
+              "Lost days (calendar days)",
+              "9,047"
+            ]
+          ],
+          "cells": []
+        }
+      ]
+    },
+    {
+      "source_fact_record_id": "fact-0c8600a9c9cf9de8b88e16f4",
+      "document_id": "KB-B028-ASSA-ABLOY-AR2025",
+      "pdf_page": 105,
+      "graphs": [
+        {
+          "table_index": 0,
+          "status": "ambiguous_no_two_axis_period_header",
+          "rows": [
+            [
+              "",
+              "Female",
+              "Male",
+              "Other",
+              "Not disclosed",
+              "Total'"
+            ],
+            [
+              "Permanent employees",
+              "18,699",
+              "42,075",
+              "121",
+              "53",
+              "60,948"
+            ],
+            [
+              "Temporary employees",
+              "453",
+              "674",
+              "8",
+              "0",
+              "1,135"
+            ]
+          ],
+          "cells": []
+        }
+      ]
+    },
+    {
+      "source_fact_record_id": "fact-6ee6af420bbf6dceba8faafe",
+      "document_id": "KB-B028-ASSA-ABLOY-AR2025",
+      "pdf_page": 105,
+      "graphs": [
+        {
+          "table_index": 0,
+          "status": "ambiguous_no_two_axis_period_header",
+          "rows": [
+            [
+              "Age distribution of employees",
+              "%"
+            ],
+            [
+              "<30 years",
+              "14 54"
+            ],
+            [
+              "30\u201349 years",
+              "32"
+            ],
+            [
+              "50\u2013 years",
+              ""
+            ]
+          ],
+          "cells": []
+        }
+      ]
+    }
+  ]
+}

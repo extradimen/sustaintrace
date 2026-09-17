@@ -1,0 +1,54 @@
+{
+  "artifacts": {
+    "local_task_pack": {
+      "path": "data/tasks/p23_local_execution_task_pack_v0.1.lock.json",
+      "sha256": "849d78373f199a21bbf8f825ed17941c20bb5044f24bb0c94454802d9e7fa140"
+    }
+  },
+  "cloud_boundary": {
+    "authorized_pages_required": [
+      54,
+      55,
+      78,
+      79
+    ],
+    "authorized_scope_required": "P23 Stage A/Stage B single-attempt candidate inference",
+    "candidate_model": "qwen3.5:397b-cloud",
+    "candidate_model_call_count": 0,
+    "cloud_transmission_count": 0,
+    "explicit_payload_specific_authorization_received": false
+  },
+  "document_id": "P23-GSK-AR2025",
+  "document_sha256": "a3ef37d848fca940f85b6c33815a5d47d1f32726fd389a03910653e24af0f4d2",
+  "experiment_id": "P23-V32-UNSEEN-LOCKBOX-V01",
+  "locked_prior_experiments_modified": false,
+  "mineru": {
+    "failure_count": 0,
+    "preserved_infrastructure_failures": 4,
+    "recovery_generations": [
+      "RESUME01"
+    ],
+    "registry": "data/manifests/p23_mineru_target_registry_v0.1.lock.json",
+    "registry_sha256": "87aa221c8cac02005be42561785569617ada876445556242348853c09bf91b20",
+    "success_count": 4
+  },
+  "prefreeze_integrity": {
+    "evidence_quotes_checked": 49,
+    "reference_audit": "data/results/p23_prefreeze_reference_consistency_audit_v0.1.lock.json",
+    "reference_audit_sha256": "4395433de9af1a90b8eda679d46af702f4b3e128a093bd459fc0ca4034a333fd",
+    "reference_freeze": "data/manifests/p23_simulated_reference_freeze_v0.1.lock.json",
+    "reference_freeze_sha256": "adea76d401e427913ad8f98fc5b0fcce37989bbe181eea4c8df77d55bc574763",
+    "status": "passed",
+    "whole_pack_calculation_preflight": "passed"
+  },
+  "schema_version": "3.2",
+  "slot_count": 64,
+  "status": "local_readiness_passed_waiting_for_payload_specific_cloud_authorization",
+  "task_count": 6,
+  "unique_target_pages": [
+    54,
+    55,
+    78,
+    79
+  ]
+}

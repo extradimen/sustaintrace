@@ -1,0 +1,93 @@
+{
+  "schema_version": "0.1",
+  "resume_id": "KB-SCALE-BATCH-027-MINERU-RESUME02",
+  "created_at": "2026-09-13T23:06:08.443400+00:00",
+  "parent_summary": "data/results/scale_batch_027_mineru_RESUME01_summary.lock.json",
+  "parent_summary_sha256": "4a2ee9c09a5f4a666a722df3798f8aa35e3340847220ce4b92c4486071f127a9",
+  "parent_failure_class": "post_completion_native_recursive_mutex_abort",
+  "parent_failed_pages": 19,
+  "failed_page_keys": [
+    {
+      "document_id": "KB-B027-NORDEA-AR2025",
+      "page": 124
+    },
+    {
+      "document_id": "KB-B027-NORDEA-AR2025",
+      "page": 137
+    },
+    {
+      "document_id": "KB-B027-NORDEA-AR2025",
+      "page": 149
+    },
+    {
+      "document_id": "KB-B027-NORDEA-AR2025",
+      "page": 158
+    },
+    {
+      "document_id": "KB-B027-NORDEA-AR2025",
+      "page": 191
+    },
+    {
+      "document_id": "KB-B027-HANDELSBANKEN-AR2025",
+      "page": 79
+    },
+    {
+      "document_id": "KB-B027-HANDELSBANKEN-AR2025",
+      "page": 86
+    },
+    {
+      "document_id": "KB-B027-HANDELSBANKEN-AR2025",
+      "page": 87
+    },
+    {
+      "document_id": "KB-B027-HANDELSBANKEN-AR2025",
+      "page": 92
+    },
+    {
+      "document_id": "KB-B027-HANDELSBANKEN-AR2025",
+      "page": 99
+    },
+    {
+      "document_id": "KB-B027-HANDELSBANKEN-AR2025",
+      "page": 140
+    },
+    {
+      "document_id": "KB-B027-HANDELSBANKEN-AR2025",
+      "page": 142
+    },
+    {
+      "document_id": "KB-B027-HANDELSBANKEN-AR2025",
+      "page": 143
+    },
+    {
+      "document_id": "KB-B027-SECURITAS-AR2025",
+      "page": 75
+    },
+    {
+      "document_id": "KB-B027-SECURITAS-AR2025",
+      "page": 80
+    },
+    {
+      "document_id": "KB-B027-SECURITAS-AR2025",
+      "page": 81
+    },
+    {
+      "document_id": "KB-B027-SECURITAS-AR2025",
+      "page": 103
+    },
+    {
+      "document_id": "KB-B027-SECURITAS-AR2025",
+      "page": 175
+    },
+    {
+      "document_id": "KB-B027-SECURITAS-AR2025",
+      "page": 176
+    }
+  ],
+  "resume_scope": "failed_pages_only",
+  "successful_parent_pages_reused": 11,
+  "output_policy": "new_resume_directory_no_parent_overwrite",
+  "execution_change": "repeat_for_deterministic_output_hash_confirmation",
+  "frozen_semantic_configuration_changed": false,
+  "cloud_transmission": false
+}

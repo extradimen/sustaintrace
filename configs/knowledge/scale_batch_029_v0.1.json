@@ -1,0 +1,65 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-029",
+  "status": "source_set_frozen_before_diagnostics",
+  "policy": {
+    "local_only": true,
+    "cloud_transmission": false,
+    "overwrite_verified_files": false,
+    "fact_promotion_requires_independent_gate": true,
+    "performance_baseline_required": true,
+    "native_table_corroboration_version": "v34_bounded_layout_column_reassembly_v1",
+    "assurance_window_preflight_required": true,
+    "cross_experiment_sha256_deduplication_required": true,
+    "locked_experiments_untouched": ["P3-P23", "KB-SCALE-BATCH-001-through-028"]
+  },
+  "performance_baseline": {
+    "comparison_parent": "data/results/scale_batch_028_performance_baseline.lock.json",
+    "separate_from_knowledge_quality": true,
+    "target_pages_per_document": 10
+  },
+  "documents": [
+    {
+      "document_id": "KB-B029-INVESTOR-AR2025",
+      "source_group_id": "KB-INVESTOR-2025",
+      "company": "Investor AB (publ)",
+      "title": "Investor Annual Report 2025",
+      "report_year": 2025,
+      "official_landing_page": "https://www.investorab.com/investors-media/reports-presentations/",
+      "download_url": "https://vp053.alertir.com/afw/files/press/investor/202603260823-1.pdf",
+      "official_domain": "investorab.com",
+      "local_path": "data/raw/scale_batch_029/investor-annual-report-2025.pdf",
+      "source_role": "primary_report",
+      "language": "English",
+      "prior_experiment_use": false
+    },
+    {
+      "document_id": "KB-B029-VATTENFALL-ASR2025",
+      "source_group_id": "KB-VATTENFALL-2025",
+      "company": "Vattenfall AB",
+      "title": "Vattenfall Annual and Sustainability Report 2025",
+      "report_year": 2025,
+      "official_landing_page": "https://group.vattenfall.com/sustainability/sustainability-report-and-rankings",
+      "download_url": "https://group.vattenfall.com/globalassets/com/sustainability/vattenfall-annual-and-sustainability-report-2025.pdf",
+      "official_domain": "group.vattenfall.com",
+      "local_path": "data/raw/scale_batch_029/vattenfall-annual-and-sustainability-report-2025.pdf",
+      "source_role": "primary_report",
+      "language": "English",
+      "prior_experiment_use": false
+    },
+    {
+      "document_id": "KB-B029-SWEDAVIA-ASR2025",
+      "source_group_id": "KB-SWEDAVIA-2025",
+      "company": "Swedavia AB (publ)",
+      "title": "Swedavia Annual and Sustainability Report 2025",
+      "report_year": 2025,
+      "official_landing_page": "https://www.swedavia.com/about-swedavia/financial-information",
+      "download_url": "https://www.swedavia.com/globalassets/ahr/2025/swedavias_annual-and-sustainability-report-2025.pdf",
+      "official_domain": "www.swedavia.com",
+      "local_path": "data/raw/scale_batch_029/swedavia-annual-and-sustainability-report-2025.pdf",
+      "source_role": "primary_report",
+      "language": "English",
+      "prior_experiment_use": false
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "artifacts": [
+    {
+      "path": "configs/framework/p15_calculation_plans_v0.1.lock.json",
+      "sha256": "856ec6d26ed2187ebf888eccccc5da3ea3cde0062d98299aecfad0fadfadfa89"
+    },
+    {
+      "path": "configs/framework/p15_semantic_qualifiers_v0.1.lock.json",
+      "sha256": "c517db43cbce2d9fd784da1194993333cbb298f03e8dcc2214dc67d5aa489925"
+    },
+    {
+      "path": "configs/framework/p15_slot_contracts_v0.1.lock.json",
+      "sha256": "7dd6b3a947f2d022bf6f65c017ea362aa0128c9bd3636b798b4550d2e8ced5e8"
+    },
+    {
+      "path": "configs/framework/p15_two_dimensional_table_graph_v0.1.lock.json",
+      "sha256": "e21feea792febd6a87816c1f2a40c3a17e779fbd7e1ffc6cd1e84fb97d83dda1"
+    },
+    {
+      "path": "data/annotations/p15_simulated/P15-ACCESS-001.json",
+      "sha256": "e84a483730eda7eee180f6b8f646d9457bf52a96e55277e2ac0f30693453251e"
+    },
+    {
+      "path": "data/annotations/p15_simulated/P15-ASSURE-001.json",
+      "sha256": "8940d9e898287f3b0e3aadab171e0343bcab757369e483d02ed7ed15b5dddb51"
+    },
+    {
+      "path": "data/annotations/p15_simulated/P15-GHG-CALC-001.json",
+      "sha256": "189d9757050cb22cf278fcb550ee1ff5b6bc670a5026e2866bae1ff999becd75"
+    },
+    {
+      "path": "data/annotations/p15_simulated/P15-SAFETY-001.json",
+      "sha256": "0440b1cf51d7b16c2a776b7abe2c1f28ed34d3691e4500d16ef149e223114993"
+    },
+    {
+      "path": "data/annotations/p15_simulated/P15-TARGET-001.json",
+      "sha256": "a8b8b5683f24798d47aa8d4e6c7bb8cf05d5388ffe081423119fa96605e67cde"
+    },
+    {
+      "path": "data/annotations/p15_simulated/P15-WATER-QUALITY-001.json",
+      "sha256": "e6f4750e9339e8b2ac8fee4132bf57e0133ea6cc68038f0f1dcdc88b0d49f633"
+    },
+    {
+      "path": "data/results/p15_v24_prefreeze_integrity_audit_RESUME01_v0.1.lock.json",
+      "sha256": "21d41ffcf56733e2db5052431d1d16386e7d64e93f9f2074f9baee0044e9ea1f"
+    }
+  ],
+  "candidate_model_used_for_reference_creation": false,
+  "cloud_transmission_count": 0,
+  "experiment_id": "P15-V24-UNSEEN-LOCKBOX-V01",
+  "frozen_at_local_date": "2026-09-09",
+  "immutability": {
+    "candidate_inference_started": false,
+    "p3_through_p14_modified": false,
+    "post_candidate_reference_edits_allowed": false
+  },
+  "prefreeze_audit": "data/results/p15_v24_prefreeze_integrity_audit_RESUME01_v0.1.lock.json",
+  "prefreeze_audit_sha256": "21d41ffcf56733e2db5052431d1d16386e7d64e93f9f2074f9baee0044e9ea1f",
+  "reference_type": "codex_gpt_simulated_expert_not_independent_human_gold",
+  "schema_version": "1.0",
+  "slot_count": 63,
+  "status": "simulated_references_contracts_calculation_and_table_graph_frozen_before_candidate_inference",
+  "task_count": 6
+}

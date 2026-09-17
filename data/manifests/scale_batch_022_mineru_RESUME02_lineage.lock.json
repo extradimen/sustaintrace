@@ -1,0 +1,83 @@
+{
+  "schema_version": "0.1",
+  "resume_id": "KB-SCALE-BATCH-022-MINERU-RESUME02",
+  "created_at": "2026-09-13T17:46:03.582868+00:00",
+  "parent_summary": "data/results/scale_batch_022_mineru_RESUME01_summary.lock.json",
+  "parent_summary_sha256": "f006d79b9784a06edfa7cdb98da5bf158770336d83498c6573dff9e5a72251b4",
+  "parent_failure_class": "post_processing_shutdown_recursive_mutex_failure",
+  "parent_failed_pages": 17,
+  "failed_page_keys": [
+    {
+      "document_id": "KB-B022-ENGIE-URD2025",
+      "page": 138
+    },
+    {
+      "document_id": "KB-B022-ENGIE-URD2025",
+      "page": 154
+    },
+    {
+      "document_id": "KB-B022-ENGIE-URD2025",
+      "page": 221
+    },
+    {
+      "document_id": "KB-B022-ORANGE-URD2025",
+      "page": 362
+    },
+    {
+      "document_id": "KB-B022-ORANGE-URD2025",
+      "page": 363
+    },
+    {
+      "document_id": "KB-B022-ORANGE-URD2025",
+      "page": 382
+    },
+    {
+      "document_id": "KB-B022-ORANGE-URD2025",
+      "page": 383
+    },
+    {
+      "document_id": "KB-B022-ORANGE-URD2025",
+      "page": 400
+    },
+    {
+      "document_id": "KB-B022-ORANGE-URD2025",
+      "page": 482
+    },
+    {
+      "document_id": "KB-B022-ORANGE-URD2025",
+      "page": 483
+    },
+    {
+      "document_id": "KB-B022-SKANSKA-ASR2025",
+      "page": 69
+    },
+    {
+      "document_id": "KB-B022-SKANSKA-ASR2025",
+      "page": 70
+    },
+    {
+      "document_id": "KB-B022-SKANSKA-ASR2025",
+      "page": 71
+    },
+    {
+      "document_id": "KB-B022-SKANSKA-ASR2025",
+      "page": 75
+    },
+    {
+      "document_id": "KB-B022-SKANSKA-ASR2025",
+      "page": 84
+    },
+    {
+      "document_id": "KB-B022-SKANSKA-ASR2025",
+      "page": 208
+    },
+    {
+      "document_id": "KB-B022-SKANSKA-ASR2025",
+      "page": 209
+    }
+  ],
+  "resume_scope": "failed_pages_only",
+  "successful_parent_pages_reused": 15,
+  "output_policy": "new_resume_directory_no_parent_overwrite",
+  "cloud_transmission": false
+}

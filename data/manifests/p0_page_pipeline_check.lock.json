@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "check_id": "P0-PAGE-PIPELINE-001",
+  "task_id": "P0-TEXT-001",
+  "completed": true,
+  "source": {
+    "document_id": "MSFT-ESR-2024",
+    "document_sha256": "7d4872c7b4a64b4bf9bac1af440a1d124a449d595cf49a1d62d510130db593cc",
+    "pdf_page": 18
+  },
+  "extraction": {
+    "engine": "pdftotext",
+    "layout_mode": true,
+    "stripped_text_sha256": "883f6c97b04c408b4909d67b1c33c842e6f896b2cd68e5368ab6464415fd2171",
+    "stripped_text_character_count": 7398
+  },
+  "rendering": {
+    "engine": "pdftoppm",
+    "dpi": 180,
+    "format": "png",
+    "image_sha256": "6307e2ae1701e65bbefb93be97a455effbc36bd8842e1070ef4c4b7621fc2f6e"
+  },
+  "visual_review": {
+    "passed": true,
+    "checked_elements": [
+      "three-column layout",
+      "body text",
+      "side panel",
+      "highlight metric box",
+      "photograph",
+      "page navigation and page number"
+    ],
+    "defects": []
+  },
+  "redistribution": {
+    "source_pdf_committed": false,
+    "rendered_page_committed": false,
+    "public_reproducibility_uses_hashes_only": true
+  }
+}

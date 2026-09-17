@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "task_id": "P16-SAFETY-001",
+  "reference_author": "codex_gpt_simulated_expert",
+  "reference_status": "verified_against_frozen_pages",
+  "answer": "For 2025 Sanofi reported 100% own-workforce health-and-safety-system coverage; zero own-workforce injury/ill-health fatalities; zero other-worker site fatalities from work-related injuries; 182 recordable own-workforce accidents; a 1.4 recordable-accident rate; 30 recordable employee ill-health cases; a 0.9 lost-time injury frequency rate; and zero serious injuries and fatalities. TRI and LTI rates are per million hours over a rolling 12-month period. LTI and serious-injury indicators are voluntary; unavailable December 2025 hours were replaced with November hours. Commutes are excluded for fixed-location workers but included for travelling medical representatives, and telework accidents have been included since 2021.",
+  "normalized_value": {
+    "hse_coverage_percent": 100,
+    "own_workforce_fatalities": 0,
+    "other_worker_site_injury_fatalities": 0,
+    "recordable_accidents": 182,
+    "recordable_accident_rate": 1.4,
+    "recordable_ill_health_cases": 30,
+    "lti_frequency_rate": 0.9,
+    "serious_injuries_and_fatalities": 0,
+    "rate_denominator_work_hours": 1000000,
+    "rolling_period_months": 12,
+    "voluntary_metrics": "lost-time injury frequency rate and number of serious injuries and fatalities",
+    "boundary_and_estimate": "fixed-location commuting accidents excluded; travelling-medical-representative commuting and telework accidents included; November hours rolled into unavailable December 2025 hours"
+  },
+  "evidence": [
+    {"source_id":"P16-SANOFI-SS2025","pdf_page":68,"quote":"Percentage of people in own workforce covered by health and safety management system"},
+    {"source_id":"P16-SANOFI-SS2025","pdf_page":68,"quote":"Number of recordable work-related accidents in own workforce"},
+    {"source_id":"P16-SANOFI-SS2025","pdf_page":68,"quote":"182"},
+    {"source_id":"P16-SANOFI-SS2025","pdf_page":68,"quote":"per million hours worked"},
+    {"source_id":"P16-SANOFI-SS2025","pdf_page":68,"quote":"Reported by Sanofi on a voluntary basis"},
+    {"source_id":"P16-SANOFI-SS2025","pdf_page":68,"quote":"hours worked from November were rolled over to December"},
+    {"source_id":"P16-SANOFI-SS2025","pdf_page":118,"quote":"accidents occurring during the home-workplace commute are not included"},
+    {"source_id":"P16-SANOFI-SS2025","pdf_page":118,"quote":"work accidents while teleworking have been included"}
+  ],
+  "provenance": {"reference_is_simulated":true,"candidate_model_used":false}
+}

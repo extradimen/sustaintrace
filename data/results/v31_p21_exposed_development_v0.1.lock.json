@@ -1,0 +1,45 @@
+{
+  "schema_version": "3.1",
+  "status": "development_regression_passed",
+  "development_source": "P21 exposed failures only",
+  "locked_experiments_modified": false,
+  "features": {
+    "stage_a_compact_handle_aliases": {
+      "status": "integrated",
+      "candidate_selects_only_compact_aliases": true,
+      "executor_decodes_only_exact_aliases": true,
+      "approximate_handle_repair": false,
+      "candidate_output_archived_unchanged": true
+    },
+    "deterministic_calculation_slot_projection": {
+      "status": "integrated",
+      "mapping_owner": "frozen calculation plan",
+      "value_owner": "deterministic executor",
+      "candidate_output_modified": false,
+      "posthoc_semantic_repair": false
+    }
+  },
+  "validation": {
+    "pytest_passed": 291,
+    "ruff_passed": true,
+    "p21_regression_tests": 4
+  },
+  "artifacts": {
+    "implementation": {
+      "path": "src/esg_reliable_discovery/v31_integrity.py",
+      "sha256": "474f9670491fb3c8855162e5750cebcb11a5b6ccb5c5419ae963b5e9d9b68508"
+    },
+    "runner_integration": {
+      "path": "src/esg_reliable_discovery/v13_stage_a_runner.py",
+      "sha256": "a5203f2915121440e96a29c6b3431f0371e26c67ab992801993467ed0bcff4c3"
+    },
+    "regression_tests": {
+      "path": "tests/test_v31_p21_exposed_regression.py",
+      "sha256": "e2c4b3a88b70236a9666816f549f4d2c2a15ca49c148dd9e72194da3ba06302e"
+    },
+    "exposed_result": {
+      "path": "data/results/p21_v30_unseen_lockbox_v0.1_result.lock.json",
+      "sha256": "787f6fc2f86bf2f98fc480b95982367c1f34de23a76c3f0bc99538f4202bbe25"
+    }
+  }
+}

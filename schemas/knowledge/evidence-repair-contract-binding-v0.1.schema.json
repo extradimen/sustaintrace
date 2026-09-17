@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Evidence repair contract binding v0.1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "record_kind", "binding_id", "triage_id", "failure_record_id", "causal_subtype", "contract_id", "decision", "required_inputs", "validation_gates", "derived_output", "rollback", "candidate_output_rewrite_allowed", "execution_performed"],
+  "properties": {
+    "schema_version": {"const": "0.1"},
+    "record_kind": {"const": "evidence_repair_contract_binding"},
+    "binding_id": {"type": "string", "pattern": "^evidence-contract-[0-9a-f]{24}$"},
+    "triage_id": {"type": "string", "pattern": "^evidence-triage-[0-9a-f]{24}$"},
+    "failure_record_id": {"type": "string", "pattern": "^failure-[0-9a-f]{24}$"},
+    "causal_subtype": {"type": "string", "minLength": 1},
+    "contract_id": {"type": ["string", "null"]},
+    "decision": {"enum": ["archive_only", "blocked_by_contract", "blocked_missing_contract", "contract_ready_for_supervised_validation"]},
+    "required_inputs": {"type": "array", "items": {"type": "string"}},
+    "validation_gates": {"type": "array", "items": {"type": "string"}},
+    "derived_output": {"type": ["string", "null"]},
+    "rollback": {"type": "string"},
+    "candidate_output_rewrite_allowed": {"const": false},
+    "execution_performed": {"const": false}
+  }
+}

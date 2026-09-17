@@ -1,0 +1,79 @@
+{
+  "batch_id": "KB-SCALE-BATCH-019-RESUME01-PERFORMANCE",
+  "comparison_parent": "data/results/scale_batch_018_performance_baseline.lock.json",
+  "completed_at": "2026-09-13T13:39:56.853271+00:00",
+  "mineru": {
+    "checkpoint_reuse_pages": 20,
+    "final_complete_pages": 29,
+    "initial_attempt_wall_seconds": 97.362046,
+    "initial_failures": 29,
+    "post_completion_shutdown_failures": 9,
+    "status": "complete_after_audited_resume",
+    "successful_processing_wall_seconds": 513.012099,
+    "successful_target_pages": 29,
+    "successful_target_pages_per_hour": 203.503972,
+    "target_page_wall_seconds": {
+      "KB-B019-BOLIDEN-ASR2025:p0078": 21.268203,
+      "KB-B019-BOLIDEN-ASR2025:p0080": 15.745272,
+      "KB-B019-BOLIDEN-ASR2025:p0081": 18.241104,
+      "KB-B019-BOLIDEN-ASR2025:p0090": 22.404318,
+      "KB-B019-BOLIDEN-ASR2025:p0091": 17.365555,
+      "KB-B019-BOLIDEN-ASR2025:p0095": 20.202962,
+      "KB-B019-BOLIDEN-ASR2025:p0105": 19.115379,
+      "KB-B019-BOLIDEN-ASR2025:p0108": 19.100809,
+      "KB-B019-BOLIDEN-ASR2025:p0122": 16.42879,
+      "KB-B019-BOLIDEN-ASR2025:p0123": 22.509005,
+      "KB-B019-METSO-AR2025:p0086": 14.942516,
+      "KB-B019-METSO-AR2025:p0094": 19.502409,
+      "KB-B019-METSO-AR2025:p0098": 16.399611,
+      "KB-B019-METSO-AR2025:p0102": 14.879307,
+      "KB-B019-METSO-AR2025:p0106": 17.858255,
+      "KB-B019-METSO-AR2025:p0115": 18.293911,
+      "KB-B019-METSO-AR2025:p0117": 19.695383,
+      "KB-B019-METSO-AR2025:p0239": 18.731235,
+      "KB-B019-METSO-AR2025:p0240": 19.201643,
+      "KB-B019-NESTE-AR2025:p0036": 20.180453,
+      "KB-B019-NESTE-AR2025:p0037": 21.144618,
+      "KB-B019-NESTE-AR2025:p0039": 13.985066,
+      "KB-B019-NESTE-AR2025:p0040": 15.241485,
+      "KB-B019-NESTE-AR2025:p0041": 14.687827,
+      "KB-B019-NESTE-AR2025:p0050": 14.735954,
+      "KB-B019-NESTE-AR2025:p0051": 13.883925,
+      "KB-B019-NESTE-AR2025:p0110": 17.68409,
+      "KB-B019-NESTE-AR2025:p0117": 14.946576,
+      "KB-B019-NESTE-AR2025:p0121": 14.636438
+    },
+    "total_attempt_wall_seconds": 755.092677
+  },
+  "mineru_comparison": {
+    "batch_018_pages_per_hour": 168.984107,
+    "batch_019_pages_per_hour": 203.503972,
+    "interpretation_gate": "throughput_only_quality_measured_separately",
+    "relative_change_percent": 20.428
+  },
+  "policy": {
+    "cloud_transmission": false,
+    "locked_experiments_modified": false,
+    "performance_separate_from_knowledge_quality": true,
+    "replacement_documents": 1,
+    "reused_parent_documents": 2
+  },
+  "provisional_comparison": {
+    "batch_018_pages_per_second": 487.466016,
+    "batch_019_pages_per_second": 140.230848,
+    "interpretation_gate": "diagnostic_only_not_semantic_quality_or_mineru_speed",
+    "relative_change_percent": -71.233
+  },
+  "schema_version": "0.1",
+  "started_at": "2026-09-13T13:39:51.982167+00:00",
+  "status": "diagnostic_and_mineru_baseline_complete",
+  "whole_report_diagnostic": {
+    "documents": 3,
+    "extractable_pages": 681,
+    "pages_per_second": 140.230848,
+    "pdf_pages": 683,
+    "peak_rss_bytes": 46252032,
+    "peak_rss_mb": 44.109,
+    "wall_seconds": 4.87054
+  }
+}

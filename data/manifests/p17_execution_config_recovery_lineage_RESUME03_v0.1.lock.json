@@ -1,0 +1,16 @@
+{
+  "schema_version": "2.6",
+  "experiment_id": "P17-V26-UNSEEN-LOCKBOX-V01",
+  "status": "pre_inference_configuration_recovery",
+  "parent": "configs/experiments/p17-v26-unseen-lockbox-RESUME02-local.json",
+  "reason": "The local descriptive configuration used two non-callable flag names and combined the v2.5 calculation adapter with v2.6. No candidate inference or cloud transmission had started.",
+  "corrections": [
+    "use_v26_evidence_handle_audit renamed to callable use_v26_handle_audit",
+    "use_v25_calculation_adapter replaced by callable use_v26_calculation_adapter",
+    "use_v25_single_block_ordered_spans replaced by v2.6 semantic single-block selection"
+  ],
+  "semantic_change": false,
+  "candidate_model_used": false,
+  "cloud_transmission_occurred": false,
+  "parent_preserved": true
+}

@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "status": "development_only",
+  "candidate_visibility": "never",
+  "cases": [
+    {
+      "task_id": "P3-ABSTAIN-001",
+      "issuer_answer_status": "not_disclosed",
+      "pdf_path": "data/raw/p3_staging/gsk/responsible-business-performance-report-2024.pdf",
+      "pdf_page": 41,
+      "content_list_path": "artifacts/p3/mineru_targets_retry1/P3-GSK-RBPR2024-p0041/responsible-business-performance-report-2024/auto/P3-GSK-RBPR2024_content_list.json",
+      "expected_anchors": ["304-4", "not reported"],
+      "expected_state": "not_disclosed_by_issuer"
+    },
+    {
+      "task_id": "P3-ABSTAIN-002",
+      "issuer_answer_status": "not_disclosed",
+      "pdf_path": "data/raw/p3_staging/gsk/responsible-business-performance-report-2024.pdf",
+      "pdf_page": 43,
+      "content_list_path": "artifacts/p3/mineru_targets_retry1/P3-GSK-RBPR2024-p0043/responsible-business-performance-report-2024/auto/P3-GSK-RBPR2024_content_list.json",
+      "expected_anchors": ["HC-BP-250a.4", "not reported"],
+      "expected_state": "not_disclosed_by_issuer"
+    },
+    {
+      "task_id": "P3-CALC-001",
+      "issuer_answer_status": "answerable",
+      "pdf_path": "data/raw/p3_staging/amd/2024-25-amd-cr-report.pdf",
+      "pdf_page": 106,
+      "content_list_path": "artifacts/p3/mineru_targets_retry1/P3-AMD-CR2025-p0106/P3-AMD-CR2025/auto/2024-25-amd-cr-report_content_list.json",
+      "expected_anchors": ["61,754", "44,190"],
+      "expected_state": "parser_structure_unrecoverable"
+    },
+    {
+      "task_id": "P3-DEX-001",
+      "issuer_answer_status": "answerable",
+      "pdf_path": "data/raw/p3_staging/heineken/heineken-annual-report-2025.pdf",
+      "pdf_page": 175,
+      "content_list_path": "artifacts/p3/mineru_targets_retry1/P3-HEINEKEN-AR2025-p0175/heineken-annual-report-2025/auto/P3-HEINEKEN-AR2025_content_list.json",
+      "expected_anchors": ["13,891"],
+      "structure_required": true,
+      "raw_structure_supported": true,
+      "parsed_structure_supported": false,
+      "retrieved_structure_supported": false,
+      "structure_adjudication": "The PDF layout binds 13,891 to Scope 3 and Gross GHG emissions 2025; MinerU serialized the value under an ambiguous/misaligned table column.",
+      "expected_state": "parser_structure_unrecoverable"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["schema_version", "record_kind", "policy", "filters", "inventory", "matched", "failure_cases", "executions", "dispatch_decisions"],
+  "properties": {
+    "schema_version": {"const": "0.1"},
+    "record_kind": {"const": "repair_lifecycle_query_response"},
+    "policy": {
+      "type": "object",
+      "required": ["negative_outcomes_are_preserved", "blocked_or_rolled_back_are_never_successful", "promotion_requires_postvalidation_event", "regression_observations_included"]
+    },
+    "filters": {"type": "object"},
+    "inventory": {"type": "object"},
+    "matched": {"type": "object"},
+    "failure_cases": {"type": "array"},
+    "dispatch_decisions": {"type": "array"},
+    "executions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["execution", "source_artifact", "effective_outcome", "events", "parent_lineage", "strategy", "regression_observations"],
+        "properties": {
+          "effective_outcome": {"enum": ["successful_validated_repair", "not_a_successful_repair"]},
+          "events": {"type": "array"},
+          "regression_observations": {"type": "array"}
+        }
+      }
+    }
+  }
+}

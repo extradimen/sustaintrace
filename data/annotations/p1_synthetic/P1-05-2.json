@@ -1,0 +1,6 @@
+{
+  "schema_version":"1.0","task_id":"P1-05-2","reference_author":"codex_gpt_simulated_expert","reference_status":"verified",
+  "question":"What absolute nitrogen trifluoride (NF3) emissions did Samsung Electronics report for 2023, in thousand tonnes of CO2 equivalent?","answer_status":"insufficient_information","answer":null,"normalized_value":null,"normalized_unit":"thousand tonnes CO2e","reported_unit":null,"subject":"Samsung Electronics","scope_boundary":"2023 GHG emissions table","period":"2023","calculation":null,"evidence":[],
+  "search_record":{"pages_reviewed":[62,66,69,71,75,78,80,81],"terms_used":["NF3","nitrogen trifluoride","GHG emissions"],"notes":"The report states that NF3 calculation methodology was under development and planned for the 2025 report; no absolute 2023 NF3 value was found."},"controlled_intervention_id":null,
+  "provenance_attestation":{"is_human":false,"is_ai_simulation":true,"candidate_model_excluded":true}
+}

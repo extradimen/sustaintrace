@@ -1,0 +1,15 @@
+{
+  "atomic_scoring_projection": "data/annotations/p17_simulated/p17_atomic_slot_gold_RESUME02_v0.1.lock.json",
+  "atomic_scoring_projection_sha256": "b7d715018650c4c8a540a5aac1b32177e099244862b8140b65ddf88202392fa0",
+  "candidate_model_used": false,
+  "experiment_id": "P17-V26-UNSEEN-LOCKBOX-V01",
+  "schema_version": "2.6",
+  "semantic_change": false,
+  "slot_contracts": "configs/framework/p17_slot_contracts_RESUME02_v0.1.lock.json",
+  "slot_contracts_sha256": "2ee639b4bfd1e41e753bd1734ca2feb2e1ddae56d6eb674ae9ed4db05b1f82d1",
+  "slot_count": 74,
+  "source_reference_freeze": "data/manifests/p17_simulated_reference_freeze_RESUME02_v0.1.lock.json",
+  "source_reference_freeze_sha256": "e506661b698e3db623c6c43679ac684ae5e4be14ef4c01c4376e4211abab291d",
+  "status": "deterministic_structural_projection_frozen",
+  "task_count": 6
+}

@@ -1,0 +1,16 @@
+{
+  "candidate_layer_sha256": "8af57e7b7bda85deef8f90586f8225aedcf1da24e0669300115b8f1f7499bf5b",
+  "destructive_regression_failures_recorded": 3,
+  "locked_experiments_modified_or_rescored": false,
+  "next_gate": "expose_repair_lifecycle_through_auditable_query_api",
+  "outputs": {
+    "events_sha256": "9a777b2dbdd98c76445d07637b5492149aea2dbfbe09658b63b3318cc3b8a2dd",
+    "regression_failures_sha256": "092beef7086ac7828c17688e228a6c75c2bfd8c7d6a3a91a3ece567534c2b4d5",
+    "states_sha256": "4611c1c307bf24c17534b60614067d5e6e9865e96ee5dfc829171fb6d1c62631"
+  },
+  "positive_promotions": 1,
+  "postvalidation_rollbacks": 2,
+  "preflight_blocks": 1,
+  "schema_version": "0.1",
+  "status": "post_execution_validation_and_rollback_closure_complete"
+}

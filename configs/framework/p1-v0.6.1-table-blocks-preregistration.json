@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "framework_id": "P1-PIPELINE-v0.6.1-MINERU-TABLE-BLOCKS",
+  "status": "preregistered_before_v0.6.1_candidate_inference",
+  "observed_during_preinference_audit": "BASF page 200 contains the task data in a MinerU table block under table_body; text-only block loading would omit it.",
+  "registered_change": "Load non-empty MinerU table_body together with table_caption and table_footnote as a selectable evidence block while preserving the original HTML.",
+  "unchanged_constraints": {
+    "all_target_registry": "frozen",
+    "model_digests": "unchanged",
+    "task_pack": "unchanged",
+    "reference_visible_during_inference": false,
+    "posthoc_semantic_repair_allowed": false,
+    "evidence_handle_enum": true,
+    "aggregate_score_enabled": false
+  },
+  "inference_allowed": false
+}

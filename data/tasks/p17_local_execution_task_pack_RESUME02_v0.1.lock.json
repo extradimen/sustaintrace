@@ -1,0 +1,95 @@
+{
+  "atomic_scoring_projection": "data/annotations/p17_simulated/p17_atomic_slot_gold_RESUME02_v0.1.lock.json",
+  "calculation_plans": "configs/framework/p17_calculation_plans_RESUME02_v0.1.lock.json",
+  "evidence_handle_whitelist": "configs/framework/p17_evidence_handle_whitelist_RESUME02_v0.1.lock.json",
+  "execution_config": "configs/experiments/p17-v26-unseen-lockbox-RESUME02-local.json",
+  "experiment_id": "P17-V26-UNSEEN-LOCKBOX-V01",
+  "inference_allowed": false,
+  "layout_fallback_registry": "configs/framework/p17_layout_fallback_registry_RESUME02_v0.1.lock.json",
+  "parent": "data/tasks/p17_task_pack_RESUME01_v0.1.lock.json",
+  "parser_registry": "data/manifests/p17_mineru_target_registry_RESUME02_v0.1.json",
+  "reference_consistency_audit": "data/results/p17_prefreeze_reference_consistency_audit_RESUME02_v0.1.lock.json",
+  "reference_freeze": "data/manifests/p17_simulated_reference_freeze_RESUME02_v0.1.lock.json",
+  "release_condition": "User must explicitly authorize BMW Group Report 2025 pages 127,129,130,141,142,172,178,179,372,373,374,375 to Ollama Cloud qwen3.5:397b-cloud solely for P17 Stage A/Stage B single-attempt candidate inference.",
+  "schema_version": "2.6",
+  "scoring_rules": "configs/framework/p17_scoring_rules_RESUME02_v0.1.lock.json",
+  "semantic_qualifiers": "configs/framework/p17_semantic_qualifiers_RESUME02_v0.1.lock.json",
+  "slot_contracts": "configs/framework/p17_slot_contracts_RESUME02_v0.1.lock.json",
+  "source_registry": "data/manifests/p17_source_registry_RESUME01_v0.1.lock.json",
+  "status": "frozen_local_pack_pending_explicit_cloud_authorization",
+  "table_graph": "configs/framework/p17_two_dimensional_table_graph_RESUME02_v0.1.lock.json",
+  "tasks": [
+    {
+      "document_id": "P17-BMW-GROUP-REPORT-2025",
+      "question": "Using BMW Group's reported market-based Scope 1 and Scope 2 emissions for 2025, calculate their sum and compare it with the disclosed Scope 1+2 total, retaining the t CO2e unit; then calculate the percentage change in the disclosed Scope 1+2 total from 2024 to 2025 and state whether it increased or decreased, rounded to two decimals.",
+      "question_status": "frozen",
+      "reference_file": "data/annotations/p17_simulated/P17-GHG-CALC-001.json",
+      "target_pages": [
+        127
+      ],
+      "task_id": "P17-GHG-CALC-001",
+      "task_type": "deterministic_calculation"
+    },
+    {
+      "document_id": "P17-BMW-GROUP-REPORT-2025",
+      "question": "Which Scope 3 categories does BMW Group classify as no reporting in 2025, which leased-asset categories are only partially reported, what allocation notes qualify those partial categories, and what materiality rationale and approximate coverage of significant categories does the report state?",
+      "question_status": "frozen",
+      "reference_file": "data/annotations/p17_simulated/P17-SCOPE3-BOUNDARY-001.json",
+      "target_pages": [
+        129,
+        130
+      ],
+      "task_id": "P17-SCOPE3-BOUNDARY-001",
+      "task_type": "scope_subject_boundary"
+    },
+    {
+      "document_id": "P17-BMW-GROUP-REPORT-2025",
+      "question": "What 2025 and 2024 values and reported percentage changes does BMW Group disclose for total water consumption, water consumption in water-risk areas, water recycled and reused, total water stored, changes in storage, and total water withdrawals, and what retrospective-adjustment or first-time-comparative qualifications apply?",
+      "question_status": "frozen",
+      "reference_file": "data/annotations/p17_simulated/P17-WATER-001.json",
+      "target_pages": [
+        141,
+        142
+      ],
+      "task_id": "P17-WATER-001",
+      "task_type": "direct_extraction"
+    },
+    {
+      "document_id": "P17-BMW-GROUP-REPORT-2025",
+      "question": "What 2025 and 2024 work-related accident counts and frequency rates does BMW Group report in total and for employees and temporary agency workers, and how are the four 2025 work-related fatalities divided between BMW Group employees and workers of external companies at BMW Group sites?",
+      "question_status": "frozen",
+      "reference_file": "data/annotations/p17_simulated/P17-SAFETY-001.json",
+      "target_pages": [
+        178
+      ],
+      "task_id": "P17-SAFETY-001",
+      "task_type": "direct_extraction"
+    },
+    {
+      "document_id": "P17-BMW-GROUP-REPORT-2025",
+      "question": "Relate BMW Group's 2025 employee contract-type and gender counts to its management-level gender distribution: report total, permanent and temporary employee counts with male and female breakdowns, then management headcount and male/female counts and shares, including the management target range and year.",
+      "question_status": "frozen",
+      "reference_file": "data/annotations/p17_simulated/P17-WORKFORCE-001.json",
+      "target_pages": [
+        172,
+        179
+      ],
+      "task_id": "P17-WORKFORCE-001",
+      "task_type": "cross_page_relation"
+    },
+    {
+      "document_id": "P17-BMW-GROUP-REPORT-2025",
+      "question": "What portions of BMW Group's 2025 Group Sustainability Report receive limited assurance and which specifically marked disclosures receive reasonable assurance, what section is excluded, what conclusions are stated, which standard governs the engagement, and how do the procedures and assurance levels differ?",
+      "question_status": "frozen",
+      "reference_file": "data/annotations/p17_simulated/P17-ASSURE-001.json",
+      "target_pages": [
+        372,
+        373,
+        374,
+        375
+      ],
+      "task_id": "P17-ASSURE-001",
+      "task_type": "scope_subject_boundary"
+    }
+  ]
+}

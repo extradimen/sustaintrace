@@ -1,0 +1,43 @@
+{
+  "schema_version": "0.1",
+  "record_kind": "development_regression_result",
+  "status": "postvalidation_attachment_development_complete",
+  "parent_failure_set": {
+    "path": "data/results/supervised_promotion_gate_dry_run_closure.lock.json",
+    "sha256": "ea8402ca58809ed6e68fe199fb00518ec4f442cc128010c6ce303f4baa1b01d3"
+  },
+  "changes": [
+    "immutable_parent_fact_and_gap_references",
+    "diagnostic_and_source_sha256_verification",
+    "canonical_json_integrity_signature",
+    "gap_signature_to_dimension_authorization",
+    "tamper_fact_gap_source_and_diagnostic_mismatch_rejection",
+    "promotion_gate_attachment_consumption_without_parent_mutation"
+  ],
+  "development_regressions": {
+    "attachments_created": 2,
+    "attachments_valid": 2,
+    "attachments_accepted_by_gate": 2,
+    "facts_promoted": 0,
+    "pytest_passed": 536,
+    "ruff_passed": true,
+    "json_audit_passed": true
+  },
+  "interpretation": "the interface can transfer only the dimension authorized by the parent gap; remaining dimensions continue to block both Tier C facts",
+  "artifacts": [
+    {"path": "src/esg_reliable_discovery/postvalidation_attachment.py", "sha256": "fe1bdf78636036a775e1f79c2144d1b8d77effcaea3646e3fdce830064e85aed"},
+    {"path": "src/esg_reliable_discovery/promotion_gate.py", "sha256": "3ef8a5a51420fe1570baf51b64c1b945556d7e5fc643b3aa6d869c5d570fce60"},
+    {"path": "tests/test_postvalidation_attachment_v01.py", "sha256": "33d916a15ab90eb13fac451b395e6e4180ef736321cbcb797421420204a247c9"},
+    {"path": "scripts/run_postvalidation_attachment_development_v01.py", "sha256": "17348b2182b57454a39c7b294bedcf990b19ccc20d70cc32e4ac9c396bd8977b"},
+    {"path": "artifacts/postvalidation_attachment_development_v0.1/development_summary.lock.json", "sha256": "b22baa7be5b4f67f820a6f9d63e3f25a8d9177cb69e572673c673a6551a1c388"}
+  ],
+  "safety": {
+    "unseen_performance_claimed": false,
+    "parent_fact_modified": false,
+    "parent_gap_modified": false,
+    "fact_write_performed": false,
+    "trust_promotion_performed": false,
+    "cloud_transmission_performed": false
+  },
+  "next_gate": "freeze a new diagnostic attachment sample and run one single-execution unseen interface validation"
+}

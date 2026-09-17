@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "experiment_id": "P22-V31-UNSEEN-LOCKBOX-V01",
+  "document_id": "P22-BAYER-AR2025",
+  "parent_run_directory": "artifacts/p22/mineru_targets",
+  "resume_run_directory": "artifacts/p22/mineru_targets_RESUME01",
+  "interruption_class": "infrastructure_process_shutdown_abort_after_page_processing",
+  "completed_pages_reused": [132, 149, 151, 171, 172, 203, 204, 375, 377],
+  "unfinished_pages": [130, 374],
+  "failure_records": [
+    "artifacts/p22/mineru_targets/P22-BAYER-AR2025-p0130/esg_rd_mineru_run.json",
+    "artifacts/p22/mineru_targets/P22-BAYER-AR2025-p0374/esg_rd_mineru_run.json"
+  ],
+  "frozen_config_changed": false,
+  "semantic_retry": false,
+  "status": "resume_authorized_for_infrastructure_failure_only"
+}

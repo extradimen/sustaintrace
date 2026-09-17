@@ -1,0 +1,56 @@
+{
+  "schema_version": "0.1",
+  "record_kind": "milestone_closure",
+  "status": "unseen_repair_component_validation_complete",
+  "results": {
+    "components": 6,
+    "passed": 3,
+    "failed": 3,
+    "shadow_candidates": [
+      "FIELD_EVIDENCE_BINDING_INCOMPLETE",
+      "PERIOD_ATTACHMENT_INCOMPLETE",
+      "UNIT_ATTACHMENT_INCOMPLETE"
+    ],
+    "returned_to_development": [
+      "TABLE_CELL_BINDING_INCOMPLETE",
+      "NATIVE_PDF_CORROBORATION_INCOMPLETE",
+      "CALCULATION_LINEAGE_INCOMPLETE"
+    ],
+    "pytest_passed": 524,
+    "ruff_passed": true,
+    "json_audit_passed": true,
+    "sha256_audit_passed": true
+  },
+  "failure_mechanisms": {
+    "TABLE_CELL_BINDING_INCOMPLETE": "global numeric uniqueness is checked before row-column topology",
+    "NATIVE_PDF_CORROBORATION_INCOMPLETE": "BMW-specific Total-and-Scope row condition remains hard-coded",
+    "CALCULATION_LINEAGE_INCOMPLETE": "Bayer water withdrawal-minus-discharge rows remain hard-coded"
+  },
+  "artifacts": [
+    {
+      "path": "data/manifests/unseen_repair_component_validation_RESUME03_v0.1.lock.json",
+      "sha256": "0be66bc3915b27b860d6033d6e7bf4d538b4323f718250382f777612ee5a92eb"
+    },
+    {
+      "path": "artifacts/unseen_repair_component_validation_v0.1/validation_summary.lock.json",
+      "sha256": "8701280d8f8e0a2f6d7ffdc396a9c59449dea9498a9facfec40e15a6a8cefb63"
+    },
+    {
+      "path": "scripts/run_unseen_repair_component_validation_v01.py",
+      "sha256": "220aba525c4352847982e17b83aa9fca9bed19824ec5f2a0d6f2cb936a45e1c3"
+    },
+    {
+      "path": "docs/162_六类修复组件未见验证结果_v0.1.md",
+      "sha256": "aff7a66b9e66431c827b55ede9b5b354835b002b0db3b173fc6b5b9a33ec2c26"
+    }
+  ],
+  "safety": {
+    "single_execution": true,
+    "fact_write_performed": false,
+    "trust_promotion_performed": false,
+    "semantic_inference_performed": false,
+    "cloud_transmission_performed": false,
+    "locked_historical_results_modified": false
+  },
+  "next_gate": "replace three case-specific adapters with contract-driven implementations and design new unseen validation records"
+}

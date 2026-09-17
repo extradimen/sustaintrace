@@ -1,0 +1,40 @@
+{
+  "finding_id": "P0-CAL-002",
+  "task_id": "P0-ABS-001",
+  "finding_type": "candidate_explanation",
+  "claim_level": "L5",
+  "anomaly_codes": ["A12"],
+  "claim": "The available page does not establish why the company selected this target.",
+  "company_id": "example-company",
+  "company": "Example Company",
+  "periods": ["FY2024"],
+  "supporting_evidence": [],
+  "contrary_evidence": [],
+  "calculation": null,
+  "rule_checks": [
+    {
+      "rule_id": "NO_UNSUPPORTED_CAUSAL_EXPLANATION",
+      "result": "unknown",
+      "details": "The supplied excerpt states a target but gives no causal rationale."
+    }
+  ],
+  "search_scope": {
+    "checked_elements": ["report_body"],
+    "completeness": "partial",
+    "limitations": ["Only the supplied page was searched."]
+  },
+  "alternative_explanations": ["The rationale may appear elsewhere in the report."],
+  "confidence": 0.92,
+  "confidence_basis": "No rationale is present in the supplied evidence, but the whole report was not searched.",
+  "status": "insufficient_information",
+  "requires_human_review": true,
+  "falsification_condition": "Direct report evidence explaining the target selection would overturn the insufficiency assessment.",
+  "provenance": {
+    "annotation_source": "human",
+    "framework_version": "FC-1.0",
+    "model_snapshot": null,
+    "prompt_sha256": null,
+    "run_id": "schema-calibration-001",
+    "created_at": "2026-09-01T00:00:00Z"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "batch_id": "KB-SCALE-BATCH-022-PERFORMANCE",
+  "comparison_parent": "data/results/scale_batch_021_performance_baseline.lock.json",
+  "completed_at": "2026-09-13T17:29:46.804029+00:00",
+  "mineru": {
+    "attempt_wall_seconds": [
+      98.421203,
+      518.557061,
+      257.938376,
+      262.956132
+    ],
+    "final_complete_pages": 32,
+    "initial_failures": 32,
+    "post_completion_shutdown_recovered_pages": 13,
+    "resume_completed_pages": 19,
+    "status": "complete_after_audited_resume_and_hash_recovery",
+    "successful_processing_wall_seconds": 516.317146,
+    "successful_target_pages": 32,
+    "successful_target_pages_per_hour": 223.11868,
+    "target_page_wall_seconds": {
+      "KB-B022-ENGIE-URD2025:p0121": 17.92305,
+      "KB-B022-ENGIE-URD2025:p0122": 17.087009,
+      "KB-B022-ENGIE-URD2025:p0132": 17.010004,
+      "KB-B022-ENGIE-URD2025:p0133": 16.002485,
+      "KB-B022-ENGIE-URD2025:p0138": 14.746204,
+      "KB-B022-ENGIE-URD2025:p0140": 17.026913,
+      "KB-B022-ENGIE-URD2025:p0154": 15.921768,
+      "KB-B022-ENGIE-URD2025:p0174": 16.855788,
+      "KB-B022-ENGIE-URD2025:p0220": 17.452551,
+      "KB-B022-ENGIE-URD2025:p0221": 15.004147,
+      "KB-B022-ORANGE-URD2025:p0362": 14.753946,
+      "KB-B022-ORANGE-URD2025:p0363": 13.75646,
+      "KB-B022-ORANGE-URD2025:p0382": 14.726611,
+      "KB-B022-ORANGE-URD2025:p0383": 15.934932,
+      "KB-B022-ORANGE-URD2025:p0396": 17.10336,
+      "KB-B022-ORANGE-URD2025:p0400": 14.954922,
+      "KB-B022-ORANGE-URD2025:p0425": 18.087208,
+      "KB-B022-ORANGE-URD2025:p0428": 18.644042,
+      "KB-B022-ORANGE-URD2025:p0482": 15.696807,
+      "KB-B022-ORANGE-URD2025:p0483": 15.744734,
+      "KB-B022-ORANGE-URD2025:p0484": 13.63282,
+      "KB-B022-ORANGE-URD2025:p0485": 13.73584,
+      "KB-B022-SKANSKA-ASR2025:p0064": 18.907128,
+      "KB-B022-SKANSKA-ASR2025:p0069": 15.74374,
+      "KB-B022-SKANSKA-ASR2025:p0070": 15.718061,
+      "KB-B022-SKANSKA-ASR2025:p0071": 15.818237,
+      "KB-B022-SKANSKA-ASR2025:p0075": 15.664778,
+      "KB-B022-SKANSKA-ASR2025:p0076": 16.146443,
+      "KB-B022-SKANSKA-ASR2025:p0081": 17.746373,
+      "KB-B022-SKANSKA-ASR2025:p0084": 15.797582,
+      "KB-B022-SKANSKA-ASR2025:p0208": 16.676229,
+      "KB-B022-SKANSKA-ASR2025:p0209": 16.296974
+    },
+    "total_attempt_wall_seconds": 1137.872772
+  },
+  "mineru_comparison": {
+    "batch_021_pages_per_hour": 201.212501,
+    "batch_022_pages_per_hour": 223.11868,
+    "interpretation_gate": "throughput_only_quality_measured_separately",
+    "relative_change_percent": 10.887
+  },
+  "policy": {
+    "cloud_transmission": false,
+    "locked_experiments_modified": false,
+    "performance_separate_from_knowledge_quality": true,
+    "rejected_duplicate_candidates": 1,
+    "rejected_http_403_candidates": 1,
+    "replacement_documents": 1
+  },
+  "provisional_comparison": {
+    "batch_021_pages_per_second": 357.681992,
+    "batch_022_pages_per_second": 414.585034,
+    "interpretation_gate": "diagnostic_only_not_semantic_quality_or_mineru_speed",
+    "relative_change_percent": 15.909
+  },
+  "schema_version": "0.1",
+  "started_at": "2026-09-13T17:29:43.537590+00:00",
+  "status": "diagnostic_and_mineru_baseline_complete",
+  "whole_report_diagnostic": {
+    "documents": 3,
+    "extractable_pages": 1351,
+    "pages_per_second": 414.585034,
+    "pdf_pages": 1354,
+    "peak_rss_bytes": 77971456,
+    "peak_rss_mb": 74.359,
+    "wall_seconds": 3.265916
+  }
+}

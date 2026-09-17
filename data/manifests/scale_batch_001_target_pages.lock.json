@@ -1,0 +1,249 @@
+{
+  "schema_version": "0.1",
+  "registry_id": "KB-SCALE-BATCH-001-TARGET-PAGES-v0.1",
+  "batch_id": "KB-SCALE-BATCH-001-RESUME01",
+  "created_at": "2026-09-12T14:23:44.434363+00:00",
+  "status": "target_pages_locked_before_mineru",
+  "cloud_transmission": false,
+  "documents": [
+    {
+      "document_id": "KB-B001-VW-SR2025",
+      "source_group_id": "KB-VOLKSWAGEN-2025",
+      "local_path": "data/raw/scale_batch_001/volkswagen-sustainability-report-2025.pdf",
+      "document_sha256": "533330a5b8f7fe1f0387fed8fa30cd3053808c26af8e19a3fb96705e9f621131",
+      "selection_rule": "highest_keyword_hit_page_per_theme_v0.1",
+      "target_pages": [
+        {
+          "page": 50,
+          "themes": [
+            "targets"
+          ],
+          "native_text_sha256": "e1f465b9678349b13efecc4bb5059331016d88c5e8668424abbb0bf70ce897ae",
+          "native_text_characters": 4224
+        },
+        {
+          "page": 60,
+          "themes": [
+            "energy"
+          ],
+          "native_text_sha256": "73c7b5dd7389e02c3b1626475c3e34511adbcf8ebdd92d027e02a662c798c41c",
+          "native_text_characters": 5255
+        },
+        {
+          "page": 62,
+          "themes": [
+            "ghg_emissions"
+          ],
+          "native_text_sha256": "6fc412d6639cf5f82a5f24f316147d86d5093efe71b3fd09444f27b6f739873f",
+          "native_text_characters": 5459
+        },
+        {
+          "page": 88,
+          "themes": [
+            "water"
+          ],
+          "native_text_sha256": "bbc983702c5f2cdf20612311e9430333abbd62558013b29dab7dfbd10b4879b9",
+          "native_text_characters": 4138
+        },
+        {
+          "page": 99,
+          "themes": [
+            "biodiversity"
+          ],
+          "native_text_sha256": "0c0999ee1d43fc0c9546cd05be773b27052a3844eb89020579312b83e1d6462b",
+          "native_text_characters": 4350
+        },
+        {
+          "page": 105,
+          "themes": [
+            "circularity"
+          ],
+          "native_text_sha256": "ff0f691651dbcec4c90cf07c457e15cc97977c68290b504610a82b50a638ecb1",
+          "native_text_characters": 4355
+        },
+        {
+          "page": 132,
+          "themes": [
+            "workforce"
+          ],
+          "native_text_sha256": "427d95c9b1239a872e09d58cc123512b07aa3b9b7e2798c61336b577bba2769d",
+          "native_text_characters": 3252
+        },
+        {
+          "page": 152,
+          "themes": [
+            "health_safety"
+          ],
+          "native_text_sha256": "8de02704093e2c63253f52368585d34679a7e4f6a2471ef3ae18d58ee63ec22a",
+          "native_text_characters": 3729
+        }
+      ]
+    },
+    {
+      "document_id": "KB-B001-SSE-SR2025",
+      "source_group_id": "KB-SSE-2025",
+      "local_path": "data/raw/scale_batch_001/sse-sustainability-report-2025.pdf",
+      "document_sha256": "8637e3b39c08055a32f00e028abf3e82fa31c252043f2cdd5d592b52c4aac83a",
+      "selection_rule": "highest_keyword_hit_page_per_theme_v0.1",
+      "target_pages": [
+        {
+          "page": 3,
+          "themes": [
+            "energy"
+          ],
+          "native_text_sha256": "6f6a9797ff268fcd86bdcce5bbb1419e745ebb8773d8bf91bb8b8d119e037291",
+          "native_text_characters": 40397
+        },
+        {
+          "page": 9,
+          "themes": [
+            "targets"
+          ],
+          "native_text_sha256": "e24fc8a01607fcd9f54b0af141ff1cbd0dec14c072354e9c034538e3247159de",
+          "native_text_characters": 26607
+        },
+        {
+          "page": 11,
+          "themes": [
+            "ghg_emissions"
+          ],
+          "native_text_sha256": "92fe75cce945ea5bc4698d52438bc431b6a0ec1a15ee55cf268e0f7f73e14fbf",
+          "native_text_characters": 18001
+        },
+        {
+          "page": 23,
+          "themes": [
+            "health_safety"
+          ],
+          "native_text_sha256": "c8a1fb82666e0de7b2ebe2021e3870378d99a558ca5ab6430a1f30a2407bb228",
+          "native_text_characters": 13023
+        },
+        {
+          "page": 25,
+          "themes": [
+            "workforce"
+          ],
+          "native_text_sha256": "17104ef758801f2bda5c9d2fb4bf88dc2ab85d1ca25a1fa69da129a20e93e8aa",
+          "native_text_characters": 17593
+        },
+        {
+          "page": 37,
+          "themes": [
+            "biodiversity"
+          ],
+          "native_text_sha256": "fa6ce393adbaf484bd210acf3c118087d736a69fcdf2928ed26e340251ffeab7",
+          "native_text_characters": 9917
+        },
+        {
+          "page": 39,
+          "themes": [
+            "circularity"
+          ],
+          "native_text_sha256": "f15aa05acad8b5ff0b35f71e72efcc24de90ff926a37dde73380a831c8822c23",
+          "native_text_characters": 44626
+        },
+        {
+          "page": 43,
+          "themes": [
+            "assurance"
+          ],
+          "native_text_sha256": "2657946ccabf76a0ad46472c32dbce82d60c72fa9fdb11aa2c90fbf9f2972722",
+          "native_text_characters": 12982
+        },
+        {
+          "page": 48,
+          "themes": [
+            "water"
+          ],
+          "native_text_sha256": "1de9681820d681037e67db32357167f0f713cb7559d6b1d237c387bd6230d4b7",
+          "native_text_characters": 18870
+        }
+      ]
+    },
+    {
+      "document_id": "KB-B001-DANONE-URD2025",
+      "source_group_id": "KB-DANONE-2025",
+      "local_path": "data/raw/scale_batch_001/danone-urd-2025-accessible.pdf",
+      "document_sha256": "f8607c4e1c499be832f952a4b10b01f9f358a5a3dbf2d90aa416124f024a06e0",
+      "selection_rule": "highest_keyword_hit_page_per_theme_v0.1",
+      "target_pages": [
+        {
+          "page": 202,
+          "themes": [
+            "biodiversity"
+          ],
+          "native_text_sha256": "8a006b663691e3f86cb8ba201959f4a5e574df9b2b47241e4fb734c28dd8330d",
+          "native_text_characters": 5221
+        },
+        {
+          "page": 210,
+          "themes": [
+            "health_safety"
+          ],
+          "native_text_sha256": "486a83b35032559412916c944b61fd6f138046679b258cbdacec3a14a09c2515",
+          "native_text_characters": 4827
+        },
+        {
+          "page": 226,
+          "themes": [
+            "targets"
+          ],
+          "native_text_sha256": "07e8344f38d8b00d5480245276f4158c23630fb73ac9e73793e5cb33955d030b",
+          "native_text_characters": 6375
+        },
+        {
+          "page": 227,
+          "themes": [
+            "ghg_emissions"
+          ],
+          "native_text_sha256": "c625088a59b96e7c3495994660ee836e4648ea6b96863f874d5fa5446f6229af",
+          "native_text_characters": 7329
+        },
+        {
+          "page": 229,
+          "themes": [
+            "energy"
+          ],
+          "native_text_sha256": "e68560f339bbf189532b18340519583c51675ff0b02870d6f627cfedace9e677",
+          "native_text_characters": 5695
+        },
+        {
+          "page": 240,
+          "themes": [
+            "water"
+          ],
+          "native_text_sha256": "0c6246e7bd26f5009c036c0e243974e1baac1e0e244355e538e34ac28f917d29",
+          "native_text_characters": 7510
+        },
+        {
+          "page": 272,
+          "themes": [
+            "workforce"
+          ],
+          "native_text_sha256": "a9ae366ab9284d0d83b328104934cb2a20faec6ab5d5a9d865822d84ea26c526",
+          "native_text_characters": 6683
+        },
+        {
+          "page": 299,
+          "themes": [
+            "assurance"
+          ],
+          "native_text_sha256": "310c1c67968aa2607184378c093ee6caae8dfaa90f675d644e76b81f75f98d8b",
+          "native_text_characters": 7403
+        },
+        {
+          "page": 346,
+          "themes": [
+            "circularity"
+          ],
+          "native_text_sha256": "ad1afdf33092d1b09c63621064bc2c91769ac814eb85972399209f5770268845",
+          "native_text_characters": 7633
+        }
+      ]
+    }
+  ],
+  "totals": {
+    "documents": 3,
+    "unique_target_pages": 26
+  }
+}

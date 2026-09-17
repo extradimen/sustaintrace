@@ -1,0 +1,252 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-009",
+  "updated_at": "2026-09-13T02:13:46.624797+00:00",
+  "status": "complete",
+  "cloud_transmission": false,
+  "total_target_pages": 26,
+  "complete_pages": 22,
+  "failed_pages": 4,
+  "pending_pages": 0,
+  "records": [
+    {
+      "document_id": "KB-B009-HM-ASR2025",
+      "page": 40,
+      "themes": [
+        "targets"
+      ],
+      "output_directory": "artifacts/scale_batch_009/mineru_targets/KB-B009-HM-ASR2025-p0040",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B009-HM-ASR2025",
+      "page": 41,
+      "themes": [
+        "energy",
+        "ghg_emissions"
+      ],
+      "output_directory": "artifacts/scale_batch_009/mineru_targets/KB-B009-HM-ASR2025-p0041",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B009-HM-ASR2025",
+      "page": 44,
+      "themes": [
+        "water"
+      ],
+      "output_directory": "artifacts/scale_batch_009/mineru_targets/KB-B009-HM-ASR2025-p0044",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B009-HM-ASR2025",
+      "page": 45,
+      "themes": [
+        "biodiversity"
+      ],
+      "output_directory": "artifacts/scale_batch_009/mineru_targets/KB-B009-HM-ASR2025-p0045",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B009-HM-ASR2025",
+      "page": 47,
+      "themes": [
+        "circularity"
+      ],
+      "output_directory": "artifacts/scale_batch_009/mineru_targets/KB-B009-HM-ASR2025-p0047",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B009-HM-ASR2025",
+      "page": 53,
+      "themes": [
+        "workforce"
+      ],
+      "output_directory": "artifacts/scale_batch_009/mineru_targets/KB-B009-HM-ASR2025-p0053",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B009-HM-ASR2025",
+      "page": 54,
+      "themes": [
+        "health_safety"
+      ],
+      "output_directory": "artifacts/scale_batch_009/mineru_targets/KB-B009-HM-ASR2025-p0054",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B009-HM-ASR2025",
+      "page": 92,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_009/mineru_targets/KB-B009-HM-ASR2025-p0092",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B009-ORSTED-AR2025",
+      "page": 59,
+      "themes": [
+        "targets"
+      ],
+      "output_directory": "artifacts/scale_batch_009/mineru_targets/KB-B009-ORSTED-AR2025-p0059",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B009-ORSTED-AR2025",
+      "page": 72,
+      "themes": [
+        "water"
+      ],
+      "output_directory": "artifacts/scale_batch_009/mineru_targets/KB-B009-ORSTED-AR2025-p0072",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B009-ORSTED-AR2025",
+      "page": 77,
+      "themes": [
+        "energy"
+      ],
+      "output_directory": "artifacts/scale_batch_009/mineru_targets/KB-B009-ORSTED-AR2025-p0077",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B009-ORSTED-AR2025",
+      "page": 79,
+      "themes": [
+        "ghg_emissions"
+      ],
+      "output_directory": "artifacts/scale_batch_009/mineru_targets/KB-B009-ORSTED-AR2025-p0079",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_009/mineru_targets/KB-B009-ORSTED-AR2025-p0079/esg_rd_mineru_run.json"
+    },
+    {
+      "document_id": "KB-B009-ORSTED-AR2025",
+      "page": 86,
+      "themes": [
+        "biodiversity"
+      ],
+      "output_directory": "artifacts/scale_batch_009/mineru_targets/KB-B009-ORSTED-AR2025-p0086",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B009-ORSTED-AR2025",
+      "page": 89,
+      "themes": [
+        "circularity"
+      ],
+      "output_directory": "artifacts/scale_batch_009/mineru_targets/KB-B009-ORSTED-AR2025-p0089",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_009/mineru_targets/KB-B009-ORSTED-AR2025-p0089/esg_rd_mineru_run.json"
+    },
+    {
+      "document_id": "KB-B009-ORSTED-AR2025",
+      "page": 94,
+      "themes": [
+        "workforce"
+      ],
+      "output_directory": "artifacts/scale_batch_009/mineru_targets/KB-B009-ORSTED-AR2025-p0094",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_009/mineru_targets/KB-B009-ORSTED-AR2025-p0094/esg_rd_mineru_run.json"
+    },
+    {
+      "document_id": "KB-B009-ORSTED-AR2025",
+      "page": 99,
+      "themes": [
+        "health_safety"
+      ],
+      "output_directory": "artifacts/scale_batch_009/mineru_targets/KB-B009-ORSTED-AR2025-p0099",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B009-ORSTED-AR2025",
+      "page": 215,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_009/mineru_targets/KB-B009-ORSTED-AR2025-p0215",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B009-CARLSBERG-AR2025",
+      "page": 63,
+      "themes": [
+        "targets"
+      ],
+      "output_directory": "artifacts/scale_batch_009/mineru_targets/KB-B009-CARLSBERG-AR2025-p0063",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B009-CARLSBERG-AR2025",
+      "page": 64,
+      "themes": [
+        "energy"
+      ],
+      "output_directory": "artifacts/scale_batch_009/mineru_targets/KB-B009-CARLSBERG-AR2025-p0064",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B009-CARLSBERG-AR2025",
+      "page": 66,
+      "themes": [
+        "ghg_emissions"
+      ],
+      "output_directory": "artifacts/scale_batch_009/mineru_targets/KB-B009-CARLSBERG-AR2025-p0066",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_009/mineru_targets/KB-B009-CARLSBERG-AR2025-p0066/esg_rd_mineru_run.json"
+    },
+    {
+      "document_id": "KB-B009-CARLSBERG-AR2025",
+      "page": 69,
+      "themes": [
+        "water"
+      ],
+      "output_directory": "artifacts/scale_batch_009/mineru_targets/KB-B009-CARLSBERG-AR2025-p0069",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B009-CARLSBERG-AR2025",
+      "page": 70,
+      "themes": [
+        "biodiversity"
+      ],
+      "output_directory": "artifacts/scale_batch_009/mineru_targets/KB-B009-CARLSBERG-AR2025-p0070",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B009-CARLSBERG-AR2025",
+      "page": 75,
+      "themes": [
+        "circularity"
+      ],
+      "output_directory": "artifacts/scale_batch_009/mineru_targets/KB-B009-CARLSBERG-AR2025-p0075",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B009-CARLSBERG-AR2025",
+      "page": 81,
+      "themes": [
+        "health_safety"
+      ],
+      "output_directory": "artifacts/scale_batch_009/mineru_targets/KB-B009-CARLSBERG-AR2025-p0081",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B009-CARLSBERG-AR2025",
+      "page": 83,
+      "themes": [
+        "workforce"
+      ],
+      "output_directory": "artifacts/scale_batch_009/mineru_targets/KB-B009-CARLSBERG-AR2025-p0083",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B009-CARLSBERG-AR2025",
+      "page": 196,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_009/mineru_targets/KB-B009-CARLSBERG-AR2025-p0196",
+      "status": "complete"
+    }
+  ]
+}

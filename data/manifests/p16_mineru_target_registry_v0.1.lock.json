@@ -1,0 +1,211 @@
+{
+  "document_id": "P16-SANOFI-SS2025",
+  "document_sha256": "82547ddb72b6b05dca88f93ed4cfe13010cb5690a5693b96721e9be3ff9c8fcc",
+  "experiment_id": "P16-V25-UNSEEN-LOCKBOX-V01",
+  "failure_count": 0,
+  "recovery_lineage": [
+    "data/manifests/p16_mineru_recovery_lineage_RESUME01_v0.1.lock.json"
+  ],
+  "schema_version": "1.0",
+  "status": "all_target_pages_successfully_parsed_and_hash_verified",
+  "success_count": 15,
+  "target_count": 15,
+  "targets": [
+    {
+      "document_id": "P16-SANOFI-SS2025",
+      "document_sha256": "82547ddb72b6b05dca88f93ed4cfe13010cb5690a5693b96721e9be3ff9c8fcc",
+      "output_directory": "artifacts/p16/mineru_targets_RESUME01/P16-SANOFI-SS2025-p0026",
+      "pdf_page": 26,
+      "recovery_generation": "RESUME01",
+      "run_record_sha256": "ee778c598b3bb09021c3da0fd92644fd790e2a3b72a21c4c196f163eddc66e68",
+      "status": "success_verified",
+      "target_id": "P16-SANOFI-SS2025-p0026",
+      "task_ids": [
+        "P16-TARGET-001"
+      ]
+    },
+    {
+      "document_id": "P16-SANOFI-SS2025",
+      "document_sha256": "82547ddb72b6b05dca88f93ed4cfe13010cb5690a5693b96721e9be3ff9c8fcc",
+      "output_directory": "artifacts/p16/mineru_targets_RESUME01/P16-SANOFI-SS2025-p0030",
+      "pdf_page": 30,
+      "recovery_generation": "RESUME01",
+      "run_record_sha256": "550c2801eea9ff6396be4b7b97510cd66c82f4467dfe332928d45dcf599b6342",
+      "status": "success_verified",
+      "target_id": "P16-SANOFI-SS2025-p0030",
+      "task_ids": [
+        "P16-TARGET-001"
+      ]
+    },
+    {
+      "document_id": "P16-SANOFI-SS2025",
+      "document_sha256": "82547ddb72b6b05dca88f93ed4cfe13010cb5690a5693b96721e9be3ff9c8fcc",
+      "output_directory": "artifacts/p16/mineru_targets_RESUME01/P16-SANOFI-SS2025-p0031",
+      "pdf_page": 31,
+      "recovery_generation": "RESUME01",
+      "run_record_sha256": "e754714a8693f547d005994a74cd8f308f233b5aef7efb11cc87aca837202cde",
+      "status": "success_verified",
+      "target_id": "P16-SANOFI-SS2025-p0031",
+      "task_ids": [
+        "P16-TARGET-001"
+      ]
+    },
+    {
+      "document_id": "P16-SANOFI-SS2025",
+      "document_sha256": "82547ddb72b6b05dca88f93ed4cfe13010cb5690a5693b96721e9be3ff9c8fcc",
+      "output_directory": "artifacts/p16/mineru_targets_RESUME01/P16-SANOFI-SS2025-p0038",
+      "pdf_page": 38,
+      "recovery_generation": "RESUME01",
+      "run_record_sha256": "e7d5503a50122a0e719bdf5dfa1eb59821029f628028280641e13d891bb12e18",
+      "status": "success_verified",
+      "target_id": "P16-SANOFI-SS2025-p0038",
+      "task_ids": [
+        "P16-GHG-CALC-001",
+        "P16-TARGET-001"
+      ]
+    },
+    {
+      "document_id": "P16-SANOFI-SS2025",
+      "document_sha256": "82547ddb72b6b05dca88f93ed4cfe13010cb5690a5693b96721e9be3ff9c8fcc",
+      "output_directory": "artifacts/p16/mineru_targets_RESUME01/P16-SANOFI-SS2025-p0043",
+      "pdf_page": 43,
+      "recovery_generation": "RESUME01",
+      "run_record_sha256": "9a6261871b64f2c87fc1329a574c2a262bb697c73456317e7cbec9914c4f99d7",
+      "status": "success_verified",
+      "target_id": "P16-SANOFI-SS2025-p0043",
+      "task_ids": [
+        "P16-POLLUTION-001"
+      ]
+    },
+    {
+      "document_id": "P16-SANOFI-SS2025",
+      "document_sha256": "82547ddb72b6b05dca88f93ed4cfe13010cb5690a5693b96721e9be3ff9c8fcc",
+      "output_directory": "artifacts/p16/mineru_targets_RESUME01/P16-SANOFI-SS2025-p0044",
+      "pdf_page": 44,
+      "recovery_generation": "RESUME01",
+      "run_record_sha256": "a4eda44da4e50ae5a69a8ec02b556964b753c00a8346316cca372a74cf193c8e",
+      "status": "success_verified",
+      "target_id": "P16-SANOFI-SS2025-p0044",
+      "task_ids": [
+        "P16-POLLUTION-001"
+      ]
+    },
+    {
+      "document_id": "P16-SANOFI-SS2025",
+      "document_sha256": "82547ddb72b6b05dca88f93ed4cfe13010cb5690a5693b96721e9be3ff9c8fcc",
+      "output_directory": "artifacts/p16/mineru_targets_RESUME01/P16-SANOFI-SS2025-p0045",
+      "pdf_page": 45,
+      "recovery_generation": "RESUME01",
+      "run_record_sha256": "75c39f728729dc2ac179d52edb6ad563015c4fb7de2ba1138d3b223d5615a948",
+      "status": "success_verified",
+      "target_id": "P16-SANOFI-SS2025-p0045",
+      "task_ids": [
+        "P16-POLLUTION-001"
+      ]
+    },
+    {
+      "document_id": "P16-SANOFI-SS2025",
+      "document_sha256": "82547ddb72b6b05dca88f93ed4cfe13010cb5690a5693b96721e9be3ff9c8fcc",
+      "output_directory": "artifacts/p16/mineru_targets_RESUME01/P16-SANOFI-SS2025-p0068",
+      "pdf_page": 68,
+      "recovery_generation": "RESUME01",
+      "run_record_sha256": "8231725bc9b727c87118c4793d8cfd661ac9c7dfcd9e4900a273ca96702045a3",
+      "status": "success_verified",
+      "target_id": "P16-SANOFI-SS2025-p0068",
+      "task_ids": [
+        "P16-SAFETY-001"
+      ]
+    },
+    {
+      "document_id": "P16-SANOFI-SS2025",
+      "document_sha256": "82547ddb72b6b05dca88f93ed4cfe13010cb5690a5693b96721e9be3ff9c8fcc",
+      "output_directory": "artifacts/p16/mineru_targets_RESUME01/P16-SANOFI-SS2025-p0090",
+      "pdf_page": 90,
+      "recovery_generation": "RESUME01",
+      "run_record_sha256": "e92d20b4682ac315d2e547e606e0f61e58da09eeaf90e5f93d8a1be56e31c3ff",
+      "status": "success_verified",
+      "target_id": "P16-SANOFI-SS2025-p0090",
+      "task_ids": [
+        "P16-ACCESS-001"
+      ]
+    },
+    {
+      "document_id": "P16-SANOFI-SS2025",
+      "document_sha256": "82547ddb72b6b05dca88f93ed4cfe13010cb5690a5693b96721e9be3ff9c8fcc",
+      "output_directory": "artifacts/p16/mineru_targets_RESUME01/P16-SANOFI-SS2025-p0118",
+      "pdf_page": 118,
+      "recovery_generation": "RESUME01",
+      "run_record_sha256": "03e5721b00ad075c4bc8f790814452cff68455e071af16edf9762c20a10b599b",
+      "status": "success_verified",
+      "target_id": "P16-SANOFI-SS2025-p0118",
+      "task_ids": [
+        "P16-SAFETY-001"
+      ]
+    },
+    {
+      "document_id": "P16-SANOFI-SS2025",
+      "document_sha256": "82547ddb72b6b05dca88f93ed4cfe13010cb5690a5693b96721e9be3ff9c8fcc",
+      "output_directory": "artifacts/p16/mineru_targets_RESUME01/P16-SANOFI-SS2025-p0129",
+      "pdf_page": 129,
+      "recovery_generation": "RESUME01",
+      "run_record_sha256": "f43f5d662a3357056dd64c4b2027e8c96b073acf405a59b007010d82763770b4",
+      "status": "success_verified",
+      "target_id": "P16-SANOFI-SS2025-p0129",
+      "task_ids": [
+        "P16-ASSURE-001"
+      ]
+    },
+    {
+      "document_id": "P16-SANOFI-SS2025",
+      "document_sha256": "82547ddb72b6b05dca88f93ed4cfe13010cb5690a5693b96721e9be3ff9c8fcc",
+      "output_directory": "artifacts/p16/mineru_targets_RESUME01/P16-SANOFI-SS2025-p0130",
+      "pdf_page": 130,
+      "recovery_generation": "RESUME01",
+      "run_record_sha256": "b253197f59f4288df9f64215176300881bf2e01917170722cc848e2fadc149e3",
+      "status": "success_verified",
+      "target_id": "P16-SANOFI-SS2025-p0130",
+      "task_ids": [
+        "P16-ASSURE-001"
+      ]
+    },
+    {
+      "document_id": "P16-SANOFI-SS2025",
+      "document_sha256": "82547ddb72b6b05dca88f93ed4cfe13010cb5690a5693b96721e9be3ff9c8fcc",
+      "output_directory": "artifacts/p16/mineru_targets_RESUME01/P16-SANOFI-SS2025-p0131",
+      "pdf_page": 131,
+      "recovery_generation": "RESUME01",
+      "run_record_sha256": "6ea6b85e7bd71b0302059ea75af675741c6fa037ca38e948abf6facbd6143dac",
+      "status": "success_verified",
+      "target_id": "P16-SANOFI-SS2025-p0131",
+      "task_ids": [
+        "P16-ASSURE-001"
+      ]
+    },
+    {
+      "document_id": "P16-SANOFI-SS2025",
+      "document_sha256": "82547ddb72b6b05dca88f93ed4cfe13010cb5690a5693b96721e9be3ff9c8fcc",
+      "output_directory": "artifacts/p16/mineru_targets_RESUME01/P16-SANOFI-SS2025-p0132",
+      "pdf_page": 132,
+      "recovery_generation": "RESUME01",
+      "run_record_sha256": "217f45e9e1f1c23c1f2465f62051d41e6b26b71d8d364b391273f22aabf72a7b",
+      "status": "success_verified",
+      "target_id": "P16-SANOFI-SS2025-p0132",
+      "task_ids": [
+        "P16-ASSURE-001"
+      ]
+    },
+    {
+      "document_id": "P16-SANOFI-SS2025",
+      "document_sha256": "82547ddb72b6b05dca88f93ed4cfe13010cb5690a5693b96721e9be3ff9c8fcc",
+      "output_directory": "artifacts/p16/mineru_targets_RESUME01/P16-SANOFI-SS2025-p0133",
+      "pdf_page": 133,
+      "recovery_generation": "RESUME01",
+      "run_record_sha256": "1d95cbbbc1b0454f30e0afad00b4bb12be417b9117d3d0ca5f549d6029b396bd",
+      "status": "success_verified",
+      "target_id": "P16-SANOFI-SS2025-p0133",
+      "task_ids": [
+        "P16-ASSURE-001"
+      ]
+    }
+  ]
+}

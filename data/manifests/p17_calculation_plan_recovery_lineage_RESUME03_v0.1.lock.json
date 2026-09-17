@@ -1,0 +1,12 @@
+{
+  "schema_version": "2.6",
+  "experiment_id": "P17-V26-UNSEEN-LOCKBOX-V01",
+  "status": "pre_candidate_calculation_plan_recovery",
+  "parent": "configs/framework/p17_calculation_plans_RESUME02_v0.1.lock.json",
+  "reason": "The frozen role registry contained four required observations but candidate_input_role_order listed only the two sum operands, so an unlabeled four-observation candidate could not use the v2.6 deterministic binding fallback.",
+  "correction": "Declare all four pre-existing roles in their frozen source-table order. Operations, values, units, page window, question and reference semantics are unchanged.",
+  "semantic_change": false,
+  "candidate_model_used": false,
+  "cloud_transmission_occurred": false,
+  "parent_preserved": true
+}

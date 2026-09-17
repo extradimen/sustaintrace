@@ -1,0 +1,56 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-019",
+  "status": "increment_built_candidates_not_promoted",
+  "fact_candidates": 51,
+  "trusted_facts_promoted": 0,
+  "evidence_gaps": 5,
+  "failure_observations": 39,
+  "gaps": [
+    {
+      "document_id": "KB-B019-NESTE-AR2025",
+      "page": 36,
+      "theme": "ghg_emissions",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B019-NESTE-AR2025",
+      "page": 36,
+      "theme": "targets",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B019-NESTE-AR2025",
+      "page": 37,
+      "theme": "circularity",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B019-NESTE-AR2025",
+      "page": 37,
+      "theme": "energy",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B019-METSO-AR2025",
+      "page": 86,
+      "theme": "ghg_emissions",
+      "reason": "no_theme_line_in_mineru_markdown"
+    }
+  ],
+  "outputs": {
+    "facts": {
+      "path": "data/knowledge_bases/v0.1/increments/scale_batch_019_fact_records.jsonl",
+      "sha256": "4c1937619fa4855c3e4bb2ba575f77b6a977174abcc1cf2ed491c5822c9ed293"
+    },
+    "failures": {
+      "path": "data/knowledge_bases/v0.1/increments/scale_batch_019_failure_records.jsonl",
+      "sha256": "dd81f4a2b823b59426f4b0eeb2af13022aac66f4a503a3dc7f6d6c743006ca9b"
+    }
+  },
+  "policy": {
+    "cloud_transmission": false,
+    "locked_experiments_modified": false,
+    "automatic_promotion": false
+  }
+}

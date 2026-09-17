@@ -1,0 +1,71 @@
+{
+  "answer": "In MWh, 2025/2024 fossil energy was 812,912/870,723; renewable energy 11,144,078/11,120,011; self-generated non-fuel renewable energy 13,905/7,819; and total energy 11,956,990/11,990,733. The narrative rounds total energy to 11,957/11,991 GWh. The 2024 figures were retrospectively adjusted due to changes in electricity distribution at individual sites.",
+  "evidence": [
+    {
+      "pdf_page": 131,
+      "quote": "Total energy consumption decreased year-on-year from 11,991 GWh to 11,957 GWh.",
+      "source_id": "P18-DEUTSCHE-TELEKOM-AR2025"
+    },
+    {
+      "pdf_page": 131,
+      "quote": "812,912",
+      "source_id": "P18-DEUTSCHE-TELEKOM-AR2025"
+    },
+    {
+      "pdf_page": 131,
+      "quote": "870,723",
+      "source_id": "P18-DEUTSCHE-TELEKOM-AR2025"
+    },
+    {
+      "pdf_page": 131,
+      "quote": "11,144,078",
+      "source_id": "P18-DEUTSCHE-TELEKOM-AR2025"
+    },
+    {
+      "pdf_page": 131,
+      "quote": "11,120,011",
+      "source_id": "P18-DEUTSCHE-TELEKOM-AR2025"
+    },
+    {
+      "pdf_page": 131,
+      "quote": "13,905",
+      "source_id": "P18-DEUTSCHE-TELEKOM-AR2025"
+    },
+    {
+      "pdf_page": 131,
+      "quote": "7,819",
+      "source_id": "P18-DEUTSCHE-TELEKOM-AR2025"
+    },
+    {
+      "pdf_page": 131,
+      "quote": "11,956,990",
+      "source_id": "P18-DEUTSCHE-TELEKOM-AR2025"
+    },
+    {
+      "pdf_page": 131,
+      "quote": "11,990,733",
+      "source_id": "P18-DEUTSCHE-TELEKOM-AR2025"
+    }
+  ],
+  "normalized_value": {
+    "fossil_mwh::2024": 870723,
+    "fossil_mwh::2025": 812912,
+    "narrative_total_gwh::2024": 11991,
+    "narrative_total_gwh::2025": 11957,
+    "qualification": "2024 figures adjusted retrospectively due to changes in electricity distribution at individual sites",
+    "renewable_mwh::2024": 11120011,
+    "renewable_mwh::2025": 11144078,
+    "self_generated_non_fuel_renewable_mwh::2024": 7819,
+    "self_generated_non_fuel_renewable_mwh::2025": 13905,
+    "total_energy_mwh::2024": 11990733,
+    "total_energy_mwh::2025": 11956990
+  },
+  "provenance": {
+    "candidate_model_used": false,
+    "reference_is_simulated": true
+  },
+  "reference_author": "codex_gpt_simulated_expert",
+  "reference_status": "verified_against_frozen_mineru_pages_and_native_layout",
+  "schema_version": "1.0",
+  "task_id": "P18-ENERGY-001"
+}

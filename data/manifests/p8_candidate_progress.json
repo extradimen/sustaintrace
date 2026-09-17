@@ -1,0 +1,53 @@
+{
+  "checkpoint_resume_enabled": true,
+  "cloud_authorization": "data/manifests/p8_cloud_authorization_2026-09-06.lock.json",
+  "experiment_id": "P8-V17-UNSEEN-LOCKBOX-V01",
+  "records": [
+    {
+      "retried": false,
+      "stage_a": "failed",
+      "stage_a_error": "ValueError:Task is missing, duplicated, or not frozen: P8-SAFETY-001",
+      "task_id": "P8-SAFETY-001",
+      "task_type": "direct_extraction"
+    },
+    {
+      "retried": false,
+      "stage_a": "failed",
+      "stage_a_error": "ValueError:Task is missing, duplicated, or not frozen: P8-CALC-001",
+      "task_id": "P8-CALC-001",
+      "task_type": "deterministic_calculation"
+    },
+    {
+      "retried": false,
+      "stage_a": "failed",
+      "stage_a_error": "ValueError:Task is missing, duplicated, or not frozen: P8-TARGET-001",
+      "task_id": "P8-TARGET-001",
+      "task_type": "scope_subject_boundary"
+    },
+    {
+      "retried": false,
+      "stage_a": "failed",
+      "stage_a_error": "ValueError:Task is missing, duplicated, or not frozen: P8-BASELINE-001",
+      "task_id": "P8-BASELINE-001",
+      "task_type": "scope_subject_boundary"
+    },
+    {
+      "retried": false,
+      "stage_a": "failed",
+      "stage_a_error": "ValueError:Task is missing, duplicated, or not frozen: P8-SCOPE3-001",
+      "task_id": "P8-SCOPE3-001",
+      "task_type": "scope_subject_boundary"
+    },
+    {
+      "retried": false,
+      "stage_a": "failed",
+      "stage_a_error": "ValueError:Task is missing, duplicated, or not frozen: P8-ASSURE-001",
+      "task_id": "P8-ASSURE-001",
+      "task_type": "scope_subject_boundary"
+    }
+  ],
+  "reference_loaded_by_orchestrator": false,
+  "schema_version": "1.0",
+  "single_attempt_per_stage": true,
+  "updated_at": "2026-09-06T02:09:00.596327+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "experiment_id": "P14-V23-UNSEEN-LOCKBOX-V01",
+  "status": "authorized_by_user",
+  "authorization_date": "2026-09-09",
+  "document_id": "P14-LOREAL-URD2025",
+  "document_title": "L’Oréal 2025 Universal Registration Document",
+  "document_sha256": "db63807f5963c3e70422bbb9a0763f2f53be4139d5ee57984717bfa056275aa2",
+  "pages": [206, 208, 212, 213, 225, 229, 248, 282, 285, 286, 287, 288, 289],
+  "model": "qwen3.5:397b-cloud",
+  "scope": "P14 Stage A and Stage B single-attempt candidate inference only",
+  "single_attempt_per_task_per_stage": true,
+  "authorization_text": "我授权将 L’Oréal 2025 Universal Registration Document 第206、208、212、213、225、229、248、282、285、286、287、288、289页的冻结证据发送至 Ollama Cloud 的 qwen3.5:397b-cloud，仅用于 P14 Stage A/Stage B 单次候选推理。",
+  "prohibitions": {
+    "other_pages": true,
+    "other_models": true,
+    "other_experiments": true,
+    "silent_retry": true,
+    "posthoc_semantic_repair": true
+  }
+}

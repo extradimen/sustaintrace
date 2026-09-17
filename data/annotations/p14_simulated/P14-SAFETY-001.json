@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "task_id": "P14-SAFETY-001",
+  "reference_author": "codex_gpt_simulated_expert",
+  "reference_status": "verified_against_frozen_pages",
+  "answer": "In 2025 L'Oreal reported 100% own-workforce coverage by its health and safety management system, zero fatalities from work-related injury or ill health, 270 recordable work-related accidents, an enlarged Total Incident Rate of 1.37 and a Lost Time Injury Rate of 0.67. The accident metric excludes workdays lost owing to commutes and first-aid accidents.",
+  "normalized_value": {
+    "management_system_coverage_percent": 100,
+    "fatalities_count": 0,
+    "recordable_accidents_count": 270,
+    "etir": 1.37,
+    "ltir": 0.67,
+    "accident_metric_exclusion": "workdays lost owing to commutes and first aid accidents"
+  },
+  "evidence": [
+    {"source_id": "P14-LOREAL-URD2025", "pdf_page": 248, "quote": "Percentage of own workforce covered by the company's health and safety management system"},
+    {"source_id": "P14-LOREAL-URD2025", "pdf_page": 248, "quote": "Number of fatalities as a result of work-related injuries and work-related ill health"},
+    {"source_id": "P14-LOREAL-URD2025", "pdf_page": 248, "quote": "Number of recordable work-related accidents"},
+    {"source_id": "P14-LOREAL-URD2025", "pdf_page": 248, "quote": "Enlarged Total Incident Rate"},
+    {"source_id": "P14-LOREAL-URD2025", "pdf_page": 248, "quote": "Lost Time Injury Rate"},
+    {"source_id": "P14-LOREAL-URD2025", "pdf_page": 248, "quote": "This metric does not include workdays lost owing to commutes and first aid accidents."}
+  ],
+  "provenance": {"reference_is_simulated": true, "candidate_model_used": false}
+}

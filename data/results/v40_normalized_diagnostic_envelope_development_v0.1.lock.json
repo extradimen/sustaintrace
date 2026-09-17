@@ -1,0 +1,61 @@
+{
+  "schema_version": "0.1",
+  "development_id": "V4.0-NORMALIZED-DIAGNOSTIC-ENVELOPE-DEVELOPMENT-V01",
+  "status": "development_regression_passed",
+  "development_source": "already exposed heterogeneous attachment-interface failures only",
+  "historical_results_modified": false,
+  "historical_diagnostics_reexecuted": false,
+  "implemented": {
+    "unified_positive_status": [
+      "observed.status=passed",
+      "observed.eligibility=eligible with no blocking reasons"
+    ],
+    "immutable_parent_artifact_reference": true,
+    "raw_payload_preserved": true,
+    "frozen_manifest_identity_binding_when_component_omits_ids": true,
+    "identity_conflict_fail_closed": true,
+    "signed_envelope": true
+  },
+  "development_regression": {
+    "cases": 3,
+    "normalized_passed": 3,
+    "attachments_valid": 3,
+    "cases_used": [
+      "HET-PERIOD-POS-NOVO-001",
+      "HET-PERIOD-POS-SANOFI-001",
+      "HET-TABLE-POS-BAYER-001"
+    ],
+    "calculation_without_registered_parent_gap_promoted": false
+  },
+  "verification": {
+    "targeted_tests_passed": 6,
+    "full_suite_tests_passed": 540,
+    "ruff": "passed",
+    "json_validation": "passed"
+  },
+  "artifacts": {
+    "implementation": {
+      "path": "src/esg_reliable_discovery/postvalidation_attachment.py",
+      "sha256": "9ba82ffe14cfa95c1ab4986878cb61d0992c5460392bc289462a258b89ef3d54"
+    },
+    "tests": {
+      "path": "tests/test_postvalidation_attachment_v01.py",
+      "sha256": "a1d2b9b680097e88da4ed87dc0176481e694e85a4153256a0acc1f98a6c1fab0"
+    },
+    "runner": {
+      "path": "scripts/run_normalized_diagnostic_envelope_development_v01.py",
+      "sha256": "71348a08a2963f90cdf87c3c65a31bc0b398e2ff4721a02a7a5e4e8530a64702"
+    },
+    "development_summary": {
+      "path": "artifacts/normalized_diagnostic_envelope_development_v0.1/development_summary.lock.json",
+      "sha256": "500e79c3d5ecc98c99310dd7f42029932be4e38ec0b5bcb92342db24499bcf2f"
+    }
+  },
+  "safety": {
+    "fact_write_performed": false,
+    "trust_promotion_performed": false,
+    "gap_mutation_performed": false,
+    "cloud_transmission_performed": false
+  },
+  "next_gate": "freeze one previously unused locked positive diagnostic artifact and validate envelope plus attachment exactly once"
+}

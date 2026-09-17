@@ -1,0 +1,15 @@
+{
+  "exact_authorization_record": "data/manifests/p21_cloud_authorization_exact_2026-09-11_v0.1.lock.json",
+  "exact_authorization_record_sha256": "9ed14c3429171a2e8caef21c6a5283106d76120d5950c32d22ad86aabd168b0d",
+  "experiment_id": "P21-V30-UNSEEN-LOCKBOX-V01",
+  "inference_allowed": true,
+  "integrity_gate_result": "data/results/p21_v30_local_readiness_v0.1.lock.json",
+  "integrity_gate_result_sha256": "e32812ede42c96ad5161703fef43ce8cec71d79ecc31553da8f2edc50964bfd2",
+  "posthoc_semantic_repair_allowed": false,
+  "schema_version": "3.0",
+  "silent_retry_allowed": false,
+  "single_attempt_per_stage": true,
+  "status": "released_after_exact_cloud_authorization",
+  "structural_task_pack": "data/tasks/p21_local_execution_task_pack_v0.1.lock.json",
+  "structural_task_pack_sha256": "ce1179d47a0c01cf20c09f92886be0546e2ed5c7aad08c5418305ffba085e26a"
+}

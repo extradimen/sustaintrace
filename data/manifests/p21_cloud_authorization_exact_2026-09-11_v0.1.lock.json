@@ -1,0 +1,33 @@
+{
+  "authorization_does_not_cover_other_reports_or_pages": true,
+  "authorization_source": "current_thread_exact_user_message",
+  "authorized_at": "2026-09-11T14:43:44.747459+00:00",
+  "document_id": "P21-BASF-AR2025",
+  "document_sha256": "6fa0a9f60a3149e585a5b52f06efde1e0aaa5d1156da0d71a1fd40822df7f8b7",
+  "experiment_id": "P21-V30-UNSEEN-LOCKBOX-V01",
+  "experiment_scope": "P21 Stage A/Stage B single-attempt candidate inference",
+  "model": "qwen3.5:397b-cloud",
+  "pages": [
+    192,
+    194,
+    195,
+    242,
+    245,
+    262,
+    263,
+    433,
+    434,
+    436
+  ],
+  "posthoc_semantic_repair_allowed": false,
+  "report": "BASF Report 2025",
+  "schema_version": "3.0",
+  "silent_retry_allowed": false,
+  "single_attempt_only": true,
+  "stage_scope": [
+    "Stage A",
+    "Stage B"
+  ],
+  "status": "authorized_by_user",
+  "user_message": "我授权将 BASF Report 2025 第192、194、195、242、245、262、263、433、434、436页的冻结证据发送至 Ollama Cloud 的 qwen3.5:397b-cloud，仅用于 P21 Stage A/Stage B 单次候选推理。"
+}

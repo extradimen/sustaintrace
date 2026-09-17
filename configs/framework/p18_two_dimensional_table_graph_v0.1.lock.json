@@ -1,0 +1,181 @@
+{
+  "experiment_id": "P18-V27-UNSEEN-LOCKBOX-V01",
+  "graphs": [
+    {
+      "graph_id": "P18-WORKFORCE-P109",
+      "header_axis": [
+        "2025",
+        "2024"
+      ],
+      "pdf_page": 109,
+      "row_axis": [
+        "Germany",
+        "International",
+        "Total number of employees"
+      ],
+      "selected_cells": [
+        [
+          "Germany",
+          "2025",
+          70751
+        ],
+        [
+          "International",
+          "2025",
+          127327
+        ],
+        [
+          "Total number of employees",
+          "2025",
+          198079
+        ],
+        [
+          "Germany",
+          "2024",
+          74550
+        ],
+        [
+          "International",
+          "2024",
+          123644
+        ],
+        [
+          "Total number of employees",
+          "2024",
+          198194
+        ]
+      ]
+    },
+    {
+      "graph_id": "P18-ENERGY-P131",
+      "header_axis": [
+        "2025",
+        "2024"
+      ],
+      "pdf_page": 131,
+      "row_axis": [
+        "fossil",
+        "renewable",
+        "self-generated non-fuel renewable",
+        "total"
+      ],
+      "selected_cells": [
+        [
+          "fossil",
+          "2025",
+          812912
+        ],
+        [
+          "renewable",
+          "2025",
+          11144078
+        ],
+        [
+          "self-generated non-fuel renewable",
+          "2025",
+          13905
+        ],
+        [
+          "total",
+          "2025",
+          11956990
+        ]
+      ]
+    },
+    {
+      "graph_id": "P18-GHG-P133",
+      "header_axis": [
+        "2025",
+        "2024"
+      ],
+      "pdf_page": 133,
+      "row_axis": [
+        "Scope 1+2 market-based",
+        "Scope 1",
+        "Scope 2 market-based",
+        "Scope 3 total",
+        "Scope 3 upstream",
+        "Scope 3 downstream"
+      ],
+      "selected_cells": [
+        [
+          "Scope 1+2 market-based",
+          "2025",
+          240165
+        ],
+        [
+          "Scope 1",
+          "2025",
+          223790
+        ],
+        [
+          "Scope 2 market-based",
+          "2025",
+          16375
+        ],
+        [
+          "Scope 3 total",
+          "2025",
+          8507234
+        ],
+        [
+          "Scope 3 upstream",
+          "2025",
+          5861714
+        ],
+        [
+          "Scope 3 downstream",
+          "2025",
+          2645520
+        ]
+      ]
+    },
+    {
+      "graph_id": "P18-TAXONOMY-P123",
+      "header_axis": [
+        "total 2025",
+        "eligible %",
+        "aligned EURm",
+        "aligned %",
+        "not assessed non-material %",
+        "aligned EURm 2024",
+        "aligned % 2024"
+      ],
+      "pdf_page": 123,
+      "row_axis": [
+        "Turnover",
+        "Capex",
+        "Opex"
+      ],
+      "selected_cells": [
+        [
+          "Turnover",
+          "total 2025",
+          119081
+        ],
+        [
+          "Turnover",
+          "not assessed non-material %",
+          2.5
+        ],
+        [
+          "Capex",
+          "total 2025",
+          29478
+        ],
+        [
+          "Capex",
+          "not assessed non-material %",
+          1.6
+        ],
+        [
+          "Opex",
+          "total 2025",
+          3198
+        ]
+      ]
+    }
+  ],
+  "schema_version": "2.7",
+  "status": "frozen_before_candidate_inference"
+}

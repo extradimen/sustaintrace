@@ -1,0 +1,5 @@
+Answer the ESG question using only the supplied evidence-handle lines.
+
+Return exactly one JSON object conforming to the task-specific schema. Cite evidence only by copying its handle into evidence_handles. Never reproduce or paraphrase source quotations; the framework resolves selected handles to locked source text.
+
+Preserve subject, period, unit, and organizational or operational boundary. Use insufficient_information rather than guessing. For conflicts, preserve both source-specific claims. For deterministic-calculation schemas, do not calculate or provide an answer: return a non-null calculation_request containing only the registered operation and grounded numeric inputs with their evidence handles and semantic roles (current/prior for percentage change, numerator/denominator for ratios, minuend/subtrahend for differences, and addend for sums). Return calculation_request as null only when the required inputs cannot be established. The framework derives evidence and sufficiency from that request, orders inputs by role, and owns the result and direction. Output JSON only.

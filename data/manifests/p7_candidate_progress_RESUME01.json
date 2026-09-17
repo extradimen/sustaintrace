@@ -1,0 +1,29 @@
+{
+  "experiment_id": "P7-V16-UNSEEN-LOCKBOX-V01-RESUME01",
+  "parent_experiment_id": "P7-V16-UNSEEN-LOCKBOX-V01",
+  "records": [
+    {
+      "retried_for_infrastructure_only": true,
+      "stage_a": "passed",
+      "stage_a_result": {
+        "archive_directory": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P7-V16-UNSEEN-LOCKBOX-V01-RESUME01/runs/P7-SAFETY-001-QWEN397B-v16-stage-a-RESUME01",
+        "elapsed_seconds": 8.751125667011365,
+        "framework_evidence_state": "supported",
+        "model": "qwen3.5:397b-cloud",
+        "run_id": "P7-SAFETY-001-QWEN397B-v16-stage-a-RESUME01",
+        "task_id": "P7-SAFETY-001"
+      },
+      "stage_b": "passed",
+      "stage_b_result": {
+        "archive_directory": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P7-V16-UNSEEN-LOCKBOX-V01-RESUME01/runs/P7-SAFETY-001-QWEN397B-v16-stage-b-RESUME01",
+        "elapsed_seconds": 48.86371916599455,
+        "run_id": "P7-SAFETY-001-QWEN397B-v16-stage-b-RESUME01",
+        "task_id": "P7-SAFETY-001",
+        "validated_claim_count": 4
+      },
+      "task_id": "P7-SAFETY-001"
+    }
+  ],
+  "schema_version": "1.0",
+  "updated_at": "2026-09-05T13:46:50.512852+00:00"
+}

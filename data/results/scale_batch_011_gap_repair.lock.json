@@ -1,0 +1,35 @@
+{
+  "batch_id": "KB-SCALE-BATCH-011-GAP-REPAIR01",
+  "native_page_text_sha256": {
+    "KB-B011-DB-AR2025:p341": "7375afab5c2e844f86bdadbebeaf12da24b959ad60408d5f377601cf3808d5da",
+    "KB-B011-DB-AR2025:p427": "0f738767c5736cd6be6611a626fd5873679734e4aa0b61c5cd07d791f6afd7c1",
+    "KB-B011-DB-AR2025:p435": "77d0f05cc5e9de04ab5efa5da2b7c219856abc05fda6a8eab54e827f38c4c03c",
+    "KB-B011-DSMF-SS2025:p3": "f06384b5a1001012b588886fee18bfa2d9b3daff142653c2028479a4851c5cb1",
+    "KB-B011-DSMF-SS2025:p30": "38c5255d89473f538031a62438b89a99f96914814f09cbbd690cc3f94e3f97d5",
+    "KB-B011-DSMF-SS2025:p89": "474067c3f4bd443f69bf115e53317e02cac9143a9e3107547d25c0521ad59509",
+    "KB-B011-ENI-SS2025:p33": "10db846ce609f96b4a1c1c0323510e8083671d47328129bed1ebf26f55e1267b",
+    "KB-B011-ENI-SS2025:p8": "369019a22ce1d65b219fdf76d469df4b7b276786014aba502f26e79d998f5cf7"
+  },
+  "new_fact_candidates": 8,
+  "new_failure_observations": 0,
+  "outputs": {
+    "facts": {
+      "path": "data/knowledge_bases/v0.1/increments/scale_batch_011_gap_repair_fact_records.jsonl",
+      "sha256": "00eb52d8ab05f2a3baf98fc5268b5a5a1b1373160ec99c99213f7c0fb8cf1fcb"
+    },
+    "failures": {
+      "path": "data/knowledge_bases/v0.1/increments/scale_batch_011_gap_repair_failure_records.jsonl",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  "parent_gaps": 8,
+  "policy": {
+    "automatic_promotion": false,
+    "cloud_transmission": false,
+    "parent_results_overwritten": false
+  },
+  "promoted_tier_b": 0,
+  "resolved_native_pdf_filter_gaps": 8,
+  "schema_version": "0.1",
+  "status": "all_native_pdf_line_filter_gaps_resolved_as_candidates_not_promoted"
+}

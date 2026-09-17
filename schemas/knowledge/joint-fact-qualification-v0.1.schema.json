@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/esg-reliable-discovery/joint-fact-qualification-v0.1.schema.json",
+  "title": "Joint fact qualification audit v0.1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version", "record_kind", "fact_record_id", "task_id",
+    "field_binding_status", "period_binding", "unit_binding", "boundary_binding",
+    "value_origin", "calculation_lineage", "table_cell_binding",
+    "qualification_status", "promotion_decision"
+  ],
+  "properties": {
+    "schema_version": {"const": "0.1"},
+    "record_kind": {"const": "joint_fact_qualification"},
+    "fact_record_id": {"type": "string", "pattern": "^fact-[0-9a-f]{24}$"},
+    "task_id": {"type": "string", "minLength": 1},
+    "field_binding_status": {"type": "string", "minLength": 1},
+    "period_binding": {"$ref": "#/$defs/check"},
+    "unit_binding": {"$ref": "#/$defs/check"},
+    "boundary_binding": {"$ref": "#/$defs/check"},
+    "value_origin": {"enum": ["direct_source_candidate", "deterministically_derived_candidate", "legacy_expression_candidate"]},
+    "calculation_lineage": {"$ref": "#/$defs/check"},
+    "table_cell_binding": {
+      "allOf": [
+        {"$ref": "#/$defs/check"},
+        {"type": "object", "properties": {"matches": {"type": "array", "items": {"type": "object", "additionalProperties": true}}}}
+      ]
+    },
+    "qualification_status": {"enum": ["jointly_qualified_candidate", "incomplete_qualification", "not_applicable_non_scalar"]},
+    "promotion_decision": {
+      "type": "object", "additionalProperties": false,
+      "required": ["eligible", "target_tier", "reason"],
+      "properties": {
+        "eligible": {"const": false},
+        "target_tier": {"const": "B"},
+        "reason": {"type": "string", "minLength": 1}
+      }
+    }
+  },
+  "$defs": {
+    "check": {
+      "type": "object", "additionalProperties": true,
+      "required": ["status", "reason"],
+      "properties": {
+        "status": {"type": "string", "minLength": 1},
+        "reason": {"type": "string", "minLength": 1}
+      }
+    }
+  }
+}

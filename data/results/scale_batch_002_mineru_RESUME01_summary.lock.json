@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-002-MINERU-RESUME01",
+  "updated_at": "2026-09-12T15:28:55.576740+00:00",
+  "status": "complete",
+  "cloud_transmission": false,
+  "total_target_pages": 4,
+  "complete_pages": 4,
+  "failed_pages": 0,
+  "pending_pages": 0,
+  "records": [
+    {
+      "document_id": "KB-B002-EON-SF2025",
+      "page": 31,
+      "themes": [
+        "circularity"
+      ],
+      "output_directory": "artifacts/scale_batch_002/mineru_targets_RESUME01/KB-B002-EON-SF2025-p0031",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B002-MAERSK-AR2025",
+      "page": 61,
+      "themes": [
+        "water"
+      ],
+      "output_directory": "artifacts/scale_batch_002/mineru_targets_RESUME01/KB-B002-MAERSK-AR2025-p0061",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B002-MAERSK-AR2025",
+      "page": 98,
+      "themes": [
+        "health_safety"
+      ],
+      "output_directory": "artifacts/scale_batch_002/mineru_targets_RESUME01/KB-B002-MAERSK-AR2025-p0098",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B002-MAERSK-AR2025",
+      "page": 182,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_002/mineru_targets_RESUME01/KB-B002-MAERSK-AR2025-p0182",
+      "status": "complete"
+    }
+  ]
+}

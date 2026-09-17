@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0",
+  "audit_id": "P1-SOURCE-ACQUISITION-2026-09-03",
+  "status": "partial_candidate_pool_not_frozen",
+  "attempted": 8,
+  "downloaded_and_verified": 4,
+  "failed": 4,
+  "verified_documents": [
+    {"document_id": "BASF-AR-2024", "pages": 477, "sha256": "6e09f996af8866f1a4a30df24f8c8447083282526e4800c83885c245bb33cc1c"},
+    {"document_id": "HITACHI-SR-2024", "pages": 217, "sha256": "f1415cbb31a4ada7af2dcbd7e6ed13524e4bff8059173e7e1bc9ad120561e6b1"},
+    {"document_id": "CRM-IR-2024", "pages": 111, "sha256": "1cdd2fade9f3aca498fb0e4b24f59112f2f6f065ece09c6a6771cda854e9fb80"},
+    {"document_id": "SAMSUNG-SR-2024", "pages": 83, "sha256": "10e8067428e488958c8558c831cfa4145e84865a372943040e47093852135d18"}
+  ],
+  "failed_attempts": [
+    {"document_id": "BP-SR-2024", "failure_class": "non_pdf_response"},
+    {"document_id": "FORD-ISR-2024", "failure_class": "network_timeout"},
+    {"document_id": "BHP-AR-2024", "failure_class": "http_403"},
+    {"document_id": "ADBE-CSR-2024", "failure_class": "network_timeout"}
+  ],
+  "quality_checks": {
+    "sha256_recorded": true,
+    "page_count_recorded": true,
+    "text_layer_minimum_1000_characters": true,
+    "representative_pages_checked": 12,
+    "representative_page_visual_review": "passed",
+    "partial_files_remaining": false,
+    "registry_acquisition_provenance_match": true,
+    "full_test_suite": "74 passed",
+    "ruff": "passed"
+  },
+  "registry_sha256": "ac18a34295b57661caff59ba3e698c12b7477d6c32f294792a3d5dba53257d9d",
+  "acquisition_manifest_sha256": "8bd980272f24c2288f9118a288c66e243394b521016730810e62718ea87ddcff",
+  "p1_inference_allowed": false,
+  "remaining_source_requirement": "At least eight more eligible reports, while satisfying four per stratum and three per required region."
+}

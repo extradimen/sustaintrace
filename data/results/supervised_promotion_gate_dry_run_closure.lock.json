@@ -1,0 +1,37 @@
+{
+  "schema_version": "0.1",
+  "record_kind": "promotion_gate_dry_run_closure",
+  "status": "supervised_promotion_gate_dry_run_complete",
+  "outcome": {
+    "cases": 6,
+    "eligible": 3,
+    "blocked": 3,
+    "expected_decisions_matched": 6,
+    "positive_controls": {
+      "count": 3,
+      "distinct_reports": 3,
+      "eligible": 3
+    },
+    "tier_c_candidates": {
+      "count": 3,
+      "blocked": 3,
+      "categories": ["table", "calculation", "ambiguous_period"]
+    }
+  },
+  "principal_finding": "component diagnostics can demonstrate a repair, but the current fact and gap records do not yet contain a signed postvalidation attachment that lets the promotion gate consume that evidence; therefore repaired Tier C facts correctly remain blocked",
+  "artifacts": [
+    {"path": "data/manifests/supervised_promotion_gate_dry_run_v0.1.lock.json", "sha256": "24f516265e32288eb91e9b2aa339d4ddc9939f80149b5d299951d9fb28e3f539"},
+    {"path": "artifacts/supervised_promotion_gate_dry_run_v0.1/dry_run_summary.lock.json", "sha256": "ae2f419d1a5034628c46f1b0daaa4e729a0126a022ec3535dc9753ada6223e3f"},
+    {"path": "scripts/run_supervised_promotion_gate_dry_run_v01.py", "sha256": "c6fcc87d711c22cfc4b767fd1e92ac78909b4f83794a7991d2941df82171842c"},
+    {"path": "src/esg_reliable_discovery/promotion_gate.py", "sha256": "5b6f224e6c3835e2b60af11c1de7bbd572005debb53f81707a5feb1ead56cd44"},
+    {"path": "tests/test_promotion_gate_dry_run_v01.py", "sha256": "45766b4bf05941736cb80a933679e879fb702dbcd5932266c478f1bae7782a62"}
+  ],
+  "safety": {
+    "promotion_performed": false,
+    "fact_write_performed": false,
+    "trusted_layer_modified": false,
+    "historical_results_modified": false,
+    "cloud_transmission_performed": false
+  },
+  "next_gate": "design a signed diagnostic-to-qualification attachment interface and validate it without changing parent facts or gaps"
+}

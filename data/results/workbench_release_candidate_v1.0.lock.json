@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0",
+  "record_kind": "workbench_release_candidate_acceptance",
+  "release_candidate": "v1.0",
+  "frozen_at": "2026-09-17T03:45:16Z",
+  "decision": "pass",
+  "job_id": "WB-20260917T032901Z-44fdf0c0",
+  "source": {
+    "path": "output/pdf/esg_workbench_smoke_fixture.pdf",
+    "sha256": "0da4c41a165a1556e99c9c88595e18a7cff722e19ae95de56671676497a88ad2",
+    "synthetic": true,
+    "cloud_transfer_performed": false
+  },
+  "recovery": {
+    "mineru_failure_preserved": true,
+    "mineru_repeated_on_resume": false,
+    "fallback": "poppler_pdftotext_bbox_layout",
+    "fallback_completed": true,
+    "page_blocks": 1,
+    "visible_lines": 16
+  },
+  "analysis": {
+    "candidate_records": 1,
+    "atomic_fact_candidates": 4,
+    "projection_validated_candidates": 0,
+    "projection_quarantined": 4,
+    "repair_executions_rolled_back": 4,
+    "trusted_promotions": 0
+  },
+  "verification": {
+    "pytest": {"status": "passed", "tests": 585},
+    "ruff": {"status": "passed", "scope": "repository"},
+    "frontend_eslint": {"status": "passed"},
+    "frontend_build": {"status": "passed"},
+    "ui_acceptance": {"status": "passed"},
+    "api_health": {"status": "healthy"},
+    "ui_health": {"status": "healthy"}
+  },
+  "artifact_sha256": {
+    "native_fallback_module": "c8c84ed0ac5eb17469382a52836dec378d000e4d5df1b54446c6c0c58b11298d",
+    "workbench_api": "a94d0695b9c4b867bfaf7fa567bf949d829230bf4207aa7df3405c8fb286d32b",
+    "fallback_tests": "60d38090ef7c6345b2f326ce4cf9d360242bcf9c7dd85da329eac758ce17afc9",
+    "mineru_failure_audit": "accad034e3e387c813c7e72d4ba186297785ec6fd7e0ac59783c18472e1941fc",
+    "native_fallback_audit": "0348fa3e1f9f9c6daaaca1840f043d218ecb123e5e68407addeef5c104c90c40"
+  },
+  "policy": {
+    "locked_experiments_modified": false,
+    "trusted_knowledge_modified_by_smoke_test": false,
+    "fail_closed": true,
+    "completed_jobs_are_never_restarted": true
+  }
+}

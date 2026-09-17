@@ -1,0 +1,242 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-004-MINERU-RESUME01",
+  "updated_at": "2026-09-12T16:48:51.285520+00:00",
+  "status": "complete",
+  "cloud_transmission": false,
+  "total_target_pages": 25,
+  "complete_pages": 23,
+  "failed_pages": 2,
+  "pending_pages": 0,
+  "records": [
+    {
+      "document_id": "KB-B004-PHILIPS-AR2025",
+      "page": 47,
+      "themes": [
+        "biodiversity"
+      ],
+      "output_directory": "artifacts/scale_batch_004/mineru_targets_RESUME01/KB-B004-PHILIPS-AR2025-p0047",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B004-PHILIPS-AR2025",
+      "page": 188,
+      "themes": [
+        "energy"
+      ],
+      "output_directory": "artifacts/scale_batch_004/mineru_targets_RESUME01/KB-B004-PHILIPS-AR2025-p0188",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B004-PHILIPS-AR2025",
+      "page": 189,
+      "themes": [
+        "ghg_emissions"
+      ],
+      "output_directory": "artifacts/scale_batch_004/mineru_targets_RESUME01/KB-B004-PHILIPS-AR2025-p0189",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B004-PHILIPS-AR2025",
+      "page": 210,
+      "themes": [
+        "water"
+      ],
+      "output_directory": "artifacts/scale_batch_004/mineru_targets_RESUME01/KB-B004-PHILIPS-AR2025-p0210",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_004/mineru_targets_RESUME01/KB-B004-PHILIPS-AR2025-p0210/esg_rd_mineru_run.json"
+    },
+    {
+      "document_id": "KB-B004-PHILIPS-AR2025",
+      "page": 221,
+      "themes": [
+        "workforce"
+      ],
+      "output_directory": "artifacts/scale_batch_004/mineru_targets_RESUME01/KB-B004-PHILIPS-AR2025-p0221",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_004/mineru_targets_RESUME01/KB-B004-PHILIPS-AR2025-p0221/esg_rd_mineru_run.json"
+    },
+    {
+      "document_id": "KB-B004-PHILIPS-AR2025",
+      "page": 225,
+      "themes": [
+        "health_safety"
+      ],
+      "output_directory": "artifacts/scale_batch_004/mineru_targets_RESUME01/KB-B004-PHILIPS-AR2025-p0225",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B004-PHILIPS-AR2025",
+      "page": 233,
+      "themes": [
+        "targets"
+      ],
+      "output_directory": "artifacts/scale_batch_004/mineru_targets_RESUME01/KB-B004-PHILIPS-AR2025-p0233",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B004-PHILIPS-AR2025",
+      "page": 244,
+      "themes": [
+        "circularity"
+      ],
+      "output_directory": "artifacts/scale_batch_004/mineru_targets_RESUME01/KB-B004-PHILIPS-AR2025-p0244",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B004-PHILIPS-AR2025",
+      "page": 245,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_004/mineru_targets_RESUME01/KB-B004-PHILIPS-AR2025-p0245",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B004-MONDI-SDR2025",
+      "page": 37,
+      "themes": [
+        "circularity"
+      ],
+      "output_directory": "artifacts/scale_batch_004/mineru_targets_RESUME01/KB-B004-MONDI-SDR2025-p0037",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B004-MONDI-SDR2025",
+      "page": 46,
+      "themes": [
+        "workforce"
+      ],
+      "output_directory": "artifacts/scale_batch_004/mineru_targets_RESUME01/KB-B004-MONDI-SDR2025-p0046",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B004-MONDI-SDR2025",
+      "page": 48,
+      "themes": [
+        "health_safety"
+      ],
+      "output_directory": "artifacts/scale_batch_004/mineru_targets_RESUME01/KB-B004-MONDI-SDR2025-p0048",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B004-MONDI-SDR2025",
+      "page": 57,
+      "themes": [
+        "targets"
+      ],
+      "output_directory": "artifacts/scale_batch_004/mineru_targets_RESUME01/KB-B004-MONDI-SDR2025-p0057",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B004-MONDI-SDR2025",
+      "page": 64,
+      "themes": [
+        "energy",
+        "ghg_emissions"
+      ],
+      "output_directory": "artifacts/scale_batch_004/mineru_targets_RESUME01/KB-B004-MONDI-SDR2025-p0064",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B004-MONDI-SDR2025",
+      "page": 71,
+      "themes": [
+        "biodiversity"
+      ],
+      "output_directory": "artifacts/scale_batch_004/mineru_targets_RESUME01/KB-B004-MONDI-SDR2025-p0071",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B004-MONDI-SDR2025",
+      "page": 81,
+      "themes": [
+        "water"
+      ],
+      "output_directory": "artifacts/scale_batch_004/mineru_targets_RESUME01/KB-B004-MONDI-SDR2025-p0081",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B004-MONDI-SDR2025",
+      "page": 107,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_004/mineru_targets_RESUME01/KB-B004-MONDI-SDR2025-p0107",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B004-AIRLIQUIDE-URD2025",
+      "page": 311,
+      "themes": [
+        "targets"
+      ],
+      "output_directory": "artifacts/scale_batch_004/mineru_targets_RESUME01/KB-B004-AIRLIQUIDE-URD2025-p0311",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B004-AIRLIQUIDE-URD2025",
+      "page": 319,
+      "themes": [
+        "ghg_emissions"
+      ],
+      "output_directory": "artifacts/scale_batch_004/mineru_targets_RESUME01/KB-B004-AIRLIQUIDE-URD2025-p0319",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B004-AIRLIQUIDE-URD2025",
+      "page": 324,
+      "themes": [
+        "energy"
+      ],
+      "output_directory": "artifacts/scale_batch_004/mineru_targets_RESUME01/KB-B004-AIRLIQUIDE-URD2025-p0324",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B004-AIRLIQUIDE-URD2025",
+      "page": 328,
+      "themes": [
+        "water"
+      ],
+      "output_directory": "artifacts/scale_batch_004/mineru_targets_RESUME01/KB-B004-AIRLIQUIDE-URD2025-p0328",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B004-AIRLIQUIDE-URD2025",
+      "page": 330,
+      "themes": [
+        "biodiversity",
+        "circularity"
+      ],
+      "output_directory": "artifacts/scale_batch_004/mineru_targets_RESUME01/KB-B004-AIRLIQUIDE-URD2025-p0330",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B004-AIRLIQUIDE-URD2025",
+      "page": 331,
+      "themes": [
+        "workforce"
+      ],
+      "output_directory": "artifacts/scale_batch_004/mineru_targets_RESUME01/KB-B004-AIRLIQUIDE-URD2025-p0331",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B004-AIRLIQUIDE-URD2025",
+      "page": 339,
+      "themes": [
+        "health_safety"
+      ],
+      "output_directory": "artifacts/scale_batch_004/mineru_targets_RESUME01/KB-B004-AIRLIQUIDE-URD2025-p0339",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B004-AIRLIQUIDE-URD2025",
+      "page": 365,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_004/mineru_targets_RESUME01/KB-B004-AIRLIQUIDE-URD2025-p0365",
+      "status": "complete"
+    }
+  ]
+}

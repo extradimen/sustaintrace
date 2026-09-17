@@ -1,0 +1,78 @@
+{
+  "batch_id": "KB-SCALE-BATCH-012-PERFORMANCE",
+  "comparison_parent": "data/results/scale_batch_011_performance_baseline.lock.json",
+  "completed_at": "2026-09-13T06:16:11.418041+00:00",
+  "mineru": {
+    "checkpoint_reuse_pages": 24,
+    "final_complete_pages": 26,
+    "initial_attempt_wall_seconds": 475.097729,
+    "initial_failures": 2,
+    "post_completion_shutdown_failures": 2,
+    "resume01_failures": 2,
+    "resume01_wall_seconds": 0,
+    "resume02_failures": 0,
+    "resume02_wall_seconds": 33.939781,
+    "status": "complete",
+    "successful_processing_wall_seconds": 478.298761,
+    "successful_target_pages": 26,
+    "successful_target_pages_per_hour": 195.693587,
+    "target_page_wall_seconds": {
+      "KB-B012-AIR-LIQUIDE-URD2025:p0311": 20.716739,
+      "KB-B012-AIR-LIQUIDE-URD2025:p0319": 17.086854,
+      "KB-B012-AIR-LIQUIDE-URD2025:p0324": 18.774767,
+      "KB-B012-AIR-LIQUIDE-URD2025:p0328": 15.99338,
+      "KB-B012-AIR-LIQUIDE-URD2025:p0330": 15.761205,
+      "KB-B012-AIR-LIQUIDE-URD2025:p0331": 16.856976,
+      "KB-B012-AIR-LIQUIDE-URD2025:p0339": 15.796929,
+      "KB-B012-AIR-LIQUIDE-URD2025:p0365": 14.782465,
+      "KB-B012-STORA-ENSO-AR2025:p0095": 17.710008,
+      "KB-B012-STORA-ENSO-AR2025:p0097": 17.7799,
+      "KB-B012-STORA-ENSO-AR2025:p0099": 17.928734,
+      "KB-B012-STORA-ENSO-AR2025:p0105": 16.838745,
+      "KB-B012-STORA-ENSO-AR2025:p0108": 16.960638,
+      "KB-B012-STORA-ENSO-AR2025:p0113": 18.207229,
+      "KB-B012-STORA-ENSO-AR2025:p0120": 21.720202,
+      "KB-B012-STORA-ENSO-AR2025:p0121": 22.241495,
+      "KB-B012-STORA-ENSO-AR2025:p0213": 18.733254,
+      "KB-B012-VINCI-URD2025:p0229": 16.820818,
+      "KB-B012-VINCI-URD2025:p0242": 20.38119,
+      "KB-B012-VINCI-URD2025:p0243": 29.491871,
+      "KB-B012-VINCI-URD2025:p0249": 21.624967,
+      "KB-B012-VINCI-URD2025:p0254": 17.388531,
+      "KB-B012-VINCI-URD2025:p0256": 17.13334,
+      "KB-B012-VINCI-URD2025:p0271": 18.874832,
+      "KB-B012-VINCI-URD2025:p0278": 17.118963,
+      "KB-B012-VINCI-URD2025:p0348": 15.574729
+    },
+    "total_attempt_wall_seconds": 509.03751
+  },
+  "mineru_comparison": {
+    "batch_011_pages_per_hour": 87.248608,
+    "batch_012_pages_per_hour": 195.693587,
+    "interpretation_gate": "throughput_only_quality_measured_separately",
+    "relative_change_percent": 124.294
+  },
+  "policy": {
+    "cloud_transmission": false,
+    "locked_experiments_modified": false,
+    "performance_separate_from_knowledge_quality": true
+  },
+  "provisional_comparison": {
+    "batch_011_pages_per_second": 442.100478,
+    "batch_012_pages_per_second": 286.293031,
+    "interpretation_gate": "diagnostic_only_not_semantic_quality_or_mineru_speed",
+    "relative_change_percent": -35.243
+  },
+  "schema_version": "0.1",
+  "started_at": "2026-09-13T06:16:07.466714+00:00",
+  "status": "diagnostic_and_mineru_baseline_complete",
+  "whole_report_diagnostic": {
+    "documents": 3,
+    "extractable_pages": 1120,
+    "pages_per_second": 286.293031,
+    "pdf_pages": 1131,
+    "peak_rss_bytes": 53690368,
+    "peak_rss_mb": 51.203,
+    "wall_seconds": 3.950498
+  }
+}

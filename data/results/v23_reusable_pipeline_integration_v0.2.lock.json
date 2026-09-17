@@ -1,0 +1,27 @@
+{
+  "schema_version": "2.3",
+  "status": "reusable_pipeline_integration_passed",
+  "parent": "data/results/v23_p13_exposed_failure_development_v0.1.lock.json",
+  "locked_experiments_modified_or_rerun": false,
+  "integration": {
+    "stage_a_framework_owned_calculation_plan": true,
+    "candidate_visible_operation_field_removed_when_v23_plan_selected": true,
+    "stage_b_ordered_multi_handle_string_span": true,
+    "legacy_default_paths_unchanged": true,
+    "v22_same_path_preflight_supports_v23_ordered_spans": true
+  },
+  "validation": {
+    "targeted_tests": "18 passed",
+    "full_pytest": "240 passed",
+    "ruff": "passed",
+    "json": "passed"
+  },
+  "artifact_sha256": {
+    "v23_preflight": "f0f4dc198ce340612351a57841a30fb8b67ead2a3c06bc66c4910747a2f5064c",
+    "stage_b_projector": "10378fc981d36d62dbf991420a943c70e2b7b72c59baf778f741cf4b29393b0a",
+    "stage_a_runner": "e03c5d9014a6487b24e3510663b2bde11d61d42ab1b9d3c71070f94237b133e2",
+    "same_path_preflight": "16c9be388eb3df562bfc4a8e231d23580fa153d530e4decdba64a7112eaad8cd",
+    "regression_tests": "e1c45f6ac7068053ac16676697d7af755bd2388ec0af0a7684441bf23d1deede"
+  },
+  "next_gate": "select and locally freeze a report not used in P1 through P13 for P14"
+}

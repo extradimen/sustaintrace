@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-009-RESUME01",
+  "updated_at": "2026-09-13T02:19:36.073123+00:00",
+  "status": "complete",
+  "cloud_transmission": false,
+  "total_target_pages": 4,
+  "complete_pages": 4,
+  "failed_pages": 0,
+  "pending_pages": 0,
+  "records": [
+    {
+      "document_id": "KB-B009-ORSTED-AR2025",
+      "page": 79,
+      "themes": [
+        "ghg_emissions"
+      ],
+      "output_directory": "artifacts/scale_batch_009/mineru_targets_RESUME01/KB-B009-ORSTED-AR2025-p0079",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B009-ORSTED-AR2025",
+      "page": 89,
+      "themes": [
+        "circularity"
+      ],
+      "output_directory": "artifacts/scale_batch_009/mineru_targets_RESUME01/KB-B009-ORSTED-AR2025-p0089",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B009-ORSTED-AR2025",
+      "page": 94,
+      "themes": [
+        "workforce"
+      ],
+      "output_directory": "artifacts/scale_batch_009/mineru_targets_RESUME01/KB-B009-ORSTED-AR2025-p0094",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B009-CARLSBERG-AR2025",
+      "page": 66,
+      "themes": [
+        "ghg_emissions"
+      ],
+      "output_directory": "artifacts/scale_batch_009/mineru_targets_RESUME01/KB-B009-CARLSBERG-AR2025-p0066",
+      "status": "complete"
+    }
+  ]
+}

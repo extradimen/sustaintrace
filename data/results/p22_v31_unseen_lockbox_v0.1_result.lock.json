@@ -1,0 +1,106 @@
+{
+  "artifacts": {
+    "authorization": {
+      "path": "data/manifests/p22_cloud_authorization_exact_2026-09-12_v0.1.lock.json",
+      "sha256": "bc550b64f828ab9c27c1c6506d1473dc340ae4b0e37f39811b8b321eea73f4af"
+    },
+    "dimension_scores": {
+      "path": "data/results/p22_v31_dimension_scores_v0.1.lock.json",
+      "sha256": "1ef85d082b0041e72cc5806ffe23c405f98ba7f7289f1911269a895d1cef3092"
+    },
+    "execution_release": {
+      "path": "data/tasks/p22_execution_release_RESUME01_v0.1.lock.json",
+      "sha256": "e4019ab889ba0487d76c4f7cd0d489e5a3d4ce15777aab97e4aa2397a35fca81"
+    },
+    "local_readiness": {
+      "path": "data/results/p22_v31_local_readiness_v0.1.lock.json",
+      "sha256": "bb36e3f4a2f5fa1e680509c8b08c10c2b8c728b27d23404f4476011abb9b7957"
+    },
+    "mineru_registry": {
+      "path": "data/manifests/p22_mineru_target_registry_v0.1.lock.json",
+      "sha256": "2c1b8864009162642477ee8f8e60e540a1f1b3f7d9ef82d7eb60ca45a7fe1962"
+    },
+    "progress": {
+      "path": "data/manifests/p22_candidate_progress.json",
+      "sha256": "47c5b99ab9026d15cdad7fbd9a997edddeef6ab0b8854dc72187944478932c72"
+    }
+  },
+  "candidate_model": "qwen3.5:397b-cloud",
+  "candidate_stage_a_calls": 6,
+  "candidate_stage_b_calls": 2,
+  "decision": "P22_COMPLETED_LOCKED_NOT_ELIGIBLE_FOR_MODEL_PERFORMANCE_OR_CROSS_VERSION_AGGREGATE_SCORE",
+  "experiment_id": "P22-V31-UNSEEN-LOCKBOX-V01",
+  "integrity_finding": {
+    "affected_tasks": [
+      "P22-ENERGY-CALC-001",
+      "P22-GHG-CALC-001",
+      "P22-WATER-CALC-001",
+      "P22-SAFETY-CALC-001"
+    ],
+    "candidate_conduct": "All four affected candidates emitted schema-valid exact aliases; alias decoding passed and the outer canonical-handle audit reported no invalid handles.",
+    "recorded_taxonomy_limitation": "The run wrapper recorded these as model_behavior because the runner raised a generic OllamaError after the model call. The locked progress record is preserved; this final audit supersedes only the responsibility interpretation, not the raw result.",
+    "recovery_policy": "No cloud retry and no posthoc completion of P22. Use the exposed failure only to develop v3.2, then evaluate on a new unseen lockbox.",
+    "root_cause": "After v3.1 exact alias decoding and a successful canonical handle audit, the calculation adapter received the alias handle set instead of the canonical handle set and rejected the decoded canonical handles."
+  },
+  "posthoc_semantic_repair": false,
+  "reference_visible_to_candidate": false,
+  "schema_version": "3.1",
+  "scoring": {
+    "aggregate_score": null,
+    "credited_valid_slots": 28,
+    "literal_or_numeric_exact_slots": 16,
+    "numeric_exact_slots": 14,
+    "required_atomic_slots": 97,
+    "text_literal_exact_slots": 2,
+    "text_normalized_exact_slots": 2,
+    "verified_run_archives": 8
+  },
+  "silent_retry": false,
+  "single_candidate_attempt_per_behavioral_stage": true,
+  "stage_a": {
+    "framework_integrity_review_failed": 4,
+    "framework_integrity_review_passed": 2,
+    "model_behavior_failed": 0,
+    "recorded_failed": 4,
+    "recorded_passed": 2
+  },
+  "stage_b": {
+    "eligible_tasks": 2,
+    "failed": 0,
+    "passed": 2
+  },
+  "status": "completed_and_scored_with_four_framework_validation_order_failures",
+  "task_count": 6,
+  "task_results": {
+    "P22-ASSURE-001": {
+      "integrity_owner": "none",
+      "stage_a": "passed",
+      "stage_b": "passed"
+    },
+    "P22-ENERGY-CALC-001": {
+      "integrity_owner": "framework",
+      "stage_a": "failed",
+      "stage_b": null
+    },
+    "P22-GHG-CALC-001": {
+      "integrity_owner": "framework",
+      "stage_a": "failed",
+      "stage_b": null
+    },
+    "P22-SAFETY-CALC-001": {
+      "integrity_owner": "framework",
+      "stage_a": "failed",
+      "stage_b": null
+    },
+    "P22-TAXONOMY-001": {
+      "integrity_owner": "none",
+      "stage_a": "passed",
+      "stage_b": "passed"
+    },
+    "P22-WATER-CALC-001": {
+      "integrity_owner": "framework",
+      "stage_a": "failed",
+      "stage_b": null
+    }
+  }
+}

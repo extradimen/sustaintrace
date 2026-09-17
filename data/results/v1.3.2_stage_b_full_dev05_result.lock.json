@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "experiment_id": "V13-STAGE-B-FULL-REGRESSION-DEV05",
+  "status": "completed_semantically_audited",
+  "candidate_model": "qwen3.5:397b-cloud",
+  "candidate_digest": "68d2a0796c11e1fedd0456a2d55e58cca4077be6a218428a7a7f4e21f8177cbc",
+  "development_data_only": true,
+  "p3_unseen_result_modified": false,
+  "tasks": 6,
+  "single_attempts_per_task_per_generation": true,
+  "framework_valid": 6,
+  "semantic_exact": 6,
+  "atomic_claims_validated": 18,
+  "dimensions": {
+    "direct_extraction_projection": "2/2 exact",
+    "cross_page_projection": "2/2 exact",
+    "scope_boundary_projection": "2/2 exact",
+    "numeric_literal_normalization": "passed",
+    "direction_preservation": "passed",
+    "comparison_operator_preservation": "passed",
+    "assurance_level_preservation": "passed",
+    "task_slot_coverage": "18/18"
+  },
+  "task_results": [
+    {"task_id": "P3-DEX-001", "claim_count": 1, "semantic_exact": true},
+    {"task_id": "P3-DEX-002", "claim_count": 1, "semantic_exact": true},
+    {"task_id": "P3-XPAGE-001", "claim_count": 5, "semantic_exact": true},
+    {"task_id": "P3-XPAGE-002", "claim_count": 3, "semantic_exact": true},
+    {"task_id": "P3-SCOPE-001", "claim_count": 3, "semantic_exact": true},
+    {"task_id": "P3-SCOPE-002", "claim_count": 5, "semantic_exact": true}
+  ],
+  "prior_generation_failures_preserved": {
+    "DEV02": "2/6 semantically distorted despite 6/6 structural validity",
+    "DEV03": "P3-XPAGE-002 negative value rejected by literal grounding",
+    "DEV04": "P3-DEX-001 numeric string rejected by strict number type"
+  },
+  "aggregate_score": null,
+  "posthoc_semantic_repair_applied": false,
+  "promotion_status": "development_regression_passed_requires_new_unseen_P4"
+}

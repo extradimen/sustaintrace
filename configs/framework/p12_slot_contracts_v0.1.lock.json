@@ -1,0 +1,37 @@
+{
+  "schema_version":"2.1",
+  "experiment_id":"P12-V21-UNSEEN-LOCKBOX-V01",
+  "status":"frozen_before_candidate_inference",
+  "contracts":{
+    "P12-SAFETY-001":[
+      {"slot_id":"total_deaths","value_type":"number","unit":"count","period":"2025"},
+      {"slot_id":"employee_deaths","value_type":"number","unit":"count","period":"2025"},
+      {"slot_id":"non_employee_deaths","value_type":"number","unit":"count","period":"2025"},
+      {"slot_id":"other_worker_deaths","value_type":"number","unit":"count","period":"2025"}
+    ],
+    "P12-CALC-001":[
+      {"slot_id":"scope_1_total_mtco2e","value_type":"number","unit":"MtCO2e","period":"2025"},
+      {"slot_id":"market_scope_2_total_mtco2e","value_type":"number","unit":"MtCO2e","period":"2025"},
+      {"slot_id":"scope_3_total_mtco2e","value_type":"number","unit":"MtCO2e","period":"2025"},
+      {"slot_id":"calculated_sum_mtco2e","value_type":"number","unit":"MtCO2e","period":"2025"},
+      {"slot_id":"disclosed_total_mtco2e","value_type":"number","unit":"MtCO2e","period":"2025"},
+      {"slot_id":"raw_difference_mtco2e","value_type":"number","unit":"MtCO2e","period":"2025"},
+      {"slot_id":"comparison","value_type":"string"},
+      {"slot_id":"formula","value_type":"string"}
+    ],
+    "P12-TARGET-001":[
+      {"slot_id":"scope_1_2","value_type":"object","required_members":["base_year","baseline_mtco2e","target_year","target_reduction_percent","progress_2025_percent","accounting_method","sbti_alignment"]},
+      {"slot_id":"scope_3_use_phase","value_type":"object","required_members":["base_year","baseline_gco2e_per_vehicle_km","target_year","target_reduction_percent","progress_2025","sbti_alignment"]}
+    ],
+    "P12-BOUNDARY-001":[
+      {"slot_id":"basis","value_type":"string"},{"slot_id":"general_scope","value_type":"string"},{"slot_id":"environmental_adjustment","value_type":"string"},{"slot_id":"governance_adjustment","value_type":"string"},{"slot_id":"value_chain","value_type":"string"}
+    ],
+    "P12-SCOPE3-001":[
+      {"slot_id":"total_scope_3_mtco2e","value_type":"number","unit":"MtCO2e","period":"2025"},{"slot_id":"category_11_mtco2e","value_type":"number","unit":"MtCO2e","period":"2025"},{"slot_id":"reporting_basis","value_type":"string"},{"slot_id":"double_counting","value_type":"string"},{"slot_id":"selected_inclusions_exclusions","value_type":"array"},{"slot_id":"data_method","value_type":"string"}
+    ],
+    "P12-ASSURE-001":[
+      {"slot_id":"period","value_type":"string"},{"slot_id":"overall_level","value_type":"string"},{"slot_id":"reasonable_assurance_subjects","value_type":"array"},{"slot_id":"standard","value_type":"string"},{"slot_id":"limited_vs_reasonable","value_type":"string"},{"slot_id":"value_chain_limitation","value_type":"string"}
+    ]
+  },
+  "candidate_output_policy":{"single_attempt":true,"no_semantic_postrepair":true,"preserve_raw_output":true}
+}

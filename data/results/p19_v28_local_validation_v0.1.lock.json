@@ -1,0 +1,40 @@
+{
+  "schema_version": "2.8",
+  "experiment_id": "P19-V28-UNSEEN-LOCKBOX-V01",
+  "status": "local_validation_passed_waiting_for_payload_specific_cloud_authorization",
+  "validated_at": "2026-09-10T06:57:36Z",
+  "verification": {
+    "pytest": {"status": "passed", "tests": 277},
+    "ruff": {"status": "passed"},
+    "json_parse_audit": {"status": "passed"},
+    "mineru_target_hash_audit": {"status": "passed", "targets": 8},
+    "reference_window_consistency_gate": {"status": "passed", "references": 6, "quotes": 62},
+    "cloud_transmission_audit": {"status": "passed", "candidate_archive_files": 0, "candidate_model_calls": 0}
+  },
+  "frozen_scope": {
+    "document": "Novo Nordisk Annual Report 2025",
+    "document_sha256": "f5475f1e043eaa99526772c0e06677a74ab2c2abb8181755afbe02a10e395092",
+    "tasks": 6,
+    "atomic_slots": 65,
+    "pages": [58, 65, 66, 80, 123, 124, 135, 136],
+    "candidate_model": "qwen3.5:397b-cloud",
+    "candidate_scope": "P19 Stage A/Stage B single-attempt candidate inference"
+  },
+  "artifact_sha256": {
+    "task_pack": "6f7bb2eb865c457f653fe067fae88cf0962c46e540ac95c1da9a857b77b3593b",
+    "parsing_rules": "01f590b8fc1af407b0d937d168ccd28df0256799623692d489f4b15933bdb5fe",
+    "mineru_registry": "20ea9857771d930cfc4fe384ea10f07251a2b4567637ee0b893b1b5c1df31498",
+    "reference_freeze": "db8b725ba4d30efa0412bb7c12325cb0549952603b9bc6e2ed99eb4864b278f0",
+    "reference_consistency_audit": "3af766f2992a022e388abfe073e0a1e6b96bcaff5cbeaaef8c9e37cd0d639a3f",
+    "slot_contracts": "65c26e96a6a6e73abea6cc1a03b73b247b8881e8022a773bf97abb4a9f4f0fe8",
+    "calculation_plans": "dc455d750dea3f5781e01682176a634432b9568bcbf993035d18ead57a0ea878",
+    "table_graph": "8a5e730282a59008157266b7d82d691b48d9fcd7ba5e80e642ff2e9e91e81732",
+    "handle_whitelist": "a420215215d4988a493bdefcc8e519c77e0ae9185ce723b722762eda0aa63117",
+    "scoring_rules": "515b301cc6280556ce969b543662ed0e003d33c751991b1ea278934fe8768edf",
+    "execution_config": "29d28174d98266a3a849d8871708dc7d2532ba6ab260575d6caa3b9d4f382130",
+    "local_execution_pack": "a06edc127afe57584c399cdf2fd6e606433ced8e23d14193d6fe96bfe76766d5",
+    "chinese_report": "caa187137b01976bb0d6ae10393f8629114da3383716861a4e5ab65bbfc4f211"
+  },
+  "locked_prior_experiments_modified": false,
+  "cloud_transmission_allowed": false
+}

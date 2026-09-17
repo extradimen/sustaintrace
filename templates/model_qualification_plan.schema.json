@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "P0 Model Qualification Plan v1.0",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "plan_id",
+    "status",
+    "dataset_split",
+    "framework_version",
+    "frozen_inputs",
+    "repetitions_per_task",
+    "tasks",
+    "selection_rule"
+  ],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "plan_id": {"type": "string", "minLength": 1},
+    "status": {"enum": ["draft", "locked", "completed"]},
+    "dataset_split": {"const": "P0"},
+    "framework_version": {"const": "V0"},
+    "frozen_inputs": {
+      "type": "object",
+      "additionalProperties": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+      "minProperties": 4
+    },
+    "repetitions_per_task": {"type": "integer", "minimum": 5},
+    "tasks": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["task_id", "include_images", "purpose"],
+        "properties": {
+          "task_id": {"type": "string", "minLength": 1},
+          "include_images": {"type": "boolean"},
+          "purpose": {"type": "string", "minLength": 1}
+        }
+      }
+    },
+    "selection_rule": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["aggregate_score", "pareto_dimensions", "hard_safeguards"],
+      "properties": {
+        "aggregate_score": {"const": null},
+        "pareto_dimensions": {"type": "array", "items": {"type": "string"}, "minItems": 2, "uniqueItems": true},
+        "hard_safeguards": {"type": "array", "items": {"type": "string"}, "minItems": 1, "uniqueItems": true}
+      }
+    }
+  }
+}

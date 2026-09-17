@@ -1,0 +1,23 @@
+{
+  "schema_version":"1.0",
+  "manifest_id":"P8-SOURCE-ACQUISITION-v0.1",
+  "status":"source_frozen_before_question_and_reference_design",
+  "frozen_date":"2026-09-05",
+  "documents":[{
+    "document_id":"P8-RIOTINTO-AR2025",
+    "company":"Rio Tinto Group",
+    "title":"Rio Tinto Annual Report 2025",
+    "reporting_year":2025,
+    "language":"English",
+    "source_type":"official_ASX_exchange_announcement_copy_linked_to_issuer_2025_reporting_suite",
+    "source_page_url":"https://www.riotinto.com/en/invest/reports/annual-report",
+    "source_url":"https://announcements.asx.com.au/asxpdf/20260219/pdf/06wht2zy2q54rv.pdf",
+    "local_path":"data/raw/p8_staging/rio-tinto-annual-report-2025.pdf",
+    "sha256":"54a10cef07d653fa63adc26c4ee8f7610c643fcd968d642446b2728a91fed942",
+    "file_size_bytes":12251721,
+    "page_count":348,
+    "pdf_version":"1.4",
+    "ingestion_status":"verified",
+    "eligibility":"new_and_unseen_in_P1_through_P7"
+  }]
+}

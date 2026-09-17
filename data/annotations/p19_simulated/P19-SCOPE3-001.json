@@ -1,0 +1,76 @@
+{
+  "answer": "In 2025, Scope 3 was 2,507 (1,000 tCO2e); Category 1 was 1,383 and Category 2 was 609, summing to 1,992 or 79.46% of total Scope 3. In 2024, the corresponding values were 2,160, 1,215 and 465, summing to 1,680 or 77.78%. The report attributes the 2025 increase to procurement of goods and services and higher capital expenditure for property, plant and equipment.",
+  "evidence": [
+    {
+      "pdf_page": 66,
+      "quote": "Scope 3 GHG emissions",
+      "source_id": "P19-NOVO-NORDISK-AR2025"
+    },
+    {
+      "pdf_page": 66,
+      "quote": "2,507",
+      "source_id": "P19-NOVO-NORDISK-AR2025"
+    },
+    {
+      "pdf_page": 66,
+      "quote": "2,160",
+      "source_id": "P19-NOVO-NORDISK-AR2025"
+    },
+    {
+      "pdf_page": 66,
+      "quote": "Category 1: Purchased goods and Services",
+      "source_id": "P19-NOVO-NORDISK-AR2025"
+    },
+    {
+      "pdf_page": 66,
+      "quote": "1,383",
+      "source_id": "P19-NOVO-NORDISK-AR2025"
+    },
+    {
+      "pdf_page": 66,
+      "quote": "1,215",
+      "source_id": "P19-NOVO-NORDISK-AR2025"
+    },
+    {
+      "pdf_page": 66,
+      "quote": "Category 2: Capital goods",
+      "source_id": "P19-NOVO-NORDISK-AR2025"
+    },
+    {
+      "pdf_page": 66,
+      "quote": "609",
+      "source_id": "P19-NOVO-NORDISK-AR2025"
+    },
+    {
+      "pdf_page": 66,
+      "quote": "465",
+      "source_id": "P19-NOVO-NORDISK-AR2025"
+    },
+    {
+      "pdf_page": 66,
+      "quote": "Scope 3 emissions increased by 16% from 2024 to 2025, driven by both procurement of goods and services (category 1) and higher CapEx for property, plant and equipment (category 2).",
+      "source_id": "P19-NOVO-NORDISK-AR2025"
+    }
+  ],
+  "normalized_value": {
+    "category1_plus_2_share_percent::2024": 77.78,
+    "category1_plus_2_share_percent::2025": 79.46,
+    "category1_plus_2_thousand_tco2e::2024": 1680,
+    "category1_plus_2_thousand_tco2e::2025": 1992,
+    "category1_thousand_tco2e::2024": 1215,
+    "category1_thousand_tco2e::2025": 1383,
+    "category2_thousand_tco2e::2024": 465,
+    "category2_thousand_tco2e::2025": 609,
+    "increase_explanation": "procurement of goods and services (category 1) and higher CapEx for property, plant and equipment (category 2)",
+    "scope3_total_thousand_tco2e::2024": 2160,
+    "scope3_total_thousand_tco2e::2025": 2507
+  },
+  "provenance": {
+    "candidate_model_used": false,
+    "reference_is_simulated": true
+  },
+  "reference_author": "codex_gpt_simulated_expert",
+  "reference_status": "verified_against_frozen_mineru_pages_and_native_layout",
+  "schema_version": "1.0",
+  "task_id": "P19-SCOPE3-001"
+}

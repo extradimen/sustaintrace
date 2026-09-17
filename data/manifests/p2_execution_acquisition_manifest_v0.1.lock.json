@@ -1,0 +1,14 @@
+{
+  "schema_version":"1.0",
+  "manifest_id":"P2-EXECUTION-ACQUISITION-v0.1",
+  "status":"frozen",
+  "source_manifest":"data/manifests/p2_blind_source_manifest_v0.1.json",
+  "documents":[
+    {"document_id":"ROG-AR-2025","company":"Roche Holding Ltd","local_path":"data/raw/p2/roche/ROG-AR-2025.pdf","sha256":"111a16ec739a16fd93cb3554d9631dd68807c83928423e17377fd7204b65c064","ingestion_status":"verified"},
+    {"document_id":"TLS-AR-2025","company":"Telstra Group Limited","local_path":"data/raw/p2/telstra/TLS-AR-2025.pdf","sha256":"68ebfdb17454e41ecffa869c89e4d905e29b7f4b3d94ed83e253dc9baaed2fef","ingestion_status":"verified"},
+    {"document_id":"GM-CRD-2025","company":"General Motors Company","local_path":"data/raw/p2/gm/GM-CRD-2025.pdf","sha256":"a0d3e2348a5ac6f66c3101f403ce475e80af46ccfb5103e643873a485e7d017e","ingestion_status":"verified"},
+    {"document_id":"PG-CR-2024","company":"The Procter & Gamble Company","local_path":"data/raw/p2/pg/PG-CR-2024.pdf","sha256":"22dee67eabf4702946807f2f5ec3460d06657f6937837db559fdcd2bb6e97d6d","ingestion_status":"verified"},
+    {"document_id":"META-SR-2025","company":"Meta Platforms, Inc.","local_path":"data/raw/p2/meta/META-SR-2025.pdf","sha256":"b44a27d7c12636d45b698269cac0300dfb53e9519c636e978386a48cdb110483","ingestion_status":"verified"},
+    {"document_id":"ORCL-CDP-2025","company":"Oracle Corporation","local_path":"data/raw/p2/oracle/ORCL-CDP-2025.pdf","sha256":"7ebc74a40f35ee67d0f6e555ecb58f05f464579ef781495da82591cd38a582bc","ingestion_status":"verified"}
+  ]
+}

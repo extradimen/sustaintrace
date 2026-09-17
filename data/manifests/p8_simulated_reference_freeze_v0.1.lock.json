@@ -1,0 +1,24 @@
+{
+  "schema_version":"1.0",
+  "experiment_id":"P8-V17-UNSEEN-LOCKBOX-V01",
+  "status":"simulated_references_frozen_after_questions_and_before_candidate_inference",
+  "reference_author":"codex_gpt_simulated_expert",
+  "human_gold_claimed":false,
+  "candidate_model_excluded":true,
+  "task_pack_sha256":"e0081b6faf54318c2023baea4771e7e3902993c321a755f8fcd322c7eb7958a5",
+  "slot_contracts_sha256":"b0c28810528fee6bbe61ba00168f5b458ee35fe004da22b4700681d11bcd57c1",
+  "parser_registry_sha256":"8b92d11e68001d65a7f38cdf233edc75373e0b54dfaaf8e36ed12280995642d2",
+  "references":{
+    "P8-ASSURE-001":"9ceb5d74ddef24ad90c38ff9015bc4f70bb496fba9cc4eca82af8c41abf588b7",
+    "P8-BASELINE-001":"f0d1092e6f4038c422259402c68a7c16aea87abd46b90bfdfd1d21101fd8f921",
+    "P8-CALC-001":"5feeb610d83c97c6f8cd325d389e3ac9eabfac0b0a734f8561f8dec6e2d943d2",
+    "P8-SAFETY-001":"3efce95a2255e5ceac4e5170f827d16f09097a4fcdf4ae0aac367b6ec170504d",
+    "P8-SCOPE3-001":"ab132a317ff1271bea4306974a0caf53c8fb09e15385cdf36465d275d9807167",
+    "P8-TARGET-001":"7b69bc3a73c7c86b23eae54da7bec8a9a267f4ad0cae55e58ac9b0d18f70099d"
+  },
+  "audit_notes":[
+    "Actual-equity values on page 84 are not substituted for adjusted-equity values used by the calculation and target tasks.",
+    "Gross reduction and net reduction are separate claims; offsets do not count as gross abatement.",
+    "Limited-assurance and reasonable-assurance subjects remain distinct."
+  ]
+}

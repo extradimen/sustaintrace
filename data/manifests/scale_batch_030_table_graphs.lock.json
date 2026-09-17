@@ -1,0 +1,34 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-030-SUPPLEMENTAL",
+  "status": "table_graphs_built_fail_closed",
+  "source_table_candidates": 1,
+  "graphs": [
+    {
+      "source_fact_record_id": "fact-aa7107e7d8a8e698e1d9c685",
+      "document_id": "KB-B030-NCC-ASR2025",
+      "pdf_page": 74,
+      "graphs": [
+        {
+          "table_index": 0,
+          "status": "ambiguous_no_two_axis_period_header",
+          "rows": [
+            [
+              "",
+              "2025"
+            ],
+            [
+              "Total energy consumption per net revenue from",
+              ""
+            ],
+            [
+              "activities in high climate impact sectors (MWh/SEK M)",
+              "15.6"
+            ]
+          ],
+          "cells": []
+        }
+      ]
+    }
+  ]
+}

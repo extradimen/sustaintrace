@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "version": "2.0-development",
+  "status": "preregistered_before_implementation",
+  "allowed_development_evidence": [
+    "P9 exposed integrity failures",
+    "P10 exposed model, contract, executor, and transport failures"
+  ],
+  "locked_experiments_not_to_modify": ["P3", "P4", "P5", "P6", "P7", "P8", "P9", "P10"],
+  "objectives": [
+    "fail closed before cloud inference when a slot contract is incomplete",
+    "support arrays and objects as independently grounded atomic collection members",
+    "require controlled conflicts as explicit atomic claims",
+    "classify transport, model behavior, parser, frozen configuration, and executor failures separately"
+  ],
+  "prohibited_actions": [
+    "rerun or rescore P3-P10",
+    "use a new unseen report during development",
+    "coerce array or object slots to scalar strings",
+    "silently retry model behavior failures",
+    "posthoc semantic repair of candidate output"
+  ],
+  "release_gates": [
+    "new exposed-failure regression tests pass",
+    "entire pytest suite passes",
+    "ruff passes",
+    "machine-readable development result and Chinese report are archived"
+  ],
+  "related_work_basis": "docs/56_同类研究排重与研究定位_v0.1.md"
+}

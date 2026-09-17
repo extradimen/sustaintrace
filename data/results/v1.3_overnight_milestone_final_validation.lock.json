@@ -1,0 +1,16 @@
+{
+  "schema_version":"1.0",
+  "status":"overnight_milestone_completed",
+  "completed_date":"2026-09-05",
+  "development_regression":{"stage_b_tasks":"6/6 structural and semantic exact on exposed development failures","result":"data/results/v1.3.2_stage_b_full_dev05_result.lock.json"},
+  "unseen_p4":{"tasks":9,"stage_a_framework_valid":6,"stage_a_framework_failed":3,"stage_b_framework_valid":"6/6","stage_b_semantic_exact_on_valid_references":"5/5","invalid_reference_tasks":1,"result":"data/results/p4_v13_unseen_lockbox_v0.1.1_superseding_result.lock.json","result_sha256":"be4a30759279949d158a6f15b66b52e7053a12ca62a5c7610667be1a7f87e5a4"},
+  "reference_incident":{"count":1,"path":"data/results/p4_reference_adjudication_incident_v0.1.lock.json","sha256":"f7fba17a768dbee3d8521773239fc0b2076958fab09281cec455fce2b2562f6c"},
+  "archive_validation":{"run_directories":15,"sha256_manifests_verified":15,"failures":0},
+  "repository_validation":{"pytest_passed":175,"ruff":"passed"},
+  "p3_modified":false,
+  "p3_rerun":false,
+  "silent_retry_applied":false,
+  "posthoc_semantic_repair_applied":false,
+  "human_gold_claimed":false,
+  "next_recommended_generation":"v1.4 development on exposed P4 failures, followed by a newly frozen P5; do not rerun or rescore P4."
+}

@@ -1,0 +1,211 @@
+{
+  "all_critical_passed": true,
+  "assertions_passed": 20,
+  "assertions_total": 20,
+  "benchmark_id": "P0-MINERU-ATOMIC-v0.1",
+  "case_count": 6,
+  "cases": [
+    {
+      "checks": [
+        {
+          "assertion_id": "text-subject",
+          "critical": true,
+          "dimension": "subject",
+          "passed": true
+        },
+        {
+          "assertion_id": "text-value-unit",
+          "critical": true,
+          "dimension": "value_unit",
+          "passed": true
+        },
+        {
+          "assertion_id": "text-boundary",
+          "critical": true,
+          "dimension": "geographic_boundary",
+          "passed": true
+        }
+      ],
+      "critical_passed": true,
+      "parsed_text_path": "artifacts/parsing/P0-TEXT-001/mineru-3.4.0-pipeline-page18-r2/MSFT-ESR-2024/auto/MSFT-ESR-2024.md",
+      "passed": 3,
+      "score": 1.0,
+      "task_id": "P0-TEXT-001",
+      "total": 3,
+      "visual_review": null
+    },
+    {
+      "checks": [
+        {
+          "assertion_id": "table-label",
+          "critical": true,
+          "dimension": "metric",
+          "passed": true
+        },
+        {
+          "assertion_id": "table-same-row",
+          "critical": true,
+          "dimension": "table_alignment",
+          "passed": true
+        },
+        {
+          "assertion_id": "table-period-headings",
+          "critical": true,
+          "dimension": "period",
+          "passed": true
+        }
+      ],
+      "critical_passed": true,
+      "parsed_text_path": "artifacts/parsing/P0-TABLE-001/mineru-3.4.0-pipeline-page118-r2/SIE-SR-2024/auto/SIE-SR-2024.md",
+      "passed": 3,
+      "score": 1.0,
+      "task_id": "P0-TABLE-001",
+      "total": 3,
+      "visual_review": null
+    },
+    {
+      "checks": [
+        {
+          "assertion_id": "target-steel",
+          "critical": true,
+          "dimension": "target_status",
+          "passed": true
+        },
+        {
+          "assertion_id": "target-shipping",
+          "critical": true,
+          "dimension": "target_status",
+          "passed": true
+        },
+        {
+          "assertion_id": "target-boundary",
+          "critical": true,
+          "dimension": "boundary",
+          "passed": true
+        }
+      ],
+      "critical_passed": true,
+      "parsed_text_path": "artifacts/parsing/P0-TARGET-001/mineru-3.4.0-pipeline-page109-r1/DBS-SR-2024/auto/DBS-SR-2024.md",
+      "passed": 3,
+      "score": 1.0,
+      "task_id": "P0-TARGET-001",
+      "total": 3,
+      "visual_review": null
+    },
+    {
+      "checks": [
+        {
+          "assertion_id": "abstain-subject",
+          "critical": true,
+          "dimension": "subject",
+          "passed": true
+        },
+        {
+          "assertion_id": "abstain-no-tonnage",
+          "critical": true,
+          "dimension": "false_discovery_control",
+          "passed": true
+        },
+        {
+          "assertion_id": "abstain-no-completion-date",
+          "critical": true,
+          "dimension": "false_discovery_control",
+          "passed": true
+        }
+      ],
+      "critical_passed": true,
+      "parsed_text_path": "artifacts/parsing/P0-ABSTAIN-001/mineru-3.4.0-pipeline-page34-r1/TM-SDB-2024/auto/TM-SDB-2024.md",
+      "passed": 3,
+      "score": 1.0,
+      "task_id": "P0-ABSTAIN-001",
+      "total": 3,
+      "visual_review": "passed_no_requested_value_or_date_on_rendered_page"
+    },
+    {
+      "checks": [
+        {
+          "assertion_id": "conflict-metric",
+          "critical": true,
+          "dimension": "metric",
+          "passed": true
+        },
+        {
+          "assertion_id": "conflict-2023",
+          "critical": true,
+          "dimension": "period_value",
+          "passed": true
+        },
+        {
+          "assertion_id": "conflict-2024",
+          "critical": true,
+          "dimension": "period_value",
+          "passed": true
+        },
+        {
+          "assertion_id": "conflict-no-injected-value",
+          "critical": true,
+          "dimension": "source_separation",
+          "passed": true
+        }
+      ],
+      "critical_passed": true,
+      "parsed_text_path": "artifacts/parsing/P0-CONFLICT-001/mineru-3.4.0-pipeline-page10-r1/KO-EU-2024/auto/KO-EU-2024.md",
+      "passed": 4,
+      "score": 1.0,
+      "task_id": "P0-CONFLICT-001",
+      "total": 4,
+      "visual_review": null
+    },
+    {
+      "checks": [
+        {
+          "assertion_id": "open-capex",
+          "critical": true,
+          "dimension": "decision_relevance",
+          "passed": true
+        },
+        {
+          "assertion_id": "open-emissions",
+          "critical": true,
+          "dimension": "decision_relevance",
+          "passed": true
+        },
+        {
+          "assertion_id": "open-renewable",
+          "critical": true,
+          "dimension": "decision_relevance",
+          "passed": true
+        },
+        {
+          "assertion_id": "open-risk-table",
+          "critical": true,
+          "dimension": "table_alignment",
+          "passed": true
+        }
+      ],
+      "critical_passed": true,
+      "parsed_text_path": "artifacts/parsing/P0-OPEN-001/mineru-3.4.0-pipeline-page27-r1/NOVN-NIS-2024/auto/NOVN-NIS-2024.md",
+      "passed": 4,
+      "score": 1.0,
+      "task_id": "P0-OPEN-001",
+      "total": 4,
+      "visual_review": null
+    }
+  ],
+  "limitations": [
+    "Atomic assertions test known critical fields and do not measure full-page transcription edit distance.",
+    "Negative assertions are valid only within the frozen supplied page.",
+    "Open-discovery novelty and usefulness require independent human review."
+  ],
+  "micro_score": 1.0,
+  "parser": {
+    "backend": "pipeline",
+    "dependency_lock": {
+      "pdftext": "0.6.3",
+      "pypdfium2": "4.30.0"
+    },
+    "name": "MinerU",
+    "version": "3.4.0"
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,35 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-012",
+  "created_at": "2026-09-13T06:14:54.285229+00:00",
+  "source_config": "configs/knowledge/scale_batch_012_RESUME01_v0.2.json",
+  "documents": [
+    {
+      "document_id": "KB-B012-AIR-LIQUIDE-URD2025",
+      "local_path": "data/raw/scale_batch_012/air-liquide-2025-universal-registration-document.pdf",
+      "bytes": 18200108,
+      "sha256": "128d234ab0c14d6165097a46f21a5bda821554dbd63ee2a7d3052c84956b993b",
+      "pdf_header_valid": true,
+      "download_status": "reused_verified_pdf",
+      "resumed_from_bytes": 0
+    },
+    {
+      "document_id": "KB-B012-STORA-ENSO-AR2025",
+      "local_path": "data/raw/scale_batch_012/stora-enso-annual-report-2025.pdf",
+      "bytes": 31276722,
+      "sha256": "00377e8fb8a6b2fc866d38a7f68e6cccd8099c9fe5f79be4da96d7f46bb4bbf0",
+      "pdf_header_valid": true,
+      "download_status": "downloaded",
+      "resumed_from_bytes": 0
+    },
+    {
+      "document_id": "KB-B012-VINCI-URD2025",
+      "local_path": "data/raw/scale_batch_012/vinci-2025-universal-registration-document.pdf",
+      "bytes": 23996746,
+      "sha256": "6c5e06674848aea0c98924fb2e936c9e985b92c6deb47d46b59cdd8466fbbe96",
+      "pdf_header_valid": true,
+      "download_status": "reused_verified_pdf",
+      "resumed_from_bytes": 0
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-010-RESUME02",
+  "updated_at": "2026-09-13T03:46:06.219916+00:00",
+  "status": "complete",
+  "cloud_transmission": false,
+  "total_target_pages": 1,
+  "complete_pages": 1,
+  "failed_pages": 0,
+  "pending_pages": 0,
+  "records": [
+    {
+      "document_id": "KB-B010-VEOLIA-URD2025",
+      "page": 218,
+      "themes": [
+        "energy"
+      ],
+      "output_directory": "artifacts/scale_batch_010/mineru_targets_RESUME02/KB-B010-VEOLIA-URD2025-p0218",
+      "status": "complete",
+      "started_at": "2026-09-13T03:44:35.558434+00:00",
+      "completed_at": "2026-09-13T03:46:06.216052+00:00",
+      "wall_seconds": 90.658
+    }
+  ]
+}

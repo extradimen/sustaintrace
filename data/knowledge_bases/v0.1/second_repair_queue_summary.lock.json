@@ -1,0 +1,40 @@
+{
+  "schema_version": "0.1",
+  "status": "second_repair_queue_frozen_no_execution",
+  "records": 2660,
+  "signature_counts": {
+    "BOUNDARY_ATTACHMENT_INCOMPLETE": 934,
+    "CALCULATION_LINEAGE_INCOMPLETE": 49,
+    "FIELD_EVIDENCE_BINDING_INCOMPLETE": 680,
+    "NATIVE_PDF_CORROBORATION_INCOMPLETE": 49,
+    "PERIOD_ATTACHMENT_INCOMPLETE": 761,
+    "TABLE_CELL_BINDING_INCOMPLETE": 119,
+    "UNIT_ATTACHMENT_INCOMPLETE": 68
+  },
+  "queue_class_counts": {
+    "deterministic_binding_screen": 829,
+    "read_only_diagnostic": 897,
+    "semantic_block": 934
+  },
+  "execution_decision_counts": {
+    "blocked": 934,
+    "read_only_not_executed": 897,
+    "screen_not_executed": 829
+  },
+  "risk_counts": {
+    "high": 934,
+    "low": 761,
+    "medium": 965
+  },
+  "inputs": {
+    "knowledge_gaps_sha256": "858a37ede7bd213c1c3d1e9136d5d8be6bc6e6f12f147124318347cb3a8cef76",
+    "repair_rankings_sha256": "2ea36c86ec405a8d1672936e65ba974e65c4a1e47051491909928bac4e6c6b11"
+  },
+  "output": {
+    "path": "data/knowledge_bases/v0.1/second_repair_queue.jsonl",
+    "sha256": "d42b80dd509c8476097b7602953cf809403407eae5ccee17e38a0ed57301a8d7"
+  },
+  "execution_performed": false,
+  "semantic_repair_performed": false,
+  "next_gate": "build exposed-only deterministic fixtures for read-only binders"
+}

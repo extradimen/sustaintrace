@@ -1,0 +1,21 @@
+{
+  "schema_version": "3.2",
+  "experiment_id": "P23-V32-UNSEEN-LOCKBOX-V01",
+  "status": "frozen_before_reference_creation_and_candidate_inference",
+  "selection_rule": "all frozen task/page pairs receive deterministic native-layout and visual cross-check without hidden-reference selection",
+  "semantic_change": false,
+  "default_primary_parser": "MinerU 3.4.0 checksum-verified target-page output",
+  "default_fallback_parser": "pdftotext -layout plus rendered-page inspection",
+  "default_fallback_reason": "pre-frozen dual-parser audit path; all visible lines exposed without hidden-reference selection",
+  "targets": [
+    {"task_id":"P23-BOUNDARY-001","document_id":"P23-GSK-AR2025","document_sha256":"a3ef37d848fca940f85b6c33815a5d47d1f32726fd389a03910653e24af0f4d2","pdf_path":"data/raw/p23_staging/gsk-annual-report-2025.pdf","pdf_page":54},
+    {"task_id":"P23-GHG-CALC-001","document_id":"P23-GSK-AR2025","document_sha256":"a3ef37d848fca940f85b6c33815a5d47d1f32726fd389a03910653e24af0f4d2","pdf_path":"data/raw/p23_staging/gsk-annual-report-2025.pdf","pdf_page":55},
+    {"task_id":"P23-GHG-CALC-001","document_id":"P23-GSK-AR2025","document_sha256":"a3ef37d848fca940f85b6c33815a5d47d1f32726fd389a03910653e24af0f4d2","pdf_path":"data/raw/p23_staging/gsk-annual-report-2025.pdf","pdf_page":78},
+    {"task_id":"P23-ENERGY-CALC-001","document_id":"P23-GSK-AR2025","document_sha256":"a3ef37d848fca940f85b6c33815a5d47d1f32726fd389a03910653e24af0f4d2","pdf_path":"data/raw/p23_staging/gsk-annual-report-2025.pdf","pdf_page":78},
+    {"task_id":"P23-WATER-CALC-001","document_id":"P23-GSK-AR2025","document_sha256":"a3ef37d848fca940f85b6c33815a5d47d1f32726fd389a03910653e24af0f4d2","pdf_path":"data/raw/p23_staging/gsk-annual-report-2025.pdf","pdf_page":55},
+    {"task_id":"P23-WATER-CALC-001","document_id":"P23-GSK-AR2025","document_sha256":"a3ef37d848fca940f85b6c33815a5d47d1f32726fd389a03910653e24af0f4d2","pdf_path":"data/raw/p23_staging/gsk-annual-report-2025.pdf","pdf_page":78},
+    {"task_id":"P23-WORKFORCE-CALC-001","document_id":"P23-GSK-AR2025","document_sha256":"a3ef37d848fca940f85b6c33815a5d47d1f32726fd389a03910653e24af0f4d2","pdf_path":"data/raw/p23_staging/gsk-annual-report-2025.pdf","pdf_page":79},
+    {"task_id":"P23-ASSURE-001","document_id":"P23-GSK-AR2025","document_sha256":"a3ef37d848fca940f85b6c33815a5d47d1f32726fd389a03910653e24af0f4d2","pdf_path":"data/raw/p23_staging/gsk-annual-report-2025.pdf","pdf_page":54},
+    {"task_id":"P23-ASSURE-001","document_id":"P23-GSK-AR2025","document_sha256":"a3ef37d848fca940f85b6c33815a5d47d1f32726fd389a03910653e24af0f4d2","pdf_path":"data/raw/p23_staging/gsk-annual-report-2025.pdf","pdf_page":78}
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-004-RESUME01",
+  "created_at": "2026-09-12T16:30:34.501666+00:00",
+  "source_config": "configs/knowledge/scale_batch_004_RESUME01_v0.2.json",
+  "documents": [
+    {
+      "document_id": "KB-B004-PHILIPS-AR2025",
+      "local_path": "data/raw/scale_batch_004/philips-annual-report-2025.pdf",
+      "bytes": 36925082,
+      "sha256": "ff527efe35aa923bd6b592c38549bf1f9f207ac3cef2cec6695a7b9cd93efc6d",
+      "pdf_header_valid": true,
+      "download_status": "reused_verified_pdf",
+      "resumed_from_bytes": 0
+    },
+    {
+      "document_id": "KB-B004-MONDI-SDR2025",
+      "local_path": "data/raw/scale_batch_004/mondi-sustainable-development-report-2025.pdf",
+      "bytes": 10342171,
+      "sha256": "679d3fb649fa89627f78ac07cd23723120b859cf3bf6538036cc91596a8ff46c",
+      "pdf_header_valid": true,
+      "download_status": "reused_verified_pdf",
+      "resumed_from_bytes": 0
+    },
+    {
+      "document_id": "KB-B004-AIRLIQUIDE-URD2025",
+      "local_path": "data/raw/scale_batch_004/air-liquide-urd-2025.pdf",
+      "bytes": 18200108,
+      "sha256": "128d234ab0c14d6165097a46f21a5bda821554dbd63ee2a7d3052c84956b993b",
+      "pdf_header_valid": true,
+      "download_status": "downloaded",
+      "resumed_from_bytes": 0
+    }
+  ]
+}

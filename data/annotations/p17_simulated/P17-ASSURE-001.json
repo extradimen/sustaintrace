@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "task_id": "P17-ASSURE-001",
+  "reference_author": "codex_gpt_simulated_expert",
+  "reference_status": "verified_against_frozen_pages",
+  "answer": "PwC performed limited assurance on BMW Group's 2025 Group Sustainability Report—Principles and general disclosures, Environmental, Social, Governance and Other ESG information—while disclosures specifically footnoted ‘Assurance Level: reasonable assurance’ received reasonable assurance. Those marked disclosures cover the 2030 CO2e target and Scope 1+2/Scope 3 reduction paths; own-operation and supply-chain emissions per vehicle; world, EU, USA and China fleet emissions; year-end employee breakdowns; management gender distribution; turnover; energy per vehicle and at locations; and training spending. The Foreword marked ‘Not part of ESRS reporting’ was excluded. Under ISAE 3000 (Revised), the limited conclusion was negative-form—nothing came to attention indicating material non-compliance with the applicable CSRD, ESRS/materiality-process and EU Taxonomy Article 8 requirements—whereas the marked disclosures received a positive reasonable-assurance opinion that they were prepared in all material respects under applicable criteria. Limited procedures are less extensive and yield substantially lower assurance; reasonable work extends them through greater testing, selected control operating-effectiveness tests and sample tests of details.",
+  "normalized_value": {
+    "provider": "PricewaterhouseCoopers GmbH Wirtschaftsprüfungsgesellschaft",
+    "governing_standard": "ISAE 3000 (Revised)",
+    "limited_scope": "2025 Group Sustainability Report sections Principles and general disclosures, Environmental information, Social information, Governance information and Other ESG information, taking account of the reasonable-assurance subset",
+    "reasonable_scope": "disclosures marked with the footnote Assurance Level: reasonable assurance",
+    "excluded_section": "Foreword to the sustainability statement marked Not part of ESRS reporting",
+    "limited_conclusion_form": "negative assurance: nothing came to attention indicating material non-compliance",
+    "reasonable_conclusion_form": "positive opinion: marked disclosures prepared in all material respects under applicable requirements and supplementary criteria",
+    "procedure_difference": "reasonable assurance performs limited procedures to a greater extent and adds process/internal-control evaluation, operating-effectiveness testing of selected controls and sample tests of details"
+  },
+  "evidence": [
+    {"source_id":"P17-BMW-GROUP-REPORT-2025","pdf_page":372,"quote":"limited assurance engagement on the group sustainability report"},
+    {"source_id":"P17-BMW-GROUP-REPORT-2025","pdf_page":372,"quote":"reasonable assurance engagement on the disclosures marked with the footnote"},
+    {"source_id":"P17-BMW-GROUP-REPORT-2025","pdf_page":372,"quote":"Not part of ESRS reporting"},
+    {"source_id":"P17-BMW-GROUP-REPORT-2025","pdf_page":373,"quote":"ISAE 3000 (Revised)"},
+    {"source_id":"P17-BMW-GROUP-REPORT-2025","pdf_page":373,"quote":"the level of assurance obtained is substantially lower"},
+    {"source_id":"P17-BMW-GROUP-REPORT-2025","pdf_page":375,"quote":"tested the operating effectiveness of selected internal controls"},
+    {"source_id":"P17-BMW-GROUP-REPORT-2025","pdf_page":375,"quote":"performed test of details on selected disclosures"}
+  ],
+  "provenance": {"reference_is_simulated":true,"candidate_model_used":false}
+}

@@ -1,0 +1,104 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/esg-reliable-discovery/task-manifest-v1.schema.json",
+  "title": "ESG controlled task manifest v1.0",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "task_pack_id", "dataset_split", "frozen", "tasks"],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "task_pack_id": {"type": "string", "minLength": 1},
+    "dataset_split": {"enum": ["P0", "D1", "C1", "X1", "X2"]},
+    "frozen": {"type": "boolean"},
+    "tasks": {
+      "type": "array",
+      "minItems": 1,
+      "items": {"$ref": "#/$defs/task"}
+    }
+  },
+  "$defs": {
+    "task": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "task_id",
+        "task_type",
+        "input_scope",
+        "source_documents",
+        "instruction",
+        "allowed_claim_levels",
+        "output_contract",
+        "scoring_dimensions",
+        "expected_card_count"
+      ],
+      "properties": {
+        "task_id": {"type": "string", "minLength": 1},
+        "task_type": {
+          "enum": [
+            "text_fact",
+            "table_metric",
+            "deterministic_calculation",
+            "target_tracking",
+            "abstention",
+            "controlled_conflict",
+            "open_discovery"
+          ]
+        },
+        "input_scope": {"enum": ["specified_pages", "whole_document", "controlled_bundle"]},
+        "source_documents": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["document_id", "sha256", "pages"],
+            "properties": {
+              "document_id": {"type": "string", "minLength": 1},
+              "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+              "pages": {
+                "type": "array",
+                "items": {"type": "integer", "minimum": 1},
+                "minItems": 1,
+                "uniqueItems": true
+              }
+            }
+          }
+        },
+        "intervention_id": {"type": ["string", "null"]},
+        "instruction": {"type": "string", "minLength": 1},
+        "allowed_claim_levels": {
+          "type": "array",
+          "items": {"enum": ["L1", "L2", "L3", "L4", "L5"]},
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "output_contract": {"const": "finding_card_v1"},
+        "scoring_dimensions": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "answer_correctness",
+              "evidence_accuracy",
+              "boundary_accuracy",
+              "calculation_accuracy",
+              "abstention_accuracy",
+              "schema_validity",
+              "false_discovery_control"
+            ]
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "expected_card_count": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["minimum", "maximum"],
+          "properties": {
+            "minimum": {"type": "integer", "minimum": 0},
+            "maximum": {"type": "integer", "minimum": 1}
+          }
+        }
+      }
+    }
+  }
+}

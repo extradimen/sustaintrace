@@ -1,0 +1,62 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-025",
+  "status": "increment_built_candidates_not_promoted",
+  "fact_candidates": 44,
+  "trusted_facts_promoted": 0,
+  "evidence_gaps": 6,
+  "failure_observations": 62,
+  "gaps": [
+    {
+      "document_id": "KB-B025-AKERBP-AR2025",
+      "page": 62,
+      "theme": "targets",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B025-DNB-AR2025",
+      "page": 83,
+      "theme": "targets",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B025-DNB-AR2025",
+      "page": 94,
+      "theme": "health_safety",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B025-DNB-AR2025",
+      "page": 202,
+      "theme": "biodiversity",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B025-DNB-AR2025",
+      "page": 202,
+      "theme": "circularity",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B025-DNB-AR2025",
+      "page": 353,
+      "theme": "assurance",
+      "reason": "no_theme_line_in_mineru_markdown"
+    }
+  ],
+  "outputs": {
+    "facts": {
+      "path": "data/knowledge_bases/v0.1/increments/scale_batch_025_fact_records.jsonl",
+      "sha256": "3ec9e9ea41aa89f44132e54be9ab93f9824d3215e86f3d887cb9050129997e2c"
+    },
+    "failures": {
+      "path": "data/knowledge_bases/v0.1/increments/scale_batch_025_failure_records.jsonl",
+      "sha256": "1afcf609c13a5598511e013708eba5cab9cd328d04542c88b41a018b9f0f9298"
+    }
+  },
+  "policy": {
+    "cloud_transmission": false,
+    "locked_experiments_modified": false,
+    "automatic_promotion": false
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0",
+  "record_kind": "workbench_tier_b_reversible_overlay_milestone",
+  "milestone_id": "WORKBENCH-TIER-B-REVERSIBLE-OVERLAY-V01",
+  "completed_at": "2026-09-17T02:00:33Z",
+  "status": "passed",
+  "capabilities": {
+    "staged_overlay_commit": true,
+    "append_only_event_journal": true,
+    "deterministic_active_view": true,
+    "reversible_withdrawal": true,
+    "duplicate_commit_fail_closed": true,
+    "duplicate_withdrawal_fail_closed": true,
+    "base_trusted_layer_modified": false,
+    "ui_commit_and_withdraw_controls": true
+  },
+  "verification": {
+    "pytest": {"status": "passed", "tests": 579, "command": "PYTHONPATH=. .venv/bin/pytest -q"},
+    "ruff": {"status": "passed", "command": ".venv/bin/ruff check ."},
+    "frontend_eslint": {"status": "passed", "command": "npm run lint"},
+    "frontend_build": {"status": "passed", "command": "npm run build"},
+    "preserved_interruption": {
+      "command": ".venv/bin/pytest -q",
+      "status": "collection_failed",
+      "reason": "repository root absent from PYTHONPATH; two scripts imports unavailable"
+    }
+  },
+  "locked_experiments_modified": false,
+  "files": {
+    "src/esg_reliable_discovery/workbench_promotion_overlay.py": "7e7f5fdcc5a5bb45df3fb397c452be9d3babb79f736529d17af1dae6512d3e9d",
+    "src/esg_reliable_discovery/workbench_api.py": "463de3a44acecab350afd05e6d14636cd6973564053a0cbb7eaa0aad3d9f9340",
+    "workbench-ui/components/workbench/fact-evidence-sheet.tsx": "be1d9bebe96d61469b847d60ce12f4fe5f2c5b12b1160d6050e3e55e0ee3af09",
+    "schemas/knowledge/workbench-tier-b-overlay-event-v1.0.schema.json": "15036d6ac3e334363c3a43f68657691fc36d0b4e00b4a682463671dcb53b84ff",
+    "tests/test_workbench_promotion_overlay.py": "e220c74a21f6df5b515c865cbae66ffd3193fe3a4ce9351e2e00ace5694e0ecd",
+    "tests/test_workbench_api.py": "8dcacbb14d65b5807e19df8ae82483ddcec03f5e456c9b9309fe725bb40c8ff6"
+  },
+  "report": "docs/190_工作台Tier_B可逆覆盖提交与撤回账本_v0.1.md"
+}

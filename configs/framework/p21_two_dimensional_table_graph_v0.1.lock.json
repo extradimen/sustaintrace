@@ -1,0 +1,79 @@
+{
+  "experiment_id": "P21-V30-UNSEEN-LOCKBOX-V01",
+  "graphs": [
+    {
+      "graph_id": "P21-ENERGY-P192",
+      "header_axis": [
+        "2025 financial",
+        "2025 operational",
+        "2024 financial restated",
+        "2024 operational restated"
+      ],
+      "pdf_page": 192,
+      "row_axis": [
+        "total",
+        "renewable",
+        "renewable share",
+        "fossil",
+        "fossil share"
+      ]
+    },
+    {
+      "graph_id": "P21-GHG-P194-P195",
+      "header_axis": [
+        "2025 financial",
+        "2025 operational",
+        "2024 financial adjusted",
+        "2024 operational adjusted"
+      ],
+      "pdf_pages": [
+        194,
+        195
+      ],
+      "row_axis": [
+        "Scope 1",
+        "Scope 2 market",
+        "Scope 3 total",
+        "Category 1",
+        "Category 12"
+      ]
+    },
+    {
+      "graph_id": "P21-WORKFORCE-P262",
+      "header_axis": [
+        "male 2025",
+        "male 2024",
+        "female 2025",
+        "female 2024",
+        "not disclosed 2025",
+        "not disclosed 2024",
+        "total 2025",
+        "total 2024"
+      ],
+      "pdf_page": 262,
+      "row_axis": [
+        "total",
+        "permanent",
+        "temporary",
+        "apprentice"
+      ]
+    },
+    {
+      "graph_id": "P21-TAXONOMY-P245",
+      "header_axis": [
+        "denominator",
+        "eligible share",
+        "aligned amount",
+        "aligned share"
+      ],
+      "pdf_page": 245,
+      "row_axis": [
+        "sales",
+        "capex",
+        "opex"
+      ]
+    }
+  ],
+  "schema_version": "3.0",
+  "status": "frozen_before_candidate_inference"
+}

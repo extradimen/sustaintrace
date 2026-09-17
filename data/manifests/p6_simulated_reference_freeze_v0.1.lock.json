@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "experiment_id": "P6-V15-UNSEEN-LOCKBOX-V01",
+  "status": "simulated_references_frozen_after_questions_and_before_candidate_inference",
+  "reference_author": "codex_gpt_simulated_expert",
+  "human_gold_claimed": false,
+  "candidate_model_excluded": true,
+  "task_pack_sha256": "de276ffed7ef998926a7bd86f6b77a38720ad01d3cf3fa21799332f5c2822f7e",
+  "references": {
+    "P6-ASSURE-001": "46a2dfca78b81d368b9b57b92ce5f8653943e0cd7e3865f666efe6170b27233f",
+    "P6-CALC-001": "eb2791eb5e5da7c20c080e362ff5549755d11c78059b900bd2881d49305335b8",
+    "P6-CONFLICT-001": "b28ccd40fc388db239bdcf8841dde46a0fd985057b346999ff35985dc71c1b5e",
+    "P6-DEX-001": "d921d5e3d3109fe743d03c69e9d8e3a182926a947d5e14097882988e77d22bb9",
+    "P6-PLASTIC-001": "bbad766522ed325a4d9e13253a9f40134a1f2119cc4059f99e36d9075ea9c0c2",
+    "P6-TARGET-001": "e54959a14624a2f08f5ea28d85337eb6267296ef9c01599cb0cd6a1ea16e0082"
+  }
+}

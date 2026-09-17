@@ -1,0 +1,19 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-008",
+  "created_at": "2026-09-12T23:37:00Z",
+  "status": "failures_archived_substitution_resolved",
+  "events": [
+    {
+      "candidate": "Batch-eight official-source download set",
+      "failure_class": "sandbox_network_dns_denied",
+      "resolution": "Repeated the same bounded official-source downloads outside the restricted network sandbox; no candidate bytes were accepted from the failed attempts."
+    },
+    {
+      "candidate": "Ericsson Annual Report 2025",
+      "failure_class": "official_asset_http_403_before_payload",
+      "attempts": ["direct", "issuer_landing_page_referer_and_browser_user_agent"],
+      "resolution": "No incomplete file remained; candidate was replaced by Vestas before the acquired source set was frozen."
+    }
+  ]
+}

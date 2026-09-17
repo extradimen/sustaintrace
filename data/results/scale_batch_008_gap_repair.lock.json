@@ -1,0 +1,25 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-008-GAP-REPAIR01",
+  "status": "all_html_table_line_filter_gaps_resolved_as_candidates_not_promoted",
+  "parent_gaps": 1,
+  "resolved_html_table_filter_gaps": 1,
+  "new_fact_candidates": 1,
+  "new_failure_observations": 0,
+  "promoted_tier_b": 0,
+  "outputs": {
+    "facts": {
+      "path": "data/knowledge_bases/v0.1/increments/scale_batch_008_gap_repair_fact_records.jsonl",
+      "sha256": "09a6f351f2a07e5bf12a52fdb02445a049bb84e4bfbab34808dbc2aabf57712e"
+    },
+    "failures": {
+      "path": "data/knowledge_bases/v0.1/increments/scale_batch_008_gap_repair_failure_records.jsonl",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  "policy": {
+    "parent_results_overwritten": false,
+    "cloud_transmission": false,
+    "automatic_promotion": false
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "candidate_reference_visibility": false,
+  "cloud_transmission_allowed": false,
+  "document_id": "P19-NOVO-NORDISK-AR2025",
+  "document_sha256": "f5475f1e043eaa99526772c0e06677a74ab2c2abb8181755afbe02a10e395092",
+  "experiment_id": "P19-V28-UNSEEN-LOCKBOX-V01",
+  "integrity_audit": {
+    "all_quotes_exact_substrings_of_frozen_MinerU_markdown": true,
+    "all_reference_pages_within_frozen_task_windows": true,
+    "candidate_model_used": false,
+    "cloud_transmission_occurred": false,
+    "evidence_quote_count": 62,
+    "numeric_values_cross_checked_against_native_layout": true,
+    "reference_count": 6
+  },
+  "manifest_id": "P19-SIMULATED-REFERENCE-FREEZE-v0.1",
+  "references": [
+    {
+      "path": "data/annotations/p19_simulated/P19-ASSURE-001.json",
+      "sha256": "9a60a6e65594a9f2ed2e7b21732b92202c195c330407d30d7c4e0a955ccd93c5",
+      "task_id": "P19-ASSURE-001"
+    },
+    {
+      "path": "data/annotations/p19_simulated/P19-ENERGY-001.json",
+      "sha256": "08336c39cfb41ede669bc226ca244264c72d5513a04ddc4ae23deba6dde54651",
+      "task_id": "P19-ENERGY-001"
+    },
+    {
+      "path": "data/annotations/p19_simulated/P19-GHG-CALC-001.json",
+      "sha256": "a63665d4d784a4acdc2ee64ab8572164c8a1c72dad2787b915fc6b84e5f2077d",
+      "task_id": "P19-GHG-CALC-001"
+    },
+    {
+      "path": "data/annotations/p19_simulated/P19-SCOPE3-001.json",
+      "sha256": "23585ca26569b597d6352ca4df8e04f011266b40031b0a1981cc66420c643059",
+      "task_id": "P19-SCOPE3-001"
+    },
+    {
+      "path": "data/annotations/p19_simulated/P19-TAXONOMY-001.json",
+      "sha256": "04d3a31661495d7846f76eb9ab6862e63cc8cbe3c15a4804882cba8f99f3ff7f",
+      "task_id": "P19-TAXONOMY-001"
+    },
+    {
+      "path": "data/annotations/p19_simulated/P19-WORKFORCE-001.json",
+      "sha256": "0f115db15388ecc5b5f8846d74ead06d74be219fda49dce433122f072be77edb",
+      "task_id": "P19-WORKFORCE-001"
+    }
+  ],
+  "schema_version": "1.0",
+  "status": "simulated_references_frozen_after_questions_page_windows_and_parser_outputs_and_before_candidate_inference",
+  "target_registry": {
+    "path": "data/manifests/p19_mineru_target_registry_v0.1.lock.json",
+    "sha256": "20ea9857771d930cfc4fe384ea10f07251a2b4567637ee0b893b1b5c1df31498"
+  },
+  "task_pack": {
+    "path": "data/tasks/p19_task_pack_v0.1.lock.json",
+    "sha256": "6f7bb2eb865c457f653fe067fae88cf0962c46e540ac95c1da9a857b77b3593b"
+  }
+}

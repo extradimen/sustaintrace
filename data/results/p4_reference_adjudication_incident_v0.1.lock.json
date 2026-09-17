@@ -1,0 +1,16 @@
+{
+  "schema_version":"1.0",
+  "incident_id":"P4-REFERENCE-ADJUDICATION-001",
+  "status":"reference_error_confirmed_post_candidate_run",
+  "task_id":"P4-DEX-003",
+  "frozen_reference":"data/annotations/p4_simulated/P4-DEX-003.json",
+  "frozen_reference_preserved":true,
+  "error":"The frozen simulated reference reversed Nestle 2024 discharged and consumed values because linear text extraction did not preserve the chart's two-dimensional encoding.",
+  "audited_relation":"For 2024, withdrawn 97.9 = consumed 52.9 + discharged 45.0 million m3; for 2023, withdrawn 95.6 = consumed 48.4 + discharged 47.2 million m3.",
+  "evidence_basis":"Native PDF word coordinates and the chart's water-balance identity; no candidate output was used to derive the correction.",
+  "scoring_action":"Task removed from semantic scoring and retained as an unscorable reference-authoring failure. Candidate output is not retroactively judged against a corrected gold answer.",
+  "candidate_output_modified":false,
+  "reference_file_modified":false,
+  "posthoc_repair_applied":false,
+  "methodological_finding":"Reference construction requires the same auditable 2D row/column reconstruction demanded of the candidate system."
+}

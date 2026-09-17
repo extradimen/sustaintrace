@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "task_id": "P14-ASSURE-001",
+  "reference_author": "codex_gpt_simulated_expert",
+  "reference_status": "verified_against_frozen_pages",
+  "answer": "The statutory auditors' limited-assurance engagement covers the sustainability information and Article 8 EU Taxonomy disclosures for the year ended 31 December 2025. The auditors reported no material errors, omissions or inconsistencies regarding: the ESRS-compliant process for determining reported information; the sustainability information's compliance with Article L.233-28-4 including ESRS; and compliance with Article 8 of Regulation (EU) 2020/852. Limited-assurance procedures are less extensive than reasonable-assurance procedures. The engagement does not assess the viability or quality of management, or the relevance of choices concerning action plans, targets, policies, scenarios and transition plans, and forward-looking information remains inherently uncertain.",
+  "normalized_value": {
+    "assurance_level": "limited assurance",
+    "subject": "2025 sustainability information and Article 8 EU Taxonomy disclosures",
+    "esrs_process_conclusion": "no material errors, omissions or inconsistencies identified",
+    "sustainability_information_conclusion": "no material errors, omissions or inconsistencies identified",
+    "article_8_conclusion": "no material errors, omissions or inconsistencies identified",
+    "procedure_difference": "nature, extent and timing are less than those required for reasonable assurance",
+    "management_choice_exclusion": "does not assess viability or quality of management or relevance of action plans, targets, policies, scenario analyses and transition plans",
+    "forward_looking_limitation": "actual future outcomes may differ from forward-looking information"
+  },
+  "evidence": [
+    {"source_id": "P14-LOREAL-URD2025", "pdf_page": 285, "quote": "express limited assurance"},
+    {"source_id": "P14-LOREAL-URD2025", "pdf_page": 285, "quote": "It covers the sustainability information and the information required by Article 8"},
+    {"source_id": "P14-LOREAL-URD2025", "pdf_page": 285, "quote": "less than those required to obtain reasonable assurance"},
+    {"source_id": "P14-LOREAL-URD2025", "pdf_page": 285, "quote": "does not provide an assessment of the relevance of the choices made by L'Oréal"},
+    {"source_id": "P14-LOREAL-URD2025", "pdf_page": 285, "quote": "actual future outcomes may difer, sometimes significantly"},
+    {"source_id": "P14-LOREAL-URD2025", "pdf_page": 286, "quote": "not identified any material errors, omissions or inconsistencies regarding the compliance of the process"},
+    {"source_id": "P14-LOREAL-URD2025", "pdf_page": 287, "quote": "not identified any material errors, omissions, inconsistencies relating to compliance with the requirements of Article 8"}
+  ],
+  "provenance": {"reference_is_simulated": true, "candidate_model_used": false}
+}

@@ -1,0 +1,23 @@
+{
+  "schema_version":"1.0",
+  "experiment_id":"P7-V16-UNSEEN-LOCKBOX-V01",
+  "status":"released_after_explicit_cloud_authorization",
+  "candidate_model":"qwen3.5:397b-cloud",
+  "candidate_digest":"68d2a0796c11e1fedd0456a2d55e58cca4077be6a218428a7a7f4e21f8177cbc",
+  "temperature":0,
+  "seed":20260905,
+  "single_candidate_attempt_per_stage":true,
+  "silent_retry":false,
+  "posthoc_semantic_repair":false,
+  "reference_visible_to_candidate":false,
+  "use_v16_postprocess":true,
+  "cloud_transmission_authorized":true,
+  "authorization_record":"data/manifests/p7_cloud_authorization_2026-09-05.lock.json",
+  "inference_gate":"released",
+  "authorized_page_scope":[3,4,6,20,24,50,52,65,66,89,90,91],
+  "parser_registry":"data/manifests/p7_mineru_target_registry_RESUME01_v0.1.json",
+  "parser_registry_sha256":"dfb24145dbaeaeae80e42871330531a6da698c01c24f821420fa3a40030d5b8b",
+  "slot_contracts":"configs/framework/p7_slot_contracts_v0.1.lock.json",
+  "slot_contracts_sha256":"a592d26ead0eee2dd9d9a5e974bc20e6fefa73d6c3577fcfaaeb69ff43fe1ae4",
+  "reference_freeze":"data/manifests/p7_simulated_reference_freeze_v0.1.lock.json"
+}

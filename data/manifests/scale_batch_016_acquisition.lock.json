@@ -1,0 +1,35 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-016",
+  "created_at": "2026-09-13T09:17:32.129328+00:00",
+  "source_config": "configs/knowledge/scale_batch_016_v0.1.json",
+  "documents": [
+    {
+      "document_id": "KB-B016-AKZONOBEL-AR2025",
+      "local_path": "data/raw/scale_batch_016/akzonobel-annual-report-2025.pdf",
+      "bytes": 30651716,
+      "sha256": "43dd8b8c446d83c9fdaf93d1b9f6d8e8f26046e017db7a6b089289f186f58541",
+      "pdf_header_valid": true,
+      "download_status": "downloaded",
+      "resumed_from_bytes": 0
+    },
+    {
+      "document_id": "KB-B016-NOVONESIS-AR2025",
+      "local_path": "data/raw/scale_batch_016/novonesis-annual-report-2025.pdf",
+      "bytes": 17894941,
+      "sha256": "dd3bf837735c9cd24760e717099568a0fe012707cb97536ca199e5e2ea98a2dc",
+      "pdf_header_valid": true,
+      "download_status": "downloaded",
+      "resumed_from_bytes": 0
+    },
+    {
+      "document_id": "KB-B016-COLOPLAST-AR2025",
+      "local_path": "data/raw/scale_batch_016/coloplast-annual-report-2024-25.pdf",
+      "bytes": 31608370,
+      "sha256": "a59cdb9a92afb70dbabc0e723125c98f1233958a9b02296ff23e3a6855aa642d",
+      "pdf_header_valid": true,
+      "download_status": "downloaded",
+      "resumed_from_bytes": 0
+    }
+  ]
+}

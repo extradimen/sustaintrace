@@ -1,0 +1,14 @@
+{
+  "schema_version":"1.0","freeze_id":"P1-SYNTHETIC-BENCHMARK-FREEZE-v0.1","status":"frozen","frozen_at":"2026-09-03T23:59:00+08:00",
+  "benchmark_type":"synthetic_reference_benchmark","human_gold_standard":false,"human_inter_annotator_agreement":null,
+  "task_count":24,"reference_count":24,"controlled_intervention_count":3,
+  "task_quotas":{"abstention":3,"controlled_conflict":3,"cross_page_relation":4,"deterministic_calculation":4,"direct_extraction":6,"scope_subject_boundary":4},
+  "task_pack_sha256":"a278f711ee1bc5e95c6ae437c62e6685b669631c5462e1a41fd01dd48091f64b",
+  "reference_schema_sha256":"03c5e5f37a46daa94557436da1dde6fad1ac53dd717ee747a0fb3687bf944407",
+  "reference_hash_listing_sha256":"c3e49f9e2f2a00d37198730f86cf4320f01e4c78aa5d78e883c30a83ecd83677",
+  "intervention_hash_listing_sha256":"4fd4b1cb11a399b3bd4d3d2545d733f524294efc5300d7cbe72cb9b2046d83e5",
+  "acquisition_manifest_sha256":"70b1925cb084e5b03004b93d5c0b0098886bda564a1c5cc720028cbae87508a3",
+  "eligibility_exposure_exclusions_sha256":"b4dde54b2db2d830188a6bd8cf2836b5d13cafc5ff9939a83393f061de58d185",
+  "prefreeze_audit_passed":true,"current_codex_gpt_context_excluded":true,"gpt_family_unseen_claims_allowed":false,
+  "model_configuration_frozen":true,"execution_pipeline_frozen":true,"inference_allowed":true,"next_gate":"single_task_integration_acceptance"
+}

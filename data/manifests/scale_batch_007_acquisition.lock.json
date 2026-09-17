@@ -1,0 +1,43 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-007",
+  "created_at": "2026-09-12T21:39:38Z",
+  "source_config": "configs/knowledge/scale_batch_007_v0.1.json",
+  "documents": [
+    {
+      "document_id": "KB-B007-ABB-ARS2025",
+      "local_path": "data/raw/scale_batch_007/abb-annual-reporting-suite-2025.pdf",
+      "bytes": 27173720,
+      "pages": 514,
+      "sha256": "79246a74008abc09050a8e3fe61957c8ff7b03eec177acaa0a53d7d32b777be3",
+      "pdf_header_valid": true,
+      "pdfinfo_valid": true,
+      "download_status": "downloaded_verified_pdf"
+    },
+    {
+      "document_id": "KB-B007-NOKIA-AR2025",
+      "local_path": "data/raw/scale_batch_007/nokia-annual-report-2025.pdf",
+      "bytes": 14181152,
+      "pages": 295,
+      "sha256": "fa6067b17c09d25b05571ceec218fb3f524054fc8cb7d8eb899221c7b7404455",
+      "pdf_header_valid": true,
+      "pdfinfo_valid": true,
+      "download_status": "downloaded_verified_pdf"
+    },
+    {
+      "document_id": "KB-B007-ATLAS-COPCO-AR2025",
+      "local_path": "data/raw/scale_batch_007/atlas-copco-annual-report-2025.pdf",
+      "bytes": 10975499,
+      "pages": 174,
+      "sha256": "70d076bd915ecb111549426d3bf2b585626e117e20509f42c84dd001915e4164",
+      "pdf_header_valid": true,
+      "pdfinfo_valid": true,
+      "download_status": "downloaded_verified_pdf"
+    }
+  ],
+  "totals": {
+    "documents": 3,
+    "bytes": 52330371,
+    "pages": 983
+  }
+}

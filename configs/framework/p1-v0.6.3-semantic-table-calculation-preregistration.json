@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "framework_id": "P1-PIPELINE-v0.6.3-SEMANTIC-TABLE-CALCULATION",
+  "status": "preregistered_before_v0.6.3_candidate_inference",
+  "trigger_run_id": "P1-02-1-GEMMA4-12B-v062-r1",
+  "observed_failure": "The correct table row was selected, but the model reversed 2024 and 2023 inputs and the deterministic framework therefore calculated the wrong direction.",
+  "registered_changes": [
+    "Attach the table's extracted header context to every row as non-evidence orientation metadata.",
+    "Require a semantic role on every calculation input.",
+    "For percentage_change, deterministically order current and prior inputs by role rather than model list order."
+  ],
+  "calculation_roles": ["current", "prior", "numerator", "denominator", "addend", "minuend", "subtrahend"],
+  "unchanged_constraints": {
+    "row_verbatim_text": "unchanged",
+    "model_digest": "unchanged",
+    "source_pdf_and_page": "unchanged",
+    "reference_visible_during_inference": false,
+    "posthoc_semantic_repair_allowed": false,
+    "aggregate_score_enabled": false
+  },
+  "inference_allowed": false
+}

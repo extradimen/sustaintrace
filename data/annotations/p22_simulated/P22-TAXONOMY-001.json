@@ -1,0 +1,73 @@
+{
+  "answer": "In 2025 Bayer reported turnover of €45,575m, taxonomy-eligible turnover of €17,956m (39.4%), and aligned turnover of €0m (0.0%). CapEx was €3,202m, eligible €284m (8.9%), and aligned €0m (0.0%). OpEx was €7,054m; no material eligible or aligned OpEx was identified, so no separate activity table was included, while the summary reports 0.0% eligible and €0m/0.0% aligned. Nonmaterial active-ingredient sales and nonmaterial CapEx/OpEx were excluded under the stated thresholds.",
+  "evidence": [
+    {
+      "parser": "mineru",
+      "pdf_page": 130,
+      "quote": "Turnover</td><td rowspan=1 colspan=1>45,575</td><td rowspan=1 colspan=1>39.4</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0.0",
+      "source_id": "P22-BAYER-AR2025"
+    },
+    {
+      "parser": "mineru",
+      "pdf_page": 130,
+      "quote": "Taxonomy-eligible sales amounted to €17,956 million in 2025",
+      "source_id": "P22-BAYER-AR2025"
+    },
+    {
+      "parser": "mineru",
+      "pdf_page": 132,
+      "quote": "We incurred taxonomy-eligible capital expenditure (CapEx) of €284 million in 2025",
+      "source_id": "P22-BAYER-AR2025"
+    },
+    {
+      "parser": "mineru",
+      "pdf_page": 132,
+      "quote": "The proportion of taxonomy-eligible capital expenditure therefore came to 8.9%",
+      "source_id": "P22-BAYER-AR2025"
+    },
+    {
+      "parser": "mineru",
+      "pdf_page": 132,
+      "quote": "In 2025, operating expenditure totaling €7,054 million",
+      "source_id": "P22-BAYER-AR2025"
+    },
+    {
+      "parser": "mineru",
+      "pdf_page": 132,
+      "quote": "Material taxonomy-eligible and taxonomy-aligned operating expenditure could not be identified.",
+      "source_id": "P22-BAYER-AR2025"
+    },
+    {
+      "parser": "mineru",
+      "pdf_page": 132,
+      "quote": "We have not included a table of taxonomy eligibility and alignment for operating expenditure.",
+      "source_id": "P22-BAYER-AR2025"
+    }
+  ],
+  "normalized_value": {
+    "capex_aligned_million_eur::2025": 0,
+    "capex_aligned_share_percent::2025": 0.0,
+    "capex_denominator_million_eur::2025": 3202,
+    "capex_eligible_million_eur::2025": 284,
+    "capex_eligible_share_percent::2025": 8.9,
+    "materiality_treatment": "nonmaterial eligible CapEx excluded; active-ingredient turnover below 1%; material eligible/aligned OpEx not identified and no separate OpEx table",
+    "opex_aligned_million_eur::2025": 0,
+    "opex_aligned_share_percent::2025": 0.0,
+    "opex_denominator_million_eur::2025": 7054,
+    "opex_eligible_amount_disclosure::2025": "not separately disclosed",
+    "opex_eligible_share_percent::2025": 0.0,
+    "turnover_aligned_million_eur::2025": 0,
+    "turnover_aligned_share_percent::2025": 0.0,
+    "turnover_denominator_million_eur::2025": 45575,
+    "turnover_eligible_million_eur::2025": 17956,
+    "turnover_eligible_share_percent::2025": 39.4
+  },
+  "provenance": {
+    "candidate_model_used": false,
+    "reference_is_simulated": true
+  },
+  "reference_author": "codex_gpt_simulated_expert",
+  "reference_status": "verified_against_frozen_mineru_pages_native_layout_and_visual_fallback",
+  "schema_version": "1.0",
+  "task_id": "P22-TAXONOMY-001"
+}

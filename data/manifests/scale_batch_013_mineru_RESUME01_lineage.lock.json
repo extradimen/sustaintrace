@@ -1,0 +1,31 @@
+{
+  "schema_version": "0.1",
+  "resume_id": "KB-SCALE-BATCH-013-MINERU-RESUME01",
+  "created_at": "2026-09-13T07:31:27.062706+00:00",
+  "parent_summary": "data/results/scale_batch_013_mineru_summary.lock.json",
+  "parent_summary_sha256": "fbaf6a3e5084b4a7d021a5f6d39db3027c18396526fd7606cc3e36e28c6b1b89",
+  "parent_failure_class": "mineru_postprocess_recursive_mutex_abort_after_page_processing",
+  "parent_failed_pages": 4,
+  "failed_page_keys": [
+    {
+      "document_id": "KB-B013-ELECTROLUX-AR2025",
+      "page": 106
+    },
+    {
+      "document_id": "KB-B013-SKF-ASR2025",
+      "page": 42
+    },
+    {
+      "document_id": "KB-B013-SKF-ASR2025",
+      "page": 68
+    },
+    {
+      "document_id": "KB-B013-SKF-ASR2025",
+      "page": 77
+    }
+  ],
+  "resume_scope": "failed_pages_only",
+  "successful_parent_pages_reused": 19,
+  "output_policy": "new_resume_directory_no_parent_overwrite",
+  "cloud_transmission": false
+}

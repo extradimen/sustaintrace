@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "experiment_id": "P14-V23-UNSEEN-LOCKBOX-V01",
+  "status": "executor_layout_registry_frozen_before_candidate_inference",
+  "selection_rule": "all frozen task pages are eligible for native PDF layout cross-check; references cannot select candidate evidence",
+  "semantic_change": false,
+  "document": {
+    "document_id": "P14-LOREAL-URD2025",
+    "pdf_path": "data/raw/p14_staging/loreal-2025-universal-registration-document.pdf",
+    "document_sha256": "db63807f5963c3e70422bbb9a0763f2f53be4139d5ee57984717bfa056275aa2"
+  },
+  "targets": [
+    {"pdf_page": 206, "task_ids": ["P14-TARGET-001"]},
+    {"pdf_page": 208, "task_ids": ["P14-TARGET-001"]},
+    {"pdf_page": 212, "task_ids": ["P14-TARGET-001"]},
+    {"pdf_page": 213, "task_ids": ["P14-GHG-CALC-001", "P14-TARGET-001"]},
+    {"pdf_page": 225, "task_ids": ["P14-WATER-001"]},
+    {"pdf_page": 229, "task_ids": ["P14-WATER-001"]},
+    {"pdf_page": 248, "task_ids": ["P14-SAFETY-001"]},
+    {"pdf_page": 282, "task_ids": ["P14-SLB-001"]},
+    {"pdf_page": 285, "task_ids": ["P14-ASSURE-001"]},
+    {"pdf_page": 286, "task_ids": ["P14-ASSURE-001"]},
+    {"pdf_page": 287, "task_ids": ["P14-ASSURE-001"]},
+    {"pdf_page": 288, "task_ids": ["P14-SLB-001"]},
+    {"pdf_page": 289, "task_ids": ["P14-SLB-001"]}
+  ],
+  "mineru_registry": "data/manifests/p14_mineru_target_registry_RESUME04_v0.1.json",
+  "two_dimensional_table_graph": "configs/framework/p14_two_dimensional_table_graph_v0.1.lock.json"
+}

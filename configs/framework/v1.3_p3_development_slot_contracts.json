@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0",
+  "status": "development_frozen_before_v1.3_regression",
+  "source": "P3 exposed failures and successful controls; never used to rescore P3 as unseen",
+  "ontology": "configs/ontology/esg_atomic_claim_registry_v1.1.json",
+  "contracts": {
+    "P3-DEX-001": [
+      {"slot_id": "gross_scope3_2025", "predicate_id": "reports_emissions", "value_type": "number", "canonical_unit": "ktonnes_co2e", "period": "2025", "scope_id": "gross_scope_3_total_footprint"}
+    ],
+    "P3-DEX-002": [
+      {"slot_id": "market_scope12_2024", "predicate_id": "reports_emissions", "value_type": "number", "canonical_unit": "thousand_tonnes_co2e", "period": "FY2024", "scope_id": "scope_1_2_market_based"}
+    ],
+    "P3-XPAGE-001": [
+      {"slot_id": "baseline_2020", "predicate_id": "reports_emissions", "value_type": "number", "canonical_unit": "tco2e", "period": "2020", "scope_id": "scope_1_2_market_based"},
+      {"slot_id": "observed_2024", "predicate_id": "reports_emissions", "value_type": "number", "canonical_unit": "tco2e", "period": "2024", "scope_id": "scope_1_2_market_based"},
+      {"slot_id": "progress_2024", "predicate_id": "reports_emissions_change", "value_type": "number", "canonical_unit": "percent", "period": "2024 vs 2020", "scope_id": "scope_1_2_market_based"},
+      {"slot_id": "target_2030", "predicate_id": "sets_emissions_target", "value_type": "number", "canonical_unit": "tco2e", "period": "2030", "scope_id": "scope_1_2_market_based", "claim_kind": "target"},
+      {"slot_id": "assurance", "predicate_id": "receives_assurance_level", "value_type": "string", "period": "2024", "scope_id": "assurance_scope"}
+    ],
+    "P3-XPAGE-002": [
+      {"slot_id": "yoy_change", "predicate_id": "reports_emissions_change", "value_type": "number", "canonical_unit": "percent", "period": "FY2024 vs FY2023", "scope_id": "scope_1_2_market_based"},
+      {"slot_id": "total_emissions", "predicate_id": "reports_emissions", "value_type": "number", "canonical_unit": "thousand_tonnes_co2e", "period": "FY2024", "scope_id": "scope_1_2_market_based"},
+      {"slot_id": "assurance", "predicate_id": "receives_assurance_level", "value_type": "string", "period": "FY2024", "scope_id": "assurance_scope"}
+    ],
+    "P3-SCOPE-001": [
+      {"slot_id": "boundary_method", "predicate_id": "uses_organizational_boundary_method", "value_type": "string", "period": "FY2024/25 methodology", "scope_id": "ghg_inventory"},
+      {"slot_id": "included_share", "predicate_id": "includes_controlled_operation_share", "value_type": "number", "canonical_unit": "percent", "period": "FY2024/25 methodology", "scope_id": "ghg_inventory"},
+      {"slot_id": "excluded_operations", "predicate_id": "excludes_operation_condition", "value_type": "string", "period": "FY2024/25 methodology", "scope_id": "ghg_inventory"}
+    ],
+    "P3-SCOPE-002": [
+      {"slot_id": "gross_boundary", "predicate_id": "defines_emissions_boundary", "value_type": "string", "period": "2025", "scope_id": "gross_scope_3_total_footprint"},
+      {"slot_id": "sbti_boundary", "predicate_id": "defines_emissions_boundary", "value_type": "string", "period": "2025", "scope_id": "sbti_target_boundary"},
+      {"slot_id": "scope12_excluded_share", "predicate_id": "excludes_emissions_share", "value_type": "number", "canonical_unit": "percent", "period": "2025", "scope_id": "sbti_target_boundary"},
+      {"slot_id": "scope3_excluded_share", "predicate_id": "excludes_emissions_share", "value_type": "number", "canonical_unit": "percent", "period": "2025", "scope_id": "sbti_target_boundary"},
+      {"slot_id": "excluded_sources", "predicate_id": "excludes_source_category", "value_type": "string", "period": "2025", "scope_id": "sbti_target_boundary"}
+    ],
+    "P3-CONFLICT-001": [
+      {"slot_id": "conflict_state", "predicate_id": "contradicts_source_claim", "value_type": "boolean", "period": "2024", "scope_id": "source_claim_pair"},
+      {"slot_id": "official_value", "predicate_id": "attributes_claim_to_source", "value_type": "number", "canonical_unit": "tco2e", "period": "2024", "scope_id": "source_claim_pair"},
+      {"slot_id": "controlled_note_value", "predicate_id": "attributes_claim_to_source", "value_type": "number", "canonical_unit": "tco2e", "period": "2024", "scope_id": "source_claim_pair"}
+    ],
+    "P3-CONFLICT-002": [
+      {"slot_id": "conflict_state", "predicate_id": "contradicts_source_claim", "value_type": "boolean", "period": "2024", "scope_id": "source_claim_pair"},
+      {"slot_id": "official_value", "predicate_id": "attributes_claim_to_source", "value_type": "number", "period": "2024", "scope_id": "source_claim_pair"},
+      {"slot_id": "controlled_note_value", "predicate_id": "attributes_claim_to_source", "value_type": "number", "period": "2024", "scope_id": "source_claim_pair"}
+    ]
+  },
+  "aggregate_score": null
+}

@@ -1,0 +1,22 @@
+{
+  "checks": {
+    "candidate_model_used": false,
+    "cloud_transmission_count": 0,
+    "numeric_arithmetic_recomputed": true,
+    "quotes_grounded_in_frozen_parser_output": true,
+    "reference_pages_within_windows": true,
+    "reference_quote_count": 62,
+    "task_count": 6,
+    "unique_page_count": 8
+  },
+  "experiment_id": "P19-V28-UNSEEN-LOCKBOX-V01",
+  "gate_result": "pass",
+  "hashes": {
+    "atomic_gold": "3a266f9c0524a99a45e13c88a15b31d1b29c9fbeaaa1f61c301f20246577e74a",
+    "parser_registry": "20ea9857771d930cfc4fe384ea10f07251a2b4567637ee0b893b1b5c1df31498",
+    "reference_freeze": "db8b725ba4d30efa0412bb7c12325cb0549952603b9bc6e2ed99eb4864b278f0",
+    "slot_contracts": "65c26e96a6a6e73abea6cc1a03b73b247b8881e8022a773bf97abb4a9f4f0fe8",
+    "task_pack": "6f7bb2eb865c457f653fe067fae88cf0962c46e540ac95c1da9a857b77b3593b"
+  },
+  "schema_version": "2.8"
+}

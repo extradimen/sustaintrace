@@ -1,0 +1,31 @@
+{
+  "blocked_fact_ids": [
+    "fact-131da006f2cf20c453c28f53",
+    "fact-158571c814119b39d785eb48",
+    "fact-27617b1dbb1725a3b40a3623"
+  ],
+  "blocked_reason": "supplier SBT percentage cells lack an exact metric-to-assurance-scope page binding",
+  "inputs": {
+    "atomic_increment_sha256": "91ef601d40a770b4387af457ee3edb27e7d9d588b3c0c5b8d7853c6b536a6453",
+    "philips_report_sha256": "ff527efe35aa923bd6b592c38549bf1f9f207ac3cef2cec6695a7b9cd93efc6d"
+  },
+  "locked_experiments_modified_or_rescored": false,
+  "newly_promoted_to_tier_b": 5,
+  "next_gate": "scale_batch_005_source_acquisition_and_local_ingestion",
+  "outputs": {
+    "adjudications_sha256": "b998f056c313d0c3efdc56f43b8a265ed39167d6ec9359c1b114bb06cfad36ac",
+    "trusted_facts_sha256": "7ca55e4f9af6ab2acb8a5202d7b63809a3abd563f1c8f7f6e47ec9306e5dbc1a"
+  },
+  "promotable_fact_ids": [
+    "fact-0fdd861bdd87137432d047f1",
+    "fact-4f6b615deb687ed51454ed9e",
+    "fact-680153d02b4ad8d6a26bf23d",
+    "fact-aaf88f209ed5a89e198d8c2a",
+    "fact-dc2f7968d76480ed1d258b48"
+  ],
+  "reviewed": 8,
+  "schema_version": "0.1",
+  "source_candidate_records_modified": 0,
+  "status": "scale_batch_004_six_dimension_tier_b_sampling_complete",
+  "total_trusted_tier_b": 55
+}

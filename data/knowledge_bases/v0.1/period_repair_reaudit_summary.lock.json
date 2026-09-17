@@ -1,0 +1,18 @@
+{
+  "counts": {
+    "incomplete_qualification": 26,
+    "jointly_qualified_candidate": 5
+  },
+  "inputs": {
+    "knowledge_gaps_sha256": "858a37ede7bd213c1c3d1e9136d5d8be6bc6e6f12f147124318347cb3a8cef76",
+    "period_repairs_sha256": "4b9a46cd0c70833f4af876eee4d44a5f92e78621c4175ebcd48d9330daf03d50"
+  },
+  "next_gate": "validate deterministic unit attachment without using reference outputs",
+  "output": {
+    "path": "data/knowledge_bases/v0.1/period_repair_reaudits.jsonl",
+    "sha256": "1e15791e55e97f8e268dc769d716ed0f23bb81f39ee1a5c8f2d2ca30b19a2b57"
+  },
+  "promotions_performed": 0,
+  "schema_version": "0.1",
+  "status": "period_repair_reaudit_complete_no_promotion"
+}

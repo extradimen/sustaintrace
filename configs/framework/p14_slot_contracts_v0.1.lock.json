@@ -1,0 +1,75 @@
+{
+  "schema_version": "2.3",
+  "experiment_id": "P14-V23-UNSEEN-LOCKBOX-V01",
+  "status": "frozen_before_candidate_inference_after_prefreeze_integrity_audit",
+  "contracts": {
+    "P14-GHG-CALC-001": [
+      {"slot_id": "scope_1_tco2e", "predicate_id": "esg_disclosure::scope_1", "value_type": "number", "canonical_unit": "tCO2e", "period": "2025"},
+      {"slot_id": "market_scope_2_tco2e", "predicate_id": "esg_disclosure::market_scope_2", "value_type": "number", "canonical_unit": "tCO2e", "period": "2025"},
+      {"slot_id": "scope_3_tco2e", "predicate_id": "esg_disclosure::scope_3", "value_type": "number", "canonical_unit": "tCO2e", "period": "2025"},
+      {"slot_id": "calculated_total_tco2e", "predicate_id": "esg_calculation::scope_sum", "value_type": "number", "canonical_unit": "tCO2e", "period": "2025"},
+      {"slot_id": "disclosed_total_tco2e", "predicate_id": "esg_disclosure::market_total", "value_type": "number", "canonical_unit": "tCO2e", "period": "2025"},
+      {"slot_id": "difference_tco2e", "predicate_id": "esg_calculation::calculated_minus_disclosed", "value_type": "number", "canonical_unit": "tCO2e", "period": "2025"},
+      {"slot_id": "comparison", "predicate_id": "esg_calculation::comparison_status", "value_type": "string"},
+      {"slot_id": "rounding_context", "predicate_id": "esg_calculation::rounding_context", "value_type": "string"}
+    ],
+    "P14-TARGET-001": [
+      {"slot_id": "scope_1_2_2030_reduction_percent", "predicate_id": "esg_target::scope_1_2_reduction", "value_type": "number", "canonical_unit": "percent", "period": "2030", "direction": "decrease"},
+      {"slot_id": "scope_3_2030_reduction_percent", "predicate_id": "esg_target::scope_3_reduction", "value_type": "number", "canonical_unit": "percent", "period": "2030", "direction": "decrease"},
+      {"slot_id": "scope_3_category_purchased_goods", "predicate_id": "esg_target::scope_3_category", "value_type": "string"},
+      {"slot_id": "scope_3_category_upstream_transport", "predicate_id": "esg_target::scope_3_category", "value_type": "string"},
+      {"slot_id": "scope_3_category_business_travel", "predicate_id": "esg_target::scope_3_category", "value_type": "string"},
+      {"slot_id": "base_year", "predicate_id": "esg_target::base_year", "value_type": "number"},
+      {"slot_id": "overall_2050_reduction_percent", "predicate_id": "esg_target::overall_reduction", "value_type": "number", "canonical_unit": "percent", "period": "2050", "direction": "decrease"},
+      {"slot_id": "residual_treatment", "predicate_id": "esg_target::residual_treatment", "value_type": "string"},
+      {"slot_id": "sbti_status", "predicate_id": "esg_target::sbti_status", "value_type": "string"},
+      {"slot_id": "benchmark_exclusion_status", "predicate_id": "esg_target::benchmark_exclusion_status", "value_type": "string"},
+      {"slot_id": "scope_1_2_2025_progress_percent", "predicate_id": "esg_progress::scope_1_2_change", "value_type": "number", "canonical_unit": "percent", "period": "2025"},
+      {"slot_id": "material_scope_3_2025_progress_percent", "predicate_id": "esg_progress::material_scope_3_change", "value_type": "number", "canonical_unit": "percent", "period": "2025"},
+      {"slot_id": "total_market_ghg_2025_progress_percent", "predicate_id": "esg_progress::total_market_ghg_change", "value_type": "number", "canonical_unit": "percent", "period": "2025"}
+    ],
+    "P14-WATER-001": [
+      {"slot_id": "industrial_recycled_reused_progress_percent", "predicate_id": "esg_water::industrial_recycled_reused_progress", "value_type": "number", "canonical_unit": "percent", "period": "2025"},
+      {"slot_id": "water_saving_products_progress_percent", "predicate_id": "esg_water::water_saving_products_progress", "value_type": "number", "canonical_unit": "percent", "period": "2025"},
+      {"slot_id": "total_water_consumption_m3", "predicate_id": "esg_water::total_consumption", "value_type": "number", "canonical_unit": "m3", "period": "2025"},
+      {"slot_id": "water_risk_consumption_m3", "predicate_id": "esg_water::water_risk_consumption", "value_type": "number", "canonical_unit": "m3", "period": "2025"},
+      {"slot_id": "water_recycled_reused_m3", "predicate_id": "esg_water::recycled_reused", "value_type": "number", "canonical_unit": "m3", "period": "2025"},
+      {"slot_id": "water_intensity_m3_per_million_eur", "predicate_id": "esg_water::consumption_intensity", "value_type": "number", "canonical_unit": "m3_per_million_EUR", "period": "2025"},
+      {"slot_id": "water_risk_scope", "predicate_id": "esg_boundary::water_risk_scope", "value_type": "string"}
+    ],
+    "P14-SAFETY-001": [
+      {"slot_id": "management_system_coverage_percent", "predicate_id": "esg_safety::management_system_coverage", "value_type": "number", "canonical_unit": "percent", "period": "2025"},
+      {"slot_id": "fatalities_count", "predicate_id": "esg_safety::fatalities", "value_type": "number", "canonical_unit": "count", "period": "2025"},
+      {"slot_id": "recordable_accidents_count", "predicate_id": "esg_safety::recordable_accidents", "value_type": "number", "canonical_unit": "count", "period": "2025"},
+      {"slot_id": "etir", "predicate_id": "esg_safety::enlarged_total_incident_rate", "value_type": "number", "period": "2025"},
+      {"slot_id": "ltir", "predicate_id": "esg_safety::lost_time_injury_rate", "value_type": "number", "period": "2025"},
+      {"slot_id": "accident_metric_exclusion", "predicate_id": "esg_safety::accident_metric_exclusion", "value_type": "string"}
+    ],
+    "P14-SLB-001": [
+      {"slot_id": "kpi_1a_target_percent", "predicate_id": "esg_slb::kpi_1a_target", "value_type": "number", "canonical_unit": "percent", "period": "2025"},
+      {"slot_id": "kpi_1a_performance_percent", "predicate_id": "esg_slb::kpi_1a_performance", "value_type": "number", "canonical_unit": "percent", "period": "2025"},
+      {"slot_id": "kpi_1a_status", "predicate_id": "esg_slb::kpi_1a_status", "value_type": "string"},
+      {"slot_id": "kpi_1b_target_reduction_percent", "predicate_id": "esg_slb::kpi_1b_target", "value_type": "number", "canonical_unit": "percent", "period": "2025", "direction": "decrease"},
+      {"slot_id": "kpi_1b_published_reduction_percent", "predicate_id": "esg_slb::kpi_1b_published_performance", "value_type": "number", "canonical_unit": "percent", "period": "2025", "direction": "decrease"},
+      {"slot_id": "kpi_1b_comparable_reduction_percent", "predicate_id": "esg_slb::kpi_1b_comparable_performance", "value_type": "number", "canonical_unit": "percent", "period": "2025", "direction": "decrease"},
+      {"slot_id": "kpi_1b_status", "predicate_id": "esg_slb::kpi_1b_status", "value_type": "string"},
+      {"slot_id": "kpi_2_target_percent", "predicate_id": "esg_slb::kpi_2_target", "value_type": "number", "canonical_unit": "percent", "period": "2025"},
+      {"slot_id": "kpi_2_performance_percent", "predicate_id": "esg_slb::kpi_2_performance", "value_type": "number", "canonical_unit": "percent", "period": "2025"},
+      {"slot_id": "kpi_2_unrounded_percent", "predicate_id": "esg_slb::kpi_2_unrounded_performance", "value_type": "number", "canonical_unit": "percent", "period": "2025"},
+      {"slot_id": "kpi_2_status", "predicate_id": "esg_slb::kpi_2_status", "value_type": "string"},
+      {"slot_id": "kpi_1b_exclusion", "predicate_id": "esg_slb::kpi_1b_exclusion", "value_type": "string"},
+      {"slot_id": "kpi_2_boundary", "predicate_id": "esg_slb::kpi_2_boundary", "value_type": "string"},
+      {"slot_id": "assurance_exclusion", "predicate_id": "esg_assurance::excluded_information", "value_type": "string", "string_input_shape": "ordered_span", "required_value_terms": ["earlier periods", "ESG KPIs"]}
+    ],
+    "P14-ASSURE-001": [
+      {"slot_id": "assurance_level", "predicate_id": "esg_assurance::level", "value_type": "string"},
+      {"slot_id": "subject", "predicate_id": "esg_assurance::subject", "value_type": "string", "string_input_shape": "ordered_span", "required_value_terms": ["sustainability information", "Article 8"]},
+      {"slot_id": "esrs_process_conclusion", "predicate_id": "esg_assurance::esrs_process_conclusion", "value_type": "string"},
+      {"slot_id": "sustainability_information_conclusion", "predicate_id": "esg_assurance::sustainability_information_conclusion", "value_type": "string"},
+      {"slot_id": "article_8_conclusion", "predicate_id": "esg_assurance::article_8_conclusion", "value_type": "string"},
+      {"slot_id": "procedure_difference", "predicate_id": "esg_assurance::procedure_difference", "value_type": "string", "string_input_shape": "ordered_span", "required_value_terms": ["less", "reasonable assurance"]},
+      {"slot_id": "management_choice_exclusion", "predicate_id": "esg_assurance::management_choice_exclusion", "value_type": "string", "string_input_shape": "ordered_span", "required_value_terms": ["action plans", "targets", "policies"]},
+      {"slot_id": "forward_looking_limitation", "predicate_id": "esg_assurance::forward_looking_limitation", "value_type": "string"}
+    ]
+  }
+}

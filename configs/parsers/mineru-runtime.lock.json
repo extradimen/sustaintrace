@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.0",
+  "python": "3.12.12",
+  "packages": {
+    "mineru": "3.4.0",
+    "pdftext": "0.6.3",
+    "pypdfium2": "4.30.0"
+  },
+  "compatibility_note": "pdftext 0.7.1 is excluded because its columnar PageChars API is incompatible with MinerU 3.4.0 text iteration.",
+  "model_manifest": "model_manifests/mineru-pdf-extract-kit-1.0-ed6b654c.lock.json"
+}

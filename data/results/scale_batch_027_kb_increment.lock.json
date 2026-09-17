@@ -1,0 +1,98 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-027",
+  "status": "increment_built_candidates_not_promoted",
+  "fact_candidates": 38,
+  "trusted_facts_promoted": 0,
+  "evidence_gaps": 12,
+  "failure_observations": 70,
+  "gaps": [
+    {
+      "document_id": "KB-B027-NORDEA-AR2025",
+      "page": 104,
+      "theme": "health_safety",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B027-NORDEA-AR2025",
+      "page": 191,
+      "theme": "circularity",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B027-HANDELSBANKEN-AR2025",
+      "page": 79,
+      "theme": "water",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B027-HANDELSBANKEN-AR2025",
+      "page": 99,
+      "theme": "health_safety",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B027-HANDELSBANKEN-AR2025",
+      "page": 139,
+      "theme": "biodiversity",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B027-HANDELSBANKEN-AR2025",
+      "page": 139,
+      "theme": "circularity",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B027-HANDELSBANKEN-AR2025",
+      "page": 140,
+      "theme": "biodiversity",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B027-HANDELSBANKEN-AR2025",
+      "page": 140,
+      "theme": "circularity",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B027-HANDELSBANKEN-AR2025",
+      "page": 143,
+      "theme": "assurance",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B027-SECURITAS-AR2025",
+      "page": 75,
+      "theme": "biodiversity",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B027-SECURITAS-AR2025",
+      "page": 103,
+      "theme": "water",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B027-SECURITAS-AR2025",
+      "page": 176,
+      "theme": "assurance",
+      "reason": "no_theme_line_in_mineru_markdown"
+    }
+  ],
+  "outputs": {
+    "facts": {
+      "path": "data/knowledge_bases/v0.1/increments/scale_batch_027_fact_records.jsonl",
+      "sha256": "af645a3f5f6e3122592ffbb2df379309c5c7889a8e1508b61d9fe3218a8ae5e0"
+    },
+    "failures": {
+      "path": "data/knowledge_bases/v0.1/increments/scale_batch_027_failure_records.jsonl",
+      "sha256": "c5016da700873e584bac37b6620c3220697da2cb26ee7a3491d15c5f758b787d"
+    }
+  },
+  "policy": {
+    "cloud_transmission": false,
+    "locked_experiments_modified": false,
+    "automatic_promotion": false
+  }
+}

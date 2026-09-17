@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "experiment_id": "P16-V25-UNSEEN-LOCKBOX-V01",
+  "recovery_id": "P16-CALCULATION-PLAN-RESUME01",
+  "parent_plan": "configs/framework/p16_calculation_plans_v0.1.lock.json",
+  "resume_plan": "configs/framework/p16_calculation_plans_RESUME01_v0.1.lock.json",
+  "status": "frozen_before_candidate_inference",
+  "failure_class": "local_execution_configuration_shape_error",
+  "failure_description": "The original prefreeze plan stored semantic input/output names but omitted the production runner's roles and steps arrays. No candidate model call had started.",
+  "correction": "Represent the identical frozen arithmetic as production roles and deterministic sum/difference steps; canonicalize reported ktCO2e to the already-frozen v2.5 alias thousand_tCO2e; source values, operation, question, page window and reference answer are unchanged.",
+  "candidate_model_call_count_before_recovery": 0,
+  "cloud_transmission_count_before_recovery": 0,
+  "semantic_change": false,
+  "overwrite_parent": false
+}

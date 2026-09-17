@@ -1,0 +1,85 @@
+{
+  "batch_id": "KB-SCALE-BATCH-025-PERFORMANCE",
+  "comparison_parent": "data/results/scale_batch_024_RESUME01_performance_baseline.lock.json",
+  "completed_at": "2026-09-13T19:25:02.335619+00:00",
+  "mineru": {
+    "attempt_wall_seconds": [
+      95.577956,
+      450.095388,
+      237.738897,
+      140.36949
+    ],
+    "final_complete_pages": 30,
+    "initial_failure_class": "sandbox_local_server_port_bind_denied",
+    "initial_failures": 30,
+    "post_completion_shutdown_recovered_pages": 6,
+    "resume_completed_pages": 24,
+    "status": "complete_after_audited_resume_and_hash_recovery",
+    "successful_processing_wall_seconds": 443.113386,
+    "successful_target_pages": 30,
+    "successful_target_pages_per_hour": 243.729942,
+    "target_page_wall_seconds": {
+      "KB-B025-AKERBP-AR2025:p0062": 13.12916,
+      "KB-B025-AKERBP-AR2025:p0073": 16.134513,
+      "KB-B025-AKERBP-AR2025:p0074": 13.564555,
+      "KB-B025-AKERBP-AR2025:p0085": 12.702717,
+      "KB-B025-AKERBP-AR2025:p0086": 15.182238,
+      "KB-B025-AKERBP-AR2025:p0094": 13.678684,
+      "KB-B025-AKERBP-AR2025:p0103": 15.962005,
+      "KB-B025-AKERBP-AR2025:p0110": 13.63378,
+      "KB-B025-AKERBP-AR2025:p0126": 17.051314,
+      "KB-B025-AKERBP-AR2025:p0127": 15.80771,
+      "KB-B025-DNB-AR2025:p0083": 14.824543,
+      "KB-B025-DNB-AR2025:p0094": 13.710592,
+      "KB-B025-DNB-AR2025:p0124": 13.808387,
+      "KB-B025-DNB-AR2025:p0134": 15.867632,
+      "KB-B025-DNB-AR2025:p0154": 13.655944,
+      "KB-B025-DNB-AR2025:p0202": 14.603092,
+      "KB-B025-DNB-AR2025:p0350": 14.821563,
+      "KB-B025-DNB-AR2025:p0351": 13.572082,
+      "KB-B025-DNB-AR2025:p0352": 13.634218,
+      "KB-B025-DNB-AR2025:p0353": 13.706867,
+      "KB-B025-EQUINOR-AR2025:p0101": 18.030806,
+      "KB-B025-EQUINOR-AR2025:p0112": 15.883519,
+      "KB-B025-EQUINOR-AR2025:p0113": 15.862243,
+      "KB-B025-EQUINOR-AR2025:p0123": 15.74401,
+      "KB-B025-EQUINOR-AR2025:p0128": 17.198,
+      "KB-B025-EQUINOR-AR2025:p0138": 14.628097,
+      "KB-B025-EQUINOR-AR2025:p0162": 15.061551,
+      "KB-B025-EQUINOR-AR2025:p0305": 13.976435,
+      "KB-B025-EQUINOR-AR2025:p0306": 13.892958,
+      "KB-B025-EQUINOR-AR2025:p0307": 13.784171
+    },
+    "total_attempt_wall_seconds": 923.781731
+  },
+  "mineru_comparison": {
+    "batch_024_pages_per_hour": 242.026717,
+    "batch_025_pages_per_hour": 243.729942,
+    "interpretation_gate": "throughput_only_quality_measured_separately",
+    "relative_change_percent": 0.704
+  },
+  "policy": {
+    "cloud_transmission": false,
+    "locked_experiments_modified": false,
+    "parent_results_overwritten": false,
+    "performance_separate_from_knowledge_quality": true
+  },
+  "provisional_comparison": {
+    "batch_024_pages_per_second": 490.948167,
+    "batch_025_pages_per_second": 297.381489,
+    "interpretation_gate": "diagnostic_only_not_semantic_quality_or_mineru_speed",
+    "relative_change_percent": -39.427
+  },
+  "schema_version": "0.1",
+  "started_at": "2026-09-13T19:24:59.295348+00:00",
+  "status": "diagnostic_and_mineru_baseline_complete",
+  "whole_report_diagnostic": {
+    "documents": 3,
+    "extractable_pages": 901,
+    "pages_per_second": 297.381489,
+    "pdf_pages": 904,
+    "peak_rss_bytes": 50003968,
+    "peak_rss_mb": 47.688,
+    "wall_seconds": 3.039866
+  }
+}

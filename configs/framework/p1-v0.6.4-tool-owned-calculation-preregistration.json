@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "framework_id": "P1-PIPELINE-v0.6.4-TOOL-OWNED-CALCULATION",
+  "status": "preregistered_before_v0.6.4_candidate_inference",
+  "trigger_runs": [
+    "P1-02-1-GEMMA4-12B-v04-r1",
+    "P1-02-1-GEMMA4-12B-v061-r1",
+    "P1-02-1-GEMMA4-12B-v062-r1",
+    "P1-02-1-GEMMA4-12B-v063-r1"
+  ],
+  "observed_pattern": "The model repeatedly grounded the correct numbers but produced an incorrect self-calculated value and/or answer status; the deterministic framework produced the correct result whenever semantic roles were correct.",
+  "registered_changes": {
+    "deterministic_calculation_model_contract": [
+      "task_id",
+      "extraction_status",
+      "subject",
+      "scope_boundary",
+      "period",
+      "evidence_handles",
+      "calculation_request"
+    ],
+    "model_answer_field_removed": true,
+    "model_normalized_value_removed": true,
+    "model_normalized_unit_removed": true,
+    "model_conflict_status_removed_for_nonconflict_calculation_tasks": true,
+    "final_numeric_answer_owner": "deterministic framework",
+    "final_direction_owner": "deterministic framework"
+  },
+  "model_responsibility": "Locate grounded inputs, assign registered semantic roles, and identify insufficient input evidence.",
+  "framework_responsibility": "Validate grounding, order inputs by role, execute the registered operation, apply task rounding, and emit the derived result separately from model content.",
+  "unchanged_constraints": {
+    "source_and_task": "unchanged",
+    "model_digest": "unchanged",
+    "reference_visible_during_inference": false,
+    "posthoc_model_output_repair_allowed": false,
+    "aggregate_score_enabled": false
+  },
+  "inference_allowed": false
+}

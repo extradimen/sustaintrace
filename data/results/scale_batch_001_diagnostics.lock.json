@@ -1,0 +1,646 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-001-RESUME01",
+  "created_at": "2026-09-12T14:22:05.449467+00:00",
+  "status": "local_diagnostics_complete",
+  "cloud_transmission": false,
+  "documents": [
+    {
+      "document_id": "KB-B001-VW-SR2025",
+      "source_group_id": "KB-VOLKSWAGEN-2025",
+      "company": "Volkswagen AG",
+      "local_path": "data/raw/scale_batch_001/volkswagen-sustainability-report-2025.pdf",
+      "sha256": "533330a5b8f7fe1f0387fed8fa30cd3053808c26af8e19a3fb96705e9f621131",
+      "pdfinfo_pages": 243,
+      "extracted_pages": 243,
+      "page_count_consistent": true,
+      "encrypted": "yes (print:yes copy:yes change:no addNotes:yes algorithm:RC4)",
+      "extractable_pages": 243,
+      "extractable_ratio": 1.0,
+      "total_text_characters": 1022943,
+      "theme_hit_totals": {
+        "assurance": 0,
+        "biodiversity": 354,
+        "circularity": 223,
+        "energy": 86,
+        "ghg_emissions": 175,
+        "health_safety": 75,
+        "targets": 9,
+        "water": 101,
+        "workforce": 524
+      },
+      "candidate_pages_by_theme": {
+        "ghg_emissions": [
+          {
+            "page": 62,
+            "hits": 37
+          },
+          {
+            "page": 68,
+            "hits": 14
+          },
+          {
+            "page": 47,
+            "hits": 12
+          },
+          {
+            "page": 61,
+            "hits": 12
+          },
+          {
+            "page": 42,
+            "hits": 9
+          }
+        ],
+        "energy": [
+          {
+            "page": 60,
+            "hits": 29
+          },
+          {
+            "page": 48,
+            "hits": 6
+          },
+          {
+            "page": 61,
+            "hits": 6
+          },
+          {
+            "page": 54,
+            "hits": 5
+          },
+          {
+            "page": 46,
+            "hits": 4
+          }
+        ],
+        "water": [
+          {
+            "page": 88,
+            "hits": 17
+          },
+          {
+            "page": 90,
+            "hits": 16
+          },
+          {
+            "page": 87,
+            "hits": 11
+          },
+          {
+            "page": 89,
+            "hits": 10
+          },
+          {
+            "page": 92,
+            "hits": 7
+          }
+        ],
+        "workforce": [
+          {
+            "page": 132,
+            "hits": 24
+          },
+          {
+            "page": 146,
+            "hits": 24
+          },
+          {
+            "page": 226,
+            "hits": 24
+          },
+          {
+            "page": 134,
+            "hits": 21
+          },
+          {
+            "page": 220,
+            "hits": 21
+          }
+        ],
+        "health_safety": [
+          {
+            "page": 152,
+            "hits": 17
+          },
+          {
+            "page": 143,
+            "hits": 13
+          },
+          {
+            "page": 134,
+            "hits": 6
+          },
+          {
+            "page": 142,
+            "hits": 5
+          },
+          {
+            "page": 220,
+            "hits": 5
+          }
+        ],
+        "assurance": [],
+        "targets": [
+          {
+            "page": 50,
+            "hits": 2
+          },
+          {
+            "page": 70,
+            "hits": 2
+          },
+          {
+            "page": 32,
+            "hits": 1
+          },
+          {
+            "page": 39,
+            "hits": 1
+          },
+          {
+            "page": 44,
+            "hits": 1
+          }
+        ],
+        "biodiversity": [
+          {
+            "page": 99,
+            "hits": 35
+          },
+          {
+            "page": 97,
+            "hits": 32
+          },
+          {
+            "page": 95,
+            "hits": 24
+          },
+          {
+            "page": 98,
+            "hits": 24
+          },
+          {
+            "page": 219,
+            "hits": 24
+          }
+        ],
+        "circularity": [
+          {
+            "page": 105,
+            "hits": 19
+          },
+          {
+            "page": 110,
+            "hits": 18
+          },
+          {
+            "page": 104,
+            "hits": 16
+          },
+          {
+            "page": 107,
+            "hits": 15
+          },
+          {
+            "page": 109,
+            "hits": 14
+          }
+        ]
+      },
+      "layout_text_path": "data/interim/scale_batch_001/KB-B001-VW-SR2025.layout.txt",
+      "page_index_path": "data/interim/scale_batch_001/KB-B001-VW-SR2025.page_index.jsonl"
+    },
+    {
+      "document_id": "KB-B001-SSE-SR2025",
+      "source_group_id": "KB-SSE-2025",
+      "company": "SSE plc",
+      "local_path": "data/raw/scale_batch_001/sse-sustainability-report-2025.pdf",
+      "sha256": "8637e3b39c08055a32f00e028abf3e82fa31c252043f2cdd5d592b52c4aac83a",
+      "pdfinfo_pages": 49,
+      "extracted_pages": 49,
+      "page_count_consistent": true,
+      "encrypted": "no",
+      "extractable_pages": 48,
+      "extractable_ratio": 0.979592,
+      "total_text_characters": 816264,
+      "theme_hit_totals": {
+        "assurance": 28,
+        "biodiversity": 34,
+        "circularity": 25,
+        "energy": 32,
+        "ghg_emissions": 118,
+        "health_safety": 8,
+        "targets": 143,
+        "water": 6,
+        "workforce": 123
+      },
+      "candidate_pages_by_theme": {
+        "ghg_emissions": [
+          {
+            "page": 11,
+            "hits": 29
+          },
+          {
+            "page": 43,
+            "hits": 20
+          },
+          {
+            "page": 9,
+            "hits": 11
+          },
+          {
+            "page": 10,
+            "hits": 11
+          },
+          {
+            "page": 13,
+            "hits": 10
+          }
+        ],
+        "energy": [
+          {
+            "page": 3,
+            "hits": 7
+          },
+          {
+            "page": 48,
+            "hits": 7
+          },
+          {
+            "page": 12,
+            "hits": 4
+          },
+          {
+            "page": 11,
+            "hits": 2
+          },
+          {
+            "page": 15,
+            "hits": 2
+          }
+        ],
+        "water": [
+          {
+            "page": 48,
+            "hits": 2
+          },
+          {
+            "page": 12,
+            "hits": 1
+          },
+          {
+            "page": 37,
+            "hits": 1
+          },
+          {
+            "page": 38,
+            "hits": 1
+          },
+          {
+            "page": 45,
+            "hits": 1
+          }
+        ],
+        "workforce": [
+          {
+            "page": 25,
+            "hits": 24
+          },
+          {
+            "page": 24,
+            "hits": 18
+          },
+          {
+            "page": 28,
+            "hits": 14
+          },
+          {
+            "page": 44,
+            "hits": 12
+          },
+          {
+            "page": 27,
+            "hits": 10
+          }
+        ],
+        "health_safety": [
+          {
+            "page": 23,
+            "hits": 4
+          },
+          {
+            "page": 48,
+            "hits": 2
+          },
+          {
+            "page": 24,
+            "hits": 1
+          },
+          {
+            "page": 41,
+            "hits": 1
+          }
+        ],
+        "assurance": [
+          {
+            "page": 43,
+            "hits": 6
+          },
+          {
+            "page": 45,
+            "hits": 6
+          },
+          {
+            "page": 12,
+            "hits": 5
+          },
+          {
+            "page": 38,
+            "hits": 4
+          },
+          {
+            "page": 39,
+            "hits": 4
+          }
+        ],
+        "targets": [
+          {
+            "page": 9,
+            "hits": 32
+          },
+          {
+            "page": 2,
+            "hits": 12
+          },
+          {
+            "page": 21,
+            "hits": 11
+          },
+          {
+            "page": 11,
+            "hits": 8
+          },
+          {
+            "page": 31,
+            "hits": 8
+          }
+        ],
+        "biodiversity": [
+          {
+            "page": 37,
+            "hits": 15
+          },
+          {
+            "page": 36,
+            "hits": 7
+          },
+          {
+            "page": 35,
+            "hits": 4
+          },
+          {
+            "page": 6,
+            "hits": 2
+          },
+          {
+            "page": 38,
+            "hits": 2
+          }
+        ],
+        "circularity": [
+          {
+            "page": 39,
+            "hits": 11
+          },
+          {
+            "page": 38,
+            "hits": 4
+          },
+          {
+            "page": 12,
+            "hits": 3
+          },
+          {
+            "page": 3,
+            "hits": 1
+          },
+          {
+            "page": 21,
+            "hits": 1
+          }
+        ]
+      },
+      "layout_text_path": "data/interim/scale_batch_001/KB-B001-SSE-SR2025.layout.txt",
+      "page_index_path": "data/interim/scale_batch_001/KB-B001-SSE-SR2025.page_index.jsonl"
+    },
+    {
+      "document_id": "KB-B001-DANONE-URD2025",
+      "source_group_id": "KB-DANONE-2025",
+      "company": "Danone S.A.",
+      "local_path": "data/raw/scale_batch_001/danone-urd-2025-accessible.pdf",
+      "sha256": "f8607c4e1c499be832f952a4b10b01f9f358a5a3dbf2d90aa416124f024a06e0",
+      "pdfinfo_pages": 494,
+      "extracted_pages": 494,
+      "page_count_consistent": true,
+      "encrypted": "no",
+      "extractable_pages": 494,
+      "extractable_ratio": 1.0,
+      "total_text_characters": 3067667,
+      "theme_hit_totals": {
+        "assurance": 9,
+        "biodiversity": 387,
+        "circularity": 333,
+        "energy": 102,
+        "ghg_emissions": 296,
+        "health_safety": 3,
+        "targets": 76,
+        "water": 57,
+        "workforce": 580
+      },
+      "candidate_pages_by_theme": {
+        "ghg_emissions": [
+          {
+            "page": 227,
+            "hits": 23
+          },
+          {
+            "page": 360,
+            "hits": 21
+          },
+          {
+            "page": 231,
+            "hits": 20
+          },
+          {
+            "page": 226,
+            "hits": 16
+          },
+          {
+            "page": 334,
+            "hits": 14
+          }
+        ],
+        "energy": [
+          {
+            "page": 229,
+            "hits": 26
+          },
+          {
+            "page": 362,
+            "hits": 25
+          },
+          {
+            "page": 230,
+            "hits": 15
+          },
+          {
+            "page": 361,
+            "hits": 5
+          },
+          {
+            "page": 219,
+            "hits": 3
+          }
+        ],
+        "water": [
+          {
+            "page": 240,
+            "hits": 12
+          },
+          {
+            "page": 237,
+            "hits": 6
+          },
+          {
+            "page": 442,
+            "hits": 5
+          },
+          {
+            "page": 239,
+            "hits": 3
+          },
+          {
+            "page": 243,
+            "hits": 3
+          }
+        ],
+        "workforce": [
+          {
+            "page": 272,
+            "hits": 28
+          },
+          {
+            "page": 268,
+            "hits": 22
+          },
+          {
+            "page": 261,
+            "hits": 20
+          },
+          {
+            "page": 438,
+            "hits": 15
+          },
+          {
+            "page": 267,
+            "hits": 14
+          }
+        ],
+        "health_safety": [
+          {
+            "page": 210,
+            "hits": 3
+          }
+        ],
+        "assurance": [
+          {
+            "page": 299,
+            "hits": 5
+          },
+          {
+            "page": 131,
+            "hits": 2
+          },
+          {
+            "page": 159,
+            "hits": 2
+          }
+        ],
+        "targets": [
+          {
+            "page": 226,
+            "hits": 6
+          },
+          {
+            "page": 214,
+            "hits": 4
+          },
+          {
+            "page": 224,
+            "hits": 4
+          },
+          {
+            "page": 269,
+            "hits": 4
+          },
+          {
+            "page": 304,
+            "hits": 4
+          }
+        ],
+        "biodiversity": [
+          {
+            "page": 202,
+            "hits": 26
+          },
+          {
+            "page": 243,
+            "hits": 25
+          },
+          {
+            "page": 244,
+            "hits": 24
+          },
+          {
+            "page": 241,
+            "hits": 17
+          },
+          {
+            "page": 177,
+            "hits": 14
+          }
+        ],
+        "circularity": [
+          {
+            "page": 346,
+            "hits": 22
+          },
+          {
+            "page": 343,
+            "hits": 18
+          },
+          {
+            "page": 173,
+            "hits": 17
+          },
+          {
+            "page": 25,
+            "hits": 14
+          },
+          {
+            "page": 249,
+            "hits": 13
+          }
+        ]
+      },
+      "layout_text_path": "data/interim/scale_batch_001/KB-B001-DANONE-URD2025.layout.txt",
+      "page_index_path": "data/interim/scale_batch_001/KB-B001-DANONE-URD2025.page_index.jsonl"
+    }
+  ],
+  "totals": {
+    "documents": 3,
+    "pdf_pages": 786,
+    "extractable_pages": 785
+  }
+}

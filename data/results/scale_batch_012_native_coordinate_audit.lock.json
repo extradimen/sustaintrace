@@ -1,0 +1,28 @@
+{
+  "batch_id": "KB-SCALE-BATCH-012-NATIVE-COORDINATE-AUDIT",
+  "blocked_by_reason": {
+    "native_pdf_line_wrapping_prevents_exact_row_header_corroboration": [
+      "fact-003f41c694326d4855d210d7",
+      "fact-5271e73eff4b9e6d328dd362",
+      "fact-9a328f6fb10792ea1f789497",
+      "fact-e9c1fa2b38450012c7a34190"
+    ]
+  },
+  "checks": {
+    "all_frozen_graph_coordinates_exact": true,
+    "all_native_row_headers_exact": false,
+    "all_values_present": true,
+    "process_discharge_fragments_present": true,
+    "signed_independent_assurance_cell_scope_verified": false,
+    "source_sha256_matches": true,
+    "table_header_present": true,
+    "withdrawal_fragments_present": true
+  },
+  "native_page_105_sha256": "2e04f4b5cc2191aa4419779736ec96ddbf7239c248e217ea869fd5038d46219c",
+  "policy": {
+    "automatic_promotion": false,
+    "cloud_transmission": false
+  },
+  "schema_version": "0.1",
+  "status": "coordinates_checked_promotion_failed_closed"
+}

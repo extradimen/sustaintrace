@@ -1,0 +1,60 @@
+{
+  "answer": "For financial/operational control respectively, 2025 total energy was 74.3/73.5 million MWh, renewable 5.2/5.2 (6.9%/7.1%), and fossil 69.1/68.2 (93.0%/92.9%). Restated 2024 values were total 74.8/74.1, renewable 3.6/3.6 (4.8%/4.9%), and fossil 71.2/70.5 (95.1%/95.1%).",
+  "evidence": [
+    {
+      "pdf_page": 192,
+      "quote": "Total energy consumptionb</td><td rowspan=1 colspan=1>74.3</td><td rowspan=1 colspan=1>73.5</td><td rowspan=1 colspan=1>74.8c</td><td rowspan=1 colspan=1>74.1c",
+      "source_id": "P21-BASF-AR2025"
+    },
+    {
+      "pdf_page": 192,
+      "quote": "Total energy consumption from renewable sources</td><td rowspan=1 colspan=1>5.2</td><td rowspan=1 colspan=1>5.2</td><td rowspan=1 colspan=1>3.6</td><td rowspan=1 colspan=1>3.6",
+      "source_id": "P21-BASF-AR2025"
+    },
+    {
+      "pdf_page": 192,
+      "quote": "Share of renewable sources in total energy consumption            %</td><td rowspan=1 colspan=1>6.9</td><td rowspan=1 colspan=1>7.1</td><td rowspan=1 colspan=1>4.8</td><td rowspan=1 colspan=1>4.9c",
+      "source_id": "P21-BASF-AR2025"
+    },
+    {
+      "pdf_page": 192,
+      "quote": "Total energy consumption from fossil sources</td><td rowspan=1 colspan=1>69.1</td><td rowspan=1 colspan=1>68.2</td><td rowspan=1 colspan=1>71.2c</td><td rowspan=1 colspan=1>70.5c",
+      "source_id": "P21-BASF-AR2025"
+    },
+    {
+      "pdf_page": 192,
+      "quote": "Share of fossil sources in total energy consumption                 %</td><td rowspan=1 colspan=1>93.0</td><td rowspan=1 colspan=1>92.9</td><td rowspan=1 colspan=1>95.1c</td><td rowspan=1 colspan=1>95.1c",
+      "source_id": "P21-BASF-AR2025"
+    }
+  ],
+  "normalized_value": {
+    "financial_fossil_million_mwh::2024_restated": 71.2,
+    "financial_fossil_million_mwh::2025": 69.1,
+    "financial_fossil_share_percent::2024_restated": 95.1,
+    "financial_fossil_share_percent::2025": 93.0,
+    "financial_renewable_million_mwh::2024_restated": 3.6,
+    "financial_renewable_million_mwh::2025": 5.2,
+    "financial_renewable_share_percent::2024_restated": 4.8,
+    "financial_renewable_share_percent::2025": 6.9,
+    "financial_total_million_mwh::2024_restated": 74.8,
+    "financial_total_million_mwh::2025": 74.3,
+    "operational_fossil_million_mwh::2024_restated": 70.5,
+    "operational_fossil_million_mwh::2025": 68.2,
+    "operational_fossil_share_percent::2024_restated": 95.1,
+    "operational_fossil_share_percent::2025": 92.9,
+    "operational_renewable_million_mwh::2024_restated": 3.6,
+    "operational_renewable_million_mwh::2025": 5.2,
+    "operational_renewable_share_percent::2024_restated": 4.9,
+    "operational_renewable_share_percent::2025": 7.1,
+    "operational_total_million_mwh::2024_restated": 74.1,
+    "operational_total_million_mwh::2025": 73.5
+  },
+  "provenance": {
+    "candidate_model_used": false,
+    "reference_is_simulated": true
+  },
+  "reference_author": "codex_gpt_simulated_expert",
+  "reference_status": "verified_against_frozen_mineru_pages_and_native_layout",
+  "schema_version": "1.0",
+  "task_id": "P21-ENERGY-001"
+}

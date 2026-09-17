@@ -1,0 +1,27 @@
+{
+  "authorization_does_not_cover_other_reports_or_pages": true,
+  "authorization_source": "current_thread_exact_user_message",
+  "authorized_at": "2026-09-12T03:11:20.958929+00:00",
+  "document_id": "P23-GSK-AR2025",
+  "document_sha256": "a3ef37d848fca940f85b6c33815a5d47d1f32726fd389a03910653e24af0f4d2",
+  "experiment_id": "P23-V32-UNSEEN-LOCKBOX-V01",
+  "experiment_scope": "P23 Stage A/Stage B single-attempt candidate inference",
+  "model": "qwen3.5:397b-cloud",
+  "pages": [
+    54,
+    55,
+    78,
+    79
+  ],
+  "posthoc_semantic_repair_allowed": false,
+  "report": "GSK 2025 Annual Report",
+  "schema_version": "3.2",
+  "silent_retry_allowed": false,
+  "single_attempt_only": true,
+  "stage_scope": [
+    "Stage A",
+    "Stage B"
+  ],
+  "status": "authorized_by_user",
+  "user_message": "我授权将 GSK 2025 Annual Report 第54、55、78、79页的冻结证据发送至 Ollama Cloud 的 qwen3.5:397b-cloud，仅用于 P23 Stage A/Stage B 单次候选推理，完成P23 评分是不是实验就跑完了"
+}

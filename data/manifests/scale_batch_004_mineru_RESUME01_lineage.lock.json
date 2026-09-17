@@ -1,0 +1,23 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-004-MINERU-RESUME01",
+  "parent_run": "data/results/scale_batch_004_mineru_summary.lock.json",
+  "parent_terminal_status": "complete",
+  "parent_complete_pages": 0,
+  "parent_failed_pages": 25,
+  "resume_scope": "only_parent_failed_pages",
+  "failure_signature": "SANDBOX_LOOPBACK_PORT_DENIED",
+  "failure_evidence": "MinerU local service failed to bind 127.0.0.1 with PermissionError errno 1",
+  "frozen_inputs_reused": [
+    "configs/knowledge/scale_batch_004_RESUME01_v0.2.json",
+    "data/manifests/scale_batch_004_acquisition_FINAL.lock.json",
+    "data/manifests/scale_batch_004_target_pages.lock.json",
+    "configs/parsers/scale-batch-004-mineru-3.4.0-runtime.json"
+  ],
+  "policy": {
+    "parent_results_overwritten": false,
+    "completed_pages_repeated": false,
+    "cloud_transmission": false,
+    "locked_experiments_modified": false
+  }
+}

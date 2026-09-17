@@ -1,0 +1,22 @@
+{
+  "schema_version":"1.0",
+  "freeze_id":"ESG-RD-v1.2-DEVELOPMENT-FREEZE",
+  "status":"frozen_before_first_v1.2_inference",
+  "hashes":{
+    "preregistration":"b1e2b258bb974a2fed50cb022816b75cdcf292a4e84f8161a4d14e0f29837ee8",
+    "direct_validation":"444e89988889e1cd2a2ffda075b1de95442b7a56166d7385d474f7761c726333",
+    "stage_a_runner":"5734d15bc1327d1dda1fa146651a6ada4e185b5a39a4e825d717413993a8f338",
+    "evidence_builder":"1649909ecc7fc69929033300af8e201b8c67d295ed0725632304b06a4eb2ae48",
+    "stage_a_prompt":"9bca15e9e2f44bbe60214bb149b0969c0efe8cc25b10d17bd3c03be76a7dae31",
+    "model_config":"fbcc4eb3b454d2ba42c3f570778a107333804ead63025aa3b590dd18bb3eae96"
+  },
+  "model":"qwen3.5:397b-cloud",
+  "model_digest":"68d2a0796c11e1fedd0456a2d55e58cca4077be6a218428a7a7f4e21f8177cbc",
+  "tests_passed":156,
+  "p2_role":"exposed development regression only",
+  "change_scope":"validated optional normalized_value and normalized_unit fields for direct extraction",
+  "single_attempt_per_task":true,
+  "reference_visible_during_inference":false,
+  "posthoc_repair":false,
+  "p3_required_for_generalization":true
+}

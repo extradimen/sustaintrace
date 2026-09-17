@@ -1,0 +1,188 @@
+{
+  "experiment_id": "P3-UNSEEN-GENERALIZATION-V01",
+  "records": [
+    {
+      "retried": false,
+      "stage_a": "failed",
+      "stage_a_error": "OllamaError:v1.2 Stage A model behavior failed; archived at /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P3-UNSEEN-GENERALIZATION-V01/runs/P3-DEX-001-QWEN397B-stage-a-r1: ValueError:v12_direct_schema_failure:None is not of type 'string', 'number', 'array', 'object'",
+      "task_id": "P3-DEX-001",
+      "task_type": "direct_extraction"
+    },
+    {
+      "retried": false,
+      "stage_a": "passed",
+      "stage_a_result": {
+        "archive_directory": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P3-UNSEEN-GENERALIZATION-V01/runs/P3-DEX-002-QWEN397B-stage-a-r1",
+        "elapsed_seconds": 12.379047499998705,
+        "framework_evidence_state": "supported",
+        "model": "qwen3.5:397b-cloud",
+        "optional_normalization_validated": false,
+        "run_id": "P3-DEX-002-QWEN397B-stage-a-r1",
+        "task_id": "P3-DEX-002"
+      },
+      "stage_b": "failed",
+      "stage_b_error": "OllamaError:v1.1 Stage B model behavior failed; archived at /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P3-UNSEEN-GENERALIZATION-V01/runs/P3-DEX-002-QWEN397B-stage-b-r1: ValueError:stage_b_numeric_value_not_grounded:M131-T0007-R0011",
+      "task_id": "P3-DEX-002",
+      "task_type": "direct_extraction"
+    },
+    {
+      "retried": false,
+      "stage_a": "failed",
+      "stage_a_error": "OllamaError:v1.2 Stage A model behavior failed; archived at /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P3-UNSEEN-GENERALIZATION-V01/runs/P3-CALC-001-QWEN397B-stage-a-r1: ValueError:v074_schema_failure:'calculation_request' is a required property",
+      "task_id": "P3-CALC-001",
+      "task_type": "deterministic_calculation"
+    },
+    {
+      "retried": false,
+      "stage_a": "passed",
+      "stage_a_result": {
+        "archive_directory": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P3-UNSEEN-GENERALIZATION-V01/runs/P3-CALC-002-QWEN397B-stage-a-r1",
+        "elapsed_seconds": 7.824453458000789,
+        "framework_evidence_state": "supported",
+        "model": "qwen3.5:397b-cloud",
+        "optional_normalization_validated": false,
+        "run_id": "P3-CALC-002-QWEN397B-stage-a-r1",
+        "task_id": "P3-CALC-002"
+      },
+      "stage_b": "not_required",
+      "task_id": "P3-CALC-002",
+      "task_type": "deterministic_calculation"
+    },
+    {
+      "retried": false,
+      "stage_a": "passed",
+      "stage_a_result": {
+        "archive_directory": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P3-UNSEEN-GENERALIZATION-V01/runs/P3-XPAGE-001-QWEN397B-stage-a-r1",
+        "elapsed_seconds": 36.8133060830005,
+        "framework_evidence_state": "supported",
+        "model": "qwen3.5:397b-cloud",
+        "optional_normalization_validated": false,
+        "run_id": "P3-XPAGE-001-QWEN397B-stage-a-r1",
+        "task_id": "P3-XPAGE-001"
+      },
+      "stage_b": "failed",
+      "stage_b_error": "OllamaError:v1.1 Stage B model behavior failed; archived at /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P3-UNSEEN-GENERALIZATION-V01/runs/P3-XPAGE-001-QWEN397B-stage-b-r1: ValueError:stage_b_schema_failure:None is not of type 'number', 'string'",
+      "task_id": "P3-XPAGE-001",
+      "task_type": "cross_page_relation"
+    },
+    {
+      "retried": false,
+      "stage_a": "passed",
+      "stage_a_result": {
+        "archive_directory": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P3-UNSEEN-GENERALIZATION-V01/runs/P3-XPAGE-002-QWEN397B-stage-a-r1",
+        "elapsed_seconds": 12.178624457999831,
+        "framework_evidence_state": "supported",
+        "model": "qwen3.5:397b-cloud",
+        "optional_normalization_validated": false,
+        "run_id": "P3-XPAGE-002-QWEN397B-stage-a-r1",
+        "task_id": "P3-XPAGE-002"
+      },
+      "stage_b": "failed",
+      "stage_b_error": "OllamaError:v1.1 Stage B model behavior failed; archived at /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P3-UNSEEN-GENERALIZATION-V01/runs/P3-XPAGE-002-QWEN397B-stage-b-r1: ValueError:stage_b_numeric_value_not_grounded:M131-T0007-R0010",
+      "task_id": "P3-XPAGE-002",
+      "task_type": "cross_page_relation"
+    },
+    {
+      "retried": false,
+      "stage_a": "passed",
+      "stage_a_result": {
+        "archive_directory": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P3-UNSEEN-GENERALIZATION-V01/runs/P3-SCOPE-001-QWEN397B-stage-a-r1",
+        "elapsed_seconds": 6.027656125006615,
+        "framework_evidence_state": "supported",
+        "model": "qwen3.5:397b-cloud",
+        "optional_normalization_validated": false,
+        "run_id": "P3-SCOPE-001-QWEN397B-stage-a-r1",
+        "task_id": "P3-SCOPE-001"
+      },
+      "stage_b": "failed",
+      "stage_b_error": "OllamaError:v1.1 Stage B model behavior failed; archived at /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P3-UNSEEN-GENERALIZATION-V01/runs/P3-SCOPE-001-QWEN397B-stage-b-r1: ValueError:v1_metric_not_lexically_grounded:combined_scope_1_2_emissions",
+      "task_id": "P3-SCOPE-001",
+      "task_type": "scope_subject_boundary"
+    },
+    {
+      "retried": false,
+      "stage_a": "passed",
+      "stage_a_result": {
+        "archive_directory": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P3-UNSEEN-GENERALIZATION-V01/runs/P3-SCOPE-002-QWEN397B-stage-a-r1",
+        "elapsed_seconds": 7.736766208996414,
+        "framework_evidence_state": "supported",
+        "model": "qwen3.5:397b-cloud",
+        "optional_normalization_validated": false,
+        "run_id": "P3-SCOPE-002-QWEN397B-stage-a-r1",
+        "task_id": "P3-SCOPE-002"
+      },
+      "stage_b": "failed",
+      "stage_b_error": "OllamaError:v1.1 Stage B model behavior failed; archived at /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P3-UNSEEN-GENERALIZATION-V01/runs/P3-SCOPE-002-QWEN397B-stage-b-r1: ValueError:stage_b_period_not_grounded:M175-B0006",
+      "task_id": "P3-SCOPE-002",
+      "task_type": "scope_subject_boundary"
+    },
+    {
+      "retried": false,
+      "stage_a": "passed",
+      "stage_a_result": {
+        "archive_directory": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P3-UNSEEN-GENERALIZATION-V01/runs/P3-CONFLICT-001-QWEN397B-stage-a-r1",
+        "elapsed_seconds": 10.510946041002171,
+        "framework_evidence_state": "contradictory_sources",
+        "model": "qwen3.5:397b-cloud",
+        "optional_normalization_validated": false,
+        "run_id": "P3-CONFLICT-001-QWEN397B-stage-a-r1",
+        "task_id": "P3-CONFLICT-001"
+      },
+      "stage_b": "not_required",
+      "task_id": "P3-CONFLICT-001",
+      "task_type": "controlled_conflict"
+    },
+    {
+      "retried": false,
+      "stage_a": "passed",
+      "stage_a_result": {
+        "archive_directory": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P3-UNSEEN-GENERALIZATION-V01/runs/P3-CONFLICT-002-QWEN397B-stage-a-r1",
+        "elapsed_seconds": 23.131611542004975,
+        "framework_evidence_state": "contradictory_sources",
+        "model": "qwen3.5:397b-cloud",
+        "optional_normalization_validated": false,
+        "run_id": "P3-CONFLICT-002-QWEN397B-stage-a-r1",
+        "task_id": "P3-CONFLICT-002"
+      },
+      "stage_b": "not_required",
+      "task_id": "P3-CONFLICT-002",
+      "task_type": "controlled_conflict"
+    },
+    {
+      "retried": false,
+      "stage_a": "passed",
+      "stage_a_result": {
+        "archive_directory": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P3-UNSEEN-GENERALIZATION-V01/runs/P3-ABSTAIN-001-QWEN397B-stage-a-r1",
+        "elapsed_seconds": 7.530392082990147,
+        "framework_evidence_state": "absent",
+        "model": "qwen3.5:397b-cloud",
+        "optional_normalization_validated": false,
+        "run_id": "P3-ABSTAIN-001-QWEN397B-stage-a-r1",
+        "task_id": "P3-ABSTAIN-001"
+      },
+      "stage_b": "not_required",
+      "task_id": "P3-ABSTAIN-001",
+      "task_type": "abstention"
+    },
+    {
+      "retried": false,
+      "stage_a": "passed",
+      "stage_a_result": {
+        "archive_directory": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P3-UNSEEN-GENERALIZATION-V01/runs/P3-ABSTAIN-002-QWEN397B-stage-a-r1",
+        "elapsed_seconds": 11.79235137499927,
+        "framework_evidence_state": "absent",
+        "model": "qwen3.5:397b-cloud",
+        "optional_normalization_validated": false,
+        "run_id": "P3-ABSTAIN-002-QWEN397B-stage-a-r1",
+        "task_id": "P3-ABSTAIN-002"
+      },
+      "stage_b": "not_required",
+      "task_id": "P3-ABSTAIN-002",
+      "task_type": "abstention"
+    }
+  ],
+  "reference_loaded_by_orchestrator": false,
+  "schema_version": "1.0",
+  "single_attempt_only": true,
+  "updated_at": "2026-09-04T18:18:01.215458+00:00"
+}

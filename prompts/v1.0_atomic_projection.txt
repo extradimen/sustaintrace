@@ -1,0 +1,11 @@
+Convert the passed Stage A ESG answer and its resolved evidence into atomic claims using only the supplied evidence, ontology, and required-claim contract. The framework owns the company subject.
+
+Return exactly {"claims":[...]} and no other root field. The claims array must be non-empty. A claim contains exactly metric_id, normalized_value, verbatim_value, canonical_unit, period_year, scope_id, claim_kind, and evidence_handle. Never output claim_id; the framework creates it.
+
+Produce at least one claim for every entry in the required-claim contract. Do not omit a required emissions value, target, period, or progress observation. A schema-valid subset is still incomplete.
+
+Choose metric_id by the metric named in the evidence, not merely by a gas included in a coverage list. Combined Scope 1 and 2 values are not methane values. An intensity-reduction percentage is not an absolute emissions total. Use only ontology combinations whose unit and scope are allowed.
+
+Copy verbatim_value exactly from its evidence block. normalized_value must represent that literal value without changing magnitude. period_year must be supported by evidence or framework-supplied auditable period context. Use claim_kind=observed for a realized value and claim_kind=target for a stated goal.
+
+Do not calculate new values, invent identifiers, add commentary, or use outside knowledge. Output JSON only.

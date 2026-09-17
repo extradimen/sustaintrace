@@ -1,0 +1,357 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-004-RESUME01",
+  "status": "table_graphs_built_fail_closed",
+  "source_table_candidates": 3,
+  "graphs": [
+    {
+      "source_fact_record_id": "fact-075a1922eeb8139a68f6483b",
+      "document_id": "KB-B004-PHILIPS-AR2025",
+      "pdf_page": 210,
+      "graphs": [
+        {
+          "table_index": 0,
+          "status": "two_axis_graph_built",
+          "header_row_index": 0,
+          "column_headers": [
+            "",
+            "Actual 2025",
+            "Baseline year 2020",
+            "Target 2025"
+          ],
+          "period_columns": [
+            1,
+            2,
+            3
+          ],
+          "indicator_column": 0,
+          "unit_column": null,
+          "rejected_rows": [],
+          "rows": [
+            [
+              "",
+              "Actual 2025",
+              "Baseline year 2020",
+              "Target 2025"
+            ],
+            [
+              "Total CO\u2082 from manufacturing 1",
+              "0 kilotonnes",
+              "0 kilotonnes",
+              "0 kilotonnes"
+            ],
+            [
+              "Water withdrawal \u00b2",
+              "696,791 m\u00b3",
+              "753,508 m\u00b3",
+              "5% reduction"
+            ],
+            [
+              "Zero waste to landfill",
+              "0.0%",
+              "2.6%",
+              "less than 0.5%"
+            ],
+            [
+              "Circular Materials Management",
+              "95%",
+              "90%",
+              "95%"
+            ],
+            [
+              "Hazardous substances emissions",
+              "1,198 kilos",
+              "2,465 kilos",
+              "25% reduction"
+            ],
+            [
+              "VOC emissions",
+              "63 tonnes",
+              "79 tonnes",
+              "10% reduction"
+            ]
+          ],
+          "cells": [
+            {
+              "cell_handle": "cell-a3d41fcb152aebfead7b",
+              "table_index": 0,
+              "row_index": 3,
+              "column_index": 1,
+              "row_header": "Zero waste to landfill",
+              "row_header_column_index": 0,
+              "column_header": "Actual 2025",
+              "normalized_period": 2025,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "0.0%",
+              "normalized_value": "0.0",
+              "normalized_unit": "percent"
+            },
+            {
+              "cell_handle": "cell-5ad633ffb771584e5dd8",
+              "table_index": 0,
+              "row_index": 3,
+              "column_index": 2,
+              "row_header": "Zero waste to landfill",
+              "row_header_column_index": 0,
+              "column_header": "Baseline year 2020",
+              "normalized_period": 2020,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "2.6%",
+              "normalized_value": "2.6",
+              "normalized_unit": "percent"
+            },
+            {
+              "cell_handle": "cell-f592fbdd479c0d8bb44c",
+              "table_index": 0,
+              "row_index": 4,
+              "column_index": 1,
+              "row_header": "Circular Materials Management",
+              "row_header_column_index": 0,
+              "column_header": "Actual 2025",
+              "normalized_period": 2025,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "95%",
+              "normalized_value": "95",
+              "normalized_unit": "percent"
+            },
+            {
+              "cell_handle": "cell-b1f4cbf58584c32b776b",
+              "table_index": 0,
+              "row_index": 4,
+              "column_index": 2,
+              "row_header": "Circular Materials Management",
+              "row_header_column_index": 0,
+              "column_header": "Baseline year 2020",
+              "normalized_period": 2020,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "90%",
+              "normalized_value": "90",
+              "normalized_unit": "percent"
+            },
+            {
+              "cell_handle": "cell-047104bad8dc529b8571",
+              "table_index": 0,
+              "row_index": 4,
+              "column_index": 3,
+              "row_header": "Circular Materials Management",
+              "row_header_column_index": 0,
+              "column_header": "Target 2025",
+              "normalized_period": 2025,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "95%",
+              "normalized_value": "95",
+              "normalized_unit": "percent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_fact_record_id": "fact-46c641511e40ce8de6c84d34",
+      "document_id": "KB-B004-PHILIPS-AR2025",
+      "pdf_page": 233,
+      "graphs": [
+        {
+          "table_index": 0,
+          "status": "two_axis_graph_built",
+          "header_row_index": 0,
+          "column_headers": [
+            "",
+            "2025",
+            "2024",
+            "2023"
+          ],
+          "period_columns": [
+            1,
+            2,
+            3
+          ],
+          "indicator_column": 0,
+          "unit_column": null,
+          "rejected_rows": [],
+          "rows": [
+            [
+              "",
+              "2025",
+              "2024",
+              "2023"
+            ],
+            [
+              "% of suppliers committed to Science Based Targets",
+              "52%",
+              "48%",
+              "46%"
+            ]
+          ],
+          "cells": [
+            {
+              "cell_handle": "cell-66633205fd9174a2363b",
+              "table_index": 0,
+              "row_index": 1,
+              "column_index": 1,
+              "row_header": "% of suppliers committed to Science Based Targets",
+              "row_header_column_index": 0,
+              "column_header": "2025",
+              "normalized_period": 2025,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "52%",
+              "normalized_value": "52",
+              "normalized_unit": "percent"
+            },
+            {
+              "cell_handle": "cell-e9df25cad71c3322367b",
+              "table_index": 0,
+              "row_index": 1,
+              "column_index": 2,
+              "row_header": "% of suppliers committed to Science Based Targets",
+              "row_header_column_index": 0,
+              "column_header": "2024",
+              "normalized_period": 2024,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "48%",
+              "normalized_value": "48",
+              "normalized_unit": "percent"
+            },
+            {
+              "cell_handle": "cell-d507eb7ac40fdc3fb38f",
+              "table_index": 0,
+              "row_index": 1,
+              "column_index": 3,
+              "row_header": "% of suppliers committed to Science Based Targets",
+              "row_header_column_index": 0,
+              "column_header": "2023",
+              "normalized_period": 2023,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "46%",
+              "normalized_value": "46",
+              "normalized_unit": "percent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_fact_record_id": "fact-f8095f0b6091321a544af00f",
+      "document_id": "KB-B004-AIRLIQUIDE-URD2025",
+      "pdf_page": 311,
+      "graphs": [
+        {
+          "table_index": 0,
+          "status": "two_axis_graph_built",
+          "header_row_index": 0,
+          "column_headers": [
+            "USD per CO2 ton",
+            "2035 2040",
+            "2050"
+          ],
+          "period_columns": [
+            1,
+            2
+          ],
+          "indicator_column": 0,
+          "unit_column": null,
+          "rejected_rows": [
+            {
+              "row_index": 2,
+              "reason": "multiple_numeric_tokens_in_one_cell"
+            },
+            {
+              "row_index": 3,
+              "reason": "multiple_numeric_tokens_in_one_cell"
+            },
+            {
+              "row_index": 4,
+              "reason": "multiple_numeric_tokens_in_one_cell"
+            },
+            {
+              "row_index": 5,
+              "reason": "multiple_numeric_tokens_in_one_cell"
+            },
+            {
+              "row_index": 6,
+              "reason": "multiple_numeric_tokens_in_one_cell"
+            },
+            {
+              "row_index": 8,
+              "reason": "multiple_numeric_tokens_in_one_cell"
+            },
+            {
+              "row_index": 9,
+              "reason": "multiple_numeric_tokens_in_one_cell"
+            },
+            {
+              "row_index": 10,
+              "reason": "multiple_numeric_tokens_in_one_cell"
+            }
+          ],
+          "rows": [
+            [
+              "USD per CO2 ton",
+              "2035 2040",
+              "2050"
+            ],
+            [
+              "Stated Policies Scenario",
+              "",
+              ""
+            ],
+            [
+              "Canada",
+              "126 126",
+              "126"
+            ],
+            [
+              "China",
+              "22 26",
+              "34"
+            ],
+            [
+              "European Union",
+              "89 92",
+              "174"
+            ],
+            [
+              "Japan",
+              "39 61",
+              "105"
+            ],
+            [
+              "South Korea",
+              "52 62",
+              "75"
+            ],
+            [
+              "Scenario \u201cNet Zero Emissions\u201dby 2050",
+              "",
+              ""
+            ],
+            [
+              "Advanced economies with net zero emissions pledges",
+              "180 205",
+              "250"
+            ],
+            [
+              "Selected emerging markets and developing economies*",
+              "125 160",
+              "200"
+            ],
+            [
+              "Other emerging market and developing economies",
+              "25-50 35-85",
+              "55-180"
+            ]
+          ],
+          "cells": []
+        }
+      ]
+    }
+  ]
+}

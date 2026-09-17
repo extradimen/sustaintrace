@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "experiment_family": "P5-V14-UNSEEN-LOCKBOX",
+  "status": "source_identity_frozen_before_report_body_access",
+  "selected_issuer": "Koninklijke Ahold Delhaize N.V.",
+  "selected_document": "2025 Annual Report or issuer-designated 2025 sustainability statement in English",
+  "required_source_owner": "Ahold Delhaize",
+  "required_host": "aholddelhaize.com",
+  "reporting_period": "2025",
+  "language": "English",
+  "selection_rule": "first official issuer-hosted English 2025 annual/sustainability report satisfying PDF integrity checks",
+  "repository_exposure_check": {
+    "query": "ahold|delhaize",
+    "scope": ["data/manifests", "data/tasks", "data/annotations", "research_archive", "docs"],
+    "matches": 0
+  },
+  "excluded_after_web_metadata_exposure": [
+    "Unilever 2025 Annual Report/Sustainability Statement",
+    "adidas 2025 Annual Report/Sustainability Statement",
+    "Siemens (issuer and 2024 reports used in P0)"
+  ],
+  "anti_contamination_rule": "Do not author questions or references until the exact downloaded PDF and SHA256 are frozen. Discovery must initially resolve only official URL and file integrity metadata.",
+  "source_url": null,
+  "local_path": null,
+  "sha256": null,
+  "next_state": "resolve official PDF URL, download once, verify PDF, then create immutable acquisition manifest"
+}

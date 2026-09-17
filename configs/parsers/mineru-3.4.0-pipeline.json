@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "parser": "MinerU",
+  "version": "3.4.0",
+  "python_version": "3.12.12",
+  "dependency_lock": {
+    "pdftext": "0.6.3",
+    "pypdfium2": "4.30.0",
+    "reason": "MinerU 3.4.0 is incompatible with the columnar PageChars API observed in pdftext 0.7.1"
+  },
+  "platform": "macOS-arm64",
+  "environment": ".mineru-venv",
+  "executable": ".mineru-venv/bin/mineru",
+  "backend": "pipeline",
+  "method": "auto",
+  "formula_parsing": true,
+  "table_parsing": true,
+  "role": "enhanced_parse_channel_not_evidence_authority",
+  "model_source": "huggingface",
+  "tools_config": "configs/parsers/mineru-tools-huggingface.json",
+  "model_assets_status": "complete_2026-09-03_sha256_verified",
+  "p1_inference_allowed": false
+}

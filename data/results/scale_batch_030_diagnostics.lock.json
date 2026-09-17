@@ -1,0 +1,225 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-030-SUPPLEMENTAL",
+  "created_at": "2026-09-14T02:27:52.081965+00:00",
+  "status": "local_diagnostics_complete",
+  "cloud_transmission": false,
+  "documents": [
+    {
+      "document_id": "KB-B030-NCC-ASR2025",
+      "source_group_id": "KB-NCC-2025",
+      "company": "NCC AB (publ)",
+      "local_path": "data/raw/scale_batch_030/ncc-annual-and-sustainability-report-2025.pdf",
+      "sha256": "253f5b9bf6a12ec5ce7e1965711dcda91af42da1bd58cb37972b5d87af853de2",
+      "pdfinfo_pages": 166,
+      "extracted_pages": 166,
+      "page_count_consistent": true,
+      "encrypted": "no",
+      "extractable_pages": 165,
+      "extractable_ratio": 0.993976,
+      "total_text_characters": 1129667,
+      "theme_hit_totals": {
+        "assurance": 35,
+        "biodiversity": 81,
+        "circularity": 86,
+        "energy": 39,
+        "ghg_emissions": 128,
+        "health_safety": 12,
+        "targets": 11,
+        "water": 2,
+        "workforce": 287
+      },
+      "candidate_pages_by_theme": {
+        "ghg_emissions": [
+          {
+            "page": 75,
+            "hits": 29
+          },
+          {
+            "page": 73,
+            "hits": 19
+          },
+          {
+            "page": 76,
+            "hits": 18
+          },
+          {
+            "page": 12,
+            "hits": 9
+          },
+          {
+            "page": 48,
+            "hits": 9
+          }
+        ],
+        "energy": [
+          {
+            "page": 74,
+            "hits": 21
+          },
+          {
+            "page": 143,
+            "hits": 4
+          },
+          {
+            "page": 61,
+            "hits": 3
+          },
+          {
+            "page": 77,
+            "hits": 2
+          },
+          {
+            "page": 2,
+            "hits": 1
+          }
+        ],
+        "water": [
+          {
+            "page": 58,
+            "hits": 2
+          }
+        ],
+        "workforce": [
+          {
+            "page": 91,
+            "hits": 26
+          },
+          {
+            "page": 84,
+            "hits": 24
+          },
+          {
+            "page": 86,
+            "hits": 16
+          },
+          {
+            "page": 90,
+            "hits": 16
+          },
+          {
+            "page": 88,
+            "hits": 14
+          }
+        ],
+        "health_safety": [
+          {
+            "page": 85,
+            "hits": 4
+          },
+          {
+            "page": 48,
+            "hits": 2
+          },
+          {
+            "page": 92,
+            "hits": 2
+          },
+          {
+            "page": 15,
+            "hits": 1
+          },
+          {
+            "page": 19,
+            "hits": 1
+          }
+        ],
+        "assurance": [
+          {
+            "page": 154,
+            "hits": 19
+          },
+          {
+            "page": 2,
+            "hits": 3
+          },
+          {
+            "page": 153,
+            "hits": 3
+          },
+          {
+            "page": 104,
+            "hits": 2
+          },
+          {
+            "page": 148,
+            "hits": 2
+          }
+        ],
+        "targets": [
+          {
+            "page": 16,
+            "hits": 2
+          },
+          {
+            "page": 48,
+            "hits": 2
+          },
+          {
+            "page": 73,
+            "hits": 2
+          },
+          {
+            "page": 9,
+            "hits": 1
+          },
+          {
+            "page": 12,
+            "hits": 1
+          }
+        ],
+        "biodiversity": [
+          {
+            "page": 78,
+            "hits": 23
+          },
+          {
+            "page": 79,
+            "hits": 20
+          },
+          {
+            "page": 58,
+            "hits": 5
+          },
+          {
+            "page": 55,
+            "hits": 4
+          },
+          {
+            "page": 62,
+            "hits": 4
+          }
+        ],
+        "circularity": [
+          {
+            "page": 81,
+            "hits": 13
+          },
+          {
+            "page": 80,
+            "hits": 9
+          },
+          {
+            "page": 82,
+            "hits": 9
+          },
+          {
+            "page": 83,
+            "hits": 9
+          },
+          {
+            "page": 55,
+            "hits": 6
+          }
+        ]
+      },
+      "layout_text_path": "data/interim/scale_batch_030/KB-B030-NCC-ASR2025.layout.txt",
+      "page_index_path": "data/interim/scale_batch_030/KB-B030-NCC-ASR2025.page_index.jsonl"
+    }
+  ],
+  "totals": {
+    "documents": 1,
+    "pdf_pages": 166,
+    "extractable_pages": 165
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "checkpoint_resume_enabled": true,
+  "cloud_authorization": "data/manifests/p13_cloud_authorization_2026-09-09.lock.json",
+  "experiment_id": "P13-V22-UNSEEN-LOCKBOX-V01",
+  "records": [
+    {
+      "retried": false,
+      "stage_a": "failed",
+      "stage_a_error": "OllamaError:v1.3 Stage A model behavior failed; archived at /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P13-V22-UNSEEN-LOCKBOX-V01/runs/P13-GHG-CALC-001-QWEN397B-v22-stage-a: ValueError:v21_calculation_schema_failure:'comparison_value' is a required property",
+      "stage_a_failure_taxonomy": {
+        "category": "model_behavior",
+        "error_type": "OllamaError",
+        "model_call_started": true,
+        "owner": "candidate_model",
+        "retry_policy": "no_retry_in_locked_experiment",
+        "score_as_model_failure": true,
+        "stage": "stage_a"
+      },
+      "task_id": "P13-GHG-CALC-001",
+      "task_type": "deterministic_calculation"
+    },
+    {
+      "retried": false,
+      "stage_a": "passed",
+      "stage_a_result": {
+        "archive_directory": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P13-V22-UNSEEN-LOCKBOX-V01/runs/P13-TARGET-001-QWEN397B-v22-stage-a",
+        "elapsed_seconds": 22.624139999999898,
+        "framework_evidence_state": "supported",
+        "model": "qwen3.5:397b-cloud",
+        "run_id": "P13-TARGET-001-QWEN397B-v22-stage-a",
+        "task_id": "P13-TARGET-001"
+      },
+      "stage_b": "failed",
+      "stage_b_error": "OllamaError:v1.3 Stage B model behavior failed; archived at /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P13-V22-UNSEEN-LOCKBOX-V01/runs/P13-TARGET-001-QWEN397B-v22-stage-b: ValueError:v13_numeric_not_grounded:scope_1_2_2030_reduction_percent",
+      "stage_b_failure_taxonomy": {
+        "category": "model_behavior",
+        "error_type": "OllamaError",
+        "model_call_started": true,
+        "owner": "candidate_model",
+        "retry_policy": "no_retry_in_locked_experiment",
+        "score_as_model_failure": true,
+        "stage": "stage_b"
+      },
+      "task_id": "P13-TARGET-001",
+      "task_type": "scope_subject_boundary"
+    },
+    {
+      "retried": false,
+      "stage_a": "passed",
+      "stage_a_result": {
+        "archive_directory": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P13-V22-UNSEEN-LOCKBOX-V01/runs/P13-WATER-001-QWEN397B-v22-stage-a",
+        "elapsed_seconds": 19.559077040990815,
+        "framework_evidence_state": "supported",
+        "model": "qwen3.5:397b-cloud",
+        "run_id": "P13-WATER-001-QWEN397B-v22-stage-a",
+        "task_id": "P13-WATER-001"
+      },
+      "stage_b": "passed",
+      "stage_b_result": {
+        "archive_directory": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P13-V22-UNSEEN-LOCKBOX-V01/runs/P13-WATER-001-QWEN397B-v22-stage-b",
+        "elapsed_seconds": 76.25219970900798,
+        "run_id": "P13-WATER-001-QWEN397B-v22-stage-b",
+        "task_id": "P13-WATER-001",
+        "validated_claim_count": 6
+      },
+      "task_id": "P13-WATER-001",
+      "task_type": "direct_extraction"
+    },
+    {
+      "retried": false,
+      "stage_a": "failed",
+      "stage_a_error": "OllamaError:v1.3 Stage A model behavior failed; archived at /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P13-V22-UNSEEN-LOCKBOX-V01/runs/P13-SAFETY-001-QWEN397B-v22-stage-a: ValueError:v21_calculation_schema_failure:'comparison_value' is a required property",
+      "stage_a_failure_taxonomy": {
+        "category": "model_behavior",
+        "error_type": "OllamaError",
+        "model_call_started": true,
+        "owner": "candidate_model",
+        "retry_policy": "no_retry_in_locked_experiment",
+        "score_as_model_failure": true,
+        "stage": "stage_a"
+      },
+      "task_id": "P13-SAFETY-001",
+      "task_type": "deterministic_calculation"
+    },
+    {
+      "retried": false,
+      "stage_a": "passed",
+      "stage_a_result": {
+        "archive_directory": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P13-V22-UNSEEN-LOCKBOX-V01/runs/P13-WOMEN-001-QWEN397B-v22-stage-a",
+        "elapsed_seconds": 45.90157012498821,
+        "framework_evidence_state": "supported",
+        "model": "qwen3.5:397b-cloud",
+        "run_id": "P13-WOMEN-001-QWEN397B-v22-stage-a",
+        "task_id": "P13-WOMEN-001"
+      },
+      "stage_b": "passed",
+      "stage_b_result": {
+        "archive_directory": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P13-V22-UNSEEN-LOCKBOX-V01/runs/P13-WOMEN-001-QWEN397B-v22-stage-b",
+        "elapsed_seconds": 73.61750183301046,
+        "run_id": "P13-WOMEN-001-QWEN397B-v22-stage-b",
+        "task_id": "P13-WOMEN-001",
+        "validated_claim_count": 8
+      },
+      "task_id": "P13-WOMEN-001",
+      "task_type": "scope_subject_boundary"
+    },
+    {
+      "retried": false,
+      "stage_a": "passed",
+      "stage_a_result": {
+        "archive_directory": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P13-V22-UNSEEN-LOCKBOX-V01/runs/P13-ASSURE-001-QWEN397B-v22-stage-a",
+        "elapsed_seconds": 49.22295091699925,
+        "framework_evidence_state": "supported",
+        "model": "qwen3.5:397b-cloud",
+        "run_id": "P13-ASSURE-001-QWEN397B-v22-stage-a",
+        "task_id": "P13-ASSURE-001"
+      },
+      "stage_b": "failed",
+      "stage_b_error": "OllamaError:v1.3 Stage B model behavior failed; archived at /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P13-V22-UNSEEN-LOCKBOX-V01/runs/P13-ASSURE-001-QWEN397B-v22-stage-b: ValueError:v13_verbatim_not_grounded:limited_procedure_difference",
+      "stage_b_failure_taxonomy": {
+        "category": "model_behavior",
+        "error_type": "OllamaError",
+        "model_call_started": true,
+        "owner": "candidate_model",
+        "retry_policy": "no_retry_in_locked_experiment",
+        "score_as_model_failure": true,
+        "stage": "stage_b"
+      },
+      "task_id": "P13-ASSURE-001",
+      "task_type": "scope_subject_boundary"
+    }
+  ],
+  "reference_loaded_by_orchestrator": false,
+  "schema_version": "2.2",
+  "single_attempt_per_stage": true,
+  "updated_at": "2026-09-09T05:54:44.106897+00:00"
+}

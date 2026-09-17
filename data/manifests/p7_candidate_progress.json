@@ -1,0 +1,109 @@
+{
+  "checkpoint_resume_enabled": true,
+  "cloud_authorization": "data/manifests/p7_cloud_authorization_2026-09-05.lock.json",
+  "experiment_id": "P7-V16-UNSEEN-LOCKBOX-V01",
+  "records": [
+    {
+      "retried": false,
+      "stage_a": "failed",
+      "stage_a_error": "OllamaError:Ollama HTTP 502: {\"error\":\"Post \\\"https://ollama.com:443/api/chat?ts=1788615451\\\": read tcp 172.20.10.6:50872-\\u003e34.36.133.15:443: read: no route to host\"}",
+      "task_id": "P7-SAFETY-001",
+      "task_type": "direct_extraction"
+    },
+    {
+      "retried": false,
+      "stage_a": "passed",
+      "stage_a_result": {
+        "archive_directory": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P7-V16-UNSEEN-LOCKBOX-V01/runs/P7-CALC-001-QWEN397B-v16-stage-a-r1",
+        "elapsed_seconds": 8.412991249992047,
+        "framework_evidence_state": "supported",
+        "model": "qwen3.5:397b-cloud",
+        "run_id": "P7-CALC-001-QWEN397B-v16-stage-a-r1",
+        "task_id": "P7-CALC-001"
+      },
+      "stage_b": "not_required",
+      "task_id": "P7-CALC-001",
+      "task_type": "deterministic_calculation"
+    },
+    {
+      "retried": false,
+      "stage_a": "passed",
+      "stage_a_result": {
+        "archive_directory": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P7-V16-UNSEEN-LOCKBOX-V01/runs/P7-TARGET-001-QWEN397B-v16-stage-a-r1",
+        "elapsed_seconds": 13.92628883299767,
+        "framework_evidence_state": "supported",
+        "model": "qwen3.5:397b-cloud",
+        "run_id": "P7-TARGET-001-QWEN397B-v16-stage-a-r1",
+        "task_id": "P7-TARGET-001"
+      },
+      "stage_b": "passed",
+      "stage_b_result": {
+        "archive_directory": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P7-V16-UNSEEN-LOCKBOX-V01/runs/P7-TARGET-001-QWEN397B-v16-stage-b-r1",
+        "elapsed_seconds": 58.24440537497867,
+        "run_id": "P7-TARGET-001-QWEN397B-v16-stage-b-r1",
+        "task_id": "P7-TARGET-001",
+        "validated_claim_count": 3
+      },
+      "task_id": "P7-TARGET-001",
+      "task_type": "scope_subject_boundary"
+    },
+    {
+      "retried": false,
+      "stage_a": "passed",
+      "stage_a_result": {
+        "archive_directory": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P7-V16-UNSEEN-LOCKBOX-V01/runs/P7-PORTFOLIO-001-QWEN397B-v16-stage-a-r1",
+        "elapsed_seconds": 13.887197916017612,
+        "framework_evidence_state": "supported",
+        "model": "qwen3.5:397b-cloud",
+        "run_id": "P7-PORTFOLIO-001-QWEN397B-v16-stage-a-r1",
+        "task_id": "P7-PORTFOLIO-001"
+      },
+      "stage_b": "passed",
+      "stage_b_result": {
+        "archive_directory": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P7-V16-UNSEEN-LOCKBOX-V01/runs/P7-PORTFOLIO-001-QWEN397B-v16-stage-b-r1",
+        "elapsed_seconds": 59.30641808299697,
+        "run_id": "P7-PORTFOLIO-001-QWEN397B-v16-stage-b-r1",
+        "task_id": "P7-PORTFOLIO-001",
+        "validated_claim_count": 3
+      },
+      "task_id": "P7-PORTFOLIO-001",
+      "task_type": "scope_subject_boundary"
+    },
+    {
+      "retried": false,
+      "stage_a": "passed",
+      "stage_a_result": {
+        "archive_directory": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P7-V16-UNSEEN-LOCKBOX-V01/runs/P7-INTENSITY-001-QWEN397B-v16-stage-a-r1",
+        "elapsed_seconds": 13.879821166978218,
+        "framework_evidence_state": "supported",
+        "model": "qwen3.5:397b-cloud",
+        "run_id": "P7-INTENSITY-001-QWEN397B-v16-stage-a-r1",
+        "task_id": "P7-INTENSITY-001"
+      },
+      "stage_b": "failed",
+      "stage_b_error": "OllamaError:v1.3 Stage B model behavior failed; archived at /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P7-V16-UNSEEN-LOCKBOX-V01/runs/P7-INTENSITY-001-QWEN397B-v16-stage-b-r1: ValueError:v13_verbatim_not_grounded:causal_evidence_state",
+      "task_id": "P7-INTENSITY-001",
+      "task_type": "scope_subject_boundary"
+    },
+    {
+      "retried": false,
+      "stage_a": "passed",
+      "stage_a_result": {
+        "archive_directory": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P7-V16-UNSEEN-LOCKBOX-V01/runs/P7-ASSURE-001-QWEN397B-v16-stage-a-r1",
+        "elapsed_seconds": 14.223863000021083,
+        "framework_evidence_state": "supported",
+        "model": "qwen3.5:397b-cloud",
+        "run_id": "P7-ASSURE-001-QWEN397B-v16-stage-a-r1",
+        "task_id": "P7-ASSURE-001"
+      },
+      "stage_b": "failed",
+      "stage_b_error": "OllamaError:v1.3 Stage B model behavior failed; archived at /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P7-V16-UNSEEN-LOCKBOX-V01/runs/P7-ASSURE-001-QWEN397B-v16-stage-b-r1: ValueError:v13_verbatim_not_grounded:assured_subject",
+      "task_id": "P7-ASSURE-001",
+      "task_type": "scope_subject_boundary"
+    }
+  ],
+  "reference_loaded_by_orchestrator": false,
+  "schema_version": "1.0",
+  "single_attempt_per_stage": true,
+  "updated_at": "2026-09-05T13:44:25.060731+00:00"
+}

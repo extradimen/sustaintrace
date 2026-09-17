@@ -1,0 +1,98 @@
+schema_version: "1.0"
+registration_status: draft  # draft | locked
+registered_at: null
+experiment_id: null
+
+candidate:
+  framework_version: null
+  baseline_version: null
+  single_mechanism_change: null
+  mechanism_rationale: null
+  expected_failure_mode_addressed: null
+  frozen_invariants: []
+  prohibited_changes_after_lock: []
+
+data:
+  split: null  # P0 | D1 | C1 | X1 | X2
+  split_state_before_run: UNSEEN
+  manifest_path: null
+  manifest_sha256: null
+  sample_count: null
+  report_count: null
+  finding_unit_count: null
+
+systems:
+  baseline:
+    model_snapshot: null
+    framework_commit: null
+    prompt_sha256: null
+    schema_sha256: null
+    tools: []
+  candidate:
+    model_snapshot: null
+    framework_commit: null
+    prompt_sha256: null
+    schema_sha256: null
+    tools: []
+
+paired_budget:
+  repetitions_per_item: 5
+  max_input_tokens: null
+  max_output_tokens: null
+  max_tool_calls: null
+  max_wall_seconds_per_report: null
+  max_cost_usd_per_report: null
+  randomization_or_run_ids: []
+
+primary_endpoints:
+  - name: verified_finding_recall
+    direction: maximize
+    advance_condition: null
+  - name: evidence_accuracy
+    direction: maximize
+    advance_condition: null
+  - name: run_to_run_jaccard
+    direction: maximize
+    advance_condition: null
+  - name: abstention_accuracy
+    direction: maximize
+    advance_condition: null
+
+safeguards:
+  - name: false_discovery_rate
+    condition: null
+  - name: numeric_scope_accuracy
+    condition: null
+  - name: no_anomaly_specificity
+    condition: null
+  - name: cost_per_report
+    condition: null
+  - name: latency_per_report
+    condition: null
+
+advance_gate:
+  exact_rule: null
+  minimum_completed_runs: null
+  allowed_infrastructure_failures: null
+  failure_stop_rule: null
+  alignment_revision_allowed: true
+  maximum_alignment_revisions: 1
+
+analysis:
+  paired_unit: null
+  confidence_interval_method: hierarchical_bootstrap
+  hypothesis_tests: []
+  multiplicity_correction: holm
+  effect_sizes: []
+  expert_blinding_protocol: null
+
+decision_values:
+  - PROMOTE_GENERAL
+  - PROMOTE_DOMAIN_SPECIFIC
+  - RETAIN_EXPERIMENTAL
+  - REJECT
+
+signoff:
+  protocol_locked_by: null
+  protocol_lock_sha256: null
+  results_not_observed_at_lock: null

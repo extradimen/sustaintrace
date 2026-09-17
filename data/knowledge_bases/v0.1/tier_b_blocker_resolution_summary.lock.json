@@ -1,0 +1,29 @@
+{
+  "effective_status_counts": {
+    "blocked_additional_qualification": 10,
+    "ready_for_independent_source_review": 4
+  },
+  "inputs": {
+    "blocker_matrix_sha256": "172a36db63b2aa934d05d6520b64a44f36b70865178f532848b888d75527fd0a",
+    "source_native_bindings_sha256": "e152197d51d9368871a4dadd0bcb65109dfb74f69c8e88674bd3bea54a46b5dd"
+  },
+  "locked_experiments_modified_or_rescored": false,
+  "newly_ready_for_independent_source_review": 4,
+  "next_gate": "seek independent sources for newly ready facts and retain boundary semantics under supervision",
+  "output": {
+    "path": "data/knowledge_bases/v0.1/tier_b_blocker_resolutions.jsonl",
+    "sha256": "96bc6e574d607661c41698998fadc77d2a97380032ff10432d63d78e469cd068"
+  },
+  "promotions_performed": 0,
+  "remaining_boundary_blockers": 43,
+  "remaining_period_blockers": 13,
+  "resolution_type_counts": {
+    "exact_source_label": 3,
+    "not_applicable_non_temporal_field": 11
+  },
+  "resolutions": 14,
+  "rollback_ledgers": 14,
+  "schema_version": "0.1",
+  "source_fact_records_modified": 0,
+  "status": "tier_b_period_blockers_resolved_in_derived_layer"
+}

@@ -1,0 +1,283 @@
+{
+  "contracts": {
+    "P10-ASSURE-001": [
+      {
+        "slot_id": "assurance_level",
+        "value_type": "string"
+      },
+      {
+        "slot_id": "standard",
+        "value_type": "string"
+      },
+      {
+        "slot_id": "criteria",
+        "value_type": "string"
+      },
+      {
+        "normalized_field": "page_range_statement_page_426",
+        "slot_id": "page_range_introduction",
+        "value_type": "string"
+      },
+      {
+        "normalized_field": "page_range_coverage_page_427",
+        "slot_id": "page_range_scope_statement",
+        "value_type": "string"
+      },
+      {
+        "slot_id": "incorporated_reference_pages",
+        "value_type": "string"
+      },
+      {
+        "normalized_field": "excluded",
+        "slot_id": "excluded_information",
+        "value_type": "string"
+      },
+      {
+        "slot_id": "procedure_difference",
+        "value_type": "string"
+      },
+      {
+        "slot_id": "procedure_exclusions",
+        "value_type": "string"
+      },
+      {
+        "normalized_field": "conflict_status",
+        "slot_id": "range_conflict_status",
+        "value_type": "string"
+      }
+    ],
+    "P10-BOUNDARY-001": [
+      {
+        "slot_id": "operational_control",
+        "value_type": "string"
+      },
+      {
+        "slot_id": "financial_control",
+        "value_type": "string"
+      },
+      {
+        "slot_id": "esrs",
+        "value_type": "string"
+      },
+      {
+        "slot_id": "equity",
+        "value_type": "string"
+      },
+      {
+        "slot_id": "scope_3_boundary",
+        "value_type": "string"
+      }
+    ],
+    "P10-CALC-001": [
+      {
+        "canonical_unit": "MtCO2e",
+        "period": "2025",
+        "scope_id": "gross_scope_1_esrs",
+        "slot_id": "input_2025_mtco2e",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "MtCO2e",
+        "period": "2024",
+        "scope_id": "gross_scope_1_esrs",
+        "slot_id": "input_2024_mtco2e",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "percent",
+        "slot_id": "percentage_change",
+        "value_type": "number"
+      },
+      {
+        "slot_id": "direction",
+        "value_type": "string"
+      }
+    ],
+    "P10-SAFETY-001": [
+      {
+        "canonical_unit": "count",
+        "period": "2025",
+        "slot_id": "fatalities_2025",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "count",
+        "period": "2024",
+        "slot_id": "fatalities_2024",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "count",
+        "period": "2025",
+        "slot_id": "fpi_2025",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "count",
+        "period": "2024_revised",
+        "slot_id": "fpi_2024_revised",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "cases_per_100_million_hours",
+        "period": "2025",
+        "slot_id": "fpi_frequency_2025",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "cases_per_100_million_hours",
+        "period": "2024_revised",
+        "slot_id": "fpi_frequency_2024_revised",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "count",
+        "period": "2024_original",
+        "slot_id": "fpi_2024_original",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "cases_per_100_million_hours",
+        "period": "2024_original",
+        "slot_id": "fpi_frequency_2024_original",
+        "value_type": "number"
+      }
+    ],
+    "P10-SCOPE3-001": [
+      {
+        "canonical_unit": "MtCO2e",
+        "period": "2025",
+        "slot_id": "total_scope_3_2025_mtco2e",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "MtCO2e",
+        "period": "2024",
+        "slot_id": "total_scope_3_2024_mtco2e",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "MtCO2e",
+        "period": "2025",
+        "slot_id": "category_11_2025_mtco2e",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "MtCO2e",
+        "period": "2024",
+        "slot_id": "category_11_2024_mtco2e",
+        "value_type": "number"
+      },
+      {
+        "slot_id": "boundary",
+        "value_type": "string"
+      },
+      {
+        "canonical_unit": "MtCO2",
+        "period": "2025",
+        "slot_id": "biogenic_co2_excluded_2025_mtco2",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "MtCO2",
+        "period": "2024",
+        "slot_id": "biogenic_co2_excluded_2024_mtco2",
+        "value_type": "number"
+      },
+      {
+        "slot_id": "caution",
+        "value_type": "string"
+      }
+    ],
+    "P10-TARGET-001": [
+      {
+        "period": "2030_vs_2016",
+        "scope_id": "operational_control_net",
+        "slot_id": "scope_1_2_target",
+        "value_type": "string"
+      },
+      {
+        "period": "2016",
+        "slot_id": "scope_1_2_baseline",
+        "value_type": "string"
+      },
+      {
+        "slot_id": "scope_1_2_carbon_credits",
+        "value_type": "string"
+      },
+      {
+        "period": "2030_vs_2016",
+        "scope_id": "products_sold_equity",
+        "slot_id": "nci_target",
+        "value_type": "string"
+      },
+      {
+        "period": "2016",
+        "slot_id": "nci_baseline",
+        "value_type": "string"
+      },
+      {
+        "slot_id": "nci_boundary",
+        "value_type": "string"
+      },
+      {
+        "period": "2030",
+        "slot_id": "methane_target",
+        "value_type": "string"
+      },
+      {
+        "slot_id": "methane_boundary",
+        "value_type": "string"
+      },
+      {
+        "slot_id": "routine_flaring_target",
+        "value_type": "string"
+      },
+      {
+        "period": "2025",
+        "slot_id": "routine_flaring_status",
+        "value_type": "string"
+      }
+    ]
+  },
+  "executor_compatibility_erratum": {
+    "changes": [
+      {
+        "executor_value_type": "string",
+        "original_value_type": "object",
+        "slot_id": "operational_control",
+        "task_id": "P10-BOUNDARY-001"
+      },
+      {
+        "executor_value_type": "string",
+        "original_value_type": "object",
+        "slot_id": "financial_control",
+        "task_id": "P10-BOUNDARY-001"
+      },
+      {
+        "executor_value_type": "string",
+        "original_value_type": "object",
+        "slot_id": "esrs",
+        "task_id": "P10-BOUNDARY-001"
+      },
+      {
+        "executor_value_type": "string",
+        "original_value_type": "array",
+        "slot_id": "criteria",
+        "task_id": "P10-ASSURE-001"
+      },
+      {
+        "executor_value_type": "string",
+        "original_value_type": "array",
+        "slot_id": "procedure_exclusions",
+        "task_id": "P10-ASSURE-001"
+      }
+    ],
+    "parent": "configs/framework/p10_slot_contracts_v0.1.lock.json",
+    "reason": "v13 atomic projection accepts only number/string/boolean; collection semantics remain represented by separate atomic slots and verbatim strings",
+    "semantic_change": false
+  },
+  "experiment_id": "P10-V19-UNSEEN-LOCKBOX-V01",
+  "schema_version": "1.0.1",
+  "status": "frozen_before_candidate_inference"
+}

@@ -1,0 +1,13 @@
+Answer the ESG question using only the supplied evidence blocks and return exactly one JSON object conforming to the task-specific schema.
+
+Use the most specific evidence that directly matches the requested metric, scope, period, and unit. When a page contains both a rounded headline or chart total and an exact table row for the requested metric, use the exact matching row value. Do not substitute a broader total, rounded summary, nearby metric, or visually prominent number for the requested row.
+
+Evidence state is framework-owned. For ordinary tasks, return a non-null answer and at least one exact evidence handle only when the supplied evidence supports the answer. For an abstention task where the requested fact is absent, return exactly answer=null, normalized_value=null, and evidence_handles=[].
+
+For direct-extraction, cross-page-relation, or scope-subject-boundary tasks, return exactly answer and evidence_handles. Include every handle required for every requested fact. Do not omit a requested relationship merely because another requested fact is easier to map.
+
+For controlled-conflict tasks, return exactly {"source_claims":[...]}. Each claim contains exactly source_id, evidence_handle, normalized_value, and normalized_unit. Prefer an exact metric row over a rounded narrative headline. Preserve both sources without choosing or merging them.
+
+For deterministic-calculation tasks, return exactly {"calculation_request":{"operation":"percentage_change","inputs":[...]}}. Each input contains exactly value, evidence_handle, and period_year. Select the exact value block; period_year may be stated in the same block or an immediately adjacent explicit reporting-year/end-date block supplied by the framework.
+
+Never invent an evidence handle, reproduce source quotations, use outside knowledge, or add convenience fields. Output JSON only.

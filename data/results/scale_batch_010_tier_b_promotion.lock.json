@@ -1,0 +1,113 @@
+{
+  "blocked_by_reason": {
+    "assurance_translation_period_internal_contradiction_2025_vs_2024": [
+      "fact-08add829a959a0d421f73b02",
+      "fact-0b69755c02fbbb00177b2e28",
+      "fact-0ce6f12a76d1445465524452",
+      "fact-33e9cc8bc1cba535af275d8a",
+      "fact-36afda17a66a242d595b4000",
+      "fact-3a817a9350253b3e33067bb5",
+      "fact-47882664089fe4d9419dc9a8",
+      "fact-70cadcb619889d6b5d15f0ee",
+      "fact-791400540be76465596965e1",
+      "fact-9ba264baa2cb5d3f65c26156",
+      "fact-af18e851b490e3a7d3e4ea66",
+      "fact-e2781d7b06f88ad79e7d6426"
+    ],
+    "comparative_2024_not_explicitly_within_2025_assurance_period": [
+      "fact-154d9691456040fc8653ee92",
+      "fact-3cf3c63aacede12c1832c0bb"
+    ]
+  },
+  "blocked_fact_ids": [
+    "fact-08add829a959a0d421f73b02",
+    "fact-0b69755c02fbbb00177b2e28",
+    "fact-0ce6f12a76d1445465524452",
+    "fact-154d9691456040fc8653ee92",
+    "fact-33e9cc8bc1cba535af275d8a",
+    "fact-36afda17a66a242d595b4000",
+    "fact-3a817a9350253b3e33067bb5",
+    "fact-3cf3c63aacede12c1832c0bb",
+    "fact-47882664089fe4d9419dc9a8",
+    "fact-70cadcb619889d6b5d15f0ee",
+    "fact-791400540be76465596965e1",
+    "fact-9ba264baa2cb5d3f65c26156",
+    "fact-af18e851b490e3a7d3e4ea66",
+    "fact-e2781d7b06f88ad79e7d6426"
+  ],
+  "inputs": {
+    "atomic_increment_sha256": "5b5f64985b1f27795447a7ec1e0b6051e1459334163b1495ed887af3468283c5",
+    "atomic_validations_sha256": "8aac4a7ebcd5767d22eda02fc4b6061b5fd60a7e2365961f10b4e2bfda779e01",
+    "native_coordinate_audit_sha256": "3df1dc7980cb174528cff3f7b53580409e26b9a8d196d074b2375a341b4e52cc"
+  },
+  "locked_experiments_modified_or_rescored": false,
+  "native_audit": {
+    "batch_id": "KB-SCALE-BATCH-010-NATIVE-COORDINATE-AUDIT",
+    "checks": {
+      "puma_footnote_period_2024_present": true,
+      "puma_main_assurance_period_2025_present": true,
+      "puma_source_sha256_matches": true,
+      "veolia_assurance_entity_present": true,
+      "veolia_assurance_period_present": true,
+      "veolia_assurance_section_present": true,
+      "veolia_biogenic_heading_present": true,
+      "veolia_page_footer_matches": true,
+      "veolia_scope_1_values_present": true,
+      "veolia_scope_2_values_present": true,
+      "veolia_scope_3_current_value_present": true,
+      "veolia_source_sha256_matches": true,
+      "veolia_year_headers_present": true
+    },
+    "native_puma_assurance_sha256": "d90110861766657ce282fa725cff5c8416eaea339c4dbb554b78caf288b10fc6",
+    "native_veolia_assurance_sha256": "263cabf0b8d656a2e4fd9994b2fff61e7db13c4646c7fbd36a2017601eb9635c",
+    "native_veolia_page_sha256": "8b54f2678b6a4632c36e6bbc84cf07e5bcbea4208c9bac8a3dc4faba03b4f95f",
+    "policy": {
+      "automatic_promotion": false,
+      "cloud_transmission": false
+    },
+    "puma": {
+      "assurance_pdf_page": 350,
+      "document_id": "KB-B010-PUMA-AR2025",
+      "promotion_blocker": "main text says financial year 2025 while translation footnote says the engagement related to Group Sustainability Statement 2024"
+    },
+    "schema_version": "0.1",
+    "status": "veolia_passed_puma_fail_closed_on_assurance_period_contradiction",
+    "veolia": {
+      "assurance_pdf_page": 328,
+      "assurance_quote": "This report covers the sustainability information relating to the year ended December 31, 2025, included in the Group management report and presented in Section 4.1, ‘Sustainability Statement’ of the Universal Registration Document.",
+      "columns": {
+        "scope_1": {
+          "2024": "5.8",
+          "2025": "6.7"
+        },
+        "scope_2": {
+          "2024": "0.2",
+          "2025": "0.1"
+        },
+        "scope_3": {
+          "2024": "not disclosed",
+          "2025": "7.6"
+        }
+      },
+      "document_id": "KB-B010-VEOLIA-URD2025",
+      "pdf_page": 219,
+      "unit": "Mt eq. CO2"
+    }
+  },
+  "newly_promoted_to_tier_b": 3,
+  "next_gate": "scale_batch_010_global_kb_rebuild_and_closure",
+  "outputs": {
+    "adjudications_sha256": "1ca8fe6f99f7630457b21081a99a34c2a1f66d89c3b60118d5f8f7a12cf77414",
+    "trusted_facts_sha256": "f825d619366ba75a022ec11135a60c92131a9623d34e01203bc0e4914144be5d"
+  },
+  "promotable_fact_ids": [
+    "fact-c894b332d64457a386649468",
+    "fact-cf99175ab8dbae1bea8b6832",
+    "fact-df1719c398059d112b1b3323"
+  ],
+  "reviewed": 17,
+  "schema_version": "0.1",
+  "source_candidate_records_modified": 0,
+  "status": "scale_batch_010_six_dimension_tier_b_sampling_complete",
+  "total_trusted_tier_b": 79
+}

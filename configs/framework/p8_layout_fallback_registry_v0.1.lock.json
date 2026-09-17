@@ -1,0 +1,23 @@
+{
+  "schema_version":"1.0",
+  "status":"frozen_before_p8_candidate_inference",
+  "selection_rule":"all authorized task pages are eligible for native PDF coordinate fallback; no reference-answer selection",
+  "targets":[
+    {"task_id":"P8-SAFETY-001","document_id":"P8-RIOTINTO-AR2025","document_sha256":"54a10cef07d653fa63adc26c4ee8f7610c643fcd968d642446b2728a91fed942","pdf_path":"data/raw/p8_staging/rio-tinto-annual-report-2025.pdf","pdf_page":37},
+    {"task_id":"P8-SAFETY-001","document_id":"P8-RIOTINTO-AR2025","document_sha256":"54a10cef07d653fa63adc26c4ee8f7610c643fcd968d642446b2728a91fed942","pdf_path":"data/raw/p8_staging/rio-tinto-annual-report-2025.pdf","pdf_page":39},
+    {"task_id":"P8-CALC-001","document_id":"P8-RIOTINTO-AR2025","document_sha256":"54a10cef07d653fa63adc26c4ee8f7610c643fcd968d642446b2728a91fed942","pdf_path":"data/raw/p8_staging/rio-tinto-annual-report-2025.pdf","pdf_page":57},
+    {"task_id":"P8-TARGET-001","document_id":"P8-RIOTINTO-AR2025","document_sha256":"54a10cef07d653fa63adc26c4ee8f7610c643fcd968d642446b2728a91fed942","pdf_path":"data/raw/p8_staging/rio-tinto-annual-report-2025.pdf","pdf_page":37},
+    {"task_id":"P8-TARGET-001","document_id":"P8-RIOTINTO-AR2025","document_sha256":"54a10cef07d653fa63adc26c4ee8f7610c643fcd968d642446b2728a91fed942","pdf_path":"data/raw/p8_staging/rio-tinto-annual-report-2025.pdf","pdf_page":57},
+    {"task_id":"P8-TARGET-001","document_id":"P8-RIOTINTO-AR2025","document_sha256":"54a10cef07d653fa63adc26c4ee8f7610c643fcd968d642446b2728a91fed942","pdf_path":"data/raw/p8_staging/rio-tinto-annual-report-2025.pdf","pdf_page":86},
+    {"task_id":"P8-BASELINE-001","document_id":"P8-RIOTINTO-AR2025","document_sha256":"54a10cef07d653fa63adc26c4ee8f7610c643fcd968d642446b2728a91fed942","pdf_path":"data/raw/p8_staging/rio-tinto-annual-report-2025.pdf","pdf_page":37},
+    {"task_id":"P8-BASELINE-001","document_id":"P8-RIOTINTO-AR2025","document_sha256":"54a10cef07d653fa63adc26c4ee8f7610c643fcd968d642446b2728a91fed942","pdf_path":"data/raw/p8_staging/rio-tinto-annual-report-2025.pdf","pdf_page":59},
+    {"task_id":"P8-BASELINE-001","document_id":"P8-RIOTINTO-AR2025","document_sha256":"54a10cef07d653fa63adc26c4ee8f7610c643fcd968d642446b2728a91fed942","pdf_path":"data/raw/p8_staging/rio-tinto-annual-report-2025.pdf","pdf_page":86},
+    {"task_id":"P8-SCOPE3-001","document_id":"P8-RIOTINTO-AR2025","document_sha256":"54a10cef07d653fa63adc26c4ee8f7610c643fcd968d642446b2728a91fed942","pdf_path":"data/raw/p8_staging/rio-tinto-annual-report-2025.pdf","pdf_page":84},
+    {"task_id":"P8-ASSURE-001","document_id":"P8-RIOTINTO-AR2025","document_sha256":"54a10cef07d653fa63adc26c4ee8f7610c643fcd968d642446b2728a91fed942","pdf_path":"data/raw/p8_staging/rio-tinto-annual-report-2025.pdf","pdf_page":328},
+    {"task_id":"P8-ASSURE-001","document_id":"P8-RIOTINTO-AR2025","document_sha256":"54a10cef07d653fa63adc26c4ee8f7610c643fcd968d642446b2728a91fed942","pdf_path":"data/raw/p8_staging/rio-tinto-annual-report-2025.pdf","pdf_page":329},
+    {"task_id":"P8-ASSURE-001","document_id":"P8-RIOTINTO-AR2025","document_sha256":"54a10cef07d653fa63adc26c4ee8f7610c643fcd968d642446b2728a91fed942","pdf_path":"data/raw/p8_staging/rio-tinto-annual-report-2025.pdf","pdf_page":330},
+    {"task_id":"P8-ASSURE-001","document_id":"P8-RIOTINTO-AR2025","document_sha256":"54a10cef07d653fa63adc26c4ee8f7610c643fcd968d642446b2728a91fed942","pdf_path":"data/raw/p8_staging/rio-tinto-annual-report-2025.pdf","pdf_page":334},
+    {"task_id":"P8-ASSURE-001","document_id":"P8-RIOTINTO-AR2025","document_sha256":"54a10cef07d653fa63adc26c4ee8f7610c643fcd968d642446b2728a91fed942","pdf_path":"data/raw/p8_staging/rio-tinto-annual-report-2025.pdf","pdf_page":335},
+    {"task_id":"P8-ASSURE-001","document_id":"P8-RIOTINTO-AR2025","document_sha256":"54a10cef07d653fa63adc26c4ee8f7610c643fcd968d642446b2728a91fed942","pdf_path":"data/raw/p8_staging/rio-tinto-annual-report-2025.pdf","pdf_page":336}
+  ]
+}

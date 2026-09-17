@@ -1,0 +1,27 @@
+{
+  "schema_version":"2.2","experiment_id":"P13-V22-UNSEEN-LOCKBOX-V01","status":"passed_pending_cloud_authorization","audit_date":"2026-09-09",
+  "gates":{
+    "official_source_and_sha256_frozen":true,"source_pdf_integrity_verified":true,"questions_and_page_windows_frozen_before_reference":true,
+    "native_target_pages_complete":"13/13","mineru_failure_archived":true,"reference_page_window_consistency":"28/28","reference_quote_grounding":"28/28",
+    "deterministic_numeric_reconciliation":"4/4","slot_contracts_complete":"51/51","v22_same_path_preflight":"6/6","json_validation":"passed",
+    "pytest":"233 passed","ruff":"passed","candidate_run_directories_created":0,"cloud_transmission_detected":false
+  },
+  "artifact_sha256":{
+    "source_acquisition":"eb8de367bd49f2e575a3124ab186f7ee527d8e4f0cfaf859b0241ae97cffe6e6",
+    "source_registry":"c938d0f7df9773f1c78100c392d4286d2254a2b9a460ebd3012429ad1d2b5801",
+    "task_pack":"a727db283b93da01e42665b8c1d98574785d0612546d1ccb70bfa4d2fcafecd2",
+    "native_registry":"2e325ac92eea89cffff1527a5d444e268c5344ed6ef67b86f5393c9e0ede65df",
+    "parser_failure_record":"5f8ea72bc4a858fe61cb488e9e57aeb63673bc6fd9a3f555f03176979affcc18",
+    "slot_contracts":"0d5daf9b1d13ae367586e48c6f6d90dd3e94ba8a34d3698d55e8f69bf1f159d1",
+    "semantic_qualifiers":"12bf0589029f65a8c6c80275dbc738004dee503de1dbbb850e26392ceb29d6c1",
+    "table_graph":"68ec233cea79b32d1626103e1748e9c612e178436935cc72d63a3a4736c1f210",
+    "reference_freeze":"c24f4fb74b3f5a396141d5df746a123914941b464abfc8b1313d20f6b71e4400",
+    "same_path_preflight":"7eca7fed4ac0a2ad01e1a2fdd645a16ef9c327952fbe797aff7e12a9d9aa206d",
+    "local_execution_pack":"81f049336b62eeb36b0a4f4481d62bfe74d02ac6e8d9db97fad096586eda6710"
+  },
+  "recoverable_infrastructure_events":[
+    "Initial pytest invocation omitted PYTHONPATH=src and failed during collection; corrected invocation passed all 233 tests without code changes.",
+    "ruff was not on the shell PATH and uv cache was sandbox-restricted; the existing pinned .venv/bin/ruff executable was used and passed."
+  ],
+  "release_decision":"All local gates passed. Candidate inference remains blocked solely by missing explicit P13 cloud-transmission authorization."
+}

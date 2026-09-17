@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "task_id": "P16-ASSURE-001",
+  "reference_author": "codex_gpt_simulated_expert",
+  "reference_status": "verified_against_frozen_pages_with_declared_native_fallback_on_page_133",
+  "answer": "Sanofi's statutory auditors expressed limited assurance over the 2025 sustainability information in sections 3.1–3.5 and the Article 8 EU Taxonomy information. Their three conclusions were that they identified no material errors, omissions or inconsistencies in (1) the ESRS process used to determine reportable information, (2) the sustainability information's compliance with French law including ESRS, and (3) Article 8 reporting. The work followed French law and H2A limited-assurance guidelines. It excluded 2023 comparatives; limited assurance uses less extensive procedures than reasonable assurance; forward-looking outcomes are inherently uncertain; and it does not guarantee management quality or assess the relevance of action plans, targets, policies, scenarios or transition plans.",
+  "normalized_value": {
+    "assurance_level": "limited assurance",
+    "covered_information": "2025 sustainability information in sections 3.1 to 3.5 of chapter 3 and Article 8 EU Taxonomy information",
+    "governing_guidance": "French law and H2A guidelines on limited assurance engagements for sustainability reporting and Article 8 disclosures",
+    "process_conclusion": "no material errors, omissions or inconsistencies regarding compliance of Sanofi's process with ESRS",
+    "sustainability_information_conclusion": "no material errors, omissions or inconsistencies regarding compliance of sections 3.1 to 3.5 with French Commercial Code Article L. 233-28-4 including ESRS",
+    "taxonomy_conclusion": "no material errors, omissions or inconsistencies regarding compliance with Article 8 reporting requirements",
+    "comparative_exclusion": "comparative information for the 2023 financial year was not included in the procedures",
+    "forward_looking_limitation": "forward-looking information is inherently uncertain and actual outcomes may differ significantly",
+    "relative_and_scope_limitation": "limited-assurance procedures are less extensive than reasonable assurance and do not guarantee management quality or assess the relevance of action plans, targets, policies, scenario analyses or transition plans"
+  },
+  "evidence": [
+    {"source_id":"P16-SANOFI-SS2025","pdf_page":129,"quote":"It covers the sustainability information and the information required by Article 8"},
+    {"source_id":"P16-SANOFI-SS2025","pdf_page":129,"quote":"expressing limited assurance"},
+    {"source_id":"P16-SANOFI-SS2025","pdf_page":129,"quote":"H2A guidelines"},
+    {"source_id":"P16-SANOFI-SS2025","pdf_page":129,"quote":"less than those required to obtain reasonable assurance"},
+    {"source_id":"P16-SANOFI-SS2025","pdf_page":129,"quote":"did not include the comparative information for the 2023 financial year"},
+    {"source_id":"P16-SANOFI-SS2025","pdf_page":130,"quote":"we have not identified any material errors, omissions or inconsistencies"},
+    {"source_id":"P16-SANOFI-SS2025","pdf_page":131,"quote":"we have not identified material errors, omissions or inconsistencies"},
+    {"source_id":"P16-SANOFI-SS2025","pdf_page":133,"quote":"we have not identified any material errors, omissions or inconsistencies in relation to compliance with the requirements of Article 8"},
+    {"source_id":"P16-SANOFI-SS2025","pdf_page":130,"quote":"forward-looking information is inherently uncertain"}
+  ],
+  "provenance": {"reference_is_simulated":true,"candidate_model_used":false}
+}

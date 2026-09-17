@@ -1,0 +1,9 @@
+{
+  "schema_version":"1.0","task_id":"P1-04-2","reference_author":"codex_gpt_simulated_expert","reference_status":"verified",
+  "question":"A controlled analyst note states that Salesforce's fiscal 2024 market-based emissions from operations and value chain were 1,250,000 tCO2e. Compare this with the official report, identify whether a conflict exists, and preserve source attribution.",
+  "answer_status":"conflict","answer":{"official_report_value":1200000,"controlled_note_value":1250000,"difference":50000,"relation":"controlled note contradicts official report"},"normalized_value":1200000,"normalized_unit":"tCO2e","reported_unit":"metric tons carbon dioxide equivalent",
+  "subject":"Salesforce, Inc.","scope_boundary":"emissions from operations and value chain; market-based method","period":"fiscal 2024","calculation":{"expression":"1250000 - 1200000","inputs":[1250000,1200000],"unrounded_result":50000,"rounding_rule":"exact subtraction"},
+  "evidence":[{"document_id":"CRM-IR-2024","document_sha256":"1cdd2fade9f3aca498fb0e4b24f59112f2f6f065ece09c6a6771cda854e9fb80","pdf_page":93,"printed_page":"10","verbatim_excerpt":"Emissions from operations and value chain - MBM 1,200,000","role":"conflict_source"}],
+  "search_record":{"pages_reviewed":[93],"terms_used":["Emissions from operations and value chain - MBM"],"notes":"Official value was compared with separately hashed controlled intervention P1-CI-001."},"controlled_intervention_id":"P1-CI-001",
+  "provenance_attestation":{"is_human":false,"is_ai_simulation":true,"candidate_model_excluded":true}
+}

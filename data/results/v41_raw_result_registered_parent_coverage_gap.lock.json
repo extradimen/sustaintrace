@@ -1,0 +1,23 @@
+{
+  "schema_version": "0.1",
+  "record_kind": "unseen_validation_coverage_inventory",
+  "status": "coverage_gap_confirmed",
+  "scope": "existing locked JSON artifacts with contract_passed=true and exactly one raw_result object whose status is passed",
+  "candidates_found": 1,
+  "candidates_with_registered_parent_gap": 0,
+  "candidates": [
+    {
+      "path": "artifacts/v39_volvo_repeated_value_table_unseen_RESUME01_v0.1/result.lock.json",
+      "parent_gap_id": "v39-unseen-derived-gap",
+      "parent_gap_registered": false,
+      "used_for_v4_1_development": true,
+      "eligible_for_unseen_validation": false
+    }
+  ],
+  "decision": "do not split, fabricate, or register a historical parent gap merely to create an unseen passing case",
+  "v4_1_unseen_validation_executed": false,
+  "historical_results_modified": false,
+  "fact_write_performed": false,
+  "gap_mutation_performed": false,
+  "trust_promotion_performed": false
+}

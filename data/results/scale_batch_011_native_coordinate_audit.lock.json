@@ -1,0 +1,30 @@
+{
+  "batch_id": "KB-SCALE-BATCH-011-NATIVE-COORDINATE-AUDIT",
+  "blocked_by_reason": {
+    "row_label_dropped_near_miss_misbound_as_unnamed_metric": [
+      "fact-b316b271b9a60ee23b332bd9",
+      "fact-f3f8dd63fe11be1e0582e70d"
+    ],
+    "signed_independent_assurance_scope_not_in_frozen_evidence": [
+      "fact-28d528eadf640e532aba67cb"
+    ]
+  },
+  "checks": {
+    "all_frozen_coordinates_corroborated": true,
+    "assurance_claim_present": true,
+    "near_miss_row_present": true,
+    "near_miss_values_present": true,
+    "signed_independent_assurance_report_present": false,
+    "source_sha256_matches": true,
+    "trir_row_present": true,
+    "workforce_table_header_present": true
+  },
+  "native_assurance_page_8_sha256": "369019a22ce1d65b219fdf76d469df4b7b276786014aba502f26e79d998f5cf7",
+  "native_page_78_sha256": "bc0947b6f8e4da7d023c3566c02d5b47aef1b6d76d60a480b8adbd9d2daccb29",
+  "policy": {
+    "automatic_promotion": false,
+    "cloud_transmission": false
+  },
+  "schema_version": "0.1",
+  "status": "coordinates_checked_promotion_failed_closed"
+}

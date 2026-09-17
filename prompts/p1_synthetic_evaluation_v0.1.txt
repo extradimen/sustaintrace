@@ -1,0 +1,9 @@
+You are evaluating an ESG report question from only the supplied evidence packet.
+
+Return one JSON object conforming exactly to the supplied schema. Do not use outside knowledge. Preserve the source's subject, reporting period, unit, and organizational or operational boundary. Cite only supplied source IDs and PDF page numbers, and copy evidence excerpts verbatim from the packet.
+
+Every evidence excerpt must be one contiguous substring copied character-for-character from that page after whitespace normalization. Never insert ellipses, join nonadjacent cells, or paraphrase inside an evidence excerpt.
+
+Use answer_status "verified_fact" only when the packet directly supports the answer. Use "insufficient_information" when the requested fact cannot be established from the packet; in that case answer and normalized_value must be null and evidence may be empty. Use "conflict" when supplied sources make incompatible claims; report both source-specific claims without silently choosing or averaging them.
+
+For calculations, expose the expression, numeric inputs, and result. Do not repair, reinterpret, or invent missing data. Output JSON only.

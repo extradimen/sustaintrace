@@ -1,0 +1,56 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-022",
+  "status": "increment_built_candidates_not_promoted",
+  "fact_candidates": 55,
+  "trusted_facts_promoted": 0,
+  "evidence_gaps": 5,
+  "failure_observations": 81,
+  "gaps": [
+    {
+      "document_id": "KB-B022-ENGIE-URD2025",
+      "page": 140,
+      "theme": "water",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B022-ORANGE-URD2025",
+      "page": 483,
+      "theme": "assurance",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B022-ORANGE-URD2025",
+      "page": 484,
+      "theme": "assurance",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B022-ORANGE-URD2025",
+      "page": 485,
+      "theme": "assurance",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B022-SKANSKA-ASR2025",
+      "page": 209,
+      "theme": "assurance",
+      "reason": "no_theme_line_in_mineru_markdown"
+    }
+  ],
+  "outputs": {
+    "facts": {
+      "path": "data/knowledge_bases/v0.1/increments/scale_batch_022_fact_records.jsonl",
+      "sha256": "d1a6afed894c7d94d230b1361484ca65890ce160aeb8ef6a6ace6a43b0aa834c"
+    },
+    "failures": {
+      "path": "data/knowledge_bases/v0.1/increments/scale_batch_022_failure_records.jsonl",
+      "sha256": "47ab39d253aece19f0622967ad574277d6d997061286b3f404802f7976e22ea1"
+    }
+  },
+  "policy": {
+    "cloud_transmission": false,
+    "locked_experiments_modified": false,
+    "automatic_promotion": false
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0",
+  "manifest_id": "P17-SOURCE-ACQUISITION-RESUME01-v0.1",
+  "status": "replacement_source_frozen_before_body_parsing_and_task_authoring",
+  "frozen_date": "2026-09-10",
+  "experiment_id": "P17-V26-UNSEEN-LOCKBOX-V01",
+  "recovery_lineage": "data/manifests/p17_source_selection_recovery_lineage_RESUME01_v0.1.lock.json",
+  "selection_method": "Machine selection from official issuer English 2025 reports; exact issuer and title were checked against P1-P16 task, manifest and framework records before acceptance.",
+  "documents": [
+    {
+      "document_id": "P17-BMW-GROUP-REPORT-2025",
+      "company": "Bayerische Motoren Werke Aktiengesellschaft",
+      "title": "BMW Group Report 2025",
+      "reporting_year": 2025,
+      "language": "English",
+      "source_type": "official_issuer_english_pdf",
+      "source_page_url": "https://www.bmwgroup.com/en/report/2025/downloads/index.html",
+      "source_url": "https://www.bmwgroup.com/en/report/2025/downloads/BMW-Group-Report-2025-en.pdf",
+      "local_path": "data/raw/p17_staging/bmw-group-report-2025.pdf",
+      "sha256": "7a7fd36bf7f274e776ef7eda30d3cda4335a99cbb45f097ae5e8268ccf7759e7",
+      "file_size_bytes": 17762797,
+      "page_count": 434,
+      "pdf_version": "1.7",
+      "encrypted": true,
+      "copy_allowed": true,
+      "ingestion_status": "verified",
+      "eligibility": "issuer_and_report_absent_from_P1_through_P16",
+      "metadata_note": "The official BMW Group download page identifies the full English BMW Group Report 2025; PDF metadata inspection was limited to container properties before this freeze."
+    }
+  ],
+  "pre_body_checks": {
+    "prior_experiment_registry_search": "passed_no_BMW_match",
+    "sha256_verified": true,
+    "pdf_container_metadata_verified": true,
+    "report_body_parsed_before_this_freeze": false
+  },
+  "cloud_transmission_allowed": false
+}

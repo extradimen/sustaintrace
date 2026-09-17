@@ -1,0 +1,14 @@
+{
+  "schema_version":"1.0",
+  "incident_id":"P3-PREFLIGHT-ARTIFACT-NAMING-001",
+  "status":"resolved_before_any_candidate_inference",
+  "failed_preflight_progress_sha256":"b6176528386e2a59c9166c132c14196ed86c22457df373ed08dffce66a0b5d34",
+  "candidate_run_directories_created":0,
+  "candidate_requests_sent":0,
+  "cause":"MinerU artifact subdirectories use PDF filename stems, while the frozen evidence builder resolves document_id filenames.",
+  "resolution":"Create relative, content-identical symlink aliases for document directories and content_list filenames; do not modify parser output, evidence logic, questions, references, prompts, model or ontology.",
+  "alias_script_sha256":"d121646d3f33b577592ee28000aff1ce040dec2b214be82f5bd79c56564dbac0",
+  "alias_manifest_sha256":"4efc408f05aaad104317934fb58b192e9534ef277833b7e2b0f23bfad0537139",
+  "post_resolution_preflight":{"tasks_checked":12,"tasks_passed":12},
+  "model_attempt_consumed":false
+}

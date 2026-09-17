@@ -1,0 +1,23 @@
+{
+  "finding_id": "GOLD-P0-ABSTAIN-001",
+  "task_id": "P0-ABSTAIN-001",
+  "finding_type": "extracted_fact",
+  "claim_level": "L1",
+  "anomaly_codes": [],
+  "claim": "The supplied page does not state an achieved metric-ton waste reduction or a completion date for Circular Core.",
+  "company_id": "JP3633400001",
+  "company": "Toyota Motor Corporation",
+  "periods": ["FY2024"],
+  "supporting_evidence": [],
+  "contrary_evidence": [],
+  "calculation": null,
+  "rule_checks": [{"rule_id": "NO_VALUE_OR_DATE_ON_SUPPLIED_PAGE", "result": "unknown", "details": "The page describes aims, activities and a process diagram but supplies neither requested value."}],
+  "search_scope": {"checked_elements": ["report_body", "figures"], "completeness": "complete", "limitations": ["The conclusion applies only to supplied PDF page 34."]},
+  "alternative_explanations": ["A quantified result may appear elsewhere in the full report or another publication."],
+  "confidence": 1.0,
+  "confidence_basis": "All text and diagrams on the supplied page were checked for the requested amount and date.",
+  "status": "insufficient_information",
+  "requires_human_review": false,
+  "falsification_condition": "A value and date visibly present on supplied page 34 would overturn the abstention.",
+  "provenance": {"annotation_source": "human", "framework_version": "FC-1.0", "model_snapshot": null, "prompt_sha256": null, "run_id": "p0-gold-v0.1", "created_at": "2026-09-01T00:00:00Z"}
+}

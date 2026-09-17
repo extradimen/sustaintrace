@@ -1,0 +1,47 @@
+{
+  "counts": {
+    "passed": 11
+  },
+  "inputs": {
+    "calculation_plans": {
+      "path": "configs/framework/p23_calculation_plans_v0.1.lock.json",
+      "sha256": "542dee18e2feeda24f85359688ab9f8d21f5b09cb7ec5996acc51748c5fcf6b5"
+    },
+    "derived_cell_completions": {
+      "path": "data/knowledge_bases/v0.1/p23_table_cell_completions.jsonl",
+      "sha256": "5d17c89cb900a1571c2ff9869f6c0fbfcb79d478cdcc4b7ca748688a571605e8"
+    },
+    "references": [
+      {
+        "path": "data/annotations/p23_simulated/P23-ENERGY-CALC-001.json",
+        "sha256": "f9f37a4b5c05566ede29aa3583d77f5310830a62bdabbf6095a062bb2180f851"
+      },
+      {
+        "path": "data/annotations/p23_simulated/P23-GHG-CALC-001.json",
+        "sha256": "cc7f82825cb26d3b975dad787b7d17e60dfe85f5284ee392172137c67caad02c"
+      },
+      {
+        "path": "data/annotations/p23_simulated/P23-WATER-CALC-001.json",
+        "sha256": "b885e32137314c14bc1d34f082936af9f1f5a10e1a303e7850ea8b8bf873b99d"
+      },
+      {
+        "path": "data/annotations/p23_simulated/P23-WORKFORCE-CALC-001.json",
+        "sha256": "aef085c2bcf69299ede354e46e0052a23a2ec998f22bcfb0349422fe03ba7244"
+      }
+    ],
+    "table_graph": {
+      "path": "configs/framework/p23_two_dimensional_table_graph_v0.1.lock.json",
+      "sha256": "b01f852bc62b7d7b7d0561d949da85cf5ae9b671c7601b55a6628e68de52494a"
+    }
+  },
+  "next_gate": "independent fact adjudication; P22 remains unreplayed because its frozen graphs lack selected cell values",
+  "output": {
+    "path": "data/knowledge_bases/v0.1/calculation_replay_audits.jsonl",
+    "sha256": "18beaaa8d03f2a1278aea48ff11f69118f4535e35486dc5e2eda14c4417a41b6"
+  },
+  "policy": "replay validation does not independently adjudicate simulated references",
+  "promotion_count": 0,
+  "schema_version": "0.1",
+  "scope": "P23 output slots with explicit frozen selected table cells",
+  "status": "p23_frozen_calculation_replay_complete"
+}

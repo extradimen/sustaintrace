@@ -1,0 +1,11 @@
+{
+  "schema_version": "0.1",
+  "run_id": "KB-SCALE-BATCH-002-GAP-REPAIR01-MINERU-RESUME01",
+  "parent_run": "KB-SCALE-BATCH-002-GAP-REPAIR01",
+  "parent_summary": "data/results/scale_batch_002_gap_repair_mineru_summary.lock.json",
+  "failure_signature": "SANDBOX_LOOPBACK_PORT_DENIED",
+  "resume_policy": "new output directory; retry only failed pages; retain parent failure records",
+  "retry_pages": [79, 80],
+  "reused_successful_pages": 0,
+  "cloud_transmission": false
+}

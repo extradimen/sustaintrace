@@ -1,0 +1,77 @@
+{
+  "schema_version": "0.1",
+  "ontology_id": "BOUNDARY-SEMANTIC-ONTOLOGY-V01",
+  "policy": {
+    "default": "supervised_block",
+    "promotion_from_classification_alone": false,
+    "posthoc_guessing": false,
+    "required_outcome": "source-local boundary attachment with validation and rollback"
+  },
+  "classes": {
+    "assurance_scope_metadata": {
+      "description": "Assurance standards, conclusions, signatories, locations and incorporated references whose meaning depends on the engagement scope.",
+      "allowed_evidence_patterns": [
+        "signed independent assurance statement",
+        "explicit inclusion or exclusion clause",
+        "engagement subject and assurance-level clause"
+      ],
+      "rejected_shortcuts": [
+        "treat issuer-hosted auditor text as issuer self-disclosure",
+        "assume a named standard applies to every report section",
+        "infer assurance coverage from signatory or location alone"
+      ]
+    },
+    "metric_component_boundary": {
+      "description": "A scalar whose meaning depends on a category, energy source, emissions category or control-method component.",
+      "allowed_evidence_patterns": [
+        "same-row label and same-column header",
+        "continued table header with deterministic column coordinates",
+        "explicit category definition or footnote"
+      ],
+      "rejected_shortcuts": [
+        "bind a nearby scalar without row and column coordinates",
+        "treat a component as a total",
+        "drop financial-control, operational-control or market-method qualifiers"
+      ]
+    },
+    "taxonomy_classification_boundary": {
+      "description": "EU Taxonomy values requiring denominator, eligibility, alignment, materiality and activity-class separation.",
+      "allowed_evidence_patterns": [
+        "explicit denominator or total row",
+        "eligible/aligned/non-material row label",
+        "taxonomy accounting-policy definition and audit-status check"
+      ],
+      "rejected_shortcuts": [
+        "equate eligible with aligned",
+        "use a total as an eligible amount",
+        "promote a value explicitly marked unaudited"
+      ]
+    },
+    "organizational_population_boundary": {
+      "description": "Headcount or workforce values whose inclusion depends on entity coverage, acquisition status or HR-system coverage.",
+      "allowed_evidence_patterns": [
+        "explicit included and excluded population statement",
+        "reconciliation between global total and covered subset",
+        "year-end entity and worker-type definition"
+      ],
+      "rejected_shortcuts": [
+        "treat an excluded-population difference as a global total",
+        "assume HR-system coverage equals consolidation scope",
+        "mix employees and non-employees"
+      ]
+    },
+    "target_and_performance_boundary": {
+      "description": "Targets and reductions requiring target year, baseline year, scopes, value-chain coverage and comparison relation.",
+      "allowed_evidence_patterns": [
+        "single target clause binding percentage, target year and baseline",
+        "explicit across-all-scopes or named-scope phrase",
+        "deterministic comparison formula tied to disclosed values"
+      ],
+      "rejected_shortcuts": [
+        "select one of several years by proximity",
+        "drop baseline or target-year role",
+        "treat issuer-stated rounded change as deterministic recomputation"
+      ]
+    }
+  }
+}

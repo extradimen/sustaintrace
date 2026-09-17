@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "status": "draft_frozen_for_p1_stage_b_acceptance",
+  "metrics": {
+    "scope_1_methane_emissions": {
+      "label": "Scope 1 methane emissions",
+      "allowed_units": ["million_metric_tons_co2e"],
+      "allowed_scopes": ["financial_control"]
+    },
+    "total_gross_scope_3_emissions": {
+      "label": "Total gross Scope 3 emissions",
+      "allowed_units": ["million_metric_tons_co2e"],
+      "allowed_scopes": ["financial_control"]
+    },
+    "freshwater_use_avoided": {
+      "label": "Freshwater use avoided",
+      "allowed_units": ["million_gallons"],
+      "allowed_scopes": ["corporate_offices_and_data_centers"]
+    },
+    "renewable_power_share": {
+      "label": "Renewable power share",
+      "allowed_units": ["percent"],
+      "allowed_scopes": ["operations_including_recs"]
+    },
+    "operations_value_chain_emissions_mbm": {
+      "label": "Operations and value-chain emissions, market-based method",
+      "allowed_units": ["tco2e"],
+      "allowed_scopes": ["operations_and_value_chain_mbm"]
+    }
+  },
+  "units": {
+    "million_metric_tons_co2e": {"label": "million metric tons CO2e"},
+    "million_gallons": {"label": "million gallons"},
+    "percent": {"label": "percent"},
+    "tco2e": {"label": "metric tons CO2e"}
+  },
+  "scopes": {
+    "financial_control": {"label": "financial control"},
+    "corporate_offices_and_data_centers": {"label": "corporate offices and data centers"},
+    "operations_including_recs": {"label": "operations, renewable sources including RECs"},
+    "operations_and_value_chain_mbm": {"label": "operations and value chain, market-based method"}
+  }
+}

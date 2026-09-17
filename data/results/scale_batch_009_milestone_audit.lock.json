@@ -1,0 +1,72 @@
+{
+  "artifact_sha256": {
+    "configs/knowledge/scale_batch_009_v0.1.json": "4ae81d1f41ab3649e851fed3c77b1a5eeb1258701f765c69d9f3e6b4ad101aed",
+    "configs/parsers/scale-batch-009-mineru-3.4.0-runtime.json": "f4cc15451e8552a8130f0dfae3dfec8d63a9646921c25258d2068a7054fa670f",
+    "data/knowledge_bases/v0.1/migration_manifest.lock.json": "2fd1bc98daa7b810a71ea06cd8f9858f7ac9e92dbee0010894cee05841da63b3",
+    "data/knowledge_bases/v0.1/tier_b_independent_adjudications.jsonl": "7c2301f440ff2ebee0714ccd29b0e1ddc765f4a9ff87903f577080e5159cf788",
+    "data/knowledge_bases/v0.1/trusted_fact_records.jsonl": "2e9f5a23976ab0c76b07154566817b64c68ee97b85b1c21f91b2bdabe3da0c12",
+    "data/manifests/scale_batch_009_acquisition.lock.json": "c9c897f5ec3b813bcc42ef9e9fb35c5a4de2bfe1f8261cbc434143f835db6af7",
+    "data/manifests/scale_batch_009_acquisition_failures.lock.json": "46438e11d8d56a03741658e1371f3d680a0487dfaf1dd3b19175c1d2ca36a655",
+    "data/manifests/scale_batch_009_mineru_RESUME01_lineage.lock.json": "746508a5a17fd49f756f1cf0a6225cf3d18be4d39287e85cc25e10bbfb03dedd",
+    "data/manifests/scale_batch_009_target_pages.lock.json": "62ec01479cb7b47212cd689ca319aece627c14537e24b85aa344a83a920622bd",
+    "data/results/scale_batch_009_atomic_projection.lock.json": "77913945e3fdb7ccb823ba37e397f28c4691c846c879a293144f812d247947d2",
+    "data/results/scale_batch_009_atomic_validation.lock.json": "475ac51560b1142304570dd3b1ae4cbdb309641445928d5d3d5e824a27557c69",
+    "data/results/scale_batch_009_diagnostics.lock.json": "28007a6f76624b6213846ab31b6d2df7f66594e7e03d006c54d73e728adaca57",
+    "data/results/scale_batch_009_gap_repair.lock.json": "f704083d487724d1b139293e8010c395e0bdc352fd3176647d61523e625f31e2",
+    "data/results/scale_batch_009_kb_increment.lock.json": "7c11721246c027995b894f1a9e3f8a6c2cd753eb00b8632f0d787617f83acec1",
+    "data/results/scale_batch_009_mineru_FINAL_summary.lock.json": "0004f369f4df1c01f12948778a33a1a3d2b8f615948e6a5367893dedd897a8df",
+    "data/results/scale_batch_009_mineru_RESUME01_summary.lock.json": "546df449b7064e194b0400c8390cb2a4e68ab12fb9dc25288e0de99177ca1a76",
+    "data/results/scale_batch_009_mineru_summary.lock.json": "09155383a8b77156614b47bde34d2124d5fd318fffbcda0896d692b6c1e86c24",
+    "data/results/scale_batch_009_native_coordinate_audit.lock.json": "380d4f38526df4920c83289a5acbbc247f1acb98da25ef870a8607b79dd9d0a1",
+    "data/results/scale_batch_009_tier_b_promotion.lock.json": "83d8c4f6fe2ebcf1d31ffb949698130c03c1a14f74ac331d4c472ee3c71c9dbe"
+  },
+  "atomic_validation": {
+    "coordinate_exact": 6,
+    "native_column_header_present": 6,
+    "native_quote_present": 6,
+    "native_row_header_present": 2,
+    "strictly_corroborated_by_initial_validator": 2,
+    "strictly_corroborated_by_native_layout_audit": 3
+  },
+  "batch_id": "KB-SCALE-BATCH-009",
+  "extractable_source_pages": 510,
+  "frozen_target_pages": 26,
+  "global_knowledge_bases": {
+    "fact_records": 1540,
+    "failure_records": 262,
+    "failure_signatures": 20,
+    "trusted_fact_records": 76
+  },
+  "knowledge_increment": {
+    "atomic_fact_candidates": 6,
+    "evidence_snippet_candidates": 51,
+    "failure_observations": 4,
+    "gap_repair_candidates": 1,
+    "held_tier_c_after_six_dimension_review": 3,
+    "parent_evidence_gaps": 1,
+    "promoted_tier_b": 3,
+    "rejected_ambiguous_table_rows": 0,
+    "remaining_evidence_gaps": 0,
+    "total_new_fact_records": 58
+  },
+  "mineru": {
+    "final_usable_pages": 26,
+    "model_failures": 0,
+    "post_completion_shutdown_recovered_pages": 0,
+    "remaining_failures": 0,
+    "resume_completed_pages": 4
+  },
+  "quality_gates": {
+    "automatic_promotion": false,
+    "cloud_transmission": false,
+    "json_artifacts_parse": "passed",
+    "locked_experiments_modified": false,
+    "pytest_collected_and_passed": 462,
+    "ruff": "passed",
+    "sha256_manifest": "passed"
+  },
+  "schema_version": "0.1",
+  "source_documents": 3,
+  "source_pages": 514,
+  "status": "local_ingestion_projection_gap_repair_and_tier_b_sampling_complete"
+}

@@ -1,0 +1,1536 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-015",
+  "status": "table_graphs_built_fail_closed",
+  "source_table_candidates": 10,
+  "graphs": [
+    {
+      "source_fact_record_id": "fact-150845b5ccfec585bc6efd75",
+      "document_id": "KB-B015-UCB-IAR2025",
+      "pdf_page": 60,
+      "graphs": [
+        {
+          "table_index": 0,
+          "status": "two_axis_graph_built",
+          "header_row_index": 0,
+          "column_headers": [
+            "",
+            "2024",
+            "2025"
+          ],
+          "period_columns": [
+            1,
+            2
+          ],
+          "indicator_column": 0,
+          "unit_column": null,
+          "rejected_rows": [
+            {
+              "row_index": 4,
+              "reason": "shape_mismatch"
+            },
+            {
+              "row_index": 6,
+              "reason": "shape_mismatch"
+            },
+            {
+              "row_index": 7,
+              "reason": "shape_mismatch"
+            },
+            {
+              "row_index": 8,
+              "reason": "shape_mismatch"
+            }
+          ],
+          "rows": [
+            [
+              "",
+              "2024",
+              "2025"
+            ],
+            [
+              "Total GHG emissions (location- based) per net revenue (tCO\u2082e/m\u20ac)",
+              "131.2",
+              "114.7"
+            ],
+            [
+              "Total GHG emissions (market-",
+              "",
+              ""
+            ],
+            [
+              "based) per net revenue (tCO\u2082e/ m\u20ac)",
+              "128.5",
+              "112.6"
+            ],
+            [
+              "",
+              "",
+              ""
+            ],
+            [
+              "GHG supplier engagement",
+              "",
+              ""
+            ],
+            [
+              "",
+              "2024",
+              "2025"
+            ],
+            [
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              ""
+            ],
+            [
+              "% suppliers (by GHG emissions)",
+              "",
+              ""
+            ],
+            [
+              "having science-based target",
+              "67.8%",
+              "77.6%"
+            ]
+          ],
+          "cells": [
+            {
+              "cell_handle": "cell-61c687c9bfd6da098c79",
+              "table_index": 0,
+              "row_index": 1,
+              "column_index": 1,
+              "row_header": "Total GHG emissions (location- based) per net revenue (tCO\u2082e/m\u20ac)",
+              "row_header_column_index": 0,
+              "column_header": "2024",
+              "normalized_period": 2024,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "131.2",
+              "normalized_value": "131.2",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-d882eb194a0fc0a0f4c2",
+              "table_index": 0,
+              "row_index": 1,
+              "column_index": 2,
+              "row_header": "Total GHG emissions (location- based) per net revenue (tCO\u2082e/m\u20ac)",
+              "row_header_column_index": 0,
+              "column_header": "2025",
+              "normalized_period": 2025,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "114.7",
+              "normalized_value": "114.7",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-28ecbdc4143d0aadbf9d",
+              "table_index": 0,
+              "row_index": 3,
+              "column_index": 1,
+              "row_header": "based) per net revenue (tCO\u2082e/ m\u20ac)",
+              "row_header_column_index": 0,
+              "column_header": "2024",
+              "normalized_period": 2024,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "128.5",
+              "normalized_value": "128.5",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-215b0d64b6398c45e2fd",
+              "table_index": 0,
+              "row_index": 3,
+              "column_index": 2,
+              "row_header": "based) per net revenue (tCO\u2082e/ m\u20ac)",
+              "row_header_column_index": 0,
+              "column_header": "2025",
+              "normalized_period": 2025,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "112.6",
+              "normalized_value": "112.6",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-ee80d9a16a5e7644890d",
+              "table_index": 0,
+              "row_index": 10,
+              "column_index": 1,
+              "row_header": "having science-based target",
+              "row_header_column_index": 0,
+              "column_header": "2024",
+              "normalized_period": 2024,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "67.8%",
+              "normalized_value": "67.8",
+              "normalized_unit": "percent"
+            },
+            {
+              "cell_handle": "cell-da1b43d11a9c1c728ade",
+              "table_index": 0,
+              "row_index": 10,
+              "column_index": 2,
+              "row_header": "having science-based target",
+              "row_header_column_index": 0,
+              "column_header": "2025",
+              "normalized_period": 2025,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "77.6%",
+              "normalized_value": "77.6",
+              "normalized_unit": "percent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_fact_record_id": "fact-165e2e7d857cdb8916f8b235",
+      "document_id": "KB-B015-UCB-IAR2025",
+      "pdf_page": 68,
+      "graphs": [
+        {
+          "table_index": 0,
+          "status": "ambiguous_no_two_axis_period_header",
+          "rows": [
+            [
+              "Sub-topic",
+              "IRO type",
+              "Time frame",
+              "Value chain",
+              "Description"
+            ],
+            [
+              "Water withdrawal",
+              "o",
+              "",
+              "\u65e5",
+              "Scaling recycled wastewater to reduce water withdrawal in high water stress areas."
+            ],
+            [
+              "Actual",
+              "\u25cf0O",
+              "\u25c7",
+              "High amounts of water withdrawn for the production of solutions at UCB manufacturing sites impact the availability of water for ecosystems and communities."
+            ],
+            [
+              "",
+              "Potential",
+              "0O",
+              "\u2191",
+              "High amounts of water withdrawn for the production of solutions at UCB CMOs' manufacturing plants impact the availability of water for ecosystems and communities."
+            ]
+          ],
+          "cells": []
+        }
+      ]
+    },
+    {
+      "source_fact_record_id": "fact-3605b337014de87f8920a952",
+      "document_id": "KB-B015-UCB-IAR2025",
+      "pdf_page": 68,
+      "graphs": [
+        {
+          "table_index": 0,
+          "status": "ambiguous_no_two_axis_period_header",
+          "rows": [
+            [
+              "Sub-topic",
+              "IRO type",
+              "Time frame",
+              "Value chain",
+              "Description"
+            ],
+            [
+              "Water withdrawal",
+              "o",
+              "",
+              "\u65e5",
+              "Scaling recycled wastewater to reduce water withdrawal in high water stress areas."
+            ],
+            [
+              "Actual",
+              "\u25cf0O",
+              "\u25c7",
+              "High amounts of water withdrawn for the production of solutions at UCB manufacturing sites impact the availability of water for ecosystems and communities."
+            ],
+            [
+              "",
+              "Potential",
+              "0O",
+              "\u2191",
+              "High amounts of water withdrawn for the production of solutions at UCB CMOs' manufacturing plants impact the availability of water for ecosystems and communities."
+            ]
+          ],
+          "cells": []
+        }
+      ]
+    },
+    {
+      "source_fact_record_id": "fact-648a3e05cee87e679b281c7a",
+      "document_id": "KB-B015-UCB-IAR2025",
+      "pdf_page": 88,
+      "graphs": [
+        {
+          "table_index": 0,
+          "status": "two_axis_graph_built",
+          "header_row_index": 0,
+          "column_headers": [
+            "",
+            "2024",
+            "2025"
+          ],
+          "period_columns": [
+            1,
+            2
+          ],
+          "indicator_column": 0,
+          "unit_column": null,
+          "rejected_rows": [
+            {
+              "row_index": 1,
+              "reason": "shape_mismatch"
+            },
+            {
+              "row_index": 2,
+              "reason": "shape_mismatch"
+            },
+            {
+              "row_index": 3,
+              "reason": "shape_mismatch"
+            },
+            {
+              "row_index": 4,
+              "reason": "shape_mismatch"
+            },
+            {
+              "row_index": 5,
+              "reason": "shape_mismatch"
+            }
+          ],
+          "rows": [
+            [
+              "",
+              "2024",
+              "2025"
+            ],
+            [
+              "Permanent and temporary contracts by gender",
+              "Male",
+              "Female",
+              "Total",
+              "Male",
+              "Female",
+              "Total"
+            ],
+            [
+              "Number of permanent employees (headcount)",
+              "4466",
+              "4586",
+              "9052",
+              "4 830",
+              "4 935",
+              "9765"
+            ],
+            [
+              "Number of temporary employees (headcount)",
+              "156",
+              "170",
+              "326",
+              "182",
+              "170",
+              "352"
+            ],
+            [
+              "Number of non-guaranteed hours employees (headcount)",
+              "N/A",
+              "N/A",
+              "N/A",
+              "N/A",
+              "N/A",
+              "N/A"
+            ],
+            [
+              "Total",
+              "4 622",
+              "4756",
+              "9 378",
+              "5 012",
+              "5105",
+              "10 117"
+            ]
+          ],
+          "cells": []
+        }
+      ]
+    },
+    {
+      "source_fact_record_id": "fact-2ddeee9f10e68acaf197aec9",
+      "document_id": "KB-B015-UCB-IAR2025",
+      "pdf_page": 90,
+      "graphs": [
+        {
+          "table_index": 0,
+          "status": "two_axis_graph_built",
+          "header_row_index": 0,
+          "column_headers": [
+            "",
+            "2024",
+            "2025"
+          ],
+          "period_columns": [
+            1,
+            2
+          ],
+          "indicator_column": 0,
+          "unit_column": null,
+          "rejected_rows": [
+            {
+              "row_index": 1,
+              "reason": "shape_mismatch"
+            },
+            {
+              "row_index": 10,
+              "reason": "shape_mismatch"
+            }
+          ],
+          "rows": [
+            [
+              "",
+              "2024",
+              "2025"
+            ],
+            [
+              "% of employees covered by health"
+            ],
+            [
+              "& safety management systems",
+              "63.7%",
+              "66.1%"
+            ],
+            [
+              "Number of fatalities",
+              "0",
+              "0"
+            ],
+            [
+              "Total number of recordable work-",
+              "",
+              ""
+            ],
+            [
+              "related accidents Rate of recordable work-related",
+              "55",
+              "42"
+            ],
+            [
+              "accidents (TRIR)",
+              "2.81",
+              "2.21"
+            ],
+            [
+              "Total number of days lost due to",
+              "",
+              ""
+            ],
+            [
+              "work-related injury",
+              "466",
+              "889"
+            ],
+            [
+              "Lost time incident rate (LTIR)",
+              "2.41",
+              "1.85"
+            ],
+            [
+              "",
+              "",
+              ""
+            ],
+            [
+              "HSWB Index",
+              "64.1%",
+              "81.2%"
+            ]
+          ],
+          "cells": [
+            {
+              "cell_handle": "cell-dada742cc95ca0fb4c4b",
+              "table_index": 0,
+              "row_index": 2,
+              "column_index": 1,
+              "row_header": "& safety management systems",
+              "row_header_column_index": 0,
+              "column_header": "2024",
+              "normalized_period": 2024,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "63.7%",
+              "normalized_value": "63.7",
+              "normalized_unit": "percent"
+            },
+            {
+              "cell_handle": "cell-5c0f68cc85aa9b9e22e1",
+              "table_index": 0,
+              "row_index": 2,
+              "column_index": 2,
+              "row_header": "& safety management systems",
+              "row_header_column_index": 0,
+              "column_header": "2025",
+              "normalized_period": 2025,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "66.1%",
+              "normalized_value": "66.1",
+              "normalized_unit": "percent"
+            },
+            {
+              "cell_handle": "cell-64ae8831ae5b22d9d4ec",
+              "table_index": 0,
+              "row_index": 3,
+              "column_index": 1,
+              "row_header": "Number of fatalities",
+              "row_header_column_index": 0,
+              "column_header": "2024",
+              "normalized_period": 2024,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "0",
+              "normalized_value": "0",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-bbbbeb7778fe048209ff",
+              "table_index": 0,
+              "row_index": 3,
+              "column_index": 2,
+              "row_header": "Number of fatalities",
+              "row_header_column_index": 0,
+              "column_header": "2025",
+              "normalized_period": 2025,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "0",
+              "normalized_value": "0",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-03d1c5a365b90f271294",
+              "table_index": 0,
+              "row_index": 5,
+              "column_index": 1,
+              "row_header": "related accidents Rate of recordable work-related",
+              "row_header_column_index": 0,
+              "column_header": "2024",
+              "normalized_period": 2024,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "55",
+              "normalized_value": "55",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-12a62be602150ea45204",
+              "table_index": 0,
+              "row_index": 5,
+              "column_index": 2,
+              "row_header": "related accidents Rate of recordable work-related",
+              "row_header_column_index": 0,
+              "column_header": "2025",
+              "normalized_period": 2025,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "42",
+              "normalized_value": "42",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-72da762872595a2ec339",
+              "table_index": 0,
+              "row_index": 6,
+              "column_index": 1,
+              "row_header": "accidents (TRIR)",
+              "row_header_column_index": 0,
+              "column_header": "2024",
+              "normalized_period": 2024,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "2.81",
+              "normalized_value": "2.81",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-9e8f9d26c5a174bffa1a",
+              "table_index": 0,
+              "row_index": 6,
+              "column_index": 2,
+              "row_header": "accidents (TRIR)",
+              "row_header_column_index": 0,
+              "column_header": "2025",
+              "normalized_period": 2025,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "2.21",
+              "normalized_value": "2.21",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-f7e37c6bc174d2826981",
+              "table_index": 0,
+              "row_index": 8,
+              "column_index": 1,
+              "row_header": "work-related injury",
+              "row_header_column_index": 0,
+              "column_header": "2024",
+              "normalized_period": 2024,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "466",
+              "normalized_value": "466",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-688e5e3898029ecb2c9d",
+              "table_index": 0,
+              "row_index": 8,
+              "column_index": 2,
+              "row_header": "work-related injury",
+              "row_header_column_index": 0,
+              "column_header": "2025",
+              "normalized_period": 2025,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "889",
+              "normalized_value": "889",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-9cfd311f14c255044c48",
+              "table_index": 0,
+              "row_index": 9,
+              "column_index": 1,
+              "row_header": "Lost time incident rate (LTIR)",
+              "row_header_column_index": 0,
+              "column_header": "2024",
+              "normalized_period": 2024,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "2.41",
+              "normalized_value": "2.41",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-43ca8ad5ee95c9c901f1",
+              "table_index": 0,
+              "row_index": 9,
+              "column_index": 2,
+              "row_header": "Lost time incident rate (LTIR)",
+              "row_header_column_index": 0,
+              "column_header": "2025",
+              "normalized_period": 2025,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "1.85",
+              "normalized_value": "1.85",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-df9b6522ddefb7537559",
+              "table_index": 0,
+              "row_index": 11,
+              "column_index": 1,
+              "row_header": "HSWB Index",
+              "row_header_column_index": 0,
+              "column_header": "2024",
+              "normalized_period": 2024,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "64.1%",
+              "normalized_value": "64.1",
+              "normalized_unit": "percent"
+            },
+            {
+              "cell_handle": "cell-a35cc11b0e208c52c3fe",
+              "table_index": 0,
+              "row_index": 11,
+              "column_index": 2,
+              "row_header": "HSWB Index",
+              "row_header_column_index": 0,
+              "column_header": "2025",
+              "normalized_period": 2025,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "81.2%",
+              "normalized_value": "81.2",
+              "normalized_unit": "percent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_fact_record_id": "fact-e60bd1801486899cbab8dcad",
+      "document_id": "KB-B015-ARLA-AR2025",
+      "pdf_page": 47,
+      "graphs": [
+        {
+          "table_index": 0,
+          "status": "two_axis_graph_built",
+          "header_row_index": 0,
+          "column_headers": [
+            "Thousand MWh",
+            "2025",
+            "2024",
+            "2023"
+          ],
+          "period_columns": [
+            1,
+            2,
+            3
+          ],
+          "indicator_column": 0,
+          "unit_column": null,
+          "rejected_rows": [],
+          "rows": [
+            [
+              "Thousand MWh",
+              "2025",
+              "2024",
+              "2023"
+            ],
+            [
+              "Non-renewable sources",
+              "211",
+              "320",
+              "376"
+            ],
+            [
+              "Renewable sources",
+              "975",
+              "808",
+              "731"
+            ],
+            [
+              "Total electricity consumed",
+              "1,186",
+              "1,128",
+              "1,107"
+            ],
+            [
+              "Renewable electricity share (%)",
+              "82.2%",
+              "71.6%",
+              "66.0%"
+            ]
+          ],
+          "cells": [
+            {
+              "cell_handle": "cell-60f7ada13df9a4dbd2d8",
+              "table_index": 0,
+              "row_index": 1,
+              "column_index": 1,
+              "row_header": "Non-renewable sources",
+              "row_header_column_index": 0,
+              "column_header": "2025",
+              "normalized_period": 2025,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "211",
+              "normalized_value": "211",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-f39f0e59bb4434c26e37",
+              "table_index": 0,
+              "row_index": 1,
+              "column_index": 2,
+              "row_header": "Non-renewable sources",
+              "row_header_column_index": 0,
+              "column_header": "2024",
+              "normalized_period": 2024,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "320",
+              "normalized_value": "320",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-192c85372d70f28ddde0",
+              "table_index": 0,
+              "row_index": 1,
+              "column_index": 3,
+              "row_header": "Non-renewable sources",
+              "row_header_column_index": 0,
+              "column_header": "2023",
+              "normalized_period": 2023,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "376",
+              "normalized_value": "376",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-2730c49005bb7676b457",
+              "table_index": 0,
+              "row_index": 2,
+              "column_index": 1,
+              "row_header": "Renewable sources",
+              "row_header_column_index": 0,
+              "column_header": "2025",
+              "normalized_period": 2025,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "975",
+              "normalized_value": "975",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-63146fb8c18caec2cc16",
+              "table_index": 0,
+              "row_index": 2,
+              "column_index": 2,
+              "row_header": "Renewable sources",
+              "row_header_column_index": 0,
+              "column_header": "2024",
+              "normalized_period": 2024,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "808",
+              "normalized_value": "808",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-b9292a033a64d6113a36",
+              "table_index": 0,
+              "row_index": 2,
+              "column_index": 3,
+              "row_header": "Renewable sources",
+              "row_header_column_index": 0,
+              "column_header": "2023",
+              "normalized_period": 2023,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "731",
+              "normalized_value": "731",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-edf8371c6fc78266d3be",
+              "table_index": 0,
+              "row_index": 3,
+              "column_index": 1,
+              "row_header": "Total electricity consumed",
+              "row_header_column_index": 0,
+              "column_header": "2025",
+              "normalized_period": 2025,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "1,186",
+              "normalized_value": "1186",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-e459743f2c9b1b6f3a8c",
+              "table_index": 0,
+              "row_index": 3,
+              "column_index": 2,
+              "row_header": "Total electricity consumed",
+              "row_header_column_index": 0,
+              "column_header": "2024",
+              "normalized_period": 2024,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "1,128",
+              "normalized_value": "1128",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-903d186d5547532a22dd",
+              "table_index": 0,
+              "row_index": 3,
+              "column_index": 3,
+              "row_header": "Total electricity consumed",
+              "row_header_column_index": 0,
+              "column_header": "2023",
+              "normalized_period": 2023,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "1,107",
+              "normalized_value": "1107",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-135cfdf8ecaceb515246",
+              "table_index": 0,
+              "row_index": 4,
+              "column_index": 1,
+              "row_header": "Renewable electricity share (%)",
+              "row_header_column_index": 0,
+              "column_header": "2025",
+              "normalized_period": 2025,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "82.2%",
+              "normalized_value": "82.2",
+              "normalized_unit": "percent"
+            },
+            {
+              "cell_handle": "cell-2f81858b2db336213ebe",
+              "table_index": 0,
+              "row_index": 4,
+              "column_index": 2,
+              "row_header": "Renewable electricity share (%)",
+              "row_header_column_index": 0,
+              "column_header": "2024",
+              "normalized_period": 2024,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "71.6%",
+              "normalized_value": "71.6",
+              "normalized_unit": "percent"
+            },
+            {
+              "cell_handle": "cell-21c1d6e7221e513a6e31",
+              "table_index": 0,
+              "row_index": 4,
+              "column_index": 3,
+              "row_header": "Renewable electricity share (%)",
+              "row_header_column_index": 0,
+              "column_header": "2023",
+              "normalized_period": 2023,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "66.0%",
+              "normalized_value": "66.0",
+              "normalized_unit": "percent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_fact_record_id": "fact-c7d023fd4de370613e013316",
+      "document_id": "KB-B015-ARLA-AR2025",
+      "pdf_page": 59,
+      "graphs": [
+        {
+          "table_index": 0,
+          "status": "two_axis_graph_built",
+          "header_row_index": 0,
+          "column_headers": [
+            "Milk equivalents in thousand tonnes (mkg)",
+            "2025",
+            "2024",
+            "2023"
+          ],
+          "period_columns": [
+            1,
+            2,
+            3
+          ],
+          "indicator_column": 0,
+          "unit_column": null,
+          "rejected_rows": [],
+          "rows": [
+            [
+              "Milk equivalents in thousand tonnes (mkg)",
+              "2025",
+              "2024",
+              "2023"
+            ],
+            [
+              "Food waste directed to disposal",
+              "45",
+              "18",
+              "34"
+            ],
+            [
+              "Food waste directed from disposal",
+              "842",
+              "769",
+              "771"
+            ],
+            [
+              "Liquid waste for biogas",
+              "547",
+              "479",
+              "488"
+            ],
+            [
+              "Hard waste for biogas",
+              "36",
+              "39",
+              "38"
+            ],
+            [
+              "Sludge before COD measurement for biogas",
+              "16",
+              "12",
+              "10"
+            ],
+            [
+              "Waste water COD for biogas",
+              "243",
+              "239",
+              "235"
+            ],
+            [
+              "Total",
+              "887",
+              "787",
+              "805"
+            ],
+            [
+              "Reduction food waste (baseline: 2023)",
+              "10.2%",
+              "-2.2%",
+              ""
+            ]
+          ],
+          "cells": [
+            {
+              "cell_handle": "cell-ae8589677a620776bfff",
+              "table_index": 0,
+              "row_index": 1,
+              "column_index": 1,
+              "row_header": "Food waste directed to disposal",
+              "row_header_column_index": 0,
+              "column_header": "2025",
+              "normalized_period": 2025,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "45",
+              "normalized_value": "45",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-59721e177d721ccf792d",
+              "table_index": 0,
+              "row_index": 1,
+              "column_index": 2,
+              "row_header": "Food waste directed to disposal",
+              "row_header_column_index": 0,
+              "column_header": "2024",
+              "normalized_period": 2024,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "18",
+              "normalized_value": "18",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-4a1b579608fcafe29f6c",
+              "table_index": 0,
+              "row_index": 1,
+              "column_index": 3,
+              "row_header": "Food waste directed to disposal",
+              "row_header_column_index": 0,
+              "column_header": "2023",
+              "normalized_period": 2023,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "34",
+              "normalized_value": "34",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-14b261e59a281a91b302",
+              "table_index": 0,
+              "row_index": 2,
+              "column_index": 1,
+              "row_header": "Food waste directed from disposal",
+              "row_header_column_index": 0,
+              "column_header": "2025",
+              "normalized_period": 2025,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "842",
+              "normalized_value": "842",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-0d450dc96f7aea8ab3c6",
+              "table_index": 0,
+              "row_index": 2,
+              "column_index": 2,
+              "row_header": "Food waste directed from disposal",
+              "row_header_column_index": 0,
+              "column_header": "2024",
+              "normalized_period": 2024,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "769",
+              "normalized_value": "769",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-e8e5698c74ac029d6316",
+              "table_index": 0,
+              "row_index": 2,
+              "column_index": 3,
+              "row_header": "Food waste directed from disposal",
+              "row_header_column_index": 0,
+              "column_header": "2023",
+              "normalized_period": 2023,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "771",
+              "normalized_value": "771",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-8bffecba1decbaee33d9",
+              "table_index": 0,
+              "row_index": 3,
+              "column_index": 1,
+              "row_header": "Liquid waste for biogas",
+              "row_header_column_index": 0,
+              "column_header": "2025",
+              "normalized_period": 2025,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "547",
+              "normalized_value": "547",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-ee07000adc114151f3aa",
+              "table_index": 0,
+              "row_index": 3,
+              "column_index": 2,
+              "row_header": "Liquid waste for biogas",
+              "row_header_column_index": 0,
+              "column_header": "2024",
+              "normalized_period": 2024,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "479",
+              "normalized_value": "479",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-de207fd0863ee84c29d2",
+              "table_index": 0,
+              "row_index": 3,
+              "column_index": 3,
+              "row_header": "Liquid waste for biogas",
+              "row_header_column_index": 0,
+              "column_header": "2023",
+              "normalized_period": 2023,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "488",
+              "normalized_value": "488",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-1e44ae18a93eb27b834c",
+              "table_index": 0,
+              "row_index": 4,
+              "column_index": 1,
+              "row_header": "Hard waste for biogas",
+              "row_header_column_index": 0,
+              "column_header": "2025",
+              "normalized_period": 2025,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "36",
+              "normalized_value": "36",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-33ff394837aca4c431a3",
+              "table_index": 0,
+              "row_index": 4,
+              "column_index": 2,
+              "row_header": "Hard waste for biogas",
+              "row_header_column_index": 0,
+              "column_header": "2024",
+              "normalized_period": 2024,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "39",
+              "normalized_value": "39",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-0af06d21dfedb0602aeb",
+              "table_index": 0,
+              "row_index": 4,
+              "column_index": 3,
+              "row_header": "Hard waste for biogas",
+              "row_header_column_index": 0,
+              "column_header": "2023",
+              "normalized_period": 2023,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "38",
+              "normalized_value": "38",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-87c46fcbc586d25dd889",
+              "table_index": 0,
+              "row_index": 5,
+              "column_index": 1,
+              "row_header": "Sludge before COD measurement for biogas",
+              "row_header_column_index": 0,
+              "column_header": "2025",
+              "normalized_period": 2025,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "16",
+              "normalized_value": "16",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-50b7f44db31e005b3ee5",
+              "table_index": 0,
+              "row_index": 5,
+              "column_index": 2,
+              "row_header": "Sludge before COD measurement for biogas",
+              "row_header_column_index": 0,
+              "column_header": "2024",
+              "normalized_period": 2024,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "12",
+              "normalized_value": "12",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-0ab8029a26ccae02126e",
+              "table_index": 0,
+              "row_index": 5,
+              "column_index": 3,
+              "row_header": "Sludge before COD measurement for biogas",
+              "row_header_column_index": 0,
+              "column_header": "2023",
+              "normalized_period": 2023,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "10",
+              "normalized_value": "10",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-99ea520d2f08cff7ed08",
+              "table_index": 0,
+              "row_index": 6,
+              "column_index": 1,
+              "row_header": "Waste water COD for biogas",
+              "row_header_column_index": 0,
+              "column_header": "2025",
+              "normalized_period": 2025,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "243",
+              "normalized_value": "243",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-0c8471196b757ccfe8e4",
+              "table_index": 0,
+              "row_index": 6,
+              "column_index": 2,
+              "row_header": "Waste water COD for biogas",
+              "row_header_column_index": 0,
+              "column_header": "2024",
+              "normalized_period": 2024,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "239",
+              "normalized_value": "239",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-a1bc8dc5e8a94e3b7173",
+              "table_index": 0,
+              "row_index": 6,
+              "column_index": 3,
+              "row_header": "Waste water COD for biogas",
+              "row_header_column_index": 0,
+              "column_header": "2023",
+              "normalized_period": 2023,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "235",
+              "normalized_value": "235",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-3cd9d543f284f32fe88b",
+              "table_index": 0,
+              "row_index": 7,
+              "column_index": 1,
+              "row_header": "Total",
+              "row_header_column_index": 0,
+              "column_header": "2025",
+              "normalized_period": 2025,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "887",
+              "normalized_value": "887",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-be6a18f9d52fa3c72914",
+              "table_index": 0,
+              "row_index": 7,
+              "column_index": 2,
+              "row_header": "Total",
+              "row_header_column_index": 0,
+              "column_header": "2024",
+              "normalized_period": 2024,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "787",
+              "normalized_value": "787",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-d604426beac7feba5cb3",
+              "table_index": 0,
+              "row_index": 7,
+              "column_index": 3,
+              "row_header": "Total",
+              "row_header_column_index": 0,
+              "column_header": "2023",
+              "normalized_period": 2023,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "805",
+              "normalized_value": "805",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-92803435ffc990752974",
+              "table_index": 0,
+              "row_index": 8,
+              "column_index": 1,
+              "row_header": "Reduction food waste (baseline: 2023)",
+              "row_header_column_index": 0,
+              "column_header": "2025",
+              "normalized_period": 2025,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "10.2%",
+              "normalized_value": "10.2",
+              "normalized_unit": "percent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_fact_record_id": "fact-066a8e8a48a657fafe6f72a4",
+      "document_id": "KB-B015-FRESENIUS-AR2025",
+      "pdf_page": 208,
+      "graphs": [
+        {
+          "table_index": 0,
+          "status": "two_axis_graph_built",
+          "header_row_index": 0,
+          "column_headers": [
+            "in MWh/\u20ac1 million revenue",
+            "2025",
+            "2024"
+          ],
+          "period_columns": [
+            1,
+            2
+          ],
+          "indicator_column": 0,
+          "unit_column": null,
+          "rejected_rows": [],
+          "rows": [
+            [
+              "in MWh/\u20ac1 million revenue",
+              "2025",
+              "2024"
+            ],
+            [
+              "Total energy consumption per net revenue",
+              "130",
+              "134"
+            ]
+          ],
+          "cells": [
+            {
+              "cell_handle": "cell-1f9bf51d5da564914508",
+              "table_index": 0,
+              "row_index": 1,
+              "column_index": 1,
+              "row_header": "Total energy consumption per net revenue",
+              "row_header_column_index": 0,
+              "column_header": "2025",
+              "normalized_period": 2025,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "130",
+              "normalized_value": "130",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-cb863d55d01ec9eb75b0",
+              "table_index": 0,
+              "row_index": 1,
+              "column_index": 2,
+              "row_header": "Total energy consumption per net revenue",
+              "row_header_column_index": 0,
+              "column_header": "2024",
+              "normalized_period": 2024,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "134",
+              "normalized_value": "134",
+              "normalized_unit": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_fact_record_id": "fact-833f841dd07dd4d7b214ec0b",
+      "document_id": "KB-B015-FRESENIUS-AR2025",
+      "pdf_page": 208,
+      "graphs": [
+        {
+          "table_index": 0,
+          "status": "ambiguous_no_two_axis_period_header",
+          "rows": [
+            [
+              "2025",
+              "2024"
+            ],
+            [
+              "Total energy consumption from activities inhigh climate impact sectors, in MWh",
+              "1,733,176",
+              "1,771,418"
+            ],
+            [
+              "Total energy consumption from activities inhigh climate impact sectors per net revenuefrom activities in high climate impactsectors4, in MWh/\u20ac1 million revenue",
+              "202",
+              "206"
+            ]
+          ],
+          "cells": []
+        }
+      ]
+    },
+    {
+      "source_fact_record_id": "fact-3501084baa837f8bf2893e04",
+      "document_id": "KB-B015-FRESENIUS-AR2025",
+      "pdf_page": 249,
+      "graphs": [
+        {
+          "table_index": 0,
+          "status": "two_axis_graph_built",
+          "header_row_index": 0,
+          "column_headers": [
+            "Country",
+            "Number of employees (headcount), 2025",
+            "Number of employees (headcount), 2024"
+          ],
+          "period_columns": [
+            1,
+            2
+          ],
+          "indicator_column": 0,
+          "unit_column": null,
+          "rejected_rows": [],
+          "rows": [
+            [
+              "Country",
+              "Number of employees (headcount), 2025",
+              "Number of employees (headcount), 2024"
+            ],
+            [
+              "Germany",
+              "86,606",
+              "86,101"
+            ],
+            [
+              "Spain",
+              "43,530",
+              "42,669"
+            ]
+          ],
+          "cells": [
+            {
+              "cell_handle": "cell-77ff158f9558a6ac229c",
+              "table_index": 0,
+              "row_index": 1,
+              "column_index": 1,
+              "row_header": "Germany",
+              "row_header_column_index": 0,
+              "column_header": "Number of employees (headcount), 2025",
+              "normalized_period": 2025,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "86,606",
+              "normalized_value": "86606",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-3f6ace052449a462010e",
+              "table_index": 0,
+              "row_index": 1,
+              "column_index": 2,
+              "row_header": "Germany",
+              "row_header_column_index": 0,
+              "column_header": "Number of employees (headcount), 2024",
+              "normalized_period": 2024,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "86,101",
+              "normalized_value": "86101",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-a65b2aaa222f2948e612",
+              "table_index": 0,
+              "row_index": 2,
+              "column_index": 1,
+              "row_header": "Spain",
+              "row_header_column_index": 0,
+              "column_header": "Number of employees (headcount), 2025",
+              "normalized_period": 2025,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "43,530",
+              "normalized_value": "43530",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-01a6cc1f3364fd10f132",
+              "table_index": 0,
+              "row_index": 2,
+              "column_index": 2,
+              "row_header": "Spain",
+              "row_header_column_index": 0,
+              "column_header": "Number of employees (headcount), 2024",
+              "normalized_period": 2024,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "42,669",
+              "normalized_value": "42669",
+              "normalized_unit": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

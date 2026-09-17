@@ -1,0 +1,45 @@
+{
+  "schema_version": "3.0",
+  "status": "development_regression_passed",
+  "development_source": {
+    "experiment_id": "P20-V29-UNSEEN-LOCKBOX-V01",
+    "locked_result": "data/results/p20_v29_unseen_lockbox_v0.1_result.lock.json",
+    "locked_result_sha256": "8db224c8bdfc6d4a2e5c31742ac421c76894efb181aeae37e354e9d31b51fd06",
+    "exposed_failure": "six candidate responses omitted a model-owned required task_id despite exact const schemas"
+  },
+  "implementation": {
+    "design": "executor-attested task identity envelope linked to the exact request and response payloads",
+    "candidate_required_to_repeat_task_id": false,
+    "candidate_output_modified": false,
+    "candidate_output_identity_field_synthesized": false,
+    "posthoc_semantic_repair_applied": false,
+    "identity_evidence": [
+      "frozen task-pack SHA256",
+      "canonical frozen task-record SHA256",
+      "experiment id",
+      "run id",
+      "canonical request-payload SHA256",
+      "canonical response-payload SHA256"
+    ],
+    "source": "src/esg_reliable_discovery/v30_integrity.py",
+    "source_sha256": "409ed5d5f68b28463858eea0341ac6c1950e8432d8625234c1a5d1fb4bfa8ca4",
+    "runner": "src/esg_reliable_discovery/v13_stage_a_runner.py",
+    "runner_sha256": "4cda4893c2e542a0e8388273e47b13018775b5f770afe334b2a0ed5ffbc37f39",
+    "regression_test": "tests/test_v30_p20_exposed_regression.py",
+    "regression_test_sha256": "a7c37b8650561d5439d04f520a1d10cc5fd5fc21d95c57874ce4a4473a0c1138"
+  },
+  "verification": {
+    "p20_exposed_regression": "passed",
+    "v28_v29_v30_regression_tests": 16,
+    "full_pytest": "passed",
+    "full_pytest_collected_tests": 287,
+    "ruff": "passed",
+    "p20_candidate_calls_repeated": false
+  },
+  "release": {
+    "reusable_stage_a_option": "use_v30_executor_identity_envelope",
+    "identity_modes_mutually_exclusive": true,
+    "ready_for_new_unseen_p21_local_freeze": true,
+    "cloud_inference_authorized": false
+  }
+}

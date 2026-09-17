@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "task_id": "P16-ACCESS-001",
+  "reference_author": "codex_gpt_simulated_expert",
+  "reference_status": "verified_against_frozen_pages",
+  "answer": "Sanofi's Global Health Unit reported 73 NCD partnerships, 40 supported countries, 4,916,098 beneficiaries reached through patient-awareness and access-to-care initiatives, 37,116 healthcare professionals and workers engaged in NCD training, and 666 supply-chain facilities upskilled. The figures are cumulative for 2022–2025; earlier-year figures were restated to include full-year data and a reclassification of NCD programs.",
+  "normalized_value": {
+    "ncd_partnerships": 73,
+    "countries_supported": 40,
+    "beneficiaries_reached": 4916098,
+    "hcps_hcws_engaged": 37116,
+    "supply_chain_facilities_upskilled": 666,
+    "period_basis": "cumulative 2022-2025",
+    "restatement_qualification": "prior-year figures restated for full-year data and reclassification of NCD programs"
+  },
+  "evidence": [
+    {"source_id":"P16-SANOFI-SS2025","pdf_page":90,"quote":"Number of NCD partnerships"},
+    {"source_id":"P16-SANOFI-SS2025","pdf_page":90,"quote":"73"},
+    {"source_id":"P16-SANOFI-SS2025","pdf_page":90,"quote":"4,916,098"},
+    {"source_id":"P16-SANOFI-SS2025","pdf_page":90,"quote":"37,116"},
+    {"source_id":"P16-SANOFI-SS2025","pdf_page":90,"quote":"666"},
+    {"source_id":"P16-SANOFI-SS2025","pdf_page":90,"quote":"Cumulative figures (2022 - 2025)"},
+    {"source_id":"P16-SANOFI-SS2025","pdf_page":90,"quote":"Figures restated to include full year data"}
+  ],
+  "provenance": {"reference_is_simulated":true,"candidate_model_used":false}
+}

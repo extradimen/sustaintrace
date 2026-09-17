@@ -1,0 +1,87 @@
+{
+  "parser": "MinerU 3.4.0 pipeline",
+  "schema_version": "1.0",
+  "targets": [
+    {
+      "document_id": "P5-AHOLD-AR2025",
+      "document_sha256": "0e01680d6285f1cf8f0f30709219d17c4266571a48f0f4b1c1e6505a7f9c628f",
+      "local_path": "data/raw/p5_staging/ahold-delhaize-annual-report-2025.pdf",
+      "output_directory": "artifacts/p5/mineru_targets_RESUME01/P5-AHOLD-AR2025-p0007",
+      "pdf_page": 7,
+      "run_record_sha256": "f6fb24bb83f71f656768d975da02c63d23408f3cb3d88144757297bcb64a1390",
+      "status": "reused_verified_success",
+      "target_id": "P5-AHOLD-AR2025-p0007",
+      "task_ids": [
+        "P5-XPAGE-001"
+      ]
+    },
+    {
+      "document_id": "P5-AHOLD-AR2025",
+      "document_sha256": "0e01680d6285f1cf8f0f30709219d17c4266571a48f0f4b1c1e6505a7f9c628f",
+      "local_path": "data/raw/p5_staging/ahold-delhaize-annual-report-2025.pdf",
+      "output_directory": "artifacts/p5/mineru_targets_RESUME01/P5-AHOLD-AR2025-p0295",
+      "pdf_page": 295,
+      "run_record_sha256": "d304ce14baad36f42971a66418bc1f725c150e56cbc5f4a5e4c799fdd9f77920",
+      "status": "reused_verified_success",
+      "target_id": "P5-AHOLD-AR2025-p0295",
+      "task_ids": [
+        "P5-CALC-001",
+        "P5-DEX-001",
+        "P5-XPAGE-001"
+      ]
+    },
+    {
+      "document_id": "P5-AHOLD-AR2025",
+      "document_sha256": "0e01680d6285f1cf8f0f30709219d17c4266571a48f0f4b1c1e6505a7f9c628f",
+      "local_path": "data/raw/p5_staging/ahold-delhaize-annual-report-2025.pdf",
+      "output_directory": "artifacts/p5/mineru_targets_RESUME01/P5-AHOLD-AR2025-p0318",
+      "pdf_page": 318,
+      "run_record_sha256": "3dd972946fde83bd7f69a03c57b71decf12102e3d997a268216cd11396e396ce",
+      "status": "reused_verified_success",
+      "target_id": "P5-AHOLD-AR2025-p0318",
+      "task_ids": [
+        "P5-DEX-002"
+      ]
+    },
+    {
+      "document_id": "P5-AHOLD-AR2025",
+      "document_sha256": "0e01680d6285f1cf8f0f30709219d17c4266571a48f0f4b1c1e6505a7f9c628f",
+      "local_path": "data/raw/p5_staging/ahold-delhaize-annual-report-2025.pdf",
+      "output_directory": "artifacts/p5/mineru_targets_RESUME01/P5-AHOLD-AR2025-p0330",
+      "pdf_page": 330,
+      "run_record_sha256": "d37a31f99b5f3fd8c1fc0a6824245b6bab7e149763d695013c1fceed9d9a0593",
+      "status": "reused_verified_success",
+      "target_id": "P5-AHOLD-AR2025-p0330",
+      "task_ids": [
+        "P5-ASSURE-001"
+      ]
+    },
+    {
+      "document_id": "P5-AHOLD-AR2025",
+      "document_sha256": "0e01680d6285f1cf8f0f30709219d17c4266571a48f0f4b1c1e6505a7f9c628f",
+      "local_path": "data/raw/p5_staging/ahold-delhaize-annual-report-2025.pdf",
+      "output_directory": "artifacts/p5/mineru_targets_RESUME01/P5-AHOLD-AR2025-p0331",
+      "pdf_page": 331,
+      "run_record_sha256": "f95e75d590f324e8f4cdb0ba27f05e9c54c44ab4e14906237d02a221605e1ffa",
+      "status": "reused_verified_success",
+      "target_id": "P5-AHOLD-AR2025-p0331",
+      "task_ids": [
+        "P5-ASSURE-001"
+      ]
+    },
+    {
+      "document_id": "P5-AHOLD-AR2025",
+      "document_sha256": "0e01680d6285f1cf8f0f30709219d17c4266571a48f0f4b1c1e6505a7f9c628f",
+      "local_path": "data/raw/p5_staging/ahold-delhaize-annual-report-2025.pdf",
+      "output_directory": "artifacts/p5/mineru_targets_RESUME01/P5-AHOLD-AR2025-p0364",
+      "pdf_page": 364,
+      "run_record_sha256": "4456e7d4006651ff6574763988f603a8b24afbb543ef655eea7f26213456015d",
+      "status": "reused_verified_success",
+      "target_id": "P5-AHOLD-AR2025-p0364",
+      "task_ids": [
+        "P5-SCOPE-001"
+      ]
+    }
+  ],
+  "unique_target_count": 6
+}

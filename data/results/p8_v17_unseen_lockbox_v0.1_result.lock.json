@@ -1,0 +1,31 @@
+{
+  "schema_version":"1.0","experiment_id":"P8-V17-UNSEEN-LOCKBOX-V01","status":"completed_and_scored_with_audited_pretransmission_infrastructure_resumes","candidate_model":"qwen3.5:397b-cloud","candidate_digest":"68d2a0796c11e1fedd0456a2d55e58cca4077be6a218428a7a7f4e21f8177cbc","task_count":6,
+  "stage_a":{"tasks_run":6,"framework_valid":5,"framework_failed":1,"semantic_exact":4,"semantic_partial":1,"semantic_failed":1},
+  "stage_b":{"eligible_tasks":5,"framework_valid":5,"framework_failed":0,"contracted_atomic_claims_exact":18,"required_atomic_claims":20},
+  "task_results":{
+    "P8-SAFETY-001":"stage_a exact; stage_b exact 5_of_5",
+    "P8-CALC-001":"stage_a model_behavior_failure: calculation period not grounded; not retried",
+    "P8-TARGET-001":"core target/gross/net/offset distinction exact; stage_a partial because it changed expected 1.17m ACCUs into retired; stage_b exact 6_of_6",
+    "P8-BASELINE-001":"stage_a exact; stage_b exact 3_of_3",
+    "P8-SCOPE3-001":"stage_a exact; stage_b 1_of_2 exact because excluded_categories omitted Categories 11 and 15 while rationale was exact",
+    "P8-ASSURE-001":"stage_a exact; stage_b 3_of_4 exact because limited-assurance subject slot captured Select Sustainability Information but omitted the separately reviewed Sustainability Disclosures and Select Climate Information"
+  },
+  "knowledge_findings":{
+    "safety":{"fatalities_2025":1,"fatalities_2024":5,"aifr_2025":0.37,"aifr_2024":0.37,"aifr_target":0.38},
+    "target_boundary":{"target_percent":15,"gross_reduction_percent":14,"net_reduction_percent":17,"gross_target_met":false,"net_target_met":true,"interpretation":"offsets bridge the disclosed gross-to-net gap and must not be represented as gross abatement"},
+    "baseline_boundary":{"divestments":"exclude apparent reductions from divested assets","acquisitions":"incorporate acquired emissions and restate baseline","included_2025_acquisition":"Arcadium Lithium"},
+    "scope3_exclusions":{"categories":[8,11,12,13,14,15],"category_11_reason":"not applicable because Rio Tinto does not produce fossil fuels or applicable products"},
+    "assurance_boundary":{"limited":["Select Sustainability Information","Sustainability Disclosures","Select Climate Information"],"reasonable":"GHG Information","excluded_from_select_sustainability_conclusion":"other information"}
+  },
+  "framework_findings":{
+    "period_grounding":"single evidence blocks containing two explicit years can still fail deterministic calculation period binding",
+    "scalar_slot_projection":"collapsing a multi-fragment category list into one scalar string caused omission of non-contiguous Categories 11 and 15",
+    "multi_engagement_scope":"one scalar assurance-subject slot did not preserve all separately described limited-assurance engagements",
+    "v17_boundary_reasoning":"gross versus net target status and offset role were correctly distinguished"
+  },
+  "infrastructure":{"pretransmission_resumes":3,"candidate_attempts_consumed_by_infrastructure_failures":0,"model_behavior_failures_retried":false,"empty_pretransmission_run_directories":3},
+  "archive":{"behavioral_run_directories":11,"sha256_manifests_verified":11,"verification_failures":0},
+  "single_candidate_attempt_per_behavioral_stage":true,"silent_retry":false,"posthoc_semantic_repair":false,"reference_visible_to_candidate":false,"human_gold_claimed":false,"p3_p4_p5_p6_p7_modified":false,
+  "decision":"V1_7_PARTIAL_PASS_ON_P8_WITH_PERIOD_BINDING_AND_NONCONTIGUOUS_MULTI_FRAGMENT_LIMITATIONS",
+  "next_iteration":"Develop v1.8 only on exposed P8 failures: table-row multi-year period binding and deterministic non-contiguous multi-fragment collection projection; then open a new unseen P9 lockbox."
+}

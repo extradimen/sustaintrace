@@ -1,0 +1,7 @@
+{
+  "schema_version":"1.0","development_id":"V18-P8-EXPOSED-FAILURE-DEVELOPMENT-V01","status":"completed","source_lockbox":"P8-V17-UNSEEN-LOCKBOX-V01","source_lockbox_modified_or_rescored":false,
+  "mechanisms":{"multiyear_period_binding":"explicit reporting year plus previous/prior-year relation, retaining original literals and failing closed otherwise","noncontiguous_collection_projection":"ordered canonical members, one grounded evidence fragment per member, duplicate canonical identity rejection"},
+  "exposed_regressions":{"period_binding":"passed","scope3_noncontiguous_collection":"passed","duplicate_member_rejection":"passed"},
+  "test_result":"all_tests_passed","ruff_result":"passed","candidate_inference_performed":false,"candidate_output_modified":false,
+  "next_gate":"select and locally freeze an unseen P9 report before any reference construction or inference"
+}

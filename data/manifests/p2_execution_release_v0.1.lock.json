@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "release_id": "P2-EXECUTION-RELEASE-v0.1",
+  "status": "locked_before_task_authoring",
+  "p1_qualification_freeze": "P1-INTEGRATED-FREEZE-v0.9.1",
+  "p1_qualification_result": "passed_all_hard_gates",
+  "framework_hashes": {
+    "stage_a_core_sha256": "e9fdfc6f2e12bbc182a63cd50bea98f4b6d817805d46e8e0bf0f7028cb8c4cd8",
+    "stage_a_runner_sha256": "03893ff2190229c8aebee6607cb574b471fc2001b601f5b87315594168718e7b",
+    "stage_a_prompt_sha256": "c08335949e7ef05a7d38b12c15ed6f5019a60b50dbf8c78a60893e67527eee43",
+    "stage_b_core_sha256": "faa6081c5821e1335a32f33fe766ad98aee56683465cfee807afe985f4a342fe",
+    "stage_b_runner_sha256": "fe5b1bcd2cb0ff401d21c10d1da3560b503f436805ca3fef1bb0db8f386b9014",
+    "stage_b_prompt_sha256": "b0c46b2ad1e730c2f8528ef55fc43c0439a05d24658c017d5605ebd428938607",
+    "ontology_sha256": "b8c64fa953c5e51a221493c2606ba426879486a2f8ab0efb35d65e4e14610ddb",
+    "mineru_registry_sha256": "e1ec7003d3cbb00b3232ecfdc1286f64e13bb36b24d866186e29dc2b73187880",
+    "source_registry_sha256": "78bff70845dd91286dcc0ae8ae1ea9551df9a715043bc23fc95a30925d085732"
+  },
+  "p2_source_manifest_sha256": "cdb4e36cd298066e9f90fd7bd7ff28696791c66d286b87c9ad6b0058b3c0706c",
+  "candidate_model": "qwen3.5:397b-cloud",
+  "candidate_model_digest": "68d2a0796c11e1fedd0456a2d55e58cca4077be6a218428a7a7f4e21f8177cbc",
+  "parser": "MinerU 3.4.0 pipeline",
+  "minimum_tasks": 12,
+  "required_task_types": ["direct_extraction", "deterministic_calculation", "cross_page_relation", "scope_subject_boundary", "controlled_conflict", "abstention"],
+  "reference_type": "AI-simulated reference, explicitly not human gold",
+  "framework_changes_after_task_authoring": false,
+  "prompt_changes_after_task_authoring": false,
+  "model_config_changes_after_task_authoring": false,
+  "failed_runs_excluded": false,
+  "aggregate_score": false,
+  "candidate_inference_allowed": false,
+  "next_gate": "author_and_freeze_hidden_p2_task_pack"
+}

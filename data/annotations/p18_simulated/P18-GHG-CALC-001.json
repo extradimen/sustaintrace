@@ -1,0 +1,58 @@
+{
+  "answer": "For 2025, Scope 1 was 223,790 t CO2e and market-based Scope 2 was 16,375 t CO2e. Their sum is 240,165 t CO2e, exactly matching the disclosed market-based Scope 1 and 2 total, for a zero difference. Against 252,568 t CO2e in 2024, the disclosed total decreased by 4.91%.",
+  "calculation_plan": {
+    "candidate_input_role_order": [
+      "scope_1_2025",
+      "scope_2_market_based_2025",
+      "disclosed_scope_1_2_2025",
+      "disclosed_scope_1_2_2024"
+    ],
+    "rounding": "two decimal places, half up",
+    "unit": "t CO2e"
+  },
+  "evidence": [
+    {
+      "pdf_page": 133,
+      "quote": "Scope 1 and 2 (market-based)",
+      "source_id": "P18-DEUTSCHE-TELEKOM-AR2025"
+    },
+    {
+      "pdf_page": 133,
+      "quote": "240,165",
+      "source_id": "P18-DEUTSCHE-TELEKOM-AR2025"
+    },
+    {
+      "pdf_page": 133,
+      "quote": "252,568",
+      "source_id": "P18-DEUTSCHE-TELEKOM-AR2025"
+    },
+    {
+      "pdf_page": 133,
+      "quote": "223,790",
+      "source_id": "P18-DEUTSCHE-TELEKOM-AR2025"
+    },
+    {
+      "pdf_page": 133,
+      "quote": "16,375",
+      "source_id": "P18-DEUTSCHE-TELEKOM-AR2025"
+    }
+  ],
+  "normalized_value": {
+    "calculated_change_percent": -4.91,
+    "calculated_scope_1_2_2025_tco2e": 240165,
+    "difference_tco2e": 0,
+    "direction": "decrease",
+    "disclosed_scope_1_2_2024_tco2e": 252568,
+    "disclosed_scope_1_2_2025_tco2e": 240165,
+    "scope_1_2025_tco2e": 223790,
+    "scope_2_market_based_2025_tco2e": 16375
+  },
+  "provenance": {
+    "candidate_model_used": false,
+    "reference_is_simulated": true
+  },
+  "reference_author": "codex_gpt_simulated_expert",
+  "reference_status": "verified_against_frozen_mineru_pages_and_native_layout",
+  "schema_version": "1.0",
+  "task_id": "P18-GHG-CALC-001"
+}

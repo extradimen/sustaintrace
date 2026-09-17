@@ -1,0 +1,76 @@
+{
+  "schema_version": "2.9",
+  "experiment_id": "P20-V29-UNSEEN-LOCKBOX-V01",
+  "status": "completed_and_scored_with_six_model_behavior_failures",
+  "decision": "P20_COMPLETED_LOCKED_AND_ELIGIBLE_AS_A_PROTOCOL_CONFORMANCE_FAILURE_RESULT",
+  "candidate_model": "qwen3.5:397b-cloud",
+  "task_count": 6,
+  "single_candidate_attempt_per_behavioral_stage": true,
+  "silent_retry": false,
+  "posthoc_semantic_repair": false,
+  "reference_visible_to_candidate": false,
+  "stage_a": {
+    "tasks_entered": 6,
+    "cloud_model_calls": 6,
+    "framework_valid": 0,
+    "model_behavior_failed": 6,
+    "pre_call_executor_failed": 0
+  },
+  "stage_b": {
+    "eligible_tasks": 0,
+    "framework_valid": 0,
+    "model_behavior_failed": 0,
+    "infrastructure_failed": 0,
+    "not_reached": 6
+  },
+  "scoring": {
+    "aggregate_score": null,
+    "required_atomic_slots": 73,
+    "credited_valid_slots": 0,
+    "literal_or_numeric_exact_slots": 0,
+    "numeric_exact_slots": 0,
+    "numeric_reference_slots": 53,
+    "text_literal_exact_slots": 0,
+    "text_normalized_exact_slots": 0,
+    "text_reference_slots": 20,
+    "verified_run_archives": 6
+  },
+  "task_results": {
+    "P20-GHG-CALC-001": "Stage A model behavior failure: required exact task_id missing",
+    "P20-ENERGY-001": "Stage A model behavior failure: required exact task_id missing",
+    "P20-SCOPE3-001": "Stage A model behavior failure: required exact task_id missing",
+    "P20-WORKFORCE-001": "Stage A model behavior failure: required exact task_id missing",
+    "P20-TAXONOMY-001": "Stage A model behavior failure: required exact task_id missing",
+    "P20-ASSURE-001": "Stage A model behavior failure: required exact task_id missing"
+  },
+  "integrity_audit": {
+    "candidate_outputs_preserved": true,
+    "failed_outputs_preserved": true,
+    "all_existing_run_checksums_verified": true,
+    "candidate_attempts_repeated": false,
+    "all_tasks_received_equal_single_stage_a_opportunity": true,
+    "request_schema_required_exact_task_id_for_all_six_calls": true,
+    "response_omitted_task_id_for_all_six_calls": true,
+    "frozen_p3_through_p19_modified": false
+  },
+  "framework_findings": {
+    "v29_preflight": "The whole-pack plan and reference/page-window consistency gates passed before any candidate call.",
+    "task_id_schema": "All six archived requests contain task_id as a required string with a task-specific const value.",
+    "candidate_conformance": "All six cloud responses omitted task_id and were rejected without synthesis, repair, or retry.",
+    "interpretation": "v2.9 fixed the earlier framework-side preflight omission but exact JSON Schema alone did not make this cloud candidate honor the task identity contract."
+  },
+  "artifacts": {
+    "progress": "data/manifests/p20_candidate_progress.json",
+    "progress_sha256": "0e54fa93648c5b8bc3d8748024809e60aaeee30337ce1db7a6f25454be5b9bab",
+    "dimension_scores": "data/results/p20_v29_dimension_scores_v0.1.lock.json",
+    "dimension_scores_sha256": "caf304d9c3ce165b70557299001b02fc18fe0d93c4575b95f13225af0eec2150",
+    "execution_release": "data/tasks/p20_execution_release_v0.1.lock.json",
+    "execution_release_sha256": "9c027cb942538c685098abd27432a44d224c07c9b038db7e776f8e471bf5a4d5",
+    "authorization": "data/manifests/p20_cloud_authorization_exact_2026-09-11_v0.1.lock.json",
+    "authorization_sha256": "83442991dacde03b4195d75c421199cf60cb79d97b38173becbb4d5c427f88e1",
+    "local_validation": "data/results/p20_v29_local_validation_v0.1.lock.json",
+    "local_validation_sha256": "b67415ae08bc2dd8d19f4aa8b3f4e9f8c571b6cfdf5ad9ec5bbdc9559b06f29f",
+    "mineru_resume_registry": "data/manifests/p20_mineru_target_registry_RESUME01_v0.1.lock.json",
+    "mineru_resume_registry_sha256": "d01df6e57f754af0c7ae9608222422c6570fc8025c653210adc28fc31e3fa8e4"
+  }
+}

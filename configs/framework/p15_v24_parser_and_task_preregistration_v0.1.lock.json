@@ -1,0 +1,30 @@
+{
+  "schema_version": "2.4",
+  "experiment_id": "P15-V24-UNSEEN-LOCKBOX-V01",
+  "status": "source_questions_and_page_windows_frozen_before_reference_creation_and_candidate_inference",
+  "framework_version": "v2.4",
+  "document_id": "P15-NOVARTIS-NFM2025",
+  "document_sha256": "8dbc7f74b114b52eafa7a454bd0cbe49efae3a8ea61e931f7eb075d39336758b",
+  "parser": {
+    "primary": "MinerU",
+    "fallback": "native PDF layout extraction plus deterministic two-dimensional table graph",
+    "target_pages_only": true,
+    "status": "not_yet_executed"
+  },
+  "unique_target_pages": [20, 21, 22, 27, 28, 29, 30, 31, 32, 36, 43, 44, 45],
+  "task_count": 6,
+  "candidate_model": "qwen3.5:397b-cloud",
+  "candidate_inference_allowed": false,
+  "required_prefreeze_gates": [
+    "reference/page-window and quote consistency audit",
+    "v2.4 layout-registry shape gate",
+    "v2.4 calculation binding adapter and frozen-plan execution",
+    "v2.4 ordered-span production-path dry run",
+    "evidence-handle/page consistency gate",
+    "JSON and SHA256 audit"
+  ],
+  "single_attempt_per_stage": true,
+  "silent_retry": false,
+  "reference_visible_to_candidate": false,
+  "cloud_transmission_authorized": false
+}

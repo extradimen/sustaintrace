@@ -1,0 +1,29 @@
+{
+  "checkpoint_resume_enabled": true,
+  "development_data_only": true,
+  "experiment_id": "V13-PARSER-FAILURE-REGRESSION-DEV01",
+  "p3_rerun": false,
+  "records": [
+    {
+      "result": {
+        "archive_directory": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/V13-PARSER-FAILURE-REGRESSION-DEV01/runs/P3-DEX-001-QWEN397B-v13-stage-a-r1",
+        "elapsed_seconds": 48.43020545899344,
+        "framework_evidence_state": "supported",
+        "model": "qwen3.5:397b-cloud",
+        "run_id": "P3-DEX-001-QWEN397B-v13-stage-a-r1",
+        "task_id": "P3-DEX-001"
+      },
+      "retried": false,
+      "status": "passed",
+      "task_id": "P3-DEX-001"
+    },
+    {
+      "error": "OllamaError:v1.3 Stage A model behavior failed; archived at /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/V13-PARSER-FAILURE-REGRESSION-DEV01/runs/P3-CALC-001-QWEN397B-v13-stage-a-r1: ValueError:calculation_period_not_grounded:P106-L0017",
+      "retried": false,
+      "status": "failed",
+      "task_id": "P3-CALC-001"
+    }
+  ],
+  "schema_version": "1.0",
+  "updated_at": "2026-09-04T19:43:06.750913+00:00"
+}

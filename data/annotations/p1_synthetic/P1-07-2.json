@@ -1,0 +1,9 @@
+{
+  "schema_version":"1.0","task_id":"P1-07-2","reference_author":"codex_gpt_simulated_expert","reference_status":"verified",
+  "question":"Relate SoftBank's stated Scope 1 and 2 carbon-neutrality target year to its fiscal 2023 combined Scope 1 and 2 emissions result and target value.","answer_status":"verified_fact",
+  "answer":{"carbon_neutrality_target_year":2030,"fy2023_scope_1_2_result_tCO2":520662,"fy2023_target_tCO2":547000},"normalized_value":520662,"normalized_unit":"tCO2","reported_unit":"t-CO2",
+  "subject":"SoftBank Corp. and major subsidiaries","scope_boundary":"combined Scope 1 and Scope 2","period":"fiscal 2023 with fiscal 2030 target year","calculation":null,
+  "evidence":[{"document_id":"SBKK-SR-2024","document_sha256":"7c5f044cac2bd9355bccc34ff1c73c7cbec58e8cfaf6288eafd32a05ec7e1e79","pdf_page":17,"printed_page":"17","verbatim_excerpt":"Carbon neutrality (Scope 1, 2) (FY2030)","role":"claim_support"},{"document_id":"SBKK-SR-2024","document_sha256":"7c5f044cac2bd9355bccc34ff1c73c7cbec58e8cfaf6288eafd32a05ec7e1e79","pdf_page":79,"printed_page":"79","verbatim_excerpt":"Sum of Scope 1 and 2 520,662 547,000","role":"claim_support"}],
+  "search_record":{"pages_reviewed":[17,79],"terms_used":["Carbon neutrality","Sum of Scope 1 and 2"],"notes":"KPI target and performance table cross-checked."},"controlled_intervention_id":null,
+  "provenance_attestation":{"is_human":false,"is_ai_simulation":true,"candidate_model_excluded":true}
+}

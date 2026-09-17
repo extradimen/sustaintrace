@@ -1,0 +1,14 @@
+{
+  "schema_version":"1.0",
+  "manifest_id":"P3-EXECUTION-ACQUISITION-V01",
+  "status":"frozen",
+  "source_manifest":"data/manifests/p3_source_acquisition_v0.1.lock.json",
+  "documents":[
+    {"document_id":"P3-LENOVO-FY2025-ESG","company":"Lenovo Group Limited","local_path":"data/raw/p3_staging/lenovo/FY2025-lenovo-sustainability-report.pdf","sha256":"5e52749d585a8c7eb9f6b05e800301f7282364562d32ba04b6742341319a7a4b","ingestion_status":"verified"},
+    {"document_id":"P3-DIAGEO-AR2024","company":"Diageo plc","local_path":"data/raw/p3_staging/diageo/diageo-annual-report-2024.pdf","sha256":"94b8147ed3b8f42e30b937c6f03a8ad34a466bf9671124672ec2afa26f7d8658","ingestion_status":"verified"},
+    {"document_id":"P3-HEINEKEN-AR2025","company":"Heineken N.V.","local_path":"data/raw/p3_staging/heineken/heineken-annual-report-2025.pdf","sha256":"2dee3a7ac14103566f798aff09ce15bc354815c0848d2831fcb99d71bdfad259","ingestion_status":"verified"},
+    {"document_id":"P3-GSK-RBPR2024","company":"GSK plc","local_path":"data/raw/p3_staging/gsk/responsible-business-performance-report-2024.pdf","sha256":"0d8f685d5b035bc6ef9ffd6ca79d247105323b93aea9158d79496d9f096221f9","ingestion_status":"verified"},
+    {"document_id":"P3-AMD-CR2025","company":"Advanced Micro Devices, Inc.","local_path":"data/raw/p3_staging/amd/2024-25-amd-cr-report.pdf","sha256":"a31017194c1b94df0ed60d49f2d41fae6de7f7960609c0a1b46790b393a88610","ingestion_status":"verified"},
+    {"document_id":"P3-TD-SR2024","company":"The Toronto-Dominion Bank","local_path":"data/raw/p3_staging/td/2024-sustainability-report-en.pdf","sha256":"42a393a11223b1b82e04ee0fa7b792684593c9c100ee35fa971141af802340cc","ingestion_status":"verified"}
+  ]
+}

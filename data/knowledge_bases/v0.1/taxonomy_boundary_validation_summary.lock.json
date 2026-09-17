@@ -1,0 +1,21 @@
+{
+  "executions_performed": 0,
+  "inputs": {
+    "bindings_sha256": "e152197d51d9368871a4dadd0bcb65109dfb74f69c8e88674bd3bea54a46b5dd",
+    "cases_sha256": "6976c294f63dd75bc1dc1776d71f8f394dbab60d7f825c247a40ab756708e7ed",
+    "facts_sha256": "8af57e7b7bda85deef8f90586f8225aedcf1da24e0669300115b8f1f7499bf5b"
+  },
+  "next_gate": "validator_enabled_after_regression; five supervised candidates and two explicitly unaudited blocks",
+  "output": {
+    "path": "data/knowledge_bases/v0.1/taxonomy_boundary_validations.jsonl",
+    "sha256": "192dea1d9d8fa66abf136f408799c0e27503e36e9d3e53811bd50f0d2da23639"
+  },
+  "promotions_performed": 0,
+  "records": 7,
+  "schema_version": "0.1",
+  "status": "taxonomy_boundary_validation_complete",
+  "validation_status_counts": {
+    "blocked_explicitly_unaudited": 2,
+    "ready_for_supervised_execution": 5
+  }
+}

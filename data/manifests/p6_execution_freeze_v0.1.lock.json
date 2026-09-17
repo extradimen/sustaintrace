@@ -1,0 +1,21 @@
+{
+  "schema_version":"1.0",
+  "experiment_id":"P6-V15-UNSEEN-LOCKBOX-V01",
+  "status":"released_after_explicit_cloud_authorization",
+  "candidate_model":"qwen3.5:397b-cloud",
+  "candidate_digest":"68d2a0796c11e1fedd0456a2d55e58cca4077be6a218428a7a7f4e21f8177cbc",
+  "temperature":0,
+  "seed":20260905,
+  "single_candidate_attempt_per_stage":true,
+  "silent_retry":false,
+  "posthoc_semantic_repair":false,
+  "reference_visible_to_candidate":false,
+  "use_v15_grounding":true,
+  "cloud_transmission_authorized":true,
+  "authorization_record":"data/manifests/p6_cloud_authorization_2026-09-05.lock.json",
+  "inference_gate":"released",
+  "parser_registry":"data/manifests/p6_mineru_target_registry_RESUME02_v0.1.json",
+  "layout_fallback_registry":"configs/framework/p6_layout_fallback_registry_v0.1.lock.json",
+  "slot_contracts":"configs/framework/p6_slot_contracts_v0.1.lock.json",
+  "semantic_qualifiers":"configs/framework/p6_semantic_qualifiers_v0.1.lock.json"
+}

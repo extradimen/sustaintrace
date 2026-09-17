@@ -1,0 +1,19 @@
+{
+  "adjudications": 2,
+  "inputs": {
+    "facts_sha256": "8af57e7b7bda85deef8f90586f8225aedcf1da24e0669300115b8f1f7499bf5b",
+    "plans_sha256": "d1ab598ce1454097315e486592efb23d515f302617f5c0e0e68d4e1c1e937a94",
+    "validations_sha256": "8bc5190e90f92ada21e845dc84a582bb44d52ac391f77aeb784afd9a10121fa3"
+  },
+  "locked_experiments_modified_or_rescored": false,
+  "next_gate": "independent_six_dimension_review_for_two_population_candidates",
+  "output": {
+    "path": "data/knowledge_bases/v0.1/organizational_population_boundary_adjudications.jsonl",
+    "sha256": "751bbc55c1cfcca73673b5ecc61640aa18bb68037d0ea5e0f797d08d1fe5c2f4"
+  },
+  "promotions_performed": 0,
+  "ready_for_independent_source_review": 2,
+  "schema_version": "0.1",
+  "source_fact_records_modified": 0,
+  "status": "organizational_population_boundaries_adjudicated_in_derived_layer"
+}

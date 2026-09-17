@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/esg-reliable-discovery/repair-observation-v0.1.schema.json",
+  "title": "ESG repair observation v0.1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "record_kind",
+    "record_id",
+    "development_source",
+    "status",
+    "change",
+    "validation",
+    "automation_eligibility",
+    "provenance"
+  ],
+  "properties": {
+    "schema_version": {"const": "0.1"},
+    "record_kind": {"const": "repair_observation"},
+    "record_id": {"type": "string", "pattern": "^repair-[0-9a-f]{24}$"},
+    "development_source": {},
+    "status": {"type": ["string", "null"]},
+    "change": {},
+    "validation": {},
+    "automation_eligibility": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["allowed", "reason"],
+      "properties": {
+        "allowed": {"type": "boolean"},
+        "reason": {"type": "string", "minLength": 1}
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["source_artifact", "source_sha256"],
+      "properties": {
+        "source_artifact": {"type": "string", "minLength": 1},
+        "source_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+      }
+    }
+  }
+}

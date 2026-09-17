@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0",
+  "experiment_id": "V17-P7-EXPOSED-FAILURE-DEV-V01",
+  "status": "completed",
+  "created_at": "2026-09-05T13:55:46.579662+00:00",
+  "not_a_lockbox_result": true,
+  "model_requests_sent": 0,
+  "candidate_outputs_reused_without_modification": true,
+  "p7_archive_modified": false,
+  "results": {
+    "P7-CALC-001-DEV": {
+      "operation": "recalculated_percentage_vs_issuer_inequality_threshold",
+      "recalculated_value_percent": -60.00000000000001,
+      "recalculated_magnitude_percent": 60.00000000000001,
+      "issuer_operator": "more_than",
+      "issuer_threshold_percent": 50.0,
+      "comparison_state": "recalculated_value_satisfies_issuer_threshold",
+      "issuer_claim_converted_to_exact_value": false,
+      "framework_owned_operation": true
+    },
+    "P7-INTENSITY-001-DEV": {
+      "issuer_attribution_state": "issuer_attribution_verbatim_supported",
+      "issuer_attribution_supporting_handles": [
+        "M024-B0010"
+      ],
+      "independent_causal_identification_state": "not_independently_identified",
+      "identification_evidence_handles": [],
+      "textual_attribution_does_not_equal_causal_identification": true,
+      "framework_owned_classification": true
+    },
+    "P7-ASSURE-001-DEV": {
+      "value": "selected Environmental and Social (E&S) Key Performances Indicators | EU Taxonomy report",
+      "fragments": [
+        {
+          "position": 1,
+          "evidence_handle": "M089-B0013",
+          "verbatim_value": "selected Environmental and Social (E&S) Key Performances Indicators"
+        },
+        {
+          "position": 2,
+          "evidence_handle": "M089-B0014",
+          "verbatim_value": "EU Taxonomy report"
+        }
+      ],
+      "composition_rule": "ordered_verbatim_fragment_join",
+      "separator": " | ",
+      "all_fragments_grounded": true,
+      "candidate_text_rewritten": false
+    }
+  },
+  "source_artifacts": {
+    "research_archive/P7-V16-UNSEEN-LOCKBOX-V01/runs/P7-CALC-001-QWEN397B-v16-stage-a-r1/normalized_output.json": "d53ece3655a03059d2eead4d9c64bda4ae76173d12689a90307004be02e396a8",
+    "research_archive/P7-V16-UNSEEN-LOCKBOX-V01/runs/P7-INTENSITY-001-QWEN397B-v16-stage-a-r1/normalized_output.json": "15ba3caba671facef7405d1b406f0f71871323de49b0752f392db78a246fe3d0",
+    "research_archive/P7-V16-UNSEEN-LOCKBOX-V01/runs/P7-ASSURE-001-QWEN397B-v16-stage-a-r1/normalized_output.json": "a26d90b0cede3913dc635fb2e052a225b2de9605f5f58bfd4fb6836859fe3ba0"
+  },
+  "interpretation": "All three exposed P7 limitations now have deterministic representations; unseen generalization remains untested."
+}

@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0",
+  "experiment_id": "V14-FRAMEWORK-COMPONENTS-DEV01",
+  "status": "development_components_passed",
+  "development_data_policy": "P4 is exposed; no P3/P4 lockbox result was rerun, modified, or rescored",
+  "components": {
+    "controlled_period_literal_normalization": {
+      "status": "passed",
+      "accepted_forms": ["YYYY", "YY", "FYYYYY", "FYYY"],
+      "normalized_range": [1900, 2200],
+      "original_literal_preserved": true
+    },
+    "auditable_2d_spatial_relation_graph": {
+      "status": "unit_passed",
+      "relations": ["same_row_left_of", "same_column_above", "same_fill"],
+      "cell_projection": "deterministic_nearest_row_column_intersection",
+      "fail_closed_on_missing_or_tied_candidate": true,
+      "semantic_repair": false
+    },
+    "within_report_numeric_discrepancy": {
+      "status": "unit_passed",
+      "operation": "within_report_component_total_discrepancy",
+      "requires_one_source_and_one_unit": true,
+      "requires_grounded_values": true,
+      "semantic_repair": false
+    }
+  },
+  "verification": {
+    "pytest": "184 passed",
+    "ruff": "all checks passed"
+  },
+  "source_sha256": {
+    "src/esg_reliable_discovery/p1_v07.py": "fe87a53dfa1cdd4fc649acfa3eae19291faa2eb0b67381465e79f4b2b0b473dd",
+    "src/esg_reliable_discovery/v14_spatial_graph.py": "bca510c3fafc2ba18d88a8f725f1637debec047f7a8ef41a4479aaf70490f4a8",
+    "src/esg_reliable_discovery/v14_discrepancy.py": "c427d6ad852ce65e25c51af987f6633d0260ef8b8db0444daf25c23d493c72c0"
+  },
+  "limitations": [
+    "The spatial graph has passed synthetic deterministic tests but is not yet validated end-to-end against the exposed P4 chart page.",
+    "P5 selection and all P5 freezes have not started."
+  ],
+  "next_step": "Integrate vector/text extraction for the exposed P4 page and run a named v1.4 development regression before P5 source selection."
+}

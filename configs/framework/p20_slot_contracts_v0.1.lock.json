@@ -1,0 +1,437 @@
+{
+  "contracts": {
+    "P20-ASSURE-001": [
+      {
+        "predicate_id": "esg_p20::p20-assure-001::assured_subjects",
+        "slot_id": "assured_subjects",
+        "value_type": "string"
+      },
+      {
+        "predicate_id": "esg_p20::p20-assure-001::criteria",
+        "slot_id": "criteria",
+        "value_type": "string"
+      },
+      {
+        "predicate_id": "esg_p20::p20-assure-001::assurance_level",
+        "slot_id": "assurance_level",
+        "value_type": "string"
+      },
+      {
+        "predicate_id": "esg_p20::p20-assure-001::conclusion_form",
+        "slot_id": "conclusion_form",
+        "value_type": "string"
+      },
+      {
+        "predicate_id": "esg_p20::p20-assure-001::governing_standard",
+        "slot_id": "governing_standard",
+        "value_type": "string"
+      },
+      {
+        "predicate_id": "esg_p20::p20-assure-001::excluded_responsibility",
+        "slot_id": "excluded_responsibility",
+        "value_type": "string"
+      },
+      {
+        "predicate_id": "esg_p20::p20-assure-001::procedure_difference",
+        "slot_id": "procedure_difference",
+        "value_type": "string"
+      },
+      {
+        "predicate_id": "esg_p20::p20-assure-001::assurance_provider",
+        "slot_id": "assurance_provider",
+        "value_type": "string"
+      },
+      {
+        "predicate_id": "esg_p20::p20-assure-001::signatory",
+        "slot_id": "signatory",
+        "value_type": "string"
+      },
+      {
+        "predicate_id": "esg_p20::p20-assure-001::signature_location",
+        "slot_id": "signature_location",
+        "value_type": "string"
+      },
+      {
+        "predicate_id": "esg_p20::p20-assure-001::signature_date",
+        "slot_id": "signature_date",
+        "value_type": "string"
+      }
+    ],
+    "P20-ENERGY-001": [
+      {
+        "canonical_unit": "million MWh",
+        "predicate_id": "esg_p20::p20-energy-001::total_energy_mmwh::2025",
+        "slot_id": "total_energy_mmwh::2025",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "million MWh",
+        "predicate_id": "esg_p20::p20-energy-001::total_energy_mmwh::2024",
+        "slot_id": "total_energy_mmwh::2024",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "million MWh",
+        "predicate_id": "esg_p20::p20-energy-001::fossil_energy_mmwh::2025",
+        "slot_id": "fossil_energy_mmwh::2025",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "million MWh",
+        "predicate_id": "esg_p20::p20-energy-001::fossil_energy_mmwh::2024",
+        "slot_id": "fossil_energy_mmwh::2024",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "percent",
+        "predicate_id": "esg_p20::p20-energy-001::fossil_share_percent::2025",
+        "slot_id": "fossil_share_percent::2025",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "percent",
+        "predicate_id": "esg_p20::p20-energy-001::fossil_share_percent::2024",
+        "slot_id": "fossil_share_percent::2024",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "million MWh",
+        "predicate_id": "esg_p20::p20-energy-001::renewable_energy_mmwh::2025",
+        "slot_id": "renewable_energy_mmwh::2025",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "million MWh",
+        "predicate_id": "esg_p20::p20-energy-001::renewable_energy_mmwh::2024",
+        "slot_id": "renewable_energy_mmwh::2024",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "percent",
+        "predicate_id": "esg_p20::p20-energy-001::renewable_share_percent::2025",
+        "slot_id": "renewable_share_percent::2025",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "percent",
+        "predicate_id": "esg_p20::p20-energy-001::renewable_share_percent::2024",
+        "slot_id": "renewable_share_percent::2024",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "percent",
+        "predicate_id": "esg_p20::p20-energy-001::narrative_change_percent",
+        "slot_id": "narrative_change_percent",
+        "value_type": "number"
+      },
+      {
+        "predicate_id": "esg_p20::p20-energy-001::direction",
+        "slot_id": "direction",
+        "value_type": "string"
+      },
+      {
+        "predicate_id": "esg_p20::p20-energy-001::renewable_electricity_instruments",
+        "slot_id": "renewable_electricity_instruments",
+        "value_type": "string"
+      }
+    ],
+    "P20-GHG-CALC-001": [
+      {
+        "canonical_unit": "Mt CO2e",
+        "predicate_id": "esg_p20::p20-ghg-calc-001::scope1_gross_mtco2e::2025",
+        "slot_id": "scope1_gross_mtco2e::2025",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "Mt CO2e",
+        "predicate_id": "esg_p20::p20-ghg-calc-001::scope2_market_mtco2e::2025",
+        "slot_id": "scope2_market_mtco2e::2025",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "Mt CO2e",
+        "predicate_id": "esg_p20::p20-ghg-calc-001::scope3_mtco2e::2025",
+        "slot_id": "scope3_mtco2e::2025",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "Mt CO2e",
+        "predicate_id": "esg_p20::p20-ghg-calc-001::calculated_total_mtco2e::2025",
+        "slot_id": "calculated_total_mtco2e::2025",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "Mt CO2e",
+        "predicate_id": "esg_p20::p20-ghg-calc-001::disclosed_total_market_mtco2e::2025",
+        "slot_id": "disclosed_total_market_mtco2e::2025",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "Mt CO2e",
+        "predicate_id": "esg_p20::p20-ghg-calc-001::difference_mtco2e::2025",
+        "slot_id": "difference_mtco2e::2025",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "Mt CO2e",
+        "predicate_id": "esg_p20::p20-ghg-calc-001::disclosed_total_market_mtco2e::2024",
+        "slot_id": "disclosed_total_market_mtco2e::2024",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "percent",
+        "predicate_id": "esg_p20::p20-ghg-calc-001::calculated_change_percent",
+        "slot_id": "calculated_change_percent",
+        "value_type": "number"
+      },
+      {
+        "predicate_id": "esg_p20::p20-ghg-calc-001::direction",
+        "slot_id": "direction",
+        "value_type": "string"
+      }
+    ],
+    "P20-SCOPE3-001": [
+      {
+        "canonical_unit": "Mt CO2e",
+        "predicate_id": "esg_p20::p20-scope3-001::scope3_total_mtco2e::2025",
+        "slot_id": "scope3_total_mtco2e::2025",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "Mt CO2e",
+        "predicate_id": "esg_p20::p20-scope3-001::category1_mtco2e::2025",
+        "slot_id": "category1_mtco2e::2025",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "Mt CO2e",
+        "predicate_id": "esg_p20::p20-scope3-001::category15_mtco2e::2025",
+        "slot_id": "category15_mtco2e::2025",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "Mt CO2e",
+        "predicate_id": "esg_p20::p20-scope3-001::category1_plus_15_mtco2e::2025",
+        "slot_id": "category1_plus_15_mtco2e::2025",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "percent",
+        "predicate_id": "esg_p20::p20-scope3-001::category1_plus_15_share_percent::2025",
+        "slot_id": "category1_plus_15_share_percent::2025",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "percent",
+        "predicate_id": "esg_p20::p20-scope3-001::primary_data_percent::2025",
+        "slot_id": "primary_data_percent::2025",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "Mt CO2e",
+        "predicate_id": "esg_p20::p20-scope3-001::scope3_total_mtco2e::2024",
+        "slot_id": "scope3_total_mtco2e::2024",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "Mt CO2e",
+        "predicate_id": "esg_p20::p20-scope3-001::category1_mtco2e::2024",
+        "slot_id": "category1_mtco2e::2024",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "Mt CO2e",
+        "predicate_id": "esg_p20::p20-scope3-001::category15_mtco2e::2024",
+        "slot_id": "category15_mtco2e::2024",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "Mt CO2e",
+        "predicate_id": "esg_p20::p20-scope3-001::category1_plus_15_mtco2e::2024",
+        "slot_id": "category1_plus_15_mtco2e::2024",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "percent",
+        "predicate_id": "esg_p20::p20-scope3-001::category1_plus_15_share_percent::2024",
+        "slot_id": "category1_plus_15_share_percent::2024",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "percent",
+        "predicate_id": "esg_p20::p20-scope3-001::primary_data_percent::2024",
+        "slot_id": "primary_data_percent::2024",
+        "value_type": "number"
+      }
+    ],
+    "P20-TAXONOMY-001": [
+      {
+        "canonical_unit": "million CHF",
+        "predicate_id": "esg_p20::p20-taxonomy-001::turnover_total_mchf::2025",
+        "slot_id": "turnover_total_mchf::2025",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "million CHF",
+        "predicate_id": "esg_p20::p20-taxonomy-001::turnover_eligible_mchf::2025",
+        "slot_id": "turnover_eligible_mchf::2025",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "percent",
+        "predicate_id": "esg_p20::p20-taxonomy-001::turnover_eligible_percent::2025",
+        "slot_id": "turnover_eligible_percent::2025",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "million CHF",
+        "predicate_id": "esg_p20::p20-taxonomy-001::turnover_aligned_mchf::2025",
+        "slot_id": "turnover_aligned_mchf::2025",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "percent",
+        "predicate_id": "esg_p20::p20-taxonomy-001::turnover_aligned_percent::2025",
+        "slot_id": "turnover_aligned_percent::2025",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "million CHF",
+        "predicate_id": "esg_p20::p20-taxonomy-001::capex_total_mchf::2025",
+        "slot_id": "capex_total_mchf::2025",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "million CHF",
+        "predicate_id": "esg_p20::p20-taxonomy-001::capex_eligible_mchf::2025",
+        "slot_id": "capex_eligible_mchf::2025",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "percent",
+        "predicate_id": "esg_p20::p20-taxonomy-001::capex_eligible_percent::2025",
+        "slot_id": "capex_eligible_percent::2025",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "million CHF",
+        "predicate_id": "esg_p20::p20-taxonomy-001::capex_aligned_mchf::2025",
+        "slot_id": "capex_aligned_mchf::2025",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "percent",
+        "predicate_id": "esg_p20::p20-taxonomy-001::capex_aligned_percent::2025",
+        "slot_id": "capex_aligned_percent::2025",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "million CHF",
+        "predicate_id": "esg_p20::p20-taxonomy-001::opex_total_mchf::2025",
+        "slot_id": "opex_total_mchf::2025",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "million CHF",
+        "predicate_id": "esg_p20::p20-taxonomy-001::opex_eligible_mchf::2025",
+        "slot_id": "opex_eligible_mchf::2025",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "percent",
+        "predicate_id": "esg_p20::p20-taxonomy-001::opex_eligible_percent::2025",
+        "slot_id": "opex_eligible_percent::2025",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "million CHF",
+        "predicate_id": "esg_p20::p20-taxonomy-001::opex_aligned_mchf::2025",
+        "slot_id": "opex_aligned_mchf::2025",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "percent",
+        "predicate_id": "esg_p20::p20-taxonomy-001::opex_aligned_percent::2025",
+        "slot_id": "opex_aligned_percent::2025",
+        "value_type": "number"
+      },
+      {
+        "predicate_id": "esg_p20::p20-taxonomy-001::turnover_driver",
+        "slot_id": "turnover_driver",
+        "value_type": "string"
+      },
+      {
+        "predicate_id": "esg_p20::p20-taxonomy-001::capex_driver",
+        "slot_id": "capex_driver",
+        "value_type": "string"
+      },
+      {
+        "predicate_id": "esg_p20::p20-taxonomy-001::opex_driver",
+        "slot_id": "opex_driver",
+        "value_type": "string"
+      },
+      {
+        "predicate_id": "esg_p20::p20-taxonomy-001::comparative_qualification",
+        "slot_id": "comparative_qualification",
+        "value_type": "string"
+      },
+      {
+        "predicate_id": "esg_p20::p20-taxonomy-001::spin_off_boundary",
+        "slot_id": "spin_off_boundary",
+        "value_type": "string"
+      }
+    ],
+    "P20-WORKFORCE-001": [
+      {
+        "canonical_unit": "headcount",
+        "predicate_id": "esg_p20::p20-workforce-001::global_headcount::2025",
+        "slot_id": "global_headcount::2025",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "headcount",
+        "predicate_id": "esg_p20::p20-workforce-001::permanent_headcount_contract_table::2025",
+        "slot_id": "permanent_headcount_contract_table::2025",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "headcount",
+        "predicate_id": "esg_p20::p20-workforce-001::temporary_headcount_contract_table::2025",
+        "slot_id": "temporary_headcount_contract_table::2025",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "headcount",
+        "predicate_id": "esg_p20::p20-workforce-001::calculated_contract_headcount::2025",
+        "slot_id": "calculated_contract_headcount::2025",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "headcount",
+        "predicate_id": "esg_p20::p20-workforce-001::difference_headcount::2025",
+        "slot_id": "difference_headcount::2025",
+        "value_type": "number"
+      },
+      {
+        "predicate_id": "esg_p20::p20-workforce-001::exclusion_explanation",
+        "slot_id": "exclusion_explanation",
+        "value_type": "string"
+      },
+      {
+        "canonical_unit": "headcount",
+        "predicate_id": "esg_p20::p20-workforce-001::non_guaranteed_hours_headcount::2025",
+        "slot_id": "non_guaranteed_hours_headcount::2025",
+        "value_type": "number"
+      },
+      {
+        "canonical_unit": "percent",
+        "predicate_id": "esg_p20::p20-workforce-001::non_guaranteed_hours_rounded_percent::2025",
+        "slot_id": "non_guaranteed_hours_rounded_percent::2025",
+        "value_type": "number"
+      }
+    ]
+  },
+  "experiment_id": "P20-V29-UNSEEN-LOCKBOX-V01",
+  "schema_version": "2.9",
+  "status": "frozen_before_candidate_inference"
+}

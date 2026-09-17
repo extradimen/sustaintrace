@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0",
+  "record_kind": "workbench_tier_b_promotion_staging_milestone",
+  "milestone_id": "WORKBENCH-TIER-B-PROMOTION-STAGING-V0.1",
+  "status": "passed",
+  "completed_at": "2026-09-16T23:35:00+08:00",
+  "controlled_checks": [
+    "approved_review_version",
+    "tier_c_candidate",
+    "source_hash_integrity",
+    "registered_evidence_sources",
+    "two_distinct_sources",
+    "independent_or_assurance_role",
+    "raw_evidence",
+    "field_or_cell_binding",
+    "period_binding",
+    "numeric_unit_binding",
+    "scope_binding",
+    "trusted_fact_conflict_clearance",
+    "trusted_equivalent_noop"
+  ],
+  "outcomes": [
+    "ready_for_tier_b_overlay_commit",
+    "blocked_promotion_preconditions",
+    "already_trusted_equivalent"
+  ],
+  "safety_invariants": {
+    "automatic_trust_promotion": false,
+    "promotion_performed": false,
+    "trusted_layer_modified": false,
+    "candidate_layer_modified": false,
+    "locked_experiments_modified": false,
+    "cloud_transfer_performed": false,
+    "restart_reconciliation_enabled": true
+  },
+  "validation": {
+    "pytest": {"collected": 575, "passed": 575},
+    "ruff": "passed",
+    "frontend_eslint": "passed",
+    "frontend_production_build": "passed",
+    "api_supervised_restart": "passed",
+    "api_health": "passed",
+    "ui_http": "passed"
+  },
+  "artifacts": {
+    "src/esg_reliable_discovery/workbench_promotion_staging.py": "bf2e809198c5cc56baceae7d9caddee5807a00cd0ba1f866db36db2e84bfd7c9",
+    "src/esg_reliable_discovery/workbench_api.py": "707a265fa0afae923f8b8f8f118a493d09cf932b63ccb7ab76821701404daaf9",
+    "schemas/knowledge/workbench-promotion-staging-v1.0.schema.json": "2276da94d12460cd23530cc23883858c9cd9af10b30965119ad4109beeba4581",
+    "tests/test_workbench_promotion_staging.py": "7763128191b5bfd82d7cd6c66d5c668989842c4ea29cf9355944c1bd1d9b06d7",
+    "tests/test_workbench_api.py": "be6cc03fcd52f674916c26e39361fd05e8f94b6debd822bbf9506568a6baf672",
+    "workbench-ui/components/workbench/fact-evidence-sheet.tsx": "92d379cc3a39f9ca451d9d93dbe3b9c2eb03fe9fc6d97800ce9a3dc3b64112c6"
+  },
+  "next_boundary": "reversible_tier_b_overlay_commit_and_withdrawal"
+}

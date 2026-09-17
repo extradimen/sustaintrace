@@ -1,0 +1,151 @@
+{
+  "parser": "MinerU 3.4.0 pipeline",
+  "schema_version": "1.0",
+  "targets": [
+    {
+      "document_id": "P3-AMD-CR2025",
+      "document_sha256": "a31017194c1b94df0ed60d49f2d41fae6de7f7960609c0a1b46790b393a88610",
+      "local_path": "data/raw/p3_staging/amd/2024-25-amd-cr-report.pdf",
+      "output_directory": "artifacts/p3/mineru_targets_retry1/P3-AMD-CR2025-p0034",
+      "output_file_count": 10,
+      "pdf_page": 34,
+      "run_record_sha256": "384db8eda4666a404b3e54e4684a09a2f76effab5bd50aed57944b3d06815c19",
+      "status": "parsed",
+      "target_id": "P3-AMD-CR2025-p0034",
+      "task_ids": [
+        "P3-XPAGE-001"
+      ]
+    },
+    {
+      "document_id": "P3-AMD-CR2025",
+      "document_sha256": "a31017194c1b94df0ed60d49f2d41fae6de7f7960609c0a1b46790b393a88610",
+      "local_path": "data/raw/p3_staging/amd/2024-25-amd-cr-report.pdf",
+      "output_directory": "artifacts/p3/mineru_targets_retry1/P3-AMD-CR2025-p0106",
+      "output_file_count": 8,
+      "pdf_page": 106,
+      "run_record_sha256": "f053f7981700dedd0c718438a23a7c7d279c75ded12d5b3363d38af2e08c9048",
+      "status": "parsed",
+      "target_id": "P3-AMD-CR2025-p0106",
+      "task_ids": [
+        "P3-CALC-001",
+        "P3-XPAGE-001"
+      ]
+    },
+    {
+      "document_id": "P3-DIAGEO-AR2024",
+      "document_sha256": "94b8147ed3b8f42e30b937c6f03a8ad34a466bf9671124672ec2afa26f7d8658",
+      "local_path": "data/raw/p3_staging/diageo/diageo-annual-report-2024.pdf",
+      "output_directory": "artifacts/p3/mineru_targets_retry1/P3-DIAGEO-AR2024-p0037",
+      "output_file_count": 13,
+      "pdf_page": 37,
+      "run_record_sha256": "8b9ba54728549be00c062e5183bfc2c7ad14ef03a17f12e3125e74852f8279d5",
+      "status": "parsed",
+      "target_id": "P3-DIAGEO-AR2024-p0037",
+      "task_ids": [
+        "P3-XPAGE-002"
+      ]
+    },
+    {
+      "document_id": "P3-DIAGEO-AR2024",
+      "document_sha256": "94b8147ed3b8f42e30b937c6f03a8ad34a466bf9671124672ec2afa26f7d8658",
+      "local_path": "data/raw/p3_staging/diageo/diageo-annual-report-2024.pdf",
+      "output_directory": "artifacts/p3/mineru_targets_retry1/P3-DIAGEO-AR2024-p0131",
+      "output_file_count": 10,
+      "pdf_page": 131,
+      "run_record_sha256": "8f748397a9b39906dc0360b9b50e5d46526f6a4b51b5b9612e6a2c75eec27ed8",
+      "status": "parsed",
+      "target_id": "P3-DIAGEO-AR2024-p0131",
+      "task_ids": [
+        "P3-DEX-002",
+        "P3-XPAGE-002"
+      ]
+    },
+    {
+      "document_id": "P3-GSK-RBPR2024",
+      "document_sha256": "0d8f685d5b035bc6ef9ffd6ca79d247105323b93aea9158d79496d9f096221f9",
+      "local_path": "data/raw/p3_staging/gsk/responsible-business-performance-report-2024.pdf",
+      "output_directory": "artifacts/p3/mineru_targets_retry1/P3-GSK-RBPR2024-p0032",
+      "output_file_count": 10,
+      "pdf_page": 32,
+      "run_record_sha256": "ff4d40d6b7d40f88b71e65864a34aef85f31b2985c260109d230c8d976820f4b",
+      "status": "parsed",
+      "target_id": "P3-GSK-RBPR2024-p0032",
+      "task_ids": [
+        "P3-CALC-002",
+        "P3-CONFLICT-002"
+      ]
+    },
+    {
+      "document_id": "P3-GSK-RBPR2024",
+      "document_sha256": "0d8f685d5b035bc6ef9ffd6ca79d247105323b93aea9158d79496d9f096221f9",
+      "local_path": "data/raw/p3_staging/gsk/responsible-business-performance-report-2024.pdf",
+      "output_directory": "artifacts/p3/mineru_targets_retry1/P3-GSK-RBPR2024-p0041",
+      "output_file_count": 9,
+      "pdf_page": 41,
+      "run_record_sha256": "4a80bec9734cdcc7f96d96740b77935de6c1cbb5213b107c9106dc24a8c5c1b0",
+      "status": "parsed",
+      "target_id": "P3-GSK-RBPR2024-p0041",
+      "task_ids": [
+        "P3-ABSTAIN-001"
+      ]
+    },
+    {
+      "document_id": "P3-GSK-RBPR2024",
+      "document_sha256": "0d8f685d5b035bc6ef9ffd6ca79d247105323b93aea9158d79496d9f096221f9",
+      "local_path": "data/raw/p3_staging/gsk/responsible-business-performance-report-2024.pdf",
+      "output_directory": "artifacts/p3/mineru_targets_retry1/P3-GSK-RBPR2024-p0043",
+      "output_file_count": 9,
+      "pdf_page": 43,
+      "run_record_sha256": "caa9ce38ba94ecbe996b5aa911f103f0310af070111fbb63252e1d905997e3df",
+      "status": "parsed",
+      "target_id": "P3-GSK-RBPR2024-p0043",
+      "task_ids": [
+        "P3-ABSTAIN-002"
+      ]
+    },
+    {
+      "document_id": "P3-HEINEKEN-AR2025",
+      "document_sha256": "2dee3a7ac14103566f798aff09ce15bc354815c0848d2831fcb99d71bdfad259",
+      "local_path": "data/raw/p3_staging/heineken/heineken-annual-report-2025.pdf",
+      "output_directory": "artifacts/p3/mineru_targets_retry1/P3-HEINEKEN-AR2025-p0175",
+      "output_file_count": 10,
+      "pdf_page": 175,
+      "run_record_sha256": "1414c969bd1698122e2c3949169993cf81ea826732f37aa56df4a3eef7a85108",
+      "status": "parsed",
+      "target_id": "P3-HEINEKEN-AR2025-p0175",
+      "task_ids": [
+        "P3-DEX-001",
+        "P3-SCOPE-002"
+      ]
+    },
+    {
+      "document_id": "P3-LENOVO-FY2025-ESG",
+      "document_sha256": "5e52749d585a8c7eb9f6b05e800301f7282364562d32ba04b6742341319a7a4b",
+      "local_path": "data/raw/p3_staging/lenovo/FY2025-lenovo-sustainability-report.pdf",
+      "output_directory": "artifacts/p3/mineru_targets_retry1/P3-LENOVO-FY2025-ESG-p0100",
+      "output_file_count": 9,
+      "pdf_page": 100,
+      "run_record_sha256": "66ebca4b735dc4ddf49afeef5d06c31e5f3398a18bf94e0049d59191e6ed1b61",
+      "status": "parsed",
+      "target_id": "P3-LENOVO-FY2025-ESG-p0100",
+      "task_ids": [
+        "P3-SCOPE-001"
+      ]
+    },
+    {
+      "document_id": "P3-TD-SR2024",
+      "document_sha256": "42a393a11223b1b82e04ee0fa7b792684593c9c100ee35fa971141af802340cc",
+      "local_path": "data/raw/p3_staging/td/2024-sustainability-report-en.pdf",
+      "output_directory": "artifacts/p3/mineru_targets_retry1/P3-TD-SR2024-p0058",
+      "output_file_count": 10,
+      "pdf_page": 58,
+      "run_record_sha256": "d037986ca86a524d015dc38c67641caa1e730099398a97bfe2dfb7b511ca9f82",
+      "status": "parsed",
+      "target_id": "P3-TD-SR2024-p0058",
+      "task_ids": [
+        "P3-CONFLICT-001"
+      ]
+    }
+  ],
+  "unique_target_count": 10
+}

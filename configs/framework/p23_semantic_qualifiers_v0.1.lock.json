@@ -1,0 +1,15 @@
+{
+  "experiment_id": "P23-V32-UNSEEN-LOCKBOX-V01",
+  "qualifiers": {
+    "P23-ASSURE-001": "do not extend assurance beyond explicitly stated GHG statements and RBPR information",
+    "P23-BOUNDARY-001": "separate 2030 and 2045 targets and residual-emissions treatment",
+    "P23-ENERGY-CALC-001": "separate total operations and UK operations",
+    "P23-GHG-CALC-001": "Scope 1 plus market-based Scope 2 in thousand tonnes CO2e",
+    "P23-WATER-CALC-001": "operational supplied water in million m3; preserve issuer rounding",
+    "P23-WORKFORCE-CALC-001": "Board and management headcount versus all-employees FTE derivation",
+    "page_coordinates": "one-based PDF page indexes",
+    "reference_type": "AI-simulated research reference; not independent human gold"
+  },
+  "schema_version": "3.2",
+  "status": "frozen_before_candidate_inference"
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "experiment_id": "P13-V22-UNSEEN-LOCKBOX-V01",
+  "status": "mineru_infrastructure_failure_preserved_native_fallback_complete",
+  "source_sha256": "6ca8d7f0faa864cf46a98b1ae8c3ae85979d310d6c0f436dc169d525c706b568",
+  "mineru": {
+    "version": "3.4.0",
+    "attempted_pages": [148,149,150,152,153,213,315,333,334,339,340,344,353],
+    "completed_pages": [],
+    "failed_pages": [148,149,150,152,153,213,315,333,334,339,340,344,353],
+    "failure_class": "infrastructure_model_asset_missing_and_network_restricted",
+    "root_cause": "The configured local PDF-Extract-Kit snapshot lacks the legacy YOLOv8 MFD weight selected by MinerU 3.4.0. Ultralytics attempted to query api.github.com for a replacement asset, but DNS/network access was unavailable in the execution sandbox.",
+    "model_behavior_failure": false,
+    "silent_retry_performed": false,
+    "logs_root": "artifacts/p13/mineru_logs"
+  },
+  "native_fallback": {
+    "tool": "pdftotext layout UTF-8",
+    "policy_basis": "pre_registered_in_p13_local_parse_plan_v0.1.lock.json",
+    "completed_pages": [148,149,150,152,153,213,315,333,334,339,340,344,353],
+    "failed_pages": [],
+    "output_root": "artifacts/p13/native_pdf_targets",
+    "warnings_preserved": true,
+    "cloud_transmission": false
+  },
+  "next_action": "Use the frozen native fallback outputs for evidence audit and reference construction; do not rerun the failed MinerU batch unless a complete compatible local model snapshot is verified and a RESUME lineage is created."
+}

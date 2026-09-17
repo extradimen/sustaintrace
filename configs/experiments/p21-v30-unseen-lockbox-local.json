@@ -1,0 +1,97 @@
+{
+  "candidate_model": "qwen3.5:397b-cloud",
+  "cloud_transmission_allowed": false,
+  "experiment_id": "P21-V30-UNSEEN-LOCKBOX-V01",
+  "failure_policy": {
+    "archive_model_behavior_failure": true,
+    "infrastructure_resume_requires_lineage": true,
+    "posthoc_semantic_repair": false,
+    "silent_retry": false
+  },
+  "model_config": "configs/models/p1-ollama-cloud-qwen3.5-397b.json",
+  "pre_candidate_gate": {
+    "result": {
+      "checked_operations": [
+        {
+          "operation": "sum",
+          "step_id": "sum_2025",
+          "task_id": "P21-GHG-CALC-001"
+        },
+        {
+          "operation": "sum",
+          "step_id": "sum_2024",
+          "task_id": "P21-GHG-CALC-001"
+        },
+        {
+          "operation": "percentage_change",
+          "step_id": "percentage_change",
+          "task_id": "P21-GHG-CALC-001"
+        },
+        {
+          "operation": "sum",
+          "step_id": "sum_2025",
+          "task_id": "P21-SCOPE3-001"
+        },
+        {
+          "operation": "percentage_share",
+          "step_id": "share_2025",
+          "task_id": "P21-SCOPE3-001"
+        },
+        {
+          "operation": "sum",
+          "step_id": "sum_2024",
+          "task_id": "P21-SCOPE3-001"
+        },
+        {
+          "operation": "percentage_share",
+          "step_id": "share_2024",
+          "task_id": "P21-SCOPE3-001"
+        },
+        {
+          "operation": "sum",
+          "step_id": "category_sum",
+          "task_id": "P21-WORKFORCE-001"
+        },
+        {
+          "operation": "difference",
+          "step_id": "difference",
+          "task_id": "P21-WORKFORCE-001"
+        }
+      ],
+      "deterministic_task_count": 3,
+      "plan_count": 3,
+      "status": "passed",
+      "task_count": 6,
+      "validated_before_candidate_call": true
+    },
+    "use_v29_whole_pack_plan_gate": true
+  },
+  "schema_version": "3.0",
+  "stage_a": {
+    "calculation_plans": "configs/framework/p21_calculation_plans_v0.1.lock.json",
+    "evidence_handle_whitelist": "configs/framework/p21_evidence_handle_whitelist_v0.1.lock.json",
+    "single_attempt": true,
+    "use_v15_grounding": true,
+    "use_v21_calculation": true,
+    "use_v24_layout_gate": true,
+    "use_v25_calculation_adapter": true,
+    "use_v26_evidence_handle_audit": true,
+    "use_v27_partial_calculation": true,
+    "use_v28_handle_role_binding": true,
+    "use_v29_calculation_executor": true,
+    "use_v29_task_id_schema": false,
+    "use_v30_executor_identity_envelope": true
+  },
+  "stage_b": {
+    "semantic_qualifiers": "configs/framework/p21_semantic_qualifiers_v0.1.lock.json",
+    "single_attempt": true,
+    "slot_contracts": "configs/framework/p21_slot_contracts_v0.1.lock.json",
+    "use_v20_contract_gate": true,
+    "use_v24_layout_gate": true,
+    "use_v24_preflight": true,
+    "use_v25_single_block_ordered_spans": true,
+    "use_v26_atomic_projection": true,
+    "use_v27_handle_aliases": true
+  },
+  "status": "frozen_local_configuration_pending_payload_specific_cloud_authorization"
+}

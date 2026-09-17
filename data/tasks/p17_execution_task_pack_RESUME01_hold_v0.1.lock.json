@@ -1,0 +1,12 @@
+{
+  "schema_version": "2.6",
+  "experiment_id": "P17-V26-UNSEEN-LOCKBOX-V01",
+  "status": "safety_hold_pending_exact_cloud_authorization",
+  "inference_allowed": false,
+  "parent_release": "data/tasks/p17_execution_task_pack_v0.1.lock.json",
+  "authorization_adjudication": "data/manifests/p17_cloud_authorization_adjudication_RESUME01_v0.1.lock.json",
+  "cloud_transmission_occurred": false,
+  "candidate_model_call_started": false,
+  "tasks": [],
+  "release_condition": "Exact trusted user authorization must name BMW Group Report 2025, pages 127,129,130,141,142,172,178,179,372,373,374,375, Ollama Cloud qwen3.5:397b-cloud, and P17 Stage A/Stage B single-attempt candidate inference."
+}

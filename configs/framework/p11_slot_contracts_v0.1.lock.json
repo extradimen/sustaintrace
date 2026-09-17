@@ -1,0 +1,286 @@
+{
+  "schema_version": "2.0",
+  "experiment_id": "P11-V20-UNSEEN-LOCKBOX-V01",
+  "status": "frozen_before_candidate_inference",
+  "contracts": {
+    "P11-SAFETY-001": [
+      {
+        "slot_id": "own_workforce_total_fatalities",
+        "predicate_id": "esg_disclosure::own_workforce_total_fatalities",
+        "value_type": "number",
+        "canonical_unit": "count",
+        "period": "2025"
+      },
+      {
+        "slot_id": "other_workers_total_fatalities",
+        "predicate_id": "esg_disclosure::other_workers_total_fatalities",
+        "value_type": "number",
+        "canonical_unit": "count",
+        "period": "2025"
+      },
+      {
+        "slot_id": "injury_fatalities_total",
+        "predicate_id": "esg_disclosure::injury_fatalities_total",
+        "value_type": "number",
+        "canonical_unit": "count",
+        "period": "2025"
+      },
+      {
+        "slot_id": "injury_fatalities_employees",
+        "predicate_id": "esg_disclosure::injury_fatalities_employees",
+        "value_type": "number",
+        "canonical_unit": "count",
+        "period": "2025"
+      },
+      {
+        "slot_id": "injury_fatalities_other_workers",
+        "predicate_id": "esg_disclosure::injury_fatalities_other_workers",
+        "value_type": "number",
+        "canonical_unit": "count",
+        "period": "2025"
+      },
+      {
+        "slot_id": "ill_health_fatalities_total",
+        "predicate_id": "esg_disclosure::ill_health_fatalities_total",
+        "value_type": "number",
+        "canonical_unit": "count",
+        "period": "2025"
+      },
+      {
+        "slot_id": "ill_health_fatalities_employees",
+        "predicate_id": "esg_disclosure::ill_health_fatalities_employees",
+        "value_type": "number",
+        "canonical_unit": "count",
+        "period": "2025"
+      },
+      {
+        "slot_id": "ill_health_fatalities_other_workers",
+        "predicate_id": "esg_disclosure::ill_health_fatalities_other_workers",
+        "value_type": "number",
+        "canonical_unit": "count",
+        "period": "2025"
+      }
+    ],
+    "P11-CALC-001": [
+      {
+        "slot_id": "gross_scope_1_2025_ktco2e",
+        "predicate_id": "esg_disclosure::gross_scope_1",
+        "value_type": "number",
+        "canonical_unit": "ktCO2e",
+        "period": "2025"
+      },
+      {
+        "slot_id": "gross_market_scope_2_2025_ktco2e",
+        "predicate_id": "esg_disclosure::gross_market_scope_2",
+        "value_type": "number",
+        "canonical_unit": "ktCO2e",
+        "period": "2025"
+      },
+      {
+        "slot_id": "calculated_sum_ktco2e",
+        "predicate_id": "esg_calculation::scope_1_plus_market_scope_2",
+        "value_type": "number",
+        "canonical_unit": "ktCO2e",
+        "period": "2025"
+      },
+      {
+        "slot_id": "disclosed_total_ktco2e",
+        "predicate_id": "esg_disclosure::total_scope_1_2_market_based",
+        "value_type": "number",
+        "canonical_unit": "ktCO2e",
+        "period": "2025"
+      },
+      {
+        "slot_id": "difference_ktco2e",
+        "predicate_id": "esg_calculation::calculated_minus_disclosed",
+        "value_type": "number",
+        "canonical_unit": "ktCO2e",
+        "period": "2025"
+      },
+      {
+        "slot_id": "comparison",
+        "predicate_id": "esg_calculation::comparison_status",
+        "value_type": "string"
+      },
+      {
+        "slot_id": "rounding_context",
+        "predicate_id": "esg_calculation::rounding_context",
+        "value_type": "string"
+      }
+    ],
+    "P11-TARGET-001": [
+      {
+        "slot_id": "baseline_year",
+        "predicate_id": "esg_target::baseline_year",
+        "value_type": "number"
+      },
+      {
+        "slot_id": "siemens_group",
+        "predicate_id": "esg_target::siemens_group_targets",
+        "value_type": "object",
+        "member_contract": {
+          "canonical_id": "nonempty_string",
+          "evidence_handle": "frozen_handle",
+          "verbatim_value": "grounded_nonempty_string"
+        }
+      },
+      {
+        "slot_id": "siemens_without_shs",
+        "predicate_id": "esg_target::siemens_without_shs_targets",
+        "value_type": "object",
+        "member_contract": {
+          "canonical_id": "nonempty_string",
+          "evidence_handle": "frozen_handle",
+          "verbatim_value": "grounded_nonempty_string"
+        }
+      },
+      {
+        "slot_id": "scope_2_method",
+        "predicate_id": "esg_target::scope_2_method",
+        "value_type": "string"
+      },
+      {
+        "slot_id": "coverage",
+        "predicate_id": "esg_target::coverage",
+        "value_type": "string"
+      },
+      {
+        "slot_id": "exclusion",
+        "predicate_id": "esg_target::exclusion",
+        "value_type": "string"
+      },
+      {
+        "slot_id": "baseline_adjustment",
+        "predicate_id": "esg_target::baseline_adjustment",
+        "value_type": "string"
+      }
+    ],
+    "P11-BOUNDARY-001": [
+      {
+        "slot_id": "consolidation_scope",
+        "predicate_id": "esg_boundary::consolidation_scope",
+        "value_type": "string"
+      },
+      {
+        "slot_id": "own_operations",
+        "predicate_id": "esg_boundary::own_operations",
+        "value_type": "string"
+      },
+      {
+        "slot_id": "upstream_value_chain",
+        "predicate_id": "esg_boundary::upstream_value_chain",
+        "value_type": "string"
+      },
+      {
+        "slot_id": "downstream_value_chain",
+        "predicate_id": "esg_boundary::downstream_value_chain",
+        "value_type": "string"
+      },
+      {
+        "slot_id": "siemens_healthineers_default",
+        "predicate_id": "esg_boundary::siemens_healthineers_default",
+        "value_type": "string"
+      },
+      {
+        "slot_id": "siemens_without_shs_meaning",
+        "predicate_id": "esg_boundary::siemens_without_shs_meaning",
+        "value_type": "string"
+      }
+    ],
+    "P11-SCOPE3-001": [
+      {
+        "slot_id": "total_gross_scope_3_2025_ktco2e",
+        "predicate_id": "esg_disclosure::total_gross_scope_3",
+        "value_type": "number",
+        "canonical_unit": "ktCO2e",
+        "period": "2025"
+      },
+      {
+        "slot_id": "category_3_11_2025_ktco2e",
+        "predicate_id": "esg_disclosure::category_3_11",
+        "value_type": "number",
+        "canonical_unit": "ktCO2e",
+        "period": "2025"
+      },
+      {
+        "slot_id": "category_3_11_boundary",
+        "predicate_id": "esg_method::category_3_11_boundary",
+        "value_type": "string"
+      },
+      {
+        "slot_id": "assumptions",
+        "predicate_id": "esg_method::category_3_11_assumptions",
+        "value_type": "array",
+        "member_contract": {
+          "canonical_id": "nonempty_string",
+          "evidence_handle": "frozen_handle",
+          "verbatim_value": "grounded_nonempty_string"
+        }
+      },
+      {
+        "slot_id": "software_exclusion",
+        "predicate_id": "esg_method::category_3_11_software_exclusion",
+        "value_type": "string"
+      },
+      {
+        "slot_id": "factor_sources",
+        "predicate_id": "esg_method::category_3_11_factor_sources",
+        "value_type": "object",
+        "member_contract": {
+          "canonical_id": "nonempty_string",
+          "evidence_handle": "frozen_handle",
+          "verbatim_value": "grounded_nonempty_string"
+        }
+      },
+      {
+        "slot_id": "primary_data_share_percent",
+        "predicate_id": "esg_method::scope_3_primary_data_share",
+        "value_type": "number",
+        "canonical_unit": "percent",
+        "period": "2025"
+      }
+    ],
+    "P11-ASSURE-001": [
+      {
+        "slot_id": "assurance_level",
+        "predicate_id": "esg_assurance::level",
+        "value_type": "string"
+      },
+      {
+        "slot_id": "subject",
+        "predicate_id": "esg_assurance::subject",
+        "value_type": "string"
+      },
+      {
+        "slot_id": "reporting_period",
+        "predicate_id": "esg_assurance::reporting_period",
+        "value_type": "string"
+      },
+      {
+        "slot_id": "standard",
+        "predicate_id": "esg_assurance::standard",
+        "value_type": "string"
+      },
+      {
+        "slot_id": "excluded_information",
+        "predicate_id": "esg_assurance::excluded_information",
+        "value_type": "array",
+        "member_contract": {
+          "canonical_id": "nonempty_string",
+          "evidence_handle": "frozen_handle",
+          "verbatim_value": "grounded_nonempty_string"
+        }
+      },
+      {
+        "slot_id": "procedure_difference",
+        "predicate_id": "esg_assurance::procedure_difference",
+        "value_type": "string"
+      },
+      {
+        "slot_id": "relative_assurance",
+        "predicate_id": "esg_assurance::relative_assurance",
+        "value_type": "string"
+      }
+    ]
+  }
+}

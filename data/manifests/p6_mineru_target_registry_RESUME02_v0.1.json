@@ -1,0 +1,92 @@
+{
+  "parser": "MinerU 3.4.0 pipeline",
+  "schema_version": "1.0",
+  "targets": [
+    {
+      "document_id": "P6-UNILEVER-AR2025",
+      "document_sha256": "dcdc67ff84977e2beeb6b7a8113b6862fae1880838c613eceac42ba4b605d9d7",
+      "local_path": "data/raw/p6_staging/unilever-annual-report-2025.pdf",
+      "output_directory": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/p6/mineru_targets_RESUME02/P6-UNILEVER-AR2025-p0232",
+      "output_file_count": 11,
+      "pdf_page": 232,
+      "run_record_sha256": "424ad5f0605ab9f639083a36d8e7bb9c7c11bd1d93d033b86b9cf705dc93c888",
+      "status": "parsed",
+      "target_id": "P6-UNILEVER-AR2025-p0232",
+      "task_ids": [
+        "P6-TARGET-001"
+      ]
+    },
+    {
+      "document_id": "P6-UNILEVER-AR2025",
+      "document_sha256": "dcdc67ff84977e2beeb6b7a8113b6862fae1880838c613eceac42ba4b605d9d7",
+      "local_path": "data/raw/p6_staging/unilever-annual-report-2025.pdf",
+      "output_directory": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/p6/mineru_targets_RESUME02/P6-UNILEVER-AR2025-p0235",
+      "output_file_count": 10,
+      "pdf_page": 235,
+      "run_record_sha256": "b66f84544d3f51e12dfb9eb67027ac6ebd89d44bd1db3df510803bbe40893953",
+      "status": "parsed",
+      "target_id": "P6-UNILEVER-AR2025-p0235",
+      "task_ids": [
+        "P6-CALC-001",
+        "P6-DEX-001"
+      ]
+    },
+    {
+      "document_id": "P6-UNILEVER-AR2025",
+      "document_sha256": "dcdc67ff84977e2beeb6b7a8113b6862fae1880838c613eceac42ba4b605d9d7",
+      "local_path": "data/raw/p6_staging/unilever-annual-report-2025.pdf",
+      "output_directory": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/p6/mineru_targets_RESUME02/P6-UNILEVER-AR2025-p0247",
+      "output_file_count": 9,
+      "pdf_page": 247,
+      "run_record_sha256": "60afcc3508c992ab5bde38d00a80cfa88f255ed25f7d514cf8827efc20e1d26e",
+      "status": "parsed",
+      "target_id": "P6-UNILEVER-AR2025-p0247",
+      "task_ids": [
+        "P6-PLASTIC-001"
+      ]
+    },
+    {
+      "document_id": "P6-UNILEVER-AR2025",
+      "document_sha256": "dcdc67ff84977e2beeb6b7a8113b6862fae1880838c613eceac42ba4b605d9d7",
+      "local_path": "data/raw/p6_staging/unilever-annual-report-2025.pdf",
+      "output_directory": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/p6/mineru_targets_RESUME02/P6-UNILEVER-AR2025-p0262",
+      "output_file_count": 11,
+      "pdf_page": 262,
+      "run_record_sha256": "201836948bd34b892c58afcd98858ddd90bb4dc70517189deb826951812e1476",
+      "status": "parsed",
+      "target_id": "P6-UNILEVER-AR2025-p0262",
+      "task_ids": [
+        "P6-CONFLICT-001"
+      ]
+    },
+    {
+      "document_id": "P6-UNILEVER-AR2025",
+      "document_sha256": "dcdc67ff84977e2beeb6b7a8113b6862fae1880838c613eceac42ba4b605d9d7",
+      "local_path": "data/raw/p6_staging/unilever-annual-report-2025.pdf",
+      "output_directory": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/p6/mineru_targets_RESUME02/P6-UNILEVER-AR2025-p0274",
+      "output_file_count": 8,
+      "pdf_page": 274,
+      "run_record_sha256": "ded760fca165ec625022d90149679175f7c3ce0c269b156cb98446534cf1cc3f",
+      "status": "parsed",
+      "target_id": "P6-UNILEVER-AR2025-p0274",
+      "task_ids": [
+        "P6-ASSURE-001"
+      ]
+    },
+    {
+      "document_id": "P6-UNILEVER-AR2025",
+      "document_sha256": "dcdc67ff84977e2beeb6b7a8113b6862fae1880838c613eceac42ba4b605d9d7",
+      "local_path": "data/raw/p6_staging/unilever-annual-report-2025.pdf",
+      "output_directory": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/p6/mineru_targets_RESUME02/P6-UNILEVER-AR2025-p0275",
+      "output_file_count": 8,
+      "pdf_page": 275,
+      "run_record_sha256": "dd5131974dd2472659413ecae4d6b2c00ac713b8ef572509c15a00e4b9f7b329",
+      "status": "parsed",
+      "target_id": "P6-UNILEVER-AR2025-p0275",
+      "task_ids": [
+        "P6-ASSURE-001"
+      ]
+    }
+  ],
+  "unique_target_count": 6
+}

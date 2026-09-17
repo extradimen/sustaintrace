@@ -1,0 +1,21 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-013-ACQUISITION-RESUME01",
+  "status": "frozen_before_resume_execution",
+  "source_config": "configs/knowledge/scale_batch_013_v0.1.json",
+  "source_config_sha256": "0e7f24dbb930396616ceb0350fbb724ac66109a2ad84c329990f4b549f678e7b",
+  "parent_attempt": "data/manifests/scale_batch_013_acquisition.lock.json",
+  "parent_attempt_sha256": "51f67bc418b138a5d272406b0c3a3fea49a576b0749933637664edc93bac5694",
+  "parent_failure": {
+    "document_id": "KB-B013-ELECTROLUX-AR2025",
+    "failure_signature": "OFFICIAL_SOURCE_READ_TIMEOUT",
+    "partial_bytes": 0
+  },
+  "reused_verified_documents": [
+    "KB-B013-WARTSILA-AR2025",
+    "KB-B013-SKF-ASR2025"
+  ],
+  "resume_policy": "reuse_verified_pdfs_and_retry_only_missing_official_source",
+  "parent_outputs_preserved": true,
+  "cloud_model_transmission": false
+}

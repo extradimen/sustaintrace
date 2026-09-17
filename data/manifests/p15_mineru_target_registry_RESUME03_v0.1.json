@@ -1,0 +1,186 @@
+{
+  "document_id": "P15-NOVARTIS-NFM2025",
+  "document_sha256": "8dbc7f74b114b52eafa7a454bd0cbe49efae3a8ea61e931f7eb075d39336758b",
+  "experiment_id": "P15-V24-UNSEEN-LOCKBOX-V01",
+  "failure_count": 0,
+  "recovery_lineage": [
+    "data/manifests/p15_mineru_recovery_lineage_RESUME01_v0.1.lock.json",
+    "data/manifests/p15_mineru_recovery_lineage_RESUME02_v0.1.lock.json",
+    "data/manifests/p15_mineru_recovery_lineage_RESUME03_v0.1.lock.json"
+  ],
+  "schema_version": "1.0",
+  "status": "all_target_pages_successfully_parsed_and_hash_verified",
+  "success_count": 13,
+  "target_count": 13,
+  "targets": [
+    {
+      "document_id": "P15-NOVARTIS-NFM2025",
+      "document_sha256": "8dbc7f74b114b52eafa7a454bd0cbe49efae3a8ea61e931f7eb075d39336758b",
+      "output_directory": "artifacts/p15/mineru_targets_RESUME02/P15-NOVARTIS-NFM2025-p0020",
+      "pdf_page": 20,
+      "recovery_generation": "RESUME02",
+      "run_record_sha256": "22c682f37da282142e2bffcaaf6ae45621065c0582f30645b8670e0fecc74d54",
+      "status": "success_verified",
+      "target_id": "P15-NOVARTIS-NFM2025-p0020",
+      "task_ids": [
+        "P15-TARGET-001"
+      ]
+    },
+    {
+      "document_id": "P15-NOVARTIS-NFM2025",
+      "document_sha256": "8dbc7f74b114b52eafa7a454bd0cbe49efae3a8ea61e931f7eb075d39336758b",
+      "output_directory": "artifacts/p15/mineru_targets_RESUME02/P15-NOVARTIS-NFM2025-p0021",
+      "pdf_page": 21,
+      "recovery_generation": "RESUME02",
+      "run_record_sha256": "22031b401c171dcdad6b52c7159158cb7e032e5bb2a045c3a144dc812b563add",
+      "status": "success_verified",
+      "target_id": "P15-NOVARTIS-NFM2025-p0021",
+      "task_ids": [
+        "P15-TARGET-001"
+      ]
+    },
+    {
+      "document_id": "P15-NOVARTIS-NFM2025",
+      "document_sha256": "8dbc7f74b114b52eafa7a454bd0cbe49efae3a8ea61e931f7eb075d39336758b",
+      "output_directory": "artifacts/p15/mineru_targets_RESUME02/P15-NOVARTIS-NFM2025-p0022",
+      "pdf_page": 22,
+      "recovery_generation": "RESUME02",
+      "run_record_sha256": "0ccd86a343fc87e61e58ac0a9649729f2178146b5615bc1acc61c8c25ec42c78",
+      "status": "success_verified",
+      "target_id": "P15-NOVARTIS-NFM2025-p0022",
+      "task_ids": [
+        "P15-TARGET-001"
+      ]
+    },
+    {
+      "document_id": "P15-NOVARTIS-NFM2025",
+      "document_sha256": "8dbc7f74b114b52eafa7a454bd0cbe49efae3a8ea61e931f7eb075d39336758b",
+      "output_directory": "artifacts/p15/mineru_targets_RESUME02/P15-NOVARTIS-NFM2025-p0027",
+      "pdf_page": 27,
+      "recovery_generation": "RESUME02",
+      "run_record_sha256": "f889b072b7be17a6ed72346e6de91872370399620664db44ac6409bfcae442f1",
+      "status": "success_verified",
+      "target_id": "P15-NOVARTIS-NFM2025-p0027",
+      "task_ids": [
+        "P15-GHG-CALC-001"
+      ]
+    },
+    {
+      "document_id": "P15-NOVARTIS-NFM2025",
+      "document_sha256": "8dbc7f74b114b52eafa7a454bd0cbe49efae3a8ea61e931f7eb075d39336758b",
+      "output_directory": "artifacts/p15/mineru_targets_RESUME02/P15-NOVARTIS-NFM2025-p0028",
+      "pdf_page": 28,
+      "recovery_generation": "RESUME02",
+      "run_record_sha256": "ae98ae8fe50df84c98b4e627ee423d793ae4ab9f1d56c0319c01843bf8aef65f",
+      "status": "success_verified",
+      "target_id": "P15-NOVARTIS-NFM2025-p0028",
+      "task_ids": [
+        "P15-GHG-CALC-001"
+      ]
+    },
+    {
+      "document_id": "P15-NOVARTIS-NFM2025",
+      "document_sha256": "8dbc7f74b114b52eafa7a454bd0cbe49efae3a8ea61e931f7eb075d39336758b",
+      "output_directory": "artifacts/p15/mineru_targets_RESUME02/P15-NOVARTIS-NFM2025-p0029",
+      "pdf_page": 29,
+      "recovery_generation": "RESUME02",
+      "run_record_sha256": "9c0b7c693f2e084eb028d6c33eaa837337f44342191b509722d20153983af984",
+      "status": "success_verified",
+      "target_id": "P15-NOVARTIS-NFM2025-p0029",
+      "task_ids": [
+        "P15-WATER-QUALITY-001"
+      ]
+    },
+    {
+      "document_id": "P15-NOVARTIS-NFM2025",
+      "document_sha256": "8dbc7f74b114b52eafa7a454bd0cbe49efae3a8ea61e931f7eb075d39336758b",
+      "output_directory": "artifacts/p15/mineru_targets_RESUME02/P15-NOVARTIS-NFM2025-p0030",
+      "pdf_page": 30,
+      "recovery_generation": "RESUME02",
+      "run_record_sha256": "ead6f94e828aaa7003199d5de2ad437a1e15bc91b9c847bdc93a93bbf8a1a46f",
+      "status": "success_verified",
+      "target_id": "P15-NOVARTIS-NFM2025-p0030",
+      "task_ids": [
+        "P15-WATER-QUALITY-001"
+      ]
+    },
+    {
+      "document_id": "P15-NOVARTIS-NFM2025",
+      "document_sha256": "8dbc7f74b114b52eafa7a454bd0cbe49efae3a8ea61e931f7eb075d39336758b",
+      "output_directory": "artifacts/p15/mineru_targets_RESUME03/P15-NOVARTIS-NFM2025-p0031",
+      "pdf_page": 31,
+      "recovery_generation": "RESUME03",
+      "run_record_sha256": "feaafba4d2da72762f581f4d3b848041f9a9121072e9f019fe9e08eeb4b34618",
+      "status": "success_verified",
+      "target_id": "P15-NOVARTIS-NFM2025-p0031",
+      "task_ids": [
+        "P15-SAFETY-001"
+      ]
+    },
+    {
+      "document_id": "P15-NOVARTIS-NFM2025",
+      "document_sha256": "8dbc7f74b114b52eafa7a454bd0cbe49efae3a8ea61e931f7eb075d39336758b",
+      "output_directory": "artifacts/p15/mineru_targets_RESUME02/P15-NOVARTIS-NFM2025-p0032",
+      "pdf_page": 32,
+      "recovery_generation": "RESUME02",
+      "run_record_sha256": "b94174e2d0e17556099bbe8f567ab39c0f1c60054295c583e8a28f7d2ea4f25e",
+      "status": "success_verified",
+      "target_id": "P15-NOVARTIS-NFM2025-p0032",
+      "task_ids": [
+        "P15-SAFETY-001"
+      ]
+    },
+    {
+      "document_id": "P15-NOVARTIS-NFM2025",
+      "document_sha256": "8dbc7f74b114b52eafa7a454bd0cbe49efae3a8ea61e931f7eb075d39336758b",
+      "output_directory": "artifacts/p15/mineru_targets_RESUME03/P15-NOVARTIS-NFM2025-p0036",
+      "pdf_page": 36,
+      "recovery_generation": "RESUME03",
+      "run_record_sha256": "a7d29316519b5a1b32641ace11630ade19ebd2ad790bebfd8dfd65c92289148c",
+      "status": "success_verified",
+      "target_id": "P15-NOVARTIS-NFM2025-p0036",
+      "task_ids": [
+        "P15-ACCESS-001"
+      ]
+    },
+    {
+      "document_id": "P15-NOVARTIS-NFM2025",
+      "document_sha256": "8dbc7f74b114b52eafa7a454bd0cbe49efae3a8ea61e931f7eb075d39336758b",
+      "output_directory": "artifacts/p15/mineru_targets_RESUME02/P15-NOVARTIS-NFM2025-p0043",
+      "pdf_page": 43,
+      "recovery_generation": "RESUME02",
+      "run_record_sha256": "3c20b758e2783be84b170fbfd2c9f86bfada1696e79303e7271cb9b9559398ee",
+      "status": "success_verified",
+      "target_id": "P15-NOVARTIS-NFM2025-p0043",
+      "task_ids": [
+        "P15-ASSURE-001"
+      ]
+    },
+    {
+      "document_id": "P15-NOVARTIS-NFM2025",
+      "document_sha256": "8dbc7f74b114b52eafa7a454bd0cbe49efae3a8ea61e931f7eb075d39336758b",
+      "output_directory": "artifacts/p15/mineru_targets_RESUME02/P15-NOVARTIS-NFM2025-p0044",
+      "pdf_page": 44,
+      "recovery_generation": "RESUME02",
+      "run_record_sha256": "530a0f10521d4856f13a26e7c0873ab26585b71ab36b98ab08c937ff2f2011cd",
+      "status": "success_verified",
+      "target_id": "P15-NOVARTIS-NFM2025-p0044",
+      "task_ids": [
+        "P15-ASSURE-001"
+      ]
+    },
+    {
+      "document_id": "P15-NOVARTIS-NFM2025",
+      "document_sha256": "8dbc7f74b114b52eafa7a454bd0cbe49efae3a8ea61e931f7eb075d39336758b",
+      "output_directory": "artifacts/p15/mineru_targets_RESUME02/P15-NOVARTIS-NFM2025-p0045",
+      "pdf_page": 45,
+      "recovery_generation": "RESUME02",
+      "run_record_sha256": "9939c15c83da078372796d23ba0f7deafbc41e3172bdea59013244582a519f6a",
+      "status": "success_verified",
+      "target_id": "P15-NOVARTIS-NFM2025-p0045",
+      "task_ids": [
+        "P15-ASSURE-001"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,671 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-011",
+  "created_at": "2026-09-13T04:20:08.521396+00:00",
+  "status": "local_diagnostics_complete",
+  "cloud_transmission": false,
+  "documents": [
+    {
+      "document_id": "KB-B011-ENI-SS2025",
+      "source_group_id": "KB-ENI-2025",
+      "company": "Eni S.p.A.",
+      "local_path": "data/raw/scale_batch_011/eni-annual-report-2025-sustainability.pdf",
+      "sha256": "999dd84dcfbd0baad741187e0006b22e1d86e6ddf0058e20f2cef7eaede1128c",
+      "pdfinfo_pages": 141,
+      "extracted_pages": 141,
+      "page_count_consistent": true,
+      "encrypted": "yes (print:yes copy:yes change:no addNotes:yes algorithm:RC4)",
+      "extractable_pages": 141,
+      "extractable_ratio": 1.0,
+      "total_text_characters": 851200,
+      "theme_hit_totals": {
+        "assurance": 3,
+        "biodiversity": 139,
+        "circularity": 82,
+        "energy": 40,
+        "ghg_emissions": 163,
+        "health_safety": 17,
+        "targets": 26,
+        "water": 46,
+        "workforce": 160
+      },
+      "candidate_pages_by_theme": {
+        "ghg_emissions": [
+          {
+            "page": 33,
+            "hits": 23
+          },
+          {
+            "page": 31,
+            "hits": 21
+          },
+          {
+            "page": 26,
+            "hits": 19
+          },
+          {
+            "page": 32,
+            "hits": 17
+          },
+          {
+            "page": 20,
+            "hits": 11
+          }
+        ],
+        "energy": [
+          {
+            "page": 35,
+            "hits": 19
+          },
+          {
+            "page": 34,
+            "hits": 7
+          },
+          {
+            "page": 22,
+            "hits": 2
+          },
+          {
+            "page": 32,
+            "hits": 2
+          },
+          {
+            "page": 57,
+            "hits": 2
+          }
+        ],
+        "water": [
+          {
+            "page": 49,
+            "hits": 16
+          },
+          {
+            "page": 47,
+            "hits": 9
+          },
+          {
+            "page": 48,
+            "hits": 5
+          },
+          {
+            "page": 46,
+            "hits": 4
+          },
+          {
+            "page": 6,
+            "hits": 2
+          }
+        ],
+        "workforce": [
+          {
+            "page": 72,
+            "hits": 31
+          },
+          {
+            "page": 73,
+            "hits": 13
+          },
+          {
+            "page": 69,
+            "hits": 12
+          },
+          {
+            "page": 136,
+            "hits": 11
+          },
+          {
+            "page": 6,
+            "hits": 10
+          }
+        ],
+        "health_safety": [
+          {
+            "page": 78,
+            "hits": 8
+          },
+          {
+            "page": 6,
+            "hits": 2
+          },
+          {
+            "page": 74,
+            "hits": 2
+          },
+          {
+            "page": 11,
+            "hits": 1
+          },
+          {
+            "page": 65,
+            "hits": 1
+          }
+        ],
+        "assurance": [
+          {
+            "page": 8,
+            "hits": 1
+          },
+          {
+            "page": 105,
+            "hits": 1
+          },
+          {
+            "page": 109,
+            "hits": 1
+          }
+        ],
+        "targets": [
+          {
+            "page": 26,
+            "hits": 5
+          },
+          {
+            "page": 21,
+            "hits": 4
+          },
+          {
+            "page": 6,
+            "hits": 3
+          },
+          {
+            "page": 28,
+            "hits": 3
+          },
+          {
+            "page": 25,
+            "hits": 2
+          }
+        ],
+        "biodiversity": [
+          {
+            "page": 50,
+            "hits": 21
+          },
+          {
+            "page": 51,
+            "hits": 16
+          },
+          {
+            "page": 135,
+            "hits": 16
+          },
+          {
+            "page": 53,
+            "hits": 9
+          },
+          {
+            "page": 7,
+            "hits": 7
+          }
+        ],
+        "circularity": [
+          {
+            "page": 59,
+            "hits": 17
+          },
+          {
+            "page": 56,
+            "hits": 11
+          },
+          {
+            "page": 57,
+            "hits": 11
+          },
+          {
+            "page": 135,
+            "hits": 10
+          },
+          {
+            "page": 58,
+            "hits": 5
+          }
+        ]
+      },
+      "layout_text_path": "data/interim/scale_batch_011/KB-B011-ENI-SS2025.layout.txt",
+      "page_index_path": "data/interim/scale_batch_011/KB-B011-ENI-SS2025.page_index.jsonl"
+    },
+    {
+      "document_id": "KB-B011-DSMF-SS2025",
+      "source_group_id": "KB-DSMF-2025",
+      "company": "dsm-firmenich AG",
+      "local_path": "data/raw/scale_batch_011/dsm-firmenich-sustainability-statements-2025.pdf",
+      "sha256": "af9005c9e4a93942b3f4d759f376f1e8312af6abbf935cb403333dc850151e16",
+      "pdfinfo_pages": 100,
+      "extracted_pages": 100,
+      "page_count_consistent": true,
+      "encrypted": "yes (print:yes copy:yes change:no addNotes:yes algorithm:RC4)",
+      "extractable_pages": 100,
+      "extractable_ratio": 1.0,
+      "total_text_characters": 579688,
+      "theme_hit_totals": {
+        "assurance": 11,
+        "biodiversity": 168,
+        "circularity": 19,
+        "energy": 44,
+        "ghg_emissions": 136,
+        "health_safety": 16,
+        "targets": 31,
+        "water": 42,
+        "workforce": 222
+      },
+      "candidate_pages_by_theme": {
+        "ghg_emissions": [
+          {
+            "page": 39,
+            "hits": 24
+          },
+          {
+            "page": 34,
+            "hits": 18
+          },
+          {
+            "page": 37,
+            "hits": 12
+          },
+          {
+            "page": 32,
+            "hits": 10
+          },
+          {
+            "page": 75,
+            "hits": 10
+          }
+        ],
+        "energy": [
+          {
+            "page": 75,
+            "hits": 8
+          },
+          {
+            "page": 38,
+            "hits": 7
+          },
+          {
+            "page": 33,
+            "hits": 6
+          },
+          {
+            "page": 32,
+            "hits": 5
+          },
+          {
+            "page": 28,
+            "hits": 3
+          }
+        ],
+        "water": [
+          {
+            "page": 42,
+            "hits": 9
+          },
+          {
+            "page": 75,
+            "hits": 9
+          },
+          {
+            "page": 44,
+            "hits": 6
+          },
+          {
+            "page": 47,
+            "hits": 4
+          },
+          {
+            "page": 43,
+            "hits": 3
+          }
+        ],
+        "workforce": [
+          {
+            "page": 89,
+            "hits": 20
+          },
+          {
+            "page": 62,
+            "hits": 19
+          },
+          {
+            "page": 79,
+            "hits": 18
+          },
+          {
+            "page": 80,
+            "hits": 15
+          },
+          {
+            "page": 82,
+            "hits": 15
+          }
+        ],
+        "health_safety": [
+          {
+            "page": 56,
+            "hits": 3
+          },
+          {
+            "page": 62,
+            "hits": 3
+          },
+          {
+            "page": 11,
+            "hits": 2
+          },
+          {
+            "page": 58,
+            "hits": 2
+          },
+          {
+            "page": 92,
+            "hits": 2
+          }
+        ],
+        "assurance": [
+          {
+            "page": 3,
+            "hits": 2
+          },
+          {
+            "page": 97,
+            "hits": 2
+          },
+          {
+            "page": 98,
+            "hits": 2
+          },
+          {
+            "page": 99,
+            "hits": 2
+          },
+          {
+            "page": 100,
+            "hits": 2
+          }
+        ],
+        "targets": [
+          {
+            "page": 30,
+            "hits": 4
+          },
+          {
+            "page": 36,
+            "hits": 4
+          },
+          {
+            "page": 31,
+            "hits": 3
+          },
+          {
+            "page": 32,
+            "hits": 3
+          },
+          {
+            "page": 29,
+            "hits": 2
+          }
+        ],
+        "biodiversity": [
+          {
+            "page": 88,
+            "hits": 22
+          },
+          {
+            "page": 95,
+            "hits": 20
+          },
+          {
+            "page": 13,
+            "hits": 18
+          },
+          {
+            "page": 47,
+            "hits": 16
+          },
+          {
+            "page": 45,
+            "hits": 13
+          }
+        ],
+        "circularity": [
+          {
+            "page": 96,
+            "hits": 5
+          },
+          {
+            "page": 77,
+            "hits": 3
+          },
+          {
+            "page": 42,
+            "hits": 2
+          },
+          {
+            "page": 91,
+            "hits": 2
+          },
+          {
+            "page": 26,
+            "hits": 1
+          }
+        ]
+      },
+      "layout_text_path": "data/interim/scale_batch_011/KB-B011-DSMF-SS2025.layout.txt",
+      "page_index_path": "data/interim/scale_batch_011/KB-B011-DSMF-SS2025.page_index.jsonl"
+    },
+    {
+      "document_id": "KB-B011-DB-AR2025",
+      "source_group_id": "KB-DEUTSCHE-BANK-2025",
+      "company": "Deutsche Bank AG",
+      "local_path": "data/raw/scale_batch_011/deutsche-bank-annual-report-2025.pdf",
+      "sha256": "e0cb39de25bcbf5c3ecb493a791559326ceb249f7e2c27e7ebfebd83d05b00e3",
+      "pdfinfo_pages": 756,
+      "extracted_pages": 756,
+      "page_count_consistent": true,
+      "encrypted": "yes (print:yes copy:yes change:no addNotes:yes algorithm:AES)",
+      "extractable_pages": 755,
+      "extractable_ratio": 0.998677,
+      "total_text_characters": 3839965,
+      "theme_hit_totals": {
+        "assurance": 36,
+        "biodiversity": 90,
+        "circularity": 9,
+        "energy": 114,
+        "ghg_emissions": 371,
+        "health_safety": 3,
+        "targets": 153,
+        "water": 5,
+        "workforce": 1245
+      },
+      "candidate_pages_by_theme": {
+        "ghg_emissions": [
+          {
+            "page": 307,
+            "hits": 41
+          },
+          {
+            "page": 308,
+            "hits": 37
+          },
+          {
+            "page": 336,
+            "hits": 34
+          },
+          {
+            "page": 346,
+            "hits": 22
+          },
+          {
+            "page": 303,
+            "hits": 21
+          }
+        ],
+        "energy": [
+          {
+            "page": 301,
+            "hits": 32
+          },
+          {
+            "page": 302,
+            "hits": 14
+          },
+          {
+            "page": 326,
+            "hits": 13
+          },
+          {
+            "page": 283,
+            "hits": 7
+          },
+          {
+            "page": 303,
+            "hits": 7
+          }
+        ],
+        "water": [
+          {
+            "page": 341,
+            "hits": 2
+          },
+          {
+            "page": 267,
+            "hits": 1
+          },
+          {
+            "page": 316,
+            "hits": 1
+          },
+          {
+            "page": 433,
+            "hits": 1
+          }
+        ],
+        "workforce": [
+          {
+            "page": 427,
+            "hits": 49
+          },
+          {
+            "page": 366,
+            "hits": 34
+          },
+          {
+            "page": 359,
+            "hits": 33
+          },
+          {
+            "page": 428,
+            "hits": 32
+          },
+          {
+            "page": 378,
+            "hits": 31
+          }
+        ],
+        "health_safety": [
+          {
+            "page": 435,
+            "hits": 2
+          },
+          {
+            "page": 265,
+            "hits": 1
+          }
+        ],
+        "assurance": [
+          {
+            "page": 417,
+            "hits": 9
+          },
+          {
+            "page": 419,
+            "hits": 7
+          },
+          {
+            "page": 418,
+            "hits": 6
+          },
+          {
+            "page": 236,
+            "hits": 3
+          },
+          {
+            "page": 439,
+            "hits": 2
+          }
+        ],
+        "targets": [
+          {
+            "page": 323,
+            "hits": 11
+          },
+          {
+            "page": 324,
+            "hits": 9
+          },
+          {
+            "page": 345,
+            "hits": 8
+          },
+          {
+            "page": 115,
+            "hits": 6
+          },
+          {
+            "page": 298,
+            "hits": 5
+          }
+        ],
+        "biodiversity": [
+          {
+            "page": 343,
+            "hits": 11
+          },
+          {
+            "page": 317,
+            "hits": 5
+          },
+          {
+            "page": 342,
+            "hits": 5
+          },
+          {
+            "page": 267,
+            "hits": 4
+          },
+          {
+            "page": 313,
+            "hits": 4
+          }
+        ],
+        "circularity": [
+          {
+            "page": 304,
+            "hits": 3
+          },
+          {
+            "page": 307,
+            "hits": 2
+          },
+          {
+            "page": 293,
+            "hits": 1
+          },
+          {
+            "page": 433,
+            "hits": 1
+          },
+          {
+            "page": 434,
+            "hits": 1
+          }
+        ]
+      },
+      "layout_text_path": "data/interim/scale_batch_011/KB-B011-DB-AR2025.layout.txt",
+      "page_index_path": "data/interim/scale_batch_011/KB-B011-DB-AR2025.page_index.jsonl"
+    }
+  ],
+  "totals": {
+    "documents": 3,
+    "pdf_pages": 997,
+    "extractable_pages": 996
+  }
+}

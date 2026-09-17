@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0",
+  "contract_set_id": "V2-TASK-CONTRACTS-001",
+  "design_scope": "Task-type structure only; contains no company, page, metric value, answer, or gold-card text.",
+  "contracts": {
+    "text_fact": {
+      "contract_id": "V2-TEXT-METRIC",
+      "allowed_finding_types": ["extracted_fact"],
+      "required_fields": ["metric"],
+      "allowed_statuses": ["verified", "partially_verified", "insufficient_information", "extraction_failure"],
+      "minimum_items": {}
+    },
+    "table_metric": {
+      "contract_id": "V2-TABLE-METRIC",
+      "allowed_finding_types": ["extracted_fact"],
+      "required_fields": ["metric"],
+      "allowed_statuses": ["verified", "partially_verified", "insufficient_information", "extraction_failure"],
+      "minimum_items": {"supporting_evidence": 1}
+    },
+    "deterministic_calculation": {
+      "contract_id": "V2-CALCULATION",
+      "allowed_finding_types": ["calculated_fact"],
+      "required_fields": ["metric", "calculation", "rule_checks"],
+      "allowed_statuses": ["verified", "partially_verified"],
+      "minimum_items": {"supporting_evidence": 1, "rule_checks": 1}
+    },
+    "target_tracking": {
+      "contract_id": "V2-TARGET-ENUMERATION",
+      "allowed_finding_types": ["extracted_fact"],
+      "required_fields": ["metric"],
+      "allowed_statuses": ["verified", "partially_verified", "insufficient_information", "extraction_failure"],
+      "minimum_items": {"supporting_evidence": 1}
+    },
+    "abstention": {
+      "contract_id": "V2-ABSENCE-ASSESSMENT",
+      "allowed_finding_types": ["extracted_fact"],
+      "required_fields": ["rule_checks"],
+      "allowed_statuses": ["insufficient_information"],
+      "minimum_items": {"rule_checks": 1}
+    },
+    "controlled_conflict": {
+      "contract_id": "V2-SOURCE-ATTRIBUTED-CONFLICT",
+      "allowed_finding_types": ["structural_anomaly"],
+      "required_fields": ["metric", "rule_checks"],
+      "allowed_statuses": ["verified", "partially_verified"],
+      "minimum_items": {"anomaly_codes": 1, "supporting_evidence": 1, "contrary_evidence": 1, "rule_checks": 1}
+    },
+    "open_discovery": {
+      "contract_id": "V2-OPEN-DISCOVERY",
+      "allowed_finding_types": ["extracted_fact", "calculated_fact", "structural_anomaly", "association_pattern", "candidate_explanation"],
+      "required_fields": [],
+      "allowed_statuses": ["verified", "partially_verified", "contradicted", "insufficient_information", "extraction_failure", "not_applicable"],
+      "minimum_items": {}
+    }
+  }
+}

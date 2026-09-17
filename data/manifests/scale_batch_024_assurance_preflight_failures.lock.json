@@ -1,0 +1,17 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-024",
+  "status": "terminal_failures_preserved_before_target_freeze",
+  "failures": [
+    {
+      "document_id": "KB-B024-HYDRO-IAR2025",
+      "company": "Norsk Hydro ASA",
+      "local_path": "data/raw/scale_batch_024/hydro-integrated-annual-report-2025.pdf",
+      "document_sha256": "ce2c00e3511a18b4620472e939aa4d213103d35ef7fff968a99fd5f8b0578513",
+      "failure_signature": "ISSUER_SOURCE_ASSURANCE_REPORT_SEPARATE",
+      "diagnosis": "The integrated report states that KPMG provides limited assurance and tells readers to see KPMG's assurance report, but the 307-page PDF contains no complete signed assurance opinion.",
+      "replacement_document_id": "KB-B024-TELENOR-AR2025",
+      "cloud_transmission": false
+    }
+  ]
+}

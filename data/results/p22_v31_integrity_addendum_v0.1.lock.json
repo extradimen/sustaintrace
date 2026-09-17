@@ -1,0 +1,43 @@
+{
+  "schema_version": "3.2",
+  "experiment_id": "P22-V31-UNSEEN-LOCKBOX-V01",
+  "status": "locked_integrity_addendum_superseding_failure_responsibility_interpretation_only",
+  "parent_result": {
+    "path": "data/results/p22_v31_unseen_lockbox_v0.1_result.lock.json",
+    "sha256": "c104be54005a4807987112677fb11da113d42713579d50d255d6ee19d0441ecf"
+  },
+  "parent_dimension_scores": {
+    "path": "data/results/p22_v31_dimension_scores_v0.1.lock.json",
+    "sha256": "1ef85d082b0041e72cc5806ffe23c405f98ba7f7289f1911269a895d1cef3092"
+  },
+  "candidate_replay_policy": {
+    "cloud_calls_repeated": false,
+    "archived_candidate_outputs_modified": false,
+    "p22_score_modified": false,
+    "purpose": "deterministically expose the next validation outcome after correcting the framework alias/canonical handle-set ordering bug"
+  },
+  "refined_failure_ownership": {
+    "P22-ENERGY-CALC-001": {
+      "owner": "framework",
+      "corrected_pipeline_outcome": "full role binding would pass",
+      "model_behavior_failure_after_framework_fix": false
+    },
+    "P22-GHG-CALC-001": {
+      "owner": "mixed_framework_masking_then_candidate_shape_failure",
+      "corrected_pipeline_outcome": "v28_unmapped_calculation_handle",
+      "model_behavior_failure_after_framework_fix": true
+    },
+    "P22-WATER-CALC-001": {
+      "owner": "mixed_framework_masking_then_candidate_shape_failure",
+      "corrected_pipeline_outcome": "v28_unmapped_calculation_handle",
+      "model_behavior_failure_after_framework_fix": true
+    },
+    "P22-SAFETY-CALC-001": {
+      "owner": "framework",
+      "corrected_pipeline_outcome": "partial binding with total_2024 and total_2025 supported; four component roles missing",
+      "model_behavior_failure_after_framework_fix": false
+    }
+  },
+  "authoritative_conclusion": "P22 remains locked and ineligible for aggregate or cross-version scoring. Two tasks were fully valid, two calculation tasks were blocked solely by the framework ordering bug, and two had candidate shape failures masked by that bug. No task is retried or rescored.",
+  "locked_prior_experiments_modified": false
+}

@@ -1,0 +1,471 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-002",
+  "status": "table_graphs_built_fail_closed",
+  "source_table_candidates": 4,
+  "graphs": [
+    {
+      "source_fact_record_id": "fact-32ba9daea09e4b969b3e7442",
+      "document_id": "KB-B002-HM-ASR2025",
+      "pdf_page": 141,
+      "graphs": [
+        {
+          "table_index": 0,
+          "status": "ambiguous_no_two_axis_period_header",
+          "rows": [
+            [
+              "Scope",
+              "Worldwide"
+            ],
+            [
+              "Value chain",
+              "Own operations"
+            ],
+            [
+              "Most senior level accountable",
+              "Chief Sustainability & New Technologies Officer (CSO)"
+            ],
+            [
+              "Availability",
+              "Public"
+            ],
+            [
+              "Relevance in the sustainability report",
+              "E4 - Biodiversity"
+            ],
+            [
+              "and ecosystems"
+            ]
+          ],
+          "cells": []
+        }
+      ]
+    },
+    {
+      "source_fact_record_id": "fact-a15ea737c4be1e78d51e160f",
+      "document_id": "KB-B002-HM-ASR2025",
+      "pdf_page": 149,
+      "graphs": [
+        {
+          "table_index": 0,
+          "status": "ambiguous_no_two_axis_period_header",
+          "rows": [
+            [
+              "Scope",
+              "Worldwide"
+            ],
+            [
+              "Value chain",
+              "Upstream and down- stream value chain, own operations"
+            ],
+            [
+              "Most senior level accountable",
+              "Chief Sustainability & New Technologies Officer (CSO)"
+            ],
+            [
+              "Availability",
+              "Public"
+            ],
+            [
+              "",
+              "E1- Climate change"
+            ],
+            [
+              "E4 \u2013 Biodiversity"
+            ],
+            [
+              "and ecosystems"
+            ],
+            [
+              "E5 \u2013 Resource use"
+            ],
+            [
+              "Relevance in the sustainability report",
+              "and circular economy"
+            ]
+          ],
+          "cells": []
+        }
+      ]
+    },
+    {
+      "source_fact_record_id": "fact-ed2a10d7fe00097439e85c33",
+      "document_id": "KB-B002-MAERSK-AR2025",
+      "pdf_page": 78,
+      "graphs": [
+        {
+          "table_index": 0,
+          "status": "two_axis_graph_built",
+          "header_row_index": 0,
+          "column_headers": [
+            "EFRAG ID",
+            "Indicator",
+            "Unit",
+            "2025",
+            "2024",
+            "2023\u00b9",
+            "2022\u00b9"
+          ],
+          "period_columns": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "indicator_column": 1,
+          "unit_column": 2,
+          "rejected_rows": [],
+          "rows": [
+            [
+              "EFRAG ID",
+              "Indicator",
+              "Unit",
+              "2025",
+              "2024",
+              "2023\u00b9",
+              "2022\u00b9"
+            ],
+            [
+              "E1-5_18",
+              "Energy intensity",
+              "GWh/USDm",
+              "2.23",
+              "2.18",
+              "2.28",
+              "1.52"
+            ],
+            [
+              "E1-5_09",
+              "Share of renewable energy consumption",
+              "%",
+              "2",
+              "3",
+              "2",
+              "2"
+            ],
+            [
+              "E1-5_15",
+              "Share of fossil fuel sources in energy consumption",
+              "%",
+              "98",
+              "97",
+              "98",
+              "98"
+            ]
+          ],
+          "cells": [
+            {
+              "cell_handle": "cell-ebd1e0bb3df5dc1c0fde",
+              "table_index": 0,
+              "row_index": 1,
+              "column_index": 3,
+              "row_header": "Energy intensity",
+              "row_header_column_index": 1,
+              "column_header": "2025",
+              "normalized_period": 2025,
+              "unit": "GWh/USDm",
+              "unit_column_index": 2,
+              "raw_value": "2.23",
+              "normalized_value": "2.23",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-b7dfc7e9bc6cf4d9be88",
+              "table_index": 0,
+              "row_index": 1,
+              "column_index": 4,
+              "row_header": "Energy intensity",
+              "row_header_column_index": 1,
+              "column_header": "2024",
+              "normalized_period": 2024,
+              "unit": "GWh/USDm",
+              "unit_column_index": 2,
+              "raw_value": "2.18",
+              "normalized_value": "2.18",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-1cbbf8997dd04b86f201",
+              "table_index": 0,
+              "row_index": 1,
+              "column_index": 5,
+              "row_header": "Energy intensity",
+              "row_header_column_index": 1,
+              "column_header": "2023\u00b9",
+              "normalized_period": 2023,
+              "unit": "GWh/USDm",
+              "unit_column_index": 2,
+              "raw_value": "2.28",
+              "normalized_value": "2.28",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-76acc571c887c8889b5a",
+              "table_index": 0,
+              "row_index": 1,
+              "column_index": 6,
+              "row_header": "Energy intensity",
+              "row_header_column_index": 1,
+              "column_header": "2022\u00b9",
+              "normalized_period": 2022,
+              "unit": "GWh/USDm",
+              "unit_column_index": 2,
+              "raw_value": "1.52",
+              "normalized_value": "1.52",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-166fd764a13e54bd1438",
+              "table_index": 0,
+              "row_index": 2,
+              "column_index": 3,
+              "row_header": "Share of renewable energy consumption",
+              "row_header_column_index": 1,
+              "column_header": "2025",
+              "normalized_period": 2025,
+              "unit": "%",
+              "unit_column_index": 2,
+              "raw_value": "2",
+              "normalized_value": "2",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-f0ccd8b4808467c378eb",
+              "table_index": 0,
+              "row_index": 2,
+              "column_index": 4,
+              "row_header": "Share of renewable energy consumption",
+              "row_header_column_index": 1,
+              "column_header": "2024",
+              "normalized_period": 2024,
+              "unit": "%",
+              "unit_column_index": 2,
+              "raw_value": "3",
+              "normalized_value": "3",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-a19ab8ce1995df07acc7",
+              "table_index": 0,
+              "row_index": 2,
+              "column_index": 5,
+              "row_header": "Share of renewable energy consumption",
+              "row_header_column_index": 1,
+              "column_header": "2023\u00b9",
+              "normalized_period": 2023,
+              "unit": "%",
+              "unit_column_index": 2,
+              "raw_value": "2",
+              "normalized_value": "2",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-5bca1786d14bd202b8d7",
+              "table_index": 0,
+              "row_index": 2,
+              "column_index": 6,
+              "row_header": "Share of renewable energy consumption",
+              "row_header_column_index": 1,
+              "column_header": "2022\u00b9",
+              "normalized_period": 2022,
+              "unit": "%",
+              "unit_column_index": 2,
+              "raw_value": "2",
+              "normalized_value": "2",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-a31fefe5af77560118d0",
+              "table_index": 0,
+              "row_index": 3,
+              "column_index": 3,
+              "row_header": "Share of fossil fuel sources in energy consumption",
+              "row_header_column_index": 1,
+              "column_header": "2025",
+              "normalized_period": 2025,
+              "unit": "%",
+              "unit_column_index": 2,
+              "raw_value": "98",
+              "normalized_value": "98",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-de1bb0a43f2de7783d09",
+              "table_index": 0,
+              "row_index": 3,
+              "column_index": 4,
+              "row_header": "Share of fossil fuel sources in energy consumption",
+              "row_header_column_index": 1,
+              "column_header": "2024",
+              "normalized_period": 2024,
+              "unit": "%",
+              "unit_column_index": 2,
+              "raw_value": "97",
+              "normalized_value": "97",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-9025f4f131c6715772aa",
+              "table_index": 0,
+              "row_index": 3,
+              "column_index": 5,
+              "row_header": "Share of fossil fuel sources in energy consumption",
+              "row_header_column_index": 1,
+              "column_header": "2023\u00b9",
+              "normalized_period": 2023,
+              "unit": "%",
+              "unit_column_index": 2,
+              "raw_value": "98",
+              "normalized_value": "98",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-0a0046eb3d756f89dbc9",
+              "table_index": 0,
+              "row_index": 3,
+              "column_index": 6,
+              "row_header": "Share of fossil fuel sources in energy consumption",
+              "row_header_column_index": 1,
+              "column_header": "2022\u00b9",
+              "normalized_period": 2022,
+              "unit": "%",
+              "unit_column_index": 2,
+              "raw_value": "98",
+              "normalized_value": "98",
+              "normalized_unit": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_fact_record_id": "fact-fd4947bdf1f412ad99f66823",
+      "document_id": "KB-B002-MAERSK-AR2025",
+      "pdf_page": 94,
+      "graphs": [
+        {
+          "table_index": 0,
+          "status": "two_axis_graph_built",
+          "header_row_index": 0,
+          "column_headers": [
+            "EFRAG ID S1-06_01",
+            "",
+            "Number of employees in 2025 (headcount)",
+            "Number of employees in 2024 (headcount)"
+          ],
+          "period_columns": [
+            2,
+            3
+          ],
+          "indicator_column": 1,
+          "unit_column": null,
+          "rejected_rows": [
+            {
+              "row_index": 1,
+              "reason": "shape_mismatch"
+            },
+            {
+              "row_index": 2,
+              "reason": "shape_mismatch"
+            }
+          ],
+          "rows": [
+            [
+              "EFRAG ID S1-06_01",
+              "",
+              "Number of employees in 2025 (headcount)",
+              "Number of employees in 2024 (headcount)"
+            ],
+            [
+              "SBM-1_03",
+              "",
+              "",
+              ""
+            ],
+            [
+              "SBM-1_04 S1-6_09",
+              "",
+              "",
+              ""
+            ],
+            [
+              "S1-6_10 S1-6_03",
+              "Total number of employees",
+              "107,638",
+              "108,160"
+            ],
+            [
+              "S1-6_03",
+              "Average number of employees",
+              "106,890\u00b9",
+              "106,626"
+            ]
+          ],
+          "cells": [
+            {
+              "cell_handle": "cell-8d75df1d417e602e0933",
+              "table_index": 0,
+              "row_index": 3,
+              "column_index": 2,
+              "row_header": "Total number of employees",
+              "row_header_column_index": 1,
+              "column_header": "Number of employees in 2025 (headcount)",
+              "normalized_period": 2025,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "107,638",
+              "normalized_value": "107638",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-72f77d4f620758b1b0df",
+              "table_index": 0,
+              "row_index": 3,
+              "column_index": 3,
+              "row_header": "Total number of employees",
+              "row_header_column_index": 1,
+              "column_header": "Number of employees in 2024 (headcount)",
+              "normalized_period": 2024,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "108,160",
+              "normalized_value": "108160",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-f74a3f63f27bde04a9b1",
+              "table_index": 0,
+              "row_index": 4,
+              "column_index": 2,
+              "row_header": "Average number of employees",
+              "row_header_column_index": 1,
+              "column_header": "Number of employees in 2025 (headcount)",
+              "normalized_period": 2025,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "106,890\u00b9",
+              "normalized_value": "106890",
+              "normalized_unit": null,
+              "literal_annotation": "\u00b9"
+            },
+            {
+              "cell_handle": "cell-2af6f476cd7ee34459fa",
+              "table_index": 0,
+              "row_index": 4,
+              "column_index": 3,
+              "row_header": "Average number of employees",
+              "row_header_column_index": 1,
+              "column_header": "Number of employees in 2024 (headcount)",
+              "normalized_period": 2024,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "106,626",
+              "normalized_value": "106626",
+              "normalized_unit": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

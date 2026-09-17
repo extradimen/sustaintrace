@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0",
+  "manifest_id": "P5-SOURCE-ACQUISITION-V01",
+  "status": "frozen_before_body_parsing_and_task_authoring",
+  "experiment_id": "P5-V14-UNSEEN-LOCKBOX-V01",
+  "preselection_freeze": "data/manifests/p5_source_preselection_freeze_v0.1.lock.json",
+  "preselection_freeze_sha256": "407cda7f1558602a16f48844148ebfe6bb6ece5100aaef0df1d4b4e1a98f1319",
+  "accepted_sources": [
+    {
+      "source_id": "P5-AHOLD-AR2025",
+      "issuer": "Koninklijke Ahold Delhaize N.V.",
+      "industry": "food retail",
+      "report_title": "Annual Report 2025",
+      "language": "English",
+      "official": "https://aholddelhaize.com/investors/annual-reports/2025/",
+      "url": "https://media.aholddelhaize.com/media/um1hqw4v/annual-report-2025.pdf",
+      "local_path": "data/raw/p5_staging/ahold-delhaize-annual-report-2025.pdf",
+      "bytes": 18124593,
+      "pages": 365,
+      "sha256": "0e01680d6285f1cf8f0f30709219d17c4266571a48f0f4b1c1e6505a7f9c628f"
+    }
+  ],
+  "acquisition_incidents": [
+    {
+      "type": "local_directory_missing",
+      "first_attempt_bytes_written": 0,
+      "resolution": "created dedicated staging directory and repeated the same frozen URL once",
+      "semantic_retry": false
+    }
+  ],
+  "candidate_inference_started": false,
+  "reference_created": false,
+  "framework_changes_after_freeze": false
+}

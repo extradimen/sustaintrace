@@ -1,0 +1,67 @@
+{
+  "schema_version": "2.9",
+  "experiment_id": "P20-V29-UNSEEN-LOCKBOX-V01",
+  "status": "local_validation_passed_waiting_for_payload_specific_cloud_authorization",
+  "validation_date": "2026-09-10",
+  "checks": {
+    "pytest": {
+      "status": "passed",
+      "test_count": 284
+    },
+    "ruff": {
+      "status": "passed",
+      "scope": "full repository"
+    },
+    "p20_json": {
+      "status": "passed",
+      "files_parsed": 22
+    },
+    "mineru": {
+      "status": "passed",
+      "target_pages": 12,
+      "successful_pages": 12,
+      "output_files_sha256_verified": 114,
+      "initial_infrastructure_failures_preserved": 12,
+      "resume_generation": "RESUME01"
+    },
+    "readiness_artifact_hashes": {
+      "status": "passed",
+      "verified_count": 11
+    },
+    "v29_whole_pack_pre_candidate_gate": {
+      "status": "passed",
+      "task_count": 6,
+      "deterministic_task_count": 3,
+      "plan_count": 3
+    },
+    "locked_prior_experiments": {
+      "status": "unchanged",
+      "p19_result_sha256": "43dc5ace9b0ce735b5a3d2727e790c037933992d2e98ca2baf7bd19c94b1efb8"
+    },
+    "cloud_transmission": {
+      "candidate_calls": 0,
+      "report_content_transmitted": false
+    }
+  },
+  "primary_artifacts": {
+    "local_readiness": {
+      "path": "data/results/p20_v29_local_readiness_v0.1.lock.json",
+      "sha256": "1f36808c1342fcedb0d2a29d6a7d3566176ef99d04f09e0259b5e3c49179a596"
+    },
+    "mineru_registry": {
+      "path": "data/manifests/p20_mineru_target_registry_RESUME01_v0.1.lock.json",
+      "sha256": "d01df6e57f754af0c7ae9608222422c6570fc8025c653210adc28fc31e3fa8e4"
+    },
+    "chinese_report": {
+      "path": "docs/88_P20_v2.9本地预冻结与云授权边界_v0.1.md",
+      "sha256": "6f32e3e83bdb34f70a0dba8e40f95daa638d9f1499450dcf6cb9672d261c71b5"
+    }
+  },
+  "legacy_repository_exception": {
+    "path": "configs/experiments/p1-integrated-v0.9-six-type-requalification.json",
+    "finding": "pre-existing concatenated JSON objects cause JSONDecodeError Extra data",
+    "scope": "legacy P1 locked artifact; unrelated to P20",
+    "action": "preserved unchanged and excluded from the P20 JSON-validity assertion"
+  },
+  "next_required_action": "payload-specific user authorization for the twelve frozen P20 pages to qwen3.5:397b-cloud solely for P20 Stage A/Stage B single-attempt inference"
+}

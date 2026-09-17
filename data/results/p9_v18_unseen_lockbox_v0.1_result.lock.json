@@ -1,0 +1,32 @@
+{
+  "schema_version":"1.0","experiment_id":"P9-V18-UNSEEN-LOCKBOX-V01","status":"completed_with_reference_integrity_caveat","candidate_model":"qwen3.5:397b-cloud","candidate_digest":"68d2a0796c11e1fedd0456a2d55e58cca4077be6a218428a7a7f4e21f8177cbc","task_count":6,
+  "stage_a":{"tasks_run":6,"framework_valid":5,"framework_failed":1,"source_audited_semantic_exact":4,"source_audited_semantic_partial":1,"semantic_failed":1},
+  "stage_b":{"eligible_tasks":5,"framework_valid":4,"framework_failed":1,"validated_atomic_claims":22,"required_atomic_claims":27,"source_audited_exact_claims":20},
+  "task_results":{
+    "P9-SAFETY-001":"stage_a source-exact and stage_b 6_of_6 source-exact; frozen simulated reference incorrectly recorded TRIR as 0.47/0.55 instead of source values 0.25/0.25, so reference-based score is invalid",
+    "P9-CALC-001":"stage_a model_behavior_failure: calculation period not grounded; not retried",
+    "P9-TARGET-001":"stage_a source-exact and stage_b 6_of_6 source-exact; simulated reference incorrectly called the 2026 target net although source states gross",
+    "P9-METHANE-001":"targets exact 3_of_3; 2025 performance wrong 0_of_2 because frozen pages omitted page 351, while simulated reference improperly cited page 351 outside task window",
+    "P9-SCOPE3-001":"stage_a exact; stage_b exact 5_of_5",
+    "P9-ASSURE-001":"stage_a source-exact; stage_b model_behavior_failure on verbatim grounding of reasonable_subjects; 0_of_5 emitted"
+  },
+  "knowledge_findings":{
+    "safety":{"fatalities_2025":1,"fatalities_2024":1,"trir_2025":0.25,"trir_2024":0.25,"target":"below 0.60","achieved":true},
+    "scope_1_2_targets":{"2026":"gross operated Scope 1+2 below 34 MtCO2e from 46 in 2015","2030":"40% net reduction versus 2015, 25-30 MtCO2e","scope_2_method":"market-based","operated_perimeter_coverage_percent":75,"nature_based_offsets_start":2030},
+    "methane":{"2026_target":"70% reduction vs 2020","2030_target":"80% reduction vs 2020 or sooner","intensity_target":"below 0.1%","actual_2025_kt_ch4":22.5,"actual_2025_intensity_percent":0.07},
+    "scope3_category11":{"2025_mtco2e":335,"oil_basis":"product sales","gas_basis":"marketable gas and condensate production","boundary":"excludes biogenic CO2; not total Scope 3"},
+    "assurance":{"limited":"2025 section 5.2 sustainability information and Article 8 Taxonomy disclosures","reasonable":"selected operated-perimeter Scope 1, market-based Scope 2, Scope 1+2 and methane indicators","reasonable_standard":"ISAE 3000 Revised"}
+  },
+  "framework_findings":{
+    "period_grounding":"v1.8 still failed deterministic calculation on a multi-year table despite adjacent year links",
+    "long_verbatim_scope":"Stage B failed when a multi-subject assurance slot required a long composite string to be grounded verbatim",
+    "task_window_completeness":"a question asking for current performance must be rejected before freeze when its selected pages contain only target or unrelated performance values",
+    "reference_consistency":"simulated references require an independent pre-candidate check that every quoted value and evidence page lies inside the frozen task window"
+  },
+  "integrity_audit":{"clean_lockbox_claim_allowed":false,"aggregate_comparison_allowed":false,"reason":"two incorrect simulated-reference assertions and one out-of-window reference page were discovered only after candidate execution","candidate_outputs_preserved":true,"references_not_posthoc_modified":true},
+  "infrastructure":{"pre_model_resumes":1,"candidate_attempts_consumed_by_infrastructure_failures":0,"model_behavior_failures_retried":false},
+  "archive":{"behavioral_run_directories":11,"sha256_manifests_verified":11,"verification_failures":0},
+  "single_candidate_attempt_per_behavioral_stage":true,"silent_retry":false,"posthoc_semantic_repair":false,"reference_visible_to_candidate":false,"human_gold_claimed":false,"p3_through_p8_modified":false,
+  "decision":"P9_COMPLETED_BUT_NOT_A_CLEAN_LOCKBOX_DUE_TO_REFERENCE_AND_TASK_WINDOW_INTEGRITY_FAILURES",
+  "next_iteration":"Develop v1.9 only from exposed P9 failures: deterministic table-column period binding, composite assurance-slot collection projection, and a mandatory pre-candidate reference/window consistency gate; then use a new unseen P10 lockbox."
+}

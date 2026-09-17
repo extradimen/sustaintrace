@@ -1,0 +1,35 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-018",
+  "created_at": "2026-09-13T11:51:58.399791+00:00",
+  "source_config": "configs/knowledge/scale_batch_018_v0.1.json",
+  "documents": [
+    {
+      "document_id": "KB-B018-EPIROC-ASR2025",
+      "local_path": "data/raw/scale_batch_018/epiroc-annual-and-sustainability-report-2025.pdf",
+      "bytes": 6868483,
+      "sha256": "0f6ac036c297f60a21cb21e6a37defaa480e4e9c5977582d714bb9ace5a6842c",
+      "pdf_header_valid": true,
+      "download_status": "downloaded",
+      "resumed_from_bytes": 0
+    },
+    {
+      "document_id": "KB-B018-ALFA-LAVAL-ASR2025",
+      "local_path": "data/raw/scale_batch_018/alfa-laval-annual-and-sustainability-report-2025.pdf",
+      "bytes": 5565355,
+      "sha256": "dd35e84d8605d0eb174b55e4ab7cb0e46f50572c436efd91c9463c216b436177",
+      "pdf_header_valid": true,
+      "download_status": "downloaded",
+      "resumed_from_bytes": 0
+    },
+    {
+      "document_id": "KB-B018-SSAB-AR2025",
+      "local_path": "data/raw/scale_batch_018/ssab-annual-report-2025.pdf",
+      "bytes": 4421793,
+      "sha256": "f2c778dec52913b4b4bab5fd9e7487a2cee9e25b94e68bed9919be4abee3530f",
+      "pdf_header_valid": true,
+      "download_status": "downloaded",
+      "resumed_from_bytes": 0
+    }
+  ]
+}

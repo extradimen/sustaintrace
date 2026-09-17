@@ -1,0 +1,683 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-016",
+  "created_at": "2026-09-13T09:18:06.337795+00:00",
+  "status": "local_diagnostics_complete",
+  "cloud_transmission": false,
+  "documents": [
+    {
+      "document_id": "KB-B016-AKZONOBEL-AR2025",
+      "source_group_id": "KB-AKZONOBEL-2025",
+      "company": "Akzo Nobel N.V.",
+      "local_path": "data/raw/scale_batch_016/akzonobel-annual-report-2025.pdf",
+      "sha256": "43dd8b8c446d83c9fdaf93d1b9f6d8e8f26046e017db7a6b089289f186f58541",
+      "pdfinfo_pages": 237,
+      "extracted_pages": 237,
+      "page_count_consistent": true,
+      "encrypted": "no",
+      "extractable_pages": 236,
+      "extractable_ratio": 0.995781,
+      "total_text_characters": 1527501,
+      "theme_hit_totals": {
+        "assurance": 30,
+        "biodiversity": 15,
+        "circularity": 80,
+        "energy": 91,
+        "ghg_emissions": 130,
+        "health_safety": 25,
+        "targets": 20,
+        "water": 28,
+        "workforce": 352
+      },
+      "candidate_pages_by_theme": {
+        "ghg_emissions": [
+          {
+            "page": 46,
+            "hits": 27
+          },
+          {
+            "page": 44,
+            "hits": 14
+          },
+          {
+            "page": 83,
+            "hits": 13
+          },
+          {
+            "page": 74,
+            "hits": 11
+          },
+          {
+            "page": 79,
+            "hits": 11
+          }
+        ],
+        "energy": [
+          {
+            "page": 73,
+            "hits": 27
+          },
+          {
+            "page": 45,
+            "hits": 15
+          },
+          {
+            "page": 38,
+            "hits": 8
+          },
+          {
+            "page": 79,
+            "hits": 5
+          },
+          {
+            "page": 82,
+            "hits": 4
+          }
+        ],
+        "water": [
+          {
+            "page": 49,
+            "hits": 17
+          },
+          {
+            "page": 43,
+            "hits": 3
+          },
+          {
+            "page": 77,
+            "hits": 3
+          },
+          {
+            "page": 27,
+            "hits": 2
+          },
+          {
+            "page": 74,
+            "hits": 2
+          }
+        ],
+        "workforce": [
+          {
+            "page": 75,
+            "hits": 54
+          },
+          {
+            "page": 67,
+            "hits": 23
+          },
+          {
+            "page": 76,
+            "hits": 18
+          },
+          {
+            "page": 62,
+            "hits": 15
+          },
+          {
+            "page": 63,
+            "hits": 15
+          }
+        ],
+        "health_safety": [
+          {
+            "page": 61,
+            "hits": 4
+          },
+          {
+            "page": 75,
+            "hits": 4
+          },
+          {
+            "page": 60,
+            "hits": 3
+          },
+          {
+            "page": 35,
+            "hits": 2
+          },
+          {
+            "page": 78,
+            "hits": 2
+          }
+        ],
+        "assurance": [
+          {
+            "page": 224,
+            "hits": 7
+          },
+          {
+            "page": 225,
+            "hits": 5
+          },
+          {
+            "page": 226,
+            "hits": 3
+          },
+          {
+            "page": 2,
+            "hits": 2
+          },
+          {
+            "page": 90,
+            "hits": 2
+          }
+        ],
+        "targets": [
+          {
+            "page": 24,
+            "hits": 6
+          },
+          {
+            "page": 11,
+            "hits": 5
+          },
+          {
+            "page": 41,
+            "hits": 2
+          },
+          {
+            "page": 68,
+            "hits": 2
+          },
+          {
+            "page": 37,
+            "hits": 1
+          }
+        ],
+        "biodiversity": [
+          {
+            "page": 33,
+            "hits": 6
+          },
+          {
+            "page": 77,
+            "hits": 4
+          },
+          {
+            "page": 35,
+            "hits": 2
+          },
+          {
+            "page": 54,
+            "hits": 2
+          },
+          {
+            "page": 109,
+            "hits": 1
+          }
+        ],
+        "circularity": [
+          {
+            "page": 74,
+            "hits": 29
+          },
+          {
+            "page": 50,
+            "hits": 7
+          },
+          {
+            "page": 77,
+            "hits": 5
+          },
+          {
+            "page": 25,
+            "hits": 4
+          },
+          {
+            "page": 21,
+            "hits": 3
+          }
+        ]
+      },
+      "layout_text_path": "data/interim/scale_batch_016/KB-B016-AKZONOBEL-AR2025.layout.txt",
+      "page_index_path": "data/interim/scale_batch_016/KB-B016-AKZONOBEL-AR2025.page_index.jsonl"
+    },
+    {
+      "document_id": "KB-B016-NOVONESIS-AR2025",
+      "source_group_id": "KB-NOVONESIS-2025",
+      "company": "Novonesis (Novozymes A/S)",
+      "local_path": "data/raw/scale_batch_016/novonesis-annual-report-2025.pdf",
+      "sha256": "dd3bf837735c9cd24760e717099568a0fe012707cb97536ca199e5e2ea98a2dc",
+      "pdfinfo_pages": 207,
+      "extracted_pages": 207,
+      "page_count_consistent": true,
+      "encrypted": "no",
+      "extractable_pages": 206,
+      "extractable_ratio": 0.995169,
+      "total_text_characters": 1026899,
+      "theme_hit_totals": {
+        "assurance": 18,
+        "biodiversity": 91,
+        "circularity": 51,
+        "energy": 67,
+        "ghg_emissions": 125,
+        "health_safety": 22,
+        "targets": 19,
+        "water": 45,
+        "workforce": 181
+      },
+      "candidate_pages_by_theme": {
+        "ghg_emissions": [
+          {
+            "page": 75,
+            "hits": 26
+          },
+          {
+            "page": 76,
+            "hits": 25
+          },
+          {
+            "page": 69,
+            "hits": 16
+          },
+          {
+            "page": 68,
+            "hits": 8
+          },
+          {
+            "page": 72,
+            "hits": 8
+          }
+        ],
+        "energy": [
+          {
+            "page": 74,
+            "hits": 39
+          },
+          {
+            "page": 69,
+            "hits": 5
+          },
+          {
+            "page": 73,
+            "hits": 4
+          },
+          {
+            "page": 72,
+            "hits": 3
+          },
+          {
+            "page": 116,
+            "hits": 2
+          }
+        ],
+        "water": [
+          {
+            "page": 83,
+            "hits": 14
+          },
+          {
+            "page": 82,
+            "hits": 11
+          },
+          {
+            "page": 80,
+            "hits": 8
+          },
+          {
+            "page": 81,
+            "hits": 4
+          },
+          {
+            "page": 18,
+            "hits": 2
+          }
+        ],
+        "workforce": [
+          {
+            "page": 96,
+            "hits": 30
+          },
+          {
+            "page": 92,
+            "hits": 19
+          },
+          {
+            "page": 95,
+            "hits": 12
+          },
+          {
+            "page": 132,
+            "hits": 12
+          },
+          {
+            "page": 167,
+            "hits": 6
+          }
+        ],
+        "health_safety": [
+          {
+            "page": 99,
+            "hits": 8
+          },
+          {
+            "page": 97,
+            "hits": 4
+          },
+          {
+            "page": 7,
+            "hits": 2
+          },
+          {
+            "page": 18,
+            "hits": 2
+          },
+          {
+            "page": 98,
+            "hits": 2
+          }
+        ],
+        "assurance": [
+          {
+            "page": 197,
+            "hits": 6
+          },
+          {
+            "page": 198,
+            "hits": 4
+          },
+          {
+            "page": 2,
+            "hits": 2
+          },
+          {
+            "page": 194,
+            "hits": 2
+          },
+          {
+            "page": 199,
+            "hits": 2
+          }
+        ],
+        "targets": [
+          {
+            "page": 71,
+            "hits": 4
+          },
+          {
+            "page": 69,
+            "hits": 3
+          },
+          {
+            "page": 6,
+            "hits": 2
+          },
+          {
+            "page": 18,
+            "hits": 2
+          },
+          {
+            "page": 7,
+            "hits": 1
+          }
+        ],
+        "biodiversity": [
+          {
+            "page": 85,
+            "hits": 21
+          },
+          {
+            "page": 84,
+            "hits": 15
+          },
+          {
+            "page": 114,
+            "hits": 13
+          },
+          {
+            "page": 80,
+            "hits": 3
+          },
+          {
+            "page": 117,
+            "hits": 3
+          }
+        ],
+        "circularity": [
+          {
+            "page": 87,
+            "hits": 9
+          },
+          {
+            "page": 88,
+            "hits": 8
+          },
+          {
+            "page": 114,
+            "hits": 5
+          },
+          {
+            "page": 81,
+            "hits": 4
+          },
+          {
+            "page": 82,
+            "hits": 3
+          }
+        ]
+      },
+      "layout_text_path": "data/interim/scale_batch_016/KB-B016-NOVONESIS-AR2025.layout.txt",
+      "page_index_path": "data/interim/scale_batch_016/KB-B016-NOVONESIS-AR2025.page_index.jsonl"
+    },
+    {
+      "document_id": "KB-B016-COLOPLAST-AR2025",
+      "source_group_id": "KB-COLOPLAST-2024-25",
+      "company": "Coloplast A/S",
+      "local_path": "data/raw/scale_batch_016/coloplast-annual-report-2024-25.pdf",
+      "sha256": "a59cdb9a92afb70dbabc0e723125c98f1233958a9b02296ff23e3a6855aa642d",
+      "pdfinfo_pages": 178,
+      "extracted_pages": 178,
+      "page_count_consistent": true,
+      "encrypted": "no",
+      "extractable_pages": 177,
+      "extractable_ratio": 0.994382,
+      "total_text_characters": 1247660,
+      "theme_hit_totals": {
+        "assurance": 25,
+        "biodiversity": 9,
+        "circularity": 100,
+        "energy": 82,
+        "ghg_emissions": 143,
+        "health_safety": 16,
+        "targets": 10,
+        "water": 2,
+        "workforce": 284
+      },
+      "candidate_pages_by_theme": {
+        "ghg_emissions": [
+          {
+            "page": 61,
+            "hits": 42
+          },
+          {
+            "page": 59,
+            "hits": 26
+          },
+          {
+            "page": 54,
+            "hits": 11
+          },
+          {
+            "page": 58,
+            "hits": 11
+          },
+          {
+            "page": 55,
+            "hits": 10
+          }
+        ],
+        "energy": [
+          {
+            "page": 60,
+            "hits": 33
+          },
+          {
+            "page": 57,
+            "hits": 12
+          },
+          {
+            "page": 58,
+            "hits": 11
+          },
+          {
+            "page": 56,
+            "hits": 6
+          },
+          {
+            "page": 55,
+            "hits": 4
+          }
+        ],
+        "water": [
+          {
+            "page": 48,
+            "hits": 1
+          },
+          {
+            "page": 107,
+            "hits": 1
+          }
+        ],
+        "workforce": [
+          {
+            "page": 85,
+            "hits": 36
+          },
+          {
+            "page": 77,
+            "hits": 25
+          },
+          {
+            "page": 86,
+            "hits": 25
+          },
+          {
+            "page": 80,
+            "hits": 18
+          },
+          {
+            "page": 78,
+            "hits": 13
+          }
+        ],
+        "health_safety": [
+          {
+            "page": 79,
+            "hits": 8
+          },
+          {
+            "page": 8,
+            "hits": 2
+          },
+          {
+            "page": 75,
+            "hits": 2
+          },
+          {
+            "page": 107,
+            "hits": 2
+          },
+          {
+            "page": 51,
+            "hits": 1
+          }
+        ],
+        "assurance": [
+          {
+            "page": 162,
+            "hits": 10
+          },
+          {
+            "page": 163,
+            "hits": 5
+          },
+          {
+            "page": 164,
+            "hits": 4
+          },
+          {
+            "page": 159,
+            "hits": 2
+          },
+          {
+            "page": 160,
+            "hits": 2
+          }
+        ],
+        "targets": [
+          {
+            "page": 55,
+            "hits": 3
+          },
+          {
+            "page": 58,
+            "hits": 2
+          },
+          {
+            "page": 8,
+            "hits": 1
+          },
+          {
+            "page": 13,
+            "hits": 1
+          },
+          {
+            "page": 49,
+            "hits": 1
+          }
+        ],
+        "biodiversity": [
+          {
+            "page": 72,
+            "hits": 2
+          },
+          {
+            "page": 73,
+            "hits": 2
+          },
+          {
+            "page": 74,
+            "hits": 2
+          },
+          {
+            "page": 107,
+            "hits": 2
+          },
+          {
+            "page": 71,
+            "hits": 1
+          }
+        ],
+        "circularity": [
+          {
+            "page": 69,
+            "hits": 20
+          },
+          {
+            "page": 68,
+            "hits": 18
+          },
+          {
+            "page": 70,
+            "hits": 16
+          },
+          {
+            "page": 66,
+            "hits": 10
+          },
+          {
+            "page": 67,
+            "hits": 10
+          }
+        ]
+      },
+      "layout_text_path": "data/interim/scale_batch_016/KB-B016-COLOPLAST-AR2025.layout.txt",
+      "page_index_path": "data/interim/scale_batch_016/KB-B016-COLOPLAST-AR2025.page_index.jsonl"
+    }
+  ],
+  "totals": {
+    "documents": 3,
+    "pdf_pages": 622,
+    "extractable_pages": 619
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-025",
+  "status": "source_set_frozen",
+  "documents": [
+    {
+      "document_id": "KB-B025-EQUINOR-AR2025",
+      "local_path": "data/raw/scale_batch_025/equinor-annual-report-2025.pdf",
+      "bytes": 42926499,
+      "pages": 324,
+      "sha256": "4266bb0b2f31bb9a8cc2ed11248cd579e0f98bb3c81fcffaf5c93a89e62e5d98",
+      "pdf_valid": true,
+      "exact_sha256_duplicate": false
+    },
+    {
+      "document_id": "KB-B025-AKERBP-AR2025",
+      "local_path": "data/raw/scale_batch_025/aker-bp-annual-report-2025.pdf",
+      "bytes": 10125984,
+      "pages": 224,
+      "sha256": "c5afca29558be6e5daf6cf8e31b378fdd2542bd29b847f3ec96fce10172a1a15",
+      "pdf_valid": true,
+      "exact_sha256_duplicate": false
+    },
+    {
+      "document_id": "KB-B025-DNB-AR2025",
+      "local_path": "data/raw/scale_batch_025/dnb-annual-report-2025.pdf",
+      "bytes": 11287883,
+      "pages": 356,
+      "sha256": "e793bbb20582975be0ee87825cafe7d05ad8e80f986f446d8cbfad7e2c84c125",
+      "pdf_valid": true,
+      "exact_sha256_duplicate": false
+    }
+  ],
+  "rejected_documents": [
+    {
+      "document_id": "KB-B025-KONGSBERG-AR2025",
+      "failure_signature": "OFFICIAL_DOWNLOAD_URL_EXPIRED_BEFORE_ACQUISITION",
+      "evidence": "Previously indexed official PDF URL returned HTTP 404; no partial local file was created"
+    }
+  ],
+  "cross_experiment_sha256_deduplication": "passed",
+  "cloud_transmission": false
+}

@@ -1,0 +1,75 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-014",
+  "status": "source_selection_frozen_before_acquisition",
+  "policy": {
+    "local_only": true,
+    "cloud_transmission": false,
+    "locked_experiments_untouched": [
+      "P3-P23",
+      "KB-SCALE-BATCH-001-through-013"
+    ],
+    "download_resume": true,
+    "overwrite_verified_files": false,
+    "fact_promotion_requires_independent_gate": true,
+    "performance_baseline_required": true,
+    "native_table_corroboration_version": "v34_bounded_layout_column_reassembly_v1",
+    "assurance_window_preflight_required": true,
+    "assurance_window_required_fields": [
+      "issuer_identity",
+      "reporting_period",
+      "opinion_or_conclusion",
+      "signatory_identity"
+    ]
+  },
+  "selection_rationale": "Three previously unused issuer-hosted English 2025 annual and sustainability reports from forestry, engineered polymers, and hygiene and health. The batch tests v3.4 across new layouts and moves assurance-window completeness checks before target-page freezing.",
+  "performance_baseline": {
+    "comparison_parent": "data/results/scale_batch_013_performance_baseline.lock.json",
+    "separate_from_knowledge_quality": true,
+    "target_pages_per_document": 9
+  },
+  "documents": [
+    {
+      "document_id": "KB-B014-SCA-AR2025",
+      "source_group_id": "KB-SCA-2025",
+      "company": "Svenska Cellulosa Aktiebolaget SCA",
+      "title": "SCA Annual Report 2025",
+      "report_year": 2025,
+      "official_landing_page": "https://www.sca.com/en/investors/reports-and-presentations/annual-and-sustainability-reports/",
+      "download_url": "https://www.sca.com/siteassets/investors/reports-and-presentations/annual-reports/2025/sca-annual-report-2025.pdf",
+      "official_domain": "www.sca.com",
+      "local_path": "data/raw/scale_batch_014/sca-annual-report-2025.pdf",
+      "source_role": "primary_report",
+      "language": "English",
+      "prior_experiment_use": false
+    },
+    {
+      "document_id": "KB-B014-TRELLEBORG-AR2025",
+      "source_group_id": "KB-TRELLEBORG-2025",
+      "company": "Trelleborg AB",
+      "title": "Trelleborg Annual Report 2025",
+      "report_year": 2025,
+      "official_landing_page": "https://www.trelleborg.com/en/sustainability",
+      "download_url": "https://www.trelleborg.com/-/media/group/about-us/agm/2026/en/trelleborg-annual-report-2025.pdf?rev=f9c04a7bc37d4b5abb4939f28ee31965",
+      "official_domain": "www.trelleborg.com",
+      "local_path": "data/raw/scale_batch_014/trelleborg-annual-report-2025.pdf",
+      "source_role": "primary_report",
+      "language": "English",
+      "prior_experiment_use": false
+    },
+    {
+      "document_id": "KB-B014-ESSITY-AR2025",
+      "source_group_id": "KB-ESSITY-2025",
+      "company": "Essity Aktiebolag (publ)",
+      "title": "Essity Annual Report 2025",
+      "report_year": 2025,
+      "official_landing_page": "https://www.essity.com/investors/reports/reportdetails/annual-reports/annual-report-2025",
+      "download_url": "https://assets.www.essity.com/essity/Annual-Report-2025-digital-pdf.pdf",
+      "official_domain": "assets.www.essity.com",
+      "local_path": "data/raw/scale_batch_014/essity-annual-report-2025.pdf",
+      "source_role": "primary_report",
+      "language": "English",
+      "prior_experiment_use": false
+    }
+  ]
+}

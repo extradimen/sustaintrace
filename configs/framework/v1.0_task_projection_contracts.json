@@ -1,0 +1,12 @@
+{
+  "schema_version":"1.0",
+  "status":"development_frozen_before_v1_inference",
+  "contracts":{
+    "P2-DEX-001":[{"metric_id":"gross_scope_1_emissions"}],
+    "P2-XPAGE-001":[{"metric_id":"combined_scope_1_2_reduction","period_year":2025},{"metric_id":"total_gross_scope_3_emissions","period_year":2025}],
+    "P2-XPAGE-002":[{"metric_id":"renewable_power_share","period_year":2025,"claim_kind":"observed"},{"metric_id":"combined_scope_1_2_emissions","period_year":2024},{"metric_id":"combined_scope_1_2_emissions","period_year":2025},{"metric_id":"renewable_power_share","period_year":2029,"claim_kind":"target"}],
+    "P2-SCOPE-001":[{"metric_id":"combined_scope_1_2_emissions","period_year":2018},{"metric_id":"combined_scope_1_2_emissions","period_year":2025},{"metric_id":"combined_scope_1_2_reduction","period_year":2035,"claim_kind":"target"}],
+    "P2-SCOPE-002":[{"metric_id":"supply_chain_emissions_intensity_reduction","period_year":2030,"claim_kind":"target"},{"metric_id":"supply_chain_emissions_intensity_reduction","period_year":2024,"claim_kind":"observed"}]
+  },
+  "note":"Production contracts must be generated from the frozen question ontology before task execution."
+}

@@ -1,0 +1,495 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-005-MINERU-FINAL",
+  "updated_at": "2026-09-12T17:53:15.153140+00:00",
+  "status": "complete",
+  "cloud_transmission": false,
+  "total_target_pages": 27,
+  "complete_pages": 27,
+  "failed_pages": 0,
+  "pending_pages": 0,
+  "post_completion_shutdown_recovered_pages": 2,
+  "recovered_pages": [
+    {
+      "document_id": "KB-B005-HENKEL-AR2025",
+      "page": 477
+    },
+    {
+      "document_id": "KB-B005-SIKA-SR2025",
+      "page": 21
+    }
+  ],
+  "parent_attempts": [
+    "data/results/scale_batch_005_mineru_RESUME01_summary.lock.json",
+    "data/results/scale_batch_005_mineru_RESUME02_summary.lock.json",
+    "data/results/scale_batch_005_mineru_RESUME03_summary.lock.json"
+  ],
+  "parent_failures_preserved": true,
+  "records": [
+    {
+      "document_id": "KB-B005-HENKEL-AR2025",
+      "page": 184,
+      "themes": [
+        "biodiversity"
+      ],
+      "output_directory": "artifacts/scale_batch_005/mineru_targets_RESUME03/KB-B005-HENKEL-AR2025-p0184",
+      "status": "complete",
+      "selected_attempt": "RESUME03",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "b7a6013198a5a342338f4ecf295173ce860a01da60190bc7be85c3fdc78551fa",
+        "_content_list.json": "d50c489772b8eba1da61c829337b04e7664392a2af68d3e14287969669cc1014",
+        "_middle.json": "63490eb26ab8b7cff610fc5f94f26805e51a09008cbcff86cd80217841a2b67d",
+        "_model.json": "46d75b5e7bcfe10d8d7dcc1bbe3ea06a150c7997cb8e693fc0a0ff3c9fda8248"
+      }
+    },
+    {
+      "document_id": "KB-B005-HENKEL-AR2025",
+      "page": 203,
+      "themes": [
+        "targets"
+      ],
+      "output_directory": "artifacts/scale_batch_005/mineru_targets_RESUME01/KB-B005-HENKEL-AR2025-p0203",
+      "status": "complete",
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "f6344710c589482eca760687b19d148b7b6ddcbc35d4bc05d6c1ed81f41ef3ff",
+        "_content_list.json": "bc09224d885d41f72cbd161705bbc70772d2ea368effee504d329e6c30891d2e",
+        "_middle.json": "164ed389a5d67203447c3d8ef36ac167b022fd3766ad3ce2e8a5ca78f245c1ed",
+        "_model.json": "0953d7a59ef3f50dfc16a29e08b31d90251d3f2ed6186004500bd523b00ad248"
+      }
+    },
+    {
+      "document_id": "KB-B005-HENKEL-AR2025",
+      "page": 205,
+      "themes": [
+        "energy"
+      ],
+      "output_directory": "artifacts/scale_batch_005/mineru_targets_RESUME02/KB-B005-HENKEL-AR2025-p0205",
+      "status": "complete",
+      "selected_attempt": "RESUME02",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "b0bbb08a5553af40ee30d3d3a2ffcc44cff1a7fe5179c03ea8ab2b7990d08d83",
+        "_content_list.json": "165677eab77da47acbaed25c20b6f9eaad18bbfbcd34f09a5d7ebed498c3ff7b",
+        "_middle.json": "3cdc8cc8f7c457bcf0da4b6cc2640fefb32698caf71a464d340ceb01d1bb2428",
+        "_model.json": "7d4c9a778c2fccf53df00cf56486ebc0d02728562f0863d267ac3340646f898b"
+      }
+    },
+    {
+      "document_id": "KB-B005-HENKEL-AR2025",
+      "page": 207,
+      "themes": [
+        "ghg_emissions"
+      ],
+      "output_directory": "artifacts/scale_batch_005/mineru_targets_RESUME02/KB-B005-HENKEL-AR2025-p0207",
+      "status": "complete",
+      "selected_attempt": "RESUME02",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "7a4bd2e44d550539dd804d6751b8b5f021713e3e00e6e1d499a0d7ed3532cb98",
+        "_content_list.json": "92164139c09a326bb07654782ec50ac2f6ce5ecd0197af5aa0922fa56f68688d",
+        "_middle.json": "7cd2ed8697dc1ea896190b0c1c880047e3a43db021bf2a4c0c6199fc30ade24c",
+        "_model.json": "3b694cf2fa8f0a74c5056f87210ed618424c8c0f252f816ae97763d4926c5f3b"
+      }
+    },
+    {
+      "document_id": "KB-B005-HENKEL-AR2025",
+      "page": 229,
+      "themes": [
+        "water"
+      ],
+      "output_directory": "artifacts/scale_batch_005/mineru_targets_RESUME01/KB-B005-HENKEL-AR2025-p0229",
+      "status": "complete",
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "8422b2a2e1c60245921f703408d6d7582814345fcff9e940ddc2b35f47d88683",
+        "_content_list.json": "3df34ccc5d05ed37a0cee5898999ef11a73e967ba7b47b3b69a9664e8f1515ee",
+        "_middle.json": "c982d2ff7af4b3b8c0e86a59add70c2a01099c2d698a1fd51776f7cff367bc06",
+        "_model.json": "2aecf04d3deb477e3327859475c4c9154a8417ee5d9aba5d64ae49f5d30a7633"
+      }
+    },
+    {
+      "document_id": "KB-B005-HENKEL-AR2025",
+      "page": 255,
+      "themes": [
+        "circularity"
+      ],
+      "output_directory": "artifacts/scale_batch_005/mineru_targets_RESUME01/KB-B005-HENKEL-AR2025-p0255",
+      "status": "complete",
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "fb9ff4a64a4ce69f93362ca47626fd0fe6d53e02b098593da8d6c9fa0bf574b4",
+        "_content_list.json": "e18631824f8238c2cb6eba6d64cbb50bc01c5120a3ce920b1afd62b6cc0d5321",
+        "_middle.json": "4b9b42107d4bea8bccf13e4b64aa94e2bcb08d72ff05dfdd9f0117ac4f8fa133",
+        "_model.json": "ee62c15efeca1fc18a1befdf32cebf1262a2e87b98a2fb052dfa6f176eab05ef"
+      }
+    },
+    {
+      "document_id": "KB-B005-HENKEL-AR2025",
+      "page": 285,
+      "themes": [
+        "workforce"
+      ],
+      "output_directory": "artifacts/scale_batch_005/mineru_targets_RESUME01/KB-B005-HENKEL-AR2025-p0285",
+      "status": "complete",
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "a9ac22da8210505c55a404906b0c24b6bf8c38e1b343b8fa67e9be9f33ff359b",
+        "_content_list.json": "c3fb88735c9344e99ddbc77fe5d673c4dca69ba7772dfbcd74d1217607b343cc",
+        "_middle.json": "ccc5ef531c008566eff64babea17f05b1a23ab0db5b9b2faedb5a6f419d997a4",
+        "_model.json": "3537466365e4675b14779bbbbf24110c1859937c1549953611c7238ab7b16874"
+      }
+    },
+    {
+      "document_id": "KB-B005-HENKEL-AR2025",
+      "page": 287,
+      "themes": [
+        "health_safety"
+      ],
+      "output_directory": "artifacts/scale_batch_005/mineru_targets_RESUME01/KB-B005-HENKEL-AR2025-p0287",
+      "status": "complete",
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "889549d0ae4fd275e0ced3e63ad325f6bb910f5a8e0177146d8e1bea14c0f10b",
+        "_content_list.json": "8dad3eed5bee2555ca6b4ac06f56189d9fb5998e78506e1fa4bebf400e03fbbd",
+        "_middle.json": "6fc5db26ebced80b56558df2470f72cce8251aedb0d613aa9f3d00137644a9b0",
+        "_model.json": "a6d76cf5092d037d869be40344a2f668d5ef05f564484888fb1ec94672e87e44"
+      }
+    },
+    {
+      "document_id": "KB-B005-HENKEL-AR2025",
+      "page": 477,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_005/mineru_targets_RESUME03/KB-B005-HENKEL-AR2025-p0477",
+      "status": "complete",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_005/mineru_targets_RESUME03/KB-B005-HENKEL-AR2025-p0477/esg_rd_mineru_run.json",
+      "selected_attempt": "RESUME03",
+      "completion_basis": "post_completion_shutdown_abort_with_three_identical_required_output_sets",
+      "original_status": "failed",
+      "original_returncode": -6,
+      "output_sha256": {
+        ".md": "378521cc8ec7fc887517c9448a0374517a6f48e1aa9bc759176ec796c9438d09",
+        "_content_list.json": "dd9a95bba5881d94a64f139363dc4f1a30f6fab8d9532ea521e237c75e1ee72b",
+        "_middle.json": "f23e4469322abd47ba3a21b2e9722e0ffe55a8eed2c46238173fe50da827c83b",
+        "_model.json": "d6d1265de733050c01376f41cfb20cb5318a90ab1dc8bb1aefdc5ac55def6648"
+      }
+    },
+    {
+      "document_id": "KB-B005-SIKA-SR2025",
+      "page": 21,
+      "themes": [
+        "biodiversity"
+      ],
+      "output_directory": "artifacts/scale_batch_005/mineru_targets_RESUME03/KB-B005-SIKA-SR2025-p0021",
+      "status": "complete",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_005/mineru_targets_RESUME03/KB-B005-SIKA-SR2025-p0021/esg_rd_mineru_run.json",
+      "selected_attempt": "RESUME03",
+      "completion_basis": "post_completion_shutdown_abort_with_three_identical_required_output_sets",
+      "original_status": "failed",
+      "original_returncode": -6,
+      "output_sha256": {
+        ".md": "24feac70e52900ed4aac60d50701eb5614e8bb0823521df0876a1e54e5fe6c46",
+        "_content_list.json": "b63ffa24d341e3e55c0b898434ce0c1e1fe6ba74765e2fdf7e14132c444ff9b0",
+        "_middle.json": "f37ad46fcd04e47d3c5e1bdcc6b337e0770345b31ce933317ceb21006d2d1750",
+        "_model.json": "3142a18a6d93c47775c8f6317490b699bfd8183e245d9d9bdb08d0f7088904a2"
+      }
+    },
+    {
+      "document_id": "KB-B005-SIKA-SR2025",
+      "page": 31,
+      "themes": [
+        "targets"
+      ],
+      "output_directory": "artifacts/scale_batch_005/mineru_targets_RESUME01/KB-B005-SIKA-SR2025-p0031",
+      "status": "complete",
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "3fff8ec8bc48c09d296ef11fd3943e5fc397db16fc0f7b3f1a3ef4aa437c88d9",
+        "_content_list.json": "ddb4ce840fa2e2479aadad9c34266ed6fb0c4a65656ab158a574eb748e5469fb",
+        "_middle.json": "6cc9cca28ce233623dffdcfb2f6717d82aec8678dbcbf8c378f8b677d29895ed",
+        "_model.json": "890fd71dc73d5f0ac7de00abfd4affb89bdf19a202366c48c17b4740716b9388"
+      }
+    },
+    {
+      "document_id": "KB-B005-SIKA-SR2025",
+      "page": 39,
+      "themes": [
+        "ghg_emissions"
+      ],
+      "output_directory": "artifacts/scale_batch_005/mineru_targets_RESUME01/KB-B005-SIKA-SR2025-p0039",
+      "status": "complete",
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "b4f06bf8478109059a92dd614dd6e7dc47c84d61a4f39c9181bbb7bac73a3948",
+        "_content_list.json": "f793a95f2118bbe5717d02e5cb44d8014b80ee2ebbba55bfca3a7d4b6ee35fa9",
+        "_middle.json": "f29a933c3baf27da2abeeea59ebd84980aee7fd5ff5039a23758e17090977d28",
+        "_model.json": "40ccefea98f41c9fc64982e68625be7aba6ad7fa374021f431f4b71ad17f2994"
+      }
+    },
+    {
+      "document_id": "KB-B005-SIKA-SR2025",
+      "page": 44,
+      "themes": [
+        "energy"
+      ],
+      "output_directory": "artifacts/scale_batch_005/mineru_targets_RESUME02/KB-B005-SIKA-SR2025-p0044",
+      "status": "complete",
+      "selected_attempt": "RESUME02",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "c2cb3df225ddd7f5ed0256155b6f59ee0a0cf3cc6cf64e8b4dfc7682d9852617",
+        "_content_list.json": "5adb2f5ef356348afc7dd8d3bc1d78a35f2aaec883b5545bd1c277e9f4620cbb",
+        "_middle.json": "96dc971f8d4683ee3a03b4b0f7b58bec75ba6413c1745217b808411fdd391ac1",
+        "_model.json": "a228d6ea59d395078da0eb2ca0ceed3f1544b3e88df55c00a731b69c84dd06fb"
+      }
+    },
+    {
+      "document_id": "KB-B005-SIKA-SR2025",
+      "page": 55,
+      "themes": [
+        "water"
+      ],
+      "output_directory": "artifacts/scale_batch_005/mineru_targets_RESUME02/KB-B005-SIKA-SR2025-p0055",
+      "status": "complete",
+      "selected_attempt": "RESUME02",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "864896839fb630dc63704b7d44efcd35deb6d438380f6ca39073e3b3fe6fe043",
+        "_content_list.json": "d08e3651dd83ca8ded25f1844b5caeddb7495b6bf126cde6da3b796af39e5fe6",
+        "_middle.json": "d554903f76787ec731bb3c672345afcafcda6555f37abf728ab23b22f7062f97",
+        "_model.json": "b36f5a3786cf171c359d6c922a20978eeb2e707c1140b5f667ee1d37e9f6c7d3"
+      }
+    },
+    {
+      "document_id": "KB-B005-SIKA-SR2025",
+      "page": 70,
+      "themes": [
+        "circularity"
+      ],
+      "output_directory": "artifacts/scale_batch_005/mineru_targets_RESUME01/KB-B005-SIKA-SR2025-p0070",
+      "status": "complete",
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "13cb3e838493d8fde18ac25358e78db15390346bdb7f1ce2f0cdd44eeed87455",
+        "_content_list.json": "de9204c6f8e5eb941cc3ee3edfe174a9390be65790d76d8caf72860ed2ebf8e1",
+        "_middle.json": "008640e260724b8c4eec618fbd1a378865df51d4d0bc6c62e4378b8306dd1eb5",
+        "_model.json": "d9491f336fdba9a3ae717eb577631fa541d2448bb61894987f21758e35a5d74d"
+      }
+    },
+    {
+      "document_id": "KB-B005-SIKA-SR2025",
+      "page": 76,
+      "themes": [
+        "workforce"
+      ],
+      "output_directory": "artifacts/scale_batch_005/mineru_targets_RESUME01/KB-B005-SIKA-SR2025-p0076",
+      "status": "complete",
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "28129680f834e66f76cb4553228b1d6ac511f8ac7fd7d2f7680a28fab1591da5",
+        "_content_list.json": "edebf2f4193f4dc9660e9057ea63be96cae4facb82f058692d68871221ef2567",
+        "_middle.json": "cda901cc18ba63ce4ea7e8a3cd987586f3aadb173514acfd5515870b39d0b8cb",
+        "_model.json": "6d886c7730a4548538cec8239bb610b192bbb4cf1370f414d5374b4811f41a7a"
+      }
+    },
+    {
+      "document_id": "KB-B005-SIKA-SR2025",
+      "page": 79,
+      "themes": [
+        "health_safety"
+      ],
+      "output_directory": "artifacts/scale_batch_005/mineru_targets_RESUME01/KB-B005-SIKA-SR2025-p0079",
+      "status": "complete",
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "41ca92c43dc92c40fa4ffeeb215aa7f0f0f0cc907682e2aedb95be01319ca3f7",
+        "_content_list.json": "75961503bd8833a04a11c81918ae4c3a87e65e4c0b61ee76e7fc01f33842606f",
+        "_middle.json": "e0222e80f35b1b8b1282df937e74e8ba1e48775b6597a34cbe4db556645b8e6c",
+        "_model.json": "3a00e12d13f8108ff9a47bb80e8176d89303fcbbf84214027fc2de9834d838dc"
+      }
+    },
+    {
+      "document_id": "KB-B005-SIKA-SR2025",
+      "page": 135,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_005/mineru_targets_RESUME01/KB-B005-SIKA-SR2025-p0135",
+      "status": "complete",
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "c9d50c5a623b3fc2b4af5976b9a2caf14c4f3c593fc1e080ee85c2c21d12107f",
+        "_content_list.json": "990862f6007f8c7fb31912845623cca6baa8773e88242071b67593f84563ee58",
+        "_middle.json": "e54d1d29cce1cbf478d764b6f3fccc0ea971f4f63e8e5f661bcc11e630ddb12a",
+        "_model.json": "ab2ef246f4ab106cd52e3cd7a2243ab342ef5e8fcb31e437f92120586d0b0a57"
+      }
+    },
+    {
+      "document_id": "KB-B005-UPM-AR2025",
+      "page": 79,
+      "themes": [
+        "targets"
+      ],
+      "output_directory": "artifacts/scale_batch_005/mineru_targets_RESUME01/KB-B005-UPM-AR2025-p0079",
+      "status": "complete",
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "d24684aeb8ee40e15e5864e056429bf3efeadffc3bc8576a1fe5d8bd310cc924",
+        "_content_list.json": "46e2a08e4d50961d78c3ee16eb1dff4bde68a531d72ac7ec3e224e9b502f4a1d",
+        "_middle.json": "bda1871ba97400769a1f28e5e582cc54ef75b91b33370e52e4611d65ee0e5fb2",
+        "_model.json": "8e9d026df8a078a68c8984d396125b78454228564f2831b26288c6324baf8acd"
+      }
+    },
+    {
+      "document_id": "KB-B005-UPM-AR2025",
+      "page": 83,
+      "themes": [
+        "energy"
+      ],
+      "output_directory": "artifacts/scale_batch_005/mineru_targets_RESUME01/KB-B005-UPM-AR2025-p0083",
+      "status": "complete",
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "fb32e0d0ca28e05f760fe0db0e81ee9cfacbbfbd02ce9c5cb888dfb3d63eb1a0",
+        "_content_list.json": "ce32eb16e7b444daad2dd57e40095162354c58d6f64911be497a1b8fc00cbc5d",
+        "_middle.json": "37d08571e73c19ce0f593692687ade76bc2730a06b8a48b5fb8fbab23f6d3d2e",
+        "_model.json": "f3abe80f4beac963b0d95f9b2e31c8a2172096315b4360e666680a9a3673530e"
+      }
+    },
+    {
+      "document_id": "KB-B005-UPM-AR2025",
+      "page": 84,
+      "themes": [
+        "ghg_emissions"
+      ],
+      "output_directory": "artifacts/scale_batch_005/mineru_targets_RESUME01/KB-B005-UPM-AR2025-p0084",
+      "status": "complete",
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "4f2c1a1f5b58fffbfdd6ca8ec4a85ecbcc8311e12c98a1567cfec71bcfc4d4ec",
+        "_content_list.json": "a690916847f1a53e548158864275328c94d52cc85322b6a220b393c7cc3de08c",
+        "_middle.json": "0ceb90bf42859122d0c04637ffe1d977d37b72616ff4620e476a88ac33a5cb44",
+        "_model.json": "2f69432b38edba06dfb197ecbd38b93e7dde286ac4f956e7d80d8a64c8d748b1"
+      }
+    },
+    {
+      "document_id": "KB-B005-UPM-AR2025",
+      "page": 94,
+      "themes": [
+        "water"
+      ],
+      "output_directory": "artifacts/scale_batch_005/mineru_targets_RESUME01/KB-B005-UPM-AR2025-p0094",
+      "status": "complete",
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "ae71227cbb7dc1f89667f29f835d970fac41507dfe1a7356517e7df46d08ddd8",
+        "_content_list.json": "80814858cb57fc2a22fa1f0b5e94be1912a001620447f3735ffb83a533e62364",
+        "_middle.json": "74521f2ad8159f37f204d2254ab8974417a56659ec582f781a22a7b5f246cdaa",
+        "_model.json": "23702f9b7605eeee2639e498e1c646e5994a895ea4730bba2e966b8064cfa878"
+      }
+    },
+    {
+      "document_id": "KB-B005-UPM-AR2025",
+      "page": 96,
+      "themes": [
+        "biodiversity"
+      ],
+      "output_directory": "artifacts/scale_batch_005/mineru_targets_RESUME02/KB-B005-UPM-AR2025-p0096",
+      "status": "complete",
+      "selected_attempt": "RESUME02",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "5d1e934931e93c87b48087ea5172faa7900eb7ac8b8c316b543cc7afd0f20ccd",
+        "_content_list.json": "4c2615648f38dac36ab243ea29ad5bc86d49916f1858af55bdc6104433fee286",
+        "_middle.json": "66eab9ab7d9117eb605482010f8b077a64d0840bb572a62d528b7b537bc6ad75",
+        "_model.json": "59b4dc60bd10132756c91018f188f30a94622ee14562c78d9ae18462bbe0c1e9"
+      }
+    },
+    {
+      "document_id": "KB-B005-UPM-AR2025",
+      "page": 104,
+      "themes": [
+        "circularity"
+      ],
+      "output_directory": "artifacts/scale_batch_005/mineru_targets_RESUME01/KB-B005-UPM-AR2025-p0104",
+      "status": "complete",
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "2d68c0e44d8b605736f4d6d1f6853e4fed713da20ef9a6279301d00ce1a5ac24",
+        "_content_list.json": "871fa598ec5b83001b9fc618eb2b0909f1e736999d932359fa02ef0380f174f2",
+        "_middle.json": "059847f45222dc49571f7019d3be016ec96deb0870ef1d6c96b5ff6dd1857705",
+        "_model.json": "41a08465733f555424ea9177dd78b8e8bde9925919126d4ead56140d12b5e5d8"
+      }
+    },
+    {
+      "document_id": "KB-B005-UPM-AR2025",
+      "page": 109,
+      "themes": [
+        "workforce"
+      ],
+      "output_directory": "artifacts/scale_batch_005/mineru_targets_RESUME01/KB-B005-UPM-AR2025-p0109",
+      "status": "complete",
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "02af96b2399372bccb2016d9cccbe5de1411c05a8e3508b53bdfcd486ce0aef2",
+        "_content_list.json": "646b7c901fb573a5451ce41ebf8f6c68d1c6d93c43ec92f64e8954d87509d78e",
+        "_middle.json": "fc9b2afa78efe1551321ab469a41019e09b0556284404dea5dea7aca351a1826",
+        "_model.json": "e3ebc9ac082ef2e1298d73f5c3c7b7142d3e5b856fd5cf847035f90b32aa6166"
+      }
+    },
+    {
+      "document_id": "KB-B005-UPM-AR2025",
+      "page": 111,
+      "themes": [
+        "health_safety"
+      ],
+      "output_directory": "artifacts/scale_batch_005/mineru_targets_RESUME01/KB-B005-UPM-AR2025-p0111",
+      "status": "complete",
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "4e1926ee050aaa99304c89880d74f58ae997e71532a13e3f70730285f2f64589",
+        "_content_list.json": "59055c0e62fc31f7c20329f4b217b741d8deed72741fa86d91414b0b2c98ece8",
+        "_middle.json": "4fd4971f108149d764d61b4e5952fabfebc93f3e01ca1c6f0c0c8fe554ef96ca",
+        "_model.json": "7c20c670e0d95db066184297e3b1004ccbb6baea14e78b633c4fae57bfd4ad2a"
+      }
+    },
+    {
+      "document_id": "KB-B005-UPM-AR2025",
+      "page": 177,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_005/mineru_targets_RESUME02/KB-B005-UPM-AR2025-p0177",
+      "status": "complete",
+      "selected_attempt": "RESUME02",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "fa6880c02fc726ae6fd7564aa9cdae6eec394cbc5fef09db92dd7079e45a8e8d",
+        "_content_list.json": "16bdd01acd1e4f7c12f81abe1675eb7700d2696c7e40d3f81440a2e08b006b3e",
+        "_middle.json": "93496a5a6de1b6d89e55d487276a2160782a7d4026cb60e454ec24d9b796916f",
+        "_model.json": "cb544c5ed297afda24adc71a7aa5064fdce7fbbfd64c7f5e7bd187fed4a5c797"
+      }
+    }
+  ]
+}

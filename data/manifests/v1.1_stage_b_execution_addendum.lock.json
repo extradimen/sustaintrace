@@ -1,0 +1,16 @@
+{
+  "schema_version":"1.0",
+  "addendum_id":"ESG-RD-v1.1-STAGE-B-EXECUTION-ADDENDUM",
+  "status":"frozen_before_first_v1.1_stage_b_inference",
+  "base_freeze":"data/manifests/v1.1_development_freeze.lock.json",
+  "stage_b_runner_path":"src/esg_reliable_discovery/v11_stage_b_runner.py",
+  "stage_b_runner_sha256":"3052aeda2f85063b093a6ceffb06dc1f6d2d0c0efc1804e4679a7481c42970d4",
+  "stage_b_core_sha256":"7331dd1701d0d9f467b608d78e027fa6e822f8d72b63f129697a68d449c1821f",
+  "ontology_sha256":"10cfc2515845fdfa6b407229e83016c0896b69103eb4e2d0e2237378eb6dd115",
+  "projection_contracts_sha256":"f688403df98f4e20a3cc32555ebec546c1cfe7459afd63a7be15e16280fbbabd",
+  "reporting_year_registry_sha256":"ad2b488fecdfb6dddbbe7c34e0bad8ecec1152fedbe39fa5d798887d102ff937",
+  "stage_b_prompt_sha256":"236fdacb634c0fe4d2fd7c442c82cdededa9f2538847224c6c4c4329502b8ff1",
+  "tests_passed":156,
+  "reference_visible_during_inference":false,
+  "posthoc_repair":false
+}

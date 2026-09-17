@@ -1,0 +1,330 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-006",
+  "status": "table_graphs_built_fail_closed",
+  "source_table_candidates": 3,
+  "graphs": [
+    {
+      "source_fact_record_id": "fact-92a107b0782b6fbc8d6ca481",
+      "document_id": "KB-B006-VOLVO-AR2025",
+      "pdf_page": 160,
+      "graphs": [
+        {
+          "table_index": 0,
+          "status": "two_axis_graph_built",
+          "header_row_index": 1,
+          "column_headers": [
+            "",
+            "2025",
+            "2024 2019"
+          ],
+          "period_columns": [
+            1,
+            2
+          ],
+          "indicator_column": 0,
+          "unit_column": null,
+          "rejected_rows": [
+            {
+              "row_index": 2,
+              "reason": "multiple_numeric_tokens_in_one_cell"
+            },
+            {
+              "row_index": 3,
+              "reason": "multiple_numeric_tokens_in_one_cell"
+            },
+            {
+              "row_index": 4,
+              "reason": "multiple_numeric_tokens_in_one_cell"
+            },
+            {
+              "row_index": 5,
+              "reason": "multiple_numeric_tokens_in_one_cell"
+            }
+          ],
+          "rows": [
+            [
+              "Emissions per net revenues"
+            ],
+            [
+              "",
+              "2025",
+              "2024 2019"
+            ],
+            [
+              "Scope 1 and 2 (location based) per net revenue (tCO\u2082e/BSEK)",
+              "0.79 0.74",
+              "1.14"
+            ],
+            [
+              "Scope 1 and 2 (market based) per net revenue (tCO\u2082e/BSEK)",
+              "0.56",
+              "0.53 0.91"
+            ],
+            [
+              "Scope 3.11 emissions per net revenue (tCO\u2082e/BSEK)",
+              "499 493",
+              "793"
+            ],
+            [
+              "Scope 3.1 emissions per net revenue (tCO\u2082e/BSEK)",
+              "20 20",
+              "29"
+            ]
+          ],
+          "cells": []
+        }
+      ]
+    },
+    {
+      "source_fact_record_id": "fact-4fe1f478c1c25aeed2a7af98",
+      "document_id": "KB-B006-VOLVO-AR2025",
+      "pdf_page": 174,
+      "graphs": [
+        {
+          "table_index": 0,
+          "status": "two_axis_graph_built",
+          "header_row_index": 2,
+          "column_headers": [
+            "",
+            "2025",
+            "2024"
+          ],
+          "period_columns": [
+            1,
+            2
+          ],
+          "indicator_column": 0,
+          "unit_column": null,
+          "rejected_rows": [],
+          "rows": [
+            [
+              "Employees by gender"
+            ],
+            [
+              "",
+              "Headcount"
+            ],
+            [
+              "",
+              "2025",
+              "2024"
+            ],
+            [
+              "Men",
+              "68,441",
+              "72,103"
+            ],
+            [
+              "Women",
+              "21,396",
+              "21,902"
+            ],
+            [
+              "Other",
+              "2",
+              "2"
+            ],
+            [
+              "Number of employees total",
+              "89,839",
+              "94,007"
+            ]
+          ],
+          "cells": [
+            {
+              "cell_handle": "cell-6d3ad382f8fa7c443736",
+              "table_index": 0,
+              "row_index": 3,
+              "column_index": 1,
+              "row_header": "Men",
+              "row_header_column_index": 0,
+              "column_header": "2025",
+              "normalized_period": 2025,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "68,441",
+              "normalized_value": "68441",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-5def01602714fc67df6a",
+              "table_index": 0,
+              "row_index": 3,
+              "column_index": 2,
+              "row_header": "Men",
+              "row_header_column_index": 0,
+              "column_header": "2024",
+              "normalized_period": 2024,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "72,103",
+              "normalized_value": "72103",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-7bac9979f6eaa4b67327",
+              "table_index": 0,
+              "row_index": 4,
+              "column_index": 1,
+              "row_header": "Women",
+              "row_header_column_index": 0,
+              "column_header": "2025",
+              "normalized_period": 2025,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "21,396",
+              "normalized_value": "21396",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-6c9bf8ccdfe00d0732f1",
+              "table_index": 0,
+              "row_index": 4,
+              "column_index": 2,
+              "row_header": "Women",
+              "row_header_column_index": 0,
+              "column_header": "2024",
+              "normalized_period": 2024,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "21,902",
+              "normalized_value": "21902",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-69155bc9f111bb100dfb",
+              "table_index": 0,
+              "row_index": 5,
+              "column_index": 1,
+              "row_header": "Other",
+              "row_header_column_index": 0,
+              "column_header": "2025",
+              "normalized_period": 2025,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "2",
+              "normalized_value": "2",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-da0eb5fc541d74bf41fa",
+              "table_index": 0,
+              "row_index": 5,
+              "column_index": 2,
+              "row_header": "Other",
+              "row_header_column_index": 0,
+              "column_header": "2024",
+              "normalized_period": 2024,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "2",
+              "normalized_value": "2",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-338e1fc751001e6a3d8e",
+              "table_index": 0,
+              "row_index": 6,
+              "column_index": 1,
+              "row_header": "Number of employees total",
+              "row_header_column_index": 0,
+              "column_header": "2025",
+              "normalized_period": 2025,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "89,839",
+              "normalized_value": "89839",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-218bf836dc267f838f39",
+              "table_index": 0,
+              "row_index": 6,
+              "column_index": 2,
+              "row_header": "Number of employees total",
+              "row_header_column_index": 0,
+              "column_header": "2024",
+              "normalized_period": 2024,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "94,007",
+              "normalized_value": "94007",
+              "normalized_unit": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_fact_record_id": "fact-101e158ce53bd1465559c6dd",
+      "document_id": "KB-B006-VOLVO-AR2025",
+      "pdf_page": 174,
+      "graphs": [
+        {
+          "table_index": 0,
+          "status": "ambiguous_no_two_axis_period_header",
+          "rows": [
+            [
+              "Employees by country or region"
+            ],
+            [
+              "",
+              "Headcount"
+            ],
+            [
+              "2025",
+              "2024"
+            ],
+            [
+              "Sweden",
+              "26,712",
+              "26,162"
+            ],
+            [
+              "France",
+              "9,735",
+              "9,755"
+            ],
+            [
+              "Europe (excl. Sweden and France)",
+              "16,781",
+              "16,937"
+            ],
+            [
+              "USA",
+              "13,652",
+              "15,439"
+            ],
+            [
+              "North America (excl USA)",
+              "5,491",
+              "5,106"
+            ],
+            [
+              "South America",
+              "7,025",
+              "7,334"
+            ],
+            [
+              "Asia",
+              "7,891",
+              "10,994"
+            ],
+            [
+              "Africa and Oceania",
+              "2,552",
+              "2,280"
+            ],
+            [
+              "Number of employees total",
+              "89,839",
+              "94,007"
+            ]
+          ],
+          "cells": []
+        }
+      ]
+    }
+  ]
+}

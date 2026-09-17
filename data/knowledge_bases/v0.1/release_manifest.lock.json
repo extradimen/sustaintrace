@@ -1,0 +1,55 @@
+{
+  "candidate_records_included": false,
+  "counts": {
+    "failure_observations": 1032,
+    "issuer_entities": 34,
+    "relation_edges": 149,
+    "trusted_facts": 149
+  },
+  "default_query_layer": "trusted_tier_b_only",
+  "files": [
+    {
+      "bytes": 3438,
+      "path": "boundary_semantic_ontology_v0.1.json",
+      "sha256": "9ae3d7369f2067f693b48d126e0bf3f05270837cef4e23563b720ef2def9be63"
+    },
+    {
+      "bytes": 11294,
+      "path": "entity_registry.jsonl",
+      "sha256": "4cbc1a31337e858f16bf8994aba3670927a887050ce6d1a65bb61c5ac3636f52"
+    },
+    {
+      "bytes": 1121549,
+      "path": "failure_records.jsonl",
+      "sha256": "bac85772c9a3830c54fa03a2107851c35097ecd2540d58d7ae59479c4e4327ad"
+    },
+    {
+      "bytes": 145362,
+      "path": "failure_signature_catalog.json",
+      "sha256": "5568adab2c222a19f407800351dda1e7b161c2131a1c63412c90042f7c394a7f"
+    },
+    {
+      "bytes": 245017,
+      "path": "relation_edges.jsonl",
+      "sha256": "5aec632b6be98ca3543d90a472d73a02421a0db821a1ad5b043c2c0446ddf7df"
+    },
+    {
+      "bytes": 557,
+      "path": "repair_executor_catalog_v0.1.json",
+      "sha256": "89ce71f32d7a4385b6861145bd3ea03bc7ce2d23eff539ae308444d9e5194deb"
+    },
+    {
+      "bytes": 13699,
+      "path": "repair_strategy_catalog_v0.1.json",
+      "sha256": "b12a71fa9e111bc83e80a3881f282269b3473cc77a7ee31e085b6e3927f2d82b"
+    },
+    {
+      "bytes": 357501,
+      "path": "trusted_fact_records.jsonl",
+      "sha256": "866c7e14eb92a86401fab4524d6fd909b67a3f9c3e0c5c728b7e5bea4045eb6b"
+    }
+  ],
+  "record_kind": "sustaintrace_release_knowledge_manifest",
+  "schema_version": "0.1",
+  "simulated_records_included": false
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": "2.5",
+  "experiment_id": "P16-V25-UNSEEN-LOCKBOX-V01",
+  "status": "frozen_before_stage_b_resume_after_shape_recovery",
+  "qualifiers": {
+    "reporting_period": "calendar year 2025 unless another base, target or comparative year is explicitly named",
+    "page_coordinates": "one-based PDF page indexes",
+    "ghg_boundary": "market-based Scope 1, market-based Scope 2, significant Scope 3 and transition-plan total remain distinct",
+    "target_boundary": "preserve the 2019 baseline, Opella divestment, SBTi resubmission status, categories 1-7 and residual-emissions treatment",
+    "pollution_boundary": "preserve air-emission, solvent-mass-balance, E-PRTR, manufacturing-operation and 54-substance qualifications",
+    "safety_boundary": "preserve workforce scope, per-million-hour denominator, rolling period and November-to-December estimate",
+    "access_boundary": "preserve Global Health Unit, cumulative 2022-2025 and prior-year restatement qualifications",
+    "assurance_boundary": "preserve limited assurance, covered sections, Article 8, comparative exclusion and forward-looking uncertainty",
+    "reference_type": "simulated expert reference; not independent human gold"
+  }
+}

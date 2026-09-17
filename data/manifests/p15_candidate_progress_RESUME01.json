@@ -1,0 +1,146 @@
+{
+  "checkpoint_resume_enabled": true,
+  "cloud_authorization": "data/manifests/p15_cloud_authorization_2026-09-09.lock.json",
+  "experiment_id": "P15-V24-UNSEEN-LOCKBOX-V01",
+  "records": [
+    {
+      "retried": false,
+      "stage_a": "failed",
+      "stage_a_error": "OllamaError:v1.3 Stage A model behavior failed; archived at /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P15-V24-UNSEEN-LOCKBOX-V01/runs/P15-GHG-CALC-001-QWEN397B-v24-RESUME01-stage-a: ValueError:v24_calculation_roles_missing:['reported_total']",
+      "stage_a_failure_taxonomy": {
+        "category": "model_behavior",
+        "error_type": "OllamaError",
+        "model_call_started": true,
+        "owner": "candidate_model",
+        "retry_policy": "no_retry_in_locked_experiment",
+        "score_as_model_failure": true,
+        "stage": "stage_a"
+      },
+      "task_id": "P15-GHG-CALC-001",
+      "task_type": "deterministic_calculation"
+    },
+    {
+      "retried": false,
+      "stage_a": "passed",
+      "stage_a_result": {
+        "archive_directory": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P15-V24-UNSEEN-LOCKBOX-V01/runs/P15-TARGET-001-QWEN397B-v24-RESUME01-stage-a",
+        "elapsed_seconds": 63.063324542017654,
+        "framework_evidence_state": "supported",
+        "model": "qwen3.5:397b-cloud",
+        "run_id": "P15-TARGET-001-QWEN397B-v24-RESUME01-stage-a",
+        "task_id": "P15-TARGET-001"
+      },
+      "stage_b": "passed",
+      "stage_b_result": {
+        "archive_directory": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P15-V24-UNSEEN-LOCKBOX-V01/runs/P15-TARGET-001-QWEN397B-v24-RESUME01-stage-b",
+        "elapsed_seconds": 73.23528391699074,
+        "run_id": "P15-TARGET-001-QWEN397B-v24-RESUME01-stage-b",
+        "task_id": "P15-TARGET-001",
+        "validated_claim_count": 17
+      },
+      "task_id": "P15-TARGET-001",
+      "task_type": "scope_subject_boundary"
+    },
+    {
+      "retried": false,
+      "stage_a": "passed",
+      "stage_a_result": {
+        "archive_directory": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P15-V24-UNSEEN-LOCKBOX-V01/runs/P15-WATER-QUALITY-001-QWEN397B-v24-RESUME01-stage-a",
+        "elapsed_seconds": 48.458291916991584,
+        "framework_evidence_state": "supported",
+        "model": "qwen3.5:397b-cloud",
+        "run_id": "P15-WATER-QUALITY-001-QWEN397B-v24-RESUME01-stage-a",
+        "task_id": "P15-WATER-QUALITY-001"
+      },
+      "stage_b": "failed",
+      "stage_b_error": "OllamaError:v1.3 Stage B model behavior failed; archived at /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P15-V24-UNSEEN-LOCKBOX-V01/runs/P15-WATER-QUALITY-001-QWEN397B-v24-RESUME01-stage-b: ValueError:v13_slot_schema_failure:{'slot_id': 'supplier_classes', 'value': 'High-risk suppliers are strategic (long-term relationship), tactical (key technology provider), or antibiotics providers.', 'verbatim_value': 'High-risk suppliers are strategic (long-term relationship), tactical (key technology provider), or antibiotics providers.', 'evidence_handle': 'M030-B0008'} is not valid under any of the given schemas",
+      "stage_b_failure_taxonomy": {
+        "category": "model_behavior",
+        "error_type": "OllamaError",
+        "model_call_started": true,
+        "owner": "candidate_model",
+        "retry_policy": "no_retry_in_locked_experiment",
+        "score_as_model_failure": true,
+        "stage": "stage_b"
+      },
+      "task_id": "P15-WATER-QUALITY-001",
+      "task_type": "direct_extraction"
+    },
+    {
+      "retried": false,
+      "stage_a": "passed",
+      "stage_a_result": {
+        "archive_directory": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P15-V24-UNSEEN-LOCKBOX-V01/runs/P15-SAFETY-001-QWEN397B-v24-RESUME01-stage-a",
+        "elapsed_seconds": 34.98409858299419,
+        "framework_evidence_state": "supported",
+        "model": "qwen3.5:397b-cloud",
+        "run_id": "P15-SAFETY-001-QWEN397B-v24-RESUME01-stage-a",
+        "task_id": "P15-SAFETY-001"
+      },
+      "stage_b": "failed",
+      "stage_b_error": "OllamaError:v1.3 Stage B model behavior failed; archived at /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P15-V24-UNSEEN-LOCKBOX-V01/runs/P15-SAFETY-001-QWEN397B-v24-RESUME01-stage-b: ValueError:v13_numeric_not_grounded:rate_denominator_work_hours",
+      "stage_b_failure_taxonomy": {
+        "category": "model_behavior",
+        "error_type": "OllamaError",
+        "model_call_started": true,
+        "owner": "candidate_model",
+        "retry_policy": "no_retry_in_locked_experiment",
+        "score_as_model_failure": true,
+        "stage": "stage_b"
+      },
+      "task_id": "P15-SAFETY-001",
+      "task_type": "direct_extraction"
+    },
+    {
+      "retried": false,
+      "stage_a": "passed",
+      "stage_a_result": {
+        "archive_directory": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P15-V24-UNSEEN-LOCKBOX-V01/runs/P15-ACCESS-001-QWEN397B-v24-RESUME01-stage-a",
+        "elapsed_seconds": 11.482840000011493,
+        "framework_evidence_state": "supported",
+        "model": "qwen3.5:397b-cloud",
+        "run_id": "P15-ACCESS-001-QWEN397B-v24-RESUME01-stage-a",
+        "task_id": "P15-ACCESS-001"
+      },
+      "stage_b": "passed",
+      "stage_b_result": {
+        "archive_directory": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P15-V24-UNSEEN-LOCKBOX-V01/runs/P15-ACCESS-001-QWEN397B-v24-RESUME01-stage-b",
+        "elapsed_seconds": 87.72258787497412,
+        "run_id": "P15-ACCESS-001-QWEN397B-v24-RESUME01-stage-b",
+        "task_id": "P15-ACCESS-001",
+        "validated_claim_count": 9
+      },
+      "task_id": "P15-ACCESS-001",
+      "task_type": "scope_subject_boundary"
+    },
+    {
+      "retried": false,
+      "stage_a": "passed",
+      "stage_a_result": {
+        "archive_directory": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P15-V24-UNSEEN-LOCKBOX-V01/runs/P15-ASSURE-001-QWEN397B-v24-RESUME01-stage-a",
+        "elapsed_seconds": 22.2475375829963,
+        "framework_evidence_state": "supported",
+        "model": "qwen3.5:397b-cloud",
+        "run_id": "P15-ASSURE-001-QWEN397B-v24-RESUME01-stage-a",
+        "task_id": "P15-ASSURE-001"
+      },
+      "stage_b": "failed",
+      "stage_b_error": "OllamaError:v1.3 Stage B model behavior failed; archived at /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P15-V24-UNSEEN-LOCKBOX-V01/runs/P15-ASSURE-001-QWEN397B-v24-RESUME01-stage-b: ValueError:v13_slot_schema_failure:{'slot_id': 'standards', 'value': 'International Standard on Assurance Engagements 3000 (Revised) Assurance Engagements other than Audits or Reviews of Historical Financial Information (ISAE 3000) and in respect of greenhouse gas emissions, with the International Standard on Assurance Engagements 3410 Assurance Engagements on Greenhouse Gas Statements (ISAE 3410)', 'verbatim_value': 'International Standard on Assurance Engagements 3000 (Revised) Assurance Engagements other than Audits or Reviews of Historical Financial Information (ISAE 3000) and in respect of greenhouse gas emissions, with the International Standard on Assurance Engagements 3410 Assurance Engagements on Greenhouse Gas Statements (ISAE 3410)', 'evidence_handle': 'M044-B0008'} is not valid under any of the given schemas",
+      "stage_b_failure_taxonomy": {
+        "category": "model_behavior",
+        "error_type": "OllamaError",
+        "model_call_started": true,
+        "owner": "candidate_model",
+        "retry_policy": "no_retry_in_locked_experiment",
+        "score_as_model_failure": true,
+        "stage": "stage_b"
+      },
+      "task_id": "P15-ASSURE-001",
+      "task_type": "scope_subject_boundary"
+    }
+  ],
+  "reference_loaded_by_orchestrator": false,
+  "schema_version": "2.4",
+  "single_attempt_per_stage": true,
+  "updated_at": "2026-09-09T14:33:26.089902+00:00"
+}

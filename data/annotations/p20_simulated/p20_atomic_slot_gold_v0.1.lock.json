@@ -1,0 +1,92 @@
+{
+  "experiment_id": "P20-V29-UNSEEN-LOCKBOX-V01",
+  "schema_version": "2.9",
+  "status": "frozen_atomic_scoring_projection_before_candidate_inference",
+  "values": {
+    "P20-ASSURE-001": {
+      "assurance_level": "limited assurance",
+      "assurance_provider": "EY & Associés",
+      "assured_subjects": "Double Materiality Assessment | selected Sustainability Indicators | Transition Plan Disclosures",
+      "conclusion_form": "nothing has come to our attention",
+      "criteria": "ESRS requirements | section-specific Methodology criteria | ESRS E1 Climate Change requirements",
+      "excluded_responsibility": "entire report; other applicable legal provisions; appropriateness or ambition of transition-strategy objectives",
+      "governing_standard": "ISAE 3000 (Revised)",
+      "procedure_difference": "limited assurance procedures are less extensive and assurance is substantially lower than reasonable assurance",
+      "signatory": "Christophe Schmeitzky",
+      "signature_date": "2026-02-26",
+      "signature_location": "Paris-La Défense"
+    },
+    "P20-ENERGY-001": {
+      "direction": "increase",
+      "fossil_energy_mmwh::2024": 49,
+      "fossil_energy_mmwh::2025": 47,
+      "fossil_share_percent::2024": 58,
+      "fossil_share_percent::2025": 55,
+      "narrative_change_percent": 0.4,
+      "renewable_electricity_instruments": "power purchase agreements (PPAs) | virtual power purchase agreements (VPPAs) | renewable energy certificates (RECs) and guarantees of origin (GOs)",
+      "renewable_energy_mmwh::2024": 12,
+      "renewable_energy_mmwh::2025": 13,
+      "renewable_share_percent::2024": 14,
+      "renewable_share_percent::2025": 16,
+      "total_energy_mmwh::2024": 85,
+      "total_energy_mmwh::2025": 85
+    },
+    "P20-GHG-CALC-001": {
+      "calculated_change_percent": 1.1,
+      "calculated_total_mtco2e::2025": 92,
+      "difference_mtco2e::2025": 0,
+      "direction": "increase",
+      "disclosed_total_market_mtco2e::2024": 91,
+      "disclosed_total_market_mtco2e::2025": 92,
+      "scope1_gross_mtco2e::2025": 52,
+      "scope2_market_mtco2e::2025": 3,
+      "scope3_mtco2e::2025": 37
+    },
+    "P20-SCOPE3-001": {
+      "category15_mtco2e::2024": 19.6,
+      "category15_mtco2e::2025": 21.3,
+      "category1_mtco2e::2024": 5.3,
+      "category1_mtco2e::2025": 5.8,
+      "category1_plus_15_mtco2e::2024": 24.9,
+      "category1_plus_15_mtco2e::2025": 27.1,
+      "category1_plus_15_share_percent::2024": 71.14,
+      "category1_plus_15_share_percent::2025": 73.24,
+      "primary_data_percent::2024": 58,
+      "primary_data_percent::2025": 59,
+      "scope3_total_mtco2e::2024": 35,
+      "scope3_total_mtco2e::2025": 37
+    },
+    "P20-TAXONOMY-001": {
+      "capex_aligned_mchf::2025": 347,
+      "capex_aligned_percent::2025": 19.2,
+      "capex_driver": "accelerated decarbonization and circularity investments",
+      "capex_eligible_mchf::2025": 1038,
+      "capex_eligible_percent::2025": 57.4,
+      "capex_total_mchf::2025": 1809,
+      "comparative_qualification": "2024 figures restated for discontinued operations and unaudited",
+      "opex_aligned_mchf::2025": 93,
+      "opex_aligned_percent::2025": 9.8,
+      "opex_driver": "refined 2025 methodology improved identification of qualifying R&D",
+      "opex_eligible_mchf::2025": 573,
+      "opex_eligible_percent::2025": 60.4,
+      "opex_total_mchf::2025": 949,
+      "spin_off_boundary": "North American business excluded from consolidated turnover, CapEx and OpEx KPIs for both 2024 and 2025",
+      "turnover_aligned_mchf::2025": 914,
+      "turnover_aligned_percent::2025": 5.8,
+      "turnover_driver": "higher low-carbon cement sales and improved DNSH alignment for air pollution and climate adaptation",
+      "turnover_eligible_mchf::2025": 7603,
+      "turnover_eligible_percent::2025": 48.4,
+      "turnover_total_mchf::2025": 15724
+    },
+    "P20-WORKFORCE-001": {
+      "calculated_contract_headcount::2025": 43875,
+      "difference_headcount::2025": 2180,
+      "exclusion_explanation": "newly acquired entities such as ZinCo and Alkern had not implemented Success Factors and were excluded from contract-type metrics",
+      "global_headcount::2025": 46055,
+      "non_guaranteed_hours_headcount::2025": 140,
+      "non_guaranteed_hours_rounded_percent::2025": 0,
+      "permanent_headcount_contract_table::2025": 40590,
+      "temporary_headcount_contract_table::2025": 3285
+    }
+  }
+}

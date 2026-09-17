@@ -1,0 +1,28 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-002",
+  "status": "infrastructure_failures_preserved_then_recovered",
+  "created_at": "2026-09-12T15:14:22Z",
+  "attempts": [
+    {
+      "document_id": "KB-B002-EON-SF2025",
+      "transport": "python_urllib_default_batch_client",
+      "result": "HTTP_403",
+      "model_behavior_failure": false
+    },
+    {
+      "document_id": "KB-B002-EON-SF2025",
+      "transport": "curl_browser_compatible_headers",
+      "result": "HTTP_403",
+      "model_behavior_failure": false
+    },
+    {
+      "document_id": "KB-B002-EON-SF2025",
+      "transport": "interactive_browser_pdf_viewer_download",
+      "result": "success",
+      "bytes": 3429715,
+      "sha256": "ba0148251b0ebf1b44d9b986e9bb372962fcde1384cca35d08d8057f642134f2"
+    }
+  ],
+  "recovery_policy": "same frozen official URL; no source substitution; successful object independently validated as PDF and locked by SHA256"
+}

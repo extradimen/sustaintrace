@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0",
+  "task_id": "P16-POLLUTION-001",
+  "reference_author": "codex_gpt_simulated_expert",
+  "reference_status": "verified_against_frozen_pages",
+  "answer": "Sanofi reported 616 tons of VOCs and 21 tons of dichloromethane in air for 2025. The VOC figure uses an annual solvent mass balance and includes an 83-ton Opella estimate for January–April; the Solvent Management Plan applies to sites or operations using more than one ton of organic solvents annually. For SVHCs, it reported 1,611,558 kg generated, used or procured; 1,494 kg leaving facilities in emissions, products, parts of products or services; 908 kg as emissions; and 586 kg in products. These estimates cover manufacturing operations and related activities and a list of 54 EU REACH candidate-list substances. Waterborne dichloromethane was reported only for two sites above the applicable E-PRTR threshold and was based on discharge-point samples.",
+  "normalized_value": {
+    "voc_air_tons": 616,
+    "dichloromethane_air_tons": 21,
+    "voc_opella_estimate_tons": 83,
+    "voc_smp_threshold_tons_per_year": 1,
+    "svhc_generated_used_procured_kg": 1611558,
+    "svhc_total_leaving_facilities_kg": 1494,
+    "svhc_leaving_as_emissions_kg": 908,
+    "svhc_leaving_as_products_kg": 586,
+    "svhc_substance_count": 54,
+    "svhc_boundary": "manufacturing operations and related activities; EU REACH candidate-list substances",
+    "water_dichloromethane_site_count": 2,
+    "water_dichloromethane_method": "sites above the applicable E-PRTR reporting threshold; wastewater samples collected at site discharge points and consolidated annually"
+  },
+  "evidence": [
+    {"source_id":"P16-SANOFI-SS2025","pdf_page":43,"quote":"VOCs (mass balance)"},
+    {"source_id":"P16-SANOFI-SS2025","pdf_page":43,"quote":"616"},
+    {"source_id":"P16-SANOFI-SS2025","pdf_page":43,"quote":"Opella estimate used in 2025"},
+    {"source_id":"P16-SANOFI-SS2025","pdf_page":44,"quote":"more than one ton of organic solvents per year"},
+    {"source_id":"P16-SANOFI-SS2025","pdf_page":45,"quote":"1,611,558"},
+    {"source_id":"P16-SANOFI-SS2025","pdf_page":45,"quote":"1,494"},
+    {"source_id":"P16-SANOFI-SS2025","pdf_page":45,"quote":"908"},
+    {"source_id":"P16-SANOFI-SS2025","pdf_page":45,"quote":"586"},
+    {"source_id":"P16-SANOFI-SS2025","pdf_page":45,"quote":"cover a list of 54"},
+    {"source_id":"P16-SANOFI-SS2025","pdf_page":45,"quote":"related to two sites"}
+  ],
+  "provenance": {"reference_is_simulated":true,"candidate_model_used":false}
+}

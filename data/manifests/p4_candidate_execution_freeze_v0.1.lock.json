@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0",
+  "freeze_id": "P4-CANDIDATE-EXECUTION-FREEZE-V01",
+  "status": "frozen_before_candidate_inference",
+  "experiment_id": "P4-V13-UNSEEN-LOCKBOX-V01",
+  "candidate_model": "qwen3.5:397b-cloud",
+  "candidate_digest": "68d2a0796c11e1fedd0456a2d55e58cca4077be6a218428a7a7f4e21f8177cbc",
+  "single_attempt_per_stage": true,
+  "no_silent_retry": true,
+  "no_posthoc_semantic_repair": true,
+  "locked_inputs": {
+    "task_pack": {"path":"data/tasks/p4_task_pack_v0.1.lock.json","sha256":"af239232c1f7b12de94c3d3ca8d2047d3f1a9a09676ac9e8d158b53b4eb37524"},
+    "mineru_registry": {"path":"data/manifests/p4_mineru_target_registry_v0.1.json","sha256":"71af35265cf3043ace1b34b734f926a1028a938d3347fdf35f696a7f96144c8a"},
+    "parser_anomaly_audit": {"path":"data/results/p4_parser_anomaly_audit_v0.1.lock.json","sha256":"a6a0d5674035ab4906eff59f506298eb93f846b0b64b8bebaba87abbc95f8fb6"},
+    "layout_registry": {"path":"configs/framework/p4_layout_fallback_registry_v0.1.lock.json","sha256":"ba670cb265e965c1ed0cc6003b088a3022f42496047b18964e46f97c2d915491"},
+    "ontology": {"path":"configs/ontology/esg_atomic_claim_registry_v1.2.lock.json","sha256":"378bdbedc967ac30fd75fc12bec4b88b9f3bb5871ffdaa3a3491358b3c16b9a0"},
+    "slot_contracts": {"path":"configs/framework/p4_slot_contracts_v0.1.lock.json","sha256":"d2e2dc83dcd0de759a6a6c0562d70dba010cadb8a7aedb98479e0c81800eed33"},
+    "semantic_qualifiers": {"path":"configs/framework/p4_semantic_qualifiers_v0.1.lock.json","sha256":"a95377bf3be0ee2ef8c00c9fc2f9415700b96e7f61e9c4e47111a53501db9713"},
+    "source_registry": {"path":"data/manifests/p4_source_registry_v0.1.lock.json","sha256":"fb1bbceac6b05faf3ffaf4e1b7bdad12e7c6afc347a008a9e93f9013154522e0"},
+    "reporting_years": {"path":"configs/framework/p4_reporting_year_registry_v0.1.lock.json","sha256":"c8847051d7fe8caf83628abd0aab89adec7af278a5fa51c82122086558d90f6e"}
+  },
+  "reference_files_sha256": {
+    "P4-CALC-001":"7987a60b0458a462fb287587c10355c7de594632e0be33182b973457a693ca35",
+    "P4-CALC-002":"c06d25e3d7ce0542d3df05421160dba548a4b2f6d60dbfaa46834d1432a99521",
+    "P4-CONFLICT-001":"531bcc5674f471999cd02aac8992b2e1c3e5d1208a74c361b4756d2e5772da6a",
+    "P4-DEX-001":"b3b2ce0876b8058795f0d6b9d4c061676ae0952b30bc196797cab6f4df9864b6",
+    "P4-DEX-002":"0e361380da336a8efcbea95eeb414bd16ce12910255a4218f4913d1c79eab679",
+    "P4-DEX-003":"ef694f3b6aa23c2846453bd5b56c9e33c723168e08d6be46d0ed35703182144a",
+    "P4-SCOPE-001":"2cf428e5c63e8dbbe4e7b805eda957b6c6a754569dca3d565d3c66175a5ae114",
+    "P4-SCOPE-002":"b59b5c05c8d6101711bf2b1a56487d471712b4f455b80e5bbf122a3bf19c1a78",
+    "P4-XPAGE-001":"16911edbac191aa3e2a7971b1e7e192ac8e8833816321d235e55ad26a70ef560"
+  },
+  "candidate_runner_can_read_reference": false,
+  "p3_rerun": false
+}

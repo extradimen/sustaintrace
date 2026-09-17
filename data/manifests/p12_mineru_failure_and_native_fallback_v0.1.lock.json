@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "experiment_id": "P12-V21-UNSEEN-LOCKBOX-V01",
+  "status": "mineru_infrastructure_failure_archived_native_pdf_fallback_complete",
+  "document_sha256": "6f3f1b606fe771020dad30685ad0140114e0f23fd6f0921bd47f0975e07d4338",
+  "mineru": {
+    "version": "3.4.0",
+    "attempt_scope": "local_only_target_pages",
+    "failure_class": "infrastructure_model_runtime_incompatibility",
+    "failure_detail": "Installed MinerU 3.4.0 expects legacy PDF-Extract-Kit LayoutLMv3/YOLO assets, while the pinned local Hugging Face snapshot exposes the newer PP-DocLayoutV2 model layout. The initial missing-config failure and subsequent incompatible-model failures are retained in per-page logs.",
+    "logs_root": "artifacts/p12/mineru_logs",
+    "parsed_pages": [],
+    "failed_pages": [214, 215, 259, 260, 274, 275, 276, 280, 281, 366, 659, 660, 663],
+    "cloud_transmission": false
+  },
+  "native_pdf_fallback": {
+    "tool": "pdftotext -layout",
+    "output_root": "artifacts/p12/native_pdf_targets",
+    "page_numbering": "one_based_pdf_page",
+    "pages": [
+      {"page":214,"sha256":"8b7e42345528390f41b388a4521d5b4bb18c41d6776a6256476d52faff01a5bf"},
+      {"page":215,"sha256":"ae9884f00554300a88a6a3e452828c3a02f8220d4404a5f16516abab2a2631e0"},
+      {"page":259,"sha256":"8036f52231e0868037f9f335812b9373a9532055f92864138df1c847b02ba9bc"},
+      {"page":260,"sha256":"9c00bb8c04b052d281c975e8f56dba2f0a566a2d8e9a976cea713b5b93a67496"},
+      {"page":274,"sha256":"a614bef5330c800cfe287bcd80520542e5be614b24c60272b6b39529b599ef3f"},
+      {"page":275,"sha256":"cebc7552ba956e78fe27eba93b1774ceb7775fa92a1ebd2f903dd7d3e52c651e"},
+      {"page":276,"sha256":"abc012775aa616c490d4126485e5316e6e0b936e9c695170f00da0204a1c0b4f"},
+      {"page":280,"sha256":"81e4fd64fb36a5800812143a736c2ba20dba6113c591e45df6f99527267911b9"},
+      {"page":281,"sha256":"185e6a5f78ad8f2f7e1706bf2afab0c4af9612405400539b5d6f04612cc3e7ee"},
+      {"page":366,"sha256":"88d3980784c389b3e39f2039e9496720fbdf08a5e317abb821faaafbc0481fed"},
+      {"page":659,"sha256":"6191242dff3e43b4e76cf32a2b5d1c81c0ec9244cc5085f9dd87c1a2726b661a"},
+      {"page":660,"sha256":"c9938f2959d3d6ab194258964ceba5c3ff06edd8ff497c38b9728faf3aff4f1f"},
+      {"page":663,"sha256":"99733d589a8d1a5610c093a9dd1caf2a948006d114e72756404cb987e8bc3d61"}
+    ],
+    "missing_pages": [],
+    "cloud_transmission": false
+  },
+  "candidate_inference_released": false
+}

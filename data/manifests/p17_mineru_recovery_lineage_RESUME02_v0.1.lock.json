@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "lineage_id": "P17-MINERU-RESUME02-v0.1",
+  "experiment_id": "P17-V26-UNSEEN-LOCKBOX-V01",
+  "status": "single_page_infrastructure_recovery_authorized_by_protocol",
+  "recorded_date": "2026-09-10",
+  "parent_lineage": "data/manifests/p17_mineru_recovery_lineage_RESUME01_v0.1.lock.json",
+  "parent_output_root": "artifacts/p17/mineru_targets_RESUME01",
+  "resume_output_root": "artifacts/p17/mineru_targets_RESUME02",
+  "frozen_source_sha256": "7a7fd36bf7f274e776ef7eda30d3cda4335a99cbb45f097ae5e8268ccf7759e7",
+  "frozen_config": "configs/parsers/p17-mineru-3.4.0-runtime.json",
+  "completed_pages_reused": [129, 130, 141, 142, 172, 178, 179, 372, 373, 374, 375],
+  "unfinished_pages": [127],
+  "parent_failure": {
+    "classification": "parser_process_shutdown_failure_after_outputs_were_written",
+    "returncode": -6,
+    "cause": "MinerU child process terminated during local service shutdown with a libc++ recursive_mutex exception; nonzero completion cannot be accepted even though output files exist.",
+    "failure_record_preserved": true
+  },
+  "resume_policy": "Run only page 127 using the same source and frozen parser configuration; do not overwrite parent outputs.",
+  "cloud_transmission_allowed": false
+}

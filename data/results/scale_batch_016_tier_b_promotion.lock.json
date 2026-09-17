@@ -1,0 +1,64 @@
+{
+  "blocked_by_reason": {
+    "prior_period_or_failed_coordinate": [
+      "fact-07abc603325ad20131a9e898",
+      "fact-a4f8ad754786517c9953ee31",
+      "fact-b027e784e41bf50feb7286b6",
+      "fact-d6585fd6abdf3e01ef659316"
+    ]
+  },
+  "blocked_fact_ids": [
+    "fact-07abc603325ad20131a9e898",
+    "fact-a4f8ad754786517c9953ee31",
+    "fact-b027e784e41bf50feb7286b6",
+    "fact-d6585fd6abdf3e01ef659316"
+  ],
+  "inputs": {
+    "atomic_increment_sha256": "f44fb6d055f39973e6c6d9476fcd2865254bf4f610012ed78fb1ebda4c53b4b9",
+    "atomic_validations_sha256": "c54d981a82c616e9d6c954019ddf34e6942a956086df6cf4845d80086f8bc58a",
+    "native_coordinate_audit_sha256": "447f739e41fa0ba8ac48aef5142808513ada87774297bb653fefe2a2d4b61ab0"
+  },
+  "locked_experiments_modified_or_rescored": false,
+  "native_audit": {
+    "assurance_page_text_sha256": {
+      "p197": "cd48a08dbdf1e9c527f162aa904883b124a69a49640a241299b1de5b1582f315",
+      "p199": "f0de7a8691c09e5641b058a0285eaa80798a6099f5d3d597dc2ac8cd686bfbf5"
+    },
+    "batch_id": "KB-SCALE-BATCH-016-NATIVE-COORDINATE-AUDIT",
+    "checks": {
+      "assurance_conclusion": true,
+      "assurance_issuer": true,
+      "assurance_period": true,
+      "assurance_signatory": true,
+      "fact-7bdc7e0f43e0729ad7985fbf:coordinate": true,
+      "fact-7bdc7e0f43e0729ad7985fbf:page": true,
+      "fact-7bdc7e0f43e0729ad7985fbf:period": true,
+      "fact-b708a8ccb4f468227c0b6ca1:coordinate": true,
+      "fact-b708a8ccb4f468227c0b6ca1:page": true,
+      "fact-b708a8ccb4f468227c0b6ca1:period": true,
+      "source_sha256": true
+    },
+    "policy": {
+      "automatic_promotion": false,
+      "cloud_transmission": false
+    },
+    "promotable_facts": 2,
+    "schema_version": "0.1",
+    "status": "all_selected_2025_cells_and_assurance_window_passed"
+  },
+  "newly_promoted_to_tier_b": 2,
+  "next_gate": "scale_batch_016_global_kb_rebuild_and_closure",
+  "outputs": {
+    "adjudications_sha256": "1b98f83677ab7bb3f386c32d7f9e83ba8cd49da781e25607e90ecf17dd73ea5a",
+    "trusted_facts_sha256": "3c045e0aff71fecea0aa9e60181b58b2e5d19aa8b7b1ee2638369f8e187beffa"
+  },
+  "promotable_fact_ids": [
+    "fact-7bdc7e0f43e0729ad7985fbf",
+    "fact-b708a8ccb4f468227c0b6ca1"
+  ],
+  "reviewed": 6,
+  "schema_version": "0.1",
+  "source_candidate_records_modified": 0,
+  "status": "scale_batch_016_six_dimension_tier_b_sampling_complete",
+  "total_trusted_tier_b": 109
+}

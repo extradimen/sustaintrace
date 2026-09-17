@@ -1,0 +1,61 @@
+{
+  "schema_version": "3.2",
+  "experiment_id": "P23-V32-UNSEEN-LOCKBOX-V01",
+  "status": "questions_and_page_windows_frozen_before_simulated_reference_and_candidate_inference",
+  "page_coordinate_system": "one_based_pdf_page_index",
+  "document_id": "P23-GSK-AR2025",
+  "document_sha256": "a3ef37d848fca940f85b6c33815a5d47d1f32726fd389a03910653e24af0f4d2",
+  "inference_allowed": false,
+  "candidate_model_used": false,
+  "cloud_transmission_occurred": false,
+  "tasks": [
+    {
+      "task_id": "P23-BOUNDARY-001",
+      "document_id": "P23-GSK-AR2025",
+      "task_type": "scope_subject_boundary",
+      "question_status": "frozen",
+      "question": "Describe GSK's 2030 and 2045 greenhouse-gas targets, including the absolute reduction percentages, baseline year, scopes, treatment of remaining or residual emissions and the separately stated Scope 2 electricity target. Preserve the target boundaries and do not merge the two target years.",
+      "target_pages": [54]
+    },
+    {
+      "task_id": "P23-GHG-CALC-001",
+      "document_id": "P23-GSK-AR2025",
+      "task_type": "deterministic_calculation",
+      "question_status": "frozen",
+      "question": "Using GSK's 2024 and 2025 Scope 1 emissions from energy, Scope 1 other emissions and market-based Scope 2 emissions, calculate the operational Scope 1 plus Scope 2 total for each year and its percentage change from 2024 to 2025 to two decimals. Compare the result with the issuer's stated 14% reduction and preserve the thousand-tonnes-CO2e unit and market-based boundary.",
+      "target_pages": [55, 78]
+    },
+    {
+      "task_id": "P23-ENERGY-CALC-001",
+      "document_id": "P23-GSK-AR2025",
+      "task_type": "deterministic_calculation",
+      "question_status": "frozen",
+      "question": "Report GSK's 2024 and 2025 total energy used, UK energy used and renewably sourced electricity percentage. Calculate the percentage change in total energy and UK energy from 2024 to 2025 to two decimals and the change in renewable electricity share in percentage points, preserving units and the distinction between all operations and UK operations.",
+      "target_pages": [78]
+    },
+    {
+      "task_id": "P23-WATER-CALC-001",
+      "document_id": "P23-GSK-AR2025",
+      "task_type": "deterministic_calculation",
+      "question_status": "frozen",
+      "question": "Report GSK's total supplied water and supplied water in high-water-stress areas for 2024 and 2025, calculate each percentage change to two decimals, and compare total supplied water change with the issuer's narrative statement of an additional 3% reduction. Also preserve the million-cubic-metre unit, operational boundary, 2020-baseline reduction and water-stewardship status.",
+      "target_pages": [55, 78]
+    },
+    {
+      "task_id": "P23-WORKFORCE-CALC-001",
+      "document_id": "P23-GSK-AR2025",
+      "task_type": "deterministic_calculation",
+      "question_status": "frozen",
+      "question": "For GSK's Board, management and all employees at 31 December 2025, report male, female and total counts. Calculate the female share for each group to two decimals and preserve the different headcount/FTE definitions and the report's method for deriving all-employee male and female values.",
+      "target_pages": [79]
+    },
+    {
+      "task_id": "P23-ASSURE-001",
+      "document_id": "P23-GSK-AR2025",
+      "task_type": "scope_subject_boundary",
+      "question_status": "frozen",
+      "question": "Identify the external assurance provider, assurance level, governing standards and explicitly described subject matter for GSK's environmental statements, and separately identify what 2025 Responsible Business Performance Rating information is said to be independently assured. Do not extend assurance to metrics not explicitly included by the cited wording.",
+      "target_pages": [54, 78]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "schema_version": "0.1",
+  "experiment_id": "V3.9-VOLVO-REPEATED-VALUE-TABLE-UNSEEN-V01",
+  "status": "completed_contract_passed",
+  "result": {
+    "case_id": "V39-TABLE-UNSEEN-VOLVO-001",
+    "source_document": "KB-B006-VOLVO-AR2025",
+    "page": 174,
+    "row": "Other",
+    "repeated_values": ["2", "2"],
+    "target_period": "2025",
+    "selected_cell_x0": 236.438,
+    "contract_passed": true
+  },
+  "lineage": {
+    "parent_manifest": {
+      "path": "data/manifests/v39_volvo_repeated_value_table_unseen_v0.1.lock.json",
+      "sha256": "c6ac39ec490de8d4a67310a807576cad28936986c294a19dc451618b7922e41f"
+    },
+    "interruption": {
+      "path": "artifacts/v39_volvo_repeated_value_table_unseen_v0.1/interruption.lock.json",
+      "sha256": "b36e038078c9ff8e132dfdccf5a4d1d9e777616d295dd98b0dac2b87d701079f"
+    },
+    "resume_manifest": {
+      "path": "data/manifests/v39_volvo_repeated_value_table_unseen_RESUME01_v0.1.lock.json",
+      "sha256": "2337abc4307f35083d685c8c31c6ce0027c06cdbff61c01d0ad9de10df298c3e"
+    },
+    "final_result": {
+      "path": "artifacts/v39_volvo_repeated_value_table_unseen_RESUME01_v0.1/result.lock.json",
+      "sha256": "24bd0aea5d4a99c65778453399ea26ea6c2bbb3412dc4dd025689aac29970488"
+    }
+  },
+  "verification": {
+    "full_suite_tests_passed": 537,
+    "ruff": "passed",
+    "json_validation": "passed",
+    "source_sha256_verified": true
+  },
+  "safety": {
+    "historical_results_modified": false,
+    "fact_write_performed": false,
+    "trust_promotion_performed": false,
+    "gap_mutation_performed": false,
+    "cloud_transmission_performed": false
+  },
+  "interpretation": "The exposed Holcim repair generalized once to a different issuer and a different table layout with the same value repeated across two year columns. This is one positive unseen case, not broad performance evidence."
+}

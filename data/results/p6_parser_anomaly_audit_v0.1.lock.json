@@ -1,0 +1,467 @@
+{
+  "schema_version": "1.0",
+  "experiment_id": "P6-V15-PARSER-ANOMALY-AUDIT-V01",
+  "status": "locked_before_candidate_inference",
+  "task_text_used": false,
+  "expected_value_used": false,
+  "target_registry_sha256": "d84b2361c785d65b0a9988b4664171973715b046d678e3a681273d4759a0679b",
+  "targets": [
+    {
+      "target_id": "P6-UNILEVER-AR2025-p0232",
+      "document_id": "P6-UNILEVER-AR2025",
+      "pdf_page": 232,
+      "task_ids": [
+        "P6-TARGET-001"
+      ],
+      "mineru_run_sha256": "424ad5f0605ab9f639083a36d8e7bb9c7c11bd1d93d033b86b9cf705dc93c888",
+      "mineru_content_sha256": "ee2ecfc3840d57524eecff09b1bd146ec9d185750aad33caefbc683469268c16",
+      "native_layout_line_count": 144,
+      "native_layout_provenance": {
+        "parser": "poppler_pdftotext_bbox_layout",
+        "pdf_page": 232,
+        "line_count": 144,
+        "selection_rule": "all_visible_lines_no_hidden_reference_selection",
+        "coordinate_system": "PDF points from pdftotext bbox-layout",
+        "hidden_reference_value_used": false,
+        "adjacent_period_context_links": [
+          {
+            "value_handle": "P232-L0022",
+            "context_handle": "P232-L0021",
+            "explicit_years": [
+              "2030"
+            ],
+            "rule": "same_page_immediately_preceding_visual_line"
+          },
+          {
+            "value_handle": "P232-L0028",
+            "context_handle": "P232-L0027",
+            "explicit_years": [
+              "2015"
+            ],
+            "rule": "same_page_immediately_preceding_visual_line"
+          },
+          {
+            "value_handle": "P232-L0035",
+            "context_handle": "P232-L0034",
+            "explicit_years": [
+              "2021"
+            ],
+            "rule": "same_page_immediately_preceding_visual_line"
+          },
+          {
+            "value_handle": "P232-L0042",
+            "context_handle": "P232-L0041",
+            "explicit_years": [
+              "2021"
+            ],
+            "rule": "same_page_immediately_preceding_visual_line"
+          },
+          {
+            "value_handle": "P232-L0049",
+            "context_handle": "P232-L0048",
+            "explicit_years": [
+              "2021"
+            ],
+            "rule": "same_page_immediately_preceding_visual_line"
+          },
+          {
+            "value_handle": "P232-L0110",
+            "context_handle": "P232-L0109",
+            "explicit_years": [
+              "2015"
+            ],
+            "rule": "same_page_immediately_preceding_visual_line"
+          },
+          {
+            "value_handle": "P232-L0113",
+            "context_handle": "P232-L0112",
+            "explicit_years": [
+              "2015"
+            ],
+            "rule": "same_page_immediately_preceding_visual_line"
+          },
+          {
+            "value_handle": "P232-L0114",
+            "context_handle": "P232-L0113",
+            "explicit_years": [
+              "2025"
+            ],
+            "rule": "same_page_immediately_preceding_visual_line"
+          },
+          {
+            "value_handle": "P232-L0115",
+            "context_handle": "P232-L0114",
+            "explicit_years": [
+              "2024"
+            ],
+            "rule": "same_page_immediately_preceding_visual_line"
+          },
+          {
+            "value_handle": "P232-L0116",
+            "context_handle": "P232-L0115",
+            "explicit_years": [
+              "2023"
+            ],
+            "rule": "same_page_immediately_preceding_visual_line"
+          },
+          {
+            "value_handle": "P232-L0135",
+            "context_handle": "P232-L0134",
+            "explicit_years": [
+              "2023",
+              "2024"
+            ],
+            "rule": "same_page_immediately_preceding_visual_line"
+          },
+          {
+            "value_handle": "P232-L0144",
+            "context_handle": "P232-L0143",
+            "explicit_years": [
+              "2025"
+            ],
+            "rule": "same_page_immediately_preceding_visual_line"
+          }
+        ]
+      },
+      "assessment": {
+        "fallback_required": true,
+        "reasons": [
+          "mineru_table_detected",
+          "native_to_mineru_numeric_recall_below_threshold"
+        ],
+        "numeric_token_recall": 0.8897058823529411,
+        "numeric_recall_threshold": 0.95,
+        "native_numeric_token_count": 136,
+        "mineru_numeric_token_count": 122,
+        "mineru_table_detected": true,
+        "task_text_used": false,
+        "expected_value_used": false
+      }
+    },
+    {
+      "target_id": "P6-UNILEVER-AR2025-p0235",
+      "document_id": "P6-UNILEVER-AR2025",
+      "pdf_page": 235,
+      "task_ids": [
+        "P6-CALC-001",
+        "P6-DEX-001"
+      ],
+      "mineru_run_sha256": "b66f84544d3f51e12dfb9eb67027ac6ebd89d44bd1db3df510803bbe40893953",
+      "mineru_content_sha256": "af89c9acc9261153d48460b200b891c98d3a6ed1d8bfd9cdcaa44d614c925300",
+      "native_layout_line_count": 188,
+      "native_layout_provenance": {
+        "parser": "poppler_pdftotext_bbox_layout",
+        "pdf_page": 235,
+        "line_count": 188,
+        "selection_rule": "all_visible_lines_no_hidden_reference_selection",
+        "coordinate_system": "PDF points from pdftotext bbox-layout",
+        "hidden_reference_value_used": false,
+        "adjacent_period_context_links": [
+          {
+            "value_handle": "P235-L0015",
+            "context_handle": "P235-L0014",
+            "explicit_years": [
+              "2025"
+            ],
+            "rule": "same_page_immediately_preceding_visual_line"
+          },
+          {
+            "value_handle": "P235-L0016",
+            "context_handle": "P235-L0015",
+            "explicit_years": [
+              "2024"
+            ],
+            "rule": "same_page_immediately_preceding_visual_line"
+          },
+          {
+            "value_handle": "P235-L0160",
+            "context_handle": "P235-L0159",
+            "explicit_years": [
+              "2023",
+              "2024"
+            ],
+            "rule": "same_page_immediately_preceding_visual_line"
+          },
+          {
+            "value_handle": "P235-L0161",
+            "context_handle": "P235-L0160",
+            "explicit_years": [
+              "2023"
+            ],
+            "rule": "same_page_immediately_preceding_visual_line"
+          },
+          {
+            "value_handle": "P235-L0169",
+            "context_handle": "P235-L0168",
+            "explicit_years": [
+              "2024",
+              "2025"
+            ],
+            "rule": "same_page_immediately_preceding_visual_line"
+          },
+          {
+            "value_handle": "P235-L0186",
+            "context_handle": "P235-L0185",
+            "explicit_years": [
+              "2024"
+            ],
+            "rule": "same_page_immediately_preceding_visual_line"
+          }
+        ]
+      },
+      "assessment": {
+        "fallback_required": true,
+        "reasons": [
+          "mineru_table_detected",
+          "native_to_mineru_numeric_recall_below_threshold"
+        ],
+        "numeric_token_recall": 0.7211538461538461,
+        "numeric_recall_threshold": 0.95,
+        "native_numeric_token_count": 208,
+        "mineru_numeric_token_count": 151,
+        "mineru_table_detected": true,
+        "task_text_used": false,
+        "expected_value_used": false
+      }
+    },
+    {
+      "target_id": "P6-UNILEVER-AR2025-p0247",
+      "document_id": "P6-UNILEVER-AR2025",
+      "pdf_page": 247,
+      "task_ids": [
+        "P6-PLASTIC-001"
+      ],
+      "mineru_run_sha256": "60afcc3508c992ab5bde38d00a80cfa88f255ed25f7d514cf8827efc20e1d26e",
+      "mineru_content_sha256": "aa3562316dd557ff0cd4ef482a83526e04f93aafb28dd610a8a08e178c913b29",
+      "native_layout_line_count": 116,
+      "native_layout_provenance": {
+        "parser": "poppler_pdftotext_bbox_layout",
+        "pdf_page": 247,
+        "line_count": 116,
+        "selection_rule": "all_visible_lines_no_hidden_reference_selection",
+        "coordinate_system": "PDF points from pdftotext bbox-layout",
+        "hidden_reference_value_used": false,
+        "adjacent_period_context_links": [
+          {
+            "value_handle": "P247-L0049",
+            "context_handle": "P247-L0048",
+            "explicit_years": [
+              "2025"
+            ],
+            "rule": "same_page_immediately_preceding_visual_line"
+          },
+          {
+            "value_handle": "P247-L0050",
+            "context_handle": "P247-L0049",
+            "explicit_years": [
+              "2024"
+            ],
+            "rule": "same_page_immediately_preceding_visual_line"
+          },
+          {
+            "value_handle": "P247-L0063",
+            "context_handle": "P247-L0062",
+            "explicit_years": [
+              "2030"
+            ],
+            "rule": "same_page_immediately_preceding_visual_line"
+          },
+          {
+            "value_handle": "P247-L0067",
+            "context_handle": "P247-L0066",
+            "explicit_years": [
+              "2035"
+            ],
+            "rule": "same_page_immediately_preceding_visual_line"
+          },
+          {
+            "value_handle": "P247-L0071",
+            "context_handle": "P247-L0070",
+            "explicit_years": [
+              "2030"
+            ],
+            "rule": "same_page_immediately_preceding_visual_line"
+          },
+          {
+            "value_handle": "P247-L0104",
+            "context_handle": "P247-L0103",
+            "explicit_years": [
+              "2023",
+              "2024"
+            ],
+            "rule": "same_page_immediately_preceding_visual_line"
+          },
+          {
+            "value_handle": "P247-L0114",
+            "context_handle": "P247-L0113",
+            "explicit_years": [
+              "2024",
+              "2025"
+            ],
+            "rule": "same_page_immediately_preceding_visual_line"
+          }
+        ]
+      },
+      "assessment": {
+        "fallback_required": true,
+        "reasons": [
+          "mineru_table_detected",
+          "native_to_mineru_numeric_recall_below_threshold"
+        ],
+        "numeric_token_recall": 0.9473684210526315,
+        "numeric_recall_threshold": 0.95,
+        "native_numeric_token_count": 95,
+        "mineru_numeric_token_count": 91,
+        "mineru_table_detected": true,
+        "task_text_used": false,
+        "expected_value_used": false
+      }
+    },
+    {
+      "target_id": "P6-UNILEVER-AR2025-p0262",
+      "document_id": "P6-UNILEVER-AR2025",
+      "pdf_page": 262,
+      "task_ids": [
+        "P6-CONFLICT-001"
+      ],
+      "mineru_run_sha256": "201836948bd34b892c58afcd98858ddd90bb4dc70517189deb826951812e1476",
+      "mineru_content_sha256": "cda4c77baa430e0067055ed69a2fb5af2199e2db1ab40310af525317fe639cf9",
+      "native_layout_line_count": 128,
+      "native_layout_provenance": {
+        "parser": "poppler_pdftotext_bbox_layout",
+        "pdf_page": 262,
+        "line_count": 128,
+        "selection_rule": "all_visible_lines_no_hidden_reference_selection",
+        "coordinate_system": "PDF points from pdftotext bbox-layout",
+        "hidden_reference_value_used": false,
+        "adjacent_period_context_links": [
+          {
+            "value_handle": "P262-L0005",
+            "context_handle": "P262-L0004",
+            "explicit_years": [
+              "2025"
+            ],
+            "rule": "same_page_immediately_preceding_visual_line"
+          },
+          {
+            "value_handle": "P262-L0066",
+            "context_handle": "P262-L0065",
+            "explicit_years": [
+              "2025"
+            ],
+            "rule": "same_page_immediately_preceding_visual_line"
+          },
+          {
+            "value_handle": "P262-L0121",
+            "context_handle": "P262-L0120",
+            "explicit_years": [
+              "2024"
+            ],
+            "rule": "same_page_immediately_preceding_visual_line"
+          },
+          {
+            "value_handle": "P262-L0128",
+            "context_handle": "P262-L0127",
+            "explicit_years": [
+              "2025"
+            ],
+            "rule": "same_page_immediately_preceding_visual_line"
+          }
+        ]
+      },
+      "assessment": {
+        "fallback_required": true,
+        "reasons": [
+          "mineru_table_detected",
+          "native_to_mineru_numeric_recall_below_threshold"
+        ],
+        "numeric_token_recall": 0.6612903225806451,
+        "numeric_recall_threshold": 0.95,
+        "native_numeric_token_count": 62,
+        "mineru_numeric_token_count": 188,
+        "mineru_table_detected": true,
+        "task_text_used": false,
+        "expected_value_used": false
+      }
+    },
+    {
+      "target_id": "P6-UNILEVER-AR2025-p0274",
+      "document_id": "P6-UNILEVER-AR2025",
+      "pdf_page": 274,
+      "task_ids": [
+        "P6-ASSURE-001"
+      ],
+      "mineru_run_sha256": "ded760fca165ec625022d90149679175f7c3ce0c269b156cb98446534cf1cc3f",
+      "mineru_content_sha256": "65553391e5b0dc8017560a900936e8471128c18f358466d9795ae63918d10dcb",
+      "native_layout_line_count": 135,
+      "native_layout_provenance": {
+        "parser": "poppler_pdftotext_bbox_layout",
+        "pdf_page": 274,
+        "line_count": 135,
+        "selection_rule": "all_visible_lines_no_hidden_reference_selection",
+        "coordinate_system": "PDF points from pdftotext bbox-layout",
+        "hidden_reference_value_used": false,
+        "adjacent_period_context_links": [
+          {
+            "value_handle": "P274-L0013",
+            "context_handle": "P274-L0012",
+            "explicit_years": [
+              "2025"
+            ],
+            "rule": "same_page_immediately_preceding_visual_line"
+          },
+          {
+            "value_handle": "P274-L0135",
+            "context_handle": "P274-L0134",
+            "explicit_years": [
+              "2025"
+            ],
+            "rule": "same_page_immediately_preceding_visual_line"
+          }
+        ]
+      },
+      "assessment": {
+        "fallback_required": false,
+        "reasons": [],
+        "numeric_token_recall": 1.0,
+        "numeric_recall_threshold": 0.95,
+        "native_numeric_token_count": 48,
+        "mineru_numeric_token_count": 48,
+        "mineru_table_detected": false,
+        "task_text_used": false,
+        "expected_value_used": false
+      }
+    },
+    {
+      "target_id": "P6-UNILEVER-AR2025-p0275",
+      "document_id": "P6-UNILEVER-AR2025",
+      "pdf_page": 275,
+      "task_ids": [
+        "P6-ASSURE-001"
+      ],
+      "mineru_run_sha256": "dd5131974dd2472659413ecae4d6b2c00ac713b8ef572509c15a00e4b9f7b329",
+      "mineru_content_sha256": "f5fea5f2a4b369cee2c70fa5d8a8a4e09df0e0623a9e6e1da3cc8971e04ceea9",
+      "native_layout_line_count": 140,
+      "native_layout_provenance": {
+        "parser": "poppler_pdftotext_bbox_layout",
+        "pdf_page": 275,
+        "line_count": 140,
+        "selection_rule": "all_visible_lines_no_hidden_reference_selection",
+        "coordinate_system": "PDF points from pdftotext bbox-layout",
+        "hidden_reference_value_used": false,
+        "adjacent_period_context_links": []
+      },
+      "assessment": {
+        "fallback_required": false,
+        "reasons": [],
+        "numeric_token_recall": 1.0,
+        "numeric_recall_threshold": 0.95,
+        "native_numeric_token_count": 17,
+        "mineru_numeric_token_count": 17,
+        "mineru_table_detected": false,
+        "task_text_used": false,
+        "expected_value_used": false
+      }
+    }
+  ]
+}

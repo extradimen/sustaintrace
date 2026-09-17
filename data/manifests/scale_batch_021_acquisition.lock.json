@@ -1,0 +1,37 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-021",
+  "source_config": "configs/knowledge/scale_batch_021_v0.1.json",
+  "source_attempts": "data/manifests/scale_batch_021_acquisition_failures.lock.json",
+  "status": "three_unique_reports_downloaded_and_verified",
+  "documents": [
+    {
+      "document_id": "KB-B021-CAPGEMINI-URD2025",
+      "local_path": "data/raw/scale_batch_021/capgemini-universal-registration-document-2025.pdf",
+      "bytes": 5881192,
+      "sha256": "2307fecb6a5bb7cdd9802d819984fa99f689599b5e0028b6781650a564bf0771",
+      "pdf_pages": 524,
+      "pdf_header_valid": true,
+      "download_status": "downloaded_verified"
+    },
+    {
+      "document_id": "KB-B021-REXEL-URD2025",
+      "local_path": "data/raw/scale_batch_021/rexel-universal-registration-document-2025.pdf",
+      "bytes": 11469061,
+      "sha256": "1fa5bb1d5a0323384c20ce25ec500c25677bc6b3dc6dc70d45c4540c575afba6",
+      "pdf_pages": 534,
+      "pdf_header_valid": true,
+      "download_status": "downloaded_verified"
+    },
+    {
+      "document_id": "KB-B021-EIFFAGE-URD2025",
+      "local_path": "data/raw/scale_batch_021/eiffage-universal-registration-document-2025.pdf",
+      "bytes": 11184950,
+      "sha256": "982bf563b5cb6e62e6eefbd38cb2a6d0eaa424420a9a1d925e4ceb694094fcd3",
+      "pdf_pages": 435,
+      "pdf_header_valid": true,
+      "download_status": "downloaded_verified"
+    }
+  ],
+  "cloud_transmission": false
+}

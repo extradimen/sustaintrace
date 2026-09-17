@@ -1,0 +1,103 @@
+{
+  "artifacts": {
+    "authorization": {
+      "path": "data/manifests/p23_cloud_authorization_exact_2026-09-12_v0.1.lock.json",
+      "sha256": "279f0716a4e9f0d64c477da28f2ff8c343e30a78d6a23d91e808d8b86f76b8d3"
+    },
+    "dimension_scores": {
+      "path": "data/results/p23_v32_dimension_scores_v0.1.lock.json",
+      "sha256": "ba6bddc667978f48e2e93616b283ee2e6b3c9bc75c009ee5f496abb11e31a425"
+    },
+    "execution_release": {
+      "path": "data/tasks/p23_execution_release_v0.1.lock.json",
+      "sha256": "d867ae86d1cdf6225f7e25e4fb4c7427f38c3207a8bebf5811260757222e75da"
+    },
+    "local_readiness": {
+      "path": "data/results/p23_v32_local_readiness_v0.1.lock.json",
+      "sha256": "35534bb7a74ca7009717e0ec3e09c6de9315e832859a9a63fb708f0b566a140e"
+    },
+    "mineru_registry": {
+      "path": "data/manifests/p23_mineru_target_registry_v0.1.lock.json",
+      "sha256": "87aa221c8cac02005be42561785569617ada876445556242348853c09bf91b20"
+    },
+    "progress": {
+      "path": "data/manifests/p23_candidate_progress.json",
+      "sha256": "0256c66cd70884c370da120d068f352d76e3d15b1f62e0992bbf2c7378dc36f1"
+    }
+  },
+  "candidate_model": "qwen3.5:397b-cloud",
+  "candidate_stage_a_calls": 6,
+  "candidate_stage_b_calls_started": 0,
+  "decision": "P23_COMPLETED_LOCKED_NOT_ELIGIBLE_FOR_MODEL_PERFORMANCE_OR_CROSS_VERSION_AGGREGATE_SCORE",
+  "experiment_id": "P23-V32-UNSEEN-LOCKBOX-V01",
+  "integrity_finding": {
+    "candidate_affected_task": "P23-WORKFORCE-CALC-001",
+    "candidate_error": "OllamaError:v1.3 Stage A model behavior failed; archived at /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P23-V32-UNSEEN-LOCKBOX-V01/runs/P23-WORKFORCE-CALC-001-QWEN397B-v32-stage-a: ValueError:v28_unmapped_calculation_handle:M079-T0011-R0001-C0001",
+    "framework_affected_tasks": [
+      "P23-BOUNDARY-001",
+      "P23-ASSURE-001"
+    ],
+    "framework_error": "AttributeError:'str' object has no attribute 'get'",
+    "framework_stage": "Stage B pre-model execution",
+    "recovery_policy": "No cloud retry and no posthoc completion of P23. Preserve P23 as an integrity-bearing terminal lockbox result; any fix belongs to a future development phase and a new unseen lockbox."
+  },
+  "posthoc_semantic_repair": false,
+  "reference_visible_to_candidate": false,
+  "schema_version": "3.2",
+  "scoring": {
+    "aggregate_score": null,
+    "credited_valid_slots": 8,
+    "literal_or_numeric_exact_slots": 8,
+    "numeric_exact_slots": 8,
+    "required_atomic_slots": 64,
+    "text_literal_exact_slots": 0,
+    "text_normalized_exact_slots": 0,
+    "verified_run_archives": 6
+  },
+  "silent_retry": false,
+  "single_candidate_attempt_per_behavioral_stage": true,
+  "stage_a": {
+    "failed": 1,
+    "model_behavior_failed": 1,
+    "passed": 5
+  },
+  "stage_b": {
+    "eligible_tasks": 2,
+    "framework_failed_before_model_call": 2,
+    "passed": 0
+  },
+  "status": "completed_and_scored_with_two_framework_stage_b_failures_and_one_model_behavior_failure",
+  "task_count": 6,
+  "task_results": {
+    "P23-ASSURE-001": {
+      "failure_owner": "framework",
+      "stage_a": "passed",
+      "stage_b": "failed"
+    },
+    "P23-BOUNDARY-001": {
+      "failure_owner": "framework",
+      "stage_a": "passed",
+      "stage_b": "failed"
+    },
+    "P23-ENERGY-CALC-001": {
+      "failure_owner": "none",
+      "stage_a": "passed",
+      "stage_b": "not_required"
+    },
+    "P23-GHG-CALC-001": {
+      "failure_owner": "none",
+      "stage_a": "passed",
+      "stage_b": "not_required"
+    },
+    "P23-WATER-CALC-001": {
+      "failure_owner": "none",
+      "stage_a": "passed",
+      "stage_b": "not_required"
+    },
+    "P23-WORKFORCE-CALC-001": {
+      "failure_owner": "candidate_model",
+      "stage_a": "failed",
+      "stage_b": null
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "schema_version": "0.1",
+  "record_kind": "milestone_closure",
+  "status": "third_unseen_adapter_validation_complete",
+  "results": {
+    "components": 2,
+    "passed": 0,
+    "failed": 2,
+    "returned_to_development": [
+      "TABLE_CELL_BINDING_INCOMPLETE",
+      "CALCULATION_LINEAGE_INCOMPLETE"
+    ],
+    "pytest_passed": 529,
+    "ruff_passed": true,
+    "json_audit_passed": true,
+    "sha256_audit_passed": true
+  },
+  "failure_mechanisms": {
+    "TABLE_CELL_BINDING_INCOMPLETE": "target value exists inside a structured multi-value row quote but not as an atomic numeric quote",
+    "CALCULATION_LINEAGE_INCOMPLETE": "unbounded substring row matching selected a longer non-target row"
+  },
+  "artifacts": [
+    {
+      "path": "data/manifests/third_unseen_adapter_validation_v0.1.lock.json",
+      "sha256": "198931b3737472a67f40ee924fa86663e3024021cc99e96c379b86d394bef262"
+    },
+    {
+      "path": "artifacts/third_unseen_adapter_validation_v0.1/validation_summary.lock.json",
+      "sha256": "640188dbe0cfea5fd20cefe9bd55383c74f8990204692db2cd603f5fcdc39f55"
+    },
+    {
+      "path": "scripts/run_third_unseen_adapter_validation_v01.py",
+      "sha256": "1acc710b9ad42cc4d3fab39c3fcad3b89d0bb8d13dcb6ea0c35d164661922832"
+    }
+  ],
+  "safety": {
+    "single_execution": true,
+    "result_retried": false,
+    "fact_write_performed": false,
+    "trust_promotion_performed": false,
+    "cloud_transmission_performed": false,
+    "historical_result_modified": false
+  },
+  "next_gate": "develop structured-row target extraction and exact row-boundary matching, then validate on new facts"
+}

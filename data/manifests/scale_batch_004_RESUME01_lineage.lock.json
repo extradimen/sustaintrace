@@ -1,0 +1,19 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-004-RESUME01",
+  "parent_config": "configs/knowledge/scale_batch_004_v0.1.json",
+  "parent_acquisition": "data/manifests/scale_batch_004_acquisition_RESUME01.lock.json",
+  "reused_verified_documents": [
+    "KB-B004-PHILIPS-AR2025",
+    "KB-B004-MONDI-SDR2025"
+  ],
+  "failed_preserved_document": "KB-B004-SAINTGOBAIN-URD2025",
+  "failure": "HTTP 403 followed by interactive Cloudflare human-verification challenge",
+  "substitution_document": "KB-B004-AIRLIQUIDE-URD2025",
+  "policy": {
+    "access_control_not_bypassed": true,
+    "verified_files_not_overwritten": true,
+    "locked_experiments_modified": false,
+    "cloud_transmission": false
+  }
+}

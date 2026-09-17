@@ -1,0 +1,43 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-009",
+  "created_at": "2026-09-13T01:50:45.962574+00:00",
+  "source_config": "configs/knowledge/scale_batch_009_v0.1.json",
+  "documents": [
+    {
+      "document_id": "KB-B009-HM-ASR2025",
+      "local_path": "data/raw/scale_batch_009/hm-group-annual-and-sustainability-report-2025.pdf",
+      "bytes": 9973407,
+      "pages": 99,
+      "sha256": "3454ff30a0e21e7a65f92a1bb8c943cc564d59553395d9daa90234d6598dee76",
+      "pdf_header_valid": true,
+      "pdfinfo_valid": true,
+      "download_status": "downloaded_verified_pdf"
+    },
+    {
+      "document_id": "KB-B009-ORSTED-AR2025",
+      "local_path": "data/raw/scale_batch_009/orsted-annual-report-2025.pdf",
+      "bytes": 8528321,
+      "pages": 218,
+      "sha256": "b45e5c2c12ec7d5942179e32535d0046f6e5c214ee9085525ca361a28e8b35ab",
+      "pdf_header_valid": true,
+      "pdfinfo_valid": true,
+      "download_status": "downloaded_verified_pdf"
+    },
+    {
+      "document_id": "KB-B009-CARLSBERG-AR2025",
+      "local_path": "data/raw/scale_batch_009/carlsberg-group-annual-report-2025.pdf",
+      "bytes": 15471765,
+      "pages": 197,
+      "sha256": "35fad935180834f52819b3d4729ea30a09b75b69a6267fbec7e2ef1afadd58a4",
+      "pdf_header_valid": true,
+      "pdfinfo_valid": true,
+      "download_status": "downloaded_verified_pdf"
+    }
+  ],
+  "totals": {
+    "documents": 3,
+    "bytes": 33973493,
+    "pages": 514
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version":"1.0",
+  "experiment_id":"V11-P2-DEVELOPMENT-REGRESSION",
+  "status":"targeted_regression_completed",
+  "role":"development regression on exposed P2 tasks; not generalization evidence",
+  "single_attempt":true,
+  "results":[
+    {"task_id":"P2-DEX-002","status":"failed_schema_after_semantic_success","answer":"8,151,769 metric tons CO2e","evidence_handle":"P012-XROW0001","failure":"Model added normalized_value and normalized_unit to the minimal direct-extraction shape.","posthoc_repair":false},
+    {"task_id":"P2-CONFLICT-001","status":"passed","official_value":8151769,"controlled_note_value":8000000,"framework_state":"contradictory_sources","official_evidence_handle":"P012-XROW0001"},
+    {"task_id":"P2-SCOPE-002","stage":"A","status":"passed","evidence_handles":["M012-B0003","M012-T0002-R0006-C0002","M012-T0002-R0006-C0003"],"reference_visible":false,"posthoc_repair":false},
+    {"task_id":"P2-SCOPE-002","stage":"B","status":"passed","validated_claim_count":2,"target":{"value":40,"period_year":2030,"metric_id":"supply_chain_emissions_intensity_reduction","scope_id":"pg_purchased_inputs"},"observed":{"value":9,"period_year":2024,"metric_id":"supply_chain_emissions_intensity_reduction","scope_id":"pg_purchased_inputs"},"observation_period_provenance":"frozen_document_reporting_year_for_required_observation","reference_visible":false,"posthoc_repair":false}
+  ],
+  "mechanism_finding":"Deterministic chart text-layer fallback solved exact Meta table-row visibility without using the hidden reference value.",
+  "remaining_work":["prospective v1.2 direct-extraction regression","fresh P3 generalization evaluation"],
+  "p3_claim_allowed":false
+}

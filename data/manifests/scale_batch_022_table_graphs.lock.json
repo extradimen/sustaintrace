@@ -1,0 +1,273 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-022",
+  "status": "table_graphs_built_fail_closed",
+  "source_table_candidates": 6,
+  "graphs": [
+    {
+      "source_fact_record_id": "fact-0a5373ecb71be5eaff8a6f64",
+      "document_id": "KB-B022-ENGIE-URD2025",
+      "pdf_page": 122,
+      "graphs": [
+        {
+          "table_index": 0,
+          "status": "two_axis_graph_built",
+          "header_row_index": 0,
+          "column_headers": [
+            "",
+            "2025",
+            "2024"
+          ],
+          "period_columns": [
+            1,
+            2
+          ],
+          "indicator_column": 0,
+          "unit_column": null,
+          "rejected_rows": [
+            {
+              "row_index": 1,
+              "reason": "shape_mismatch"
+            },
+            {
+              "row_index": 3,
+              "reason": "shape_mismatch"
+            }
+          ],
+          "rows": [
+            [
+              "",
+              "2025",
+              "2024"
+            ],
+            [
+              "Total energy consumption (Scope 1) (GWh)(1)",
+              "172,257 211,710"
+            ],
+            [
+              "Revenues (in millions of euros)",
+              "71,944",
+              "73,812"
+            ],
+            [
+              "Energy intensity based on revenues (MWh/million)",
+              "2,394 2,868"
+            ]
+          ],
+          "cells": [
+            {
+              "cell_handle": "cell-703e24bd5f6303ca4d1a",
+              "table_index": 0,
+              "row_index": 2,
+              "column_index": 1,
+              "row_header": "Revenues (in millions of euros)",
+              "row_header_column_index": 0,
+              "column_header": "2025",
+              "normalized_period": 2025,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "71,944",
+              "normalized_value": "71944",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-71ffa0cc0f4f111005bf",
+              "table_index": 0,
+              "row_index": 2,
+              "column_index": 2,
+              "row_header": "Revenues (in millions of euros)",
+              "row_header_column_index": 0,
+              "column_header": "2024",
+              "normalized_period": 2024,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "73,812",
+              "normalized_value": "73812",
+              "normalized_unit": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_fact_record_id": "fact-722db19dcad335f60ace7cbc",
+      "document_id": "KB-B022-ENGIE-URD2025",
+      "pdf_page": 132,
+      "graphs": [
+        {
+          "table_index": 0,
+          "status": "two_axis_graph_built",
+          "header_row_index": 1,
+          "column_headers": [
+            "of target Reduction in freshwater",
+            "Baseline value (base year) 0.310 m\u00b3/MWh",
+            "2024 reporting 0.239 m\u00b3/",
+            "2025 reporting",
+            "Progress on base year",
+            "2025 target"
+          ],
+          "period_columns": [
+            2,
+            3,
+            5
+          ],
+          "indicator_column": 0,
+          "unit_column": null,
+          "rejected_rows": [
+            {
+              "row_index": 2,
+              "reason": "shape_mismatch"
+            }
+          ],
+          "rows": [
+            [
+              "Nature and description",
+              "2030 target",
+              "Corres- ponding iROS"
+            ],
+            [
+              "of target Reduction in freshwater",
+              "Baseline value (base year) 0.310 m\u00b3/MWh",
+              "2024 reporting 0.239 m\u00b3/",
+              "2025 reporting",
+              "Progress on base year",
+              "2025 target"
+            ],
+            [
+              "consumption for energy production",
+              "(2019)",
+              "MWh",
+              "0.185 m\u00b3/ MWh",
+              "-40%",
+              "0.150 m\u00b3/ MWh",
+              "0.100 m\u00b3/ MWh",
+              "E3-11, E3-R1, E3-R2"
+            ]
+          ],
+          "cells": []
+        }
+      ]
+    },
+    {
+      "source_fact_record_id": "fact-0439bad6198514bf2b440235",
+      "document_id": "KB-B022-SKANSKA-ASR2025",
+      "pdf_page": 64,
+      "graphs": [
+        {
+          "table_index": 0,
+          "status": "ambiguous_no_two_axis_period_header",
+          "rows": [
+            [
+              "ESRS E4 Biodiversity and ecosystems"
+            ],
+            [
+              "ESRS 2 52"
+            ]
+          ],
+          "cells": []
+        }
+      ]
+    },
+    {
+      "source_fact_record_id": "fact-66e386581a85c483b0c01b82",
+      "document_id": "KB-B022-SKANSKA-ASR2025",
+      "pdf_page": 64,
+      "graphs": [
+        {
+          "table_index": 0,
+          "status": "ambiguous_no_two_axis_period_header",
+          "rows": [
+            [
+              "ESRS 2 IRO-1: Processes",
+              "61"
+            ],
+            [
+              "E3-1: Policies",
+              "72"
+            ],
+            [
+              "E3-2: Activities",
+              "72"
+            ],
+            [
+              "E3-3: Targets",
+              "72"
+            ],
+            [
+              "E3-4: Water consumption",
+              "N/A"
+            ],
+            [
+              "E3-5: Anticipated financial effects",
+              "Phase-in"
+            ]
+          ],
+          "cells": []
+        }
+      ]
+    },
+    {
+      "source_fact_record_id": "fact-9ee0c200f2b7deab03ac2295",
+      "document_id": "KB-B022-SKANSKA-ASR2025",
+      "pdf_page": 75,
+      "graphs": [
+        {
+          "table_index": 0,
+          "status": "ambiguous_no_two_axis_period_header",
+          "rows": [
+            [
+              "Subtopic",
+              "Type of impact, risk or opportunity",
+              "Description"
+            ],
+            [
+              "Resources inflows",
+              "Actual negative impact",
+              "Consumption of materials such as concrete, cement, steel, asphalt and bitumen affects the environment."
+            ],
+            [
+              "Waste",
+              "Actual negative impact",
+              "Construction waste disposal in landfills or incineration leads to loss of valuable materials and resources."
+            ],
+            [
+              "Potential negative impact",
+              "Hazardous construction waste may affect the environment through soil and water contamination."
+            ]
+          ],
+          "cells": []
+        }
+      ]
+    },
+    {
+      "source_fact_record_id": "fact-669d4bd037a8b32ac2101718",
+      "document_id": "KB-B022-SKANSKA-ASR2025",
+      "pdf_page": 76,
+      "graphs": [
+        {
+          "table_index": 0,
+          "status": "ambiguous_no_two_axis_period_header",
+          "rows": [
+            [
+              "Resource inflows",
+              "2025"
+            ],
+            [
+              "Overall total weight of products and technical and biological materials used during the reporting period, metric tons",
+              "4,754,102"
+            ],
+            [
+              "Absolute weight of secondary reused or recycled components, secondary intermediary products and secondary materials, metric tons",
+              "87,118"
+            ],
+            [
+              "Percentage of secondary reused or recycled components, secondary intermediary products and secondary materials, %",
+              "2"
+            ]
+          ],
+          "cells": []
+        }
+      ]
+    }
+  ]
+}

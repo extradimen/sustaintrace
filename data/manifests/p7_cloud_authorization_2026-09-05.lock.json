@@ -1,0 +1,12 @@
+{
+  "schema_version":"1.0",
+  "experiment_id":"P7-V16-UNSEEN-LOCKBOX-V01",
+  "status":"authorized_by_user",
+  "authorized_date":"2026-09-05",
+  "authorized_scope":"Transmit only frozen P7 ArcelorMittal 2025 Sustainability Report evidence from PDF pages 3, 4, 6, 20, 24, 50, 52, 65, 66, 89, 90 and 91 to qwen3.5:397b-cloud for preregistered P7 Stage A and Stage B single-candidate inference.",
+  "authorized_pages":[3,4,6,20,24,50,52,65,66,89,90,91],
+  "candidate_model":"qwen3.5:397b-cloud",
+  "candidate_digest":"68d2a0796c11e1fedd0456a2d55e58cca4077be6a218428a7a7f4e21f8177cbc",
+  "single_candidate_attempt_per_stage":true,
+  "authorization_source":"explicit user message: 确认"
+}

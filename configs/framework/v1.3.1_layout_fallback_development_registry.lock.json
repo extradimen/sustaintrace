@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "status": "development_frozen_before_end_to_end_regression",
+  "trigger_policy": "Only P3-exposed tasks whose target facts were shown to be absent or structurally ambiguous in MinerU output.",
+  "targets": [
+    {
+      "task_id": "P3-DEX-001",
+      "document_id": "P3-HEINEKEN-AR2025",
+      "pdf_path": "data/raw/p3_staging/heineken/heineken-annual-report-2025.pdf",
+      "document_sha256": "2dee3a7ac14103566f798aff09ce15bc354815c0848d2831fcb99d71bdfad259",
+      "pdf_page": 175,
+      "scoring_only_anchors": ["13,891"]
+    },
+    {
+      "task_id": "P3-CALC-001",
+      "document_id": "P3-AMD-CR2025",
+      "pdf_path": "data/raw/p3_staging/amd/2024-25-amd-cr-report.pdf",
+      "document_sha256": "a31017194c1b94df0ed60d49f2d41fae6de7f7960609c0a1b46790b393a88610",
+      "pdf_page": 106,
+      "scoring_only_anchors": ["61,754", "44,190"]
+    },
+    {
+      "task_id": "P3-XPAGE-001",
+      "document_id": "P3-AMD-CR2025",
+      "pdf_path": "data/raw/p3_staging/amd/2024-25-amd-cr-report.pdf",
+      "document_sha256": "a31017194c1b94df0ed60d49f2d41fae6de7f7960609c0a1b46790b393a88610",
+      "pdf_page": 106,
+      "scoring_only_anchors": ["61,754", "44,190", "30,877"]
+    }
+  ],
+  "guardrails": [
+    "scoring_only_anchors are never supplied to extraction or model prompts",
+    "P3 locked outputs are not modified or rerun",
+    "this registry is development-only and cannot define P4 fallback targets"
+  ]
+}

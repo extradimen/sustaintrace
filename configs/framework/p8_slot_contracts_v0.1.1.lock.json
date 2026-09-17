@@ -1,0 +1,32 @@
+{
+  "schema_version":"1.0","status":"pre_stage_b_infrastructure_erratum_frozen_before_any_stage_b_model_request","parent":"configs/framework/p8_slot_contracts_v0.1.lock.json",
+  "erratum":{"predicate_id_added":true,"unsupported_list_changed_to_string":true,"semantic_change":false,"stage_b_model_attempt_before_erratum":false},
+  "contracts":{
+    "P8-SAFETY-001":[
+      {"slot_id":"fatalities_2025","predicate_id":"reports_component_value","value_type":"number","canonical_unit":"count","period":"2025","scope_id":"managed_operations"},
+      {"slot_id":"fatalities_2024","predicate_id":"reports_component_value","value_type":"number","canonical_unit":"count","period":"2024","scope_id":"managed_operations"},
+      {"slot_id":"aifr_2025","predicate_id":"reports_component_value","value_type":"number","period":"2025","scope_id":"group_safety"},
+      {"slot_id":"aifr_2024","predicate_id":"reports_component_value","value_type":"number","period":"2024","scope_id":"group_safety"},
+      {"slot_id":"aifr_target_2025","predicate_id":"reports_component_value","value_type":"number","period":"2025_target","scope_id":"group_safety"}],
+    "P8-CALC-001":[],
+    "P8-TARGET-001":[
+      {"slot_id":"target_2025","predicate_id":"reports_emissions_change","value_type":"number","canonical_unit":"percent","period":"2025_vs_2018","scope_id":"net_adjusted_scope_1_2","direction":"decrease"},
+      {"slot_id":"gross_reduction","predicate_id":"reports_emissions_change","value_type":"number","canonical_unit":"percent","period":"2025_vs_2018","scope_id":"gross_adjusted_scope_1_2","direction":"decrease"},
+      {"slot_id":"net_reduction","predicate_id":"reports_emissions_change","value_type":"number","canonical_unit":"percent","period":"2025_vs_2018","scope_id":"net_adjusted_scope_1_2","direction":"decrease"},
+      {"slot_id":"gross_target_status","predicate_id":"reports_disclosure_status","value_type":"string","period":"2025","scope_id":"gross_adjusted_scope_1_2"},
+      {"slot_id":"net_target_status","predicate_id":"reports_disclosure_status","value_type":"string","period":"2025","scope_id":"net_adjusted_scope_1_2"},
+      {"slot_id":"offset_role","predicate_id":"defines_activity_scope","value_type":"string","period":"2025","scope_id":"net_adjusted_scope_1_2"}],
+    "P8-BASELINE-001":[
+      {"slot_id":"divestment_rule","predicate_id":"defines_activity_scope","value_type":"string","period":"2018_baseline_restated_to_2025","scope_id":"adjusted_equity"},
+      {"slot_id":"acquisition_rule","predicate_id":"defines_activity_scope","value_type":"string","period":"2018_baseline_restated_to_2025","scope_id":"adjusted_equity"},
+      {"slot_id":"included_acquisition","predicate_id":"defines_activity_scope","value_type":"string","period":"2025","scope_id":"scope_1_2_calculation"}],
+    "P8-SCOPE3-001":[
+      {"slot_id":"excluded_categories","predicate_id":"defines_activity_scope","value_type":"string","period":"2025","scope_id":"scope_3"},
+      {"slot_id":"category_11_reason","predicate_id":"states_exclusion_rationale","value_type":"string","period":"2025","scope_id":"scope_3_category_11"}],
+    "P8-ASSURE-001":[
+      {"slot_id":"limited_assurance_subjects","predicate_id":"defines_activity_scope","value_type":"string","period":"2025","scope_id":"assurance"},
+      {"slot_id":"reasonable_assurance_subject","predicate_id":"defines_activity_scope","value_type":"string","period":"2025","scope_id":"assurance"},
+      {"slot_id":"limited_assurance_exclusion","predicate_id":"defines_activity_scope","value_type":"string","period":"2025","scope_id":"select_sustainability_information"},
+      {"slot_id":"standards","predicate_id":"defines_activity_scope","value_type":"string","period":"2025","scope_id":"assurance"}]
+  }
+}

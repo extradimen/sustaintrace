@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0",
+  "experiment_id": "V13-STAGE-B-FULL-REGRESSION-DEV02",
+  "status": "completed_semantically_audited",
+  "framework_valid": 6,
+  "semantic_exact": 4,
+  "semantic_incomplete_or_distorted": 2,
+  "task_results": [
+    {"task_id": "P3-DEX-001", "framework_valid": true, "semantic_exact": true},
+    {"task_id": "P3-DEX-002", "framework_valid": true, "semantic_exact": true},
+    {"task_id": "P3-XPAGE-001", "framework_valid": true, "semantic_exact": true},
+    {
+      "task_id": "P3-XPAGE-002",
+      "framework_valid": true,
+      "semantic_exact": false,
+      "findings": [
+        "The scalar 10.7 lost the source's decrease/parenthetical-negative direction.",
+        "The assurance slot captured the limited-assurance conclusion wording but not the assurance level itself."
+      ]
+    },
+    {"task_id": "P3-SCOPE-001", "framework_valid": true, "semantic_exact": true},
+    {
+      "task_id": "P3-SCOPE-002",
+      "framework_valid": true,
+      "semantic_exact": false,
+      "findings": [
+        "Threshold values 5 and 10 lost the less-than comparison operator."
+      ]
+    }
+  ],
+  "decision": "REVISE_QUALIFIER_SEMANTICS_BEFORE_PROMOTION",
+  "aggregate_score": null,
+  "posthoc_repair_applied": false,
+  "p3_unseen_result_modified": false
+}

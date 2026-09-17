@@ -1,0 +1,9 @@
+{
+  "schema_version":"1.0","task_id":"P1-08-1","reference_author":"codex_gpt_simulated_expert","reference_status":"verified",
+  "question":"Danone reported a 25% reduction in fresh-milk methane emissions versus 2020 against a 30% reduction target for 2030. Calculate both the remaining percentage-point gap and the proportion of the target already achieved.","answer_status":"verified_fact",
+  "answer":{"remaining_gap_percentage_points":5,"target_achievement_percent":83.33},"normalized_value":83.33,"normalized_unit":"% of target achieved","reported_unit":"% reduction versus 2020",
+  "subject":"Danone S.A.","scope_boundary":"methane emissions from fresh milk","period":"2024 result versus 2020 baseline; 2030 target","calculation":{"expression":"30 - 25 = 5 percentage points; 25 / 30 * 100 = 83.33%","inputs":[25,30],"unrounded_result":83.33333333333333,"rounding_rule":"target achievement rounded to two decimals"},
+  "evidence":[{"document_id":"BN-IR-2024","document_sha256":"1a29f6e56e4f721bacdf1e06dc9f627953807419019d89897d77cdb7a9e8ae28","pdf_page":9,"printed_page":"15-16","verbatim_excerpt":"30% reduction in methane emissions from fresh milk by 2030 ... (25)% vs 2020","role":"calculation_input"}],
+  "search_record":{"pages_reviewed":[9],"terms_used":["methane emissions from fresh milk","30% reduction"],"notes":"Target and 2024 result appear in the same highlights table."},"controlled_intervention_id":null,
+  "provenance_attestation":{"is_human":false,"is_ai_simulation":true,"candidate_model_excluded":true}
+}

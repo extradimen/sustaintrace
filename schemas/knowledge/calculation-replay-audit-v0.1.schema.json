@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/esg-reliable-discovery/calculation-replay-audit-v0.1.schema.json",
+  "title": "Calculation replay audit v0.1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "record_kind", "task_id", "slot_id", "source_value_id", "status", "expected", "actual", "resolved_role_cells", "unresolved_roles_or_steps", "executed_steps", "reason"],
+  "properties": {
+    "schema_version": {"const": "0.1"},
+    "record_kind": {"const": "calculation_replay_audit"},
+    "task_id": {"type": "string", "minLength": 1},
+    "slot_id": {"type": "string", "minLength": 1},
+    "source_value_id": {"type": "string", "minLength": 1},
+    "status": {"enum": ["passed", "mismatch", "unreplayable_missing_cell", "unreplayable_missing_expected_output"]},
+    "expected": {},
+    "actual": {},
+    "resolved_role_cells": {"type": "object", "additionalProperties": {"type": "object", "additionalProperties": true}},
+    "unresolved_roles_or_steps": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "executed_steps": {"type": "array", "items": {"type": "object", "additionalProperties": true}},
+    "reason": {"type": "string", "minLength": 1}
+  }
+}

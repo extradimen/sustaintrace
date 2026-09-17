@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0",
+  "manifest_id": "P22-SOURCE-ACQUISITION-v0.1",
+  "experiment_id": "P22-V31-UNSEEN-LOCKBOX-V01",
+  "status": "source_frozen_before_body_parsing_and_task_authoring",
+  "frozen_date": "2026-09-11",
+  "selection_method": "Official issuer-operated English integrated annual report; bytes, PDF metadata and SHA256 verified before task authoring.",
+  "documents": [
+    {
+      "document_id": "P22-BAYER-AR2025",
+      "company": "Bayer AG",
+      "title": "Bayer Annual Report 2025",
+      "reporting_year": 2025,
+      "language": "English",
+      "source_type": "official_issuer_english_pdf",
+      "source_page_url": "https://reports.bayer.com/annual-report-2025/en/services/downloads.html",
+      "source_url": "https://reports.bayer.com/annual-report-2025/en/_assets/downloads/entire-bayer-ar25.pdf",
+      "local_path": "data/raw/p22_staging/bayer-annual-report-2025.pdf",
+      "sha256": "0af4a9d19fd9d4cba72c1ec062802199873f2379f84112dc2db5dc9605ce769b",
+      "file_size_bytes": 8778862,
+      "page_count": 430,
+      "pdf_version": "1.7",
+      "pdf_title": "Bayer Annual Report 2025",
+      "ingestion_status": "verified",
+      "eligibility": "new_and_unseen_in_P1_through_P21"
+    }
+  ],
+  "download_recovery": {
+    "initial_failure_archive": "data/manifests/p22_source_download_failure_INITIAL_v0.1.lock.json",
+    "recovery_archive": "data/manifests/p22_source_download_recovery_RESUME01_v0.1.lock.json",
+    "issuer_and_report_identity_changed": false
+  },
+  "cloud_transmission_allowed": false
+}

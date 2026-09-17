@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "framework_version": "P1-PIPELINE-v0.7.5-MINIMAL-RELATIONAL-ANSWER",
+  "status": "preregistered_before_inference",
+  "registered_at": "2026-09-04T12:00:00+08:00",
+  "parent_framework": "P1-PIPELINE-v0.7.4-PERIOD-KEYED-CALCULATION",
+  "triggering_archived_run": "P1-01-2-GEMMA4-12B-v074-r1",
+  "observed_failure": "The answer correctly contained period, amount, and scope with a valid handle, but duplicated metadata fields were omitted.",
+  "only_change": "Use the existing minimal relational answer contract—exactly answer and evidence_handles—for scope_subject_boundary as well as cross_page_relation. Atomic subject, scope, period, value, and unit normalization remains a separate evidence-grounded stage.",
+  "unchanged": [
+    "Period-keyed calculation, direct extraction, abstention, and controlled-conflict contracts.",
+    "Tasks, documents, MinerU artifacts, model digest, timeout, references, and archival rules."
+  ],
+  "posthoc_metadata_completion_allowed": false,
+  "reference_answer_visible_during_inference": false,
+  "inference_allowed": false,
+  "next_gate": "implementation_tests_and_hash_freeze"
+}

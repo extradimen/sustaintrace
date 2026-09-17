@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Infrastructure smoke response",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["status", "claim", "evidence_required"],
+  "properties": {
+    "status": {
+      "enum": ["ok"]
+    },
+    "claim": {
+      "type": "string",
+      "minLength": 1
+    },
+    "evidence_required": {
+      "type": "boolean"
+    }
+  }
+}

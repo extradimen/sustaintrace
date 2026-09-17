@@ -1,0 +1,19 @@
+{
+  "schema_version": "0.1",
+  "resume_id": "KB-SCALE-BATCH-014-MINERU-RESUME01",
+  "created_at": "2026-09-13T07:56:57.841531+00:00",
+  "parent_summary": "data/results/scale_batch_014_mineru_summary.lock.json",
+  "parent_summary_sha256": "cd62723a3e4a8de97039336cd2a6a4299b6012ea527149422feaef57b9bfd5ae",
+  "parent_failure_class": "mineru_postprocess_recursive_mutex_abort_after_page_processing",
+  "parent_failed_pages": 1,
+  "failed_page_keys": [
+    {
+      "document_id": "KB-B014-SCA-AR2025",
+      "page": 127
+    }
+  ],
+  "resume_scope": "failed_pages_only",
+  "successful_parent_pages_reused": 27,
+  "output_policy": "new_resume_directory_no_parent_overwrite",
+  "cloud_transmission": false
+}

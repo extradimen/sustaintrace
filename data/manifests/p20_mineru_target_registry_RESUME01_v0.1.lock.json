@@ -1,0 +1,172 @@
+{
+  "document_id": "P20-HOLCIM-SS2025",
+  "document_sha256": "55b975cd13fc361638ed13bf32856a2629e46e88bdfc6ad9208bd8807992a599",
+  "experiment_id": "P20-V29-UNSEEN-LOCKBOX-V01",
+  "failure_count": 0,
+  "recovery_lineage": [
+    "data/manifests/p20_mineru_resume_RESUME01_v0.1.lock.json"
+  ],
+  "schema_version": "1.0",
+  "status": "all_target_pages_successfully_parsed_and_hash_verified",
+  "success_count": 12,
+  "target_count": 12,
+  "targets": [
+    {
+      "document_id": "P20-HOLCIM-SS2025",
+      "document_sha256": "55b975cd13fc361638ed13bf32856a2629e46e88bdfc6ad9208bd8807992a599",
+      "output_directory": "artifacts/p20/mineru_targets_RESUME01/P20-HOLCIM-SS2025-p0085",
+      "pdf_page": 85,
+      "recovery_generation": "RESUME01",
+      "run_record_sha256": "a715e216b45415c756284a9c0bf3f87e90f40447181045cb3f829173a2f1f641",
+      "status": "success_verified",
+      "target_id": "P20-HOLCIM-SS2025-p0085",
+      "task_ids": [
+        "P20-ENERGY-001"
+      ]
+    },
+    {
+      "document_id": "P20-HOLCIM-SS2025",
+      "document_sha256": "55b975cd13fc361638ed13bf32856a2629e46e88bdfc6ad9208bd8807992a599",
+      "output_directory": "artifacts/p20/mineru_targets_RESUME01/P20-HOLCIM-SS2025-p0086",
+      "pdf_page": 86,
+      "recovery_generation": "RESUME01",
+      "run_record_sha256": "f17df3f9926047cf162ce5b6d582291c1ee690071b0e85a6aa034989aaf5fe5c",
+      "status": "success_verified",
+      "target_id": "P20-HOLCIM-SS2025-p0086",
+      "task_ids": [
+        "P20-GHG-CALC-001"
+      ]
+    },
+    {
+      "document_id": "P20-HOLCIM-SS2025",
+      "document_sha256": "55b975cd13fc361638ed13bf32856a2629e46e88bdfc6ad9208bd8807992a599",
+      "output_directory": "artifacts/p20/mineru_targets_RESUME01/P20-HOLCIM-SS2025-p0087",
+      "pdf_page": 87,
+      "recovery_generation": "RESUME01",
+      "run_record_sha256": "8a8652ddcf7fb7f9948cd7db61fbe3224a72d2124722e901c74a033878189ec5",
+      "status": "success_verified",
+      "target_id": "P20-HOLCIM-SS2025-p0087",
+      "task_ids": [
+        "P20-GHG-CALC-001",
+        "P20-SCOPE3-001"
+      ]
+    },
+    {
+      "document_id": "P20-HOLCIM-SS2025",
+      "document_sha256": "55b975cd13fc361638ed13bf32856a2629e46e88bdfc6ad9208bd8807992a599",
+      "output_directory": "artifacts/p20/mineru_targets_RESUME01/P20-HOLCIM-SS2025-p0111",
+      "pdf_page": 111,
+      "recovery_generation": "RESUME01",
+      "run_record_sha256": "d6e65fd4fcab526d9f7e24b594e92f3f0c9bc5685fc6c9d972243ded6ab15d85",
+      "status": "success_verified",
+      "target_id": "P20-HOLCIM-SS2025-p0111",
+      "task_ids": [
+        "P20-TAXONOMY-001"
+      ]
+    },
+    {
+      "document_id": "P20-HOLCIM-SS2025",
+      "document_sha256": "55b975cd13fc361638ed13bf32856a2629e46e88bdfc6ad9208bd8807992a599",
+      "output_directory": "artifacts/p20/mineru_targets_RESUME01/P20-HOLCIM-SS2025-p0112",
+      "pdf_page": 112,
+      "recovery_generation": "RESUME01",
+      "run_record_sha256": "ca5d038b5737ad3bea304fb4b3638ce3810b4b9a119824fb286b006272a21198",
+      "status": "success_verified",
+      "target_id": "P20-HOLCIM-SS2025-p0112",
+      "task_ids": [
+        "P20-TAXONOMY-001"
+      ]
+    },
+    {
+      "document_id": "P20-HOLCIM-SS2025",
+      "document_sha256": "55b975cd13fc361638ed13bf32856a2629e46e88bdfc6ad9208bd8807992a599",
+      "output_directory": "artifacts/p20/mineru_targets_RESUME01/P20-HOLCIM-SS2025-p0113",
+      "pdf_page": 113,
+      "recovery_generation": "RESUME01",
+      "run_record_sha256": "da0e21b3bdc55fe9fa4fbcab12ea71b5332c65be8c871865a5f6d3fcb32156bb",
+      "status": "success_verified",
+      "target_id": "P20-HOLCIM-SS2025-p0113",
+      "task_ids": [
+        "P20-TAXONOMY-001"
+      ]
+    },
+    {
+      "document_id": "P20-HOLCIM-SS2025",
+      "document_sha256": "55b975cd13fc361638ed13bf32856a2629e46e88bdfc6ad9208bd8807992a599",
+      "output_directory": "artifacts/p20/mineru_targets_RESUME01/P20-HOLCIM-SS2025-p0114",
+      "pdf_page": 114,
+      "recovery_generation": "RESUME01",
+      "run_record_sha256": "edb4d2b3226889d5277632245c764efd50abfbaae92588589bb7d6d3ee12da67",
+      "status": "success_verified",
+      "target_id": "P20-HOLCIM-SS2025-p0114",
+      "task_ids": [
+        "P20-TAXONOMY-001"
+      ]
+    },
+    {
+      "document_id": "P20-HOLCIM-SS2025",
+      "document_sha256": "55b975cd13fc361638ed13bf32856a2629e46e88bdfc6ad9208bd8807992a599",
+      "output_directory": "artifacts/p20/mineru_targets_RESUME01/P20-HOLCIM-SS2025-p0120",
+      "pdf_page": 120,
+      "recovery_generation": "RESUME01",
+      "run_record_sha256": "725ead755642b2d1b40b74fb4deb98966166001e3c0685430a656f08d44a6e9c",
+      "status": "success_verified",
+      "target_id": "P20-HOLCIM-SS2025-p0120",
+      "task_ids": [
+        "P20-WORKFORCE-001"
+      ]
+    },
+    {
+      "document_id": "P20-HOLCIM-SS2025",
+      "document_sha256": "55b975cd13fc361638ed13bf32856a2629e46e88bdfc6ad9208bd8807992a599",
+      "output_directory": "artifacts/p20/mineru_targets_RESUME01/P20-HOLCIM-SS2025-p0121",
+      "pdf_page": 121,
+      "recovery_generation": "RESUME01",
+      "run_record_sha256": "d334a7f0949e220f15a8c7de2f05def6788b72d75198979ae9bd5eaa492c62d1",
+      "status": "success_verified",
+      "target_id": "P20-HOLCIM-SS2025-p0121",
+      "task_ids": [
+        "P20-WORKFORCE-001"
+      ]
+    },
+    {
+      "document_id": "P20-HOLCIM-SS2025",
+      "document_sha256": "55b975cd13fc361638ed13bf32856a2629e46e88bdfc6ad9208bd8807992a599",
+      "output_directory": "artifacts/p20/mineru_targets_RESUME01/P20-HOLCIM-SS2025-p0134",
+      "pdf_page": 134,
+      "recovery_generation": "RESUME01",
+      "run_record_sha256": "6188d140c9505769b1a8271b8443a947e0d27c515e7d95aa0061db2c162fba3e",
+      "status": "success_verified",
+      "target_id": "P20-HOLCIM-SS2025-p0134",
+      "task_ids": [
+        "P20-ASSURE-001"
+      ]
+    },
+    {
+      "document_id": "P20-HOLCIM-SS2025",
+      "document_sha256": "55b975cd13fc361638ed13bf32856a2629e46e88bdfc6ad9208bd8807992a599",
+      "output_directory": "artifacts/p20/mineru_targets_RESUME01/P20-HOLCIM-SS2025-p0135",
+      "pdf_page": 135,
+      "recovery_generation": "RESUME01",
+      "run_record_sha256": "4c43caf0c77a328a72663f0a9602c512e970c02c5a3f3b4b1f525c8c439b00b0",
+      "status": "success_verified",
+      "target_id": "P20-HOLCIM-SS2025-p0135",
+      "task_ids": [
+        "P20-ASSURE-001"
+      ]
+    },
+    {
+      "document_id": "P20-HOLCIM-SS2025",
+      "document_sha256": "55b975cd13fc361638ed13bf32856a2629e46e88bdfc6ad9208bd8807992a599",
+      "output_directory": "artifacts/p20/mineru_targets_RESUME01/P20-HOLCIM-SS2025-p0136",
+      "pdf_page": 136,
+      "recovery_generation": "RESUME01",
+      "run_record_sha256": "102f5e8f8d4abd03f6e0f31973e228d061e4d34730ef5a70ee61ad786998b64c",
+      "status": "success_verified",
+      "target_id": "P20-HOLCIM-SS2025-p0136",
+      "task_ids": [
+        "P20-ASSURE-001"
+      ]
+    }
+  ]
+}

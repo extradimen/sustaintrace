@@ -1,0 +1,10 @@
+{
+  "schema_version": "0.1",
+  "run_id": "KB-SCALE-BATCH-023-RESUME02",
+  "parent_run_id": "KB-SCALE-BATCH-023-RESUME01",
+  "created_at": "2026-09-14T02:13:30+08:00",
+  "interruption_or_resume_reason": "RWE assurance evidence is external to its annual report; Glencore replaced RWE after source, PDF and exact-SHA256 validation.",
+  "reused_items": ["Arkema source PDF and acquisition metadata", "CRH source PDF and acquisition metadata"],
+  "pending_items": ["final resumed diagnostics", "target page and assurance freeze", "MinerU execution", "knowledge projection and adjudication"],
+  "parent_results_overwritten": false
+}

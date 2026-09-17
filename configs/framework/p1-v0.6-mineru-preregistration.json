@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "framework_id": "P1-PIPELINE-v0.6-MINERU-BLOCKS",
+  "status": "preregistered_before_v0.6_candidate_inference",
+  "trigger_run_id": "P1-01-2-GEMMA4-12B-v05-r1",
+  "observed_limitation": "Poppler layout text preserved page characters but interleaved unrelated left and right column content in the same evidence line.",
+  "registered_changes": {
+    "primary_parse_channel": "MinerU 3.4.0 pipeline content_list.json",
+    "evidence_granularity": "layout-aware content blocks",
+    "preserved_metadata": ["document_sha256", "pdf_page", "block_type", "bbox", "parser_version"],
+    "fallback_channel": "Poppler page text retained for audit and parser comparison only",
+    "evidence_handle_constraint": "per-request enum"
+  },
+  "paired_acceptance_task": "P1-01-2",
+  "unchanged_constraints": {
+    "source_pdf": "unchanged official Apple report",
+    "target_pdf_page": 49,
+    "model_digest": "unchanged Gemma 4 12B digest",
+    "reference_visible_during_inference": false,
+    "posthoc_semantic_repair_allowed": false,
+    "unknown_handle_policy": "hard_failure",
+    "aggregate_score_enabled": false
+  },
+  "inference_allowed": false
+}

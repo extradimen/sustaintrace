@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "task_id": "P14-WATER-001",
+  "reference_author": "codex_gpt_simulated_expert",
+  "reference_status": "verified_against_frozen_pages",
+  "answer": "For 2025 L'Oreal reported 56% progress toward using 100% recycled and reused water for industrial purposes at factories by 2030, and 57% progress on offering water-saving products or technologies in water-stressed markets. Total water consumption was 954,075 cubic metres, including 383,008 cubic metres in areas at water risk; total water recycled and reused was 940,246 cubic metres; and water intensity was 22 cubic metres per million euros of net sales on own operations. The water-risk indicator is calculated on the Group factory scope, which was defined in 2025.",
+  "normalized_value": {
+    "industrial_recycled_reused_progress_percent": 56,
+    "water_saving_products_progress_percent": 57,
+    "total_water_consumption_m3": 954075,
+    "water_risk_consumption_m3": 383008,
+    "water_recycled_reused_m3": 940246,
+    "water_intensity_m3_per_million_eur": 22,
+    "water_risk_scope": "Group factory scope defined in 2025"
+  },
+  "evidence": [
+    {"source_id": "P14-LOREAL-URD2025", "pdf_page": 229, "quote": "By 2030, L'Oréal aims to use 100% recycled and reused water for industrial purposes at its factories."},
+    {"source_id": "P14-LOREAL-URD2025", "pdf_page": 229, "quote": "By 2030, L'Oréal aims to offer water-saving products or technologies to enable consumers in water-stressed markets"},
+    {"source_id": "P14-LOREAL-URD2025", "pdf_page": 229, "quote": "Total water consumption"},
+    {"source_id": "P14-LOREAL-URD2025", "pdf_page": 229, "quote": "Total water consumption in areas at water risk"},
+    {"source_id": "P14-LOREAL-URD2025", "pdf_page": 229, "quote": "Total water recycled and reused"},
+    {"source_id": "P14-LOREAL-URD2025", "pdf_page": 229, "quote": "Water intensity: total water consumption per net sales on own operations"},
+    {"source_id": "P14-LOREAL-URD2025", "pdf_page": 229, "quote": "Indicator calculated on the Group factory scope. This scope was defined in 2025"}
+  ],
+  "provenance": {"reference_is_simulated": true, "candidate_model_used": false}
+}

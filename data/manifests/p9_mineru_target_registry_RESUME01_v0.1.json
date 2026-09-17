@@ -1,0 +1,121 @@
+{
+  "parser": "MinerU 3.4.0 pipeline",
+  "schema_version": "1.0",
+  "targets": [
+    {
+      "document_id": "P9-TOTALENERGIES-URD2025",
+      "document_sha256": "58e1798ad874228bb60ec110721e8880cefdd11802e2e392e619c0bbe9768c50",
+      "local_path": "data/raw/p9_staging/totalenergies-universal-registration-document-2025-en.pdf",
+      "output_directory": "artifacts/p9/mineru_targets_RESUME01/P9-TOTALENERGIES-URD2025-p0171",
+      "output_file_count": 11,
+      "pdf_page": 171,
+      "run_record_sha256": "404718ace1fd4e3287fec0daab315552216c6640983c5a1c0b4afd202d2283a5",
+      "status": "parsed",
+      "target_id": "P9-TOTALENERGIES-URD2025-p0171",
+      "task_ids": [
+        "P9-SAFETY-001"
+      ]
+    },
+    {
+      "document_id": "P9-TOTALENERGIES-URD2025",
+      "document_sha256": "58e1798ad874228bb60ec110721e8880cefdd11802e2e392e619c0bbe9768c50",
+      "local_path": "data/raw/p9_staging/totalenergies-universal-registration-document-2025-en.pdf",
+      "output_directory": "artifacts/p9/mineru_targets_RESUME01/P9-TOTALENERGIES-URD2025-p0181",
+      "output_file_count": 9,
+      "pdf_page": 181,
+      "run_record_sha256": "15018ee7bef657dabbded5a4f41530b030cacd8dfc68180b9c197dd3b4499bea",
+      "status": "parsed",
+      "target_id": "P9-TOTALENERGIES-URD2025-p0181",
+      "task_ids": [
+        "P9-CALC-001",
+        "P9-METHANE-001",
+        "P9-TARGET-001"
+      ]
+    },
+    {
+      "document_id": "P9-TOTALENERGIES-URD2025",
+      "document_sha256": "58e1798ad874228bb60ec110721e8880cefdd11802e2e392e619c0bbe9768c50",
+      "local_path": "data/raw/p9_staging/totalenergies-universal-registration-document-2025-en.pdf",
+      "output_directory": "artifacts/p9/mineru_targets_RESUME01/P9-TOTALENERGIES-URD2025-p0338",
+      "output_file_count": 10,
+      "pdf_page": 338,
+      "run_record_sha256": "018a99f7aaa3191b696085e9ab0ec24d89c37b100dfb68c01f298d6733cd9d6c",
+      "status": "parsed",
+      "target_id": "P9-TOTALENERGIES-URD2025-p0338",
+      "task_ids": [
+        "P9-METHANE-001"
+      ]
+    },
+    {
+      "document_id": "P9-TOTALENERGIES-URD2025",
+      "document_sha256": "58e1798ad874228bb60ec110721e8880cefdd11802e2e392e619c0bbe9768c50",
+      "local_path": "data/raw/p9_staging/totalenergies-universal-registration-document-2025-en.pdf",
+      "output_directory": "artifacts/p9/mineru_targets_RESUME01/P9-TOTALENERGIES-URD2025-p0346",
+      "output_file_count": 9,
+      "pdf_page": 346,
+      "run_record_sha256": "18080344bad45dddce14b0a32856042dc5d70bc59893fc6add90a415786cf6a4",
+      "status": "parsed",
+      "target_id": "P9-TOTALENERGIES-URD2025-p0346",
+      "task_ids": [
+        "P9-SCOPE3-001"
+      ]
+    },
+    {
+      "document_id": "P9-TOTALENERGIES-URD2025",
+      "document_sha256": "58e1798ad874228bb60ec110721e8880cefdd11802e2e392e619c0bbe9768c50",
+      "local_path": "data/raw/p9_staging/totalenergies-universal-registration-document-2025-en.pdf",
+      "output_directory": "artifacts/p9/mineru_targets_RESUME01/P9-TOTALENERGIES-URD2025-p0351",
+      "output_file_count": 13,
+      "pdf_page": 351,
+      "run_record_sha256": "615df46b0cd74ffdaeb48eb4eda7d0f0caf157d855d479e333eef3c0da6580d2",
+      "status": "parsed",
+      "target_id": "P9-TOTALENERGIES-URD2025-p0351",
+      "task_ids": [
+        "P9-SCOPE3-001"
+      ]
+    },
+    {
+      "document_id": "P9-TOTALENERGIES-URD2025",
+      "document_sha256": "58e1798ad874228bb60ec110721e8880cefdd11802e2e392e619c0bbe9768c50",
+      "local_path": "data/raw/p9_staging/totalenergies-universal-registration-document-2025-en.pdf",
+      "output_directory": "artifacts/p9/mineru_targets_RESUME01/P9-TOTALENERGIES-URD2025-p0415",
+      "output_file_count": 8,
+      "pdf_page": 415,
+      "run_record_sha256": "590031827bba3061fe16e096c4621ef50f47f5be59588b88b362c61f3d2bedb3",
+      "status": "parsed",
+      "target_id": "P9-TOTALENERGIES-URD2025-p0415",
+      "task_ids": [
+        "P9-ASSURE-001"
+      ]
+    },
+    {
+      "document_id": "P9-TOTALENERGIES-URD2025",
+      "document_sha256": "58e1798ad874228bb60ec110721e8880cefdd11802e2e392e619c0bbe9768c50",
+      "local_path": "data/raw/p9_staging/totalenergies-universal-registration-document-2025-en.pdf",
+      "output_directory": "artifacts/p9/mineru_targets_RESUME01/P9-TOTALENERGIES-URD2025-p0418",
+      "output_file_count": 8,
+      "pdf_page": 418,
+      "run_record_sha256": "142d0aa705927cebc556558408f349fb4e62d60c4632c8c6752b179593c51b68",
+      "status": "parsed",
+      "target_id": "P9-TOTALENERGIES-URD2025-p0418",
+      "task_ids": [
+        "P9-ASSURE-001"
+      ]
+    },
+    {
+      "document_id": "P9-TOTALENERGIES-URD2025",
+      "document_sha256": "58e1798ad874228bb60ec110721e8880cefdd11802e2e392e619c0bbe9768c50",
+      "local_path": "data/raw/p9_staging/totalenergies-universal-registration-document-2025-en.pdf",
+      "output_directory": "artifacts/p9/mineru_targets_RESUME01/P9-TOTALENERGIES-URD2025-p0419",
+      "output_file_count": 8,
+      "pdf_page": 419,
+      "run_record_sha256": "300c9d1b8bb4625f23c30887f0e5dfb3211df6fa2ec823b4c9435dfad0b82786",
+      "status": "parsed",
+      "target_id": "P9-TOTALENERGIES-URD2025-p0419",
+      "task_ids": [
+        "P9-ASSURE-001"
+      ]
+    }
+  ],
+  "unique_target_count": 8
+}

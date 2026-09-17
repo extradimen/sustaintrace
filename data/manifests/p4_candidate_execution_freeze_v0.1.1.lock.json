@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "freeze_id": "P4-CANDIDATE-EXECUTION-FREEZE-V01.1",
+  "status": "frozen_before_candidate_inference",
+  "parent_freeze": "data/manifests/p4_candidate_execution_freeze_v0.1.lock.json",
+  "parent_freeze_sha256": "7e45a5bd1c534fd0af489c9dbb76170093bc631cb55c86453ce547795a889777",
+  "reason": "Preflight found that the new same-document source_conflict task type otherwise fell through to a legacy P1-only schema. The relation schema was extended before any P4 candidate call.",
+  "semantic_change": "source_conflict now uses the same minimal answer-plus-grounded-evidence contract as other relation tasks",
+  "framework_file": "src/esg_reliable_discovery/p1_v07.py",
+  "framework_sha256": "cd5ffbe286629bf0b9bab5f414b77abf1c9915da7d7831cf947bf8de91e9f0ae",
+  "runner": "scripts/run_p4_v13_lockbox.py",
+  "runner_sha256": "ab153f886ccbf64a074b515a70719e5f38e2ae79617860c17f928a08f73f7356",
+  "tests": {"selected_count":22,"status":"passed"},
+  "ruff": "passed",
+  "candidate_calls_before_amendment": 0,
+  "questions_changed": false,
+  "references_changed": false,
+  "page_windows_changed": false,
+  "single_attempt_per_stage": true,
+  "p3_rerun": false
+}

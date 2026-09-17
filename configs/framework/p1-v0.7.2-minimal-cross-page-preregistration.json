@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "framework_version": "P1-PIPELINE-v0.7.2-MINIMAL-CROSS-PAGE",
+  "status": "preregistered_before_inference",
+  "registered_at": "2026-09-04T10:50:00+08:00",
+  "parent_framework": "P1-PIPELINE-v0.7.1-MINIMAL-ABSTENTION",
+  "triggering_archived_run": "P1-09-1-GEMMA4-12B-v071-r1",
+  "observed_failure": "Correct cross-page relation and four valid handles were produced, while redundant task and normalization metadata were omitted.",
+  "only_change": "For cross_page_relation, require exactly answer and evidence_handles. The immutable context manifest owns task identity, document, pages, and question. Atomic numeric normalization is deferred to a separately frozen claim-extraction stage rather than duplicated in relational answer generation.",
+  "unchanged": [
+    "Direct extraction and scope-boundary contracts.",
+    "Minimal abstention contract.",
+    "Grounded source-claim conflict contract.",
+    "Tool-owned calculation, MinerU evidence, model digest, timeout, and archival rules."
+  ],
+  "model_output_repair_allowed": false,
+  "reference_answer_visible_during_inference": false,
+  "inference_allowed": false,
+  "next_gate": "implementation_tests_and_hash_freeze"
+}

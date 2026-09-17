@@ -1,0 +1,505 @@
+{
+  "aggregate_score": null,
+  "candidate_model": "qwen3.5:397b-cloud",
+  "experiment_id": "P13-V22-UNSEEN-LOCKBOX-V01",
+  "inputs": {
+    "progress": "data/manifests/p13_candidate_progress.json",
+    "progress_sha256": "21dd9643d20a890908d30e25d47a8a4ea95a87191292cf06719a5ffc9b4439a1",
+    "slot_contracts": "configs/framework/p13_slot_contracts_v0.1.lock.json",
+    "slot_contracts_sha256": "0d5daf9b1d13ae367586e48c6f6d90dd3e94ba8a34d3698d55e8f69bf1f159d1",
+    "task_pack": "data/tasks/p13_execution_task_pack_v0.1.lock.json",
+    "task_pack_sha256": "ea52ec059c9c0f53f770c16379cb48a0ff5c4d82750792c7dc15dee5e35c5bf6"
+  },
+  "protocol": {
+    "failed_raw_outputs_preserved": true,
+    "invalid_model_outputs_receive_no_slot_credit": true,
+    "no_posthoc_semantic_repair": true,
+    "no_silent_retry": true
+  },
+  "reference_type": "simulated_expert_reference_not_independent_human_gold",
+  "schema_version": "2.2",
+  "status": "dimension_scoring_completed_against_frozen_simulated_references",
+  "summary_dimensions": {
+    "credited_valid_slots": 14,
+    "exact_slots": 10,
+    "final_pipeline_total_tasks": 6,
+    "final_pipeline_valid_tasks": 2,
+    "numeric_exact_slots": 9,
+    "numeric_reference_slots": 31,
+    "required_slots": 51,
+    "stage_a_total_tasks": 6,
+    "stage_a_valid_tasks": 4,
+    "string_exact_slots": 1,
+    "string_reference_slots": 20,
+    "verified_final_run_archives": 2
+  },
+  "task_dimensions": {
+    "P13-ASSURE-001": {
+      "credited_valid_slot_count": 0,
+      "dimensions": [
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "limited_subject",
+          "string_token_jaccard": 0.0,
+          "value_type": "string"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "limited_procedure_difference",
+          "string_token_jaccard": 0.0,
+          "value_type": "string"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "limited_exclusion",
+          "string_token_jaccard": 0.0,
+          "value_type": "string"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "reasonable_standard",
+          "string_token_jaccard": 0.0,
+          "value_type": "string"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "reasonable_subjects",
+          "string_token_jaccard": 0.0,
+          "value_type": "string"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "reasonable_reporting_criteria",
+          "string_token_jaccard": 0.0,
+          "value_type": "string"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "reasonable_excluded_information",
+          "string_token_jaccard": 0.0,
+          "value_type": "string"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "reasonable_esrs_status",
+          "string_token_jaccard": 0.0,
+          "value_type": "string"
+        }
+      ],
+      "exact_slot_count": 0,
+      "failure_taxonomy": {
+        "category": "model_behavior",
+        "error_type": "OllamaError",
+        "model_call_started": true,
+        "owner": "candidate_model",
+        "retry_policy": "no_retry_in_locked_experiment",
+        "score_as_model_failure": true,
+        "stage": "stage_b"
+      },
+      "final_pipeline_valid": false,
+      "reference_path": "data/annotations/p13_simulated/P13-ASSURE-001.json",
+      "reference_sha256": "6fd1bf2b9aa07fa4de86afe48f729f3ce0c96496791d88cb02691aaada0c2a00",
+      "required_slot_count": 8,
+      "stage_a_valid": true,
+      "stage_b_status": "failed"
+    },
+    "P13-GHG-CALC-001": {
+      "credited_valid_slot_count": 0,
+      "dimensions": [
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "scope_1_tco2e",
+          "string_token_jaccard": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "market_scope_2_tco2e",
+          "string_token_jaccard": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "scope_3_tco2e",
+          "string_token_jaccard": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "calculated_total_tco2e",
+          "string_token_jaccard": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "disclosed_total_tco2e",
+          "string_token_jaccard": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "difference_tco2e",
+          "string_token_jaccard": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "comparison",
+          "string_token_jaccard": 0.0,
+          "value_type": "string"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "rounding_context",
+          "string_token_jaccard": 0.0,
+          "value_type": "string"
+        }
+      ],
+      "exact_slot_count": 0,
+      "failure_taxonomy": {
+        "category": "model_behavior",
+        "error_type": "OllamaError",
+        "model_call_started": true,
+        "owner": "candidate_model",
+        "retry_policy": "no_retry_in_locked_experiment",
+        "score_as_model_failure": true,
+        "stage": "stage_a"
+      },
+      "final_pipeline_valid": false,
+      "reference_path": "data/annotations/p13_simulated/P13-GHG-CALC-001.json",
+      "reference_sha256": "8791ee4de3c134c0eaee669e722332cee3f8a6430aca285e9add794f914bcd3d",
+      "required_slot_count": 8,
+      "stage_a_valid": false,
+      "stage_b_status": "not_reached"
+    },
+    "P13-SAFETY-001": {
+      "credited_valid_slot_count": 0,
+      "dimensions": [
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "lost_time_accidents_total",
+          "string_token_jaccard": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "lost_time_accidents_employees",
+          "string_token_jaccard": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "lost_time_accidents_temporary_workers",
+          "string_token_jaccard": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "hours_total",
+          "string_token_jaccard": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "hours_employees",
+          "string_token_jaccard": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "hours_temporary_workers",
+          "string_token_jaccard": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "calculated_ltir",
+          "string_token_jaccard": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "disclosed_ltir",
+          "string_token_jaccard": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "comparison",
+          "string_token_jaccard": 0.0,
+          "value_type": "string"
+        }
+      ],
+      "exact_slot_count": 0,
+      "failure_taxonomy": {
+        "category": "model_behavior",
+        "error_type": "OllamaError",
+        "model_call_started": true,
+        "owner": "candidate_model",
+        "retry_policy": "no_retry_in_locked_experiment",
+        "score_as_model_failure": true,
+        "stage": "stage_a"
+      },
+      "final_pipeline_valid": false,
+      "reference_path": "data/annotations/p13_simulated/P13-SAFETY-001.json",
+      "reference_sha256": "59c615067561f8385c620b1dbb92c46139cd15a1cbaf7e1b80154762f768eaf6",
+      "required_slot_count": 9,
+      "stage_a_valid": false,
+      "stage_b_status": "not_reached"
+    },
+    "P13-TARGET-001": {
+      "credited_valid_slot_count": 0,
+      "dimensions": [
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "scope_1_2_2030_reduction_percent",
+          "string_token_jaccard": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "scope_1_2_base_year",
+          "string_token_jaccard": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "scope_1_2_2030_tco2e",
+          "string_token_jaccard": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "scope_3_2030_reduction_percent",
+          "string_token_jaccard": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "scope_3_base_year",
+          "string_token_jaccard": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "scope_3_2030_tco2e",
+          "string_token_jaccard": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "scope_1_2_2050_tco2e",
+          "string_token_jaccard": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "scope_3_2050_tco2e",
+          "string_token_jaccard": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "scope_2_method",
+          "string_token_jaccard": 0.0,
+          "value_type": "string"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "coverage",
+          "string_token_jaccard": 0.0,
+          "value_type": "string"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "sbti_status",
+          "string_token_jaccard": 0.0,
+          "value_type": "string"
+        },
+        {
+          "candidate_present_in_valid_final_output": false,
+          "exact_value_match": false,
+          "slot_id": "exclusions",
+          "string_token_jaccard": 0.0,
+          "value_type": "string"
+        }
+      ],
+      "exact_slot_count": 0,
+      "failure_taxonomy": {
+        "category": "model_behavior",
+        "error_type": "OllamaError",
+        "model_call_started": true,
+        "owner": "candidate_model",
+        "retry_policy": "no_retry_in_locked_experiment",
+        "score_as_model_failure": true,
+        "stage": "stage_b"
+      },
+      "final_pipeline_valid": false,
+      "reference_path": "data/annotations/p13_simulated/P13-TARGET-001.json",
+      "reference_sha256": "60e8dad1fba94ea5c25c24a5177c3f6f7928797484f42af1881e78e4e9dc94a9",
+      "required_slot_count": 12,
+      "stage_a_valid": true,
+      "stage_b_status": "failed"
+    },
+    "P13-WATER-001": {
+      "credited_valid_slot_count": 6,
+      "dimensions": [
+        {
+          "candidate_present_in_valid_final_output": true,
+          "exact_value_match": true,
+          "slot_id": "withdrawal_coverage_percent",
+          "string_token_jaccard": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": true,
+          "exact_value_match": true,
+          "slot_id": "total_withdrawal_excluding_cooling_m3",
+          "string_token_jaccard": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": true,
+          "exact_value_match": true,
+          "slot_id": "water_stress_withdrawal_m3",
+          "string_token_jaccard": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": true,
+          "exact_value_match": true,
+          "slot_id": "withdrawal_intensity_m3_per_million_eur",
+          "string_token_jaccard": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": true,
+          "exact_value_match": true,
+          "slot_id": "cooling_water_m3",
+          "string_token_jaccard": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": true,
+          "exact_value_match": false,
+          "slot_id": "cooling_treatment",
+          "string_token_jaccard": 0.0,
+          "value_type": "string"
+        }
+      ],
+      "exact_slot_count": 5,
+      "failure_taxonomy": null,
+      "final_pipeline_valid": true,
+      "reference_path": "data/annotations/p13_simulated/P13-WATER-001.json",
+      "reference_sha256": "ccfece53190cb88c13f52353999a28d6eeec46d2d0bffe723e2cfabfa1166dd6",
+      "required_slot_count": 6,
+      "stage_a_valid": true,
+      "stage_b_status": "passed"
+    },
+    "P13-WOMEN-001": {
+      "credited_valid_slot_count": 8,
+      "dimensions": [
+        {
+          "candidate_present_in_valid_final_output": true,
+          "exact_value_match": true,
+          "slot_id": "women_new_hires_percent",
+          "string_token_jaccard": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": true,
+          "exact_value_match": true,
+          "slot_id": "women_frontline_managers_percent",
+          "string_token_jaccard": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": true,
+          "exact_value_match": true,
+          "slot_id": "women_senior_leadership_percent",
+          "string_token_jaccard": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": true,
+          "exact_value_match": true,
+          "slot_id": "leadership_2030_target_percent",
+          "string_token_jaccard": null,
+          "value_type": "number"
+        },
+        {
+          "candidate_present_in_valid_final_output": true,
+          "exact_value_match": false,
+          "slot_id": "new_hires_boundary",
+          "string_token_jaccard": 0.6,
+          "value_type": "string"
+        },
+        {
+          "candidate_present_in_valid_final_output": true,
+          "exact_value_match": false,
+          "slot_id": "frontline_boundary",
+          "string_token_jaccard": 0.0,
+          "value_type": "string"
+        },
+        {
+          "candidate_present_in_valid_final_output": true,
+          "exact_value_match": true,
+          "slot_id": "leadership_boundary",
+          "string_token_jaccard": 1.0,
+          "value_type": "string"
+        },
+        {
+          "candidate_present_in_valid_final_output": true,
+          "exact_value_match": false,
+          "slot_id": "geographic_qualification",
+          "string_token_jaccard": 0.0,
+          "value_type": "string"
+        }
+      ],
+      "exact_slot_count": 5,
+      "failure_taxonomy": null,
+      "final_pipeline_valid": true,
+      "reference_path": "data/annotations/p13_simulated/P13-WOMEN-001.json",
+      "reference_sha256": "9cdecd7922a52f4635d1e06295317f90c4de8926b987177111f8fd21a5324e67",
+      "required_slot_count": 8,
+      "stage_a_valid": true,
+      "stage_b_status": "passed"
+    }
+  }
+}

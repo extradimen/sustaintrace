@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/esg/source-native-field-binding-v0.1.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version", "record_kind", "fact_record_id", "task_id", "pdf_path", "pdf_page",
+    "required_labels", "status", "candidates", "promotion_eligible", "reason"
+  ],
+  "properties": {
+    "schema_version": {"const": "0.1"},
+    "record_kind": {"const": "source_native_field_binding"},
+    "fact_record_id": {"type": "string", "pattern": "^fact-[0-9a-f]{24}$"},
+    "task_id": {"type": "string", "minLength": 1},
+    "pdf_path": {"type": ["string", "null"]},
+    "pdf_page": {"type": ["integer", "null"], "minimum": 1},
+    "required_labels": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "status": {
+      "enum": [
+        "unavailable", "literal_not_found", "unique_context_binding",
+        "ambiguous_context_binding", "label_context_incomplete",
+        "unique_literal_binding", "ambiguous_literal_binding"
+      ]
+    },
+    "candidates": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "line_number", "context_start_line", "context_end_line", "value_line", "context",
+          "found_labels", "all_required_labels_found"
+        ]
+      }
+    },
+    "promotion_eligible": {"const": false},
+    "reason": {"type": "string", "minLength": 1}
+  }
+}

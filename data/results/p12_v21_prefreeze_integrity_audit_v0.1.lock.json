@@ -1,0 +1,24 @@
+{
+  "schema_version":"2.1",
+  "experiment_id":"P12-V21-UNSEEN-LOCKBOX-V01",
+  "status":"passed_release_blocked_only_by_cloud_authorization",
+  "framework_version":"v2.1",
+  "document_sha256":"6f3f1b606fe771020dad30685ad0140114e0f23fd6f0921bd47f0975e07d4338",
+  "task_pack_sha256":"4aff9661242dea2707ab1da25d39b69db9145e5720808e0d3917ceb648c3e20c",
+  "parser_and_task_preregistration_sha256":"ec691ea60490e483a64477f19d32ecad0e08162691ad9fe0a38dfd7381f5a004",
+  "native_fallback_registry_sha256":"4cdb6cbc2d19e43fc4be8e7442ed66267388edf3489090d12c29260cf82dcdf6",
+  "slot_contracts_sha256":"6ed0913351e2a34fd139ee54a26f0ec4bee97e2780eb6b5451a455481bf0041d",
+  "semantic_qualifiers_sha256":"9edeae52cd6a4d098e1cf0216d5b74da14ce1abcd65c0cb3f64edc2fa2f3a7f5",
+  "two_dimensional_table_graph_sha256":"b69dfc0572c59b18d2fef51f763699630c5cb7c5958d14db1f7638cad163f521",
+  "reference_audits":{
+    "P12-SAFETY-001":{"status":"passed","pages":[366],"reference_sha256":"95f876a58a557224f2c914b461eeaa61d5630a655bef9aebc6d393efadb85655"},
+    "P12-CALC-001":{"status":"passed","pages":[274,275,281],"reference_sha256":"84315ff9739324f76d20b284a8304dedcbc75be9f8baaa2f2c734457894fa6cb"},
+    "P12-TARGET-001":{"status":"passed","pages":[259,260],"reference_sha256":"8770b8cf82893bf8778c39a5f7fa62e0d40ba5e50a3f8b282dfc1fb193863d2c"},
+    "P12-BOUNDARY-001":{"status":"passed","pages":[214,215],"reference_sha256":"f5a241b2964d414f4b75974e245cc4788fed9644659c9ec32d01d0c6599d996e"},
+    "P12-SCOPE3-001":{"status":"passed","pages":[274,275,276,280],"reference_sha256":"5670c8494f14b3fa1aaa6a1fa01875fca27413d5fca4135a2c9579e595ed1996"},
+    "P12-ASSURE-001":{"status":"passed","pages":[659,660,663],"reference_sha256":"9b5e395b7b6f61b8318ec27edcd29d9610db3122976f61ab3900aecfc17c6d4c"}
+  },
+  "audit_checks":{"all_reference_pages_within_frozen_windows":true,"reference_values_grounded_in_native_layout_text":true,"required_question_fields_answerable":true,"year_column_bindings_explicit":true,"calculation_recomputed":true,"reference_hidden_from_candidate":true,"cloud_transmission":false,"full_pytest":"229 passed","ruff":"passed","json_validation":"passed"},
+  "candidate_inference_released_by_integrity_gate":true,
+  "cloud_transmission_authorized":false
+}

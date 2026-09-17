@@ -1,0 +1,496 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-014",
+  "status": "table_graphs_built_fail_closed",
+  "source_table_candidates": 3,
+  "graphs": [
+    {
+      "source_fact_record_id": "fact-caeb31a31f86a2176e3c2e05",
+      "document_id": "KB-B014-TRELLEBORG-AR2025",
+      "pdf_page": 82,
+      "graphs": [
+        {
+          "table_index": 0,
+          "status": "ambiguous_no_two_axis_period_header",
+          "rows": [
+            [
+              "2025",
+              "2024"
+            ],
+            [
+              "",
+              "Women",
+              "Men",
+              "Total",
+              "Women",
+              "Men",
+              "Total"
+            ],
+            [
+              "Number of permanent employees",
+              "5,391",
+              "10,329",
+              "15,720",
+              "5,190",
+              "10,160",
+              "15,350"
+            ],
+            [
+              "Number of temporary employees",
+              "178",
+              "357",
+              "535",
+              "165",
+              "357",
+              "522"
+            ],
+            [
+              "Number of non-guaranteed hours employees",
+              "21",
+              "15",
+              "36",
+              "8",
+              "15",
+              "23"
+            ],
+            [
+              "Total",
+              "5,590",
+              "10,701",
+              "16,291",
+              "5,363",
+              "10,532",
+              "15,895"
+            ]
+          ],
+          "cells": []
+        }
+      ]
+    },
+    {
+      "source_fact_record_id": "fact-4013b5206d102b116302db4f",
+      "document_id": "KB-B014-ESSITY-AR2025",
+      "pdf_page": 68,
+      "graphs": [
+        {
+          "table_index": 0,
+          "status": "two_axis_graph_built",
+          "header_row_index": 0,
+          "column_headers": [
+            "",
+            "2025",
+            "2024",
+            "2023",
+            "2022",
+            "2021",
+            "2016"
+          ],
+          "period_columns": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "indicator_column": 0,
+          "unit_column": null,
+          "rejected_rows": [],
+          "rows": [
+            [
+              "",
+              "2025",
+              "2024",
+              "2023",
+              "2022",
+              "2021",
+              "2016"
+            ],
+            [
+              "Scope 1, from biofuel use",
+              "408",
+              "417",
+              "431",
+              "469",
+              "475",
+              "526"
+            ],
+            [
+              "Scope 2, from purchased steam",
+              "50",
+              "42",
+              "44",
+              "37",
+              "39",
+              "2"
+            ]
+          ],
+          "cells": [
+            {
+              "cell_handle": "cell-b2c6febea133076f35d8",
+              "table_index": 0,
+              "row_index": 1,
+              "column_index": 1,
+              "row_header": "Scope 1, from biofuel use",
+              "row_header_column_index": 0,
+              "column_header": "2025",
+              "normalized_period": 2025,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "408",
+              "normalized_value": "408",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-639839ad9b352879aba3",
+              "table_index": 0,
+              "row_index": 1,
+              "column_index": 2,
+              "row_header": "Scope 1, from biofuel use",
+              "row_header_column_index": 0,
+              "column_header": "2024",
+              "normalized_period": 2024,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "417",
+              "normalized_value": "417",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-462972316c4cef147bd3",
+              "table_index": 0,
+              "row_index": 1,
+              "column_index": 3,
+              "row_header": "Scope 1, from biofuel use",
+              "row_header_column_index": 0,
+              "column_header": "2023",
+              "normalized_period": 2023,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "431",
+              "normalized_value": "431",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-a32a9edcb4861412a803",
+              "table_index": 0,
+              "row_index": 1,
+              "column_index": 4,
+              "row_header": "Scope 1, from biofuel use",
+              "row_header_column_index": 0,
+              "column_header": "2022",
+              "normalized_period": 2022,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "469",
+              "normalized_value": "469",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-944497f1959081094f5b",
+              "table_index": 0,
+              "row_index": 1,
+              "column_index": 5,
+              "row_header": "Scope 1, from biofuel use",
+              "row_header_column_index": 0,
+              "column_header": "2021",
+              "normalized_period": 2021,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "475",
+              "normalized_value": "475",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-818c7e1cd4361f509514",
+              "table_index": 0,
+              "row_index": 1,
+              "column_index": 6,
+              "row_header": "Scope 1, from biofuel use",
+              "row_header_column_index": 0,
+              "column_header": "2016",
+              "normalized_period": 2016,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "526",
+              "normalized_value": "526",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-c3367340d4f733704b95",
+              "table_index": 0,
+              "row_index": 2,
+              "column_index": 1,
+              "row_header": "Scope 2, from purchased steam",
+              "row_header_column_index": 0,
+              "column_header": "2025",
+              "normalized_period": 2025,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "50",
+              "normalized_value": "50",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-1988320691e7beafe85d",
+              "table_index": 0,
+              "row_index": 2,
+              "column_index": 2,
+              "row_header": "Scope 2, from purchased steam",
+              "row_header_column_index": 0,
+              "column_header": "2024",
+              "normalized_period": 2024,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "42",
+              "normalized_value": "42",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-72cfe30e0b4f594e6573",
+              "table_index": 0,
+              "row_index": 2,
+              "column_index": 3,
+              "row_header": "Scope 2, from purchased steam",
+              "row_header_column_index": 0,
+              "column_header": "2023",
+              "normalized_period": 2023,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "44",
+              "normalized_value": "44",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-6589e97e8a0c330d2a23",
+              "table_index": 0,
+              "row_index": 2,
+              "column_index": 4,
+              "row_header": "Scope 2, from purchased steam",
+              "row_header_column_index": 0,
+              "column_header": "2022",
+              "normalized_period": 2022,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "37",
+              "normalized_value": "37",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-d2c09532986e87b8f13a",
+              "table_index": 0,
+              "row_index": 2,
+              "column_index": 5,
+              "row_header": "Scope 2, from purchased steam",
+              "row_header_column_index": 0,
+              "column_header": "2021",
+              "normalized_period": 2021,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "39",
+              "normalized_value": "39",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-dca177fe503a5b610dfc",
+              "table_index": 0,
+              "row_index": 2,
+              "column_index": 6,
+              "row_header": "Scope 2, from purchased steam",
+              "row_header_column_index": 0,
+              "column_header": "2016",
+              "normalized_period": 2016,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "2",
+              "normalized_value": "2",
+              "normalized_unit": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_fact_record_id": "fact-307b145bd94157bfa8153630",
+      "document_id": "KB-B014-ESSITY-AR2025",
+      "pdf_page": 82,
+      "graphs": [
+        {
+          "table_index": 0,
+          "status": "two_axis_graph_built",
+          "header_row_index": 0,
+          "column_headers": [
+            "Number of employees",
+            "2025",
+            "2024"
+          ],
+          "period_columns": [
+            1,
+            2
+          ],
+          "indicator_column": 0,
+          "unit_column": null,
+          "rejected_rows": [
+            {
+              "row_index": 5,
+              "reason": "shape_mismatch"
+            }
+          ],
+          "rows": [
+            [
+              "Number of employees",
+              "2025",
+              "2024"
+            ],
+            [
+              "Germany",
+              "5,193",
+              "5,075"
+            ],
+            [
+              "Mexico",
+              "4,140",
+              "4,000"
+            ],
+            [
+              "Colombia",
+              "3,681",
+              "3,561"
+            ],
+            [
+              "Other countries",
+              "23,361",
+              "22,909"
+            ],
+            [
+              "Total",
+              "36,375 35,545"
+            ]
+          ],
+          "cells": [
+            {
+              "cell_handle": "cell-2660d5761610c216c75a",
+              "table_index": 0,
+              "row_index": 1,
+              "column_index": 1,
+              "row_header": "Germany",
+              "row_header_column_index": 0,
+              "column_header": "2025",
+              "normalized_period": 2025,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "5,193",
+              "normalized_value": "5193",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-b99687e23a1a4c90e3b0",
+              "table_index": 0,
+              "row_index": 1,
+              "column_index": 2,
+              "row_header": "Germany",
+              "row_header_column_index": 0,
+              "column_header": "2024",
+              "normalized_period": 2024,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "5,075",
+              "normalized_value": "5075",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-b90a68d3891441159021",
+              "table_index": 0,
+              "row_index": 2,
+              "column_index": 1,
+              "row_header": "Mexico",
+              "row_header_column_index": 0,
+              "column_header": "2025",
+              "normalized_period": 2025,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "4,140",
+              "normalized_value": "4140",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-8b450deb4589e9e743a4",
+              "table_index": 0,
+              "row_index": 2,
+              "column_index": 2,
+              "row_header": "Mexico",
+              "row_header_column_index": 0,
+              "column_header": "2024",
+              "normalized_period": 2024,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "4,000",
+              "normalized_value": "4000",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-f2f4ddf434134277b46c",
+              "table_index": 0,
+              "row_index": 3,
+              "column_index": 1,
+              "row_header": "Colombia",
+              "row_header_column_index": 0,
+              "column_header": "2025",
+              "normalized_period": 2025,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "3,681",
+              "normalized_value": "3681",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-41dbaacdcb760ab340f1",
+              "table_index": 0,
+              "row_index": 3,
+              "column_index": 2,
+              "row_header": "Colombia",
+              "row_header_column_index": 0,
+              "column_header": "2024",
+              "normalized_period": 2024,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "3,561",
+              "normalized_value": "3561",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-c6d31680536dbec042aa",
+              "table_index": 0,
+              "row_index": 4,
+              "column_index": 1,
+              "row_header": "Other countries",
+              "row_header_column_index": 0,
+              "column_header": "2025",
+              "normalized_period": 2025,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "23,361",
+              "normalized_value": "23361",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-2d17b9b0f19fa433b5e6",
+              "table_index": 0,
+              "row_index": 4,
+              "column_index": 2,
+              "row_header": "Other countries",
+              "row_header_column_index": 0,
+              "column_header": "2024",
+              "normalized_period": 2024,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "22,909",
+              "normalized_value": "22909",
+              "normalized_unit": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

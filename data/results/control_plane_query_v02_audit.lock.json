@@ -1,0 +1,38 @@
+{
+  "artifacts": {
+    "configs/knowledge/repair_executor_catalog_v0.1.json": "89ce71f32d7a4385b6861145bd3ea03bc7ce2d23eff539ae308444d9e5194deb",
+    "data/knowledge_bases/v0.1/repair_dispatch_decisions.jsonl": "8f0fd4c62908b48bbb9f1b6266b9e791067501d57bf05ec6cebd691c92a69817",
+    "data/knowledge_bases/v0.1/repair_execution_states.jsonl": "4611c1c307bf24c17534b60614067d5e6e9865e96ee5dfc829171fb6d1c62631",
+    "data/knowledge_bases/v0.1/trusted_fact_records.jsonl": "0255e2246591217a88ce44044af89b0758c61830b7772121eb11d0abb58ed9c4",
+    "src/esg_reliable_discovery/knowledge_query.py": "f6210b377193e3f1a323352317c35166055f4c8db875be9395c6909d02bcc425",
+    "src/esg_reliable_discovery/repair_dispatch.py": "d30587df990b13e550e32ce364a5035a6cbf05063ba5833a201fe98f089b597e"
+  },
+  "dispatch_policy": "missing_frozen_action_contract_blocks_execution",
+  "execution_started_by_dispatch": 0,
+  "fact_inventory": {
+    "candidates_not_trusted": 971,
+    "facts": 1021,
+    "trusted_tier_b": 50
+  },
+  "locked_experiments_modified_or_rescored": false,
+  "next_gate": "freeze an operational input-output contract for an eligible new repair",
+  "repair_inventory": {
+    "candidate_validations": 4,
+    "dispatch_blocked": 4,
+    "dispatch_decisions": 4,
+    "dispatch_ready": 0,
+    "execution_states": {
+      "blocked_preflight": 1,
+      "promoted": 1,
+      "rolled_back": 2
+    },
+    "failure_observations": 36,
+    "failure_signatures": 14,
+    "regression_observations": 3,
+    "repair_executions": 4,
+    "repair_plans": 36,
+    "repair_strategies": 11
+  },
+  "schema_version": "0.2",
+  "status": "control_plane_with_dispatch_gate_passed"
+}

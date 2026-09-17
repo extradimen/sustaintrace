@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0",
+  "status": "frozen_before_p6_candidate_inference",
+  "ontology": "configs/ontology/esg_atomic_claim_registry_v1.2.lock.json",
+  "contracts": {
+    "P6-TARGET-001": [
+      {"slot_id":"reduction_2025","predicate_id":"reports_emissions_change","value_type":"number","canonical_unit":"percent","period":"2025 vs 2015 baseline","scope_id":"operational_scope_1_2","direction":"decrease"},
+      {"slot_id":"target_exclusions","predicate_id":"defines_activity_scope","value_type":"string","period":"2025","scope_id":"operational_scope_1_2_target"}
+    ],
+    "P6-DEX-001": [
+      {"slot_id":"scope1_2025","predicate_id":"reports_emissions","value_type":"number","canonical_unit":"million_tonnes_co2e","period":"2025","scope_id":"gross_scope_1"},
+      {"slot_id":"scope1_2024","predicate_id":"reports_emissions","value_type":"number","canonical_unit":"million_tonnes_co2e","period":"2024","scope_id":"gross_scope_1"},
+      {"slot_id":"scope1_2023","predicate_id":"reports_emissions","value_type":"number","canonical_unit":"million_tonnes_co2e","period":"2023","scope_id":"gross_scope_1"},
+      {"slot_id":"reported_change","predicate_id":"reports_emissions_change","value_type":"number","canonical_unit":"percent","period":"2025 vs 2024","scope_id":"gross_scope_1","direction":"decrease"}
+    ],
+    "P6-PLASTIC-001": [
+      {"slot_id":"general_exclusions","predicate_id":"defines_activity_scope","value_type":"string","period":"2025","scope_id":"plastic_targets"},
+      {"slot_id":"collaborative_manufacturer_exclusion","predicate_id":"defines_activity_scope","value_type":"string","period":"2025","scope_id":"plastic_targets"},
+      {"slot_id":"excluded_share","predicate_id":"reports_disclosure_status","value_type":"number","canonical_unit":"percent","period":"2025","scope_id":"collaborative_manufacturer_plastic"}
+    ],
+    "P6-CONFLICT-001": [
+      {"slot_id":"unilever_fatality_reported","predicate_id":"reports_disclosure_status","value_type":"boolean","period":"2025","scope_id":"continuing_unilever_health_safety"},
+      {"slot_id":"ice_cream_fatality_reported","predicate_id":"reports_disclosure_status","value_type":"boolean","period":"2025","scope_id":"ice_cream_health_safety"},
+      {"slot_id":"allocation_rule","predicate_id":"defines_activity_scope","value_type":"string","period":"2025","scope_id":"ice_cream_health_safety"}
+    ],
+    "P6-ASSURE-001": [
+      {"slot_id":"assurance_level","predicate_id":"reports_disclosure_status","value_type":"string","period":"2025","scope_id":"sustainability_assurance"},
+      {"slot_id":"assured_subject","predicate_id":"defines_activity_scope","value_type":"string","period":"2025","scope_id":"sustainability_assurance"},
+      {"slot_id":"excluded_information","predicate_id":"defines_activity_scope","value_type":"string","period":"2025","scope_id":"sustainability_assurance"},
+      {"slot_id":"practitioner","predicate_id":"reports_disclosure_status","value_type":"string","period":"2025","scope_id":"sustainability_assurance"}
+    ]
+  }
+}

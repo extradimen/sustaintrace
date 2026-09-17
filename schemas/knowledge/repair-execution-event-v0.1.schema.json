@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "record_kind", "event_id", "execution_id", "sequence", "from_state", "to_state", "checks", "input_sha256", "expected_output_sha256", "actual_output_sha256", "validator_id", "rollback_action"],
+  "properties": {
+    "schema_version": {"const": "0.1"},
+    "record_kind": {"const": "repair_execution_event"},
+    "event_id": {"type": "string", "pattern": "^repair-event-[0-9a-f]{24}$"},
+    "execution_id": {"type": "string", "pattern": "^repair-execution-[0-9a-f]{24}$"},
+    "sequence": {"type": "integer", "minimum": 1},
+    "from_state": {"type": "string"},
+    "to_state": {"type": "string"},
+    "checks": {"type": "object", "additionalProperties": {"type": "boolean"}},
+    "input_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "expected_output_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "actual_output_sha256": {"type": ["string", "null"], "pattern": "^[0-9a-f]{64}$"},
+    "validator_id": {"type": "string", "minLength": 1},
+    "rollback_action": {"type": "string", "minLength": 1}
+  }
+}

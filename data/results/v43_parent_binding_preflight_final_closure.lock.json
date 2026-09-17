@@ -1,0 +1,61 @@
+{
+  "schema_version": "0.1",
+  "closure_id": "V4.3-DIAGNOSTIC-PARENT-BINDING-PREFLIGHT-FINAL-CLOSURE-V01",
+  "status": "complete",
+  "development": {
+    "status": "passed",
+    "negative_registered_parent_failures": 2,
+    "negative_adapter_invocation_count": 0,
+    "positive_registered_parent_cases": 1,
+    "positive_adapter_invocation_count": 1,
+    "result": {
+      "path": "data/results/v43_parent_binding_preflight_development_v0.1.lock.json",
+      "sha256": "4edff12b0bcaf9448413731b9a53277e837c29dee6c4642b31841272ff5bf0f5"
+    }
+  },
+  "unseen_validation": {
+    "status": "passed",
+    "attempt_count": 1,
+    "adapter_invocation_count": 1,
+    "manifest": {
+      "path": "data/manifests/v43_parent_binding_preflight_unseen_v0.1.lock.json",
+      "sha256": "545b5b375285bf3386ac9c306d34bc6bece9b0905f083bacb852a5161975d9e2"
+    },
+    "result": {
+      "path": "artifacts/v43_parent_binding_preflight_unseen_v0.1/result.lock.json",
+      "sha256": "85202c179ba655716b8cf879b9b9d7bc58e43043749e242a1152e98e3aebd873"
+    },
+    "closure": {
+      "path": "data/results/v43_parent_binding_preflight_unseen_closure.lock.json",
+      "sha256": "8de940826f8465edeec17f66c7779708c01305c6faf9829fc168322567c5195a"
+    }
+  },
+  "implementation": {
+    "path": "src/esg_reliable_discovery/diagnostic_preflight.py",
+    "sha256": "1844e0420d2c56454208728b93330497abc4d2a77d680130a320b7a322f5000a"
+  },
+  "tests": {
+    "path": "tests/test_diagnostic_parent_preflight_v01.py",
+    "sha256": "5540c7851c5154c817a0887251170133e270f25a14d80ba75669240fe68ca106",
+    "full_pytest_passed": 550,
+    "ruff": "passed",
+    "data_json_parse": "passed"
+  },
+  "immutable_stores": {
+    "facts_sha256_before_and_after": "1da6f28e8c1b3125d07a52d39aed4e095c6f40ef71378173c36a1486f7cb890c",
+    "gaps_sha256_before_and_after": "858a37ede7bd213c1c3d1e9136d5d8be6bc6e6f12f147124318347cb3a8cef76",
+    "trusted_facts_sha256": "866c7e14eb92a86401fab4524d6fd909b67a3f9c3e0c5c728b7e5bea4045eb6b"
+  },
+  "report": {
+    "path": "docs/186_v4.3诊断父绑定预检开发与未见验证_v0.1.md",
+    "sha256": "28d74e84ec66f0954cca7f2c244f157f51fa5a6fc3e275710ee4fd487e5c4b59"
+  },
+  "safety": {
+    "parent_gap_fabricated": false,
+    "fact_or_gap_mutation": false,
+    "trust_promotion": false,
+    "cloud_transmission": false,
+    "locked_experiment_rerun_or_rescore": false
+  },
+  "scientific_boundary": "parent registration and dimension authorization are validated before adapter invocation; this does not itself repair calculation lineage or close a knowledge gap"
+}

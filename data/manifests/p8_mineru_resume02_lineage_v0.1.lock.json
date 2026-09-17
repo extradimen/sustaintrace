@@ -1,0 +1,13 @@
+{
+  "schema_version":"1.0",
+  "experiment_id":"P8-V17-UNSEEN-LOCKBOX-V01",
+  "status":"interrupted_with_eight_verified_successes",
+  "parent_resume":"data/manifests/p8_mineru_resume01_lineage_v0.1.lock.json",
+  "resume_output_root":"artifacts/p8/mineru_targets_RESUME02",
+  "failure_record":"artifacts/p8/mineru_targets_RESUME01/P8-RIOTINTO-AR2025-p0328/esg_rd_mineru_run.json",
+  "interruption_class":"parser_process_teardown_recursive_mutex_failure",
+  "verified_reuse":["P8-RIOTINTO-AR2025-p0037","P8-RIOTINTO-AR2025-p0039","P8-RIOTINTO-AR2025-p0057","P8-RIOTINTO-AR2025-p0059","P8-RIOTINTO-AR2025-p0084","P8-RIOTINTO-AR2025-p0086"],
+  "resume_rule":"reuse only returncode-zero targets with matching source hash and page; preserve all earlier failures; run only unfinished pages",
+  "candidate_inference_started":false,
+  "cloud_transmission_occurred":false
+}

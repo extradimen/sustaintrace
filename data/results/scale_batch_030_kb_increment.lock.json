@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-030-SUPPLEMENTAL",
+  "status": "increment_built_candidates_not_promoted",
+  "fact_candidates": 19,
+  "trusted_facts_promoted": 0,
+  "evidence_gaps": 2,
+  "failure_observations": 17,
+  "gaps": [
+    {
+      "document_id": "KB-B030-NCC-ASR2025",
+      "page": 58,
+      "theme": "biodiversity",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B030-NCC-ASR2025",
+      "page": 58,
+      "theme": "circularity",
+      "reason": "no_theme_line_in_mineru_markdown"
+    }
+  ],
+  "outputs": {
+    "facts": {
+      "path": "data/knowledge_bases/v0.1/increments/scale_batch_030_fact_records.jsonl",
+      "sha256": "b4a5fbbe5323fc655d803ec3c31cf6393bb6dd18bcbd303388429c4c557093d7"
+    },
+    "failures": {
+      "path": "data/knowledge_bases/v0.1/increments/scale_batch_030_failure_records.jsonl",
+      "sha256": "08952c40792c1a69701f1a9a5f1a180c53f9d0d370c22aee0cea19da800a843b"
+    }
+  },
+  "policy": {
+    "cloud_transmission": false,
+    "locked_experiments_modified": false,
+    "automatic_promotion": false
+  }
+}

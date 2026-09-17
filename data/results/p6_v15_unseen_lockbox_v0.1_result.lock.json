@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.0",
+  "experiment_id": "P6-V15-UNSEEN-LOCKBOX-V01",
+  "status": "completed_and_scored",
+  "candidate_model": "qwen3.5:397b-cloud",
+  "candidate_digest": "68d2a0796c11e1fedd0456a2d55e58cca4077be6a218428a7a7f4e21f8177cbc",
+  "task_count": 6,
+  "stage_a": {
+    "tasks_run": 6,
+    "framework_valid": 6,
+    "framework_failed": 0,
+    "semantic_exact": 4,
+    "semantic_partial": 2,
+    "semantic_failed": 0
+  },
+  "stage_b": {
+    "eligible_tasks": 5,
+    "framework_valid": 5,
+    "framework_failed": 0,
+    "contracted_atomic_claims_exact": 16,
+    "required_atomic_claims": 16
+  },
+  "task_results": {
+    "P6-TARGET-001": "exact_stage_a_and_b",
+    "P6-DEX-001": "exact_stage_a_and_b",
+    "P6-CALC-001": "framework_calculation_exact_but_comparison_answer_incomplete",
+    "P6-PLASTIC-001": "exact_stage_a_and_b",
+    "P6-CONFLICT-001": "stage_a_partial_with_unsupported_causal_explanation_stage_b_atomic_contract_exact",
+    "P6-ASSURE-001": "exact_stage_a_and_b"
+  },
+  "knowledge_findings": {
+    "rounded_value_discrepancy": {
+      "displayed_2025": 0.43,
+      "displayed_2024": 0.48,
+      "deterministic_recalculation_percent": -10.416666666666664,
+      "issuer_reported_percent": -12,
+      "absolute_percentage_point_difference": 1.583333333333336,
+      "interpretation": "Displayed rounded inputs cannot reproduce the issuer percentage; both observations must remain distinct."
+    },
+    "scope_conflict": {
+      "continuing_unilever_fatality_reported": false,
+      "ice_cream_fatality_reported": true,
+      "allocation_rule": "case-by-case assessment",
+      "model_error": "Stage A attributed the difference to contractor-versus-employee status, which is not established as the reason for the table difference; the decisive distinction is the separately allocated Ice Cream boundary."
+    }
+  },
+  "archive": {
+    "run_directories": 11,
+    "sha256_manifests_verified": 11,
+    "verification_failures": 0
+  },
+  "single_candidate_attempt": true,
+  "silent_retry": false,
+  "posthoc_semantic_repair": false,
+  "reference_visible_to_candidate": false,
+  "human_gold_claimed": false,
+  "p3_p4_p5_modified": false,
+  "decision": "V1_5_PASSES_P6_FRAMEWORK_VALIDITY_WITH_TWO_SEMANTIC_LIMITATIONS",
+  "next_iteration": "Develop a deterministic comparison-result compositor and a controlled causal-versus-scope explanation ontology using only exposed P6 failures before any P7 lock unseen test."
+}

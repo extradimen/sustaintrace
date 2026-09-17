@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "experiment_id": "P20-V29-UNSEEN-LOCKBOX-V01",
+  "document_id": "P20-HOLCIM-SS2025",
+  "classification": "infrastructure_http_403",
+  "source_url": "https://www.holcim.com/sites/holcim/files/docs/27022026-holcim-sustainability-statement-2025.pdf",
+  "curl_exit_code": 22,
+  "http_status": 403,
+  "preserved_partial_bytes": 0,
+  "semantic_experiment_started": false,
+  "candidate_model_call_count": 0,
+  "recovery_policy": "Retry the same official issuer URL with standard browser headers and the official landing page as referrer; do not use a third-party mirror.",
+  "status": "preserved_for_same_source_recovery"
+}

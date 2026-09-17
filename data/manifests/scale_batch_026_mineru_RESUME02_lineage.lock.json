@@ -1,0 +1,101 @@
+{
+  "schema_version": "0.1",
+  "resume_id": "KB-SCALE-BATCH-026-MINERU-RESUME02",
+  "created_at": "2026-09-13T21:11:17.471607+00:00",
+  "parent_summary": "data/results/scale_batch_026_mineru_RESUME01_summary.lock.json",
+  "parent_summary_sha256": "81b2e18eb7c5b76e2e865af074079d092f2334b337d374bd80b5fc56de1c1cd0",
+  "parent_failure_class": "post_completion_native_recursive_mutex_abort",
+  "parent_failed_pages": 21,
+  "failed_page_keys": [
+    {
+      "document_id": "KB-B026-STOREBRAND-AR2025",
+      "page": 69
+    },
+    {
+      "document_id": "KB-B026-STOREBRAND-AR2025",
+      "page": 70
+    },
+    {
+      "document_id": "KB-B026-STOREBRAND-AR2025",
+      "page": 91
+    },
+    {
+      "document_id": "KB-B026-STOREBRAND-AR2025",
+      "page": 163
+    },
+    {
+      "document_id": "KB-B026-ORKLA-AR2025",
+      "page": 72
+    },
+    {
+      "document_id": "KB-B026-ORKLA-AR2025",
+      "page": 73
+    },
+    {
+      "document_id": "KB-B026-ORKLA-AR2025",
+      "page": 76
+    },
+    {
+      "document_id": "KB-B026-ORKLA-AR2025",
+      "page": 81
+    },
+    {
+      "document_id": "KB-B026-ORKLA-AR2025",
+      "page": 85
+    },
+    {
+      "document_id": "KB-B026-ORKLA-AR2025",
+      "page": 91
+    },
+    {
+      "document_id": "KB-B026-ORKLA-AR2025",
+      "page": 253
+    },
+    {
+      "document_id": "KB-B026-ORKLA-AR2025",
+      "page": 254
+    },
+    {
+      "document_id": "KB-B026-SEB-AR2025",
+      "page": 90
+    },
+    {
+      "document_id": "KB-B026-SEB-AR2025",
+      "page": 105
+    },
+    {
+      "document_id": "KB-B026-SEB-AR2025",
+      "page": 109
+    },
+    {
+      "document_id": "KB-B026-SEB-AR2025",
+      "page": 112
+    },
+    {
+      "document_id": "KB-B026-SEB-AR2025",
+      "page": 120
+    },
+    {
+      "document_id": "KB-B026-SEB-AR2025",
+      "page": 163
+    },
+    {
+      "document_id": "KB-B026-SEB-AR2025",
+      "page": 179
+    },
+    {
+      "document_id": "KB-B026-SEB-AR2025",
+      "page": 343
+    },
+    {
+      "document_id": "KB-B026-SEB-AR2025",
+      "page": 344
+    }
+  ],
+  "resume_scope": "failed_pages_only",
+  "successful_parent_pages_reused": 9,
+  "output_policy": "new_resume_directory_no_parent_overwrite",
+  "execution_change": "repeat_for_deterministic_output_hash_confirmation",
+  "frozen_semantic_configuration_changed": false,
+  "cloud_transmission": false
+}

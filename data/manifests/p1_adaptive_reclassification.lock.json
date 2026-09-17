@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "decision_id": "P1-ADAPTIVE-RECLASSIFICATION-v0.1",
+  "status": "frozen",
+  "effective_at": "2026-09-04T05:05:00+08:00",
+  "original_role": "unseen synthetic-reference evaluation",
+  "new_role": "adaptive framework development and validation benchmark",
+  "reason": "Framework versions v0.4 through v0.6.1 were designed after observing P1 candidate outcomes, including schema, evidence-copy, handle-copy, layout, and table-block failures.",
+  "claims_prohibited": [
+    "P1 is a final unseen test set",
+    "P1 results alone demonstrate out-of-sample generalization",
+    "P1 is human-annotated gold",
+    "P1 provides independent expert validation"
+  ],
+  "claims_allowed": [
+    "P1 is an AI-simulated synthetic-reference adaptive benchmark",
+    "P1 supports failure discovery, ablation, and framework iteration",
+    "P1 documents model and pipeline behavior under frozen per-version protocols"
+  ],
+  "final_generalization_gate": "P2 locked holdout",
+  "retroactive_result_modification_allowed": false,
+  "all_existing_p1_runs_remain_archived": true
+}

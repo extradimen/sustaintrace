@@ -1,0 +1,52 @@
+{
+  "checkpoint_resume_enabled": true,
+  "experiment_id": "P5-V14-UNSEEN-LOCKBOX-V01",
+  "records": [
+    {
+      "retried": false,
+      "stage_a": "failed",
+      "stage_a_error": "ValueError:Task is missing, duplicated, or not frozen: P5-DEX-001",
+      "task_id": "P5-DEX-001",
+      "task_type": "direct_extraction"
+    },
+    {
+      "retried": false,
+      "stage_a": "failed",
+      "stage_a_error": "ValueError:Task is missing, duplicated, or not frozen: P5-CALC-001",
+      "task_id": "P5-CALC-001",
+      "task_type": "deterministic_calculation"
+    },
+    {
+      "retried": false,
+      "stage_a": "failed",
+      "stage_a_error": "ValueError:Task is missing, duplicated, or not frozen: P5-SCOPE-001",
+      "task_id": "P5-SCOPE-001",
+      "task_type": "scope_subject_boundary"
+    },
+    {
+      "retried": false,
+      "stage_a": "failed",
+      "stage_a_error": "ValueError:Task is missing, duplicated, or not frozen: P5-XPAGE-001",
+      "task_id": "P5-XPAGE-001",
+      "task_type": "cross_page_relation"
+    },
+    {
+      "retried": false,
+      "stage_a": "failed",
+      "stage_a_error": "ValueError:Task is missing, duplicated, or not frozen: P5-DEX-002",
+      "task_id": "P5-DEX-002",
+      "task_type": "direct_extraction"
+    },
+    {
+      "retried": false,
+      "stage_a": "failed",
+      "stage_a_error": "ValueError:Task is missing, duplicated, or not frozen: P5-ASSURE-001",
+      "task_id": "P5-ASSURE-001",
+      "task_type": "scope_subject_boundary"
+    }
+  ],
+  "reference_loaded_by_orchestrator": false,
+  "schema_version": "1.0",
+  "single_attempt_per_stage": true,
+  "updated_at": "2026-09-05T05:09:06.663076+00:00"
+}

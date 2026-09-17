@@ -1,0 +1,81 @@
+{
+  "answer": "EY & Associés provided limited assurance over Holcim's double-materiality process, selected Sustainability Indicators against their Methodology criteria, and Transition Plan Disclosures against ESRS E1. Its negative-form conclusion was that nothing came to attention indicating material non-compliance. ISAE 3000 (Revised) governed the engagement. EY was not responsible for the entire report or other legal provisions, nor for judging the appropriateness or ambition of transition objectives. Limited assurance is substantially lower than reasonable assurance. Christophe Schmeitzky signed in Paris-La Défense on 26 February 2026.",
+  "evidence": [
+    {
+      "pdf_page": 134,
+      "quote": "Double Materiality Assessment",
+      "source_id": "P20-HOLCIM-SS2025"
+    },
+    {
+      "pdf_page": 134,
+      "quote": "Sustainability Indicators",
+      "source_id": "P20-HOLCIM-SS2025"
+    },
+    {
+      "pdf_page": 134,
+      "quote": "Transition Plan Disclosures",
+      "source_id": "P20-HOLCIM-SS2025"
+    },
+    {
+      "pdf_page": 134,
+      "quote": "nothing has come to our attention",
+      "source_id": "P20-HOLCIM-SS2025"
+    },
+    {
+      "pdf_page": 135,
+      "quote": "It is not our responsibility to report on the entire Report",
+      "source_id": "P20-HOLCIM-SS2025"
+    },
+    {
+      "pdf_page": 135,
+      "quote": "International Standard on Assurance Engagements 3000 (revised)",
+      "source_id": "P20-HOLCIM-SS2025"
+    },
+    {
+      "pdf_page": 136,
+      "quote": "substantially lower than the assurance that would have been obtained had we performed a reasonable assurance engagement",
+      "source_id": "P20-HOLCIM-SS2025"
+    },
+    {
+      "pdf_page": 136,
+      "quote": "Paris-La Défense",
+      "source_id": "P20-HOLCIM-SS2025"
+    },
+    {
+      "pdf_page": 136,
+      "quote": "26 February 2026",
+      "source_id": "P20-HOLCIM-SS2025"
+    },
+    {
+      "pdf_page": 136,
+      "quote": "EY & Associés",
+      "source_id": "P20-HOLCIM-SS2025"
+    },
+    {
+      "pdf_page": 136,
+      "quote": "Christophe Schmeitzky",
+      "source_id": "P20-HOLCIM-SS2025"
+    }
+  ],
+  "normalized_value": {
+    "assurance_level": "limited assurance",
+    "assurance_provider": "EY & Associés",
+    "assured_subjects": "Double Materiality Assessment | selected Sustainability Indicators | Transition Plan Disclosures",
+    "conclusion_form": "nothing has come to our attention",
+    "criteria": "ESRS requirements | section-specific Methodology criteria | ESRS E1 Climate Change requirements",
+    "excluded_responsibility": "entire report; other applicable legal provisions; appropriateness or ambition of transition-strategy objectives",
+    "governing_standard": "ISAE 3000 (Revised)",
+    "procedure_difference": "limited assurance procedures are less extensive and assurance is substantially lower than reasonable assurance",
+    "signatory": "Christophe Schmeitzky",
+    "signature_date": "2026-02-26",
+    "signature_location": "Paris-La Défense"
+  },
+  "provenance": {
+    "candidate_model_used": false,
+    "reference_is_simulated": true
+  },
+  "reference_author": "codex_gpt_simulated_expert",
+  "reference_status": "verified_against_frozen_mineru_pages_and_native_layout",
+  "schema_version": "1.0",
+  "task_id": "P20-ASSURE-001"
+}

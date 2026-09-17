@@ -1,0 +1,42 @@
+{
+  "finding_id": "GOLD-P0-TEXT-001",
+  "task_id": "P0-TEXT-001",
+  "finding_type": "extracted_fact",
+  "claim_level": "L1",
+  "anomaly_codes": [],
+  "claim": "Microsoft reports that the Clearloop project in the Mississippi Delta has a capacity of 6.6 MW.",
+  "company_id": "US5949181045",
+  "company": "Microsoft Corporation",
+  "periods": ["2024 report"],
+  "metric": {
+    "name": "Clearloop project capacity",
+    "reported_value": 6.6,
+    "unit": "MW",
+    "subject": "Clearloop project",
+    "boundary": "Mississippi Delta region",
+    "period": "2024 report"
+  },
+  "supporting_evidence": [
+    {
+      "document_id": "MSFT-ESR-2024",
+      "document_sha256": "7d4872c7b4a64b4bf9bac1af440a1d124a449d595cf49a1d62d510130db593cc",
+      "page": 18,
+      "printed_page": "18",
+      "location": "Building markets and driving progress, highlighted metric",
+      "excerpt": "We are partnering with Clearloop ... enabling a 6.6-megawatt project.",
+      "evidence_strength": "direct",
+      "transformation": "Normalized megawatt to MW."
+    }
+  ],
+  "contrary_evidence": [],
+  "calculation": null,
+  "rule_checks": [],
+  "search_scope": {"checked_elements": ["report_body"], "completeness": "complete", "limitations": ["Only the supplied page was evaluated."]},
+  "alternative_explanations": [],
+  "confidence": 1.0,
+  "confidence_basis": "The project, location, value and unit occur together on the supplied page.",
+  "status": "verified",
+  "requires_human_review": false,
+  "falsification_condition": "A corrected official page reporting another capacity for the same project would falsify the claim.",
+  "provenance": {"annotation_source": "human", "framework_version": "FC-1.0", "model_snapshot": null, "prompt_sha256": null, "run_id": "p0-gold-v0.1", "created_at": "2026-09-01T00:00:00Z"}
+}

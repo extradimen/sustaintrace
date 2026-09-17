@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "experiment_id": "P19-V28-UNSEEN-LOCKBOX-V01",
+  "recovery_id": "P19-MINERU-RESUME02",
+  "parent_output_root": "artifacts/p19/mineru_targets_RESUME01",
+  "resume_output_root": "artifacts/p19/mineru_targets_RESUME02",
+  "frozen_task_pack": "data/tasks/p19_task_pack_v0.1.lock.json",
+  "frozen_source_sha256": "f5475f1e043eaa99526772c0e06677a74ab2c2abb8181755afbe02a10e395092",
+  "interruption_class": "infrastructure_post_parse_native_mutex_crash",
+  "interruption_evidence": "Page 65 MinerU emitted complete artifacts but its native runtime terminated after server shutdown with recursive_mutex lock failed; the failed audit record is retained.",
+  "completed_pages_reused": [58, 66, 80, 123, 124, 135, 136],
+  "remaining_pages": [65],
+  "policy": "Use the same frozen source, question, page window and runtime configuration; create a separate RESUME archive and run only page 65."
+}

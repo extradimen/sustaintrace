@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "experiment_id": "P6-V15-UNSEEN-LOCKBOX-V01",
+  "status": "parser_and_task_family_frozen_before_reference_creation_and_candidate_inference",
+  "source_manifest": "data/manifests/p6_source_acquisition_v0.1.lock.json",
+  "parser_stack": [
+    "MinerU 3.4.0 page-window pipeline",
+    "native PDF text and vector coordinate fallback",
+    "v1.5 unique literal same-column period binding"
+  ],
+  "failure_policy": {
+    "issuer_not_disclosed": "distinct_absence_state",
+    "retrieval_not_found": "distinct_retrieval_state",
+    "parser_structure_unrecoverable": "distinct_parser_failure_state",
+    "ambiguous_spatial_binding": "fail_closed"
+  },
+  "task_families": [
+    "target_scope_and_exclusion",
+    "direct_multiyear_table_extraction",
+    "deterministic_calculation",
+    "scope_boundary_and_method",
+    "controlled_conflict_resolution",
+    "assurance_scope_and_practitioner"
+  ]
+}

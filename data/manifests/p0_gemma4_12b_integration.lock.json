@@ -1,0 +1,32 @@
+{
+  "decision": "integration_failed_not_scheduled",
+  "experiment_id": "P0-GEMMA4-12B-INTEGRATION-001",
+  "finding_card_repair_applied": false,
+  "hidden_gold_accessed_for_r2": false,
+  "locked_at": "2026-09-02T02:56:27+08:00",
+  "model_registration_sha256": "3c64040380c895d0c10ef82d19e13e07c2d4530121be81d67833ec6ea75cf287",
+  "model_snapshot": "gemma4:12b@4eb23ef187e2c5462566d6a1d3bbbc2f1346d0b4327cbb66d58fffbcc9b2b05c",
+  "qualification_plan_sha256": "3c3b002ef543da160287242ca856eab18fb1b6babf997a17b4197733e70b08c8",
+  "qualification_runs_scheduled": 0,
+  "r1": {
+    "archive_checksums_sha256": "0a5f89fb0f705f3beb333a18d7791a2697eb2bb027a4dc1a2922bc4653293fd7",
+    "model_output_received": false,
+    "outcome": "execution_timeout",
+    "run_id": "gemma4-12b-p0-text-001-r1"
+  },
+  "r2": {
+    "archive_checksums_sha256": "c8ce53246e691afbf723a0f51ad9b3c90e3a656094e0a05b833d6e016e84eba8",
+    "card_count": 1,
+    "dimension_scores": null,
+    "outcome": "model_behavior_validation_failed",
+    "run_id": "gemma4-12b-p0-text-001-r2",
+    "validation_errors": [
+      "card_0:company_boundary_mismatch",
+      "card_0:provenance_mismatch:created_at"
+    ]
+  },
+  "result_record_sha256": "a413edd912e6c944ca644da565c66bae231fc7209ffce8caa2a1be61a609e9c6",
+  "schema_version": "1.0",
+  "scorer_sha256": "a658a75f08e18fe67a4cb1090ee63effa4aa8cc37e52e6900d6694dc9788db6b",
+  "task_id": "P0-TEXT-001"
+}

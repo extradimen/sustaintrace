@@ -1,0 +1,75 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-018",
+  "status": "source_selection_frozen_before_acquisition",
+  "policy": {
+    "local_only": true,
+    "cloud_transmission": false,
+    "locked_experiments_untouched": [
+      "P3-P23",
+      "KB-SCALE-BATCH-001-through-017"
+    ],
+    "download_resume": true,
+    "overwrite_verified_files": false,
+    "fact_promotion_requires_independent_gate": true,
+    "performance_baseline_required": true,
+    "native_table_corroboration_version": "v34_bounded_layout_column_reassembly_v1",
+    "assurance_window_preflight_required": true,
+    "assurance_window_required_fields": [
+      "issuer_identity",
+      "reporting_period",
+      "opinion_or_conclusion",
+      "signatory_identity"
+    ]
+  },
+  "selection_rationale": "Three previously unused issuer-hosted English 2025 reports from mining equipment, industrial process technology and steel. The batch continues the local-only assurance-first protocol and expands complex ESRS table layouts.",
+  "performance_baseline": {
+    "comparison_parent": "data/results/scale_batch_017_performance_baseline.lock.json",
+    "separate_from_knowledge_quality": true,
+    "target_pages_per_document": 9
+  },
+  "documents": [
+    {
+      "document_id": "KB-B018-EPIROC-ASR2025",
+      "source_group_id": "KB-EPIROC-2025",
+      "company": "Epiroc AB",
+      "title": "Epiroc Annual and Sustainability Report 2025",
+      "report_year": 2025,
+      "official_landing_page": "https://www.epirocgroup.com/en/investors/financial-publications.html",
+      "download_url": "https://reports.epirocgroup.com/api/pdf/export?NodeId=0af9f250-0909-4cd2-ae52-f9b33433fa27&culture=en",
+      "official_domain": "reports.epirocgroup.com",
+      "local_path": "data/raw/scale_batch_018/epiroc-annual-and-sustainability-report-2025.pdf",
+      "source_role": "primary_report",
+      "language": "English",
+      "prior_experiment_use": false
+    },
+    {
+      "document_id": "KB-B018-ALFA-LAVAL-ASR2025",
+      "source_group_id": "KB-ALFA-LAVAL-2025",
+      "company": "Alfa Laval AB (publ)",
+      "title": "Alfa Laval Annual and Sustainability Report 2025",
+      "report_year": 2025,
+      "official_landing_page": "https://www.alfalaval.com/about-us/sustainability/sustainability-reports/",
+      "download_url": "https://www.alfalaval.com/globalassets/documents/investors/english/annual-reports/2025/annual-and-sustainability-report-2025.pdf",
+      "official_domain": "www.alfalaval.com",
+      "local_path": "data/raw/scale_batch_018/alfa-laval-annual-and-sustainability-report-2025.pdf",
+      "source_role": "primary_report",
+      "language": "English",
+      "prior_experiment_use": false
+    },
+    {
+      "document_id": "KB-B018-SSAB-AR2025",
+      "source_group_id": "KB-SSAB-2025",
+      "company": "SSAB AB (publ)",
+      "title": "SSAB Annual Report 2025",
+      "report_year": 2025,
+      "official_landing_page": "https://www.ssab.com/en/company/sustainability/reports-and-documents",
+      "download_url": "https://www.ssab.com/-/media/files/company/investors/annual-reports/2025/ssab-annual-report-2025.pdf",
+      "official_domain": "www.ssab.com",
+      "local_path": "data/raw/scale_batch_018/ssab-annual-report-2025.pdf",
+      "source_role": "primary_report",
+      "language": "English",
+      "prior_experiment_use": false
+    }
+  ]
+}

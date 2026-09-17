@@ -1,0 +1,28 @@
+{
+  "schema_version": "2.2",
+  "experiment_id": "P13-V22-UNSEEN-LOCKBOX-V01",
+  "status": "completed_and_locked_diagnostic_only",
+  "audit_date": "2026-09-09",
+  "gates": {
+    "explicit_cloud_authorization_frozen": true,
+    "authorized_document_pages_model_and_scope_enforced": true,
+    "candidate_stage_a_tasks_completed": "6/6",
+    "candidate_stage_b_eligible_tasks_completed": "4/4",
+    "single_attempt_policy_enforced": true,
+    "failed_outputs_archived": true,
+    "run_archives_sha256_verified": "10/10",
+    "p13_json_files_validated": 104,
+    "pytest": "233 passed",
+    "ruff": "passed",
+    "posthoc_semantic_repair": false,
+    "p3_through_p12_modified": false
+  },
+  "artifact_sha256": {
+    "candidate_progress": "21dd9643d20a890908d30e25d47a8a4ea95a87191292cf06719a5ffc9b4439a1",
+    "dimension_scores": "185b0b611401b32c54e7777850722a6cea832b5c44554df8bcb34609f5a3cb01",
+    "result": "919f0d20dd3aeee06f2f5122175c784c1661ed6dc994507b21dddaecd0a9b420",
+    "chinese_report": "7c4620840d1f07948fcc958d7c5fd319b68ba684672153fa204eed58b4733e04"
+  },
+  "integrity_decision": "P13 is complete and reproducible but diagnostic-only because the frozen target reduction-percent contract omitted direction=decrease while the frozen reference used positive magnitude and source evidence used a negative literal.",
+  "broad_json_scan_note": "A broad repository-wide *.json scan encountered an unrelated historical multi-document JSON file. The scoped P13 validation then parsed all 104 P13 JSON artifacts successfully."
+}

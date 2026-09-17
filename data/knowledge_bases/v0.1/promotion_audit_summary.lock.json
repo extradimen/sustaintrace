@@ -1,0 +1,25 @@
+{
+  "artifacts": {
+    "fact_records": {
+      "path": "data/knowledge_bases/v0.1/fact_records.jsonl",
+      "sha256": "8af57e7b7bda85deef8f90586f8225aedcf1da24e0669300115b8f1f7499bf5b"
+    },
+    "promotion_audits": {
+      "path": "data/knowledge_bases/v0.1/fact_promotion_audits.jsonl",
+      "sha256": "1c8682644eb6c8f98cefbbdab8847ac0f70bd63ad59137af9fcdf7c3727e5c46"
+    }
+  },
+  "fact_records": 1021,
+  "indexed_parser_pages": 222,
+  "native_fallback_registry_files": 2,
+  "next_gate": "construct field-level evidence bindings for source-grounded candidates",
+  "parser_registry_files": 20,
+  "promoted_to_tier_b": 0,
+  "reason_no_automatic_promotion": "Historical references bind task-level evidence bundles, not each normalized field to an independent cell or literal. Quote presence cannot prove field-level semantics.",
+  "schema_version": "0.1",
+  "source_grounding_status_counts": {
+    "failed_quote": 249,
+    "passed": 772
+  },
+  "status": "source_grounding_audit_complete_semantic_promotion_pending"
+}

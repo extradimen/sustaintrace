@@ -1,0 +1,97 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-005-MINERU-RESUME02",
+  "updated_at": "2026-09-12T17:50:50.512918+00:00",
+  "status": "complete",
+  "cloud_transmission": false,
+  "total_target_pages": 9,
+  "complete_pages": 6,
+  "failed_pages": 3,
+  "pending_pages": 0,
+  "records": [
+    {
+      "document_id": "KB-B005-HENKEL-AR2025",
+      "page": 184,
+      "themes": [
+        "biodiversity"
+      ],
+      "output_directory": "artifacts/scale_batch_005/mineru_targets_RESUME02/KB-B005-HENKEL-AR2025-p0184",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_005/mineru_targets_RESUME02/KB-B005-HENKEL-AR2025-p0184/esg_rd_mineru_run.json"
+    },
+    {
+      "document_id": "KB-B005-HENKEL-AR2025",
+      "page": 205,
+      "themes": [
+        "energy"
+      ],
+      "output_directory": "artifacts/scale_batch_005/mineru_targets_RESUME02/KB-B005-HENKEL-AR2025-p0205",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B005-HENKEL-AR2025",
+      "page": 207,
+      "themes": [
+        "ghg_emissions"
+      ],
+      "output_directory": "artifacts/scale_batch_005/mineru_targets_RESUME02/KB-B005-HENKEL-AR2025-p0207",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B005-HENKEL-AR2025",
+      "page": 477,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_005/mineru_targets_RESUME02/KB-B005-HENKEL-AR2025-p0477",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_005/mineru_targets_RESUME02/KB-B005-HENKEL-AR2025-p0477/esg_rd_mineru_run.json"
+    },
+    {
+      "document_id": "KB-B005-UPM-AR2025",
+      "page": 96,
+      "themes": [
+        "biodiversity"
+      ],
+      "output_directory": "artifacts/scale_batch_005/mineru_targets_RESUME02/KB-B005-UPM-AR2025-p0096",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B005-UPM-AR2025",
+      "page": 177,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_005/mineru_targets_RESUME02/KB-B005-UPM-AR2025-p0177",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B005-SIKA-SR2025",
+      "page": 21,
+      "themes": [
+        "biodiversity"
+      ],
+      "output_directory": "artifacts/scale_batch_005/mineru_targets_RESUME02/KB-B005-SIKA-SR2025-p0021",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_005/mineru_targets_RESUME02/KB-B005-SIKA-SR2025-p0021/esg_rd_mineru_run.json"
+    },
+    {
+      "document_id": "KB-B005-SIKA-SR2025",
+      "page": 44,
+      "themes": [
+        "energy"
+      ],
+      "output_directory": "artifacts/scale_batch_005/mineru_targets_RESUME02/KB-B005-SIKA-SR2025-p0044",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B005-SIKA-SR2025",
+      "page": 55,
+      "themes": [
+        "water"
+      ],
+      "output_directory": "artifacts/scale_batch_005/mineru_targets_RESUME02/KB-B005-SIKA-SR2025-p0055",
+      "status": "complete"
+    }
+  ]
+}

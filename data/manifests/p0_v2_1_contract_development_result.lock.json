@@ -1,0 +1,28 @@
+{
+  "completed_at": "2026-09-02T10:02:29+08:00",
+  "decision": "proceed_to_v3_evidence_handles_and_deterministic_calculation_before_p1",
+  "evidence_role": "development_only_not_unseen_performance",
+  "framework_version": "V2.1",
+  "model_snapshot": "gemma4:12b@4eb23ef187e2c5462566d6a1d3bbbc2f1346d0b4327cbb66d58fffbcc9b2b05c",
+  "plan_sha256": "bee81be3c03a84fd5110f1c2615838501c079911b234ea1c8388bd1bad60357e",
+  "posthoc_semantic_repair_applied": false,
+  "result_record_sha256": "66ac4f0d0b601662fbf7ae267c482d50656b7bf87d904b572088d6ef522375de",
+  "run_archive_checksums": {
+    "V2-TEXT-failed": "74d02b5e31f9a1d5cbc0774a88440dadd703800882719125d68bfec73ab3378b",
+    "V2.1-ABSTAIN": "6a30cb6c97c9ac36a170c6f89bc7a80779c59faa6991a1722bd096be48b0f2ef",
+    "V2.1-CALC": "7efa8b9ac2bf56d8369aa0fa3aaed6ac8c0aa7c91915b3e13fabcd2d61e7858f",
+    "V2.1-CONFLICT-failed": "74ab43b2ce97e2fd9103bd08b4389cacfb69bade3e4de55fcc586d0cd5de7e03",
+    "V2.1-TEXT": "ba833e5560ec8ad22dbe28d4f5bd65f1495c4cf18ad87ce011bf27827a18ec16"
+  },
+  "schema_version": "1.0",
+  "scorers": {
+    "frozen_v1": "a658a75f08e18fe67a4cb1090ee63effa4aa8cc37e52e6900d6694dc9788db6b",
+    "development_v2": "88c334ca413ce6aee1357426ab17388eb35dbad35f50034a30775ecde3bd3251"
+  },
+  "task_outcomes": {
+    "P0-ABSTAIN-001": "correct_abstention_with_evidence_set_annotation_difference",
+    "P0-CALC-001": "structured_but_wrong_sign_and_internally_inconsistent",
+    "P0-CONFLICT-001": "semantically_correct_but_invalid_intervention_locator",
+    "P0-TEXT-001": "correct_value_unit_subject_evidence_and_classification_missing_period_precision"
+  }
+}

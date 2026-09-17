@@ -1,0 +1,37 @@
+{
+  "blocked_by_reason": {
+    "no_unambiguous_two_axis_cells_from_frozen_candidates": []
+  },
+  "blocked_fact_ids": [],
+  "inputs": {
+    "atomic_increment_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "atomic_validations_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "native_coordinate_audit_sha256": "568dd90d5c81effecb496fae1ee6f9199723d3128ff7e278bbbe945b8fd51c3c"
+  },
+  "locked_experiments_modified_or_rescored": false,
+  "native_audit": {
+    "batch_id": "KB-SCALE-BATCH-017-NATIVE-COORDINATE-AUDIT",
+    "checks": {
+      "atomic_inventory_empty": true,
+      "fail_closed_without_semantic_reconstruction": true
+    },
+    "policy": {
+      "automatic_promotion": false,
+      "cloud_transmission": false
+    },
+    "promotable_facts": 0,
+    "schema_version": "0.1",
+    "status": "no_atomic_cells_available_for_native_coordinate_review"
+  },
+  "newly_promoted_to_tier_b": 0,
+  "next_gate": "scale_batch_017_global_kb_rebuild_and_closure",
+  "outputs": {
+    "trusted_facts_sha256": "3c045e0aff71fecea0aa9e60181b58b2e5d19aa8b7b1ee2638369f8e187beffa"
+  },
+  "promotable_fact_ids": [],
+  "reviewed": 0,
+  "schema_version": "0.1",
+  "source_candidate_records_modified": 0,
+  "status": "scale_batch_017_six_dimension_tier_b_review_complete_no_candidates",
+  "total_trusted_tier_b": 109
+}

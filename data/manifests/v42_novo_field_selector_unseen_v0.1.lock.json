@@ -1,0 +1,53 @@
+{
+  "schema_version": "0.1",
+  "experiment_id": "V4.2-NOVO-FIELD-SELECTOR-UNSEEN-V01",
+  "status": "frozen_before_execution",
+  "scientific_role": "single unseen validation of the frozen evidence member selector",
+  "parent": {
+    "fact_record_id": "fact-d21c76686be36396f57170e3",
+    "gap_id": "gap-a0196e008f60742ef34eec16",
+    "gap_signature": "FIELD_EVIDENCE_BINDING_INCOMPLETE",
+    "fact_store_sha256": "1da6f28e8c1b3125d07a52d39aed4e095c6f40ef71378173c36a1486f7cb890c",
+    "gap_store_sha256": "858a37ede7bd213c1c3d1e9136d5d8be6bc6e6f12f147124318347cb3a8cef76",
+    "fact_evidence_count": 7,
+    "fact_evidence_canonical_sha256": "81dd73f763b0b514b68f7a8e400681d67017bb528acc9af248dc78e6a20dca9d"
+  },
+  "source": {
+    "document_id": "P19-NOVO-NORDISK-AR2025",
+    "path": "data/raw/p19_staging/novo-nordisk-annual-report-2025.pdf",
+    "sha256": "f5475f1e043eaa99526772c0e06677a74ab2c2abb8181755afbe02a10e395092"
+  },
+  "selector": {
+    "source_id": "P19-NOVO-NORDISK-AR2025",
+    "pdf_page": 58,
+    "quote": "Including Catalent, FTE is 76,302 and headcount is 77,349."
+  },
+  "required_fields": [
+    "field_id",
+    "collection_cardinality",
+    "selected_collection_cardinality",
+    "evidence_selector",
+    "selected_evidence",
+    "evidence_coordinates",
+    "unique_binding",
+    "blocking_reasons"
+  ],
+  "expected": {
+    "diagnostic_status": "passed",
+    "fact_evidence_count": 7,
+    "selected_collection_cardinality": 1,
+    "native_match_count": 1,
+    "attachment_valid": true,
+    "promotion_performed": false
+  },
+  "execution_policy": {
+    "attempts": 1,
+    "silent_retry": false,
+    "post_hoc_repair": false,
+    "historical_result_mutation": false,
+    "fact_write": false,
+    "trust_promotion": false,
+    "gap_mutation": false,
+    "cloud_transmission": false
+  }
+}

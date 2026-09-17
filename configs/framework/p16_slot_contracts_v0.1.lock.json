@@ -1,0 +1,79 @@
+{
+  "schema_version": "2.5",
+  "experiment_id": "P16-V25-UNSEEN-LOCKBOX-V01",
+  "status": "draft_for_prefreeze_integrity_audit_before_candidate_inference",
+  "contracts": {
+    "P16-GHG-CALC-001": [
+      {"slot_id":"market_scope_1_ktco2e","predicate_id":"esg_disclosure::market_scope_1","value_type":"number","canonical_unit":"ktCO2e","period":"2025"},
+      {"slot_id":"market_scope_2_ktco2e","predicate_id":"esg_disclosure::market_scope_2","value_type":"number","canonical_unit":"ktCO2e","period":"2025"},
+      {"slot_id":"significant_scope_3_ktco2e","predicate_id":"esg_disclosure::significant_scope_3","value_type":"number","canonical_unit":"ktCO2e","period":"2025"},
+      {"slot_id":"calculated_transition_total_ktco2e","predicate_id":"esg_calculation::scope_sum","value_type":"number","canonical_unit":"ktCO2e","period":"2025"},
+      {"slot_id":"disclosed_transition_total_ktco2e","predicate_id":"esg_disclosure::transition_total","value_type":"number","canonical_unit":"ktCO2e","period":"2025"},
+      {"slot_id":"difference_ktco2e","predicate_id":"esg_calculation::calculated_minus_disclosed","value_type":"number","canonical_unit":"ktCO2e","period":"2025"},
+      {"slot_id":"comparison","predicate_id":"esg_calculation::comparison_status","value_type":"string"},
+      {"slot_id":"rounding_context","predicate_id":"esg_calculation::rounding_context","value_type":"string"}
+    ],
+    "P16-TARGET-001": [
+      {"slot_id":"base_year","predicate_id":"esg_target::base_year","value_type":"number"},
+      {"slot_id":"scope_1_2_2030_reduction_percent","predicate_id":"esg_target::scope_1_2_reduction","value_type":"number","canonical_unit":"percent","period":"2030","direction":"decrease"},
+      {"slot_id":"scope_3_2030_reduction_percent","predicate_id":"esg_target::scope_3_reduction","value_type":"number","canonical_unit":"percent","period":"2030","direction":"decrease"},
+      {"slot_id":"net_zero_year","predicate_id":"esg_target::net_zero_year","value_type":"number"},
+      {"slot_id":"net_zero_reduction_percent","predicate_id":"esg_target::net_zero_reduction","value_type":"number","canonical_unit":"percent","period":"2045","direction":"decrease"},
+      {"slot_id":"scope_3_near_term_categories","predicate_id":"esg_target::scope_3_categories","value_type":"string","string_input_shape":"ordered_span","required_value_terms":["purchased goods and services","capital goods","fuel and energy-related activities","upstream transport and distribution","waste generated in operations","business travel","employee commuting"]},
+      {"slot_id":"sbti_validation_year","predicate_id":"esg_target::sbti_validation_year","value_type":"number"},
+      {"slot_id":"sbti_status_after_opella","predicate_id":"esg_target::sbti_status","value_type":"string","string_input_shape":"ordered_span","required_value_terms":["Opella","resubmitted","revalidated in 2026"]},
+      {"slot_id":"residual_emissions_from_2030","predicate_id":"esg_target::residual_treatment","value_type":"string"},
+      {"slot_id":"permanent_removal_from_year","predicate_id":"esg_target::permanent_removal_year","value_type":"number"},
+      {"slot_id":"scope_1_2_2025_vs_base_reduction_percent","predicate_id":"esg_progress::scope_1_2_vs_base","value_type":"number","canonical_unit":"percent","period":"2025","direction":"decrease"},
+      {"slot_id":"scope_3_2025_vs_base_reduction_percent","predicate_id":"esg_progress::scope_3_vs_base","value_type":"number","canonical_unit":"percent","period":"2025","direction":"decrease"}
+    ],
+    "P16-POLLUTION-001": [
+      {"slot_id":"voc_air_tons","predicate_id":"esg_pollution::voc_air","value_type":"number","canonical_unit":"tons","period":"2025"},
+      {"slot_id":"dichloromethane_air_tons","predicate_id":"esg_pollution::dichloromethane_air","value_type":"number","canonical_unit":"tons","period":"2025"},
+      {"slot_id":"voc_opella_estimate_tons","predicate_id":"esg_boundary::opella_estimate","value_type":"number","canonical_unit":"tons","period":"2025"},
+      {"slot_id":"voc_smp_threshold_tons_per_year","predicate_id":"esg_boundary::solvent_threshold","value_type":"number","canonical_unit":"tons_per_year"},
+      {"slot_id":"svhc_generated_used_procured_kg","predicate_id":"esg_pollution::svhc_used","value_type":"number","canonical_unit":"kg","period":"2025"},
+      {"slot_id":"svhc_total_leaving_facilities_kg","predicate_id":"esg_pollution::svhc_total_leaving","value_type":"number","canonical_unit":"kg","period":"2025"},
+      {"slot_id":"svhc_leaving_as_emissions_kg","predicate_id":"esg_pollution::svhc_emissions","value_type":"number","canonical_unit":"kg","period":"2025"},
+      {"slot_id":"svhc_leaving_as_products_kg","predicate_id":"esg_pollution::svhc_products","value_type":"number","canonical_unit":"kg","period":"2025"},
+      {"slot_id":"svhc_substance_count","predicate_id":"esg_boundary::svhc_substance_count","value_type":"number","canonical_unit":"count"},
+      {"slot_id":"svhc_boundary","predicate_id":"esg_boundary::svhc_scope","value_type":"string"},
+      {"slot_id":"water_dichloromethane_site_count","predicate_id":"esg_boundary::dichloromethane_sites","value_type":"number","canonical_unit":"count"},
+      {"slot_id":"water_dichloromethane_method","predicate_id":"esg_boundary::dichloromethane_method","value_type":"string","string_input_shape":"ordered_span","required_value_terms":["E-PRTR","discharge point","annually"]}
+    ],
+    "P16-SAFETY-001": [
+      {"slot_id":"hse_coverage_percent","predicate_id":"esg_safety::hse_coverage","value_type":"number","canonical_unit":"percent","period":"2025"},
+      {"slot_id":"own_workforce_fatalities","predicate_id":"esg_safety::own_fatalities","value_type":"number","canonical_unit":"count","period":"2025"},
+      {"slot_id":"other_worker_site_injury_fatalities","predicate_id":"esg_safety::other_worker_fatalities","value_type":"number","canonical_unit":"count","period":"2025"},
+      {"slot_id":"recordable_accidents","predicate_id":"esg_safety::recordable_accidents","value_type":"number","canonical_unit":"count","period":"2025"},
+      {"slot_id":"recordable_accident_rate","predicate_id":"esg_safety::recordable_rate","value_type":"number","period":"2025"},
+      {"slot_id":"recordable_ill_health_cases","predicate_id":"esg_safety::ill_health_cases","value_type":"number","canonical_unit":"count","period":"2025"},
+      {"slot_id":"lti_frequency_rate","predicate_id":"esg_safety::lti_rate","value_type":"number","period":"2025"},
+      {"slot_id":"serious_injuries_and_fatalities","predicate_id":"esg_safety::serious_injuries_fatalities","value_type":"number","canonical_unit":"count","period":"2025"},
+      {"slot_id":"rate_denominator_work_hours","predicate_id":"esg_safety::rate_denominator","value_type":"number","canonical_unit":"work_hours"},
+      {"slot_id":"rolling_period_months","predicate_id":"esg_safety::rolling_period","value_type":"number","canonical_unit":"months"},
+      {"slot_id":"voluntary_metrics","predicate_id":"esg_safety::voluntary_metrics","value_type":"string"},
+      {"slot_id":"boundary_and_estimate","predicate_id":"esg_boundary::safety_boundary","value_type":"string","string_input_shape":"ordered_span","required_value_terms":["commute","teleworking","November","December"]}
+    ],
+    "P16-ACCESS-001": [
+      {"slot_id":"ncd_partnerships","predicate_id":"esg_access::ncd_partnerships","value_type":"number","canonical_unit":"count","period":"2025"},
+      {"slot_id":"countries_supported","predicate_id":"esg_access::countries_supported","value_type":"number","canonical_unit":"count","period":"2025"},
+      {"slot_id":"beneficiaries_reached","predicate_id":"esg_access::beneficiaries_reached","value_type":"number","canonical_unit":"count","period":"2025"},
+      {"slot_id":"hcps_hcws_engaged","predicate_id":"esg_access::health_workers_engaged","value_type":"number","canonical_unit":"count","period":"2025"},
+      {"slot_id":"supply_chain_facilities_upskilled","predicate_id":"esg_access::facilities_upskilled","value_type":"number","canonical_unit":"count","period":"2025"},
+      {"slot_id":"period_basis","predicate_id":"esg_boundary::period_basis","value_type":"string"},
+      {"slot_id":"restatement_qualification","predicate_id":"esg_boundary::restatement","value_type":"string","string_input_shape":"ordered_span","required_value_terms":["full year data","reclassification"]}
+    ],
+    "P16-ASSURE-001": [
+      {"slot_id":"assurance_level","predicate_id":"esg_assurance::level","value_type":"string"},
+      {"slot_id":"covered_information","predicate_id":"esg_assurance::covered_information","value_type":"string","string_input_shape":"ordered_span","required_value_terms":["sections 3.1 to 3.5","Article 8"]},
+      {"slot_id":"governing_guidance","predicate_id":"esg_assurance::guidance","value_type":"string"},
+      {"slot_id":"process_conclusion","predicate_id":"esg_assurance::process_conclusion","value_type":"string"},
+      {"slot_id":"sustainability_information_conclusion","predicate_id":"esg_assurance::information_conclusion","value_type":"string"},
+      {"slot_id":"taxonomy_conclusion","predicate_id":"esg_assurance::taxonomy_conclusion","value_type":"string"},
+      {"slot_id":"comparative_exclusion","predicate_id":"esg_assurance::comparative_exclusion","value_type":"string"},
+      {"slot_id":"forward_looking_limitation","predicate_id":"esg_assurance::forward_looking_limitation","value_type":"string"},
+      {"slot_id":"relative_and_scope_limitation","predicate_id":"esg_assurance::relative_scope_limitation","value_type":"string","string_input_shape":"ordered_span","required_value_terms":["reasonable assurance","action plans","targets","policies","scenario analyses","transition plans"]}
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-005-MINERU-RESUME02",
+  "parent_run": "data/results/scale_batch_005_mineru_RESUME01_summary.lock.json",
+  "parent_terminal_status": "complete",
+  "parent_complete_pages": 18,
+  "parent_failed_pages": 9,
+  "resume_scope": "only_parent_failed_pages",
+  "failure_signature": "MINERU_POST_PROCESS_SHUTDOWN_MUTEX_ABORT",
+  "failure_evidence": "MinerU logged completion and then exited -6 while its local service shut down with recursive_mutex lock failed",
+  "frozen_inputs_reused": [
+    "configs/knowledge/scale_batch_005_v0.1.json",
+    "data/manifests/scale_batch_005_acquisition.lock.json",
+    "data/manifests/scale_batch_005_target_pages.lock.json",
+    "configs/parsers/scale-batch-005-mineru-3.4.0-runtime.json"
+  ],
+  "policy": {
+    "parent_results_overwritten": false,
+    "completed_pages_repeated": false,
+    "cloud_transmission": false,
+    "locked_experiments_modified": false
+  }
+}

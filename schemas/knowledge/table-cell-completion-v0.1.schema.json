@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/esg-reliable-discovery/table-cell-completion-v0.1.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "record_kind", "completion_id", "graph_id", "pdf_page", "row", "column", "value", "raw_native_line", "validation", "parent_artifacts", "execution_mode", "rollback", "locked_graph_modified"],
+  "properties": {
+    "schema_version": {"const": "0.1"},
+    "record_kind": {"const": "table_cell_completion"},
+    "completion_id": {"type": "string", "pattern": "^cell-[0-9a-f]{24}$"},
+    "graph_id": {"type": "string"},
+    "pdf_page": {"type": "integer", "minimum": 1},
+    "row": {"type": "string"},
+    "column": {"enum": ["2025", "2024"]},
+    "value": {"type": "number"},
+    "raw_native_line": {"type": "string", "minLength": 1},
+    "validation": {"type": "object", "additionalProperties": false, "required": ["row_label_exact", "header_order_frozen", "two_values_parsed", "parent_hashes_valid"], "properties": {"row_label_exact": {"const": true}, "header_order_frozen": {"const": true}, "two_values_parsed": {"const": true}, "parent_hashes_valid": {"const": true}}},
+    "parent_artifacts": {"type": "array", "minItems": 2, "items": {"type": "object", "additionalProperties": false, "required": ["path", "sha256"], "properties": {"path": {"type": "string"}, "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}}}},
+    "execution_mode": {"const": "derived_layer_only"},
+    "rollback": {"const": "delete_derived_completion_record"},
+    "locked_graph_modified": {"const": false}
+  }
+}

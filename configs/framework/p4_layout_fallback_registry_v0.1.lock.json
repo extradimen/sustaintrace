@@ -1,0 +1,114 @@
+{
+  "schema_version": "1.0",
+  "status": "frozen_before_candidate_inference",
+  "trigger_audit": "data/results/p4_parser_anomaly_audit_v0.1.lock.json",
+  "trigger_audit_sha256": "a6a0d5674035ab4906eff59f506298eb93f846b0b64b8bebaba87abbc95f8fb6",
+  "selection_rule": "task-independent frozen parser anomaly trigger",
+  "targets": [
+    {
+      "task_id": "P4-CALC-001",
+      "document_id": "P4-MSFT-ESR2025",
+      "document_sha256": "7c20672f907103daa14a0c10c1ed8407f693108ad1869836ae348bc7c397aad9",
+      "pdf_path": "data/raw/p4_staging/microsoft/microsoft-sustainability-report-2025.pdf",
+      "pdf_page": 29,
+      "trigger_reasons": [
+        "native_to_mineru_numeric_recall_below_threshold"
+      ]
+    },
+    {
+      "task_id": "P4-DEX-001",
+      "document_id": "P4-MSFT-ESR2025",
+      "document_sha256": "7c20672f907103daa14a0c10c1ed8407f693108ad1869836ae348bc7c397aad9",
+      "pdf_path": "data/raw/p4_staging/microsoft/microsoft-sustainability-report-2025.pdf",
+      "pdf_page": 29,
+      "trigger_reasons": [
+        "native_to_mineru_numeric_recall_below_threshold"
+      ]
+    },
+    {
+      "task_id": "P4-XPAGE-001",
+      "document_id": "P4-MSFT-ESR2025",
+      "document_sha256": "7c20672f907103daa14a0c10c1ed8407f693108ad1869836ae348bc7c397aad9",
+      "pdf_path": "data/raw/p4_staging/microsoft/microsoft-sustainability-report-2025.pdf",
+      "pdf_page": 29,
+      "trigger_reasons": [
+        "native_to_mineru_numeric_recall_below_threshold"
+      ]
+    },
+    {
+      "task_id": "P4-CALC-002",
+      "document_id": "P4-NESN-NFS2024",
+      "document_sha256": "c1c577517577e28ef8b979b0c3158cb263fd3853e7e699ddd27b37cd6f5ffc0d",
+      "pdf_path": "data/raw/p4_staging/nestle/nestle-non-financial-statement-2024.pdf",
+      "pdf_page": 39,
+      "trigger_reasons": [
+        "native_to_mineru_numeric_recall_below_threshold"
+      ]
+    },
+    {
+      "task_id": "P4-DEX-003",
+      "document_id": "P4-NESN-NFS2024",
+      "document_sha256": "c1c577517577e28ef8b979b0c3158cb263fd3853e7e699ddd27b37cd6f5ffc0d",
+      "pdf_path": "data/raw/p4_staging/nestle/nestle-non-financial-statement-2024.pdf",
+      "pdf_page": 50,
+      "trigger_reasons": [
+        "mineru_table_detected",
+        "native_to_mineru_numeric_recall_below_threshold"
+      ]
+    },
+    {
+      "task_id": "P4-SCOPE-002",
+      "document_id": "P4-NESN-NFS2024",
+      "document_sha256": "c1c577517577e28ef8b979b0c3158cb263fd3853e7e699ddd27b37cd6f5ffc0d",
+      "pdf_path": "data/raw/p4_staging/nestle/nestle-non-financial-statement-2024.pdf",
+      "pdf_page": 123,
+      "trigger_reasons": [
+        "native_to_mineru_numeric_recall_below_threshold"
+      ]
+    },
+    {
+      "task_id": "P4-CONFLICT-001",
+      "document_id": "P4-NIKE-SD2024",
+      "document_sha256": "f8ee63742f3a6599754a9692f743e834366982750144f741927dccb34778bbe5",
+      "pdf_path": "data/raw/p4_staging/nike/nike-fy24-sustainability-data.pdf",
+      "pdf_page": 24,
+      "trigger_reasons": [
+        "mineru_table_detected",
+        "native_to_mineru_numeric_recall_below_threshold"
+      ]
+    },
+    {
+      "task_id": "P4-DEX-002",
+      "document_id": "P4-NIKE-SD2024",
+      "document_sha256": "f8ee63742f3a6599754a9692f743e834366982750144f741927dccb34778bbe5",
+      "pdf_path": "data/raw/p4_staging/nike/nike-fy24-sustainability-data.pdf",
+      "pdf_page": 24,
+      "trigger_reasons": [
+        "mineru_table_detected",
+        "native_to_mineru_numeric_recall_below_threshold"
+      ]
+    },
+    {
+      "task_id": "P4-SCOPE-001",
+      "document_id": "P4-NIKE-SD2024",
+      "document_sha256": "f8ee63742f3a6599754a9692f743e834366982750144f741927dccb34778bbe5",
+      "pdf_path": "data/raw/p4_staging/nike/nike-fy24-sustainability-data.pdf",
+      "pdf_page": 27,
+      "trigger_reasons": [
+        "mineru_table_detected",
+        "native_to_mineru_numeric_recall_below_threshold"
+      ]
+    },
+    {
+      "task_id": "P4-CONFLICT-001",
+      "document_id": "P4-NIKE-SD2024",
+      "document_sha256": "f8ee63742f3a6599754a9692f743e834366982750144f741927dccb34778bbe5",
+      "pdf_path": "data/raw/p4_staging/nike/nike-fy24-sustainability-data.pdf",
+      "pdf_page": 28,
+      "trigger_reasons": [
+        "mineru_table_detected",
+        "native_to_mineru_numeric_recall_below_threshold"
+      ]
+    }
+  ]
+}

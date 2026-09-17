@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/esg/workbench-promotion-review-v1.0.schema.json",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "record_kind",
+    "review_id",
+    "fact_record_id",
+    "parent_fact_record_id",
+    "repair_execution_id",
+    "requested_trust_tier",
+    "state",
+    "version",
+    "preconditions",
+    "allowed_decisions",
+    "decision_history",
+    "promotion_performed",
+    "trusted_layer_modified",
+    "rollback_action"
+  ],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "record_kind": {"const": "workbench_promotion_review"},
+    "review_id": {"type": "string", "pattern": "^workbench-promotion-review-"},
+    "fact_record_id": {"type": "string"},
+    "parent_fact_record_id": {"type": "string"},
+    "repair_execution_id": {"type": "string"},
+    "requested_trust_tier": {"const": "B"},
+    "state": {
+      "enum": [
+        "pending_review",
+        "approved_for_promotion_staging",
+        "rejected",
+        "evidence_required"
+      ]
+    },
+    "version": {"type": "integer", "minimum": 1},
+    "created_at": {"type": "string"},
+    "updated_at": {"type": "string"},
+    "preconditions": {
+      "type": "object",
+      "additionalProperties": {"type": "boolean"}
+    },
+    "allowed_decisions": {
+      "type": "array",
+      "items": {
+        "enum": ["approve_for_promotion_staging", "reject", "request_more_evidence"]
+      },
+      "uniqueItems": true
+    },
+    "decision_history": {"type": "array", "items": {"type": "object"}},
+    "promotion_performed": {"const": false},
+    "trusted_layer_modified": {"const": false},
+    "rollback_action": {"type": "string", "minLength": 1}
+  },
+  "additionalProperties": false
+}

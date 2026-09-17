@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "experiment_id": "P15-V24-UNSEEN-LOCKBOX-V01",
+  "status": "resume01_created_after_pre_parse_runtime_configuration_failure",
+  "parent_script": "scripts/run_p15_mineru_targets.sh",
+  "parent_output_root": "artifacts/p15/mineru_targets",
+  "failure": "The legacy magic-pdf executable interpreted the MinerU 3.4 models-dir object as a path and failed before model initialization completed.",
+  "successful_parent_pages": [],
+  "failed_parent_pages": [20, 21, 22, 27, 28, 29, 30, 31, 32, 36, 43],
+  "interrupted_parent_page": 44,
+  "not_started_parent_pages": [45],
+  "candidate_model_called": false,
+  "cloud_transmission_occurred": false,
+  "resume_config": "configs/parsers/p15-mineru-3.4.0-runtime_RESUME01.json",
+  "resume_output_root": "artifacts/p15/mineru_targets_RESUME01",
+  "resume_pages": [20, 21, 22, 27, 28, 29, 30, 31, 32, 36, 43, 44, 45],
+  "semantic_change": false
+}

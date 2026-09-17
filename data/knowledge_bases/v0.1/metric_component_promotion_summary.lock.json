@@ -1,0 +1,19 @@
+{
+  "inputs": {
+    "boundaries_sha256": "7a05272d14ed461f407b1a55b34a73afddecedb7a5ead2234a4cb137b8a0cd79",
+    "facts_sha256": "8af57e7b7bda85deef8f90586f8225aedcf1da24e0669300115b8f1f7499bf5b",
+    "independent_reviews_sha256": "b487e4e474aecea6cf17e260983203155433ba21ecb45adac3ad48c2d527cd28"
+  },
+  "locked_experiments_modified_or_rescored": false,
+  "newly_promoted_to_tier_b": 6,
+  "next_gate": "implement_taxonomy_classification_boundary_validator",
+  "outputs": {
+    "adjudications_sha256": "540b2fdc64442e2375fe90aeb9f7b3d3e2f2b0c05acecc3cf6518ffcfad1cd40",
+    "trusted_facts_sha256": "4c429a1fc6b75199bbf103177fac62dcd116f69eea18b29277841055f5c9143b"
+  },
+  "reviewed": 6,
+  "schema_version": "0.1",
+  "source_candidate_records_modified": 0,
+  "status": "metric_component_six_dimension_review_and_tier_b_overlay_complete",
+  "total_trusted_tier_b": 42
+}

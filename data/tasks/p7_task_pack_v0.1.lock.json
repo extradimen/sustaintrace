@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0",
+  "experiment_id": "P7-V16-UNSEEN-LOCKBOX-V01",
+  "status": "questions_and_page_windows_frozen_before_reference_creation_and_candidate_inference",
+  "inference_allowed": false,
+  "tasks": [
+    {
+      "task_id": "P7-SAFETY-001",
+      "document_id": "P7-ARCELORMITTAL-SR2025",
+      "task_type": "direct_extraction",
+      "question_status": "frozen",
+      "question": "What 2025 and 2024 fatality frequency rates did ArcelorMittal report, how many 2025 fatalities and contractor fatalities did it report, and what qualitative improvement claim accompanied those figures?",
+      "target_pages": [3, 50]
+    },
+    {
+      "task_id": "P7-CALC-001",
+      "document_id": "P7-ARCELORMITTAL-SR2025",
+      "task_type": "deterministic_calculation",
+      "question_status": "frozen",
+      "question": "Using the reported 2024 and 2025 fatality frequency rates, calculate the percentage decrease and compare the recomputed value with the report's qualitative claim of a reduction of more than 50%.",
+      "target_pages": [3, 6]
+    },
+    {
+      "task_id": "P7-TARGET-001",
+      "document_id": "P7-ARCELORMITTAL-SR2025",
+      "task_type": "scope_subject_boundary",
+      "question_status": "frozen",
+      "question": "What carbon-emissions-intensity reduction does ArcelorMittal expect by 2030, against which baseline and scopes, and what project-decision condition and transition action support the expectation?",
+      "target_pages": [4, 20]
+    },
+    {
+      "task_id": "P7-PORTFOLIO-001",
+      "document_id": "P7-ARCELORMITTAL-SR2025",
+      "task_type": "scope_subject_boundary",
+      "question_status": "frozen",
+      "question": "How does the report distinguish the 47.7% historical absolute-emissions reduction including divestments from portfolio-adjusted emissions-intensity comparison, and how are sold and acquired sites treated in the latter method?",
+      "target_pages": [4, 20, 65, 66]
+    },
+    {
+      "task_id": "P7-INTENSITY-001",
+      "document_id": "P7-ARCELORMITTAL-SR2025",
+      "task_type": "controlled_conflict_resolution",
+      "question_status": "frozen",
+      "question": "Resolve the apparent difference between the report's current group carbon intensity of 1.79 tCO2e per tonne of crude steel and the approximately 2.5 tCO2e per tonne figure for disposed assets, without asserting an unsupported causal relationship.",
+      "target_pages": [4, 24, 52]
+    },
+    {
+      "task_id": "P7-ASSURE-001",
+      "document_id": "P7-ARCELORMITTAL-SR2025",
+      "task_type": "scope_subject_boundary",
+      "question_status": "frozen",
+      "question": "What assurance level, reporting period, subject matter and criteria were covered by the independent engagement, and what remaining report information was explicitly outside its scope?",
+      "target_pages": [89, 90, 91]
+    }
+  ]
+}

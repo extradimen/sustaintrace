@@ -1,0 +1,191 @@
+{
+  "parent": "data/manifests/p13_mineru_failure_and_native_fallback_v0.1.lock.json",
+  "parser": "native PDF layout fallback",
+  "schema_version": "1.0",
+  "status": "executor_wrappers_frozen_after_authorization_before_inference",
+  "targets": [
+    {
+      "document_id": "P13-SCHNEIDER-URD2025",
+      "document_sha256": "6ca8d7f0faa864cf46a98b1ae8c3ae85979d310d6c0f436dc169d525c706b568",
+      "local_path": "data/raw/p13_staging/schneider-electric-2025-universal-registration-document.pdf",
+      "output_directory": "artifacts/p13/executor_registry/P13-SCHNEIDER-URD2025-p0148",
+      "output_file_count": 1,
+      "pdf_page": 148,
+      "run_record_sha256": "e1a2ba0367f5a2e2eafad488bc3c0bf5e611c5ca907057e07aff6740ed935b6f",
+      "status": "native_pdf_fallback_wrapped_without_semantic_change",
+      "target_id": "P13-SCHNEIDER-URD2025-p0148",
+      "task_ids": [
+        "P13-TARGET-001"
+      ]
+    },
+    {
+      "document_id": "P13-SCHNEIDER-URD2025",
+      "document_sha256": "6ca8d7f0faa864cf46a98b1ae8c3ae85979d310d6c0f436dc169d525c706b568",
+      "local_path": "data/raw/p13_staging/schneider-electric-2025-universal-registration-document.pdf",
+      "output_directory": "artifacts/p13/executor_registry/P13-SCHNEIDER-URD2025-p0149",
+      "output_file_count": 1,
+      "pdf_page": 149,
+      "run_record_sha256": "12befe39d13c78c9a3072c701d0ad87461301f7a643f8299c341bee9454751e2",
+      "status": "native_pdf_fallback_wrapped_without_semantic_change",
+      "target_id": "P13-SCHNEIDER-URD2025-p0149",
+      "task_ids": [
+        "P13-TARGET-001"
+      ]
+    },
+    {
+      "document_id": "P13-SCHNEIDER-URD2025",
+      "document_sha256": "6ca8d7f0faa864cf46a98b1ae8c3ae85979d310d6c0f436dc169d525c706b568",
+      "local_path": "data/raw/p13_staging/schneider-electric-2025-universal-registration-document.pdf",
+      "output_directory": "artifacts/p13/executor_registry/P13-SCHNEIDER-URD2025-p0150",
+      "output_file_count": 1,
+      "pdf_page": 150,
+      "run_record_sha256": "7ab70579d30b5b6717901e7003c96842bc3dff923552b1a75406cf9ba190a9fc",
+      "status": "native_pdf_fallback_wrapped_without_semantic_change",
+      "target_id": "P13-SCHNEIDER-URD2025-p0150",
+      "task_ids": [
+        "P13-TARGET-001"
+      ]
+    },
+    {
+      "document_id": "P13-SCHNEIDER-URD2025",
+      "document_sha256": "6ca8d7f0faa864cf46a98b1ae8c3ae85979d310d6c0f436dc169d525c706b568",
+      "local_path": "data/raw/p13_staging/schneider-electric-2025-universal-registration-document.pdf",
+      "output_directory": "artifacts/p13/executor_registry/P13-SCHNEIDER-URD2025-p0152",
+      "output_file_count": 1,
+      "pdf_page": 152,
+      "run_record_sha256": "442c3761bd6828d590e9e0db77b499f9e7082e2f8dd1ae434b6fb6d7509038ed",
+      "status": "native_pdf_fallback_wrapped_without_semantic_change",
+      "target_id": "P13-SCHNEIDER-URD2025-p0152",
+      "task_ids": [
+        "P13-GHG-CALC-001"
+      ]
+    },
+    {
+      "document_id": "P13-SCHNEIDER-URD2025",
+      "document_sha256": "6ca8d7f0faa864cf46a98b1ae8c3ae85979d310d6c0f436dc169d525c706b568",
+      "local_path": "data/raw/p13_staging/schneider-electric-2025-universal-registration-document.pdf",
+      "output_directory": "artifacts/p13/executor_registry/P13-SCHNEIDER-URD2025-p0153",
+      "output_file_count": 1,
+      "pdf_page": 153,
+      "run_record_sha256": "994858c5a484ef68518feae2fbf5f897912a60925a29273b7f96e3bb38f214fa",
+      "status": "native_pdf_fallback_wrapped_without_semantic_change",
+      "target_id": "P13-SCHNEIDER-URD2025-p0153",
+      "task_ids": [
+        "P13-GHG-CALC-001"
+      ]
+    },
+    {
+      "document_id": "P13-SCHNEIDER-URD2025",
+      "document_sha256": "6ca8d7f0faa864cf46a98b1ae8c3ae85979d310d6c0f436dc169d525c706b568",
+      "local_path": "data/raw/p13_staging/schneider-electric-2025-universal-registration-document.pdf",
+      "output_directory": "artifacts/p13/executor_registry/P13-SCHNEIDER-URD2025-p0213",
+      "output_file_count": 1,
+      "pdf_page": 213,
+      "run_record_sha256": "ad0e3fb1714a54645254a648790e0810dcaa9f67aa471252d39327911875d592",
+      "status": "native_pdf_fallback_wrapped_without_semantic_change",
+      "target_id": "P13-SCHNEIDER-URD2025-p0213",
+      "task_ids": [
+        "P13-WOMEN-001"
+      ]
+    },
+    {
+      "document_id": "P13-SCHNEIDER-URD2025",
+      "document_sha256": "6ca8d7f0faa864cf46a98b1ae8c3ae85979d310d6c0f436dc169d525c706b568",
+      "local_path": "data/raw/p13_staging/schneider-electric-2025-universal-registration-document.pdf",
+      "output_directory": "artifacts/p13/executor_registry/P13-SCHNEIDER-URD2025-p0315",
+      "output_file_count": 1,
+      "pdf_page": 315,
+      "run_record_sha256": "9a0913f54591c8cda1cbe1a22010955ce74cfa968ac55832e9d3bfb100efd703",
+      "status": "native_pdf_fallback_wrapped_without_semantic_change",
+      "target_id": "P13-SCHNEIDER-URD2025-p0315",
+      "task_ids": [
+        "P13-ASSURE-001"
+      ]
+    },
+    {
+      "document_id": "P13-SCHNEIDER-URD2025",
+      "document_sha256": "6ca8d7f0faa864cf46a98b1ae8c3ae85979d310d6c0f436dc169d525c706b568",
+      "local_path": "data/raw/p13_staging/schneider-electric-2025-universal-registration-document.pdf",
+      "output_directory": "artifacts/p13/executor_registry/P13-SCHNEIDER-URD2025-p0333",
+      "output_file_count": 1,
+      "pdf_page": 333,
+      "run_record_sha256": "11a8470cc1b017afb078b651251e6ba7320d65ebc0bff854dc658d887b473f24",
+      "status": "native_pdf_fallback_wrapped_without_semantic_change",
+      "target_id": "P13-SCHNEIDER-URD2025-p0333",
+      "task_ids": [
+        "P13-ASSURE-001"
+      ]
+    },
+    {
+      "document_id": "P13-SCHNEIDER-URD2025",
+      "document_sha256": "6ca8d7f0faa864cf46a98b1ae8c3ae85979d310d6c0f436dc169d525c706b568",
+      "local_path": "data/raw/p13_staging/schneider-electric-2025-universal-registration-document.pdf",
+      "output_directory": "artifacts/p13/executor_registry/P13-SCHNEIDER-URD2025-p0334",
+      "output_file_count": 1,
+      "pdf_page": 334,
+      "run_record_sha256": "a3e79199c930f8eaabd2d211e9bce751243c814c16f195b0d5b93f5132540c2e",
+      "status": "native_pdf_fallback_wrapped_without_semantic_change",
+      "target_id": "P13-SCHNEIDER-URD2025-p0334",
+      "task_ids": [
+        "P13-ASSURE-001"
+      ]
+    },
+    {
+      "document_id": "P13-SCHNEIDER-URD2025",
+      "document_sha256": "6ca8d7f0faa864cf46a98b1ae8c3ae85979d310d6c0f436dc169d525c706b568",
+      "local_path": "data/raw/p13_staging/schneider-electric-2025-universal-registration-document.pdf",
+      "output_directory": "artifacts/p13/executor_registry/P13-SCHNEIDER-URD2025-p0339",
+      "output_file_count": 1,
+      "pdf_page": 339,
+      "run_record_sha256": "d8d66a9e6e081c6bcf4a6c7f07acb2c1e5cef54ba48dab63622f4dd4d6ca6c6f",
+      "status": "native_pdf_fallback_wrapped_without_semantic_change",
+      "target_id": "P13-SCHNEIDER-URD2025-p0339",
+      "task_ids": [
+        "P13-ASSURE-001"
+      ]
+    },
+    {
+      "document_id": "P13-SCHNEIDER-URD2025",
+      "document_sha256": "6ca8d7f0faa864cf46a98b1ae8c3ae85979d310d6c0f436dc169d525c706b568",
+      "local_path": "data/raw/p13_staging/schneider-electric-2025-universal-registration-document.pdf",
+      "output_directory": "artifacts/p13/executor_registry/P13-SCHNEIDER-URD2025-p0340",
+      "output_file_count": 1,
+      "pdf_page": 340,
+      "run_record_sha256": "f0fcee870629845c511f34d803e7d2017dc90d20f84d37a46746f506c3acb7e0",
+      "status": "native_pdf_fallback_wrapped_without_semantic_change",
+      "target_id": "P13-SCHNEIDER-URD2025-p0340",
+      "task_ids": [
+        "P13-ASSURE-001"
+      ]
+    },
+    {
+      "document_id": "P13-SCHNEIDER-URD2025",
+      "document_sha256": "6ca8d7f0faa864cf46a98b1ae8c3ae85979d310d6c0f436dc169d525c706b568",
+      "local_path": "data/raw/p13_staging/schneider-electric-2025-universal-registration-document.pdf",
+      "output_directory": "artifacts/p13/executor_registry/P13-SCHNEIDER-URD2025-p0344",
+      "output_file_count": 1,
+      "pdf_page": 344,
+      "run_record_sha256": "4354dd6cb0c88b478b4d28c976d644378b490317b510ef532ebdd7c5bb175506",
+      "status": "native_pdf_fallback_wrapped_without_semantic_change",
+      "target_id": "P13-SCHNEIDER-URD2025-p0344",
+      "task_ids": [
+        "P13-WATER-001"
+      ]
+    },
+    {
+      "document_id": "P13-SCHNEIDER-URD2025",
+      "document_sha256": "6ca8d7f0faa864cf46a98b1ae8c3ae85979d310d6c0f436dc169d525c706b568",
+      "local_path": "data/raw/p13_staging/schneider-electric-2025-universal-registration-document.pdf",
+      "output_directory": "artifacts/p13/executor_registry/P13-SCHNEIDER-URD2025-p0353",
+      "output_file_count": 1,
+      "pdf_page": 353,
+      "run_record_sha256": "694d3bf987ea0ed2aed6e793f5032e3383d5827dfcf32ec0f3b92118004c8979",
+      "status": "native_pdf_fallback_wrapped_without_semantic_change",
+      "target_id": "P13-SCHNEIDER-URD2025-p0353",
+      "task_ids": [
+        "P13-SAFETY-001"
+      ]
+    }
+  ],
+  "unique_target_count": 13
+}

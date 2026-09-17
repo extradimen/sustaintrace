@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "experiment_id": "P1-STAGE-B-V081-CROSS-METRIC-QUALIFICATION",
+  "status": "apple_passed_paused_for_preregistered_modality_extension",
+  "framework_freeze_id": "P1-STAGE-B-FREEZE-v0.8.1",
+  "model": "gemma4:12b",
+  "model_digest": "4eb23ef187e2c5462566d6a1d3bbbc2f1346d0b4327cbb66d58fffbcc9b2b05c",
+  "completed": [
+    {"task_id": "P1-02-2", "metric_id": "scope_1_methane_emissions", "run_id": "P1-02-2-GEMMA4-12B-stage-b-v081-r1", "status": "passed"}
+  ],
+  "frozen_runs": [
+    {
+      "order": 2,
+      "task_id": "P1-01-2",
+      "metric_id": "freshwater_use_avoided",
+      "parent_run_id": "P1-01-2-GEMMA4-12B-v075-r1",
+      "run_id": "P1-01-2-GEMMA4-12B-stage-b-v081-r1",
+      "subject_id": "ENTITY::AAPL-EPR-2025",
+      "selected_evidence_handles": ["M049-B0031"],
+      "parent_integrity": "passed",
+      "status": "passed",
+      "sha256s_sha256": "c00f101081aebdb4dcfbfd2e0bf82bb66cfdfb0f0d393efbef41ca3bd92f3207"
+    }
+  ],
+  "candidate_next_metrics": [
+    "freshwater_use_avoided",
+    "renewable_power_share",
+    "operations_value_chain_emissions_mbm"
+  ],
+  "gate": "Each candidate must have a checksum-valid supported Stage A parent whose selected evidence grounds value and period before its Stage B run is frozen.",
+  "p2_eligible": false
+}

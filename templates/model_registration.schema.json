@@ -1,0 +1,101 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Reproducible Model Registration v1.0",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "registration_id",
+    "registration_status",
+    "provider",
+    "deployment",
+    "model_tag",
+    "official_source",
+    "expected_artifact",
+    "observed_local_artifact",
+    "scientific_role"
+  ],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "registration_id": {"type": "string", "minLength": 1},
+    "registration_status": {"enum": ["draft", "downloading", "locked", "rejected"]},
+    "provider": {"enum": ["ollama"]},
+    "deployment": {"enum": ["local", "cloud"]},
+    "model_tag": {"type": "string", "minLength": 1},
+    "official_source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["url", "checked_at", "publisher"],
+      "properties": {
+        "url": {"type": "string", "format": "uri"},
+        "checked_at": {"type": "string", "format": "date-time"},
+        "publisher": {"type": "string", "minLength": 1}
+      }
+    },
+    "expected_artifact": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["download_size_gb", "context_window", "input_modalities"],
+      "properties": {
+        "download_size_gb": {"type": "number", "exclusiveMinimum": 0},
+        "context_window": {"type": "integer", "minimum": 1},
+        "input_modalities": {
+          "type": "array",
+          "items": {"enum": ["text", "image", "audio"]},
+          "minItems": 1,
+          "uniqueItems": true
+        }
+      }
+    },
+    "observed_local_artifact": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["resolved_digest", "size_bytes", "parameter_size", "quantization", "captured_at"],
+      "properties": {
+        "resolved_digest": {"type": ["string", "null"], "pattern": "^[a-f0-9]{64}$"},
+        "size_bytes": {"type": ["integer", "null"], "minimum": 1},
+        "format": {"type": "string", "minLength": 1},
+        "family": {"type": "string", "minLength": 1},
+        "parameter_size": {"type": ["string", "null"]},
+        "parameter_count": {"type": "integer", "minimum": 1},
+        "quantization": {"type": ["string", "null"]},
+        "context_window": {"type": "integer", "minimum": 1},
+        "embedding_length": {"type": "integer", "minimum": 1},
+        "capabilities": {
+          "type": "array",
+          "items": {"enum": ["completion", "vision", "audio", "tools", "thinking"]},
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "minimum_ollama_version": {"type": "string", "minLength": 1},
+        "captured_at": {"type": ["string", "null"], "format": "date-time"},
+        "capture_sources": {
+          "type": "array",
+          "items": {"type": "string", "minLength": 1},
+          "minItems": 1,
+          "uniqueItems": true
+        }
+      }
+    },
+    "scientific_role": {"type": "string", "minLength": 1},
+    "qualification_results_observed": {"type": "boolean"}
+  },
+  "allOf": [
+    {
+      "if": {"properties": {"registration_status": {"const": "locked"}}},
+      "then": {
+        "properties": {
+          "observed_local_artifact": {
+            "properties": {
+              "resolved_digest": {"type": "string"},
+              "size_bytes": {"type": "integer"},
+              "parameter_size": {"type": "string"},
+              "quantization": {"type": "string"},
+              "captured_at": {"type": "string"}
+            }
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "blocked_by_reason": {
+    "candidate_metric_outside_frozen_assurance_scope": [
+      "fact-06b90093c514c2af92a3368c",
+      "fact-e428f5b133597ff717938062"
+    ]
+  },
+  "blocked_fact_ids": [
+    "fact-06b90093c514c2af92a3368c",
+    "fact-e428f5b133597ff717938062"
+  ],
+  "inputs": {
+    "atomic_increment_sha256": "f96511c44231a1169a35bd2abad718ef9f81697a7f22d27c0d9d107caab11439",
+    "atomic_validations_sha256": "70f708d11f3c66c788baee5f0cc971b6251fc4bfa80d00fefde2977c20bd2ed2",
+    "native_coordinate_audit_sha256": "814d9026bbb058d68551e17e946937879909933d0819eeaac87d7110f0fff608"
+  },
+  "locked_experiments_modified_or_rescored": false,
+  "native_audit": {
+    "assurance_page_text_sha256": {
+      "KB-B022-ENGIE-URD2025:p220": "4d38636443e5e479767ebb99b079e26d34c70c5d00e6f0c5bac69956fa34affe",
+      "KB-B022-ENGIE-URD2025:p221": "161f6e493a3a48c38c1d2e5f94a2340bf132c0099b9b94c7cc333ad3d334382b",
+      "KB-B022-ORANGE-URD2025:p482": "49931c4c34ee91ff63dda0688f7ff908ceab2bba5113639cfd6305b1ce6f3d3b",
+      "KB-B022-ORANGE-URD2025:p483": "22772e90bff384c5d6dab35e56e71e65c2903f6f8b3458121b19481fc475f0b4",
+      "KB-B022-ORANGE-URD2025:p484": "5720ad630f462969f083d887f9813112633454781e8a2df060626a92b5eb44bc",
+      "KB-B022-ORANGE-URD2025:p485": "4b6d07e372a758c781ff5204fe142d24bdfdc34fc3eb83cbaabe0f5cb7414e03",
+      "KB-B022-SKANSKA-ASR2025:p208": "0a1741fd42975816daf7f9f88ca994c21d97b34963d9cc90c7e9854119db428e",
+      "KB-B022-SKANSKA-ASR2025:p209": "832176b4dfe3aaf9b963d04cd82c95dbc33243c9bf0d927a99eac9b5dcd244c7"
+    },
+    "batch_id": "KB-SCALE-BATCH-022-NATIVE-COORDINATE-AUDIT",
+    "checks": {
+      "KB-B022-ENGIE-URD2025:assurance_conclusion": true,
+      "KB-B022-ENGIE-URD2025:assurance_issuer": true,
+      "KB-B022-ENGIE-URD2025:assurance_period": true,
+      "KB-B022-ENGIE-URD2025:assurance_signatory": true,
+      "KB-B022-ENGIE-URD2025:source_sha256": true,
+      "KB-B022-ORANGE-URD2025:assurance_conclusion": true,
+      "KB-B022-ORANGE-URD2025:assurance_issuer": true,
+      "KB-B022-ORANGE-URD2025:assurance_period": true,
+      "KB-B022-ORANGE-URD2025:assurance_signatory": true,
+      "KB-B022-ORANGE-URD2025:source_sha256": true,
+      "KB-B022-SKANSKA-ASR2025:assurance_conclusion": true,
+      "KB-B022-SKANSKA-ASR2025:assurance_issuer": true,
+      "KB-B022-SKANSKA-ASR2025:assurance_period": true,
+      "KB-B022-SKANSKA-ASR2025:assurance_signatory": true,
+      "KB-B022-SKANSKA-ASR2025:source_sha256": true
+    },
+    "policy": {
+      "automatic_promotion": false,
+      "cloud_transmission": false
+    },
+    "promotable_facts": 0,
+    "schema_version": "0.1",
+    "status": "selected_cells_and_assurance_boundaries_passed"
+  },
+  "newly_promoted_to_tier_b": 0,
+  "next_gate": "scale_batch_022_global_kb_rebuild_and_closure",
+  "outputs": {
+    "adjudications_sha256": "360582fbbc2a64b2353e5f483688aa0e5ea3d05b78d52a252dada9e83ec2d117",
+    "trusted_facts_sha256": "1b378d566426256c36697066c13c8191b6c7f286e4395c1efc10749c0f24fcbb"
+  },
+  "promotable_fact_ids": [],
+  "reviewed": 2,
+  "schema_version": "0.1",
+  "source_candidate_records_modified": 0,
+  "status": "scale_batch_022_six_dimension_tier_b_review_complete",
+  "total_trusted_tier_b": 135
+}

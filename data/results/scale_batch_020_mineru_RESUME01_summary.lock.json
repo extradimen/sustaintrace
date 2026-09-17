@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-020-MINERU-RESUME01",
+  "updated_at": "2026-09-13T16:38:16.995385+00:00",
+  "status": "complete",
+  "cloud_transmission": false,
+  "total_target_pages": 3,
+  "complete_pages": 3,
+  "failed_pages": 0,
+  "pending_pages": 0,
+  "records": [
+    {
+      "document_id": "KB-B020-SOLVAY-AIR2025",
+      "page": 180,
+      "themes": [
+        "health_safety"
+      ],
+      "output_directory": "artifacts/scale_batch_020/mineru_targets_RESUME01/KB-B020-SOLVAY-AIR2025-p0180",
+      "status": "complete",
+      "started_at": "2026-09-13T16:37:18.787224+00:00",
+      "completed_at": "2026-09-13T16:37:36.909279+00:00",
+      "wall_seconds": 18.12211
+    },
+    {
+      "document_id": "KB-B020-KERING-URD2025",
+      "page": 306,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_020/mineru_targets_RESUME01/KB-B020-KERING-URD2025-p0306",
+      "status": "complete",
+      "started_at": "2026-09-13T16:37:36.909792+00:00",
+      "completed_at": "2026-09-13T16:37:56.743830+00:00",
+      "wall_seconds": 19.834101
+    },
+    {
+      "document_id": "KB-B020-CARREFOUR-URD2025",
+      "page": 122,
+      "themes": [
+        "water"
+      ],
+      "output_directory": "artifacts/scale_batch_020/mineru_targets_RESUME01/KB-B020-CARREFOUR-URD2025-p0122",
+      "status": "complete",
+      "started_at": "2026-09-13T16:37:56.744262+00:00",
+      "completed_at": "2026-09-13T16:38:16.994925+00:00",
+      "wall_seconds": 20.250727
+    }
+  ]
+}

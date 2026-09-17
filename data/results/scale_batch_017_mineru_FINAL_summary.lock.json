@@ -1,0 +1,543 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-017-MINERU-FINAL",
+  "updated_at": "2026-09-13T11:29:32.646058+00:00",
+  "status": "complete",
+  "cloud_transmission": false,
+  "total_target_pages": 26,
+  "complete_pages": 26,
+  "failed_pages": 0,
+  "pending_pages": 0,
+  "post_completion_shutdown_recovered_pages": 0,
+  "recovered_pages": [],
+  "parent_attempts": [
+    "data/results/scale_batch_017_mineru_summary.lock.json",
+    "data/results/scale_batch_017_mineru_RESUME01_summary.lock.json"
+  ],
+  "parent_failures_preserved": true,
+  "records": [
+    {
+      "document_id": "KB-B017-HUSQVARNA-AR2025",
+      "page": 38,
+      "themes": [
+        "targets"
+      ],
+      "output_directory": "artifacts/scale_batch_017/mineru_targets/KB-B017-HUSQVARNA-AR2025-p0038",
+      "status": "complete",
+      "started_at": "2026-09-13T10:48:55.266460+00:00",
+      "completed_at": "2026-09-13T10:49:10.224491+00:00",
+      "wall_seconds": 14.958171,
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "d006ad7cedfaca77975e5f6f09c663469526602cfc636de3dbc32b8b74b80564",
+        "_content_list.json": "72a8dd2ccf0540d080ed865dd8e474ffd23be01af44cc3e8b5bcbcf519ec96f7",
+        "_middle.json": "be4ebbe0f115389f8e4efbb129aa7a416c9757c19967ef126e5195921c3641e6",
+        "_model.json": "9020f0037581fe2d324dfc4117112da81c435bd0bbea5e1b848bfd47c69a71c0"
+      }
+    },
+    {
+      "document_id": "KB-B017-HUSQVARNA-AR2025",
+      "page": 50,
+      "themes": [
+        "ghg_emissions"
+      ],
+      "output_directory": "artifacts/scale_batch_017/mineru_targets/KB-B017-HUSQVARNA-AR2025-p0050",
+      "status": "complete",
+      "started_at": "2026-09-13T10:49:10.224840+00:00",
+      "completed_at": "2026-09-13T10:49:24.633587+00:00",
+      "wall_seconds": 14.408882,
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "9626d94973f41d0e845045b2faefdd0e9cf2f39e38d44014faa096319fb03feb",
+        "_content_list.json": "eef9cecd0ef80c4cf08b93109a56db40b0243b61c1292f15b4986da2a5e08b23",
+        "_middle.json": "6041fac251aa746284f63de3c5eeaa0dfd9a9884932d93368343d262449750cb",
+        "_model.json": "c526d5bc7321b07cdd9aff7e6dcd173c71b24753e5e6f6f148221d295a9707f3"
+      }
+    },
+    {
+      "document_id": "KB-B017-HUSQVARNA-AR2025",
+      "page": 52,
+      "themes": [
+        "energy",
+        "water"
+      ],
+      "output_directory": "artifacts/scale_batch_017/mineru_targets/KB-B017-HUSQVARNA-AR2025-p0052",
+      "status": "complete",
+      "started_at": "2026-09-13T10:49:24.633947+00:00",
+      "completed_at": "2026-09-13T10:49:40.579653+00:00",
+      "wall_seconds": 15.945855,
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "9b95289c85d734e74c17ef4d0a37249cfa944d2b274a415af237ba9b06b8db68",
+        "_content_list.json": "e995e0f57bb4ac3e9c7c3b173b1c7ae3366a6bccb4db308f851d6044e17a58a4",
+        "_middle.json": "ab7f937f5358426b8e2604a8cd275fe0ec71b0ea56d6552f86871bade4f4c762",
+        "_model.json": "5b2216e7c4658441c75915b08b93e606c68e49aebd2efa86ad08461380eacbcf"
+      }
+    },
+    {
+      "document_id": "KB-B017-HUSQVARNA-AR2025",
+      "page": 54,
+      "themes": [
+        "circularity"
+      ],
+      "output_directory": "artifacts/scale_batch_017/mineru_targets_RESUME01/KB-B017-HUSQVARNA-AR2025-p0054",
+      "status": "complete",
+      "started_at": "2026-09-13T11:11:01.189847+00:00",
+      "completed_at": "2026-09-13T11:11:28.624364+00:00",
+      "wall_seconds": 27.434702,
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "22704669d673765aaa5f94b54c4536b7a9ecbcef3f6bb514f3a0ca7a21271f64",
+        "_content_list.json": "301315997ba823306b30f63878854136005c2c22662f3d03aa99a849ba85b021",
+        "_middle.json": "3e16c62530191d97897ddda8913a914d97675c1bcdf05dcf5bd845fd3796feb9",
+        "_model.json": "de3b2c4af7a2a18a0e5578da2520d871ab790e7e1c8de1697adb9f995af15a52"
+      }
+    },
+    {
+      "document_id": "KB-B017-HUSQVARNA-AR2025",
+      "page": 60,
+      "themes": [
+        "health_safety",
+        "workforce"
+      ],
+      "output_directory": "artifacts/scale_batch_017/mineru_targets/KB-B017-HUSQVARNA-AR2025-p0060",
+      "status": "complete",
+      "started_at": "2026-09-13T10:49:55.039638+00:00",
+      "completed_at": "2026-09-13T10:50:11.612383+00:00",
+      "wall_seconds": 16.5729,
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "af8c6377e987de2eb3b36c17a478b1c84d48afd7457fbf7ac0c320cd6aec7ad5",
+        "_content_list.json": "2e11e4915a2439ea7543e0b15f2e21f276b827187123573c8cbd821b5bc0c030",
+        "_middle.json": "e2384e9303046f005245ff8b74a4609fc4c05f0c9a18680a0598e535e68acf3a",
+        "_model.json": "5bab0f5d7745776f9c0487556bd2d20163a91befec5ba442a6798e76312c2260"
+      }
+    },
+    {
+      "document_id": "KB-B017-HUSQVARNA-AR2025",
+      "page": 67,
+      "themes": [
+        "biodiversity"
+      ],
+      "output_directory": "artifacts/scale_batch_017/mineru_targets/KB-B017-HUSQVARNA-AR2025-p0067",
+      "status": "complete",
+      "started_at": "2026-09-13T10:50:11.612771+00:00",
+      "completed_at": "2026-09-13T10:50:26.575829+00:00",
+      "wall_seconds": 14.9632,
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "2f5f5c702b976b01d81e4b9b72b7cad8971484ea7764eaf84652c889490c463b",
+        "_content_list.json": "e50945b9a574ec62f9422a4ab8f90937a56924fadccb8923f82b6d0057eece19",
+        "_middle.json": "8d56ba43b2d22c488062091c02836d08f7a686d999ff0593fe94651b2f0c20af",
+        "_model.json": "4bb7b6aac6d0239ec331a80e16905027524f47696fd1ba241fb95ce940ba6f54"
+      }
+    },
+    {
+      "document_id": "KB-B017-HUSQVARNA-AR2025",
+      "page": 124,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_017/mineru_targets/KB-B017-HUSQVARNA-AR2025-p0124",
+      "status": "complete",
+      "started_at": "2026-09-13T10:50:26.576249+00:00",
+      "completed_at": "2026-09-13T10:50:41.411133+00:00",
+      "wall_seconds": 14.835023,
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "5794e64beeec7514a2ef2c3343d69b0d4f302b5899071a1dcafd4f102df080af",
+        "_content_list.json": "6469215eb56b6ab383096cc265cc20285c7170880ba70785ee8b5e8d976a8ce4",
+        "_middle.json": "04b86b36bae790021c4d91d008fae3d95e92060728128972e76ae2ef2be65492",
+        "_model.json": "15a4e9217c0b3a6145ea36e0e9b61d0652336e23bab317cd76ed5da4786834cd"
+      }
+    },
+    {
+      "document_id": "KB-B017-HUSQVARNA-AR2025",
+      "page": 125,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_017/mineru_targets_RESUME01/KB-B017-HUSQVARNA-AR2025-p0125",
+      "status": "complete",
+      "started_at": "2026-09-13T11:11:28.624739+00:00",
+      "completed_at": "2026-09-13T11:11:46.632086+00:00",
+      "wall_seconds": 18.007473,
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "9f5d58724a8af9ff8c199b13e9e445a48d587917378e5cb82d0fb6cb497c84d8",
+        "_content_list.json": "b3989408a0316669eda17979f6254152914dc772b5e4906953a01923ec98da67",
+        "_middle.json": "93c0b002ae4f5e838d4e1b0fd54b87af9fd32269ac44d8fce714d2a58ccd4809",
+        "_model.json": "52261e626c18fb899212e53973ecb03acdf5568e88aa1f34493736f1ef8a5051"
+      }
+    },
+    {
+      "document_id": "KB-B017-ROCKWOOL-AR2025",
+      "page": 12,
+      "themes": [
+        "targets"
+      ],
+      "output_directory": "artifacts/scale_batch_017/mineru_targets/KB-B017-ROCKWOOL-AR2025-p0012",
+      "status": "complete",
+      "started_at": "2026-09-13T10:46:39.177296+00:00",
+      "completed_at": "2026-09-13T10:46:57.650013+00:00",
+      "wall_seconds": 18.47256,
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "b22567e16e2d1d5d38342f47baf14378b5e9bf66f31838acb005d0e34cf8800e",
+        "_content_list.json": "42c3ac7b13bb97b94b54dbd27641e1a1b6eacd859cae400e8022ddf489cef163",
+        "_middle.json": "24b43a298091c7824f14439ad94d4bd92d4961478159ed22ee5e1034e07a6d54",
+        "_model.json": "4a2a07428a62edca7b8210f816b75f439bd395d32bbfb5a163afd5a6d04b92b7"
+      }
+    },
+    {
+      "document_id": "KB-B017-ROCKWOOL-AR2025",
+      "page": 68,
+      "themes": [
+        "energy",
+        "ghg_emissions"
+      ],
+      "output_directory": "artifacts/scale_batch_017/mineru_targets/KB-B017-ROCKWOOL-AR2025-p0068",
+      "status": "complete",
+      "started_at": "2026-09-13T10:46:57.650585+00:00",
+      "completed_at": "2026-09-13T10:47:13.619554+00:00",
+      "wall_seconds": 15.968973,
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "bfe42d0bf2a76394c7ec1427ce94f7e0ca023e67011f00f088bb179e2eb70c2b",
+        "_content_list.json": "b5f271365e75cce0944579f17851675074c6dae67769f9a39542443338db4d92",
+        "_middle.json": "70f4ba692e9d27deb00553482a288037d1751058e6797c0b83a4edae343ec8a0",
+        "_model.json": "28b4b1bcebc1950c1ee98d629c9a037e7e82805555a46fc390f961b96d08700f"
+      }
+    },
+    {
+      "document_id": "KB-B017-ROCKWOOL-AR2025",
+      "page": 76,
+      "themes": [
+        "water"
+      ],
+      "output_directory": "artifacts/scale_batch_017/mineru_targets/KB-B017-ROCKWOOL-AR2025-p0076",
+      "status": "complete",
+      "started_at": "2026-09-13T10:47:13.620981+00:00",
+      "completed_at": "2026-09-13T10:47:29.318555+00:00",
+      "wall_seconds": 15.697577,
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "900d9b2f12c1e1ec681b51a15b2511dd41815765ce65c6cb2f946b6bf4be7ecb",
+        "_content_list.json": "8811473088616faf566a23814c2d1892948ce6cc9cf706f4d463c933aece5a82",
+        "_middle.json": "41ad4f4bf3154bb2998d89cac667f413b71d63f55e1e5aa1ee0ffb937195476a",
+        "_model.json": "3ff4e9f625d1d89932c126bae53d1902d8446b3d7ee1037d228c9305f2bf21db"
+      }
+    },
+    {
+      "document_id": "KB-B017-ROCKWOOL-AR2025",
+      "page": 80,
+      "themes": [
+        "circularity"
+      ],
+      "output_directory": "artifacts/scale_batch_017/mineru_targets_RESUME01/KB-B017-ROCKWOOL-AR2025-p0080",
+      "status": "complete",
+      "started_at": "2026-09-13T11:10:02.664000+00:00",
+      "completed_at": "2026-09-13T11:10:24.093248+00:00",
+      "wall_seconds": 21.429394,
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "0aff93db9e6aef8c9b3f7ed98575d74a39fa296ac0257fcd349a28559625b908",
+        "_content_list.json": "c2a60bde389fb5ab7e41930b9b578b093e78c0426f7c9833c5110c1e5ee5e8d4",
+        "_middle.json": "3c00103f6c683df2dbf5652367e688b631b613eafdeb1d609d03f94f598ae94c",
+        "_model.json": "e688dee5e460a1f020730bd75ffbaabf6fd8f4f90b3a1041f1d5e901da3b9c1e"
+      }
+    },
+    {
+      "document_id": "KB-B017-ROCKWOOL-AR2025",
+      "page": 85,
+      "themes": [
+        "biodiversity"
+      ],
+      "output_directory": "artifacts/scale_batch_017/mineru_targets/KB-B017-ROCKWOOL-AR2025-p0085",
+      "status": "complete",
+      "started_at": "2026-09-13T10:47:43.001027+00:00",
+      "completed_at": "2026-09-13T10:47:57.515928+00:00",
+      "wall_seconds": 14.514907,
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "c7745db8affefc70ede1d16612450c93fd4f434389bd3875fdd808ed27db371b",
+        "_content_list.json": "5d76cfc6aaede201b5951295146f27291a2ef9ac02b4b77e9ed7890b339d5dc3",
+        "_middle.json": "61fca65df00852d94df83ff009dcc035cb45aa77beb32f1265ca935d57371d4f",
+        "_model.json": "1cc29c73bb14b0616ddbb9d27f950b628837401e7c96cc4a162c79f25c03815a"
+      }
+    },
+    {
+      "document_id": "KB-B017-ROCKWOOL-AR2025",
+      "page": 89,
+      "themes": [
+        "health_safety"
+      ],
+      "output_directory": "artifacts/scale_batch_017/mineru_targets_RESUME01/KB-B017-ROCKWOOL-AR2025-p0089",
+      "status": "complete",
+      "started_at": "2026-09-13T11:10:24.093571+00:00",
+      "completed_at": "2026-09-13T11:10:43.565627+00:00",
+      "wall_seconds": 19.472191,
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "e24fb85036399cd9f31c4911b78e3b79a34e8a8611776604ef6aca8b87cc199c",
+        "_content_list.json": "ab39deabd6a5efbd246e4bd9fcd1ae35f0c6c894692eed72c9e10a64290cf745",
+        "_middle.json": "c2247297e7fd2b0ce499fb365594aec30479ecfa68c8b2fa1e50d4b92d34f2f0",
+        "_model.json": "9e14dd21978380619145d216be76ed2f91372d76a313a5e915d30eb6276f2a4d"
+      }
+    },
+    {
+      "document_id": "KB-B017-ROCKWOOL-AR2025",
+      "page": 91,
+      "themes": [
+        "workforce"
+      ],
+      "output_directory": "artifacts/scale_batch_017/mineru_targets/KB-B017-ROCKWOOL-AR2025-p0091",
+      "status": "complete",
+      "started_at": "2026-09-13T10:48:11.232227+00:00",
+      "completed_at": "2026-09-13T10:48:26.738304+00:00",
+      "wall_seconds": 15.585927,
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "ac3786e5dd087e99978b12bdc33a20f31ce410668a97ea9b6a276707e9f63553",
+        "_content_list.json": "72b115f389f1ef0b9036b7c996546d4889c26a3273d1fc1dfc210e6da893929d",
+        "_middle.json": "f1b8002397a819f0e1b88cdedc3157fed9c63470b69437fc07a710ea2481a3ae",
+        "_model.json": "ce6ec150cc83de218278b5f0c1f175403529f91c72d3194df3f6b0e611367f90"
+      }
+    },
+    {
+      "document_id": "KB-B017-ROCKWOOL-AR2025",
+      "page": 166,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_017/mineru_targets_RESUME01/KB-B017-ROCKWOOL-AR2025-p0166",
+      "status": "complete",
+      "started_at": "2026-09-13T11:10:43.566044+00:00",
+      "completed_at": "2026-09-13T11:11:01.189214+00:00",
+      "wall_seconds": 17.623301,
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "eb82afba0c3e0bb5b864bc6f8de58c5058fcd176977cd97d657663f339b014e6",
+        "_content_list.json": "de5397b5042cb5550f1d85eae27005439b69fe44357d97a0276db27f94011408",
+        "_middle.json": "83208084b66cfc2655520119a8044fdce38a2a086ea3ef03833c374283825c70",
+        "_model.json": "584270e2a8592c2b2635ffe45594a0a23dcec6626594a0b3386f160297a4d073"
+      }
+    },
+    {
+      "document_id": "KB-B017-ROCKWOOL-AR2025",
+      "page": 168,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_017/mineru_targets/KB-B017-ROCKWOOL-AR2025-p0168",
+      "status": "complete",
+      "started_at": "2026-09-13T10:48:40.427837+00:00",
+      "completed_at": "2026-09-13T10:48:55.266094+00:00",
+      "wall_seconds": 14.838395,
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "a1f1189d090e6c3b0535bbbb2d40d9255fc166cc04191128f6bfcbb455a3b67d",
+        "_content_list.json": "7c3dedd27e946145e6fd697ba085667f75245c00e7e9d29e2e24bd1fde620d0b",
+        "_middle.json": "dbf2e235b845834cc72550ab1598961413ac45c43b77bc49c8c8e29f1dd32a18",
+        "_model.json": "af4e6c4fc4076b83241121f70598e1be1d0857c683da707f9f60a6aedecfd809"
+      }
+    },
+    {
+      "document_id": "KB-B017-SWECO-AR2025",
+      "page": 70,
+      "themes": [
+        "targets"
+      ],
+      "output_directory": "artifacts/scale_batch_017/mineru_targets/KB-B017-SWECO-AR2025-p0070",
+      "status": "complete",
+      "started_at": "2026-09-13T10:50:55.095829+00:00",
+      "completed_at": "2026-09-13T10:51:09.521899+00:00",
+      "wall_seconds": 14.426208,
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "0ae5f2696145c8f9567eb3480cc071e22d37fb766b4a96752759567ef85209c6",
+        "_content_list.json": "e9ddbce0ada6f2dab2b409d442a80bdddc9d19fe8b66afb0061681ff1fc03b53",
+        "_middle.json": "4ab302f55e10586e17377ae49d108a77b26464f1042fe2d552a17e7631fb54d4",
+        "_model.json": "8ea9a3304706ffd361955a83daf7aacf17270c9261066cba14a214c652d8dbcd"
+      }
+    },
+    {
+      "document_id": "KB-B017-SWECO-AR2025",
+      "page": 73,
+      "themes": [
+        "energy"
+      ],
+      "output_directory": "artifacts/scale_batch_017/mineru_targets_RESUME01/KB-B017-SWECO-AR2025-p0073",
+      "status": "complete",
+      "started_at": "2026-09-13T11:11:46.632934+00:00",
+      "completed_at": "2026-09-13T11:12:02.377538+00:00",
+      "wall_seconds": 15.744713,
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "454174dd03b45856bd7077ae4f0f818e61fa2fba9d159d8e8546ffdaa281e911",
+        "_content_list.json": "7904480b326a325ec658b38e3f1b3d125aa5416c428f998f9ba697a0ba9cd6df",
+        "_middle.json": "35c0667ac9d8d7b0807cab0850617eed65249fc7c4aa0e404ca6f636394639f9",
+        "_model.json": "89bb8d03a782fea238b014db95791a91d277bf3e15fa0f8e5645fcae720a669e"
+      }
+    },
+    {
+      "document_id": "KB-B017-SWECO-AR2025",
+      "page": 74,
+      "themes": [
+        "ghg_emissions"
+      ],
+      "output_directory": "artifacts/scale_batch_017/mineru_targets_RESUME01/KB-B017-SWECO-AR2025-p0074",
+      "status": "complete",
+      "started_at": "2026-09-13T11:12:02.377939+00:00",
+      "completed_at": "2026-09-13T11:12:16.306318+00:00",
+      "wall_seconds": 13.928476,
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "9a78184c9b56c49bf9a152d96618cb8b1af8bf4289816b385598ce012a733ac5",
+        "_content_list.json": "299a8ca35aceabae38e128ed2c70eb98341a7d5d072264700000f02a2f5de0a6",
+        "_middle.json": "30e9bbaea6ef12b00154d0ca1b06bc423dde8f747d08a4a71442dc3fadd6e9c2",
+        "_model.json": "fdbfac676ff9f047795ddbe8e9779cfbc9eb0ba4e0117758c552f4fd4fa23064"
+      }
+    },
+    {
+      "document_id": "KB-B017-SWECO-AR2025",
+      "page": 77,
+      "themes": [
+        "water"
+      ],
+      "output_directory": "artifacts/scale_batch_017/mineru_targets_RESUME01/KB-B017-SWECO-AR2025-p0077",
+      "status": "complete",
+      "started_at": "2026-09-13T11:12:16.306689+00:00",
+      "completed_at": "2026-09-13T11:12:33.412528+00:00",
+      "wall_seconds": 17.105958,
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "a6e398030fc1c27bef8b5e897da223b39120801b1cf9b5324abb9ded6abfd48f",
+        "_content_list.json": "a84e38a844dc1505e45d601b79101f561efc03e957f5064152cb4b64737becaa",
+        "_middle.json": "e28c7fd1469e3a3552b0fc36b52068389b082d322e543494bd119c23bbca0fce",
+        "_model.json": "6f8d1aabd14e87ac368adb188e1bf2dbc39f9dd9690d56796dbdddf10775e4f8"
+      }
+    },
+    {
+      "document_id": "KB-B017-SWECO-AR2025",
+      "page": 78,
+      "themes": [
+        "biodiversity"
+      ],
+      "output_directory": "artifacts/scale_batch_017/mineru_targets/KB-B017-SWECO-AR2025-p0078",
+      "status": "complete",
+      "started_at": "2026-09-13T10:51:51.688619+00:00",
+      "completed_at": "2026-09-13T10:52:06.625433+00:00",
+      "wall_seconds": 14.936954,
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "64a80ca7c5b82b98c1473427292357ac6366579251bb5d5961bbbc35162ee18b",
+        "_content_list.json": "f397447d5d494109e0664ebde77b6a9c196beb670b1adb76bc6d752254f1db8b",
+        "_middle.json": "092b951444e69a0635e88add441eddacd280e2fde59f42b05deadb2a0cf57bfc",
+        "_model.json": "7a4c9043c673c840f1762dcf2ef1a84538ce2e51ca069dd63194cea021f6e345"
+      }
+    },
+    {
+      "document_id": "KB-B017-SWECO-AR2025",
+      "page": 80,
+      "themes": [
+        "circularity"
+      ],
+      "output_directory": "artifacts/scale_batch_017/mineru_targets/KB-B017-SWECO-AR2025-p0080",
+      "status": "complete",
+      "started_at": "2026-09-13T10:52:06.625872+00:00",
+      "completed_at": "2026-09-13T10:52:21.759274+00:00",
+      "wall_seconds": 15.133542,
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "9cc1ab4482c12c28e154c286dbaeaf0dd84a4e9d0fcd2927feee96f135a13e9a",
+        "_content_list.json": "c78b1aa18c19c145461e26f237da077ba1f105b045f0f978d0b715ebda033daf",
+        "_middle.json": "20d0ea128b29d708ce569580b80ab7039caa3adfd34a868dbd2999ce7bc6cfaa",
+        "_model.json": "95ef124db0a85e6184585e386b20afead481c39852d1be8b1b9334a3523d234a"
+      }
+    },
+    {
+      "document_id": "KB-B017-SWECO-AR2025",
+      "page": 91,
+      "themes": [
+        "workforce"
+      ],
+      "output_directory": "artifacts/scale_batch_017/mineru_targets_RESUME01/KB-B017-SWECO-AR2025-p0091",
+      "status": "complete",
+      "started_at": "2026-09-13T11:12:33.412973+00:00",
+      "completed_at": "2026-09-13T11:12:51.739529+00:00",
+      "wall_seconds": 18.32668,
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "4d13ccb869273b73c4675f7869e8b306c2765959fa45c75a492acfbb3243a957",
+        "_content_list.json": "7a7aa63fee73011c8a2f52224cfb96a949b43345f7d010175558a0fa77745012",
+        "_middle.json": "b966630fa2067273aeaf1af773ed381a23fc2df9c92ab3438df356714c29fb86",
+        "_model.json": "c98df2463d071deecfd342aaef7181fac4e07dc4cb1d31bd1ba792c7860d39db"
+      }
+    },
+    {
+      "document_id": "KB-B017-SWECO-AR2025",
+      "page": 95,
+      "themes": [
+        "health_safety"
+      ],
+      "output_directory": "artifacts/scale_batch_017/mineru_targets/KB-B017-SWECO-AR2025-p0095",
+      "status": "complete",
+      "started_at": "2026-09-13T10:52:35.292952+00:00",
+      "completed_at": "2026-09-13T10:52:50.845459+00:00",
+      "wall_seconds": 15.552651,
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "e28c82c790364d91c03c785486e8cfa86663a42968e3a2d7bcc0903dc48898f8",
+        "_content_list.json": "2562dfe937d39c837f16c783b7217985d88844c6d25c3d775d73c51f9472d35a",
+        "_middle.json": "c47684355ce119b345fe92112c4275f12538bf2ba0d91771fa6a2006bfc384e1",
+        "_model.json": "2081eb713a7932c5f7482295ef19a5124959b3e16cb5d773d9fd670a0f60d361"
+      }
+    },
+    {
+      "document_id": "KB-B017-SWECO-AR2025",
+      "page": 176,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_017/mineru_targets/KB-B017-SWECO-AR2025-p0176",
+      "status": "complete",
+      "started_at": "2026-09-13T10:52:50.845888+00:00",
+      "completed_at": "2026-09-13T10:53:06.456261+00:00",
+      "wall_seconds": 15.610517,
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "2b3271ae1ef4069820cf1886bb05439c25f43b7d500114b188f02741747db03f",
+        "_content_list.json": "0039505e20e8c54a7025d816849739bb9583c180a6ab843d449109cb856d366c",
+        "_middle.json": "edf179103bbf85668117f672793adf677cd9236b01c1c47a5137eaa7c82460aa",
+        "_model.json": "19bee6b33c9bd4098125668bfccad4aa687ae28172bf5816676e117e92f4e97e"
+      }
+    }
+  ]
+}

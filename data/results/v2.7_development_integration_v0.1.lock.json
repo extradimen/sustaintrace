@@ -1,0 +1,44 @@
+{
+  "schema_version": "2.7",
+  "status": "development_regression_and_reusable_pipeline_integration_passed",
+  "development_source": "P17 exposed failures only",
+  "integrated_runner_options": {
+    "stage_a": "use_v27_partial_calculation",
+    "stage_b": "use_v27_handle_aliases"
+  },
+  "implementation_files": [
+    {
+      "path": "src/esg_reliable_discovery/v27_integrity.py",
+      "sha256": "2fc6cabd296115d256728cd575dc6eda745a6a5807ef80b498ef8cbc28e2bcc0"
+    },
+    {
+      "path": "src/esg_reliable_discovery/v13_stage_a_runner.py",
+      "sha256": "43686886125329a487753389884d1f30eec50b675c694951a2882024789488f5"
+    },
+    {
+      "path": "src/esg_reliable_discovery/v13_stage_b_runner.py",
+      "sha256": "4d17b8151515980aa045e0b94135939389333bb0a7ecf8a8dd27c4934d51b201"
+    }
+  ],
+  "regression_test": {
+    "path": "tests/test_v27_p17_exposed_regression.py",
+    "sha256": "ac888ccdf247a3ec8d116ebffb4df95784106c77a44f6dd102fdf2cb6b377314"
+  },
+  "verification": {
+    "pytest": "267 passed",
+    "ruff": "passed",
+    "new_json_validation": "passed"
+  },
+  "behavioral_boundaries": {
+    "partial_calculation_is_full_success": false,
+    "missing_values_invented": false,
+    "candidate_operation_executed_when_inputs_incomplete": false,
+    "approximate_handle_repair": false,
+    "source_literals_preserved": true,
+    "posthoc_semantic_repair": false
+  },
+  "locked_experiments_modified": false,
+  "locked_experiments_rerun": false,
+  "locked_experiments_rescored": false,
+  "next_stage": "P18 source selection and local preregistration"
+}

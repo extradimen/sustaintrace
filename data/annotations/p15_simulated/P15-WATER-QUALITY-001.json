@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "task_id": "P15-WATER-QUALITY-001",
+  "reference_author": "codex_gpt_simulated_expert",
+  "reference_status": "verified_against_frozen_pages",
+  "answer": "For the 2025 target of no water-quality impacts from manufacturing effluents, 97% of own manufacturing sites and 100% of high-risk suppliers met all three maturity-ladder levels; Novartis considered the targets met. Sites without API discharges are deemed low risk and assumed compliant, antibody-only sites are exempt from effluent risk assessments, and all other manufacturing sites are included. High-risk suppliers are strategic, tactical or antibiotics providers; the list was defined in 2021, updated in 2025 for the Sandoz spin-off and divestments, with no new suppliers added.",
+  "normalized_value": {
+    "own_sites_2025_percent": 97,
+    "own_sites_target_percent": 100,
+    "high_risk_suppliers_2025_percent": 100,
+    "high_risk_suppliers_target_percent": 100,
+    "maturity_levels_required": 3,
+    "no_api_discharge_assumption": "deemed low risk and assumed to meet the water quality standards",
+    "antibody_site_exemption": "exempt from performing effluent risk assessments",
+    "other_site_boundary": "all other manufacturing sites are included",
+    "supplier_classes": "strategic, tactical, or antibiotics providers",
+    "supplier_list_qualification": "defined in 2021; updated in 2025 for Sandoz spin-off and other divestments; no new high-risk suppliers added"
+  },
+  "evidence": [
+    {"source_id": "P15-NOVARTIS-NFM2025", "pdf_page": 29, "quote": "No water quality impacts from manufacturing efluents by 2025"},
+    {"source_id": "P15-NOVARTIS-NFM2025", "pdf_page": 30, "quote": "Own manufacturing sites meeting water quality standards (%)"},
+    {"source_id": "P15-NOVARTIS-NFM2025", "pdf_page": 30, "quote": "High-risk suppliers meeting water quality standards (%)"},
+    {"source_id": "P15-NOVARTIS-NFM2025", "pdf_page": 30, "quote": "deemed low risk and are assumed to meet the water quality standards"},
+    {"source_id": "P15-NOVARTIS-NFM2025", "pdf_page": 30, "quote": "exempt from performing efluent risk assessments"},
+    {"source_id": "P15-NOVARTIS-NFM2025", "pdf_page": 30, "quote": "All other manufacturing sites are included in the calculation"},
+    {"source_id": "P15-NOVARTIS-NFM2025", "pdf_page": 30, "quote": "strategic (long-term relationship), tactical (key technology provider), or antibiotics providers"},
+    {"source_id": "P15-NOVARTIS-NFM2025", "pdf_page": 30, "quote": "No new high-risk suppliers have been added to this target"}
+  ],
+  "provenance": {"reference_is_simulated": true, "candidate_model_used": false}
+}

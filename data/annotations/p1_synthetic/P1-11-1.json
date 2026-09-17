@@ -1,0 +1,5 @@
+{
+  "schema_version":"1.0","task_id":"P1-11-1","reference_author":"codex_gpt_simulated_expert","reference_status":"verified","question":"How much consolidated new renewable capacity did Enel install in 2024, and how much of that capacity was battery energy storage systems (BESS)?","answer_status":"verified_fact","answer":{"new_renewable_capacity_GW":3.9,"BESS_GW":1.3},"normalized_value":3.9,"normalized_unit":"GW","reported_unit":"GW","subject":"Enel Group","scope_boundary":"consolidated new installed renewable capacity, including BESS","period":"2024","calculation":null,
+  "evidence":[{"document_id":"ENEL-IR-2024","document_sha256":"29144b4aeafaddc22783325cfadb6868905922eb8250dddf148ccf896679f840","pdf_page":129,"printed_page":"129","verbatim_excerpt":"Consolidated new installed renewable capacity of 3.9 GW in 2024, including 1.3 GW of BESS.","role":"claim_support"}],
+  "search_record":{"pages_reviewed":[129],"terms_used":["new installed renewable capacity","BESS"],"notes":"Results section visually verified."},"controlled_intervention_id":null,"provenance_attestation":{"is_human":false,"is_ai_simulation":true,"candidate_model_excluded":true}
+}

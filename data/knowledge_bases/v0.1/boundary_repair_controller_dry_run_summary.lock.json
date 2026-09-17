@@ -1,0 +1,26 @@
+{
+  "decision_counts": {
+    "blocked_validation_missing_or_failed": 2,
+    "supervised_candidate": 26
+  },
+  "executions_performed": 0,
+  "inputs": {
+    "assurance_validations_sha256": "71dba66b03d6b58d1959f4d7ad3c9878abd70a8f593dbabbbe68bc36d786cb18",
+    "metric_validations_sha256": "100328560b3848943e0d2c26ba74de3277f48859de871d01597263deb804cba3",
+    "negative_cases_sha256": "6976c294f63dd75bc1dc1776d71f8f394dbab60d7f825c247a40ab756708e7ed",
+    "ontology_sha256": "9ae3d7369f2067f693b48d126e0bf3f05270837cef4e23563b720ef2def9be63",
+    "population_validations_sha256": "8bc5190e90f92ada21e845dc84a582bb44d52ac391f77aeb784afd9a10121fa3",
+    "target_validations_sha256": "840c5d307d2d97f4e72dba83a1c4b3565444a4097a8318cf4f1ec90d01ed86de",
+    "taxonomy_validations_sha256": "192dea1d9d8fa66abf136f408799c0e27503e36e9d3e53811bd50f0d2da23639",
+    "validator_catalog_sha256": "9c09f9d204dec2c65167c30f48bce677f493b1b2d718f076c7f6917d3dd5c3c3"
+  },
+  "next_gate": "execute only validated candidates under supervision; keep all unvalidated classes blocked",
+  "output": {
+    "path": "data/knowledge_bases/v0.1/boundary_repair_controller_dry_run.jsonl",
+    "sha256": "18f3a95d8af866555601468db73187058c844e9adbc147ac28f49ceafbe302fc"
+  },
+  "plans": 28,
+  "promotions_performed": 0,
+  "schema_version": "0.1",
+  "status": "semantic_boundary_controller_dry_run_fail_closed"
+}

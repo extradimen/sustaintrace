@@ -1,0 +1,23 @@
+{
+  "schema_version":"1.0",
+  "framework_version":"ESG-RD-v1.7-DEV",
+  "status":"frozen_before_v1.7_implementation",
+  "development_basis":[
+    "P7-CALC-001 exposed qualitative-threshold limitation",
+    "P7-INTENSITY-001 exposed attribution-versus-causal-identification ambiguity",
+    "P7-INTENSITY-001 and P7-ASSURE-001 exposed single-fragment string grounding failures"
+  ],
+  "not_a_lockbox_configuration":true,
+  "acceptance_criteria":{
+    "inequality_threshold":"represent issuer operator and threshold separately and evaluate deterministic result without converting the threshold into an exact reported value",
+    "causal_epistemics":"separate issuer attribution, textual support for attribution, and independent causal identification",
+    "multi_fragment_projection":"every fragment must be verbatim grounded to its own frozen evidence handle; composition is deterministic and preserves fragment provenance"
+  },
+  "prohibitions":[
+    "no P7 candidate rerun",
+    "no modification of P7 candidate output",
+    "no modification of P7 frozen simulated reference",
+    "no use of an unseen P8 source during development"
+  ],
+  "next_unseen_test_after_development":"P8"
+}

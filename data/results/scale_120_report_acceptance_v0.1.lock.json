@@ -1,0 +1,666 @@
+{
+  "acceptance_gates": {
+    "all_data_json_parse": "passed",
+    "all_scale_stage_files_present_and_hashed": true,
+    "automatic_fact_promotion": false,
+    "batch29_target_pages_complete": 30,
+    "cloud_transmission_during_scale_stage": false,
+    "known_historical_duplicate_preserved_and_disclosed": true,
+    "locked_experiments_modified_or_rescored": false,
+    "pytest_collected_and_passed": 478,
+    "ruff": "passed",
+    "scale_stage_document_ids_unique": true,
+    "scale_stage_pdf_sha256_unique_after_known_duplicate_collapse": true
+  },
+  "acceptance_id": "ESG-KB-SCALE-120-REPORT-ACCEPTANCE-v0.1",
+  "artifact_sha256": {
+    "configs/knowledge/scale_batch_001_RESUME01_v0.2.json": "a98627d349a20ce3b9d1a001c32a636feb06baf47a84f2ee9a70f9df662f4da8",
+    "configs/knowledge/scale_batch_002_v0.1.json": "0d6b8d8d6dd37405fb434d58cca4670683a31b0409f516c14601051c762b2773",
+    "configs/knowledge/scale_batch_003_v0.1.json": "9508593ff785d2b6af298bd8ca5c0df604b25121ba0f63ae0da2ba080436803f",
+    "configs/knowledge/scale_batch_004_RESUME01_v0.2.json": "4afeac9f45d7049240d314c2fc10a5b073f382b276f2a678930d6715f05bdd5f",
+    "configs/knowledge/scale_batch_005_v0.1.json": "b3e6da5048d515d108d39794e30cf392378e4273567ec6fdf0fa6926bcb5f73b",
+    "configs/knowledge/scale_batch_006_v0.1.json": "62c97351d24a35bb48cb1ed3a6154452d80a09caad0332fcd321cbc375565ecc",
+    "configs/knowledge/scale_batch_007_v0.1.json": "f85f7fa49e4322f2cfc9c5d342be1756c9d837570fba450a6c4679009e7d97d8",
+    "configs/knowledge/scale_batch_008_RESUME01_v0.2.json": "44cf44ed1a648f8897f92b423bd505cfee6e536ba017f7b565dbae6da8a63a39",
+    "configs/knowledge/scale_batch_009_v0.1.json": "4ae81d1f41ab3649e851fed3c77b1a5eeb1258701f765c69d9f3e6b4ad101aed",
+    "configs/knowledge/scale_batch_010_RESUME01_v0.2.json": "fd2e77c597e29aa3737d74aeb19ff45c6f5205a8aaf95fbaef82251b9f98301d",
+    "configs/knowledge/scale_batch_011_RESUME01_v0.2.json": "739de6067a6a35ba3f410c52fe4e3ac328544ecd608707364f7b46b9f331a949",
+    "configs/knowledge/scale_batch_012_RESUME01_v0.2.json": "6284cf6997fa86b1b1a944870980233a3a0864de250215d0daccc8547fe05eb7",
+    "configs/knowledge/scale_batch_013_v0.1.json": "0e7f24dbb930396616ceb0350fbb724ac66109a2ad84c329990f4b549f678e7b",
+    "configs/knowledge/scale_batch_014_v0.1.json": "38878ccf3d2573d49e3728c596be46ffa74202e19dbf56a875fb5e863c652991",
+    "configs/knowledge/scale_batch_015_v0.1.json": "cd8da82715c7d65c095fe4623233b2bee4b64d32e0f91321a72642e00714b824",
+    "configs/knowledge/scale_batch_016_v0.1.json": "64aac988386a4e52469e3e3c404cb2d668d6aa54d5b87a3149476d58ea0bf4ad",
+    "configs/knowledge/scale_batch_017_v0.1.json": "5e5ff0c48500a00249a597a4e0c0d09541a09a10b83a26a9829cf9285a02faee",
+    "configs/knowledge/scale_batch_018_v0.1.json": "666c0321162ac573ade294f61d56f61c3bd6483d4a49a734827e4b73bf338323",
+    "configs/knowledge/scale_batch_019_RESUME01_v0.2.json": "5ce84e774bb9e3566c91a5cebc044a421b25dd840ff99d713fce03eb0a728ee5",
+    "configs/knowledge/scale_batch_020_v0.1.json": "53fb1ec566ebce7bb8a672676e6cccd29f035f6a855f94d5d84f70698cbb1e15",
+    "configs/knowledge/scale_batch_021_v0.1.json": "49bf6318d082adc05f869755a47171da5e850ea479fca446f5e2d434b20c94cd",
+    "configs/knowledge/scale_batch_022_v0.1.json": "d1c50179f94777c3b7db537760568a0f5425e5dd81fe475fac72d14be71f29c3",
+    "configs/knowledge/scale_batch_023_RESUME02_v0.3.json": "abcbef7f81d497995beeb23a0992ddf6b391390540768bc7671e8a0c13c42b0a",
+    "configs/knowledge/scale_batch_024_RESUME01_v0.2.json": "82ee9a88751db6cdd74f78cd6f836c80a5a657b95994933cc90ea27d782c5d05",
+    "configs/knowledge/scale_batch_025_v0.1.json": "2f58164f8e9970d405f159ef02c4385969368e24586dd8e52fbf22f336b511dc",
+    "configs/knowledge/scale_batch_026_v0.1.json": "959e65d921eccd512e1474d940829f10f9647132d8e9fddac7eab9ac8ad44caf",
+    "configs/knowledge/scale_batch_027_v0.1.json": "dfc35d022b8e55f13d13a4f6fd125680bd7d44f584ba4f276f3b4975ae79a3c2",
+    "configs/knowledge/scale_batch_028_v0.1.json": "8500b70b50a53ece92ed32009db6c13a8961f1fe008d162c48f87a99781a1097",
+    "configs/knowledge/scale_batch_029_v0.1.json": "c400ca0713224b10734766a02b7577c11aed057f60d1d46d0bfbcd6ae7415da0",
+    "configs/knowledge/scale_batch_030_v0.1.json": "fbb863d6aa0b495c61eb3cfa06f127948acc540da13b247166e25353075a860e",
+    "data/knowledge_bases/v0.1/migration_manifest.lock.json": "6f82e142c2cbef799e0344b50df9bd70a77adb6b3fc0c8dcc3a3b967515b5583",
+    "data/knowledge_bases/v0.1/trusted_fact_records.jsonl": "866c7e14eb92a86401fab4524d6fd909b67a3f9c3e0c5c728b7e5bea4045eb6b",
+    "data/results/scale_batch_001_atomic_milestone_audit.lock.json": "181e7e46243800f7ad39e15d55a2582e344835f1c8c9e1ac5ee3a09812d05daa",
+    "data/results/scale_batch_002_atomic_milestone_audit.lock.json": "3fbe10c9cd47138cfe16a81cbba94b26dcce65609179812a00c8f44603b5031c",
+    "data/results/scale_batch_003_atomic_milestone_audit.lock.json": "38f08e239b8b0ea05944f2fc1d972bfc07a3201b78bcb184dce157b303940d91",
+    "data/results/scale_batch_004_atomic_milestone_audit.lock.json": "d71c13a967bc2918660b13c9bb3cfa16bbd7084e826181359f8a12c35a008fe3",
+    "data/results/scale_batch_005_atomic_milestone_audit.lock.json": "06edb897e4b1582f867c98ebbd1e140b51f19db557e3e66e1d8cdbb1ec98ce5b",
+    "data/results/scale_batch_006_milestone_audit.lock.json": "a706af7f497d0c8f6ef17cc0843526738c0d19fb517436dd77eae1cdc2c28d38",
+    "data/results/scale_batch_007_milestone_audit.lock.json": "759d8a502d09346308ac6d9ce5ea77f01fa5ffadb434d14755286d9222437cd2",
+    "data/results/scale_batch_008_milestone_audit.lock.json": "477fc66361a83ce10f34ad570b5e05dedd2bb4c966356ca5613a808eb5fb1872",
+    "data/results/scale_batch_009_milestone_audit.lock.json": "7d03e9f47c3a55e2b79b7eee26176cb5dd195af400a62fc0a0b1cc5f910e5240",
+    "data/results/scale_batch_010_milestone_audit.lock.json": "e0bfb37cd4f8fab8ba7a9220d237570cc6f09593f5dd2878f9075dabcca22293",
+    "data/results/scale_batch_011_milestone_audit.lock.json": "5203dfdf13f53037c9376621179a2481b7ca8b5c6a4602e0b43cbb3cbbc4eb5a",
+    "data/results/scale_batch_012_milestone_audit.lock.json": "aec451a34c9fee7f910055a56bb59f63c930383c34819aa02a4181d58c0e144a",
+    "data/results/scale_batch_013_milestone_audit.lock.json": "eae0fc4738f1622e66ce9a893be269dc45e1e06d9b5d1c89e390ba1dfd92f2b6",
+    "data/results/scale_batch_014_milestone_audit.lock.json": "41f40060f8b3553abc5a2e495faa377c88c31a8e203c36c426d213952b874f2d",
+    "data/results/scale_batch_015_milestone_audit.lock.json": "4964ece72fe5fcec93cdad98eb673c52aea4fddfae99ada72ac36a0a6023407a",
+    "data/results/scale_batch_016_milestone_audit.lock.json": "cc602aa8a00edf45f4ae22a4ed3f2aaa9169c1d271483e3f6dee4e1f96415a75",
+    "data/results/scale_batch_017_milestone_audit.lock.json": "13707db90b7ff611a15ecac9a2a5d67009ae89c560c888d37adfbf0c017efc01",
+    "data/results/scale_batch_018_milestone_audit.lock.json": "44facb6b72ebbab48993f00466b47dfd42666b3e3c415e8fd42a0191804f4b88",
+    "data/results/scale_batch_019_milestone_audit.lock.json": "cd6b958ea6f06857f340ee9b23324639d675275107027e1c06980501fac5d436",
+    "data/results/scale_batch_020_milestone_audit.lock.json": "a13566734bfe96c4d5ab61b749957b8988a6fc1b8cdc808aa0c86ac4f1c5c17d",
+    "data/results/scale_batch_021_milestone_audit.lock.json": "e12bc8d927d33d9669b5c2c16fb185201a5d0169b90bc9b94f6d3f39b4017025",
+    "data/results/scale_batch_022_milestone_audit.lock.json": "2c1e3b0e6d537965ca77ed44b02f9821f79f6c7a773e5264e2f6f672a184720a",
+    "data/results/scale_batch_023_milestone_audit.lock.json": "7fd3ab5d1fa543674d6cc43ac8a1e2db7c121974ae2732ce1b1d3649c6c34f9b",
+    "data/results/scale_batch_024_milestone_audit.lock.json": "eed5682de5140ff3aaa893198a3ca063fe4ff7c24f648221424399bdcc3348a8",
+    "data/results/scale_batch_025_milestone_audit.lock.json": "868d6e9d730daaa637be598981d347ed6ba19f9810d502d579d691c0f6d6bc63",
+    "data/results/scale_batch_026_milestone_audit.lock.json": "4cb59871c99deb9bf0d59207a8771a4e272ad89d4ea45228ee43092ffe69fed8",
+    "data/results/scale_batch_027_milestone_audit.lock.json": "5394b03301f788c7aba129cb489f453d3531cdcd56819764e8ede393d9fdb470",
+    "data/results/scale_batch_028_milestone_audit.lock.json": "a05a5fd1156028e493bb4643a6bc17c74374ed3411b8314329404c1aac8f8fe6",
+    "data/results/scale_batch_029_milestone_audit.lock.json": "959c4db6748e6e01156f27506173cb496816cc7efa5a92c8d834b2407f390ad9",
+    "data/results/scale_batch_030_milestone_audit_RESUME01.lock.json": "a50289b4a65369a1f7f9e925d25e9e976c165aa0b5825b5765ef18eb34126773",
+    "docs/150_\u89c4\u6a21\u5316\u77e5\u8bc6\u5f15\u5165\u7b2c\u4e8c\u5341\u4e5d\u6279\u4e0e120\u4efd\u8986\u76d6\u95ed\u73af_v0.1.md": "23e352943d7faffa700b245352e942a0ca9be6a32d6a332d320357ce5d6adf7a"
+  },
+  "coverage": {
+    "baseline_derivation": "locked coverage sequence: batch20=93 and 20*3 new reports, therefore 33 pre-scale reports",
+    "completion_percent": 100.0,
+    "known_duplicate_records": 1,
+    "pre_scale_locked_report_baseline": 33,
+    "scale_stage_batches": 30,
+    "scale_stage_report_records": 88,
+    "scale_stage_unique_reports": 87,
+    "standard_three_report_batches": 29,
+    "supplemental_one_report_batches": 1,
+    "target_reports": 120,
+    "total_unique_reports": 120
+  },
+  "created_at": "2026-09-14T02:40:20.165583+00:00",
+  "global_knowledge_bases": {
+    "fact_records": 2708,
+    "failure_records": 1032,
+    "failure_signatures": 32,
+    "repair_observations": 28,
+    "trusted_share_of_all_fact_records_percent": 5.502,
+    "trusted_tier_b_records": 149
+  },
+  "known_historical_duplicate": {
+    "handling": "counted_once; original locked batches preserved; NCC supplemental report added",
+    "records": [
+      {
+        "batch": 4,
+        "document_id": "KB-B004-AIRLIQUIDE-URD2025",
+        "local_path": "data/raw/scale_batch_004/air-liquide-urd-2025.pdf",
+        "sha256": "128d234ab0c14d6165097a46f21a5bda821554dbd63ee2a7d3052c84956b993b"
+      },
+      {
+        "batch": 12,
+        "document_id": "KB-B012-AIR-LIQUIDE-URD2025",
+        "local_path": "data/raw/scale_batch_012/air-liquide-2025-universal-registration-document.pdf",
+        "sha256": "128d234ab0c14d6165097a46f21a5bda821554dbd63ee2a7d3052c84956b993b"
+      }
+    ],
+    "sha256": "128d234ab0c14d6165097a46f21a5bda821554dbd63ee2a7d3052c84956b993b"
+  },
+  "scale_stage_documents": [
+    {
+      "batch": 1,
+      "document_id": "KB-B001-VW-SR2025",
+      "local_path": "data/raw/scale_batch_001/volkswagen-sustainability-report-2025.pdf",
+      "sha256": "533330a5b8f7fe1f0387fed8fa30cd3053808c26af8e19a3fb96705e9f621131"
+    },
+    {
+      "batch": 1,
+      "document_id": "KB-B001-SSE-SR2025",
+      "local_path": "data/raw/scale_batch_001/sse-sustainability-report-2025.pdf",
+      "sha256": "8637e3b39c08055a32f00e028abf3e82fa31c252043f2cdd5d592b52c4aac83a"
+    },
+    {
+      "batch": 1,
+      "document_id": "KB-B001-DANONE-URD2025",
+      "local_path": "data/raw/scale_batch_001/danone-urd-2025-accessible.pdf",
+      "sha256": "f8607c4e1c499be832f952a4b10b01f9f358a5a3dbf2d90aa416124f024a06e0"
+    },
+    {
+      "batch": 2,
+      "document_id": "KB-B002-HM-ASR2025",
+      "local_path": "data/raw/scale_batch_002/heidelberg-materials-asr-2025.pdf",
+      "sha256": "3dc68306b21b70f10d30a18b844de724cbdf97fce9f36a6ef497b1f1d67ac624"
+    },
+    {
+      "batch": 2,
+      "document_id": "KB-B002-EON-SF2025",
+      "local_path": "data/raw/scale_batch_002/eon-sustainability-factbook-2025.pdf",
+      "sha256": "ba0148251b0ebf1b44d9b986e9bb372962fcde1384cca35d08d8057f642134f2"
+    },
+    {
+      "batch": 2,
+      "document_id": "KB-B002-MAERSK-AR2025",
+      "local_path": "data/raw/scale_batch_002/maersk-annual-report-2025.pdf",
+      "sha256": "26d4f6373dfbce95c7b7ed495e0f2ecc8b767d0bb927631ef2a35d8e7abbf963"
+    },
+    {
+      "batch": 3,
+      "document_id": "KB-B003-INGKA-ASSR-FY25",
+      "local_path": "data/raw/scale_batch_003/ingka-assr-fy25.pdf",
+      "sha256": "c09017beac2a249075f6d609ef7424dfa1a4eaa50d205da75ae8b984b6dc28b8"
+    },
+    {
+      "batch": 3,
+      "document_id": "KB-B003-AZ-SDA2025",
+      "local_path": "data/raw/scale_batch_003/astrazeneca-sustainability-data-annex-2025.pdf",
+      "sha256": "39795cbb1cd6542a8d596bd9f8fec061b6e7815cab978b456ba226d4bc48a754"
+    },
+    {
+      "batch": 3,
+      "document_id": "KB-B003-DHL-AR2025",
+      "local_path": "data/raw/scale_batch_003/dhl-group-annual-report-2025.pdf",
+      "sha256": "6de7006e8ac77aa60ae2333782ad4998213c15eb8c52c170502a8126bb0e3303"
+    },
+    {
+      "batch": 4,
+      "document_id": "KB-B004-PHILIPS-AR2025",
+      "local_path": "data/raw/scale_batch_004/philips-annual-report-2025.pdf",
+      "sha256": "ff527efe35aa923bd6b592c38549bf1f9f207ac3cef2cec6695a7b9cd93efc6d"
+    },
+    {
+      "batch": 4,
+      "document_id": "KB-B004-MONDI-SDR2025",
+      "local_path": "data/raw/scale_batch_004/mondi-sustainable-development-report-2025.pdf",
+      "sha256": "679d3fb649fa89627f78ac07cd23723120b859cf3bf6538036cc91596a8ff46c"
+    },
+    {
+      "batch": 4,
+      "document_id": "KB-B004-AIRLIQUIDE-URD2025",
+      "local_path": "data/raw/scale_batch_004/air-liquide-urd-2025.pdf",
+      "sha256": "128d234ab0c14d6165097a46f21a5bda821554dbd63ee2a7d3052c84956b993b"
+    },
+    {
+      "batch": 5,
+      "document_id": "KB-B005-HENKEL-AR2025",
+      "local_path": "data/raw/scale_batch_005/henkel-annual-report-2025.pdf",
+      "sha256": "d807ec2c95e56082cd63a8f2b70e55ae74631d81d836ca8273aad9fcb396a725"
+    },
+    {
+      "batch": 5,
+      "document_id": "KB-B005-UPM-AR2025",
+      "local_path": "data/raw/scale_batch_005/upm-annual-report-2025.pdf",
+      "sha256": "129f731f45feb99f02c71b8e6f59c200261c7b66fa8d83e36450c5bdf4ed94fc"
+    },
+    {
+      "batch": 5,
+      "document_id": "KB-B005-SIKA-SR2025",
+      "local_path": "data/raw/scale_batch_005/sika-sustainability-report-2025.pdf",
+      "sha256": "67590c1857190f8ebd6e7f3827cd4f3537ac35b2aee99432883741f053668790"
+    },
+    {
+      "batch": 6,
+      "document_id": "KB-B006-VOLVO-AR2025",
+      "local_path": "data/raw/scale_batch_006/volvo-group-annual-report-2025.pdf",
+      "sha256": "4a2a5c41dc1331d60103e5757af0e90a6a2ea234b9753138ae0ec4db315df969"
+    },
+    {
+      "batch": 6,
+      "document_id": "KB-B006-MICHELIN-URD2025",
+      "local_path": "data/raw/scale_batch_006/michelin-universal-registration-document-2025.pdf",
+      "sha256": "c6c89753ba21d5a102463a9b2012058e8d7c6490ee52c49fd4ddc1624885fa71"
+    },
+    {
+      "batch": 6,
+      "document_id": "KB-B006-RECKITT-AR2025",
+      "local_path": "data/raw/scale_batch_006/reckitt-annual-report-2025.pdf",
+      "sha256": "f4190b49ca96687386cd877b52aba925bb5bad8fc0efa0c2873ef6eaebbffbd2"
+    },
+    {
+      "batch": 7,
+      "document_id": "KB-B007-ABB-ARS2025",
+      "local_path": "data/raw/scale_batch_007/abb-annual-reporting-suite-2025.pdf",
+      "sha256": "79246a74008abc09050a8e3fe61957c8ff7b03eec177acaa0a53d7d32b777be3"
+    },
+    {
+      "batch": 7,
+      "document_id": "KB-B007-NOKIA-AR2025",
+      "local_path": "data/raw/scale_batch_007/nokia-annual-report-2025.pdf",
+      "sha256": "fa6067b17c09d25b05571ceec218fb3f524054fc8cb7d8eb899221c7b7404455"
+    },
+    {
+      "batch": 7,
+      "document_id": "KB-B007-ATLAS-COPCO-AR2025",
+      "local_path": "data/raw/scale_batch_007/atlas-copco-annual-report-2025.pdf",
+      "sha256": "70d076bd915ecb111549426d3bf2b585626e117e20509f42c84dd001915e4164"
+    },
+    {
+      "batch": 8,
+      "document_id": "KB-B008-KONE-SS2025",
+      "local_path": "data/raw/scale_batch_008/kone-sustainability-statement-2025.pdf",
+      "sha256": "fa08352422482973cc4ab5670a7bbed4ce610a3c0ff7a4af2775a9767d1e9091"
+    },
+    {
+      "batch": 8,
+      "document_id": "KB-B008-SANDVIK-AR2025",
+      "local_path": "data/raw/scale_batch_008/sandvik-annual-report-2025.pdf",
+      "sha256": "b3f7b20c4dc8a59fd92bc6a89ed5b8efa19a0328b816837cae7d8864438af165"
+    },
+    {
+      "batch": 8,
+      "document_id": "KB-B008-VESTAS-AR2025",
+      "local_path": "data/raw/scale_batch_008/vestas-annual-report-2025.pdf",
+      "sha256": "09aa4e8bd783ba4b964322945e3c24f1a1140045cc4e499f518a613ab707cfdc"
+    },
+    {
+      "batch": 9,
+      "document_id": "KB-B009-HM-ASR2025",
+      "local_path": "data/raw/scale_batch_009/hm-group-annual-and-sustainability-report-2025.pdf",
+      "sha256": "3454ff30a0e21e7a65f92a1bb8c943cc564d59553395d9daa90234d6598dee76"
+    },
+    {
+      "batch": 9,
+      "document_id": "KB-B009-ORSTED-AR2025",
+      "local_path": "data/raw/scale_batch_009/orsted-annual-report-2025.pdf",
+      "sha256": "b45e5c2c12ec7d5942179e32535d0046f6e5c214ee9085525ca361a28e8b35ab"
+    },
+    {
+      "batch": 9,
+      "document_id": "KB-B009-CARLSBERG-AR2025",
+      "local_path": "data/raw/scale_batch_009/carlsberg-group-annual-report-2025.pdf",
+      "sha256": "35fad935180834f52819b3d4729ea30a09b75b69a6267fbec7e2ef1afadd58a4"
+    },
+    {
+      "batch": 10,
+      "document_id": "KB-B010-PUMA-AR2025",
+      "local_path": "data/raw/scale_batch_010/puma-annual-report-2025.pdf",
+      "sha256": "d376e7dc2454df73f0750285e2cba255dc9ad05d61faa1aa5d508eb16991e13e"
+    },
+    {
+      "batch": 10,
+      "document_id": "KB-B010-ADIDAS-AR2025",
+      "local_path": "data/raw/scale_batch_010/adidas-annual-report-2025.pdf",
+      "sha256": "4cbe02b41e4ef94abc6e232da497f01b919fb85258a48507f3323046c8d784f9"
+    },
+    {
+      "batch": 10,
+      "document_id": "KB-B010-VEOLIA-URD2025",
+      "local_path": "data/raw/scale_batch_010/veolia-universal-registration-document-2025.pdf",
+      "sha256": "09786eaedb20a992123e4b0f0d3c0f3484529ddf6093465c93251a0ce691232c"
+    },
+    {
+      "batch": 11,
+      "document_id": "KB-B011-ENI-SS2025",
+      "local_path": "data/raw/scale_batch_011/eni-annual-report-2025-sustainability.pdf",
+      "sha256": "999dd84dcfbd0baad741187e0006b22e1d86e6ddf0058e20f2cef7eaede1128c"
+    },
+    {
+      "batch": 11,
+      "document_id": "KB-B011-DSMF-SS2025",
+      "local_path": "data/raw/scale_batch_011/dsm-firmenich-sustainability-statements-2025.pdf",
+      "sha256": "af9005c9e4a93942b3f4d759f376f1e8312af6abbf935cb403333dc850151e16"
+    },
+    {
+      "batch": 11,
+      "document_id": "KB-B011-DB-AR2025",
+      "local_path": "data/raw/scale_batch_011/deutsche-bank-annual-report-2025.pdf",
+      "sha256": "e0cb39de25bcbf5c3ecb493a791559326ceb249f7e2c27e7ebfebd83d05b00e3"
+    },
+    {
+      "batch": 12,
+      "document_id": "KB-B012-AIR-LIQUIDE-URD2025",
+      "local_path": "data/raw/scale_batch_012/air-liquide-2025-universal-registration-document.pdf",
+      "sha256": "128d234ab0c14d6165097a46f21a5bda821554dbd63ee2a7d3052c84956b993b"
+    },
+    {
+      "batch": 12,
+      "document_id": "KB-B012-STORA-ENSO-AR2025",
+      "local_path": "data/raw/scale_batch_012/stora-enso-annual-report-2025.pdf",
+      "sha256": "00377e8fb8a6b2fc866d38a7f68e6cccd8099c9fe5f79be4da96d7f46bb4bbf0"
+    },
+    {
+      "batch": 12,
+      "document_id": "KB-B012-VINCI-URD2025",
+      "local_path": "data/raw/scale_batch_012/vinci-2025-universal-registration-document.pdf",
+      "sha256": "6c5e06674848aea0c98924fb2e936c9e985b92c6deb47d46b59cdd8466fbbe96"
+    },
+    {
+      "batch": 13,
+      "document_id": "KB-B013-WARTSILA-AR2025",
+      "local_path": "data/raw/scale_batch_013/wartsila-annual-report-2025.pdf",
+      "sha256": "55737cdd163cb2c7077ef46afd42184debfd9a3116cb02b1f63ba5e53f20c3cb"
+    },
+    {
+      "batch": 13,
+      "document_id": "KB-B013-ELECTROLUX-AR2025",
+      "local_path": "data/raw/scale_batch_013/electrolux-group-annual-report-2025.pdf",
+      "sha256": "dcaf78e2d04f7b6b793d458826d304983dbb593b50a1404208414261bd7d2630"
+    },
+    {
+      "batch": 13,
+      "document_id": "KB-B013-SKF-ASR2025",
+      "local_path": "data/raw/scale_batch_013/skf-annual-and-sustainability-report-2025.pdf",
+      "sha256": "065739ef743bd04cd8f5bee66eaaf0c19dc7abbdd168252eff607176e752c930"
+    },
+    {
+      "batch": 14,
+      "document_id": "KB-B014-SCA-AR2025",
+      "local_path": "data/raw/scale_batch_014/sca-annual-report-2025.pdf",
+      "sha256": "47307fff6ceff81324c577b6b069b641d46b1cf0253d3ab4a93adcc0ae961bd5"
+    },
+    {
+      "batch": 14,
+      "document_id": "KB-B014-TRELLEBORG-AR2025",
+      "local_path": "data/raw/scale_batch_014/trelleborg-annual-report-2025.pdf",
+      "sha256": "8a5cc7172c54f5f5bf9c12d5db75f8bd0d734539436aa89cc590b435a837223f"
+    },
+    {
+      "batch": 14,
+      "document_id": "KB-B014-ESSITY-AR2025",
+      "local_path": "data/raw/scale_batch_014/essity-annual-report-2025.pdf",
+      "sha256": "95bb4e9968ebfe8350ad8bc6055f3fe5d204c2c53a23669cede94831559e63b7"
+    },
+    {
+      "batch": 15,
+      "document_id": "KB-B015-UCB-IAR2025",
+      "local_path": "data/raw/scale_batch_015/ucb-integrated-annual-report-2025.pdf",
+      "sha256": "2e2ff4cf9ee3ebced39312897fdd439139c767ac5d81d151257502dd428e154a"
+    },
+    {
+      "batch": 15,
+      "document_id": "KB-B015-ARLA-AR2025",
+      "local_path": "data/raw/scale_batch_015/arla-annual-report-2025.pdf",
+      "sha256": "8c40632f70765f428b16534ca7403da8b8a47c2e81afecb71e5f9ec129ff059c"
+    },
+    {
+      "batch": 15,
+      "document_id": "KB-B015-FRESENIUS-AR2025",
+      "local_path": "data/raw/scale_batch_015/fresenius-annual-report-2025.pdf",
+      "sha256": "27c4589b96d7ff22a0acc6794b46f638c2ad76f016ba5a4675742f3110441c77"
+    },
+    {
+      "batch": 16,
+      "document_id": "KB-B016-AKZONOBEL-AR2025",
+      "local_path": "data/raw/scale_batch_016/akzonobel-annual-report-2025.pdf",
+      "sha256": "43dd8b8c446d83c9fdaf93d1b9f6d8e8f26046e017db7a6b089289f186f58541"
+    },
+    {
+      "batch": 16,
+      "document_id": "KB-B016-NOVONESIS-AR2025",
+      "local_path": "data/raw/scale_batch_016/novonesis-annual-report-2025.pdf",
+      "sha256": "dd3bf837735c9cd24760e717099568a0fe012707cb97536ca199e5e2ea98a2dc"
+    },
+    {
+      "batch": 16,
+      "document_id": "KB-B016-COLOPLAST-AR2025",
+      "local_path": "data/raw/scale_batch_016/coloplast-annual-report-2024-25.pdf",
+      "sha256": "a59cdb9a92afb70dbabc0e723125c98f1233958a9b02296ff23e3a6855aa642d"
+    },
+    {
+      "batch": 17,
+      "document_id": "KB-B017-ROCKWOOL-AR2025",
+      "local_path": "data/raw/scale_batch_017/rockwool-annual-report-2025.pdf",
+      "sha256": "fb77087de1294a80fb31f087ec5895b86227c8e28ee6d9f53b71cc2ab93c0973"
+    },
+    {
+      "batch": 17,
+      "document_id": "KB-B017-HUSQVARNA-AR2025",
+      "local_path": "data/raw/scale_batch_017/husqvarna-group-annual-report-2025.pdf",
+      "sha256": "33bef8acfbaaaba22e71b0096e146e81545687ce864e39f543752ec90affa57c"
+    },
+    {
+      "batch": 17,
+      "document_id": "KB-B017-SWECO-AR2025",
+      "local_path": "data/raw/scale_batch_017/sweco-annual-report-2025.pdf",
+      "sha256": "a9dd16431de2e15788fa86a9e173eaa0046f23bfee5a4e0a1680ea77c177b539"
+    },
+    {
+      "batch": 18,
+      "document_id": "KB-B018-EPIROC-ASR2025",
+      "local_path": "data/raw/scale_batch_018/epiroc-annual-and-sustainability-report-2025.pdf",
+      "sha256": "0f6ac036c297f60a21cb21e6a37defaa480e4e9c5977582d714bb9ace5a6842c"
+    },
+    {
+      "batch": 18,
+      "document_id": "KB-B018-ALFA-LAVAL-ASR2025",
+      "local_path": "data/raw/scale_batch_018/alfa-laval-annual-and-sustainability-report-2025.pdf",
+      "sha256": "dd35e84d8605d0eb174b55e4ab7cb0e46f50572c436efd91c9463c216b436177"
+    },
+    {
+      "batch": 18,
+      "document_id": "KB-B018-SSAB-AR2025",
+      "local_path": "data/raw/scale_batch_018/ssab-annual-report-2025.pdf",
+      "sha256": "f2c778dec52913b4b4bab5fd9e7487a2cee9e25b94e68bed9919be4abee3530f"
+    },
+    {
+      "batch": 19,
+      "document_id": "KB-B019-NESTE-AR2025",
+      "local_path": "data/raw/scale_batch_019/neste-annual-report-2025.pdf",
+      "sha256": "8dabbd87f76ca8550086082acb728911d1ad0121cde43111ddde8ec7668f8eae"
+    },
+    {
+      "batch": 19,
+      "document_id": "KB-B019-BOLIDEN-ASR2025",
+      "local_path": "data/raw/scale_batch_019/boliden-annual-and-sustainability-report-2025.pdf",
+      "sha256": "ecb892e7a804075324db3c5d229239091cff1d3937e714d94111d9997c74652d"
+    },
+    {
+      "batch": 19,
+      "document_id": "KB-B019-METSO-AR2025",
+      "local_path": "data/raw/scale_batch_019/metso-annual-report-2025.pdf",
+      "sha256": "c05a1ebd588ab9dd268904dd5203c9262ed27c71a1f6089c5da082658811fc3d"
+    },
+    {
+      "batch": 20,
+      "document_id": "KB-B020-SOLVAY-AIR2025",
+      "local_path": "data/raw/scale_batch_020/solvay-annual-integrated-report-2025.pdf",
+      "sha256": "6e69c2a5af1653efc7786101d4f752d40cb07aab1f3a32f0a5e332e3d8370e15"
+    },
+    {
+      "batch": 20,
+      "document_id": "KB-B020-KERING-URD2025",
+      "local_path": "data/raw/scale_batch_020/kering-universal-registration-document-2025.pdf",
+      "sha256": "5a3e9d1669714950c2b73db8d3d0d42fea290688fc376ade902c7188e2d9293f"
+    },
+    {
+      "batch": 20,
+      "document_id": "KB-B020-CARREFOUR-URD2025",
+      "local_path": "data/raw/scale_batch_020/carrefour-universal-registration-document-2025.pdf",
+      "sha256": "1fdfba97d1ce09f311363c7f909a7781cea3d6841324a14e1dd0b57f92beede1"
+    },
+    {
+      "batch": 21,
+      "document_id": "KB-B021-CAPGEMINI-URD2025",
+      "local_path": "data/raw/scale_batch_021/capgemini-universal-registration-document-2025.pdf",
+      "sha256": "2307fecb6a5bb7cdd9802d819984fa99f689599b5e0028b6781650a564bf0771"
+    },
+    {
+      "batch": 21,
+      "document_id": "KB-B021-REXEL-URD2025",
+      "local_path": "data/raw/scale_batch_021/rexel-universal-registration-document-2025.pdf",
+      "sha256": "1fa5bb1d5a0323384c20ce25ec500c25677bc6b3dc6dc70d45c4540c575afba6"
+    },
+    {
+      "batch": 21,
+      "document_id": "KB-B021-EIFFAGE-URD2025",
+      "local_path": "data/raw/scale_batch_021/eiffage-universal-registration-document-2025.pdf",
+      "sha256": "982bf563b5cb6e62e6eefbd38cb2a6d0eaa424420a9a1d925e4ceb694094fcd3"
+    },
+    {
+      "batch": 22,
+      "document_id": "KB-B022-ENGIE-URD2025",
+      "local_path": "data/raw/scale_batch_022/engie-universal-registration-document-2025.pdf",
+      "sha256": "a36a9568ecaa2fdfbb433afebc62ea653a8e9b57952d70164657405b088460bd"
+    },
+    {
+      "batch": 22,
+      "document_id": "KB-B022-ORANGE-URD2025",
+      "local_path": "data/raw/scale_batch_022/orange-universal-registration-document-2025.pdf",
+      "sha256": "844c7fdf8bfd21bed694b02a80a67448c1b659d84991c47731875c472ce0f370"
+    },
+    {
+      "batch": 22,
+      "document_id": "KB-B022-SKANSKA-ASR2025",
+      "local_path": "data/raw/scale_batch_022/skanska-annual-and-sustainability-report-2025.pdf",
+      "sha256": "ebf370f35c5ea1c395ff604abbd3c86147c58ab0fe3fd45a4b2f3014e732b2b9"
+    },
+    {
+      "batch": 23,
+      "document_id": "KB-B023-GLENCORE-SR2025",
+      "local_path": "data/raw/scale_batch_023/glencore-sustainability-report-2025.pdf",
+      "sha256": "ea07caee265d09dd6abbea0d26523460f3f9bd04e67093f2e6eda23889f74d8d"
+    },
+    {
+      "batch": 23,
+      "document_id": "KB-B023-ARKEMA-URD2025",
+      "local_path": "data/raw/scale_batch_023/arkema-universal-registration-document-2025.pdf",
+      "sha256": "de11061374f70634028b7ffc561e33f93d2f69bf26043888f09be18a8f4f1632"
+    },
+    {
+      "batch": 23,
+      "document_id": "KB-B023-CRH-SPR2025",
+      "local_path": "data/raw/scale_batch_023/crh-sustainability-performance-report-2025.pdf",
+      "sha256": "838c40c5c4a2bf8ebfb225d5f6579e38de4565efad44d91ce6fd456dea3ef9ba"
+    },
+    {
+      "batch": 24,
+      "document_id": "KB-B024-FORTUM-FIN2025",
+      "local_path": "data/raw/scale_batch_024/fortum-financials-2025.pdf",
+      "sha256": "0f348698addddf27181efe6c999fe17f4ca4390c510e97ce192d254c029764ce"
+    },
+    {
+      "batch": 24,
+      "document_id": "KB-B024-YARA-AR2025",
+      "local_path": "data/raw/scale_batch_024/yara-annual-report-2025.pdf",
+      "sha256": "95ecc7a0b18ca97ee9d579bc3799ed58052a31584ef6b21ac55d466aa77ce5d2"
+    },
+    {
+      "batch": 24,
+      "document_id": "KB-B024-TELENOR-AR2025",
+      "local_path": "data/raw/scale_batch_024/telenor-annual-report-2025.pdf",
+      "sha256": "308f8724d892dfb85582b8278c3a9852b8771f5cd2297fde020916ccecb2d701"
+    },
+    {
+      "batch": 25,
+      "document_id": "KB-B025-EQUINOR-AR2025",
+      "local_path": "data/raw/scale_batch_025/equinor-annual-report-2025.pdf",
+      "sha256": "4266bb0b2f31bb9a8cc2ed11248cd579e0f98bb3c81fcffaf5c93a89e62e5d98"
+    },
+    {
+      "batch": 25,
+      "document_id": "KB-B025-AKERBP-AR2025",
+      "local_path": "data/raw/scale_batch_025/aker-bp-annual-report-2025.pdf",
+      "sha256": "c5afca29558be6e5daf6cf8e31b378fdd2542bd29b847f3ec96fce10172a1a15"
+    },
+    {
+      "batch": 25,
+      "document_id": "KB-B025-DNB-AR2025",
+      "local_path": "data/raw/scale_batch_025/dnb-annual-report-2025.pdf",
+      "sha256": "e793bbb20582975be0ee87825cafe7d05ad8e80f986f446d8cbfad7e2c84c125"
+    },
+    {
+      "batch": 26,
+      "document_id": "KB-B026-STOREBRAND-AR2025",
+      "local_path": "data/raw/scale_batch_026/storebrand-annual-report-2025.pdf",
+      "sha256": "56ae30f6f6d5ee245602de45a2f7292e42e13f748a996da0c3f15c4cd2e160b3"
+    },
+    {
+      "batch": 26,
+      "document_id": "KB-B026-ORKLA-AR2025",
+      "local_path": "data/raw/scale_batch_026/orkla-annual-report-2025.pdf",
+      "sha256": "1ac3c951a126ac27733bdae3114237abcbeca4f568f881266ac8ae673239e271"
+    },
+    {
+      "batch": 26,
+      "document_id": "KB-B026-SEB-AR2025",
+      "local_path": "data/raw/scale_batch_026/seb-annual-report-2025.pdf",
+      "sha256": "1bf07071afbab0269914a1a78d16e4e840e73e5efbe901af97b148d288b28083"
+    },
+    {
+      "batch": 27,
+      "document_id": "KB-B027-NORDEA-AR2025",
+      "local_path": "data/raw/scale_batch_027/nordea-annual-report-2025.pdf",
+      "sha256": "cce7c2004fbeca8b652ea9977be08500c1297c0cd307349bd016c1dc4de11e1e"
+    },
+    {
+      "batch": 27,
+      "document_id": "KB-B027-HANDELSBANKEN-AR2025",
+      "local_path": "data/raw/scale_batch_027/handelsbanken-annual-report-2025.pdf",
+      "sha256": "8679cdb160d9603f970eb6251546c8e6a1d98813a493bc4605f26cb933d88717"
+    },
+    {
+      "batch": 27,
+      "document_id": "KB-B027-SECURITAS-AR2025",
+      "local_path": "data/raw/scale_batch_027/securitas-annual-report-2025.pdf",
+      "sha256": "e5d82427641d2dae5ed6f0bbe5c075827382c9bb5a2064a0aa3b4ec8a3991f95"
+    },
+    {
+      "batch": 28,
+      "document_id": "KB-B028-TELIA-AR2025",
+      "local_path": "data/raw/scale_batch_028/telia-annual-report-2025.pdf",
+      "sha256": "572c00695eca26b8bea90e2c9d0cdaaeaddf845f2851969c4f9c9d2cba85ecf7"
+    },
+    {
+      "batch": 28,
+      "document_id": "KB-B028-ASSA-ABLOY-AR2025",
+      "local_path": "data/raw/scale_batch_028/assa-abloy-annual-report-2025.pdf",
+      "sha256": "cfbb6cbd864e00b71c55bf5c7803da470f7230129308012ebef6f80dda273b90"
+    },
+    {
+      "batch": 28,
+      "document_id": "KB-B028-LOOMIS-ASR2025",
+      "local_path": "data/raw/scale_batch_028/loomis-annual-and-sustainability-report-2025.pdf",
+      "sha256": "c601ba6cac8ac150b79e8061312120ba2c3136f22a9c24f302602e16fcf6d46a"
+    },
+    {
+      "batch": 29,
+      "document_id": "KB-B029-INVESTOR-AR2025",
+      "local_path": "data/raw/scale_batch_029/investor-annual-report-2025.pdf",
+      "sha256": "e7a5af97f82433a1b1346a26ff2bcca9f342e2399dcbd190f7077ecae3150100"
+    },
+    {
+      "batch": 29,
+      "document_id": "KB-B029-VATTENFALL-ASR2025",
+      "local_path": "data/raw/scale_batch_029/vattenfall-annual-and-sustainability-report-2025.pdf",
+      "sha256": "be8ba08ffe79f95fea1e82c4484c7b68d1c2abe4c3f46015ffcf9dfebc12533f"
+    },
+    {
+      "batch": 29,
+      "document_id": "KB-B029-SWEDAVIA-ASR2025",
+      "local_path": "data/raw/scale_batch_029/swedavia-annual-and-sustainability-report-2025.pdf",
+      "sha256": "95c7ad31487d729c99c3d42f3a5344ae1eb506ad1cf3524f6a3d16f1dbfce0d3"
+    },
+    {
+      "batch": 30,
+      "document_id": "KB-B030-NCC-ASR2025",
+      "local_path": "data/raw/scale_batch_030/ncc-annual-and-sustainability-report-2025.pdf",
+      "sha256": "253f5b9bf6a12ec5ce7e1965711dcda91af42da1bd58cb37972b5d87af853de2"
+    }
+  ],
+  "scale_stage_processing": {
+    "direct_batch_evidence_candidates": 1341,
+    "direct_batch_tier_b_promotions": 84,
+    "extractable_source_pages": 24052,
+    "frozen_target_pages": 820,
+    "source_pages": 24174
+  },
+  "schema_version": "0.1",
+  "scientific_limits": {
+    "coverage_target_is_not_universal_reliability_claim": true,
+    "failures_are_retained_as_repair_corpus": true,
+    "strict_table_projection_remains_primary_bottleneck": true,
+    "tier_b_growth_requires_exact_coordinates_and_assurance_scope": true
+  },
+  "status": "accepted_coverage_target_complete_with_strict_quality_limits"
+}

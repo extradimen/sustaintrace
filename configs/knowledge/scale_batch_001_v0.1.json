@@ -1,0 +1,71 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-001",
+  "status": "source_locked",
+  "policy": {
+    "local_only": true,
+    "cloud_transmission": false,
+    "locked_experiments_untouched": ["P3-P23"],
+    "download_resume": true,
+    "overwrite_verified_files": false,
+    "fact_promotion_requires_independent_gate": true
+  },
+  "documents": [
+    {
+      "document_id": "KB-B001-SAP-IR2025",
+      "source_group_id": "KB-SAP-2025",
+      "company": "SAP SE",
+      "title": "SAP Integrated Report 2025",
+      "report_year": 2025,
+      "official_landing_page": "https://www.sap.com/investors/en/reports.html",
+      "download_url": "https://www.sap.com/docs/download/investors/2025/sap-2025-integrated-report.pdf",
+      "official_domain": "sap.com",
+      "local_path": "data/raw/scale_batch_001/sap-integrated-report-2025.pdf",
+      "source_role": "primary_report",
+      "language": "English",
+      "prior_experiment_use": false
+    },
+    {
+      "document_id": "KB-B001-AZ-SDA2025",
+      "source_group_id": "KB-ASTRAZENECA-2025",
+      "company": "AstraZeneca PLC",
+      "title": "Sustainability Data Annex 2025",
+      "report_year": 2025,
+      "official_landing_page": "https://www.astrazeneca.com/sustainability/resources.html",
+      "download_url": "https://www.astrazeneca.com/content/dam/az/Sustainability/2026/pdf/Sustainability-Data-Annex-2025.pdf",
+      "official_domain": "astrazeneca.com",
+      "local_path": "data/raw/scale_batch_001/astrazeneca-sustainability-data-annex-2025.pdf",
+      "source_role": "data_annex",
+      "language": "English",
+      "prior_experiment_use": false
+    },
+    {
+      "document_id": "KB-B001-AZ-ASSURANCE2025",
+      "source_group_id": "KB-ASTRAZENECA-2025",
+      "company": "AstraZeneca PLC",
+      "title": "Assurance Report for Sustainability Data Annex 2025",
+      "report_year": 2025,
+      "official_landing_page": "https://www.astrazeneca.com/sustainability/resources.html",
+      "download_url": "https://www.astrazeneca.com/content/dam/az/Sustainability/2026/pdf/Assurance-report-for-sustainability-data-annex-2025.pdf",
+      "official_domain": "astrazeneca.com",
+      "local_path": "data/raw/scale_batch_001/astrazeneca-assurance-data-annex-2025.pdf",
+      "source_role": "assurance_report",
+      "language": "English",
+      "prior_experiment_use": false
+    },
+    {
+      "document_id": "KB-B001-DANONE-URD2025",
+      "source_group_id": "KB-DANONE-2025",
+      "company": "Danone S.A.",
+      "title": "Universal Registration Document 2025",
+      "report_year": 2025,
+      "official_landing_page": "https://www.danone.com/investors/publications-events/regulated-information.html",
+      "download_url": "https://www.danone.com/content/dam/corp/global/danonecom/investors/en-all-publications/2026/registrationdocuments/danoneurdaccessible.pdf",
+      "official_domain": "danone.com",
+      "local_path": "data/raw/scale_batch_001/danone-urd-2025-accessible.pdf",
+      "source_role": "primary_report",
+      "language": "English",
+      "prior_experiment_use": false
+    }
+  ]
+}

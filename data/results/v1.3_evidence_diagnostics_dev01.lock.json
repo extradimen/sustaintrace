@@ -1,0 +1,109 @@
+{
+  "schema_version": "1.0",
+  "experiment_id": "V13-EVIDENCE-DIAGNOSTICS-DEV01",
+  "status": "completed",
+  "development_data_only": true,
+  "p3_rerun": false,
+  "hidden_anchor_injection_applied": false,
+  "case_count": 4,
+  "exact_state_matches": 4,
+  "results": [
+    {
+      "task_id": "P3-ABSTAIN-001",
+      "expected_state": "not_disclosed_by_issuer",
+      "observed_state": "not_disclosed_by_issuer",
+      "exact_state_match": true,
+      "diagnostic": {
+        "state": "not_disclosed_by_issuer",
+        "issuer_answer_status": "not_disclosed",
+        "raw_page_contains_all_anchors": true,
+        "parsed_page_contains_all_anchors": true,
+        "retrieved_evidence_contains_all_anchors": true,
+        "structure_required": false,
+        "raw_structure_supported": true,
+        "parsed_structure_supported": true,
+        "retrieved_structure_supported": true,
+        "non_disclosure_marker": "not reported",
+        "hidden_anchor_injection_allowed": false
+      },
+      "source_artifacts": {
+        "pdf_sha256": "0d8f685d5b035bc6ef9ffd6ca79d247105323b93aea9158d79496d9f096221f9",
+        "content_list_sha256": "74a614701bdd75688a3915e3c7ad8c8a807974e9fe178d85a66bac03a820da63"
+      },
+      "structure_adjudication": null
+    },
+    {
+      "task_id": "P3-ABSTAIN-002",
+      "expected_state": "not_disclosed_by_issuer",
+      "observed_state": "not_disclosed_by_issuer",
+      "exact_state_match": true,
+      "diagnostic": {
+        "state": "not_disclosed_by_issuer",
+        "issuer_answer_status": "not_disclosed",
+        "raw_page_contains_all_anchors": true,
+        "parsed_page_contains_all_anchors": true,
+        "retrieved_evidence_contains_all_anchors": true,
+        "structure_required": false,
+        "raw_structure_supported": true,
+        "parsed_structure_supported": true,
+        "retrieved_structure_supported": true,
+        "non_disclosure_marker": "not reported",
+        "hidden_anchor_injection_allowed": false
+      },
+      "source_artifacts": {
+        "pdf_sha256": "0d8f685d5b035bc6ef9ffd6ca79d247105323b93aea9158d79496d9f096221f9",
+        "content_list_sha256": "13e67f8b02dafe4bddfcc660f6189b7c9e4e1904609f4b51e55df15f0aa137f8"
+      },
+      "structure_adjudication": null
+    },
+    {
+      "task_id": "P3-CALC-001",
+      "expected_state": "parser_structure_unrecoverable",
+      "observed_state": "parser_structure_unrecoverable",
+      "exact_state_match": true,
+      "diagnostic": {
+        "state": "parser_structure_unrecoverable",
+        "issuer_answer_status": "answerable",
+        "raw_page_contains_all_anchors": true,
+        "parsed_page_contains_all_anchors": false,
+        "retrieved_evidence_contains_all_anchors": false,
+        "structure_required": false,
+        "raw_structure_supported": true,
+        "parsed_structure_supported": true,
+        "retrieved_structure_supported": true,
+        "non_disclosure_marker": null,
+        "hidden_anchor_injection_allowed": false
+      },
+      "source_artifacts": {
+        "pdf_sha256": "a31017194c1b94df0ed60d49f2d41fae6de7f7960609c0a1b46790b393a88610",
+        "content_list_sha256": "f2d00c73b423a24958897315d8d4f6e7fdc42f56791c315f0df9e23b73f1747c"
+      },
+      "structure_adjudication": null
+    },
+    {
+      "task_id": "P3-DEX-001",
+      "expected_state": "parser_structure_unrecoverable",
+      "observed_state": "parser_structure_unrecoverable",
+      "exact_state_match": true,
+      "diagnostic": {
+        "state": "parser_structure_unrecoverable",
+        "issuer_answer_status": "answerable",
+        "raw_page_contains_all_anchors": true,
+        "parsed_page_contains_all_anchors": true,
+        "retrieved_evidence_contains_all_anchors": true,
+        "structure_required": true,
+        "raw_structure_supported": true,
+        "parsed_structure_supported": false,
+        "retrieved_structure_supported": false,
+        "non_disclosure_marker": null,
+        "hidden_anchor_injection_allowed": false
+      },
+      "source_artifacts": {
+        "pdf_sha256": "2dee3a7ac14103566f798aff09ce15bc354815c0848d2831fcb99d71bdfad259",
+        "content_list_sha256": "571303280d80134ee234f77132e2fd3d06dcdf8dbaf6709bceb0ab8e65efbb38"
+      },
+      "structure_adjudication": "The PDF layout binds 13,891 to Scope 3 and Gross GHG emissions 2025; MinerU serialized the value under an ambiguous/misaligned table column."
+    }
+  ],
+  "aggregate_score": null
+}

@@ -1,0 +1,42 @@
+{
+  "schema_version": "0.1",
+  "record_kind": "milestone_closure",
+  "status": "heterogeneous_component_validation_complete",
+  "results": {
+    "cases": 15,
+    "contract_passed": 14,
+    "contract_failed": 1,
+    "contract_pass_rate": 0.9333333333333333,
+    "failed_case_id": "HET-TABLE-POS-HOLCIM-001",
+    "failure_class": "table_repeated_value_year_column_disambiguation",
+    "failure_preserved_without_retry": true
+  },
+  "artifacts": [
+    {
+      "path": "data/manifests/heterogeneous_component_validation_RESUME01_v0.1.lock.json",
+      "sha256": "118fb36b3f0cd41255efbe6e5f6b9316efadcec03743a349a8de9a3681b47f3b"
+    },
+    {
+      "path": "artifacts/heterogeneous_component_validation_v0.1/validation_summary.lock.json",
+      "sha256": "c9318f0aebdfbc4defa413c8c5f6d758f778085a9f6fc9781f4a75bf0b42ab03"
+    },
+    {
+      "path": "artifacts/heterogeneous_component_validation_v0.1/het-table-pos-holcim-001.json",
+      "sha256": "7a19ec29f31dcb1f144622ed6d9033ba2326327c30f351bf6c65d76caa587e6d"
+    }
+  ],
+  "coverage_limits": {
+    "field_positive_contracts": 0,
+    "unit_distinct_reports": 1,
+    "aggregate_score_interpretation_restricted": true
+  },
+  "safety": {
+    "single_execution_per_case": true,
+    "result_retry_performed": false,
+    "fact_write_performed": false,
+    "trust_promotion_performed": false,
+    "gap_mutation_performed": false,
+    "cloud_transmission_performed": false
+  },
+  "next_gate": "create qualification attachments only for passed diagnostics, consume them with the read-only promotion gate, and route the Holcim failure to development"
+}

@@ -1,0 +1,35 @@
+{
+  "schema_version": "2.6",
+  "experiment_id": "P17-V26-UNSEEN-LOCKBOX-V01",
+  "status": "frozen_local_configuration_pending_explicit_cloud_authorization",
+  "recovery_lineage": "data/manifests/p17_execution_config_recovery_lineage_RESUME03_v0.1.lock.json",
+  "model_config": "configs/models/p1-ollama-cloud-qwen3.5-397b.json",
+  "candidate_model": "qwen3.5:397b-cloud",
+  "stage_a": {
+    "single_attempt": true,
+    "use_v15_grounding": true,
+    "use_v21_calculation": true,
+    "use_v24_layout_gate": true,
+    "use_v26_calculation_adapter": true,
+    "use_v26_handle_audit": true,
+    "calculation_plans": "configs/framework/p17_calculation_plans_RESUME02_v0.1.lock.json"
+  },
+  "stage_b": {
+    "single_attempt": true,
+    "use_v20_contract_gate": true,
+    "use_v21_contract_adapters": false,
+    "use_v24_preflight": true,
+    "use_v24_layout_gate": true,
+    "use_v26_atomic_projection": true,
+    "use_v26_semantic_single_block_spans": true,
+    "slot_contracts": "configs/framework/p17_slot_contracts_RESUME02_v0.1.lock.json",
+    "semantic_qualifiers": "configs/framework/p17_semantic_qualifiers_RESUME02_v0.1.lock.json"
+  },
+  "failure_policy": {
+    "archive_model_behavior_failure": true,
+    "silent_retry": false,
+    "posthoc_semantic_repair": false,
+    "infrastructure_resume_requires_lineage": true
+  },
+  "cloud_transmission_allowed": false
+}

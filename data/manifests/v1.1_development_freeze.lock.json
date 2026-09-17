@@ -1,0 +1,23 @@
+{
+  "schema_version":"1.0",
+  "freeze_id":"ESG-RD-v1.1-DEVELOPMENT-FREEZE",
+  "status":"frozen_before_p2_development_regression",
+  "hashes":{
+    "preregistration":"1bfcece814e5fec5c3ce50445d37dc0d7364bb74683bf89fc280b85fa5a2dbe3",
+    "chart_text_fallback":"ce7c4f689565a68f1045d013b170e841a870d4823b4ec16c6d40db2486876506",
+    "table_cell_splitter":"3322086cac0de4fb2c839c89f745c6c63c7a8e5bf8aac074c0f0a83cbbc49877",
+    "evidence_builder":"1649909ecc7fc69929033300af8e201b8c67d295ed0725632304b06a4eb2ae48",
+    "stage_b_core":"7331dd1701d0d9f467b608d78e027fa6e822f8d72b63f129697a68d449c1821f",
+    "stage_a_runner":"ffcc415d214c57216aa5eeab480eec54cb08d1f6bb4b9f6d453f53fa41368dbb",
+    "stage_a_prompt":"9bca15e9e2f44bbe60214bb149b0969c0efe8cc25b10d17bd3c03be76a7dae31",
+    "model_config":"fbcc4eb3b454d2ba42c3f570778a107333804ead63025aa3b590dd18bb3eae96"
+  },
+  "model":"qwen3.5:397b-cloud",
+  "model_digest":"68d2a0796c11e1fedd0456a2d55e58cca4077be6a218428a7a7f4e21f8177cbc",
+  "tests_passed":154,
+  "p2_role":"exposed development regression only",
+  "single_attempt_per_task":true,
+  "hidden_reference_used_by_row_selector":false,
+  "posthoc_repair":false,
+  "p3_required_for_generalization":true
+}

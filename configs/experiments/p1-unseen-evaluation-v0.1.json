@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "plan_id": "P1-UNSEEN-EVAL-v0.1",
+  "status": "cross_model_qualification",
+  "evidence_role": "synthetic_reference_evaluation",
+  "development_set": "P0",
+  "framework_version": "V3",
+  "target_report_count": 12,
+  "target_closed_task_count": 24,
+  "report_language": "English",
+  "excluded_companies": [
+    "The Coca-Cola Company",
+    "DBS Group",
+    "Equinor",
+    "Microsoft",
+    "Nestle",
+    "Novartis",
+    "Rio Tinto",
+    "Siemens",
+    "Toyota"
+  ],
+  "task_quotas": {
+    "direct_extraction": 6,
+    "deterministic_calculation": 4,
+    "cross_page_relation": 4,
+    "scope_subject_boundary": 4,
+    "controlled_conflict": 3,
+    "abstention": 3
+  },
+  "gates": {
+    "source_registry_frozen": true,
+    "sample_manifest_frozen": true,
+    "task_pack_frozen": true,
+    "synthetic_reference_frozen": true,
+    "annotation_agreement_complete": false,
+    "gold_lock_created": true,
+    "model_configuration_frozen": true,
+    "execution_pipeline_frozen": true,
+    "inference_allowed": true
+  }
+}

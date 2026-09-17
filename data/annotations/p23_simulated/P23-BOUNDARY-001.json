@@ -1,0 +1,56 @@
+{
+  "answer": "By 2030 GSK targets an 80% absolute GHG reduction from 2020 across all scopes and investment in nature-based solutions for the remaining 20%. By 2045 it targets net zero across the full value chain through a 90% absolute reduction from 2020 across all scopes and neutralisation of residual emissions. It separately targets 100% renewably imported and generated electricity by 2030 for Scope 2. The target boundary includes biogenic land-related emissions and removals from bioenergy feedstocks.",
+  "evidence": [
+    {
+      "pdf_page": 54,
+      "quote": "80% absolute reduction in greenhouse gas emissions",
+      "source_id": "P23-GSK-AR2025"
+    },
+    {
+      "pdf_page": 54,
+      "quote": "remaining 20% of our footprint by 2030",
+      "source_id": "P23-GSK-AR2025"
+    },
+    {
+      "pdf_page": 54,
+      "quote": "90% absolute reduction in emissions from a 2020 baseline",
+      "source_id": "P23-GSK-AR2025"
+    },
+    {
+      "pdf_page": 54,
+      "quote": "all residual emissions neutralised",
+      "source_id": "P23-GSK-AR2025"
+    },
+    {
+      "pdf_page": 54,
+      "quote": "100% renewably imported and generated electricity",
+      "source_id": "P23-GSK-AR2025"
+    },
+    {
+      "pdf_page": 54,
+      "quote": "biogenic land-related emissions and removals from bioenergy feedstocks",
+      "source_id": "P23-GSK-AR2025"
+    }
+  ],
+  "normalized_value": {
+    "boundary": "includes biogenic land-related emissions and removals from bioenergy feedstocks",
+    "scope2_renewable_electricity_target_percent": 100,
+    "scope2_renewable_electricity_target_year": 2030,
+    "target_2030_absolute_reduction_percent": 80,
+    "target_2030_baseline_year": 2020,
+    "target_2030_remaining_treatment": "investment in nature-based solutions for remaining 20%",
+    "target_2030_scope": "all scopes",
+    "target_2045_absolute_reduction_percent": 90,
+    "target_2045_baseline_year": 2020,
+    "target_2045_residual_treatment": "all residual emissions neutralised",
+    "target_2045_scope": "full value chain; all scopes"
+  },
+  "provenance": {
+    "candidate_model_used": false,
+    "reference_is_simulated": true
+  },
+  "reference_author": "codex_gpt_simulated_expert",
+  "reference_status": "verified_against_frozen_mineru_pages_and_native_layout",
+  "schema_version": "1.0",
+  "task_id": "P23-BOUNDARY-001"
+}

@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/esg-reliable-discovery/p1_annotation.schema.json",
+  "title": "P1 Independent Annotation",
+  "type": "object",
+  "required": [
+    "schema_version", "task_id", "annotator_id", "annotation_status",
+    "question", "answer_status", "evidence", "search_record", "independence_attestation"
+  ],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "task_id": {"type": "string", "pattern": "^P1-[0-9]{2}-[12]$"},
+    "annotator_id": {"type": "string", "minLength": 1},
+    "annotation_status": {"enum": ["draft", "complete"]},
+    "question": {"type": "string", "minLength": 10},
+    "answer_status": {"enum": ["verified_fact", "insufficient_information", "conflict"]},
+    "answer": {"type": ["string", "number", "array", "object", "null"]},
+    "normalized_value": {"type": ["string", "number", "null"]},
+    "normalized_unit": {"type": ["string", "null"]},
+    "reported_unit": {"type": ["string", "null"]},
+    "subject": {"type": ["string", "null"]},
+    "scope_boundary": {"type": ["string", "null"]},
+    "period": {"type": ["string", "null"]},
+    "calculation": {
+      "type": ["object", "null"],
+      "properties": {
+        "expression": {"type": "string"},
+        "inputs": {"type": "array", "items": {"type": ["number", "string"]}},
+        "rounding_rule": {"type": "string"}
+      },
+      "additionalProperties": false
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["document_id", "pdf_page", "verbatim_excerpt", "role"],
+        "properties": {
+          "document_id": {"type": "string"},
+          "pdf_page": {"type": "integer", "minimum": 1},
+          "printed_page": {"type": ["string", "null"]},
+          "verbatim_excerpt": {"type": "string"},
+          "role": {"enum": ["claim_support", "calculation_input", "conflict_source"]}
+        },
+        "additionalProperties": false
+      }
+    },
+    "search_record": {
+      "type": "object",
+      "required": ["pages_reviewed", "terms_used"],
+      "properties": {
+        "pages_reviewed": {"type": "array", "items": {"type": "integer", "minimum": 1}},
+        "terms_used": {"type": "array", "items": {"type": "string"}},
+        "notes": {"type": "string"}
+      },
+      "additionalProperties": false
+    },
+    "controlled_intervention_id": {"type": ["string", "null"]},
+    "independence_attestation": {
+      "type": "object",
+      "required": ["worked_independently", "did_not_view_other_annotation", "is_human"],
+      "properties": {
+        "worked_independently": {"const": true},
+        "did_not_view_other_annotation": {"const": true},
+        "is_human": {"const": true}
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

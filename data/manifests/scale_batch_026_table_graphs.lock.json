@@ -1,0 +1,118 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-026",
+  "status": "table_graphs_built_fail_closed",
+  "source_table_candidates": 2,
+  "graphs": [
+    {
+      "source_fact_record_id": "fact-2bf9b69d28fdc95048c1de0a",
+      "document_id": "KB-B026-ORKLA-AR2025",
+      "pdf_page": 97,
+      "graphs": [
+        {
+          "table_index": 0,
+          "status": "two_axis_graph_built",
+          "header_row_index": 0,
+          "column_headers": [
+            "",
+            "2025",
+            "2024"
+          ],
+          "period_columns": [
+            1,
+            2
+          ],
+          "indicator_column": 0,
+          "unit_column": null,
+          "rejected_rows": [
+            {
+              "row_index": 1,
+              "reason": "multiple_numeric_tokens_in_one_cell"
+            }
+          ],
+          "rows": [
+            [
+              "",
+              "2025",
+              "2024"
+            ],
+            [
+              "Total number of non- employees",
+              "3 801",
+              "4 028"
+            ]
+          ],
+          "cells": []
+        }
+      ]
+    },
+    {
+      "source_fact_record_id": "fact-c86033fcbdb0056cf856b60d",
+      "document_id": "KB-B026-ORKLA-AR2025",
+      "pdf_page": 99,
+      "graphs": [
+        {
+          "table_index": 0,
+          "status": "two_axis_graph_built",
+          "header_row_index": 0,
+          "column_headers": [
+            "",
+            "2025",
+            "2024"
+          ],
+          "period_columns": [
+            1,
+            2
+          ],
+          "indicator_column": 0,
+          "unit_column": null,
+          "rejected_rows": [
+            {
+              "row_index": 2,
+              "reason": "multiple_numeric_tokens_in_one_cell"
+            }
+          ],
+          "rows": [
+            [
+              "",
+              "2025",
+              "2024"
+            ],
+            [
+              "Sick leave for own employees (short- and long-term)",
+              "3.9%",
+              "N/A"
+            ],
+            [
+              "Number of days lost to work-related injuries and fatalities from work-related accidents,",
+              "2 368",
+              "2 910"
+            ],
+            [
+              "work-related ill health and fatalities from ill health related to employees \"",
+              "",
+              ""
+            ]
+          ],
+          "cells": [
+            {
+              "cell_handle": "cell-478d77a986bded082233",
+              "table_index": 0,
+              "row_index": 1,
+              "column_index": 1,
+              "row_header": "Sick leave for own employees (short- and long-term)",
+              "row_header_column_index": 0,
+              "column_header": "2025",
+              "normalized_period": 2025,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "3.9%",
+              "normalized_value": "3.9",
+              "normalized_unit": "percent"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

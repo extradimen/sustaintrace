@@ -1,0 +1,43 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-008",
+  "created_at": "2026-09-12T23:37:00Z",
+  "source_config": "configs/knowledge/scale_batch_008_RESUME01_v0.2.json",
+  "documents": [
+    {
+      "document_id": "KB-B008-KONE-SS2025",
+      "local_path": "data/raw/scale_batch_008/kone-sustainability-statement-2025.pdf",
+      "bytes": 1123163,
+      "pages": 56,
+      "sha256": "fa08352422482973cc4ab5670a7bbed4ce610a3c0ff7a4af2775a9767d1e9091",
+      "pdf_header_valid": true,
+      "pdfinfo_valid": true,
+      "download_status": "downloaded_verified_pdf"
+    },
+    {
+      "document_id": "KB-B008-SANDVIK-AR2025",
+      "local_path": "data/raw/scale_batch_008/sandvik-annual-report-2025.pdf",
+      "bytes": 17141297,
+      "pages": 180,
+      "sha256": "b3f7b20c4dc8a59fd92bc6a89ed5b8efa19a0328b816837cae7d8864438af165",
+      "pdf_header_valid": true,
+      "pdfinfo_valid": true,
+      "download_status": "downloaded_verified_pdf"
+    },
+    {
+      "document_id": "KB-B008-VESTAS-AR2025",
+      "local_path": "data/raw/scale_batch_008/vestas-annual-report-2025.pdf",
+      "bytes": 7656538,
+      "pages": 195,
+      "sha256": "09aa4e8bd783ba4b964322945e3c24f1a1140045cc4e499f518a613ab707cfdc",
+      "pdf_header_valid": true,
+      "pdfinfo_valid": true,
+      "download_status": "downloaded_verified_pdf"
+    }
+  ],
+  "totals": {
+    "documents": 3,
+    "bytes": 25920998,
+    "pages": 431
+  }
+}

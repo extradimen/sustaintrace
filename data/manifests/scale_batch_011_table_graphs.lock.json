@@ -1,0 +1,100 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-011",
+  "status": "table_graphs_built_fail_closed",
+  "source_table_candidates": 1,
+  "graphs": [
+    {
+      "source_fact_record_id": "fact-9cbccdb179c790a0e8c00aff",
+      "document_id": "KB-B011-ENI-SS2025",
+      "pdf_page": 78,
+      "graphs": [
+        {
+          "table_index": 0,
+          "status": "two_axis_graph_built",
+          "header_row_index": 0,
+          "column_headers": [
+            "WORKFORCE OCCUPATIONAL SAFETY METRICS",
+            "Unit",
+            "2025",
+            "2024"
+          ],
+          "period_columns": [
+            2,
+            3
+          ],
+          "indicator_column": 1,
+          "unit_column": 1,
+          "rejected_rows": [],
+          "rows": [
+            [
+              "WORKFORCE OCCUPATIONAL SAFETY METRICS",
+              "Unit",
+              "2025",
+              "2024"
+            ],
+            [
+              "Total Recordable Injury Rate (TRIR)",
+              "(total recordable injuries/worked hours) x 1,000,000",
+              "0.55",
+              "0.70(b)"
+            ],
+            [
+              "Near Miss(a)",
+              "(number)",
+              "634",
+              "563"
+            ]
+          ],
+          "cells": [
+            {
+              "cell_handle": "cell-11ddfdaca38a1d52f9c9",
+              "table_index": 0,
+              "row_index": 1,
+              "column_index": 2,
+              "row_header": "(total recordable injuries/worked hours) x 1,000,000",
+              "row_header_column_index": 1,
+              "column_header": "2025",
+              "normalized_period": 2025,
+              "unit": "(total recordable injuries/worked hours) x 1,000,000",
+              "unit_column_index": 1,
+              "raw_value": "0.55",
+              "normalized_value": "0.55",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-b29ab91890092efdc54e",
+              "table_index": 0,
+              "row_index": 2,
+              "column_index": 2,
+              "row_header": "(number)",
+              "row_header_column_index": 1,
+              "column_header": "2025",
+              "normalized_period": 2025,
+              "unit": "(number)",
+              "unit_column_index": 1,
+              "raw_value": "634",
+              "normalized_value": "634",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-433f263fd4c39e890a59",
+              "table_index": 0,
+              "row_index": 2,
+              "column_index": 3,
+              "row_header": "(number)",
+              "row_header_column_index": 1,
+              "column_header": "2024",
+              "normalized_period": 2024,
+              "unit": "(number)",
+              "unit_column_index": 1,
+              "raw_value": "563",
+              "normalized_value": "563",
+              "normalized_unit": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

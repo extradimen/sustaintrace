@@ -1,0 +1,601 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-016-MINERU-FINAL",
+  "updated_at": "2026-09-13T10:03:10.033572+00:00",
+  "status": "complete",
+  "cloud_transmission": false,
+  "total_target_pages": 29,
+  "complete_pages": 29,
+  "failed_pages": 0,
+  "pending_pages": 0,
+  "post_completion_shutdown_recovered_pages": 0,
+  "recovered_pages": [],
+  "parent_attempts": [
+    "data/results/scale_batch_016_mineru_summary.lock.json",
+    "data/results/scale_batch_016_mineru_RESUME01_summary.lock.json"
+  ],
+  "parent_failures_preserved": true,
+  "records": [
+    {
+      "document_id": "KB-B016-AKZONOBEL-AR2025",
+      "page": 24,
+      "themes": [
+        "targets"
+      ],
+      "output_directory": "artifacts/scale_batch_016/mineru_targets/KB-B016-AKZONOBEL-AR2025-p0024",
+      "status": "complete",
+      "started_at": "2026-09-13T09:21:29.860557+00:00",
+      "completed_at": "2026-09-13T09:21:51.533110+00:00",
+      "wall_seconds": 21.672452,
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "7151b1cee4424e93ee4e6308bd86fdd2415433e1ef93b78718d34ea844ee562c",
+        "_content_list.json": "685d24ac114ee9239f9c04288ca1a070738c157ac0016f59940fa52b65584310",
+        "_middle.json": "77b0680e9e489d9c54253e06c393e06a68342c94a94d79e5e4182a624411f767",
+        "_model.json": "27f6eab976b68ef5ad1e072d841595e5b40771182ea089d4a9ce6be9a111ad9e"
+      }
+    },
+    {
+      "document_id": "KB-B016-AKZONOBEL-AR2025",
+      "page": 45,
+      "themes": [
+        "energy"
+      ],
+      "output_directory": "artifacts/scale_batch_016/mineru_targets/KB-B016-AKZONOBEL-AR2025-p0045",
+      "status": "complete",
+      "started_at": "2026-09-13T09:21:51.533916+00:00",
+      "completed_at": "2026-09-13T09:22:10.707494+00:00",
+      "wall_seconds": 19.173589,
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "2666d051815c015d6726882fc836fcd73baaff9e7c88e727b989999e05248cb5",
+        "_content_list.json": "a6800357dccf2d294190ae512f7dd2a9af7c6648446083652176f6696f535b53",
+        "_middle.json": "c21302640b99d4ba694ea92ff6fa34da7247c3c8a7eb012fb269df4c1e321fa1",
+        "_model.json": "e32b1f524e7ccd1affeaa8797c6b10321fd75ebedeef4ab0111eb2711026ebc7"
+      }
+    },
+    {
+      "document_id": "KB-B016-AKZONOBEL-AR2025",
+      "page": 46,
+      "themes": [
+        "ghg_emissions"
+      ],
+      "output_directory": "artifacts/scale_batch_016/mineru_targets/KB-B016-AKZONOBEL-AR2025-p0046",
+      "status": "complete",
+      "started_at": "2026-09-13T09:22:10.708245+00:00",
+      "completed_at": "2026-09-13T09:22:26.594588+00:00",
+      "wall_seconds": 15.886353,
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "4dec6ae6cd896659fc79910b14ed5d45f93eaba7982dff6fef45f348a609e8fc",
+        "_content_list.json": "92bc08c2e30e58d8c41352fb2d663f39f8536e254dacb7580b0238685d090e24",
+        "_middle.json": "a9152ea7f23f2d15d4499025c22c930e9f49827c1b5305cd8aecda277c7dd139",
+        "_model.json": "9e07ada462283c2db089e600e25b9e306ecf0ef1bdf82f860f0a0870044a3d81"
+      }
+    },
+    {
+      "document_id": "KB-B016-AKZONOBEL-AR2025",
+      "page": 49,
+      "themes": [
+        "water"
+      ],
+      "output_directory": "artifacts/scale_batch_016/mineru_targets/KB-B016-AKZONOBEL-AR2025-p0049",
+      "status": "complete",
+      "started_at": "2026-09-13T09:22:26.594922+00:00",
+      "completed_at": "2026-09-13T09:22:44.234154+00:00",
+      "wall_seconds": 17.639243,
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "bfd5f00d1ae45760bba27ba491ee4c552b358ae3b469d31503c02facc63c3242",
+        "_content_list.json": "115195d5fbec0ec2a28982974d1b0cd44796b68cdb2d28b2e7978f6acb041f34",
+        "_middle.json": "3d1f1ff7aa7a3b1c2a37bb8e3fc01860592340273ea10f194c66614155147f99",
+        "_model.json": "97f62a7408cd469366958c8689f6cb3853f0cbba745a8f5b8e5de66f458f277e"
+      }
+    },
+    {
+      "document_id": "KB-B016-AKZONOBEL-AR2025",
+      "page": 74,
+      "themes": [
+        "circularity"
+      ],
+      "output_directory": "artifacts/scale_batch_016/mineru_targets/KB-B016-AKZONOBEL-AR2025-p0074",
+      "status": "complete",
+      "started_at": "2026-09-13T09:22:44.234534+00:00",
+      "completed_at": "2026-09-13T09:22:59.894145+00:00",
+      "wall_seconds": 15.659621,
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "8ffcb8360c450a01cf8dba17be28bbd98c3f84054248a101ec3435ef3d7d7494",
+        "_content_list.json": "b39e6ced488decdd2c39bf87bdcb7f021c4aaa06038fc5d0c5f273b332dfc9ae",
+        "_middle.json": "8b9013dabd28bfecf3979896155ec8be5a1276d1acd6227c7095f4bc76fa9ac3",
+        "_model.json": "db10cfa0ba215da2563f9ff5e1183d23b6cd54d377d3c13f05408690201b143d"
+      }
+    },
+    {
+      "document_id": "KB-B016-AKZONOBEL-AR2025",
+      "page": 75,
+      "themes": [
+        "health_safety",
+        "workforce"
+      ],
+      "output_directory": "artifacts/scale_batch_016/mineru_targets/KB-B016-AKZONOBEL-AR2025-p0075",
+      "status": "complete",
+      "started_at": "2026-09-13T09:22:59.894507+00:00",
+      "completed_at": "2026-09-13T09:23:15.786153+00:00",
+      "wall_seconds": 15.891656,
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "effa08489cc91c3e28a65fca81fcf2c3adb0a40b2027775f4a1d130498296870",
+        "_content_list.json": "9e1fee261b72e5fbf5430fd5fd409646ba00172a103c7b8916bfec8ba0627407",
+        "_middle.json": "5df4431a2132538742f65ac7a7feda5edab98670a5ae2b3f538d21d8a1a04b0e",
+        "_model.json": "8bc100ff845128d738925a8bef3d197a21cfe79b802f92a2d37355a8229273ec"
+      }
+    },
+    {
+      "document_id": "KB-B016-AKZONOBEL-AR2025",
+      "page": 77,
+      "themes": [
+        "biodiversity"
+      ],
+      "output_directory": "artifacts/scale_batch_016/mineru_targets/KB-B016-AKZONOBEL-AR2025-p0077",
+      "status": "complete",
+      "started_at": "2026-09-13T09:23:15.786549+00:00",
+      "completed_at": "2026-09-13T09:23:35.941126+00:00",
+      "wall_seconds": 20.154589,
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "b6e676e2d45534df36df4d7c0f82c2b097d2f5470c276b49a3aced1be6076ba1",
+        "_content_list.json": "94929ad5d7cecef4b29117ec09f05127648694ecb8dbb9942ca6d7fc7b3093ed",
+        "_middle.json": "7426ad80f62f1edf0b64a203e81ac7db7aaba3d4b88caa8727dba5c170aa3e85",
+        "_model.json": "574786d490c4bcca1bfc14247527c79a6b617a3d8cf3fce2f9e781fbda702309"
+      }
+    },
+    {
+      "document_id": "KB-B016-AKZONOBEL-AR2025",
+      "page": 224,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_016/mineru_targets/KB-B016-AKZONOBEL-AR2025-p0224",
+      "status": "complete",
+      "started_at": "2026-09-13T09:23:35.941548+00:00",
+      "completed_at": "2026-09-13T09:23:53.590271+00:00",
+      "wall_seconds": 17.648733,
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "6b71205412e524595271eaea430be0c62cd8d35a09fd8d915c1ecdf43701aadf",
+        "_content_list.json": "0578f45093afb6a1c7c87f55c0b7b63438f5ce7b679c047b80d001fe9edf1d44",
+        "_middle.json": "42bcdc8d8472839387580216249e32347691282bcd160ebd903230737ca4bbc5",
+        "_model.json": "18b6a885c4857c297b93ed4f689a927663a00a157c00e62d2a570b6c98d046b6"
+      }
+    },
+    {
+      "document_id": "KB-B016-AKZONOBEL-AR2025",
+      "page": 226,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_016/mineru_targets/KB-B016-AKZONOBEL-AR2025-p0226",
+      "status": "complete",
+      "started_at": "2026-09-13T09:23:53.590700+00:00",
+      "completed_at": "2026-09-13T09:24:10.236243+00:00",
+      "wall_seconds": 16.645553,
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "d5d5a472fc69d06f20e5144debfd441db4d5ef9b149fa7d97f772bc493806d39",
+        "_content_list.json": "44e35028de965c1c0790b6ff3c6a5a6087d595147d6e15d3ce93c730f8021935",
+        "_middle.json": "dca9ef567f3d34d5d9cdc032fe47be44ac648283b75223b1bfa143f8e2bc15f5",
+        "_model.json": "659c8e6c1d9132e0caf036d383d300397013c8e87f19e9dc9fcdb38695885629"
+      }
+    },
+    {
+      "document_id": "KB-B016-COLOPLAST-AR2025",
+      "page": 48,
+      "themes": [
+        "water"
+      ],
+      "output_directory": "artifacts/scale_batch_016/mineru_targets/KB-B016-COLOPLAST-AR2025-p0048",
+      "status": "complete",
+      "started_at": "2026-09-13T09:26:49.059217+00:00",
+      "completed_at": "2026-09-13T09:27:09.590051+00:00",
+      "wall_seconds": 20.530499,
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "ada4635fd11d926e603a9cf05b88c81ca14c59d6dbb1eef74fd85d12db6c88d2",
+        "_content_list.json": "bb4ebc6fb74b0bc9521b1ec12f4511d677ae381769cfcbc109806c4ee578ee87",
+        "_middle.json": "c741d9b788e14577365dad9331d4fee2a84abeb85cefeec82e44c6ca9abea98f",
+        "_model.json": "97f5f5a913bbe9f250fc957a6d0bd166ee82b0ab0534baebc0985041bfa56625"
+      }
+    },
+    {
+      "document_id": "KB-B016-COLOPLAST-AR2025",
+      "page": 55,
+      "themes": [
+        "targets"
+      ],
+      "output_directory": "artifacts/scale_batch_016/mineru_targets/KB-B016-COLOPLAST-AR2025-p0055",
+      "status": "complete",
+      "started_at": "2026-09-13T09:27:09.590598+00:00",
+      "completed_at": "2026-09-13T09:27:33.691638+00:00",
+      "wall_seconds": 24.101056,
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "863007f8b7a76597af3248f50385c29b3f33e503e214c06ec83bd24067ce7267",
+        "_content_list.json": "6e08bafba21392d3e062b27373c7d1d7d5c5f5359b42ed0a41e07190f34e0167",
+        "_middle.json": "7b76aa280529b0d736f375939e5cdcee8737c146f18772a419e8b954c427d2fc",
+        "_model.json": "4c13c6c0a84b2219099d59814d462bfb2739db9eda70d969e46e0845d14fe131"
+      }
+    },
+    {
+      "document_id": "KB-B016-COLOPLAST-AR2025",
+      "page": 60,
+      "themes": [
+        "energy"
+      ],
+      "output_directory": "artifacts/scale_batch_016/mineru_targets/KB-B016-COLOPLAST-AR2025-p0060",
+      "status": "complete",
+      "started_at": "2026-09-13T09:27:33.692410+00:00",
+      "completed_at": "2026-09-13T09:27:55.836434+00:00",
+      "wall_seconds": 22.144038,
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "f5920d7c0f4867ad0ee32dbd4999a22c43975693fe60d8880c0befe99f1cf6c2",
+        "_content_list.json": "312a11ba55828492b6b76d76c1557fb95c508747970b30f430e12300f636362f",
+        "_middle.json": "ce3749342aa511bb455a67e22f4b450737ff6989e2fdbfcfce82690f72cebb60",
+        "_model.json": "e6f557c2cd9bddb26ee0ca6c3510eb1dc4db6fc8604c664d40c5657116f87176"
+      }
+    },
+    {
+      "document_id": "KB-B016-COLOPLAST-AR2025",
+      "page": 61,
+      "themes": [
+        "ghg_emissions"
+      ],
+      "output_directory": "artifacts/scale_batch_016/mineru_targets/KB-B016-COLOPLAST-AR2025-p0061",
+      "status": "complete",
+      "started_at": "2026-09-13T09:27:55.837090+00:00",
+      "completed_at": "2026-09-13T09:28:18.662133+00:00",
+      "wall_seconds": 22.822434,
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "8b4d32de50e98ddd8d34990a0dc75ec54ff672612a03fc949c7ec3d1d9c5ce2c",
+        "_content_list.json": "91636cc63049b427e01c57085c2568532857d4b22b8f697d57e09390538b19a6",
+        "_middle.json": "92db4db9fc317f592c90eadae80ccef71dbe02657a497e910333b2eb9739823b",
+        "_model.json": "9f138406695b5ec38c5482a79454a5bf3cf6654c516b58dc25843eeab699680c"
+      }
+    },
+    {
+      "document_id": "KB-B016-COLOPLAST-AR2025",
+      "page": 69,
+      "themes": [
+        "circularity"
+      ],
+      "output_directory": "artifacts/scale_batch_016/mineru_targets/KB-B016-COLOPLAST-AR2025-p0069",
+      "status": "complete",
+      "started_at": "2026-09-13T09:28:18.662622+00:00",
+      "completed_at": "2026-09-13T09:28:39.583707+00:00",
+      "wall_seconds": 20.915653,
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "3666de7563e57f19b180fb4a2f0c220b763fb58ce716b8d4367a2faf707ef63b",
+        "_content_list.json": "14a8e9a309727296ce0ad1f920ebc650436f484e028e41ea086875f0f57a2d60",
+        "_middle.json": "7d08013cc97d52cdbfc58bf34bc760c4754d2a164cd0b3ab1dd30643c4e03c67",
+        "_model.json": "fdf94377ddeb1edc77fceac5fff6fdb956a79193a4335fa4d280de13db18a35a"
+      }
+    },
+    {
+      "document_id": "KB-B016-COLOPLAST-AR2025",
+      "page": 72,
+      "themes": [
+        "biodiversity"
+      ],
+      "output_directory": "artifacts/scale_batch_016/mineru_targets/KB-B016-COLOPLAST-AR2025-p0072",
+      "status": "complete",
+      "started_at": "2026-09-13T09:28:39.584205+00:00",
+      "completed_at": "2026-09-13T09:28:57.201956+00:00",
+      "wall_seconds": 17.616454,
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "c359e2f2f2c66f38838210a21179b47e85d40cc72637380c38fbe4c852907e9e",
+        "_content_list.json": "b1a1a6b81363b028419b033363db383f524792a3df280f2a6d8505593bae4715",
+        "_middle.json": "83e357e56d269b4fd66668fbbf5c4b96fde4f21d1aabe6fec0bfb992ed96cee0",
+        "_model.json": "063d6c67d0837ae6487bd020c6378b596c9607146dbcee2e89399667f58964ed"
+      }
+    },
+    {
+      "document_id": "KB-B016-COLOPLAST-AR2025",
+      "page": 79,
+      "themes": [
+        "health_safety"
+      ],
+      "output_directory": "artifacts/scale_batch_016/mineru_targets/KB-B016-COLOPLAST-AR2025-p0079",
+      "status": "complete",
+      "started_at": "2026-09-13T09:28:57.202451+00:00",
+      "completed_at": "2026-09-13T09:29:16.649131+00:00",
+      "wall_seconds": 19.446235,
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "8a2be6f9c66dc6caefc3c587a76f10adee96221cfa475a1143c104165d0d54a1",
+        "_content_list.json": "1176f5806aa63d99f918f0cd83455f585bde5f8e8a60145d4e49ddd62de454fe",
+        "_middle.json": "8ec1a04c78c0f54096a2d63efee32a5eb2cc33224982f56e15f3976eb14550dc",
+        "_model.json": "8d2f142bb820015f4f99d9a97e44843bf36ae09dbc5c3f64bb8a518ab11c0396"
+      }
+    },
+    {
+      "document_id": "KB-B016-COLOPLAST-AR2025",
+      "page": 85,
+      "themes": [
+        "workforce"
+      ],
+      "output_directory": "artifacts/scale_batch_016/mineru_targets_RESUME01/KB-B016-COLOPLAST-AR2025-p0085",
+      "status": "complete",
+      "started_at": "2026-09-13T09:46:37.343711+00:00",
+      "completed_at": "2026-09-13T09:46:55.916532+00:00",
+      "wall_seconds": 18.572813,
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "723938f123be5d75cccaa3cb1787f3a3a06920e46bee6c7ba10ba406a04501a5",
+        "_content_list.json": "8c5af1a41d1138617905123a3a2b2fb82e65617348d6975e9f0e281df055f40a",
+        "_middle.json": "2d27d4d9ccc9dc3f02dd44ef8b9faaa5efcc01d52cf70851d157147633fa4f92",
+        "_model.json": "440cf08f8269b6dff64c49242431808426066c54795ebf6029be6bf2ea77e2b4"
+      }
+    },
+    {
+      "document_id": "KB-B016-COLOPLAST-AR2025",
+      "page": 162,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_016/mineru_targets/KB-B016-COLOPLAST-AR2025-p0162",
+      "status": "complete",
+      "started_at": "2026-09-13T09:29:35.288281+00:00",
+      "completed_at": "2026-09-13T09:29:54.290847+00:00",
+      "wall_seconds": 19.002521,
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "2825429bfcac611f84aae1ba7190b19743e537bd246379ccde68c439fa929749",
+        "_content_list.json": "c45a79a02907af47bd401a6951e7e5711b8f8ba18903d27bcf7279c7becfb9ed",
+        "_middle.json": "797043e18379b1ed0b979ed0497df183a7f02b3f5691cdbae72754ef1a2a3916",
+        "_model.json": "769f058d7d4f538e0fd9f1c0e62d9e4ea047af3d184efc2fc18f683ebaeb6a86"
+      }
+    },
+    {
+      "document_id": "KB-B016-COLOPLAST-AR2025",
+      "page": 164,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_016/mineru_targets/KB-B016-COLOPLAST-AR2025-p0164",
+      "status": "complete",
+      "started_at": "2026-09-13T09:29:54.291369+00:00",
+      "completed_at": "2026-09-13T09:30:11.238641+00:00",
+      "wall_seconds": 16.947254,
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "be53f3b31694cd240df46b55d348e21b89692759c487595cb35a78e29c4089a4",
+        "_content_list.json": "ccbe805271a0c518c5bd2595c9d74151a7a294eea5c0b07182357d65ed7be69f",
+        "_middle.json": "fafc6fce726cba3a2d937595fd7e956e9df2a7c763136762c482325d32337451",
+        "_model.json": "5eec23e537cafe52b1d5c612e0ab90caa968482efcf2491f857f173991642c52"
+      }
+    },
+    {
+      "document_id": "KB-B016-NOVONESIS-AR2025",
+      "page": 71,
+      "themes": [
+        "targets"
+      ],
+      "output_directory": "artifacts/scale_batch_016/mineru_targets/KB-B016-NOVONESIS-AR2025-p0071",
+      "status": "complete",
+      "started_at": "2026-09-13T09:24:10.236654+00:00",
+      "completed_at": "2026-09-13T09:24:24.860210+00:00",
+      "wall_seconds": 14.623566,
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "10428243d984c86e33e308007977df504d2477bba5cd10c259e20654a39336ae",
+        "_content_list.json": "beefb165b6e76044af5ff2fb02b9a665fb1aa7b185f9a667ba584ffa854bfcf5",
+        "_middle.json": "a1413aa4c015e1cdb5fd43728f1eca0de95d36e050aee7ab510ab397e2dd68d1",
+        "_model.json": "bbc4e63bd350420c9ae58306b22364f95af2f5277e9a36e9c15e5aa0eb91ccba"
+      }
+    },
+    {
+      "document_id": "KB-B016-NOVONESIS-AR2025",
+      "page": 74,
+      "themes": [
+        "energy"
+      ],
+      "output_directory": "artifacts/scale_batch_016/mineru_targets/KB-B016-NOVONESIS-AR2025-p0074",
+      "status": "complete",
+      "started_at": "2026-09-13T09:24:24.860593+00:00",
+      "completed_at": "2026-09-13T09:24:41.355887+00:00",
+      "wall_seconds": 16.495305,
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "61df949ddbfc83bfc2096c872f964c69ca4e72bac5aa98db25c703a463ef0553",
+        "_content_list.json": "d1c1bef50ae50f2c3d2fb88cdf8a5d691ab651402a0a049c820548cd7f01f892",
+        "_middle.json": "9a0922dc145d8a108e0987f665aa65655db0b048ba733f62ff41efa372e255f2",
+        "_model.json": "63080753a5d7bba850b1b835402b5b2ffb810be96407e620170cf5a83fcc96f4"
+      }
+    },
+    {
+      "document_id": "KB-B016-NOVONESIS-AR2025",
+      "page": 75,
+      "themes": [
+        "ghg_emissions"
+      ],
+      "output_directory": "artifacts/scale_batch_016/mineru_targets_RESUME01/KB-B016-NOVONESIS-AR2025-p0075",
+      "status": "complete",
+      "started_at": "2026-09-13T09:45:57.219935+00:00",
+      "completed_at": "2026-09-13T09:46:17.078776+00:00",
+      "wall_seconds": 19.858831,
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "08ab6d7ecbb8ce9992095dc7d8c2502b15f0e2df99a3f4c80848506f6f1d8c1b",
+        "_content_list.json": "c6eee96119a2a619df19f61473ff58009760baa8836cb12f8372eaf0a2304cb8",
+        "_middle.json": "91d4f255c664c6d08b8f0322862ebef82dc133eb1aae128d08c24c75ce676483",
+        "_model.json": "386a1ab7306fb74b9d692994dd807136b14d376ed484e5604ee5a3dfd713bde1"
+      }
+    },
+    {
+      "document_id": "KB-B016-NOVONESIS-AR2025",
+      "page": 83,
+      "themes": [
+        "water"
+      ],
+      "output_directory": "artifacts/scale_batch_016/mineru_targets/KB-B016-NOVONESIS-AR2025-p0083",
+      "status": "complete",
+      "started_at": "2026-09-13T09:24:55.999694+00:00",
+      "completed_at": "2026-09-13T09:25:11.934587+00:00",
+      "wall_seconds": 15.934903,
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "a39197d12eae5ae5f4c5db4e485613a559db0d79bf4cbb8d77c30c51666dc018",
+        "_content_list.json": "94f0e27db55bffe9e1e0285c1bd82012e9851ace7962c932717a733377757546",
+        "_middle.json": "5a157111a4310f795c06d7b571ebc75a4c194b3179d70378228f10bd1cc7e890",
+        "_model.json": "4ee3ff06ef10f17fa4177b38019a91e52aaf835287dbc20a4935e0e7b7100a73"
+      }
+    },
+    {
+      "document_id": "KB-B016-NOVONESIS-AR2025",
+      "page": 85,
+      "themes": [
+        "biodiversity"
+      ],
+      "output_directory": "artifacts/scale_batch_016/mineru_targets/KB-B016-NOVONESIS-AR2025-p0085",
+      "status": "complete",
+      "started_at": "2026-09-13T09:25:11.934985+00:00",
+      "completed_at": "2026-09-13T09:25:26.915376+00:00",
+      "wall_seconds": 14.980399,
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "4d222156ca4bcf215c34b41118143145edba4fd810dc1ac4bc351dbe39d31f46",
+        "_content_list.json": "af6dbaf3b8dcb3a2e1363db2ee617821c2045175b6a35f440b96fe05c3786b35",
+        "_middle.json": "b2ed6f6b8c403b24c8dd8124d572f57e1096a43f5ab9e570c14397e314196e59",
+        "_model.json": "5289504993e79227a933a741d39d105abc288603a43fd3d00fb63a62424383d6"
+      }
+    },
+    {
+      "document_id": "KB-B016-NOVONESIS-AR2025",
+      "page": 87,
+      "themes": [
+        "circularity"
+      ],
+      "output_directory": "artifacts/scale_batch_016/mineru_targets_RESUME01/KB-B016-NOVONESIS-AR2025-p0087",
+      "status": "complete",
+      "started_at": "2026-09-13T09:46:17.079296+00:00",
+      "completed_at": "2026-09-13T09:46:37.342874+00:00",
+      "wall_seconds": 20.263571,
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "e17bf55207f6b24a3b706ebc5a0ebb54e07d4cfd5ae2d6de6c23fe56472d2994",
+        "_content_list.json": "819b1c54117b8ec3d9f2d14d9ce93d77a6a8421cfc9ff31d75b7f157eb3f9702",
+        "_middle.json": "8d2e93e2cb0c70b8c2ab6bd5d9a994b743ddd690602f8f0290b5933e4cb4251c",
+        "_model.json": "be3ad0b15d1cc59b54551da1fc9eadca9faf9566f490e31e887cdc1d330e2024"
+      }
+    },
+    {
+      "document_id": "KB-B016-NOVONESIS-AR2025",
+      "page": 96,
+      "themes": [
+        "workforce"
+      ],
+      "output_directory": "artifacts/scale_batch_016/mineru_targets/KB-B016-NOVONESIS-AR2025-p0096",
+      "status": "complete",
+      "started_at": "2026-09-13T09:25:42.475937+00:00",
+      "completed_at": "2026-09-13T09:25:59.089459+00:00",
+      "wall_seconds": 16.613532,
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "e60c7a6f65606549477a229a215bc87f7072aa79a90e5c3a7ee9becc6b7167ad",
+        "_content_list.json": "8bd35a1139b20b40c3eb55eac00b59095f0f162a7aca11d241d3f6a149d8cd7c",
+        "_middle.json": "7ddadb5d897267bc85f49215b35731b752959757fc69cc450aa79e76818492cf",
+        "_model.json": "7fbc4fad2044ff94b556fdfc829ff84209d7eb337f812f4ff4fd43a5905b683f"
+      }
+    },
+    {
+      "document_id": "KB-B016-NOVONESIS-AR2025",
+      "page": 99,
+      "themes": [
+        "health_safety"
+      ],
+      "output_directory": "artifacts/scale_batch_016/mineru_targets/KB-B016-NOVONESIS-AR2025-p0099",
+      "status": "complete",
+      "started_at": "2026-09-13T09:25:59.089864+00:00",
+      "completed_at": "2026-09-13T09:26:13.712991+00:00",
+      "wall_seconds": 14.623137,
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "eddfab7b65a0b800cd7400a11c04a41c907f2df5344214471a629a0cc0460475",
+        "_content_list.json": "07996b89fe5a07d859bfd537ec2e2f3b5b52c01d1fa11536bd4487bd59a3964a",
+        "_middle.json": "17226cba7a24410f67e795c49ec937225be11bf0d1120d76037a40594f033f6f",
+        "_model.json": "26eebdd7c85d074c4411a8f0acd56fb77e08a2c387bb1baf4b121cb8ef76aa78"
+      }
+    },
+    {
+      "document_id": "KB-B016-NOVONESIS-AR2025",
+      "page": 197,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_016/mineru_targets/KB-B016-NOVONESIS-AR2025-p0197",
+      "status": "complete",
+      "started_at": "2026-09-13T09:26:13.713401+00:00",
+      "completed_at": "2026-09-13T09:26:32.233394+00:00",
+      "wall_seconds": 18.520004,
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "df3860861af38ccec9c7af157e197ef1072372d3ce5da3dec3dfa596fbe5bd67",
+        "_content_list.json": "c6b4c2c07a39532c237680f83dd0666761f1618744f8002cc318edf2bf33141b",
+        "_middle.json": "c9a66ab752199d900f1ac1936198b635aeb65c229b3890176d506e6aa252610d",
+        "_model.json": "df3c0413002012f1c823ed42281919b15fee8362b36c1d4203dc5beeb502d2fd"
+      }
+    },
+    {
+      "document_id": "KB-B016-NOVONESIS-AR2025",
+      "page": 199,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_016/mineru_targets/KB-B016-NOVONESIS-AR2025-p0199",
+      "status": "complete",
+      "started_at": "2026-09-13T09:26:32.233856+00:00",
+      "completed_at": "2026-09-13T09:26:49.046883+00:00",
+      "wall_seconds": 16.813046,
+      "selected_attempt": "INITIAL",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "6d402fa38519763ad0f0345c1c72a4f5aa7dcf0407c9238d09f4b11301d41bdb",
+        "_content_list.json": "368449283e35aeff0b0f9972c188e67303a13cc188fbfbee0e825c60d7635186",
+        "_middle.json": "4dd78b516ca37eeafd562a189a4e46f10c1658691298f0bd0fdffdecfb013f64",
+        "_model.json": "fac4f0cd960fbe96acbc094cce850c6cf8de057536cf93f0f92ae86004f3adc4"
+      }
+    }
+  ]
+}

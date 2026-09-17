@@ -1,0 +1,70 @@
+{
+  "answer": "Total energy used fell from 2,577 GWh in 2024 to 2,482 GWh in 2025, a -3.69% change. UK energy fell from 658 to 628 GWh, a -4.56% change. Renewably sourced electricity rose from 90% to 99%, an increase of 9 percentage points.",
+  "evidence": [
+    {
+      "pdf_page": 78,
+      "quote": "Total energy used (GWh)",
+      "source_id": "P23-GSK-AR2025"
+    },
+    {
+      "pdf_page": 78,
+      "quote": "2,482",
+      "source_id": "P23-GSK-AR2025"
+    },
+    {
+      "pdf_page": 78,
+      "quote": "2,577",
+      "source_id": "P23-GSK-AR2025"
+    },
+    {
+      "pdf_page": 78,
+      "quote": "UK energy used (GWh)",
+      "source_id": "P23-GSK-AR2025"
+    },
+    {
+      "pdf_page": 78,
+      "quote": "628",
+      "source_id": "P23-GSK-AR2025"
+    },
+    {
+      "pdf_page": 78,
+      "quote": "658",
+      "source_id": "P23-GSK-AR2025"
+    },
+    {
+      "pdf_page": 78,
+      "quote": "% renewably sourced electricity",
+      "source_id": "P23-GSK-AR2025"
+    },
+    {
+      "pdf_page": 78,
+      "quote": "99 %",
+      "source_id": "P23-GSK-AR2025"
+    },
+    {
+      "pdf_page": 78,
+      "quote": "90%",
+      "source_id": "P23-GSK-AR2025"
+    }
+  ],
+  "normalized_value": {
+    "boundary": "total operations and UK operations reported separately",
+    "calculated_total_energy_change_percent": -3.69,
+    "calculated_uk_energy_change_percent": -4.56,
+    "renewable_electricity_change_percentage_points": 9,
+    "renewable_electricity_percent::2024": 90,
+    "renewable_electricity_percent::2025": 99,
+    "total_energy_gwh::2024": 2577,
+    "total_energy_gwh::2025": 2482,
+    "uk_energy_gwh::2024": 658,
+    "uk_energy_gwh::2025": 628
+  },
+  "provenance": {
+    "candidate_model_used": false,
+    "reference_is_simulated": true
+  },
+  "reference_author": "codex_gpt_simulated_expert",
+  "reference_status": "verified_against_frozen_mineru_pages_and_native_layout",
+  "schema_version": "1.0",
+  "task_id": "P23-ENERGY-CALC-001"
+}

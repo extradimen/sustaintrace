@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "framework_version": "P1-PIPELINE-v0.7.6-TWO-STAGE-FACT-EXTRACTION",
+  "status": "preregistered_before_inference",
+  "registered_at": "2026-09-04T14:00:00+08:00",
+  "parent_framework": "P1-PIPELINE-v0.7.5-MINIMAL-RELATIONAL-ANSWER",
+  "triggering_archived_run": "P1-02-2-GEMMA4-12B-v075-r1",
+  "observed_failure": "The direct fact and evidence were correct, but duplicated structured metadata was omitted.",
+  "architecture": [
+    "Stage A: direct_extraction, scope_subject_boundary, and cross_page_relation return only answer plus grounded evidence_handles.",
+    "Stage B: a separately frozen atomic-claim extractor operates only on Stage A resolved verbatim evidence and emits subject, predicate, value, unit, period, and scope for the knowledge graph."
+  ],
+  "only_immediate_change": "Apply the existing minimal answer-plus-evidence contract to direct_extraction.",
+  "stage_b_status": "not_yet_implemented_no_inference_allowed",
+  "unchanged": [
+    "Period-keyed calculation, minimal abstention, and grounded controlled-conflict contracts.",
+    "Tasks, sources, MinerU artifacts, model digest, timeout, hidden references, and archival rules."
+  ],
+  "posthoc_metadata_completion_allowed": false,
+  "reference_answer_visible_during_inference": false,
+  "inference_allowed": false,
+  "next_gate": "implement_stage_a_schema_tests_and_freeze"
+}

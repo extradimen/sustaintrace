@@ -1,0 +1,26 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-006",
+  "created_at": "2026-09-12T18:42:20Z",
+  "status": "failures_archived_substitutions_resolved",
+  "events": [
+    {
+      "candidate": "Volvo Group Annual Report 2025",
+      "failure_class": "non_pdf_response",
+      "observed_bytes": 15748,
+      "resolution": "Downloaded from the alternate official Volvo asset URL and verified the replacement before freezing.",
+      "failed_payload_sha256": null,
+      "note": "The invalid response was overwritten only after the replacement passed PDF header and pdfinfo checks; its hash was not retained and is not fabricated."
+    },
+    {
+      "candidate": "Nestlé Non-Financial Statement 2025",
+      "failure_class": "http_403",
+      "resolution": "No report bytes were accepted; candidate was replaced by Reckitt before the batch source set was frozen."
+    },
+    {
+      "candidate": "Michelin 2025 Universal Registration Document",
+      "failure_class": "proxy_http_408",
+      "resolution": "Downloaded from the official direct blob asset; decoded the valid gzip transport representation and verified the resulting PDF before freezing."
+    }
+  ]
+}

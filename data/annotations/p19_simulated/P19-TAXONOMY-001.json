@@ -1,0 +1,84 @@
+{
+  "answer": "For 2025, total turnover was DKK 309,064 million, 100% eligible, with DKK 0 aligned and a 0% aligned share. Total CapEx was DKK 94,249 million, 63% eligible, with DKK 5,835 million aligned and a 6% aligned share. Alignment came from activity 7.1 Construction of new buildings. Non-material activities were 0% of turnover and 3% of CapEx (DKK 2,491 million). OpEx eligibility was not reported because OpEx was immaterial under the early-adopted new Delegated Act; total OpEx was DKK 49,308 million.",
+  "evidence": [
+    {
+      "pdf_page": 80,
+      "quote": "Novo Nordisk adjusted EU Taxonomy overview",
+      "source_id": "P19-NOVO-NORDISK-AR2025"
+    },
+    {
+      "pdf_page": 80,
+      "quote": "309,064",
+      "source_id": "P19-NOVO-NORDISK-AR2025"
+    },
+    {
+      "pdf_page": 80,
+      "quote": "94,249",
+      "source_id": "P19-NOVO-NORDISK-AR2025"
+    },
+    {
+      "pdf_page": 80,
+      "quote": "2,491",
+      "source_id": "P19-NOVO-NORDISK-AR2025"
+    },
+    {
+      "pdf_page": 80,
+      "quote": "5,835",
+      "source_id": "P19-NOVO-NORDISK-AR2025"
+    },
+    {
+      "pdf_page": 80,
+      "quote": "7.1 Construction of new buildings",
+      "source_id": "P19-NOVO-NORDISK-AR2025"
+    },
+    {
+      "pdf_page": 135,
+      "quote": "we have opted to not report on OpEx eligibility due to immateriality",
+      "source_id": "P19-NOVO-NORDISK-AR2025"
+    },
+    {
+      "pdf_page": 135,
+      "quote": "Total OpEx: 49,308 mDKK",
+      "source_id": "P19-NOVO-NORDISK-AR2025"
+    },
+    {
+      "pdf_page": 136,
+      "quote": "Manufacture of medical products",
+      "source_id": "P19-NOVO-NORDISK-AR2025"
+    },
+    {
+      "pdf_page": 136,
+      "quote": "Construction of new buildings",
+      "source_id": "P19-NOVO-NORDISK-AR2025"
+    },
+    {
+      "pdf_page": 136,
+      "quote": "Renovation of existing buildings",
+      "source_id": "P19-NOVO-NORDISK-AR2025"
+    }
+  ],
+  "normalized_value": {
+    "aligned_activity": "7.1 Construction of new buildings",
+    "capex_aligned_mdkk::2025": 5835,
+    "capex_aligned_percent::2025": 6,
+    "capex_eligible_percent::2025": 63,
+    "capex_total_mdkk::2025": 94249,
+    "nonmaterial_capex_mdkk::2025": 2491,
+    "nonmaterial_capex_percent::2025": 3,
+    "nonmaterial_turnover_percent::2025": 0,
+    "opex_eligibility_status": "not reported due to immateriality under the new Delegated Act",
+    "opex_total_mdkk::2025": 49308,
+    "turnover_aligned_mdkk::2025": 0,
+    "turnover_aligned_percent::2025": 0,
+    "turnover_eligible_percent::2025": 100,
+    "turnover_total_mdkk::2025": 309064
+  },
+  "provenance": {
+    "candidate_model_used": false,
+    "reference_is_simulated": true
+  },
+  "reference_author": "codex_gpt_simulated_expert",
+  "reference_status": "verified_against_frozen_mineru_pages_and_native_layout",
+  "schema_version": "1.0",
+  "task_id": "P19-TAXONOMY-001"
+}

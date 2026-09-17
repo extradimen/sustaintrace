@@ -1,0 +1,23 @@
+{
+  "created_at": "2026-09-02T08:56:05+08:00",
+  "experiment_id": "P0-GEMMA4-12B-V1-INTEGRATION-001",
+  "framework_version": "V1",
+  "frozen_inputs": {
+    "document_manifest": "8da6ab126cfb5d07a8546e292923102d87f371ea7eb4b7f9391350a324305d65",
+    "finding_card_schema": "e2aac00a4996600dbb56ae2531f4a69f539f8edb4ac66929a74048f284a57520",
+    "injection_policy": "985537b12c21ae063cca56992ee38769ba94d7f4c266d197b14d49c6718015b7",
+    "model_config": "51c35965648983116d878a1754ff6b351d2d1b0a35ba198b55fa170b33fae33a",
+    "prompt": "c6f7891029a9974769d6dc96f4be7a016fdf8ca8e1a436b794790b0f34b310f2",
+    "scorer": "a658a75f08e18fe67a4cb1090ee63effa4aa8cc37e52e6900d6694dc9788db6b",
+    "task_pack": "80491e7e0dce558cb89689026aa59d88d9834c9a00c0b885b12c668eac1b4916",
+    "task_runner": "ecc0d688d5d47e22fd44c7131df231209089deeca0f3a417682928518dfc6508"
+  },
+  "include_images": false,
+  "model_snapshot": "gemma4:12b@4eb23ef187e2c5462566d6a1d3bbbc2f1346d0b4327cbb66d58fffbcc9b2b05c",
+  "posthoc_semantic_repair_allowed": false,
+  "prompt_leakage_findings": 0,
+  "run_id": "gemma4-12b-p0-text-001-v1-r1",
+  "schema_version": "1.0",
+  "task_id": "P0-TEXT-001",
+  "think": false
+}

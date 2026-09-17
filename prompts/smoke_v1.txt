@@ -1,0 +1,1 @@
+Return status ok. State that this is an infrastructure smoke test, not an ESG research finding. Mark evidence_required true.

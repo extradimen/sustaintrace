@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/esg/period-coordinate-adjudication-v0.1.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version", "record_kind", "adjudication_id", "fact_record_id", "task_id",
+    "predicate", "value", "selected_period", "period_role", "coordinate_method",
+    "source_artifact", "source_artifact_sha256", "source_page", "source_text",
+    "coordinate_description", "resolved_signature", "effective_blockers",
+    "effective_status", "execution_mode", "rollback", "source_fact_modified",
+    "promotion_performed"
+  ],
+  "properties": {
+    "schema_version": {"const": "0.1"},
+    "record_kind": {"const": "period_coordinate_adjudication"},
+    "adjudication_id": {"type": "string", "pattern": "^period-adj-[0-9a-f]{24}$"},
+    "fact_record_id": {"type": "string", "pattern": "^fact-[0-9a-f]{24}$"},
+    "task_id": {"type": "string", "minLength": 1},
+    "predicate": {"type": "string", "minLength": 1},
+    "value": {},
+    "selected_period": {"type": "string", "pattern": "^(19|20)[0-9]{2}$"},
+    "period_role": {"enum": ["reporting_year", "target_year", "baseline_year"]},
+    "coordinate_method": {
+      "enum": ["narrative_relation", "table_header_column_position", "target_clause", "baseline_clause"]
+    },
+    "source_artifact": {"type": "string", "minLength": 1},
+    "source_artifact_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "source_page": {"type": "integer", "minimum": 1},
+    "source_text": {"type": "string", "minLength": 1},
+    "coordinate_description": {"type": "string", "minLength": 1},
+    "resolved_signature": {"const": "PERIOD_ATTACHMENT_INCOMPLETE"},
+    "effective_blockers": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "effective_status": {
+      "enum": ["ready_for_independent_source_review", "blocked_additional_qualification"]
+    },
+    "execution_mode": {"const": "derived_layer_only"},
+    "rollback": {"const": "delete_period_coordinate_adjudication"},
+    "source_fact_modified": {"const": false},
+    "promotion_performed": {"const": false}
+  }
+}

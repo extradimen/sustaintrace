@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0",
+  "freeze_id": "P4-PARSER-AND-AUTHORING-V01",
+  "status": "frozen_before_report_body_indexing",
+  "experiment_id": "P4-V13-UNSEEN-LOCKBOX-V01",
+  "source_manifest": "data/manifests/p4_source_acquisition_v0.1.lock.json",
+  "source_manifest_sha256": "e1f31cdaed464a1923553b552f81a8a44bdf71616f9b568dc2959c0b58347f91",
+  "two_pass_parsing": {
+    "pass_1": "Use pdftotext with page boundaries to build a deterministic task-authoring discovery index for every accepted report.",
+    "pass_1_role": "Locator and task-authoring channel only; never candidate evidence.",
+    "pass_2": "After tasks and page windows are frozen, parse only frozen windows with MinerU 3.4.0 pipeline.",
+    "pass_2_role": "Primary structured evidence channel.",
+    "fallback": "Apply the independently frozen v1.3.2 task-independent parser-anomaly trigger; when triggered, add auditable native-PDF layout evidence with page, line, word, and bounding-box coordinates.",
+    "fallback_trigger": "configs/framework/v1.3.2_parser_anomaly_trigger.lock.json",
+    "fallback_trigger_sha256": "1650189dac1e28b87f372efdb8101bd689bb0bdc98867af2d7522903d49eed95"
+  },
+  "mineru": {
+    "version": "3.4.0",
+    "backend": "pipeline",
+    "method": "auto",
+    "runtime_lock_sha256": "baa209d710927504584141448237c6e4892fc4c657a7c69dd127a065ccd58aa5",
+    "tools_config_sha256": "7c791a9086197b8eb568f8f238f2447e5a82df8b27aeaad726ae856468925e92",
+    "asset_manifest_sha256": "05bcc88e0e3b187193ab69e41ce1e73f0519bf1984cf014936d79d3f1e83ee5c",
+    "asset_revision": "ed6b654c018d742e65a17671e379c5e6ecc87ec9",
+    "asset_count": 40,
+    "asset_bytes": 2595586833,
+    "asset_audit": "passed"
+  },
+  "task_authoring": {
+    "target_task_count": 9,
+    "minimum_task_count": 6,
+    "types": [
+      "direct_extraction",
+      "deterministic_calculation",
+      "cross_page_relation",
+      "scope_subject_boundary",
+      "controlled_conflict",
+      "abstention"
+    ],
+    "required_report_coverage": 3,
+    "candidate_packets_must_exclude_reference": true,
+    "questions_and_page_windows_frozen_before_candidate_execution": true,
+    "controlled_conflicts_created_only_after_official_evidence_freeze": true,
+    "abstentions_require_audited_absence_over_a_defined_scope": true
+  },
+  "execution_constraints": {
+    "no_candidate_inference_before_full_task_pack_freeze": true,
+    "single_attempt_per_task": true,
+    "archive_all_failures": true,
+    "no_posthoc_semantic_repair": true,
+    "no_source_replacement_after_body_indexing": true,
+    "p3_remains_locked_and_is_not_rerun": true
+  }
+}

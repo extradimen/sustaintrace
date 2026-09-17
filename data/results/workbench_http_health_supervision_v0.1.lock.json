@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0",
+  "record_kind": "workbench_http_health_supervision_milestone",
+  "milestone_id": "WORKBENCH-HTTP-HEALTH-SUPERVISION-V01",
+  "completed_at": "2026-09-17T02:32:25Z",
+  "status": "passed",
+  "policy": {
+    "api_health_url": "http://127.0.0.1:8787/api/v1/health",
+    "ui_health_url": "http://localhost:5173/",
+    "health_interval_seconds": 3,
+    "health_timeout_seconds": 2,
+    "health_failure_threshold": 3,
+    "api_startup_grace_seconds": 15,
+    "ui_startup_grace_seconds": 45,
+    "restart_budget_remains_bounded": true,
+    "completed_jobs_are_never_restarted": true
+  },
+  "verification": {
+    "pytest": {"status": "passed", "tests": 582},
+    "ruff": {"status": "passed"},
+    "live_api_health": "healthy",
+    "live_ui_health": "healthy",
+    "api_consecutive_health_failures": 0,
+    "ui_consecutive_health_failures": 0,
+    "supervisor_pid": 75862
+  },
+  "locked_experiments_modified": false,
+  "files": {
+    "scripts/run_workbench.py": "11a71e48ce787e6a5da3debf89ae5cd1210f03b039ef3413bc4ff18c774bf212",
+    "tests/test_run_workbench.py": "c4e04de09734cfe7b34fc226ba9eb9f85d28706dcd03741b39cab51a4ec3747e"
+  },
+  "report": "docs/191_工作台真实HTTP健康探针与自动恢复_v0.1.md"
+}

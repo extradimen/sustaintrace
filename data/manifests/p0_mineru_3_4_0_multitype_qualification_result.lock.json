@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "check_id": "P0-MINERU-MULTITYPE-QUALIFICATION-001",
+  "decision": "passed_with_abstention_visual_limitation",
+  "parser": "MinerU 3.4.0 pipeline",
+  "dependency_lock": {"pdftext": "0.6.3", "pypdfium2": "4.30.0"},
+  "results": [
+    {
+      "task_id": "P0-TARGET-001",
+      "status": "passed",
+      "direct_findings": ["Steel: not on track", "Shipping: not on track"],
+      "audit_record_sha256": "0eddfce4cf8dcaed93630d791eb6409411af0aec74893d4202f701219410dfde",
+      "markdown_sha256": "9281d1e71610343db106dc4a6bc0864dda5320b8c342df7210375ad19b4fcc8e"
+    },
+    {
+      "task_id": "P0-ABSTAIN-001",
+      "status": "passed_text_channel_visual_review_required",
+      "direct_findings": ["No achieved metric-ton reduction stated", "No completion date stated"],
+      "audit_record_sha256": "b6247f09fdff2ac9730aeb0606ad1ba0535399f20e98f3346cba23993af980be",
+      "markdown_sha256": "df06e5480e0cf5faa4ec5bf637a02987c5577c3980c0538168cf44e320543c9f"
+    },
+    {
+      "task_id": "P0-OPEN-001",
+      "status": "parse_channel_passed_human_open_review_still_required",
+      "direct_findings": [
+        "Climate transition expenditure ranges by horizon",
+        "Carbon pricing risk and electricity cost opportunity ranges",
+        "2024 capital expenditure, emissions reductions and renewable electricity share"
+      ],
+      "audit_record_sha256": "a187e572bd4437d4fa271a890d4fe52a713b54c69d95b3919fa489499451c192",
+      "markdown_sha256": "951d7c139a7b0570ce1206a40a66640b404356aceaf2411cb3ed3c663a5ff3e4"
+    }
+  ],
+  "evidence_policy": "Derived parses are inputs, not evidence authority; source PDF hashes and page handles remain authoritative.",
+  "p1_inference_allowed": false
+}

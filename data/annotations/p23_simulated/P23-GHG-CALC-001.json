@@ -1,0 +1,77 @@
+{
+  "answer": "In thousand tonnes CO2e, the market-based operational total is 565 for 2024 (289 + 232 + 44) and 486 for 2025 (280 + 199 + 7). The change is -13.98%, which is consistent with the issuer's rounded statement of a 14% reduction.",
+  "evidence": [
+    {
+      "pdf_page": 55,
+      "quote": "reduced our Scope 1 & 2 carbon emissions",
+      "source_id": "P23-GSK-AR2025"
+    },
+    {
+      "pdf_page": 55,
+      "quote": "14% compared with 2024",
+      "source_id": "P23-GSK-AR2025"
+    },
+    {
+      "pdf_page": 78,
+      "quote": "Scope 1 emissions (from energy)",
+      "source_id": "P23-GSK-AR2025"
+    },
+    {
+      "pdf_page": 78,
+      "quote": "Scope 1 emissions (other",
+      "source_id": "P23-GSK-AR2025"
+    },
+    {
+      "pdf_page": 78,
+      "quote": "Scope 2 emissions (market-based",
+      "source_id": "P23-GSK-AR2025"
+    },
+    {
+      "pdf_page": 78,
+      "quote": "280",
+      "source_id": "P23-GSK-AR2025"
+    },
+    {
+      "pdf_page": 78,
+      "quote": "289",
+      "source_id": "P23-GSK-AR2025"
+    },
+    {
+      "pdf_page": 78,
+      "quote": "199",
+      "source_id": "P23-GSK-AR2025"
+    },
+    {
+      "pdf_page": 78,
+      "quote": "232",
+      "source_id": "P23-GSK-AR2025"
+    },
+    {
+      "pdf_page": 78,
+      "quote": "44",
+      "source_id": "P23-GSK-AR2025"
+    }
+  ],
+  "normalized_value": {
+    "boundary": "Scope 1 plus market-based Scope 2; thousand tonnes CO2e",
+    "calculated_change_percent": -13.98,
+    "calculated_operational_total_thousand_tco2e::2024": 565,
+    "calculated_operational_total_thousand_tco2e::2025": 486,
+    "issuer_reduction_percent": 14,
+    "rounding_comparison": "consistent",
+    "scope1_energy_thousand_tco2e::2024": 289,
+    "scope1_energy_thousand_tco2e::2025": 280,
+    "scope1_other_thousand_tco2e::2024": 232,
+    "scope1_other_thousand_tco2e::2025": 199,
+    "scope2_market_thousand_tco2e::2024": 44,
+    "scope2_market_thousand_tco2e::2025": 7
+  },
+  "provenance": {
+    "candidate_model_used": false,
+    "reference_is_simulated": true
+  },
+  "reference_author": "codex_gpt_simulated_expert",
+  "reference_status": "verified_against_frozen_mineru_pages_and_native_layout",
+  "schema_version": "1.0",
+  "task_id": "P23-GHG-CALC-001"
+}

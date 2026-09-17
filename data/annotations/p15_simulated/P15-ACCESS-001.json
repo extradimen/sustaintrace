@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "task_id": "P15-ACCESS-001",
+  "reference_author": "codex_gpt_simulated_expert",
+  "reference_status": "verified_against_frozen_pages",
+  "answer": "Novartis reported reaching 304 million patients and selling products in 118 countries in 2025. Patients reached covers the global registered and commercialized portfolio, including established medicines, third-party sales, patient support programs, donations and access foundations, but excludes samples, certain contract brands and certain radioligand therapy brands; it uses therapy volumes plus dosage, treatment-duration and compliance assumptions and may double-count a person treated for different diseases with more than one Novartis product. Countries require third-party sales above USD 1 million and ongoing operations, are cross-checked to UN geography, and exclude some overseas departments or districts/regions.",
+  "normalized_value": {
+    "patients_reached_millions": 304,
+    "countries_with_products_sold": 118,
+    "patient_calculation_basis": "therapy volumes with treatment dosage, treatment duration and compliance-rate assumptions",
+    "patient_inclusions": "third-party sales, patient support programs, donations and access foundations; established medicines included",
+    "patient_exclusions": "samples, certain contract brands and certain radioligand therapy brands",
+    "patient_double_counting_limitation": "an individual treated for different diseases with more than one Novartis product may be counted more than once",
+    "country_sales_threshold_usd": 1000000,
+    "country_operating_requirement": "ongoing operations",
+    "country_geographic_boundary": "cross-checked with UN Statistics Division geography, excluding some overseas departments or districts/regions"
+  },
+  "evidence": [
+    {"source_id": "P15-NOVARTIS-NFM2025", "pdf_page": 36, "quote": "Patients reached (millions)"},
+    {"source_id": "P15-NOVARTIS-NFM2025", "pdf_page": 36, "quote": "Countries with products sold"},
+    {"source_id": "P15-NOVARTIS-NFM2025", "pdf_page": 36, "quote": "with the exclusion of samples, certain contract brands and certain radioligand therapy brands"},
+    {"source_id": "P15-NOVARTIS-NFM2025", "pdf_page": 36, "quote": "sales above USD 1 million and ongoing operations"},
+    {"source_id": "P15-NOVARTIS-NFM2025", "pdf_page": 36, "quote": "excluding some overseas departments or districts/regions"}
+  ],
+  "provenance": {"reference_is_simulated": true, "candidate_model_used": false}
+}

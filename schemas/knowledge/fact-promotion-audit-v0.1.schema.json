@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/esg-reliable-discovery/fact-promotion-audit-v0.1.schema.json",
+  "title": "Fact promotion audit v0.1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "record_kind",
+    "fact_record_id",
+    "source_grounding_status",
+    "checks",
+    "promotion_decision"
+  ],
+  "properties": {
+    "schema_version": {"const": "0.1"},
+    "record_kind": {"const": "fact_promotion_audit"},
+    "fact_record_id": {"type": "string", "pattern": "^fact-[0-9a-f]{24}$"},
+    "source_grounding_status": {
+      "enum": ["passed", "failed_quote", "missing_parser_artifact", "hash_mismatch"]
+    },
+    "checks": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "evidence_items",
+        "registered_documents",
+        "located_parser_pages",
+        "matched_quotes",
+        "parser_hashes_valid"
+      ],
+      "properties": {
+        "evidence_items": {"type": "integer", "minimum": 0},
+        "registered_documents": {"type": "integer", "minimum": 0},
+        "located_parser_pages": {"type": "integer", "minimum": 0},
+        "matched_quotes": {"type": "integer", "minimum": 0},
+        "parser_hashes_valid": {"type": "integer", "minimum": 0}
+      }
+    },
+    "unmatched_evidence": {"type": "array", "items": {"type": "object"}},
+    "promotion_decision": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["eligible", "target_tier", "reason"],
+      "properties": {
+        "eligible": {"const": false},
+        "target_tier": {"const": "B"},
+        "reason": {"type": "string", "minLength": 1}
+      }
+    }
+  }
+}

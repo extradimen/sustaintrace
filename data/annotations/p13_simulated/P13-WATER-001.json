@@ -1,0 +1,7 @@
+{
+  "schema_version":"1.0","task_id":"P13-WATER-001","reference_author":"codex_gpt_simulated_expert","reference_status":"verified_against_frozen_pages",
+  "answer":"For 2025 Schneider Electric reported 1,944,796 m3 of total water withdrawals other than cooling, 874,433 m3 from water-stressed areas, estimated withdrawal coverage of 85%, and intensity of 48.4 m3 per million euros. A further 890,844 m3 withdrawn for cooling and returned without impact was measured separately and excluded from performance calculations.",
+  "normalized_value":{"withdrawal_coverage_percent":85,"total_withdrawal_excluding_cooling_m3":1944796,"water_stress_withdrawal_m3":874433,"withdrawal_intensity_m3_per_million_eur":48.4,"cooling_water_m3":890844,"cooling_treatment":"measured separately and excluded from performance calculations"},
+  "evidence":[{"source_id":"P13-SCHNEIDER-URD2025","pdf_page":344,"quote":"Estimated coverage (% water withdrawal)"},{"source_id":"P13-SCHNEIDER-URD2025","pdf_page":344,"quote":"Total water withdrawals (other than for cooling)"},{"source_id":"P13-SCHNEIDER-URD2025","pdf_page":344,"quote":"Total water withdrawals from areas with"},{"source_id":"P13-SCHNEIDER-URD2025","pdf_page":344,"quote":"Water withdrawal/Turnover(3)"},{"source_id":"P13-SCHNEIDER-URD2025","pdf_page":344,"quote":"Water withdrawn for cooling and restituted w/o"}],
+  "provenance":{"reference_is_simulated":true,"candidate_model_used":false}
+}

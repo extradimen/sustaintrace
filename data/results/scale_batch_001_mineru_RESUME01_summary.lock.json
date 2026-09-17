@@ -1,0 +1,248 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-001-RESUME01",
+  "updated_at": "2026-09-12T14:37:36.794626+00:00",
+  "status": "complete",
+  "cloud_transmission": false,
+  "total_target_pages": 26,
+  "complete_pages": 25,
+  "failed_pages": 1,
+  "pending_pages": 0,
+  "records": [
+    {
+      "document_id": "KB-B001-VW-SR2025",
+      "page": 50,
+      "themes": [
+        "targets"
+      ],
+      "output_directory": "artifacts/scale_batch_001/mineru_targets_RESUME01/KB-B001-VW-SR2025-p0050",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B001-VW-SR2025",
+      "page": 60,
+      "themes": [
+        "energy"
+      ],
+      "output_directory": "artifacts/scale_batch_001/mineru_targets_RESUME01/KB-B001-VW-SR2025-p0060",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B001-VW-SR2025",
+      "page": 62,
+      "themes": [
+        "ghg_emissions"
+      ],
+      "output_directory": "artifacts/scale_batch_001/mineru_targets_RESUME01/KB-B001-VW-SR2025-p0062",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B001-VW-SR2025",
+      "page": 88,
+      "themes": [
+        "water"
+      ],
+      "output_directory": "artifacts/scale_batch_001/mineru_targets_RESUME01/KB-B001-VW-SR2025-p0088",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B001-VW-SR2025",
+      "page": 99,
+      "themes": [
+        "biodiversity"
+      ],
+      "output_directory": "artifacts/scale_batch_001/mineru_targets_RESUME01/KB-B001-VW-SR2025-p0099",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B001-VW-SR2025",
+      "page": 105,
+      "themes": [
+        "circularity"
+      ],
+      "output_directory": "artifacts/scale_batch_001/mineru_targets_RESUME01/KB-B001-VW-SR2025-p0105",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B001-VW-SR2025",
+      "page": 132,
+      "themes": [
+        "workforce"
+      ],
+      "output_directory": "artifacts/scale_batch_001/mineru_targets_RESUME01/KB-B001-VW-SR2025-p0132",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B001-VW-SR2025",
+      "page": 152,
+      "themes": [
+        "health_safety"
+      ],
+      "output_directory": "artifacts/scale_batch_001/mineru_targets_RESUME01/KB-B001-VW-SR2025-p0152",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B001-SSE-SR2025",
+      "page": 3,
+      "themes": [
+        "energy"
+      ],
+      "output_directory": "artifacts/scale_batch_001/mineru_targets_RESUME01/KB-B001-SSE-SR2025-p0003",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B001-SSE-SR2025",
+      "page": 9,
+      "themes": [
+        "targets"
+      ],
+      "output_directory": "artifacts/scale_batch_001/mineru_targets_RESUME01/KB-B001-SSE-SR2025-p0009",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B001-SSE-SR2025",
+      "page": 11,
+      "themes": [
+        "ghg_emissions"
+      ],
+      "output_directory": "artifacts/scale_batch_001/mineru_targets_RESUME01/KB-B001-SSE-SR2025-p0011",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B001-SSE-SR2025",
+      "page": 23,
+      "themes": [
+        "health_safety"
+      ],
+      "output_directory": "artifacts/scale_batch_001/mineru_targets_RESUME01/KB-B001-SSE-SR2025-p0023",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B001-SSE-SR2025",
+      "page": 25,
+      "themes": [
+        "workforce"
+      ],
+      "output_directory": "artifacts/scale_batch_001/mineru_targets_RESUME01/KB-B001-SSE-SR2025-p0025",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B001-SSE-SR2025",
+      "page": 37,
+      "themes": [
+        "biodiversity"
+      ],
+      "output_directory": "artifacts/scale_batch_001/mineru_targets_RESUME01/KB-B001-SSE-SR2025-p0037",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B001-SSE-SR2025",
+      "page": 39,
+      "themes": [
+        "circularity"
+      ],
+      "output_directory": "artifacts/scale_batch_001/mineru_targets_RESUME01/KB-B001-SSE-SR2025-p0039",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B001-SSE-SR2025",
+      "page": 43,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_001/mineru_targets_RESUME01/KB-B001-SSE-SR2025-p0043",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B001-SSE-SR2025",
+      "page": 48,
+      "themes": [
+        "water"
+      ],
+      "output_directory": "artifacts/scale_batch_001/mineru_targets_RESUME01/KB-B001-SSE-SR2025-p0048",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B001-DANONE-URD2025",
+      "page": 202,
+      "themes": [
+        "biodiversity"
+      ],
+      "output_directory": "artifacts/scale_batch_001/mineru_targets_RESUME01/KB-B001-DANONE-URD2025-p0202",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B001-DANONE-URD2025",
+      "page": 210,
+      "themes": [
+        "health_safety"
+      ],
+      "output_directory": "artifacts/scale_batch_001/mineru_targets_RESUME01/KB-B001-DANONE-URD2025-p0210",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B001-DANONE-URD2025",
+      "page": 226,
+      "themes": [
+        "targets"
+      ],
+      "output_directory": "artifacts/scale_batch_001/mineru_targets_RESUME01/KB-B001-DANONE-URD2025-p0226",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B001-DANONE-URD2025",
+      "page": 227,
+      "themes": [
+        "ghg_emissions"
+      ],
+      "output_directory": "artifacts/scale_batch_001/mineru_targets_RESUME01/KB-B001-DANONE-URD2025-p0227",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_001/mineru_targets_RESUME01/KB-B001-DANONE-URD2025-p0227/esg_rd_mineru_run.json"
+    },
+    {
+      "document_id": "KB-B001-DANONE-URD2025",
+      "page": 229,
+      "themes": [
+        "energy"
+      ],
+      "output_directory": "artifacts/scale_batch_001/mineru_targets_RESUME01/KB-B001-DANONE-URD2025-p0229",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B001-DANONE-URD2025",
+      "page": 240,
+      "themes": [
+        "water"
+      ],
+      "output_directory": "artifacts/scale_batch_001/mineru_targets_RESUME01/KB-B001-DANONE-URD2025-p0240",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B001-DANONE-URD2025",
+      "page": 272,
+      "themes": [
+        "workforce"
+      ],
+      "output_directory": "artifacts/scale_batch_001/mineru_targets_RESUME01/KB-B001-DANONE-URD2025-p0272",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B001-DANONE-URD2025",
+      "page": 299,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_001/mineru_targets_RESUME01/KB-B001-DANONE-URD2025-p0299",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B001-DANONE-URD2025",
+      "page": 346,
+      "themes": [
+        "circularity"
+      ],
+      "output_directory": "artifacts/scale_batch_001/mineru_targets_RESUME01/KB-B001-DANONE-URD2025-p0346",
+      "status": "complete"
+    }
+  ]
+}

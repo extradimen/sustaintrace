@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/esg-reliable-discovery/knowledge-gap-v0.1.schema.json",
+  "title": "Knowledge qualification gap v0.1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "record_kind", "gap_id", "fact_record_id", "task_id", "gap_signature", "severity", "current_state", "required_state", "recommended_repair", "execution_policy", "source_artifacts"],
+  "properties": {
+    "schema_version": {"const": "0.1"},
+    "record_kind": {"const": "knowledge_gap"},
+    "gap_id": {"type": "string", "pattern": "^gap-[0-9a-f]{24}$"},
+    "fact_record_id": {"type": "string", "pattern": "^fact-[0-9a-f]{24}$"},
+    "task_id": {"type": "string", "minLength": 1},
+    "gap_signature": {"type": "string", "minLength": 1},
+    "severity": {"enum": ["blocking", "qualification"]},
+    "current_state": {"type": "string", "minLength": 1},
+    "required_state": {"type": "string", "minLength": 1},
+    "recommended_repair": {"type": "string", "minLength": 1},
+    "execution_policy": {"enum": ["deterministic_candidate", "supervised", "blocked"]},
+    "source_artifacts": {"type": "array", "items": {"type": "string", "minLength": 1}, "uniqueItems": true}
+  }
+}

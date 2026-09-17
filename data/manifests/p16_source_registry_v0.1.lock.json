@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "registry_id": "P16-SOURCE-REGISTRY-v0.1",
+  "status": "source_frozen_before_task_authoring_and_candidate_inference",
+  "candidates": [
+    {
+      "candidate_id": "P16-CAND-001",
+      "document_id": "P16-SANOFI-SS2025",
+      "company": "Sanofi",
+      "title": "Sustainability Statement 2025",
+      "language": "English",
+      "eligibility_status": "eligible",
+      "sha256": "82547ddb72b6b05dca88f93ed4cfe13010cb5690a5693b96721e9be3ff9c8fcc",
+      "official_landing_page": "https://www.sanofi.com/en/publications",
+      "local_path": "data/raw/p16_staging/sanofi-sustainability-statement-2025.pdf",
+      "page_count": 138
+    }
+  ]
+}

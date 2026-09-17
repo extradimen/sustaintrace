@@ -1,0 +1,561 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-010-MINERU-FINAL",
+  "updated_at": "2026-09-13T03:46:48.854407+00:00",
+  "status": "complete",
+  "cloud_transmission": false,
+  "total_target_pages": 27,
+  "complete_pages": 27,
+  "failed_pages": 0,
+  "pending_pages": 0,
+  "post_completion_shutdown_recovered_pages": 0,
+  "recovered_pages": [],
+  "parent_attempts": [
+    "data/results/scale_batch_010_mineru_summary.lock.json",
+    "data/results/scale_batch_010_mineru_RESUME01_summary.lock.json",
+    "data/results/scale_batch_010_mineru_RESUME02_summary.lock.json"
+  ],
+  "parent_failures_preserved": true,
+  "records": [
+    {
+      "document_id": "KB-B010-ADIDAS-AR2025",
+      "page": 171,
+      "themes": [
+        "targets"
+      ],
+      "output_directory": "artifacts/scale_batch_010/mineru_targets_RESUME01/KB-B010-ADIDAS-AR2025-p0171",
+      "status": "complete",
+      "started_at": "2026-09-13T03:32:43.050327+00:00",
+      "completed_at": "2026-09-13T03:33:39.537263+00:00",
+      "wall_seconds": 56.48711,
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "36c714d1a5ab41c6008a4643066c357bc274d137139320dbe0011d154681a846",
+        "_content_list.json": "d43d6ca6893473ad00e9500796b978412b0fb99f256489ad128db5198fd8f67b",
+        "_middle.json": "1b1b8c35835c847cc8445da38051e537cfc85234b27fdcbde5caa68341d21449",
+        "_model.json": "402effbe2ee5acc5ede54de70e1c0127916b23b21026c462debdc486ceb8f849"
+      }
+    },
+    {
+      "document_id": "KB-B010-ADIDAS-AR2025",
+      "page": 184,
+      "themes": [
+        "energy"
+      ],
+      "output_directory": "artifacts/scale_batch_010/mineru_targets_RESUME01/KB-B010-ADIDAS-AR2025-p0184",
+      "status": "complete",
+      "started_at": "2026-09-13T03:33:39.539561+00:00",
+      "completed_at": "2026-09-13T03:34:42.588767+00:00",
+      "wall_seconds": 63.049415,
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "721551a470b2e87f2b523cd7de3a1b3f14559347aa1b5a5ce2433729597ad8ab",
+        "_content_list.json": "08958ab26c1baa6bf6fa79a12c1612e1d3a87bff388317a7569f5037eb8ff0c0",
+        "_middle.json": "fa0d4a6d958da619edc28b664ebc6d66c775b46140a1d5006efd0aa14b243236",
+        "_model.json": "37eeb84d6083fbfe132f36b355ecbe16947330ffb738177f0bfc7cbd27458a6a"
+      }
+    },
+    {
+      "document_id": "KB-B010-ADIDAS-AR2025",
+      "page": 185,
+      "themes": [
+        "ghg_emissions"
+      ],
+      "output_directory": "artifacts/scale_batch_010/mineru_targets_RESUME01/KB-B010-ADIDAS-AR2025-p0185",
+      "status": "complete",
+      "started_at": "2026-09-13T03:34:42.590840+00:00",
+      "completed_at": "2026-09-13T03:36:06.598982+00:00",
+      "wall_seconds": 84.008401,
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "39536a23694968cd4d97e32a038fe9dbef38fefa4158d93ef66c4dca9f68e8b9",
+        "_content_list.json": "0c89b98fd0d0cf0a91887ebb71e8abd8fdb2123a03377334a6593869b5032449",
+        "_middle.json": "8022735e591bb9eb3e637cb5b015a56adb773f2f595a97b7a7206d3a90bd8779",
+        "_model.json": "d9e5428b495865b027e8e648883f52547a4a8a5d0c4f2c16ad3f3b31126d0e81"
+      }
+    },
+    {
+      "document_id": "KB-B010-ADIDAS-AR2025",
+      "page": 203,
+      "themes": [
+        "water"
+      ],
+      "output_directory": "artifacts/scale_batch_010/mineru_targets_RESUME01/KB-B010-ADIDAS-AR2025-p0203",
+      "status": "complete",
+      "started_at": "2026-09-13T03:36:06.600184+00:00",
+      "completed_at": "2026-09-13T03:36:28.058382+00:00",
+      "wall_seconds": 21.516016,
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "66f521d4757787b0d3db0f8f87bca9c0f88445242002b6b6593cf0e7ec6c03cc",
+        "_content_list.json": "7dd29d7b9827cf1e93be64e5ff5c39b986315aa0c6d8fe303d9d9ebaf67dd537",
+        "_middle.json": "842cc1b5abbffa7b713b3504dbc3144c5171a4c9b09e99fe8b0c48d00b959655",
+        "_model.json": "43ff546096200fa0df195bd8dfe2dc1b7c1460927b4c99cef7ec1954ecd6b836"
+      }
+    },
+    {
+      "document_id": "KB-B010-ADIDAS-AR2025",
+      "page": 206,
+      "themes": [
+        "biodiversity"
+      ],
+      "output_directory": "artifacts/scale_batch_010/mineru_targets_RESUME01/KB-B010-ADIDAS-AR2025-p0206",
+      "status": "complete",
+      "started_at": "2026-09-13T03:36:28.059300+00:00",
+      "completed_at": "2026-09-13T03:36:42.438082+00:00",
+      "wall_seconds": 14.378922,
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "091bacfbf53427bec328b41e177ade9eaf171d14b1d594cf1aa53967c52d38b5",
+        "_content_list.json": "3596c3ba07f957ddbcb09eb0079f34f7a70bc712e824192d0895c1af211ca070",
+        "_middle.json": "f7aa23fcbf0ca9d035a737475614ae6657ced90d04653740aa54c1fd19dfbc13",
+        "_model.json": "d91d2867bab93c42f687f45b300534e18d596012b897c19e517f4c29d6f2c17d"
+      }
+    },
+    {
+      "document_id": "KB-B010-ADIDAS-AR2025",
+      "page": 221,
+      "themes": [
+        "circularity"
+      ],
+      "output_directory": "artifacts/scale_batch_010/mineru_targets_RESUME01/KB-B010-ADIDAS-AR2025-p0221",
+      "status": "complete",
+      "started_at": "2026-09-13T03:36:42.438513+00:00",
+      "completed_at": "2026-09-13T03:37:02.662161+00:00",
+      "wall_seconds": 20.223848,
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "ff7d68cb4567baeee127dfa612b8c783885097f89e5ebdc9942329dbd0203a94",
+        "_content_list.json": "d77f9551666a28c4e4886582a21839a3dd461bf56ddaa9c79ea7124d76c1dc36",
+        "_middle.json": "a7f65b9049b16786d928b7ab21339f930400b925aede45d3d754b51484f1fc2d",
+        "_model.json": "25e2b778e84aff2064a4341efde89b16469120272a9cffc3e27e7aed5e926879"
+      }
+    },
+    {
+      "document_id": "KB-B010-ADIDAS-AR2025",
+      "page": 247,
+      "themes": [
+        "workforce"
+      ],
+      "output_directory": "artifacts/scale_batch_010/mineru_targets_RESUME01/KB-B010-ADIDAS-AR2025-p0247",
+      "status": "complete",
+      "started_at": "2026-09-13T03:37:02.663954+00:00",
+      "completed_at": "2026-09-13T03:37:19.835722+00:00",
+      "wall_seconds": 17.171939,
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "2f33322bec32afe0e37beca6c461f964d32b66ac75430402a4d5b74e0872ea14",
+        "_content_list.json": "f26c520010670dbaf5deca2806979f3e6ab2f81193ebee4f353121036dce81fb",
+        "_middle.json": "41f2f827ad2bcd4e392c8854f0ebe81b603e9d33cba8a362f1a237358e54a1ad",
+        "_model.json": "a510af5309eface362168cf7919008655c99d30cae59767a79520d5d062459e0"
+      }
+    },
+    {
+      "document_id": "KB-B010-ADIDAS-AR2025",
+      "page": 262,
+      "themes": [
+        "health_safety"
+      ],
+      "output_directory": "artifacts/scale_batch_010/mineru_targets_RESUME01/KB-B010-ADIDAS-AR2025-p0262",
+      "status": "complete",
+      "started_at": "2026-09-13T03:37:19.836213+00:00",
+      "completed_at": "2026-09-13T03:37:48.382398+00:00",
+      "wall_seconds": 28.546469,
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "b825ec607a3aa2be343e6524f20c2072ccd2aa00677fd12069eb9ddcb3a6f321",
+        "_content_list.json": "c66c3db52a10f691d550a24d87c4c3c4d99f90d97038f5f4220282e73d6d3005",
+        "_middle.json": "b88de925f88d5acd74bdbfa50107ce725f7602a75a9d42fcd5fbc8542f30ebba",
+        "_model.json": "02a4eccb2e12657573a863364ebefeca74fddcca679968b818d4747145f15626"
+      }
+    },
+    {
+      "document_id": "KB-B010-ADIDAS-AR2025",
+      "page": 420,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_010/mineru_targets_RESUME01/KB-B010-ADIDAS-AR2025-p0420",
+      "status": "complete",
+      "started_at": "2026-09-13T03:37:48.383524+00:00",
+      "completed_at": "2026-09-13T03:38:09.245794+00:00",
+      "wall_seconds": 20.862475,
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "bc1d587a71d2ca6c1f5131929a1b98c43b2a1019ef0a4c7aaa453765e6fe3479",
+        "_content_list.json": "055b1c134024d4dbf363d6ff66a9196527e8108ea771db769fb84d8af4b04703",
+        "_middle.json": "b3d1dff675c6b4481e81e5299c811a15b138169ef2082ea58c53ea7990b9e511",
+        "_model.json": "f64b0f61b2ac5ad76b4348153b4dbb8db920c7c3c9933fb1d68c293a307ec1cd"
+      }
+    },
+    {
+      "document_id": "KB-B010-PUMA-AR2025",
+      "page": 96,
+      "themes": [
+        "targets"
+      ],
+      "output_directory": "artifacts/scale_batch_010/mineru_targets_RESUME01/KB-B010-PUMA-AR2025-p0096",
+      "status": "complete",
+      "started_at": "2026-09-13T03:25:04.835278+00:00",
+      "completed_at": "2026-09-13T03:25:23.155543+00:00",
+      "wall_seconds": 18.320193,
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "36327eabc8fc8749e732034ea24d7df71a568034a25c26a7451475f168e46fef",
+        "_content_list.json": "78598b0f0be368f6d2c35e10d5c8734883d814e735ca17763d5be64160d3ff25",
+        "_middle.json": "e0566a4599138af006ff4cf1045d31c07c376ae13bf23e5f847dbe03df1e9520",
+        "_model.json": "78f152dc0bff7516f349bc1228e7e824ff95da19376a753628ebc1904337defe"
+      }
+    },
+    {
+      "document_id": "KB-B010-PUMA-AR2025",
+      "page": 104,
+      "themes": [
+        "energy"
+      ],
+      "output_directory": "artifacts/scale_batch_010/mineru_targets_RESUME01/KB-B010-PUMA-AR2025-p0104",
+      "status": "complete",
+      "started_at": "2026-09-13T03:25:23.156096+00:00",
+      "completed_at": "2026-09-13T03:25:51.180251+00:00",
+      "wall_seconds": 28.024248,
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "edd92be7f363e170c5402cc13016d6e8bd378f94cecb4478d8f5bc15774e63fb",
+        "_content_list.json": "826b9d9576be893143bf2502118a7e8d26d54b3192b12b37ddc3d039ff555f0e",
+        "_middle.json": "450969622c1a3366bca69ce0b7db6d3aa672416a58e2bf471e7cd7c9381b81f7",
+        "_model.json": "eac8a419e9f8107a390baf924edd9332a92d7cbf5dc32c72eb6f8e6c9be9e0df"
+      }
+    },
+    {
+      "document_id": "KB-B010-PUMA-AR2025",
+      "page": 108,
+      "themes": [
+        "ghg_emissions"
+      ],
+      "output_directory": "artifacts/scale_batch_010/mineru_targets_RESUME01/KB-B010-PUMA-AR2025-p0108",
+      "status": "complete",
+      "started_at": "2026-09-13T03:25:51.180932+00:00",
+      "completed_at": "2026-09-13T03:26:56.414051+00:00",
+      "wall_seconds": 65.23333,
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "3c5005ce23479158e0231c229cf99ec1db14bdecccc5e938c4c208045fb46caf",
+        "_content_list.json": "a2765886af27b931701d4bd4fe40f659956fea78b19a24e019f8a4bef36d3e0c",
+        "_middle.json": "9c92536d714710154d1c1f57639668958f45786c6853751c946a8a97411d49cb",
+        "_model.json": "1ad8a284f423bb636e8f30935d7537a98f2cdc9238d0d51e62a3eab09dbc7b01"
+      }
+    },
+    {
+      "document_id": "KB-B010-PUMA-AR2025",
+      "page": 124,
+      "themes": [
+        "water"
+      ],
+      "output_directory": "artifacts/scale_batch_010/mineru_targets_RESUME01/KB-B010-PUMA-AR2025-p0124",
+      "status": "complete",
+      "started_at": "2026-09-13T03:26:56.416438+00:00",
+      "completed_at": "2026-09-13T03:28:09.869204+00:00",
+      "wall_seconds": 73.452995,
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "71df9ccd0305a24c02f9b68e9842aa192dec9b589e301bd52a23c386d3260b5b",
+        "_content_list.json": "7c86509bb1120c1938409bc40a1c64e61d7bdc7d9c34a597951b839ad8761c14",
+        "_middle.json": "6c0fdb187eefd8774062eaeb9cbdab4d47e6f95416f6a1fbeb63745e747de177",
+        "_model.json": "6005d381b5d5930b262366f6292472b1c49e62b49782f30900f0b4390258c69b"
+      }
+    },
+    {
+      "document_id": "KB-B010-PUMA-AR2025",
+      "page": 127,
+      "themes": [
+        "biodiversity"
+      ],
+      "output_directory": "artifacts/scale_batch_010/mineru_targets_RESUME01/KB-B010-PUMA-AR2025-p0127",
+      "status": "complete",
+      "started_at": "2026-09-13T03:28:09.870492+00:00",
+      "completed_at": "2026-09-13T03:29:08.313192+00:00",
+      "wall_seconds": 58.442878,
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "720bd0f63355e38ccf882cc8e5a110dd34732662006b1411b266f1a8372c0b20",
+        "_content_list.json": "20f92aedd09ed67456a1cd17a4ea77ab6bcb0572631e3ce153215899edbe591d",
+        "_middle.json": "410cbfc349223f82f67d1a81a71983d9b14b20f28deede0f7bdaaaa074869b2d",
+        "_model.json": "f9138519ab8a8984e7f73966d385c8b58416b838c4a1a5b15d58c1dd8f272f35"
+      }
+    },
+    {
+      "document_id": "KB-B010-PUMA-AR2025",
+      "page": 138,
+      "themes": [
+        "circularity"
+      ],
+      "output_directory": "artifacts/scale_batch_010/mineru_targets_RESUME01/KB-B010-PUMA-AR2025-p0138",
+      "status": "complete",
+      "started_at": "2026-09-13T03:29:08.314346+00:00",
+      "completed_at": "2026-09-13T03:30:05.554759+00:00",
+      "wall_seconds": 57.240591,
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "4aa9db098b37d41ee7a1a82c63522302e6c7d169cbd6fdd36157a36d29753afd",
+        "_content_list.json": "c1c44b53c8962617ae92042c35d0e17a1c9209dad4890d3273922195db81c82f",
+        "_middle.json": "792522168f42e42cea0908ab09ca14788c222d03cfa1272f74e542655cfe4547",
+        "_model.json": "5d0a9db7175224d378d6620129559afff569fb236368d5c236a760b2b1f32a75"
+      }
+    },
+    {
+      "document_id": "KB-B010-PUMA-AR2025",
+      "page": 165,
+      "themes": [
+        "workforce"
+      ],
+      "output_directory": "artifacts/scale_batch_010/mineru_targets_RESUME01/KB-B010-PUMA-AR2025-p0165",
+      "status": "complete",
+      "started_at": "2026-09-13T03:30:05.557248+00:00",
+      "completed_at": "2026-09-13T03:30:57.031693+00:00",
+      "wall_seconds": 51.474605,
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "4abfc46138949aba62aae29c8a649f2ac6f6e7dad4ba0a6fd58edc851110dd95",
+        "_content_list.json": "e173516e15db5ed8e5ab064adb79e6b3a3a5f05b296a25e2af31f918a220218f",
+        "_middle.json": "5274aa2f0cec272eecfb924ef1cf9dee8432a97eab7357f554a8223059ca2355",
+        "_model.json": "01c97a4fd05d5b7d2ee668d0d5cb0c4c8bb241c644fddcbce58991250b650e48"
+      }
+    },
+    {
+      "document_id": "KB-B010-PUMA-AR2025",
+      "page": 167,
+      "themes": [
+        "health_safety"
+      ],
+      "output_directory": "artifacts/scale_batch_010/mineru_targets_RESUME01/KB-B010-PUMA-AR2025-p0167",
+      "status": "complete",
+      "started_at": "2026-09-13T03:30:57.034410+00:00",
+      "completed_at": "2026-09-13T03:31:47.174941+00:00",
+      "wall_seconds": 50.140677,
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "16586900cdf2d443b223b76a380a3ce204fe50b2b483d2cf1dd9605eb2a5db07",
+        "_content_list.json": "9f7d7e064ac1fd56c40cb290b38d1283db58359c68a22cddeb652005341457c2",
+        "_middle.json": "75b17673eea5eaf2a2bb11ac9a804d7a4c6aa3cd547661a391627445b254382d",
+        "_model.json": "2ddb60b906bbeaaf00518420dcf953bb1484216af3e41a3ea563353b8f27ef8c"
+      }
+    },
+    {
+      "document_id": "KB-B010-PUMA-AR2025",
+      "page": 350,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_010/mineru_targets_RESUME01/KB-B010-PUMA-AR2025-p0350",
+      "status": "complete",
+      "started_at": "2026-09-13T03:31:47.175854+00:00",
+      "completed_at": "2026-09-13T03:32:43.048485+00:00",
+      "wall_seconds": 55.872803,
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "031269a5c57803a520b88163b1d7ad3246c09c10a564ee5058f9870f4467ab84",
+        "_content_list.json": "ead945af4bfb746385f20cd9d54d1febd85d98d2da9e753a2f485251430cb3bd",
+        "_middle.json": "06472b013bb924aaec581320fb719064f1f0593d8199c98764f55ab41c4cb011",
+        "_model.json": "069e57db9d22297c0200e79ad99add092e4e3df46cce99783a795e6d7dcfff5d"
+      }
+    },
+    {
+      "document_id": "KB-B010-VEOLIA-URD2025",
+      "page": 208,
+      "themes": [
+        "targets"
+      ],
+      "output_directory": "artifacts/scale_batch_010/mineru_targets_RESUME01/KB-B010-VEOLIA-URD2025-p0208",
+      "status": "complete",
+      "started_at": "2026-09-13T03:38:09.246347+00:00",
+      "completed_at": "2026-09-13T03:38:27.356082+00:00",
+      "wall_seconds": 18.109915,
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "5fc0917d485b117c4849d78e7f54466b62f47efb5acd48a39fe73902cdf9ee57",
+        "_content_list.json": "24577bda54fb86ca9c6f6897497e23cf723b3f3de583cdeb4be085336976113b",
+        "_middle.json": "371ffc4af0a8f51996c32197b941c5686012660bbabe82afe8a038bf5484cb7f",
+        "_model.json": "d090051c9edcba00a9a324806ccee9b04934ff3b422482fd59e6d3c1a69d0437"
+      }
+    },
+    {
+      "document_id": "KB-B010-VEOLIA-URD2025",
+      "page": 218,
+      "themes": [
+        "energy"
+      ],
+      "output_directory": "artifacts/scale_batch_010/mineru_targets_RESUME02/KB-B010-VEOLIA-URD2025-p0218",
+      "status": "complete",
+      "started_at": "2026-09-13T03:44:35.558434+00:00",
+      "completed_at": "2026-09-13T03:46:06.216052+00:00",
+      "wall_seconds": 90.658,
+      "selected_attempt": "RESUME02",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "ce745168d0c73450155eb16f94f01fc2d68776602842396d026be5933e1112f1",
+        "_content_list.json": "0df5058abb23080b090bbdf8ccaa174d154194581aa697d89bb568f162fb7a92",
+        "_middle.json": "c6e5f37f98f0329a4c0b4d4650290f8c8effaec758be92468ba62a35155bf66a",
+        "_model.json": "02470ceebb3c73760201455c5abde1dedc0bbe1dd1a44af914f3b6d811d6cc97"
+      }
+    },
+    {
+      "document_id": "KB-B010-VEOLIA-URD2025",
+      "page": 219,
+      "themes": [
+        "ghg_emissions"
+      ],
+      "output_directory": "artifacts/scale_batch_010/mineru_targets_RESUME01/KB-B010-VEOLIA-URD2025-p0219",
+      "status": "complete",
+      "started_at": "2026-09-13T03:38:44.438901+00:00",
+      "completed_at": "2026-09-13T03:39:06.483783+00:00",
+      "wall_seconds": 22.045098,
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "5db38c96f13359f5872c5e8827de8cb973a478c2507e8a2ac94a578a1048d41d",
+        "_content_list.json": "74611dc42f26531025ff4db07d5ea308d85d370aeea48c6be6da5d65abdbb028",
+        "_middle.json": "57424dc27d3f5ea69ca089fb3f906d4592a1c031322ef94de1df687cecf1156d",
+        "_model.json": "89fa652c56644c233eb385ff4c072617baa55e7c66eae413014979d43405e9c4"
+      }
+    },
+    {
+      "document_id": "KB-B010-VEOLIA-URD2025",
+      "page": 234,
+      "themes": [
+        "water"
+      ],
+      "output_directory": "artifacts/scale_batch_010/mineru_targets_RESUME01/KB-B010-VEOLIA-URD2025-p0234",
+      "status": "complete",
+      "started_at": "2026-09-13T03:39:06.484396+00:00",
+      "completed_at": "2026-09-13T03:39:29.283527+00:00",
+      "wall_seconds": 22.799355,
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "98c26e65bac2f4971269085490a33c90b5b14e830b3853cb60011bd11680b96c",
+        "_content_list.json": "9c154a0726bc1da0007f288218e4ff6326f6b0347e5df524cd59b473c507dfae",
+        "_middle.json": "695985d447e6eaf30e990720a28bcd68056d6bcfb8adc28b136e6e9b55c7be92",
+        "_model.json": "15f0331f4ff6f286dcd666fcd1d99397f62c9d519c8fec2cba3a6c3e4babdbb8"
+      }
+    },
+    {
+      "document_id": "KB-B010-VEOLIA-URD2025",
+      "page": 239,
+      "themes": [
+        "biodiversity"
+      ],
+      "output_directory": "artifacts/scale_batch_010/mineru_targets_RESUME01/KB-B010-VEOLIA-URD2025-p0239",
+      "status": "complete",
+      "started_at": "2026-09-13T03:39:29.284438+00:00",
+      "completed_at": "2026-09-13T03:39:49.774292+00:00",
+      "wall_seconds": 20.490054,
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "04c4a34ab9f68a2ed4600da2e8e1c246f9c783966260ac42c5d57d499fda950b",
+        "_content_list.json": "e9506bcba62bb99769eea45e89e9391e859c3b84996b2d7d150fb813602d844d",
+        "_middle.json": "06b4bd7a87d071865c49eb650887d0ea699f93c950dc5f174c086ba7186fc51e",
+        "_model.json": "b96611b1ac6c9a924d5a0681e8ecd5edd3e28d87da7ff20cffc4ba5df7a492aa"
+      }
+    },
+    {
+      "document_id": "KB-B010-VEOLIA-URD2025",
+      "page": 244,
+      "themes": [
+        "circularity"
+      ],
+      "output_directory": "artifacts/scale_batch_010/mineru_targets_RESUME01/KB-B010-VEOLIA-URD2025-p0244",
+      "status": "complete",
+      "started_at": "2026-09-13T03:39:49.775305+00:00",
+      "completed_at": "2026-09-13T03:40:21.151881+00:00",
+      "wall_seconds": 31.376894,
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "4bc29835c5f19807df022b1e25e77d85a5dfc72efe87eaf3b3859c03380835ee",
+        "_content_list.json": "375f3e83d80e35a8804639b111dd4004d66488e567151811625718f326e22fce",
+        "_middle.json": "295d0aef792e0f80f2a83c1ad9741ea1174c7a17512af9febc6a7aefae12e79b",
+        "_model.json": "11ca245b356f61c3d131c785c1f46cd6a987e045fc902452a35d7af4ee941153"
+      }
+    },
+    {
+      "document_id": "KB-B010-VEOLIA-URD2025",
+      "page": 266,
+      "themes": [
+        "health_safety"
+      ],
+      "output_directory": "artifacts/scale_batch_010/mineru_targets_RESUME01/KB-B010-VEOLIA-URD2025-p0266",
+      "status": "complete",
+      "started_at": "2026-09-13T03:40:21.155123+00:00",
+      "completed_at": "2026-09-13T03:41:34.832057+00:00",
+      "wall_seconds": 73.677657,
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "b12c7f9c72b9f519a8c04b59331180f7c7ddb4accf236e9c07afe352e79c2d90",
+        "_content_list.json": "cb7a7aa53e0f81c903ea61153c59ecac6962e65dc460333c5b4cfc9bf9757dcd",
+        "_middle.json": "ae95ff90015bfc15f4d2ddd84ff28c32bbb4d8d2dc0c48b767a4c7276c4c6ae1",
+        "_model.json": "99e779247e277e3ba119f53afb1ad9d0be314defdcfabd1fb7bef940502b8564"
+      }
+    },
+    {
+      "document_id": "KB-B010-VEOLIA-URD2025",
+      "page": 275,
+      "themes": [
+        "workforce"
+      ],
+      "output_directory": "artifacts/scale_batch_010/mineru_targets_RESUME01/KB-B010-VEOLIA-URD2025-p0275",
+      "status": "complete",
+      "started_at": "2026-09-13T03:41:34.834500+00:00",
+      "completed_at": "2026-09-13T03:42:37.205646+00:00",
+      "wall_seconds": 62.371828,
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "fdf3fd74b54de4b33271ef15b9bbe2b579832b079eaa492e48abf24458e59a24",
+        "_content_list.json": "9b16a8bdaea3e0714937fff6bb59eff4a2e42ac0cd7889230dfc3f89008be003",
+        "_middle.json": "b80960b163fc29ad349a60b6e58267cf838e11df3ad8654991f8733b814bbf9e",
+        "_model.json": "e37cfb15973a0b914dcc0b658ca139c6c0a32e9601d6be312960a5b3e90383d9"
+      }
+    },
+    {
+      "document_id": "KB-B010-VEOLIA-URD2025",
+      "page": 328,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_010/mineru_targets_RESUME01/KB-B010-VEOLIA-URD2025-p0328",
+      "status": "complete",
+      "started_at": "2026-09-13T03:42:37.208097+00:00",
+      "completed_at": "2026-09-13T03:43:38.273392+00:00",
+      "wall_seconds": 61.065865,
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "457270729d484737e0dec88025d26f2df757b3587a8473727e43bb379ef0ab63",
+        "_content_list.json": "b1a0b46f10a3e562dd5fe7d3aac99d9c7f6cfe2ef41ef80c9fb0e2ce17061b1a",
+        "_middle.json": "b88bcf44f829a68fa013e79a9440c2c8c27b49886c22b641ea16717f15195a12",
+        "_model.json": "ffaf1023f3720f91f1062a8d560fa0ec51568e8376760bc306c42757df97e7e1"
+      }
+    }
+  ]
+}

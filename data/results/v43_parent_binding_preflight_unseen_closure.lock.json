@@ -1,0 +1,15 @@
+{
+  "schema_version": "0.1",
+  "closure_id": "V4.3-PARENT-BINDING-PREFLIGHT-UNSEEN-CLOSURE-V01",
+  "status": "passed",
+  "manifest": {
+    "path": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/data/manifests/v43_parent_binding_preflight_unseen_v0.1.lock.json",
+    "sha256": "545b5b375285bf3386ac9c306d34bc6bece9b0905f083bacb852a5161975d9e2"
+  },
+  "result": {
+    "path": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/v43_parent_binding_preflight_unseen_v0.1/result.lock.json",
+    "sha256": "85202c179ba655716b8cf879b9b9d7bc58e43043749e242a1152e98e3aebd873"
+  },
+  "attempt_count": 1,
+  "parent_records_modified": false
+}

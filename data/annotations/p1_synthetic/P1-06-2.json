@@ -1,0 +1,8 @@
+{
+  "schema_version":"1.0","task_id":"P1-06-2","reference_author":"codex_gpt_simulated_expert","reference_status":"verified",
+  "question":"What was ANZ's Women in Leadership result for 2024, by how many percentage points did it exceed its target, and what was the annual change?","answer_status":"verified_fact",
+  "answer":{"result_percent":38.8,"above_target_percentage_points":0.5,"annual_change_percentage_points":1.5},"normalized_value":38.8,"normalized_unit":"%","reported_unit":"percent and percentage points","subject":"ANZ Group Holdings Limited","scope_boundary":"Women in Leadership measure","period":"2024","calculation":null,
+  "evidence":[{"document_id":"ANZ-ESG-2024","document_sha256":"fb12855ad12a8435a7dfc798c0f49cfc5f53f7463f541a08dceec21eb37de7bc","pdf_page":65,"printed_page":"65","verbatim_excerpt":"We again exceeded our WIL target, this year by 0.5 percentage points (ppt) to 38.8% an annual increase of 1.5 ppt.","role":"claim_support"}],
+  "search_record":{"pages_reviewed":[65],"terms_used":["WIL target","38.8%"],"notes":"Narrative and footnote visually verified."},"controlled_intervention_id":null,
+  "provenance_attestation":{"is_human":false,"is_ai_simulation":true,"candidate_model_excluded":true}
+}

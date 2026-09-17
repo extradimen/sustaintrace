@@ -1,0 +1,65 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-004-RESUME01",
+  "status": "local_ingestion_projection_and_gap_repair_complete",
+  "source_documents": 3,
+  "source_pages": 843,
+  "extractable_source_pages": 842,
+  "frozen_target_pages": 25,
+  "mineru": {
+    "initial_complete": 0,
+    "initial_infrastructure_failures": 25,
+    "resume01_complete": 23,
+    "resume01_infrastructure_failures": 2,
+    "resume02_complete": 2,
+    "final_usable_pages": 25,
+    "model_failures": 0
+  },
+  "knowledge_increment": {
+    "evidence_snippet_candidates": 45,
+    "atomic_fact_candidates": 8,
+    "gap_repair_candidates": 2,
+    "total_new_fact_records": 55,
+    "failure_observations": 31,
+    "parent_evidence_gaps": 2,
+    "remaining_evidence_gaps": 0,
+    "rejected_ambiguous_table_rows": 8,
+    "promoted_tier_b": 0
+  },
+  "atomic_validation": {
+    "coordinate_exact": 8,
+    "native_quote_present": 8,
+    "native_row_header_present": 8,
+    "native_column_header_present": 8,
+    "strictly_corroborated": 8,
+    "held_tier_c": 8
+  },
+  "global_knowledge_bases": {
+    "fact_records": 1240,
+    "trusted_fact_records": 50,
+    "failure_records": 111,
+    "failure_signatures": 19
+  },
+  "quality_gates": {
+    "pytest_collected_and_passed": 437,
+    "ruff": "passed",
+    "cloud_transmission": false,
+    "locked_experiments_modified": false,
+    "automatic_promotion": false
+  },
+  "artifact_sha256": {
+    "configs/knowledge/scale_batch_004_RESUME01_v0.2.json": "4afeac9f45d7049240d314c2fc10a5b073f382b276f2a678930d6715f05bdd5f",
+    "data/manifests/scale_batch_004_acquisition_FINAL.lock.json": "7f2f45bce0bf374d626c798bac29caa0f2bda86bc52435b0a502e39839e5d9f3",
+    "data/results/scale_batch_004_diagnostics.lock.json": "548866645e916ac5aed4fc7bfdb1c8c0b48e33d6a2e17ada3c8f1747a47dd5f5",
+    "data/manifests/scale_batch_004_target_pages.lock.json": "4b778080e0b8594c9534c34d0d0314457c79bc62636fd3e8f600b9b2a4aae6cc",
+    "data/results/scale_batch_004_mineru_summary.lock.json": "45aeef188ada59269a700008d502bdca0c26e6f0b4b2c4b8bb2af249cb31ad0d",
+    "data/results/scale_batch_004_mineru_RESUME01_summary.lock.json": "d215ac15d4dc87ff758981993d4d871d86cf358985cd9c94fc335f9d301a6dd2",
+    "data/results/scale_batch_004_mineru_RESUME02_summary.lock.json": "795051b62f15b098cb453328502893485a790bceee1459871bfea48463185021",
+    "data/results/scale_batch_004_kb_increment.lock.json": "5332edf39105e675bcea3010336bf24328c9fd2faf799a0e7d591887125f127d",
+    "data/results/scale_batch_004_atomic_projection.lock.json": "534fa1b8f6eba0d3d6942ddd36660a87b5286dc709492c1a61d0a128cb6f95d8",
+    "data/results/scale_batch_004_atomic_validation.lock.json": "0c8c781e25c7579b07249ffa781680fab8431a5c8b65b2050d96273b7abbfc85",
+    "data/results/scale_batch_004_gap_repair.lock.json": "4415cd8e49f77c5942700bbf1334399a6fd25770adbb7303463abcc05a2083f8",
+    "data/knowledge_bases/v0.1/migration_manifest.lock.json": "38c8422f51fbb56b89fc06ae514840ae1c6831ae26bd497518bfe461fc510c3b",
+    "configs/knowledge/repair_strategy_catalog_v0.1.json": "ef833b61d9e6b9b3e73a209c33bb34733cc3adbee88fca19c68e8c652cc3e131"
+  }
+}

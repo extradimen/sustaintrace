@@ -1,0 +1,422 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-010",
+  "status": "table_graphs_built_fail_closed",
+  "source_table_candidates": 3,
+  "graphs": [
+    {
+      "source_fact_record_id": "fact-4788664c0e3f71bd15aa208e",
+      "document_id": "KB-B010-PUMA-AR2025",
+      "pdf_page": 104,
+      "graphs": [
+        {
+          "table_index": 0,
+          "status": "two_axis_graph_built",
+          "header_row_index": 0,
+          "column_headers": [
+            "",
+            "2025",
+            "",
+            "2024% 2025/2024"
+          ],
+          "period_columns": [
+            1,
+            3
+          ],
+          "indicator_column": 0,
+          "unit_column": null,
+          "rejected_rows": [],
+          "rows": [
+            [
+              "",
+              "2025",
+              "",
+              "2024% 2025/2024"
+            ],
+            [
+              "Total energy consumption from activities in high climate impact sectors\u00b2 (in MWh)",
+              "123,319",
+              "123,923",
+              "-0.5%"
+            ],
+            [
+              "Net revenue from activities in high climate impact sectors (in million \u20ac)",
+              "7,296",
+              "8,817",
+              "-20.8%"
+            ],
+            [
+              "Total energy consumption from activities in high climate impact sectors per net revenue from activities in high climate impact sectors (in MWh/\u20ac million)",
+              "16.9",
+              "14.1",
+              "20.3%"
+            ]
+          ],
+          "cells": [
+            {
+              "cell_handle": "cell-3bc82522d02cc0f31c9c",
+              "table_index": 0,
+              "row_index": 1,
+              "column_index": 1,
+              "row_header": "Total energy consumption from activities in high climate impact sectors\u00b2 (in MWh)",
+              "row_header_column_index": 0,
+              "column_header": "2025",
+              "normalized_period": 2025,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "123,319",
+              "normalized_value": "123319",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-f2f88792bbf7dfd2b353",
+              "table_index": 0,
+              "row_index": 2,
+              "column_index": 1,
+              "row_header": "Net revenue from activities in high climate impact sectors (in million \u20ac)",
+              "row_header_column_index": 0,
+              "column_header": "2025",
+              "normalized_period": 2025,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "7,296",
+              "normalized_value": "7296",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-8ad75aadb579db2b1f4c",
+              "table_index": 0,
+              "row_index": 3,
+              "column_index": 1,
+              "row_header": "Total energy consumption from activities in high climate impact sectors per net revenue from activities in high climate impact sectors (in MWh/\u20ac million)",
+              "row_header_column_index": 0,
+              "column_header": "2025",
+              "normalized_period": 2025,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "16.9",
+              "normalized_value": "16.9",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-5136d032b873e3739ffe",
+              "table_index": 0,
+              "row_index": 3,
+              "column_index": 3,
+              "row_header": "Total energy consumption from activities in high climate impact sectors per net revenue from activities in high climate impact sectors (in MWh/\u20ac million)",
+              "row_header_column_index": 0,
+              "column_header": "2024% 2025/2024",
+              "normalized_period": 2024,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "20.3%",
+              "normalized_value": "20.3",
+              "normalized_unit": "percent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_fact_record_id": "fact-89db001345e02fb1e26be03c",
+      "document_id": "KB-B010-PUMA-AR2025",
+      "pdf_page": 108,
+      "graphs": [
+        {
+          "table_index": 0,
+          "status": "two_axis_graph_built",
+          "header_row_index": 0,
+          "column_headers": [
+            "",
+            "2025",
+            "2024",
+            "2017",
+            "% 2025/24",
+            "% 2025/17"
+          ],
+          "period_columns": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "indicator_column": 0,
+          "unit_column": null,
+          "rejected_rows": [],
+          "rows": [
+            [
+              "",
+              "2025",
+              "2024",
+              "2017",
+              "% 2025/24",
+              "% 2025/17"
+            ],
+            [
+              "Total GHG emissions (location-based) per net revenue",
+              "214.1",
+              "203.9",
+              "401.7",
+              "5.0%",
+              "-46.7%"
+            ],
+            [
+              "Total GHG emissions (market-based) per net revenue",
+              "208.4",
+              "198.9",
+              "407.6",
+              "4.8%",
+              "-48.9%"
+            ]
+          ],
+          "cells": [
+            {
+              "cell_handle": "cell-bdc4cfa2eaeee24fbd7d",
+              "table_index": 0,
+              "row_index": 1,
+              "column_index": 1,
+              "row_header": "Total GHG emissions (location-based) per net revenue",
+              "row_header_column_index": 0,
+              "column_header": "2025",
+              "normalized_period": 2025,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "214.1",
+              "normalized_value": "214.1",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-3cf67ad00eaccc86d452",
+              "table_index": 0,
+              "row_index": 1,
+              "column_index": 2,
+              "row_header": "Total GHG emissions (location-based) per net revenue",
+              "row_header_column_index": 0,
+              "column_header": "2024",
+              "normalized_period": 2024,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "203.9",
+              "normalized_value": "203.9",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-4c383be532b42f3128a7",
+              "table_index": 0,
+              "row_index": 1,
+              "column_index": 3,
+              "row_header": "Total GHG emissions (location-based) per net revenue",
+              "row_header_column_index": 0,
+              "column_header": "2017",
+              "normalized_period": 2017,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "401.7",
+              "normalized_value": "401.7",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-e2fc50bad1488ae2df93",
+              "table_index": 0,
+              "row_index": 1,
+              "column_index": 4,
+              "row_header": "Total GHG emissions (location-based) per net revenue",
+              "row_header_column_index": 0,
+              "column_header": "% 2025/24",
+              "normalized_period": 2025,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "5.0%",
+              "normalized_value": "5.0",
+              "normalized_unit": "percent"
+            },
+            {
+              "cell_handle": "cell-a2c707708445a40fd217",
+              "table_index": 0,
+              "row_index": 2,
+              "column_index": 1,
+              "row_header": "Total GHG emissions (market-based) per net revenue",
+              "row_header_column_index": 0,
+              "column_header": "2025",
+              "normalized_period": 2025,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "208.4",
+              "normalized_value": "208.4",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-db5e520c3969da9130a8",
+              "table_index": 0,
+              "row_index": 2,
+              "column_index": 2,
+              "row_header": "Total GHG emissions (market-based) per net revenue",
+              "row_header_column_index": 0,
+              "column_header": "2024",
+              "normalized_period": 2024,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "198.9",
+              "normalized_value": "198.9",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-ced612af5c525a2dd98e",
+              "table_index": 0,
+              "row_index": 2,
+              "column_index": 3,
+              "row_header": "Total GHG emissions (market-based) per net revenue",
+              "row_header_column_index": 0,
+              "column_header": "2017",
+              "normalized_period": 2017,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "407.6",
+              "normalized_value": "407.6",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-8a8e807262f2f6265bf8",
+              "table_index": 0,
+              "row_index": 2,
+              "column_index": 4,
+              "row_header": "Total GHG emissions (market-based) per net revenue",
+              "row_header_column_index": 0,
+              "column_header": "% 2025/24",
+              "normalized_period": 2025,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "4.8%",
+              "normalized_value": "4.8",
+              "normalized_unit": "percent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_fact_record_id": "fact-7a2a2cb415a5506eaa5d5514",
+      "document_id": "KB-B010-VEOLIA-URD2025",
+      "pdf_page": 219,
+      "graphs": [
+        {
+          "table_index": 0,
+          "status": "two_axis_graph_built",
+          "header_row_index": 0,
+          "column_headers": [
+            "Biogenic scope",
+            "Result 2024",
+            "Result 2025"
+          ],
+          "period_columns": [
+            1,
+            2
+          ],
+          "indicator_column": 0,
+          "unit_column": null,
+          "rejected_rows": [],
+          "rows": [
+            [
+              "Biogenic scope",
+              "Result 2024",
+              "Result 2025"
+            ],
+            [
+              "Scope 1 (Mt eq. CO2)",
+              "5.8",
+              "6.7"
+            ],
+            [
+              "Scope 2 (Mt eq. CO2)",
+              "0.2",
+              "0.1"
+            ],
+            [
+              "Scope 3 (Mt eq.CO2)",
+              "Non disclosed in 2024 URD",
+              "7.6"
+            ]
+          ],
+          "cells": [
+            {
+              "cell_handle": "cell-cd263fd53b24c61e4f27",
+              "table_index": 0,
+              "row_index": 1,
+              "column_index": 1,
+              "row_header": "Scope 1 (Mt eq. CO2)",
+              "row_header_column_index": 0,
+              "column_header": "Result 2024",
+              "normalized_period": 2024,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "5.8",
+              "normalized_value": "5.8",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-6bb9b74f3b04b97af192",
+              "table_index": 0,
+              "row_index": 1,
+              "column_index": 2,
+              "row_header": "Scope 1 (Mt eq. CO2)",
+              "row_header_column_index": 0,
+              "column_header": "Result 2025",
+              "normalized_period": 2025,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "6.7",
+              "normalized_value": "6.7",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-51af6e3ca2420a586ca1",
+              "table_index": 0,
+              "row_index": 2,
+              "column_index": 1,
+              "row_header": "Scope 2 (Mt eq. CO2)",
+              "row_header_column_index": 0,
+              "column_header": "Result 2024",
+              "normalized_period": 2024,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "0.2",
+              "normalized_value": "0.2",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-8a02e8dabd31b4ccb87e",
+              "table_index": 0,
+              "row_index": 2,
+              "column_index": 2,
+              "row_header": "Scope 2 (Mt eq. CO2)",
+              "row_header_column_index": 0,
+              "column_header": "Result 2025",
+              "normalized_period": 2025,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "0.1",
+              "normalized_value": "0.1",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-f4bd2ba08f5865e40968",
+              "table_index": 0,
+              "row_index": 3,
+              "column_index": 2,
+              "row_header": "Scope 3 (Mt eq.CO2)",
+              "row_header_column_index": 0,
+              "column_header": "Result 2025",
+              "normalized_period": 2025,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "7.6",
+              "normalized_value": "7.6",
+              "normalized_unit": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

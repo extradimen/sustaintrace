@@ -1,0 +1,21 @@
+{
+  "all_parent_hashes_valid": true,
+  "all_rollbacks_prepared_not_executed": true,
+  "execution_performed": false,
+  "fixtures": 7,
+  "inputs": {
+    "configs/knowledge/evidence_repair_contract_catalog_v0.1.json": "a8d92cea2bfcd1f69eac274382f80de3d509b8e1649bd1b4435f252ae4c04c17",
+    "data/knowledge_bases/v0.1/failure_records.jsonl": "bac85772c9a3830c54fa03a2107851c35097ecd2540d58d7ae59479c4e4327ad"
+  },
+  "next_gate": "supply subtype-specific frozen evidence artifacts without using references as candidate inputs",
+  "output": {
+    "path": "data/knowledge_bases/v0.1/exposed_evidence_validation_fixtures.jsonl",
+    "sha256": "762cf48009b6f0423c5d15bedf664c839eb79f9665b782f528dd91fb6ca23c8e"
+  },
+  "result_id": "ESG-EXPOSED-EVIDENCE-VALIDATION-FIXTURES-v0.1",
+  "schema_version": "0.1",
+  "status": "hashed_parent_fixtures_built_missing_inputs_fail_closed",
+  "validation_status_counts": {
+    "not_ready": 7
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "schema_version": "0.1",
+  "record_kind": "unseen_interface_validation_closure",
+  "status": "postvalidation_attachment_unseen_validation_complete",
+  "outcome": {
+    "cases": 1,
+    "contract_passed": 1,
+    "attachment_valid": true,
+    "attachment_accepted_by_gate": true,
+    "final_gate_decision": "blocked",
+    "satisfied_dimension": "independent_corroboration",
+    "remaining_dimensions_fail_closed": true
+  },
+  "artifacts": [
+    {"path": "data/manifests/postvalidation_attachment_unseen_validation_v0.1.lock.json", "sha256": "02d788c8e3f4df92f4f3075e95e9e92dcc6c5142be7da249ccba921daad2c7f1"},
+    {"path": "artifacts/postvalidation_attachment_unseen_validation_v0.1/postvalidation_attachment.unseen.json", "sha256": "0dbf5ce25f6e6e6826a384da3e795d03b5a097cf4846f874fc26e339969865f0"},
+    {"path": "artifacts/postvalidation_attachment_unseen_validation_v0.1/validation_summary.lock.json", "sha256": "f42226f30d4246a44ab7e87dfacd39969647a057c737c1fd2b419bc5b2a774ba"},
+    {"path": "scripts/run_postvalidation_attachment_unseen_validation_v01.py", "sha256": "d12a5dd679b48622a789ca1808855318e75fb9b8d341fcc390c5d62db85c9807"}
+  ],
+  "interpretation": "a diagnostic not used in attachment-interface development produced a valid attachment that satisfied only its authorized dimension while all other incomplete dimensions remained blocking",
+  "safety": {
+    "single_execution_completed": true,
+    "result_retried": false,
+    "fact_write_performed": false,
+    "gap_mutation_performed": false,
+    "trust_promotion_performed": false,
+    "cloud_transmission_performed": false,
+    "historical_results_modified": false
+  },
+  "next_gate": "expand heterogeneous report coverage for positive component diagnostics and attachment consumption"
+}

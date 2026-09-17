@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.1",
+  "status": "development_frozen_before_v1.3_regression",
+  "design": "Framework-owned predicates with model-filled, evidence-grounded values",
+  "predicates": {
+    "reports_emissions": {"label": "reports emissions"},
+    "reports_emissions_change": {"label": "reports emissions change"},
+    "sets_emissions_target": {"label": "sets emissions target"},
+    "receives_assurance_level": {"label": "receives assurance level"},
+    "uses_organizational_boundary_method": {"label": "uses organizational boundary method"},
+    "includes_controlled_operation_share": {"label": "includes controlled-operation share"},
+    "excludes_operation_condition": {"label": "excludes operation condition"},
+    "defines_emissions_boundary": {"label": "defines emissions boundary"},
+    "excludes_emissions_share": {"label": "excludes emissions share"},
+    "excludes_source_category": {"label": "excludes source category"},
+    "contradicts_source_claim": {"label": "contradicts source claim"},
+    "attributes_claim_to_source": {"label": "attributes claim to source"}
+  },
+  "value_types": ["number", "string", "boolean"],
+  "units": ["tco2e", "thousand_tonnes_co2e", "ktonnes_co2e", "percent", null],
+  "scopes": [
+    "reported_boundary",
+    "scope_1_2_market_based",
+    "gross_scope_3_total_footprint",
+    "sbti_target_boundary",
+    "ghg_inventory",
+    "assurance_scope",
+    "source_claim_pair"
+  ]
+}

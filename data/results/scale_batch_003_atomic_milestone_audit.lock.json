@@ -1,0 +1,62 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-003",
+  "status": "local_ingestion_and_atomic_projection_complete",
+  "source_documents": 3,
+  "source_pages": 387,
+  "extractable_source_pages": 387,
+  "frozen_target_pages": 23,
+  "mineru": {
+    "initial_complete": 20,
+    "initial_infrastructure_failures": 3,
+    "resume_complete": 3,
+    "final_usable_pages": 23,
+    "model_failures": 0
+  },
+  "knowledge_increment": {
+    "evidence_snippet_candidates": 26,
+    "atomic_fact_candidates": 5,
+    "failure_observations": 6,
+    "evidence_gaps": 10,
+    "promoted_tier_b": 0
+  },
+  "atomic_validation": {
+    "coordinate_exact": 5,
+    "native_quote_present": 5,
+    "native_row_header_present": 5,
+    "native_column_header_present": 5,
+    "strictly_corroborated": 5,
+    "held_tier_c": 5
+  },
+  "global_knowledge_bases": {
+    "fact_records": 1175,
+    "trusted_fact_records": 50,
+    "failure_records": 80,
+    "failure_signatures": 18
+  },
+  "quality_gates": {
+    "pytest_collected_and_passed": 430,
+    "ruff": "passed",
+    "cloud_transmission": false,
+    "locked_experiments_modified": false,
+    "automatic_promotion": false
+  },
+  "artifact_sha256": {
+    "data/manifests/scale_batch_003_acquisition_FINAL.lock.json": "59ecbc46fd3b29499131af739a680544cc0bb8f83fab0b6e1d503220100e6da3",
+    "data/results/scale_batch_003_diagnostics.lock.json": "7d0313ef9e302c32f4c201dbfd75d196cbd11d396045fdac2b6a9498d98bde16",
+    "data/manifests/scale_batch_003_target_pages.lock.json": "de5bd9389153b599d821924df3dc938bf15ab3d4650667032aba36f06fc3811a",
+    "data/results/scale_batch_003_mineru_summary.lock.json": "ce7ab0dbc4802cff23733eb190161490940aa21e3fec877221607d577448b6d2",
+    "data/results/scale_batch_003_mineru_RESUME01_summary.lock.json": "e229682609d812e65ba9eae82e25f173824897dc7e2f313923d9ba0e84881c2e",
+    "data/results/scale_batch_003_kb_increment.lock.json": "a0d1152f1d3c016f0b9d1f0008059e315f7ab1966f5d225e0bb1ee88c6c48218",
+    "data/results/scale_batch_003_atomic_projection.lock.json": "a234ab2df3b56e9f6dc2709c36e603bf4f54904617781de5663d1a104466b18d",
+    "data/results/scale_batch_003_atomic_validation.lock.json": "6dfe927ef445e5e3bb4ab8940078cb9ea582bf0c2b9d19fb04f7521268c559a9",
+    "data/knowledge_bases/v0.1/migration_manifest.lock.json": "db0acd61ad6c22c667115ee0dba95928bbdb91934aac19db0b2b24b1c840ae95",
+    "configs/knowledge/repair_strategy_catalog_v0.1.json": "179c87ab4951e851b4570bf505a0c20f0a8d1dd2641d4ff9e391d304a116a557"
+  },
+  "exposed_generalization_fixed": {
+    "issue": "fiscal-year columns can use FY24/FY25 literals instead of four-digit years",
+    "resolution": "recognize only controlled FY plus two- or four-digit year headers, normalize them to four-digit periods, and preserve raw column literals",
+    "trusted_kb_contamination": false
+  },
+  "next_gate": "repair ten explicit evidence-selection gaps in a new lineage before starting batch 004"
+}

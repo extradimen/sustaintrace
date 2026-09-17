@@ -1,0 +1,145 @@
+{
+  "candidate_model_called": false,
+  "cloud_transmission_count": 0,
+  "deterministic_calculation": {
+    "calculated": 4377.099999999999,
+    "difference": -0.0,
+    "expression": "192.3 + 14.9 + 4169.9",
+    "passed": false,
+    "reported": 4377.1
+  },
+  "evidence_quote_audit": {
+    "failures": [],
+    "quotes_checked": 46
+  },
+  "experiment_id": "P15-V24-UNSEEN-LOCKBOX-V01",
+  "layout_gate": {
+    "record_count": 13,
+    "records": [
+      {
+        "pdf_page": 20,
+        "task_id": "P15-TARGET-001"
+      },
+      {
+        "pdf_page": 21,
+        "task_id": "P15-TARGET-001"
+      },
+      {
+        "pdf_page": 22,
+        "task_id": "P15-TARGET-001"
+      },
+      {
+        "pdf_page": 27,
+        "task_id": "P15-GHG-CALC-001"
+      },
+      {
+        "pdf_page": 28,
+        "task_id": "P15-GHG-CALC-001"
+      },
+      {
+        "pdf_page": 29,
+        "task_id": "P15-WATER-QUALITY-001"
+      },
+      {
+        "pdf_page": 30,
+        "task_id": "P15-WATER-QUALITY-001"
+      },
+      {
+        "pdf_page": 31,
+        "task_id": "P15-SAFETY-001"
+      },
+      {
+        "pdf_page": 32,
+        "task_id": "P15-SAFETY-001"
+      },
+      {
+        "pdf_page": 36,
+        "task_id": "P15-ACCESS-001"
+      },
+      {
+        "pdf_page": 43,
+        "task_id": "P15-ASSURE-001"
+      },
+      {
+        "pdf_page": 44,
+        "task_id": "P15-ASSURE-001"
+      },
+      {
+        "pdf_page": 45,
+        "task_id": "P15-ASSURE-001"
+      }
+    ],
+    "status": "passed"
+  },
+  "mineru_pages_verified": 13,
+  "reference_contract_key_audit": {
+    "failures": [],
+    "tasks_checked": 6
+  },
+  "schema_version": "2.4",
+  "slot_count": 63,
+  "stage_b_contract_preflights": {
+    "P15-ACCESS-001": {
+      "candidate_contract_count": 9,
+      "candidate_inference_released": true,
+      "projector_valid": true,
+      "raw_contract_count": 9,
+      "required_value_terms_in_fixture": true,
+      "schema_valid": true,
+      "status": "passed",
+      "validated_fixture_claim_count": 9
+    },
+    "P15-ASSURE-001": {
+      "candidate_contract_count": 9,
+      "candidate_inference_released": true,
+      "projector_valid": true,
+      "raw_contract_count": 9,
+      "required_value_terms_in_fixture": true,
+      "schema_valid": true,
+      "status": "passed",
+      "validated_fixture_claim_count": 9
+    },
+    "P15-GHG-CALC-001": {
+      "candidate_contract_count": 8,
+      "candidate_inference_released": true,
+      "projector_valid": true,
+      "raw_contract_count": 8,
+      "required_value_terms_in_fixture": true,
+      "schema_valid": true,
+      "status": "passed",
+      "validated_fixture_claim_count": 8
+    },
+    "P15-SAFETY-001": {
+      "candidate_contract_count": 10,
+      "candidate_inference_released": true,
+      "projector_valid": true,
+      "raw_contract_count": 10,
+      "required_value_terms_in_fixture": true,
+      "schema_valid": true,
+      "status": "passed",
+      "validated_fixture_claim_count": 10
+    },
+    "P15-TARGET-001": {
+      "candidate_contract_count": 17,
+      "candidate_inference_released": true,
+      "projector_valid": true,
+      "raw_contract_count": 17,
+      "required_value_terms_in_fixture": true,
+      "schema_valid": true,
+      "status": "passed",
+      "validated_fixture_claim_count": 17
+    },
+    "P15-WATER-QUALITY-001": {
+      "candidate_contract_count": 10,
+      "candidate_inference_released": true,
+      "projector_valid": true,
+      "raw_contract_count": 10,
+      "required_value_terms_in_fixture": true,
+      "schema_valid": true,
+      "status": "passed",
+      "validated_fixture_claim_count": 10
+    }
+  },
+  "status": "failed",
+  "task_count": 6
+}

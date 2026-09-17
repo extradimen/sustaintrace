@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/esg/tier-b-adjudication-queue-v0.1.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version", "record_kind", "fact_record_id", "task_id", "document_ids",
+    "predicate", "value", "source_native_status", "qualification_blockers",
+    "independent_source_required", "independent_source_present", "adjudication_status",
+    "priority", "promotion_eligible", "reason"
+  ],
+  "properties": {
+    "schema_version": {"const": "0.1"},
+    "record_kind": {"const": "tier_b_adjudication_queue_item"},
+    "fact_record_id": {"type": "string", "pattern": "^fact-[0-9a-f]{24}$"},
+    "task_id": {"type": "string", "minLength": 1},
+    "document_ids": {"type": "array", "items": {"type": "string"}},
+    "predicate": {"type": "string", "minLength": 1},
+    "value": {},
+    "source_native_status": {"const": "unique_context_binding"},
+    "qualification_blockers": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "independent_source_required": {"const": true},
+    "independent_source_present": {"const": false},
+    "adjudication_status": {
+      "enum": ["blocked_additional_qualification", "ready_for_independent_source_review"]
+    },
+    "priority": {"type": "integer", "minimum": 1},
+    "promotion_eligible": {"const": false},
+    "reason": {"type": "string", "minLength": 1}
+  }
+}

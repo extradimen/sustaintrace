@@ -1,0 +1,29 @@
+{
+  "experiment_id": "P18-V27-UNSEEN-LOCKBOX-V01",
+  "qualifiers": {
+    "P18-ASSURE-001": {
+      "boundary": "separate report-wide limited assurance, named reasonable-assurance indicators, excluded references, and negative versus positive conclusion forms"
+    },
+    "P18-ENERGY-001": {
+      "boundary": "preserve MWh table values, rounded GWh narrative, and retrospective qualification"
+    },
+    "P18-GHG-CALC-001": {
+      "boundary": "market-based Scope 1 and 2; distinguish location-based Scope 2",
+      "calculation": "use frozen roles and Decimal operations only"
+    },
+    "P18-SCOPE3-001": {
+      "boundary": "preserve upstream/downstream rows, disclosed totals, and the 2024 one-tonne arithmetic difference"
+    },
+    "P18-TAXONOMY-001": {
+      "boundary": "separate eligible, aligned, and non-material activity columns; do not infer alignment for unassessed activities"
+    },
+    "P18-WORKFORCE-001": {
+      "boundary": "Germany plus International versus disclosed total; preserve 2025 one-FTE difference"
+    },
+    "page_coordinates": "one-based PDF page indexes",
+    "reference_type": "AI-simulated research reference; not independent human gold",
+    "reporting_period": "calendar year 2025 unless a 2024 comparative is explicitly named"
+  },
+  "schema_version": "2.7",
+  "status": "frozen_before_candidate_inference"
+}

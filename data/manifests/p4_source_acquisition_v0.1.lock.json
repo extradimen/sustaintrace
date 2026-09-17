@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0",
+  "manifest_id": "P4-SOURCE-ACQUISITION-V01",
+  "status": "frozen_before_body_parsing_and_task_authoring",
+  "experiment_id": "P4-V13-UNSEEN-LOCKBOX-V01",
+  "selection_method": "Issuer-hosted English-language report metadata only; accepted report bodies were not opened or text-extracted before this freeze.",
+  "accepted_sources": [
+    {
+      "source_id": "P4-MSFT-ESR2025",
+      "issuer": "Microsoft Corporation",
+      "industry": "software and cloud services",
+      "report_title": "2025 Microsoft Environmental Sustainability Report",
+      "language": "English",
+      "url": "https://aka.ms/SustainabilityReport2025",
+      "local_path": "data/raw/p4_staging/microsoft/microsoft-sustainability-report-2025.pdf",
+      "bytes": 20773620,
+      "pages": 90,
+      "sha256": "7c20672f907103daa14a0c10c1ed8407f693108ad1869836ae348bc7c397aad9"
+    },
+    {
+      "source_id": "P4-NIKE-SD2024",
+      "issuer": "NIKE, Inc.",
+      "industry": "apparel and footwear",
+      "report_title": "FY24 NIKE, Inc. Sustainability Data",
+      "language": "English",
+      "url": "https://media.about.nike.com/files/f37dfe60-0341-4db1-8ab9-6156da717313/FY24-NIKE%2C-Inc.-Sustainability-Data.pdf",
+      "local_path": "data/raw/p4_staging/nike/nike-fy24-sustainability-data.pdf",
+      "bytes": 1413509,
+      "pages": 52,
+      "sha256": "f8ee63742f3a6599754a9692f743e834366982750144f741927dccb34778bbe5"
+    },
+    {
+      "source_id": "P4-NESN-NFS2024",
+      "issuer": "Nestle S.A.",
+      "industry": "food and beverages",
+      "report_title": "Non-Financial Statement 2024",
+      "language": "English",
+      "url": "https://www.nestle.com/sites/default/files/2025-02/non-financial-statement-2024.pdf",
+      "local_path": "data/raw/p4_staging/nestle/nestle-non-financial-statement-2024.pdf",
+      "bytes": 5878090,
+      "pages": 198,
+      "sha256": "c1c577517577e28ef8b979b0c3158cb263fd3853e7e699ddd27b37cd6f5ffc0d"
+    }
+  ],
+  "rejected_sources": [
+    {
+      "issuer": "Unilever PLC",
+      "reason": "Both official endpoints returned HTTP 403; no report bytes accepted.",
+      "attempted_urls": [
+        "https://www.unilever.com/files/unilever-annual-report-and-accounts-2024.pdf",
+        "https://wiop-api-qa.unilever.com/files/unilever-annual-report-and-accounts-2024.pdf"
+      ]
+    },
+    {
+      "issuer": "NVIDIA Corporation",
+      "reason": "Substantive report body was exposed by the discovery tool before source freeze; downloaded bytes retained only as contamination evidence.",
+      "local_path": "data/raw/p4_staging/nvidia/nvidia-sustainability-report-fy2025.pdf"
+    },
+    {
+      "issuer": "Intel Corporation",
+      "reason": "Substantive report body was exposed by the discovery tool before source freeze; downloaded bytes retained only as contamination evidence.",
+      "local_path": "data/raw/p4_staging/intel/intel-corporate-responsibility-report-2024-25.pdf"
+    }
+  ],
+  "aggregate": {
+    "accepted_report_count": 3,
+    "accepted_page_count": 340,
+    "accepted_byte_count": 28065219
+  },
+  "candidate_inference_started": false,
+  "reference_created": false,
+  "framework_changes_after_freeze": false
+}

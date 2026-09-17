@@ -1,0 +1,505 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-006-MINERU-FINAL",
+  "updated_at": "2026-09-12T20:01:39.445155+00:00",
+  "status": "complete",
+  "cloud_transmission": false,
+  "total_target_pages": 25,
+  "complete_pages": 25,
+  "failed_pages": 0,
+  "pending_pages": 0,
+  "post_completion_shutdown_recovered_pages": 8,
+  "recovered_pages": [
+    {
+      "document_id": "KB-B006-MICHELIN-URD2025",
+      "page": 205
+    },
+    {
+      "document_id": "KB-B006-MICHELIN-URD2025",
+      "page": 207
+    },
+    {
+      "document_id": "KB-B006-MICHELIN-URD2025",
+      "page": 255
+    },
+    {
+      "document_id": "KB-B006-MICHELIN-URD2025",
+      "page": 271
+    },
+    {
+      "document_id": "KB-B006-MICHELIN-URD2025",
+      "page": 308
+    },
+    {
+      "document_id": "KB-B006-MICHELIN-URD2025",
+      "page": 395
+    },
+    {
+      "document_id": "KB-B006-VOLVO-AR2025",
+      "page": 165
+    },
+    {
+      "document_id": "KB-B006-VOLVO-AR2025",
+      "page": 215
+    }
+  ],
+  "parent_attempts": [
+    "data/results/scale_batch_006_mineru_RESUME01_summary.lock.json",
+    "data/results/scale_batch_006_mineru_RESUME02_summary.lock.json",
+    "data/results/scale_batch_006_mineru_RESUME03_summary.lock.json"
+  ],
+  "parent_failures_preserved": true,
+  "records": [
+    {
+      "document_id": "KB-B006-MICHELIN-URD2025",
+      "page": 193,
+      "themes": [
+        "targets"
+      ],
+      "output_directory": "artifacts/scale_batch_006/mineru_targets_RESUME01/KB-B006-MICHELIN-URD2025-p0193",
+      "status": "complete",
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "4228d71d4f74df0c3f5cc86f53bed5b2f1c66aea0ea07aad79880b33ecafa7ff",
+        "_content_list.json": "28c99b792795fc33870a8a759a329ee8a1cdf4230abf1760a1473df3b5317928",
+        "_middle.json": "817c178cdb27fe56c228be2777ecee369c13ec34a27db380b0ee46a38c083e52",
+        "_model.json": "c05701d638c70e93ec282bf472a6f8bb02ad80745802c1404708003340e81781"
+      }
+    },
+    {
+      "document_id": "KB-B006-MICHELIN-URD2025",
+      "page": 205,
+      "themes": [
+        "energy"
+      ],
+      "output_directory": "artifacts/scale_batch_006/mineru_targets_RESUME03/KB-B006-MICHELIN-URD2025-p0205",
+      "status": "complete",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_006/mineru_targets_RESUME03/KB-B006-MICHELIN-URD2025-p0205/esg_rd_mineru_run.json",
+      "selected_attempt": "RESUME03",
+      "completion_basis": "post_completion_shutdown_abort_with_three_identical_required_output_sets",
+      "original_status": "failed",
+      "original_returncode": -6,
+      "output_sha256": {
+        ".md": "1707668c0f0c2e88d70342d268cd8822a70502e86d6d37447e7034384495f538",
+        "_content_list.json": "3a0cfe634764537a6a2a47fa04de425e0fac16d0c4b30fdf3f38262c6ebf418a",
+        "_middle.json": "7811748ca865fa67053a63642646653fa41f8d040e17b6c70dce009760962af1",
+        "_model.json": "3f2ac72838faedbdb8869f882c823a745e44da8a683ce6f8b43cce9287633e14"
+      }
+    },
+    {
+      "document_id": "KB-B006-MICHELIN-URD2025",
+      "page": 207,
+      "themes": [
+        "ghg_emissions"
+      ],
+      "output_directory": "artifacts/scale_batch_006/mineru_targets_RESUME03/KB-B006-MICHELIN-URD2025-p0207",
+      "status": "complete",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_006/mineru_targets_RESUME03/KB-B006-MICHELIN-URD2025-p0207/esg_rd_mineru_run.json",
+      "selected_attempt": "RESUME03",
+      "completion_basis": "post_completion_shutdown_abort_with_three_identical_required_output_sets",
+      "original_status": "failed",
+      "original_returncode": -6,
+      "output_sha256": {
+        ".md": "e453eeb3f98fc556c125c2500e54adcc7635abd03f6ef88c42eecac34c32e6df",
+        "_content_list.json": "5aa5a00cc1a193c8b7c975964cbeec2323bd53c14d3649f67e04d362734abe35",
+        "_middle.json": "5d002e60b263ee725c0b0c950d01c5307c19e7915552f98b452575b1c31bfe29",
+        "_model.json": "dc55873748995d4214b1e81669a9be62517e70d548abd0b876fcf58179858a40"
+      }
+    },
+    {
+      "document_id": "KB-B006-MICHELIN-URD2025",
+      "page": 235,
+      "themes": [
+        "water"
+      ],
+      "output_directory": "artifacts/scale_batch_006/mineru_targets_RESUME02/KB-B006-MICHELIN-URD2025-p0235",
+      "status": "complete",
+      "selected_attempt": "RESUME02",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "a67116f389f6adb22ed118613950765a2fecc8e70fb5c185b11554b20b9af5ec",
+        "_content_list.json": "363d02a7ead7d189d266987e90eb476218a28f6b5557372245a55987230389cb",
+        "_middle.json": "b4404020de90298a52fe76ad051573a1db1ead95a18eb1335195c4c5ee9cbd83",
+        "_model.json": "2b6c66695824cbdf607468d4ef84fd547ae0af8f082c3210baaaf39e131a7fd5"
+      }
+    },
+    {
+      "document_id": "KB-B006-MICHELIN-URD2025",
+      "page": 255,
+      "themes": [
+        "circularity"
+      ],
+      "output_directory": "artifacts/scale_batch_006/mineru_targets_RESUME03/KB-B006-MICHELIN-URD2025-p0255",
+      "status": "complete",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_006/mineru_targets_RESUME03/KB-B006-MICHELIN-URD2025-p0255/esg_rd_mineru_run.json",
+      "selected_attempt": "RESUME03",
+      "completion_basis": "post_completion_shutdown_abort_with_three_identical_required_output_sets",
+      "original_status": "failed",
+      "original_returncode": -6,
+      "output_sha256": {
+        ".md": "fd21402559d8a973a60c46413a1c7591a3452875ecaaada7cb8886b7e1464f5e",
+        "_content_list.json": "d5c037de1966ca3b81775baa89d208701b22d6469325e1bc8033e7eff7c704e5",
+        "_middle.json": "d05c22a36edd0411096724522e751fd86390630666b2005e64a2f15baa4a6b86",
+        "_model.json": "360591cd0b2a446cc78ee7da6c77278e509ae20e56d51a07f8801cdfe0cfcd8e"
+      }
+    },
+    {
+      "document_id": "KB-B006-MICHELIN-URD2025",
+      "page": 271,
+      "themes": [
+        "health_safety"
+      ],
+      "output_directory": "artifacts/scale_batch_006/mineru_targets_RESUME03/KB-B006-MICHELIN-URD2025-p0271",
+      "status": "complete",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_006/mineru_targets_RESUME03/KB-B006-MICHELIN-URD2025-p0271/esg_rd_mineru_run.json",
+      "selected_attempt": "RESUME03",
+      "completion_basis": "post_completion_shutdown_abort_with_three_identical_required_output_sets",
+      "original_status": "failed",
+      "original_returncode": -6,
+      "output_sha256": {
+        ".md": "fc35a3bf3cf0d5225e9e36dad905a5b56bb8d3ea15480580a5f37d907137fcc0",
+        "_content_list.json": "fbafa1e8ef3d2a448db4f4b35cd448f0e7f72e52688879f1fb5a09e1d72e7cf3",
+        "_middle.json": "3ffeb2a6f075b5a51e36a7acebf63c4985a64b42b01a7307c8287da88c9751ea",
+        "_model.json": "bc5441d87465401bb71db87dd8265abddec890d38af51d59638f446205f350e4"
+      }
+    },
+    {
+      "document_id": "KB-B006-MICHELIN-URD2025",
+      "page": 308,
+      "themes": [
+        "biodiversity"
+      ],
+      "output_directory": "artifacts/scale_batch_006/mineru_targets_RESUME03/KB-B006-MICHELIN-URD2025-p0308",
+      "status": "complete",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_006/mineru_targets_RESUME03/KB-B006-MICHELIN-URD2025-p0308/esg_rd_mineru_run.json",
+      "selected_attempt": "RESUME03",
+      "completion_basis": "post_completion_shutdown_abort_with_three_identical_required_output_sets",
+      "original_status": "failed",
+      "original_returncode": -6,
+      "output_sha256": {
+        ".md": "d67b478fe5a7bf9c7f9ad70e8de8bc27934130df9bf019bac5d550f95bfc52ac",
+        "_content_list.json": "37c69e8d78b827f24070f10bb10a1536b1f53db81ce8d32da9be941238864177",
+        "_middle.json": "d51b2421bf7da49677e3489694310a2b8876cd18fdbf2c362c03e3bf9792fb15",
+        "_model.json": "6f4a30e4f41ef50e6cc8590ea7668220b5ded6a205680468b6294fa8974274d5"
+      }
+    },
+    {
+      "document_id": "KB-B006-MICHELIN-URD2025",
+      "page": 312,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_006/mineru_targets_RESUME02/KB-B006-MICHELIN-URD2025-p0312",
+      "status": "complete",
+      "selected_attempt": "RESUME02",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "d6a7fd535c199803a88408bbcb81d82fcb546231f77204c247b1f8bb9030d1ca",
+        "_content_list.json": "3ecdf2247e2a9b9ecd40c526546ddd69d7d4238278d7ae337825ecc189528d64",
+        "_middle.json": "60cb297e52e3334e40a886d669f2bfe9535a31aa80670bafe2da33ede6b1116a",
+        "_model.json": "36874dd0a8b9c40a939e1480000973fe203ee0b2b42a460fcac9649ec1afb8e3"
+      }
+    },
+    {
+      "document_id": "KB-B006-MICHELIN-URD2025",
+      "page": 395,
+      "themes": [
+        "workforce"
+      ],
+      "output_directory": "artifacts/scale_batch_006/mineru_targets_RESUME03/KB-B006-MICHELIN-URD2025-p0395",
+      "status": "complete",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_006/mineru_targets_RESUME03/KB-B006-MICHELIN-URD2025-p0395/esg_rd_mineru_run.json",
+      "selected_attempt": "RESUME03",
+      "completion_basis": "post_completion_shutdown_abort_with_three_identical_required_output_sets",
+      "original_status": "failed",
+      "original_returncode": -6,
+      "output_sha256": {
+        ".md": "a7bf0f4605fec9e2e15b77f81fdf2a58a8f8f54111f1bd84ead336266cc024a8",
+        "_content_list.json": "c9735c5f07472cbf007ffcc40ed95cd8d437c4b1d15bcc5b497362cb49dcf710",
+        "_middle.json": "4f15b4cd5d129a8adaf7a18c0b05e982faf6354170c702c99a95326d92de203c",
+        "_model.json": "ef31d5485acc24028a3b40e116dc50e3e712734a7869b4cfefdb877b8ab72fc7"
+      }
+    },
+    {
+      "document_id": "KB-B006-RECKITT-AR2025",
+      "page": 44,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_006/mineru_targets_RESUME01/KB-B006-RECKITT-AR2025-p0044",
+      "status": "complete",
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "47369de592a419eada5146e49143fe1d0f027052f660e9344766b52e94d16ac7",
+        "_content_list.json": "074a85bbb9b4ce986895268edc15bf50514988b34d6663344958ca34d13a5b13",
+        "_middle.json": "3f61af7906f6066d4416005e95b8ab93ee92e1f6d63a57f5139f17ae62fd4b0b",
+        "_model.json": "f468d9bdbf1ea8c73e97db8fc522bfe86a8836e89c4a89899994edb7c9fc0a09"
+      }
+    },
+    {
+      "document_id": "KB-B006-RECKITT-AR2025",
+      "page": 45,
+      "themes": [
+        "circularity"
+      ],
+      "output_directory": "artifacts/scale_batch_006/mineru_targets_RESUME01/KB-B006-RECKITT-AR2025-p0045",
+      "status": "complete",
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "d821c0cba2aed334e5a8496d4067c6c7ab873bef0c2f85099edfe6da3f5c4d80",
+        "_content_list.json": "be4e8aadbd387f819fea5577bbae2b7fea4eec48b4767551519a49733170c9e9",
+        "_middle.json": "27763d28aa7e82b59c565d9dabdf5645214ff87ee817e9f0bbce321a237134bd",
+        "_model.json": "d18b781a325ad2970877347f6b6583472f1ce86c05795b0cda7c3a6866103474"
+      }
+    },
+    {
+      "document_id": "KB-B006-RECKITT-AR2025",
+      "page": 46,
+      "themes": [
+        "energy",
+        "ghg_emissions",
+        "targets"
+      ],
+      "output_directory": "artifacts/scale_batch_006/mineru_targets_RESUME01/KB-B006-RECKITT-AR2025-p0046",
+      "status": "complete",
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "bec9bc0ed3bdd90d8dc6cdc4de59463434c8e3f7a01fbf52032caddf8eb11ca9",
+        "_content_list.json": "0bf3aa58cfc83920bf280e2b86284119be3906b1e18eeacc74fc39ab6e66bf63",
+        "_middle.json": "080816e5ebb627df807530093813972a81591c4218d5d9ad8932ec75682784c4",
+        "_model.json": "04cf69ca4798d41db78a367d152929079e6d7f3ba2b4994e2302f88472f2d563"
+      }
+    },
+    {
+      "document_id": "KB-B006-RECKITT-AR2025",
+      "page": 47,
+      "themes": [
+        "biodiversity"
+      ],
+      "output_directory": "artifacts/scale_batch_006/mineru_targets_RESUME01/KB-B006-RECKITT-AR2025-p0047",
+      "status": "complete",
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "666b1da135bdbd26467ab4b7b2f8b032dbc2ff949056c86f3b24c2648951e076",
+        "_content_list.json": "9a0e232aa8ad11d3af45415a1feb221c26cbec989427071826b96a79c87c2641",
+        "_middle.json": "605b6060099f40799d0cefa0133b15d514569edca57cc422508067e8816ffcb1",
+        "_model.json": "c6fddea35face914f872fb2e266972f25d72e71cd32a8f56b5bcd4ea8a90ac9b"
+      }
+    },
+    {
+      "document_id": "KB-B006-RECKITT-AR2025",
+      "page": 49,
+      "themes": [
+        "health_safety"
+      ],
+      "output_directory": "artifacts/scale_batch_006/mineru_targets_RESUME01/KB-B006-RECKITT-AR2025-p0049",
+      "status": "complete",
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "cbac115a8eef5c00ffff5613d6940209f986f54d324f70c38af36d67fe349f97",
+        "_content_list.json": "61808b5ecfe4fd96e87c54e4feebb2e1c0ef1f764da55dd508febe7d96395892",
+        "_middle.json": "59e3e7c5bec04c10019bf2804f562b96dcb44d69020d6671513a5196773cf465",
+        "_model.json": "c4ec7df8ef10e006fe522d9d9711e552a169f642492decef229ecd92fa596317"
+      }
+    },
+    {
+      "document_id": "KB-B006-RECKITT-AR2025",
+      "page": 101,
+      "themes": [
+        "workforce"
+      ],
+      "output_directory": "artifacts/scale_batch_006/mineru_targets_RESUME01/KB-B006-RECKITT-AR2025-p0101",
+      "status": "complete",
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "6be3df970e8af5f45394277f21fc9520844f7c276dde270eb5600140aedbf054",
+        "_content_list.json": "63827c753408458168e169a8c9000f47dd1b7dc1792006d6228b5d695d7a4e47",
+        "_middle.json": "8d9195a9a6720ed4b8c49062c9101ab9d118c53be5e62f2011b8b227f168ea23",
+        "_model.json": "ea623afc607ba246c48a9a66c89ed8bcb8479bcb5ac864045e6170b9c2d55283"
+      }
+    },
+    {
+      "document_id": "KB-B006-RECKITT-AR2025",
+      "page": 203,
+      "themes": [
+        "water"
+      ],
+      "output_directory": "artifacts/scale_batch_006/mineru_targets_RESUME01/KB-B006-RECKITT-AR2025-p0203",
+      "status": "complete",
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "f44027bf1cca8b44d5d790b815186da4ce4a14a05df9e3d67c9d1044176bd9f4",
+        "_content_list.json": "da0e2b8fd042100addd664875551580096dff2689b744689613add7f0966269b",
+        "_middle.json": "fe0edd73efbc42419fc8237af07ce2f6f83431a9efc0d56b507afbf227e7109d",
+        "_model.json": "daf7333f24a364d9240701fc0e8f35ec351bbe569a3e6e46c71ef983f9eff8f1"
+      }
+    },
+    {
+      "document_id": "KB-B006-VOLVO-AR2025",
+      "page": 155,
+      "themes": [
+        "targets"
+      ],
+      "output_directory": "artifacts/scale_batch_006/mineru_targets_RESUME01/KB-B006-VOLVO-AR2025-p0155",
+      "status": "complete",
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "a8661fa245e364ac3e9fac0858f1fb5bf49b8be4fd4409bdbce36a78ce3f6e10",
+        "_content_list.json": "dc7ae6d74132814f2f06f01b2505b154994a1e3b8f4fdc0507f5be220a24b256",
+        "_middle.json": "247711fd15148047667df697aad080e89a0cfa61cfac3c40dce33efee7238664",
+        "_model.json": "ced9b9e8b927121e04c8a68cbe2436b5a85642300d05a130773413683149b00f"
+      }
+    },
+    {
+      "document_id": "KB-B006-VOLVO-AR2025",
+      "page": 158,
+      "themes": [
+        "energy"
+      ],
+      "output_directory": "artifacts/scale_batch_006/mineru_targets_RESUME02/KB-B006-VOLVO-AR2025-p0158",
+      "status": "complete",
+      "selected_attempt": "RESUME02",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "edbbefb7aa43030308810388e00de90524939bdb57e623d0612d606ac0642664",
+        "_content_list.json": "2cadff9739ffe1e985741c49e2a216768aba35efd1f6dffb63c5f707f7b529db",
+        "_middle.json": "dda6dbf06fcad1373d593eeecc1674c5cae43777f57c4915601be8ab3e5c4b0b",
+        "_model.json": "36fe0c517f9ca61c43c3026ea25265e76f69988ff91f190a3b9a5532e4675976"
+      }
+    },
+    {
+      "document_id": "KB-B006-VOLVO-AR2025",
+      "page": 160,
+      "themes": [
+        "ghg_emissions"
+      ],
+      "output_directory": "artifacts/scale_batch_006/mineru_targets_RESUME03/KB-B006-VOLVO-AR2025-p0160",
+      "status": "complete",
+      "selected_attempt": "RESUME03",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "e4e23586c84a010e6dd803e1ccecbff7f76220e899308c5f17adceec1f456712",
+        "_content_list.json": "92bf70032f326bab7d6de9bd9ee97c3314110007733804b768ed81d3fab71b0b",
+        "_middle.json": "6e70df0f6f48f79cbf60915f11e5fd1cfcae3fe99176c9f6adc8fa42558fcd8a",
+        "_model.json": "f7ab11943ab2368c7010ab6d7742b1f402db202688c44665245ebdd56b3cf13a"
+      }
+    },
+    {
+      "document_id": "KB-B006-VOLVO-AR2025",
+      "page": 164,
+      "themes": [
+        "circularity"
+      ],
+      "output_directory": "artifacts/scale_batch_006/mineru_targets_RESUME03/KB-B006-VOLVO-AR2025-p0164",
+      "status": "complete",
+      "selected_attempt": "RESUME03",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "18d2547fd4933068493ebfccdc8f5ae789c051bc822f4683c50cc364b2ce65a5",
+        "_content_list.json": "1728f5fa7df2123b86458d5b8905508839b78c17ee866dd35bc843f4bee7fe1c",
+        "_middle.json": "12d948c28ba3a767f7cc6eba36fe18943e73245960aa1cc4498ae056d64d92a3",
+        "_model.json": "cc5963561db4e89ba221be982a0d5c4042d9dac964a9c8da277785e90b9395ae"
+      }
+    },
+    {
+      "document_id": "KB-B006-VOLVO-AR2025",
+      "page": 165,
+      "themes": [
+        "biodiversity"
+      ],
+      "output_directory": "artifacts/scale_batch_006/mineru_targets_RESUME03/KB-B006-VOLVO-AR2025-p0165",
+      "status": "complete",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_006/mineru_targets_RESUME03/KB-B006-VOLVO-AR2025-p0165/esg_rd_mineru_run.json",
+      "selected_attempt": "RESUME03",
+      "completion_basis": "post_completion_shutdown_abort_with_three_identical_required_output_sets",
+      "original_status": "failed",
+      "original_returncode": -6,
+      "output_sha256": {
+        ".md": "4b785af5c95d2548b52047711ccf6c03963c3f343ae1426664bf634ca4ae737d",
+        "_content_list.json": "a6245b42b27b26c1d0a15fb000ce654f3b23cdccb98e66a6fc7048368b512d2c",
+        "_middle.json": "304197838cd231a712f895f15242464b731efaa6a25e6e6204e245504d6180ea",
+        "_model.json": "57a8cd08a5f62268e0ecadfd851fe677315ca98c6e8f66f0641f729ff7b02233"
+      }
+    },
+    {
+      "document_id": "KB-B006-VOLVO-AR2025",
+      "page": 166,
+      "themes": [
+        "water"
+      ],
+      "output_directory": "artifacts/scale_batch_006/mineru_targets_RESUME01/KB-B006-VOLVO-AR2025-p0166",
+      "status": "complete",
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "b61a2d131135c5043c8f4518bc1e24d39774277c5d89b8fca58a26e9b8085fcd",
+        "_content_list.json": "fab5c9ff6fb8ebc420399935f89de98e2e91427c49e000fbcdf5baf2556a7c09",
+        "_middle.json": "99818604c756e0a782445f0906ee28c1d1e3f2d3d39f2a46e261da239c0befac",
+        "_model.json": "57ccfc118cee54014b3e6cb45b0c51af0e9015843f64aeb1d812045653605ace"
+      }
+    },
+    {
+      "document_id": "KB-B006-VOLVO-AR2025",
+      "page": 170,
+      "themes": [
+        "health_safety"
+      ],
+      "output_directory": "artifacts/scale_batch_006/mineru_targets_RESUME01/KB-B006-VOLVO-AR2025-p0170",
+      "status": "complete",
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "f6bbf04f45c066ad59ef060dc0bc58acd581662ff29603364213773ae0649ce3",
+        "_content_list.json": "3f1bc6b4e8f37a160092abc806927c75b745bb85d951285734ea6614fd44108f",
+        "_middle.json": "c0ddb5ef71715264e2eddaf8bd8b5dfbe82bad8bf9f13961e07c5449cbaa3f4a",
+        "_model.json": "c231cfee2346ff8454bd5a119854402ebb3f16a599377837bef20027d62a46c5"
+      }
+    },
+    {
+      "document_id": "KB-B006-VOLVO-AR2025",
+      "page": 174,
+      "themes": [
+        "workforce"
+      ],
+      "output_directory": "artifacts/scale_batch_006/mineru_targets_RESUME01/KB-B006-VOLVO-AR2025-p0174",
+      "status": "complete",
+      "selected_attempt": "RESUME01",
+      "completion_basis": "returncode_zero_and_required_outputs_present",
+      "output_sha256": {
+        ".md": "e3d2b25785936f779bce8118de605a4e008e322349f57fa96b467d5d6bac9ee7",
+        "_content_list.json": "ee679c6920c67728b99b21f6aec96f6ad3086e4a43f883ab4b89da962f2809bc",
+        "_middle.json": "776f32d2f247dc02d293d2d4387a18b82aafa45bcce0fba5f6c5f124c07598a0",
+        "_model.json": "d29a4ef291e269bd3591ceb0fe63028323458f9640292a7c1da37fe20b4ebb9e"
+      }
+    },
+    {
+      "document_id": "KB-B006-VOLVO-AR2025",
+      "page": 215,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_006/mineru_targets_RESUME03/KB-B006-VOLVO-AR2025-p0215",
+      "status": "complete",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_006/mineru_targets_RESUME03/KB-B006-VOLVO-AR2025-p0215/esg_rd_mineru_run.json",
+      "selected_attempt": "RESUME03",
+      "completion_basis": "post_completion_shutdown_abort_with_three_identical_required_output_sets",
+      "original_status": "failed",
+      "original_returncode": -6,
+      "output_sha256": {
+        ".md": "cc1fb10be0e1bd3afcea3ecee94d68643bfaf2f76b1b428c2b44b886461de1a2",
+        "_content_list.json": "ec384a5ac2b536caebc7939ca025f5c5f93a50e68ee85b16e1d63f56d8948921",
+        "_middle.json": "a8b765232fc9bb9d89bad5ef5ee4fb9af43df450370ae6f074b96615b412af3f",
+        "_model.json": "bba751775c78e4bbefc9b7798a952f7e536eea9e2bb6ae774be0830b91e8a705"
+      }
+    }
+  ]
+}

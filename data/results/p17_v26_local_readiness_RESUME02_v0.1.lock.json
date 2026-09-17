@@ -1,0 +1,94 @@
+{
+  "artifacts": {
+    "atomic_projection_lineage": {
+      "path": "data/manifests/p17_atomic_projection_lineage_RESUME02_v0.1.lock.json",
+      "sha256": "565903a13181e90fd06c84d0a824ecb9abeadc8c0220eb26e8528be351ee760b"
+    },
+    "execution_config": {
+      "path": "configs/experiments/p17-v26-unseen-lockbox-RESUME02-local.json",
+      "sha256": "f9e6cf5b76df7ef9161c85247b5355c4fb22bd9dc9e805323557b85917691c09"
+    },
+    "layout_registry": {
+      "path": "configs/framework/p17_layout_fallback_registry_RESUME02_v0.1.lock.json",
+      "sha256": "595d5c1f3578afa7991b1cce477c21827b89b5758c835c7350222e079fcaca97"
+    },
+    "local_task_pack": {
+      "path": "data/tasks/p17_local_execution_task_pack_RESUME02_v0.1.lock.json",
+      "sha256": "8ca46abaef20fa0d8fb7b7668e9732317902ebbe83e056a50c3959befc229711"
+    },
+    "report": {
+      "path": "docs/78_P17_v2.6本地预冻结与云授权边界_v0.1.md",
+      "sha256": "2189b111f778eaf74b94ffa1aa9640a30c879cd73e0d2cc383098b6d275d252b"
+    }
+  },
+  "cloud_boundary": {
+    "authorized_pages_required": [
+      127,
+      129,
+      130,
+      141,
+      142,
+      172,
+      178,
+      179,
+      372,
+      373,
+      374,
+      375
+    ],
+    "authorized_scope_required": "P17 Stage A/Stage B single-attempt inference",
+    "candidate_model": "qwen3.5:397b-cloud",
+    "candidate_model_call_count": 0,
+    "cloud_transmission_count": 0,
+    "explicit_authorization_received": false
+  },
+  "document_id": "P17-BMW-GROUP-REPORT-2025",
+  "document_sha256": "7a7fd36bf7f274e776ef7eda30d3cda4335a99cbb45f097ae5e8268ccf7759e7",
+  "experiment_id": "P17-V26-UNSEEN-LOCKBOX-V01",
+  "locked_prior_experiments_modified": false,
+  "mineru": {
+    "declared_fallback_pages": [
+      127,
+      178
+    ],
+    "failure_count": 0,
+    "registry": "data/manifests/p17_mineru_target_registry_RESUME02_v0.1.json",
+    "registry_sha256": "69272f9c993b37721356a7060e7f9f9ca02e67e5c250ec04158ae3f517363646",
+    "success_count": 12
+  },
+  "prefreeze_integrity": {
+    "contract_preflights_passed": 74,
+    "deterministic_calculation_passed": true,
+    "evidence_quotes_checked": 43,
+    "reference_audit": "data/results/p17_prefreeze_reference_consistency_audit_RESUME02_v0.1.lock.json",
+    "reference_audit_sha256": "791636f8c3524326265777b4a2fdcd4261a4d160249baf7b8df6529c0d734eb6",
+    "reference_freeze": "data/manifests/p17_simulated_reference_freeze_RESUME02_v0.1.lock.json",
+    "reference_freeze_sha256": "e506661b698e3db623c6c43679ac684ae5e4be14ef4c01c4376e4211abab291d",
+    "status": "passed"
+  },
+  "schema_version": "2.6",
+  "slot_count": 74,
+  "status": "local_readiness_passed_waiting_for_explicit_cloud_authorization",
+  "task_count": 6,
+  "unique_target_pages": [
+    127,
+    129,
+    130,
+    141,
+    142,
+    172,
+    178,
+    179,
+    372,
+    373,
+    374,
+    375
+  ],
+  "verification": {
+    "artifact_hash_validation": "passed",
+    "full_pytest": "261 passed",
+    "p17_json_validation": "passed",
+    "p17_tests": "5 passed",
+    "ruff": "passed"
+  }
+}

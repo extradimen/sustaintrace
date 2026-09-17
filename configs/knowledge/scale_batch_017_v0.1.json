@@ -1,0 +1,75 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-017",
+  "status": "source_selection_frozen_before_acquisition",
+  "policy": {
+    "local_only": true,
+    "cloud_transmission": false,
+    "locked_experiments_untouched": [
+      "P3-P23",
+      "KB-SCALE-BATCH-001-through-016"
+    ],
+    "download_resume": true,
+    "overwrite_verified_files": false,
+    "fact_promotion_requires_independent_gate": true,
+    "performance_baseline_required": true,
+    "native_table_corroboration_version": "v34_bounded_layout_column_reassembly_v1",
+    "assurance_window_preflight_required": true,
+    "assurance_window_required_fields": [
+      "issuer_identity",
+      "reporting_period",
+      "opinion_or_conclusion",
+      "signatory_identity"
+    ]
+  },
+  "selection_rationale": "Three previously unused issuer-hosted English 2025 reports from building materials, outdoor equipment and engineering consulting. The batch broadens industrial and service-sector layouts while retaining the Batch 16 local-only assurance-first protocol.",
+  "performance_baseline": {
+    "comparison_parent": "data/results/scale_batch_016_performance_baseline.lock.json",
+    "separate_from_knowledge_quality": true,
+    "target_pages_per_document": 9
+  },
+  "documents": [
+    {
+      "document_id": "KB-B017-ROCKWOOL-AR2025",
+      "source_group_id": "KB-ROCKWOOL-2025",
+      "company": "ROCKWOOL A/S",
+      "title": "ROCKWOOL Group Annual Report 2025",
+      "report_year": 2025,
+      "official_landing_page": "https://www.rockwool.com/group/about-us/investors/financial-reports/annual-report-highlights-2025/",
+      "download_url": "https://www.rockwool.com/siteassets/investors/financial-reports/2025/annual-report-2025.pdf",
+      "official_domain": "www.rockwool.com",
+      "local_path": "data/raw/scale_batch_017/rockwool-annual-report-2025.pdf",
+      "source_role": "primary_report",
+      "language": "English",
+      "prior_experiment_use": false
+    },
+    {
+      "document_id": "KB-B017-HUSQVARNA-AR2025",
+      "source_group_id": "KB-HUSQVARNA-2025",
+      "company": "Husqvarna AB (publ)",
+      "title": "Husqvarna Group Annual Report 2025",
+      "report_year": 2025,
+      "official_landing_page": "https://www.husqvarnagroup.com/en/report/husqvarna-groups-annual-report-2025",
+      "download_url": "https://www.husqvarnagroup.com/sites/husqvarna/files/pr/202603249629-1.pdf",
+      "official_domain": "www.husqvarnagroup.com",
+      "local_path": "data/raw/scale_batch_017/husqvarna-group-annual-report-2025.pdf",
+      "source_role": "primary_report",
+      "language": "English",
+      "prior_experiment_use": false
+    },
+    {
+      "document_id": "KB-B017-SWECO-AR2025",
+      "source_group_id": "KB-SWECO-2025",
+      "company": "Sweco AB (publ)",
+      "title": "Sweco Annual Report 2025",
+      "report_year": 2025,
+      "official_landing_page": "https://www.swecogroup.com/investors/financial-information/annual-report/",
+      "download_url": "https://www.swecogroup.com/wp-content/uploads/sites/2/2026/03/Sweco-Annual-Report-2025.pdf",
+      "official_domain": "www.swecogroup.com",
+      "local_path": "data/raw/scale_batch_017/sweco-annual-report-2025.pdf",
+      "source_role": "primary_report",
+      "language": "English",
+      "prior_experiment_use": false
+    }
+  ]
+}

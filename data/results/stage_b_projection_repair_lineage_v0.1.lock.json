@@ -1,0 +1,56 @@
+{
+  "artifact_hashes": {
+    "P3-DEX-002": {
+      "projected_output": {
+        "path": "research_archive/V13-STAGE-B-FULL-REGRESSION-DEV05/runs/P3-DEX-002-QWEN397B-v13-stage-b-full-dev05-r1/normalized_output.json",
+        "sha256": "aadecd0112732846997a85867e7aea8fd7e1a0b9c2884b1ae332e4387df65dc6"
+      },
+      "projection_validation": {
+        "path": "research_archive/V13-STAGE-B-FULL-REGRESSION-DEV05/runs/P3-DEX-002-QWEN397B-v13-stage-b-full-dev05-r1/validation.json",
+        "sha256": "972b42156a4b811d2b6c590d14ce3e12631a73af01106e5a3cb87529a529ce3c"
+      },
+      "stage_a": {
+        "path": "research_archive/V13-END-TO-END-DEVELOPMENT-DEV01/runs/P3-DEX-002-QWEN397B-v13-e2e-stage-a-r1/normalized_output.json",
+        "sha256": "c01bf741f61de25fde8d2620025f97502cecdbe52257c34c7dc151357f4ea6a5"
+      },
+      "stage_b_context": {
+        "path": "research_archive/V13-STAGE-B-FULL-REGRESSION-DEV05/runs/P3-DEX-002-QWEN397B-v13-stage-b-full-dev05-r1/stage_b_context_manifest.json",
+        "sha256": "5ac8d9b61105c13283899ef57b952440877347ac02cfb047dbeca6dae3f947d2"
+      }
+    },
+    "P3-XPAGE-002": {
+      "projected_output": {
+        "path": "research_archive/V13-STAGE-B-FULL-REGRESSION-DEV05/runs/P3-XPAGE-002-QWEN397B-v13-stage-b-full-dev05-r1/normalized_output.json",
+        "sha256": "da0bbac4975eb081e6284bccf52787bc633184e4ad2a5e21649adc5d9a251e31"
+      },
+      "projection_validation": {
+        "path": "research_archive/V13-STAGE-B-FULL-REGRESSION-DEV05/runs/P3-XPAGE-002-QWEN397B-v13-stage-b-full-dev05-r1/validation.json",
+        "sha256": "972b42156a4b811d2b6c590d14ce3e12631a73af01106e5a3cb87529a529ce3c"
+      },
+      "stage_a": {
+        "path": "research_archive/V13-END-TO-END-DEVELOPMENT-DEV01/runs/P3-XPAGE-002-QWEN397B-v13-e2e-stage-a-r1/normalized_output.json",
+        "sha256": "1210fa14143c24a663ca645fcc683a8e7ff9f6d338f193cbfb93f84e79eec8c8"
+      },
+      "stage_b_context": {
+        "path": "research_archive/V13-STAGE-B-FULL-REGRESSION-DEV05/runs/P3-XPAGE-002-QWEN397B-v13-stage-b-full-dev05-r1/stage_b_context_manifest.json",
+        "sha256": "929c3aa2b8ade4dfcf5bc7d6909598bb5639b698fe1f0b0bfb7c0777f4ea3b91"
+      }
+    }
+  },
+  "current_phase_execution_performed": false,
+  "historical_outputs_modified": false,
+  "next_gate": "bind validated projection lineage as supervised executor candidate",
+  "output": {
+    "path": "data/knowledge_bases/v0.1/stage_b_projection_lineage_validations.jsonl",
+    "sha256": "cdd4458bba1ce7548674a01cd2348e82e10cbd90fee21c83d3db168d24f86bd5"
+  },
+  "reference_used_as_candidate_input": false,
+  "result_id": "ESG-STAGE-B-PROJECTION-REPAIR-LINEAGE-v0.1",
+  "schema_version": "0.1",
+  "status": "existing_v13_development_lineage_validated_for_controller_reuse",
+  "tasks": [
+    "P3-DEX-002",
+    "P3-XPAGE-002"
+  ],
+  "validated": 1
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": "0.1",
+  "closure_id": "ESG-EVIDENCE-REPAIR-CONTRACT-INTEGRATION-CLOSURE-v0.1",
+  "created_at": "2026-09-14T11:30:00+08:00",
+  "status": "complete_validation_fixture_gate_ready",
+  "outcome": {
+    "causal_subtypes_contracted": 6,
+    "historical_failures_bound": 7,
+    "historical_archive_only": 7,
+    "operational_supervised_validation_candidates": 6,
+    "operational_contract_blocks": 1,
+    "executions_performed": 0,
+    "candidate_outputs_rewritten": 0
+  },
+  "artifacts": {
+    "contract_catalog": {"path": "configs/knowledge/evidence_repair_contract_catalog_v0.1.json", "sha256": "a8d92cea2bfcd1f69eac274382f80de3d509b8e1649bd1b4435f252ae4c04c17"},
+    "binding_result": {"path": "data/results/evidence_repair_contract_bindings_v0.1.lock.json", "sha256": "8b21c87afbbc775fa29fb87c4631fd357c0e9bff297265ff5d80c7c1a9fcb0d9"},
+    "locked_bindings": {"path": "data/knowledge_bases/v0.1/exposed_evidence_contract_bindings.jsonl", "sha256": "3d560ff9e68f1699430d1011536dffb46966b23deaa652769f6796760ac8e5d7"},
+    "operational_preview": {"path": "data/knowledge_bases/v0.1/exposed_evidence_operational_route_preview.jsonl", "sha256": "7bea283853402072bb17497313e9a09f604faf43b358a1027766a5c21627f0ac"},
+    "report": {"path": "docs/154_证据修复契约与控制器集成_v0.1.md", "sha256": "c2caea22fdde321f000d71469dd0b82c4fffbf4665d3c44c46f771496d04622d"}
+  },
+  "quality_gates": {
+    "pytest_collected_and_passed": 491,
+    "ruff": "passed",
+    "current_stage_json": "passed",
+    "known_locked_p1_json_exception_preserved": true,
+    "locked_experiments_modified_or_rescored": false
+  },
+  "next_gate": "instantiate hashed validation fixtures and rollback checks on exposed evidence failures"
+}

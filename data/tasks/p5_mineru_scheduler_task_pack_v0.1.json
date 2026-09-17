@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "derived_from": "data/tasks/p5_task_pack_v0.1.lock.json",
+  "tasks": [
+    {"task_id":"P5-DEX-001","document_id":"P5-AHOLD-AR2025","target_pages":[295]},
+    {"task_id":"P5-CALC-001","document_id":"P5-AHOLD-AR2025","target_pages":[295]},
+    {"task_id":"P5-SCOPE-001","document_id":"P5-AHOLD-AR2025","target_pages":[364]},
+    {"task_id":"P5-XPAGE-001","document_id":"P5-AHOLD-AR2025","target_pages":[7,295]},
+    {"task_id":"P5-DEX-002","document_id":"P5-AHOLD-AR2025","target_pages":[318]},
+    {"task_id":"P5-ASSURE-001","document_id":"P5-AHOLD-AR2025","target_pages":[330,331]}
+  ]
+}

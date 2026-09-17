@@ -1,0 +1,74 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-011",
+  "status": "increment_built_candidates_not_promoted",
+  "fact_candidates": 32,
+  "trusted_facts_promoted": 0,
+  "evidence_gaps": 8,
+  "failure_observations": 8,
+  "gaps": [
+    {
+      "document_id": "KB-B011-ENI-SS2025",
+      "page": 8,
+      "theme": "assurance",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B011-ENI-SS2025",
+      "page": 33,
+      "theme": "ghg_emissions",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B011-DSMF-SS2025",
+      "page": 3,
+      "theme": "assurance",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B011-DSMF-SS2025",
+      "page": 30,
+      "theme": "targets",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B011-DSMF-SS2025",
+      "page": 89,
+      "theme": "workforce",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B011-DB-AR2025",
+      "page": 341,
+      "theme": "water",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B011-DB-AR2025",
+      "page": 427,
+      "theme": "workforce",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B011-DB-AR2025",
+      "page": 435,
+      "theme": "health_safety",
+      "reason": "no_theme_line_in_mineru_markdown"
+    }
+  ],
+  "outputs": {
+    "facts": {
+      "path": "data/knowledge_bases/v0.1/increments/scale_batch_011_fact_records.jsonl",
+      "sha256": "236323417efeac2ff3b394df5958ea0d691905ec220f44f6781777ef1b8ba655"
+    },
+    "failures": {
+      "path": "data/knowledge_bases/v0.1/increments/scale_batch_011_failure_records.jsonl",
+      "sha256": "ae4d86be6859815becc17464b2d5fd3de19b6cc868d01cdd7b06f2961add04a0"
+    }
+  },
+  "policy": {
+    "cloud_transmission": false,
+    "locked_experiments_modified": false,
+    "automatic_promotion": false
+  }
+}

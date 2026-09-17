@@ -1,0 +1,29 @@
+{
+  "adjudications": 27,
+  "inputs": {
+    "fact_records_sha256": "8af57e7b7bda85deef8f90586f8225aedcf1da24e0669300115b8f1f7499bf5b",
+    "independent_reviews_sha256": "b487e4e474aecea6cf17e260983203155433ba21ecb45adac3ad48c2d527cd28",
+    "joint_qualifications_sha256": "9f63f2f3f819ddc456a8ddc5601c92a080f8b15759dd183f5dd946d5ba8fda0c"
+  },
+  "locked_experiments_modified_or_rescored": false,
+  "next_gate": "retain excluded items, model the 28 semantic boundary blockers, and expand controller validation and rollback",
+  "outputs": {
+    "adjudications": {
+      "path": "data/knowledge_bases/v0.1/tier_b_independent_adjudications.jsonl",
+      "sha256": "d279d6b3f9671bf33607cad03b6c022f4e7ba761c0d606339a0b3d3c6524f052"
+    },
+    "trusted_facts": {
+      "path": "data/knowledge_bases/v0.1/trusted_fact_records.jsonl",
+      "sha256": "bb46946c87bb924ae505109b9a89f8088d93776bc87b14e9bb0f9dc7d1ab65d3"
+    }
+  },
+  "promoted_to_tier_b": 27,
+  "schema_version": "0.1",
+  "scope_basis_counts": {
+    "direct_independent_statement": 2,
+    "metric_explicitly_listed": 2,
+    "whole_statement_inclusion_with_exclusions_checked": 23
+  },
+  "source_candidate_records_modified": 0,
+  "status": "tier_b_promotion_overlay_complete"
+}

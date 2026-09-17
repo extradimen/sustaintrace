@@ -1,0 +1,821 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-005",
+  "status": "table_graphs_built_fail_closed",
+  "source_table_candidates": 6,
+  "graphs": [
+    {
+      "source_fact_record_id": "fact-63f2411f76166759568bb86f",
+      "document_id": "KB-B005-HENKEL-AR2025",
+      "pdf_page": 285,
+      "graphs": [
+        {
+          "table_index": 0,
+          "status": "two_axis_graph_built",
+          "header_row_index": 0,
+          "column_headers": [
+            "",
+            "Unit",
+            "2024",
+            "2025"
+          ],
+          "period_columns": [
+            2,
+            3
+          ],
+          "indicator_column": 0,
+          "unit_column": 1,
+          "rejected_rows": [],
+          "rows": [
+            [
+              "",
+              "Unit",
+              "2024",
+              "2025"
+            ],
+            [
+              "Number of employees who have left",
+              "",
+              "",
+              ""
+            ],
+            [
+              "the Company",
+              "headcount",
+              "6,250",
+              "5,350"
+            ],
+            [
+              "Turnover rate",
+              "%",
+              "13.1",
+              "11.3"
+            ]
+          ],
+          "cells": [
+            {
+              "cell_handle": "cell-57ea3c65ad2c480f8003",
+              "table_index": 0,
+              "row_index": 2,
+              "column_index": 2,
+              "row_header": "the Company",
+              "row_header_column_index": 0,
+              "column_header": "2024",
+              "normalized_period": 2024,
+              "unit": "headcount",
+              "unit_column_index": 1,
+              "raw_value": "6,250",
+              "normalized_value": "6250",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-38a83156fed16ba7cbd5",
+              "table_index": 0,
+              "row_index": 2,
+              "column_index": 3,
+              "row_header": "the Company",
+              "row_header_column_index": 0,
+              "column_header": "2025",
+              "normalized_period": 2025,
+              "unit": "headcount",
+              "unit_column_index": 1,
+              "raw_value": "5,350",
+              "normalized_value": "5350",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-eb90ca320b022c662b5e",
+              "table_index": 0,
+              "row_index": 3,
+              "column_index": 2,
+              "row_header": "Turnover rate",
+              "row_header_column_index": 0,
+              "column_header": "2024",
+              "normalized_period": 2024,
+              "unit": "%",
+              "unit_column_index": 1,
+              "raw_value": "13.1",
+              "normalized_value": "13.1",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-ca1b2226f41cae081e95",
+              "table_index": 0,
+              "row_index": 3,
+              "column_index": 3,
+              "row_header": "Turnover rate",
+              "row_header_column_index": 0,
+              "column_header": "2025",
+              "normalized_period": 2025,
+              "unit": "%",
+              "unit_column_index": 1,
+              "raw_value": "11.3",
+              "normalized_value": "11.3",
+              "normalized_unit": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_fact_record_id": "fact-a3fddc9cf48f950a1a3983b8",
+      "document_id": "KB-B005-UPM-AR2025",
+      "pdf_page": 84,
+      "graphs": [
+        {
+          "table_index": 0,
+          "status": "two_axis_graph_built",
+          "header_row_index": 0,
+          "column_headers": [
+            "t Biogenic CO2",
+            "2025",
+            "2024"
+          ],
+          "period_columns": [
+            1,
+            2
+          ],
+          "indicator_column": 0,
+          "unit_column": null,
+          "rejected_rows": [],
+          "rows": [
+            [
+              "t Biogenic CO2",
+              "2025",
+              "2024"
+            ],
+            [
+              "Scope 1",
+              "12,140,000",
+              "11,740,000"
+            ],
+            [
+              "Scope 2",
+              "150,000",
+              "170,000"
+            ],
+            [
+              "Scope 3 (Category 11 Use of sold products)",
+              "390,000",
+              "300,000"
+            ]
+          ],
+          "cells": [
+            {
+              "cell_handle": "cell-db51fff06610701c0f98",
+              "table_index": 0,
+              "row_index": 1,
+              "column_index": 1,
+              "row_header": "Scope 1",
+              "row_header_column_index": 0,
+              "column_header": "2025",
+              "normalized_period": 2025,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "12,140,000",
+              "normalized_value": "12140000",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-fb5af5f645b3ce1913be",
+              "table_index": 0,
+              "row_index": 1,
+              "column_index": 2,
+              "row_header": "Scope 1",
+              "row_header_column_index": 0,
+              "column_header": "2024",
+              "normalized_period": 2024,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "11,740,000",
+              "normalized_value": "11740000",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-c393c883036df3c21c79",
+              "table_index": 0,
+              "row_index": 2,
+              "column_index": 1,
+              "row_header": "Scope 2",
+              "row_header_column_index": 0,
+              "column_header": "2025",
+              "normalized_period": 2025,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "150,000",
+              "normalized_value": "150000",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-f5a400dc19639939d86f",
+              "table_index": 0,
+              "row_index": 2,
+              "column_index": 2,
+              "row_header": "Scope 2",
+              "row_header_column_index": 0,
+              "column_header": "2024",
+              "normalized_period": 2024,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "170,000",
+              "normalized_value": "170000",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-fc94f494fdd8f7ea40d2",
+              "table_index": 0,
+              "row_index": 3,
+              "column_index": 1,
+              "row_header": "Scope 3 (Category 11 Use of sold products)",
+              "row_header_column_index": 0,
+              "column_header": "2025",
+              "normalized_period": 2025,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "390,000",
+              "normalized_value": "390000",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-9daf9f7d19c6a80d7a7d",
+              "table_index": 0,
+              "row_index": 3,
+              "column_index": 2,
+              "row_header": "Scope 3 (Category 11 Use of sold products)",
+              "row_header_column_index": 0,
+              "column_header": "2024",
+              "normalized_period": 2024,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "300,000",
+              "normalized_value": "300000",
+              "normalized_unit": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_fact_record_id": "fact-91e0f09d1786e0014f678e33",
+      "document_id": "KB-B005-UPM-AR2025",
+      "pdf_page": 84,
+      "graphs": [
+        {
+          "table_index": 0,
+          "status": "two_axis_graph_built",
+          "header_row_index": 0,
+          "column_headers": [
+            "t/\u20ac m",
+            "2025",
+            "2024 2025/2024"
+          ],
+          "period_columns": [
+            1,
+            2
+          ],
+          "indicator_column": 0,
+          "unit_column": null,
+          "rejected_rows": [],
+          "rows": [
+            [
+              "t/\u20ac m",
+              "2025",
+              "2024 2025/2024"
+            ],
+            [
+              "per net revenue (tCO2eq/\u20ac m sales)",
+              "Total GHG emissions (location-based) 1,170",
+              "1,160"
+            ],
+            [
+              "Total GHG emissions (market-based) per net revenue (tCO2/\u20ac m sales)",
+              "1,090",
+              "1,120"
+            ]
+          ],
+          "cells": [
+            {
+              "cell_handle": "cell-1fd3de765a6c32f28423",
+              "table_index": 0,
+              "row_index": 1,
+              "column_index": 2,
+              "row_header": "per net revenue (tCO2eq/\u20ac m sales)",
+              "row_header_column_index": 0,
+              "column_header": "2024 2025/2024",
+              "normalized_period": 2024,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "1,160",
+              "normalized_value": "1160",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-769d00ff1220727cf762",
+              "table_index": 0,
+              "row_index": 2,
+              "column_index": 1,
+              "row_header": "Total GHG emissions (market-based) per net revenue (tCO2/\u20ac m sales)",
+              "row_header_column_index": 0,
+              "column_header": "2025",
+              "normalized_period": 2025,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "1,090",
+              "normalized_value": "1090",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-dfa0ae143af08a724b16",
+              "table_index": 0,
+              "row_index": 2,
+              "column_index": 2,
+              "row_header": "Total GHG emissions (market-based) per net revenue (tCO2/\u20ac m sales)",
+              "row_header_column_index": 0,
+              "column_header": "2024 2025/2024",
+              "normalized_period": 2024,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "1,120",
+              "normalized_value": "1120",
+              "normalized_unit": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_fact_record_id": "fact-7a94942fd68525b9514982e4",
+      "document_id": "KB-B005-UPM-AR2025",
+      "pdf_page": 94,
+      "graphs": [
+        {
+          "table_index": 0,
+          "status": "two_axis_graph_built",
+          "header_row_index": 0,
+          "column_headers": [
+            "",
+            "2030",
+            "Target follow-up 2025 (2024)"
+          ],
+          "period_columns": [
+            1,
+            2
+          ],
+          "indicator_column": 0,
+          "unit_column": null,
+          "rejected_rows": [
+            {
+              "row_index": 1,
+              "reason": "shape_mismatch"
+            },
+            {
+              "row_index": 2,
+              "reason": "shape_mismatch"
+            },
+            {
+              "row_index": 3,
+              "reason": "shape_mismatch"
+            },
+            {
+              "row_index": 4,
+              "reason": "shape_mismatch"
+            }
+          ],
+          "rows": [
+            [
+              "",
+              "2030",
+              "Target follow-up 2025 (2024)"
+            ],
+            [
+              "Sustainability focus area and key performance indicator",
+              "Base year",
+              "Base year value",
+              "target",
+              ""
+            ],
+            [
+              "Water",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Wastewater volume for an average UPM product *",
+              "2008",
+              "100% **",
+              "-30%",
+              "-17% (-16%)"
+            ],
+            [
+              "Responsible sourcing UPM total spend covered by UPM Supplier and Third-Party Code",
+              "2015",
+              "79%",
+              ">80% (continuous)",
+              "86% (91%)"
+            ]
+          ],
+          "cells": []
+        }
+      ]
+    },
+    {
+      "source_fact_record_id": "fact-2cca29ffc9ad39f58560e69a",
+      "document_id": "KB-B005-UPM-AR2025",
+      "pdf_page": 109,
+      "graphs": [
+        {
+          "table_index": 0,
+          "status": "two_axis_graph_built",
+          "header_row_index": 0,
+          "column_headers": [
+            "Gender",
+            "Number of employees (headcount) 2025",
+            "Number of employees (headcount) 2024"
+          ],
+          "period_columns": [
+            1,
+            2
+          ],
+          "indicator_column": 0,
+          "unit_column": null,
+          "rejected_rows": [],
+          "rows": [
+            [
+              "Gender",
+              "Number of employees (headcount) 2025",
+              "Number of employees (headcount) 2024"
+            ],
+            [
+              "Male*",
+              "11,441",
+              "11,989"
+            ],
+            [
+              "Female*",
+              "3,673",
+              "3,835"
+            ],
+            [
+              "Not disclosed*",
+              "2",
+              "3"
+            ],
+            [
+              "Not reported**",
+              "11",
+              "0"
+            ],
+            [
+              "Total employees",
+              "15,127",
+              "15,827"
+            ]
+          ],
+          "cells": [
+            {
+              "cell_handle": "cell-de19f3e9aae41436f28d",
+              "table_index": 0,
+              "row_index": 1,
+              "column_index": 1,
+              "row_header": "Male*",
+              "row_header_column_index": 0,
+              "column_header": "Number of employees (headcount) 2025",
+              "normalized_period": 2025,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "11,441",
+              "normalized_value": "11441",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-5593fd6db3e2ba73e544",
+              "table_index": 0,
+              "row_index": 1,
+              "column_index": 2,
+              "row_header": "Male*",
+              "row_header_column_index": 0,
+              "column_header": "Number of employees (headcount) 2024",
+              "normalized_period": 2024,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "11,989",
+              "normalized_value": "11989",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-e87180b86888c81b8cb1",
+              "table_index": 0,
+              "row_index": 2,
+              "column_index": 1,
+              "row_header": "Female*",
+              "row_header_column_index": 0,
+              "column_header": "Number of employees (headcount) 2025",
+              "normalized_period": 2025,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "3,673",
+              "normalized_value": "3673",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-d98c540e27c2f447da49",
+              "table_index": 0,
+              "row_index": 2,
+              "column_index": 2,
+              "row_header": "Female*",
+              "row_header_column_index": 0,
+              "column_header": "Number of employees (headcount) 2024",
+              "normalized_period": 2024,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "3,835",
+              "normalized_value": "3835",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-a65f2fd707a9e48f0958",
+              "table_index": 0,
+              "row_index": 3,
+              "column_index": 1,
+              "row_header": "Not disclosed*",
+              "row_header_column_index": 0,
+              "column_header": "Number of employees (headcount) 2025",
+              "normalized_period": 2025,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "2",
+              "normalized_value": "2",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-33fae53e8098a15a93ee",
+              "table_index": 0,
+              "row_index": 3,
+              "column_index": 2,
+              "row_header": "Not disclosed*",
+              "row_header_column_index": 0,
+              "column_header": "Number of employees (headcount) 2024",
+              "normalized_period": 2024,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "3",
+              "normalized_value": "3",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-7d619b34c862e4dca2b2",
+              "table_index": 0,
+              "row_index": 4,
+              "column_index": 1,
+              "row_header": "Not reported**",
+              "row_header_column_index": 0,
+              "column_header": "Number of employees (headcount) 2025",
+              "normalized_period": 2025,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "11",
+              "normalized_value": "11",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-5e3c528bae1ee1855c5f",
+              "table_index": 0,
+              "row_index": 4,
+              "column_index": 2,
+              "row_header": "Not reported**",
+              "row_header_column_index": 0,
+              "column_header": "Number of employees (headcount) 2024",
+              "normalized_period": 2024,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "0",
+              "normalized_value": "0",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-5091de3939c0a3226453",
+              "table_index": 0,
+              "row_index": 5,
+              "column_index": 1,
+              "row_header": "Total employees",
+              "row_header_column_index": 0,
+              "column_header": "Number of employees (headcount) 2025",
+              "normalized_period": 2025,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "15,127",
+              "normalized_value": "15127",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-d5875f83f1cf44f4f84b",
+              "table_index": 0,
+              "row_index": 5,
+              "column_index": 2,
+              "row_header": "Total employees",
+              "row_header_column_index": 0,
+              "column_header": "Number of employees (headcount) 2024",
+              "normalized_period": 2024,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "15,827",
+              "normalized_value": "15827",
+              "normalized_unit": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_fact_record_id": "fact-3ecf8aee6c88a23c56ca7ca2",
+      "document_id": "KB-B005-SIKA-SR2025",
+      "pdf_page": 76,
+      "graphs": [
+        {
+          "table_index": 0,
+          "status": "two_axis_graph_built",
+          "header_row_index": 0,
+          "column_headers": [
+            "in numbers",
+            "2023",
+            "2024",
+            "2025"
+          ],
+          "period_columns": [
+            1,
+            2,
+            3
+          ],
+          "indicator_column": 0,
+          "unit_column": null,
+          "rejected_rows": [],
+          "rows": [
+            [
+              "in numbers",
+              "2023",
+              "2024",
+              "2025"
+            ],
+            [
+              "Total employees",
+              "33,547",
+              "34,476",
+              "33,707"
+            ],
+            [
+              "Female",
+              "8,138",
+              "8,549",
+              "8,363"
+            ],
+            [
+              "Male",
+              "25,409",
+              "25,927",
+              "25,344"
+            ]
+          ],
+          "cells": [
+            {
+              "cell_handle": "cell-02179099ca8d9cb43f27",
+              "table_index": 0,
+              "row_index": 1,
+              "column_index": 1,
+              "row_header": "Total employees",
+              "row_header_column_index": 0,
+              "column_header": "2023",
+              "normalized_period": 2023,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "33,547",
+              "normalized_value": "33547",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-937e03e5737d4dca6874",
+              "table_index": 0,
+              "row_index": 1,
+              "column_index": 2,
+              "row_header": "Total employees",
+              "row_header_column_index": 0,
+              "column_header": "2024",
+              "normalized_period": 2024,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "34,476",
+              "normalized_value": "34476",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-786cbe64e7bd8561ccc6",
+              "table_index": 0,
+              "row_index": 1,
+              "column_index": 3,
+              "row_header": "Total employees",
+              "row_header_column_index": 0,
+              "column_header": "2025",
+              "normalized_period": 2025,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "33,707",
+              "normalized_value": "33707",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-c60fa5dc49de2474b97c",
+              "table_index": 0,
+              "row_index": 2,
+              "column_index": 1,
+              "row_header": "Female",
+              "row_header_column_index": 0,
+              "column_header": "2023",
+              "normalized_period": 2023,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "8,138",
+              "normalized_value": "8138",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-1fb63c1fb691a3bdc435",
+              "table_index": 0,
+              "row_index": 2,
+              "column_index": 2,
+              "row_header": "Female",
+              "row_header_column_index": 0,
+              "column_header": "2024",
+              "normalized_period": 2024,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "8,549",
+              "normalized_value": "8549",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-32bc0f72c0d1ca1021a5",
+              "table_index": 0,
+              "row_index": 2,
+              "column_index": 3,
+              "row_header": "Female",
+              "row_header_column_index": 0,
+              "column_header": "2025",
+              "normalized_period": 2025,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "8,363",
+              "normalized_value": "8363",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-5e70b468d2c0575d6fab",
+              "table_index": 0,
+              "row_index": 3,
+              "column_index": 1,
+              "row_header": "Male",
+              "row_header_column_index": 0,
+              "column_header": "2023",
+              "normalized_period": 2023,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "25,409",
+              "normalized_value": "25409",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-637bf1a9bfdda23d3cad",
+              "table_index": 0,
+              "row_index": 3,
+              "column_index": 2,
+              "row_header": "Male",
+              "row_header_column_index": 0,
+              "column_header": "2024",
+              "normalized_period": 2024,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "25,927",
+              "normalized_value": "25927",
+              "normalized_unit": null
+            },
+            {
+              "cell_handle": "cell-6d339255e69f244a08e0",
+              "table_index": 0,
+              "row_index": 3,
+              "column_index": 3,
+              "row_header": "Male",
+              "row_header_column_index": 0,
+              "column_header": "2025",
+              "normalized_period": 2025,
+              "unit": null,
+              "unit_column_index": null,
+              "raw_value": "25,344",
+              "normalized_value": "25344",
+              "normalized_unit": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

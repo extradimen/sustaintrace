@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "registry_id": "P6-SOURCE-REGISTRY-v0.1",
+  "status": "frozen_before_candidate_inference",
+  "candidates": [
+    {
+      "candidate_id": "P6-CAND-001",
+      "document_id": "P6-UNILEVER-AR2025",
+      "company": "Unilever PLC",
+      "eligibility_status": "eligible",
+      "sha256": "dcdc67ff84977e2beeb6b7a8113b6862fae1880838c613eceac42ba4b605d9d7"
+    }
+  ]
+}

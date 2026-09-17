@@ -1,0 +1,245 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-024-MINERU-RESUME03",
+  "updated_at": "2026-09-13T19:15:06.877058+00:00",
+  "status": "complete",
+  "cloud_transmission": false,
+  "total_target_pages": 18,
+  "complete_pages": 3,
+  "failed_pages": 15,
+  "pending_pages": 0,
+  "records": [
+    {
+      "document_id": "KB-B024-FORTUM-FIN2025",
+      "page": 47,
+      "themes": [
+        "water"
+      ],
+      "output_directory": "artifacts/scale_batch_024/mineru_targets_RESUME03/KB-B024-FORTUM-FIN2025-p0047",
+      "status": "complete",
+      "started_at": "2026-09-13T19:10:40.425820+00:00",
+      "completed_at": "2026-09-13T19:10:52.953422+00:00",
+      "wall_seconds": 12.527748
+    },
+    {
+      "document_id": "KB-B024-FORTUM-FIN2025",
+      "page": 56,
+      "themes": [
+        "energy",
+        "targets"
+      ],
+      "output_directory": "artifacts/scale_batch_024/mineru_targets_RESUME03/KB-B024-FORTUM-FIN2025-p0056",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_024/mineru_targets_RESUME03/KB-B024-FORTUM-FIN2025-p0056/esg_rd_mineru_run.json",
+      "started_at": "2026-09-13T19:10:52.954549+00:00",
+      "completed_at": "2026-09-13T19:11:07.646794+00:00",
+      "wall_seconds": 14.692413
+    },
+    {
+      "document_id": "KB-B024-FORTUM-FIN2025",
+      "page": 68,
+      "themes": [
+        "biodiversity"
+      ],
+      "output_directory": "artifacts/scale_batch_024/mineru_targets_RESUME03/KB-B024-FORTUM-FIN2025-p0068",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_024/mineru_targets_RESUME03/KB-B024-FORTUM-FIN2025-p0068/esg_rd_mineru_run.json",
+      "started_at": "2026-09-13T19:11:07.647137+00:00",
+      "completed_at": "2026-09-13T19:11:23.371637+00:00",
+      "wall_seconds": 15.724686
+    },
+    {
+      "document_id": "KB-B024-FORTUM-FIN2025",
+      "page": 73,
+      "themes": [
+        "circularity"
+      ],
+      "output_directory": "artifacts/scale_batch_024/mineru_targets_RESUME03/KB-B024-FORTUM-FIN2025-p0073",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_024/mineru_targets_RESUME03/KB-B024-FORTUM-FIN2025-p0073/esg_rd_mineru_run.json",
+      "started_at": "2026-09-13T19:11:23.371985+00:00",
+      "completed_at": "2026-09-13T19:11:38.210867+00:00",
+      "wall_seconds": 14.839058
+    },
+    {
+      "document_id": "KB-B024-YARA-AR2025",
+      "page": 111,
+      "themes": [
+        "energy"
+      ],
+      "output_directory": "artifacts/scale_batch_024/mineru_targets_RESUME03/KB-B024-YARA-AR2025-p0111",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_024/mineru_targets_RESUME03/KB-B024-YARA-AR2025-p0111/esg_rd_mineru_run.json",
+      "started_at": "2026-09-13T19:11:38.211270+00:00",
+      "completed_at": "2026-09-13T19:11:52.969769+00:00",
+      "wall_seconds": 14.758672
+    },
+    {
+      "document_id": "KB-B024-YARA-AR2025",
+      "page": 124,
+      "themes": [
+        "water"
+      ],
+      "output_directory": "artifacts/scale_batch_024/mineru_targets_RESUME03/KB-B024-YARA-AR2025-p0124",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_024/mineru_targets_RESUME03/KB-B024-YARA-AR2025-p0124/esg_rd_mineru_run.json",
+      "started_at": "2026-09-13T19:11:52.970134+00:00",
+      "completed_at": "2026-09-13T19:12:07.774861+00:00",
+      "wall_seconds": 14.804902
+    },
+    {
+      "document_id": "KB-B024-YARA-AR2025",
+      "page": 126,
+      "themes": [
+        "biodiversity"
+      ],
+      "output_directory": "artifacts/scale_batch_024/mineru_targets_RESUME03/KB-B024-YARA-AR2025-p0126",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_024/mineru_targets_RESUME03/KB-B024-YARA-AR2025-p0126/esg_rd_mineru_run.json",
+      "started_at": "2026-09-13T19:12:07.775336+00:00",
+      "completed_at": "2026-09-13T19:12:22.456379+00:00",
+      "wall_seconds": 14.681215
+    },
+    {
+      "document_id": "KB-B024-YARA-AR2025",
+      "page": 151,
+      "themes": [
+        "workforce"
+      ],
+      "output_directory": "artifacts/scale_batch_024/mineru_targets_RESUME03/KB-B024-YARA-AR2025-p0151",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_024/mineru_targets_RESUME03/KB-B024-YARA-AR2025-p0151/esg_rd_mineru_run.json",
+      "started_at": "2026-09-13T19:12:22.456767+00:00",
+      "completed_at": "2026-09-13T19:12:37.080599+00:00",
+      "wall_seconds": 14.624003
+    },
+    {
+      "document_id": "KB-B024-YARA-AR2025",
+      "page": 308,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_024/mineru_targets_RESUME03/KB-B024-YARA-AR2025-p0308",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_024/mineru_targets_RESUME03/KB-B024-YARA-AR2025-p0308/esg_rd_mineru_run.json",
+      "started_at": "2026-09-13T19:12:37.080970+00:00",
+      "completed_at": "2026-09-13T19:12:51.761182+00:00",
+      "wall_seconds": 14.680383
+    },
+    {
+      "document_id": "KB-B024-YARA-AR2025",
+      "page": 310,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_024/mineru_targets_RESUME03/KB-B024-YARA-AR2025-p0310",
+      "status": "complete",
+      "started_at": "2026-09-13T19:12:51.761574+00:00",
+      "completed_at": "2026-09-13T19:13:05.408227+00:00",
+      "wall_seconds": 13.646813
+    },
+    {
+      "document_id": "KB-B024-TELENOR-AR2025",
+      "page": 92,
+      "themes": [
+        "energy"
+      ],
+      "output_directory": "artifacts/scale_batch_024/mineru_targets_RESUME03/KB-B024-TELENOR-AR2025-p0092",
+      "status": "complete",
+      "started_at": "2026-09-13T19:13:05.408638+00:00",
+      "completed_at": "2026-09-13T19:13:21.069359+00:00",
+      "wall_seconds": 15.660906
+    },
+    {
+      "document_id": "KB-B024-TELENOR-AR2025",
+      "page": 93,
+      "themes": [
+        "ghg_emissions"
+      ],
+      "output_directory": "artifacts/scale_batch_024/mineru_targets_RESUME03/KB-B024-TELENOR-AR2025-p0093",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_024/mineru_targets_RESUME03/KB-B024-TELENOR-AR2025-p0093/esg_rd_mineru_run.json",
+      "started_at": "2026-09-13T19:13:21.069785+00:00",
+      "completed_at": "2026-09-13T19:13:35.784054+00:00",
+      "wall_seconds": 14.714441
+    },
+    {
+      "document_id": "KB-B024-TELENOR-AR2025",
+      "page": 106,
+      "themes": [
+        "circularity"
+      ],
+      "output_directory": "artifacts/scale_batch_024/mineru_targets_RESUME03/KB-B024-TELENOR-AR2025-p0106",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_024/mineru_targets_RESUME03/KB-B024-TELENOR-AR2025-p0106/esg_rd_mineru_run.json",
+      "started_at": "2026-09-13T19:13:35.784455+00:00",
+      "completed_at": "2026-09-13T19:13:50.914538+00:00",
+      "wall_seconds": 15.130262
+    },
+    {
+      "document_id": "KB-B024-TELENOR-AR2025",
+      "page": 116,
+      "themes": [
+        "workforce"
+      ],
+      "output_directory": "artifacts/scale_batch_024/mineru_targets_RESUME03/KB-B024-TELENOR-AR2025-p0116",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_024/mineru_targets_RESUME03/KB-B024-TELENOR-AR2025-p0116/esg_rd_mineru_run.json",
+      "started_at": "2026-09-13T19:13:50.914945+00:00",
+      "completed_at": "2026-09-13T19:14:06.668036+00:00",
+      "wall_seconds": 15.753276
+    },
+    {
+      "document_id": "KB-B024-TELENOR-AR2025",
+      "page": 277,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_024/mineru_targets_RESUME03/KB-B024-TELENOR-AR2025-p0277",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_024/mineru_targets_RESUME03/KB-B024-TELENOR-AR2025-p0277/esg_rd_mineru_run.json",
+      "started_at": "2026-09-13T19:14:06.668490+00:00",
+      "completed_at": "2026-09-13T19:14:22.449732+00:00",
+      "wall_seconds": 15.781424
+    },
+    {
+      "document_id": "KB-B024-TELENOR-AR2025",
+      "page": 278,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_024/mineru_targets_RESUME03/KB-B024-TELENOR-AR2025-p0278",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_024/mineru_targets_RESUME03/KB-B024-TELENOR-AR2025-p0278/esg_rd_mineru_run.json",
+      "started_at": "2026-09-13T19:14:22.450153+00:00",
+      "completed_at": "2026-09-13T19:14:37.556240+00:00",
+      "wall_seconds": 15.106264
+    },
+    {
+      "document_id": "KB-B024-TELENOR-AR2025",
+      "page": 279,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_024/mineru_targets_RESUME03/KB-B024-TELENOR-AR2025-p0279",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_024/mineru_targets_RESUME03/KB-B024-TELENOR-AR2025-p0279/esg_rd_mineru_run.json",
+      "started_at": "2026-09-13T19:14:37.556688+00:00",
+      "completed_at": "2026-09-13T19:14:52.756490+00:00",
+      "wall_seconds": 15.19998
+    },
+    {
+      "document_id": "KB-B024-TELENOR-AR2025",
+      "page": 280,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_024/mineru_targets_RESUME03/KB-B024-TELENOR-AR2025-p0280",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_024/mineru_targets_RESUME03/KB-B024-TELENOR-AR2025-p0280/esg_rd_mineru_run.json",
+      "started_at": "2026-09-13T19:14:52.757026+00:00",
+      "completed_at": "2026-09-13T19:15:06.876656+00:00",
+      "wall_seconds": 14.119795
+    }
+  ]
+}

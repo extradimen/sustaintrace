@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0",
+  "record_kind": "workbench_release_candidate_acceptance",
+  "release_candidate": "v1.1",
+  "supersedes": "workbench_release_candidate_v1.0.lock.json",
+  "frozen_at": "2026-09-17T04:58:56Z",
+  "decision": "pass",
+  "job_id": "WB-20260917T045651Z-a48395fe",
+  "source": {
+    "sha256": "0da4c41a165a1556e99c9c88595e18a7cff722e19ae95de56671676497a88ad2",
+    "synthetic": true,
+    "cloud_transfer_performed": false
+  },
+  "mineru_primary_path": {
+    "version": "3.4.0",
+    "returncode": 0,
+    "tools_config_sha256": "7c791a9086197b8eb568f8f238f2447e5a82df8b27aeaad726ae856468925e92",
+    "asset_manifest_sha256": "05bcc88e0e3b187193ab69e41ce1e73f0519bf1984cf014936d79d3f1e83ee5c",
+    "snapshot_revision": "ed6b654c018d742e65a17671e379c5e6ecc87ec9",
+    "asset_count": 40,
+    "checked_bytes": 2595586833,
+    "output_files": 9,
+    "fallback_triggered": false
+  },
+  "analysis": {
+    "candidate_records": 1,
+    "atomic_fact_candidates": 2,
+    "projection_validated_candidates": 0,
+    "projection_quarantined": 2,
+    "repaired_fact_candidates": 2,
+    "repair_executions_postvalidated": 2,
+    "promotion_reviews_pending": 2,
+    "trusted_promotions": 0
+  },
+  "verification": {
+    "pytest": {"status": "passed", "tests": 588},
+    "ruff": {"status": "passed", "scope": "repository"},
+    "frontend_eslint": {"status": "passed"},
+    "frontend_build": {"status": "passed"},
+    "api_health": {"status": "healthy"},
+    "ui_health": {"status": "healthy"}
+  },
+  "artifact_sha256": {
+    "mineru_adapter": "01342d16e6d97f8a9e97fe246d157afa581a344f7ad0ec59a2469779afae2f6d",
+    "workbench_api": "1652ad37d9b3371bab737888fcbf2be557b73b94e35bc8c48c3dd826943a8883",
+    "mineru_adapter_tests": "407bfb8bb4415174ef53ff1c298e88717cbb70313a15ed032f39824330b3e22c",
+    "workbench_fallback_tests": "082f2e178abc007276379caf9b14a4b818a271ca9f8e5b51accd992f3ad2b54e",
+    "job_manifest": "552c17d7bb998c11ca410ca8536e82a27a0229a8c6ae7afeff1f54afbdf80be0",
+    "mineru_run_audit": "538d29d7f97e09e4010da87c3fd66a2060a4a2f18d293f93f72133823d55b62b"
+  },
+  "policy": {
+    "locked_experiments_modified": false,
+    "trusted_knowledge_modified_by_smoke_test": false,
+    "mineru_assets_verified_before_parse": true,
+    "fail_closed": true
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "framework_version": "ESG-RD-v1.6-DEV",
+  "development_basis": ["P6-CALC-001 exposed limitation", "P6-CONFLICT-001 exposed limitation"],
+  "not_a_lockbox_configuration": true,
+  "comparison_policy": {
+    "recalculated_value_provenance": "deterministic framework from displayed inputs",
+    "reported_value_provenance": "issuer literal with evidence handle",
+    "retain_both_values": true,
+    "force_agreement": false,
+    "difference_unit": "percentage points"
+  },
+  "conflict_policy": {
+    "different_values_different_scopes": "scope_resolves_apparent_conflict",
+    "different_values_same_scope": "unresolved_same_scope_value_conflict",
+    "scope_resolution_implies_causality": false,
+    "causal_support_rule": "proposed causal explanation must be a comparison-equivalent substring of frozen evidence"
+  },
+  "evaluation_policy": {
+    "P3_P4_P5_P6_locked": true,
+    "model_recall_allowed": false,
+    "candidate_output_modification_allowed": false,
+    "next_unseen_test_after_development": "P7"
+  }
+}

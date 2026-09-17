@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-004-RESUME01",
+  "status": "increment_built_candidates_not_promoted",
+  "fact_candidates": 45,
+  "trusted_facts_promoted": 0,
+  "evidence_gaps": 2,
+  "failure_observations": 31,
+  "gaps": [
+    {
+      "document_id": "KB-B004-PHILIPS-AR2025",
+      "page": 244,
+      "theme": "circularity",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B004-PHILIPS-AR2025",
+      "page": 245,
+      "theme": "assurance",
+      "reason": "no_theme_line_in_mineru_markdown"
+    }
+  ],
+  "outputs": {
+    "facts": {
+      "path": "data/knowledge_bases/v0.1/increments/scale_batch_004_fact_records.jsonl",
+      "sha256": "c0dd5a4d08c1ea44944980b22a35f24e2fe3d1ccd87361c771a6f5ff5fc3f1cb"
+    },
+    "failures": {
+      "path": "data/knowledge_bases/v0.1/increments/scale_batch_004_failure_records.jsonl",
+      "sha256": "fe66cb512d980d5e8ae2c1cbf594d3c93dc734e99adc6b9d6bb1c481ec69bfba"
+    }
+  },
+  "policy": {
+    "cloud_transmission": false,
+    "locked_experiments_modified": false,
+    "automatic_promotion": false
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "schema_version":"1.0",
+  "framework_version":"ESG-RD-v1.2",
+  "status":"preregistered_before_implementation_and_v1.2_inference",
+  "triggering_run":"P2-DEX-002-QWEN397B-v11-r1",
+  "observed_failure":"The model returned the exact answer and correct evidence handle but added normalized_value and normalized_unit, which the minimal schema rejected.",
+  "planned_changes":[
+    "For direct extraction only, permit normalized_value and normalized_unit as optional schema fields.",
+    "If optional normalization fields are emitted, validate the number against selected evidence and validate the unit against question/evidence text.",
+    "Do not drop, rewrite, or inject optional fields after generation.",
+    "Retain answer and evidence_handles as required fields.",
+    "Complete a v1.1-compatible Stage B runner that supplies cell-level handles and uses audited reporting-year inheritance."
+  ],
+  "success_criteria":[
+    "The archived v1.1 Meta output validates unchanged under the prospective v1.2 contract.",
+    "A fabricated normalized value is rejected even when the prose answer is correct.",
+    "P&G target and progress project from separate cells with correct metric, scope, claim kind and period provenance."
+  ],
+  "unchanged_rules":["no arbitrary additional properties","no posthoc repair","single fresh regression attempt","P2 development-only","P3 required for generalization"]
+}

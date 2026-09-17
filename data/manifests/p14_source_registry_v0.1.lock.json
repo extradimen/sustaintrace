@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "registry_id": "P14-SOURCE-REGISTRY-v0.1",
+  "status": "source_frozen_before_task_authoring_and_candidate_inference",
+  "candidates": [
+    {
+      "candidate_id": "P14-CAND-001",
+      "document_id": "P14-LOREAL-URD2025",
+      "company": "L'Oréal S.A.",
+      "title": "2025 Universal Registration Document",
+      "language": "English",
+      "eligibility_status": "eligible",
+      "sha256": "db63807f5963c3e70422bbb9a0763f2f53be4139d5ee57984717bfa056275aa2",
+      "official_landing_page": "https://www.loreal-finance.com/eng/universal-registration-document",
+      "local_path": "data/raw/p14_staging/loreal-2025-universal-registration-document.pdf",
+      "page_count": 452
+    }
+  ]
+}

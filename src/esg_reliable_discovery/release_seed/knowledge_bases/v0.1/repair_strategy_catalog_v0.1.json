@@ -1,0 +1,191 @@
+{
+  "schema_version": "0.1",
+  "status": "curated_candidates_not_enabled_by_default",
+  "locked_experiment_policy": "never repair or retry inside an already locked experiment",
+  "operational_policy": "every repair creates a new lineage and preserves the failed parent run",
+  "strategies": [
+    {
+      "strategy_id": "RS-EXACT-HANDLE-CANONICALIZATION",
+      "name": "精确证据句柄规范化",
+      "target_signatures": ["HANDLE_CANONICALIZATION_MISMATCH"],
+      "risk_level": "low",
+      "execution_policy": "automatic",
+      "preconditions": ["冻结别名表存在", "别名只能精确一对一映射", "原候选输出保持不变"],
+      "actions": ["按冻结映射解码别名", "下游仅使用规范句柄"],
+      "validation_gates": ["句柄集合成员校验", "历史计算回归", "无近似匹配"],
+      "rollback": "任何句柄多义、缺失或回归失败时恢复父运行并拒绝修复",
+      "evidence_artifacts": ["data/results/v32_p22_exposed_development_v0.1.lock.json", "data/results/p23_v32_unseen_lockbox_v0.1_result.lock.json"],
+      "maturity": "unseen_validated"
+    },
+    {
+      "strategy_id": "RS-PREFLIGHT-CONTRACT-REJECT",
+      "name": "候选前冻结契约完整性门",
+      "target_signatures": [
+        "FROZEN_CONTRACT_INCOMPLETE",
+        "PREFLIGHT_CONTRACT_GATE",
+        "TIER_B_EMPTY_PROMOTION_PARTITION"
+      ],
+      "risk_level": "low",
+      "execution_policy": "automatic",
+      "preconditions": ["候选推理尚未开始", "任务页窗和契约已冻结"],
+      "actions": ["验证谓词、必需字段、值词和页窗一致性", "不完整时阻止候选调用"],
+      "validation_gates": ["契约schema通过", "问题所需字段在页窗内可答", "引用页属于任务页窗"],
+      "rollback": "门禁自身异常时保持任务未执行并输出配置失败",
+      "evidence_artifacts": ["data/results/v19_p9_exposed_failure_development_v0.1.lock.json", "data/results/v20_p10_exposed_failure_development_v0.1.lock.json", "data/results/v2.4_development_integration_v0.1.lock.json"],
+      "maturity": "development_validated"
+    },
+    {
+      "strategy_id": "RS-PARSER-FALLBACK",
+      "name": "解析器与原生PDF回退",
+      "target_signatures": [
+        "PARSER_CONTENT_OMISSION",
+        "PARSER_TABLE_STRUCTURE",
+        "NATIVE_ROW_HEADER_LINE_WRAP_MISMATCH",
+        "MINERU_EMPTY_MARKDOWN_CONTENT_LIST_TEXT_AVAILABLE",
+        "TABLE_FRAGMENT_WITHOUT_ATOMIC_NUMERIC_CELLS"
+      ],
+      "risk_level": "medium",
+      "execution_policy": "supervised",
+      "preconditions": ["主解析器存在可复现缺失或结构异常", "冻结源PDF哈希不变", "回退解析器已注册"],
+      "actions": ["优先使用非空Markdown；Markdown为空且content_list含有原序文字块时，确定性投影结构化文字", "运行原生PDF文本或版面回退", "重建页码和表格证据坐标", "保留所有解析结果"],
+      "validation_gates": ["源哈希一致", "页码一致", "关键文字或单元格交叉验证", "历史解析回归"],
+      "rollback": "回退结果冲突或坐标不可恢复时保留解析失败状态",
+      "evidence_artifacts": ["src/esg_reliable_discovery/layout_fallback.py", "src/esg_reliable_discovery/v14_pdf_vector.py", "src/esg_reliable_discovery/mineru_text_fallback.py", "data/manifests/p12_mineru_failure_and_native_fallback_v0.1.lock.json", "data/results/scale_batch_021_mineru_FINAL_summary.lock.json", "data/results/scale_batch_025_atomic_projection.lock.json"],
+      "maturity": "development_validated"
+    },
+    {
+      "strategy_id": "RS-EVIDENCE-RESELECTION",
+      "name": "证据页窗重新选择",
+      "target_signatures": ["EVIDENCE_SELECTION_GAP", "EVIDENCE_GROUNDING_MISMATCH", "TARGET_ASSURANCE_WINDOW_INCOMPLETE"],
+      "risk_level": "medium",
+      "execution_policy": "supervised",
+      "preconditions": ["目标指标和报告身份明确", "允许创建新的运行谱系", "不得修改旧锁箱", "鉴证升档候选必须在执行前校验主体、期间、意见和签署信息"],
+      "actions": ["扩大或重排候选证据页窗", "重新执行严格文字和坐标校验"],
+      "validation_gates": ["新证据来自同一冻结报告", "目标字段逐字可定位", "候选答案不得由旧参考填充", "鉴证页窗同时覆盖主体、期间、意见和签署证据"],
+      "rollback": "仍无法唯一定位时标记知识不可提取并停止",
+      "evidence_artifacts": ["data/results/p3_unseen_generalization_v0.1_result.lock.json", "src/esg_reliable_discovery/evidence_diagnostics.py", "data/knowledge_bases/v0.1/increments/scale_batch_013_semantic_failure_records.jsonl"],
+      "maturity": "historical_observation"
+    },
+    {
+      "strategy_id": "RS-COLLECTION-CONTRACT-PROJECTION",
+      "name": "集合成员原子化投影",
+      "target_signatures": ["COLLECTION_SHAPE_VIOLATION", "EMPTY_KNOWLEDGE_PROJECTION"],
+      "risk_level": "medium",
+      "execution_policy": "supervised",
+      "preconditions": ["集合成员契约已冻结", "每个成员均有独立证据句柄"],
+      "actions": ["将集合拆成带证据的成员对象", "保留缺失成员而不补值"],
+      "validation_gates": ["成员schema通过", "成员证据逐项存在", "集合基数与必需槽位核对"],
+      "rollback": "任何成员需要语义猜测时拒绝整个自动投影",
+      "evidence_artifacts": ["data/results/v20_p10_exposed_failure_development_v0.1.lock.json", "data/results/v21_p11_exposed_failure_development_v0.1.lock.json", "src/esg_reliable_discovery/v20_collection_projection.py"],
+      "maturity": "development_validated"
+    },
+    {
+      "strategy_id": "RS-CALCULATION-CONTRACT-LOWERING",
+      "name": "计算请求确定性降阶",
+      "target_signatures": ["CALCULATION_CONTRACT_VIOLATION"],
+      "risk_level": "medium",
+      "execution_policy": "supervised",
+      "preconditions": ["冻结计算DAG存在", "所有输入值、单位、期间和句柄均已验证"],
+      "actions": ["只提取候选报告值和证据角色", "由框架执行冻结DAG", "忽略候选自行计算字段"],
+      "validation_gates": ["Decimal复算", "单位兼容", "期间角色完整", "历史计算回归"],
+      "rollback": "角色不完整时输出部分绑定且不执行计算",
+      "evidence_artifacts": ["data/results/v2.4_development_integration_v0.1.lock.json", "data/results/v2.5_development_integration_v0.1.lock.json", "src/esg_reliable_discovery/v21_calculation.py"],
+      "maturity": "development_validated"
+    },
+    {
+      "strategy_id": "RS-UNMAPPED-HANDLE-BLOCK",
+      "name": "未映射计算句柄阻断",
+      "target_signatures": ["CALCULATION_HANDLE_UNMAPPED"],
+      "risk_level": "high",
+      "execution_policy": "blocked",
+      "preconditions": ["出现冻结计划之外的新证据句柄"],
+      "actions": ["保存失败", "要求在开发版本扩展角色契约", "不得近似映射"],
+      "validation_gates": ["新角色经领域语义审查", "全历史回归", "新未见报告验证"],
+      "rollback": "保持原失败，不生成计算结果",
+      "evidence_artifacts": ["data/results/p23_v32_unseen_lockbox_v0.1_result.lock.json"],
+      "maturity": "historical_observation"
+    },
+    {
+      "strategy_id": "RS-EXECUTOR-TYPE-BLOCK",
+      "name": "执行器类型不一致阻断",
+      "target_signatures": ["EXECUTOR_TYPE_MISMATCH", "FRAMEWORK_EXECUTION_FAILURE"],
+      "risk_level": "high",
+      "execution_policy": "blocked",
+      "preconditions": ["运行对象不满足冻结接口类型"],
+      "actions": ["归档原始类型和堆栈", "在开发分支增加显式适配器或类型门"],
+      "validation_gates": ["类型schema", "全历史回归", "不得改变候选语义"],
+      "rollback": "保持父运行失败且不强制转换未知结构",
+      "evidence_artifacts": ["data/results/p23_v32_unseen_lockbox_v0.1_result.lock.json"],
+      "maturity": "historical_observation"
+    },
+    {
+      "strategy_id": "RS-SEMANTIC-PROJECTION-BLOCK",
+      "name": "未知语义投影阻断",
+      "target_signatures": ["SEMANTIC_PROJECTION_MISMATCH"],
+      "risk_level": "high",
+      "execution_policy": "blocked",
+      "preconditions": ["指标、边界、期间或单位无法唯一映射到冻结本体"],
+      "actions": ["保留自然语言和证据", "不生成规范事实", "提交本体扩展候选"],
+      "validation_gates": ["领域语义审查", "本体版本迁移", "冲突与历史回归"],
+      "rollback": "保持未投影状态，不用最相近谓词替代",
+      "evidence_artifacts": ["data/results/p2_locked_holdout_v0.1_result.lock.json", "data/results/p3_unseen_generalization_v0.1_result.lock.json"],
+      "maturity": "historical_observation"
+    },
+    {
+      "strategy_id": "RS-SCHEMA-REJECTION",
+      "name": "候选输出schema拒绝与新谱系重试",
+      "target_signatures": ["SCHEMA_CONTRACT_VIOLATION", "MODEL_OUTPUT_FAILURE", "UNSUPPORTED_ABSTENTION"],
+      "risk_level": "medium",
+      "execution_policy": "supervised",
+      "preconditions": ["仅限运行模式而非锁箱评分", "原失败响应已归档", "冻结任务语义不变"],
+      "actions": ["报告具体schema差异", "在新运行谱系中重新请求一次结构化输出"],
+      "validation_gates": ["新输出schema通过", "证据重新核验", "不得复制参考答案"],
+      "rollback": "再次失败则停止，不进行静默循环重试",
+      "evidence_artifacts": ["data/results/p2_locked_holdout_v0.1_result.lock.json", "src/esg_reliable_discovery/structured_output.py"],
+      "maturity": "historical_observation"
+    },
+    {
+      "strategy_id": "RS-CHECKPOINT-RESUME",
+      "name": "基础设施检查点恢复",
+      "target_signatures": [
+        "CLOUD_TRANSPORT_FAILURE",
+        "MINERU_LOCALHOST_BIND_SANDBOX_DENIED",
+        "MINERU_SANDBOX_LOOPBACK_BIND_DENIED",
+        "SANDBOX_LOCALHOST_BIND_DENIED",
+        "SANDBOX_LOOPBACK_PORT_DENIED",
+        "SANDBOX_NETWORK_DNS_DENIED",
+        "MINERU_POSTPROCESS_RUNTIME_ABORT",
+        "MINERU_POST_PROCESS_SHUTDOWN_MUTEX_ABORT"
+      ],
+      "risk_level": "low",
+      "execution_policy": "automatic",
+      "preconditions": ["失败被确认是基础设施而非模型行为", "冻结输入和配置哈希完全相同", "存在未完成检查点"],
+      "actions": ["创建明确RESUME谱系", "只运行未完成阶段", "保留父运行故障证据"],
+      "validation_gates": ["输入与配置哈希一致", "已完成阶段未重复", "输出目录不覆盖"],
+      "rollback": "哈希不一致或检查点不完整时停止恢复",
+      "evidence_artifacts": ["src/esg_reliable_discovery/archive.py", "data/manifests/p23_candidate_progress.json", "data/manifests/scale_batch_001_mineru_RESUME01_lineage.lock.json", "data/manifests/scale_batch_001_mineru_RESUME02_lineage.lock.json", "data/results/scale_batch_010_mineru_summary.lock.json", "data/manifests/scale_batch_010_mineru_RESUME01_lineage.lock.json", "data/manifests/scale_batch_024_mineru_RESUME01_lineage.lock.json", "data/manifests/scale_batch_024_mineru_RESUME02_lineage.lock.json", "data/manifests/scale_batch_024_mineru_RESUME03_lineage.lock.json"],
+      "maturity": "development_validated"
+    },
+    {
+      "strategy_id": "RS-OFFICIAL-SOURCE-SUBSTITUTION",
+      "name": "官方来源访问受阻替换",
+      "target_signatures": [
+        "OFFICIAL_SOURCE_HTTP_403",
+        "OFFICIAL_SOURCE_READ_TIMEOUT",
+        "ISSUER_SOURCE_ASSURANCE_PERIOD_ANOMALY",
+        "ISSUER_SOURCE_ASSURANCE_SIGNATORY_MISSING",
+        "ISSUER_SOURCE_ASSURANCE_REPORT_SEPARATE",
+        "SOURCE_REPORT_SERIES_ALREADY_USED",
+        "SOURCE_REPORT_SERIES_ALREADY_USED_EXACT_SHA256"
+      ],
+      "risk_level": "medium",
+      "execution_policy": "supervised",
+      "preconditions": ["原链接属于官方域名并保留失败证据", "403、发行人源鉴证期间异常或历史报告系列重复时，替代报告属于未使用的官方来源；超时时允许同一官方URL的浏览器下载回退", "批次研究范围不因替换或传输路径改变"],
+      "actions": ["保留受阻、内容异常或重复来源证据，不绕过访问控制、不修补发行人原文、不重复纳入历史报告系列", "在目标页冻结前创建来源替换记录，并从同批候选池选择可审计且未使用的官方报告", "读取超时时保留原URL并使用受控浏览器下载路径获取同一官方文件"],
+      "validation_gates": ["来源或替代来源官方域名校验", "PDF头与SHA256锁定", "同一URL回退时报告身份一致", "鉴证页窗的发行人、期间、结论与签署人四项预检", "历史实验排除检查"],
+      "rollback": "替代来源身份、年份或报告类型不一致时撤销替换并保持获取受阻状态",
+      "evidence_artifacts": ["data/manifests/scale_batch_001_acquisition_failures.lock.json", "configs/knowledge/scale_batch_001_RESUME01_v0.2.json", "data/manifests/scale_batch_003_acquisition_FINAL.lock.json", "data/manifests/scale_batch_019_assurance_preflight_failures.lock.json", "configs/knowledge/scale_batch_019_RESUME01_v0.2.json", "data/manifests/scale_batch_020_acquisition_attempt.lock.json", "data/manifests/scale_batch_020_acquisition.lock.json", "data/manifests/scale_batch_022_acquisition_failures.lock.json", "data/manifests/scale_batch_023_assurance_preflight_failures.lock.json", "data/manifests/scale_batch_023_RESUME02_preflight_failure.lock.json", "data/manifests/scale_batch_024_assurance_preflight_failures.lock.json", "configs/knowledge/scale_batch_024_RESUME01_v0.2.json"],
+      "maturity": "development_validated"
+    }
+  ]
+}

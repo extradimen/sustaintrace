@@ -1,0 +1,172 @@
+{
+  "candidate_model_called": false,
+  "cloud_transmission_count": 0,
+  "deterministic_calculation": {
+    "calculated": 3741.0,
+    "difference": 0.0,
+    "expression": "235 + 70 + 3436",
+    "numeric_method": "Decimal fixed-point from source literals",
+    "passed": true,
+    "reported": 3741.0
+  },
+  "evidence_quote_audit": {
+    "failures": [
+      {
+        "pdf_page": 38,
+        "quote": "TOTAL SCOPE 1 & 2",
+        "task_id": "P16-TARGET-001"
+      }
+    ],
+    "quotes_checked": 52
+  },
+  "experiment_id": "P16-V25-UNSEEN-LOCKBOX-V01",
+  "layout_gate": {
+    "record_count": 16,
+    "records": [
+      {
+        "pdf_page": 38,
+        "task_id": "P16-GHG-CALC-001"
+      },
+      {
+        "pdf_page": 26,
+        "task_id": "P16-TARGET-001"
+      },
+      {
+        "pdf_page": 30,
+        "task_id": "P16-TARGET-001"
+      },
+      {
+        "pdf_page": 31,
+        "task_id": "P16-TARGET-001"
+      },
+      {
+        "pdf_page": 38,
+        "task_id": "P16-TARGET-001"
+      },
+      {
+        "pdf_page": 43,
+        "task_id": "P16-POLLUTION-001"
+      },
+      {
+        "pdf_page": 44,
+        "task_id": "P16-POLLUTION-001"
+      },
+      {
+        "pdf_page": 45,
+        "task_id": "P16-POLLUTION-001"
+      },
+      {
+        "pdf_page": 68,
+        "task_id": "P16-SAFETY-001"
+      },
+      {
+        "pdf_page": 118,
+        "task_id": "P16-SAFETY-001"
+      },
+      {
+        "pdf_page": 90,
+        "task_id": "P16-ACCESS-001"
+      },
+      {
+        "pdf_page": 129,
+        "task_id": "P16-ASSURE-001"
+      },
+      {
+        "pdf_page": 130,
+        "task_id": "P16-ASSURE-001"
+      },
+      {
+        "pdf_page": 131,
+        "task_id": "P16-ASSURE-001"
+      },
+      {
+        "pdf_page": 132,
+        "task_id": "P16-ASSURE-001"
+      },
+      {
+        "pdf_page": 133,
+        "task_id": "P16-ASSURE-001"
+      }
+    ],
+    "status": "passed"
+  },
+  "mineru_pages_verified": 15,
+  "parser_anomalies": [
+    {
+      "class": "mineru_structure_unrecoverable_native_layout_fallback",
+      "mineru_content_list_bytes": 5754,
+      "mineru_markdown_bytes": 0,
+      "pdf_page": 133
+    }
+  ],
+  "reference_contract_key_audit": {
+    "failures": [],
+    "tasks_checked": 6
+  },
+  "schema_version": "2.5",
+  "slot_count": 60,
+  "stage_b_contract_preflights": {
+    "P16-ACCESS-001": {
+      "candidate_contract_count": 7,
+      "candidate_inference_released": true,
+      "projector_valid": true,
+      "raw_contract_count": 7,
+      "required_value_terms_in_fixture": true,
+      "schema_valid": true,
+      "status": "passed",
+      "validated_fixture_claim_count": 7
+    },
+    "P16-ASSURE-001": {
+      "candidate_contract_count": 9,
+      "candidate_inference_released": true,
+      "projector_valid": true,
+      "raw_contract_count": 9,
+      "required_value_terms_in_fixture": true,
+      "schema_valid": true,
+      "status": "passed",
+      "validated_fixture_claim_count": 9
+    },
+    "P16-GHG-CALC-001": {
+      "candidate_contract_count": 8,
+      "candidate_inference_released": true,
+      "projector_valid": true,
+      "raw_contract_count": 8,
+      "required_value_terms_in_fixture": true,
+      "schema_valid": true,
+      "status": "passed",
+      "validated_fixture_claim_count": 8
+    },
+    "P16-POLLUTION-001": {
+      "candidate_contract_count": 12,
+      "candidate_inference_released": true,
+      "projector_valid": true,
+      "raw_contract_count": 12,
+      "required_value_terms_in_fixture": true,
+      "schema_valid": true,
+      "status": "passed",
+      "validated_fixture_claim_count": 12
+    },
+    "P16-SAFETY-001": {
+      "candidate_contract_count": 12,
+      "candidate_inference_released": true,
+      "projector_valid": true,
+      "raw_contract_count": 12,
+      "required_value_terms_in_fixture": true,
+      "schema_valid": true,
+      "status": "passed",
+      "validated_fixture_claim_count": 12
+    },
+    "P16-TARGET-001": {
+      "candidate_contract_count": 12,
+      "candidate_inference_released": true,
+      "projector_valid": true,
+      "raw_contract_count": 12,
+      "required_value_terms_in_fixture": true,
+      "schema_valid": true,
+      "status": "passed",
+      "validated_fixture_claim_count": 12
+    }
+  },
+  "status": "failed",
+  "task_count": 6
+}

@@ -1,0 +1,100 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/esg-reliable-discovery/document-manifest-v1.schema.json",
+  "title": "ESG source document manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "manifest_id", "frozen", "documents"],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "manifest_id": {"type": "string", "minLength": 1},
+    "created_at": {"type": ["string", "null"], "format": "date-time"},
+    "frozen": {"type": "boolean"},
+    "selection_protocol": {"type": "string"},
+    "documents": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/document"}
+    }
+  },
+  "$defs": {
+    "document": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "document_id",
+        "company_id",
+        "company_name",
+        "country",
+        "sector",
+        "report_type",
+        "reporting_period",
+        "language",
+        "source_url",
+        "source_owner",
+        "retrieved_at",
+        "sha256",
+        "bytes",
+        "page_count",
+        "redistribution_status",
+        "split",
+        "ingestion_status"
+      ],
+      "properties": {
+        "document_id": {"type": "string", "minLength": 1},
+        "company_id": {"type": "string", "minLength": 1},
+        "company_name": {"type": "string", "minLength": 1},
+        "country": {"type": "string", "minLength": 2},
+        "sector": {"type": "string", "minLength": 1},
+        "report_type": {
+          "enum": ["sustainability", "integrated", "annual", "climate", "other"]
+        },
+        "reporting_period": {"type": "string", "minLength": 4},
+        "language": {"const": "en"},
+        "source_url": {"type": "string", "format": "uri"},
+        "landing_page_url": {"type": ["string", "null"], "format": "uri"},
+        "source_owner": {"type": "string", "minLength": 1},
+        "resolved_url": {"type": ["string", "null"], "format": "uri"},
+        "content_type": {"type": ["string", "null"]},
+        "local_path": {"type": ["string", "null"]},
+        "retrieved_at": {"type": ["string", "null"], "format": "date-time"},
+        "sha256": {"type": ["string", "null"], "pattern": "^[a-f0-9]{64}$"},
+        "bytes": {"type": ["integer", "null"], "minimum": 1},
+        "page_count": {"type": ["integer", "null"], "minimum": 1},
+        "redistribution_status": {
+          "enum": ["allowed", "metadata_only", "permission_required", "unknown"]
+        },
+        "redistribution_evidence": {"type": ["string", "null"]},
+        "split": {"enum": ["P0", "D1", "C1", "X1", "X2"]},
+        "ingestion_status": {
+          "enum": ["planned", "downloaded", "verified", "excluded"]
+        },
+        "exclusion_reason": {"type": ["string", "null"]},
+        "verification": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "verified_at",
+            "sha256_match",
+            "page_count_match",
+            "text_layer_characters",
+            "representative_pages",
+            "visual_review"
+          ],
+          "properties": {
+            "verified_at": {"type": "string", "format": "date-time"},
+            "sha256_match": {"const": true},
+            "page_count_match": {"const": true},
+            "text_layer_characters": {"type": "integer", "minimum": 1000},
+            "representative_pages": {
+              "type": "array",
+              "items": {"type": "integer", "minimum": 1},
+              "minItems": 1,
+              "uniqueItems": true
+            },
+            "visual_review": {"enum": ["passed", "failed"]}
+          }
+        }
+      }
+    }
+  }
+}

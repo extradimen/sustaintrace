@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "freeze_id": "P1-EXECUTION-PIPELINE-FREEZE-v0.7.3",
+  "status": "frozen_calculation_role_requalification_failed",
+  "frozen_at": "2026-09-04T11:20:00+08:00",
+  "parent_freeze_id": "P1-EXECUTION-PIPELINE-FREEZE-v0.7.2",
+  "preregistration_sha256": "69d34b6564744a997239816cd2d17076365f4240269a1f1cb21fea0f63b84678",
+  "semantic_state_core_sha256": "82d84487ba70ad1ebd0bde73a0b15f8fbd66084b49cb7374c6096e5a32115e83",
+  "runner_sha256": "03893ff2190229c8aebee6607cb574b471fc2001b601f5b87315594168718e7b",
+  "system_prompt_sha256": "2ed77c139c1e18360aef1451364e4bf1c167bf73f83e5594b0d3697e319f627d",
+  "operation_role_constraints": {
+    "percentage_change": ["current", "prior"],
+    "ratio_percent": ["numerator", "denominator"],
+    "difference": ["minuend", "subtrahend"],
+    "sum": ["addend"]
+  },
+  "deterministic_executor_changed": false,
+  "posthoc_role_repair_allowed": false,
+  "reference_answer_visible_during_inference": false,
+  "test_count_passed": 130,
+  "inference_allowed": true,
+  "failed_run_id": "P1-02-1-GEMMA4-12B-v073-r1",
+  "failure_sha256s_sha256": "d52135238050590f6a4263b4fa76130b23a255739ecb991b499509925ed205ad",
+  "failure": "Legal current/prior roles were assigned to the wrong year values, yielding an incorrect deterministic result.",
+  "p2_eligible": false,
+  "next_gate": "p1_v0.7.4_period_keyed_percentage_change"
+}

@@ -1,0 +1,34 @@
+{
+  "candidate_output_rewritten": false,
+  "contract_ids": [
+    "ERC-ABSTENTION-EVIDENCE-PRESENCE-V01",
+    "ERC-ASSURANCE-WINDOW-RESELECTION-V01",
+    "ERC-EXACT-CELL-PREFERENCE-V01",
+    "ERC-PERIOD-WINDOW-RESELECTION-V01",
+    "ERC-STAGE-B-HANDLE-PROJECTION-V01",
+    "ERC-TRUNCATED-QUOTE-REJECT-V01"
+  ],
+  "execution_performed": false,
+  "inputs": {
+    "configs/knowledge/evidence_repair_contract_catalog_v0.1.json": "a8d92cea2bfcd1f69eac274382f80de3d509b8e1649bd1b4435f252ae4c04c17",
+    "data/knowledge_bases/v0.1/failure_records.jsonl": "bac85772c9a3830c54fa03a2107851c35097ecd2540d58d7ae59479c4e4327ad",
+    "schemas/knowledge/evidence-repair-contract-binding-v0.1.schema.json": "9ddb2abe022fc1e94d4f6264cb5fb62760e3bc64c6dbfcc122862911e6587e9d"
+  },
+  "locked_bindings": 7,
+  "locked_decisions": {
+    "archive_only": 7
+  },
+  "locked_experiments_modified_or_rescored": false,
+  "next_gate": "instantiate per-subtype validation fixtures on exposed failures",
+  "operational_preview_decisions": {
+    "blocked_by_contract": 1,
+    "contract_ready_for_supervised_validation": 6
+  },
+  "outputs": {
+    "data/knowledge_bases/v0.1/exposed_evidence_contract_bindings.jsonl": "3d560ff9e68f1699430d1011536dffb46966b23deaa652769f6796760ac8e5d7",
+    "data/knowledge_bases/v0.1/exposed_evidence_operational_route_preview.jsonl": "7bea283853402072bb17497313e9a09f604faf43b358a1027766a5c21627f0ac"
+  },
+  "result_id": "ESG-EVIDENCE-REPAIR-CONTRACT-BINDINGS-v0.1",
+  "schema_version": "0.1",
+  "status": "contracts_frozen_and_controller_integrated_no_execution"
+}

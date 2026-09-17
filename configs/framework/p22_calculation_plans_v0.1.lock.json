@@ -1,0 +1,310 @@
+{
+  "experiment_id": "P22-V31-UNSEEN-LOCKBOX-V01",
+  "plans": {
+    "P22-ENERGY-CALC-001": {
+      "candidate_handle_role_map": {
+        "M149-T0001-R0014-C0001": "renewable_2024",
+        "M149-T0001-R0014-C0002": "renewable_2025",
+        "M149-T0001-R0021-C0001": "total_2024",
+        "M149-T0001-R0021-C0002": "total_2025"
+      },
+      "candidate_may_select_operation": false,
+      "output_slot_map": [
+        {
+          "slot_id": "calculated_total_energy_change_percent",
+          "source_value_id": "total_change"
+        },
+        {
+          "slot_id": "calculated_renewable_energy_change_percent",
+          "source_value_id": "renewable_change"
+        }
+      ],
+      "roles": [
+        {
+          "role_id": "total_2024",
+          "unit": "thousand MWh"
+        },
+        {
+          "role_id": "total_2025",
+          "unit": "thousand MWh"
+        },
+        {
+          "role_id": "renewable_2024",
+          "unit": "thousand MWh"
+        },
+        {
+          "role_id": "renewable_2025",
+          "unit": "thousand MWh"
+        }
+      ],
+      "steps": [
+        {
+          "inputs": [
+            "total_2025",
+            "total_2024"
+          ],
+          "operation": "percentage_change",
+          "rounding_decimals": 2,
+          "step_id": "total_change"
+        },
+        {
+          "inputs": [
+            "renewable_2025",
+            "renewable_2024"
+          ],
+          "operation": "percentage_change",
+          "rounding_decimals": 2,
+          "step_id": "renewable_change"
+        }
+      ]
+    },
+    "P22-GHG-CALC-001": {
+      "candidate_handle_role_map": {
+        "M151-T0001-R0005-C0002": "scope1_2024",
+        "M151-T0001-R0005-C0003": "scope1_2025",
+        "M151-T0001-R0009-C0002": "scope2_2024",
+        "M151-T0001-R0009-C0003": "scope2_2025"
+      },
+      "candidate_may_select_operation": false,
+      "output_slot_map": [
+        {
+          "slot_id": "calculated_scope1_plus_scope2_mtco2e::2024_restated",
+          "source_value_id": "sum_2024"
+        },
+        {
+          "slot_id": "calculated_scope1_plus_scope2_mtco2e::2025",
+          "source_value_id": "sum_2025"
+        },
+        {
+          "slot_id": "calculated_change_percent",
+          "source_value_id": "percentage_change"
+        }
+      ],
+      "roles": [
+        {
+          "role_id": "scope1_2024",
+          "unit": "Mt CO2e"
+        },
+        {
+          "role_id": "scope2_2024",
+          "unit": "Mt CO2e"
+        },
+        {
+          "role_id": "scope1_2025",
+          "unit": "Mt CO2e"
+        },
+        {
+          "role_id": "scope2_2025",
+          "unit": "Mt CO2e"
+        }
+      ],
+      "steps": [
+        {
+          "inputs": [
+            "scope1_2024",
+            "scope2_2024"
+          ],
+          "operation": "sum",
+          "step_id": "sum_2024"
+        },
+        {
+          "inputs": [
+            "scope1_2025",
+            "scope2_2025"
+          ],
+          "operation": "sum",
+          "step_id": "sum_2025"
+        },
+        {
+          "inputs": [
+            "sum_2025",
+            "sum_2024"
+          ],
+          "operation": "percentage_change",
+          "rounding_decimals": 2,
+          "step_id": "percentage_change"
+        }
+      ]
+    },
+    "P22-SAFETY-CALC-001": {
+      "candidate_handle_role_map": {
+        "M204-T0001-R0003-C0001": "total_2024",
+        "M204-T0001-R0003-C0002": "total_2025",
+        "M204-T0001-R0004-C0001": "employee_2024",
+        "M204-T0001-R0004-C0002": "employee_2025",
+        "M204-T0001-R0005-C0001": "nonemployee_2024",
+        "M204-T0001-R0005-C0002": "nonemployee_2025"
+      },
+      "candidate_may_select_operation": false,
+      "output_slot_map": [
+        {
+          "slot_id": "calculated_component_sum::2024",
+          "source_value_id": "component_sum_2024"
+        },
+        {
+          "slot_id": "calculated_component_sum::2025",
+          "source_value_id": "component_sum_2025"
+        },
+        {
+          "slot_id": "total_minus_component_sum::2024",
+          "source_value_id": "difference_2024"
+        },
+        {
+          "slot_id": "total_minus_component_sum::2025",
+          "source_value_id": "difference_2025"
+        }
+      ],
+      "roles": [
+        {
+          "role_id": "total_2024",
+          "unit": "count"
+        },
+        {
+          "role_id": "employee_2024",
+          "unit": "count"
+        },
+        {
+          "role_id": "nonemployee_2024",
+          "unit": "count"
+        },
+        {
+          "role_id": "total_2025",
+          "unit": "count"
+        },
+        {
+          "role_id": "employee_2025",
+          "unit": "count"
+        },
+        {
+          "role_id": "nonemployee_2025",
+          "unit": "count"
+        }
+      ],
+      "steps": [
+        {
+          "inputs": [
+            "employee_2024",
+            "nonemployee_2024"
+          ],
+          "operation": "sum",
+          "step_id": "component_sum_2024"
+        },
+        {
+          "inputs": [
+            "employee_2025",
+            "nonemployee_2025"
+          ],
+          "operation": "sum",
+          "step_id": "component_sum_2025"
+        },
+        {
+          "inputs": [
+            "total_2024",
+            "component_sum_2024"
+          ],
+          "operation": "difference",
+          "step_id": "difference_2024"
+        },
+        {
+          "inputs": [
+            "total_2025",
+            "component_sum_2025"
+          ],
+          "operation": "difference",
+          "step_id": "difference_2025"
+        }
+      ]
+    },
+    "P22-WATER-CALC-001": {
+      "candidate_handle_role_map": {
+        "M172-T0002-R0002-C0009": "withdrawal_2024",
+        "M172-T0002-R0002-C0010": "withdrawal_2025",
+        "M172-T0002-R0003-C0009": "discharge_2024",
+        "M172-T0002-R0003-C0010": "discharge_2025",
+        "M172-T0002-R0004-C0009": "disclosed_2024",
+        "M172-T0002-R0004-C0010": "disclosed_2025"
+      },
+      "candidate_may_select_operation": false,
+      "output_slot_map": [
+        {
+          "slot_id": "calculated_consumption_million_m3::2024",
+          "source_value_id": "calculated_2024"
+        },
+        {
+          "slot_id": "calculated_consumption_million_m3::2025",
+          "source_value_id": "calculated_2025"
+        },
+        {
+          "slot_id": "calculated_minus_disclosed_million_m3::2024",
+          "source_value_id": "comparison_2024"
+        },
+        {
+          "slot_id": "calculated_minus_disclosed_million_m3::2025",
+          "source_value_id": "comparison_2025"
+        }
+      ],
+      "roles": [
+        {
+          "role_id": "withdrawal_2024",
+          "unit": "million m3"
+        },
+        {
+          "role_id": "discharge_2024",
+          "unit": "million m3"
+        },
+        {
+          "role_id": "disclosed_2024",
+          "unit": "million m3"
+        },
+        {
+          "role_id": "withdrawal_2025",
+          "unit": "million m3"
+        },
+        {
+          "role_id": "discharge_2025",
+          "unit": "million m3"
+        },
+        {
+          "role_id": "disclosed_2025",
+          "unit": "million m3"
+        }
+      ],
+      "steps": [
+        {
+          "inputs": [
+            "withdrawal_2024",
+            "discharge_2024"
+          ],
+          "operation": "difference",
+          "step_id": "calculated_2024"
+        },
+        {
+          "inputs": [
+            "withdrawal_2025",
+            "discharge_2025"
+          ],
+          "operation": "difference",
+          "step_id": "calculated_2025"
+        },
+        {
+          "inputs": [
+            "calculated_2024",
+            "disclosed_2024"
+          ],
+          "operation": "difference",
+          "step_id": "comparison_2024"
+        },
+        {
+          "inputs": [
+            "calculated_2025",
+            "disclosed_2025"
+          ],
+          "operation": "difference",
+          "step_id": "comparison_2025"
+        }
+      ]
+    }
+  },
+  "schema_version": "3.1",
+  "status": "frozen_before_candidate_inference"
+}

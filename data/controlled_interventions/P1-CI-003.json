@@ -1,0 +1,7 @@
+{
+  "schema_version":"1.0","intervention_id":"P1-CI-003","intervention_type":"numeric_claim_contradiction",
+  "source_document_id":"ENEL-IR-2024","source_document_sha256":"29144b4aeafaddc22783325cfadb6868905922eb8250dddf148ccf896679f840","source_page":129,
+  "injected_text":"Enel installed 4.4 GW of consolidated new renewable capacity in 2024, including 1.3 GW of BESS.",
+  "known_source_value":3.9,"injected_value":4.4,"known_source_unit":"GW","known_source_period":"2024","expected_relation":"contradicted_by_source",
+  "construction_note":"Deliberately false analyst note; not an Enel statement.","publication_safe":true
+}

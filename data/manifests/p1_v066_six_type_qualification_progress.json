@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.0",
+  "framework_freeze_id": "P1-EXECUTION-PIPELINE-FREEZE-v0.6.6",
+  "model": "gemma4:12b",
+  "model_digest": "4eb23ef187e2c5462566d6a1d3bbbc2f1346d0b4327cbb66d58fffbcc9b2b05c",
+  "status": "completed_with_failures",
+  "results": [
+    {
+      "task_type": "deterministic_calculation",
+      "task_id": "P1-02-1",
+      "run_id": "P1-02-1-GEMMA4-12B-v065-r1",
+      "framework_layer": "passed",
+      "model_semantic_layer": "passed_minimal_extraction_contract"
+    },
+    {
+      "task_type": "scope_subject_boundary",
+      "task_id": "P1-01-2",
+      "run_id": "P1-01-2-GEMMA4-12B-v06-r1",
+      "framework_layer": "passed",
+      "model_semantic_layer": "passed"
+    },
+    {
+      "task_type": "cross_page_relation",
+      "task_id": "P1-09-1",
+      "run_id": "P1-09-1-GEMMA4-12B-v066-r1",
+      "framework_layer": "passed",
+      "model_semantic_layer": "failed_status_classification",
+      "core_answer": "passed"
+    },
+    {
+      "task_type": "direct_extraction",
+      "task_id": "P1-02-2",
+      "run_id": "P1-02-2-GEMMA4-12B-v066-r1",
+      "framework_layer": "passed",
+      "model_semantic_layer": "passed",
+      "sha256s_sha256": "40c40e1013094b25bccee94b7b8337dfae3b1ee0825a44dc2715dc0bc82856fd"
+    },
+    {
+      "task_type": "abstention",
+      "task_id": "P1-01-1",
+      "run_id": "P1-01-1-GEMMA4-12B-v066-r1",
+      "framework_layer": "passed",
+      "model_semantic_layer": "passed_core_abstention_failed_null_representation",
+      "evidence_handles_empty": true,
+      "normalized_value_null": true,
+      "answer_was_literal_string_instead_of_null": true,
+      "sha256s_sha256": "0ab2b7ca31c28a07b0ba4836ae0b78855b53949af48adba1476181d41b91fc0b"
+    },
+    {
+      "task_type": "controlled_conflict",
+      "task_id": "P1-04-2",
+      "run_id": "P1-04-2-GEMMA4-12B-v066-r1",
+      "framework_layer": "passed_request_construction_and_failure_archival",
+      "model_semantic_layer": "not_observed",
+      "outcome": "model_chat_timeout",
+      "elapsed_seconds": 1200.0024480420034,
+      "model_output_received": false,
+      "sha256s_sha256": "9014855edba10b535cfc94b1134045b2cb25f6ae4a4a5593bd5fad39870c7395"
+    }
+  ],
+  "pending_task_types": [],
+  "qualification_summary": {
+    "fully_passed_task_types": [
+      "deterministic_calculation",
+      "scope_subject_boundary",
+      "direct_extraction"
+    ],
+    "partially_passed_task_types": ["cross_page_relation", "abstention"],
+    "timed_out_task_types": ["controlled_conflict"],
+    "eligible_for_p2_lockbox": false
+  }
+}

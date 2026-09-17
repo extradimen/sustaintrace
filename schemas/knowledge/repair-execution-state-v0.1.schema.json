@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "record_kind", "execution_id", "plan_id", "parent_record_id", "strategy_id", "validator_id", "state", "input_sha256", "expected_output_sha256", "actual_output_sha256", "invariants", "invariant_results", "rollback_action", "promotion_performed", "rollback_performed", "event_sequence"],
+  "properties": {
+    "schema_version": {"const": "0.1"},
+    "record_kind": {"const": "repair_execution_state"},
+    "execution_id": {"type": "string", "pattern": "^repair-execution-[0-9a-f]{24}$"},
+    "plan_id": {"type": "string", "minLength": 1},
+    "parent_record_id": {"type": "string", "minLength": 1},
+    "strategy_id": {"type": "string", "minLength": 1},
+    "validator_id": {"type": "string", "minLength": 1},
+    "state": {"enum": ["planned", "preflight_passed", "blocked_preflight", "executed", "failed_execution", "postvalidation_passed", "postvalidation_failed", "promoted", "rolled_back"]},
+    "input_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "expected_output_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "actual_output_sha256": {"type": ["string", "null"], "pattern": "^[0-9a-f]{64}$"},
+    "invariants": {"type": "array", "items": {"type": "string", "minLength": 1}, "uniqueItems": true},
+    "invariant_results": {"type": "object", "additionalProperties": {"type": "boolean"}},
+    "rollback_action": {"type": "string", "minLength": 1},
+    "promotion_performed": {"type": "boolean"},
+    "rollback_performed": {"type": "boolean"},
+    "event_sequence": {"type": "integer", "minimum": 0}
+  }
+}

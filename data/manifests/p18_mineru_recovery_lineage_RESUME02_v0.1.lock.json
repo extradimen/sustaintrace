@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "experiment_id": "P18-V27-UNSEEN-LOCKBOX-V01",
+  "recovery_id": "P18-MINERU-RESUME02",
+  "status": "infrastructure_recovery_authorized_by_protocol",
+  "parent_output_root": "artifacts/p18/mineru_targets_RESUME01",
+  "resume_output_root": "artifacts/p18/mineru_targets_RESUME02",
+  "interruption_class": "parser_process_aborted_during_local_service_shutdown_after_page_processing",
+  "cause": "MinerU completed page processing but exited -6 while tearing down a recursive mutex; the failed run records and produced files remain preserved and are not accepted as successful checkpoints.",
+  "parent_failure_records_preserved": true,
+  "reuse_items": [109, 123, 131, 133, 370, 371],
+  "unfinished_pages": [121, 122],
+  "configuration_change": "none; same frozen PDF, SHA256, page windows, parser runtime, backend, method, and target pages",
+  "candidate_model_attempt_consumed": false,
+  "cloud_transmission_allowed": false
+}

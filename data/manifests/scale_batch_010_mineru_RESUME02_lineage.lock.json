@@ -1,0 +1,14 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-010-RESUME02",
+  "parent_run": "data/results/scale_batch_010_mineru_RESUME01_summary.lock.json",
+  "parent_status": "complete",
+  "parent_complete_pages": 26,
+  "parent_failed_pages": 1,
+  "resume_reason": "Veolia page 218 completed batch 1/1 and wrote all required outputs, then terminated during local-server shutdown with recursive_mutex lock failed.",
+  "failure_signature": "MINERU_POST_PROCESS_SHUTDOWN_MUTEX_ABORT",
+  "reuse_policy": "Reuse 26 successful RESUME01 checkpoints and retry only the single failed page with identical frozen inputs and configuration.",
+  "output_root": "artifacts/scale_batch_010/mineru_targets_RESUME02",
+  "summary": "data/results/scale_batch_010_mineru_RESUME02_summary.lock.json",
+  "cloud_transmission": false
+}

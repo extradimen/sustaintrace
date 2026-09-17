@@ -1,0 +1,14 @@
+{
+  "schema_version":"2.1",
+  "experiment_id":"P12-V21-UNSEEN-LOCKBOX-V01",
+  "status":"frozen_before_candidate_inference",
+  "bindings":[
+    {"handle":"P274-S1-TOTAL-C2025","page":274,"row":"Total Scope 1 GHG emissions of Volkswagen Group & companies with operational control","column":"2025","value":2.7,"unit":"million tonnes of CO2e"},
+    {"handle":"P274-S2-MB-TOTAL-C2025","page":274,"row":"Total Scope 2 GHG emissions (market-based) of Volkswagen Group & companies with operational control","column":"2025","value":0.9,"unit":"million tonnes of CO2e"},
+    {"handle":"P275-S3-TOTAL-C2025","page":275,"row":"Total","column":"2025","value":883.74,"unit":"million tonnes of CO2e"},
+    {"handle":"P275-S3-C11-C2025","page":275,"row":"Category 11: Use of sold products","column":"2025","value":752.57,"unit":"million tonnes of CO2e"},
+    {"handle":"P281-GHG-MB-TOTAL-C2025","page":281,"row":"Total GHG emissions – market-based","column":"2025","value":887.4,"unit":"million tonnes of CO2e"}
+  ],
+  "binding_rule":"same_row_and_explicit_2025_column_under_frozen_table_header",
+  "candidate_output_modified":false
+}

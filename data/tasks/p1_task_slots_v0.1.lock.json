@@ -1,0 +1,237 @@
+{
+  "algorithm": "seeded_quota_shuffle_distinct_pair_rejection_v1",
+  "allocation_id": "P1-TASK-SLOTS-v0.1",
+  "attempt": 23,
+  "inference_allowed": false,
+  "quota_check": {
+    "abstention": 3,
+    "controlled_conflict": 3,
+    "cross_page_relation": 4,
+    "deterministic_calculation": 4,
+    "direct_extraction": 6,
+    "scope_subject_boundary": 4
+  },
+  "sample_manifest_sha256": "7d2d4c87bff8afe8bf0fac746476c8f317d269aaba4370049ab350f508c3fe02",
+  "schema_version": "1.0",
+  "seed": 20260904,
+  "slots": [
+    {
+      "annotation_status": "not_started",
+      "candidate_id": "P1-CAND-004",
+      "document_id": "AAPL-EPR-2025",
+      "model_access_allowed": false,
+      "question_status": "awaiting_human_task_design",
+      "task_id": "P1-01-1",
+      "task_type": "abstention"
+    },
+    {
+      "annotation_status": "not_started",
+      "candidate_id": "P1-CAND-004",
+      "document_id": "AAPL-EPR-2025",
+      "model_access_allowed": false,
+      "question_status": "awaiting_human_task_design",
+      "task_id": "P1-01-2",
+      "task_type": "scope_subject_boundary"
+    },
+    {
+      "annotation_status": "not_started",
+      "candidate_id": "P1-CAND-005",
+      "document_id": "BASF-AR-2024",
+      "model_access_allowed": false,
+      "question_status": "awaiting_human_task_design",
+      "task_id": "P1-02-1",
+      "task_type": "deterministic_calculation"
+    },
+    {
+      "annotation_status": "not_started",
+      "candidate_id": "P1-CAND-005",
+      "document_id": "BASF-AR-2024",
+      "model_access_allowed": false,
+      "question_status": "awaiting_human_task_design",
+      "task_id": "P1-02-2",
+      "task_type": "direct_extraction"
+    },
+    {
+      "annotation_status": "not_started",
+      "candidate_id": "P1-CAND-008",
+      "document_id": "HITACHI-SR-2024",
+      "model_access_allowed": false,
+      "question_status": "awaiting_human_task_design",
+      "task_id": "P1-03-1",
+      "task_type": "cross_page_relation"
+    },
+    {
+      "annotation_status": "not_started",
+      "candidate_id": "P1-CAND-008",
+      "document_id": "HITACHI-SR-2024",
+      "model_access_allowed": false,
+      "question_status": "awaiting_human_task_design",
+      "task_id": "P1-03-2",
+      "task_type": "direct_extraction"
+    },
+    {
+      "annotation_status": "not_started",
+      "candidate_id": "P1-CAND-009",
+      "document_id": "CRM-IR-2024",
+      "model_access_allowed": false,
+      "question_status": "awaiting_human_task_design",
+      "task_id": "P1-04-1",
+      "task_type": "deterministic_calculation"
+    },
+    {
+      "annotation_status": "not_started",
+      "candidate_id": "P1-CAND-009",
+      "document_id": "CRM-IR-2024",
+      "model_access_allowed": false,
+      "question_status": "awaiting_human_task_design",
+      "task_id": "P1-04-2",
+      "task_type": "controlled_conflict"
+    },
+    {
+      "annotation_status": "not_started",
+      "candidate_id": "P1-CAND-011",
+      "document_id": "SAMSUNG-SR-2024",
+      "model_access_allowed": false,
+      "question_status": "awaiting_human_task_design",
+      "task_id": "P1-05-1",
+      "task_type": "direct_extraction"
+    },
+    {
+      "annotation_status": "not_started",
+      "candidate_id": "P1-CAND-011",
+      "document_id": "SAMSUNG-SR-2024",
+      "model_access_allowed": false,
+      "question_status": "awaiting_human_task_design",
+      "task_id": "P1-05-2",
+      "task_type": "abstention"
+    },
+    {
+      "annotation_status": "not_started",
+      "candidate_id": "P1-CAND-016",
+      "document_id": "ANZ-ESG-2024",
+      "model_access_allowed": false,
+      "question_status": "awaiting_human_task_design",
+      "task_id": "P1-06-1",
+      "task_type": "scope_subject_boundary"
+    },
+    {
+      "annotation_status": "not_started",
+      "candidate_id": "P1-CAND-016",
+      "document_id": "ANZ-ESG-2024",
+      "model_access_allowed": false,
+      "question_status": "awaiting_human_task_design",
+      "task_id": "P1-06-2",
+      "task_type": "direct_extraction"
+    },
+    {
+      "annotation_status": "not_started",
+      "candidate_id": "P1-CAND-017",
+      "document_id": "SBKK-SR-2024",
+      "model_access_allowed": false,
+      "question_status": "awaiting_human_task_design",
+      "task_id": "P1-07-1",
+      "task_type": "scope_subject_boundary"
+    },
+    {
+      "annotation_status": "not_started",
+      "candidate_id": "P1-CAND-017",
+      "document_id": "SBKK-SR-2024",
+      "model_access_allowed": false,
+      "question_status": "awaiting_human_task_design",
+      "task_id": "P1-07-2",
+      "task_type": "cross_page_relation"
+    },
+    {
+      "annotation_status": "not_started",
+      "candidate_id": "P1-CAND-018",
+      "document_id": "BN-IR-2024",
+      "model_access_allowed": false,
+      "question_status": "awaiting_human_task_design",
+      "task_id": "P1-08-1",
+      "task_type": "deterministic_calculation"
+    },
+    {
+      "annotation_status": "not_started",
+      "candidate_id": "P1-CAND-018",
+      "document_id": "BN-IR-2024",
+      "model_access_allowed": false,
+      "question_status": "awaiting_human_task_design",
+      "task_id": "P1-08-2",
+      "task_type": "controlled_conflict"
+    },
+    {
+      "annotation_status": "not_started",
+      "candidate_id": "P1-CAND-019",
+      "document_id": "DD-SR-2025",
+      "model_access_allowed": false,
+      "question_status": "awaiting_human_task_design",
+      "task_id": "P1-09-1",
+      "task_type": "cross_page_relation"
+    },
+    {
+      "annotation_status": "not_started",
+      "candidate_id": "P1-CAND-019",
+      "document_id": "DD-SR-2025",
+      "model_access_allowed": false,
+      "question_status": "awaiting_human_task_design",
+      "task_id": "P1-09-2",
+      "task_type": "abstention"
+    },
+    {
+      "annotation_status": "not_started",
+      "candidate_id": "P1-CAND-020",
+      "document_id": "ABX-SR-2024",
+      "model_access_allowed": false,
+      "question_status": "awaiting_human_task_design",
+      "task_id": "P1-10-1",
+      "task_type": "deterministic_calculation"
+    },
+    {
+      "annotation_status": "not_started",
+      "candidate_id": "P1-CAND-020",
+      "document_id": "ABX-SR-2024",
+      "model_access_allowed": false,
+      "question_status": "awaiting_human_task_design",
+      "task_id": "P1-10-2",
+      "task_type": "scope_subject_boundary"
+    },
+    {
+      "annotation_status": "not_started",
+      "candidate_id": "P1-CAND-021",
+      "document_id": "ENEL-IR-2024",
+      "model_access_allowed": false,
+      "question_status": "awaiting_human_task_design",
+      "task_id": "P1-11-1",
+      "task_type": "direct_extraction"
+    },
+    {
+      "annotation_status": "not_started",
+      "candidate_id": "P1-CAND-021",
+      "document_id": "ENEL-IR-2024",
+      "model_access_allowed": false,
+      "question_status": "awaiting_human_task_design",
+      "task_id": "P1-11-2",
+      "task_type": "controlled_conflict"
+    },
+    {
+      "annotation_status": "not_started",
+      "candidate_id": "P1-CAND-022",
+      "document_id": "VOLV-B-AR-2024",
+      "model_access_allowed": false,
+      "question_status": "awaiting_human_task_design",
+      "task_id": "P1-12-1",
+      "task_type": "direct_extraction"
+    },
+    {
+      "annotation_status": "not_started",
+      "candidate_id": "P1-CAND-022",
+      "document_id": "VOLV-B-AR-2024",
+      "model_access_allowed": false,
+      "question_status": "awaiting_human_task_design",
+      "task_id": "P1-12-2",
+      "task_type": "cross_page_relation"
+    }
+  ],
+  "status": "allocation_frozen_questions_pending",
+  "task_count": 24
+}

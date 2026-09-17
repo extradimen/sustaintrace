@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "experiment_id": "P15-V24-UNSEEN-LOCKBOX-V01",
+  "status": "infrastructure_recovery_before_any_model_attempt",
+  "parent_progress": "data/manifests/p15_candidate_progress.json",
+  "parent_failure": "sandbox denied connection to the local Ollama endpoint with Errno 1 Operation not permitted",
+  "parent_run_directory_count": 0,
+  "candidate_model_attempts_consumed": 0,
+  "cloud_requests_sent": 0,
+  "resume_progress": "data/manifests/p15_candidate_progress_RESUME01.json",
+  "resume_run_label": "v24-RESUME01",
+  "resume_scope": [
+    "P15-GHG-CALC-001 Stage A",
+    "P15-TARGET-001 Stage A and conditional Stage B",
+    "P15-WATER-QUALITY-001 Stage A and conditional Stage B",
+    "P15-SAFETY-001 Stage A and conditional Stage B",
+    "P15-ACCESS-001 Stage A and conditional Stage B",
+    "P15-ASSURE-001 Stage A and conditional Stage B"
+  ],
+  "successful_results_overwritten": false
+}

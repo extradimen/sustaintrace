@@ -1,0 +1,40 @@
+{
+  "schema_version":"1.0",
+  "experiment_id":"P7-V16-UNSEEN-LOCKBOX-V01",
+  "status":"completed_and_scored_with_audited_infrastructure_resume",
+  "candidate_model":"qwen3.5:397b-cloud",
+  "candidate_digest":"68d2a0796c11e1fedd0456a2d55e58cca4077be6a218428a7a7f4e21f8177cbc",
+  "task_count":6,
+  "stage_a":{"tasks_run":6,"framework_valid":6,"framework_failed":0,"semantic_exact":3,"semantic_partial":3,"semantic_failed":0},
+  "stage_b":{"eligible_tasks":5,"framework_valid":3,"framework_failed":2,"contracted_atomic_claims_exact":10,"required_atomic_claims":17},
+  "task_results":{
+    "P7-SAFETY-001":"exact_numeric_extraction_but_qualitative_claim_partial; infrastructure_resume_stage_b_exact_4_of_4",
+    "P7-CALC-001":"deterministic_recalculation_exact_but_qualitative_threshold_comparison_not_composed",
+    "P7-TARGET-001":"exact_stage_a_and_stage_b_3_of_3",
+    "P7-PORTFOLIO-001":"exact_stage_a_and_stage_b_3_of_3",
+    "P7-INTENSITY-001":"stage_a_semantically_supported_by_report_but_frozen_reference_too_strict; stage_b_failed_verbatim_grounding",
+    "P7-ASSURE-001":"exact_stage_a; stage_b_failed_verbatim_grounding"
+  },
+  "knowledge_findings":{
+    "fatality_frequency":{"reported_2024":0.035,"reported_2025":0.014,"deterministic_change_percent":-60.0,"issuer_qualitative_claim":"more than 50% reduction","comparison":"numerically consistent"},
+    "portfolio_boundary":{"historical_absolute_scope_1_2_change_percent":-47.7,"adjusted_scope_1_2_change_percent":-27.0,"interpretation":"The larger historical decrease includes closed/divested assets; the adjusted series restates prior years to the current portfolio and must not be treated as the same causal performance measure."},
+    "intensity_scope":{"disposed_assets_average_tco2e_per_tcs":2.5,"adjusted_2025_group_tco2e_per_tcs":1.79,"issuer_language":"disposed/decommissioned higher-intensity assets contributing to current group intensity","epistemic_limit":"issuer language supports attribution as a reported claim but does not independently identify a causal effect"},
+    "assurance_scope":{"level":"limited","included":"selected Annex 1 E&S KPIs and Annex 3 EU Taxonomy report","excluded":"remaining report information"}
+  },
+  "framework_findings":{
+    "v16_numeric_comparison":"exact for numeric reported values, but current compositor cannot encode qualitative inequality thresholds such as more-than-50-percent",
+    "v16_conflict_interface":"could not complete on P7 because the prerequisite Stage B causal-evidence slot failed strict verbatim grounding",
+    "reference_governance":"frozen P7 intensity reference classified causality as unsupported despite issuer text using contributing-to language; archive is retained and the inconsistency is reported rather than post-hoc repaired",
+    "stage_b_string_grounding":"strict verbatim rules correctly rejected two semantically plausible but non-identical strings"
+  },
+  "infrastructure":{"initial_network_failure":"P7-SAFETY-001 Stage A HTTP 502 no route to host","recovery":"RESUME01 reran only the infrastructure-failed task","model_behavior_failures_retried":false},
+  "archive":{"run_directories":12,"sha256_manifests_verified":12,"verification_failures":0},
+  "single_candidate_attempt_per_behavioral_stage":true,
+  "silent_retry":false,
+  "posthoc_semantic_repair":false,
+  "reference_visible_to_candidate":false,
+  "human_gold_claimed":false,
+  "p3_p4_p5_p6_modified":false,
+  "decision":"V1_6_PARTIAL_PASS_ON_P7_WITH_THRESHOLD_COMPOSITOR_AND_REFERENCE_GOVERNANCE_LIMITATIONS",
+  "next_iteration":"Develop v1.7 only on exposed P7 failures: controlled inequality-threshold comparison, issuer-attribution versus independent-causality evidence states, and deterministic multi-fragment string projection; then open a new P8 lockbox."
+}

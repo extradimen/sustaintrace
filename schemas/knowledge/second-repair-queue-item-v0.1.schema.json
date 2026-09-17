@@ -1,0 +1,78 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/esg-reliable-discovery/second-repair-queue-item-v0.1.schema.json",
+  "title": "Second repair queue item v0.1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "record_kind",
+    "queue_id",
+    "gap_id",
+    "fact_record_id",
+    "task_id",
+    "gap_signature",
+    "current_state",
+    "required_state",
+    "risk",
+    "rank",
+    "queue_class",
+    "execution_decision",
+    "validator_id",
+    "expected_artifact",
+    "invariants",
+    "rollback_action",
+    "parent_inputs",
+    "execution_performed",
+    "semantic_repair_allowed"
+  ],
+  "properties": {
+    "schema_version": {"const": "0.1"},
+    "record_kind": {"const": "second_repair_queue_item"},
+    "queue_id": {"type": "string", "pattern": "^repair-queue-[0-9a-f]{24}$"},
+    "gap_id": {"type": "string", "pattern": "^gap-[0-9a-f]{24}$"},
+    "fact_record_id": {"type": "string", "pattern": "^fact-[0-9a-f]{24}$"},
+    "task_id": {"type": "string", "minLength": 1},
+    "gap_signature": {"type": "string", "minLength": 1},
+    "current_state": {"type": "string", "minLength": 1},
+    "required_state": {"type": "string", "minLength": 1},
+    "risk": {"enum": ["low", "medium", "high"]},
+    "rank": {"type": "integer", "minimum": 1},
+    "queue_class": {
+      "enum": ["deterministic_binding_screen", "read_only_diagnostic", "semantic_block"]
+    },
+    "execution_decision": {
+      "enum": ["screen_not_executed", "read_only_not_executed", "blocked"]
+    },
+    "validator_id": {"type": "string", "minLength": 1},
+    "expected_artifact": {"type": "string", "minLength": 1},
+    "invariants": {
+      "type": "array",
+      "minItems": 2,
+      "items": {"type": "string", "minLength": 1}
+    },
+    "rollback_action": {"type": "string", "minLength": 1},
+    "parent_inputs": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["knowledge_gaps", "repair_rankings"],
+      "properties": {
+        "knowledge_gaps": {"$ref": "#/$defs/artifact"},
+        "repair_rankings": {"$ref": "#/$defs/artifact"}
+      }
+    },
+    "execution_performed": {"const": false},
+    "semantic_repair_allowed": {"const": false}
+  },
+  "$defs": {
+    "artifact": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["path", "sha256"],
+      "properties": {
+        "path": {"type": "string", "minLength": 1},
+        "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+      }
+    }
+  }
+}

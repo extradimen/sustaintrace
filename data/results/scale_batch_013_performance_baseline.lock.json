@@ -1,0 +1,73 @@
+{
+  "batch_id": "KB-SCALE-BATCH-013-PERFORMANCE",
+  "comparison_parent": "data/results/scale_batch_012_performance_baseline.lock.json",
+  "completed_at": "2026-09-13T07:20:12.917170+00:00",
+  "mineru": {
+    "checkpoint_reuse_pages": 19,
+    "final_complete_pages": 23,
+    "initial_attempt_wall_seconds": 520.949953,
+    "initial_failures": 4,
+    "post_completion_shutdown_failures": 4,
+    "resume01_failures": 0,
+    "resume01_wall_seconds": 93.464313,
+    "status": "complete",
+    "successful_processing_wall_seconds": 514.410235,
+    "successful_target_pages": 23,
+    "successful_target_pages_per_hour": 160.961028,
+    "target_page_wall_seconds": {
+      "KB-B013-ELECTROLUX-AR2025:p0090": 18.592712,
+      "KB-B013-ELECTROLUX-AR2025:p0091": 22.502008,
+      "KB-B013-ELECTROLUX-AR2025:p0098": 25.53607,
+      "KB-B013-ELECTROLUX-AR2025:p0101": 25.010024,
+      "KB-B013-ELECTROLUX-AR2025:p0106": 20.174073,
+      "KB-B013-ELECTROLUX-AR2025:p0113": 26.781878,
+      "KB-B013-ELECTROLUX-AR2025:p0116": 30.681144,
+      "KB-B013-ELECTROLUX-AR2025:p0130": 24.66921,
+      "KB-B013-SKF-ASR2025:p0042": 21.71172,
+      "KB-B013-SKF-ASR2025:p0058": 26.259256,
+      "KB-B013-SKF-ASR2025:p0059": 22.639833,
+      "KB-B013-SKF-ASR2025:p0061": 22.262351,
+      "KB-B013-SKF-ASR2025:p0068": 25.245086,
+      "KB-B013-SKF-ASR2025:p0077": 26.333434,
+      "KB-B013-SKF-ASR2025:p0079": 26.625003,
+      "KB-B013-SKF-ASR2025:p0096": 24.453797,
+      "KB-B013-WARTSILA-AR2025:p0101": 20.861981,
+      "KB-B013-WARTSILA-AR2025:p0117": 18.063739,
+      "KB-B013-WARTSILA-AR2025:p0123": 17.981042,
+      "KB-B013-WARTSILA-AR2025:p0124": 16.937978,
+      "KB-B013-WARTSILA-AR2025:p0129": 18.587012,
+      "KB-B013-WARTSILA-AR2025:p0132": 17.180694,
+      "KB-B013-WARTSILA-AR2025:p0226": 15.32019
+    },
+    "total_attempt_wall_seconds": 614.414266
+  },
+  "mineru_comparison": {
+    "batch_012_pages_per_hour": 195.693587,
+    "batch_013_pages_per_hour": 160.961028,
+    "interpretation_gate": "throughput_only_quality_measured_separately",
+    "relative_change_percent": -17.748
+  },
+  "policy": {
+    "cloud_transmission": false,
+    "locked_experiments_modified": false,
+    "performance_separate_from_knowledge_quality": true
+  },
+  "provisional_comparison": {
+    "batch_012_pages_per_second": 286.293031,
+    "batch_013_pages_per_second": 286.667331,
+    "interpretation_gate": "diagnostic_only_not_semantic_quality_or_mineru_speed",
+    "relative_change_percent": 0.131
+  },
+  "schema_version": "0.1",
+  "started_at": "2026-09-13T07:20:10.879642+00:00",
+  "status": "diagnostic_and_mineru_baseline_complete",
+  "whole_report_diagnostic": {
+    "documents": 3,
+    "extractable_pages": 582,
+    "pages_per_second": 286.667331,
+    "pdf_pages": 584,
+    "peak_rss_bytes": 49659904,
+    "peak_rss_mb": 47.359,
+    "wall_seconds": 2.037205
+  }
+}

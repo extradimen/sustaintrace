@@ -1,0 +1,25 @@
+{
+  "executions_performed": 0,
+  "inputs": {
+    "bindings_sha256": "e152197d51d9368871a4dadd0bcb65109dfb74f69c8e88674bd3bea54a46b5dd",
+    "facts_sha256": "8af57e7b7bda85deef8f90586f8225aedcf1da24e0669300115b8f1f7499bf5b",
+    "graph_sha256": {
+      "configs/framework/p18_two_dimensional_table_graph_v0.1.lock.json": "822e773b3555b4ba1442c41897c282c24fa0d1806f09f098a7fad7e25032251f",
+      "configs/framework/p19_two_dimensional_table_graph_v0.1.lock.json": "8a5e730282a59008157266b7d82d691b48d9fcd7ba5e80e642ff2e9e91e81732",
+      "configs/framework/p21_two_dimensional_table_graph_v0.1.lock.json": "1a90d91f7884830ed2c001717ad31d3b2bb18d46d30db69fea0810b4f5867b0e"
+    },
+    "negative_cases_sha256": "6976c294f63dd75bc1dc1776d71f8f394dbab60d7f825c247a40ab756708e7ed"
+  },
+  "next_gate": "validator_enabled_after_positive_and_destructive_negative_regression; supervised_execution_only",
+  "output": {
+    "path": "data/knowledge_bases/v0.1/metric_component_boundary_validations.jsonl",
+    "sha256": "100328560b3848943e0d2c26ba74de3277f48859de871d01597263deb804cba3"
+  },
+  "promotions_performed": 0,
+  "records": 6,
+  "schema_version": "0.1",
+  "status": "metric_component_boundary_validation_complete",
+  "validation_status_counts": {
+    "ready_for_supervised_execution": 6
+  }
+}

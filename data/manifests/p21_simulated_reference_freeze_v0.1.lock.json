@@ -1,0 +1,60 @@
+{
+  "candidate_reference_visibility": false,
+  "cloud_transmission_allowed": false,
+  "document_id": "P21-BASF-AR2025",
+  "document_sha256": "6fa0a9f60a3149e585a5b52f06efde1e0aaa5d1156da0d71a1fd40822df7f8b7",
+  "experiment_id": "P21-V30-UNSEEN-LOCKBOX-V01",
+  "integrity_audit": {
+    "all_quotes_exact_substrings_of_frozen_MinerU_markdown": true,
+    "all_reference_pages_within_frozen_task_windows": true,
+    "candidate_model_used": false,
+    "cloud_transmission_occurred": false,
+    "evidence_quote_count": 34,
+    "numeric_values_cross_checked_against_native_layout": true,
+    "pre_reference_answerability_correction_logged": true,
+    "reference_count": 6
+  },
+  "manifest_id": "P21-SIMULATED-REFERENCE-FREEZE-v0.1",
+  "references": [
+    {
+      "path": "data/annotations/p21_simulated/P21-ASSURE-001.json",
+      "sha256": "4c29fcae19578b8ee70ca6db8c07e31e87536c265ec0c8678fa23957f68c9a56",
+      "task_id": "P21-ASSURE-001"
+    },
+    {
+      "path": "data/annotations/p21_simulated/P21-ENERGY-001.json",
+      "sha256": "eb36754c48a4cdeafc18aee21c7add8f74d60bec0fdf3a03ba07f64946903534",
+      "task_id": "P21-ENERGY-001"
+    },
+    {
+      "path": "data/annotations/p21_simulated/P21-GHG-CALC-001.json",
+      "sha256": "18b9edc17613401bd7b7cf5cbb5d6979ba1ba12ee82fc517f6ec90b785925263",
+      "task_id": "P21-GHG-CALC-001"
+    },
+    {
+      "path": "data/annotations/p21_simulated/P21-SCOPE3-001.json",
+      "sha256": "7f3b6e3a4ebacb125af3e54d3bf4a54d9375e5573c155f8fcb7c2401fa98a3c0",
+      "task_id": "P21-SCOPE3-001"
+    },
+    {
+      "path": "data/annotations/p21_simulated/P21-TAXONOMY-001.json",
+      "sha256": "031ca1be53bca67aba6f49ccdaa4a38f3627f0bcf02e53e3096535f239507f5c",
+      "task_id": "P21-TAXONOMY-001"
+    },
+    {
+      "path": "data/annotations/p21_simulated/P21-WORKFORCE-001.json",
+      "sha256": "f49b486f6af2286600eb15a982e5924717b8014582d62a396ec097c7632b1aa8",
+      "task_id": "P21-WORKFORCE-001"
+    }
+  ],
+  "schema_version": "1.0",
+  "status": "simulated_references_frozen_after_documented_pre_reference_answerability_correction_and_before_candidate_inference",
+  "target_registry": {
+    "path": "data/manifests/p21_mineru_target_registry_v0.1.lock.json",
+    "sha256": "f22b3879720bc7f017cf881c111456ed2b4b1e4748cf46e5d7656cc6e0dfc396"
+  },
+  "task_pack": {
+    "path": "data/tasks/p21_task_pack_v0.1.lock.json",
+    "sha256": "054d458b17e25c0c282e8703e0e62fdc3ac428f4a282fdec706cad3e21d52b9f"
+  }
+}

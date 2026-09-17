@@ -1,0 +1,99 @@
+{
+  "experiment_id": "P18-V27-UNSEEN-LOCKBOX-V01",
+  "schema_version": "2.7",
+  "selection_rule": "all frozen task/page pairs receive deterministic native-layout cross-check without hidden-reference selection",
+  "semantic_change": false,
+  "status": "frozen_before_candidate_inference",
+  "targets": [
+    {
+      "document_id": "P18-DEUTSCHE-TELEKOM-AR2025",
+      "document_sha256": "de5d9b0705793c4bf0b994b52ecc242800d79ee18736958dbff32aade7b79a5c",
+      "fallback_parser": "pdftotext -bbox-layout",
+      "fallback_reason": "pre-frozen dual-parser audit path; all visible lines exposed without hidden-reference selection",
+      "pdf_page": 133,
+      "pdf_path": "data/raw/p18_staging/deutsche_telekom_annual_report_2025_en.pdf",
+      "primary_parser": "MinerU 3.4.0 checksum-verified target-page output",
+      "task_id": "P18-GHG-CALC-001"
+    },
+    {
+      "document_id": "P18-DEUTSCHE-TELEKOM-AR2025",
+      "document_sha256": "de5d9b0705793c4bf0b994b52ecc242800d79ee18736958dbff32aade7b79a5c",
+      "fallback_parser": "pdftotext -bbox-layout",
+      "fallback_reason": "pre-frozen dual-parser audit path; all visible lines exposed without hidden-reference selection",
+      "pdf_page": 131,
+      "pdf_path": "data/raw/p18_staging/deutsche_telekom_annual_report_2025_en.pdf",
+      "primary_parser": "MinerU 3.4.0 checksum-verified target-page output",
+      "task_id": "P18-ENERGY-001"
+    },
+    {
+      "document_id": "P18-DEUTSCHE-TELEKOM-AR2025",
+      "document_sha256": "de5d9b0705793c4bf0b994b52ecc242800d79ee18736958dbff32aade7b79a5c",
+      "fallback_parser": "pdftotext -bbox-layout",
+      "fallback_reason": "pre-frozen dual-parser audit path; all visible lines exposed without hidden-reference selection",
+      "pdf_page": 133,
+      "pdf_path": "data/raw/p18_staging/deutsche_telekom_annual_report_2025_en.pdf",
+      "primary_parser": "MinerU 3.4.0 checksum-verified target-page output",
+      "task_id": "P18-SCOPE3-001"
+    },
+    {
+      "document_id": "P18-DEUTSCHE-TELEKOM-AR2025",
+      "document_sha256": "de5d9b0705793c4bf0b994b52ecc242800d79ee18736958dbff32aade7b79a5c",
+      "fallback_parser": "pdftotext -bbox-layout",
+      "fallback_reason": "pre-frozen dual-parser audit path; all visible lines exposed without hidden-reference selection",
+      "pdf_page": 109,
+      "pdf_path": "data/raw/p18_staging/deutsche_telekom_annual_report_2025_en.pdf",
+      "primary_parser": "MinerU 3.4.0 checksum-verified target-page output",
+      "task_id": "P18-WORKFORCE-001"
+    },
+    {
+      "document_id": "P18-DEUTSCHE-TELEKOM-AR2025",
+      "document_sha256": "de5d9b0705793c4bf0b994b52ecc242800d79ee18736958dbff32aade7b79a5c",
+      "fallback_parser": "pdftotext -bbox-layout",
+      "fallback_reason": "pre-frozen dual-parser audit path; all visible lines exposed without hidden-reference selection",
+      "pdf_page": 121,
+      "pdf_path": "data/raw/p18_staging/deutsche_telekom_annual_report_2025_en.pdf",
+      "primary_parser": "MinerU 3.4.0 checksum-verified target-page output",
+      "task_id": "P18-TAXONOMY-001"
+    },
+    {
+      "document_id": "P18-DEUTSCHE-TELEKOM-AR2025",
+      "document_sha256": "de5d9b0705793c4bf0b994b52ecc242800d79ee18736958dbff32aade7b79a5c",
+      "fallback_parser": "pdftotext -bbox-layout",
+      "fallback_reason": "pre-frozen dual-parser audit path; all visible lines exposed without hidden-reference selection",
+      "pdf_page": 122,
+      "pdf_path": "data/raw/p18_staging/deutsche_telekom_annual_report_2025_en.pdf",
+      "primary_parser": "MinerU 3.4.0 checksum-verified target-page output",
+      "task_id": "P18-TAXONOMY-001"
+    },
+    {
+      "document_id": "P18-DEUTSCHE-TELEKOM-AR2025",
+      "document_sha256": "de5d9b0705793c4bf0b994b52ecc242800d79ee18736958dbff32aade7b79a5c",
+      "fallback_parser": "pdftotext -bbox-layout",
+      "fallback_reason": "pre-frozen dual-parser audit path; all visible lines exposed without hidden-reference selection",
+      "pdf_page": 123,
+      "pdf_path": "data/raw/p18_staging/deutsche_telekom_annual_report_2025_en.pdf",
+      "primary_parser": "MinerU 3.4.0 checksum-verified target-page output",
+      "task_id": "P18-TAXONOMY-001"
+    },
+    {
+      "document_id": "P18-DEUTSCHE-TELEKOM-AR2025",
+      "document_sha256": "de5d9b0705793c4bf0b994b52ecc242800d79ee18736958dbff32aade7b79a5c",
+      "fallback_parser": "pdftotext -bbox-layout",
+      "fallback_reason": "pre-frozen dual-parser audit path; all visible lines exposed without hidden-reference selection",
+      "pdf_page": 370,
+      "pdf_path": "data/raw/p18_staging/deutsche_telekom_annual_report_2025_en.pdf",
+      "primary_parser": "MinerU 3.4.0 checksum-verified target-page output",
+      "task_id": "P18-ASSURE-001"
+    },
+    {
+      "document_id": "P18-DEUTSCHE-TELEKOM-AR2025",
+      "document_sha256": "de5d9b0705793c4bf0b994b52ecc242800d79ee18736958dbff32aade7b79a5c",
+      "fallback_parser": "pdftotext -bbox-layout",
+      "fallback_reason": "pre-frozen dual-parser audit path; all visible lines exposed without hidden-reference selection",
+      "pdf_page": 371,
+      "pdf_path": "data/raw/p18_staging/deutsche_telekom_annual_report_2025_en.pdf",
+      "primary_parser": "MinerU 3.4.0 checksum-verified target-page output",
+      "task_id": "P18-ASSURE-001"
+    }
+  ]
+}

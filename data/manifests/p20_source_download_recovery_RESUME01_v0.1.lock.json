@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "experiment_id": "P20-V29-UNSEEN-LOCKBOX-V01",
+  "document_id": "P20-HOLCIM-SS2025",
+  "parent_failure": "data/manifests/p20_source_download_failure_INITIAL_v0.1.lock.json",
+  "source_url": "https://www.holcim.com/sites/holcim/files/docs/27022026-holcim-sustainability-statement-2025.pdf",
+  "recovery_method": "same official URL with standard browser User-Agent and official landing-page Referer",
+  "http_source_changed": false,
+  "third_party_mirror_used": false,
+  "file_size_bytes": 8345246,
+  "sha256": "55b975cd13fc361638ed13bf32856a2629e46e88bdfc6ad9208bd8807992a599",
+  "page_count": 158,
+  "status": "recovery_succeeded_and_verified"
+}

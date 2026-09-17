@@ -1,0 +1,80 @@
+{
+  "schema_version": "0.2",
+  "batch_id": "KB-SCALE-BATCH-010",
+  "status": "selection_refrozen_after_pre_acquisition_source_failure",
+  "parent_config": "configs/knowledge/scale_batch_010_v0.1.json",
+  "source_substitution": {
+    "replaced_document_id": "KB-B010-NESTLE-NFS2025",
+    "replacement_document_id": "KB-B010-PUMA-AR2025",
+    "reason": "The issuer-hosted Nestle PDF returned HTTP 403 in two audited attempts, including a browser user agent and official-page referer, before the acquisition manifest was frozen.",
+    "replacement_frozen_before_parsing": true
+  },
+  "policy": {
+    "local_only": true,
+    "cloud_transmission": false,
+    "locked_experiments_untouched": [
+      "P3-P23"
+    ],
+    "download_resume": true,
+    "overwrite_verified_files": false,
+    "fact_promotion_requires_independent_gate": true,
+    "performance_baseline_required": true
+  },
+  "selection_rationale": "Three previously unused official English 2025 annual reports with strong ESRS sustainability statements and independent assurance: adidas and PUMA provide apparel supply-chain, water, biodiversity and circularity coverage; Veolia supplies a contrasting environmental-services report centered on water, waste, energy and circularity. The two apparel issuers also create a controlled same-sector comparison without treating company facts as interchangeable.",
+  "performance_baseline": {
+    "separate_from_knowledge_quality": true,
+    "metrics": [
+      "whole_report_diagnostic_wall_seconds",
+      "target_page_mineru_wall_seconds",
+      "successful_target_pages_per_hour",
+      "initial_failure_wall_seconds",
+      "resume_wall_seconds",
+      "checkpoint_reuse_pages",
+      "peak_rss_mb_when_available"
+    ]
+  },
+  "documents": [
+    {
+      "document_id": "KB-B010-PUMA-AR2025",
+      "source_group_id": "KB-PUMA-2025",
+      "company": "PUMA SE",
+      "title": "PUMA Annual Report 2025",
+      "report_year": 2025,
+      "official_landing_page": "https://annual-report.puma.com/2025/en/downloads/index.html",
+      "download_url": "https://annual-report.puma.com/2025/en/downloads/PUMA_Annual_Report_2025_EN.pdf",
+      "official_domain": "annual-report.puma.com",
+      "local_path": "data/raw/scale_batch_010/puma-annual-report-2025.pdf",
+      "source_role": "primary_report",
+      "language": "English",
+      "prior_experiment_use": false
+    },
+    {
+      "document_id": "KB-B010-ADIDAS-AR2025",
+      "source_group_id": "KB-ADIDAS-2025",
+      "company": "adidas AG",
+      "title": "adidas Annual Report 2025",
+      "report_year": 2025,
+      "official_landing_page": "https://report.adidas-group.com/2025/en/services/downloads.html",
+      "download_url": "https://report.adidas-group.com/2025/en/_assets/downloads/annual-report-adidas-ar25.pdf",
+      "official_domain": "report.adidas-group.com",
+      "local_path": "data/raw/scale_batch_010/adidas-annual-report-2025.pdf",
+      "source_role": "primary_report",
+      "language": "English",
+      "prior_experiment_use": false
+    },
+    {
+      "document_id": "KB-B010-VEOLIA-URD2025",
+      "source_group_id": "KB-VEOLIA-2025",
+      "company": "Veolia Environnement S.A.",
+      "title": "Veolia Universal Registration Document 2025",
+      "report_year": 2025,
+      "official_landing_page": "https://www.veolia.com/en/veolia-group/finance/financial-publications?finance_publication_type=11&page=1",
+      "download_url": "https://www.veolia.com/sites/g/files/dvc4206/files/document/2026/03/Finance_Veolia_URD_2025_en.pdf",
+      "official_domain": "veolia.com",
+      "local_path": "data/raw/scale_batch_010/veolia-universal-registration-document-2025.pdf",
+      "source_role": "primary_report",
+      "language": "English",
+      "prior_experiment_use": false
+    }
+  ]
+}

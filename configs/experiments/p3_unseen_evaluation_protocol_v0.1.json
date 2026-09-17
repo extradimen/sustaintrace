@@ -1,0 +1,42 @@
+{
+  "schema_version":"1.0",
+  "experiment_id":"P3-UNSEEN-GENERALIZATION-V01",
+  "status":"protocol_frozen_before_source_acquisition",
+  "purpose":"Prospective generalization evaluation of ESG-RD-v1.2 after P2 became an exposed development set.",
+  "framework_freeze":"data/manifests/v1.2_development_freeze.lock.json",
+  "source_selection":{
+    "target_report_count":6,
+    "language":"English",
+    "issuer_scope":"international listed companies not present in P0, P1 or P2",
+    "document_scope":"issuer-hosted annual, sustainability or ESG PDF with quantitative and narrative disclosures",
+    "official_source_required":true,
+    "selection_before_body_inspection":true,
+    "sha256_lock_before_task_authoring":true,
+    "excluded_due_to_preselection_content_exposure":["Schneider Electric 2024 Sustainability Report","PepsiCo 2024 ESG Summary"]
+  },
+  "task_design":{
+    "target_task_count":12,
+    "task_types":["direct_extraction","calculation","cross_page_relation","scope_subject_boundary","source_conflict","abstention"],
+    "minimum_tasks_per_type":2,
+    "document_assignment":"balanced where document affordances permit",
+    "candidate_model_must_not_see_reference":true,
+    "simulated_reference_role":"AI-simulated research reference, not a human gold standard",
+    "reference_archive_separate_from_candidate_packets":true
+  },
+  "execution":{
+    "model":"qwen3.5:397b-cloud",
+    "locked_digest":"68d2a0796c11e1fedd0456a2d55e58cca4077be6a218428a7a7f4e21f8177cbc",
+    "temperature":0,
+    "seed":20260905,
+    "single_attempt_per_task":true,
+    "archive_failures":true,
+    "no_posthoc_repair":true,
+    "no_framework_change_after_first_candidate_run":true
+  },
+  "evaluation":{
+    "stage_a_dimensions":["schema_validity","evidence_grounding","answer_fidelity","conflict_state","abstention_calibration","calculation_gate"],
+    "stage_b_dimensions":["atomic_claim_validity","metric_fidelity","scope_fidelity","period_fidelity","claim_kind_fidelity","graph_integrity","required_claim_coverage"],
+    "report_exact_counts_and_failure_archive":true,
+    "generalization_claim_requires_all_12_tasks_complete":true
+  }
+}

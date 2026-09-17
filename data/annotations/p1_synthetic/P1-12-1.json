@@ -1,0 +1,5 @@
+{
+  "schema_version":"1.0","task_id":"P1-12-1","reference_author":"codex_gpt_simulated_expert","reference_status":"verified","question":"How many trucks with zero or very low tailpipe emissions did Volvo Group deliver in 2024, and what percentage of truck volumes did they represent?","answer_status":"verified_fact","answer":{"trucks":3717,"share_of_truck_volumes_percent":1.7},"normalized_value":3717,"normalized_unit":"trucks","reported_unit":"units and % of volumes","subject":"Volvo Group","scope_boundary":"delivered trucks with zero or very low tailpipe emissions","period":"2024","calculation":null,
+  "evidence":[{"document_id":"VOLV-B-AR-2024","document_sha256":"214cc7b27d96278ab4ed3734447a01ebeec71b1d2ce741c4b1d2190e4e51734d","pdf_page":160,"printed_page":"158","verbatim_excerpt":"Trucks ... 2024 3,717; % of volumes ... 1.7","role":"claim_support"}],
+  "search_record":{"pages_reviewed":[160],"terms_used":["Delivered products","Trucks","2024"],"notes":"2024 units and percentage rows visually verified."},"controlled_intervention_id":null,"provenance_attestation":{"is_human":false,"is_ai_simulation":true,"candidate_model_excluded":true}
+}

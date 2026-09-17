@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "framework_version": "P1-PIPELINE-v0.7-TOOL-OWNED-SEMANTIC-STATE",
+  "status": "preregistered_before_inference",
+  "registered_at": "2026-09-04T09:45:00+08:00",
+  "parent_framework": "P1-PIPELINE-v0.6.6-MULTIPAGE-MINERU",
+  "evidence_basis": "P1 v0.6.6 six-task-type qualification failure spectrum",
+  "changes": [
+    {
+      "scope": "ordinary_fact_tasks",
+      "rule": "Remove model-authored answer_status. A non-null answer with at least one valid evidence handle is framework-supported; a null answer with zero handles is framework-absent. Mixed states fail schema validation."
+    },
+    {
+      "scope": "abstention_tasks",
+      "rule": "Use conditional JSON Schema so absent requires answer=null, normalized_value=null, and evidence_handles=[]; no literal status string is accepted as an answer."
+    },
+    {
+      "scope": "controlled_conflict_tasks",
+      "rule": "Replace free-form conflict classification with grounded source_claims. Each claim must contain source_id, evidence_handle, and normalized claim value. The framework derives contradictory_sources only when at least two grounded source claims have distinct normalized values."
+    },
+    {
+      "scope": "timeout_policy",
+      "rule": "A first-attempt model timeout remains a recorded model failure. No invisible retry, output repair, or fallback substitution is allowed in qualification scoring. A separately identified fallback arm may be evaluated only as a new archived run."
+    }
+  ],
+  "unchanged": [
+    "Frozen tasks, documents, target pages, interventions, model digest, MinerU artifacts, evidence handles, and hidden simulated references.",
+    "v0.6.5 tool-owned deterministic calculation contract.",
+    "v0.6.6 registry-driven multi-page loading and integrity checks."
+  ],
+  "prohibited": [
+    "No reference answer in inference requests.",
+    "No posthoc semantic repair or model-output rewriting.",
+    "No silent retry after timeout.",
+    "No P2 access before v0.7 implementation freeze and P1 requalification."
+  ],
+  "next_gate": "implement_schema_finalizer_and_tests",
+  "inference_allowed": false
+}

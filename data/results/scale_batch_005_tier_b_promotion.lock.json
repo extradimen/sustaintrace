@@ -1,0 +1,83 @@
+{
+  "blocked_by_reason": {
+    "malformed_row_header": [
+      "fact-694fd5a245fb94896c20702d",
+      "fact-9c8bce3f9bb55a83e3b0081f",
+      "fact-9cc507bc7f8d9969c5067ffe"
+    ],
+    "missing_explicit_unit_attachment": [
+      "fact-35958a097d41d15592071e4a",
+      "fact-4c756893e3c978d4402f1dd7",
+      "fact-820a3556889f3187138c62a7",
+      "fact-a7c4661e89b5e94d76ac12d6",
+      "fact-b33b7daa20f4994eb15094bf",
+      "fact-c8b0367404a565bb35c38e6d"
+    ],
+    "prior_period_assurance_scope_not_established": [
+      "fact-08f067d7938bc82dd9fda757",
+      "fact-2da08a5884dec5bea0c14929",
+      "fact-4851a40b2d3caad54be8cf35",
+      "fact-4a6b3068111eb875835aec9b",
+      "fact-7220be333b2975cde14f2db7",
+      "fact-79a007988ada028b1d3e388e",
+      "fact-942e199437a40f22deed4646",
+      "fact-a493ae5eb4cbe5efd5191eb5",
+      "fact-b4a23f679b4899dfb43f3423",
+      "fact-c817ed742d71bb17d465af49",
+      "fact-cefbc11747d415233b136f2d",
+      "fact-de4b45a16c13a504ef6cd8ff",
+      "fact-e293348725082b83a57dd296"
+    ]
+  },
+  "blocked_fact_ids": [
+    "fact-08f067d7938bc82dd9fda757",
+    "fact-2da08a5884dec5bea0c14929",
+    "fact-35958a097d41d15592071e4a",
+    "fact-4851a40b2d3caad54be8cf35",
+    "fact-4a6b3068111eb875835aec9b",
+    "fact-4c756893e3c978d4402f1dd7",
+    "fact-694fd5a245fb94896c20702d",
+    "fact-7220be333b2975cde14f2db7",
+    "fact-79a007988ada028b1d3e388e",
+    "fact-820a3556889f3187138c62a7",
+    "fact-942e199437a40f22deed4646",
+    "fact-9c8bce3f9bb55a83e3b0081f",
+    "fact-9cc507bc7f8d9969c5067ffe",
+    "fact-a493ae5eb4cbe5efd5191eb5",
+    "fact-a7c4661e89b5e94d76ac12d6",
+    "fact-b33b7daa20f4994eb15094bf",
+    "fact-b4a23f679b4899dfb43f3423",
+    "fact-c817ed742d71bb17d465af49",
+    "fact-c8b0367404a565bb35c38e6d",
+    "fact-cefbc11747d415233b136f2d",
+    "fact-de4b45a16c13a504ef6cd8ff",
+    "fact-e293348725082b83a57dd296"
+  ],
+  "inputs": {
+    "atomic_increment_sha256": "99917e2f238e6fdef97ebe0722872ae356fe0ce31891433e1536cfbe2c310bb0"
+  },
+  "locked_experiments_modified_or_rescored": false,
+  "newly_promoted_to_tier_b": 10,
+  "next_gate": "scale_batch_006_source_acquisition_and_local_ingestion",
+  "outputs": {
+    "adjudications_sha256": "085d3782f2bb799ad880a4c467832ea01a41d75590ea84aa6fdde63922e33b66",
+    "trusted_facts_sha256": "fd2986119183932d8f26ac715b72df7b3485f63e66bdaa15ffab31be3036293d"
+  },
+  "promotable_fact_ids": [
+    "fact-381ded4ed696e77ae14a107c",
+    "fact-44bb687cc50e4f11655a3a13",
+    "fact-51fe568687932e2dd018135b",
+    "fact-9fed67ef47fd5621fc25269e",
+    "fact-b0c0c518c1880545c34ea777",
+    "fact-be71ce032ac2405fa1318636",
+    "fact-cacdcc69f5771caaa64111bc",
+    "fact-d2656925d8622dcacf2c1b4d",
+    "fact-ea25042e2846da6952f705a3",
+    "fact-f7c3530b7bb01841fb871a84"
+  ],
+  "reviewed": 32,
+  "schema_version": "0.1",
+  "source_candidate_records_modified": 0,
+  "status": "scale_batch_005_six_dimension_tier_b_sampling_complete",
+  "total_trusted_tier_b": 65
+}

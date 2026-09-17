@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "framework_id": "P1-PIPELINE-v0.5",
+  "status": "preregistered_before_v0.5_candidate_inference",
+  "trigger_run_id": "P1-01-2-GEMMA4-12B-v04-r1",
+  "observed_failure": "Model changed available handles S049-L0015 and S049-L0016 into nonexistent S049-L0151 and S049-L0161.",
+  "single_registered_change": "Replace evidence-handle regex-only schemas with per-request enum constraints containing every and only available handles.",
+  "applies_to": ["evidence_handles", "calculation_request.inputs[].evidence_handle"],
+  "unchanged_constraints": {
+    "task_pack": "frozen P1 v0.1 synthetic task pack",
+    "source_pages": "unchanged",
+    "model_digests": "unchanged",
+    "reference_visible_during_inference": false,
+    "posthoc_semantic_repair_allowed": false,
+    "unknown_handle_policy": "hard_failure",
+    "aggregate_score_enabled": false
+  },
+  "inference_allowed": false
+}

@@ -1,0 +1,30 @@
+{
+  "candidate_count": 3,
+  "candidates": [
+    {
+      "blind_id": "P0-OPEN-V1-MINI-001-C0001",
+      "candidate_sha256": "2f00453f4110e0f8e49f4ebed514eb9ef97435b722e2945c2ed1c1937f70ca35",
+      "order": 1,
+      "path": "data/annotations/p0_open/P0-OPEN-V1-MINI-001/P0-OPEN-V1-MINI-001-C0001.json"
+    },
+    {
+      "blind_id": "P0-OPEN-V1-MINI-001-C0002",
+      "candidate_sha256": "1d548fb2b3279cf3be2c5a85530d0669cb35569b35bb280553b6113ddbdcc113",
+      "order": 2,
+      "path": "data/annotations/p0_open/P0-OPEN-V1-MINI-001/P0-OPEN-V1-MINI-001-C0002.json"
+    },
+    {
+      "blind_id": "P0-OPEN-V1-MINI-001-C0003",
+      "candidate_sha256": "406880612c89a69cc92b0fdfb30116d68209d00af2a1b3fe3d7da9a36f7064d5",
+      "order": 3,
+      "path": "data/annotations/p0_open/P0-OPEN-V1-MINI-001/P0-OPEN-V1-MINI-001-C0003.json"
+    }
+  ],
+  "created_at": "2026-09-02T01:31:09.300166+00:00",
+  "model_identity_in_public_pool": false,
+  "pool_id": "P0-OPEN-V1-MINI-001",
+  "pre_review_deduplication": false,
+  "randomization_seed": 240901,
+  "schema_version": "1.0",
+  "task_id": "P0-OPEN-001"
+}

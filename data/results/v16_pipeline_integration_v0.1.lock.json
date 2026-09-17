@@ -1,0 +1,13 @@
+{
+  "schema_version":"1.0",
+  "framework_version":"ESG-RD-v1.6",
+  "status":"integrated_and_locally_verified",
+  "reusable_execution_interface":"src/esg_reliable_discovery/v16_postprocess.py",
+  "components":[
+    "src/esg_reliable_discovery/v16_comparison.py",
+    "src/esg_reliable_discovery/v16_conflict.py"
+  ],
+  "verification":{"pytest":{"passed":198,"failed":0},"ruff":"passed"},
+  "development_data_policy":"implemented and tested only against exposed P6 limitations before P7 source selection",
+  "locked_experiments_unchanged":["P3","P4","P5","P6"]
+}

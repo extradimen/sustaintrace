@@ -1,0 +1,219 @@
+{
+  "experiment_id": "P20-V29-UNSEEN-LOCKBOX-V01",
+  "graphs": [
+    {
+      "graph_id": "P20-ENERGY-P085",
+      "header_axis": [
+        "2023 restated",
+        "2024 restated",
+        "2025"
+      ],
+      "pdf_page": 85,
+      "row_axis": [
+        "total",
+        "fossil",
+        "fossil share",
+        "renewable",
+        "renewable share"
+      ],
+      "selected_cells": [
+        [
+          "total",
+          "2024 restated",
+          85
+        ],
+        [
+          "total",
+          "2025",
+          85
+        ],
+        [
+          "fossil",
+          "2024 restated",
+          49
+        ],
+        [
+          "fossil",
+          "2025",
+          47
+        ],
+        [
+          "renewable",
+          "2024 restated",
+          12
+        ],
+        [
+          "renewable",
+          "2025",
+          13
+        ]
+      ]
+    },
+    {
+      "graph_id": "P20-GHG-P087",
+      "header_axis": [
+        "2023 restated",
+        "2024 restated",
+        "2025"
+      ],
+      "pdf_page": 87,
+      "row_axis": [
+        "Scope 1",
+        "Scope 2 market",
+        "Scope 3",
+        "Category 1",
+        "Category 15",
+        "market total"
+      ],
+      "selected_cells": [
+        [
+          "Scope 3",
+          "2024 restated",
+          35
+        ],
+        [
+          "Scope 3",
+          "2025",
+          37
+        ],
+        [
+          "Category 1",
+          "2025",
+          5.8
+        ],
+        [
+          "Category 15",
+          "2025",
+          21.3
+        ],
+        [
+          "market total",
+          "2024 restated",
+          91
+        ],
+        [
+          "market total",
+          "2025",
+          92
+        ]
+      ]
+    },
+    {
+      "graph_id": "P20-WORKFORCE-P121",
+      "header_axis": [
+        "AMEA",
+        "Europe",
+        "LATAM",
+        "Total"
+      ],
+      "pdf_page": 121,
+      "row_axis": [
+        "headcount",
+        "permanent",
+        "temporary",
+        "non-guaranteed hours"
+      ],
+      "selected_cells": [
+        [
+          "headcount",
+          "Total",
+          43875
+        ],
+        [
+          "permanent",
+          "Total",
+          40590
+        ],
+        [
+          "temporary",
+          "Total",
+          3285
+        ],
+        [
+          "non-guaranteed hours",
+          "Total",
+          140
+        ]
+      ]
+    },
+    {
+      "graph_id": "P20-TAXONOMY",
+      "header_axis": [
+        "total",
+        "eligible percent",
+        "aligned million CHF",
+        "aligned percent"
+      ],
+      "pdf_page": 114,
+      "row_axis": [
+        "Turnover",
+        "CapEx",
+        "OpEx"
+      ],
+      "selected_cells": [
+        [
+          "Turnover",
+          "total",
+          15724
+        ],
+        [
+          "Turnover",
+          "eligible percent",
+          48.4
+        ],
+        [
+          "Turnover",
+          "aligned million CHF",
+          914
+        ],
+        [
+          "Turnover",
+          "aligned percent",
+          5.8
+        ],
+        [
+          "CapEx",
+          "total",
+          1809
+        ],
+        [
+          "CapEx",
+          "eligible percent",
+          57.4
+        ],
+        [
+          "CapEx",
+          "aligned million CHF",
+          347
+        ],
+        [
+          "CapEx",
+          "aligned percent",
+          19.2
+        ],
+        [
+          "OpEx",
+          "total",
+          949
+        ],
+        [
+          "OpEx",
+          "eligible percent",
+          60.4
+        ],
+        [
+          "OpEx",
+          "aligned million CHF",
+          93
+        ],
+        [
+          "OpEx",
+          "aligned percent",
+          9.8
+        ]
+      ]
+    }
+  ],
+  "schema_version": "2.9",
+  "status": "frozen_before_candidate_inference"
+}

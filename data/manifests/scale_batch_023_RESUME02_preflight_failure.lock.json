@@ -1,0 +1,11 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-023-RESUME01",
+  "created_at": "2026-09-14T02:13:30+08:00",
+  "document_id": "KB-B023-RWE-AR2025",
+  "document_sha256": "53bafc8a3010bc72e6c21009ea3e1407fe6fba4cd4e21eae3da6bc9449722351",
+  "failure_signature": "ISSUER_SOURCE_ASSURANCE_REPORT_SEPARATE",
+  "observed": "RWE Annual Report 2025 says selected sustainability KPIs are covered by limited assurance in a separate ESG KPI report; the annual report itself does not contain that signed statement.",
+  "outcome": "excluded_before_target_page_freeze",
+  "replacement_document_id": "KB-B023-GLENCORE-SR2025"
+}

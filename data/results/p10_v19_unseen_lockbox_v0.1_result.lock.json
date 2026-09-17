@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0",
+  "experiment_id": "P10-V19-UNSEEN-LOCKBOX-V01",
+  "status": "completed_with_infrastructure_and_executor_failures",
+  "decision": "P10_COMPLETED_NO_RETRY_NOT_ELIGIBLE_FOR_AGGREGATE_VERSION_COMPARISON",
+  "candidate_model": "qwen3.5:397b-cloud",
+  "task_count": 6,
+  "single_candidate_attempt_per_behavioral_stage": true,
+  "silent_retry": false,
+  "posthoc_semantic_repair": false,
+  "reference_visible_to_candidate": false,
+  "stage_a": {
+    "tasks_run": 6,
+    "framework_valid": 3,
+    "infrastructure_failed": 2,
+    "model_behavior_failed": 1,
+    "source_audited_exact": 2,
+    "source_audited_partial": 1
+  },
+  "stage_b": {
+    "eligible_tasks": 3,
+    "framework_valid": 0,
+    "infrastructure_failed": 1,
+    "frozen_contract_failed": 1,
+    "executor_compatibility_failed": 1
+  },
+  "task_results": {
+    "P10-SAFETY-001": "stage_a source-exact; stage_b infrastructure timeout, not retried",
+    "P10-CALC-001": "stage_a infrastructure no-route failure, not retried",
+    "P10-TARGET-001": "stage_a infrastructure timeout, not retried",
+    "P10-BOUNDARY-001": "stage_a source-exact; stage_b pre-projection frozen contract failure: predicate_id missing",
+    "P10-SCOPE3-001": "stage_a model behavior failure: emitted nonexistent page-370 handle while citing page-369 evidence; archived, not retried",
+    "P10-ASSURE-001": "stage_a source-supported but incomplete because the frozen page-range conflict was not preserved; stage_b collection-slot executor incompatibility"
+  },
+  "integrity_audit": {
+    "candidate_outputs_preserved": true,
+    "failed_outputs_preserved": true,
+    "aggregate_comparison_allowed": false,
+    "reason": "two cloud transport failures and two pre-existing frozen execution-contract defects prevent a comparable six-task score"
+  },
+  "infrastructure": {
+    "cloud_transport_failures": 3,
+    "model_behavior_failures_retried": false,
+    "checkpoint": "data/manifests/p10_candidate_progress_RESUME01.json"
+  },
+  "framework_findings": {
+    "prefreeze_contract_completeness": "slot contracts must require predicate_id before cloud release",
+    "collection_projection": "array/object semantics require a first-class deterministic collection projection rather than coercion to scalar string",
+    "controlled_conflict": "assurance page-range conflict must be an explicit required atomic claim",
+    "evidence_handle_binding": "candidate cited a valid-looking handle with the wrong page prefix; strict handle enumeration rejected it correctly"
+  },
+  "p3_through_p9_modified": false
+}

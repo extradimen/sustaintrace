@@ -1,0 +1,377 @@
+{
+  "schema_version": "0.1",
+  "development_id": "V4.3-DIAGNOSTIC-PARENT-BINDING-PREFLIGHT-V01",
+  "status": "development_regression_passed",
+  "contract_passed": true,
+  "negative_regressions": [
+    {
+      "schema_version": "0.1",
+      "record_kind": "preflighted_read_only_diagnostic_execution",
+      "status": "blocked_before_execution",
+      "adapter_invocation_count": 0,
+      "preflight": {
+        "schema_version": "0.1",
+        "record_kind": "diagnostic_parent_binding_preflight",
+        "status": "blocked",
+        "blocking_reasons": [
+          "PARENT_GAP_NOT_REGISTERED"
+        ],
+        "requested": {
+          "fact_record_id": "fact-e6e29a2f164b88ef8e61b04d",
+          "gap_id": "heterogeneous-calc-shell-scope1-pct-001",
+          "gap_signature": "CALCULATION_LINEAGE_INCOMPLETE",
+          "satisfied_dimensions": [
+            "calculation_lineage"
+          ]
+        },
+        "resolved": {
+          "fact_record": {
+            "evidence": [
+              {
+                "pdf_page": 369,
+                "quote": "Gross Scope 1 GHG emissions ... 2025 69; 2024 73",
+                "source_id": "P10-SHELL-AR2025"
+              },
+              {
+                "pdf_page": 369,
+                "quote": "[B] ESRS reporting boundary.",
+                "source_id": "P10-SHELL-AR2025"
+              }
+            ],
+            "knowledge_status": "reference_candidate",
+            "predicate": {
+              "canonical_key": "rounded_percentage_change",
+              "raw_key": "rounded_percentage_change"
+            },
+            "promotion": {
+              "eligible": false,
+              "reason": "requires_independent_fact_promotion_audit"
+            },
+            "provenance": {
+              "reference_status": "verified_against_frozen_pages",
+              "simulated": true,
+              "source_artifact": "data/annotations/p10_simulated/P10-CALC-001.json",
+              "source_sha256": "056ac67ca28d30202a0960917513aabf831c897186aaefabcbe90197c606ab04"
+            },
+            "qualifiers": {
+              "answer_status": null,
+              "calculation_expression": null,
+              "normalized_unit": null,
+              "period_literal": null,
+              "reference_period": null,
+              "scope_boundary": null,
+              "value_origin": "simulated_reference"
+            },
+            "record_id": "fact-e6e29a2f164b88ef8e61b04d",
+            "record_kind": "fact",
+            "schema_version": "0.1",
+            "subject": {
+              "document_ids": [
+                "P10-SHELL-AR2025"
+              ],
+              "document_metadata": [
+                {
+                  "company": "Shell plc",
+                  "document_id": "P10-SHELL-AR2025",
+                  "language": "English",
+                  "local_path": "data/raw/p10_staging/shell-annual-report-2025.pdf",
+                  "sha256": "90b21028e1616c41c7d73c3e996fd6128d837a41b38d432286e991aed3fbd9a1",
+                  "title": "Annual Report and Accounts 2025"
+                }
+              ],
+              "entity_label": null,
+              "task_id": "P10-CALC-001"
+            },
+            "trust_tier": "C",
+            "value": -5.48
+          },
+          "gap_record": null
+        },
+        "immutable_stores": {
+          "facts": {
+            "path": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/data/knowledge_bases/v0.1/fact_records.jsonl",
+            "sha256": "1da6f28e8c1b3125d07a52d39aed4e095c6f40ef71378173c36a1486f7cb890c"
+          },
+          "gaps": {
+            "path": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/data/knowledge_bases/v0.1/knowledge_gap_records.jsonl",
+            "sha256": "858a37ede7bd213c1c3d1e9136d5d8be6bc6e6f12f147124318347cb3a8cef76"
+          }
+        },
+        "parent_records_modified": false
+      },
+      "diagnostic": null,
+      "parent_records_modified": false
+    },
+    {
+      "schema_version": "0.1",
+      "record_kind": "preflighted_read_only_diagnostic_execution",
+      "status": "blocked_before_execution",
+      "adapter_invocation_count": 0,
+      "preflight": {
+        "schema_version": "0.1",
+        "record_kind": "diagnostic_parent_binding_preflight",
+        "status": "blocked",
+        "blocking_reasons": [
+          "PARENT_GAP_NOT_REGISTERED"
+        ],
+        "requested": {
+          "fact_record_id": "fact-ce32c4a37636ede82d8ef077",
+          "gap_id": "heterogeneous-calc-totalenergies-scope12-pct-001",
+          "gap_signature": "CALCULATION_LINEAGE_INCOMPLETE",
+          "satisfied_dimensions": [
+            "calculation_lineage"
+          ]
+        },
+        "resolved": {
+          "fact_record": {
+            "evidence": [
+              {
+                "pdf_page": 181,
+                "quote": "Operated Scope 1+2 emissions: 2025 33 Mt CO2e; 2024 34 Mt CO2e.",
+                "source_id": "P9-TOTALENERGIES-URD2025"
+              }
+            ],
+            "knowledge_status": "reference_candidate",
+            "predicate": {
+              "canonical_key": "rounded_percentage_change",
+              "raw_key": "rounded_percentage_change"
+            },
+            "promotion": {
+              "eligible": false,
+              "reason": "requires_independent_fact_promotion_audit"
+            },
+            "provenance": {
+              "reference_status": "verified_against_frozen_pages",
+              "simulated": true,
+              "source_artifact": "data/annotations/p9_simulated/P9-CALC-001.json",
+              "source_sha256": "0fa2cd1c89f49d4dbe5f17577904096f46c18fb583776f6cb3a0271b9127c19b"
+            },
+            "qualifiers": {
+              "answer_status": null,
+              "calculation_expression": null,
+              "normalized_unit": null,
+              "period_literal": null,
+              "reference_period": null,
+              "scope_boundary": null,
+              "value_origin": "simulated_reference"
+            },
+            "record_id": "fact-ce32c4a37636ede82d8ef077",
+            "record_kind": "fact",
+            "schema_version": "0.1",
+            "subject": {
+              "document_ids": [
+                "P9-TOTALENERGIES-URD2025"
+              ],
+              "document_metadata": [
+                {
+                  "company": "TotalEnergies SE",
+                  "document_id": "P9-TOTALENERGIES-URD2025",
+                  "language": "English",
+                  "sha256": "58e1798ad874228bb60ec110721e8880cefdd11802e2e392e619c0bbe9768c50",
+                  "title": "Universal Registration Document 2025"
+                }
+              ],
+              "entity_label": null,
+              "task_id": "P9-CALC-001"
+            },
+            "trust_tier": "C",
+            "value": -2.94
+          },
+          "gap_record": null
+        },
+        "immutable_stores": {
+          "facts": {
+            "path": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/data/knowledge_bases/v0.1/fact_records.jsonl",
+            "sha256": "1da6f28e8c1b3125d07a52d39aed4e095c6f40ef71378173c36a1486f7cb890c"
+          },
+          "gaps": {
+            "path": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/data/knowledge_bases/v0.1/knowledge_gap_records.jsonl",
+            "sha256": "858a37ede7bd213c1c3d1e9136d5d8be6bc6e6f12f147124318347cb3a8cef76"
+          }
+        },
+        "parent_records_modified": false
+      },
+      "diagnostic": null,
+      "parent_records_modified": false
+    }
+  ],
+  "positive_regression": {
+    "schema_version": "0.1",
+    "record_kind": "preflighted_read_only_diagnostic_execution",
+    "status": "completed",
+    "adapter_invocation_count": 1,
+    "preflight": {
+      "schema_version": "0.1",
+      "record_kind": "diagnostic_parent_binding_preflight",
+      "status": "passed",
+      "blocking_reasons": [],
+      "requested": {
+        "fact_record_id": "fact-9563920c088f89c3fc9f0b75",
+        "gap_id": "gap-014f6bb663198ffdf540e6e4",
+        "gap_signature": "CALCULATION_LINEAGE_INCOMPLETE",
+        "satisfied_dimensions": [
+          "calculation_lineage"
+        ]
+      },
+      "resolved": {
+        "fact_record": {
+          "evidence": [
+            {
+              "parser": "mineru",
+              "pdf_page": 171,
+              "quote": "Our total water consumption is calculated as the difference between the volume of water withdrawn and the volume discharged.",
+              "source_id": "P22-BAYER-AR2025"
+            },
+            {
+              "parser": "mineru",
+              "pdf_page": 171,
+              "quote": "Our water consumption in regions impacted by water risks according to ESRS",
+              "source_id": "P22-BAYER-AR2025"
+            },
+            {
+              "parser": "mineru",
+              "pdf_page": 171,
+              "quote": "All sites with an annual energy consumption exceeding 1.5 terajoules and/or annual water withdrawal that is greater than or equal to 50 Tm<sup>3</sup> are regarded as environmentally relevant.",
+              "source_id": "P22-BAYER-AR2025"
+            },
+            {
+              "parser": "mineru",
+              "pdf_page": 172,
+              "quote": "Water withdrawal</td><td>43.80</td><td>42.75</td><td>6.28</td><td>6.10</td><td>1.66</td><td>1.56</td><td>1.74</td><td>1.20</td><td>53.47</td><td>51.61",
+              "source_id": "P22-BAYER-AR2025"
+            },
+            {
+              "parser": "mineru",
+              "pdf_page": 172,
+              "quote": "Water discharge</td><td>23.83</td><td>22.31</td><td>5.78</td><td>5.52</td><td>1.24</td><td>1.28</td><td>1.60</td><td>1.14</td><td>32.46</td><td>30.25",
+              "source_id": "P22-BAYER-AR2025"
+            },
+            {
+              "parser": "mineru",
+              "pdf_page": 172,
+              "quote": "Water consumption</td><td>19.96</td><td>20.43</td><td>0.50</td><td>0.58</td><td>0.42</td><td>0.28</td><td>0.13</td><td>0.06</td><td>21.01</td><td>21.35",
+              "source_id": "P22-BAYER-AR2025"
+            },
+            {
+              "parser": "mineru",
+              "pdf_page": 172,
+              "quote": "Water recycling and reuse</td><td>384.75</td><td>379.66",
+              "source_id": "P22-BAYER-AR2025"
+            },
+            {
+              "parser": "mineru",
+              "pdf_page": 172,
+              "quote": "Water intensity</td><td>451</td><td>468",
+              "source_id": "P22-BAYER-AR2025"
+            }
+          ],
+          "knowledge_status": "reference_candidate",
+          "predicate": {
+            "canonical_key": "calculated_consumption_million_m3",
+            "raw_key": "calculated_consumption_million_m3::2025"
+          },
+          "promotion": {
+            "eligible": false,
+            "reason": "requires_independent_fact_promotion_audit"
+          },
+          "provenance": {
+            "reference_status": "verified_against_frozen_mineru_pages_native_layout_and_visual_fallback",
+            "simulated": true,
+            "source_artifact": "data/annotations/p22_simulated/P22-WATER-CALC-001.json",
+            "source_sha256": "c9a893ea87119cf71c15e014f86d9a6213b483424423d025bf2f9c4c1b1c2f79"
+          },
+          "qualifiers": {
+            "answer_status": null,
+            "calculation_expression": null,
+            "normalized_unit": null,
+            "period_literal": "2025",
+            "reference_period": null,
+            "scope_boundary": null,
+            "value_origin": "simulated_reference"
+          },
+          "record_id": "fact-9563920c088f89c3fc9f0b75",
+          "record_kind": "fact",
+          "schema_version": "0.1",
+          "subject": {
+            "document_ids": [
+              "P22-BAYER-AR2025"
+            ],
+            "document_metadata": [
+              {
+                "company": "Bayer AG",
+                "document_id": "P22-BAYER-AR2025",
+                "language": "English",
+                "local_path": "data/raw/p22_staging/bayer-annual-report-2025.pdf",
+                "sha256": "0af4a9d19fd9d4cba72c1ec062802199873f2379f84112dc2db5dc9605ce769b",
+                "title": "Bayer Annual Report 2025"
+              }
+            ],
+            "entity_label": null,
+            "task_id": "P22-WATER-CALC-001"
+          },
+          "trust_tier": "C",
+          "value": 21.36
+        },
+        "gap_record": {
+          "current_state": "frozen_plan_output",
+          "execution_policy": "deterministic_candidate",
+          "fact_record_id": "fact-9563920c088f89c3fc9f0b75",
+          "gap_id": "gap-014f6bb663198ffdf540e6e4",
+          "gap_signature": "CALCULATION_LINEAGE_INCOMPLETE",
+          "recommended_repair": "materialize all input cells and replay the frozen operation graph",
+          "record_kind": "knowledge_gap",
+          "required_state": "successful deterministic replay",
+          "schema_version": "0.1",
+          "severity": "qualification",
+          "source_artifacts": [
+            "data/knowledge_bases/v0.1/joint_fact_qualifications.jsonl"
+          ],
+          "task_id": "P22-WATER-CALC-001"
+        }
+      },
+      "immutable_stores": {
+        "facts": {
+          "path": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/data/knowledge_bases/v0.1/fact_records.jsonl",
+          "sha256": "1da6f28e8c1b3125d07a52d39aed4e095c6f40ef71378173c36a1486f7cb890c"
+        },
+        "gaps": {
+          "path": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/data/knowledge_bases/v0.1/knowledge_gap_records.jsonl",
+          "sha256": "858a37ede7bd213c1c3d1e9136d5d8be6bc6e6f12f147124318347cb3a8cef76"
+        }
+      },
+      "parent_records_modified": false
+    },
+    "diagnostic": {
+      "status": "passed",
+      "fixture_id": "V43-POSITIVE-P22-WATER-CALC-PARENT-BINDING",
+      "fact_record_id": "fact-9563920c088f89c3fc9f0b75",
+      "adapter": "development_sentinel_no_historical_diagnostic_rerun"
+    },
+    "parent_records_modified": false
+  },
+  "positive_adapter_calls": [
+    [
+      "V43-POSITIVE-P22-WATER-CALC-PARENT-BINDING",
+      "fact-9563920c088f89c3fc9f0b75",
+      true
+    ]
+  ],
+  "immutable_store_sha256_before": {
+    "facts": "1da6f28e8c1b3125d07a52d39aed4e095c6f40ef71378173c36a1486f7cb890c",
+    "gaps": "858a37ede7bd213c1c3d1e9136d5d8be6bc6e6f12f147124318347cb3a8cef76"
+  },
+  "immutable_store_sha256_after": {
+    "facts": "1da6f28e8c1b3125d07a52d39aed4e095c6f40ef71378173c36a1486f7cb890c",
+    "gaps": "858a37ede7bd213c1c3d1e9136d5d8be6bc6e6f12f147124318347cb3a8cef76"
+  },
+  "source_manifest": {
+    "path": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/data/manifests/heterogeneous_component_validation_RESUME01_v0.1.lock.json",
+    "sha256": "118fb36b3f0cd41255efbe6e5f6b9316efadcec03743a349a8de9a3681b47f3b"
+  },
+  "historical_result_modified": false,
+  "parent_gap_fabricated": false,
+  "fact_write_performed": false,
+  "gap_write_performed": false,
+  "trust_promotion_performed": false,
+  "cloud_transmission_performed": false
+}

@@ -1,0 +1,15 @@
+{
+  "exact_authorization_record": "data/manifests/p19_cloud_authorization_exact_2026-09-10_v0.1.lock.json",
+  "exact_authorization_record_sha256": "3708e09132ab90cf85158a8b457ffce785953a6fe875e93eec7ff4de57fc2d89",
+  "experiment_id": "P19-V28-UNSEEN-LOCKBOX-V01",
+  "inference_allowed": true,
+  "integrity_gate_result": "data/results/p19_v28_local_validation_v0.1.lock.json",
+  "integrity_gate_result_sha256": "74583479b2632ae01e767d2df4dd4ae7c6b69a24eaa56afa8760e1f6027b0362",
+  "posthoc_semantic_repair_allowed": false,
+  "schema_version": "2.8",
+  "silent_retry_allowed": false,
+  "single_attempt_per_stage": true,
+  "status": "released_after_exact_cloud_authorization",
+  "structural_task_pack": "data/tasks/p19_local_execution_task_pack_v0.1.lock.json",
+  "structural_task_pack_sha256": "a06edc127afe57584c399cdf2fd6e606433ced8e23d14193d6fe96bfe76766d5"
+}

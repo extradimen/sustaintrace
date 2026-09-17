@@ -1,0 +1,32 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-005",
+  "status": "increment_built_candidates_not_promoted",
+  "fact_candidates": 51,
+  "trusted_facts_promoted": 0,
+  "evidence_gaps": 1,
+  "failure_observations": 41,
+  "gaps": [
+    {
+      "document_id": "KB-B005-SIKA-SR2025",
+      "page": 21,
+      "theme": "biodiversity",
+      "reason": "no_theme_line_in_mineru_markdown"
+    }
+  ],
+  "outputs": {
+    "facts": {
+      "path": "data/knowledge_bases/v0.1/increments/scale_batch_005_fact_records.jsonl",
+      "sha256": "e8021884f9bec94d1ca43721b67106353b9b964833874e839db075fa53e0b6ab"
+    },
+    "failures": {
+      "path": "data/knowledge_bases/v0.1/increments/scale_batch_005_failure_records.jsonl",
+      "sha256": "5bfb8bd8896365744af9457c3efac68e62f73855117b56455b3b3fbe473fd1ac"
+    }
+  },
+  "policy": {
+    "cloud_transmission": false,
+    "locked_experiments_modified": false,
+    "automatic_promotion": false
+  }
+}

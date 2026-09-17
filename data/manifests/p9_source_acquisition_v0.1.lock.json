@@ -1,0 +1,8 @@
+{
+  "schema_version":"1.0","experiment_id":"P9-V18-UNSEEN-LOCKBOX-V01","status":"source_frozen_before_task_questions_references_and_candidate_inference",
+  "document_id":"P9-TOTALENERGIES-URD2025","company":"TotalEnergies SE","title":"Universal Registration Document 2025 including the Annual Financial Report","language":"English","reporting_period":"2025",
+  "issuer_landing_page":"https://totalenergies.com/investors/publications-and-regulated-information/regulated-information/annual-financial-reports",
+  "source_url":"https://totalenergies.com/system/files/documents/totalenergies_universal-registration-document-2025_2026_en.pdf",
+  "local_path":"data/raw/p9_staging/totalenergies-universal-registration-document-2025-en.pdf","retrieved_on":"2026-09-06","bytes":53363739,"pages":666,"pdf_version":"1.6","sha256":"58e1798ad874228bb60ec110721e8880cefdd11802e2e392e619c0bbe9768c50",
+  "prior_lockbox_duplicate":false,"cloud_transmission_allowed":false
+}

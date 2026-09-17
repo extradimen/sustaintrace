@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0",
+  "experiment_id": "V13-LAYOUT-FALLBACK-DEV01",
+  "status": "completed",
+  "development_data_only": true,
+  "p3_rerun": false,
+  "registry_sha256": "0635729cae2dc5f1fead2fba206f7921b60cf8243e496041702ac10fea24f29c",
+  "results": [
+    {
+      "task_id": "P3-DEX-001",
+      "artifact_path": "artifacts/v13/layout_fallback_dev01/P3-DEX-001.layout.json",
+      "artifact_sha256": "5aa879975e53e3cb63c55292623ca57830848112fdd66fdaf97ffcf60345335e",
+      "line_count": 179,
+      "scoring_only_anchor_recall": {
+        "13,891": true
+      },
+      "all_scoring_anchors_recovered": true,
+      "hidden_reference_value_used_for_selection": false
+    },
+    {
+      "task_id": "P3-CALC-001",
+      "artifact_path": "artifacts/v13/layout_fallback_dev01/P3-CALC-001.layout.json",
+      "artifact_sha256": "1d79a86f9c3ada21bff5dff87cf33fdf06d2c357e5cddb2b843d1b72ea6a1273",
+      "line_count": 70,
+      "scoring_only_anchor_recall": {
+        "61,754": true,
+        "44,190": true
+      },
+      "all_scoring_anchors_recovered": true,
+      "hidden_reference_value_used_for_selection": false
+    }
+  ],
+  "aggregate_score": null
+}

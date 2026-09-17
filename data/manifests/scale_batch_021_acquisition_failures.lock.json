@@ -1,0 +1,30 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-021-ACQUISITION-ATTEMPTS",
+  "status": "alternate_candidates_rejected_before_source_freeze",
+  "attempts": [
+    {
+      "company": "Compagnie de Saint-Gobain SA",
+      "title": "Saint-Gobain Universal Registration Document 2025",
+      "url": "https://www.saint-gobain.com/sites/saint-gobain.com/files/media/document/Saint-Gobain_2025_DEU_VA.pdf",
+      "failure_signature": "OFFICIAL_SOURCE_HTTP_403",
+      "included": false
+    },
+    {
+      "company": "Renault SA",
+      "title": "Renault Universal Registration Document 2025",
+      "url": "https://assets.renaultgroup.com/uploads/2026/03/URD_2025_Comp_202603310753.pdf",
+      "failure_signature": "OFFICIAL_SOURCE_HTTP_403",
+      "included": false
+    },
+    {
+      "company": "Bouygues SA",
+      "title": "Bouygues Universal Registration Document 2025",
+      "url": "https://www.bouygues.com/wp-content/uploads/2026/03/bouygues_deu_2025_uk_web.pdf",
+      "failure_signature": "OFFICIAL_SOURCE_HTTP_403",
+      "included": false
+    }
+  ],
+  "replacement_policy": "select_other_unused_official_english_2025_reports_before_freeze",
+  "cloud_transmission": false
+}

@@ -1,0 +1,44 @@
+{
+  "schema_version": "0.1",
+  "record_kind": "milestone_closure",
+  "status": "heterogeneous_postvalidation_attachment_gate_complete",
+  "results": {
+    "validation_cases": 15,
+    "contract_passed": 14,
+    "attachments_applicable": 2,
+    "attachments_valid": 2,
+    "attachments_accepted": 2,
+    "final_gate_eligible": 0,
+    "component_validation_reexecuted_during_resume": false
+  },
+  "non_applicability": {
+    "negative_contracts": "correct rejection does not satisfy a positive qualification dimension",
+    "period_positive_contracts": "period screen output is not in the passed diagnostic attachment interface shape",
+    "calculation_positive_contracts": "new deterministic tasks have no registered immutable parent gap",
+    "holcim_table": "component contract failed"
+  },
+  "artifacts": [
+    {
+      "path": "artifacts/heterogeneous_postvalidation_attachments_v0.1/attachment_gate_summary.lock.json",
+      "sha256": "1c2b168f38a29efc054c5868444a85c7fc722fb98fd37339ac75a18c639c40d4",
+      "status": "superseded_postprocessor_mapping_failure"
+    },
+    {
+      "path": "artifacts/heterogeneous_postvalidation_attachments_RESUME01_v0.1/attachment_gate_summary.lock.json",
+      "sha256": "06fce128ab26f66d9b8146d56df358f4a9080b0fbacda4b9985cd257e7599e83",
+      "status": "final"
+    },
+    {
+      "path": "scripts/run_heterogeneous_postvalidation_attachments_v01.py",
+      "sha256": "a5e40dec8edfb1b0c547809d003ca997519508e6307e8ad18227aa7580b76b0d"
+    }
+  ],
+  "safety": {
+    "fact_write_performed": false,
+    "gap_mutation_performed": false,
+    "trust_promotion_performed": false,
+    "cloud_transmission_performed": false,
+    "historical_result_modified": false
+  },
+  "next_gate": "develop repeated-value year-column geometry using only the exposed Holcim failure, then validate on a new report"
+}

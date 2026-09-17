@@ -1,0 +1,44 @@
+{
+  "schema_version": "2.4",
+  "experiment_id": "P15-V24-UNSEEN-LOCKBOX-V01",
+  "status": "passed_pending_explicit_cloud_authorization",
+  "audit_date": "2026-09-09",
+  "candidate_model_called": false,
+  "cloud_transmission_count": 0,
+  "gates": {
+    "official_source_and_sha256_frozen": true,
+    "questions_and_page_windows_frozen_before_reference": true,
+    "mineru_target_pages_complete": "13/13",
+    "mineru_resume_lineage_complete": true,
+    "reference_quote_grounding": "46/46",
+    "reference_contract_key_match": "6/6 tasks; 63/63 slots",
+    "v24_layout_registry_gate": "13/13 records",
+    "v24_stage_b_contract_preflight": "6/6 tasks",
+    "framework_owned_calculation": "Decimal(192.3)+Decimal(14.9)+Decimal(4169.9)=Decimal(4377.1); difference=0.0",
+    "json_validation": "25/25 P15 JSON files passed",
+    "pytest": "249 passed",
+    "ruff": "passed",
+    "candidate_run_directories_created": 0,
+    "cloud_transmission_detected": false
+  },
+  "artifact_sha256": {
+    "source_acquisition": "c126a0f02e76326a6b266a89193b0f782bb3b7ab086585b8c25863db7a75b97a",
+    "source_registry": "cb51e467cd2e1a55bb1b2899030febe44ea671f150a672d213f8a9b3f511188a",
+    "task_pack": "1a3232c4c903b5f448fa8751f57d4340ca82d1a0154757ae8897cc55ac12e68e",
+    "parser_registry": "ea633c7ef0dfe3b124bf4df776cc4a3eb008058dcd2722b4b14002a93c4281f4",
+    "reference_freeze": "a6f0df4b4c74a751d55959da1d45a790c5173b7ba87292907bce6cbbbd4f8bc2",
+    "slot_contracts": "7dd6b3a947f2d022bf6f65c017ea362aa0128c9bd3636b798b4550d2e8ced5e8",
+    "calculation_plans": "856ec6d26ed2187ebf888eccccc5da3ea3cde0062d98299aecfad0fadfadfa89",
+    "semantic_qualifiers": "c517db43cbce2d9fd784da1194993333cbb298f03e8dcc2214dc67d5aa489925",
+    "table_graph": "e21feea792febd6a87816c1f2a40c3a17e779fbd7e1ffc6cd1e84fb97d83dda1",
+    "layout_registry": "66e28a89cd78f1d15257df26c4e9959582bdd2fb10bfc2646c8d75a048ed6f2e",
+    "prefreeze_audit_resume01": "21d41ffcf56733e2db5052431d1d16386e7d64e93f9f2074f9baee0044e9ea1f",
+    "local_execution_pack": "f980b6e2e023ad735812f0c2f235932745f6819c997217eecd5961332da04ff1"
+  },
+  "release_decision": "All P15 local gates passed. Candidate inference remains blocked solely by missing explicit authorization for the Novartis report, exact pages, qwen3.5:397b-cloud and P15 Stage A/Stage B single-attempt scope.",
+  "immutability": {
+    "p3_through_p14_modified": false,
+    "p15_candidate_inference_started": false,
+    "reference_edits_after_candidate_inference": false
+  }
+}

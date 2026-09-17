@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/esg-reliable-discovery/repair-plan-v0.1.schema.json",
+  "title": "Repair controller plan v0.1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "plan_id",
+    "failure_record_id",
+    "mode",
+    "decision",
+    "strategy_id",
+    "actions",
+    "validation_gates",
+    "rollback",
+    "execution_performed"
+  ],
+  "properties": {
+    "schema_version": {"const": "0.1"},
+    "plan_id": {"type": "string", "pattern": "^plan-[0-9a-f]{24}$"},
+    "failure_record_id": {"type": "string", "pattern": "^failure-[0-9a-f]{24}$"},
+    "mode": {"enum": ["locked_evaluation", "operational"]},
+    "decision": {
+      "enum": ["archive_only", "automatic_candidate", "supervised", "blocked", "no_strategy"]
+    },
+    "strategy_id": {"type": ["string", "null"]},
+    "actions": {"type": "array", "items": {"type": "string"}},
+    "validation_gates": {"type": "array", "items": {"type": "string"}},
+    "rollback": {"type": "string"},
+    "execution_performed": {"const": false}
+  }
+}

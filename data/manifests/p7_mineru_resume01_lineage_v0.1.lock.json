@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "experiment_id": "P7-V16-UNSEEN-LOCKBOX-V01",
+  "status": "completed_with_parent_failure_retained",
+  "parent_output_root": "artifacts/p7/mineru_targets",
+  "resume_output_root": "artifacts/p7/mineru_targets_RESUME01",
+  "parent_failure_record": "artifacts/p7/mineru_targets/P7-ARCELORMITTAL-SR2025-p0004/esg_rd_mineru_run.json",
+  "interruption_class": "parser_process_teardown_infrastructure_failure",
+  "interruption_evidence": "MinerU completed page processing, then exited -6 with libc++ recursive_mutex lock failure; the nonzero run is not accepted as a successful parse.",
+  "verified_reuse": [
+    "P7-ARCELORMITTAL-SR2025-p0003"
+  ],
+  "not_reused": [
+    "P7-ARCELORMITTAL-SR2025-p0004"
+  ],
+  "resume_rule": "reuse only returncode-zero targets with matching source hash and page; rerun all remaining targets in RESUME01; never overwrite parent artifacts",
+  "candidate_inference_started": false,
+  "cloud_transmission_occurred": false
+}

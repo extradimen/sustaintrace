@@ -1,0 +1,30 @@
+{
+  "schema_version": "2.7",
+  "status": "exposed_failure_development_regression_passed_pending_pipeline_integration",
+  "development_source": "P17 exposed failures only",
+  "locked_experiments_modified": false,
+  "locked_experiments_rerun": false,
+  "implemented": [
+    "operation-specific partial calculation binding through a frozen period-role profile, with missing roles explicit and no calculation execution or value invention",
+    "deterministic compact evidence-handle aliases with exact-only resolution and no approximate repair",
+    "frozen unit presentation aliases retaining the original source literal",
+    "comparison-only equivalence for German and English double quotation marks while preserving source and candidate literals"
+  ],
+  "regression_tests": "tests/test_v27_p17_exposed_regression.py",
+  "verification": {
+    "pytest": "266 passed",
+    "ruff": "passed"
+  },
+  "protocol": {
+    "p17_results_changed": false,
+    "p17_rescored": false,
+    "failed_candidate_outputs_preserved": true,
+    "posthoc_semantic_repair": false
+  },
+  "next_steps": [
+    "integrate v2.7 options into reusable Stage A and Stage B runners",
+    "add runner-level regression tests and execute full validation",
+    "select and preregister a report never used in P1-P17 for P18",
+    "complete P18 local freeze and request exact cloud authorization"
+  ]
+}

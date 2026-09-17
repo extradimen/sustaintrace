@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/esg/boundary-coordinate-adjudication-v0.1.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version", "record_kind", "adjudication_id", "fact_record_id", "task_id",
+    "predicate", "value", "resolved_boundary", "coordinate_method", "source_artifact",
+    "source_artifact_sha256", "source_page", "source_text", "coordinate_description",
+    "resolved_signature", "effective_blockers", "effective_status", "execution_mode",
+    "rollback", "source_fact_modified", "promotion_performed"
+  ],
+  "properties": {
+    "schema_version": {"const": "0.1"},
+    "record_kind": {"const": "boundary_coordinate_adjudication"},
+    "adjudication_id": {"type": "string", "pattern": "^boundary-adj-[0-9a-f]{24}$"},
+    "fact_record_id": {"type": "string", "pattern": "^fact-[0-9a-f]{24}$"},
+    "task_id": {"type": "string", "minLength": 1},
+    "predicate": {"type": "string", "minLength": 1},
+    "value": {},
+    "resolved_boundary": {"type": "string", "minLength": 1},
+    "coordinate_method": {
+      "enum": ["enumerated_total", "geography_row", "metric_total_row", "own_operations_row", "employment_type_clause", "taxonomy_denominator_row"]
+    },
+    "source_artifact": {"type": "string", "minLength": 1},
+    "source_artifact_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "source_page": {"type": "integer", "minimum": 1},
+    "source_text": {"type": "string", "minLength": 1},
+    "coordinate_description": {"type": "string", "minLength": 1},
+    "resolved_signature": {"const": "BOUNDARY_ATTACHMENT_INCOMPLETE"},
+    "effective_blockers": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "effective_status": {"enum": ["ready_for_independent_source_review", "blocked_additional_qualification"]},
+    "execution_mode": {"const": "derived_layer_only"},
+    "rollback": {"const": "delete_boundary_coordinate_adjudication"},
+    "source_fact_modified": {"const": false},
+    "promotion_performed": {"const": false}
+  }
+}

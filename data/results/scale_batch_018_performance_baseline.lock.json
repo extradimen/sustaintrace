@@ -1,0 +1,76 @@
+{
+  "batch_id": "KB-SCALE-BATCH-018-PERFORMANCE",
+  "comparison_parent": "data/results/scale_batch_017_performance_baseline.lock.json",
+  "completed_at": "2026-09-13T11:52:37.313928+00:00",
+  "mineru": {
+    "checkpoint_reuse_pages": 0,
+    "final_complete_pages": 28,
+    "initial_attempt_wall_seconds": 596.505802,
+    "initial_failures": 0,
+    "post_completion_shutdown_failures": 0,
+    "status": "complete",
+    "successful_processing_wall_seconds": 596.505802,
+    "successful_target_pages": 28,
+    "successful_target_pages_per_hour": 168.984107,
+    "target_page_wall_seconds": {
+      "KB-B018-ALFA-LAVAL-ASR2025:p0033": 22.072175,
+      "KB-B018-ALFA-LAVAL-ASR2025:p0034": 19.731371,
+      "KB-B018-ALFA-LAVAL-ASR2025:p0035": 20.540119,
+      "KB-B018-ALFA-LAVAL-ASR2025:p0038": 17.386305,
+      "KB-B018-ALFA-LAVAL-ASR2025:p0042": 16.459068,
+      "KB-B018-ALFA-LAVAL-ASR2025:p0061": 17.162741,
+      "KB-B018-ALFA-LAVAL-ASR2025:p0064": 17.416025,
+      "KB-B018-ALFA-LAVAL-ASR2025:p0145": 17.084165,
+      "KB-B018-ALFA-LAVAL-ASR2025:p0146": 16.174247,
+      "KB-B018-EPIROC-ASR2025:p0041": 31.28975,
+      "KB-B018-EPIROC-ASR2025:p0093": 28.935279,
+      "KB-B018-EPIROC-ASR2025:p0106": 27.116332,
+      "KB-B018-EPIROC-ASR2025:p0108": 30.421901,
+      "KB-B018-EPIROC-ASR2025:p0117": 22.824876,
+      "KB-B018-EPIROC-ASR2025:p0128": 23.92976,
+      "KB-B018-EPIROC-ASR2025:p0132": 23.303959,
+      "KB-B018-EPIROC-ASR2025:p0233": 18.186373,
+      "KB-B018-EPIROC-ASR2025:p0234": 20.445598,
+      "KB-B018-EPIROC-ASR2025:p0235": 21.405002,
+      "KB-B018-SSAB-AR2025:p0080": 18.602378,
+      "KB-B018-SSAB-AR2025:p0084": 16.920413,
+      "KB-B018-SSAB-AR2025:p0086": 21.861436,
+      "KB-B018-SSAB-AR2025:p0092": 19.075153,
+      "KB-B018-SSAB-AR2025:p0096": 17.245751,
+      "KB-B018-SSAB-AR2025:p0104": 16.481817,
+      "KB-B018-SSAB-AR2025:p0106": 19.389098,
+      "KB-B018-SSAB-AR2025:p0183": 20.973416,
+      "KB-B018-SSAB-AR2025:p0184": 34.071294
+    },
+    "total_attempt_wall_seconds": 596.505802
+  },
+  "mineru_comparison": {
+    "batch_017_pages_per_hour": 216.920177,
+    "batch_018_pages_per_hour": 168.984107,
+    "interpretation_gate": "throughput_only_quality_measured_separately",
+    "relative_change_percent": -22.098
+  },
+  "policy": {
+    "cloud_transmission": false,
+    "locked_experiments_modified": false,
+    "performance_separate_from_knowledge_quality": true
+  },
+  "provisional_comparison": {
+    "batch_017_pages_per_second": 301.059112,
+    "batch_018_pages_per_second": 487.466016,
+    "interpretation_gate": "diagnostic_only_not_semantic_quality_or_mineru_speed",
+    "relative_change_percent": 61.917
+  },
+  "schema_version": "0.1",
+  "started_at": "2026-09-13T11:52:36.111023+00:00",
+  "status": "diagnostic_and_mineru_baseline_complete",
+  "whole_report_diagnostic": {
+    "documents": 3,
+    "extractable_pages": 582,
+    "pages_per_second": 487.466016,
+    "pdf_pages": 586,
+    "peak_rss_bytes": 36864000,
+    "peak_rss_mb": 35.156,
+    "wall_seconds": 1.202135
+  }
+}

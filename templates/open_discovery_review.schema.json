@@ -1,0 +1,94 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/esg-reliable-discovery/open-discovery-review-v1.schema.json",
+  "title": "Open Discovery Independent Review v1.0",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "review_id",
+    "task_id",
+    "candidate_finding_id",
+    "candidate_sha256",
+    "reviewer_id",
+    "review_round",
+    "blindness_attestation",
+    "fatal_checks",
+    "dimensions",
+    "duplicate_cluster_id",
+    "disposition",
+    "review_notes",
+    "reviewed_at"
+  ],
+  "properties": {
+    "review_id": {"type": "string", "minLength": 1},
+    "task_id": {"type": "string", "minLength": 1},
+    "candidate_finding_id": {"type": "string", "minLength": 1},
+    "candidate_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "reviewer_id": {"type": "string", "minLength": 1},
+    "review_round": {"enum": ["independent_A", "independent_B"]},
+    "blindness_attestation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["model_identity_hidden", "other_review_hidden", "candidate_order_randomized"],
+      "properties": {
+        "model_identity_hidden": {"const": true},
+        "other_review_hidden": {"const": true},
+        "candidate_order_randomized": {"type": "boolean"}
+      }
+    },
+    "fatal_checks": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["claim_correctness", "evidence_entailment", "evidence_locator_valid"],
+      "properties": {
+        "claim_correctness": {"$ref": "#/$defs/triage"},
+        "evidence_entailment": {"$ref": "#/$defs/triage"},
+        "evidence_locator_valid": {"$ref": "#/$defs/triage"}
+      }
+    },
+    "dimensions": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "boundary_fidelity",
+        "novelty",
+        "decision_relevance",
+        "falsifiability",
+        "non_redundancy"
+      ],
+      "properties": {
+        "boundary_fidelity": {"$ref": "#/$defs/rating"},
+        "novelty": {"$ref": "#/$defs/rating"},
+        "decision_relevance": {"$ref": "#/$defs/rating"},
+        "falsifiability": {"$ref": "#/$defs/rating"},
+        "non_redundancy": {"$ref": "#/$defs/rating"}
+      }
+    },
+    "duplicate_cluster_id": {"type": ["string", "null"], "minLength": 1},
+    "disposition": {
+      "enum": ["accept", "revise_boundary", "reject_false", "reject_unsupported", "reject_duplicate", "uncertain"]
+    },
+    "review_notes": {"type": "string"},
+    "reviewed_at": {"type": "string", "format": "date-time"}
+  },
+  "$defs": {
+    "triage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["rating", "rationale"],
+      "properties": {
+        "rating": {"enum": ["pass", "fail", "uncertain"]},
+        "rationale": {"type": "string", "minLength": 1}
+      }
+    },
+    "rating": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["rating", "rationale"],
+      "properties": {
+        "rating": {"enum": [0, 1, 2, "not_rateable"]},
+        "rationale": {"type": "string", "minLength": 1}
+      }
+    }
+  }
+}

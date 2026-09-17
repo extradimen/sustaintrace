@@ -1,0 +1,42 @@
+{
+  "schema_version": "3.3",
+  "status": "development_regression_passed",
+  "development_source": "KB-SCALE-BATCH-011 exposed table-row binding failure only",
+  "change": {
+    "description": "The deterministic two-axis table projector now excludes an explicitly identified Unit column from indicator-column scoring, preventing long unit text from outscoring short metric labels such as Near Miss.",
+    "semantic_repair": false,
+    "candidate_output_mutation": false,
+    "locked_batch_replay": false,
+    "cloud_replay": false,
+    "fail_closed_behavior": "Rows remain rejected when shape or numeric-cell constraints are ambiguous."
+  },
+  "exposed_failure_regression": {
+    "source_signature": "PARSER_TABLE_STRUCTURE",
+    "source_document": "KB-B011-ENI-SS2025",
+    "source_pdf_page": 78,
+    "prior_projection": "Near Miss values 634 and 563 were mislabeled as unnamed metric (number).",
+    "corrected_development_projection": "Near Miss is the row header, (number) is the unit, and 634/563 remain bound to 2025/2024 respectively.",
+    "batch_011_modified_or_rescored": false
+  },
+  "validation": {
+    "new_regression_tests": 1,
+    "targeted_tests_passed": 10,
+    "full_pytest_passed": 470,
+    "ruff": "passed"
+  },
+  "artifacts": {
+    "implementation": {
+      "path": "src/esg_reliable_discovery/table_projection.py",
+      "sha256": "e63267c938be10d21ab6891b2b62688b4f2924204e6a5bc9d81d6ef9828c7b4b"
+    },
+    "tests": {
+      "path": "tests/test_table_projection_scale_batch_v01.py",
+      "sha256": "224c59dc9b3fec3eb5d99bc8aa98314041d34fbb07cea83252365c791c2fb5bb"
+    },
+    "parent_failure": {
+      "path": "data/knowledge_bases/v0.1/increments/scale_batch_011_semantic_failure_records.jsonl",
+      "sha256": "1ebcabcd5c712c90982f2c93ad5b3ad818f1b728cd8e0981b82b3136fc178831"
+    }
+  },
+  "next_gate": "freeze three unseen official reports for KB-SCALE-BATCH-012 before applying the revised projector"
+}

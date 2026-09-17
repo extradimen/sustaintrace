@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.1",
+  "closure_id": "ESG-FAILURE-DRIVEN-REPAIR-PHASE-1-CLOSURE-v0.1",
+  "created_at": "2026-09-14T11:10:00+08:00",
+  "status": "complete_next_gate_ready",
+  "scope": {
+    "failure_records": 1032,
+    "failure_signatures": 32,
+    "operational_infrastructure_observations": 965,
+    "source_acquisition_integrity_observations": 26,
+    "knowledge_capability_observations": 41,
+    "knowledge_capability_signatures": 18,
+    "evidence_failures_subtyped": 7,
+    "evidence_causal_subtypes": 6
+  },
+  "artifacts": {
+    "phase_1_audit": {
+      "path": "data/results/failure_driven_repair_phase_1_audit.lock.json",
+      "sha256": "7d9568458d55ca05fd93e20828b6302ca6a327d2e28eafe8a4eb7d8f033f0f4b"
+    },
+    "evidence_triage_audit": {
+      "path": "data/results/evidence_repair_triage_v0.1.lock.json",
+      "sha256": "0db6c74719fa127890708bf2b1bd14504bd006f6ff02b5e13563b4bff68b7e1e"
+    },
+    "failure_priorities": {
+      "path": "data/knowledge_bases/v0.1/failure_signature_priorities.jsonl",
+      "sha256": "8d51f33617f3a6e2d56f5388acd0323ca2ef5e5c3ece92dafeb15b9c0492bf9a"
+    },
+    "evidence_triage": {
+      "path": "data/knowledge_bases/v0.1/exposed_evidence_failure_triage.jsonl",
+      "sha256": "36f0151716c2912fee6c9b805090093978e192ae9b36b5e2766f4444ff3c2ab4"
+    },
+    "report": {
+      "path": "docs/153_失败驱动修复第一阶段分流与证据失败根因审计_v0.1.md",
+      "sha256": "f962066eedc7d69a4cc1396c2621aa6621e6c7bc505064ce91ba25e1687ebad1"
+    }
+  },
+  "quality_gates": {
+    "pytest_collected_and_passed": 488,
+    "ruff": "passed",
+    "all_data_json_parse": "passed",
+    "locked_experiments_modified_or_rescored": false,
+    "repair_execution_performed": false
+  },
+  "next_gate": "freeze subtype-specific operational validation and rollback contracts"
+}

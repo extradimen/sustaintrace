@@ -1,0 +1,76 @@
+{
+  "checks": {
+    "candidate_model_used": false,
+    "cloud_transmission_count": 0,
+    "numeric_arithmetic_recomputed": true,
+    "quotes_grounded_in_frozen_parser_output": true,
+    "reference_pages_within_windows": true,
+    "reference_quote_count": 50,
+    "task_count": 6,
+    "unique_page_count": 12,
+    "v29_whole_pack_preflight": {
+      "checked_operations": [
+        {
+          "operation": "sum",
+          "step_id": "calculated_total_2025",
+          "task_id": "P20-GHG-CALC-001"
+        },
+        {
+          "operation": "difference",
+          "step_id": "difference",
+          "task_id": "P20-GHG-CALC-001"
+        },
+        {
+          "operation": "percentage_change",
+          "step_id": "percentage_change",
+          "task_id": "P20-GHG-CALC-001"
+        },
+        {
+          "operation": "sum",
+          "step_id": "category1_plus_15_2025",
+          "task_id": "P20-SCOPE3-001"
+        },
+        {
+          "operation": "percentage_share",
+          "step_id": "share_2025",
+          "task_id": "P20-SCOPE3-001"
+        },
+        {
+          "operation": "sum",
+          "step_id": "category1_plus_15_2024",
+          "task_id": "P20-SCOPE3-001"
+        },
+        {
+          "operation": "percentage_share",
+          "step_id": "share_2024",
+          "task_id": "P20-SCOPE3-001"
+        },
+        {
+          "operation": "sum",
+          "step_id": "contract_headcount_2025",
+          "task_id": "P20-WORKFORCE-001"
+        },
+        {
+          "operation": "difference",
+          "step_id": "difference",
+          "task_id": "P20-WORKFORCE-001"
+        }
+      ],
+      "deterministic_task_count": 3,
+      "plan_count": 3,
+      "status": "passed",
+      "task_count": 6,
+      "validated_before_candidate_call": true
+    }
+  },
+  "experiment_id": "P20-V29-UNSEEN-LOCKBOX-V01",
+  "gate_result": "pass",
+  "hashes": {
+    "atomic_gold": "9bfd2951d2b8853914df301abb0de5d14efff5a82da68ecafd73b2b47910ce1c",
+    "parser_registry": "d01df6e57f754af0c7ae9608222422c6570fc8025c653210adc28fc31e3fa8e4",
+    "reference_freeze": "c390dd3bff278f06c3f18aa7c16d130c5b89e8d621798aeb5d19f8c6a82194ee",
+    "slot_contracts": "28b5367fc816158663a794d6a8322b76913fea586480c4964dbb7c8ecc603b62",
+    "task_pack": "a41201260608c5e89e5616d1829193c5c62b45fcc3413ef2a44e69d8ad55a55b"
+  },
+  "schema_version": "2.9"
+}

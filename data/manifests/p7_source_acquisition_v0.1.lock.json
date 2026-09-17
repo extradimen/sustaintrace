@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "manifest_id": "P7-SOURCE-ACQUISITION-v0.1",
+  "status": "source_frozen_before_question_and_reference_design",
+  "frozen_date": "2026-09-05",
+  "documents": [
+    {
+      "document_id": "P7-ARCELORMITTAL-SR2025",
+      "company": "ArcelorMittal S.A.",
+      "title": "ArcelorMittal Sustainability Report 2025",
+      "reporting_year": 2025,
+      "language": "English",
+      "source_type": "official_issuer_CDN_linked_from_official_report_page",
+      "source_page_url": "https://corporate.arcelormittal.com/sustainability/2025-sustainability-report",
+      "source_url": "https://cdn.arcelormittal.com/media/kyqeahax/2025-sd-report-22-april-2026-final-upload.pdf",
+      "local_path": "data/raw/p7_staging/arcelormittal-sustainability-report-2025.pdf",
+      "sha256": "6fea5a01167e914af111dfe0d1699048c4bdeb7ee9214bda85343628bbcb3cd6",
+      "file_size_bytes": 7034363,
+      "page_count": 94,
+      "pdf_version": "1.7",
+      "ingestion_status": "verified",
+      "eligibility": "new_and_unseen_in_P1_through_P6"
+    }
+  ]
+}

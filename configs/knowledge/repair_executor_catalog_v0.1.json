@@ -1,0 +1,16 @@
+{
+  "schema_version": "0.1",
+  "status": "fail_closed_executor_registry",
+  "executors": [
+    {
+      "executor_id": "RX-EXACT-HANDLE-CANONICALIZATION-V31",
+      "strategy_id": "RS-EXACT-HANDLE-CANONICALIZATION",
+      "callable": "esg_reliable_discovery.v31_integrity.decode_stage_a_aliases_v31",
+      "status": "enabled",
+      "input_contract": "frozen_candidate_output_and_exact_alias_catalog",
+      "output_contract": "decoded_output_and_alias_audit",
+      "side_effect_policy": "derived_artifact_only",
+      "network_allowed": false
+    }
+  ]
+}

@@ -1,0 +1,407 @@
+{
+  "schema_version": "1.0",
+  "experiment_id": "P4-V13-PARSER-ANOMALY-AUDIT-V01",
+  "status": "locked_before_candidate_inference",
+  "task_text_used": false,
+  "expected_value_used": false,
+  "target_registry_sha256": "ad4f65af34e3db61fd515de575be6b3faf56fd56d70dea85415c0bf32dcb55d9",
+  "targets": [
+    {
+      "target_id": "P5-AHOLD-AR2025-p0007",
+      "document_id": "P5-AHOLD-AR2025",
+      "pdf_page": 7,
+      "task_ids": [
+        "P5-XPAGE-001"
+      ],
+      "mineru_run_sha256": "f6fb24bb83f71f656768d975da02c63d23408f3cb3d88144757297bcb64a1390",
+      "mineru_content_sha256": "f8a30c167bfd283ee3bcdcfd9bb3d714f04595f506c8253aac2df3f6d17a74da",
+      "native_layout_line_count": 52,
+      "native_layout_provenance": {
+        "parser": "poppler_pdftotext_bbox_layout",
+        "pdf_page": 7,
+        "line_count": 52,
+        "selection_rule": "all_visible_lines_no_hidden_reference_selection",
+        "coordinate_system": "PDF points from pdftotext bbox-layout",
+        "hidden_reference_value_used": false,
+        "adjacent_period_context_links": [
+          {
+            "value_handle": "P007-L0010",
+            "context_handle": "P007-L0009",
+            "explicit_years": [
+              "2025"
+            ],
+            "rule": "same_page_immediately_preceding_visual_line"
+          },
+          {
+            "value_handle": "P007-L0018",
+            "context_handle": "P007-L0017",
+            "explicit_years": [
+              "2024"
+            ],
+            "rule": "same_page_immediately_preceding_visual_line"
+          },
+          {
+            "value_handle": "P007-L0019",
+            "context_handle": "P007-L0018",
+            "explicit_years": [
+              "2025"
+            ],
+            "rule": "same_page_immediately_preceding_visual_line"
+          },
+          {
+            "value_handle": "P007-L0022",
+            "context_handle": "P007-L0021",
+            "explicit_years": [
+              "2024"
+            ],
+            "rule": "same_page_immediately_preceding_visual_line"
+          },
+          {
+            "value_handle": "P007-L0024",
+            "context_handle": "P007-L0023",
+            "explicit_years": [
+              "2025"
+            ],
+            "rule": "same_page_immediately_preceding_visual_line"
+          },
+          {
+            "value_handle": "P007-L0037",
+            "context_handle": "P007-L0036",
+            "explicit_years": [
+              "2016"
+            ],
+            "rule": "same_page_immediately_preceding_visual_line"
+          },
+          {
+            "value_handle": "P007-L0041",
+            "context_handle": "P007-L0040",
+            "explicit_years": [
+              "2025"
+            ],
+            "rule": "same_page_immediately_preceding_visual_line"
+          },
+          {
+            "value_handle": "P007-L0052",
+            "context_handle": "P007-L0051",
+            "explicit_years": [
+              "2024"
+            ],
+            "rule": "same_page_immediately_preceding_visual_line"
+          }
+        ]
+      },
+      "assessment": {
+        "fallback_required": true,
+        "reasons": [
+          "native_to_mineru_numeric_recall_below_threshold"
+        ],
+        "numeric_token_recall": 0.8,
+        "numeric_recall_threshold": 0.95,
+        "native_numeric_token_count": 50,
+        "mineru_numeric_token_count": 41,
+        "mineru_table_detected": false,
+        "task_text_used": false,
+        "expected_value_used": false
+      }
+    },
+    {
+      "target_id": "P5-AHOLD-AR2025-p0295",
+      "document_id": "P5-AHOLD-AR2025",
+      "pdf_page": 295,
+      "task_ids": [
+        "P5-CALC-001",
+        "P5-DEX-001",
+        "P5-XPAGE-001"
+      ],
+      "mineru_run_sha256": "d304ce14baad36f42971a66418bc1f725c150e56cbc5f4a5e4c799fdd9f77920",
+      "mineru_content_sha256": "61510536ce1812e3338d02dd4161caeabc5565c9705efdb4fd4e5c11cb6f96b7",
+      "native_layout_line_count": 165,
+      "native_layout_provenance": {
+        "parser": "poppler_pdftotext_bbox_layout",
+        "pdf_page": 295,
+        "line_count": 165,
+        "selection_rule": "all_visible_lines_no_hidden_reference_selection",
+        "coordinate_system": "PDF points from pdftotext bbox-layout",
+        "hidden_reference_value_used": false,
+        "adjacent_period_context_links": [
+          {
+            "value_handle": "P295-L0010",
+            "context_handle": "P295-L0009",
+            "explicit_years": [
+              "2024"
+            ],
+            "rule": "same_page_immediately_preceding_visual_line"
+          },
+          {
+            "value_handle": "P295-L0011",
+            "context_handle": "P295-L0010",
+            "explicit_years": [
+              "2025"
+            ],
+            "rule": "same_page_immediately_preceding_visual_line"
+          },
+          {
+            "value_handle": "P295-L0012",
+            "context_handle": "P295-L0011",
+            "explicit_years": [
+              "2025"
+            ],
+            "rule": "same_page_immediately_preceding_visual_line"
+          },
+          {
+            "value_handle": "P295-L0080",
+            "context_handle": "P295-L0079",
+            "explicit_years": [
+              "2020"
+            ],
+            "rule": "same_page_immediately_preceding_visual_line"
+          },
+          {
+            "value_handle": "P295-L0165",
+            "context_handle": "P295-L0164",
+            "explicit_years": [
+              "2025"
+            ],
+            "rule": "same_page_immediately_preceding_visual_line"
+          }
+        ]
+      },
+      "assessment": {
+        "fallback_required": true,
+        "reasons": [
+          "mineru_table_detected",
+          "native_to_mineru_numeric_recall_below_threshold"
+        ],
+        "numeric_token_recall": 0.7910447761194029,
+        "numeric_recall_threshold": 0.95,
+        "native_numeric_token_count": 134,
+        "mineru_numeric_token_count": 153,
+        "mineru_table_detected": true,
+        "task_text_used": false,
+        "expected_value_used": false
+      }
+    },
+    {
+      "target_id": "P5-AHOLD-AR2025-p0318",
+      "document_id": "P5-AHOLD-AR2025",
+      "pdf_page": 318,
+      "task_ids": [
+        "P5-DEX-002"
+      ],
+      "mineru_run_sha256": "3dd972946fde83bd7f69a03c57b71decf12102e3d997a268216cd11396e396ce",
+      "mineru_content_sha256": "152ac18078cd549099f955e59025ac47c56d36261851ce1b29bd4d95551865e4",
+      "native_layout_line_count": 89,
+      "native_layout_provenance": {
+        "parser": "poppler_pdftotext_bbox_layout",
+        "pdf_page": 318,
+        "line_count": 89,
+        "selection_rule": "all_visible_lines_no_hidden_reference_selection",
+        "coordinate_system": "PDF points from pdftotext bbox-layout",
+        "hidden_reference_value_used": false,
+        "adjacent_period_context_links": [
+          {
+            "value_handle": "P318-L0029",
+            "context_handle": "P318-L0028",
+            "explicit_years": [
+              "2025"
+            ],
+            "rule": "same_page_immediately_preceding_visual_line"
+          }
+        ]
+      },
+      "assessment": {
+        "fallback_required": true,
+        "reasons": [
+          "mineru_table_detected",
+          "native_to_mineru_numeric_recall_below_threshold"
+        ],
+        "numeric_token_recall": 0.8888888888888888,
+        "numeric_recall_threshold": 0.95,
+        "native_numeric_token_count": 18,
+        "mineru_numeric_token_count": 16,
+        "mineru_table_detected": true,
+        "task_text_used": false,
+        "expected_value_used": false
+      }
+    },
+    {
+      "target_id": "P5-AHOLD-AR2025-p0330",
+      "document_id": "P5-AHOLD-AR2025",
+      "pdf_page": 330,
+      "task_ids": [
+        "P5-ASSURE-001"
+      ],
+      "mineru_run_sha256": "d37a31f99b5f3fd8c1fc0a6824245b6bab7e149763d695013c1fceed9d9a0593",
+      "mineru_content_sha256": "86bffcc78f7f3e3a7dff8df782d92ee83ac02f668249852f5bfe70a82938f251",
+      "native_layout_line_count": 72,
+      "native_layout_provenance": {
+        "parser": "poppler_pdftotext_bbox_layout",
+        "pdf_page": 330,
+        "line_count": 72,
+        "selection_rule": "all_visible_lines_no_hidden_reference_selection",
+        "coordinate_system": "PDF points from pdftotext bbox-layout",
+        "hidden_reference_value_used": false,
+        "adjacent_period_context_links": [
+          {
+            "value_handle": "P330-L0072",
+            "context_handle": "P330-L0071",
+            "explicit_years": [
+              "2025"
+            ],
+            "rule": "same_page_immediately_preceding_visual_line"
+          }
+        ]
+      },
+      "assessment": {
+        "fallback_required": false,
+        "reasons": [],
+        "numeric_token_recall": 1.0,
+        "numeric_recall_threshold": 0.95,
+        "native_numeric_token_count": 13,
+        "mineru_numeric_token_count": 13,
+        "mineru_table_detected": false,
+        "task_text_used": false,
+        "expected_value_used": false
+      }
+    },
+    {
+      "target_id": "P5-AHOLD-AR2025-p0331",
+      "document_id": "P5-AHOLD-AR2025",
+      "pdf_page": 331,
+      "task_ids": [
+        "P5-ASSURE-001"
+      ],
+      "mineru_run_sha256": "f95e75d590f324e8f4cdb0ba27f05e9c54c44ab4e14906237d02a221605e1ffa",
+      "mineru_content_sha256": "08dd6293f4363500bddd7b953bba8f0518525629e6cbefeab88e1ade0c2ab0b8",
+      "native_layout_line_count": 19,
+      "native_layout_provenance": {
+        "parser": "poppler_pdftotext_bbox_layout",
+        "pdf_page": 331,
+        "line_count": 19,
+        "selection_rule": "all_visible_lines_no_hidden_reference_selection",
+        "coordinate_system": "PDF points from pdftotext bbox-layout",
+        "hidden_reference_value_used": false,
+        "adjacent_period_context_links": [
+          {
+            "value_handle": "P331-L0019",
+            "context_handle": "P331-L0018",
+            "explicit_years": [
+              "2025"
+            ],
+            "rule": "same_page_immediately_preceding_visual_line"
+          }
+        ]
+      },
+      "assessment": {
+        "fallback_required": false,
+        "reasons": [],
+        "numeric_token_recall": 1.0,
+        "numeric_recall_threshold": 0.95,
+        "native_numeric_token_count": 4,
+        "mineru_numeric_token_count": 4,
+        "mineru_table_detected": false,
+        "task_text_used": false,
+        "expected_value_used": false
+      }
+    },
+    {
+      "target_id": "P5-AHOLD-AR2025-p0364",
+      "document_id": "P5-AHOLD-AR2025",
+      "pdf_page": 364,
+      "task_ids": [
+        "P5-SCOPE-001"
+      ],
+      "mineru_run_sha256": "4456e7d4006651ff6574763988f603a8b24afbb543ef655eea7f26213456015d",
+      "mineru_content_sha256": "5512bd9cc11a8ea0abe889f18441085dddabee5b74e493da8f6cbc34fcd584b9",
+      "native_layout_line_count": 70,
+      "native_layout_provenance": {
+        "parser": "poppler_pdftotext_bbox_layout",
+        "pdf_page": 364,
+        "line_count": 70,
+        "selection_rule": "all_visible_lines_no_hidden_reference_selection",
+        "coordinate_system": "PDF points from pdftotext bbox-layout",
+        "hidden_reference_value_used": false,
+        "adjacent_period_context_links": [
+          {
+            "value_handle": "P364-L0009",
+            "context_handle": "P364-L0008",
+            "explicit_years": [
+              "2025"
+            ],
+            "rule": "same_page_immediately_preceding_visual_line"
+          },
+          {
+            "value_handle": "P364-L0052",
+            "context_handle": "P364-L0051",
+            "explicit_years": [
+              "2025"
+            ],
+            "rule": "same_page_immediately_preceding_visual_line"
+          },
+          {
+            "value_handle": "P364-L0053",
+            "context_handle": "P364-L0052",
+            "explicit_years": [
+              "2025"
+            ],
+            "rule": "same_page_immediately_preceding_visual_line"
+          },
+          {
+            "value_handle": "P364-L0055",
+            "context_handle": "P364-L0054",
+            "explicit_years": [
+              "2025"
+            ],
+            "rule": "same_page_immediately_preceding_visual_line"
+          },
+          {
+            "value_handle": "P364-L0056",
+            "context_handle": "P364-L0055",
+            "explicit_years": [
+              "2025"
+            ],
+            "rule": "same_page_immediately_preceding_visual_line"
+          },
+          {
+            "value_handle": "P364-L0057",
+            "context_handle": "P364-L0056",
+            "explicit_years": [
+              "2025"
+            ],
+            "rule": "same_page_immediately_preceding_visual_line"
+          },
+          {
+            "value_handle": "P364-L0058",
+            "context_handle": "P364-L0057",
+            "explicit_years": [
+              "2025"
+            ],
+            "rule": "same_page_immediately_preceding_visual_line"
+          },
+          {
+            "value_handle": "P364-L0070",
+            "context_handle": "P364-L0069",
+            "explicit_years": [
+              "2025"
+            ],
+            "rule": "same_page_immediately_preceding_visual_line"
+          }
+        ]
+      },
+      "assessment": {
+        "fallback_required": true,
+        "reasons": [
+          "mineru_table_detected",
+          "native_to_mineru_numeric_recall_below_threshold"
+        ],
+        "numeric_token_recall": 0.9024390243902439,
+        "numeric_recall_threshold": 0.95,
+        "native_numeric_token_count": 41,
+        "mineru_numeric_token_count": 39,
+        "mineru_table_detected": true,
+        "task_text_used": false,
+        "expected_value_used": false
+      }
+    }
+  ]
+}

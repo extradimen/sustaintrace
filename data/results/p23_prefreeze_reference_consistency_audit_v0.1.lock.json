@@ -1,0 +1,29 @@
+{
+  "checks": {
+    "candidate_model_used": false,
+    "cloud_transmission_count": 0,
+    "numeric_arithmetic_recomputed": true,
+    "quotes_grounded_in_frozen_parser_output": true,
+    "reference_pages_within_windows": true,
+    "reference_quote_count": 49,
+    "task_count": 6,
+    "unique_page_count": 4,
+    "whole_pack_calculation_preflight": "passed"
+  },
+  "experiment_id": "P23-V32-UNSEEN-LOCKBOX-V01",
+  "gate_result": "pass",
+  "hashes": {
+    "atomic_gold": "4dbcad94107fe85bf65ab09f91a9c83680e51c475b1dd9e2e201c6d8e3f209c9",
+    "calculation_plans": "542dee18e2feeda24f85359688ab9f8d21f5b09cb7ec5996acc51748c5fcf6b5",
+    "execution_config": "8fd6c1c7c048a6e7d9840198333c18c30d5707cd6b97bb9be5fa0c10e8c5b45b",
+    "handle_whitelist": "9d4f7723843d3fa517ceb39933eebd68b511e7b32edb8921d0b57b9448932f58",
+    "parser_registry": "87aa221c8cac02005be42561785569617ada876445556242348853c09bf91b20",
+    "reference_freeze": "adea76d401e427913ad8f98fc5b0fcce37989bbe181eea4c8df77d55bc574763",
+    "scoring_rules": "73821cd758440f531617eae2e9f709f6a29b02d20edc1dc8da8ba7d36b57051e",
+    "semantic_qualifiers": "30c130cccf98626096e3569ad7353bb7ab598d1cb737c7ce8da74fd194210263",
+    "slot_contracts": "792191982816fafb0925c13be24dc56ed40a6c7ee522469d37fd51446ba8b133",
+    "table_graph": "b01f852bc62b7d7b7d0561d949da85cf5ae9b671c7601b55a6628e68de52494a",
+    "task_pack": "486ce2c4d46a31c8ab25635738447277e45e4a9ea7e304fd932fe10d9a37a5e7"
+  },
+  "schema_version": "3.2"
+}

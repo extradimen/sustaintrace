@@ -1,0 +1,32 @@
+{
+  "schema_version": "2.6",
+  "experiment_id": "P17-V26-UNSEEN-LOCKBOX-V01",
+  "status": "source_parsing_rules_questions_and_page_windows_frozen_before_reference_creation_and_candidate_inference",
+  "framework_version": "v2.6",
+  "document_id": "P17-BMW-GROUP-REPORT-2025",
+  "document_sha256": "7a7fd36bf7f274e776ef7eda30d3cda4335a99cbb45f097ae5e8268ccf7759e7",
+  "parser": {
+    "rules_manifest": "data/manifests/p17_parsing_rules_RESUME01_v0.1.lock.json",
+    "primary": "MinerU 3.4.0 local target-page pipeline",
+    "fallback": "native PDF layout extraction plus deterministic two-dimensional table graph",
+    "target_pages_only": true,
+    "status": "not_yet_executed"
+  },
+  "unique_target_pages": [127, 129, 130, 141, 142, 172, 178, 179, 372, 373, 374, 375],
+  "task_count": 6,
+  "candidate_model": "qwen3.5:397b-cloud",
+  "candidate_inference_allowed": false,
+  "required_prefreeze_gates": [
+    "reference/page-window and quote consistency audit",
+    "v2.6 calculation role binding and Decimal frozen-plan execution",
+    "v2.6 evidence-handle membership audit",
+    "v2.6 atomic partial projection with explicit missing slots",
+    "v2.6 semantic single-block span selection",
+    "two-dimensional table year/row/value binding",
+    "JSON and SHA256 audit"
+  ],
+  "single_attempt_per_stage": true,
+  "silent_retry": false,
+  "reference_visible_to_candidate": false,
+  "cloud_transmission_authorized": false
+}

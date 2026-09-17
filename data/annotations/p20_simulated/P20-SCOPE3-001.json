@@ -1,0 +1,47 @@
+{
+  "answer": "In 2025, Scope 3 was 37 Mt CO2e; Category 1 was 5.8 and Category 15 was 21.3, summing to 27.1 Mt or 73.24% of Scope 3. In restated 2024, the values were 35, 5.3 and 19.6, summing to 24.9 Mt or 71.14%. Primary-data shares were 59% and 58% respectively.",
+  "evidence": [
+    {
+      "pdf_page": 87,
+      "quote": "Absolute Scope 3 emissions – total",
+      "source_id": "P20-HOLCIM-SS2025"
+    },
+    {
+      "pdf_page": 87,
+      "quote": "Percentage of GHG Scope 3 calculated using primary data",
+      "source_id": "P20-HOLCIM-SS2025"
+    },
+    {
+      "pdf_page": 87,
+      "quote": "Absolute S3 emissions – Cat 1 – Purchased goods and services",
+      "source_id": "P20-HOLCIM-SS2025"
+    },
+    {
+      "pdf_page": 87,
+      "quote": "Absolute S3 emissions – Cat 15 – Investments",
+      "source_id": "P20-HOLCIM-SS2025"
+    }
+  ],
+  "normalized_value": {
+    "category15_mtco2e::2024": 19.6,
+    "category15_mtco2e::2025": 21.3,
+    "category1_mtco2e::2024": 5.3,
+    "category1_mtco2e::2025": 5.8,
+    "category1_plus_15_mtco2e::2024": 24.9,
+    "category1_plus_15_mtco2e::2025": 27.1,
+    "category1_plus_15_share_percent::2024": 71.14,
+    "category1_plus_15_share_percent::2025": 73.24,
+    "primary_data_percent::2024": 58,
+    "primary_data_percent::2025": 59,
+    "scope3_total_mtco2e::2024": 35,
+    "scope3_total_mtco2e::2025": 37
+  },
+  "provenance": {
+    "candidate_model_used": false,
+    "reference_is_simulated": true
+  },
+  "reference_author": "codex_gpt_simulated_expert",
+  "reference_status": "verified_against_frozen_mineru_pages_and_native_layout",
+  "schema_version": "1.0",
+  "task_id": "P20-SCOPE3-001"
+}

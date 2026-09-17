@@ -1,0 +1,14 @@
+{
+  "schema_version":"1.0",
+  "status":"frozen_before_first_model_call",
+  "parent":"data/manifests/p4_candidate_execution_freeze_v0.1.2_RESUME01.lock.json",
+  "parent_progress":"data/manifests/p4_candidate_progress_RESUME01.json",
+  "parent_progress_sha256":"1d56cdf502a87769f4cd4229d00165c17d3b22cacc42b1417c1fe285af836345",
+  "interruption_class":"sandbox_localhost_connection_denied_during_model_digest_probe",
+  "archived_model_runs_created":0,
+  "model_generation_calls":0,
+  "resume_experiment_id":"P4-V13-UNSEEN-LOCKBOX-V01-RESUME02",
+  "runner_sha256":"8a82e6d85a56d7dbd8c0497280d35e95221c0f0530d63bb79c54f80d24736851",
+  "execution_environment":"approved_unsandboxed_localhost_access",
+  "single_attempt_rule_preserved":true
+}

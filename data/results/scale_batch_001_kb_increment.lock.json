@@ -1,0 +1,44 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-001-RESUME01",
+  "status": "increment_built_candidates_not_promoted",
+  "fact_candidates": 41,
+  "trusted_facts_promoted": 0,
+  "evidence_gaps": 3,
+  "failure_observations": 30,
+  "gaps": [
+    {
+      "document_id": "KB-B001-SSE-SR2025",
+      "page": 48,
+      "theme": "water",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B001-DANONE-URD2025",
+      "page": 202,
+      "theme": "biodiversity",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B001-DANONE-URD2025",
+      "page": 210,
+      "theme": "health_safety",
+      "reason": "no_theme_line_in_mineru_markdown"
+    }
+  ],
+  "outputs": {
+    "facts": {
+      "path": "data/knowledge_bases/v0.1/increments/scale_batch_001_fact_records.jsonl",
+      "sha256": "134c1d95e17b873708691dee325c7ec8ae5ed6aaf7636fbd090398a175c7452c"
+    },
+    "failures": {
+      "path": "data/knowledge_bases/v0.1/increments/scale_batch_001_failure_records.jsonl",
+      "sha256": "09787cca17433cc694aa53e0e7eb2c15b1de40c8fb3aa75139731169afe0cb6a"
+    }
+  },
+  "policy": {
+    "cloud_transmission": false,
+    "locked_experiments_modified": false,
+    "automatic_promotion": false
+  }
+}

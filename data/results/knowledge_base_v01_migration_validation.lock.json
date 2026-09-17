@@ -1,0 +1,252 @@
+{
+  "schema_version": "0.1",
+  "status": "passed",
+  "scope": "P2-P23 read-only derived migration",
+  "locked_experiments_modified_or_rescored": false,
+  "counts": {
+    "fact_records": 1021,
+    "failure_records": 36,
+    "repair_observations": 22,
+    "failure_signatures": 14,
+    "repair_strategy_candidates": 11,
+    "source_registry_files": 22,
+    "indexed_documents": 34,
+    "facts_with_valid_evidence": 1021,
+    "facts_with_document_metadata": 1021,
+    "automatically_promoted_facts": 0,
+    "automatic_policy_candidates": 3,
+    "enabled_automatic_repairs": 0,
+    "source_grounding_passed": 772,
+    "source_grounding_failed_quote": 249,
+    "promoted_tier_b_facts": 0,
+    "repair_controller_dry_run": {
+      "automatic_candidates": 4,
+      "supervised": 26,
+      "blocked": 6,
+      "executed": 0
+    },
+    "field_evidence_binding": {
+      "unique_literal": 341,
+      "multiple_literal": 24,
+      "literal_not_found": 379,
+      "source_grounding_failed": 249,
+      "unsupported_complex_value": 28,
+      "promoted": 0
+    },
+    "automatic_candidate_validation": {
+      "ready_not_executed": 4,
+      "not_ready": 0,
+      "rollback_ledgers_prepared": 4,
+      "executed": 0
+    },
+    "joint_fact_qualification": {
+      "jointly_qualified_candidate": 145,
+      "incomplete_qualification": 839,
+      "not_applicable_non_scalar": 37,
+      "promoted": 0
+    },
+    "calculation_replay": {
+      "passed": 11,
+      "unreplayable_missing_cell": 0,
+      "promoted": 0
+    },
+    "native_pdf_corroboration": {
+      "passed_scalar_and_cell_labels": 35,
+      "passed_scalar_only": 61,
+      "failed_cell_labels": 31,
+      "failed_literal": 6,
+      "unavailable_pdf_or_page": 12,
+      "promoted": 0
+    },
+    "knowledge_gap_inventory": {
+      "gap_records": 2660,
+      "gap_signatures": 7,
+      "repairs_executed": 0
+    },
+    "derived_period_attachment_repair": {
+      "attachments_created": 31,
+      "new_jointly_qualified_candidates": 5,
+      "rollback_ledgers": 31,
+      "fact_sources_modified": 0,
+      "promoted": 0
+    },
+    "unit_vocabulary_repair": {
+      "unit_gaps_before": 201,
+      "unit_gaps_after": 68,
+      "joint_candidates_before": 111,
+      "joint_candidates_after": 145,
+      "locked_results_modified": 0,
+      "promoted": 0
+    },
+    "unit_attachment_repair": {
+      "safe_attachments_created": 0,
+      "reason": "no remaining candidate had the same unit marker in both its uniquely bound quote and native PDF page",
+      "promoted": 0
+    },
+    "p23_table_cell_completion": {
+      "derived_cells_created": 6,
+      "calculation_outputs_replayed_before": 8,
+      "calculation_outputs_replayed_after": 11,
+      "locked_graph_modified": 0,
+      "promoted": 0
+    }
+  },
+  "failure_attribution": {
+    "candidate_model": 21,
+    "framework": 11,
+    "document_pipeline": 3,
+    "unknown_owner": 1,
+    "unknown_category": 0
+  },
+  "validation": {
+    "pytest": {
+      "status": "passed",
+      "tests": 333
+    },
+    "ruff": {
+      "status": "passed",
+      "scope": "full_repository"
+    },
+    "json_schema": {
+      "status": "passed",
+      "fact_records": 1021,
+      "failure_records": 36,
+      "repair_observations": 22
+    }
+  },
+  "artifacts": {
+    "fact_records": {
+      "path": "data/knowledge_bases/v0.1/fact_records.jsonl",
+      "sha256": "8af57e7b7bda85deef8f90586f8225aedcf1da24e0669300115b8f1f7499bf5b"
+    },
+    "failure_records": {
+      "path": "data/knowledge_bases/v0.1/failure_records.jsonl",
+      "sha256": "cdf7f70b06d49538cb06d986b68c9886fdec8f5a2e949d01031fecd5bf151333"
+    },
+    "repair_observations": {
+      "path": "data/knowledge_bases/v0.1/repair_observations.jsonl",
+      "sha256": "483a8159b49ab4ce92bc88b0ecd6a7134711159c500c65dbf4d20b3bd74ba0e4"
+    },
+    "migration_manifest": {
+      "path": "data/knowledge_bases/v0.1/migration_manifest.lock.json",
+      "sha256": "e50989d800e9e357aac7bb9ee210b0b4b60fbc387de2d0c358283f4122388b8c"
+    },
+    "implementation": {
+      "path": "src/esg_reliable_discovery/knowledge_base.py",
+      "sha256": "68946ec5424559a3ad55ee045f178506764854ec314fe1574d6c68b3ce7c9a94"
+    },
+    "migration_script": {
+      "path": "scripts/build_knowledge_bases_v01.py",
+      "sha256": "d0d11e98e1af3a24739bd558230e9b19f9c7848a8d4d2908eee15434f207df6a"
+    },
+    "fact_promotion_audits": {
+      "path": "data/knowledge_bases/v0.1/fact_promotion_audits.jsonl",
+      "sha256": "1c8682644eb6c8f98cefbbdab8847ac0f70bd63ad59137af9fcdf7c3727e5c46"
+    },
+    "promotion_audit_summary": {
+      "path": "data/knowledge_bases/v0.1/promotion_audit_summary.lock.json",
+      "sha256": "95aea7e96f559af65aca692def24cf53872c32618085542d5232bc3352f88e05"
+    },
+    "failure_signature_catalog": {
+      "path": "data/knowledge_bases/v0.1/failure_signature_catalog.json",
+      "sha256": "4acf856bc0276216b2d7ad4b693f62ca152433917079924c752bc0fdc084ec9e"
+    },
+    "repair_strategy_catalog": {
+      "path": "configs/knowledge/repair_strategy_catalog_v0.1.json",
+      "sha256": "b0723192ecb92fcca97a4e151f638d8b6d296ca1cdbff1d7e06168c4e9635205"
+    },
+    "repair_controller_dry_run": {
+      "path": "data/knowledge_bases/v0.1/repair_controller_dry_run.jsonl",
+      "sha256": "4de3857861f86c25684643245347a31bca16382531874c92494dab0513e987cb"
+    },
+    "repair_controller_summary": {
+      "path": "data/knowledge_bases/v0.1/repair_controller_dry_run_summary.lock.json",
+      "sha256": "b8fb571dab70a2493e08989c36a803477cdaee472cd522b81b6ab96c6a134099"
+    },
+    "repair_controller_implementation": {
+      "path": "src/esg_reliable_discovery/repair_controller.py",
+      "sha256": "20290b68b92c0840dcec5f5283d463e01f4139d3f829efa16e17f7a5632648ae"
+    },
+    "field_evidence_bindings": {
+      "path": "data/knowledge_bases/v0.1/field_evidence_bindings.jsonl",
+      "sha256": "d0e0eaf14664dc61e8b0219ae424d35274e96539ade9485542df4b76a80e4be9"
+    },
+    "field_evidence_binding_summary": {
+      "path": "data/knowledge_bases/v0.1/field_evidence_binding_summary.lock.json",
+      "sha256": "a370e337500d052ea9b2d9906cd94873e52236616460231e8bd9ba272cf26b63"
+    },
+    "automatic_candidate_validations": {
+      "path": "data/knowledge_bases/v0.1/automatic_candidate_validations.jsonl",
+      "sha256": "388ed2f7a330eba306e63e31883d6cb3251d0679c9de4df85674657f4401f7c5"
+    },
+    "automatic_candidate_validation_summary": {
+      "path": "data/knowledge_bases/v0.1/automatic_candidate_validation_summary.lock.json",
+      "sha256": "6d5c806b2c6a6d5e027e5c218183850b3986d307c07f58a7a136ff82893f6803"
+    },
+    "joint_fact_qualifications": {
+      "path": "data/knowledge_bases/v0.1/joint_fact_qualifications.jsonl",
+      "sha256": "9f63f2f3f819ddc456a8ddc5601c92a080f8b15759dd183f5dd946d5ba8fda0c"
+    },
+    "joint_fact_qualification_summary": {
+      "path": "data/knowledge_bases/v0.1/joint_fact_qualification_summary.lock.json",
+      "sha256": "5495f2915a11ed4ea7be3d5218b4eb092f30f1de968a2f3ea85b32ddc45dd80a"
+    },
+    "calculation_replay_audits": {
+      "path": "data/knowledge_bases/v0.1/calculation_replay_audits.jsonl",
+      "sha256": "18beaaa8d03f2a1278aea48ff11f69118f4535e35486dc5e2eda14c4417a41b6"
+    },
+    "calculation_replay_summary": {
+      "path": "data/knowledge_bases/v0.1/calculation_replay_summary.lock.json",
+      "sha256": "7c2d811355f897469e009f527dd3b2950591fa5b4eb2e461c0427acabb234d76"
+    },
+    "native_pdf_corroborations": {
+      "path": "data/knowledge_bases/v0.1/native_pdf_corroborations.jsonl",
+      "sha256": "629eb32a213c75eb44d433c80afa060173efb70a25e27a1b02adc14e13a35cc4"
+    },
+    "native_pdf_corroboration_summary": {
+      "path": "data/knowledge_bases/v0.1/native_pdf_corroboration_summary.lock.json",
+      "sha256": "b1e5f5e47edb70add715f86777a5232d56dfcffe045bd3b29c2efe7136ed1d9f"
+    },
+    "knowledge_gap_records": {
+      "path": "data/knowledge_bases/v0.1/knowledge_gap_records.jsonl",
+      "sha256": "858a37ede7bd213c1c3d1e9136d5d8be6bc6e6f12f147124318347cb3a8cef76"
+    },
+    "knowledge_gap_summary": {
+      "path": "data/knowledge_bases/v0.1/knowledge_gap_summary.lock.json",
+      "sha256": "f7d5c0c94592f7af4ff22dd62b590739b51e2e14c3202004a6442832c60ae13a"
+    },
+    "period_attachment_repairs": {
+      "path": "data/knowledge_bases/v0.1/period_attachment_repairs.jsonl",
+      "sha256": "4b9a46cd0c70833f4af876eee4d44a5f92e78621c4175ebcd48d9330daf03d50"
+    },
+    "period_attachment_repair_summary": {
+      "path": "data/knowledge_bases/v0.1/period_attachment_repair_summary.lock.json",
+      "sha256": "029d04ca55a4f28257fdecc148c9dcfcaefc2dcada3f6a29764574b3bc8e7c10"
+    },
+    "period_repair_reaudits": {
+      "path": "data/knowledge_bases/v0.1/period_repair_reaudits.jsonl",
+      "sha256": "1e15791e55e97f8e268dc769d716ed0f23bb81f39ee1a5c8f2d2ca30b19a2b57"
+    },
+    "period_repair_reaudit_summary": {
+      "path": "data/knowledge_bases/v0.1/period_repair_reaudit_summary.lock.json",
+      "sha256": "30c3f1bc7612b82a6358840538b6337b1fdc6d385775d56001c5368a2d1057c0"
+    },
+    "unit_attachment_repairs": {
+      "path": "data/knowledge_bases/v0.1/unit_attachment_repairs.jsonl",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "unit_attachment_repair_summary": {
+      "path": "data/knowledge_bases/v0.1/unit_attachment_repair_summary.lock.json",
+      "sha256": "b658d6156e5a42a706867051265c791f0cca95d12dd12a640c06b52e4a451e1c"
+    },
+    "p23_table_cell_completions": {
+      "path": "data/knowledge_bases/v0.1/p23_table_cell_completions.jsonl",
+      "sha256": "5d17c89cb900a1571c2ff9869f6c0fbfcb79d478cdcc4b7ca748688a571605e8"
+    },
+    "p23_table_cell_completion_summary": {
+      "path": "data/knowledge_bases/v0.1/p23_table_cell_completion_summary.lock.json",
+      "sha256": "cd27e19c48448d1670ee675b1638500d923c37c10c4b2af379be6a4a02041f28"
+    }
+  },
+  "next_gate": "rank remaining supervised boundary, field-binding and table-structure gaps; do not execute semantic repairs automatically"
+}

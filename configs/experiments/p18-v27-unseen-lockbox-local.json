@@ -1,0 +1,59 @@
+{
+  "candidate_model": "qwen3.5:397b-cloud",
+  "cloud_transmission_allowed": false,
+  "experiment_id": "P18-V27-UNSEEN-LOCKBOX-V01",
+  "failure_policy": {
+    "archive_model_behavior_failure": true,
+    "infrastructure_resume_requires_lineage": true,
+    "posthoc_semantic_repair": false,
+    "silent_retry": false
+  },
+  "frozen_unit_aliases": {
+    "FTE": [
+      "FTE",
+      "FTEs"
+    ],
+    "GWh": [
+      "GWh"
+    ],
+    "MWh": [
+      "MWh"
+    ],
+    "billion EUR": [
+      "EUR billion"
+    ],
+    "million EUR": [
+      "millions of €",
+      "EUR million"
+    ],
+    "t CO2e": [
+      "t CO2e",
+      "t CO₂e"
+    ]
+  },
+  "model_config": "configs/models/p1-ollama-cloud-qwen3.5-397b.json",
+  "schema_version": "2.7",
+  "stage_a": {
+    "calculation_plans": "configs/framework/p18_calculation_plans_v0.1.lock.json",
+    "evidence_handle_whitelist": "configs/framework/p18_evidence_handle_whitelist_v0.1.lock.json",
+    "single_attempt": true,
+    "use_v15_grounding": true,
+    "use_v21_calculation": true,
+    "use_v24_layout_gate": true,
+    "use_v25_calculation_adapter": true,
+    "use_v26_evidence_handle_audit": true,
+    "use_v27_partial_calculation": true
+  },
+  "stage_b": {
+    "semantic_qualifiers": "configs/framework/p18_semantic_qualifiers_v0.1.lock.json",
+    "single_attempt": true,
+    "slot_contracts": "configs/framework/p18_slot_contracts_v0.1.lock.json",
+    "use_v20_contract_gate": true,
+    "use_v24_layout_gate": true,
+    "use_v24_preflight": true,
+    "use_v25_single_block_ordered_spans": true,
+    "use_v26_atomic_projection": true,
+    "use_v27_handle_aliases": true
+  },
+  "status": "frozen_local_configuration_pending_explicit_cloud_authorization"
+}

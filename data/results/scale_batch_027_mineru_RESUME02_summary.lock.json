@@ -1,0 +1,258 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-027-MINERU-RESUME02",
+  "updated_at": "2026-09-13T23:11:00.584632+00:00",
+  "status": "complete",
+  "cloud_transmission": false,
+  "total_target_pages": 19,
+  "complete_pages": 3,
+  "failed_pages": 16,
+  "pending_pages": 0,
+  "records": [
+    {
+      "document_id": "KB-B027-NORDEA-AR2025",
+      "page": 124,
+      "themes": [
+        "water"
+      ],
+      "output_directory": "artifacts/scale_batch_027/mineru_targets_RESUME02/KB-B027-NORDEA-AR2025-p0124",
+      "status": "complete",
+      "started_at": "2026-09-13T23:06:08.443947+00:00",
+      "completed_at": "2026-09-13T23:06:25.339556+00:00",
+      "wall_seconds": 16.895518
+    },
+    {
+      "document_id": "KB-B027-NORDEA-AR2025",
+      "page": 137,
+      "themes": [
+        "energy"
+      ],
+      "output_directory": "artifacts/scale_batch_027/mineru_targets_RESUME02/KB-B027-NORDEA-AR2025-p0137",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_027/mineru_targets_RESUME02/KB-B027-NORDEA-AR2025-p0137/esg_rd_mineru_run.json",
+      "started_at": "2026-09-13T23:06:25.339891+00:00",
+      "completed_at": "2026-09-13T23:06:42.307995+00:00",
+      "wall_seconds": 16.968015
+    },
+    {
+      "document_id": "KB-B027-NORDEA-AR2025",
+      "page": 149,
+      "themes": [
+        "ghg_emissions"
+      ],
+      "output_directory": "artifacts/scale_batch_027/mineru_targets_RESUME02/KB-B027-NORDEA-AR2025-p0149",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_027/mineru_targets_RESUME02/KB-B027-NORDEA-AR2025-p0149/esg_rd_mineru_run.json",
+      "started_at": "2026-09-13T23:06:42.308858+00:00",
+      "completed_at": "2026-09-13T23:06:58.031459+00:00",
+      "wall_seconds": 15.722518
+    },
+    {
+      "document_id": "KB-B027-NORDEA-AR2025",
+      "page": 158,
+      "themes": [
+        "workforce"
+      ],
+      "output_directory": "artifacts/scale_batch_027/mineru_targets_RESUME02/KB-B027-NORDEA-AR2025-p0158",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_027/mineru_targets_RESUME02/KB-B027-NORDEA-AR2025-p0158/esg_rd_mineru_run.json",
+      "started_at": "2026-09-13T23:06:58.031806+00:00",
+      "completed_at": "2026-09-13T23:07:14.030674+00:00",
+      "wall_seconds": 15.998783
+    },
+    {
+      "document_id": "KB-B027-NORDEA-AR2025",
+      "page": 191,
+      "themes": [
+        "circularity"
+      ],
+      "output_directory": "artifacts/scale_batch_027/mineru_targets_RESUME02/KB-B027-NORDEA-AR2025-p0191",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_027/mineru_targets_RESUME02/KB-B027-NORDEA-AR2025-p0191/esg_rd_mineru_run.json",
+      "started_at": "2026-09-13T23:07:14.031020+00:00",
+      "completed_at": "2026-09-13T23:07:28.537053+00:00",
+      "wall_seconds": 14.505956
+    },
+    {
+      "document_id": "KB-B027-HANDELSBANKEN-AR2025",
+      "page": 79,
+      "themes": [
+        "water"
+      ],
+      "output_directory": "artifacts/scale_batch_027/mineru_targets_RESUME02/KB-B027-HANDELSBANKEN-AR2025-p0079",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_027/mineru_targets_RESUME02/KB-B027-HANDELSBANKEN-AR2025-p0079/esg_rd_mineru_run.json",
+      "started_at": "2026-09-13T23:07:28.537402+00:00",
+      "completed_at": "2026-09-13T23:07:43.036405+00:00",
+      "wall_seconds": 14.498928
+    },
+    {
+      "document_id": "KB-B027-HANDELSBANKEN-AR2025",
+      "page": 86,
+      "themes": [
+        "targets"
+      ],
+      "output_directory": "artifacts/scale_batch_027/mineru_targets_RESUME02/KB-B027-HANDELSBANKEN-AR2025-p0086",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_027/mineru_targets_RESUME02/KB-B027-HANDELSBANKEN-AR2025-p0086/esg_rd_mineru_run.json",
+      "started_at": "2026-09-13T23:07:43.036827+00:00",
+      "completed_at": "2026-09-13T23:07:58.621904+00:00",
+      "wall_seconds": 15.584995
+    },
+    {
+      "document_id": "KB-B027-HANDELSBANKEN-AR2025",
+      "page": 87,
+      "themes": [
+        "energy"
+      ],
+      "output_directory": "artifacts/scale_batch_027/mineru_targets_RESUME02/KB-B027-HANDELSBANKEN-AR2025-p0087",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_027/mineru_targets_RESUME02/KB-B027-HANDELSBANKEN-AR2025-p0087/esg_rd_mineru_run.json",
+      "started_at": "2026-09-13T23:07:58.622270+00:00",
+      "completed_at": "2026-09-13T23:08:14.645942+00:00",
+      "wall_seconds": 16.023586
+    },
+    {
+      "document_id": "KB-B027-HANDELSBANKEN-AR2025",
+      "page": 92,
+      "themes": [
+        "ghg_emissions"
+      ],
+      "output_directory": "artifacts/scale_batch_027/mineru_targets_RESUME02/KB-B027-HANDELSBANKEN-AR2025-p0092",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_027/mineru_targets_RESUME02/KB-B027-HANDELSBANKEN-AR2025-p0092/esg_rd_mineru_run.json",
+      "started_at": "2026-09-13T23:08:14.646294+00:00",
+      "completed_at": "2026-09-13T23:08:29.232129+00:00",
+      "wall_seconds": 14.585758
+    },
+    {
+      "document_id": "KB-B027-HANDELSBANKEN-AR2025",
+      "page": 99,
+      "themes": [
+        "health_safety"
+      ],
+      "output_directory": "artifacts/scale_batch_027/mineru_targets_RESUME02/KB-B027-HANDELSBANKEN-AR2025-p0099",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_027/mineru_targets_RESUME02/KB-B027-HANDELSBANKEN-AR2025-p0099/esg_rd_mineru_run.json",
+      "started_at": "2026-09-13T23:08:29.232493+00:00",
+      "completed_at": "2026-09-13T23:08:43.773679+00:00",
+      "wall_seconds": 14.541109
+    },
+    {
+      "document_id": "KB-B027-HANDELSBANKEN-AR2025",
+      "page": 140,
+      "themes": [
+        "biodiversity",
+        "circularity"
+      ],
+      "output_directory": "artifacts/scale_batch_027/mineru_targets_RESUME02/KB-B027-HANDELSBANKEN-AR2025-p0140",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_027/mineru_targets_RESUME02/KB-B027-HANDELSBANKEN-AR2025-p0140/esg_rd_mineru_run.json",
+      "started_at": "2026-09-13T23:08:43.774064+00:00",
+      "completed_at": "2026-09-13T23:08:58.343714+00:00",
+      "wall_seconds": 14.569574
+    },
+    {
+      "document_id": "KB-B027-HANDELSBANKEN-AR2025",
+      "page": 142,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_027/mineru_targets_RESUME02/KB-B027-HANDELSBANKEN-AR2025-p0142",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_027/mineru_targets_RESUME02/KB-B027-HANDELSBANKEN-AR2025-p0142/esg_rd_mineru_run.json",
+      "started_at": "2026-09-13T23:08:58.344126+00:00",
+      "completed_at": "2026-09-13T23:09:13.358868+00:00",
+      "wall_seconds": 15.014663
+    },
+    {
+      "document_id": "KB-B027-HANDELSBANKEN-AR2025",
+      "page": 143,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_027/mineru_targets_RESUME02/KB-B027-HANDELSBANKEN-AR2025-p0143",
+      "status": "complete",
+      "started_at": "2026-09-13T23:09:13.359254+00:00",
+      "completed_at": "2026-09-13T23:09:27.017114+00:00",
+      "wall_seconds": 13.657788
+    },
+    {
+      "document_id": "KB-B027-SECURITAS-AR2025",
+      "page": 75,
+      "themes": [
+        "biodiversity"
+      ],
+      "output_directory": "artifacts/scale_batch_027/mineru_targets_RESUME02/KB-B027-SECURITAS-AR2025-p0075",
+      "status": "complete",
+      "started_at": "2026-09-13T23:09:27.017502+00:00",
+      "completed_at": "2026-09-13T23:09:43.506566+00:00",
+      "wall_seconds": 16.488976
+    },
+    {
+      "document_id": "KB-B027-SECURITAS-AR2025",
+      "page": 80,
+      "themes": [
+        "targets"
+      ],
+      "output_directory": "artifacts/scale_batch_027/mineru_targets_RESUME02/KB-B027-SECURITAS-AR2025-p0080",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_027/mineru_targets_RESUME02/KB-B027-SECURITAS-AR2025-p0080/esg_rd_mineru_run.json",
+      "started_at": "2026-09-13T23:09:43.506970+00:00",
+      "completed_at": "2026-09-13T23:09:59.142359+00:00",
+      "wall_seconds": 15.635306
+    },
+    {
+      "document_id": "KB-B027-SECURITAS-AR2025",
+      "page": 81,
+      "themes": [
+        "circularity"
+      ],
+      "output_directory": "artifacts/scale_batch_027/mineru_targets_RESUME02/KB-B027-SECURITAS-AR2025-p0081",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_027/mineru_targets_RESUME02/KB-B027-SECURITAS-AR2025-p0081/esg_rd_mineru_run.json",
+      "started_at": "2026-09-13T23:09:59.142746+00:00",
+      "completed_at": "2026-09-13T23:10:13.721299+00:00",
+      "wall_seconds": 14.578474
+    },
+    {
+      "document_id": "KB-B027-SECURITAS-AR2025",
+      "page": 103,
+      "themes": [
+        "water"
+      ],
+      "output_directory": "artifacts/scale_batch_027/mineru_targets_RESUME02/KB-B027-SECURITAS-AR2025-p0103",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_027/mineru_targets_RESUME02/KB-B027-SECURITAS-AR2025-p0103/esg_rd_mineru_run.json",
+      "started_at": "2026-09-13T23:10:13.721691+00:00",
+      "completed_at": "2026-09-13T23:10:29.648160+00:00",
+      "wall_seconds": 15.926385
+    },
+    {
+      "document_id": "KB-B027-SECURITAS-AR2025",
+      "page": 175,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_027/mineru_targets_RESUME02/KB-B027-SECURITAS-AR2025-p0175",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_027/mineru_targets_RESUME02/KB-B027-SECURITAS-AR2025-p0175/esg_rd_mineru_run.json",
+      "started_at": "2026-09-13T23:10:29.648555+00:00",
+      "completed_at": "2026-09-13T23:10:45.579544+00:00",
+      "wall_seconds": 15.930906
+    },
+    {
+      "document_id": "KB-B027-SECURITAS-AR2025",
+      "page": 176,
+      "themes": [
+        "assurance"
+      ],
+      "output_directory": "artifacts/scale_batch_027/mineru_targets_RESUME02/KB-B027-SECURITAS-AR2025-p0176",
+      "status": "failed",
+      "error": "MinerU failed; audit record: /Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/artifacts/scale_batch_027/mineru_targets_RESUME02/KB-B027-SECURITAS-AR2025-p0176/esg_rd_mineru_run.json",
+      "started_at": "2026-09-13T23:10:45.579972+00:00",
+      "completed_at": "2026-09-13T23:11:00.584251+00:00",
+      "wall_seconds": 15.0042
+    }
+  ]
+}

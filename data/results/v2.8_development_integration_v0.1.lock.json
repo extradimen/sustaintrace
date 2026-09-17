@@ -1,0 +1,44 @@
+{
+  "schema_version": "2.8",
+  "status": "development_integration_passed",
+  "development_source": "P18 exposed failures only",
+  "locked_experiments_modified": false,
+  "changes": {
+    "exact_handle_role_calculation_binding": {
+      "status": "integrated_into_reusable_stage_a_runner",
+      "behavior": "bind unlabeled candidate inputs only through a frozen exact evidence-handle-to-role map",
+      "partial_output_policy": "retain bound roles, mark missing roles, and never invent values",
+      "source_literals_preserved": true,
+      "approximate_handle_repair": false
+    },
+    "stage_a_task_identity_gate": {
+      "status": "integrated_as_opt_in_gate",
+      "behavior": "reject missing or wrong task_id explicitly",
+      "task_id_synthesized": false
+    },
+    "text_slot_comparison": {
+      "status": "available_for_future_scoring",
+      "dimensions": ["literal_exact", "normalized_exact", "token_jaccard"],
+      "candidate_original_preserved": true,
+      "reference_original_preserved": true,
+      "semantic_rewrite_applied": false
+    }
+  },
+  "p18_failure_diagnosis": {
+    "calculation_failures": 3,
+    "root_cause": "P18 enabled the v2.5 adapter and v2.7 partial flag, but the v2.7 fallback was reachable only through the v2.6 adapter branch; unlabeled inputs therefore stopped at empty metric matching.",
+    "p18_rerun": false,
+    "p18_result_changed": false
+  },
+  "verification": {
+    "pytest": {"status": "passed", "tests": 277},
+    "ruff": {"status": "passed"},
+    "p18_exposed_regressions": {"status": "passed", "tests": 6},
+    "v27_compatibility_regressions": {"status": "passed", "tests": 5}
+  },
+  "artifact_sha256": {
+    "v28_integrity": "768ecd037e65913e40a3655786ab7b9204893cacb163bc541feafbbf71ecf7a1",
+    "stage_a_runner": "51312966203f3e7ebd456aa111a54d0e4b1300e6a1d1d4b2a8456d9de91675a7",
+    "regression_tests": "7d6dbcc8cbfc783082997464450032737ab66f0da5cb3c40635143bd747dfd9e"
+  }
+}

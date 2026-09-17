@@ -1,0 +1,22 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-001-RESUME01",
+  "status": "atomic_validation_complete_fail_closed",
+  "candidate_count": 14,
+  "table_graph_coordinate_exact_count": 14,
+  "native_quote_present_count": 14,
+  "native_row_header_present_count": 4,
+  "native_column_header_present_count": 14,
+  "coordinate_corroborated_count": 4,
+  "held_tier_c_count": 14,
+  "promoted_tier_b_count": 0,
+  "output": {
+    "path": "data/knowledge_bases/v0.1/increments/scale_batch_001_atomic_validations.jsonl",
+    "sha256": "1a7f0a79aad7fe7478b2ff602ef66ec3ea550cb5cb85af10e04d713595247994"
+  },
+  "policy": {
+    "native_parser_corroboration_is_not_external_assurance": true,
+    "no_automatic_promotion": true,
+    "locked_experiments_modified": false
+  }
+}

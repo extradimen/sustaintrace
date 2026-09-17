@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/esg-reliable-discovery/workbench-repair-dispatch-v1.0.schema.json",
+  "title": "Workbench repair dispatch v1.0",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "record_kind", "dispatch_id", "repair_plan_id", "fact_record_id", "decision", "checks", "blocking_reasons", "execution_started", "execution_state", "promotion_performed", "cloud_transfer_performed", "locked_experiments_modified"],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "record_kind": {"const": "workbench_repair_dispatch"},
+    "dispatch_id": {"type": "string", "pattern": "^workbench-repair-dispatch-[0-9a-f]{24}$"},
+    "repair_plan_id": {"type": "string"},
+    "fact_record_id": {"type": "string"},
+    "decision": {"enum": ["blocked", "ready_for_supervised_execution", "ready_for_automatic_execution"]},
+    "checks": {"type": "object", "additionalProperties": {"type": "boolean"}},
+    "blocking_reasons": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "execution_started": {"const": false},
+    "execution_state": {"const": "planned"},
+    "promotion_performed": {"const": false},
+    "cloud_transfer_performed": {"const": false},
+    "locked_experiments_modified": {"const": false}
+  }
+}

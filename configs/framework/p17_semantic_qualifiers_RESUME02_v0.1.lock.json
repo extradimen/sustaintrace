@@ -1,0 +1,16 @@
+{
+  "schema_version": "2.6",
+  "experiment_id": "P17-V26-UNSEEN-LOCKBOX-V01",
+  "status": "frozen_before_candidate_inference",
+  "qualifiers": {
+    "reporting_period": "calendar year 2025 unless a comparative, base or target year is explicitly named",
+    "page_coordinates": "one-based PDF page indexes",
+    "P17-GHG-CALC-001": {"boundary":"market-based Scope 1 and Scope 2; distinguish disclosed Scope 1+2 from reduction-path targeted scopes; footnote markers are not digits in the value","calculation":"framework executes only the frozen role order and Decimal operations"},
+    "P17-SCOPE3-BOUNDARY-001": {"boundary":"preserve no-reporting versus partial-reporting categories and allocation notes; do not turn narrative shorthand on page 129 into extra no-reporting categories"},
+    "P17-WATER-001": {"boundary":"preserve m3, 2025/2024 column binding, reported changes, retrospective adjustments and first-time withdrawal comparator"},
+    "P17-SAFETY-001": {"boundary":"preserve employee versus temporary-agency-worker counts/rates and BMW employee versus external site-worker fatalities; use narrative fallback for the dropped table cell"},
+    "P17-WORKFORCE-001": {"boundary":"contract-type gender counts and management gender counts/shares remain distinct; the 2030 target applies to BMW AG Germany and four levels below the Board"},
+    "P17-ASSURE-001": {"boundary":"preserve report-wide limited assurance, the marked reasonable-assurance subset, the excluded Foreword, negative versus positive conclusion forms, ISAE 3000 Revised and procedure differences"},
+    "reference_type": "AI-simulated research reference; not independent human gold"
+  }
+}

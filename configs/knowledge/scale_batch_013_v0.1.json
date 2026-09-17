@@ -1,0 +1,68 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-013",
+  "status": "source_selection_frozen_before_acquisition",
+  "policy": {
+    "local_only": true,
+    "cloud_transmission": false,
+    "locked_experiments_untouched": [
+      "P3-P23",
+      "KB-SCALE-BATCH-001-through-012"
+    ],
+    "download_resume": true,
+    "overwrite_verified_files": false,
+    "fact_promotion_requires_independent_gate": true,
+    "performance_baseline_required": true,
+    "native_table_corroboration_version": "v34_bounded_layout_column_reassembly_v1"
+  },
+  "selection_rationale": "Three previously unused issuer-hosted English 2025 annual or sustainability reports from marine and energy technology, household appliances, and industrial bearings. The set broadens sector and table-layout coverage for the first unseen local regression of v3.4.",
+  "performance_baseline": {
+    "comparison_parent": "data/results/scale_batch_012_performance_baseline.lock.json",
+    "separate_from_knowledge_quality": true,
+    "target_pages_per_document": 9
+  },
+  "documents": [
+    {
+      "document_id": "KB-B013-WARTSILA-AR2025",
+      "source_group_id": "KB-WARTSILA-2025",
+      "company": "Wärtsilä Oyj Abp",
+      "title": "Wärtsilä Annual Report 2025",
+      "report_year": 2025,
+      "official_landing_page": "https://www.wartsila.com/investors/reports-presentations/annual-report/annual-report-material",
+      "download_url": "https://www.wartsila.com/docs/default-source/investors/financial-materials/annual-reports/w%C3%A4rtsil%C3%A4-annual-report-2025.pdf?sfvrsn=94090d42_3",
+      "official_domain": "www.wartsila.com",
+      "local_path": "data/raw/scale_batch_013/wartsila-annual-report-2025.pdf",
+      "source_role": "primary_report",
+      "language": "English",
+      "prior_experiment_use": false
+    },
+    {
+      "document_id": "KB-B013-ELECTROLUX-AR2025",
+      "source_group_id": "KB-ELECTROLUX-2025",
+      "company": "AB Electrolux",
+      "title": "Electrolux Group Annual Report 2025",
+      "report_year": 2025,
+      "official_landing_page": "https://www.electroluxgroup.com/en/category/sustainability/",
+      "download_url": "https://www.electroluxgroup.com/wp-content/uploads/sites/2/2026/02/Annual-Report-2025.pdf",
+      "official_domain": "www.electroluxgroup.com",
+      "local_path": "data/raw/scale_batch_013/electrolux-group-annual-report-2025.pdf",
+      "source_role": "primary_report",
+      "language": "English",
+      "prior_experiment_use": false
+    },
+    {
+      "document_id": "KB-B013-SKF-ASR2025",
+      "source_group_id": "KB-SKF-2025",
+      "company": "AB SKF",
+      "title": "SKF Annual and Sustainability Report 2025",
+      "report_year": 2025,
+      "official_landing_page": "https://www.skf.com/group/investors/financials/annual-reports?page=1",
+      "download_url": "https://www.skf.com/financial-reports-service/download/2242/report/Annual%20Report%202025",
+      "official_domain": "www.skf.com",
+      "local_path": "data/raw/scale_batch_013/skf-annual-and-sustainability-report-2025.pdf",
+      "source_role": "primary_report",
+      "language": "English",
+      "prior_experiment_use": false
+    }
+  ]
+}

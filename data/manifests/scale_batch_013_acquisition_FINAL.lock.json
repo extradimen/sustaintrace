@@ -1,0 +1,35 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-013",
+  "created_at": "2026-09-13T07:14:07.161536+00:00",
+  "source_config": "configs/knowledge/scale_batch_013_v0.1.json",
+  "documents": [
+    {
+      "document_id": "KB-B013-WARTSILA-AR2025",
+      "local_path": "data/raw/scale_batch_013/wartsila-annual-report-2025.pdf",
+      "bytes": 58645887,
+      "sha256": "55737cdd163cb2c7077ef46afd42184debfd9a3116cb02b1f63ba5e53f20c3cb",
+      "pdf_header_valid": true,
+      "download_status": "reused_verified_pdf",
+      "resumed_from_bytes": 0
+    },
+    {
+      "document_id": "KB-B013-ELECTROLUX-AR2025",
+      "local_path": "data/raw/scale_batch_013/electrolux-group-annual-report-2025.pdf",
+      "bytes": 37222297,
+      "sha256": "dcaf78e2d04f7b6b793d458826d304983dbb593b50a1404208414261bd7d2630",
+      "pdf_header_valid": true,
+      "download_status": "reused_verified_pdf",
+      "resumed_from_bytes": 0
+    },
+    {
+      "document_id": "KB-B013-SKF-ASR2025",
+      "local_path": "data/raw/scale_batch_013/skf-annual-and-sustainability-report-2025.pdf",
+      "bytes": 7284587,
+      "sha256": "065739ef743bd04cd8f5bee66eaaf0c19dc7abbdd168252eff607176e752c930",
+      "pdf_header_valid": true,
+      "download_status": "reused_verified_pdf",
+      "resumed_from_bytes": 0
+    }
+  ]
+}

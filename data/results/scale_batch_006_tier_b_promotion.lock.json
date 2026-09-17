@@ -1,0 +1,37 @@
+{
+  "blocked_by_reason": {
+    "prior_period_assurance_scope_not_established": [
+      "fact-0655447566d09d7c43899f3a",
+      "fact-3debd82aa0d1a6003b26c228",
+      "fact-57e79ef93ccfd8cae615be40",
+      "fact-6054b77dac64ee29b6a58f9a"
+    ]
+  },
+  "blocked_fact_ids": [
+    "fact-0655447566d09d7c43899f3a",
+    "fact-3debd82aa0d1a6003b26c228",
+    "fact-57e79ef93ccfd8cae615be40",
+    "fact-6054b77dac64ee29b6a58f9a"
+  ],
+  "inputs": {
+    "atomic_increment_sha256": "543259da93d1909f6fb0fcc6e6682656c9dce93fee9979d28e05db75528842d7"
+  },
+  "locked_experiments_modified_or_rescored": false,
+  "newly_promoted_to_tier_b": 4,
+  "next_gate": "scale_batch_006_global_kb_rebuild_and_closure",
+  "outputs": {
+    "adjudications_sha256": "c95450b033d0fed12dedf826a6045a36c9ea5abc02da53c358210f71c8927a33",
+    "trusted_facts_sha256": "f560f44fc657e467ebb847a9a82ee701b6c8c75a562567fec325e4e51330b47d"
+  },
+  "promotable_fact_ids": [
+    "fact-2eba557270e1beb5bf4e8be9",
+    "fact-39a82930cf824b7e2b4327da",
+    "fact-8b592f76837c3f3219cad2d7",
+    "fact-b424fbe8250d9656891226d3"
+  ],
+  "reviewed": 8,
+  "schema_version": "0.1",
+  "source_candidate_records_modified": 0,
+  "status": "scale_batch_006_six_dimension_tier_b_sampling_complete",
+  "total_trusted_tier_b": 69
+}

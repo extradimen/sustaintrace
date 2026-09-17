@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0",
+  "manifest_id": "P23-SOURCE-SELECTION-ATTEMPTS-v0.1",
+  "experiment_id": "P23-V32-UNSEEN-LOCKBOX-V01",
+  "frozen_date": "2026-09-12",
+  "attempts": [
+    {
+      "sequence": 1,
+      "company": "AstraZeneca PLC",
+      "title": "Annual Report 2025",
+      "source_type": "official_issuer_english_pdf",
+      "outcome": "not_selected",
+      "failure_class": "source_acquisition_http_403",
+      "accepted_bytes": false,
+      "local_artifact_present": false,
+      "cloud_transmission_occurred": false,
+      "task_authoring_occurred": false,
+      "note": "Issuer-hosted normal and accessible PDF endpoints both returned HTTP 403. No valid PDF was retained and the candidate was abandoned before content inspection or task authoring."
+    },
+    {
+      "sequence": 2,
+      "company": "GSK plc",
+      "title": "2025 Annual Report",
+      "source_type": "official_issuer_english_pdf",
+      "source_page_url": "https://www.gsk.com/en-gb/investors/financial-reports/annual-report-2025/",
+      "source_url": "https://www.gsk.com/media/kn0bknmd/annual-report-2025.pdf",
+      "outcome": "selected_and_source_frozen",
+      "accepted_bytes": true,
+      "sha256": "a3ef37d848fca940f85b6c33815a5d47d1f32726fd389a03910653e24af0f4d2",
+      "cloud_transmission_occurred": false,
+      "task_authoring_occurred_before_source_freeze": false
+    }
+  ]
+}

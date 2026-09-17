@@ -1,0 +1,67 @@
+{
+  "schema_version": "0.2",
+  "batch_id": "KB-SCALE-BATCH-024-RESUME01",
+  "parent_batch_id": "KB-SCALE-BATCH-024",
+  "resume_reason": "Hydro integrated report references an external KPMG assurance opinion but does not contain the complete signed assurance report",
+  "status": "replacement_source_set_frozen_before_diagnostics",
+  "policy": {
+    "local_only": true,
+    "cloud_transmission": false,
+    "overwrite_verified_files": false,
+    "fact_promotion_requires_independent_gate": true,
+    "performance_baseline_required": true,
+    "native_table_corroboration_version": "v34_bounded_layout_column_reassembly_v1",
+    "assurance_window_preflight_required": true,
+    "cross_experiment_sha256_deduplication_required": true,
+    "locked_experiments_untouched": ["P3-P23", "KB-SCALE-BATCH-001-through-023"]
+  },
+  "performance_baseline": {
+    "comparison_parent": "data/results/scale_batch_023_RESUME02_performance_baseline.lock.json",
+    "separate_from_knowledge_quality": true,
+    "target_pages_per_document": 9
+  },
+  "documents": [
+    {
+      "document_id": "KB-B024-FORTUM-FIN2025",
+      "source_group_id": "KB-FORTUM-2025",
+      "company": "Fortum Oyj",
+      "title": "Fortum Financials 2025",
+      "report_year": 2025,
+      "official_landing_page": "https://www.fortum.com/investors/reports-and-presentations/fortum-annual-review-2025",
+      "download_url": "https://www.fortum.com/sites/default/files/investor-documents/Fortum-Financials2025.pdf",
+      "official_domain": "www.fortum.com",
+      "local_path": "data/raw/scale_batch_024/fortum-financials-2025.pdf",
+      "source_role": "primary_report",
+      "language": "English",
+      "prior_experiment_use": false
+    },
+    {
+      "document_id": "KB-B024-YARA-AR2025",
+      "source_group_id": "KB-YARA-2025",
+      "company": "Yara International ASA",
+      "title": "Yara Annual Report 2025",
+      "report_year": 2025,
+      "official_landing_page": "https://www.yara.com/corporate-releases/yara-publishes-2025-annual-report3/",
+      "download_url": "https://www.yara.com/siteassets/investors/057-reports-and-presentations/annual-reports/2025/yara-annual-report-2025.pdf",
+      "official_domain": "www.yara.com",
+      "local_path": "data/raw/scale_batch_024/yara-annual-report-2025.pdf",
+      "source_role": "primary_report",
+      "language": "English",
+      "prior_experiment_use": false
+    },
+    {
+      "document_id": "KB-B024-TELENOR-AR2025",
+      "source_group_id": "KB-TELENOR-2025",
+      "company": "Telenor ASA",
+      "title": "Telenor Annual Report 2025",
+      "report_year": 2025,
+      "official_landing_page": "https://www.telenor.com/investors/reports-and-information/annual/annual-report-2025/",
+      "download_url": "https://www.telenor.com/binaries/investors/reports-and-information/annual/annual-report-2025/Annual-Report-2025-English.pdf",
+      "official_domain": "www.telenor.com",
+      "local_path": "data/raw/scale_batch_024/telenor-annual-report-2025.pdf",
+      "source_role": "primary_report",
+      "language": "English",
+      "prior_experiment_use": false
+    }
+  ]
+}

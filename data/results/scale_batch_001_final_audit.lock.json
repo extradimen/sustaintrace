@@ -1,0 +1,110 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-001-RESUME01",
+  "status": "batch_local_ingestion_complete",
+  "checks": {
+    "target_pages": 26,
+    "successful_mineru_pages": 26,
+    "all_target_pages_have_successful_generation": true,
+    "locked_experiments_modified": false,
+    "cloud_transmission": false,
+    "fact_candidates_promoted_automatically": false
+  },
+  "files": [
+    {
+      "path": "configs/knowledge/scale_batch_001_v0.1.json",
+      "bytes": 3073,
+      "sha256": "5d5bf644d2c7603405855bc7183b7a27137454ce93e8143135a3f5927901c3d3"
+    },
+    {
+      "path": "configs/knowledge/scale_batch_001_RESUME01_v0.2.json",
+      "bytes": 2363,
+      "sha256": "a98627d349a20ce3b9d1a001c32a636feb06baf47a84f2ee9a70f9df662f4da8"
+    },
+    {
+      "path": "data/manifests/scale_batch_001_acquisition_failures.lock.json",
+      "bytes": 1051,
+      "sha256": "cb6e862bbe0cc3b4921e9b434f2752a2b4ac16514d544a58975987ec0b12dd47"
+    },
+    {
+      "path": "data/manifests/scale_batch_001_acquisition.lock.json",
+      "bytes": 1274,
+      "sha256": "24cf75361e5067d820a280b418d5b8ee6e149ced59bd5491fdc52d92b4f6e7b6"
+    },
+    {
+      "path": "data/results/scale_batch_001_diagnostics.lock.json",
+      "bytes": 13163,
+      "sha256": "489c003848319c7be136fde008ec2abd5b54b02e44d476fc3b7c517e6bf060c8"
+    },
+    {
+      "path": "data/manifests/scale_batch_001_target_pages.lock.json",
+      "bytes": 7828,
+      "sha256": "8f53df64df179f4f287c968e6bee2db9fc1bd7af106e78a57606fcd885e450dc"
+    },
+    {
+      "path": "data/results/scale_batch_001_mineru_summary.lock.json",
+      "bytes": 11530,
+      "sha256": "8265e72407a4f095101e1fa4a3cf1a012887f8d6b27400a7b705cf82446fe6fd"
+    },
+    {
+      "path": "data/manifests/scale_batch_001_mineru_RESUME01_lineage.lock.json",
+      "bytes": 514,
+      "sha256": "da3fa1cfd01e4c4bdc61660679156891dd9f75182cc27ea46545081bb220ad3a"
+    },
+    {
+      "path": "data/results/scale_batch_001_mineru_RESUME01_summary.lock.json",
+      "bytes": 7124,
+      "sha256": "3d646803636e827472c5d83ea862a9e40ad7f6a0f6ff0ebd7d104d31c2ea5807"
+    },
+    {
+      "path": "data/manifests/scale_batch_001_mineru_RESUME02_lineage.lock.json",
+      "bytes": 521,
+      "sha256": "24fc1d0e006b4faf0f7cad335f39f13a584289baea6eed79fd5b6828f2ec02a6"
+    },
+    {
+      "path": "data/results/scale_batch_001_mineru_RESUME02_summary.lock.json",
+      "bytes": 559,
+      "sha256": "b3c518f127e9e086dde32765ff5b840120bc5a7eac38285c53745f90fc9e1037"
+    },
+    {
+      "path": "data/results/scale_batch_001_kb_increment.lock.json",
+      "bytes": 1266,
+      "sha256": "9676f3048584f3e581d4e33000e5d1282f32f3202e4a8bd9997e9ab77dcec3f3"
+    },
+    {
+      "path": "data/results/scale_batch_001_evidence_gate.lock.json",
+      "bytes": 638,
+      "sha256": "c9516e0d6009478c699de70d60a3b6bd973420d0286fadfca202211cb531a4fa"
+    },
+    {
+      "path": "data/knowledge_bases/v0.1/increments/scale_batch_001_fact_records.jsonl",
+      "bytes": 86886,
+      "sha256": "134c1d95e17b873708691dee325c7ec8ae5ed6aaf7636fbd090398a175c7452c"
+    },
+    {
+      "path": "data/knowledge_bases/v0.1/increments/scale_batch_001_failure_records.jsonl",
+      "bytes": 28319,
+      "sha256": "09787cca17433cc694aa53e0e7eb2c15b1de40c8fb3aa75139731169afe0cb6a"
+    },
+    {
+      "path": "data/knowledge_bases/v0.1/increments/scale_batch_001_evidence_validations.jsonl",
+      "bytes": 17675,
+      "sha256": "cfaab76917696e0d7026cf895443768cf43044abdf8b8f776c115506684b6446"
+    },
+    {
+      "path": "data/knowledge_bases/v0.1/fact_records.jsonl",
+      "bytes": 2075821,
+      "sha256": "9a9b4ee42f9f6a1d4080b0b212b647681b2535f5911ff1fbd24e5092d98e84e5"
+    },
+    {
+      "path": "data/knowledge_bases/v0.1/failure_records.jsonl",
+      "bytes": 74862,
+      "sha256": "512e73323990aea76b56a3ca22f0f58ff8a9ee83210e779c34831c7cb2abdbe3"
+    },
+    {
+      "path": "configs/knowledge/repair_strategy_catalog_v0.1.json",
+      "bytes": 10874,
+      "sha256": "6d21eb205210bdbe03fa630bd54aeb44697832cb15448c1a78e1912f64beed03"
+    }
+  ]
+}

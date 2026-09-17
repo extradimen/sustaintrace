@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["schema_version", "record_kind", "policy", "facts", "repairs"],
+  "properties": {
+    "schema_version": {"const": "0.1"},
+    "record_kind": {"const": "esg_control_plane_query_response"},
+    "policy": {
+      "type": "object",
+      "required": ["read_only", "locked_experiments_modified_or_rescored", "candidate_facts_require_explicit_opt_in", "repair_success_requires_postvalidation"]
+    },
+    "facts": {"type": "object"},
+    "repairs": {"type": "object"}
+  }
+}

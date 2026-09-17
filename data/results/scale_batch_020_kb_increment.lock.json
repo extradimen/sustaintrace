@@ -1,0 +1,80 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-020",
+  "status": "increment_built_candidates_not_promoted",
+  "fact_candidates": 53,
+  "trusted_facts_promoted": 0,
+  "evidence_gaps": 9,
+  "failure_observations": 4,
+  "gaps": [
+    {
+      "document_id": "KB-B020-SOLVAY-AIR2025",
+      "page": 145,
+      "theme": "targets",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B020-SOLVAY-AIR2025",
+      "page": 323,
+      "theme": "assurance",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B020-KERING-URD2025",
+      "page": 207,
+      "theme": "targets",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B020-KERING-URD2025",
+      "page": 305,
+      "theme": "assurance",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B020-KERING-URD2025",
+      "page": 306,
+      "theme": "assurance",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B020-CARREFOUR-URD2025",
+      "page": 102,
+      "theme": "energy",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B020-CARREFOUR-URD2025",
+      "page": 239,
+      "theme": "assurance",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B020-CARREFOUR-URD2025",
+      "page": 240,
+      "theme": "assurance",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B020-CARREFOUR-URD2025",
+      "page": 241,
+      "theme": "assurance",
+      "reason": "no_theme_line_in_mineru_markdown"
+    }
+  ],
+  "outputs": {
+    "facts": {
+      "path": "data/knowledge_bases/v0.1/increments/scale_batch_020_fact_records.jsonl",
+      "sha256": "f604452c616a4dd6321f3b3ac0526f75b49ab10e492400b4aae3e6da4f5049d5"
+    },
+    "failures": {
+      "path": "data/knowledge_bases/v0.1/increments/scale_batch_020_failure_records.jsonl",
+      "sha256": "7e3f45e35a4119c6f154cd59563e8ee0349a342a8ce054046eda1dff32795e66"
+    }
+  },
+  "policy": {
+    "cloud_transmission": false,
+    "locked_experiments_modified": false,
+    "automatic_promotion": false
+  }
+}

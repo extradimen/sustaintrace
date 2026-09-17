@@ -1,0 +1,32 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-009",
+  "status": "increment_built_candidates_not_promoted",
+  "fact_candidates": 51,
+  "trusted_facts_promoted": 0,
+  "evidence_gaps": 1,
+  "failure_observations": 4,
+  "gaps": [
+    {
+      "document_id": "KB-B009-ORSTED-AR2025",
+      "page": 72,
+      "theme": "water",
+      "reason": "no_theme_line_in_mineru_markdown"
+    }
+  ],
+  "outputs": {
+    "facts": {
+      "path": "data/knowledge_bases/v0.1/increments/scale_batch_009_fact_records.jsonl",
+      "sha256": "35c25e0ec1cc13a2e00fefe18f13fa3dcf4f2227e0a13a21c9579e784798caca"
+    },
+    "failures": {
+      "path": "data/knowledge_bases/v0.1/increments/scale_batch_009_failure_records.jsonl",
+      "sha256": "cfc698da7da6743a4151f848c32c7bd1f7388ae187bb53c5d70f9e59a1aef68f"
+    }
+  },
+  "policy": {
+    "cloud_transmission": false,
+    "locked_experiments_modified": false,
+    "automatic_promotion": false
+  }
+}

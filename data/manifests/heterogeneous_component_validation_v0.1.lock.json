@@ -1,0 +1,225 @@
+{
+  "schema_version": "0.1",
+  "record_kind": "heterogeneous_component_validation_manifest",
+  "status": "frozen_not_executed",
+  "selection_source": {
+    "path": "data/results/heterogeneous_component_candidate_inventory_RESUME04_v0.1.lock.json",
+    "sha256": "46b089667d543716f710f2bce1ce2cb86bd468104722e621d2fdb67683a1de62"
+  },
+  "coverage_limits": {
+    "field_positive_contracts": 0,
+    "field_reason": "all 461 unexposed field-gap facts have evidence collection cardinality of at least two while the frozen diagnostic requires exactly one source literal",
+    "unit_distinct_reports": 1,
+    "unit_reason": "Shell is the only report not previously exposed to the unit component",
+    "aggregate_score_must_not_imply_field_positive_or_unit_cross_report_generalization": true
+  },
+  "scoring_rules": {
+    "positive": "pass only when every explicitly frozen output field matches",
+    "negative": "pass only when the diagnostic blocks or raises the frozen class of structural error",
+    "execution_attempts_per_case": 1,
+    "silent_retry_allowed": false,
+    "posthoc_semantic_repair_allowed": false
+  },
+  "cases": [
+    {
+      "case_id": "HET-FIELD-NEG-LOREAL-001",
+      "component": "FIELD_EVIDENCE_BINDING_INCOMPLETE",
+      "polarity": "negative",
+      "gap_id": "gap-f228b58a6110d64b9e98c151",
+      "fact_record_id": "fact-9324f5730b37e5d7d7bed3ba",
+      "source": {"path": "data/raw/p14_staging/loreal-2025-universal-registration-document.pdf", "sha256": "db63807f5963c3e70422bbb9a0763f2f53be4139d5ee57984717bfa056275aa2"},
+      "pages": [213],
+      "runner": "read_only",
+      "required_fields": ["field_id", "collection_cardinality", "evidence_coordinates", "unique_binding", "blocking_reasons"],
+      "expected": {"outcome": "blocked"}
+    },
+    {
+      "case_id": "HET-FIELD-NEG-SANOFI-001",
+      "component": "FIELD_EVIDENCE_BINDING_INCOMPLETE",
+      "polarity": "negative",
+      "gap_id": "gap-e5c7e621493f43f223c46e9c",
+      "fact_record_id": "fact-ea789b989b68006d3f8b1d4c",
+      "source": {"path": "data/raw/p16_staging/sanofi-sustainability-statement-2025.pdf", "sha256": "82547ddb72b6b05dca88f93ed4cfe13010cb5690a5693b96721e9be3ff9c8fcc"},
+      "pages": [90],
+      "runner": "read_only",
+      "required_fields": ["field_id", "collection_cardinality", "evidence_coordinates", "unique_binding", "blocking_reasons"],
+      "expected": {"outcome": "blocked"}
+    },
+    {
+      "case_id": "HET-PERIOD-POS-NOVO-001",
+      "component": "PERIOD_ATTACHMENT_INCOMPLETE",
+      "polarity": "positive",
+      "gap_id": "gap-0eb1617d8d6ed0fc4b4f9011",
+      "fact_record_id": "fact-2d29009aaa6fdcf633ebfabd",
+      "source": {"path": "data/raw/p19_staging/novo-nordisk-annual-report-2025.pdf", "sha256": "f5475f1e043eaa99526772c0e06677a74ab2c2abb8181755afbe02a10e395092"},
+      "pages": [66],
+      "runner": "period_screen",
+      "adapter_inputs": {"page": 66, "row_label": "Scope 2 GHG emissions - market-based", "value": 63, "parser_year": "2025"},
+      "expected": {"outcome": "eligible", "period": "2025", "value": 63}
+    },
+    {
+      "case_id": "HET-PERIOD-POS-SANOFI-001",
+      "component": "PERIOD_ATTACHMENT_INCOMPLETE",
+      "polarity": "positive",
+      "gap_id": "gap-a52f25bbbb198460b520100a",
+      "fact_record_id": "fact-3aa11296f01c1fc32be45abe",
+      "source": {"path": "data/raw/p16_staging/sanofi-sustainability-statement-2025.pdf", "sha256": "82547ddb72b6b05dca88f93ed4cfe13010cb5690a5693b96721e9be3ff9c8fcc"},
+      "pages": [38],
+      "runner": "period_screen",
+      "adapter_inputs": {"page": 38, "row_label": "Gross market-based Scope 1 emissions", "value": 235, "parser_year": "2025"},
+      "expected": {"outcome": "eligible", "period": "2025", "value": 235}
+    },
+    {
+      "case_id": "HET-PERIOD-NEG-BASF-001",
+      "component": "PERIOD_ATTACHMENT_INCOMPLETE",
+      "polarity": "negative",
+      "gap_id": "gap-3247173e2bd75971460389cb",
+      "fact_record_id": "fact-d0455266ea981b2d876fea44",
+      "source": {"path": "data/raw/p21_staging/basf-report-2025.pdf", "sha256": "6fa0a9f60a3149e585a5b52f06efde1e0aaa5d1156da0d71a1fd40822df7f8b7"},
+      "pages": [194],
+      "runner": "period_screen",
+      "adapter_inputs": {"page": 194, "row_label": null, "value": -3.8, "parser_year": null},
+      "expected": {"outcome": "ineligible", "blocking_reason": "one_frozen_cell_or_field_not_supplied"}
+    },
+    {
+      "case_id": "HET-PERIOD-NEG-SHELL-001",
+      "component": "PERIOD_ATTACHMENT_INCOMPLETE",
+      "polarity": "negative",
+      "gap_id": "gap-17c5ec51d2a57d83d5edc303",
+      "fact_record_id": "fact-e6e29a2f164b88ef8e61b04d",
+      "source": {"path": "data/raw/p10_staging/shell-annual-report-2025.pdf", "sha256": "90b21028e1616c41c7d73c3e996fd6128d837a41b38d432286e991aed3fbd9a1"},
+      "pages": [369],
+      "runner": "period_screen",
+      "adapter_inputs": {"page": 369, "row_label": null, "value": -5.48, "parser_year": null},
+      "expected": {"outcome": "ineligible", "blocking_reason": "one_frozen_cell_or_field_not_supplied"}
+    },
+    {
+      "case_id": "HET-TABLE-POS-BAYER-001",
+      "component": "TABLE_CELL_BINDING_INCOMPLETE",
+      "polarity": "positive",
+      "gap_id": "gap-87870fa5e61eb1459207c346",
+      "fact_record_id": "fact-fdc24fab4283b04cd8a75e67",
+      "source": {"path": "data/raw/p22_staging/bayer-annual-report-2025.pdf", "sha256": "0af4a9d19fd9d4cba72c1ec062802199873f2379f84112dc2db5dc9605ce769b"},
+      "pages": [149],
+      "runner": "read_only",
+      "required_fields": ["page", "row_header", "normalized_row_header", "column_header", "column_path", "header_coordinates", "cell_value", "cell_coordinates"],
+      "adapter_inputs": {"row_label": "Share of fossil sources in total energy consumption (%)", "period": "2025", "target_value": 72.7},
+      "expected": {"outcome": "passed", "row_contains": "Share of fossil sources in total energy consumption", "period": "2025", "value": "72.7"}
+    },
+    {
+      "case_id": "HET-TABLE-POS-HOLCIM-001",
+      "component": "TABLE_CELL_BINDING_INCOMPLETE",
+      "polarity": "positive",
+      "gap_id": "gap-bc21ed4c48e1057fed6b0ea7",
+      "fact_record_id": "fact-8ee79ed2020c652a2277decc",
+      "source": {"path": "data/raw/p20_staging/holcim-sustainability-statement-2025.pdf", "sha256": "55b975cd13fc361638ed13bf32856a2629e46e88bdfc6ad9208bd8807992a599"},
+      "pages": [87],
+      "runner": "read_only",
+      "required_fields": ["page", "row_header", "normalized_row_header", "column_header", "column_path", "header_coordinates", "cell_value", "cell_coordinates"],
+      "adapter_inputs": {"row_label": "Absolute Scope 2 emissions (market-based)", "period": "2025", "target_value": 3},
+      "expected": {"outcome": "passed", "row_contains": "Absolute Scope 2 emissions (market-based)", "period": "2025", "value": "3"}
+    },
+    {
+      "case_id": "HET-TABLE-NEG-SIEMENS-001",
+      "component": "TABLE_CELL_BINDING_INCOMPLETE",
+      "polarity": "negative",
+      "gap_id": "gap-ea9f4491050e8d4a2e9a69a5",
+      "fact_record_id": "fact-b076b69806c907f496990c75",
+      "source": {"path": "data/raw/p11_staging/siemens-annual-report-2025.pdf", "sha256": "a702335f2c2d4f18d3ead4053df2fc3a9be3ad69b062bedd938f3b2551213b27"},
+      "pages": [178],
+      "runner": "read_only",
+      "required_fields": ["page", "row_header", "column_header", "cell_value", "cell_coordinates"],
+      "adapter_inputs": {"row_label": "Primary data was used to calculate", "period": "2025", "target_value": 0},
+      "expected": {"outcome": "not_passed"}
+    },
+    {
+      "case_id": "HET-TABLE-NEG-BMW-001",
+      "component": "TABLE_CELL_BINDING_INCOMPLETE",
+      "polarity": "negative",
+      "gap_id": "gap-591e05c5408c957f5e6b6c54",
+      "fact_record_id": "fact-98cb39de19a113aeb1a86efa",
+      "source": {"path": "data/raw/p17_staging/bmw-group-report-2025.pdf", "sha256": "7a7fd36bf7f274e776ef7eda30d3cda4335a99cbb45f097ae5e8268ccf7759e7"},
+      "pages": [178],
+      "runner": "read_only",
+      "required_fields": ["page", "row_header", "column_header", "cell_value", "cell_coordinates"],
+      "adapter_inputs": {"row_label": "workers of external companies", "period": "2025", "target_value": 3},
+      "expected": {"outcome": "not_passed"}
+    },
+    {
+      "case_id": "HET-NATIVE-POS-GSK-001",
+      "component": "NATIVE_PDF_CORROBORATION_INCOMPLETE",
+      "polarity": "positive",
+      "gap_id": "gap-54a4ffb8f59b38bc2188fdcb",
+      "fact_record_id": "fact-cf08ac052f400f635f90119a",
+      "source": {"path": "data/raw/p23_staging/gsk-annual-report-2025.pdf", "sha256": "a3ef37d848fca940f85b6c33815a5d47d1f32726fd389a03910653e24af0f4d2"},
+      "pages": [78],
+      "runner": "read_only",
+      "required_fields": ["page", "source_literal", "parser_literal", "normalized_literal", "literal_agreement", "layout_agreement"],
+      "adapter_inputs": {"row_tokens": ["Scope", "1", "energy"]},
+      "expected": {"outcome": "passed", "value": "289"}
+    },
+    {
+      "case_id": "HET-NATIVE-NEG-HOLCIM-001",
+      "component": "NATIVE_PDF_CORROBORATION_INCOMPLETE",
+      "polarity": "negative",
+      "gap_id": "gap-35b498297ba4af57b800fe75",
+      "fact_record_id": "fact-f490fcd99c7edd0ae19a2b86",
+      "source": {"path": "data/raw/p20_staging/holcim-sustainability-statement-2025.pdf", "sha256": "55b975cd13fc361638ed13bf32856a2629e46e88bdfc6ad9208bd8807992a599"},
+      "pages": [87],
+      "runner": "read_only",
+      "required_fields": ["page", "source_literal", "parser_literal", "normalized_literal", "literal_agreement", "layout_agreement"],
+      "adapter_inputs": {"row_tokens": ["Absolute", "emissions", "market-based"]},
+      "expected": {"outcome": "not_passed", "reason": "target literal exists only inside a structured multi-value quote"}
+    },
+    {
+      "case_id": "HET-UNIT-NEG-SHELL-001",
+      "component": "UNIT_ATTACHMENT_INCOMPLETE",
+      "polarity": "negative",
+      "gap_id": "gap-9262444e6cacbde2d4168d67",
+      "fact_record_id": "fact-c16eefb40db40f233be44ec0",
+      "source": {"path": "data/raw/p10_staging/shell-annual-report-2025.pdf", "sha256": "90b21028e1616c41c7d73c3e996fd6128d837a41b38d432286e991aed3fbd9a1"},
+      "pages": [420],
+      "runner": "unit_screen",
+      "adapter_inputs": {"page": 420, "row_label": "Fatality and permanent impairment", "value": 7, "bound_quote": "Revised from 7 FPIs to 8 FPIs and resulting FPI-F from 1.5 cases per 100 million hours to 1.7 cases per 100 million hours for 2024.", "unit_marker_candidates": ["FPI", "cases per 100 million hours"], "conversion_required": false},
+      "expected": {"outcome": "ineligible", "blocking_reason": "unit_marker_not_unique"}
+    },
+    {
+      "case_id": "HET-CALC-POS-SHELL-001",
+      "component": "CALCULATION_LINEAGE_INCOMPLETE",
+      "polarity": "positive",
+      "gap_id": "heterogeneous-calc-shell-scope1-pct-001",
+      "fact_record_id": "fact-e6e29a2f164b88ef8e61b04d",
+      "source": {"path": "data/raw/p10_staging/shell-annual-report-2025.pdf", "sha256": "90b21028e1616c41c7d73c3e996fd6128d837a41b38d432286e991aed3fbd9a1"},
+      "pages": [369],
+      "runner": "read_only",
+      "required_fields": ["input_cells", "operation_graph", "replay_output", "replay_status"],
+      "adapter_inputs": {"page": 369, "input_cells": [{"row": "Gross Scope 1 GHG emissions", "column": "2024"}, {"row": "Gross Scope 1 GHG emissions", "column": "2025"}], "operation": "percentage_change", "rounding_decimals": 2},
+      "expected": {"outcome": "passed", "operation": "percentage_change", "inputs": [73, 69], "value": -5.48}
+    },
+    {
+      "case_id": "HET-CALC-POS-TOTALENERGIES-001",
+      "component": "CALCULATION_LINEAGE_INCOMPLETE",
+      "polarity": "positive",
+      "gap_id": "heterogeneous-calc-totalenergies-scope12-pct-001",
+      "fact_record_id": "fact-ce32c4a37636ede82d8ef077",
+      "source": {"path": "data/raw/p9_staging/totalenergies-universal-registration-document-2025-en.pdf", "sha256": "58e1798ad874228bb60ec110721e8880cefdd11802e2e392e619c0bbe9768c50"},
+      "pages": [181],
+      "runner": "read_only",
+      "required_fields": ["input_cells", "operation_graph", "replay_output", "replay_status"],
+      "adapter_inputs": {"page": 181, "input_cells": [{"row": "Scope 1+2", "column": "2024"}, {"row": "Scope 1+2", "column": "2025"}], "operation": "percentage_change", "rounding_decimals": 2},
+      "expected": {"outcome": "passed", "operation": "percentage_change", "inputs": [34, 33], "value": -2.94}
+    }
+  ],
+  "parent_hashes": {
+    "fact_records": "1da6f28e8c1b3125d07a52d39aed4e095c6f40ef71378173c36a1486f7cb890c",
+    "knowledge_gap_records": "858a37ede7bd213c1c3d1e9136d5d8be6bc6e6f12f147124318347cb3a8cef76",
+    "source_page_audit": "98a455004e8baa1e3a1697f9bfdfec85580fe455dc9617f3b33f1a9fafe1a795"
+  },
+  "safety": {
+    "fact_write_allowed": false,
+    "trust_promotion_allowed": false,
+    "gap_mutation_allowed": false,
+    "cloud_transmission_allowed": false,
+    "bulk_repair_allowed": false
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "schema_version": "0.1",
+  "status": "frozen_policy_contracts_no_execution_authority",
+  "contracts": [
+    {
+      "contract_id": "ERC-EXACT-CELL-PREFERENCE-V01",
+      "causal_subtypes": ["rounded_value_selected"],
+      "risk_level": "medium",
+      "execution_policy": "supervised",
+      "required_inputs": ["parent_failure_hash", "frozen_evidence_packet", "native_cell_coordinates", "unit_and_period_binding"],
+      "validation_gates": ["exactly_one_bound_numeric_cell", "candidate_literal_differs_only_by_disallowed_rounding", "unit_and_period_exact", "parent_artifact_unchanged"],
+      "derived_output": "binding_audit_only",
+      "candidate_output_rewrite_allowed": false,
+      "rollback": "delete derived binding audit and preserve parent failure"
+    },
+    {
+      "contract_id": "ERC-ABSTENTION-EVIDENCE-PRESENCE-V01",
+      "causal_subtypes": ["exact_value_present_but_abstained"],
+      "risk_level": "medium",
+      "execution_policy": "supervised",
+      "required_inputs": ["parent_failure_hash", "frozen_evidence_packet", "native_cell_coordinates", "unit_and_period_binding"],
+      "validation_gates": ["exactly_one_bound_value", "value_present_in_frozen_evidence", "abstention_preserved", "parent_artifact_unchanged"],
+      "derived_output": "answerability_audit_only",
+      "candidate_output_rewrite_allowed": false,
+      "rollback": "delete derived answerability audit and preserve abstention"
+    },
+    {
+      "contract_id": "ERC-STAGE-B-HANDLE-PROJECTION-V01",
+      "causal_subtypes": ["stage_b_handle_binding_failure"],
+      "risk_level": "medium",
+      "execution_policy": "supervised",
+      "required_inputs": ["parent_failure_hash", "schema_valid_stage_a_output", "frozen_handle_catalog", "frozen_atomic_slot_contract"],
+      "validation_gates": ["stage_a_value_exact", "all_handles_canonical", "all_required_qualifiers_bound", "atomic_slot_schema_valid", "parent_artifact_unchanged"],
+      "derived_output": "deterministic_atomic_projection",
+      "candidate_output_rewrite_allowed": false,
+      "rollback": "delete derived projection and preserve failed Stage B output"
+    },
+    {
+      "contract_id": "ERC-PERIOD-WINDOW-RESELECTION-V01",
+      "causal_subtypes": ["period_anchor_missing"],
+      "risk_level": "medium",
+      "execution_policy": "supervised_new_lineage",
+      "required_inputs": ["parent_failure_hash", "frozen_source_document_hash", "target_metric_identity", "candidate_period_pages"],
+      "validation_gates": ["same_source_document", "period_literal_verbatim", "metric_and_period_colocated_or_explicitly_linked", "new_run_lineage", "parent_artifact_unchanged"],
+      "derived_output": "new_frozen_evidence_window_only",
+      "candidate_output_rewrite_allowed": false,
+      "rollback": "delete new evidence-window draft and preserve parent failure"
+    },
+    {
+      "contract_id": "ERC-ASSURANCE-WINDOW-RESELECTION-V01",
+      "causal_subtypes": ["assurance_window_incomplete"],
+      "risk_level": "medium",
+      "execution_policy": "supervised_new_lineage",
+      "required_inputs": ["parent_failure_hash", "frozen_source_document_hash", "assurance_statement_pages", "issuer_period_opinion_signatory_fields"],
+      "validation_gates": ["same_source_document", "issuer_identity_present", "reporting_period_present", "opinion_or_conclusion_present", "signatory_present", "new_run_lineage", "parent_artifact_unchanged"],
+      "derived_output": "new_frozen_assurance_window_only",
+      "candidate_output_rewrite_allowed": false,
+      "rollback": "delete new assurance-window draft and preserve parent failure"
+    },
+    {
+      "contract_id": "ERC-TRUNCATED-QUOTE-REJECT-V01",
+      "causal_subtypes": ["truncated_quote"],
+      "risk_level": "high",
+      "execution_policy": "blocked",
+      "required_inputs": ["parent_failure_hash", "candidate_quote", "frozen_evidence_packet"],
+      "validation_gates": ["verbatim_substring_required", "ellipsis_not_treated_as_source_text", "parent_artifact_unchanged"],
+      "derived_output": "rejection_audit_only",
+      "candidate_output_rewrite_allowed": false,
+      "rollback": "preserve parent failure and emit no repaired claim"
+    }
+  ]
+}

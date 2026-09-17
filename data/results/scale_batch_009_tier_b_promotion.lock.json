@@ -1,0 +1,86 @@
+{
+  "blocked_by_reason": {
+    "comparative_2024_not_explicitly_within_2025_assurance_period": [
+      "fact-23f13470cad2608901916fdd",
+      "fact-51f0f4f79846b03fe97e2365",
+      "fact-909d946c20c6c79e6929905f"
+    ]
+  },
+  "blocked_fact_ids": [
+    "fact-23f13470cad2608901916fdd",
+    "fact-51f0f4f79846b03fe97e2365",
+    "fact-909d946c20c6c79e6929905f"
+  ],
+  "inputs": {
+    "atomic_increment_sha256": "727dfe91d0778ce57c8813d771daee3ba4acfbf1dd56ea1a491dac8fa8db1108",
+    "atomic_validations_sha256": "4dab16e66e72edd078bae8ba7c7a9bc00abb6a39a3357932cfe5f72ab4464de5",
+    "native_coordinate_audit_sha256": "380d4f38526df4920c83289a5acbbc247f1acb98da25ef870a8607b79dd9d0a1"
+  },
+  "locked_experiments_modified_or_rescored": false,
+  "native_audit": {
+    "assurance": {
+      "financial_year": 2025,
+      "pdf_page": 195,
+      "quote": "We have conducted a limited assurance engagement on the Sustainability Statement of Carlsberg A/S (the ‘Group’) included in the Management’s Review (the ‘Sustainability Statement’), (pp. 46-100) for the financial year 1 January – 31 December 2025.",
+      "statement_page_range": [
+        46,
+        100
+      ]
+    },
+    "batch_id": "KB-SCALE-BATCH-009-NATIVE-COORDINATE-AUDIT",
+    "checks": {
+      "assurance_entity_present": true,
+      "assurance_page_scope_present": true,
+      "assurance_period_present": true,
+      "certificate_row_values_present": true,
+      "contractual_row_values_present": true,
+      "page_footer_matches": true,
+      "ppa_row_values_present": true,
+      "source_sha256_matches": true,
+      "unit_heading_present": true,
+      "year_headers_present": true
+    },
+    "columns": {
+      "contractual_instruments": {
+        "2024": "73",
+        "2025": "67"
+      },
+      "energy_attribute_certificates_unbundled": {
+        "2024": "72",
+        "2025": "60"
+      },
+      "power_purchase_agreements_bundled": {
+        "2024": "1",
+        "2025": "7"
+      }
+    },
+    "document_id": "KB-B009-CARLSBERG-AR2025",
+    "native_assurance_sha256": "f6a4dccb2d3fdca16f65234de2c094b81bb72e1dda01fe2808d56bb725cf7e2a",
+    "native_page_sha256": "dd78641ac9efcbc69aaf71972a64dcc25e4fd2398073cedb95f7b7d2c0eb9ee1",
+    "pdf_page": 66,
+    "policy": {
+      "automatic_promotion": false,
+      "cloud_transmission": false
+    },
+    "schema_version": "0.1",
+    "source_sha256": "35fad935180834f52819b3d4729ea30a09b75b69a6267fbec7e2ef1afadd58a4",
+    "status": "passed",
+    "unit": "%"
+  },
+  "newly_promoted_to_tier_b": 3,
+  "next_gate": "scale_batch_009_global_kb_rebuild_and_closure",
+  "outputs": {
+    "adjudications_sha256": "7c2301f440ff2ebee0714ccd29b0e1ddc765f4a9ff87903f577080e5159cf788",
+    "trusted_facts_sha256": "2e9f5a23976ab0c76b07154566817b64c68ee97b85b1c21f91b2bdabe3da0c12"
+  },
+  "promotable_fact_ids": [
+    "fact-195fb3fd19e6d8dc2b7082cb",
+    "fact-c3310ea2afc3b33e44c164d8",
+    "fact-f4b47f2e3dd9e247f1047a12"
+  ],
+  "reviewed": 6,
+  "schema_version": "0.1",
+  "source_candidate_records_modified": 0,
+  "status": "scale_batch_009_six_dimension_tier_b_sampling_complete",
+  "total_trusted_tier_b": 76
+}

@@ -1,0 +1,32 @@
+{
+  "independent_sources_locally_frozen": 6,
+  "inputs": {
+    "boundary_coordinate_adjudications_sha256": "ab8d397a456fcd6d65874e9a3cd5bed5053befae69b431812d7fdd21ebc816f4",
+    "independent_source_policy_sha256": "2a24df607a03922754222bbb75c1d9360cb2421b92346a738a10736723712cbc",
+    "period_coordinate_adjudications_sha256": "6932d2cac80fcb66794fc4c705e99d28b0d0b84592368daa4c31ea25688e2726",
+    "tier_b_blocker_resolutions_sha256": "96bc6e574d607661c41698998fadc77d2a97380032ff10432d63d78e469cd068",
+    "tier_b_queue_sha256": "5baaba1ac80923d01e636e17aac85df4805195919d6c6e39c52d81a7911f5917"
+  },
+  "locked_experiments_modified_or_rescored": false,
+  "next_gate": "adjudicate metric, entity, period, unit, boundary, and value coverage against the frozen assurance extracts before any Tier B promotion",
+  "output": {
+    "path": "data/knowledge_bases/v0.1/independent_corroboration_reviews.jsonl",
+    "sha256": "b487e4e474aecea6cf17e260983203155433ba21ecb45adac3ad48c2d527cd28"
+  },
+  "promoted_to_tier_b": 0,
+  "review_records": 28,
+  "review_status_counts": {
+    "frozen_blocked_scope_exclusion": 1,
+    "frozen_pending_metric_scope_adjudication": 23,
+    "frozen_ready_for_dimension_adjudication": 4
+  },
+  "schema_version": "0.1",
+  "scope_counts": {
+    "direct_independent_statement": 2,
+    "explicitly_excluded_or_unaudited": 1,
+    "metric_explicitly_listed": 2,
+    "statement_level_requires_metric_adjudication": 23
+  },
+  "status": "candidate_independent_assurance_sources_discovered_no_promotion",
+  "unique_candidate_sources": 6
+}

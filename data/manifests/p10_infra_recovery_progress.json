@@ -1,0 +1,41 @@
+{
+  "experiment_id": "P10-V19-INFRA-RECOVERY-01",
+  "original_lockbox_modified": false,
+  "parent_experiment": "P10-V19-UNSEEN-LOCKBOX-V01",
+  "records": {
+    "P10-CALC-001:stage_a": {
+      "result": {
+        "archive_directory": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P10-V19-INFRA-RECOVERY-01/runs/P10-CALC-001-QWEN397B-v19-stage-a-INFRA-RECOVERY01",
+        "elapsed_seconds": 63.17251800000122,
+        "framework_evidence_state": "supported",
+        "model": "qwen3.5:397b-cloud",
+        "run_id": "P10-CALC-001-QWEN397B-v19-stage-a-INFRA-RECOVERY01",
+        "task_id": "P10-CALC-001"
+      },
+      "status": "passed"
+    },
+    "P10-SAFETY-001:stage_b": {
+      "error": "KeyError:'predicate_id'",
+      "status": "failed"
+    },
+    "P10-TARGET-001:stage_a": {
+      "result": {
+        "archive_directory": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/P10-V19-INFRA-RECOVERY-01/runs/P10-TARGET-001-QWEN397B-v19-stage-a-INFRA-RECOVERY01",
+        "elapsed_seconds": 22.680794457999582,
+        "framework_evidence_state": "supported",
+        "model": "qwen3.5:397b-cloud",
+        "run_id": "P10-TARGET-001-QWEN397B-v19-stage-a-INFRA-RECOVERY01",
+        "task_id": "P10-TARGET-001"
+      },
+      "status": "passed"
+    }
+  },
+  "recovery_scope": [
+    "P10-SAFETY-001:stage_b",
+    "P10-CALC-001:stage_a",
+    "P10-TARGET-001:stage_a"
+  ],
+  "schema_version": "1.0",
+  "single_recovery_attempt_per_stage": true,
+  "updated_at": "2026-09-07T07:05:05.897075+00:00"
+}

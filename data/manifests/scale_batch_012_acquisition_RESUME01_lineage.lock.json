@@ -1,0 +1,25 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-012",
+  "status": "resume_lineage_complete",
+  "parent_attempt": "data/manifests/scale_batch_012_acquisition.lock.json",
+  "parent_failure": {
+    "document_id": "KB-B012-IBERDROLA-SR2025",
+    "failure_signature": "OFFICIAL_SOURCE_HTTP_403",
+    "preserved": true
+  },
+  "resume_config": "configs/knowledge/scale_batch_012_RESUME01_v0.2.json",
+  "resume_manifest": "data/manifests/scale_batch_012_acquisition_RESUME01.lock.json",
+  "reused_verified_documents": [
+    "KB-B012-AIR-LIQUIDE-URD2025",
+    "KB-B012-VINCI-URD2025"
+  ],
+  "newly_acquired_documents": [
+    "KB-B012-STORA-ENSO-AR2025"
+  ],
+  "policy": {
+    "parent_overwritten": false,
+    "access_control_bypassed": false,
+    "cloud_transmission": false
+  }
+}

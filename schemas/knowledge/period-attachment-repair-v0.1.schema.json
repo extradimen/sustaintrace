@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/esg-reliable-discovery/period-attachment-repair-v0.1.schema.json",
+  "title": "Derived period attachment repair v0.1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "record_kind", "attachment_id", "fact_record_id", "task_id", "previous_status", "attached_period", "evidence_coordinate", "execution_mode", "parent_artifacts", "validation", "rollback", "fact_source_modified", "promotion_performed"],
+  "properties": {
+    "schema_version": {"const": "0.1"},
+    "record_kind": {"const": "period_attachment_repair"},
+    "attachment_id": {"type": "string", "pattern": "^period-[0-9a-f]{24}$"},
+    "fact_record_id": {"type": "string", "pattern": "^fact-[0-9a-f]{24}$"},
+    "task_id": {"type": "string", "minLength": 1},
+    "previous_status": {"type": "string", "minLength": 1},
+    "attached_period": {"type": "string", "pattern": "^(19|20)\\d{2}$"},
+    "evidence_coordinate": {"type": "object", "additionalProperties": true, "required": ["graph_id", "pdf_page", "row", "column"]},
+    "execution_mode": {"const": "derived_layer_only"},
+    "parent_artifacts": {"type": "array", "minItems": 2, "items": {"type": "object", "additionalProperties": false, "required": ["path", "sha256"], "properties": {"path": {"type": "string"}, "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}}}},
+    "validation": {"type": "object", "additionalProperties": false, "required": ["unique_cell", "year_literal_in_column", "parent_hashes_valid"], "properties": {"unique_cell": {"const": true}, "year_literal_in_column": {"const": true}, "parent_hashes_valid": {"const": true}}},
+    "rollback": {"type": "object", "additionalProperties": false, "required": ["action", "source_restoration_required"], "properties": {"action": {"const": "delete_derived_attachment_record"}, "source_restoration_required": {"const": false}}},
+    "fact_source_modified": {"const": false},
+    "promotion_performed": {"const": false}
+  }
+}

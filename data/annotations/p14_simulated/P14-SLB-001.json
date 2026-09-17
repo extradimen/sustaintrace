@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0",
+  "task_id": "P14-SLB-001",
+  "reference_author": "codex_gpt_simulated_expert",
+  "reference_status": "verified_against_frozen_pages",
+  "answer": "At 31 December 2025, SLB KPI 1a reported 96% against a 100% renewable-energy objective and was not achieved; KPI 1b reported a published 5% reduction, with a comparable 10% reduction, against a 14% per-product cradle-to-shelf GHG-intensity reduction target and was not achieved; KPI 2 reported 50% recycled or biobased plastic packaging and was achieved. KPI 1a covers operated sites but excludes site safety and security equipment and applies specified Scope 1 exceptions and market-based Scope 2 criteria; KPI 1b excludes Aesop products; KPI 2 covers primary, secondary and tertiary packaging and rounds 50.14% down to 50%. The limited-assurance conclusion excludes earlier periods and information outside the ESG KPIs.",
+  "normalized_value": {
+    "kpi_1a_target_percent": 100,
+    "kpi_1a_performance_percent": 96,
+    "kpi_1a_status": "not achieved",
+    "kpi_1b_target_reduction_percent": 14,
+    "kpi_1b_published_reduction_percent": 5,
+    "kpi_1b_comparable_reduction_percent": 10,
+    "kpi_1b_status": "not achieved",
+    "kpi_2_target_percent": 50,
+    "kpi_2_performance_percent": 50,
+    "kpi_2_unrounded_percent": 50.14,
+    "kpi_2_status": "achieved",
+    "kpi_1b_exclusion": "Aesop brand products",
+    "kpi_2_boundary": "primary, secondary and tertiary packaging",
+    "assurance_exclusion": "earlier periods and information not included in the ESG KPIs"
+  },
+  "evidence": [
+    {"source_id": "P14-LOREAL-URD2025", "pdf_page": 282, "quote": "KPI 1a"},
+    {"source_id": "P14-LOREAL-URD2025", "pdf_page": 282, "quote": "KPI 1b"},
+    {"source_id": "P14-LOREAL-URD2025", "pdf_page": 282, "quote": "KPI 2"},
+    {"source_id": "P14-LOREAL-URD2025", "pdf_page": 288, "quote": "Excludes Aēsop brand products."},
+    {"source_id": "P14-LOREAL-URD2025", "pdf_page": 288, "quote": "This indicator covers primary, secondary and tertiary packaging."},
+    {"source_id": "P14-LOREAL-URD2025", "pdf_page": 288, "quote": "The performance of 50.14% has been rounded down to 50%."},
+    {"source_id": "P14-LOREAL-URD2025", "pdf_page": 288, "quote": "Our assurance does not extend to information in respect of earlier periods"}
+  ],
+  "provenance": {"reference_is_simulated": true, "candidate_model_used": false}
+}

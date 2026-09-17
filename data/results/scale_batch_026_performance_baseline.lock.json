@@ -1,0 +1,77 @@
+{
+  "batch_id": "KB-SCALE-BATCH-026-PERFORMANCE",
+  "comparison_parent": "data/results/scale_batch_025_performance_baseline.lock.json",
+  "created_at": "2026-09-13T22:12:14.322795+00:00",
+  "mineru": {
+    "attempt_wall_seconds": [
+      88.712002,
+      455.860847,
+      345.180094,
+      254.90313
+    ],
+    "final_complete_pages": 30,
+    "initial_failure_class": "sandbox_local_server_port_bind_denied",
+    "initial_failures": 30,
+    "post_completion_shutdown_recovered_pages": 7,
+    "resume_completed_pages": 23,
+    "status": "complete_after_audited_resume_and_hash_recovery",
+    "successful_processing_wall_seconds": 478.743713,
+    "successful_target_pages": 30,
+    "successful_target_pages_per_hour": 225.59043,
+    "target_page_wall_seconds": {
+      "KB-B026-ORKLA-AR2025:p0072": 16.166519,
+      "KB-B026-ORKLA-AR2025:p0073": 16.55915,
+      "KB-B026-ORKLA-AR2025:p0076": 16.167745,
+      "KB-B026-ORKLA-AR2025:p0081": 16.151598,
+      "KB-B026-ORKLA-AR2025:p0085": 15.579515,
+      "KB-B026-ORKLA-AR2025:p0091": 17.011037,
+      "KB-B026-ORKLA-AR2025:p0097": 16.65431,
+      "KB-B026-ORKLA-AR2025:p0099": 16.684503,
+      "KB-B026-ORKLA-AR2025:p0253": 16.005369,
+      "KB-B026-ORKLA-AR2025:p0254": 15.043661,
+      "KB-B026-SEB-AR2025:p0090": 15.519448,
+      "KB-B026-SEB-AR2025:p0105": 17.075031,
+      "KB-B026-SEB-AR2025:p0109": 15.226795,
+      "KB-B026-SEB-AR2025:p0112": 15.519026,
+      "KB-B026-SEB-AR2025:p0120": 17.578361,
+      "KB-B026-SEB-AR2025:p0137": 16.480579,
+      "KB-B026-SEB-AR2025:p0163": 14.559879,
+      "KB-B026-SEB-AR2025:p0179": 16.705329,
+      "KB-B026-SEB-AR2025:p0343": 15.483517,
+      "KB-B026-SEB-AR2025:p0344": 14.761423,
+      "KB-B026-STOREBRAND-AR2025:p0054": 20.267637,
+      "KB-B026-STOREBRAND-AR2025:p0069": 17.686015,
+      "KB-B026-STOREBRAND-AR2025:p0070": 16.831701,
+      "KB-B026-STOREBRAND-AR2025:p0078": 13.490987,
+      "KB-B026-STOREBRAND-AR2025:p0081": 13.466751,
+      "KB-B026-STOREBRAND-AR2025:p0091": 16.870928,
+      "KB-B026-STOREBRAND-AR2025:p0120": 13.465397,
+      "KB-B026-STOREBRAND-AR2025:p0163": 18.443119,
+      "KB-B026-STOREBRAND-AR2025:p0164": 13.666399,
+      "KB-B026-STOREBRAND-AR2025:p0165": 13.621984
+    },
+    "total_attempt_wall_seconds": 1144.656073
+  },
+  "mineru_comparison": {
+    "batch_025_pages_per_hour": 243.729942,
+    "batch_026_pages_per_hour": 225.59043,
+    "interpretation_gate": "throughput_only_quality_measured_separately",
+    "relative_change_percent": -7.442
+  },
+  "policy": {
+    "cloud_transmission": false,
+    "duplicate_diagnostic_run_avoided": true,
+    "locked_experiments_modified": false,
+    "performance_separate_from_knowledge_quality": true
+  },
+  "schema_version": "0.1",
+  "status": "mineru_baseline_complete_diagnostic_timing_not_captured",
+  "whole_report_diagnostic": {
+    "documents": 3,
+    "extractable_pages": 906,
+    "pages_per_second": null,
+    "pdf_pages": 911,
+    "status": "not_captured_before_frozen_diagnostic_write_no_duplicate_run",
+    "wall_seconds": null
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-006",
+  "status": "increment_built_candidates_not_promoted",
+  "fact_candidates": 42,
+  "trusted_facts_promoted": 0,
+  "evidence_gaps": 4,
+  "failure_observations": 56,
+  "gaps": [
+    {
+      "document_id": "KB-B006-MICHELIN-URD2025",
+      "page": 207,
+      "theme": "ghg_emissions",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B006-MICHELIN-URD2025",
+      "page": 308,
+      "theme": "biodiversity",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B006-RECKITT-AR2025",
+      "page": 49,
+      "theme": "health_safety",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B006-RECKITT-AR2025",
+      "page": 101,
+      "theme": "workforce",
+      "reason": "no_theme_line_in_mineru_markdown"
+    }
+  ],
+  "outputs": {
+    "facts": {
+      "path": "data/knowledge_bases/v0.1/increments/scale_batch_006_fact_records.jsonl",
+      "sha256": "a98df1bbd1be0166f52f626b1c4d44677eb45b90a971424d38578d5d700f1499"
+    },
+    "failures": {
+      "path": "data/knowledge_bases/v0.1/increments/scale_batch_006_failure_records.jsonl",
+      "sha256": "f8b7b49af4a8ab4d148c0cee11e290ac6dc6340cf611487ea5fcbeaa3759f09a"
+    }
+  },
+  "policy": {
+    "cloud_transmission": false,
+    "locked_experiments_modified": false,
+    "automatic_promotion": false
+  }
+}

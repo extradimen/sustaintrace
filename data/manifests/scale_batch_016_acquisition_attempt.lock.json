@@ -1,0 +1,41 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-016",
+  "created_at": "2026-09-13T09:16:33.037971+00:00",
+  "source_config": "configs/knowledge/scale_batch_016_v0.1.json",
+  "documents": [
+    {
+      "document_id": "KB-B016-AKZONOBEL-AR2025",
+      "local_path": "data/raw/scale_batch_016/akzonobel-annual-report-2025.pdf",
+      "bytes": 0,
+      "partial_bytes": 0,
+      "sha256": null,
+      "pdf_header_valid": false,
+      "download_status": "failed_preserved",
+      "error_type": "URLError",
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    {
+      "document_id": "KB-B016-NOVONESIS-AR2025",
+      "local_path": "data/raw/scale_batch_016/novonesis-annual-report-2025.pdf",
+      "bytes": 0,
+      "partial_bytes": 0,
+      "sha256": null,
+      "pdf_header_valid": false,
+      "download_status": "failed_preserved",
+      "error_type": "URLError",
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    {
+      "document_id": "KB-B016-COLOPLAST-AR2025",
+      "local_path": "data/raw/scale_batch_016/coloplast-annual-report-2024-25.pdf",
+      "bytes": 0,
+      "partial_bytes": 0,
+      "sha256": null,
+      "pdf_header_valid": false,
+      "download_status": "failed_preserved",
+      "error_type": "URLError",
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    }
+  ]
+}

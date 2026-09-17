@@ -1,0 +1,30 @@
+{
+  "schema_version": "2.3",
+  "experiment_id": "P14-V23-UNSEEN-LOCKBOX-V01",
+  "status": "source_questions_and_page_windows_frozen_before_reference_creation_and_candidate_inference",
+  "framework_version": "v2.3",
+  "document_id": "P14-LOREAL-URD2025",
+  "document_sha256": "db63807f5963c3e70422bbb9a0763f2f53be4139d5ee57984717bfa056275aa2",
+  "parser": {
+    "primary": "MinerU",
+    "fallback": "native PDF layout extraction plus deterministic two-dimensional table graph",
+    "target_pages_only": true,
+    "status": "not_yet_executed"
+  },
+  "unique_target_pages": [206, 208, 212, 213, 225, 229, 248, 282, 285, 286, 287, 288, 289],
+  "task_count": 6,
+  "candidate_model": "qwen3.5:397b-cloud",
+  "candidate_inference_allowed": false,
+  "required_prefreeze_gates": [
+    "reference/page-window and quote consistency audit",
+    "v2.3 reference-direction literal validation",
+    "v2.3 framework-owned calculation-plan execution",
+    "v2.3 ordered-span projection dry run where applicable",
+    "evidence-handle/page consistency gate",
+    "JSON and SHA256 audit"
+  ],
+  "single_attempt_per_stage": true,
+  "silent_retry": false,
+  "reference_visible_to_candidate": false,
+  "cloud_transmission_authorized": false
+}

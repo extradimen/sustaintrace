@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "policy_id": "V1-DETERMINISTIC-INJECTION-001",
+  "framework_injected_fields": [
+    "finding_id",
+    "task_id",
+    "company_id",
+    "company",
+    "provenance"
+  ],
+  "company_source": "unique_company_in_verified_task_context",
+  "finding_id_rule": "{run_id}-card-{one_based_index:03d}",
+  "provenance_source": "locked_runtime_state",
+  "model_generated_content_preserved": true,
+  "posthoc_semantic_repair_allowed": false
+}

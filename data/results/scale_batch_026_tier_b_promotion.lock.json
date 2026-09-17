@@ -1,0 +1,40 @@
+{
+  "blocked_by_reason": {
+    "native_row_header_not_corroborated": [
+      "fact-b0a894a822fd2dfc086b9162"
+    ]
+  },
+  "blocked_fact_ids": [
+    "fact-b0a894a822fd2dfc086b9162"
+  ],
+  "inputs": {
+    "atomic_increment_sha256": "e434eb1c11060aaedb57579d28bdeb7a72eb19c5711d82d4c010c8fc761db6fb",
+    "atomic_validations_sha256": "c85c818a15a5f1d342db009d8e9de7590eb48f038306aa539659fbf7afc8040d",
+    "native_coordinate_audit_sha256": "db355a436ddbfbe7e36573f5aae7319fc0780fb50f907522c6b237026b742c2b"
+  },
+  "locked_experiments_modified_or_rescored": false,
+  "native_audit": {
+    "assurance_page_text_sha256": {},
+    "batch_id": "KB-SCALE-BATCH-026-NATIVE-COORDINATE-AUDIT",
+    "checks": {},
+    "policy": {
+      "automatic_promotion": false,
+      "cloud_transmission": false
+    },
+    "promotable_facts": 0,
+    "schema_version": "0.1",
+    "status": "selected_cells_and_assurance_boundaries_passed"
+  },
+  "newly_promoted_to_tier_b": 0,
+  "next_gate": "scale_batch_026_global_kb_rebuild_and_closure",
+  "outputs": {
+    "adjudications_sha256": "1e175de090f41893869f091e27a64e3484d0e9d53e3b0b3c133f399d91626db1",
+    "trusted_facts_sha256": "3f7f3c113386ff5d312d58e7a24c991ba20a48e1c0da0f388d65ab27781b46c3"
+  },
+  "promotable_fact_ids": [],
+  "reviewed": 1,
+  "schema_version": "0.1",
+  "source_candidate_records_modified": 0,
+  "status": "scale_batch_026_six_dimension_tier_b_review_complete_fail_closed",
+  "total_trusted_tier_b": 142
+}

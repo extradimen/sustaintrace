@@ -1,0 +1,23 @@
+{
+  "binding_status_counts": {
+    "literal_not_found": 379,
+    "multiple_literal": 24,
+    "source_grounding_failed": 249,
+    "unique_literal": 341,
+    "unsupported_complex_value": 28
+  },
+  "fact_records": 1021,
+  "inputs": {
+    "facts_sha256": "8af57e7b7bda85deef8f90586f8225aedcf1da24e0669300115b8f1f7499bf5b",
+    "source_audits_sha256": "1c8682644eb6c8f98cefbbdab8847ac0f70bd63ad59137af9fcdf7c3727e5c46"
+  },
+  "interpretation": "unique_literal means one task-level evidence quote contains the exact scalar. It does not yet prove unit, period, boundary, calculation lineage, or cell-level uniqueness.",
+  "next_gate": "qualifier and cell-level validation for unique literal bindings",
+  "output": {
+    "path": "data/knowledge_bases/v0.1/field_evidence_bindings.jsonl",
+    "sha256": "d0e0eaf14664dc61e8b0219ae424d35274e96539ade9485542df4b76a80e4be9"
+  },
+  "promoted_to_tier_b": 0,
+  "schema_version": "0.1",
+  "status": "field_binding_inventory_complete_no_fact_promotion"
+}

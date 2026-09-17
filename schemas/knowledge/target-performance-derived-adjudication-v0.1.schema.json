@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "record_kind", "adjudication_id", "fact_record_id", "task_id", "predicate", "validation_id", "checks", "decision", "reason", "locked_experiments_modified_or_rescored"],
+  "properties": {
+    "schema_version": {"const": "0.1"},
+    "record_kind": {"const": "target_performance_derived_adjudication"},
+    "adjudication_id": {"type": "string", "pattern": "^target-performance-adj-[0-9a-f]{24}$"},
+    "fact_record_id": {"type": "string", "pattern": "^fact-[0-9a-f]{24}$"},
+    "task_id": {"type": "string", "minLength": 1},
+    "predicate": {"type": "string", "minLength": 1},
+    "validation_id": {"type": "string", "minLength": 1},
+    "checks": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["boundary_validation_ready", "source_hashes_valid", "independent_entity_match", "independent_metric_match", "independent_period_match", "independent_unit_match", "independent_scope_match", "independent_value_match", "deterministic_recalculation"],
+      "properties": {
+        "boundary_validation_ready": {"type": "boolean"},
+        "source_hashes_valid": {"type": "boolean"},
+        "independent_entity_match": {"type": "boolean"},
+        "independent_metric_match": {"type": "boolean"},
+        "independent_period_match": {"type": "boolean"},
+        "independent_unit_match": {"type": "boolean"},
+        "independent_scope_match": {"type": "boolean"},
+        "independent_value_match": {"type": "boolean"},
+        "deterministic_recalculation": {"type": ["object", "null"]}
+      }
+    },
+    "decision": {"enum": ["ready_for_tier_b_promotion", "blocked_independent_evidence_incomplete"]},
+    "reason": {"type": "string", "minLength": 1},
+    "locked_experiments_modified_or_rescored": {"const": false}
+  }
+}

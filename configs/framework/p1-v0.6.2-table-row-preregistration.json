@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "framework_id": "P1-PIPELINE-v0.6.2-MINERU-TABLE-ROWS",
+  "status": "preregistered_before_v0.6.2_candidate_inference",
+  "trigger_run_id": "P1-02-1-GEMMA4-12B-v061-r1",
+  "observed_limitation": "The entire 17,569-character BASF table was exposed as one evidence handle; grounding succeeded but the model returned the wrong self-calculated value and status.",
+  "registered_change": "Deterministically split MinerU table HTML into one caption handle and ordered row handles while preserving the original cell text and table bbox.",
+  "registered_acceptance": {
+    "same_task": "P1-02-1",
+    "required_row_contains": ["Total gross Scope 3 emissions", "91.64", "94.49"],
+    "calculation_still_framework_executed": true
+  },
+  "unchanged_constraints": {
+    "model_digest": "unchanged Gemma 4 12B",
+    "source_pdf_and_page": "unchanged BASF page 200",
+    "reference_visible_during_inference": false,
+    "posthoc_semantic_repair_allowed": false,
+    "dynamic_handle_enum": true,
+    "aggregate_score_enabled": false
+  },
+  "inference_allowed": false
+}

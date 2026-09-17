@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "experiment_id": "P1-V074-SAME-HASH-SIX-TYPE-REQUALIFICATION",
+  "status": "stopped_after_scope_contract_failure",
+  "framework_freeze_id": "P1-EXECUTION-PIPELINE-FREEZE-v0.7.4",
+  "model": "gemma4:12b",
+  "model_digest": "4eb23ef187e2c5462566d6a1d3bbbc2f1346d0b4327cbb66d58fffbcc9b2b05c",
+  "semantic_state_core_sha256": "b852d3e1117152f17090bd06a061b0b8aaaed05fe73cbf83829f8b4a88ab076f",
+  "runner_sha256": "03893ff2190229c8aebee6607cb574b471fc2001b601f5b87315594168718e7b",
+  "system_prompt_sha256": "2ed77c139c1e18360aef1451364e4bf1c167bf73f83e5594b0d3697e319f627d",
+  "run_order": [
+    {"order": 1, "task_type": "deterministic_calculation", "task_id": "P1-02-1", "run_id": "P1-02-1-GEMMA4-12B-v074-r1", "status": "passed_existing_same_hash"},
+    {"order": 2, "task_type": "scope_subject_boundary", "task_id": "P1-01-2", "run_id": "P1-01-2-GEMMA4-12B-v074-r1", "status": "failed_redundant_metadata_contract"},
+    {"order": 3, "task_type": "direct_extraction", "task_id": "P1-02-2", "run_id": "P1-02-2-GEMMA4-12B-v074-r1", "status": "not_run_after_gate_failure"},
+    {"order": 4, "task_type": "cross_page_relation", "task_id": "P1-09-1", "run_id": "P1-09-1-GEMMA4-12B-v074-r1", "status": "not_run_after_gate_failure"},
+    {"order": 5, "task_type": "abstention", "task_id": "P1-01-1", "run_id": "P1-01-1-GEMMA4-12B-v074-r1", "status": "not_run_after_gate_failure"},
+    {"order": 6, "task_type": "controlled_conflict", "task_id": "P1-04-2", "run_id": "P1-04-2-GEMMA4-12B-v074-r1", "status": "not_run_after_gate_failure"}
+  ],
+  "reference_answer_visible_during_inference": false,
+  "silent_retry_allowed": false,
+  "posthoc_semantic_repair_allowed": false,
+  "p2_gate": "all_six_pass_under_exact_hashes",
+  "failure_sha256s_sha256": "b8500351a57a90258d11b1055a4c3e04ec06db77ab35d90d23e6bc8b561cafce",
+  "p2_eligible": false
+}

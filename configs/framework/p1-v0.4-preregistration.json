@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "framework_id": "P1-PIPELINE-v0.4",
+  "status": "preregistered_before_candidate_inference",
+  "motivation_from_frozen_v0.3_results": [
+    "Large cloud models did not reliably follow the monolithic candidate schema.",
+    "Gemma 4 12B often answered correctly but generated non-verbatim evidence quotations.",
+    "Gemma 4 12B incorrectly abstained from a deterministic percentage-change task despite locating both inputs."
+  ],
+  "registered_changes": {
+    "task_conditioned_response_schemas": true,
+    "deterministic_evidence_handles": true,
+    "model_generated_verbatim_quotes": false,
+    "framework_resolves_handle_to_locked_page_text": true,
+    "calculation_request_uses_registered_operations": true,
+    "framework_executes_and_verifies_calculation": true
+  },
+  "registered_operations": ["percentage_change", "difference", "sum", "ratio_percent"],
+  "unchanged_constraints": {
+    "reference_answer_visible_during_inference": false,
+    "posthoc_semantic_repair_allowed": false,
+    "failure_runs_archived": true,
+    "aggregate_score_enabled": false,
+    "same_frozen_tasks_and_source_pages": true,
+    "same_model_digests": true
+  },
+  "development_protocol": {
+    "development_inputs": "P0 fixtures and synthetic non-P1 fixtures only",
+    "p1_candidate_inference_allowed_during_implementation": false,
+    "required_before_p1_rerun": [
+      "schema tests",
+      "handle resolution tests",
+      "calculation operation tests",
+      "failure archival test",
+      "new pipeline hash lock"
+    ]
+  },
+  "inference_allowed": false
+}

@@ -1,0 +1,80 @@
+{
+  "answer": "Water withdrawal/discharge/disclosed consumption were 53.47/32.46/21.01 million m³ in 2024 and 51.61/30.25/21.35 in 2025. Withdrawal minus discharge gives 21.01/21.36; differences from disclosure are 0.00/+0.01 million m³, consistent with rounding. Water-risk consumption was 5.36 in both years, recycling 384.80/379.70, and intensity 451/468 m³ per €m sales.",
+  "evidence": [
+    {
+      "parser": "mineru",
+      "pdf_page": 171,
+      "quote": "Our total water consumption is calculated as the difference between the volume of water withdrawn and the volume discharged.",
+      "source_id": "P22-BAYER-AR2025"
+    },
+    {
+      "parser": "mineru",
+      "pdf_page": 171,
+      "quote": "Our water consumption in regions impacted by water risks according to ESRS",
+      "source_id": "P22-BAYER-AR2025"
+    },
+    {
+      "parser": "mineru",
+      "pdf_page": 171,
+      "quote": "All sites with an annual energy consumption exceeding 1.5 terajoules and/or annual water withdrawal that is greater than or equal to 50 Tm<sup>3</sup> are regarded as environmentally relevant.",
+      "source_id": "P22-BAYER-AR2025"
+    },
+    {
+      "parser": "mineru",
+      "pdf_page": 172,
+      "quote": "Water withdrawal</td><td>43.80</td><td>42.75</td><td>6.28</td><td>6.10</td><td>1.66</td><td>1.56</td><td>1.74</td><td>1.20</td><td>53.47</td><td>51.61",
+      "source_id": "P22-BAYER-AR2025"
+    },
+    {
+      "parser": "mineru",
+      "pdf_page": 172,
+      "quote": "Water discharge</td><td>23.83</td><td>22.31</td><td>5.78</td><td>5.52</td><td>1.24</td><td>1.28</td><td>1.60</td><td>1.14</td><td>32.46</td><td>30.25",
+      "source_id": "P22-BAYER-AR2025"
+    },
+    {
+      "parser": "mineru",
+      "pdf_page": 172,
+      "quote": "Water consumption</td><td>19.96</td><td>20.43</td><td>0.50</td><td>0.58</td><td>0.42</td><td>0.28</td><td>0.13</td><td>0.06</td><td>21.01</td><td>21.35",
+      "source_id": "P22-BAYER-AR2025"
+    },
+    {
+      "parser": "mineru",
+      "pdf_page": 172,
+      "quote": "Water recycling and reuse</td><td>384.75</td><td>379.66",
+      "source_id": "P22-BAYER-AR2025"
+    },
+    {
+      "parser": "mineru",
+      "pdf_page": 172,
+      "quote": "Water intensity</td><td>451</td><td>468",
+      "source_id": "P22-BAYER-AR2025"
+    }
+  ],
+  "normalized_value": {
+    "calculated_consumption_million_m3::2024": 21.01,
+    "calculated_consumption_million_m3::2025": 21.36,
+    "calculated_minus_disclosed_million_m3::2024": 0.0,
+    "calculated_minus_disclosed_million_m3::2025": 0.01,
+    "definition": "withdrawal minus discharge at environmentally relevant sites",
+    "discharge_million_m3::2024": 32.46,
+    "discharge_million_m3::2025": 30.25,
+    "disclosed_consumption_million_m3::2024": 21.01,
+    "disclosed_consumption_million_m3::2025": 21.35,
+    "recycling_reuse_million_m3::2024": 384.8,
+    "recycling_reuse_million_m3::2025": 379.7,
+    "water_intensity_m3_per_million_eur::2024": 451,
+    "water_intensity_m3_per_million_eur::2025": 468,
+    "water_risk_consumption_million_m3::2024": 5.36,
+    "water_risk_consumption_million_m3::2025": 5.36,
+    "withdrawal_million_m3::2024": 53.47,
+    "withdrawal_million_m3::2025": 51.61
+  },
+  "provenance": {
+    "candidate_model_used": false,
+    "reference_is_simulated": true
+  },
+  "reference_author": "codex_gpt_simulated_expert",
+  "reference_status": "verified_against_frozen_mineru_pages_native_layout_and_visual_fallback",
+  "schema_version": "1.0",
+  "task_id": "P22-WATER-CALC-001"
+}

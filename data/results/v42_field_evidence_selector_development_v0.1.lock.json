@@ -1,0 +1,64 @@
+{
+  "schema_version": "0.1",
+  "development_id": "V4.2-FIELD-EVIDENCE-SELECTOR-DEVELOPMENT-V01",
+  "status": "development_regression_passed",
+  "development_source": "already exposed HET-FIELD-NEG-SANOFI-001 only",
+  "historical_results_modified": false,
+  "implemented": {
+    "optional_explicit_selector": ["source_id", "pdf_page", "quote"],
+    "exact_single_member_resolution_in_frozen_fact": true,
+    "selected_quote_required_in_frozen_fixture_literals": true,
+    "selected_page_required_in_frozen_fixture": true,
+    "selected_source_required_in_frozen_fact": true,
+    "native_page_unique_literal_and_coordinate_check": true,
+    "legacy_no_selector_behavior_preserved": true
+  },
+  "development_regression": {
+    "fact_record_id": "fact-ea789b989b68006d3f8b1d4c",
+    "fact_evidence_count": 7,
+    "selected_quote": "Cumulative figures (2022 - 2025)",
+    "selected_members": 1,
+    "native_matches": 1,
+    "status": "passed"
+  },
+  "fail_closed": [
+    "selector incomplete",
+    "selector resolves zero or multiple frozen evidence members",
+    "quote absent from frozen fixture literals",
+    "page outside frozen evidence window",
+    "source conflicts with frozen fact",
+    "native page contains zero or multiple matches",
+    "native coordinates are not unique"
+  ],
+  "verification": {
+    "targeted_tests_passed": 15,
+    "full_suite_tests_passed": 546,
+    "ruff": "passed",
+    "json_validation": "passed"
+  },
+  "artifacts": {
+    "implementation": {
+      "path": "src/esg_reliable_discovery/read_only_diagnostics.py",
+      "sha256": "146c83bfc1363971954f6bb40a6a5f20ed7cab7d715c08ab644cebfdd589cb6f"
+    },
+    "tests": {
+      "path": "tests/test_contract_driven_read_only_diagnostics_v01.py",
+      "sha256": "78ef94a8ea5c8fcdb196a9ce7350cf9b2909a0d3b1f476897d02be2207f44aca"
+    },
+    "runner": {
+      "path": "scripts/run_v42_field_evidence_selector_development_v01.py",
+      "sha256": "6c5698811a63c21eabcd3aa911fb2bd280c7825e1e7161a44402e85bcc9bfcb7"
+    },
+    "development_result": {
+      "path": "artifacts/v42_field_evidence_selector_development_v0.1/result.lock.json",
+      "sha256": "4396a7a6404b54e6c5d1d83ee977251ecf74dfee0652ddfb2f646411250500d1"
+    }
+  },
+  "safety": {
+    "fact_write_performed": false,
+    "trust_promotion_performed": false,
+    "gap_mutation_performed": false,
+    "cloud_transmission_performed": false
+  },
+  "next_gate": "freeze one selector from a different multi-evidence report and execute exactly once"
+}

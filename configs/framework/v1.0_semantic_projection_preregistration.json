@@ -1,0 +1,43 @@
+{
+  "schema_version":"1.0",
+  "framework_version":"ESG-RD-v1.0",
+  "status":"preregistered_before_implementation_and_v1_inference",
+  "development_evidence":"P2-LOCKED-HOLDOUT-V01",
+  "development_only_warning":"P2 is exposed and may only be used for diagnosis and regression development; claims of generalization require a new P3 lockbox.",
+  "target_failures":[
+    "exact table value loses to a rounded narrative headline",
+    "period year is separated from a value across adjacent parser blocks",
+    "model output can be schema-valid yet use the wrong ESG metric",
+    "schema-valid Stage B output can omit task-required facts",
+    "model can emit forbidden convenience fields or an empty claim list"
+  ],
+  "planned_changes":[
+    "Create a v1 ontology with combined Scope 1 and 2 emissions and supply-chain emissions-intensity reduction concepts, explicit units, scopes, and lexical grounding terms.",
+    "Reject Stage B metric assignments when neither the evidence nor table-header context grounds the metric's required lexical concepts.",
+    "Derive a deterministic coverage contract from numeric facts in the Stage A answer and require Stage B to cover every grounded task-required fact that maps to the ontology.",
+    "Add deterministic adjacent-block period context for calculation evidence without changing source text or model-selected numeric values.",
+    "Revise prompts to prefer the exact row value over rounded narrative summaries and to forbid claim_id or empty claims explicitly.",
+    "Retain single-attempt archives and never repair a failed model output post hoc."
+  ],
+  "evaluation_sequence":[
+    "unit tests on synthetic fixtures",
+    "P2 failed-task regression as an explicitly non-generalization development test",
+    "freeze v1 code, prompts, ontology, model and parser hashes",
+    "select and hash-freeze new P3 reports before task authoring",
+    "run P3 once and score dimension by dimension"
+  ],
+  "success_criteria_development":[
+    "GM combined Scope 1+2 cannot validate as methane",
+    "P&G intensity reduction has an allowed ontology path",
+    "Roche Stage B incompleteness is detected rather than silently accepted",
+    "Oracle adjacent-block period association is deterministic and auditable",
+    "Meta exact table row is selected in at least one fresh single-attempt regression run"
+  ],
+  "unchanged_rules":[
+    "candidate cannot read reference answers",
+    "source handles and verbatim evidence remain immutable",
+    "numeric grounding remains deterministic",
+    "no aggregate score",
+    "AI-simulated references are never described as human gold"
+  ]
+}

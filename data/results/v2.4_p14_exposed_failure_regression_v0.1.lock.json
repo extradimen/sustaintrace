@@ -1,0 +1,129 @@
+{
+  "calculation_binding_regression": {
+    "adapter_audit": {
+      "adapter_applied": true,
+      "candidate_operation_fields_ignored": [
+        "operation",
+        "calculated_sum",
+        "difference",
+        "explanation"
+      ],
+      "candidate_semantics_modified": false,
+      "framework_operation_remains_frozen": true,
+      "source_shape": "legacy_calculation_request"
+    },
+    "expected_exposed_values": {
+      "calculated_total": 6421686.0,
+      "difference": 0.0
+    },
+    "framework_values": {
+      "calculated_total": 6421686.0,
+      "difference": 0.0,
+      "market_scope_2": 24206.0,
+      "reported_total": 6421686.0,
+      "scope_1": 42428.0,
+      "scope_3": 6355052.0
+    },
+    "passed": true,
+    "source_archive": "research_archive/P14-V23-UNSEEN-LOCKBOX-V01/runs/P14-GHG-CALC-001-QWEN397B-v23-RESUME01-stage-a",
+    "source_archive_verified": true
+  },
+  "candidate_model_called": false,
+  "development_set": "P14 exposed failures only",
+  "hidden_or_unseen_report_used": false,
+  "inputs": {
+    "calculation_plan": "configs/framework/p14_calculation_plans_v0.1.lock.json",
+    "calculation_plan_sha256": "54cd9443f5577bf003fe594727dd4e513abd73f31a1885237e1537d47b576f60",
+    "layout_registry": "configs/framework/p14_layout_fallback_registry_RESUME01_v0.1.lock.json",
+    "layout_registry_sha256": "29d6ac3e61124aadba6db1721686846435907e031eeec6b62da9a36772a3de8b",
+    "slot_contracts": "configs/framework/p14_slot_contracts_v0.1.lock.json",
+    "slot_contracts_sha256": "a03c28d027b35ff72fbe6390370cfafbe52196e752f62b9b428cf160e16c8113"
+  },
+  "layout_registry_gate_regression": {
+    "record_count": 14,
+    "records": [
+      {
+        "pdf_page": 213,
+        "task_id": "P14-GHG-CALC-001"
+      },
+      {
+        "pdf_page": 206,
+        "task_id": "P14-TARGET-001"
+      },
+      {
+        "pdf_page": 208,
+        "task_id": "P14-TARGET-001"
+      },
+      {
+        "pdf_page": 212,
+        "task_id": "P14-TARGET-001"
+      },
+      {
+        "pdf_page": 213,
+        "task_id": "P14-TARGET-001"
+      },
+      {
+        "pdf_page": 225,
+        "task_id": "P14-WATER-001"
+      },
+      {
+        "pdf_page": 229,
+        "task_id": "P14-WATER-001"
+      },
+      {
+        "pdf_page": 248,
+        "task_id": "P14-SAFETY-001"
+      },
+      {
+        "pdf_page": 282,
+        "task_id": "P14-SLB-001"
+      },
+      {
+        "pdf_page": 288,
+        "task_id": "P14-SLB-001"
+      },
+      {
+        "pdf_page": 289,
+        "task_id": "P14-SLB-001"
+      },
+      {
+        "pdf_page": 285,
+        "task_id": "P14-ASSURE-001"
+      },
+      {
+        "pdf_page": 286,
+        "task_id": "P14-ASSURE-001"
+      },
+      {
+        "pdf_page": 287,
+        "task_id": "P14-ASSURE-001"
+      }
+    ],
+    "status": "passed"
+  },
+  "ordered_span_preflight_regression": {
+    "P14-ASSURE-001": {
+      "candidate_contract_count": 8,
+      "candidate_inference_released": true,
+      "projector_valid": true,
+      "raw_contract_count": 8,
+      "required_value_terms_in_fixture": true,
+      "schema_valid": true,
+      "status": "passed",
+      "validated_fixture_claim_count": 8
+    },
+    "P14-SLB-001": {
+      "candidate_contract_count": 14,
+      "candidate_inference_released": true,
+      "projector_valid": true,
+      "raw_contract_count": 14,
+      "required_value_terms_in_fixture": true,
+      "schema_valid": true,
+      "status": "passed",
+      "validated_fixture_claim_count": 14
+    }
+  },
+  "p14_modified_or_rerun": false,
+  "schema_version": "2.4",
+  "status": "passed"
+}

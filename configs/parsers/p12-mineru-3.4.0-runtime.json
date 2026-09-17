@@ -1,0 +1,12 @@
+{
+  "bucket_info": {},
+  "config_version": "p12-mineru-3.4.0-compat",
+  "latex-delimiter-config": {
+    "display": {"left": "$$", "right": "$$"},
+    "inline": {"left": "$", "right": "$"}
+  },
+  "llm-aided-config": null,
+  "model-source": "huggingface",
+  "models-dir": "/Users/michaelwang/.cache/huggingface/hub/models--opendatalab--PDF-Extract-Kit-1.0/snapshots/ed6b654c018d742e65a17671e379c5e6ecc87ec9",
+  "device-mode": "cpu"
+}

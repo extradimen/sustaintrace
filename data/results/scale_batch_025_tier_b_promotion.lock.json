@@ -1,0 +1,62 @@
+{
+  "blocked_by_reason": {
+    "no_atomic_numeric_cells_survived_deterministic_projection": []
+  },
+  "blocked_fact_ids": [],
+  "inputs": {
+    "atomic_increment_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "atomic_validations_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "native_coordinate_audit_sha256": "04b367fdd39057f1ea9af419f8a979126aaffd2d668bf672b50827efba777ffc"
+  },
+  "locked_experiments_modified_or_rescored": false,
+  "native_audit": {
+    "assurance_page_text_sha256": {
+      "KB-B025-AKERBP-AR2025:p126": "c519407d5221ec90aaee128cd3946149c8d9496de8eb77f04f42e0a05a7f09b5",
+      "KB-B025-AKERBP-AR2025:p127": "021234d9f0a6172d452ea019ec5674ff838a8e19548520f632a8a86081a81eb9",
+      "KB-B025-DNB-AR2025:p350": "8ccfc3ca8ae194e05c8d504217bee09092cbae53c752341c1c6cf2abf509ebbf",
+      "KB-B025-DNB-AR2025:p351": "27e695502cfddec7273229c100fd323db7d7281c6721eb5eb488834be50456e4",
+      "KB-B025-DNB-AR2025:p352": "c7e99a0c6b9b53b47ad311b8222e151f0e031fe345e3c1ac62c79a69bfc60366",
+      "KB-B025-DNB-AR2025:p353": "8c7d670fa0f2ea87856b69223b6cbc5cbf24a0ffeaff8e1df90261ba9acb9b51",
+      "KB-B025-EQUINOR-AR2025:p305": "801fb73f5fc4483166fc1fab074c40e2e5ff5c245d0900bc5cddcafb11ca93dd",
+      "KB-B025-EQUINOR-AR2025:p306": "12aa15ba3240c34b81a4f72ae69181306ef9ab82fb79461ce5e7988a43948838",
+      "KB-B025-EQUINOR-AR2025:p307": "ff0d39b17433fc8d81c7743e60a5b03c7206894bfbf214d7e4dde4e3ad45914d"
+    },
+    "batch_id": "KB-SCALE-BATCH-025-NATIVE-COORDINATE-AUDIT",
+    "checks": {
+      "KB-B025-AKERBP-AR2025:assurance_literal_1": true,
+      "KB-B025-AKERBP-AR2025:assurance_literal_2": true,
+      "KB-B025-AKERBP-AR2025:assurance_literal_3": true,
+      "KB-B025-AKERBP-AR2025:assurance_literal_4": true,
+      "KB-B025-AKERBP-AR2025:source_sha256": true,
+      "KB-B025-DNB-AR2025:assurance_literal_1": true,
+      "KB-B025-DNB-AR2025:assurance_literal_2": true,
+      "KB-B025-DNB-AR2025:assurance_literal_3": true,
+      "KB-B025-DNB-AR2025:assurance_literal_4": true,
+      "KB-B025-DNB-AR2025:source_sha256": true,
+      "KB-B025-EQUINOR-AR2025:assurance_literal_1": true,
+      "KB-B025-EQUINOR-AR2025:assurance_literal_2": true,
+      "KB-B025-EQUINOR-AR2025:assurance_literal_3": true,
+      "KB-B025-EQUINOR-AR2025:assurance_literal_4": true,
+      "KB-B025-EQUINOR-AR2025:source_sha256": true
+    },
+    "policy": {
+      "automatic_promotion": false,
+      "cloud_transmission": false
+    },
+    "projection_failure_signature": "TABLE_FRAGMENT_WITHOUT_ATOMIC_NUMERIC_CELLS",
+    "promotable_facts": 0,
+    "schema_version": "0.1",
+    "status": "assurance_boundaries_passed_no_atomic_cells_eligible"
+  },
+  "newly_promoted_to_tier_b": 0,
+  "next_gate": "scale_batch_025_global_kb_rebuild_and_closure",
+  "outputs": {
+    "trusted_facts_sha256": "3f7f3c113386ff5d312d58e7a24c991ba20a48e1c0da0f388d65ab27781b46c3"
+  },
+  "promotable_fact_ids": [],
+  "reviewed": 0,
+  "schema_version": "0.1",
+  "source_candidate_records_modified": 0,
+  "status": "scale_batch_025_six_dimension_tier_b_review_complete_fail_closed",
+  "total_trusted_tier_b": 142
+}

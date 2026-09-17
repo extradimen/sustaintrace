@@ -1,0 +1,134 @@
+{
+  "experiment_id": "P19-V28-UNSEEN-LOCKBOX-V01",
+  "plans": {
+    "P19-GHG-CALC-001": {
+      "candidate_handle_role_map": {
+        "M066-T0001-R0003-C0001": "scope_2_market_based_2025",
+        "M066-T0001-R0005-C0001": "disclosed_scope_1_2_2025",
+        "M066-T0001-R0005-C0002": "disclosed_scope_1_2_2024",
+        "P066-L0012": "scope_1_2025"
+      },
+      "candidate_may_select_operation": false,
+      "roles": [
+        {
+          "role_id": "scope_1_2025",
+          "unit": "1,000 tCO2e"
+        },
+        {
+          "role_id": "scope_2_market_based_2025",
+          "unit": "1,000 tCO2e"
+        },
+        {
+          "role_id": "disclosed_scope_1_2_2025",
+          "unit": "1,000 tCO2e"
+        },
+        {
+          "role_id": "disclosed_scope_1_2_2024",
+          "unit": "1,000 tCO2e"
+        }
+      ],
+      "steps": [
+        {
+          "inputs": [
+            "scope_1_2025",
+            "scope_2_market_based_2025"
+          ],
+          "operation": "sum",
+          "step_id": "calculated_scope_1_2_2025"
+        },
+        {
+          "inputs": [
+            "calculated_scope_1_2_2025",
+            "disclosed_scope_1_2_2025"
+          ],
+          "operation": "difference",
+          "step_id": "difference"
+        },
+        {
+          "inputs": [
+            "disclosed_scope_1_2_2025",
+            "disclosed_scope_1_2_2024"
+          ],
+          "operation": "percentage_change",
+          "rounding_decimals": 2,
+          "step_id": "percentage_change"
+        }
+      ]
+    },
+    "P19-SCOPE3-001": {
+      "candidate_handle_role_map": {
+        "M066-T0001-R0006-C0001": "disclosed_total_2025",
+        "M066-T0001-R0006-C0002": "disclosed_total_2024",
+        "M066-T0001-R0007-C0001": "category1_2025",
+        "M066-T0001-R0007-C0002": "category1_2024",
+        "M066-T0001-R0008-C0001": "category2_2025",
+        "M066-T0001-R0008-C0002": "category2_2024"
+      },
+      "candidate_may_select_operation": false,
+      "roles": [
+        {
+          "role_id": "category1_2025",
+          "unit": "1,000 tCO2e"
+        },
+        {
+          "role_id": "category2_2025",
+          "unit": "1,000 tCO2e"
+        },
+        {
+          "role_id": "disclosed_total_2025",
+          "unit": "1,000 tCO2e"
+        },
+        {
+          "role_id": "category1_2024",
+          "unit": "1,000 tCO2e"
+        },
+        {
+          "role_id": "category2_2024",
+          "unit": "1,000 tCO2e"
+        },
+        {
+          "role_id": "disclosed_total_2024",
+          "unit": "1,000 tCO2e"
+        }
+      ],
+      "steps": [
+        {
+          "inputs": [
+            "category1_2025",
+            "category2_2025"
+          ],
+          "operation": "sum",
+          "step_id": "category1_plus_2_2025"
+        },
+        {
+          "inputs": [
+            "category1_plus_2_2025",
+            "disclosed_total_2025"
+          ],
+          "operation": "percentage_share",
+          "rounding_decimals": 2,
+          "step_id": "share_2025"
+        },
+        {
+          "inputs": [
+            "category1_2024",
+            "category2_2024"
+          ],
+          "operation": "sum",
+          "step_id": "category1_plus_2_2024"
+        },
+        {
+          "inputs": [
+            "category1_plus_2_2024",
+            "disclosed_total_2024"
+          ],
+          "operation": "percentage_share",
+          "rounding_decimals": 2,
+          "step_id": "share_2024"
+        }
+      ]
+    }
+  },
+  "schema_version": "2.8",
+  "status": "frozen_before_candidate_inference"
+}

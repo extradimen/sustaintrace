@@ -1,0 +1,59 @@
+{
+  "answer": "For high-climate-impact sectors, total energy consumption was 9,055 thousand MWh in 2024 and 8,855 in 2025; fossil consumption was 7,058/6,440, renewable consumption 1,560/2,013, fossil shares 77.9%/72.7%, and renewable shares 17.2%/22.7%. Total energy changed -2.21% and renewable energy 29.04% from 2024 to 2025.",
+  "evidence": [
+    {
+      "parser": "mineru",
+      "pdf_page": 149,
+      "quote": "Total fossil energy consumption</td><td rowspan=1 colspan=1>7,058</td><td rowspan=1 colspan=1>6,440",
+      "source_id": "P22-BAYER-AR2025"
+    },
+    {
+      "parser": "mineru",
+      "pdf_page": 149,
+      "quote": "Total renewable energy consumption</td><td rowspan=1 colspan=1>1,560</td><td rowspan=1 colspan=1>2,013",
+      "source_id": "P22-BAYER-AR2025"
+    },
+    {
+      "parser": "mineru",
+      "pdf_page": 149,
+      "quote": "Total energy consumption</td><td rowspan=1 colspan=1>9,055</td><td rowspan=1 colspan=1>8,855",
+      "source_id": "P22-BAYER-AR2025"
+    },
+    {
+      "parser": "mineru",
+      "pdf_page": 149,
+      "quote": "Share of fossil sources in total energy consumption (%)</td><td rowspan=1 colspan=1>77.9</td><td rowspan=1 colspan=1>72.7",
+      "source_id": "P22-BAYER-AR2025"
+    },
+    {
+      "parser": "mineru",
+      "pdf_page": 149,
+      "quote": "Share of renewable sources in total energy consumption (%)</td><td rowspan=1 colspan=1>17.2</td><td rowspan=1 colspan=1>22.7",
+      "source_id": "P22-BAYER-AR2025"
+    }
+  ],
+  "normalized_value": {
+    "boundary": "activities in high climate impact sectors",
+    "calculated_renewable_energy_change_percent": 29.04,
+    "calculated_total_energy_change_percent": -2.21,
+    "fossil_energy_thousand_mwh::2024": 7058,
+    "fossil_energy_thousand_mwh::2025": 6440,
+    "fossil_share_percent::2024": 77.9,
+    "fossil_share_percent::2025": 72.7,
+    "renewable_energy_thousand_mwh::2024": 1560,
+    "renewable_energy_thousand_mwh::2025": 2013,
+    "renewable_share_change_percentage_points": 5.5,
+    "renewable_share_percent::2024": 17.2,
+    "renewable_share_percent::2025": 22.7,
+    "total_energy_thousand_mwh::2024": 9055,
+    "total_energy_thousand_mwh::2025": 8855
+  },
+  "provenance": {
+    "candidate_model_used": false,
+    "reference_is_simulated": true
+  },
+  "reference_author": "codex_gpt_simulated_expert",
+  "reference_status": "verified_against_frozen_mineru_pages_native_layout_and_visual_fallback",
+  "schema_version": "1.0",
+  "task_id": "P22-ENERGY-CALC-001"
+}

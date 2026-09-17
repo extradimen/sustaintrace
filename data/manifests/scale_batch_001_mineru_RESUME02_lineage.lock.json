@@ -1,0 +1,12 @@
+{
+  "schema_version": "0.1",
+  "resume_id": "KB-SCALE-BATCH-001-MINERU-RESUME02",
+  "created_at": "2026-09-12T14:53:34.669302+00:00",
+  "parent_summary": "data/results/scale_batch_001_mineru_RESUME01_summary.lock.json",
+  "parent_summary_sha256": "3d646803636e827472c5d83ea862a9e40ad7f6a0f6ff0ebd7d104d31c2ea5807",
+  "parent_failure_class": "post_processing_runtime_shutdown_abort",
+  "parent_failed_pages": 1,
+  "resume_scope": "failed_page_only",
+  "successful_parent_pages_reused": 25,
+  "cloud_transmission": false
+}

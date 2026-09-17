@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0",
+  "experiment_id": "P0-INFRA-002",
+  "run_id": "qwen3-0.6b-run-001",
+  "completed": true,
+  "performance_evidence": false,
+  "task_pack_frozen": false,
+  "model": {
+    "name": "qwen3:0.6b",
+    "parameter_size": "751.63M",
+    "quantization": "Q4_K_M",
+    "resolved_digest": "7df6b6e09427a769808717c0a93cadc4ae99ed4eb8bf5ca557c90846becea435"
+  },
+  "checks": {
+    "model_digest_verified": true,
+    "structured_output_valid": true,
+    "archive_checksums_verified": true,
+    "normalized_status": "ok",
+    "evidence_required": true
+  },
+  "observed_metrics": {
+    "elapsed_seconds": 4.050339875044301,
+    "prompt_eval_count": 41,
+    "eval_count": 32
+  },
+  "artifacts": {
+    "model_config": {
+      "path": "configs/models/ollama-local-qwen3-0.6b-smoke.json",
+      "sha256": "68ca42c35df411e39ed4aa8e42e0c8742e329c48707e071f103e27e9b6c01432"
+    },
+    "prompt": {
+      "path": "prompts/smoke_v1.txt",
+      "sha256": "e76330c51bc84534c9bb343fa7be62fbefb4e5fa217a39203b2ac4ba1a629382"
+    },
+    "response_schema": {
+      "path": "templates/smoke_response.schema.json",
+      "sha256": "cc2292fc90034aaa27d51321ad0bf8c76b36ec4785b6dac74a1166f03b47f27a"
+    },
+    "archive_checksums": {
+      "path": "research_archive/experiments/P0-INFRA-002/runs/qwen3-0.6b-run-001/SHA256SUMS",
+      "sha256": "cd5436cfa18518779e377b0eb7bb4af04b1b23d07ff35b287ec2e85d2bb7254a"
+    },
+    "model_manifest": {
+      "path": "research_archive/experiments/P0-INFRA-002/runs/qwen3-0.6b-run-001/model_manifest.json",
+      "sha256": "7eec639010a507fd212307adc27a4277f17f1efd7b3e650a154c494bb0af76bd"
+    },
+    "normalized_output": {
+      "path": "research_archive/experiments/P0-INFRA-002/runs/qwen3-0.6b-run-001/normalized_output.json",
+      "sha256": "3afb6c059147782b41fdd704e75dde1a7a664faaf9b6a2f04a23b595de229a60"
+    },
+    "metrics": {
+      "path": "research_archive/experiments/P0-INFRA-002/runs/qwen3-0.6b-run-001/metrics.json",
+      "sha256": "536d76530d329d65e9a03904cc5f4167e2f05e6e6a05fcda6c39df874e8c7421"
+    }
+  },
+  "interpretation_limit": "This run verifies local connectivity, model identity, JSON conformance, archival provenance, and checksums only. It is excluded from ESG capability conclusions and formal model selection."
+}

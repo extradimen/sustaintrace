@@ -1,0 +1,31 @@
+{
+  "schema_version": "3.1",
+  "experiment_id": "P22-V31-UNSEEN-LOCKBOX-V01",
+  "status": "local_validation_passed_before_candidate_inference",
+  "validation": {
+    "pytest": {
+      "collected": 291,
+      "failed": 0,
+      "passed": 291
+    },
+    "ruff": {
+      "result": "passed"
+    },
+    "p22_json": {
+      "files_checked": 23,
+      "result": "passed"
+    },
+    "p22_embedded_sha256": {
+      "references_checked": 13,
+      "result": "passed"
+    }
+  },
+  "artifact_sha256": {
+    "freeze_script": "814c1fa6285dd227fce2bca726b917b6037268b515850f5f9d1bce6d32d8b565",
+    "local_readiness": "bb36e3f4a2f5fa1e680509c8b08c10c2b8c728b27d23404f4476011abb9b7957",
+    "chinese_report": "d1b17dfe4b4aa761a3224882c98a2679e03327105fa1314fbf375d8bb8102ad5"
+  },
+  "cloud_transmission_count": 0,
+  "candidate_model_call_count": 0,
+  "locked_prior_experiments_modified": false
+}

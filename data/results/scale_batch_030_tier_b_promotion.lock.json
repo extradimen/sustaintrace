@@ -1,0 +1,26 @@
+{
+  "blocked_by_reason": {
+    "no_deterministically_projectable_atomic_table_cells": []
+  },
+  "blocked_fact_ids": [],
+  "inputs": {
+    "atomic_increment_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "atomic_validations_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "native_coordinate_audit_sha256": "d53cc27f03c0726568c4311991fa3602c31a39b86ddcd297663cc6f6236078ab"
+  },
+  "locked_experiments_modified_or_rescored": false,
+  "newly_promoted_to_tier_b": 0,
+  "next_gate": "scale_batch_030_global_kb_rebuild_and_closure",
+  "policy": {
+    "automatic_promotion": false,
+    "cloud_transmission": false,
+    "empty_partition_is_valid_fail_closed_outcome": true,
+    "promotion_requires_six_dimension_native_and_assurance_match": true
+  },
+  "promotable_fact_ids": [],
+  "reviewed": 0,
+  "schema_version": "0.1",
+  "source_candidate_records_modified": 0,
+  "status": "scale_batch_030_six_dimension_tier_b_review_complete_fail_closed",
+  "total_trusted_tier_b": 149
+}

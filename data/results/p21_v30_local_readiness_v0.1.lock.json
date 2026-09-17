@@ -1,0 +1,163 @@
+{
+  "artifacts": {
+    "atomic_gold": {
+      "path": "data/annotations/p21_simulated/p21_atomic_slot_gold_v0.1.lock.json",
+      "sha256": "5a96ef5bc664a6f9effa068d91d71fbd8190cb72e31dfca091e59f615a2f7fb5"
+    },
+    "calculation_plans": {
+      "path": "configs/framework/p21_calculation_plans_v0.1.lock.json",
+      "sha256": "1cdf86d89ab4bb82f84fa756a01dd342569f95a1d78b9e837ca40e4f12a5119e"
+    },
+    "execution_config": {
+      "path": "configs/experiments/p21-v30-unseen-lockbox-local.json",
+      "sha256": "a9895a09a4ba104e65009ad725b0783b690b07352983a88f9461d63f6562c17c"
+    },
+    "handle_whitelist": {
+      "path": "configs/framework/p21_evidence_handle_whitelist_v0.1.lock.json",
+      "sha256": "0dd58c602dc12aa0dea0c9f2ab777560779dc26b9c3032ce8f6bf236ca717f27"
+    },
+    "layout_registry": {
+      "path": "configs/framework/p21_layout_fallback_registry_v0.1.lock.json",
+      "sha256": "028f083a8668dcdcd931fad72bda218ad27a0cda7e0a818c25626e2ae70d9c72"
+    },
+    "local_task_pack": {
+      "path": "data/tasks/p21_local_execution_task_pack_v0.1.lock.json",
+      "sha256": "ce1179d47a0c01cf20c09f92886be0546e2ed5c7aad08c5418305ffba085e26a"
+    },
+    "report": {
+      "path": "docs/91_P21_v3.0本地预冻结与云授权边界_v0.1.md",
+      "sha256": "7304662744317b85d59a10bfb3120f61725f49e4f387585098075acb788b3ed5"
+    },
+    "scoring_rules": {
+      "path": "configs/framework/p21_scoring_rules_v0.1.lock.json",
+      "sha256": "8a1bfc21fe105f2871363ecaadecde6e49740be072c3e072a737033292b89368"
+    },
+    "semantic_qualifiers": {
+      "path": "configs/framework/p21_semantic_qualifiers_v0.1.lock.json",
+      "sha256": "11bef89130e9a898c7f0144db1c9fe0a29ae183161d0df6b5915a12ab11b6142"
+    },
+    "slot_contracts": {
+      "path": "configs/framework/p21_slot_contracts_v0.1.lock.json",
+      "sha256": "1fde5ac618edac7af84c4c90b8d6024308d88891f06e883a0204bc08676af18a"
+    },
+    "table_graph": {
+      "path": "configs/framework/p21_two_dimensional_table_graph_v0.1.lock.json",
+      "sha256": "1a90d91f7884830ed2c001717ad31d3b2bb18d46d30db69fea0810b4f5867b0e"
+    }
+  },
+  "cloud_boundary": {
+    "authorized_pages_required": [
+      192,
+      194,
+      195,
+      242,
+      245,
+      262,
+      263,
+      433,
+      434,
+      436
+    ],
+    "authorized_scope_required": "P21 Stage A/Stage B single-attempt candidate inference",
+    "candidate_model": "qwen3.5:397b-cloud",
+    "candidate_model_call_count": 0,
+    "cloud_transmission_count": 0,
+    "explicit_payload_specific_authorization_received": false
+  },
+  "document_id": "P21-BASF-AR2025",
+  "document_sha256": "6fa0a9f60a3149e585a5b52f06efde1e0aaa5d1156da0d71a1fd40822df7f8b7",
+  "experiment_id": "P21-V30-UNSEEN-LOCKBOX-V01",
+  "locked_prior_experiments_modified": false,
+  "mineru": {
+    "failure_count": 0,
+    "preserved_initial_failures": [
+      192,
+      433
+    ],
+    "recovery_generations": [
+      "RESUME01"
+    ],
+    "registry": "data/manifests/p21_mineru_target_registry_v0.1.lock.json",
+    "registry_sha256": "f22b3879720bc7f017cf881c111456ed2b4b1e4748cf46e5d7656cc6e0dfc396",
+    "success_count": 10
+  },
+  "prefreeze_integrity": {
+    "evidence_quotes_checked": 34,
+    "pre_reference_answerability_correction_logged": true,
+    "reference_audit": "data/results/p21_prefreeze_reference_consistency_audit_v0.1.lock.json",
+    "reference_audit_sha256": "db9e03fc8f2d04046d485335e660ea32218b857ed562fc0e8ec9c83dde1b76d2",
+    "reference_freeze": "data/manifests/p21_simulated_reference_freeze_v0.1.lock.json",
+    "reference_freeze_sha256": "543ca10cbeba4a36bb78913ab0fa82714a6dadc80f1c45f0f108b234f885c95a",
+    "status": "passed",
+    "v29_whole_pack_preflight": {
+      "checked_operations": [
+        {
+          "operation": "sum",
+          "step_id": "sum_2025",
+          "task_id": "P21-GHG-CALC-001"
+        },
+        {
+          "operation": "sum",
+          "step_id": "sum_2024",
+          "task_id": "P21-GHG-CALC-001"
+        },
+        {
+          "operation": "percentage_change",
+          "step_id": "percentage_change",
+          "task_id": "P21-GHG-CALC-001"
+        },
+        {
+          "operation": "sum",
+          "step_id": "sum_2025",
+          "task_id": "P21-SCOPE3-001"
+        },
+        {
+          "operation": "percentage_share",
+          "step_id": "share_2025",
+          "task_id": "P21-SCOPE3-001"
+        },
+        {
+          "operation": "sum",
+          "step_id": "sum_2024",
+          "task_id": "P21-SCOPE3-001"
+        },
+        {
+          "operation": "percentage_share",
+          "step_id": "share_2024",
+          "task_id": "P21-SCOPE3-001"
+        },
+        {
+          "operation": "sum",
+          "step_id": "category_sum",
+          "task_id": "P21-WORKFORCE-001"
+        },
+        {
+          "operation": "difference",
+          "step_id": "difference",
+          "task_id": "P21-WORKFORCE-001"
+        }
+      ],
+      "deterministic_task_count": 3,
+      "plan_count": 3,
+      "status": "passed",
+      "task_count": 6,
+      "validated_before_candidate_call": true
+    }
+  },
+  "schema_version": "3.0",
+  "slot_count": 76,
+  "status": "local_readiness_passed_waiting_for_payload_specific_cloud_authorization",
+  "task_count": 6,
+  "unique_target_pages": [
+    192,
+    194,
+    195,
+    242,
+    245,
+    262,
+    263,
+    433,
+    434,
+    436
+  ]
+}

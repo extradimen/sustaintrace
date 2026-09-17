@@ -1,0 +1,30 @@
+{
+  "schema_version": "2.5",
+  "experiment_id": "P16-V25-UNSEEN-LOCKBOX-V01",
+  "status": "source_questions_and_page_windows_frozen_before_reference_creation_and_candidate_inference",
+  "framework_version": "v2.5",
+  "document_id": "P16-SANOFI-SS2025",
+  "document_sha256": "82547ddb72b6b05dca88f93ed4cfe13010cb5690a5693b96721e9be3ff9c8fcc",
+  "parser": {
+    "primary": "MinerU",
+    "fallback": "native PDF layout extraction plus deterministic two-dimensional table graph",
+    "target_pages_only": true,
+    "status": "not_yet_executed"
+  },
+  "unique_target_pages": [26, 30, 31, 38, 43, 44, 45, 68, 90, 118, 129, 130, 131, 132, 133],
+  "task_count": 6,
+  "candidate_model": "qwen3.5:397b-cloud",
+  "candidate_inference_allowed": false,
+  "required_prefreeze_gates": [
+    "reference/page-window and quote consistency audit",
+    "v2.5 scalar calculation binding normalization and Decimal frozen-plan execution",
+    "v2.5 single-block ordered-span contract selection",
+    "v2.5 grouped-number grounding",
+    "evidence-handle/page consistency gate",
+    "JSON and SHA256 audit"
+  ],
+  "single_attempt_per_stage": true,
+  "silent_retry": false,
+  "reference_visible_to_candidate": false,
+  "cloud_transmission_authorized": false
+}

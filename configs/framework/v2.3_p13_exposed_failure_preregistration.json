@@ -1,0 +1,16 @@
+{
+  "schema_version": "2.3",
+  "status": "frozen_before_v2.3_implementation",
+  "development_source": "P13 exposed failures only",
+  "locked_experiments": "P3 through P13",
+  "changes": [
+    "Reject reference magnitude, direction metadata and signed source literals that are mutually inconsistent before candidate inference.",
+    "Move deterministic calculation operation selection into a frozen framework plan; candidates bind observations and never choose the operation.",
+    "Support auditable ordered multi-handle string spans with bounded adjacency and required-term completeness."
+  ],
+  "prohibited": [
+    "P13 rerun or rescoring",
+    "posthoc semantic repair",
+    "using any unseen P14 evidence during v2.3 development"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "experiment_id": "P18-V27-UNSEEN-LOCKBOX-V01",
+  "recovery_id": "P18-MINERU-RESUME03",
+  "status": "final_primary_parser_infrastructure_recovery_authorized_by_protocol",
+  "parent_output_root": "artifacts/p18/mineru_targets_RESUME02",
+  "resume_output_root": "artifacts/p18/mineru_targets_RESUME03",
+  "interruption_class": "parser_process_aborted_during_local_service_shutdown_after_page_processing",
+  "parent_failure_records_preserved": true,
+  "reuse_items": [109, 121, 123, 131, 133, 370, 371],
+  "unfinished_pages": [122],
+  "configuration_change": "none; same frozen PDF, SHA256, page window, parser runtime, backend, and method",
+  "fallback_if_repeated": "Use the pre-frozen native PDF layout fallback for page 122 and preserve all primary failure evidence.",
+  "candidate_model_attempt_consumed": false,
+  "cloud_transmission_allowed": false
+}

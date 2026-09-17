@@ -1,0 +1,15 @@
+{
+  "schema_version":"1.0","matrix_id":"P1-MODEL-MATRIX-v0.1","status":"frozen_nonperformance_smoke_passed","seed":20260905,
+  "models":[
+    {"arm_id":"EDGE-GEMMA4-12B","config":"configs/models/p1-ollama-local-gemma4-12b.json","role":"edge_cost_frontier","input_mode":"text_and_page_image"},
+    {"arm_id":"CLOUD-QWEN35-397B","config":"configs/models/p1-ollama-cloud-qwen3.5-397b.json","role":"open_model_quality_frontier","input_mode":"text_and_page_image"},
+    {"arm_id":"CLOUD-GPTOSS-120B","config":"configs/models/p1-ollama-cloud-gpt-oss-120b.json","role":"open_model_text_control","input_mode":"text_only"}
+  ],
+  "current_codex_gpt_context_included":false,"frontier_proprietary_api_required":false,
+  "repeats_per_task":3,"task_count":24,"planned_runs":216,
+  "selection_rule":"dimension-wise Pareto comparison; no aggregate score",
+  "structured_output_policy":"raw JSON or exactly one JSON Markdown fence; no surrounding prose; raw response always archived",
+  "nonperformance_smoke_passed_run_ids":["P1-SMOKE-GEMMA4-12B-r1","P1-SMOKE-QWEN397B-r3","P1-SMOKE-GPTOSS120B-r3"],
+  "nonperformance_smoke_failed_archived_run_ids":["P1-SMOKE-QWEN397B-r2","P1-SMOKE-GPTOSS120B-r2"],
+  "inference_allowed":false
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "record_kind", "record_id", "execution_id", "observation_mode", "failure_signature", "failed_gate", "detected", "rollback_completed", "source_artifacts_modified"],
+  "properties": {
+    "schema_version": {"const": "0.1"},
+    "record_kind": {"const": "repair_execution_regression_failure"},
+    "record_id": {"type": "string", "pattern": "^repair-regression-[0-9a-f]{24}$"},
+    "execution_id": {"type": "string", "pattern": "^repair-execution-[0-9a-f]{24}$"},
+    "observation_mode": {"const": "destructive_regression"},
+    "failure_signature": {"enum": ["REPAIR_OUTPUT_HASH_MISMATCH", "REPAIR_POSTCONDITION_FAILED", "REPAIR_PREFLIGHT_FAILED"]},
+    "failed_gate": {"enum": ["preflight", "postvalidation"]},
+    "detected": {"const": true},
+    "rollback_completed": {"type": "boolean"},
+    "source_artifacts_modified": {"const": false}
+  }
+}

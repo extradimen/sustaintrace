@@ -1,0 +1,145 @@
+{
+  "schema_version": "0.1",
+  "resume_id": "KB-SCALE-BATCH-022-MINERU-RESUME01",
+  "created_at": "2026-09-13T17:36:51.984352+00:00",
+  "parent_summary": "data/results/scale_batch_022_mineru_summary.lock.json",
+  "parent_summary_sha256": "8ee3f55a651115abf72949550d1d4ea03a2c1c9d4157670fa09a9f00b86bb7ad",
+  "parent_failure_class": "sandbox_local_loopback_bind_permission_denied",
+  "parent_failed_pages": 32,
+  "failed_page_keys": [
+    {
+      "document_id": "KB-B022-ENGIE-URD2025",
+      "page": 121
+    },
+    {
+      "document_id": "KB-B022-ENGIE-URD2025",
+      "page": 122
+    },
+    {
+      "document_id": "KB-B022-ENGIE-URD2025",
+      "page": 132
+    },
+    {
+      "document_id": "KB-B022-ENGIE-URD2025",
+      "page": 133
+    },
+    {
+      "document_id": "KB-B022-ENGIE-URD2025",
+      "page": 138
+    },
+    {
+      "document_id": "KB-B022-ENGIE-URD2025",
+      "page": 140
+    },
+    {
+      "document_id": "KB-B022-ENGIE-URD2025",
+      "page": 154
+    },
+    {
+      "document_id": "KB-B022-ENGIE-URD2025",
+      "page": 174
+    },
+    {
+      "document_id": "KB-B022-ENGIE-URD2025",
+      "page": 220
+    },
+    {
+      "document_id": "KB-B022-ENGIE-URD2025",
+      "page": 221
+    },
+    {
+      "document_id": "KB-B022-ORANGE-URD2025",
+      "page": 362
+    },
+    {
+      "document_id": "KB-B022-ORANGE-URD2025",
+      "page": 363
+    },
+    {
+      "document_id": "KB-B022-ORANGE-URD2025",
+      "page": 382
+    },
+    {
+      "document_id": "KB-B022-ORANGE-URD2025",
+      "page": 383
+    },
+    {
+      "document_id": "KB-B022-ORANGE-URD2025",
+      "page": 396
+    },
+    {
+      "document_id": "KB-B022-ORANGE-URD2025",
+      "page": 400
+    },
+    {
+      "document_id": "KB-B022-ORANGE-URD2025",
+      "page": 425
+    },
+    {
+      "document_id": "KB-B022-ORANGE-URD2025",
+      "page": 428
+    },
+    {
+      "document_id": "KB-B022-ORANGE-URD2025",
+      "page": 482
+    },
+    {
+      "document_id": "KB-B022-ORANGE-URD2025",
+      "page": 483
+    },
+    {
+      "document_id": "KB-B022-ORANGE-URD2025",
+      "page": 484
+    },
+    {
+      "document_id": "KB-B022-ORANGE-URD2025",
+      "page": 485
+    },
+    {
+      "document_id": "KB-B022-SKANSKA-ASR2025",
+      "page": 64
+    },
+    {
+      "document_id": "KB-B022-SKANSKA-ASR2025",
+      "page": 69
+    },
+    {
+      "document_id": "KB-B022-SKANSKA-ASR2025",
+      "page": 70
+    },
+    {
+      "document_id": "KB-B022-SKANSKA-ASR2025",
+      "page": 71
+    },
+    {
+      "document_id": "KB-B022-SKANSKA-ASR2025",
+      "page": 75
+    },
+    {
+      "document_id": "KB-B022-SKANSKA-ASR2025",
+      "page": 76
+    },
+    {
+      "document_id": "KB-B022-SKANSKA-ASR2025",
+      "page": 81
+    },
+    {
+      "document_id": "KB-B022-SKANSKA-ASR2025",
+      "page": 84
+    },
+    {
+      "document_id": "KB-B022-SKANSKA-ASR2025",
+      "page": 208
+    },
+    {
+      "document_id": "KB-B022-SKANSKA-ASR2025",
+      "page": 209
+    }
+  ],
+  "resume_scope": "failed_pages_only",
+  "successful_parent_pages_reused": 0,
+  "output_policy": "new_resume_directory_no_parent_overwrite",
+  "execution_change": "allow_local_loopback_port_binding_for_mineru_sidecar",
+  "frozen_semantic_configuration_changed": false,
+  "cloud_transmission": false
+}

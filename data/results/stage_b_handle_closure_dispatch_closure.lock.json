@@ -1,0 +1,55 @@
+{
+  "schema_version": "0.1",
+  "closure_id": "ESG-STAGE-B-HANDLE-CLOSURE-DISPATCH-CLOSURE-v0.1",
+  "created_at": "2026-09-14T13:08:10+08:00",
+  "status": "dispatch_gate_integrated_and_exposed_regression_passed",
+  "outcome": {
+    "historical_exposed_tasks": 2,
+    "ready_complete": 1,
+    "blocked_cross_stage_handle_gap": 1,
+    "fail_closed_partial_projection": 1,
+    "grounded_claims_retained": 3,
+    "missing_slots_exposed": [
+      "assurance"
+    ],
+    "model_executions_current_phase": 0,
+    "candidate_outputs_rewritten": 0,
+    "historical_outputs_modified_or_rescored": 0,
+    "cloud_transmission_performed": false
+  },
+  "policy": {
+    "stage_b_selected_handles_must_be_subset_of_stage_a_resolved_evidence": true,
+    "claim_handles_must_be_subset_of_stage_b_selected_handles": true,
+    "violation_action": "block_before_execution",
+    "missing_required_slot_action": "partial_fail_closed"
+  },
+  "artifacts": {
+    "result": {
+      "path": "data/results/stage_b_handle_closure_dispatch_v0.1.lock.json",
+      "sha256": "2cb42f02e192d54e5112ad34988a7fe96f603f26cb0bd3bda555bb50c75acd9a"
+    },
+    "report": {
+      "path": "docs/156_StageB跨阶段句柄闭包门与部分投影_v0.1.md",
+      "sha256": "0ea7152e6d0e04383869c134a5e5c72e7341a3c88bca3c14d8fe5dc0ac66e6e4"
+    },
+    "implementation": {
+      "path": "src/esg_reliable_discovery/repair_dispatch.py",
+      "sha256": "44ca7d5d97159eeb50fc11c1bded11a3e440233356828e2526639b8104cc614b"
+    },
+    "exercise_script": {
+      "path": "scripts/exercise_stage_b_handle_closure_dispatch_v01.py",
+      "sha256": "8e639901764f989b5775da82591c2fcda80eddb125c9ab670ce64c209aeee718"
+    },
+    "regression_test": {
+      "path": "tests/test_stage_b_handle_closure_dispatch_v01.py",
+      "sha256": "72f593393b788350abda1a0b56b21423aba51511848c375df16f17cfb541c331"
+    }
+  },
+  "quality_gates": {
+    "pytest_collected_and_passed": 499,
+    "ruff": "passed",
+    "json_audit": "passed_with_documented_legacy_p1_exclusion",
+    "locked_experiments_modified_or_rescored": false
+  },
+  "next_gate": "wire the cross-stage handle closure gate into every reusable Stage B runner entry point"
+}

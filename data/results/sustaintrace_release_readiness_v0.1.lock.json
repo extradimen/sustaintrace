@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0",
+  "record_kind": "sustaintrace_release_readiness",
+  "release": "0.1.0",
+  "status": "local_release_candidate_complete_remote_validation_pending",
+  "local_platform": "macOS arm64",
+  "checks": {
+    "bootstrap": "passed",
+    "unified_launcher": "passed",
+    "mineru_version": "3.4.0",
+    "mineru_assets_verified": 40,
+    "mineru_pdf_smoke_test": "passed",
+    "poppler_fallback_available": true,
+    "packaged_frontend": "passed",
+    "packaged_knowledge_seed": "passed",
+    "pytest": {"status": "passed", "collected": 592},
+    "ruff": "passed",
+    "frontend_lint": "passed",
+    "frontend_static_build": "passed",
+    "wheel_install_smoke": "passed",
+    "release_boundary_validation": "passed"
+  },
+  "release_seed": {
+    "trusted_tier_b_facts": 149,
+    "issuer_entities": 34,
+    "relation_edges": 149,
+    "failure_observations": 1032,
+    "candidate_records_included": false,
+    "simulated_records_included": false,
+    "raw_issuer_pdfs_included": false
+  },
+  "artifacts": {
+    "wheel": {
+      "path": "dist/sustaintrace-0.1.0-py3-none-any.whl",
+      "sha256": "85225ca10c7b76e01a78e5459248de47969d160cba737d3a4199f65ba422ba94"
+    },
+    "knowledge_manifest": {
+      "path": "src/esg_reliable_discovery/release_seed/knowledge_bases/v0.1/release_manifest.lock.json",
+      "sha256": "786cee71f56e3abff6492ca07c0e1d7be43f95f6e10cf7a68109c3c6f23cf914"
+    },
+    "source_distribution_manifest": {
+      "path": "data/manifests/release_source_distribution_v0.1.lock.json",
+      "sha256": "fa2cf32fef8c5d1e7288b950de818102cdd93e1ca6a2f07c8640ac04be13c8af"
+    },
+    "mineru_smoke_result": {
+      "path": "data/install/smoke/smoke_result.lock.json",
+      "sha256": "9df7d674f36d8638b93c3fd07425c4a8c6e6a0f7bcb93912374cd0b1288472e8"
+    }
+  },
+  "external_gates": {
+    "github_remote_configured": false,
+    "cross_platform_actions_executed": false,
+    "github_release_published": false,
+    "zenodo_doi_created": false
+  },
+  "claims_policy": "macOS is locally verified; Windows and Linux remain implemented but unverified until the GitHub Actions matrix passes."
+}

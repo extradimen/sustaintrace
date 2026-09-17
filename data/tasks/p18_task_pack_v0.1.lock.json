@@ -1,0 +1,59 @@
+{
+  "schema_version": "2.7",
+  "experiment_id": "P18-V27-UNSEEN-LOCKBOX-V01",
+  "status": "questions_and_page_windows_frozen_before_reference_creation_and_candidate_inference",
+  "page_coordinate_system": "one_based_pdf_page_index",
+  "document_id": "P18-DEUTSCHE-TELEKOM-AR2025",
+  "document_sha256": "de5d9b0705793c4bf0b994b52ecc242800d79ee18736958dbff32aade7b79a5c",
+  "inference_allowed": false,
+  "tasks": [
+    {
+      "task_id": "P18-GHG-CALC-001",
+      "document_id": "P18-DEUTSCHE-TELEKOM-AR2025",
+      "task_type": "deterministic_calculation",
+      "question_status": "frozen",
+      "question": "Using Deutsche Telekom's reported 2025 market-based Scope 1 and Scope 2 emissions, calculate their sum and compare it with the disclosed Scope 1 and 2 market-based total, retaining the t CO2e unit; then calculate the percentage change in that disclosed total from 2024 to 2025, state whether it increased or decreased, and round the percentage to two decimals.",
+      "target_pages": [133]
+    },
+    {
+      "task_id": "P18-ENERGY-001",
+      "document_id": "P18-DEUTSCHE-TELEKOM-AR2025",
+      "task_type": "direct_extraction_and_relation",
+      "question_status": "frozen",
+      "question": "What 2025 and 2024 values does Deutsche Telekom report for total fossil energy consumption, total renewable energy consumption, self-generated non-fuel renewable energy, and total energy consumption, all in MWh; what narrative year-on-year GWh values are stated; and what retrospective qualification applies to the 2024 figures?",
+      "target_pages": [131]
+    },
+    {
+      "task_id": "P18-SCOPE3-001",
+      "document_id": "P18-DEUTSCHE-TELEKOM-AR2025",
+      "task_type": "deterministic_calculation",
+      "question_status": "frozen",
+      "question": "For 2025 and 2024, report Deutsche Telekom's total, upstream, and downstream Scope 3 emissions in t CO2e; deterministically sum upstream and downstream for each year and compare each recomputed value with the corresponding disclosed Scope 3 total, preserving any one-unit rounding difference.",
+      "target_pages": [133]
+    },
+    {
+      "task_id": "P18-WORKFORCE-001",
+      "document_id": "P18-DEUTSCHE-TELEKOM-AR2025",
+      "task_type": "deterministic_calculation",
+      "question_status": "frozen",
+      "question": "For December 31, 2025 and 2024, report Deutsche Telekom's Germany, International, and total employee FTE counts; deterministically sum Germany and International for each year and compare each recomputed value with the disclosed total, preserving any one-FTE difference.",
+      "target_pages": [109]
+    },
+    {
+      "task_id": "P18-TAXONOMY-001",
+      "document_id": "P18-DEUTSCHE-TELEKOM-AR2025",
+      "task_type": "scope_subject_boundary",
+      "question_status": "frozen",
+      "question": "What 2025 EU Taxonomy totals, taxonomy-eligible and taxonomy-aligned values and shares, and non-material activity shares does Deutsche Telekom report for turnover and capex; why was alignment not assessed for the non-material activities; and what changed for taxonomy-relevant opex in 2025?",
+      "target_pages": [121, 122, 123]
+    },
+    {
+      "task_id": "P18-ASSURE-001",
+      "document_id": "P18-DEUTSCHE-TELEKOM-AR2025",
+      "task_type": "scope_subject_boundary",
+      "question_status": "frozen",
+      "question": "What part of Deutsche Telekom's 2025 Combined Sustainability Statement received limited assurance, which named indicators received reasonable assurance, what references were excluded, what conclusions or opinion were stated, which standard governed the engagement, and how does the report distinguish limited from reasonable assurance?",
+      "target_pages": [370, 371]
+    }
+  ]
+}

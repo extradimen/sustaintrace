@@ -1,0 +1,86 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-003",
+  "status": "increment_built_candidates_not_promoted",
+  "fact_candidates": 26,
+  "trusted_facts_promoted": 0,
+  "evidence_gaps": 10,
+  "failure_observations": 6,
+  "gaps": [
+    {
+      "document_id": "KB-B003-INGKA-ASSR-FY25",
+      "page": 70,
+      "theme": "ghg_emissions",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B003-AZ-SDA2025",
+      "page": 3,
+      "theme": "targets",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B003-AZ-SDA2025",
+      "page": 4,
+      "theme": "energy",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B003-AZ-SDA2025",
+      "page": 5,
+      "theme": "circularity",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B003-AZ-SDA2025",
+      "page": 5,
+      "theme": "water",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B003-AZ-SDA2025",
+      "page": 10,
+      "theme": "health_safety",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B003-AZ-SDA2025",
+      "page": 10,
+      "theme": "workforce",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B003-DHL-AR2025",
+      "page": 76,
+      "theme": "biodiversity",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B003-DHL-AR2025",
+      "page": 125,
+      "theme": "workforce",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B003-DHL-AR2025",
+      "page": 127,
+      "theme": "water",
+      "reason": "no_theme_line_in_mineru_markdown"
+    }
+  ],
+  "outputs": {
+    "facts": {
+      "path": "data/knowledge_bases/v0.1/increments/scale_batch_003_fact_records.jsonl",
+      "sha256": "e7679c3f58af19e1400efdca9787a97b941be38f314115adcb7976f713a6f6c3"
+    },
+    "failures": {
+      "path": "data/knowledge_bases/v0.1/increments/scale_batch_003_failure_records.jsonl",
+      "sha256": "1ab09aa842e02743744926680703d41ab43e9645404578b90d515b2391ed29f2"
+    }
+  },
+  "policy": {
+    "cloud_transmission": false,
+    "locked_experiments_modified": false,
+    "automatic_promotion": false
+  }
+}

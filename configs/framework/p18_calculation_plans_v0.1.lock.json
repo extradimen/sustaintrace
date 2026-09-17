@@ -1,0 +1,203 @@
+{
+  "experiment_id": "P18-V27-UNSEEN-LOCKBOX-V01",
+  "plans": {
+    "P18-GHG-CALC-001": {
+      "candidate_input_role_order": [
+        "scope_1_2025",
+        "scope_2_market_based_2025",
+        "disclosed_scope_1_2_2025",
+        "disclosed_scope_1_2_2024"
+      ],
+      "candidate_may_select_operation": false,
+      "roles": [
+        {
+          "role_id": "scope_1_2025",
+          "unit": "t CO2e"
+        },
+        {
+          "role_id": "scope_2_market_based_2025",
+          "unit": "t CO2e"
+        },
+        {
+          "role_id": "disclosed_scope_1_2_2025",
+          "unit": "t CO2e"
+        },
+        {
+          "role_id": "disclosed_scope_1_2_2024",
+          "unit": "t CO2e"
+        }
+      ],
+      "steps": [
+        {
+          "inputs": [
+            "scope_1_2025",
+            "scope_2_market_based_2025"
+          ],
+          "operation": "sum",
+          "step_id": "calculated_scope_1_2_2025"
+        },
+        {
+          "inputs": [
+            "calculated_scope_1_2_2025",
+            "disclosed_scope_1_2_2025"
+          ],
+          "operation": "difference",
+          "step_id": "difference"
+        },
+        {
+          "inputs": [
+            "disclosed_scope_1_2_2025",
+            "disclosed_scope_1_2_2024"
+          ],
+          "operation": "percentage_change",
+          "rounding_decimals": 2,
+          "step_id": "percentage_change"
+        }
+      ]
+    },
+    "P18-SCOPE3-001": {
+      "candidate_input_role_order": [
+        "upstream_2025",
+        "downstream_2025",
+        "disclosed_total_2025",
+        "upstream_2024",
+        "downstream_2024",
+        "disclosed_total_2024"
+      ],
+      "candidate_may_select_operation": false,
+      "roles": [
+        {
+          "role_id": "upstream_2025",
+          "unit": "t CO2e"
+        },
+        {
+          "role_id": "downstream_2025",
+          "unit": "t CO2e"
+        },
+        {
+          "role_id": "disclosed_total_2025",
+          "unit": "t CO2e"
+        },
+        {
+          "role_id": "upstream_2024",
+          "unit": "t CO2e"
+        },
+        {
+          "role_id": "downstream_2024",
+          "unit": "t CO2e"
+        },
+        {
+          "role_id": "disclosed_total_2024",
+          "unit": "t CO2e"
+        }
+      ],
+      "steps": [
+        {
+          "inputs": [
+            "upstream_2025",
+            "downstream_2025"
+          ],
+          "operation": "sum",
+          "step_id": "recomputed_total_2025"
+        },
+        {
+          "inputs": [
+            "recomputed_total_2025",
+            "disclosed_total_2025"
+          ],
+          "operation": "difference",
+          "step_id": "difference_2025"
+        },
+        {
+          "inputs": [
+            "upstream_2024",
+            "downstream_2024"
+          ],
+          "operation": "sum",
+          "step_id": "recomputed_total_2024"
+        },
+        {
+          "inputs": [
+            "recomputed_total_2024",
+            "disclosed_total_2024"
+          ],
+          "operation": "difference",
+          "step_id": "difference_2024"
+        }
+      ]
+    },
+    "P18-WORKFORCE-001": {
+      "candidate_input_role_order": [
+        "germany_2025",
+        "international_2025",
+        "disclosed_total_2025",
+        "germany_2024",
+        "international_2024",
+        "disclosed_total_2024"
+      ],
+      "candidate_may_select_operation": false,
+      "roles": [
+        {
+          "role_id": "germany_2025",
+          "unit": "FTE"
+        },
+        {
+          "role_id": "international_2025",
+          "unit": "FTE"
+        },
+        {
+          "role_id": "disclosed_total_2025",
+          "unit": "FTE"
+        },
+        {
+          "role_id": "germany_2024",
+          "unit": "FTE"
+        },
+        {
+          "role_id": "international_2024",
+          "unit": "FTE"
+        },
+        {
+          "role_id": "disclosed_total_2024",
+          "unit": "FTE"
+        }
+      ],
+      "steps": [
+        {
+          "inputs": [
+            "germany_2025",
+            "international_2025"
+          ],
+          "operation": "sum",
+          "step_id": "recomputed_total_2025"
+        },
+        {
+          "inputs": [
+            "recomputed_total_2025",
+            "disclosed_total_2025"
+          ],
+          "operation": "difference",
+          "step_id": "difference_2025"
+        },
+        {
+          "inputs": [
+            "germany_2024",
+            "international_2024"
+          ],
+          "operation": "sum",
+          "step_id": "recomputed_total_2024"
+        },
+        {
+          "inputs": [
+            "recomputed_total_2024",
+            "disclosed_total_2024"
+          ],
+          "operation": "difference",
+          "step_id": "difference_2024"
+        }
+      ]
+    }
+  },
+  "schema_version": "2.7",
+  "status": "frozen_before_candidate_inference"
+}

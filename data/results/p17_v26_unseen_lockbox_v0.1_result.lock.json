@@ -1,0 +1,90 @@
+{
+  "schema_version": "2.6",
+  "experiment_id": "P17-V26-UNSEEN-LOCKBOX-V01",
+  "status": "completed_locked",
+  "candidate_model": "qwen3.5:397b-cloud",
+  "resolved_model_digest": "68d2a0796c11e1fedd0456a2d55e58cca4077be6a218428a7a7f4e21f8177cbc",
+  "document_id": "P17-BMW-GROUP-REPORT-2025",
+  "document_sha256": "7a7fd36bf7f274e776ef7eda30d3cda4335a99cbb45f097ae5e8268ccf7759e7",
+  "authorized_pages": [127, 129, 130, 141, 142, 172, 178, 179, 372, 373, 374, 375],
+  "task_count": 6,
+  "stage_a_valid_tasks": 4,
+  "final_pipeline_valid_tasks": 2,
+  "required_atomic_slots": 74,
+  "credited_valid_slots": 36,
+  "exact_slots": 34,
+  "numeric_exact_slots": 34,
+  "numeric_reference_slots": 56,
+  "string_exact_slots": 0,
+  "string_reference_slots": 18,
+  "verified_run_archives": 10,
+  "aggregate_score": null,
+  "task_outcomes": {
+    "P17-GHG-CALC-001": {
+      "stage_a": "failed",
+      "stage_b": "not_reached",
+      "failure_category": "model_behavior",
+      "failure": "v26_unlabeled_calculation_inputs_not_exact_ordered_shape"
+    },
+    "P17-SCOPE3-BOUNDARY-001": {
+      "stage_a": "failed",
+      "stage_b": "not_reached",
+      "failure_category": "model_behavior",
+      "failure": "invented evidence handle M130-T0001-R0020"
+    },
+    "P17-WATER-001": {
+      "stage_a": "passed",
+      "stage_b": "passed",
+      "required_slots": 20,
+      "credited_slots": 20,
+      "exact_slots": 18,
+      "non_exact_slots": ["unit", "qualification"]
+    },
+    "P17-SAFETY-001": {
+      "stage_a": "passed",
+      "stage_b": "passed",
+      "required_slots": 16,
+      "credited_slots": 16,
+      "exact_slots": 16
+    },
+    "P17-WORKFORCE-001": {
+      "stage_a": "passed",
+      "stage_b": "failed",
+      "failure_category": "model_behavior",
+      "failure": "invalid slot evidence handle stage_a_answer"
+    },
+    "P17-ASSURE-001": {
+      "stage_a": "passed",
+      "stage_b": "failed",
+      "failure_category": "model_behavior",
+      "failure": "candidate verbatim value for limited_scope not grounded"
+    }
+  },
+  "protocol_integrity": {
+    "single_attempt_per_stage": true,
+    "silent_retry": false,
+    "posthoc_semantic_repair": false,
+    "failed_outputs_preserved": true,
+    "reference_visible_to_candidate": false,
+    "cloud_scope_matched_exact_authorization": true,
+    "prior_experiments_modified": false
+  },
+  "inputs": {
+    "authorization": {
+      "path": "data/manifests/p17_cloud_authorization_exact_2026-09-10_v0.2.lock.json",
+      "sha256": "73ec079418d1613cd5789ddec9e35ddd698e87baf50cc18becce02a2f15ffef5"
+    },
+    "execution_release": {
+      "path": "data/tasks/p17_execution_release_RESUME02_v0.2.lock.json",
+      "sha256": "51bf5c666ce7a237606d3108aeea8281edd057ab9c0a309382e476d28d375903"
+    },
+    "candidate_progress": {
+      "path": "data/manifests/p17_candidate_progress.json",
+      "sha256": "6ec9f2cf439f4e5416f0129c014398c878dfe3351d56e9fcffca6d7da1a2918d"
+    },
+    "dimension_scores": {
+      "path": "data/results/p17_v26_dimension_scores_v0.1.lock.json",
+      "sha256": "35a5583bcba39ce1e34675c867087650500812d37c48d2562f1654af0d25704c"
+    }
+  }
+}

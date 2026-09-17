@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "experiment_id": "P16-V25-UNSEEN-LOCKBOX-V01",
+  "status": "frozen_local_pack_pending_explicit_cloud_authorization",
+  "inference_allowed": false,
+  "parent": "data/tasks/p16_task_pack_v0.1.lock.json",
+  "source_registry": "data/manifests/p16_source_registry_v0.1.lock.json",
+  "parser_registry": "data/manifests/p16_mineru_target_registry_v0.1.lock.json",
+  "reference_freeze": "data/manifests/p16_simulated_reference_and_contract_freeze_v0.1.lock.json",
+  "prefreeze_audit": "data/results/p16_v25_prefreeze_integrity_audit_RESUME01_v0.1.lock.json",
+  "slot_contracts": "configs/framework/p16_slot_contracts_v0.1.lock.json",
+  "semantic_qualifiers": "configs/framework/p16_semantic_qualifiers_v0.1.lock.json",
+  "table_graph": "configs/framework/p16_two_dimensional_table_graph_v0.1.lock.json",
+  "layout_fallback_registry": "configs/framework/p16_layout_fallback_registry_v0.1.lock.json",
+  "calculation_plans": "configs/framework/p16_calculation_plans_v0.1.lock.json",
+  "tasks": [
+    {"task_id":"P16-GHG-CALC-001","reference_file":"data/annotations/p16_simulated/P16-GHG-CALC-001.json","target_pages":[38]},
+    {"task_id":"P16-TARGET-001","reference_file":"data/annotations/p16_simulated/P16-TARGET-001.json","target_pages":[26,30,31,38]},
+    {"task_id":"P16-POLLUTION-001","reference_file":"data/annotations/p16_simulated/P16-POLLUTION-001.json","target_pages":[43,44,45]},
+    {"task_id":"P16-SAFETY-001","reference_file":"data/annotations/p16_simulated/P16-SAFETY-001.json","target_pages":[68,118]},
+    {"task_id":"P16-ACCESS-001","reference_file":"data/annotations/p16_simulated/P16-ACCESS-001.json","target_pages":[90]},
+    {"task_id":"P16-ASSURE-001","reference_file":"data/annotations/p16_simulated/P16-ASSURE-001.json","target_pages":[129,130,131,132,133]}
+  ],
+  "release_condition": "User must explicitly authorize Sanofi Sustainability Statement 2025 pages 26,30,31,38,43,44,45,68,90,118,129,130,131,132,133 to Ollama Cloud qwen3.5:397b-cloud solely for P16 Stage A/Stage B single-attempt candidate inference."
+}

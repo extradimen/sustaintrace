@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "registry_id": "P22-SOURCE-REGISTRY-v0.1",
+  "experiment_id": "P22-V31-UNSEEN-LOCKBOX-V01",
+  "status": "source_frozen_before_task_authoring_and_candidate_inference",
+  "candidates": [
+    {
+      "candidate_id": "P22-CAND-001",
+      "document_id": "P22-BAYER-AR2025",
+      "company": "Bayer AG",
+      "title": "Bayer Annual Report 2025",
+      "language": "English",
+      "eligibility_status": "eligible",
+      "sha256": "0af4a9d19fd9d4cba72c1ec062802199873f2379f84112dc2db5dc9605ce769b",
+      "official_landing_page": "https://reports.bayer.com/annual-report-2025/en/services/downloads.html",
+      "local_path": "data/raw/p22_staging/bayer-annual-report-2025.pdf",
+      "page_count": 430
+    }
+  ]
+}

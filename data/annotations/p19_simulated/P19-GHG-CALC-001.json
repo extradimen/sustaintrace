@@ -1,0 +1,63 @@
+{
+  "answer": "In 2025, Scope 1 was 120 and market-based Scope 2 was 63, both in 1,000 tCO2e. Their sum is 183, exactly matching the disclosed market-based Scope 1 and 2 total, for a zero difference. Against 101 in 2024, that disclosed total increased by 81.19%.",
+  "evidence": [
+    {
+      "pdf_page": 66,
+      "quote": "1,000 tCO2e",
+      "source_id": "P19-NOVO-NORDISK-AR2025"
+    },
+    {
+      "pdf_page": 66,
+      "quote": "Scope 1 GHG emissions",
+      "source_id": "P19-NOVO-NORDISK-AR2025"
+    },
+    {
+      "pdf_page": 66,
+      "quote": "120",
+      "source_id": "P19-NOVO-NORDISK-AR2025"
+    },
+    {
+      "pdf_page": 66,
+      "quote": "Scope 2 GHG emissions - market-based",
+      "source_id": "P19-NOVO-NORDISK-AR2025"
+    },
+    {
+      "pdf_page": 66,
+      "quote": "63",
+      "source_id": "P19-NOVO-NORDISK-AR2025"
+    },
+    {
+      "pdf_page": 66,
+      "quote": "Scope 1 and 2 GHG emissions - market-based",
+      "source_id": "P19-NOVO-NORDISK-AR2025"
+    },
+    {
+      "pdf_page": 66,
+      "quote": "183",
+      "source_id": "P19-NOVO-NORDISK-AR2025"
+    },
+    {
+      "pdf_page": 66,
+      "quote": "101",
+      "source_id": "P19-NOVO-NORDISK-AR2025"
+    }
+  ],
+  "normalized_value": {
+    "calculated_change_percent": 81.19,
+    "calculated_scope_1_2_2025_thousand_tco2e": 183,
+    "difference_thousand_tco2e": 0,
+    "direction": "increase",
+    "disclosed_scope_1_2_2024_thousand_tco2e": 101,
+    "disclosed_scope_1_2_2025_thousand_tco2e": 183,
+    "scope_1_2025_thousand_tco2e": 120,
+    "scope_2_market_based_2025_thousand_tco2e": 63
+  },
+  "provenance": {
+    "candidate_model_used": false,
+    "reference_is_simulated": true
+  },
+  "reference_author": "codex_gpt_simulated_expert",
+  "reference_status": "verified_against_frozen_mineru_pages_and_native_layout",
+  "schema_version": "1.0",
+  "task_id": "P19-GHG-CALC-001"
+}

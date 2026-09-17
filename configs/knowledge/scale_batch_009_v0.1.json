@@ -1,0 +1,58 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-009",
+  "status": "selection_frozen_before_acquisition",
+  "policy": {
+    "local_only": true,
+    "cloud_transmission": false,
+    "locked_experiments_untouched": ["P3-P23"],
+    "download_resume": true,
+    "overwrite_verified_files": false,
+    "fact_promotion_requires_independent_gate": true
+  },
+  "selection_rationale": "Three previously unused official English 2025 integrated reports. H&M targets circular materials and supply-chain water, Orsted targets biodiversity and energy infrastructure, and Carlsberg targets water, agriculture and packaging. All three expose sustainability statements and independent-assurance sections suitable for period- and scope-aware Tier-B review.",
+  "documents": [
+    {
+      "document_id": "KB-B009-HM-ASR2025",
+      "source_group_id": "KB-HM-2025",
+      "company": "H & M Hennes & Mauritz AB",
+      "title": "H&M Group Annual and Sustainability Report 2025",
+      "report_year": 2025,
+      "official_landing_page": "https://hmgroup.com/investors/reports/",
+      "download_url": "https://hmgroup.com/wp-content/uploads/2026/03/HM-Group-Annual-and-sustainability-report-2025.pdf",
+      "official_domain": "hmgroup.com",
+      "local_path": "data/raw/scale_batch_009/hm-group-annual-and-sustainability-report-2025.pdf",
+      "source_role": "primary_report",
+      "language": "English",
+      "prior_experiment_use": false
+    },
+    {
+      "document_id": "KB-B009-ORSTED-AR2025",
+      "source_group_id": "KB-ORSTED-2025",
+      "company": "Orsted A/S",
+      "title": "Orsted Annual Report 2025",
+      "report_year": 2025,
+      "official_landing_page": "https://orsted.com/en/investors/financial-reports/annual-reporting-2025",
+      "download_url": "https://cdn.orsted.com/-/media/annual-2025/annual-report-2025.pdf?hash=D5AF74AEDCCB4EB539AAD875E368374A&rev=34ff0f324dc1429bac1bc84382c30a9d",
+      "official_domain": "orsted.com",
+      "local_path": "data/raw/scale_batch_009/orsted-annual-report-2025.pdf",
+      "source_role": "primary_report",
+      "language": "English",
+      "prior_experiment_use": false
+    },
+    {
+      "document_id": "KB-B009-CARLSBERG-AR2025",
+      "source_group_id": "KB-CARLSBERG-2025",
+      "company": "Carlsberg A/S",
+      "title": "Carlsberg Group Annual Report 2025",
+      "report_year": 2025,
+      "official_landing_page": "https://www.carlsberggroup.com/sustainability/report-policies/reports/",
+      "download_url": "https://www.carlsberggroup.com/media/1tgf0wsy/carlsberg-group_2025-annual-report.pdf",
+      "official_domain": "carlsberggroup.com",
+      "local_path": "data/raw/scale_batch_009/carlsberg-group-annual-report-2025.pdf",
+      "source_role": "primary_report",
+      "language": "English",
+      "prior_experiment_use": false
+    }
+  ]
+}

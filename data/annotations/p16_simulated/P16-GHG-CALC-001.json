@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "task_id": "P16-GHG-CALC-001",
+  "reference_author": "codex_gpt_simulated_expert",
+  "reference_status": "verified_against_frozen_pages",
+  "answer": "Sanofi reported 2025 gross market-based Scope 1 emissions of 235 ktCO2e, gross market-based Scope 2 emissions of 70 ktCO2e and significant Scope 3 emissions of 3,436 ktCO2e. Their sum is 3,741 ktCO2e, exactly equal to the disclosed transition-plan-scope total, so the difference is 0 ktCO2e.",
+  "normalized_value": {
+    "market_scope_1_ktco2e": 235,
+    "market_scope_2_ktco2e": 70,
+    "significant_scope_3_ktco2e": 3436,
+    "calculated_transition_total_ktco2e": 3741,
+    "disclosed_transition_total_ktco2e": 3741,
+    "difference_ktco2e": 0,
+    "comparison": "exact_equal",
+    "rounding_context": "all component values and the disclosed total are reported as whole ktCO2e"
+  },
+  "evidence": [
+    {"source_id":"P16-SANOFI-SS2025","pdf_page":38,"quote":"Gross market-based Scope 1 emissions"},
+    {"source_id":"P16-SANOFI-SS2025","pdf_page":38,"quote":"235"},
+    {"source_id":"P16-SANOFI-SS2025","pdf_page":38,"quote":"Gross market-based Scope 2 GHG emissions"},
+    {"source_id":"P16-SANOFI-SS2025","pdf_page":38,"quote":"70"},
+    {"source_id":"P16-SANOFI-SS2025","pdf_page":38,"quote":"Total Gross indirect (Scope 3 GHG emissions"},
+    {"source_id":"P16-SANOFI-SS2025","pdf_page":38,"quote":"3,436"},
+    {"source_id":"P16-SANOFI-SS2025","pdf_page":38,"quote":"Total GHG emissions - Transition plan scope"},
+    {"source_id":"P16-SANOFI-SS2025","pdf_page":38,"quote":"3,741"}
+  ],
+  "provenance": {"reference_is_simulated":true,"candidate_model_used":false}
+}

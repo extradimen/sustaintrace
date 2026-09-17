@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "status": "development_frozen_before_v1.3.2_regression",
+  "purpose": "Preserve comparison, direction and assurance-level semantics that scalar values alone lose.",
+  "qualifiers": {
+    "P3-XPAGE-002": {
+      "yoy_change": {"direction": "decrease"},
+      "assurance": {"required_value_terms": ["limited", "assurance"]}
+    },
+    "P3-SCOPE-002": {
+      "scope12_excluded_share": {"comparison_operator": "<"},
+      "scope3_excluded_share": {"comparison_operator": "<"}
+    }
+  },
+  "guardrails": [
+    "Qualifiers are framework-owned task semantics and are never inferred from a model-generated scalar after scoring.",
+    "This registry was created after DEV02 semantic audit and therefore requires a new development generation.",
+    "P3 remains unchanged and no unbiased improvement is claimed."
+  ]
+}

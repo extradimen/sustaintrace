@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.0",
+  "selection_rule": "all frozen task pages eligible; references cannot select evidence",
+  "semantic_change": false,
+  "status": "executor_layout_registry_frozen_before_candidate_inference",
+  "targets": [
+    {
+      "document_id": "P11-SIEMENS-AR2025",
+      "document_sha256": "a702335f2c2d4f18d3ead4053df2fc3a9be3ad69b062bedd938f3b2551213b27",
+      "pdf_page": 215,
+      "pdf_path": "data/raw/p11_staging/siemens-annual-report-2025.pdf",
+      "task_id": "P11-SAFETY-001"
+    },
+    {
+      "document_id": "P11-SIEMENS-AR2025",
+      "document_sha256": "a702335f2c2d4f18d3ead4053df2fc3a9be3ad69b062bedd938f3b2551213b27",
+      "pdf_page": 176,
+      "pdf_path": "data/raw/p11_staging/siemens-annual-report-2025.pdf",
+      "task_id": "P11-CALC-001"
+    },
+    {
+      "document_id": "P11-SIEMENS-AR2025",
+      "document_sha256": "a702335f2c2d4f18d3ead4053df2fc3a9be3ad69b062bedd938f3b2551213b27",
+      "pdf_page": 177,
+      "pdf_path": "data/raw/p11_staging/siemens-annual-report-2025.pdf",
+      "task_id": "P11-CALC-001"
+    },
+    {
+      "document_id": "P11-SIEMENS-AR2025",
+      "document_sha256": "a702335f2c2d4f18d3ead4053df2fc3a9be3ad69b062bedd938f3b2551213b27",
+      "pdf_page": 169,
+      "pdf_path": "data/raw/p11_staging/siemens-annual-report-2025.pdf",
+      "task_id": "P11-TARGET-001"
+    },
+    {
+      "document_id": "P11-SIEMENS-AR2025",
+      "document_sha256": "a702335f2c2d4f18d3ead4053df2fc3a9be3ad69b062bedd938f3b2551213b27",
+      "pdf_page": 170,
+      "pdf_path": "data/raw/p11_staging/siemens-annual-report-2025.pdf",
+      "task_id": "P11-TARGET-001"
+    },
+    {
+      "document_id": "P11-SIEMENS-AR2025",
+      "document_sha256": "a702335f2c2d4f18d3ead4053df2fc3a9be3ad69b062bedd938f3b2551213b27",
+      "pdf_page": 160,
+      "pdf_path": "data/raw/p11_staging/siemens-annual-report-2025.pdf",
+      "task_id": "P11-BOUNDARY-001"
+    },
+    {
+      "document_id": "P11-SIEMENS-AR2025",
+      "document_sha256": "a702335f2c2d4f18d3ead4053df2fc3a9be3ad69b062bedd938f3b2551213b27",
+      "pdf_page": 170,
+      "pdf_path": "data/raw/p11_staging/siemens-annual-report-2025.pdf",
+      "task_id": "P11-BOUNDARY-001"
+    },
+    {
+      "document_id": "P11-SIEMENS-AR2025",
+      "document_sha256": "a702335f2c2d4f18d3ead4053df2fc3a9be3ad69b062bedd938f3b2551213b27",
+      "pdf_page": 176,
+      "pdf_path": "data/raw/p11_staging/siemens-annual-report-2025.pdf",
+      "task_id": "P11-SCOPE3-001"
+    },
+    {
+      "document_id": "P11-SIEMENS-AR2025",
+      "document_sha256": "a702335f2c2d4f18d3ead4053df2fc3a9be3ad69b062bedd938f3b2551213b27",
+      "pdf_page": 178,
+      "pdf_path": "data/raw/p11_staging/siemens-annual-report-2025.pdf",
+      "task_id": "P11-SCOPE3-001"
+    },
+    {
+      "document_id": "P11-SIEMENS-AR2025",
+      "document_sha256": "a702335f2c2d4f18d3ead4053df2fc3a9be3ad69b062bedd938f3b2551213b27",
+      "pdf_page": 257,
+      "pdf_path": "data/raw/p11_staging/siemens-annual-report-2025.pdf",
+      "task_id": "P11-ASSURE-001"
+    },
+    {
+      "document_id": "P11-SIEMENS-AR2025",
+      "document_sha256": "a702335f2c2d4f18d3ead4053df2fc3a9be3ad69b062bedd938f3b2551213b27",
+      "pdf_page": 258,
+      "pdf_path": "data/raw/p11_staging/siemens-annual-report-2025.pdf",
+      "task_id": "P11-ASSURE-001"
+    }
+  ],
+  "two_dimensional_table_graph": "configs/framework/p11_two_dimensional_table_graph_v0.1.lock.json"
+}

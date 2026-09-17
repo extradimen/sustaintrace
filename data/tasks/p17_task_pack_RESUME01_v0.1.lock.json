@@ -1,0 +1,59 @@
+{
+  "schema_version": "2.6",
+  "experiment_id": "P17-V26-UNSEEN-LOCKBOX-V01",
+  "status": "questions_and_page_windows_frozen_before_reference_creation_and_candidate_inference",
+  "page_coordinate_system": "one_based_pdf_page_index",
+  "document_id": "P17-BMW-GROUP-REPORT-2025",
+  "document_sha256": "7a7fd36bf7f274e776ef7eda30d3cda4335a99cbb45f097ae5e8268ccf7759e7",
+  "inference_allowed": false,
+  "tasks": [
+    {
+      "task_id": "P17-GHG-CALC-001",
+      "document_id": "P17-BMW-GROUP-REPORT-2025",
+      "task_type": "deterministic_calculation",
+      "question_status": "frozen",
+      "question": "Using BMW Group's reported market-based Scope 1 and Scope 2 emissions for 2025, calculate their sum and compare it with the disclosed Scope 1+2 total, retaining the t CO2e unit; then calculate the percentage change in the disclosed Scope 1+2 total from 2024 to 2025 and state whether it increased or decreased, rounded to two decimals.",
+      "target_pages": [127]
+    },
+    {
+      "task_id": "P17-SCOPE3-BOUNDARY-001",
+      "document_id": "P17-BMW-GROUP-REPORT-2025",
+      "task_type": "scope_subject_boundary",
+      "question_status": "frozen",
+      "question": "Which Scope 3 categories does BMW Group classify as no reporting in 2025, which leased-asset categories are only partially reported, what allocation notes qualify those partial categories, and what materiality rationale and approximate coverage of significant categories does the report state?",
+      "target_pages": [129, 130]
+    },
+    {
+      "task_id": "P17-WATER-001",
+      "document_id": "P17-BMW-GROUP-REPORT-2025",
+      "task_type": "direct_extraction",
+      "question_status": "frozen",
+      "question": "What 2025 and 2024 values and reported percentage changes does BMW Group disclose for total water consumption, water consumption in water-risk areas, water recycled and reused, total water stored, changes in storage, and total water withdrawals, and what retrospective-adjustment or first-time-comparative qualifications apply?",
+      "target_pages": [141, 142]
+    },
+    {
+      "task_id": "P17-SAFETY-001",
+      "document_id": "P17-BMW-GROUP-REPORT-2025",
+      "task_type": "direct_extraction",
+      "question_status": "frozen",
+      "question": "What 2025 and 2024 work-related accident counts and frequency rates does BMW Group report in total and for employees and temporary agency workers, and how are the four 2025 work-related fatalities divided between BMW Group employees and workers of external companies at BMW Group sites?",
+      "target_pages": [178]
+    },
+    {
+      "task_id": "P17-WORKFORCE-001",
+      "document_id": "P17-BMW-GROUP-REPORT-2025",
+      "task_type": "cross_page_relation",
+      "question_status": "frozen",
+      "question": "Relate BMW Group's 2025 employee contract-type and gender counts to its management-level gender distribution: report total, permanent and temporary employee counts with male and female breakdowns, then management headcount and male/female counts and shares, including the management target range and year.",
+      "target_pages": [172, 179]
+    },
+    {
+      "task_id": "P17-ASSURE-001",
+      "document_id": "P17-BMW-GROUP-REPORT-2025",
+      "task_type": "scope_subject_boundary",
+      "question_status": "frozen",
+      "question": "What portions of BMW Group's 2025 Group Sustainability Report receive limited assurance and which specifically marked disclosures receive reasonable assurance, what section is excluded, what conclusions are stated, which standard governs the engagement, and how do the procedures and assurance levels differ?",
+      "target_pages": [372, 373, 374, 375]
+    }
+  ]
+}

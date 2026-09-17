@@ -1,0 +1,35 @@
+{
+  "schema_version": "3.2",
+  "status": "development_regression_passed",
+  "development_source": "P22 exposed failure set only",
+  "change": {
+    "description": "After exact v3.1 alias decoding, all downstream calculation adapters now validate and bind against canonical evidence handles rather than candidate-facing aliases.",
+    "semantic_repair": false,
+    "candidate_output_mutation": false,
+    "cloud_replay": false
+  },
+  "p22_archived_output_regression": {
+    "energy": "full role binding passed",
+    "safety": "partial binding correctly retained two total roles and identified four missing component roles",
+    "ghg": "reached the intended role-map gate and rejected extra unmapped metrics",
+    "water": "reached the intended role-map gate and rejected extra unmapped metrics"
+  },
+  "validation": {
+    "new_regression_tests": 5,
+    "full_pytest_passed": 296,
+    "ruff": "passed"
+  },
+  "artifacts": {
+    "runner": {
+      "path": "src/esg_reliable_discovery/v13_stage_a_runner.py",
+      "sha256": "695113116128c8841f9d4c2f193d812788b540b232d380651d5bd268fafb3a26"
+    },
+    "tests": {
+      "path": "tests/test_v32_p22_exposed_regression.py",
+      "sha256": "933a2184535839c5f993ae0cddb5138bf66ef93c1a853a1a76dd283ce9b5ad5e"
+    },
+    "p22_addendum": "data/results/p22_v31_integrity_addendum_v0.1.lock.json"
+  },
+  "p22_modified_or_rescored": false,
+  "next_gate": "select and locally freeze a new unseen P23 report before any candidate inference"
+}

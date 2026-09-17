@@ -1,0 +1,20 @@
+{
+  "adjudications": 9,
+  "inputs": {
+    "controller_plans_sha256": "619173485f90f709312cf43aa616865b489a34e8daabde4fe7c2c9d057a0f2ab",
+    "fact_records_sha256": "8af57e7b7bda85deef8f90586f8225aedcf1da24e0669300115b8f1f7499bf5b",
+    "native_bindings_sha256": "e152197d51d9368871a4dadd0bcb65109dfb74f69c8e88674bd3bea54a46b5dd",
+    "validations_sha256": "71dba66b03d6b58d1959f4d7ad3c9878abd70a8f593dbabbbe68bc36d786cb18"
+  },
+  "locked_experiments_modified_or_rescored": false,
+  "next_gate": "independent_six_dimension_review_before_any_tier_b_promotion",
+  "output": {
+    "path": "data/knowledge_bases/v0.1/assurance_boundary_adjudications.jsonl",
+    "sha256": "a22b689f1ae1f10955516a0a1ba97be1958e484e06b6dc8b2fe39114a935e0eb"
+  },
+  "promotions_performed": 0,
+  "ready_for_independent_source_review": 9,
+  "schema_version": "0.1",
+  "source_fact_records_modified": 0,
+  "status": "assurance_boundaries_adjudicated_in_derived_layer"
+}

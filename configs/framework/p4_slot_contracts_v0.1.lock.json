@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0",
+  "status": "frozen_before_p4_candidate_inference",
+  "ontology": "configs/ontology/esg_atomic_claim_registry_v1.2.lock.json",
+  "contracts": {
+    "P4-DEX-001": [
+      {"slot_id":"fy24_replenishment_volume","predicate_id":"reports_water_volume","value_type":"number","canonical_unit":"cubic_meters","period":"FY2024","scope_id":"water_replenishment_contracts"}
+    ],
+    "P4-CALC-001": [
+      {"slot_id":"fy23_volume","predicate_id":"reports_water_volume","value_type":"number","canonical_unit":"cubic_meters","period":"FY2023","scope_id":"water_replenishment_contracts"},
+      {"slot_id":"fy24_volume","predicate_id":"reports_water_volume","value_type":"number","canonical_unit":"cubic_meters","period":"FY2024","scope_id":"water_replenishment_contracts"},
+      {"slot_id":"absolute_increase","predicate_id":"reports_water_volume_change","value_type":"number","canonical_unit":"cubic_meters","period":"FY2024 vs FY2023","scope_id":"water_replenishment_contracts"},
+      {"slot_id":"percentage_increase","predicate_id":"reports_water_volume_change","value_type":"number","canonical_unit":"percent","period":"FY2024 vs FY2023","scope_id":"water_replenishment_contracts"}
+    ],
+    "P4-XPAGE-001": [
+      {"slot_id":"lifetime_contracted_volume","predicate_id":"reports_water_volume","value_type":"number","canonical_unit":"million_cubic_meters","period":"through FY2024","scope_id":"water_replenishment_contracts"},
+      {"slot_id":"fy24_contracted_volume","predicate_id":"reports_water_volume","value_type":"number","canonical_unit":"cubic_meters","period":"FY2024","scope_id":"water_replenishment_contracts"},
+      {"slot_id":"fy24_project_count","predicate_id":"reports_project_count","value_type":"number","canonical_unit":"count","period":"FY2024","scope_id":"water_replenishment_contracts"}
+    ],
+    "P4-DEX-002": [
+      {"slot_id":"fy24_scope3_total","predicate_id":"reports_emissions","value_type":"number","canonical_unit":"tco2e","period":"FY2024","scope_id":"scope_3_total"}
+    ],
+    "P4-CONFLICT-001": [
+      {"slot_id":"eol_product","predicate_id":"reports_component_value","value_type":"number","canonical_unit":"tco2e","period":"FY2024","scope_id":"scope_3_category_12"},
+      {"slot_id":"eol_packaging","predicate_id":"reports_component_value","value_type":"number","canonical_unit":"tco2e","period":"FY2024","scope_id":"scope_3_category_12"},
+      {"slot_id":"component_sum","predicate_id":"reports_aggregate_value","value_type":"number","canonical_unit":"tco2e","period":"FY2024","scope_id":"scope_3_category_12"},
+      {"slot_id":"reported_category12","predicate_id":"reports_aggregate_value","value_type":"number","canonical_unit":"tco2e","period":"FY2024","scope_id":"scope_3_category_12"},
+      {"slot_id":"one_tonne_discrepancy","predicate_id":"has_internal_numeric_discrepancy","value_type":"boolean","period":"FY2024","scope_id":"scope_3_category_12"}
+    ],
+    "P4-SCOPE-001": [
+      {"slot_id":"disclosure_status","predicate_id":"reports_disclosure_status","value_type":"string","period":"FY2024","scope_id":"scope_3_category_11"},
+      {"slot_id":"covered_activity","predicate_id":"defines_activity_scope","value_type":"string","period":"FY2024","scope_id":"scope_3_category_11"},
+      {"slot_id":"exclusion_rationale","predicate_id":"states_exclusion_rationale","value_type":"string","period":"FY2024","scope_id":"scope_3_category_11"}
+    ],
+    "P4-DEX-003": [
+      {"slot_id":"water_withdrawn","predicate_id":"reports_water_volume","value_type":"number","canonical_unit":"million_cubic_meters","period":"2024","scope_id":"water_use"},
+      {"slot_id":"water_discharged","predicate_id":"reports_water_volume","value_type":"number","canonical_unit":"million_cubic_meters","period":"2024","scope_id":"water_use"},
+      {"slot_id":"water_consumed","predicate_id":"reports_water_volume","value_type":"number","canonical_unit":"million_cubic_meters","period":"2024","scope_id":"water_use"}
+    ],
+    "P4-CALC-002": [
+      {"slot_id":"baseline_2018","predicate_id":"reports_emissions","value_type":"number","canonical_unit":"million_tonnes_co2e","period":"2018","scope_id":"net_zero_roadmap"},
+      {"slot_id":"net_2024","predicate_id":"reports_emissions","value_type":"number","canonical_unit":"million_tonnes_co2e","period":"2024","scope_id":"net_zero_roadmap"},
+      {"slot_id":"absolute_reduction","predicate_id":"reports_emissions_change","value_type":"number","canonical_unit":"million_tonnes_co2e","period":"2024 vs 2018","scope_id":"net_zero_roadmap"},
+      {"slot_id":"calculated_reduction_percent","predicate_id":"reports_emissions_change","value_type":"number","canonical_unit":"percent","period":"2024 vs 2018","scope_id":"net_zero_roadmap"},
+      {"slot_id":"reported_reduction_percent","predicate_id":"reports_emissions_change","value_type":"number","canonical_unit":"percent","period":"2024 vs 2018","scope_id":"net_zero_roadmap"}
+    ],
+    "P4-SCOPE-002": [
+      {"slot_id":"included_people","predicate_id":"includes_person_category","value_type":"string","period":"2024 methodology","scope_id":"recordable_injury_rate"},
+      {"slot_id":"included_locations","predicate_id":"includes_location_condition","value_type":"string","period":"2024 methodology","scope_id":"recordable_injury_rate"},
+      {"slot_id":"excluded_businesses","predicate_id":"excludes_business_condition","value_type":"string","period":"2024 methodology","scope_id":"recordable_injury_rate"},
+      {"slot_id":"severity_categories","predicate_id":"includes_injury_severity_categories","value_type":"string","period":"2024 methodology","scope_id":"recordable_injury_rate"}
+    ]
+  }
+}

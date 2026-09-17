@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sustaintrace.org/schemas/entity-record-v0.1.schema.json",
+  "title": "SustainTrace controlled issuer entity",
+  "type": "object",
+  "required": ["schema_version", "record_kind", "entity_id", "entity_type", "canonical_name", "aliases", "merge_policy"],
+  "properties": {
+    "schema_version": {"const": "0.1"},
+    "record_kind": {"const": "entity"},
+    "entity_id": {"type": "string", "pattern": "^issuer-[a-f0-9]{20}$"},
+    "entity_type": {"const": "issuer"},
+    "canonical_name": {"type": "string", "minLength": 1},
+    "canonical_slug": {"type": "string", "minLength": 1},
+    "aliases": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string"}},
+    "disambiguation": {"type": "string"},
+    "merge_policy": {"const": "controlled_alias_only"}
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,28 @@
+{
+  "experiment_id": "P21-V30-UNSEEN-LOCKBOX-V01",
+  "qualifiers": {
+    "P21-ASSURE-001": {
+      "boundary": "limited assurance over Combined Sustainability Statement with explicit exclusions"
+    },
+    "P21-ENERGY-001": {
+      "boundary": "financial versus operational control kept separate"
+    },
+    "P21-GHG-CALC-001": {
+      "boundary": "financial-control gross Scope 1 plus gross market-based Scope 2; calculated subtotal not total including Scope 3"
+    },
+    "P21-SCOPE3-001": {
+      "boundary": "financial control; Category 1 and 12 share of gross Scope 3"
+    },
+    "P21-TAXONOMY-001": {
+      "boundary": "eligible shares only; aligned amount/share; discontinued coatings differs by KPI"
+    },
+    "P21-WORKFORCE-001": {
+      "boundary": "headcount; apprentices are included as a separately reported contract category"
+    },
+    "page_coordinates": "one-based PDF page indexes",
+    "reference_type": "AI-simulated research reference; not independent human gold",
+    "reporting_period": "calendar year 2025; 2024 comparatives retain adjusted/restated labels"
+  },
+  "schema_version": "3.0",
+  "status": "frozen_before_candidate_inference"
+}

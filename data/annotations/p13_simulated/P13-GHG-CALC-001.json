@@ -1,0 +1,7 @@
+{
+  "schema_version":"1.0","task_id":"P13-GHG-CALC-001","reference_author":"codex_gpt_simulated_expert","reference_status":"verified_against_frozen_pages",
+  "answer":"For 2025 Schneider Electric reported Scope 1 of 100,309 tCO2e, market-based Scope 2 of 23,849 tCO2e and Scope 3 of 60,581,278 tCO2e. Their sum is 60,705,436 tCO2e, exactly equal to the disclosed market-based total, so the difference is 0 tCO2e.",
+  "normalized_value":{"scope_1_tco2e":100309,"market_scope_2_tco2e":23849,"scope_3_tco2e":60581278,"calculated_total_tco2e":60705436,"disclosed_total_tco2e":60705436,"difference_tco2e":0,"comparison":"exact_equal","rounding_context":"all inputs and total disclosed as whole tCO2e"},
+  "evidence":[{"source_id":"P13-SCHNEIDER-URD2025","pdf_page":152,"quote":"Gross Scope 1 GHG emissions (tCO2eq) 100,309"},{"source_id":"P13-SCHNEIDER-URD2025","pdf_page":152,"quote":"Gross market-based Scope 2 GHG emissions (tCO2eq) 23,849"},{"source_id":"P13-SCHNEIDER-URD2025","pdf_page":152,"quote":"Total Gross indirect (Scope 3) GHG emissions (tCO2eq) 60,581,278"},{"source_id":"P13-SCHNEIDER-URD2025","pdf_page":153,"quote":"TOTAL GHG EMISSIONS (MARKET-BASED) (tCO2eq) 60,705,436"}],
+  "provenance":{"reference_is_simulated":true,"candidate_model_used":false}
+}

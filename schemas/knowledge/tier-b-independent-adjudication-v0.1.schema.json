@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/esg/tier-b-independent-adjudication-v0.1.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version", "record_kind", "adjudication_id", "fact_record_id",
+    "task_id", "assurance_scope_basis", "dimensions", "promotion_decision"
+  ],
+  "properties": {
+    "schema_version": {"const": "0.1"},
+    "record_kind": {"const": "tier_b_independent_adjudication"},
+    "adjudication_id": {"type": "string", "pattern": "^adj-[0-9a-f]{24}$"},
+    "fact_record_id": {"type": "string", "pattern": "^fact-[0-9a-f]{24}$"},
+    "task_id": {"type": "string", "minLength": 1},
+    "assurance_scope_basis": {
+      "enum": [
+        "direct_independent_statement",
+        "metric_explicitly_listed",
+        "whole_statement_inclusion_with_exclusions_checked"
+      ]
+    },
+    "dimensions": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["entity", "metric", "period", "unit", "scope_boundary", "value"],
+      "properties": {
+        "entity": {"$ref": "#/$defs/dimension"},
+        "metric": {"$ref": "#/$defs/dimension"},
+        "period": {"$ref": "#/$defs/dimension"},
+        "unit": {"$ref": "#/$defs/dimension"},
+        "scope_boundary": {"$ref": "#/$defs/dimension"},
+        "value": {"$ref": "#/$defs/dimension"}
+      }
+    },
+    "promotion_decision": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["eligible", "target_tier", "reason", "locked_experiments_modified"],
+      "properties": {
+        "eligible": {"const": true},
+        "target_tier": {"const": "B"},
+        "reason": {"type": "string", "minLength": 1},
+        "locked_experiments_modified": {"const": false}
+      }
+    }
+  },
+  "$defs": {
+    "dimension": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "normalized", "evidence"],
+      "properties": {
+        "status": {"const": "matched"},
+        "normalized": {},
+        "evidence": {"type": "string", "minLength": 1}
+      }
+    }
+  }
+}

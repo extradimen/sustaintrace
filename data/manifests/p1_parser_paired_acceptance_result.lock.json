@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "result_id": "P1-PARSER-PAIRED-ACCEPTANCE-v0.1",
+  "status": "passed",
+  "task_id": "P1-01-2",
+  "source_document_id": "AAPL-EPR-2025",
+  "pdf_page": 49,
+  "poppler_run_id": "P1-01-2-GEMMA4-12B-v05-r1",
+  "poppler_selected_handles": ["S049-L0015", "S049-L0016"],
+  "poppler_evidence_issue": "Both selected physical lines contain unrelated right-column text.",
+  "mineru_run_id": "P1-01-2-GEMMA4-12B-v06-r1",
+  "mineru_selected_handles": ["M049-B0031"],
+  "mineru_bbox": [503, 267, 729, 446],
+  "mineru_evidence_issue": null,
+  "answer_equivalence": true,
+  "scope_boundary_equivalence": true,
+  "evidence_cleanliness_preference": "MinerU 3.4.0 layout block",
+  "latency_seconds": {"poppler_v0.5": 24.965647958000773, "mineru_v0.6": 118.93541404200005},
+  "latency_inference_allowed": false,
+  "reason": "One paired observation is insufficient for a runtime conclusion.",
+  "human_gold_standard": false,
+  "aggregate_score": null
+}

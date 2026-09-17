@@ -1,0 +1,59 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-002",
+  "status": "source_locked_pending_acquisition",
+  "policy": {
+    "local_only": true,
+    "cloud_transmission": false,
+    "locked_experiments_untouched": ["P3-P23"],
+    "download_resume": true,
+    "overwrite_verified_files": false,
+    "fact_promotion_requires_independent_gate": true
+  },
+  "selection_rationale": "Three previously unused issuers spanning construction materials, energy networks, and global logistics; all are official English 2025 corporate sustainability disclosures.",
+  "documents": [
+    {
+      "document_id": "KB-B002-HM-ASR2025",
+      "source_group_id": "KB-HEIDELBERG-MATERIALS-2025",
+      "company": "Heidelberg Materials AG",
+      "title": "Annual and Sustainability Report 2025",
+      "report_year": 2025,
+      "official_landing_page": "https://www.heidelbergmaterials.com/en/investor-relations/financial-calendar/asr-2025",
+      "download_url": "https://www.heidelbergmaterials.com/system/files/2026-03/HM_ASR25_en.pdf",
+      "official_domain": "heidelbergmaterials.com",
+      "local_path": "data/raw/scale_batch_002/heidelberg-materials-asr-2025.pdf",
+      "source_role": "primary_report",
+      "language": "English",
+      "prior_experiment_use": false
+    },
+    {
+      "document_id": "KB-B002-EON-SF2025",
+      "source_group_id": "KB-EON-2025",
+      "company": "E.ON SE",
+      "title": "Sustainability Factbook 2025",
+      "report_year": 2025,
+      "official_landing_page": "https://annualreport.eon.com/en/sustainability.html",
+      "download_url": "https://annualreport.eon.com/content/dam/eon-annualreport/documents/en/EON%20Sustainability%20Factbook%202025.pdf",
+      "official_domain": "eon.com",
+      "local_path": "data/raw/scale_batch_002/eon-sustainability-factbook-2025.pdf",
+      "source_role": "primary_report",
+      "language": "English",
+      "prior_experiment_use": false
+    },
+    {
+      "document_id": "KB-B002-MAERSK-AR2025",
+      "source_group_id": "KB-MAERSK-2025",
+      "company": "A.P. Møller - Mærsk A/S",
+      "title": "Annual Report 2025",
+      "report_year": 2025,
+      "official_landing_page": "https://investor.maersk.com/news-releases/news-release-details/annual-report-2025",
+      "download_url": "https://ml-eu.globenewswire.com/Resource/Download/61eb6ba2-916f-4254-8af6-4b2ff2717858",
+      "official_domain": "maersk.com",
+      "download_host_note": "Official Maersk investor-relations attachment hosted by GlobeNewswire",
+      "local_path": "data/raw/scale_batch_002/maersk-annual-report-2025.pdf",
+      "source_role": "primary_report",
+      "language": "English",
+      "prior_experiment_use": false
+    }
+  ]
+}

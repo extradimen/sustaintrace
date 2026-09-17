@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.2",
+  "status": "frozen_before_p4_candidate_inference",
+  "design": "Framework-owned predicates with model-filled, evidence-grounded values",
+  "predicates": {
+    "reports_emissions": {"label": "reports emissions"},
+    "reports_emissions_change": {"label": "reports emissions change"},
+    "reports_water_volume": {"label": "reports water volume"},
+    "reports_water_volume_change": {"label": "reports water volume change"},
+    "reports_project_count": {"label": "reports project count"},
+    "reports_disclosure_status": {"label": "reports disclosure status"},
+    "defines_activity_scope": {"label": "defines activity scope"},
+    "states_exclusion_rationale": {"label": "states exclusion rationale"},
+    "reports_component_value": {"label": "reports component value"},
+    "reports_aggregate_value": {"label": "reports aggregate value"},
+    "has_internal_numeric_discrepancy": {"label": "has internal numeric discrepancy"},
+    "includes_person_category": {"label": "includes person category"},
+    "includes_location_condition": {"label": "includes location condition"},
+    "excludes_business_condition": {"label": "excludes business condition"},
+    "includes_injury_severity_categories": {"label": "includes injury severity categories"}
+  },
+  "value_types": ["number", "string", "boolean"],
+  "units": ["tco2e", "million_tonnes_co2e", "percent", "cubic_meters", "million_cubic_meters", "count", null],
+  "scopes": ["water_replenishment_contracts", "scope_3_total", "scope_3_category_11", "scope_3_category_12", "net_zero_roadmap", "water_use", "recordable_injury_rate"]
+}

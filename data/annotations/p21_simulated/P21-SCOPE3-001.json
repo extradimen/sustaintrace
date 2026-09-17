@@ -1,0 +1,40 @@
+{
+  "answer": "Financial-control total gross Scope 3 was 93.97 Mt in 2025 and adjusted 92.33 Mt in 2024. Category 1 was 52.56/51.54 and Category 12 was 27.17/25.67; their sums were 79.73/77.21 Mt, equal to 84.85%/83.62% of total Scope 3.",
+  "evidence": [
+    {
+      "pdf_page": 195,
+      "quote": "Total gross Scope 3 emissions</td><td rowspan=1 colspan=1>93.97</td><td rowspan=1 colspan=1>96.52</td><td rowspan=1 colspan=1>92.33c",
+      "source_id": "P21-BASF-AR2025"
+    },
+    {
+      "pdf_page": 195,
+      "quote": "1 – Purchased goods and services</td><td rowspan=1 colspan=1>52.56</td><td rowspan=1 colspan=1>54.39</td><td rowspan=1 colspan=1>51.54c",
+      "source_id": "P21-BASF-AR2025"
+    },
+    {
+      "pdf_page": 195,
+      "quote": "12 – End-of-life treatment of sold products</td><td rowspan=1 colspan=1>27.17</td><td rowspan=1 colspan=1>27.79</td><td rowspan=1 colspan=1>25.67c",
+      "source_id": "P21-BASF-AR2025"
+    }
+  ],
+  "normalized_value": {
+    "category12_mtco2e::2024_adjusted": 25.67,
+    "category12_mtco2e::2025": 27.17,
+    "category1_mtco2e::2024_adjusted": 51.54,
+    "category1_mtco2e::2025": 52.56,
+    "category1_plus_12_mtco2e::2024_adjusted": 77.21,
+    "category1_plus_12_mtco2e::2025": 79.73,
+    "category1_plus_12_share_percent::2024_adjusted": 83.62,
+    "category1_plus_12_share_percent::2025": 84.85,
+    "scope3_total_mtco2e::2024_adjusted": 92.33,
+    "scope3_total_mtco2e::2025": 93.97
+  },
+  "provenance": {
+    "candidate_model_used": false,
+    "reference_is_simulated": true
+  },
+  "reference_author": "codex_gpt_simulated_expert",
+  "reference_status": "verified_against_frozen_mineru_pages_and_native_layout",
+  "schema_version": "1.0",
+  "task_id": "P21-SCOPE3-001"
+}

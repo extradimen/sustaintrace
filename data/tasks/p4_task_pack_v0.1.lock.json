@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.0",
+  "benchmark_type": "prospective_unseen_v13_lockbox",
+  "status": "fully_frozen_and_released_after_reference_completion_before_candidate_inference",
+  "experiment_id": "P4-V13-UNSEEN-LOCKBOX-V01",
+  "reference_author": "codex_gpt_simulated_expert",
+  "candidate_exclusion": ["qwen3.5:397b-cloud", "candidate_runner"],
+  "tasks": [
+    {
+      "task_id": "P4-DEX-001",
+      "document_id": "P4-MSFT-ESR2025",
+      "task_type": "direct_extraction",
+      "question_status": "frozen",
+      "question": "What total contracted water replenishment volume did Microsoft report for FY24, in cubic meters?",
+      "target_pages": [29],
+      "reference_file": "data/annotations/p4_simulated/P4-DEX-001.json"
+    },
+    {
+      "task_id": "P4-CALC-001",
+      "document_id": "P4-MSFT-ESR2025",
+      "task_type": "deterministic_calculation",
+      "question_status": "frozen",
+      "question": "Using Microsoft's reported FY23 and FY24 total contracted water replenishment volumes, calculate the absolute increase and percentage increase, rounded to two decimals.",
+      "target_pages": [29],
+      "reference_file": "data/annotations/p4_simulated/P4-CALC-001.json"
+    },
+    {
+      "task_id": "P4-XPAGE-001",
+      "document_id": "P4-MSFT-ESR2025",
+      "task_type": "cross_page_relation",
+      "question_status": "frozen",
+      "question": "Relate Microsoft's water-positive progress summary to its annual replenishment table: state the lifetime volume contracted since inception, the FY24 annual contracted volume, and the number of projects funded in FY24.",
+      "target_pages": [28, 29],
+      "reference_file": "data/annotations/p4_simulated/P4-XPAGE-001.json"
+    },
+    {
+      "task_id": "P4-DEX-002",
+      "document_id": "P4-NIKE-SD2024",
+      "task_type": "direct_extraction",
+      "question_status": "frozen",
+      "question": "What total Scope 3 emissions did NIKE report for FY24, in metric tons CO2e?",
+      "target_pages": [24],
+      "reference_file": "data/annotations/p4_simulated/P4-DEX-002.json"
+    },
+    {
+      "task_id": "P4-CONFLICT-001",
+      "document_id": "P4-NIKE-SD2024",
+      "task_type": "source_conflict",
+      "question_status": "frozen",
+      "question": "Compare NIKE's FY24 End-of-Life Product and Packaging entries with the Category 12 total: state the two component values, their arithmetic sum, the separately reported Category 12 value, and whether a one-tonne internal discrepancy exists.",
+      "target_pages": [24, 28],
+      "reference_file": "data/annotations/p4_simulated/P4-CONFLICT-001.json"
+    },
+    {
+      "task_id": "P4-SCOPE-001",
+      "document_id": "P4-NIKE-SD2024",
+      "task_type": "scope_subject_boundary",
+      "question_status": "frozen",
+      "question": "For NIKE Scope 3 Category 11 Use of Sold Products in FY24, state its disclosure status, what products and activities it covers, and why NIKE excluded it from its SBT scope and disclosures.",
+      "target_pages": [27],
+      "reference_file": "data/annotations/p4_simulated/P4-SCOPE-001.json"
+    },
+    {
+      "task_id": "P4-DEX-003",
+      "document_id": "P4-NESN-NFS2024",
+      "task_type": "direct_extraction",
+      "question_status": "frozen",
+      "question": "What total water withdrawal, discharge, and consumption did Nestle report for 2024, in million cubic meters?",
+      "target_pages": [50],
+      "reference_file": "data/annotations/p4_simulated/P4-DEX-003.json"
+    },
+    {
+      "task_id": "P4-CALC-002",
+      "document_id": "P4-NESN-NFS2024",
+      "task_type": "deterministic_calculation",
+      "question_status": "frozen",
+      "question": "Using Nestle's 2018 baseline of 91.74 million tonnes CO2e and 2024 net GHG emissions of 73.05 million tonnes CO2e, calculate the absolute and percentage net reduction, rounded to two decimals, and compare it with the reported percentage.",
+      "target_pages": [39],
+      "reference_file": "data/annotations/p4_simulated/P4-CALC-002.json"
+    },
+    {
+      "task_id": "P4-SCOPE-002",
+      "document_id": "P4-NESN-NFS2024",
+      "task_type": "scope_subject_boundary",
+      "question_status": "frozen",
+      "question": "For Nestle's recordable injury rate KPI, identify the included people and locations, the excluded businesses and exceptions, and the injury severity categories included in the numerator.",
+      "target_pages": [123],
+      "reference_file": "data/annotations/p4_simulated/P4-SCOPE-002.json"
+    }
+  ],
+  "task_count": 9,
+  "task_type_counts": {
+    "direct_extraction": 3,
+    "deterministic_calculation": 2,
+    "cross_page_relation": 1,
+    "scope_subject_boundary": 2,
+    "source_conflict": 1
+  },
+  "report_coverage": 3,
+  "candidate_evidence_parsed": true,
+  "references_completed": true,
+  "inference_allowed": true
+}

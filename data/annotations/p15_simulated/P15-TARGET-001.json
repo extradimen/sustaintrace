@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "task_id": "P15-TARGET-001",
+  "reference_author": "codex_gpt_simulated_expert",
+  "reference_status": "verified_against_frozen_pages",
+  "answer": "Novartis aims to be net zero by 2040. From a 2022 base year it targets a 90% absolute reduction in Scope 1 and 2 by 2030, maintained through 2040, and Scope 3 reductions of 42% by 2030 and 90% by 2040. The near-term Scope 3 focus covers purchased goods and services, upstream transportation and distribution, business travel and employee commuting. SBTi validated the targets in 2024. Residual emissions that cannot be avoided or eliminated are neutralized with carbon removal credits. In 2025, combined Scope 1 and 2 fell 14% year-on-year and 45% from 2022, Scope 3 fell 4% year-on-year and 17% from 2022, and all scopes fell 19% from 2022.",
+  "normalized_value": {
+    "net_zero_year": 2040,
+    "base_year": 2022,
+    "scope_1_2_2030_reduction_percent": 90,
+    "scope_1_2_2040_minimum_reduction_percent": 90,
+    "scope_3_2030_reduction_percent": 42,
+    "scope_3_2040_reduction_percent": 90,
+    "scope_3_category_purchased_goods": "purchased goods and services",
+    "scope_3_category_upstream_transport": "upstream transportation and distribution",
+    "scope_3_category_business_travel": "business travel",
+    "scope_3_category_employee_commuting": "employee commuting",
+    "sbti_validation_year": 2024,
+    "residual_treatment": "neutralized by investing in carbon removal credits",
+    "scope_1_2_2025_yoy_reduction_percent": 14,
+    "scope_1_2_2025_vs_base_reduction_percent": 45,
+    "scope_3_2025_yoy_reduction_percent": 4,
+    "scope_3_2025_vs_base_reduction_percent": 17,
+    "all_scopes_2025_vs_base_reduction_percent": 19
+  },
+  "evidence": [
+    {"source_id": "P15-NOVARTIS-NFM2025", "pdf_page": 20, "quote": "become a net-zero company by 2040"},
+    {"source_id": "P15-NOVARTIS-NFM2025", "pdf_page": 20, "quote": "validated by the SBTi in 2024"},
+    {"source_id": "P15-NOVARTIS-NFM2025", "pdf_page": 20, "quote": "compared with a 2022 base year"},
+    {"source_id": "P15-NOVARTIS-NFM2025", "pdf_page": 21, "quote": "reduce absolute Scope 1 and 2 GHG emissions 90% by 2030"},
+    {"source_id": "P15-NOVARTIS-NFM2025", "pdf_page": 21, "quote": "reduce absolute Scope 3 GHG emissions 42% by 2030 and 90% by 2040"},
+    {"source_id": "P15-NOVARTIS-NFM2025", "pdf_page": 21, "quote": "purchased goods and services"},
+    {"source_id": "P15-NOVARTIS-NFM2025", "pdf_page": 21, "quote": "employee commuting"},
+    {"source_id": "P15-NOVARTIS-NFM2025", "pdf_page": 21, "quote": "neutralized by investing in carbon removal credits"},
+    {"source_id": "P15-NOVARTIS-NFM2025", "pdf_page": 21, "quote": "decreased by 14% from the prior year and 45% from the 2022 baseline"},
+    {"source_id": "P15-NOVARTIS-NFM2025", "pdf_page": 22, "quote": "Scope 3 GHG emissions decreased by 4% from the prior year and 17% from the 2022 baseline"},
+    {"source_id": "P15-NOVARTIS-NFM2025", "pdf_page": 22, "quote": "reduced Scope 1, 2 and 3 GHG emissions by 19% compared with the 2022 baseline"}
+  ],
+  "provenance": {"reference_is_simulated": true, "candidate_model_used": false}
+}

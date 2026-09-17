@@ -1,0 +1,25 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-022-ACQUISITION-ATTEMPTS",
+  "status": "duplicate_and_inaccessible_candidates_rejected_before_source_freeze",
+  "attempts": [
+    {
+      "company": "Sanofi",
+      "title": "Sanofi Sustainability Statement 2025",
+      "url": "https://www.sanofi.com/assets/dotcom/content-app/publications/esg-reports/sanofi-sustainability-statement-2025.pdf",
+      "downloaded_sha256": "82547ddb72b6b05dca88f93ed4cfe13010cb5690a5693b96721e9be3ff9c8fcc",
+      "duplicate_of": "P16-SANOFI-SS2025",
+      "failure_signature": "SOURCE_REPORT_SERIES_ALREADY_USED_EXACT_SHA256",
+      "included": false
+    },
+    {
+      "company": "Safran SA",
+      "title": "Safran Universal Registration Document 2025",
+      "url": "https://www.safran-group.com/download/media/450818",
+      "failure_signature": "OFFICIAL_SOURCE_HTTP_403",
+      "included": false
+    }
+  ],
+  "replacement_policy": "select_other_unused_official_english_2025_reports_before_freeze",
+  "cloud_transmission": false
+}

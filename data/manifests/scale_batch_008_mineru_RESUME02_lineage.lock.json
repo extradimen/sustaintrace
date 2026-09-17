@@ -1,0 +1,14 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-008-RESUME02",
+  "parent_run": "data/results/scale_batch_008_mineru_RESUME01_summary.lock.json",
+  "parent_status": "complete",
+  "parent_complete_pages": 6,
+  "parent_failed_pages": 9,
+  "cumulative_complete_pages_before_resume": 17,
+  "resume_reason": "Nine tasks again reached page-processing completion but terminated during local server shutdown with MINERU_POST_PROCESS_SHUTDOWN_MUTEX_ABORT.",
+  "reuse_policy": "Reuse all 17 successful checkpoints and retry only the 9 failed RESUME01 records with identical frozen inputs and configuration.",
+  "output_root": "artifacts/scale_batch_008/mineru_targets_RESUME02",
+  "summary": "data/results/scale_batch_008_mineru_RESUME02_summary.lock.json",
+  "cloud_transmission": false
+}

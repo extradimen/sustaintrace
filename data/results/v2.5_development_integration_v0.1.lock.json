@@ -1,0 +1,37 @@
+{
+  "schema_version": "2.5",
+  "status": "development_regression_and_reusable_pipeline_integration_passed",
+  "development_set": "P15 exposed failures only",
+  "candidate_model_called": false,
+  "locked_experiments_modified_rerun_or_rescored": false,
+  "changes": {
+    "scalar_comparison_binding": "accept framework-grounded scalar comparison_value with a separately emitted comparison_evidence_handle",
+    "calculation_units": "map issuer 1 000 tCO2e and equivalent aliases to frozen thousand_tCO2e roles",
+    "calculation_arithmetic": "execute frozen DAG with Decimal source literals after legacy validation",
+    "single_block_ordered_span": "deterministically lower to a normal grounded string only when one evidence block contains every required term",
+    "grouped_numeric_grounding": "recognize comma, ASCII-space, NBSP and narrow-NBSP thousands groups without merging preceding metric-label digits"
+  },
+  "p15_exposed_archive_regression": {
+    "status": "passed",
+    "ghg_stage_a_recovered_offline": true,
+    "water_stage_b_recovered_offline": true,
+    "safety_stage_b_recovered_offline": true,
+    "assurance_stage_b_recovered_offline": true,
+    "result":"data/results/v2.5_p15_exposed_failure_regression_RESUME02_v0.1.lock.json",
+    "result_sha256":"9172b14fb3cd8291c205b49dd6027baeef21409f53fae89c6daa2e17053222cd"
+  },
+  "verification": {
+    "targeted_v25_tests": "3 passed",
+    "full_pytest": "252 passed",
+    "ruff": "passed",
+    "p15_v25_json": "36 files passed"
+  },
+  "artifacts": {
+    "v25_integrity_py":"2a04935abf559973ee274af5e6c1ea68cf646f7c73d5a2330ef28cc968352f6e",
+    "atomic_projection_py":"df8420dc6fabfeff290720c441cea345f3e48694835f25e36b4bb56bf9e4d07e",
+    "v23_preflight_py":"c76d1edf4e9bc247dfb013ea01c523e896f374189851f5557c341c965a7e6b15",
+    "stage_a_runner_py":"8792d48df7b75b372820b0159b82e1a5bb355363e3d7359a318265226ecf77f3",
+    "stage_b_runner_py":"857ce34ed43c8a82c94a8706b16501ef0f6257d46996349508c96269276063a5",
+    "test_py":"5a6f4a6e0444796ed193b4ffe1588fa3e2012938fb6406c64fbf8a32a6fe59ad"
+  }
+}

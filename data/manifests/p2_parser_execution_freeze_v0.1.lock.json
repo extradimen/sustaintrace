@@ -1,0 +1,19 @@
+{
+  "schema_version":"1.0",
+  "lock_id":"P2-PARSER-EXECUTION-FREEZE-v0.1",
+  "status":"frozen_before_candidate_inference",
+  "parser":"MinerU 3.4.0 pipeline",
+  "parser_model_source":"huggingface",
+  "unique_target_count":9,
+  "successful_target_count":9,
+  "failed_attempt_count":1,
+  "failed_attempt_record":"artifacts/p2/mineru_targets/GM-CRD-2025-p0022/esg_rd_mineru_run.json",
+  "failure_class":"sandbox_loopback_bind_denied",
+  "successful_output_root":"artifacts/p2/mineru_targets_retry1",
+  "target_registry_path":"data/manifests/p2_mineru_target_registry_v0.1.json",
+  "target_registry_sha256":"87c5b7def19bb544c57623b86b691df51758c1a5ed8ce5520f41c86a0a9ad6c8",
+  "source_registry_path":"data/manifests/p2_source_registry_v0.1.lock.json",
+  "source_registry_sha256":"9cf83183cdb4224ea0bf5ecf00a9c8d91a9cdb0362778c989dd95d13911a31c8",
+  "quality_check":"required values, narrative relations, table boundaries, and abstention context present in archived MinerU outputs",
+  "candidate_inference_started":false
+}

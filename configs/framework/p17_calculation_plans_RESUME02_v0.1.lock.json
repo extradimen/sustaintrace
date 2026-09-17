@@ -1,0 +1,23 @@
+{
+  "schema_version": "2.6",
+  "experiment_id": "P17-V26-UNSEEN-LOCKBOX-V01",
+  "status": "frozen_before_candidate_inference",
+  "plans": {
+    "P17-GHG-CALC-001": {
+      "roles": [
+        {"role_id":"scope_1_2025","unit":"t CO2e"},
+        {"role_id":"scope_2_market_based_2025","unit":"t CO2e"},
+        {"role_id":"disclosed_scope_1_2_2025","unit":"t CO2e"},
+        {"role_id":"disclosed_scope_1_2_2024","unit":"t CO2e"}
+      ],
+      "candidate_input_role_order": ["scope_1_2025","scope_2_market_based_2025"],
+      "steps": [
+        {"step_id":"calculated_scope_1_2_2025","operation":"sum","inputs":["scope_1_2025","scope_2_market_based_2025"]},
+        {"step_id":"difference","operation":"difference","inputs":["calculated_scope_1_2_2025","disclosed_scope_1_2_2025"]},
+        {"step_id":"percentage_change","operation":"percentage_change","inputs":["disclosed_scope_1_2_2025","disclosed_scope_1_2_2024"],"rounding_decimals":2}
+      ],
+      "candidate_may_select_operation": false,
+      "expected_identity": "667275 + 144145 = 811420; (811420 - 836963) / 836963 * 100 = -3.05% after rounding"
+    }
+  }
+}

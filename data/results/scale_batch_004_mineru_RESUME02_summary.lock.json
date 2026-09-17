@@ -1,0 +1,31 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-004-MINERU-RESUME02",
+  "updated_at": "2026-09-12T16:50:17.184212+00:00",
+  "status": "complete",
+  "cloud_transmission": false,
+  "total_target_pages": 2,
+  "complete_pages": 2,
+  "failed_pages": 0,
+  "pending_pages": 0,
+  "records": [
+    {
+      "document_id": "KB-B004-PHILIPS-AR2025",
+      "page": 210,
+      "themes": [
+        "water"
+      ],
+      "output_directory": "artifacts/scale_batch_004/mineru_targets_RESUME02/KB-B004-PHILIPS-AR2025-p0210",
+      "status": "complete"
+    },
+    {
+      "document_id": "KB-B004-PHILIPS-AR2025",
+      "page": 221,
+      "themes": [
+        "workforce"
+      ],
+      "output_directory": "artifacts/scale_batch_004/mineru_targets_RESUME02/KB-B004-PHILIPS-AR2025-p0221",
+      "status": "complete"
+    }
+  ]
+}

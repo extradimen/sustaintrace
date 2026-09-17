@@ -1,0 +1,13 @@
+{
+  "schema_version":"1.0","experiment_id":"P13-V22-UNSEEN-LOCKBOX-V01","status":"frozen_local_pack_pending_explicit_cloud_authorization","inference_allowed":false,
+  "parent":"data/tasks/p13_task_pack_v0.1.lock.json","source_registry":"data/manifests/p13_source_registry_v0.1.lock.json","parser_registry":"data/manifests/p13_native_target_registry_v0.1.lock.json","slot_contracts":"configs/framework/p13_slot_contracts_v0.1.lock.json","semantic_qualifiers":"configs/framework/p13_semantic_qualifiers_v0.1.lock.json","table_graph":"configs/framework/p13_two_dimensional_table_graph_v0.1.lock.json","same_path_preflight":"data/results/p13_v22_same_path_preflight_v0.1.lock.json",
+  "tasks":[
+    {"task_id":"P13-GHG-CALC-001","reference_file":"data/annotations/p13_simulated/P13-GHG-CALC-001.json","target_pages":[152,153]},
+    {"task_id":"P13-TARGET-001","reference_file":"data/annotations/p13_simulated/P13-TARGET-001.json","target_pages":[148,149,150]},
+    {"task_id":"P13-WATER-001","reference_file":"data/annotations/p13_simulated/P13-WATER-001.json","target_pages":[344]},
+    {"task_id":"P13-SAFETY-001","reference_file":"data/annotations/p13_simulated/P13-SAFETY-001.json","target_pages":[353]},
+    {"task_id":"P13-WOMEN-001","reference_file":"data/annotations/p13_simulated/P13-WOMEN-001.json","target_pages":[213]},
+    {"task_id":"P13-ASSURE-001","reference_file":"data/annotations/p13_simulated/P13-ASSURE-001.json","target_pages":[315,333,334,339,340]}
+  ],
+  "release_condition":"User must explicitly authorize Schneider Electric 2025 URD pages 148,149,150,152,153,213,315,333,334,339,340,344,353 to Ollama Cloud qwen3.5:397b-cloud solely for P13 Stage A/Stage B single-attempt candidate inference."
+}

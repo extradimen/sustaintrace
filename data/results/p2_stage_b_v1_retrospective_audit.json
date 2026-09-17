@@ -1,0 +1,31 @@
+{
+  "records": [
+    {
+      "reason": "ValueError:stage_b_schema_failure:[] should be non-empty",
+      "task_id": "P2-DEX-001",
+      "v1_retrospective_gate": "rejected"
+    },
+    {
+      "reason": "ValueError:stage_b_schema_failure:Additional properties are not allowed ('claim_id' was unexpected)",
+      "task_id": "P2-XPAGE-001",
+      "v1_retrospective_gate": "rejected"
+    },
+    {
+      "reason": "ValueError:v1_required_claims_missing:[{'metric_id': 'combined_scope_1_2_emissions', 'period_year': 2024}, {'metric_id': 'combined_scope_1_2_emissions', 'period_year': 2025}]",
+      "task_id": "P2-XPAGE-002",
+      "v1_retrospective_gate": "rejected"
+    },
+    {
+      "reason": "ValueError:v1_metric_not_lexically_grounded:scope_1_methane_emissions",
+      "task_id": "P2-SCOPE-001",
+      "v1_retrospective_gate": "rejected"
+    },
+    {
+      "reason": "ValueError:stage_b_unit_not_allowed:total_gross_scope_3_emissions",
+      "task_id": "P2-SCOPE-002",
+      "v1_retrospective_gate": "rejected"
+    }
+  ],
+  "schema_version": "1.0",
+  "status": "development_diagnostic_not_fresh_inference"
+}

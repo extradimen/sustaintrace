@@ -1,0 +1,28 @@
+{
+  "experiment_id": "P22-V31-UNSEEN-LOCKBOX-V01",
+  "qualifiers": {
+    "P22-ASSURE-001": {
+      "boundary": "limited assurance over Consolidated Sustainability Statement with external references excluded"
+    },
+    "P22-ENERGY-CALC-001": {
+      "boundary": "high-climate-impact sectors; thousand MWh"
+    },
+    "P22-GHG-CALC-001": {
+      "boundary": "financial consolidation and environmentally relevant sites; calculated Scope 1+2 subtotal not total including Scope 3"
+    },
+    "P22-SAFETY-CALC-001": {
+      "boundary": "accident components calculated deterministically; fatalities use frozen native-layout/narrative fallback because primary table parser substituted dash glyphs"
+    },
+    "P22-TAXONOMY-001": {
+      "boundary": "eligible amount/share only where disclosed; zero distinct from not identified and not separately tabled"
+    },
+    "P22-WATER-CALC-001": {
+      "boundary": "environmentally relevant sites; consumption defined as withdrawal minus discharge; rounded issuer values retained"
+    },
+    "page_coordinates": "one-based PDF page indexes",
+    "reference_type": "AI-simulated research reference; not independent human gold",
+    "reporting_period": "calendar year 2025; 2024 comparatives preserve restatement where disclosed"
+  },
+  "schema_version": "3.1",
+  "status": "frozen_before_candidate_inference"
+}

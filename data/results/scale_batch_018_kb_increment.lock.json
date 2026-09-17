@@ -1,0 +1,50 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-018",
+  "status": "increment_built_candidates_not_promoted",
+  "fact_candidates": 49,
+  "trusted_facts_promoted": 0,
+  "evidence_gaps": 4,
+  "failure_observations": 3,
+  "gaps": [
+    {
+      "document_id": "KB-B018-EPIROC-ASR2025",
+      "page": 93,
+      "theme": "biodiversity",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B018-EPIROC-ASR2025",
+      "page": 233,
+      "theme": "assurance",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B018-EPIROC-ASR2025",
+      "page": 235,
+      "theme": "assurance",
+      "reason": "no_theme_line_in_mineru_markdown"
+    },
+    {
+      "document_id": "KB-B018-ALFA-LAVAL-ASR2025",
+      "page": 64,
+      "theme": "biodiversity",
+      "reason": "no_theme_line_in_mineru_markdown"
+    }
+  ],
+  "outputs": {
+    "facts": {
+      "path": "data/knowledge_bases/v0.1/increments/scale_batch_018_fact_records.jsonl",
+      "sha256": "517c2946ecfae3dd2079e879a2de4168d37921378ca37f5d75d6617c18afa65a"
+    },
+    "failures": {
+      "path": "data/knowledge_bases/v0.1/increments/scale_batch_018_failure_records.jsonl",
+      "sha256": "422f89ac0ebd6dbfc42d76a90f04a59aeac66273204cb12846f72094bea5d68f"
+    }
+  },
+  "policy": {
+    "cloud_transmission": false,
+    "locked_experiments_modified": false,
+    "automatic_promotion": false
+  }
+}

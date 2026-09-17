@@ -1,0 +1,25 @@
+{
+  "schema_version": "2.5",
+  "experiment_id": "P16-V25-UNSEEN-LOCKBOX-V01",
+  "status": "frozen_after_source_and_page_windows_before_reference_freeze",
+  "selection_rule": "all frozen task pages are eligible; native fallback is declared only where MinerU produced no recoverable text",
+  "semantic_change": false,
+  "targets": [
+    {"task_id":"P16-GHG-CALC-001","document_id":"P16-SANOFI-SS2025","document_sha256":"82547ddb72b6b05dca88f93ed4cfe13010cb5690a5693b96721e9be3ff9c8fcc","pdf_path":"data/raw/p16_staging/sanofi-sustainability-statement-2025.pdf","pdf_page":38},
+    {"task_id":"P16-TARGET-001","document_id":"P16-SANOFI-SS2025","document_sha256":"82547ddb72b6b05dca88f93ed4cfe13010cb5690a5693b96721e9be3ff9c8fcc","pdf_path":"data/raw/p16_staging/sanofi-sustainability-statement-2025.pdf","pdf_page":26},
+    {"task_id":"P16-TARGET-001","document_id":"P16-SANOFI-SS2025","document_sha256":"82547ddb72b6b05dca88f93ed4cfe13010cb5690a5693b96721e9be3ff9c8fcc","pdf_path":"data/raw/p16_staging/sanofi-sustainability-statement-2025.pdf","pdf_page":30},
+    {"task_id":"P16-TARGET-001","document_id":"P16-SANOFI-SS2025","document_sha256":"82547ddb72b6b05dca88f93ed4cfe13010cb5690a5693b96721e9be3ff9c8fcc","pdf_path":"data/raw/p16_staging/sanofi-sustainability-statement-2025.pdf","pdf_page":31},
+    {"task_id":"P16-TARGET-001","document_id":"P16-SANOFI-SS2025","document_sha256":"82547ddb72b6b05dca88f93ed4cfe13010cb5690a5693b96721e9be3ff9c8fcc","pdf_path":"data/raw/p16_staging/sanofi-sustainability-statement-2025.pdf","pdf_page":38},
+    {"task_id":"P16-POLLUTION-001","document_id":"P16-SANOFI-SS2025","document_sha256":"82547ddb72b6b05dca88f93ed4cfe13010cb5690a5693b96721e9be3ff9c8fcc","pdf_path":"data/raw/p16_staging/sanofi-sustainability-statement-2025.pdf","pdf_page":43},
+    {"task_id":"P16-POLLUTION-001","document_id":"P16-SANOFI-SS2025","document_sha256":"82547ddb72b6b05dca88f93ed4cfe13010cb5690a5693b96721e9be3ff9c8fcc","pdf_path":"data/raw/p16_staging/sanofi-sustainability-statement-2025.pdf","pdf_page":44},
+    {"task_id":"P16-POLLUTION-001","document_id":"P16-SANOFI-SS2025","document_sha256":"82547ddb72b6b05dca88f93ed4cfe13010cb5690a5693b96721e9be3ff9c8fcc","pdf_path":"data/raw/p16_staging/sanofi-sustainability-statement-2025.pdf","pdf_page":45},
+    {"task_id":"P16-SAFETY-001","document_id":"P16-SANOFI-SS2025","document_sha256":"82547ddb72b6b05dca88f93ed4cfe13010cb5690a5693b96721e9be3ff9c8fcc","pdf_path":"data/raw/p16_staging/sanofi-sustainability-statement-2025.pdf","pdf_page":68},
+    {"task_id":"P16-SAFETY-001","document_id":"P16-SANOFI-SS2025","document_sha256":"82547ddb72b6b05dca88f93ed4cfe13010cb5690a5693b96721e9be3ff9c8fcc","pdf_path":"data/raw/p16_staging/sanofi-sustainability-statement-2025.pdf","pdf_page":118},
+    {"task_id":"P16-ACCESS-001","document_id":"P16-SANOFI-SS2025","document_sha256":"82547ddb72b6b05dca88f93ed4cfe13010cb5690a5693b96721e9be3ff9c8fcc","pdf_path":"data/raw/p16_staging/sanofi-sustainability-statement-2025.pdf","pdf_page":90},
+    {"task_id":"P16-ASSURE-001","document_id":"P16-SANOFI-SS2025","document_sha256":"82547ddb72b6b05dca88f93ed4cfe13010cb5690a5693b96721e9be3ff9c8fcc","pdf_path":"data/raw/p16_staging/sanofi-sustainability-statement-2025.pdf","pdf_page":129},
+    {"task_id":"P16-ASSURE-001","document_id":"P16-SANOFI-SS2025","document_sha256":"82547ddb72b6b05dca88f93ed4cfe13010cb5690a5693b96721e9be3ff9c8fcc","pdf_path":"data/raw/p16_staging/sanofi-sustainability-statement-2025.pdf","pdf_page":130},
+    {"task_id":"P16-ASSURE-001","document_id":"P16-SANOFI-SS2025","document_sha256":"82547ddb72b6b05dca88f93ed4cfe13010cb5690a5693b96721e9be3ff9c8fcc","pdf_path":"data/raw/p16_staging/sanofi-sustainability-statement-2025.pdf","pdf_page":131},
+    {"task_id":"P16-ASSURE-001","document_id":"P16-SANOFI-SS2025","document_sha256":"82547ddb72b6b05dca88f93ed4cfe13010cb5690a5693b96721e9be3ff9c8fcc","pdf_path":"data/raw/p16_staging/sanofi-sustainability-statement-2025.pdf","pdf_page":132},
+    {"task_id":"P16-ASSURE-001","document_id":"P16-SANOFI-SS2025","document_sha256":"82547ddb72b6b05dca88f93ed4cfe13010cb5690a5693b96721e9be3ff9c8fcc","pdf_path":"data/raw/p16_staging/sanofi-sustainability-statement-2025.pdf","pdf_page":133,"fallback_parser":"pdftotext -layout","fallback_reason":"MinerU success record verified but page markdown and content list contained no recoverable text; native layout extraction preserves the frozen page's third assurance conclusion and signatures"}
+  ]
+}

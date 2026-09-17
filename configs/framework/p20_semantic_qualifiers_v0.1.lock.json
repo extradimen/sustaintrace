@@ -1,0 +1,28 @@
+{
+  "experiment_id": "P20-V29-UNSEEN-LOCKBOX-V01",
+  "qualifiers": {
+    "P20-ASSURE-001": {
+      "boundary": "limited assurance covers selected subjects, not the entire report or transition-target ambition"
+    },
+    "P20-ENERGY-001": {
+      "boundary": "preserve rounded table values and separate narrative 0.4% change"
+    },
+    "P20-GHG-CALC-001": {
+      "boundary": "gross Scope 1, market-based Scope 2, total Scope 3 and market-based total; retain Mt CO2e"
+    },
+    "P20-SCOPE3-001": {
+      "boundary": "Category 1 and Category 15 shares of disclosed Scope 3 total"
+    },
+    "P20-TAXONOMY-001": {
+      "boundary": "separate total, eligible and aligned; 2024 restated unaudited; North America excluded from both periods"
+    },
+    "P20-WORKFORCE-001": {
+      "boundary": "global headcount includes all entities; contract table excludes 2,180 newly acquired-entity employees"
+    },
+    "page_coordinates": "one-based PDF page indexes",
+    "reference_type": "AI-simulated research reference; not independent human gold",
+    "reporting_period": "calendar year 2025 unless a restated 2024 comparative is explicitly named"
+  },
+  "schema_version": "2.9",
+  "status": "frozen_before_candidate_inference"
+}

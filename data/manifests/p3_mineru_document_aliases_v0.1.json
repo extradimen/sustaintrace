@@ -1,0 +1,88 @@
+{
+  "model_inference_occurred_before_fix": false,
+  "reason": "MinerU names its artifact directory after the PDF filename stem, while the frozen evidence builder resolves the registered document_id.",
+  "records": [
+    {
+      "actual_artifact_directory": "2024-25-amd-cr-report",
+      "alias": "artifacts/p3/mineru_targets_retry1/P3-AMD-CR2025-p0034/P3-AMD-CR2025",
+      "content_list_alias": "artifacts/p3/mineru_targets_retry1/P3-AMD-CR2025-p0034/2024-25-amd-cr-report/auto/P3-AMD-CR2025_content_list.json",
+      "document_id": "P3-AMD-CR2025",
+      "status": "reused_verified_alias",
+      "target_id": "P3-AMD-CR2025-p0034"
+    },
+    {
+      "actual_artifact_directory": "2024-25-amd-cr-report",
+      "alias": "artifacts/p3/mineru_targets_retry1/P3-AMD-CR2025-p0106/P3-AMD-CR2025",
+      "content_list_alias": "artifacts/p3/mineru_targets_retry1/P3-AMD-CR2025-p0106/2024-25-amd-cr-report/auto/P3-AMD-CR2025_content_list.json",
+      "document_id": "P3-AMD-CR2025",
+      "status": "reused_verified_alias",
+      "target_id": "P3-AMD-CR2025-p0106"
+    },
+    {
+      "actual_artifact_directory": "diageo-annual-report-2024",
+      "alias": "artifacts/p3/mineru_targets_retry1/P3-DIAGEO-AR2024-p0037/P3-DIAGEO-AR2024",
+      "content_list_alias": "artifacts/p3/mineru_targets_retry1/P3-DIAGEO-AR2024-p0037/diageo-annual-report-2024/auto/P3-DIAGEO-AR2024_content_list.json",
+      "document_id": "P3-DIAGEO-AR2024",
+      "status": "reused_verified_alias",
+      "target_id": "P3-DIAGEO-AR2024-p0037"
+    },
+    {
+      "actual_artifact_directory": "diageo-annual-report-2024",
+      "alias": "artifacts/p3/mineru_targets_retry1/P3-DIAGEO-AR2024-p0131/P3-DIAGEO-AR2024",
+      "content_list_alias": "artifacts/p3/mineru_targets_retry1/P3-DIAGEO-AR2024-p0131/diageo-annual-report-2024/auto/P3-DIAGEO-AR2024_content_list.json",
+      "document_id": "P3-DIAGEO-AR2024",
+      "status": "reused_verified_alias",
+      "target_id": "P3-DIAGEO-AR2024-p0131"
+    },
+    {
+      "actual_artifact_directory": "responsible-business-performance-report-2024",
+      "alias": "artifacts/p3/mineru_targets_retry1/P3-GSK-RBPR2024-p0032/P3-GSK-RBPR2024",
+      "content_list_alias": "artifacts/p3/mineru_targets_retry1/P3-GSK-RBPR2024-p0032/responsible-business-performance-report-2024/auto/P3-GSK-RBPR2024_content_list.json",
+      "document_id": "P3-GSK-RBPR2024",
+      "status": "reused_verified_alias",
+      "target_id": "P3-GSK-RBPR2024-p0032"
+    },
+    {
+      "actual_artifact_directory": "responsible-business-performance-report-2024",
+      "alias": "artifacts/p3/mineru_targets_retry1/P3-GSK-RBPR2024-p0041/P3-GSK-RBPR2024",
+      "content_list_alias": "artifacts/p3/mineru_targets_retry1/P3-GSK-RBPR2024-p0041/responsible-business-performance-report-2024/auto/P3-GSK-RBPR2024_content_list.json",
+      "document_id": "P3-GSK-RBPR2024",
+      "status": "reused_verified_alias",
+      "target_id": "P3-GSK-RBPR2024-p0041"
+    },
+    {
+      "actual_artifact_directory": "responsible-business-performance-report-2024",
+      "alias": "artifacts/p3/mineru_targets_retry1/P3-GSK-RBPR2024-p0043/P3-GSK-RBPR2024",
+      "content_list_alias": "artifacts/p3/mineru_targets_retry1/P3-GSK-RBPR2024-p0043/responsible-business-performance-report-2024/auto/P3-GSK-RBPR2024_content_list.json",
+      "document_id": "P3-GSK-RBPR2024",
+      "status": "reused_verified_alias",
+      "target_id": "P3-GSK-RBPR2024-p0043"
+    },
+    {
+      "actual_artifact_directory": "heineken-annual-report-2025",
+      "alias": "artifacts/p3/mineru_targets_retry1/P3-HEINEKEN-AR2025-p0175/P3-HEINEKEN-AR2025",
+      "content_list_alias": "artifacts/p3/mineru_targets_retry1/P3-HEINEKEN-AR2025-p0175/heineken-annual-report-2025/auto/P3-HEINEKEN-AR2025_content_list.json",
+      "document_id": "P3-HEINEKEN-AR2025",
+      "status": "reused_verified_alias",
+      "target_id": "P3-HEINEKEN-AR2025-p0175"
+    },
+    {
+      "actual_artifact_directory": "FY2025-lenovo-sustainability-report",
+      "alias": "artifacts/p3/mineru_targets_retry1/P3-LENOVO-FY2025-ESG-p0100/P3-LENOVO-FY2025-ESG",
+      "content_list_alias": "artifacts/p3/mineru_targets_retry1/P3-LENOVO-FY2025-ESG-p0100/FY2025-lenovo-sustainability-report/auto/P3-LENOVO-FY2025-ESG_content_list.json",
+      "document_id": "P3-LENOVO-FY2025-ESG",
+      "status": "reused_verified_alias",
+      "target_id": "P3-LENOVO-FY2025-ESG-p0100"
+    },
+    {
+      "actual_artifact_directory": "2024-sustainability-report-en",
+      "alias": "artifacts/p3/mineru_targets_retry1/P3-TD-SR2024-p0058/P3-TD-SR2024",
+      "content_list_alias": "artifacts/p3/mineru_targets_retry1/P3-TD-SR2024-p0058/2024-sustainability-report-en/auto/P3-TD-SR2024_content_list.json",
+      "document_id": "P3-TD-SR2024",
+      "status": "reused_verified_alias",
+      "target_id": "P3-TD-SR2024-p0058"
+    }
+  ],
+  "schema_version": "1.0",
+  "status": "mineru_document_id_aliases_ready"
+}

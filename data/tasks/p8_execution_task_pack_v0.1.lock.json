@@ -1,0 +1,17 @@
+{
+  "schema_version":"1.0",
+  "experiment_id":"P8-V17-UNSEEN-LOCKBOX-V01",
+  "parent_task_pack":"data/tasks/p8_task_pack_v0.1.lock.json",
+  "parent_task_pack_sha256":"e0081b6faf54318c2023baea4771e7e3902993c321a755f8fcd322c7eb7958a5",
+  "status":"released_after_explicit_cloud_authorization",
+  "authorization_record":"data/manifests/p8_cloud_authorization_2026-09-06.lock.json",
+  "inference_allowed":true,
+  "tasks":[
+    {"task_id":"P8-SAFETY-001","document_id":"P8-RIOTINTO-AR2025","task_type":"direct_extraction","question":"What fatalities at managed operations and all-injury frequency rates did Rio Tinto report for 2025 and 2024, and what target accompanied the 2025 AIFR?","target_pages":[37,39],"reference_file":"data/annotations/p8_simulated/P8-SAFETY-001.json"},
+    {"task_id":"P8-CALC-001","document_id":"P8-RIOTINTO-AR2025","task_type":"deterministic_calculation","question":"Using displayed gross Scope 1 and 2 emissions of 31.5 Mt CO2e in 2025 and 31.7 Mt CO2e in 2024, calculate the percentage change and compare it with the report's absolute reduction statement of 0.2 Mt CO2e.","target_pages":[57],"reference_file":"data/annotations/p8_simulated/P8-CALC-001.json"},
+    {"task_id":"P8-TARGET-001","document_id":"P8-RIOTINTO-AR2025","task_type":"scope_subject_boundary","question":"Did Rio Tinto meet its 2025 Scope 1 and 2 reduction target on a gross and net basis, what were the target and reported reductions versus 2018, and what role did offsets play?","target_pages":[37,57,86],"reference_file":"data/annotations/p8_simulated/P8-TARGET-001.json"},
+    {"task_id":"P8-BASELINE-001","document_id":"P8-RIOTINTO-AR2025","task_type":"scope_subject_boundary","question":"How does Rio Tinto adjust its Scope 1 and 2 baseline for divestments and acquisitions, and which 2025 acquisition was included in the reported emissions calculations?","target_pages":[37,59,86],"reference_file":"data/annotations/p8_simulated/P8-BASELINE-001.json"},
+    {"task_id":"P8-SCOPE3-001","document_id":"P8-RIOTINTO-AR2025","task_type":"scope_subject_boundary","question":"Which Scope 3 categories does Rio Tinto explicitly exclude, and what reason does it give for excluding Category 11 use of sold products?","target_pages":[84],"reference_file":"data/annotations/p8_simulated/P8-SCOPE3-001.json"},
+    {"task_id":"P8-ASSURE-001","document_id":"P8-RIOTINTO-AR2025","task_type":"scope_subject_boundary","question":"Distinguish the limited-assurance and reasonable-assurance engagements in Rio Tinto's sustainability reporting: what information was covered by each and what other information remained outside the limited-assurance conclusion?","target_pages":[328,329,330,334,335,336],"reference_file":"data/annotations/p8_simulated/P8-ASSURE-001.json"}
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "experiment_id": "P16-V25-UNSEEN-LOCKBOX-V01",
+  "status": "frozen_before_target_page_parsing",
+  "source_sha256": "82547ddb72b6b05dca88f93ed4cfe13010cb5690a5693b96721e9be3ff9c8fcc",
+  "page_coordinate_system": "one_based_pdf_page_index",
+  "unique_target_pages": [26, 30, 31, 38, 43, 44, 45, 68, 90, 118, 129, 130, 131, 132, 133],
+  "primary_parser": "MinerU 3.4.0 local target-page pipeline",
+  "primary_executable": ".mineru-venv/bin/mineru",
+  "runtime_config": "configs/parsers/p16-mineru-3.4.0-runtime.json",
+  "fallback_parser": "native PDF text and layout extraction for auditable infrastructure recovery only",
+  "fallback_policy": "Record primary parser failure before fallback; do not alter frozen questions or page windows.",
+  "cloud_transmission_authorized": false
+}

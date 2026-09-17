@@ -1,0 +1,109 @@
+{
+  "experiment_id": "P17-V26-UNSEEN-LOCKBOX-V01",
+  "schema_version": "2.6",
+  "selection_rule": "all frozen task/page pairs are registered; only predeclared page-local parser anomalies may invoke the stated native or narrative fallback",
+  "semantic_change": false,
+  "status": "frozen_before_candidate_inference",
+  "targets": [
+    {
+      "document_id": "P17-BMW-GROUP-REPORT-2025",
+      "document_sha256": "7a7fd36bf7f274e776ef7eda30d3cda4335a99cbb45f097ae5e8268ccf7759e7",
+      "fallback_parser": "pdftotext -layout",
+      "fallback_reason": "MinerU fused reasonable-assurance superscript marker 6 to numeric cells; native layout and deterministic arithmetic preserve the source values without semantic repair",
+      "pdf_page": 127,
+      "pdf_path": "data/raw/p17_staging/bmw-group-report-2025.pdf",
+      "primary_parser": "MinerU 3.4.0 checksum-verified target-page output",
+      "task_id": "P17-GHG-CALC-001"
+    },
+    {
+      "document_id": "P17-BMW-GROUP-REPORT-2025",
+      "document_sha256": "7a7fd36bf7f274e776ef7eda30d3cda4335a99cbb45f097ae5e8268ccf7759e7",
+      "pdf_page": 129,
+      "pdf_path": "data/raw/p17_staging/bmw-group-report-2025.pdf",
+      "primary_parser": "MinerU 3.4.0 checksum-verified target-page output",
+      "task_id": "P17-SCOPE3-BOUNDARY-001"
+    },
+    {
+      "document_id": "P17-BMW-GROUP-REPORT-2025",
+      "document_sha256": "7a7fd36bf7f274e776ef7eda30d3cda4335a99cbb45f097ae5e8268ccf7759e7",
+      "pdf_page": 130,
+      "pdf_path": "data/raw/p17_staging/bmw-group-report-2025.pdf",
+      "primary_parser": "MinerU 3.4.0 checksum-verified target-page output",
+      "task_id": "P17-SCOPE3-BOUNDARY-001"
+    },
+    {
+      "document_id": "P17-BMW-GROUP-REPORT-2025",
+      "document_sha256": "7a7fd36bf7f274e776ef7eda30d3cda4335a99cbb45f097ae5e8268ccf7759e7",
+      "pdf_page": 141,
+      "pdf_path": "data/raw/p17_staging/bmw-group-report-2025.pdf",
+      "primary_parser": "MinerU 3.4.0 checksum-verified target-page output",
+      "task_id": "P17-WATER-001"
+    },
+    {
+      "document_id": "P17-BMW-GROUP-REPORT-2025",
+      "document_sha256": "7a7fd36bf7f274e776ef7eda30d3cda4335a99cbb45f097ae5e8268ccf7759e7",
+      "pdf_page": 142,
+      "pdf_path": "data/raw/p17_staging/bmw-group-report-2025.pdf",
+      "primary_parser": "MinerU 3.4.0 checksum-verified target-page output",
+      "task_id": "P17-WATER-001"
+    },
+    {
+      "document_id": "P17-BMW-GROUP-REPORT-2025",
+      "document_sha256": "7a7fd36bf7f274e776ef7eda30d3cda4335a99cbb45f097ae5e8268ccf7759e7",
+      "fallback_parser": "same-page frozen narrative",
+      "fallback_reason": "MinerU dropped the external-site-worker fatality table cell; the immediately preceding narrative states the value verbatim",
+      "pdf_page": 178,
+      "pdf_path": "data/raw/p17_staging/bmw-group-report-2025.pdf",
+      "primary_parser": "MinerU 3.4.0 checksum-verified target-page output",
+      "task_id": "P17-SAFETY-001"
+    },
+    {
+      "document_id": "P17-BMW-GROUP-REPORT-2025",
+      "document_sha256": "7a7fd36bf7f274e776ef7eda30d3cda4335a99cbb45f097ae5e8268ccf7759e7",
+      "pdf_page": 172,
+      "pdf_path": "data/raw/p17_staging/bmw-group-report-2025.pdf",
+      "primary_parser": "MinerU 3.4.0 checksum-verified target-page output",
+      "task_id": "P17-WORKFORCE-001"
+    },
+    {
+      "document_id": "P17-BMW-GROUP-REPORT-2025",
+      "document_sha256": "7a7fd36bf7f274e776ef7eda30d3cda4335a99cbb45f097ae5e8268ccf7759e7",
+      "pdf_page": 179,
+      "pdf_path": "data/raw/p17_staging/bmw-group-report-2025.pdf",
+      "primary_parser": "MinerU 3.4.0 checksum-verified target-page output",
+      "task_id": "P17-WORKFORCE-001"
+    },
+    {
+      "document_id": "P17-BMW-GROUP-REPORT-2025",
+      "document_sha256": "7a7fd36bf7f274e776ef7eda30d3cda4335a99cbb45f097ae5e8268ccf7759e7",
+      "pdf_page": 372,
+      "pdf_path": "data/raw/p17_staging/bmw-group-report-2025.pdf",
+      "primary_parser": "MinerU 3.4.0 checksum-verified target-page output",
+      "task_id": "P17-ASSURE-001"
+    },
+    {
+      "document_id": "P17-BMW-GROUP-REPORT-2025",
+      "document_sha256": "7a7fd36bf7f274e776ef7eda30d3cda4335a99cbb45f097ae5e8268ccf7759e7",
+      "pdf_page": 373,
+      "pdf_path": "data/raw/p17_staging/bmw-group-report-2025.pdf",
+      "primary_parser": "MinerU 3.4.0 checksum-verified target-page output",
+      "task_id": "P17-ASSURE-001"
+    },
+    {
+      "document_id": "P17-BMW-GROUP-REPORT-2025",
+      "document_sha256": "7a7fd36bf7f274e776ef7eda30d3cda4335a99cbb45f097ae5e8268ccf7759e7",
+      "pdf_page": 374,
+      "pdf_path": "data/raw/p17_staging/bmw-group-report-2025.pdf",
+      "primary_parser": "MinerU 3.4.0 checksum-verified target-page output",
+      "task_id": "P17-ASSURE-001"
+    },
+    {
+      "document_id": "P17-BMW-GROUP-REPORT-2025",
+      "document_sha256": "7a7fd36bf7f274e776ef7eda30d3cda4335a99cbb45f097ae5e8268ccf7759e7",
+      "pdf_page": 375,
+      "pdf_path": "data/raw/p17_staging/bmw-group-report-2025.pdf",
+      "primary_parser": "MinerU 3.4.0 checksum-verified target-page output",
+      "task_id": "P17-ASSURE-001"
+    }
+  ]
+}

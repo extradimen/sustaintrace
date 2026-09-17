@@ -1,0 +1,83 @@
+{
+  "authorization_record": "data/manifests/p11_cloud_authorization_2026-09-08.lock.json",
+  "authorization_record_sha256": "ddce87e60ad6a71c152d740fee1de17b99ce50846f1ac23f31d8d4e8076b232e",
+  "experiment_id": "P11-V20-UNSEEN-LOCKBOX-V01",
+  "inference_allowed": true,
+  "integrity_gate_result": "data/results/p11_v20_prefreeze_integrity_audit_v0.1.lock.json",
+  "parent": "data/tasks/p11_task_pack_v0.1.lock.json",
+  "schema_version": "1.0",
+  "status": "released_after_explicit_cloud_authorization",
+  "tasks": [
+    {
+      "document_id": "P11-SIEMENS-AR2025",
+      "question": "What work-related fatalities did Siemens report for fiscal 2025, distinguishing own workforce from other workers and injury-related from work-related-ill-health fatalities?",
+      "question_status": "frozen",
+      "reference_file": "data/annotations/p11_simulated/P11-SAFETY-001.json",
+      "target_pages": [
+        215
+      ],
+      "task_id": "P11-SAFETY-001",
+      "task_type": "direct_extraction"
+    },
+    {
+      "document_id": "P11-SIEMENS-AR2025",
+      "question": "Using Siemens' fiscal 2025 gross Scope 1 and gross market-based Scope 2 emissions, calculate their sum and compare it with the disclosed total Scope 1 and 2 market-based emissions, retaining the reported units and rounding context.",
+      "question_status": "frozen",
+      "reference_file": "data/annotations/p11_simulated/P11-CALC-001.json",
+      "target_pages": [
+        176,
+        177
+      ],
+      "task_id": "P11-CALC-001",
+      "task_type": "deterministic_calculation"
+    },
+    {
+      "document_id": "P11-SIEMENS-AR2025",
+      "question": "What fiscal-2030 Scope 1 and 2 and Scope 3 reduction targets did Siemens report, including baseline year, baseline emissions, target reductions, fiscal-2025 progress, organizational subject and relevant methodological exclusions or adjustments?",
+      "question_status": "frozen",
+      "reference_file": "data/annotations/p11_simulated/P11-TARGET-001.json",
+      "target_pages": [
+        169,
+        170
+      ],
+      "task_id": "P11-TARGET-001",
+      "task_type": "scope_subject_boundary"
+    },
+    {
+      "document_id": "P11-SIEMENS-AR2025",
+      "question": "What is the consolidation boundary of Siemens' Sustainability Statement, how does it cover own operations and the upstream and downstream value chain, and how is Siemens Healthineers treated?",
+      "question_status": "frozen",
+      "reference_file": "data/annotations/p11_simulated/P11-BOUNDARY-001.json",
+      "target_pages": [
+        160,
+        170
+      ],
+      "task_id": "P11-BOUNDARY-001",
+      "task_type": "scope_subject_boundary"
+    },
+    {
+      "document_id": "P11-SIEMENS-AR2025",
+      "question": "What total gross Scope 3 emissions and Category 3.11 use-of-sold-products emissions did Siemens report for fiscal 2025, and what calculation boundary, assumptions, exclusions and primary-data limitation apply to Category 3.11 and Scope 3?",
+      "question_status": "frozen",
+      "reference_file": "data/annotations/p11_simulated/P11-SCOPE3-001.json",
+      "target_pages": [
+        176,
+        178
+      ],
+      "task_id": "P11-SCOPE3-001",
+      "task_type": "scope_subject_boundary"
+    },
+    {
+      "document_id": "P11-SIEMENS-AR2025",
+      "question": "What Siemens sustainability information did the independent auditor cover, for which reporting period, under what assurance level and standard, and how does the auditor explain the difference from reasonable assurance?",
+      "question_status": "frozen",
+      "reference_file": "data/annotations/p11_simulated/P11-ASSURE-001.json",
+      "target_pages": [
+        257,
+        258
+      ],
+      "task_id": "P11-ASSURE-001",
+      "task_type": "scope_subject_boundary"
+    }
+  ]
+}

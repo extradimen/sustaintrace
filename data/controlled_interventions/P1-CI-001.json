@@ -1,0 +1,7 @@
+{
+  "schema_version": "1.0", "intervention_id": "P1-CI-001", "intervention_type": "numeric_claim_contradiction",
+  "source_document_id": "CRM-IR-2024", "source_document_sha256": "1cdd2fade9f3aca498fb0e4b24f59112f2f6f065ece09c6a6771cda854e9fb80", "source_page": 93,
+  "injected_text": "Salesforce's fiscal 2024 market-based emissions from operations and value chain were 1,250,000 metric tons CO2e.",
+  "known_source_value": 1200000, "injected_value": 1250000, "known_source_unit": "tCO2e", "known_source_period": "FY2024",
+  "expected_relation": "contradicted_by_source", "construction_note": "Deliberately false analyst note; not a Salesforce statement.", "publication_safe": true
+}

@@ -1,0 +1,86 @@
+{
+  "batch_id": "KB-SCALE-BATCH-028-PERFORMANCE",
+  "comparison_parent": "data/results/scale_batch_027_performance_baseline.lock.json",
+  "completed_at": "2026-09-14T01:29:10.025912+00:00",
+  "mineru": {
+    "attempt_wall_seconds": [
+      86.220362,
+      456.484686,
+      319.820111,
+      273.904018
+    ],
+    "final_complete_pages": 30,
+    "initial_failure_class": "sandbox_local_server_port_bind_denied",
+    "initial_failures": 30,
+    "post_completion_shutdown_recovered_pages": 16,
+    "resume_completed_pages": 14,
+    "status": "complete_after_audited_resume_and_hash_recovery",
+    "successful_processing_wall_seconds": 462.610003,
+    "successful_target_pages": 30,
+    "successful_target_pages_per_hour": 233.457987,
+    "target_page_wall_seconds": {
+      "KB-B028-ASSA-ABLOY-AR2025:p0077": 14.912105,
+      "KB-B028-ASSA-ABLOY-AR2025:p0090": 13.752458,
+      "KB-B028-ASSA-ABLOY-AR2025:p0095": 15.776393,
+      "KB-B028-ASSA-ABLOY-AR2025:p0096": 14.746888,
+      "KB-B028-ASSA-ABLOY-AR2025:p0098": 16.05006,
+      "KB-B028-ASSA-ABLOY-AR2025:p0099": 13.560515,
+      "KB-B028-ASSA-ABLOY-AR2025:p0100": 15.649732,
+      "KB-B028-ASSA-ABLOY-AR2025:p0105": 17.534893,
+      "KB-B028-ASSA-ABLOY-AR2025:p0170": 14.917254,
+      "KB-B028-ASSA-ABLOY-AR2025:p0171": 13.440155,
+      "KB-B028-LOOMIS-ASR2025:p0071": 15.495235,
+      "KB-B028-LOOMIS-ASR2025:p0078": 14.848866,
+      "KB-B028-LOOMIS-ASR2025:p0082": 15.815238,
+      "KB-B028-LOOMIS-ASR2025:p0083": 14.582198,
+      "KB-B028-LOOMIS-ASR2025:p0089": 15.493566,
+      "KB-B028-LOOMIS-ASR2025:p0100": 14.736727,
+      "KB-B028-LOOMIS-ASR2025:p0104": 17.047432,
+      "KB-B028-LOOMIS-ASR2025:p0118": 14.512821,
+      "KB-B028-LOOMIS-ASR2025:p0165": 14.486187,
+      "KB-B028-LOOMIS-ASR2025:p0166": 14.689587,
+      "KB-B028-TELIA-AR2025:p0076": 18.664979,
+      "KB-B028-TELIA-AR2025:p0084": 15.697701,
+      "KB-B028-TELIA-AR2025:p0085": 18.11825,
+      "KB-B028-TELIA-AR2025:p0087": 16.013455,
+      "KB-B028-TELIA-AR2025:p0090": 17.264502,
+      "KB-B028-TELIA-AR2025:p0101": 16.155731,
+      "KB-B028-TELIA-AR2025:p0103": 15.902871,
+      "KB-B028-TELIA-AR2025:p0129": 13.473998,
+      "KB-B028-TELIA-AR2025:p0259": 15.738375,
+      "KB-B028-TELIA-AR2025:p0260": 13.531831
+    },
+    "total_attempt_wall_seconds": 1136.429177
+  },
+  "mineru_comparison": {
+    "batch_027_pages_per_hour": 227.216256,
+    "batch_028_pages_per_hour": 233.457987,
+    "interpretation_gate": "throughput_only_quality_measured_separately",
+    "relative_change_percent": 2.747
+  },
+  "policy": {
+    "cloud_transmission": false,
+    "locked_experiments_modified": false,
+    "parent_results_overwritten": false,
+    "performance_separate_from_knowledge_quality": true
+  },
+  "provisional_comparison": {
+    "batch_027_pages_per_second": 268.848951,
+    "batch_028_pages_per_second": 367.355427,
+    "interpretation_gate": "diagnostic_only_not_semantic_quality_or_mineru_speed",
+    "relative_change_percent": 36.64,
+    "status": "comparable"
+  },
+  "schema_version": "0.1",
+  "started_at": "2026-09-14T00:13:07.396081+00:00",
+  "status": "diagnostic_and_mineru_baseline_complete",
+  "whole_report_diagnostic": {
+    "documents": 3,
+    "extractable_pages": 621,
+    "pages_per_second": 367.355427,
+    "pdf_pages": 624,
+    "peak_rss_bytes": 46415872,
+    "peak_rss_mb": 44.266,
+    "wall_seconds": 1.698627
+  }
+}

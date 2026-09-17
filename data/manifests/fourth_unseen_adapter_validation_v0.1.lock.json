@@ -1,0 +1,66 @@
+{
+  "schema_version": "0.1",
+  "record_kind": "fourth_unseen_adapter_validation_manifest",
+  "status": "frozen_not_executed",
+  "cases": [
+    {
+      "component": "TABLE_CELL_BINDING_INCOMPLETE",
+      "gap_id": "gap-5d08f89dd8ef48c157edf5c1",
+      "fact_record_id": "fact-61bd8e9933b6241a59c78a43",
+      "task_id": "P18-ENERGY-001",
+      "source": {
+        "path": "data/raw/p18_staging/deutsche_telekom_annual_report_2025_en.pdf",
+        "sha256": "de5d9b0705793c4bf0b994b52ecc242800d79ee18736958dbff32aade7b79a5c"
+      },
+      "pages": [131],
+      "adapter_inputs": {
+        "row_label": "Total energy consumption",
+        "period": "2024"
+      },
+      "expected_contract": {
+        "status": "passed",
+        "column_path": ["2024"],
+        "value": "11,990,733"
+      }
+    },
+    {
+      "component": "CALCULATION_LINEAGE_INCOMPLETE",
+      "gap_id": "gap-9ebeb7dde64ca3eb9b96a21d",
+      "fact_record_id": "fact-dc5c3f556943596d742d6c29",
+      "task_id": "P22-SAFETY-CALC-001",
+      "source": {
+        "path": "data/raw/p22_staging/bayer-annual-report-2025.pdf",
+        "sha256": "0af4a9d19fd9d4cba72c1ec062802199873f2379f84112dc2db5dc9605ce769b"
+      },
+      "pages": [204],
+      "adapter_inputs": {
+        "page": 204,
+        "input_cells": [
+          {"row": "of which recordable work-related accidents of employees", "column": "2025"},
+          {"row": "of which recordable work-related accidents of nonemployees", "column": "2025"}
+        ],
+        "operation": "add",
+        "rounding_decimals": 0
+      },
+      "expected_contract": {
+        "status": "passed",
+        "inputs": [338, 65],
+        "operation": "add",
+        "value": 403
+      }
+    }
+  ],
+  "parent_hashes": {
+    "fact_records": "1da6f28e8c1b3125d07a52d39aed4e095c6f40ef71378173c36a1486f7cb890c",
+    "knowledge_gap_records": "858a37ede7bd213c1c3d1e9136d5d8be6bc6e6f12f147124318347cb3a8cef76",
+    "development": "26294a46cb6363327d74cec37d7af9743dbb931e8063e09dffd8a3e306c7c2fd"
+  },
+  "safety": {
+    "single_execution": true,
+    "fact_write_allowed": false,
+    "trust_promotion_allowed": false,
+    "semantic_inference_allowed": false,
+    "cloud_transmission_allowed": false,
+    "bulk_repair_allowed": false
+  }
+}

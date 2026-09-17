@@ -1,0 +1,21 @@
+{
+  "cells_created": 6,
+  "locked_graph_modified": false,
+  "next_gate": "replay all P23 calculation outputs using frozen plus derived cells",
+  "output": {
+    "path": "data/knowledge_bases/v0.1/p23_table_cell_completions.jsonl",
+    "sha256": "5d17c89cb900a1571c2ff9869f6c0fbfcb79d478cdcc4b7ca748688a571605e8"
+  },
+  "parents": [
+    {
+      "path": "data/raw/p23_staging/gsk-annual-report-2025.pdf",
+      "sha256": "a3ef37d848fca940f85b6c33815a5d47d1f32726fd389a03910653e24af0f4d2"
+    },
+    {
+      "path": "configs/framework/p23_two_dimensional_table_graph_v0.1.lock.json",
+      "sha256": "b01f852bc62b7d7b7d0561d949da85cf5ae9b671c7601b55a6628e68de52494a"
+    }
+  ],
+  "schema_version": "0.1",
+  "status": "p23_native_table_cell_completion_complete"
+}

@@ -1,0 +1,28 @@
+{
+  "artifact_sha256": {
+    "data/knowledge_bases/v0.1/increments/scale_batch_005_atomic_fact_records.jsonl": "99917e2f238e6fdef97ebe0722872ae356fe0ce31891433e1536cfbe2c310bb0",
+    "data/knowledge_bases/v0.1/increments/scale_batch_005_atomic_validations.jsonl": "7f4be5e676a44653edb975e5c269426505c5cc17f25944d9c523fba3ada90264",
+    "data/knowledge_bases/v0.1/tier_b_independent_adjudications.jsonl": "085d3782f2bb799ad880a4c467832ea01a41d75590ea84aa6fdde63922e33b66",
+    "data/knowledge_bases/v0.1/trusted_fact_records.jsonl": "fd2986119183932d8f26ac715b72df7b3485f63e66bdaa15ffab31be3036293d",
+    "data/results/scale_batch_005_tier_b_promotion.lock.json": "426a03356ce89f4bb9cfde6093a9b2b9ce1b76a0e9bf54790c1e681b44bba142"
+  },
+  "batch_id": "KB-SCALE-BATCH-005-TIER-B-SAMPLE",
+  "blocked_reason_counts": {
+    "malformed_row_header": 3,
+    "missing_explicit_unit_attachment": 6,
+    "prior_period_assurance_scope_not_established": 13
+  },
+  "held_tier_c": 22,
+  "promoted_tier_b": 10,
+  "quality_gates": {
+    "candidate_records_modified": false,
+    "cloud_transmission": false,
+    "locked_experiments_modified_or_rescored": false,
+    "pytest_collected_and_passed": 447,
+    "ruff": "passed"
+  },
+  "reviewed_atomic_facts": 32,
+  "schema_version": "0.1",
+  "status": "six_dimension_tier_b_sampling_complete",
+  "total_trusted_tier_b": 65
+}

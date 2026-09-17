@@ -1,0 +1,57 @@
+{
+  "answer": "Gross Scope 1 plus gross market-based Scope 2 was 2.96 Mt CO2e in restated 2024 and 2.79 in 2025, a -5.74% change. Gross Scope 3 was 8.82/9.10 and total market-based GHG was 11.78/11.89 Mt CO2e. The calculated Scope 1+2 subtotal is not the issuer's total including Scope 3.",
+  "evidence": [
+    {
+      "parser": "mineru",
+      "pdf_page": 151,
+      "quote": "Gross Scope 1 GHG emissions²</td><td rowspan=1 colspan=1>2.08</td><td rowspan=1 colspan=1>1.88</td><td rowspan=1 colspan=1>1.89",
+      "source_id": "P22-BAYER-AR2025"
+    },
+    {
+      "parser": "mineru",
+      "pdf_page": 151,
+      "quote": "Gross market-based Scope 2 GHG emissions</td><td rowspan=1 colspan=1>1.68</td><td rowspan=1 colspan=1>1.08</td><td rowspan=1 colspan=1>0.9",
+      "source_id": "P22-BAYER-AR2025"
+    },
+    {
+      "parser": "mineru",
+      "pdf_page": 151,
+      "quote": "Gross Scope 3 GHG emissions</td><td rowspan=1 colspan=1>10.34</td><td rowspan=1 colspan=1>8.82</td><td rowspan=1 colspan=1>9.10",
+      "source_id": "P22-BAYER-AR2025"
+    },
+    {
+      "parser": "mineru",
+      "pdf_page": 151,
+      "quote": "Total GHG emissions (market-based)3,4</td><td rowspan=1 colspan=1>14.10</td><td rowspan=1 colspan=1>11.78</td><td rowspan=1 colspan=1>11.89",
+      "source_id": "P22-BAYER-AR2025"
+    },
+    {
+      "parser": "mineru",
+      "pdf_page": 151,
+      "quote": "we take into account the entire Group in accordance with the financial scope of consolidation, provided a site is environmentally relevant",
+      "source_id": "P22-BAYER-AR2025"
+    }
+  ],
+  "normalized_value": {
+    "boundary": "financial scope of consolidation and environmentally relevant sites",
+    "calculated_change_percent": -5.74,
+    "calculated_scope1_plus_scope2_mtco2e::2024_restated": 2.96,
+    "calculated_scope1_plus_scope2_mtco2e::2025": 2.79,
+    "scope1_gross_mtco2e::2024_restated": 1.88,
+    "scope1_gross_mtco2e::2025": 1.89,
+    "scope2_market_gross_mtco2e::2024_restated": 1.08,
+    "scope2_market_gross_mtco2e::2025": 0.9,
+    "scope3_gross_mtco2e::2024_restated": 8.82,
+    "scope3_gross_mtco2e::2025": 9.1,
+    "total_market_based_mtco2e::2024_restated": 11.78,
+    "total_market_based_mtco2e::2025": 11.89
+  },
+  "provenance": {
+    "candidate_model_used": false,
+    "reference_is_simulated": true
+  },
+  "reference_author": "codex_gpt_simulated_expert",
+  "reference_status": "verified_against_frozen_mineru_pages_native_layout_and_visual_fallback",
+  "schema_version": "1.0",
+  "task_id": "P22-GHG-CALC-001"
+}

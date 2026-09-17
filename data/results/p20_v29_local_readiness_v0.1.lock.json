@@ -1,0 +1,165 @@
+{
+  "artifacts": {
+    "atomic_gold": {
+      "path": "data/annotations/p20_simulated/p20_atomic_slot_gold_v0.1.lock.json",
+      "sha256": "9bfd2951d2b8853914df301abb0de5d14efff5a82da68ecafd73b2b47910ce1c"
+    },
+    "calculation_plans": {
+      "path": "configs/framework/p20_calculation_plans_v0.1.lock.json",
+      "sha256": "52b309192cf2405c668a34f9a108510ac6106e06d77b63cd06beb8bd6201aab1"
+    },
+    "execution_config": {
+      "path": "configs/experiments/p20-v29-unseen-lockbox-local.json",
+      "sha256": "3c888942658ba79a6250763ecd88cd00e7766025dcad65d431a4fbd6e026e068"
+    },
+    "handle_whitelist": {
+      "path": "configs/framework/p20_evidence_handle_whitelist_v0.1.lock.json",
+      "sha256": "4a047a22fd705eaf98ec7288f0ee125a9e90487b7077c4e61d56180b24f5a0a2"
+    },
+    "layout_registry": {
+      "path": "configs/framework/p20_layout_fallback_registry_v0.1.lock.json",
+      "sha256": "f0fe2a899a8b12508e4600b7cbb0902128d3c605e0ea10a7d9b31dbd4918871f"
+    },
+    "local_task_pack": {
+      "path": "data/tasks/p20_local_execution_task_pack_v0.1.lock.json",
+      "sha256": "8b99d46aedd1eb123a5e7de1ab7aac7ae5d219c40f6562706c2bfaa555e17bc9"
+    },
+    "report": {
+      "path": "docs/88_P20_v2.9本地预冻结与云授权边界_v0.1.md",
+      "sha256": "6f32e3e83bdb34f70a0dba8e40f95daa638d9f1499450dcf6cb9672d261c71b5"
+    },
+    "scoring_rules": {
+      "path": "configs/framework/p20_scoring_rules_v0.1.lock.json",
+      "sha256": "c780cac387c6592deb962474d20fac808535ee78518b4c6f7180fd414ba630fb"
+    },
+    "semantic_qualifiers": {
+      "path": "configs/framework/p20_semantic_qualifiers_v0.1.lock.json",
+      "sha256": "20857efbc87fa5518ef370dfc5ad3306735546d26d1b8012a81c04ea2721904d"
+    },
+    "slot_contracts": {
+      "path": "configs/framework/p20_slot_contracts_v0.1.lock.json",
+      "sha256": "28b5367fc816158663a794d6a8322b76913fea586480c4964dbb7c8ecc603b62"
+    },
+    "table_graph": {
+      "path": "configs/framework/p20_two_dimensional_table_graph_v0.1.lock.json",
+      "sha256": "b0dbb589acd70748ae10c00181116b61f7e9e5ec3a8d84705890658637565fc4"
+    }
+  },
+  "cloud_boundary": {
+    "authorized_pages_required": [
+      85,
+      86,
+      87,
+      111,
+      112,
+      113,
+      114,
+      120,
+      121,
+      134,
+      135,
+      136
+    ],
+    "authorized_scope_required": "P20 Stage A/Stage B single-attempt candidate inference",
+    "candidate_model": "qwen3.5:397b-cloud",
+    "candidate_model_call_count": 0,
+    "cloud_transmission_count": 0,
+    "explicit_payload_specific_authorization_received": false
+  },
+  "document_id": "P20-HOLCIM-SS2025",
+  "document_sha256": "55b975cd13fc361638ed13bf32856a2629e46e88bdfc6ad9208bd8807992a599",
+  "experiment_id": "P20-V29-UNSEEN-LOCKBOX-V01",
+  "locked_prior_experiments_modified": false,
+  "mineru": {
+    "failure_count": 0,
+    "preserved_infrastructure_failures": 12,
+    "recovery_generations": [
+      "RESUME01"
+    ],
+    "registry": "data/manifests/p20_mineru_target_registry_RESUME01_v0.1.lock.json",
+    "registry_sha256": "d01df6e57f754af0c7ae9608222422c6570fc8025c653210adc28fc31e3fa8e4",
+    "success_count": 12
+  },
+  "prefreeze_integrity": {
+    "contract_preflights_passed": 73,
+    "deterministic_calculation_passed": true,
+    "evidence_quotes_checked": 50,
+    "reference_audit": "data/results/p20_prefreeze_reference_consistency_audit_v0.1.lock.json",
+    "reference_audit_sha256": "ea6d36084b8238f3dd2731a42dadb72faaa22c07a943bfa0ebd03b8d1db3eab7",
+    "reference_freeze": "data/manifests/p20_simulated_reference_freeze_v0.1.lock.json",
+    "reference_freeze_sha256": "c390dd3bff278f06c3f18aa7c16d130c5b89e8d621798aeb5d19f8c6a82194ee",
+    "status": "passed",
+    "v29_whole_pack_preflight": {
+      "checked_operations": [
+        {
+          "operation": "sum",
+          "step_id": "calculated_total_2025",
+          "task_id": "P20-GHG-CALC-001"
+        },
+        {
+          "operation": "difference",
+          "step_id": "difference",
+          "task_id": "P20-GHG-CALC-001"
+        },
+        {
+          "operation": "percentage_change",
+          "step_id": "percentage_change",
+          "task_id": "P20-GHG-CALC-001"
+        },
+        {
+          "operation": "sum",
+          "step_id": "category1_plus_15_2025",
+          "task_id": "P20-SCOPE3-001"
+        },
+        {
+          "operation": "percentage_share",
+          "step_id": "share_2025",
+          "task_id": "P20-SCOPE3-001"
+        },
+        {
+          "operation": "sum",
+          "step_id": "category1_plus_15_2024",
+          "task_id": "P20-SCOPE3-001"
+        },
+        {
+          "operation": "percentage_share",
+          "step_id": "share_2024",
+          "task_id": "P20-SCOPE3-001"
+        },
+        {
+          "operation": "sum",
+          "step_id": "contract_headcount_2025",
+          "task_id": "P20-WORKFORCE-001"
+        },
+        {
+          "operation": "difference",
+          "step_id": "difference",
+          "task_id": "P20-WORKFORCE-001"
+        }
+      ],
+      "deterministic_task_count": 3,
+      "plan_count": 3,
+      "status": "passed",
+      "task_count": 6,
+      "validated_before_candidate_call": true
+    }
+  },
+  "schema_version": "2.9",
+  "slot_count": 73,
+  "status": "local_readiness_passed_waiting_for_payload_specific_cloud_authorization",
+  "task_count": 6,
+  "unique_target_pages": [
+    85,
+    86,
+    87,
+    111,
+    112,
+    113,
+    114,
+    120,
+    121,
+    134,
+    135,
+    136
+  ]
+}

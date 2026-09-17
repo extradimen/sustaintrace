@@ -1,0 +1,100 @@
+{
+  "blocked_by_reason": {
+    "comparative_or_prior_period_not_unambiguously_within_2025_assurance_scope": [
+      "fact-05ded5c68f2cbe82c0d6ad19",
+      "fact-2bacf6a98ed22bded9d4e187",
+      "fact-37b720523f6d6e8008ddb2c9",
+      "fact-4d170c6595a53aa2dc69ff30",
+      "fact-636ed4d53217e809b503723e",
+      "fact-6b05b8d98c8c3cfff37234c5",
+      "fact-7701f0674e932d04a942b0ef",
+      "fact-914015a48c7e6b87ecbb4421",
+      "fact-9e34f6230f187df95f83c46a",
+      "fact-a91f70ddfaa2b6b093d6f260",
+      "fact-afdc309881cbfd03bbb36f18",
+      "fact-c81e85d8686894e0996e5ec5",
+      "fact-caaa564f45d3055cd21fc1d9",
+      "fact-f151ba259bf6a8bdef59f019"
+    ]
+  },
+  "blocked_fact_ids": [
+    "fact-05ded5c68f2cbe82c0d6ad19",
+    "fact-2bacf6a98ed22bded9d4e187",
+    "fact-37b720523f6d6e8008ddb2c9",
+    "fact-4d170c6595a53aa2dc69ff30",
+    "fact-636ed4d53217e809b503723e",
+    "fact-6b05b8d98c8c3cfff37234c5",
+    "fact-7701f0674e932d04a942b0ef",
+    "fact-914015a48c7e6b87ecbb4421",
+    "fact-9e34f6230f187df95f83c46a",
+    "fact-a91f70ddfaa2b6b093d6f260",
+    "fact-afdc309881cbfd03bbb36f18",
+    "fact-c81e85d8686894e0996e5ec5",
+    "fact-caaa564f45d3055cd21fc1d9",
+    "fact-f151ba259bf6a8bdef59f019"
+  ],
+  "inputs": {
+    "atomic_increment_sha256": "e9b74047ed4fec0c799f8f934d331fca2ff5e17397efe96ccda0a2a2fd3a9e32",
+    "atomic_validations_sha256": "12dd8a451c4a29b2ae9ac7c80f1c6780ed7bae623f6f7572f9dcf0d67e058fc1",
+    "native_coordinate_audit_sha256": "3c97789a43c9f40d5d33718630520125f10d02a97f60f95396bd02ac93b9ad1d"
+  },
+  "locked_experiments_modified_or_rescored": false,
+  "native_audit": {
+    "assurance_pages": [
+      184,
+      185
+    ],
+    "assurance_scope": "Essity sustainability statement pages 47-99, financial year 2025",
+    "batch_id": "KB-SCALE-BATCH-014-NATIVE-COORDINATE-AUDIT",
+    "checks": {
+      "all_frozen_coordinates_corroborated": true,
+      "all_promotable_values_present": true,
+      "assurance_conclusion_present": true,
+      "assurance_issuer_present": true,
+      "assurance_period_present": true,
+      "assurance_signatory_present": true,
+      "assurance_statement_pages_present": true,
+      "emissions_rows_present": true,
+      "emissions_table_unit_present": true,
+      "source_sha256_matches": true,
+      "workforce_reporting_basis_present": true,
+      "workforce_table_present": true
+    },
+    "data_pages": [
+      68,
+      82
+    ],
+    "document_id": "KB-B014-ESSITY-AR2025",
+    "native_page_sha256": {
+      "184": "442640150039d86838777db00b201e6d41718f038a0d7ea103144f516cc573fb",
+      "185": "f531fe6a51165bff147fc0716ed2b8269f42d020ff74cc24cbd3016f7a9d8cbe",
+      "68": "a03ab65432493218e9dea5fcecd284cb82711289a211b8bc651a9e9e2d17f7c3",
+      "82": "a8065cd10df86928c835e8afa5ff375cce63a60c11257c0a9f4a15f298df902c"
+    },
+    "policy": {
+      "automatic_promotion": false,
+      "cloud_transmission": false
+    },
+    "schema_version": "0.1",
+    "status": "essity_2025_cells_passed_prior_periods_blocked"
+  },
+  "newly_promoted_to_tier_b": 6,
+  "next_gate": "scale_batch_014_global_kb_rebuild_and_closure",
+  "outputs": {
+    "adjudications_sha256": "0462e51e34837c58ca0f78231177db24eedc6755dc02cbb220a5529559f304c6",
+    "trusted_facts_sha256": "fc00af621bb32d69ecbb0bd9153a371feb2cba6d35679049a7633269297bd46c"
+  },
+  "promotable_fact_ids": [
+    "fact-1a9f7031feeda8ea1d27d5bd",
+    "fact-3cc992793a95be699f118ecd",
+    "fact-99ebdba383b776ec594f87b6",
+    "fact-d5e5528770cad188dbb0c583",
+    "fact-da410017dd65f4d1291afdcc",
+    "fact-dfdc89c6b5bd5783335e26cc"
+  ],
+  "reviewed": 20,
+  "schema_version": "0.1",
+  "source_candidate_records_modified": 0,
+  "status": "scale_batch_014_six_dimension_tier_b_sampling_complete",
+  "total_trusted_tier_b": 85
+}

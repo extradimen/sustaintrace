@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "pipeline_version": "ESG-RD-v1.3-EVIDENCE-DIAGNOSTICS",
+  "status": "development_preregistered",
+  "scope": "P3-exposed development failures only; P3 candidate outputs and locked results remain immutable",
+  "problem": "A null answer currently conflates issuer non-disclosure, retrieval miss, parser structure loss, and unresolved source evidence.",
+  "states": [
+    "not_disclosed_by_issuer",
+    "non_disclosure_marker_missing",
+    "supported_in_retrieved_evidence",
+    "retrieval_miss",
+    "parser_structure_unrecoverable",
+    "source_or_benchmark_anchor_unresolved"
+  ],
+  "comparison_layers": [
+    "raw PDF page text or visually verified benchmark anchors",
+    "full parsed page representation",
+    "retrieved candidate evidence packet"
+  ],
+  "guardrails": [
+    "Benchmark anchors are scoring-only and may never be injected into candidate prompts, evidence, or outputs.",
+    "Diagnostics are recorded after an archived run or during an explicitly exposed development regression.",
+    "Parser fallback must retain parser identity, page coordinates, artifact hashes, and trigger reason.",
+    "P3 remains locked and cannot be rerun to claim unbiased improvement."
+  ],
+  "first_development_cases": [
+    {
+      "task_id": "P3-ABSTAIN-001",
+      "expected_state": "not_disclosed_by_issuer"
+    },
+    {
+      "task_id": "P3-ABSTAIN-002",
+      "expected_state": "not_disclosed_by_issuer"
+    },
+    {
+      "task_id": "P3-CALC-001",
+      "expected_state": "parser_structure_unrecoverable"
+    },
+    {
+      "task_id": "P3-DEX-001",
+      "expected_state": "parser_structure_unrecoverable"
+    }
+  ],
+  "aggregate_score": null
+}

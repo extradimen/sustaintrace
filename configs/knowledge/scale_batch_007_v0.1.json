@@ -1,0 +1,58 @@
+{
+  "schema_version": "0.1",
+  "batch_id": "KB-SCALE-BATCH-007",
+  "status": "source_locked_acquisition_verified",
+  "policy": {
+    "local_only": true,
+    "cloud_transmission": false,
+    "locked_experiments_untouched": ["P3-P23"],
+    "download_resume": true,
+    "overwrite_verified_files": false,
+    "fact_promotion_requires_independent_gate": true
+  },
+  "selection_rationale": "Three previously unused issuers spanning electrification and automation, telecommunications, and industrial technology. Each official English 2025 report contains a structured sustainability statement and independent assurance material suitable for auditable local extraction and six-dimensional Tier-B review.",
+  "documents": [
+    {
+      "document_id": "KB-B007-ABB-ARS2025",
+      "source_group_id": "KB-ABB-2025",
+      "company": "ABB Ltd",
+      "title": "ABB Annual Reporting Suite 2025",
+      "report_year": 2025,
+      "official_landing_page": "https://new.abb.com/news/detail/133544/untitled",
+      "download_url": "https://library.e.abb.com/public/b292a84b973f444a821a629d668bdf1f/ABB%20Annual%20Reporting%20Suite%202025%20-%20Consolidated%20file.pdf",
+      "official_domain": "abb.com",
+      "local_path": "data/raw/scale_batch_007/abb-annual-reporting-suite-2025.pdf",
+      "source_role": "primary_report",
+      "language": "English",
+      "prior_experiment_use": false
+    },
+    {
+      "document_id": "KB-B007-NOKIA-AR2025",
+      "source_group_id": "KB-NOKIA-2025",
+      "company": "Nokia Corporation",
+      "title": "Nokia in 2025 Annual Report",
+      "report_year": 2025,
+      "official_landing_page": "https://www.nokia.com/newsroom/nokia-has-published-its-nokia-in-2025-annual-report-and-filed-its-annual-report-on-form-20-f-for-2025/",
+      "download_url": "https://www.nokia.com/system/files/2026-03/nokia-annual-report-2025.pdf",
+      "official_domain": "nokia.com",
+      "local_path": "data/raw/scale_batch_007/nokia-annual-report-2025.pdf",
+      "source_role": "primary_report",
+      "language": "English",
+      "prior_experiment_use": false
+    },
+    {
+      "document_id": "KB-B007-ATLAS-COPCO-AR2025",
+      "source_group_id": "KB-ATLAS-COPCO-2025",
+      "company": "Atlas Copco AB",
+      "title": "Atlas Copco Group Annual Report 2025",
+      "report_year": 2025,
+      "official_landing_page": "https://www.atlascopcogroup.com/en/investors/reports-and-presentations",
+      "download_url": "https://www.atlascopcogroup.com/content/dam/atlas-copco/group/documents/investors/financial-publications/english/20260320-annual-report-2025-incl-sustainability-report-and-corporate-governance-report-copy-of-the-official-ESEF-format.pdf",
+      "official_domain": "atlascopcogroup.com",
+      "local_path": "data/raw/scale_batch_007/atlas-copco-annual-report-2025.pdf",
+      "source_role": "primary_report",
+      "language": "English",
+      "prior_experiment_use": false
+    }
+  ]
+}

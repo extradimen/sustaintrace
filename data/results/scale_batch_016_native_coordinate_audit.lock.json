@@ -1,0 +1,27 @@
+{
+  "assurance_page_text_sha256": {
+    "p197": "cd48a08dbdf1e9c527f162aa904883b124a69a49640a241299b1de5b1582f315",
+    "p199": "f0de7a8691c09e5641b058a0285eaa80798a6099f5d3d597dc2ac8cd686bfbf5"
+  },
+  "batch_id": "KB-SCALE-BATCH-016-NATIVE-COORDINATE-AUDIT",
+  "checks": {
+    "assurance_conclusion": true,
+    "assurance_issuer": true,
+    "assurance_period": true,
+    "assurance_signatory": true,
+    "fact-7bdc7e0f43e0729ad7985fbf:coordinate": true,
+    "fact-7bdc7e0f43e0729ad7985fbf:page": true,
+    "fact-7bdc7e0f43e0729ad7985fbf:period": true,
+    "fact-b708a8ccb4f468227c0b6ca1:coordinate": true,
+    "fact-b708a8ccb4f468227c0b6ca1:page": true,
+    "fact-b708a8ccb4f468227c0b6ca1:period": true,
+    "source_sha256": true
+  },
+  "policy": {
+    "automatic_promotion": false,
+    "cloud_transmission": false
+  },
+  "promotable_facts": 2,
+  "schema_version": "0.1",
+  "status": "all_selected_2025_cells_and_assurance_window_passed"
+}

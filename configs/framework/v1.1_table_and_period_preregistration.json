@@ -1,0 +1,20 @@
+{
+  "schema_version":"1.0",
+  "framework_version":"ESG-RD-v1.1",
+  "status":"preregistered_before_implementation_and_v1.1_inference",
+  "triggering_results":"data/results/v1.0_p2_development_regression_result.lock.json",
+  "planned_changes":[
+    "Build deterministic table-row candidates from MinerU table HTML and content-list blocks.",
+    "Rank rows by exact metric phrase, requested scope, period and unit tokens; retain all tied rows and never select by numeric magnitude.",
+    "For direct extraction and controlled conflict, present the matching exact row before rounded narrative blocks while preserving original handles and text.",
+    "Allow Stage B observation period to inherit the frozen document reporting year only when the task asks for reported progress/status and the evidence row has no competing explicit year.",
+    "Archive row-ranking features and period-inheritance provenance in every run."
+  ],
+  "success_criteria":[
+    "Meta exact Scope 3 row is present in the highest-priority evidence tier and 8.2M headline is not treated as an exact substitute.",
+    "P&G 9% progress can inherit FY2024 with an explicit provenance record.",
+    "No row ranking uses hidden reference values.",
+    "All previous v1 semantic rejection tests remain passing."
+  ],
+  "unchanged_rules":["single attempt per regression version","no posthoc repair","P2 remains development-only","P3 required for generalization"]
+}

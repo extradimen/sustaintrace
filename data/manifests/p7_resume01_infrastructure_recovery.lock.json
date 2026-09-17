@@ -1,0 +1,12 @@
+{
+  "schema_version":"1.0",
+  "experiment_id":"P7-V16-UNSEEN-LOCKBOX-V01-RESUME01",
+  "parent_experiment_id":"P7-V16-UNSEEN-LOCKBOX-V01",
+  "status":"authorized_infrastructure_recovery_only",
+  "recovery_scope":["P7-SAFETY-001 Stage A and, only if successful, Stage B"],
+  "parent_failure":"research_archive/P7-V16-UNSEEN-LOCKBOX-V01/runs/P7-SAFETY-001-QWEN397B-v16-stage-a-r1",
+  "interruption_class":"Ollama Cloud HTTP 502 no_route_to_host",
+  "model_behavior_failures_excluded_from_recovery":["P7-INTENSITY-001 Stage B","P7-ASSURE-001 Stage B"],
+  "successful_parent_results_reused_without_rerun":true,
+  "cloud_authorization":"data/manifests/p7_cloud_authorization_2026-09-05.lock.json"
+}

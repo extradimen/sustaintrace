@@ -1,0 +1,20 @@
+{
+  "checkpoint_resume_enabled": true,
+  "experiment_id": "V13-STAGE-B-TYPE-SCHEMA-DEV02",
+  "records": [
+    {
+      "result": {
+        "archive_directory": "/Users/michaelwang/Documents/ChatGPT/EdgeModel&ESG/research_archive/V13-STAGE-B-TYPE-SCHEMA-DEV02/runs/P3-XPAGE-001-QWEN397B-v13-stage-b-dev02-r1",
+        "elapsed_seconds": 85.79209266700491,
+        "run_id": "P3-XPAGE-001-QWEN397B-v13-stage-b-dev02-r1",
+        "task_id": "P3-XPAGE-001",
+        "validated_claim_count": 5
+      },
+      "retried": false,
+      "status": "passed",
+      "task_id": "P3-XPAGE-001"
+    }
+  ],
+  "schema_version": "1.0",
+  "updated_at": "2026-09-04T20:28:05.892613+00:00"
+}

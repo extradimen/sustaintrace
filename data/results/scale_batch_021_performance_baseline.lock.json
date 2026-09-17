@@ -1,0 +1,88 @@
+{
+  "batch_id": "KB-SCALE-BATCH-021-PERFORMANCE",
+  "comparison_parent": "data/results/scale_batch_020_performance_baseline.lock.json",
+  "completed_at": "2026-09-13T16:51:17.171714+00:00",
+  "mineru": {
+    "attempt_wall_seconds": [
+      518.584847,
+      476.822534,
+      113.732957
+    ],
+    "final_complete_pages": 34,
+    "initial_failures": 26,
+    "post_completion_shutdown_recovered_pages": 6,
+    "resume_completed_pages": 20,
+    "status": "complete_after_audited_resume_and_hash_recovery",
+    "successful_processing_wall_seconds": 608.312106,
+    "successful_target_pages": 34,
+    "successful_target_pages_per_hour": 201.212501,
+    "target_page_wall_seconds": {
+      "KB-B021-CAPGEMINI-URD2025:p0197": 20.33095,
+      "KB-B021-CAPGEMINI-URD2025:p0200": 15.67039,
+      "KB-B021-CAPGEMINI-URD2025:p0211": 19.936204,
+      "KB-B021-CAPGEMINI-URD2025:p0214": 22.973178,
+      "KB-B021-CAPGEMINI-URD2025:p0216": 16.354423,
+      "KB-B021-CAPGEMINI-URD2025:p0233": 17.822817,
+      "KB-B021-CAPGEMINI-URD2025:p0256": 17.200494,
+      "KB-B021-CAPGEMINI-URD2025:p0317": 15.193984,
+      "KB-B021-CAPGEMINI-URD2025:p0318": 16.022215,
+      "KB-B021-CAPGEMINI-URD2025:p0319": 16.151321,
+      "KB-B021-CAPGEMINI-URD2025:p0320": 17.572887,
+      "KB-B021-EIFFAGE-URD2025:p0114": 24.974706,
+      "KB-B021-EIFFAGE-URD2025:p0117": 20.982026,
+      "KB-B021-EIFFAGE-URD2025:p0126": 21.764202,
+      "KB-B021-EIFFAGE-URD2025:p0127": 24.13072,
+      "KB-B021-EIFFAGE-URD2025:p0144": 19.472247,
+      "KB-B021-EIFFAGE-URD2025:p0157": 13.657663,
+      "KB-B021-EIFFAGE-URD2025:p0215": 13.626626,
+      "KB-B021-EIFFAGE-URD2025:p0218": 20.272853,
+      "KB-B021-EIFFAGE-URD2025:p0219": 20.143584,
+      "KB-B021-EIFFAGE-URD2025:p0220": 18.027986,
+      "KB-B021-EIFFAGE-URD2025:p0221": 15.807422,
+      "KB-B021-REXEL-URD2025:p0226": 15.98603,
+      "KB-B021-REXEL-URD2025:p0261": 16.814939,
+      "KB-B021-REXEL-URD2025:p0266": 16.758334,
+      "KB-B021-REXEL-URD2025:p0269": 17.24834,
+      "KB-B021-REXEL-URD2025:p0277": 16.02169,
+      "KB-B021-REXEL-URD2025:p0292": 16.105605,
+      "KB-B021-REXEL-URD2025:p0340": 14.647152,
+      "KB-B021-REXEL-URD2025:p0341": 16.220211,
+      "KB-B021-REXEL-URD2025:p0342": 15.849517,
+      "KB-B021-REXEL-URD2025:p0343": 15.930573,
+      "KB-B021-REXEL-URD2025:p0344": 17.160406,
+      "KB-B021-REXEL-URD2025:p0347": 21.480411
+    },
+    "total_attempt_wall_seconds": 1109.140338
+  },
+  "mineru_comparison": {
+    "batch_020_pages_per_hour": 159.795955,
+    "batch_021_pages_per_hour": 201.212501,
+    "interpretation_gate": "throughput_only_quality_measured_separately",
+    "relative_change_percent": 25.918
+  },
+  "policy": {
+    "cloud_transmission": false,
+    "locked_experiments_modified": false,
+    "performance_separate_from_knowledge_quality": true,
+    "rejected_http_403_candidates": 3,
+    "replacement_documents": 3
+  },
+  "provisional_comparison": {
+    "batch_020_pages_per_second": 451.315497,
+    "batch_021_pages_per_second": 357.681992,
+    "interpretation_gate": "diagnostic_only_not_semantic_quality_or_mineru_speed",
+    "relative_change_percent": -20.747
+  },
+  "schema_version": "0.1",
+  "started_at": "2026-09-13T16:51:12.996907+00:00",
+  "status": "diagnostic_and_mineru_baseline_complete",
+  "whole_report_diagnostic": {
+    "documents": 3,
+    "extractable_pages": 1475,
+    "pages_per_second": 357.681992,
+    "pdf_pages": 1493,
+    "peak_rss_bytes": 56573952,
+    "peak_rss_mb": 53.953,
+    "wall_seconds": 4.174099
+  }
+}

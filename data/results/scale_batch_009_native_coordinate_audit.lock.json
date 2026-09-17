@@ -1,0 +1,50 @@
+{
+  "assurance": {
+    "financial_year": 2025,
+    "pdf_page": 195,
+    "quote": "We have conducted a limited assurance engagement on the Sustainability Statement of Carlsberg A/S (the \u2018Group\u2019) included in the Management\u2019s Review (the \u2018Sustainability Statement\u2019), (pp. 46-100) for the financial year 1 January \u2013 31 December 2025.",
+    "statement_page_range": [
+      46,
+      100
+    ]
+  },
+  "batch_id": "KB-SCALE-BATCH-009-NATIVE-COORDINATE-AUDIT",
+  "checks": {
+    "assurance_entity_present": true,
+    "assurance_page_scope_present": true,
+    "assurance_period_present": true,
+    "certificate_row_values_present": true,
+    "contractual_row_values_present": true,
+    "page_footer_matches": true,
+    "ppa_row_values_present": true,
+    "source_sha256_matches": true,
+    "unit_heading_present": true,
+    "year_headers_present": true
+  },
+  "columns": {
+    "contractual_instruments": {
+      "2024": "73",
+      "2025": "67"
+    },
+    "energy_attribute_certificates_unbundled": {
+      "2024": "72",
+      "2025": "60"
+    },
+    "power_purchase_agreements_bundled": {
+      "2024": "1",
+      "2025": "7"
+    }
+  },
+  "document_id": "KB-B009-CARLSBERG-AR2025",
+  "native_assurance_sha256": "f6a4dccb2d3fdca16f65234de2c094b81bb72e1dda01fe2808d56bb725cf7e2a",
+  "native_page_sha256": "dd78641ac9efcbc69aaf71972a64dcc25e4fd2398073cedb95f7b7d2c0eb9ee1",
+  "pdf_page": 66,
+  "policy": {
+    "automatic_promotion": false,
+    "cloud_transmission": false
+  },
+  "schema_version": "0.1",
+  "source_sha256": "35fad935180834f52819b3d4729ea30a09b75b69a6267fbec7e2ef1afadd58a4",
+  "status": "passed",
+  "unit": "%"
+}
