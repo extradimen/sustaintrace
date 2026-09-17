@@ -127,22 +127,39 @@ def _install_poppler(phases: dict[str, Any], *, check_only: bool) -> None:
     if system == "Darwin" and shutil.which("brew"):
         _run(["brew", "install", "poppler"])
     elif system == "Windows":
+        installers: list[tuple[str, list[str]]] = []
         if shutil.which("winget"):
-            _run(
-                [
+            installers.append(
+                (
                     "winget",
-                    "install",
-                    "--id",
-                    "oschwartz10612.Poppler",
-                    "--exact",
-                    "--accept-package-agreements",
-                    "--accept-source-agreements",
-                ]
+                    [
+                        "winget",
+                        "install",
+                        "--id",
+                        "oschwartz10612.Poppler",
+                        "--exact",
+                        "--source",
+                        "winget",
+                        "--accept-package-agreements",
+                        "--accept-source-agreements",
+                        "--disable-interactivity",
+                    ],
+                )
             )
-        elif shutil.which("choco"):
-            _run(["choco", "install", "poppler", "-y"])
-        else:
+        if shutil.which("choco"):
+            installers.append(("chocolatey", ["choco", "install", "poppler", "-y"]))
+        if not installers:
             raise RuntimeError("Poppler requires winget or Chocolatey on Windows")
+        failures: list[str] = []
+        for installer, command in installers:
+            try:
+                _run(command)
+                break
+            except subprocess.CalledProcessError as error:
+                failures.append(f"{installer}: exit {error.returncode}")
+                print(f"{installer} failed; trying the next registered installer", flush=True)
+        else:
+            raise RuntimeError("Poppler installation failed: " + "; ".join(failures))
     elif system == "Linux":
         if shutil.which("apt-get"):
             prefix = [] if hasattr(os, "geteuid") and os.geteuid() == 0 else ["sudo"]
