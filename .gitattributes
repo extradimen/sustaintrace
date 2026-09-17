@@ -1,0 +1,19 @@
+* text=auto eol=lf
+
+# Release seeds and lock files are byte-addressed by SHA256. Git must never
+# rewrite their line endings on checkout, including on Windows runners.
+*.json text eol=lf
+*.jsonl text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.toml text eol=lf
+*.cff text eol=lf
+*.md text eol=lf
+*.py text eol=lf
+*.sh text eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf
+*.js text eol=lf
+*.css text eol=lf
+*.svg text eol=lf
+
