@@ -4,11 +4,13 @@
   "packages": {
     "mineru": "3.4.0",
     "pdftext": "0.6.3",
-    "pypdfium2": "4.30.0"
+    "pypdfium2": "4.30.0",
+    "six": "1.17.0"
   },
   "package_extras": {
     "mineru": ["pipeline"]
   },
   "compatibility_note": "pdftext 0.7.1 is excluded because its columnar PageChars API is incompatible with MinerU 3.4.0 text iteration.",
+  "pipeline_dependency_note": "MinerU 3.4.0 OCR imports six without declaring it; pin it explicitly for fresh pipeline installations.",
   "model_manifest": "model_manifests/mineru-pdf-extract-kit-1.0-ed6b654c.lock.json"
 }

@@ -33,6 +33,7 @@ def test_mineru_installs_pipeline_dependencies(
             "mineru[pipeline]==3.4.0",
             "pdftext==0.6.3",
             "pypdfium2==4.30.0",
+            "six==1.17.0",
         ]
     ]
 
