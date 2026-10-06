@@ -27,7 +27,10 @@ def main() -> None:
         snapshot_download(
             repo_id=manifest["repository"],
             revision=manifest["revision"],
-            allow_patterns=[item["path"] for item in manifest["assets"]],
+            allow_patterns=[
+                (Path(str(manifest.get("models_root_layout", "models/"))) / item["path"]).as_posix()
+                for item in manifest["assets"]
+            ],
         )
     )
     args.destination.mkdir(parents=True, exist_ok=True)
