@@ -1,8 +1,41 @@
 from __future__ import annotations
 
 import subprocess
+from pathlib import Path
+
+import pytest
 
 import bootstrap
+
+
+def test_mineru_installs_pipeline_dependencies(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    for name in ("python", "mineru"):
+        (tmp_path / name).touch()
+    commands: list[list[str]] = []
+    monkeypatch.setattr(bootstrap, "_bin", lambda _venv, name: tmp_path / name)
+    monkeypatch.setattr(bootstrap, "_ensure_uv", lambda _python: tmp_path / "uv")
+    monkeypatch.setattr(bootstrap, "_run", lambda command: commands.append(command))
+    monkeypatch.setattr(bootstrap, "_audit_models", lambda: (True, {}))
+    monkeypatch.setattr(bootstrap, "_render_mineru_config", lambda: tmp_path / "config.json")
+    monkeypatch.setattr(bootstrap, "_phase", lambda *_args, **_kwargs: None)
+
+    bootstrap._install_mineru({}, tmp_path / "app-python", check_only=False, skip_models=True)
+
+    assert commands == [
+        [
+            str(tmp_path / "uv"),
+            "pip",
+            "install",
+            "--python",
+            str(tmp_path / "python"),
+            "mineru[pipeline]==3.4.0",
+            "pdftext==0.6.3",
+            "pypdfium2==4.30.0",
+            "six==1.17.0",
+        ]
+    ]
 
 
 def test_windows_poppler_falls_back_from_winget_to_chocolatey(monkeypatch) -> None:
@@ -41,4 +74,3 @@ def test_windows_poppler_falls_back_from_winget_to_chocolatey(monkeypatch) -> No
 
     assert [command[0] for command in commands] == ["winget", "choco"]
     assert phases["poppler"]["status"] == "complete"
-

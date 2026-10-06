@@ -30,10 +30,10 @@ jobs:
       - name: Bootstrap application and Poppler
         run: python bootstrap.py --skip-mineru --dev
       - name: Verify packaged UI and knowledge seed
-        run: .venv/bin/python -m pytest tests/test_bootstrap_installers.py tests/test_workbench_api.py tests/test_workbench_native_fallback.py
+        run: .venv/bin/python -m pytest tests/test_bootstrap_installers.py tests/test_download_mineru_models.py tests/test_workbench_api.py tests/test_workbench_native_fallback.py
         if: runner.os != 'Windows'
       - name: Verify packaged UI and knowledge seed (Windows)
-        run: .venv\Scripts\python.exe -m pytest tests/test_bootstrap_installers.py tests/test_workbench_api.py tests/test_workbench_native_fallback.py
+        run: .venv\Scripts\python.exe -m pytest tests/test_bootstrap_installers.py tests/test_download_mineru_models.py tests/test_workbench_api.py tests/test_workbench_native_fallback.py
         if: runner.os == 'Windows'
       - name: Ruff
         run: .venv/bin/ruff check .
