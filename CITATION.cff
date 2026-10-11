@@ -4,9 +4,11 @@ title: "SustainTrace: Evidence-Grounded ESG Knowledge Discovery and Controlled R
 type: software
 authors:
   - family-names: "Wang"
-    given-names: "Michael"
+    given-names: "Jinpeng"
+    orcid: "https://orcid.org/0009-0003-7324-2211"
   - family-names: "Jiang"
     given-names: "Yan"
+    orcid: "https://orcid.org/0009-0004-0250-7486"
 version: 0.1.1
 date-released: 2026-10-11
 doi: 10.5281/zenodo.23293034

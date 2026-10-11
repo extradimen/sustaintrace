@@ -1,9 +1,9 @@
 # Authors
 
-- Michael Wang
-- Yan Jiang
+- Jinpeng Wang ([ORCID: 0009-0003-7324-2211](https://orcid.org/0009-0003-7324-2211))
+- Yan Jiang ([ORCID: 0009-0004-0250-7486](https://orcid.org/0009-0004-0250-7486))
 
-Both authors approved the public SustainTrace 0.1.0 release.
+Both authors approved the public SustainTrace 0.1.1 release.
 
 ## Declarations
 
@@ -12,4 +12,3 @@ Both authors approved the public SustainTrace 0.1.0 release.
   not-for-profit sectors.
 - The authors declare no competing financial interests or personal relationships that could have
   appeared to influence the work.
-

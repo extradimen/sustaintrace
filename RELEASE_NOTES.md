@@ -23,6 +23,6 @@ metrics and checksums. See `docs/SOURCE_DISTRIBUTION_POLICY.md`.
 
 ## Authors and declarations
 
-Authors: Michael Wang and Yan Jiang. Ethics approval was not required for the evaluation described
+Authors: Jinpeng Wang and Yan Jiang. Ethics approval was not required for the evaluation described
 in the manuscript. The work received no specific funding. The authors declare no competing
 interests.

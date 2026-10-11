@@ -28,7 +28,7 @@
 
 ## Declarations
 
-- [x] CRediT roles are present for Michael Wang and Yan Jiang.
+- [x] CRediT roles are present for Jinpeng Wang and Yan Jiang.
 - [x] No external funding is declared.
 - [x] No competing interests are declared.
 - [x] Ethics statement is included with its limited rationale.
@@ -52,4 +52,3 @@
 7. `sustaintrace-e3-paired-effect-v1.png`
 8. `sustaintrace-evaluation-summary-v1.png`
 9. `COVER_LETTER_DRAFT.md` converted to the submission-system format if required
-

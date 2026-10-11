@@ -40,9 +40,8 @@ authors have approved the manuscript and agree with its submission to *SoftwareX
 
 Sincerely,
 
-Michael Wang, corresponding author  
+Jinpeng Wang, corresponding author
 [Affiliation]  
 [E-mail]
 
-On behalf of Michael Wang and Yan Jiang
-
+On behalf of Jinpeng Wang and Yan Jiang
