@@ -10,6 +10,7 @@ official Elsevier CAS single-column template.
 - `SustainTrace_Claim_Boundaries_v1.0.md` — explicit claim and interpretation boundaries
 - `OFFICIAL_TEMPLATE_RECEIPT.md` — template provenance
 - `SOFTWAREX_STRUCTURE_REVIEW.md` — structural review against SoftwareX conventions
+- `COVER_LETTER_DRAFT.md` — journal-facing cover-letter draft
+- `SUBMISSION_CHECKLIST.md` — completed requirements and remaining author metadata
 
-The compiled manuscript cites the immutable GitHub/Zenodo release once its DOI is assigned.
-
+The manuscript cites the immutable GitHub v0.1.1 release and registered Zenodo DOI.

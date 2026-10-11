@@ -32,7 +32,7 @@ Official sources:
 | *A WebExtension framework for experimentation and evaluation of webpage segmentation methods*, SoftwareX 23 (2023), 101501 | Evaluation is tied to supported software operations and reproducible metrics. | Present the human benchmark, paired gate experiment and repair-state tests as evidence for software capabilities. |
 | *Gecko: A Python library for the generation and mutation of realistic personal identification data at scale*, SoftwareX 27 (2024), 101846 | Benchmarks cover effectiveness and operational behaviour rather than implementation tests alone. | Separate knowledge fidelity, unsafe admission, safe-admission retention and execution safety. |
 | *CohortPlat*, SoftwareX 32 (2025), 102381 | Multiple illustrative workflows precede the broader impact discussion. | Demonstrate evidence inspection, cross-report analysis and controlled repair as three user workflows. |
-| *BLOCKS*, SoftwareX 36 (2026), 102999 | The abstract and impact section emphasize open code, archived releases and reproducibility. | Keep the GitHub repository, immutable artifacts and pending Zenodo DOI visible in both metadata and declarations. |
+| *BLOCKS*, SoftwareX 36 (2026), 102999 | The abstract and impact section emphasize open code, archived releases and reproducibility. | Keep the immutable GitHub release and registered Zenodo DOI visible in both metadata and declarations. |
 
 ## Chosen SustainTrace organization
 
@@ -67,4 +67,3 @@ Article links checked during the review:
 - [WebExtension framework, DOI 10.1016/j.softx.2023.101501](https://doi.org/10.1016/j.softx.2023.101501)
 - [Gecko, DOI 10.1016/j.softx.2024.101846](https://doi.org/10.1016/j.softx.2024.101846)
 - [CohortPlat, DOI 10.1016/j.softx.2025.102381](https://doi.org/10.1016/j.softx.2025.102381)
-
