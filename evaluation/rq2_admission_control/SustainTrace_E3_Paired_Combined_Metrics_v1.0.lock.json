@@ -1,0 +1,232 @@
+{
+  "schema_version": "1.0",
+  "evaluation_id": "SUSTAINTRACE-SOFTX-E3-PAIRED-COMBINED-v1",
+  "created_at": "2026-10-09T16:07:50.449332+00:00",
+  "design": "single_candidate_paired_postprocessing",
+  "inventory": {
+    "reports": 20,
+    "tasks_per_model": 120,
+    "models": 2,
+    "candidate_calls": 240,
+    "locally_derived_condition_outputs": 478
+  },
+  "input_scores": {
+    "Mistral Large 3 (675B)": {
+      "path": "data/results/softwarex_comparative_e3/mistral_v1/SustainTrace_E3_Mistral_Paired_Scores_v1.1.lock.json",
+      "sha256": "0f1bd6ad01ec2235c082d74cf19339b5fc5291793b7325add9ed7eafb499ba9a"
+    },
+    "GPT-OSS (120B)": {
+      "path": "data/results/softwarex_comparative_e3/gpt_oss_v1/SustainTrace_E3_GPTOSS_Paired_Scores_v1.1.lock.json",
+      "sha256": "1290ed4d8375420ef5aa67741730976d014b802a741c8b26eacccb9ee2cd47fd"
+    }
+  },
+  "model_results": [
+    {
+      "model": "Mistral Large 3 (675B)",
+      "tasks": 120,
+      "completed": 120,
+      "behavior_failures": 0,
+      "unsafe_ungated": {
+        "numerator": 27,
+        "denominator": 100,
+        "estimate": 0.27,
+        "report_clustered_bootstrap_95_ci": [
+          0.17,
+          0.37
+        ],
+        "bootstrap_repetitions": 10000,
+        "bootstrap_seed": 20261009
+      },
+      "unsafe_full": {
+        "numerator": 1,
+        "denominator": 100,
+        "estimate": 0.01,
+        "report_clustered_bootstrap_95_ci": [
+          0.0,
+          0.03
+        ],
+        "bootstrap_repetitions": 10000,
+        "bootstrap_seed": 20261009
+      },
+      "absolute_risk_reduction": {
+        "sum_of_paired_differences": 26,
+        "denominator": 100,
+        "estimate": 0.26,
+        "report_clustered_bootstrap_95_ci": [
+          0.17,
+          0.36
+        ],
+        "bootstrap_repetitions": 10000,
+        "bootstrap_seed": 20261009
+      },
+      "unsafe_prevented": 26,
+      "unsafe_introduced": 0,
+      "exact_mcnemar_two_sided_p": 2.9802322387695312e-08,
+      "safe_ungated": {
+        "numerator": 12,
+        "denominator": 20,
+        "estimate": 0.6,
+        "report_clustered_bootstrap_95_ci": [
+          0.4,
+          0.8
+        ],
+        "bootstrap_repetitions": 10000,
+        "bootstrap_seed": 20261009
+      },
+      "safe_full": {
+        "numerator": 10,
+        "denominator": 20,
+        "estimate": 0.5,
+        "report_clustered_bootstrap_95_ci": [
+          0.3,
+          0.7
+        ],
+        "bootstrap_repetitions": 10000,
+        "bootstrap_seed": 20261009
+      },
+      "safe_retention": {
+        "numerator": 10,
+        "denominator": 12,
+        "estimate": 0.833333,
+        "report_clustered_bootstrap_95_ci": [
+          0.583333,
+          1.0
+        ],
+        "bootstrap_repetitions": 10000,
+        "bootstrap_seed": 20261009
+      },
+      "safe_rate_loss": {
+        "sum_of_paired_differences": 2,
+        "denominator": 20,
+        "estimate": 0.1,
+        "report_clustered_bootstrap_95_ci": [
+          0.0,
+          0.25
+        ],
+        "bootstrap_repetitions": 10000,
+        "bootstrap_seed": 20261009
+      },
+      "gate_activation": {
+        "numerator": 28,
+        "denominator": 120,
+        "estimate": 0.233333,
+        "report_clustered_bootstrap_95_ci": [
+          0.141667,
+          0.333333
+        ],
+        "bootstrap_repetitions": 10000,
+        "bootstrap_seed": 20261009
+      }
+    },
+    {
+      "model": "GPT-OSS (120B)",
+      "tasks": 120,
+      "completed": 119,
+      "behavior_failures": 1,
+      "unsafe_ungated": {
+        "numerator": 24,
+        "denominator": 99,
+        "estimate": 0.242424,
+        "report_clustered_bootstrap_95_ci": [
+          0.16,
+          0.333333
+        ],
+        "bootstrap_repetitions": 10000,
+        "bootstrap_seed": 20261009
+      },
+      "unsafe_full": {
+        "numerator": 1,
+        "denominator": 99,
+        "estimate": 0.010101,
+        "report_clustered_bootstrap_95_ci": [
+          0.0,
+          0.030612
+        ],
+        "bootstrap_repetitions": 10000,
+        "bootstrap_seed": 20261009
+      },
+      "absolute_risk_reduction": {
+        "sum_of_paired_differences": 23,
+        "denominator": 99,
+        "estimate": 0.232323,
+        "report_clustered_bootstrap_95_ci": [
+          0.151515,
+          0.32
+        ],
+        "bootstrap_repetitions": 10000,
+        "bootstrap_seed": 20261009
+      },
+      "unsafe_prevented": 23,
+      "unsafe_introduced": 0,
+      "exact_mcnemar_two_sided_p": 2.384185791015625e-07,
+      "safe_ungated": {
+        "numerator": 13,
+        "denominator": 20,
+        "estimate": 0.65,
+        "report_clustered_bootstrap_95_ci": [
+          0.45,
+          0.85
+        ],
+        "bootstrap_repetitions": 10000,
+        "bootstrap_seed": 20261009
+      },
+      "safe_full": {
+        "numerator": 7,
+        "denominator": 20,
+        "estimate": 0.35,
+        "report_clustered_bootstrap_95_ci": [
+          0.15,
+          0.55
+        ],
+        "bootstrap_repetitions": 10000,
+        "bootstrap_seed": 20261009
+      },
+      "safe_retention": {
+        "numerator": 7,
+        "denominator": 13,
+        "estimate": 0.538462,
+        "report_clustered_bootstrap_95_ci": [
+          0.307692,
+          0.769231
+        ],
+        "bootstrap_repetitions": 10000,
+        "bootstrap_seed": 20261009
+      },
+      "safe_rate_loss": {
+        "sum_of_paired_differences": 6,
+        "denominator": 20,
+        "estimate": 0.3,
+        "report_clustered_bootstrap_95_ci": [
+          0.1,
+          0.5
+        ],
+        "bootstrap_repetitions": 10000,
+        "bootstrap_seed": 20261009
+      },
+      "gate_activation": {
+        "numerator": 29,
+        "denominator": 119,
+        "estimate": 0.243697,
+        "report_clustered_bootstrap_95_ci": [
+          0.166667,
+          0.325
+        ],
+        "bootstrap_repetitions": 10000,
+        "bootstrap_seed": 20261009
+      }
+    }
+  ],
+  "claim_boundary": {
+    "supported": [
+      "paired admission-control effect on identical frozen candidates",
+      "report-clustered effect-size uncertainty",
+      "exact paired discordance test"
+    ],
+    "not_supported": [
+      "external factual truth",
+      "fully unseen semantic generalization",
+      "human-validated semantic accuracy for E3"
+    ]
+  },
+  "content_sha256": "2d53091aedebee99de6deb9347889ccf232e1f2a4c81ab7146147d77eb6dc71e"
+}

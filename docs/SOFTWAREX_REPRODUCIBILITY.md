@@ -34,8 +34,13 @@ flowchart LR
 
 - Release seed: 149 Tier B facts, 34 controlled entities, 149 relation edges, and 1,032 failure
   observations.
-- Evaluation evidence: lockbox results and the 120-report expansion acceptance records under
-  `data/results/`.
+- Evaluation evidence: the three publication-facing evidence sets under `evaluation/`, aligned to
+  RQ1 human fidelity, RQ2 admission control and RQ3 controlled repair.
+- Paired admission-control evidence: the frozen E3 task pack, pseudo-gold reference, combined
+  metrics, CSV result table and SHA256 manifest under `evaluation/rq2_admission_control/`.
+- E3 statistical protocol: 10,000 report-clustered bootstrap resamples plus an exact two-sided
+  McNemar test on discordant paired admissions. Ungated and full decisions are derived locally from
+  one frozen candidate per model-task pair.
 - Suggested software figures: Overview, Knowledge Explorer, Reliability Center, Evaluation, and
   Audit Trail views.
 - Reproducible configuration: `configs/`, `schemas/`, `model_manifests/`, and `uv.lock`.
@@ -46,6 +51,8 @@ flowchart LR
 ## Pre-release blocking items
 
 - The complete three-platform MinerU workflow must pass on GitHub Actions.
-- A public release tag, source archive, and Zenodo DOI must be created on the remote repository.
-- Article statistics and figures must be regenerated from valid lockbox results under one declared
-  statistical protocol. The invalid P9 aggregate score must not be included.
+- The immutable public release tag, source archive and Zenodo DOI are recorded in the release
+  metadata once publication is complete.
+- Final article statistics and figures must be regenerated from the frozen scripts and checked
+  against their SHA256 manifests before release. The invalid P9 aggregate score must not be
+  included.

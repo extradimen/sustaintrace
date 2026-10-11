@@ -1,0 +1,106 @@
+{
+  "claim_boundary": {
+    "not_supported": [
+      "General autonomous repair effectiveness across arbitrary reports.",
+      "Automatic trusted-knowledge promotion from component success alone.",
+      "L4 repeated unseen success across heterogeneous reports for any repair component."
+    ],
+    "supported": [
+      "The controller preserved fail-closed behavior across heterogeneous component evidence.",
+      "Three component families exhibit an immutable failure-to-development-to-new-unseen-pass sequence.",
+      "Hash, invariant and preflight faults were detected before unsafe release in the frozen execution-control set."
+    ]
+  },
+  "component_validation": {
+    "by_component": [
+      {
+        "component": "CALCULATION_LINEAGE_INCOMPLETE",
+        "contract_passes": 1,
+        "distinct_reports": 1,
+        "exposed_contract_failures": 3,
+        "trials": 4,
+        "unseen_fail_closed_passes": 0,
+        "unseen_positive_passes": 1
+      },
+      {
+        "component": "FIELD_EVIDENCE_BINDING_INCOMPLETE",
+        "contract_passes": 1,
+        "distinct_reports": 1,
+        "exposed_contract_failures": 0,
+        "trials": 1,
+        "unseen_fail_closed_passes": 1,
+        "unseen_positive_passes": 0
+      },
+      {
+        "component": "NATIVE_PDF_CORROBORATION_INCOMPLETE",
+        "contract_passes": 1,
+        "distinct_reports": 2,
+        "exposed_contract_failures": 1,
+        "trials": 2,
+        "unseen_fail_closed_passes": 0,
+        "unseen_positive_passes": 1
+      },
+      {
+        "component": "PERIOD_ATTACHMENT_INCOMPLETE",
+        "contract_passes": 1,
+        "distinct_reports": 1,
+        "exposed_contract_failures": 0,
+        "trials": 1,
+        "unseen_fail_closed_passes": 1,
+        "unseen_positive_passes": 0
+      },
+      {
+        "component": "TABLE_CELL_BINDING_INCOMPLETE",
+        "contract_passes": 1,
+        "distinct_reports": 3,
+        "exposed_contract_failures": 3,
+        "trials": 4,
+        "unseen_fail_closed_passes": 0,
+        "unseen_positive_passes": 1
+      },
+      {
+        "component": "UNIT_ATTACHMENT_INCOMPLETE",
+        "contract_passes": 1,
+        "distinct_reports": 1,
+        "exposed_contract_failures": 0,
+        "trials": 1,
+        "unseen_fail_closed_passes": 1,
+        "unseen_positive_passes": 0
+      }
+    ],
+    "components": 6,
+    "components_with_failure_then_new_unseen_positive_pass": 3,
+    "contract_failures": 7,
+    "contract_passes": 6,
+    "distinct_reports": 7,
+    "progression_components": [
+      "CALCULATION_LINEAGE_INCOMPLETE",
+      "NATIVE_PDF_CORROBORATION_INCOMPLETE",
+      "TABLE_CELL_BINDING_INCOMPLETE"
+    ],
+    "trials": 13,
+    "unsafe_fact_writes": 0,
+    "unsafe_trust_promotions": 0,
+    "unseen_fail_closed_passes": 3,
+    "unseen_positive_passes": 3
+  },
+  "execution_control": {
+    "cases": 4,
+    "event_count": 13,
+    "locked_experiments_modified_or_rescored": false,
+    "parent_records": 1,
+    "regression_failures_detected": 3,
+    "regression_failures_injected": 3,
+    "safe_terminal_outcomes": 4,
+    "safe_terminal_rate": 1.0,
+    "source_artifact_modifications": 0,
+    "terminal_state_counts": {
+      "blocked_preflight": 1,
+      "promoted": 1,
+      "rolled_back": 2
+    }
+  },
+  "method": "Retrospective synthesis of immutable single-attempt unseen component validations plus a frozen repair-state-machine control set; no historical result was rerun or rescored.",
+  "record_kind": "softwarex_rq3_repair_evidence_metrics",
+  "schema_version": "1.0"
+}

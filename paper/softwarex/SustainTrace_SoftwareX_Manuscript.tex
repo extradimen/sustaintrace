@@ -1,0 +1,404 @@
+\documentclass[a4paper,fleqn]{cas-sc}
+
+\usepackage[authoryear,longnamesfirst]{natbib}
+\usepackage{tabularx}
+\usepackage{url}
+\usepackage{graphicx}
+
+% The built-in single-file preview sandbox cannot read companion images. A normal Elsevier
+% submission build resolves the copied PNG files; the sandbox renders a labelled placeholder.
+\newcommand{\submissionfigure}[2][]{%
+  \IfFileExists{#2}{\includegraphics[#1]{#2}}{%
+    \fbox{\parbox[c][0.20\textheight][c]{0.94\textwidth}{\centering
+      Companion submission figure: \texttt{\detokenize{#2}}}}}}
+
+\begin{document}
+\let\WriteBookmarks\relax
+\def\floatpagepagefraction{1}
+\def\textpagefraction{.001}
+
+\shorttitle{SustainTrace}
+\shortauthors{Wang and Jiang}
+
+\title[mode=title]{SustainTrace: Evidence-grounded ESG knowledge infrastructure with controlled evolution}
+
+\author[1]{Michael Wang}
+\cormark[1]
+\credit{Conceptualization, Methodology, Software, Validation, Investigation, Data curation, Writing -- original draft, Writing -- review and editing}
+\author[1]{Yan Jiang}
+\credit{Conceptualization, Methodology, Validation, Investigation, Writing -- review and editing}
+\affiliation[1]{organization={Affiliation details to be supplied in the journal submission system}}
+\cortext[1]{Corresponding author. E-mail address to be inserted before submission.}
+
+\begin{abstract}
+Environmental, social and governance reports contain comparable disclosures, but their values,
+units, periods, boundaries and assurance statements are distributed across prose, tables and
+footnotes. SustainTrace is a local-first infrastructure that converts these documents into atomic,
+evidence-linked knowledge and preserves extraction failures as reusable method knowledge. It
+freezes source hashes, binds claims to page and layout evidence, blocks unsupported admission and
+subjects bounded repairs to deterministic post-validation and human-gated promotion. The release
+seed contains 149 reviewed facts and 1,032 failure observations. In a 60-task, 20-report human
+benchmark, 177/220 applicable slots and 40/40 evidence coordinates were exact. On identical frozen
+candidates from two cloud models, its admission gate reduced unsafe admission from 27.0\% and
+24.2\% to 1.0\%, while exposing a model-dependent retention cost. The software supports auditable
+ESG knowledge construction and controlled evolution rather than unqualified answer generation.
+\end{abstract}
+
+\begin{highlights}
+\item Converts ESG reports into atomic facts linked to page, quotation and layout evidence.
+\item Preserves typed failures and validates bounded repairs without rewriting historical results.
+\item Reduces unsafe knowledge admission on paired candidates while quantifying over-blocking.
+\end{highlights}
+
+\begin{keywords}
+ESG reporting \sep knowledge extraction \sep provenance \sep document intelligence \sep controlled repair \sep trustworthy AI
+\end{keywords}
+
+\maketitle
+
+\begin{table*}[t]
+\caption{Code metadata for the archived public release.}
+\label{tab:metadata}
+\small
+\renewcommand{\arraystretch}{1.08}
+\begin{tabularx}{\textwidth}{@{}p{0.28\textwidth}X@{}}
+\toprule
+Current code version & 0.1.0 \\
+Permanent link to code/repository & \url{https://github.com/extradimen/sustaintrace}; \url{https://doi.org/10.5281/zenodo.23293034} \\
+Legal code license & Apache License 2.0 \\
+Code versioning system & Git \\
+Software languages and tools & Python 3.11+, TypeScript, React, MinerU, Poppler and optional Ollama-compatible model adapters \\
+Operating environments & macOS, Windows and Linux; local web browser for the workbench \\
+Installation & \texttt{python bootstrap.py}, followed by \texttt{python run.py} \\
+Documentation & Repository README and \texttt{docs/} \\
+Support & GitHub issue tracker; corresponding-author e-mail will be supplied in the journal submission system \\
+\bottomrule
+\end{tabularx}
+\end{table*}
+
+\section{Motivation and significance}\label{sec:motivation}
+
+Sustainability and annual reports are long, visually rich documents in which a single disclosure
+may depend on a multi-level table header, a unit outside the selected cell, a footnote, a reporting
+boundary and an assurance statement. A fluent answer to a question about such a document is not
+therefore equivalent to reusable knowledge. Cross-report analysis additionally requires stable
+entity identifiers and qualified predicates so that superficially similar figures are not compared
+across incompatible periods, scopes or units.
+
+Existing open-source document converters such as MinerU \citep{wang2024mineru}, Docling
+\citep{auer2024docling} and Unstructured \citep{unstructured2026} make PDFs accessible to
+downstream language models, but conversion alone does not define when a claim may enter a trusted
+knowledge layer. ESG-specific research has used language models to derive structured triples and
+graph analyses \citep{bronzini2024glitter}, while ESG-KG integrates multimodal extraction with a
+knowledge graph for compliance assessment \citep{chang2026esgkg}. SustainTrace is complementary:
+its software contribution is an auditable admission boundary around atomic ESG facts, together
+with a separate failure--repair knowledge base and immutable evidence for controlled improvement.
+It evaluates fidelity to the supplied report, not the external truth of an issuer's disclosure.
+
+The system produces two linked forms of knowledge. \emph{Report-fact knowledge} represents a
+company, predicate, value, period, unit, statistical boundary, method and assurance status together
+with source evidence. \emph{Method knowledge} represents the extraction stage, failure signature,
+diagnosis, repair strategy, execution state and post-validation outcome. This separation makes a
+failed extraction scientifically useful instead of hiding it behind an automatic retry. It also
+supports controlled evolution: preserved failures can motivate new components, but an old lockbox
+result is never retrospectively changed and a new component must pass on a newly frozen case.
+
+The intended users are sustainability analysts, researchers and software developers who need to
+inspect one company, compare qualified facts across reports, or study extraction and repair
+failure modes. The release follows research-software citation and FAIR principles
+\citep{smith2016software,barker2022fair} and exposes both human-readable interfaces and
+machine-readable artifacts.
+
+\section{Software description}\label{sec:software}
+
+\subsection{Architecture and processing contract}
+
+The pipeline has seven auditable stages: (1) freeze a source PDF and register its SHA-256;
+(2) parse it with MinerU or a native-PDF/Poppler fallback; (3) project model or rule output into
+typed atomic-fact slots; (4) bind values to pages, quotations and available table or spatial
+coordinates; (5) apply deterministic integrity, period, unit, boundary, calculation and conflict
+gates; (6) route supported candidates to human-gated promotion or archive a typed failure; and
+(7) plan and post-validate bounded repairs without modifying the parent record.
+
+Every run records inputs, configuration, hashes, status transitions and outputs. Provenance follows
+the same entity--activity--agent separation encouraged by PROV-O \citep{w3cprov2013}, with
+additional ESG-specific slots and table coordinates. The trusted fact store and failure--repair
+store are queryable together but have different admission policies. A successful parser or
+diagnostic component can satisfy only the dimension authorized by its contract; it cannot erase an
+unrelated blocker or promote knowledge by itself.
+
+\subsection{Atomic facts, evidence and trust states}
+
+The fact schema covers quantitative indicators, targets and progress, EU-taxonomy disclosures,
+reporting boundaries, accounting methods, exclusions, assurance facts, deterministic derivations,
+conflicts and explicit absence states. Evidence records identify the source hash, PDF page,
+quotation and, where available, the table, row, column, cell and bounding box. These coordinates
+allow a user to move from a normalized claim back to the exact disclosure.
+
+Semantic identity and trust are independent. A well-formed record may remain a candidate when one
+evidence dimension is unresolved. The release seed places only 149 independently reviewed Tier B
+facts in the default trusted layer; candidates, simulated references and failures remain isolated.
+Controlled entities have persistent identifiers, aliases and disambiguation rules, and relations
+retain period, unit and boundary qualifiers needed for defensible cross-report queries.
+
+\subsection{Refusal and controlled repair}
+
+SustainTrace distinguishes document absence, retrieval failure, parsing failure, semantic mismatch,
+unsupported computation and unresolved conflict. The controller maps eligible signatures to
+registered repair strategies, checks frozen inputs and executor contracts, and creates a child
+candidate with complete lineage. A failed preflight is blocked, a failed post-validation is rolled
+back, and a passing repair still requires the applicable promotion policy. Silent retry and
+post-hoc semantic completion are prohibited.
+
+\subsection{Workbench and distribution}
+
+The web workbench provides report intake, a knowledge explorer, company analysis, a reliability
+center, evaluation summaries and an immutable audit trail. The Knowledge Explorer displays a
+readable claim and structured slots beside highlighted source-page evidence. The Reliability
+Center exposes failure signatures, repair plans, policies and execution outcomes. The interface
+therefore makes both knowledge layers visible rather than presenting only a chat answer.
+
+The same source workflow targets macOS, Windows and Linux. \texttt{bootstrap.py} creates isolated
+environments, installs pinned dependencies, verifies model assets, performs a one-page PDF smoke
+test, installs the production frontend and initializes the release seed. \texttt{run.py} starts
+the API and user interface. Corporate PDFs are not redistributed; users supply or retrieve them
+under the publishers' terms.
+
+\section{Illustrative examples}\label{sec:examples}
+
+\subsection{Evidence-linked fact inspection}
+
+An analyst selects a trusted circular-materials fact. The Knowledge Explorer displays its
+subject--predicate--value representation, period and unit, then opens the source table on the
+registered PDF page with the supporting row highlighted (Fig.~\ref{fig:explorer}). This turns
+provenance checking into a direct interface operation rather than a reconstruction from a model
+answer.
+
+\begin{figure*}[t]
+  \centering
+  \submissionfigure[width=\textwidth]{sustaintrace-knowledge-explorer.png}
+  \caption{Knowledge Explorer linking a normalized ESG claim to its structured slots and highlighted PDF evidence.}
+  \label{fig:explorer}
+\end{figure*}
+
+\subsection{Qualified cross-report analysis}
+
+Equivalent indicators can be queried across entities and periods because predicates and entities
+are controlled, while units, methods, scopes and reporting boundaries remain attached. A chart or
+table can therefore exclude incompatible records instead of silently normalizing them. Explicit
+absence and refusal records show where a comparison is incomplete.
+
+\subsection{Failure-to-repair audit}
+
+The Reliability Center groups failures by signature and shows the selected strategy, owner,
+execution state and archive status (Fig.~\ref{fig:reliability}). A repair appears as a derived
+candidate only after deterministic post-validation; the parent failure and rollback evidence are
+preserved. Researchers can inspect which document structures remain difficult and whether a new
+component actually generalizes to an unseen frozen case.
+
+\begin{figure*}[t]
+  \centering
+  \submissionfigure[width=\textwidth]{sustaintrace-reliability-center.png}
+  \caption{Reliability Center showing execution states, control policies, repair strategies and archived failure records.}
+  \label{fig:reliability}
+\end{figure*}
+
+\section{Impact}\label{sec:impact}
+
+\subsection{Evaluation design}
+
+The evaluation asks three questions: whether projected knowledge and evidence match frozen PDFs
+(RQ1), whether admission controls prevent unsupported knowledge while retaining useful candidates
+(RQ2), and whether repair components and lifecycle controls preserve fail-closed, auditable
+behavior (RQ3).
+
+For RQ1 and part of RQ2, two independent annotators reviewed 60 tasks from 20 official reports:
+20 direct candidate claims, 20 complex candidates and 20 refusal tasks. An independent adjudicator
+resolved 49 task-level and 134 slot-level disagreements. Annotators saw the report and frozen
+evidence window but not prompts, simulated references, scores, repair logs, other annotations or
+the system decision. Generative-AI assistance was prohibited. The gold data record claim support,
+knowledge-base action and slot correctness. Agreement is reported with Cohen's kappa
+\citep{cohen1960coefficient}; uncertainty uses 10,000 report-clustered bootstrap repetitions.
+
+The paired E3 experiment isolates the admission gate from generation variability. It contains 120
+tasks across 20 reports and six failure strata. Mistral Large 3 and GPT-OSS each generated one
+candidate per task. Ungated and full outcomes were derived locally from that identical candidate,
+with no second call, silent retry or semantic repair. The source-derived positive and
+deterministically mutated negative cases are pseudo-gold admissibility labels, not external factual
+truth or a second human benchmark. Discordant decisions use an exact two-sided McNemar test
+\citep{mcnemar1947sampling}.
+
+RQ3 uses two non-pooled sets: 13 immutable single-attempt component trials across six component
+classes and seven reports, plus four frozen repair-state-machine cases covering promotion,
+post-validation rollback and preflight blocking. Component evidence and lifecycle safety are
+reported separately because they do not share an accuracy denominator.
+
+\subsection{Knowledge fidelity and admission control}
+
+Raw annotator agreement was 0.567 for the five-level support decision, 0.583 for knowledge-base
+action and 0.757 across candidate slots; Cohen's kappa was 0.327, 0.431 and 0.526, respectively.
+Among 40 candidate tasks, 20 were fully supported (50.0\%; report-clustered 95\% CI 37.5--65.0\%)
+and all were at least partially supported. Applicable slots were exact in 177/220 cases (80.5\%;
+95\% CI 73.6--86.7\%), and evidence coordinates were exact in 40/40. Direct claims reached 12/20
+exact support versus 8/20 for complex claims. Value was exact in 17/17 applicable cases; subject
+identity (22/39) and period binding (20/32) were the largest remaining error sources.
+
+Mistral completed all 120 E3 candidates. Among 100 reference-nonadmissible tasks, unsafe admission
+fell from 27/100 ungated to 1/100 with SustainTrace, an absolute reduction of 26.0 percentage points
+(95\% CI 17.0--36.0; 26 prevented, none introduced; exact paired $p=2.98\times10^{-8}$). GPT-OSS
+completed 119/120; the remaining contract failure was preserved without retry. Among its 99
+completed reference-nonadmissible tasks, unsafe admission fell from 24/99 (24.2\%) to 1/99 (1.0\%),
+an absolute reduction of 23.2 points (95\% CI 15.2--32.0; 23 prevented, none introduced;
+$p=2.38\times10^{-7}$).
+
+The safety gain had a retention cost. Mistral safe admission fell from 12/20 (60.0\%) to 10/20
+(50.0\%), retaining 10/12 ungated safe admissions; GPT-OSS fell from 13/20 (65.0\%) to 7/20
+(35.0\%), retaining 7/13. The paired effect is therefore consistent in direction, but
+model-specific over-blocking requires calibration. Figure~\ref{fig:paired} reports both sides of
+this trade-off.
+
+\begin{figure*}[t]
+  \centering
+  \submissionfigure[width=0.94\textwidth]{sustaintrace-e3-paired-effect-v1.png}
+  \caption{Paired admission-control effect on identical frozen candidates with report-clustered 95\% bootstrap intervals: unsafe admission decreases, while safe-admission retention reveals a model-dependent cost.}
+  \label{fig:paired}
+\end{figure*}
+
+The smaller release audit complements E3. Two of three frozen Tier B promotions were admitted
+without correction. No unsupported or unassessable claim entered the trusted layer; one partially
+supported claim required bounded correction and is reported separately. The controller was
+conservative: 13/20 refusal tasks were human-admissible false abstentions, 14/37 held candidates
+were admissible after review, and promotion coverage was 2/16 among all human-admissible candidates.
+
+\subsection{Controlled-repair evidence}
+
+The 13 component trials produced six contract passes and seven preserved failures. Three passes
+were positive unseen results for table-cell binding, native-PDF corroboration and calculation
+lineage after earlier failures had been retained and used for development. No component trial
+wrote a fact or promoted trusted knowledge. The four lifecycle cases ended in one promotion, two
+post-validation rollbacks and one preflight block. All reached a safe terminal state; all injected
+hash, invariant or preflight faults were detected, and no source or historical lockbox was altered.
+
+These results establish bounded failure-to-new-unseen-pass sequences and lifecycle safety, not
+general autonomous repair. No component has repeated unseen success across enough heterogeneous
+reports to satisfy the project's highest maturity threshold. Figure~\ref{fig:summary} preserves
+the distinct denominators for fidelity, admission and repair evidence.
+
+\begin{figure*}[t]
+  \centering
+  \submissionfigure[width=0.96\textwidth]{sustaintrace-evaluation-summary-v1.png}
+  \caption{Evaluation summary: slot fidelity, admission/abstention outcomes and immutable component history. Failed trials remain visible rather than being rescored.}
+  \label{fig:summary}
+\end{figure*}
+
+\subsection{Scientific utility and limitations}
+
+SustainTrace makes factual knowledge, provenance and method knowledge about failures available in
+one executable system. The release includes schemas, deterministic gates, the web workbench,
+machine-readable evaluation artifacts and cross-platform installation. This supports research on
+ESG extraction, evidence-based comparison and repair policies without equating fluent generation
+with trusted knowledge.
+
+The evidence also defines the limits. Full-claim exact support is 50\%, and safe admission causes
+substantial false abstention. Complex tables, subject identity and period binding remain important
+error sources. Trusted promotion remains human-gated. E3 demonstrates a paired deterministic gate
+effect on pseudo-gold cases; it does not demonstrate external factual truth or fully unseen report
+generalization. Some E3 reports occurred in the wider development corpus, and GPT-OSS shows strong
+model-specific over-blocking. Finally, the RQ3 evidence does not establish autonomous code
+self-modification or universal repair.
+
+\section{Conclusions}\label{sec:conclusions}
+
+SustainTrace is an ESG knowledge infrastructure that converts reports into evidence-linked facts,
+supports qualified cross-report analysis and accumulates auditable failure--repair knowledge for
+controlled evolution. Its contribution is not merely a new answer generator: it defines when a
+claim may enter a trusted layer, preserves refusals and failures, and validates bounded repairs
+without rewriting historical evidence. Human-adjudicated and paired evaluations support evidence
+traceability and fail-closed admission while quantifying current fidelity and retention limits.
+The open software and immutable artifacts provide a reproducible basis for improving ESG document
+intelligence without overstating factual truth or autonomous repair.
+
+\section*{Data and code availability}
+Source code is available at \url{https://github.com/extradimen/sustaintrace} under Apache-2.0 and
+is archived at \url{https://doi.org/10.5281/zenodo.23293034}.
+Derived records and evaluation artifacts are distributable with the software. Issuer PDFs remain
+under their original copyright and are not redistributed.
+
+\section*{Ethics statement}
+Ethics approval was not required. The evaluation involved professional annotation of public
+corporate reports and software outputs, collected no sensitive personal data, and involved no
+intervention with human participants.
+
+\section*{Declaration of competing interest}
+The authors declare that they have no known competing financial interests or personal
+relationships that could have appeared to influence the work reported in this paper.
+
+\section*{Acknowledgements}
+This research received no specific grant from any funding agency in the public, commercial, or
+not-for-profit sectors.
+
+\printcredits
+
+\begin{thebibliography}{99}
+
+\bibitem[Wang et al.(2024)]{wang2024mineru}
+B. Wang, C. Xu, X. Zhao, et al.,
+MinerU: An open-source solution for precise document content extraction,
+arXiv:2409.18839 (2024).
+\newblock \url{https://doi.org/10.48550/arXiv.2409.18839}.
+
+\bibitem[Auer et al.(2024)]{auer2024docling}
+C. Auer, M. Lysak, A. Nassar, et al.,
+Docling technical report,
+arXiv:2408.09869 (2024).
+\newblock \url{https://doi.org/10.48550/arXiv.2408.09869}.
+
+\bibitem[Unstructured Technologies(2026)]{unstructured2026}
+Unstructured Technologies,
+Unstructured: Open-source preprocessing tools for unstructured data (2026).
+\newblock \url{https://docs.unstructured.io/}.
+
+\bibitem[Bronzini et al.(2024)]{bronzini2024glitter}
+M. Bronzini, C. Nicolini, B. Lepri, A. Passerini, J. Staiano,
+Glitter or gold? Deriving structured insights from sustainability reports via large language models,
+EPJ Data Science 13 (2024) 41.
+\newblock \url{https://doi.org/10.1140/epjds/s13688-024-00481-2}.
+
+\bibitem[Chang et al.(2026)]{chang2026esgkg}
+L.-Y. Chang, C.-M. Chen, H.-H. Huang, M.-F. Tsai, A.-Z. Yen, C.-J. Wang,
+ESG-KG: A multi-modal knowledge graph system for automated compliance assessment,
+in: Proceedings of EACL System Demonstrations, 2026, pp. 602--608.
+\newblock \url{https://doi.org/10.18653/v1/2026.eacl-demo.43}.
+
+\bibitem[Smith et al.(2016)]{smith2016software}
+A.M. Smith, D.S. Katz, K.E. Niemeyer, FORCE11 Software Citation Working Group,
+Software citation principles,
+PeerJ Computer Science 2 (2016) e86.
+\newblock \url{https://doi.org/10.7717/peerj-cs.86}.
+
+\bibitem[Barker et al.(2022)]{barker2022fair}
+M. Barker, N.P. Chue Hong, D.S. Katz, et al.,
+Introducing the FAIR principles for research software,
+Scientific Data 9 (2022) 622.
+\newblock \url{https://doi.org/10.1038/s41597-022-01710-x}.
+
+\bibitem[W3C Provenance Working Group(2013)]{w3cprov2013}
+W3C Provenance Working Group,
+PROV-O: The PROV ontology, W3C Recommendation (2013).
+\newblock \url{https://www.w3.org/TR/prov-o/}.
+
+\bibitem[Cohen(1960)]{cohen1960coefficient}
+J. Cohen,
+A coefficient of agreement for nominal scales,
+Educational and Psychological Measurement 20 (1960) 37--46.
+\newblock \url{https://doi.org/10.1177/001316446002000104}.
+
+\bibitem[McNemar(1947)]{mcnemar1947sampling}
+Q. McNemar,
+Note on the sampling error of the difference between correlated proportions or percentages,
+Psychometrika 12 (1947) 153--157.
+\newblock \url{https://doi.org/10.1007/BF02295996}.
+
+\end{thebibliography}
+
+\end{document}

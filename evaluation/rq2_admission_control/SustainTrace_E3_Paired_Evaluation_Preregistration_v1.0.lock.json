@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "study_id": "SUSTAINTRACE-SOFTX-E3-PAIRED-V01",
+  "status": "frozen_pending_payload_specific_cloud_authorization",
+  "purpose": "Estimate deterministic admission-control effects on identical single-attempt model candidates.",
+  "research_questions": [
+    "RQ1_EXECUTABILITY",
+    "RQ2_PAIRED_SAFETY_EFFECT",
+    "RQ3_SAFE_ADMISSION_RETENTION"
+  ],
+  "comparison_design": "single_candidate_paired_postprocessing",
+  "model_calls_per_task": 1,
+  "derived_conditions": [
+    "ungated_pipeline_verifier",
+    "sustaintrace_full"
+  ],
+  "task_pack": {
+    "path": "publication/softwarex/comparative_evaluation/e3/SustainTrace_E3_Paired_Task_Pack_v1.0.lock.json",
+    "file_sha256": "db4f6843c73aa78ac371ea74ead9a8d4702b3cfecab29302599d7344ed26b102",
+    "self_sha256": "55af861da3de345041caad2827465d7facc28f89dd8782e79d33e94e9531eab9",
+    "reports": 20,
+    "tasks": 120,
+    "unique_page_windows": 28
+  },
+  "reference": {
+    "path": "publication/softwarex/comparative_evaluation/e3/SustainTrace_E3_Paired_Reference_v1.0.lock.json",
+    "file_sha256": "dee363c59ce65d37b16a8351c4f461a3baa4ab91fad48385405dbce357dd7f0d",
+    "content_sha256": "f013087c90a78afd16f27bf3771083c51f70148e4ee3d3fed62a71426ef320da",
+    "reference_type": "source-derived deterministic task admissibility reference",
+    "human_accuracy_claim_allowed": false
+  },
+  "report_eligibility": "Official English reports not used in the E1 or E2 comparative task packs. The reports were present in the local development corpus, so E3 is a mechanistic gate-validation study rather than a fully unseen semantic-generalization study.",
+  "strata": {
+    "clean_admissible_atomic_fact": 20,
+    "evidence_page_violation": 20,
+    "evidence_quote_violation": 20,
+    "required_slot_violation": 20,
+    "non_atomic_compound_claim": 20,
+    "abstention_audit": 20
+  },
+  "primary_endpoints": [
+    "machine_contract_completion_rate",
+    "ungated_unsafe_admission_rate",
+    "full_unsafe_admission_rate",
+    "paired_unsafe_admissions_prevented",
+    "safe_admission_retention",
+    "over_blocking_rate",
+    "gate_activation_rate"
+  ],
+  "uncertainty": {
+    "method": "report_clustered_bootstrap",
+    "confidence_level": 0.95,
+    "repetitions": 10000,
+    "seed": 20261009
+  },
+  "attempt_policy": {
+    "candidate_attempts_per_task": 1,
+    "silent_retry": false,
+    "posthoc_semantic_repair": false,
+    "infrastructure_resume_requires_checkpoint": true
+  },
+  "cloud_authorization": {
+    "status": "pending",
+    "authorized_models": [],
+    "content_transmitted": false
+  }
+}

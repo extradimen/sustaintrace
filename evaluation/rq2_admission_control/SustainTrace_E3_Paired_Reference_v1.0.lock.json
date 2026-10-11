@@ -1,0 +1,860 @@
+{
+  "schema_version": "1.0",
+  "reference_id": "SUSTAINTRACE-SOFTX-E3-PAIRED-REFERENCE-V01",
+  "status": "frozen_development_reference",
+  "classification": "source_derived_and_deterministic_mutation_pseudo_gold",
+  "human_adjudicated": false,
+  "eligible_claims": [
+    "paired_deterministic_gate_effect",
+    "known_mutation_detection",
+    "safe_admission_retention_against_pseudo_gold"
+  ],
+  "ineligible_claims": [
+    "independent_human_validated_semantic_accuracy",
+    "external_factual_truth"
+  ],
+  "task_pack_self_sha256": "55af861da3de345041caad2827465d7facc28f89dd8782e79d33e94e9531eab9",
+  "tasks": [
+    {
+      "task_id": "E3-01-CLEAN",
+      "report_index": 1,
+      "stratum": "clean_admissible_atomic_fact",
+      "admissible": true,
+      "reference_basis": "source_derived_atomic_candidate"
+    },
+    {
+      "task_id": "E3-01-PAGE",
+      "report_index": 1,
+      "stratum": "evidence_page_violation",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-01-QUOTE",
+      "report_index": 1,
+      "stratum": "evidence_quote_violation",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-01-SLOT",
+      "report_index": 1,
+      "stratum": "required_slot_violation",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-01-COMPOUND",
+      "report_index": 1,
+      "stratum": "non_atomic_compound_claim",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-01-ABSTAIN",
+      "report_index": 1,
+      "stratum": "abstention_audit",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-02-CLEAN",
+      "report_index": 2,
+      "stratum": "clean_admissible_atomic_fact",
+      "admissible": true,
+      "reference_basis": "source_derived_atomic_candidate"
+    },
+    {
+      "task_id": "E3-02-PAGE",
+      "report_index": 2,
+      "stratum": "evidence_page_violation",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-02-QUOTE",
+      "report_index": 2,
+      "stratum": "evidence_quote_violation",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-02-SLOT",
+      "report_index": 2,
+      "stratum": "required_slot_violation",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-02-COMPOUND",
+      "report_index": 2,
+      "stratum": "non_atomic_compound_claim",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-02-ABSTAIN",
+      "report_index": 2,
+      "stratum": "abstention_audit",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-03-CLEAN",
+      "report_index": 3,
+      "stratum": "clean_admissible_atomic_fact",
+      "admissible": true,
+      "reference_basis": "source_derived_atomic_candidate"
+    },
+    {
+      "task_id": "E3-03-PAGE",
+      "report_index": 3,
+      "stratum": "evidence_page_violation",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-03-QUOTE",
+      "report_index": 3,
+      "stratum": "evidence_quote_violation",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-03-SLOT",
+      "report_index": 3,
+      "stratum": "required_slot_violation",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-03-COMPOUND",
+      "report_index": 3,
+      "stratum": "non_atomic_compound_claim",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-03-ABSTAIN",
+      "report_index": 3,
+      "stratum": "abstention_audit",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-04-CLEAN",
+      "report_index": 4,
+      "stratum": "clean_admissible_atomic_fact",
+      "admissible": true,
+      "reference_basis": "source_derived_atomic_candidate"
+    },
+    {
+      "task_id": "E3-04-PAGE",
+      "report_index": 4,
+      "stratum": "evidence_page_violation",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-04-QUOTE",
+      "report_index": 4,
+      "stratum": "evidence_quote_violation",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-04-SLOT",
+      "report_index": 4,
+      "stratum": "required_slot_violation",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-04-COMPOUND",
+      "report_index": 4,
+      "stratum": "non_atomic_compound_claim",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-04-ABSTAIN",
+      "report_index": 4,
+      "stratum": "abstention_audit",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-05-CLEAN",
+      "report_index": 5,
+      "stratum": "clean_admissible_atomic_fact",
+      "admissible": true,
+      "reference_basis": "source_derived_atomic_candidate"
+    },
+    {
+      "task_id": "E3-05-PAGE",
+      "report_index": 5,
+      "stratum": "evidence_page_violation",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-05-QUOTE",
+      "report_index": 5,
+      "stratum": "evidence_quote_violation",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-05-SLOT",
+      "report_index": 5,
+      "stratum": "required_slot_violation",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-05-COMPOUND",
+      "report_index": 5,
+      "stratum": "non_atomic_compound_claim",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-05-ABSTAIN",
+      "report_index": 5,
+      "stratum": "abstention_audit",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-06-CLEAN",
+      "report_index": 6,
+      "stratum": "clean_admissible_atomic_fact",
+      "admissible": true,
+      "reference_basis": "source_derived_atomic_candidate"
+    },
+    {
+      "task_id": "E3-06-PAGE",
+      "report_index": 6,
+      "stratum": "evidence_page_violation",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-06-QUOTE",
+      "report_index": 6,
+      "stratum": "evidence_quote_violation",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-06-SLOT",
+      "report_index": 6,
+      "stratum": "required_slot_violation",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-06-COMPOUND",
+      "report_index": 6,
+      "stratum": "non_atomic_compound_claim",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-06-ABSTAIN",
+      "report_index": 6,
+      "stratum": "abstention_audit",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-07-CLEAN",
+      "report_index": 7,
+      "stratum": "clean_admissible_atomic_fact",
+      "admissible": true,
+      "reference_basis": "source_derived_atomic_candidate"
+    },
+    {
+      "task_id": "E3-07-PAGE",
+      "report_index": 7,
+      "stratum": "evidence_page_violation",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-07-QUOTE",
+      "report_index": 7,
+      "stratum": "evidence_quote_violation",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-07-SLOT",
+      "report_index": 7,
+      "stratum": "required_slot_violation",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-07-COMPOUND",
+      "report_index": 7,
+      "stratum": "non_atomic_compound_claim",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-07-ABSTAIN",
+      "report_index": 7,
+      "stratum": "abstention_audit",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-08-CLEAN",
+      "report_index": 8,
+      "stratum": "clean_admissible_atomic_fact",
+      "admissible": true,
+      "reference_basis": "source_derived_atomic_candidate"
+    },
+    {
+      "task_id": "E3-08-PAGE",
+      "report_index": 8,
+      "stratum": "evidence_page_violation",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-08-QUOTE",
+      "report_index": 8,
+      "stratum": "evidence_quote_violation",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-08-SLOT",
+      "report_index": 8,
+      "stratum": "required_slot_violation",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-08-COMPOUND",
+      "report_index": 8,
+      "stratum": "non_atomic_compound_claim",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-08-ABSTAIN",
+      "report_index": 8,
+      "stratum": "abstention_audit",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-09-CLEAN",
+      "report_index": 9,
+      "stratum": "clean_admissible_atomic_fact",
+      "admissible": true,
+      "reference_basis": "source_derived_atomic_candidate"
+    },
+    {
+      "task_id": "E3-09-PAGE",
+      "report_index": 9,
+      "stratum": "evidence_page_violation",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-09-QUOTE",
+      "report_index": 9,
+      "stratum": "evidence_quote_violation",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-09-SLOT",
+      "report_index": 9,
+      "stratum": "required_slot_violation",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-09-COMPOUND",
+      "report_index": 9,
+      "stratum": "non_atomic_compound_claim",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-09-ABSTAIN",
+      "report_index": 9,
+      "stratum": "abstention_audit",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-10-CLEAN",
+      "report_index": 10,
+      "stratum": "clean_admissible_atomic_fact",
+      "admissible": true,
+      "reference_basis": "source_derived_atomic_candidate"
+    },
+    {
+      "task_id": "E3-10-PAGE",
+      "report_index": 10,
+      "stratum": "evidence_page_violation",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-10-QUOTE",
+      "report_index": 10,
+      "stratum": "evidence_quote_violation",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-10-SLOT",
+      "report_index": 10,
+      "stratum": "required_slot_violation",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-10-COMPOUND",
+      "report_index": 10,
+      "stratum": "non_atomic_compound_claim",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-10-ABSTAIN",
+      "report_index": 10,
+      "stratum": "abstention_audit",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-11-CLEAN",
+      "report_index": 11,
+      "stratum": "clean_admissible_atomic_fact",
+      "admissible": true,
+      "reference_basis": "source_derived_atomic_candidate"
+    },
+    {
+      "task_id": "E3-11-PAGE",
+      "report_index": 11,
+      "stratum": "evidence_page_violation",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-11-QUOTE",
+      "report_index": 11,
+      "stratum": "evidence_quote_violation",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-11-SLOT",
+      "report_index": 11,
+      "stratum": "required_slot_violation",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-11-COMPOUND",
+      "report_index": 11,
+      "stratum": "non_atomic_compound_claim",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-11-ABSTAIN",
+      "report_index": 11,
+      "stratum": "abstention_audit",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-12-CLEAN",
+      "report_index": 12,
+      "stratum": "clean_admissible_atomic_fact",
+      "admissible": true,
+      "reference_basis": "source_derived_atomic_candidate"
+    },
+    {
+      "task_id": "E3-12-PAGE",
+      "report_index": 12,
+      "stratum": "evidence_page_violation",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-12-QUOTE",
+      "report_index": 12,
+      "stratum": "evidence_quote_violation",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-12-SLOT",
+      "report_index": 12,
+      "stratum": "required_slot_violation",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-12-COMPOUND",
+      "report_index": 12,
+      "stratum": "non_atomic_compound_claim",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-12-ABSTAIN",
+      "report_index": 12,
+      "stratum": "abstention_audit",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-13-CLEAN",
+      "report_index": 13,
+      "stratum": "clean_admissible_atomic_fact",
+      "admissible": true,
+      "reference_basis": "source_derived_atomic_candidate"
+    },
+    {
+      "task_id": "E3-13-PAGE",
+      "report_index": 13,
+      "stratum": "evidence_page_violation",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-13-QUOTE",
+      "report_index": 13,
+      "stratum": "evidence_quote_violation",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-13-SLOT",
+      "report_index": 13,
+      "stratum": "required_slot_violation",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-13-COMPOUND",
+      "report_index": 13,
+      "stratum": "non_atomic_compound_claim",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-13-ABSTAIN",
+      "report_index": 13,
+      "stratum": "abstention_audit",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-14-CLEAN",
+      "report_index": 14,
+      "stratum": "clean_admissible_atomic_fact",
+      "admissible": true,
+      "reference_basis": "source_derived_atomic_candidate"
+    },
+    {
+      "task_id": "E3-14-PAGE",
+      "report_index": 14,
+      "stratum": "evidence_page_violation",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-14-QUOTE",
+      "report_index": 14,
+      "stratum": "evidence_quote_violation",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-14-SLOT",
+      "report_index": 14,
+      "stratum": "required_slot_violation",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-14-COMPOUND",
+      "report_index": 14,
+      "stratum": "non_atomic_compound_claim",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-14-ABSTAIN",
+      "report_index": 14,
+      "stratum": "abstention_audit",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-15-CLEAN",
+      "report_index": 15,
+      "stratum": "clean_admissible_atomic_fact",
+      "admissible": true,
+      "reference_basis": "source_derived_atomic_candidate"
+    },
+    {
+      "task_id": "E3-15-PAGE",
+      "report_index": 15,
+      "stratum": "evidence_page_violation",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-15-QUOTE",
+      "report_index": 15,
+      "stratum": "evidence_quote_violation",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-15-SLOT",
+      "report_index": 15,
+      "stratum": "required_slot_violation",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-15-COMPOUND",
+      "report_index": 15,
+      "stratum": "non_atomic_compound_claim",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-15-ABSTAIN",
+      "report_index": 15,
+      "stratum": "abstention_audit",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-16-CLEAN",
+      "report_index": 16,
+      "stratum": "clean_admissible_atomic_fact",
+      "admissible": true,
+      "reference_basis": "source_derived_atomic_candidate"
+    },
+    {
+      "task_id": "E3-16-PAGE",
+      "report_index": 16,
+      "stratum": "evidence_page_violation",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-16-QUOTE",
+      "report_index": 16,
+      "stratum": "evidence_quote_violation",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-16-SLOT",
+      "report_index": 16,
+      "stratum": "required_slot_violation",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-16-COMPOUND",
+      "report_index": 16,
+      "stratum": "non_atomic_compound_claim",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-16-ABSTAIN",
+      "report_index": 16,
+      "stratum": "abstention_audit",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-17-CLEAN",
+      "report_index": 17,
+      "stratum": "clean_admissible_atomic_fact",
+      "admissible": true,
+      "reference_basis": "source_derived_atomic_candidate"
+    },
+    {
+      "task_id": "E3-17-PAGE",
+      "report_index": 17,
+      "stratum": "evidence_page_violation",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-17-QUOTE",
+      "report_index": 17,
+      "stratum": "evidence_quote_violation",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-17-SLOT",
+      "report_index": 17,
+      "stratum": "required_slot_violation",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-17-COMPOUND",
+      "report_index": 17,
+      "stratum": "non_atomic_compound_claim",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-17-ABSTAIN",
+      "report_index": 17,
+      "stratum": "abstention_audit",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-18-CLEAN",
+      "report_index": 18,
+      "stratum": "clean_admissible_atomic_fact",
+      "admissible": true,
+      "reference_basis": "source_derived_atomic_candidate"
+    },
+    {
+      "task_id": "E3-18-PAGE",
+      "report_index": 18,
+      "stratum": "evidence_page_violation",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-18-QUOTE",
+      "report_index": 18,
+      "stratum": "evidence_quote_violation",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-18-SLOT",
+      "report_index": 18,
+      "stratum": "required_slot_violation",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-18-COMPOUND",
+      "report_index": 18,
+      "stratum": "non_atomic_compound_claim",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-18-ABSTAIN",
+      "report_index": 18,
+      "stratum": "abstention_audit",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-19-CLEAN",
+      "report_index": 19,
+      "stratum": "clean_admissible_atomic_fact",
+      "admissible": true,
+      "reference_basis": "source_derived_atomic_candidate"
+    },
+    {
+      "task_id": "E3-19-PAGE",
+      "report_index": 19,
+      "stratum": "evidence_page_violation",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-19-QUOTE",
+      "report_index": 19,
+      "stratum": "evidence_quote_violation",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-19-SLOT",
+      "report_index": 19,
+      "stratum": "required_slot_violation",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-19-COMPOUND",
+      "report_index": 19,
+      "stratum": "non_atomic_compound_claim",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-19-ABSTAIN",
+      "report_index": 19,
+      "stratum": "abstention_audit",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-20-CLEAN",
+      "report_index": 20,
+      "stratum": "clean_admissible_atomic_fact",
+      "admissible": true,
+      "reference_basis": "source_derived_atomic_candidate"
+    },
+    {
+      "task_id": "E3-20-PAGE",
+      "report_index": 20,
+      "stratum": "evidence_page_violation",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-20-QUOTE",
+      "report_index": 20,
+      "stratum": "evidence_quote_violation",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-20-SLOT",
+      "report_index": 20,
+      "stratum": "required_slot_violation",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-20-COMPOUND",
+      "report_index": 20,
+      "stratum": "non_atomic_compound_claim",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    },
+    {
+      "task_id": "E3-20-ABSTAIN",
+      "report_index": 20,
+      "stratum": "abstention_audit",
+      "admissible": false,
+      "reference_basis": "deterministic_pre_registered_fault_or_nonadmissible_class"
+    }
+  ],
+  "content_sha256": "f013087c90a78afd16f27bf3771083c51f70148e4ee3d3fed62a71426ef320da"
+}

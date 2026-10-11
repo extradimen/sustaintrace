@@ -1,0 +1,4400 @@
+{
+  "schema_version": "1.0",
+  "benchmark_id": "SUSTAINTRACE-SOFTX-E3-PAIRED-V01",
+  "created_at": "2026-10-09T15:31:54.459318+00:00",
+  "status": "frozen_local_no_cloud_transmission",
+  "prompt_contract_id": "SUSTAINTRACE-SOFTX-EXECUTABLE-CONTRACT-v2.0",
+  "comparison_design": "single_candidate_paired_postprocessing",
+  "source_scope": "20 official English reports not used in E1 or E2 comparative candidate tasks; previously present in the local development corpus",
+  "sources": [
+    {
+      "report_index": 1,
+      "document_id": "KB-B001-DANONE-URD2025",
+      "company": "Danone S.A.",
+      "report_title": "Universal Registration Document 2025",
+      "local_path": "data/raw/scale_batch_001/danone-urd-2025-accessible.pdf",
+      "sha256": "f8607c4e1c499be832f952a4b10b01f9f358a5a3dbf2d90aa416124f024a06e0",
+      "selected_source_record_ids": [
+        "fact-0b53221da93e06ea367de7bf",
+        "fact-0c2648d318846a5cdc30074e"
+      ]
+    },
+    {
+      "report_index": 2,
+      "document_id": "KB-B002-MAERSK-AR2025",
+      "company": "A.P. Møller - Mærsk A/S",
+      "report_title": "Annual Report 2025",
+      "local_path": "data/raw/scale_batch_002/maersk-annual-report-2025.pdf",
+      "sha256": "26d4f6373dfbce95c7b7ed495e0f2ecc8b767d0bb927631ef2a35d8e7abbf963",
+      "selected_source_record_ids": [
+        "fact-26f5bedb99f59a3f58b36b07",
+        "fact-42bd6d7c86d7b5cea6e2e9a2"
+      ]
+    },
+    {
+      "report_index": 3,
+      "document_id": "KB-B003-INGKA-ASSR-FY25",
+      "company": "Ingka Holding B.V.",
+      "report_title": "Annual Summary and Sustainability Report FY25",
+      "local_path": "data/raw/scale_batch_003/ingka-assr-fy25.pdf",
+      "sha256": "c09017beac2a249075f6d609ef7424dfa1a4eaa50d205da75ae8b984b6dc28b8",
+      "selected_source_record_ids": [
+        "fact-79c0cdf34ba967e6e90ae002",
+        "fact-a9215905a2d8b947471ce044"
+      ]
+    },
+    {
+      "report_index": 4,
+      "document_id": "KB-B004-PHILIPS-AR2025",
+      "company": "Koninklijke Philips N.V.",
+      "report_title": "Annual Report 2025",
+      "local_path": "data/raw/scale_batch_004/philips-annual-report-2025.pdf",
+      "sha256": "ff527efe35aa923bd6b592c38549bf1f9f207ac3cef2cec6695a7b9cd93efc6d",
+      "selected_source_record_ids": [
+        "fact-0fdd861bdd87137432d047f1",
+        "fact-131da006f2cf20c453c28f53"
+      ]
+    },
+    {
+      "report_index": 5,
+      "document_id": "KB-B005-HENKEL-AR2025",
+      "company": "Henkel AG & Co. KGaA",
+      "report_title": "Annual Report 2025",
+      "local_path": "data/raw/scale_batch_005/henkel-annual-report-2025.pdf",
+      "sha256": "d807ec2c95e56082cd63a8f2b70e55ae74631d81d836ca8273aad9fcb396a725",
+      "selected_source_record_ids": [
+        "fact-2da08a5884dec5bea0c14929",
+        "fact-694fd5a245fb94896c20702d"
+      ]
+    },
+    {
+      "report_index": 6,
+      "document_id": "KB-B005-SIKA-SR2025",
+      "company": "Sika AG",
+      "report_title": "Sustainability Report 2025",
+      "local_path": "data/raw/scale_batch_005/sika-sustainability-report-2025.pdf",
+      "sha256": "67590c1857190f8ebd6e7f3827cd4f3537ac35b2aee99432883741f053668790",
+      "selected_source_record_ids": [
+        "fact-4851a40b2d3caad54be8cf35",
+        "fact-4a6b3068111eb875835aec9b"
+      ]
+    },
+    {
+      "report_index": 7,
+      "document_id": "KB-B005-UPM-AR2025",
+      "company": "UPM-Kymmene Corporation",
+      "report_title": "UPM Annual Report 2025",
+      "local_path": "data/raw/scale_batch_005/upm-annual-report-2025.pdf",
+      "sha256": "129f731f45feb99f02c71b8e6f59c200261c7b66fa8d83e36450c5bdf4ed94fc",
+      "selected_source_record_ids": [
+        "fact-08f067d7938bc82dd9fda757",
+        "fact-35958a097d41d15592071e4a"
+      ]
+    },
+    {
+      "report_index": 8,
+      "document_id": "KB-B006-VOLVO-AR2025",
+      "company": "AB Volvo",
+      "report_title": "Volvo Group Annual Report 2025",
+      "local_path": "data/raw/scale_batch_006/volvo-group-annual-report-2025.pdf",
+      "sha256": "4a2a5c41dc1331d60103e5757af0e90a6a2ea234b9753138ae0ec4db315df969",
+      "selected_source_record_ids": [
+        "fact-0655447566d09d7c43899f3a",
+        "fact-39a82930cf824b7e2b4327da"
+      ]
+    },
+    {
+      "report_index": 9,
+      "document_id": "KB-B007-ATLAS-COPCO-AR2025",
+      "company": "Atlas Copco AB",
+      "report_title": "Atlas Copco Group Annual Report 2025",
+      "local_path": "data/raw/scale_batch_007/atlas-copco-annual-report-2025.pdf",
+      "sha256": "70d076bd915ecb111549426d3bf2b585626e117e20509f42c84dd001915e4164",
+      "selected_source_record_ids": [
+        "fact-4b0e0b414f42482481b51f8a",
+        "fact-6154378df6ff6d6f2af9236b"
+      ]
+    },
+    {
+      "report_index": 10,
+      "document_id": "KB-B009-CARLSBERG-AR2025",
+      "company": "Carlsberg A/S",
+      "report_title": "Carlsberg Group Annual Report 2025",
+      "local_path": "data/raw/scale_batch_009/carlsberg-group-annual-report-2025.pdf",
+      "sha256": "35fad935180834f52819b3d4729ea30a09b75b69a6267fbec7e2ef1afadd58a4",
+      "selected_source_record_ids": [
+        "fact-195fb3fd19e6d8dc2b7082cb",
+        "fact-23f13470cad2608901916fdd"
+      ]
+    },
+    {
+      "report_index": 11,
+      "document_id": "KB-B010-PUMA-AR2025",
+      "company": "PUMA SE",
+      "report_title": "PUMA Annual Report 2025",
+      "local_path": "data/raw/scale_batch_010/puma-annual-report-2025.pdf",
+      "sha256": "d376e7dc2454df73f0750285e2cba255dc9ad05d61faa1aa5d508eb16991e13e",
+      "selected_source_record_ids": [
+        "fact-08add829a959a0d421f73b02",
+        "fact-36afda17a66a242d595b4000"
+      ]
+    },
+    {
+      "report_index": 12,
+      "document_id": "KB-B010-VEOLIA-URD2025",
+      "company": "Veolia Environnement S.A.",
+      "report_title": "Veolia Universal Registration Document 2025",
+      "local_path": "data/raw/scale_batch_010/veolia-universal-registration-document-2025.pdf",
+      "sha256": "09786eaedb20a992123e4b0f0d3c0f3484529ddf6093465c93251a0ce691232c",
+      "selected_source_record_ids": [
+        "fact-154d9691456040fc8653ee92",
+        "fact-3cf3c63aacede12c1832c0bb"
+      ]
+    },
+    {
+      "report_index": 13,
+      "document_id": "KB-B011-ENI-SS2025",
+      "company": "Eni S.p.A.",
+      "report_title": "Eni Annual Report 2025 Sustainability Statement",
+      "local_path": "data/raw/scale_batch_011/eni-annual-report-2025-sustainability.pdf",
+      "sha256": "999dd84dcfbd0baad741187e0006b22e1d86e6ddf0058e20f2cef7eaede1128c",
+      "selected_source_record_ids": [
+        "fact-28d528eadf640e532aba67cb",
+        "fact-b316b271b9a60ee23b332bd9"
+      ]
+    },
+    {
+      "report_index": 14,
+      "document_id": "KB-B012-STORA-ENSO-AR2025",
+      "company": "Stora Enso Oyj",
+      "report_title": "Stora Enso Annual Report 2025",
+      "local_path": "data/raw/scale_batch_012/stora-enso-annual-report-2025.pdf",
+      "sha256": "00377e8fb8a6b2fc866d38a7f68e6cccd8099c9fe5f79be4da96d7f46bb4bbf0",
+      "selected_source_record_ids": [
+        "fact-003f41c694326d4855d210d7",
+        "fact-9a328f6fb10792ea1f789497"
+      ]
+    },
+    {
+      "report_index": 15,
+      "document_id": "KB-B013-WARTSILA-AR2025",
+      "company": "Wärtsilä Oyj Abp",
+      "report_title": "Wärtsilä Annual Report 2025",
+      "local_path": "data/raw/scale_batch_013/wartsila-annual-report-2025.pdf",
+      "sha256": "55737cdd163cb2c7077ef46afd42184debfd9a3116cb02b1f63ba5e53f20c3cb",
+      "selected_source_record_ids": [
+        "fact-0ee1084737cd7da770afa776",
+        "fact-12b472bcdc555c98ae983e7a"
+      ]
+    },
+    {
+      "report_index": 16,
+      "document_id": "KB-B014-ESSITY-AR2025",
+      "company": "Essity Aktiebolag (publ)",
+      "report_title": "Essity Annual Report 2025",
+      "local_path": "data/raw/scale_batch_014/essity-annual-report-2025.pdf",
+      "sha256": "95bb4e9968ebfe8350ad8bc6055f3fe5d204c2c53a23669cede94831559e63b7",
+      "selected_source_record_ids": [
+        "fact-05ded5c68f2cbe82c0d6ad19",
+        "fact-1a9f7031feeda8ea1d27d5bd"
+      ]
+    },
+    {
+      "report_index": 17,
+      "document_id": "KB-B015-ARLA-AR2025",
+      "company": "Arla Foods amba",
+      "report_title": "Arla Foods Annual Report 2025",
+      "local_path": "data/raw/scale_batch_015/arla-annual-report-2025.pdf",
+      "sha256": "8c40632f70765f428b16534ca7403da8b8a47c2e81afecb71e5f9ec129ff059c",
+      "selected_source_record_ids": [
+        "fact-0b1ca7374489c9eaa4d31362",
+        "fact-114f2eb45d6efc88b95cc215"
+      ]
+    },
+    {
+      "report_index": 18,
+      "document_id": "KB-B015-FRESENIUS-AR2025",
+      "company": "Fresenius SE & Co. KGaA",
+      "report_title": "Fresenius Annual Report 2025",
+      "local_path": "data/raw/scale_batch_015/fresenius-annual-report-2025.pdf",
+      "sha256": "27c4589b96d7ff22a0acc6794b46f638c2ad76f016ba5a4675742f3110441c77",
+      "selected_source_record_ids": [
+        "fact-02d3aaf47f4a3c53f80d856d",
+        "fact-1593af08f447cf7b82c212bd"
+      ]
+    },
+    {
+      "report_index": 19,
+      "document_id": "KB-B015-UCB-IAR2025",
+      "company": "UCB SA/NV",
+      "report_title": "UCB Integrated Annual Report 2025",
+      "local_path": "data/raw/scale_batch_015/ucb-integrated-annual-report-2025.pdf",
+      "sha256": "2e2ff4cf9ee3ebced39312897fdd439139c767ac5d81d151257502dd428e154a",
+      "selected_source_record_ids": [
+        "fact-1c386b4f643f5b366efd989f",
+        "fact-202d6a563bef7b5ee9be6712"
+      ]
+    },
+    {
+      "report_index": 20,
+      "document_id": "KB-B016-NOVONESIS-AR2025",
+      "company": "Novonesis (Novozymes A/S)",
+      "report_title": "Novonesis Annual Report 2025",
+      "local_path": "data/raw/scale_batch_016/novonesis-annual-report-2025.pdf",
+      "sha256": "dd3bf837735c9cd24760e717099568a0fe012707cb97536ca199e5e2ea98a2dc",
+      "selected_source_record_ids": [
+        "fact-07abc603325ad20131a9e898",
+        "fact-7bdc7e0f43e0729ad7985fbf"
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "task_id": "E3-01-CLEAN",
+      "report_index": 1,
+      "document_id": "KB-B001-DANONE-URD2025",
+      "company": "Danone S.A.",
+      "report_title": "Universal Registration Document 2025",
+      "local_path": "data/raw/scale_batch_001/danone-urd-2025-accessible.pdf",
+      "document_sha256": "f8607c4e1c499be832f952a4b10b01f9f358a5a3dbf2d90aa416124f024a06e0",
+      "pdf_pages": [
+        272
+      ],
+      "stratum": "clean_admissible_atomic_fact",
+      "candidate_predicate": "employees_who_received_health_coverage_fully_meeting_the_criteria_defined_by_dan",
+      "candidate_claim": "Danone S.A. reported Employees who received health coverage fully meeting the criteria defined by Dan'Cares of 97.9 percent for 2024.",
+      "candidate_evidence": {
+        "pdf_page": 272,
+        "quote": "97.9%"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 1,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Unit",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-0b53221da93e06ea367de7bf"
+      ]
+    },
+    {
+      "task_id": "E3-01-PAGE",
+      "report_index": 1,
+      "document_id": "KB-B001-DANONE-URD2025",
+      "company": "Danone S.A.",
+      "report_title": "Universal Registration Document 2025",
+      "local_path": "data/raw/scale_batch_001/danone-urd-2025-accessible.pdf",
+      "document_sha256": "f8607c4e1c499be832f952a4b10b01f9f358a5a3dbf2d90aa416124f024a06e0",
+      "pdf_pages": [
+        272
+      ],
+      "stratum": "evidence_page_violation",
+      "candidate_predicate": "employees_who_received_health_coverage_fully_meeting_the_criteria_defined_by_dan",
+      "candidate_claim": "Danone S.A. reported Employees who received health coverage fully meeting the criteria defined by Dan'Cares of 97.9 percent for 2024.",
+      "candidate_evidence": {
+        "pdf_page": 10272,
+        "quote": "97.9%"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 1,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Unit",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-0b53221da93e06ea367de7bf"
+      ]
+    },
+    {
+      "task_id": "E3-01-QUOTE",
+      "report_index": 1,
+      "document_id": "KB-B001-DANONE-URD2025",
+      "company": "Danone S.A.",
+      "report_title": "Universal Registration Document 2025",
+      "local_path": "data/raw/scale_batch_001/danone-urd-2025-accessible.pdf",
+      "document_sha256": "f8607c4e1c499be832f952a4b10b01f9f358a5a3dbf2d90aa416124f024a06e0",
+      "pdf_pages": [
+        272
+      ],
+      "stratum": "evidence_quote_violation",
+      "candidate_predicate": "employees_who_received_health_coverage_fully_meeting_the_criteria_defined_by_dan",
+      "candidate_claim": "Danone S.A. reported Employees who received health coverage fully meeting the criteria defined by Dan'Cares of 97.9 percent for 2024.",
+      "candidate_evidence": {
+        "pdf_page": 272,
+        "quote": "SUSTAINTRACE_E3_UNGROUNDED_01_QUOTE"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 1,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Unit",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-0b53221da93e06ea367de7bf"
+      ]
+    },
+    {
+      "task_id": "E3-01-SLOT",
+      "report_index": 1,
+      "document_id": "KB-B001-DANONE-URD2025",
+      "company": "Danone S.A.",
+      "report_title": "Universal Registration Document 2025",
+      "local_path": "data/raw/scale_batch_001/danone-urd-2025-accessible.pdf",
+      "document_sha256": "f8607c4e1c499be832f952a4b10b01f9f358a5a3dbf2d90aa416124f024a06e0",
+      "pdf_pages": [
+        272
+      ],
+      "stratum": "required_slot_violation",
+      "candidate_predicate": "employees_who_received_health_coverage_fully_meeting_the_criteria_defined_by_dan",
+      "candidate_claim": "Danone S.A. reported Employees who received health coverage fully meeting the criteria defined by Dan'Cares of 97.9.",
+      "candidate_evidence": {
+        "pdf_page": 272,
+        "quote": "97.9%"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 1,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Unit",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-0b53221da93e06ea367de7bf"
+      ]
+    },
+    {
+      "task_id": "E3-01-COMPOUND",
+      "report_index": 1,
+      "document_id": "KB-B001-DANONE-URD2025",
+      "company": "Danone S.A.",
+      "report_title": "Universal Registration Document 2025",
+      "local_path": "data/raw/scale_batch_001/danone-urd-2025-accessible.pdf",
+      "document_sha256": "f8607c4e1c499be832f952a4b10b01f9f358a5a3dbf2d90aa416124f024a06e0",
+      "pdf_pages": [
+        240,
+        272
+      ],
+      "stratum": "non_atomic_compound_claim",
+      "candidate_predicate": "compound_esg_claim",
+      "candidate_claim": "Danone S.A. reported Employees who received health coverage fully meeting the criteria defined by Dan'Cares of 97.9 percent for 2024. Additionally, Danone S.A. reported Water related to the production process (in thousands of m³) of 33184 thousand_m3 for 2025.",
+      "candidate_evidence": {
+        "pdf_page": 272,
+        "quote": "97.9%"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 2,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Unit",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-0b53221da93e06ea367de7bf",
+        "fact-0c2648d318846a5cdc30074e"
+      ]
+    },
+    {
+      "task_id": "E3-01-ABSTAIN",
+      "report_index": 1,
+      "document_id": "KB-B001-DANONE-URD2025",
+      "company": "Danone S.A.",
+      "report_title": "Universal Registration Document 2025",
+      "local_path": "data/raw/scale_batch_001/danone-urd-2025-accessible.pdf",
+      "document_sha256": "f8607c4e1c499be832f952a4b10b01f9f358a5a3dbf2d90aa416124f024a06e0",
+      "pdf_pages": [
+        272
+      ],
+      "stratum": "abstention_audit",
+      "candidate_predicate": "no_promotable_atomic_fact",
+      "candidate_claim": "No trusted atomic fact should be admitted from this permitted page without a complete claim.",
+      "candidate_evidence": {
+        "pdf_page": 272,
+        "quote": "97.9%"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": false,
+        "candidate_component_count": 0,
+        "required_slots": []
+      },
+      "source_record_ids": [
+        "fact-0b53221da93e06ea367de7bf"
+      ]
+    },
+    {
+      "task_id": "E3-02-CLEAN",
+      "report_index": 2,
+      "document_id": "KB-B002-MAERSK-AR2025",
+      "company": "A.P. Møller - Mærsk A/S",
+      "report_title": "Annual Report 2025",
+      "local_path": "data/raw/scale_batch_002/maersk-annual-report-2025.pdf",
+      "document_sha256": "26d4f6373dfbce95c7b7ed495e0f2ecc8b767d0bb927631ef2a35d8e7abbf963",
+      "pdf_pages": [
+        78
+      ],
+      "stratum": "clean_admissible_atomic_fact",
+      "candidate_predicate": "share_of_renewable_energy_consumption",
+      "candidate_claim": "A.P. Møller - Mærsk A/S reported Share of renewable energy consumption of 3 percent for 2024.",
+      "candidate_evidence": {
+        "pdf_page": 78,
+        "quote": "3"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 1,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Unit",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-26f5bedb99f59a3f58b36b07"
+      ]
+    },
+    {
+      "task_id": "E3-02-PAGE",
+      "report_index": 2,
+      "document_id": "KB-B002-MAERSK-AR2025",
+      "company": "A.P. Møller - Mærsk A/S",
+      "report_title": "Annual Report 2025",
+      "local_path": "data/raw/scale_batch_002/maersk-annual-report-2025.pdf",
+      "document_sha256": "26d4f6373dfbce95c7b7ed495e0f2ecc8b767d0bb927631ef2a35d8e7abbf963",
+      "pdf_pages": [
+        78
+      ],
+      "stratum": "evidence_page_violation",
+      "candidate_predicate": "share_of_renewable_energy_consumption",
+      "candidate_claim": "A.P. Møller - Mærsk A/S reported Share of renewable energy consumption of 3 percent for 2024.",
+      "candidate_evidence": {
+        "pdf_page": 10078,
+        "quote": "3"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 1,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Unit",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-26f5bedb99f59a3f58b36b07"
+      ]
+    },
+    {
+      "task_id": "E3-02-QUOTE",
+      "report_index": 2,
+      "document_id": "KB-B002-MAERSK-AR2025",
+      "company": "A.P. Møller - Mærsk A/S",
+      "report_title": "Annual Report 2025",
+      "local_path": "data/raw/scale_batch_002/maersk-annual-report-2025.pdf",
+      "document_sha256": "26d4f6373dfbce95c7b7ed495e0f2ecc8b767d0bb927631ef2a35d8e7abbf963",
+      "pdf_pages": [
+        78
+      ],
+      "stratum": "evidence_quote_violation",
+      "candidate_predicate": "share_of_renewable_energy_consumption",
+      "candidate_claim": "A.P. Møller - Mærsk A/S reported Share of renewable energy consumption of 3 percent for 2024.",
+      "candidate_evidence": {
+        "pdf_page": 78,
+        "quote": "SUSTAINTRACE_E3_UNGROUNDED_02_QUOTE"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 1,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Unit",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-26f5bedb99f59a3f58b36b07"
+      ]
+    },
+    {
+      "task_id": "E3-02-SLOT",
+      "report_index": 2,
+      "document_id": "KB-B002-MAERSK-AR2025",
+      "company": "A.P. Møller - Mærsk A/S",
+      "report_title": "Annual Report 2025",
+      "local_path": "data/raw/scale_batch_002/maersk-annual-report-2025.pdf",
+      "document_sha256": "26d4f6373dfbce95c7b7ed495e0f2ecc8b767d0bb927631ef2a35d8e7abbf963",
+      "pdf_pages": [
+        78
+      ],
+      "stratum": "required_slot_violation",
+      "candidate_predicate": "share_of_renewable_energy_consumption",
+      "candidate_claim": "A.P. Møller - Mærsk A/S reported Share of renewable energy consumption of 3.",
+      "candidate_evidence": {
+        "pdf_page": 78,
+        "quote": "3"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 1,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Unit",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-26f5bedb99f59a3f58b36b07"
+      ]
+    },
+    {
+      "task_id": "E3-02-COMPOUND",
+      "report_index": 2,
+      "document_id": "KB-B002-MAERSK-AR2025",
+      "company": "A.P. Møller - Mærsk A/S",
+      "report_title": "Annual Report 2025",
+      "local_path": "data/raw/scale_batch_002/maersk-annual-report-2025.pdf",
+      "document_sha256": "26d4f6373dfbce95c7b7ed495e0f2ecc8b767d0bb927631ef2a35d8e7abbf963",
+      "pdf_pages": [
+        78
+      ],
+      "stratum": "non_atomic_compound_claim",
+      "candidate_predicate": "compound_esg_claim",
+      "candidate_claim": "A.P. Møller - Mærsk A/S reported Share of renewable energy consumption of 3 percent for 2024. Additionally, A.P. Møller - Mærsk A/S reported Share of fossil fuel sources in energy consumption of 98 percent for 2022.",
+      "candidate_evidence": {
+        "pdf_page": 78,
+        "quote": "3"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 2,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Unit",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-26f5bedb99f59a3f58b36b07",
+        "fact-42bd6d7c86d7b5cea6e2e9a2"
+      ]
+    },
+    {
+      "task_id": "E3-02-ABSTAIN",
+      "report_index": 2,
+      "document_id": "KB-B002-MAERSK-AR2025",
+      "company": "A.P. Møller - Mærsk A/S",
+      "report_title": "Annual Report 2025",
+      "local_path": "data/raw/scale_batch_002/maersk-annual-report-2025.pdf",
+      "document_sha256": "26d4f6373dfbce95c7b7ed495e0f2ecc8b767d0bb927631ef2a35d8e7abbf963",
+      "pdf_pages": [
+        78
+      ],
+      "stratum": "abstention_audit",
+      "candidate_predicate": "no_promotable_atomic_fact",
+      "candidate_claim": "No trusted atomic fact should be admitted from this permitted page without a complete claim.",
+      "candidate_evidence": {
+        "pdf_page": 78,
+        "quote": "3"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": false,
+        "candidate_component_count": 0,
+        "required_slots": []
+      },
+      "source_record_ids": [
+        "fact-26f5bedb99f59a3f58b36b07"
+      ]
+    },
+    {
+      "task_id": "E3-03-CLEAN",
+      "report_index": 3,
+      "document_id": "KB-B003-INGKA-ASSR-FY25",
+      "company": "Ingka Holding B.V.",
+      "report_title": "Annual Summary and Sustainability Report FY25",
+      "local_path": "data/raw/scale_batch_003/ingka-assr-fy25.pdf",
+      "document_sha256": "c09017beac2a249075f6d609ef7424dfa1a4eaa50d205da75ae8b984b6dc28b8",
+      "pdf_pages": [
+        83
+      ],
+      "stratum": "clean_admissible_atomic_fact",
+      "candidate_predicate": "fatalities_as_a_result_of_work_related_injuries_and_work_related_ill_health_othe",
+      "candidate_claim": "Ingka Holding B.V. reported Fatalities as a result of work-related injuries and work-related ill health: other workers on our sites of 1 for 2024.",
+      "candidate_evidence": {
+        "pdf_page": 83,
+        "quote": "1"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 1,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-79c0cdf34ba967e6e90ae002"
+      ]
+    },
+    {
+      "task_id": "E3-03-PAGE",
+      "report_index": 3,
+      "document_id": "KB-B003-INGKA-ASSR-FY25",
+      "company": "Ingka Holding B.V.",
+      "report_title": "Annual Summary and Sustainability Report FY25",
+      "local_path": "data/raw/scale_batch_003/ingka-assr-fy25.pdf",
+      "document_sha256": "c09017beac2a249075f6d609ef7424dfa1a4eaa50d205da75ae8b984b6dc28b8",
+      "pdf_pages": [
+        83
+      ],
+      "stratum": "evidence_page_violation",
+      "candidate_predicate": "fatalities_as_a_result_of_work_related_injuries_and_work_related_ill_health_othe",
+      "candidate_claim": "Ingka Holding B.V. reported Fatalities as a result of work-related injuries and work-related ill health: other workers on our sites of 1 for 2024.",
+      "candidate_evidence": {
+        "pdf_page": 10083,
+        "quote": "1"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 1,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-79c0cdf34ba967e6e90ae002"
+      ]
+    },
+    {
+      "task_id": "E3-03-QUOTE",
+      "report_index": 3,
+      "document_id": "KB-B003-INGKA-ASSR-FY25",
+      "company": "Ingka Holding B.V.",
+      "report_title": "Annual Summary and Sustainability Report FY25",
+      "local_path": "data/raw/scale_batch_003/ingka-assr-fy25.pdf",
+      "document_sha256": "c09017beac2a249075f6d609ef7424dfa1a4eaa50d205da75ae8b984b6dc28b8",
+      "pdf_pages": [
+        83
+      ],
+      "stratum": "evidence_quote_violation",
+      "candidate_predicate": "fatalities_as_a_result_of_work_related_injuries_and_work_related_ill_health_othe",
+      "candidate_claim": "Ingka Holding B.V. reported Fatalities as a result of work-related injuries and work-related ill health: other workers on our sites of 1 for 2024.",
+      "candidate_evidence": {
+        "pdf_page": 83,
+        "quote": "SUSTAINTRACE_E3_UNGROUNDED_03_QUOTE"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 1,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-79c0cdf34ba967e6e90ae002"
+      ]
+    },
+    {
+      "task_id": "E3-03-SLOT",
+      "report_index": 3,
+      "document_id": "KB-B003-INGKA-ASSR-FY25",
+      "company": "Ingka Holding B.V.",
+      "report_title": "Annual Summary and Sustainability Report FY25",
+      "local_path": "data/raw/scale_batch_003/ingka-assr-fy25.pdf",
+      "document_sha256": "c09017beac2a249075f6d609ef7424dfa1a4eaa50d205da75ae8b984b6dc28b8",
+      "pdf_pages": [
+        83
+      ],
+      "stratum": "required_slot_violation",
+      "candidate_predicate": "fatalities_as_a_result_of_work_related_injuries_and_work_related_ill_health_othe",
+      "candidate_claim": "Ingka Holding B.V. reported Fatalities as a result of work-related injuries and work-related ill health: other workers on our sites of 1.",
+      "candidate_evidence": {
+        "pdf_page": 83,
+        "quote": "1"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 1,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Boundary/method",
+          "Unit"
+        ]
+      },
+      "source_record_ids": [
+        "fact-79c0cdf34ba967e6e90ae002"
+      ]
+    },
+    {
+      "task_id": "E3-03-COMPOUND",
+      "report_index": 3,
+      "document_id": "KB-B003-INGKA-ASSR-FY25",
+      "company": "Ingka Holding B.V.",
+      "report_title": "Annual Summary and Sustainability Report FY25",
+      "local_path": "data/raw/scale_batch_003/ingka-assr-fy25.pdf",
+      "document_sha256": "c09017beac2a249075f6d609ef7424dfa1a4eaa50d205da75ae8b984b6dc28b8",
+      "pdf_pages": [
+        83
+      ],
+      "stratum": "non_atomic_compound_claim",
+      "candidate_predicate": "compound_esg_claim",
+      "candidate_claim": "Ingka Holding B.V. reported Fatalities as a result of work-related injuries and work-related ill health: other workers on our sites of 1 for 2024. Additionally, Ingka Holding B.V. reported Fatalities as a result of work-related injuries and work-related ill health: own workforce of 0 for 2025.",
+      "candidate_evidence": {
+        "pdf_page": 83,
+        "quote": "1"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 2,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-79c0cdf34ba967e6e90ae002",
+        "fact-a9215905a2d8b947471ce044"
+      ]
+    },
+    {
+      "task_id": "E3-03-ABSTAIN",
+      "report_index": 3,
+      "document_id": "KB-B003-INGKA-ASSR-FY25",
+      "company": "Ingka Holding B.V.",
+      "report_title": "Annual Summary and Sustainability Report FY25",
+      "local_path": "data/raw/scale_batch_003/ingka-assr-fy25.pdf",
+      "document_sha256": "c09017beac2a249075f6d609ef7424dfa1a4eaa50d205da75ae8b984b6dc28b8",
+      "pdf_pages": [
+        83
+      ],
+      "stratum": "abstention_audit",
+      "candidate_predicate": "no_promotable_atomic_fact",
+      "candidate_claim": "No trusted atomic fact should be admitted from this permitted page without a complete claim.",
+      "candidate_evidence": {
+        "pdf_page": 83,
+        "quote": "1"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": false,
+        "candidate_component_count": 0,
+        "required_slots": []
+      },
+      "source_record_ids": [
+        "fact-79c0cdf34ba967e6e90ae002"
+      ]
+    },
+    {
+      "task_id": "E3-04-CLEAN",
+      "report_index": 4,
+      "document_id": "KB-B004-PHILIPS-AR2025",
+      "company": "Koninklijke Philips N.V.",
+      "report_title": "Annual Report 2025",
+      "local_path": "data/raw/scale_batch_004/philips-annual-report-2025.pdf",
+      "document_sha256": "ff527efe35aa923bd6b592c38549bf1f9f207ac3cef2cec6695a7b9cd93efc6d",
+      "pdf_pages": [
+        210
+      ],
+      "stratum": "clean_admissible_atomic_fact",
+      "candidate_predicate": "circular_materials_management",
+      "candidate_claim": "Koninklijke Philips N.V. reported Circular Materials Management of 90 percent for 2020.",
+      "candidate_evidence": {
+        "pdf_page": 210,
+        "quote": "90%"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 1,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Unit",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-0fdd861bdd87137432d047f1"
+      ]
+    },
+    {
+      "task_id": "E3-04-PAGE",
+      "report_index": 4,
+      "document_id": "KB-B004-PHILIPS-AR2025",
+      "company": "Koninklijke Philips N.V.",
+      "report_title": "Annual Report 2025",
+      "local_path": "data/raw/scale_batch_004/philips-annual-report-2025.pdf",
+      "document_sha256": "ff527efe35aa923bd6b592c38549bf1f9f207ac3cef2cec6695a7b9cd93efc6d",
+      "pdf_pages": [
+        210
+      ],
+      "stratum": "evidence_page_violation",
+      "candidate_predicate": "circular_materials_management",
+      "candidate_claim": "Koninklijke Philips N.V. reported Circular Materials Management of 90 percent for 2020.",
+      "candidate_evidence": {
+        "pdf_page": 10210,
+        "quote": "90%"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 1,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Unit",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-0fdd861bdd87137432d047f1"
+      ]
+    },
+    {
+      "task_id": "E3-04-QUOTE",
+      "report_index": 4,
+      "document_id": "KB-B004-PHILIPS-AR2025",
+      "company": "Koninklijke Philips N.V.",
+      "report_title": "Annual Report 2025",
+      "local_path": "data/raw/scale_batch_004/philips-annual-report-2025.pdf",
+      "document_sha256": "ff527efe35aa923bd6b592c38549bf1f9f207ac3cef2cec6695a7b9cd93efc6d",
+      "pdf_pages": [
+        210
+      ],
+      "stratum": "evidence_quote_violation",
+      "candidate_predicate": "circular_materials_management",
+      "candidate_claim": "Koninklijke Philips N.V. reported Circular Materials Management of 90 percent for 2020.",
+      "candidate_evidence": {
+        "pdf_page": 210,
+        "quote": "SUSTAINTRACE_E3_UNGROUNDED_04_QUOTE"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 1,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Unit",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-0fdd861bdd87137432d047f1"
+      ]
+    },
+    {
+      "task_id": "E3-04-SLOT",
+      "report_index": 4,
+      "document_id": "KB-B004-PHILIPS-AR2025",
+      "company": "Koninklijke Philips N.V.",
+      "report_title": "Annual Report 2025",
+      "local_path": "data/raw/scale_batch_004/philips-annual-report-2025.pdf",
+      "document_sha256": "ff527efe35aa923bd6b592c38549bf1f9f207ac3cef2cec6695a7b9cd93efc6d",
+      "pdf_pages": [
+        210
+      ],
+      "stratum": "required_slot_violation",
+      "candidate_predicate": "circular_materials_management",
+      "candidate_claim": "Koninklijke Philips N.V. reported Circular Materials Management of 90.",
+      "candidate_evidence": {
+        "pdf_page": 210,
+        "quote": "90%"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 1,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Unit",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-0fdd861bdd87137432d047f1"
+      ]
+    },
+    {
+      "task_id": "E3-04-COMPOUND",
+      "report_index": 4,
+      "document_id": "KB-B004-PHILIPS-AR2025",
+      "company": "Koninklijke Philips N.V.",
+      "report_title": "Annual Report 2025",
+      "local_path": "data/raw/scale_batch_004/philips-annual-report-2025.pdf",
+      "document_sha256": "ff527efe35aa923bd6b592c38549bf1f9f207ac3cef2cec6695a7b9cd93efc6d",
+      "pdf_pages": [
+        210,
+        233
+      ],
+      "stratum": "non_atomic_compound_claim",
+      "candidate_predicate": "compound_esg_claim",
+      "candidate_claim": "Koninklijke Philips N.V. reported Circular Materials Management of 90 percent for 2020. Additionally, Koninklijke Philips N.V. reported % of suppliers committed to Science Based Targets of 48 percent for 2024.",
+      "candidate_evidence": {
+        "pdf_page": 210,
+        "quote": "90%"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 2,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Unit",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-0fdd861bdd87137432d047f1",
+        "fact-131da006f2cf20c453c28f53"
+      ]
+    },
+    {
+      "task_id": "E3-04-ABSTAIN",
+      "report_index": 4,
+      "document_id": "KB-B004-PHILIPS-AR2025",
+      "company": "Koninklijke Philips N.V.",
+      "report_title": "Annual Report 2025",
+      "local_path": "data/raw/scale_batch_004/philips-annual-report-2025.pdf",
+      "document_sha256": "ff527efe35aa923bd6b592c38549bf1f9f207ac3cef2cec6695a7b9cd93efc6d",
+      "pdf_pages": [
+        210
+      ],
+      "stratum": "abstention_audit",
+      "candidate_predicate": "no_promotable_atomic_fact",
+      "candidate_claim": "No trusted atomic fact should be admitted from this permitted page without a complete claim.",
+      "candidate_evidence": {
+        "pdf_page": 210,
+        "quote": "90%"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": false,
+        "candidate_component_count": 0,
+        "required_slots": []
+      },
+      "source_record_ids": [
+        "fact-0fdd861bdd87137432d047f1"
+      ]
+    },
+    {
+      "task_id": "E3-05-CLEAN",
+      "report_index": 5,
+      "document_id": "KB-B005-HENKEL-AR2025",
+      "company": "Henkel AG & Co. KGaA",
+      "report_title": "Annual Report 2025",
+      "local_path": "data/raw/scale_batch_005/henkel-annual-report-2025.pdf",
+      "document_sha256": "d807ec2c95e56082cd63a8f2b70e55ae74631d81d836ca8273aad9fcb396a725",
+      "pdf_pages": [
+        285
+      ],
+      "stratum": "clean_admissible_atomic_fact",
+      "candidate_predicate": "turnover_rate",
+      "candidate_claim": "Henkel AG & Co. KGaA reported Turnover rate of 13.1 percent for 2024.",
+      "candidate_evidence": {
+        "pdf_page": 285,
+        "quote": "13.1"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 1,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Unit",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-2da08a5884dec5bea0c14929"
+      ]
+    },
+    {
+      "task_id": "E3-05-PAGE",
+      "report_index": 5,
+      "document_id": "KB-B005-HENKEL-AR2025",
+      "company": "Henkel AG & Co. KGaA",
+      "report_title": "Annual Report 2025",
+      "local_path": "data/raw/scale_batch_005/henkel-annual-report-2025.pdf",
+      "document_sha256": "d807ec2c95e56082cd63a8f2b70e55ae74631d81d836ca8273aad9fcb396a725",
+      "pdf_pages": [
+        285
+      ],
+      "stratum": "evidence_page_violation",
+      "candidate_predicate": "turnover_rate",
+      "candidate_claim": "Henkel AG & Co. KGaA reported Turnover rate of 13.1 percent for 2024.",
+      "candidate_evidence": {
+        "pdf_page": 10285,
+        "quote": "13.1"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 1,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Unit",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-2da08a5884dec5bea0c14929"
+      ]
+    },
+    {
+      "task_id": "E3-05-QUOTE",
+      "report_index": 5,
+      "document_id": "KB-B005-HENKEL-AR2025",
+      "company": "Henkel AG & Co. KGaA",
+      "report_title": "Annual Report 2025",
+      "local_path": "data/raw/scale_batch_005/henkel-annual-report-2025.pdf",
+      "document_sha256": "d807ec2c95e56082cd63a8f2b70e55ae74631d81d836ca8273aad9fcb396a725",
+      "pdf_pages": [
+        285
+      ],
+      "stratum": "evidence_quote_violation",
+      "candidate_predicate": "turnover_rate",
+      "candidate_claim": "Henkel AG & Co. KGaA reported Turnover rate of 13.1 percent for 2024.",
+      "candidate_evidence": {
+        "pdf_page": 285,
+        "quote": "SUSTAINTRACE_E3_UNGROUNDED_05_QUOTE"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 1,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Unit",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-2da08a5884dec5bea0c14929"
+      ]
+    },
+    {
+      "task_id": "E3-05-SLOT",
+      "report_index": 5,
+      "document_id": "KB-B005-HENKEL-AR2025",
+      "company": "Henkel AG & Co. KGaA",
+      "report_title": "Annual Report 2025",
+      "local_path": "data/raw/scale_batch_005/henkel-annual-report-2025.pdf",
+      "document_sha256": "d807ec2c95e56082cd63a8f2b70e55ae74631d81d836ca8273aad9fcb396a725",
+      "pdf_pages": [
+        285
+      ],
+      "stratum": "required_slot_violation",
+      "candidate_predicate": "turnover_rate",
+      "candidate_claim": "Henkel AG & Co. KGaA reported Turnover rate of 13.1.",
+      "candidate_evidence": {
+        "pdf_page": 285,
+        "quote": "13.1"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 1,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Unit",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-2da08a5884dec5bea0c14929"
+      ]
+    },
+    {
+      "task_id": "E3-05-COMPOUND",
+      "report_index": 5,
+      "document_id": "KB-B005-HENKEL-AR2025",
+      "company": "Henkel AG & Co. KGaA",
+      "report_title": "Annual Report 2025",
+      "local_path": "data/raw/scale_batch_005/henkel-annual-report-2025.pdf",
+      "document_sha256": "d807ec2c95e56082cd63a8f2b70e55ae74631d81d836ca8273aad9fcb396a725",
+      "pdf_pages": [
+        285
+      ],
+      "stratum": "non_atomic_compound_claim",
+      "candidate_predicate": "compound_esg_claim",
+      "candidate_claim": "Henkel AG & Co. KGaA reported Turnover rate of 13.1 percent for 2024. Additionally, Henkel AG & Co. KGaA reported the Company of 6250 people for 2024.",
+      "candidate_evidence": {
+        "pdf_page": 285,
+        "quote": "13.1"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 2,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Unit",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-2da08a5884dec5bea0c14929",
+        "fact-694fd5a245fb94896c20702d"
+      ]
+    },
+    {
+      "task_id": "E3-05-ABSTAIN",
+      "report_index": 5,
+      "document_id": "KB-B005-HENKEL-AR2025",
+      "company": "Henkel AG & Co. KGaA",
+      "report_title": "Annual Report 2025",
+      "local_path": "data/raw/scale_batch_005/henkel-annual-report-2025.pdf",
+      "document_sha256": "d807ec2c95e56082cd63a8f2b70e55ae74631d81d836ca8273aad9fcb396a725",
+      "pdf_pages": [
+        285
+      ],
+      "stratum": "abstention_audit",
+      "candidate_predicate": "no_promotable_atomic_fact",
+      "candidate_claim": "No trusted atomic fact should be admitted from this permitted page without a complete claim.",
+      "candidate_evidence": {
+        "pdf_page": 285,
+        "quote": "13.1"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": false,
+        "candidate_component_count": 0,
+        "required_slots": []
+      },
+      "source_record_ids": [
+        "fact-2da08a5884dec5bea0c14929"
+      ]
+    },
+    {
+      "task_id": "E3-06-CLEAN",
+      "report_index": 6,
+      "document_id": "KB-B005-SIKA-SR2025",
+      "company": "Sika AG",
+      "report_title": "Sustainability Report 2025",
+      "local_path": "data/raw/scale_batch_005/sika-sustainability-report-2025.pdf",
+      "document_sha256": "67590c1857190f8ebd6e7f3827cd4f3537ac35b2aee99432883741f053668790",
+      "pdf_pages": [
+        76
+      ],
+      "stratum": "clean_admissible_atomic_fact",
+      "candidate_predicate": "total_employees",
+      "candidate_claim": "Sika AG reported Total employees of 33547 people for 2023.",
+      "candidate_evidence": {
+        "pdf_page": 76,
+        "quote": "33,547"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 1,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Unit",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-4851a40b2d3caad54be8cf35"
+      ]
+    },
+    {
+      "task_id": "E3-06-PAGE",
+      "report_index": 6,
+      "document_id": "KB-B005-SIKA-SR2025",
+      "company": "Sika AG",
+      "report_title": "Sustainability Report 2025",
+      "local_path": "data/raw/scale_batch_005/sika-sustainability-report-2025.pdf",
+      "document_sha256": "67590c1857190f8ebd6e7f3827cd4f3537ac35b2aee99432883741f053668790",
+      "pdf_pages": [
+        76
+      ],
+      "stratum": "evidence_page_violation",
+      "candidate_predicate": "total_employees",
+      "candidate_claim": "Sika AG reported Total employees of 33547 people for 2023.",
+      "candidate_evidence": {
+        "pdf_page": 10076,
+        "quote": "33,547"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 1,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Unit",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-4851a40b2d3caad54be8cf35"
+      ]
+    },
+    {
+      "task_id": "E3-06-QUOTE",
+      "report_index": 6,
+      "document_id": "KB-B005-SIKA-SR2025",
+      "company": "Sika AG",
+      "report_title": "Sustainability Report 2025",
+      "local_path": "data/raw/scale_batch_005/sika-sustainability-report-2025.pdf",
+      "document_sha256": "67590c1857190f8ebd6e7f3827cd4f3537ac35b2aee99432883741f053668790",
+      "pdf_pages": [
+        76
+      ],
+      "stratum": "evidence_quote_violation",
+      "candidate_predicate": "total_employees",
+      "candidate_claim": "Sika AG reported Total employees of 33547 people for 2023.",
+      "candidate_evidence": {
+        "pdf_page": 76,
+        "quote": "SUSTAINTRACE_E3_UNGROUNDED_06_QUOTE"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 1,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Unit",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-4851a40b2d3caad54be8cf35"
+      ]
+    },
+    {
+      "task_id": "E3-06-SLOT",
+      "report_index": 6,
+      "document_id": "KB-B005-SIKA-SR2025",
+      "company": "Sika AG",
+      "report_title": "Sustainability Report 2025",
+      "local_path": "data/raw/scale_batch_005/sika-sustainability-report-2025.pdf",
+      "document_sha256": "67590c1857190f8ebd6e7f3827cd4f3537ac35b2aee99432883741f053668790",
+      "pdf_pages": [
+        76
+      ],
+      "stratum": "required_slot_violation",
+      "candidate_predicate": "total_employees",
+      "candidate_claim": "Sika AG reported Total employees of 33547.",
+      "candidate_evidence": {
+        "pdf_page": 76,
+        "quote": "33,547"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 1,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Unit",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-4851a40b2d3caad54be8cf35"
+      ]
+    },
+    {
+      "task_id": "E3-06-COMPOUND",
+      "report_index": 6,
+      "document_id": "KB-B005-SIKA-SR2025",
+      "company": "Sika AG",
+      "report_title": "Sustainability Report 2025",
+      "local_path": "data/raw/scale_batch_005/sika-sustainability-report-2025.pdf",
+      "document_sha256": "67590c1857190f8ebd6e7f3827cd4f3537ac35b2aee99432883741f053668790",
+      "pdf_pages": [
+        76
+      ],
+      "stratum": "non_atomic_compound_claim",
+      "candidate_predicate": "compound_esg_claim",
+      "candidate_claim": "Sika AG reported Total employees of 33547 people for 2023. Additionally, Sika AG reported Male of 25409 for 2023.",
+      "candidate_evidence": {
+        "pdf_page": 76,
+        "quote": "33,547"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 2,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Unit",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-4851a40b2d3caad54be8cf35",
+        "fact-4a6b3068111eb875835aec9b"
+      ]
+    },
+    {
+      "task_id": "E3-06-ABSTAIN",
+      "report_index": 6,
+      "document_id": "KB-B005-SIKA-SR2025",
+      "company": "Sika AG",
+      "report_title": "Sustainability Report 2025",
+      "local_path": "data/raw/scale_batch_005/sika-sustainability-report-2025.pdf",
+      "document_sha256": "67590c1857190f8ebd6e7f3827cd4f3537ac35b2aee99432883741f053668790",
+      "pdf_pages": [
+        76
+      ],
+      "stratum": "abstention_audit",
+      "candidate_predicate": "no_promotable_atomic_fact",
+      "candidate_claim": "No trusted atomic fact should be admitted from this permitted page without a complete claim.",
+      "candidate_evidence": {
+        "pdf_page": 76,
+        "quote": "33,547"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": false,
+        "candidate_component_count": 0,
+        "required_slots": []
+      },
+      "source_record_ids": [
+        "fact-4851a40b2d3caad54be8cf35"
+      ]
+    },
+    {
+      "task_id": "E3-07-CLEAN",
+      "report_index": 7,
+      "document_id": "KB-B005-UPM-AR2025",
+      "company": "UPM-Kymmene Corporation",
+      "report_title": "UPM Annual Report 2025",
+      "local_path": "data/raw/scale_batch_005/upm-annual-report-2025.pdf",
+      "document_sha256": "129f731f45feb99f02c71b8e6f59c200261c7b66fa8d83e36450c5bdf4ed94fc",
+      "pdf_pages": [
+        109
+      ],
+      "stratum": "clean_admissible_atomic_fact",
+      "candidate_predicate": "not_reported",
+      "candidate_claim": "UPM-Kymmene Corporation reported Not reported** of 0 for 2024.",
+      "candidate_evidence": {
+        "pdf_page": 109,
+        "quote": "0"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 1,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-08f067d7938bc82dd9fda757"
+      ]
+    },
+    {
+      "task_id": "E3-07-PAGE",
+      "report_index": 7,
+      "document_id": "KB-B005-UPM-AR2025",
+      "company": "UPM-Kymmene Corporation",
+      "report_title": "UPM Annual Report 2025",
+      "local_path": "data/raw/scale_batch_005/upm-annual-report-2025.pdf",
+      "document_sha256": "129f731f45feb99f02c71b8e6f59c200261c7b66fa8d83e36450c5bdf4ed94fc",
+      "pdf_pages": [
+        109
+      ],
+      "stratum": "evidence_page_violation",
+      "candidate_predicate": "not_reported",
+      "candidate_claim": "UPM-Kymmene Corporation reported Not reported** of 0 for 2024.",
+      "candidate_evidence": {
+        "pdf_page": 10109,
+        "quote": "0"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 1,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-08f067d7938bc82dd9fda757"
+      ]
+    },
+    {
+      "task_id": "E3-07-QUOTE",
+      "report_index": 7,
+      "document_id": "KB-B005-UPM-AR2025",
+      "company": "UPM-Kymmene Corporation",
+      "report_title": "UPM Annual Report 2025",
+      "local_path": "data/raw/scale_batch_005/upm-annual-report-2025.pdf",
+      "document_sha256": "129f731f45feb99f02c71b8e6f59c200261c7b66fa8d83e36450c5bdf4ed94fc",
+      "pdf_pages": [
+        109
+      ],
+      "stratum": "evidence_quote_violation",
+      "candidate_predicate": "not_reported",
+      "candidate_claim": "UPM-Kymmene Corporation reported Not reported** of 0 for 2024.",
+      "candidate_evidence": {
+        "pdf_page": 109,
+        "quote": "SUSTAINTRACE_E3_UNGROUNDED_07_QUOTE"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 1,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-08f067d7938bc82dd9fda757"
+      ]
+    },
+    {
+      "task_id": "E3-07-SLOT",
+      "report_index": 7,
+      "document_id": "KB-B005-UPM-AR2025",
+      "company": "UPM-Kymmene Corporation",
+      "report_title": "UPM Annual Report 2025",
+      "local_path": "data/raw/scale_batch_005/upm-annual-report-2025.pdf",
+      "document_sha256": "129f731f45feb99f02c71b8e6f59c200261c7b66fa8d83e36450c5bdf4ed94fc",
+      "pdf_pages": [
+        109
+      ],
+      "stratum": "required_slot_violation",
+      "candidate_predicate": "not_reported",
+      "candidate_claim": "UPM-Kymmene Corporation reported Not reported** of 0.",
+      "candidate_evidence": {
+        "pdf_page": 109,
+        "quote": "0"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 1,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Boundary/method",
+          "Unit"
+        ]
+      },
+      "source_record_ids": [
+        "fact-08f067d7938bc82dd9fda757"
+      ]
+    },
+    {
+      "task_id": "E3-07-COMPOUND",
+      "report_index": 7,
+      "document_id": "KB-B005-UPM-AR2025",
+      "company": "UPM-Kymmene Corporation",
+      "report_title": "UPM Annual Report 2025",
+      "local_path": "data/raw/scale_batch_005/upm-annual-report-2025.pdf",
+      "document_sha256": "129f731f45feb99f02c71b8e6f59c200261c7b66fa8d83e36450c5bdf4ed94fc",
+      "pdf_pages": [
+        84,
+        109
+      ],
+      "stratum": "non_atomic_compound_claim",
+      "candidate_predicate": "compound_esg_claim",
+      "candidate_claim": "UPM-Kymmene Corporation reported Not reported** of 0 for 2024. Additionally, UPM-Kymmene Corporation reported Scope 3 (Category 11 Use of sold products) of 390000 for 2025.",
+      "candidate_evidence": {
+        "pdf_page": 109,
+        "quote": "0"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 2,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-08f067d7938bc82dd9fda757",
+        "fact-35958a097d41d15592071e4a"
+      ]
+    },
+    {
+      "task_id": "E3-07-ABSTAIN",
+      "report_index": 7,
+      "document_id": "KB-B005-UPM-AR2025",
+      "company": "UPM-Kymmene Corporation",
+      "report_title": "UPM Annual Report 2025",
+      "local_path": "data/raw/scale_batch_005/upm-annual-report-2025.pdf",
+      "document_sha256": "129f731f45feb99f02c71b8e6f59c200261c7b66fa8d83e36450c5bdf4ed94fc",
+      "pdf_pages": [
+        109
+      ],
+      "stratum": "abstention_audit",
+      "candidate_predicate": "no_promotable_atomic_fact",
+      "candidate_claim": "No trusted atomic fact should be admitted from this permitted page without a complete claim.",
+      "candidate_evidence": {
+        "pdf_page": 109,
+        "quote": "0"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": false,
+        "candidate_component_count": 0,
+        "required_slots": []
+      },
+      "source_record_ids": [
+        "fact-08f067d7938bc82dd9fda757"
+      ]
+    },
+    {
+      "task_id": "E3-08-CLEAN",
+      "report_index": 8,
+      "document_id": "KB-B006-VOLVO-AR2025",
+      "company": "AB Volvo",
+      "report_title": "Volvo Group Annual Report 2025",
+      "local_path": "data/raw/scale_batch_006/volvo-group-annual-report-2025.pdf",
+      "document_sha256": "4a2a5c41dc1331d60103e5757af0e90a6a2ea234b9753138ae0ec4db315df969",
+      "pdf_pages": [
+        174
+      ],
+      "stratum": "clean_admissible_atomic_fact",
+      "candidate_predicate": "women",
+      "candidate_claim": "AB Volvo reported Women of 21902 for 2024.",
+      "candidate_evidence": {
+        "pdf_page": 174,
+        "quote": "21,902"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 1,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-0655447566d09d7c43899f3a"
+      ]
+    },
+    {
+      "task_id": "E3-08-PAGE",
+      "report_index": 8,
+      "document_id": "KB-B006-VOLVO-AR2025",
+      "company": "AB Volvo",
+      "report_title": "Volvo Group Annual Report 2025",
+      "local_path": "data/raw/scale_batch_006/volvo-group-annual-report-2025.pdf",
+      "document_sha256": "4a2a5c41dc1331d60103e5757af0e90a6a2ea234b9753138ae0ec4db315df969",
+      "pdf_pages": [
+        174
+      ],
+      "stratum": "evidence_page_violation",
+      "candidate_predicate": "women",
+      "candidate_claim": "AB Volvo reported Women of 21902 for 2024.",
+      "candidate_evidence": {
+        "pdf_page": 10174,
+        "quote": "21,902"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 1,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-0655447566d09d7c43899f3a"
+      ]
+    },
+    {
+      "task_id": "E3-08-QUOTE",
+      "report_index": 8,
+      "document_id": "KB-B006-VOLVO-AR2025",
+      "company": "AB Volvo",
+      "report_title": "Volvo Group Annual Report 2025",
+      "local_path": "data/raw/scale_batch_006/volvo-group-annual-report-2025.pdf",
+      "document_sha256": "4a2a5c41dc1331d60103e5757af0e90a6a2ea234b9753138ae0ec4db315df969",
+      "pdf_pages": [
+        174
+      ],
+      "stratum": "evidence_quote_violation",
+      "candidate_predicate": "women",
+      "candidate_claim": "AB Volvo reported Women of 21902 for 2024.",
+      "candidate_evidence": {
+        "pdf_page": 174,
+        "quote": "SUSTAINTRACE_E3_UNGROUNDED_08_QUOTE"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 1,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-0655447566d09d7c43899f3a"
+      ]
+    },
+    {
+      "task_id": "E3-08-SLOT",
+      "report_index": 8,
+      "document_id": "KB-B006-VOLVO-AR2025",
+      "company": "AB Volvo",
+      "report_title": "Volvo Group Annual Report 2025",
+      "local_path": "data/raw/scale_batch_006/volvo-group-annual-report-2025.pdf",
+      "document_sha256": "4a2a5c41dc1331d60103e5757af0e90a6a2ea234b9753138ae0ec4db315df969",
+      "pdf_pages": [
+        174
+      ],
+      "stratum": "required_slot_violation",
+      "candidate_predicate": "women",
+      "candidate_claim": "AB Volvo reported Women of 21902.",
+      "candidate_evidence": {
+        "pdf_page": 174,
+        "quote": "21,902"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 1,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Boundary/method",
+          "Unit"
+        ]
+      },
+      "source_record_ids": [
+        "fact-0655447566d09d7c43899f3a"
+      ]
+    },
+    {
+      "task_id": "E3-08-COMPOUND",
+      "report_index": 8,
+      "document_id": "KB-B006-VOLVO-AR2025",
+      "company": "AB Volvo",
+      "report_title": "Volvo Group Annual Report 2025",
+      "local_path": "data/raw/scale_batch_006/volvo-group-annual-report-2025.pdf",
+      "document_sha256": "4a2a5c41dc1331d60103e5757af0e90a6a2ea234b9753138ae0ec4db315df969",
+      "pdf_pages": [
+        174
+      ],
+      "stratum": "non_atomic_compound_claim",
+      "candidate_predicate": "compound_esg_claim",
+      "candidate_claim": "AB Volvo reported Women of 21902 for 2024. Additionally, AB Volvo reported Men of 68441 for 2025.",
+      "candidate_evidence": {
+        "pdf_page": 174,
+        "quote": "21,902"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 2,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-0655447566d09d7c43899f3a",
+        "fact-39a82930cf824b7e2b4327da"
+      ]
+    },
+    {
+      "task_id": "E3-08-ABSTAIN",
+      "report_index": 8,
+      "document_id": "KB-B006-VOLVO-AR2025",
+      "company": "AB Volvo",
+      "report_title": "Volvo Group Annual Report 2025",
+      "local_path": "data/raw/scale_batch_006/volvo-group-annual-report-2025.pdf",
+      "document_sha256": "4a2a5c41dc1331d60103e5757af0e90a6a2ea234b9753138ae0ec4db315df969",
+      "pdf_pages": [
+        174
+      ],
+      "stratum": "abstention_audit",
+      "candidate_predicate": "no_promotable_atomic_fact",
+      "candidate_claim": "No trusted atomic fact should be admitted from this permitted page without a complete claim.",
+      "candidate_evidence": {
+        "pdf_page": 174,
+        "quote": "21,902"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": false,
+        "candidate_component_count": 0,
+        "required_slots": []
+      },
+      "source_record_ids": [
+        "fact-0655447566d09d7c43899f3a"
+      ]
+    },
+    {
+      "task_id": "E3-09-CLEAN",
+      "report_index": 9,
+      "document_id": "KB-B007-ATLAS-COPCO-AR2025",
+      "company": "Atlas Copco AB",
+      "report_title": "Atlas Copco Group Annual Report 2025",
+      "local_path": "data/raw/scale_batch_007/atlas-copco-annual-report-2025.pdf",
+      "document_sha256": "70d076bd915ecb111549426d3bf2b585626e117e20509f42c84dd001915e4164",
+      "pdf_pages": [
+        72
+      ],
+      "stratum": "clean_admissible_atomic_fact",
+      "candidate_predicate": "voluntary_leave",
+      "candidate_claim": "Atlas Copco AB reported Voluntary leave, % of 5 for 2025.",
+      "candidate_evidence": {
+        "pdf_page": 72,
+        "quote": "5"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 1,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-4b0e0b414f42482481b51f8a"
+      ]
+    },
+    {
+      "task_id": "E3-09-PAGE",
+      "report_index": 9,
+      "document_id": "KB-B007-ATLAS-COPCO-AR2025",
+      "company": "Atlas Copco AB",
+      "report_title": "Atlas Copco Group Annual Report 2025",
+      "local_path": "data/raw/scale_batch_007/atlas-copco-annual-report-2025.pdf",
+      "document_sha256": "70d076bd915ecb111549426d3bf2b585626e117e20509f42c84dd001915e4164",
+      "pdf_pages": [
+        72
+      ],
+      "stratum": "evidence_page_violation",
+      "candidate_predicate": "voluntary_leave",
+      "candidate_claim": "Atlas Copco AB reported Voluntary leave, % of 5 for 2025.",
+      "candidate_evidence": {
+        "pdf_page": 10072,
+        "quote": "5"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 1,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-4b0e0b414f42482481b51f8a"
+      ]
+    },
+    {
+      "task_id": "E3-09-QUOTE",
+      "report_index": 9,
+      "document_id": "KB-B007-ATLAS-COPCO-AR2025",
+      "company": "Atlas Copco AB",
+      "report_title": "Atlas Copco Group Annual Report 2025",
+      "local_path": "data/raw/scale_batch_007/atlas-copco-annual-report-2025.pdf",
+      "document_sha256": "70d076bd915ecb111549426d3bf2b585626e117e20509f42c84dd001915e4164",
+      "pdf_pages": [
+        72
+      ],
+      "stratum": "evidence_quote_violation",
+      "candidate_predicate": "voluntary_leave",
+      "candidate_claim": "Atlas Copco AB reported Voluntary leave, % of 5 for 2025.",
+      "candidate_evidence": {
+        "pdf_page": 72,
+        "quote": "SUSTAINTRACE_E3_UNGROUNDED_09_QUOTE"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 1,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-4b0e0b414f42482481b51f8a"
+      ]
+    },
+    {
+      "task_id": "E3-09-SLOT",
+      "report_index": 9,
+      "document_id": "KB-B007-ATLAS-COPCO-AR2025",
+      "company": "Atlas Copco AB",
+      "report_title": "Atlas Copco Group Annual Report 2025",
+      "local_path": "data/raw/scale_batch_007/atlas-copco-annual-report-2025.pdf",
+      "document_sha256": "70d076bd915ecb111549426d3bf2b585626e117e20509f42c84dd001915e4164",
+      "pdf_pages": [
+        72
+      ],
+      "stratum": "required_slot_violation",
+      "candidate_predicate": "voluntary_leave",
+      "candidate_claim": "Atlas Copco AB reported Voluntary leave, % of 5.",
+      "candidate_evidence": {
+        "pdf_page": 72,
+        "quote": "5"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 1,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Boundary/method",
+          "Unit"
+        ]
+      },
+      "source_record_ids": [
+        "fact-4b0e0b414f42482481b51f8a"
+      ]
+    },
+    {
+      "task_id": "E3-09-COMPOUND",
+      "report_index": 9,
+      "document_id": "KB-B007-ATLAS-COPCO-AR2025",
+      "company": "Atlas Copco AB",
+      "report_title": "Atlas Copco Group Annual Report 2025",
+      "local_path": "data/raw/scale_batch_007/atlas-copco-annual-report-2025.pdf",
+      "document_sha256": "70d076bd915ecb111549426d3bf2b585626e117e20509f42c84dd001915e4164",
+      "pdf_pages": [
+        72
+      ],
+      "stratum": "non_atomic_compound_claim",
+      "candidate_predicate": "compound_esg_claim",
+      "candidate_claim": "Atlas Copco AB reported Voluntary leave, % of 5 for 2025. Additionally, Atlas Copco AB reported Total number of employees that have left thecompany of 6175 people for 2025.",
+      "candidate_evidence": {
+        "pdf_page": 72,
+        "quote": "5"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 2,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-4b0e0b414f42482481b51f8a",
+        "fact-6154378df6ff6d6f2af9236b"
+      ]
+    },
+    {
+      "task_id": "E3-09-ABSTAIN",
+      "report_index": 9,
+      "document_id": "KB-B007-ATLAS-COPCO-AR2025",
+      "company": "Atlas Copco AB",
+      "report_title": "Atlas Copco Group Annual Report 2025",
+      "local_path": "data/raw/scale_batch_007/atlas-copco-annual-report-2025.pdf",
+      "document_sha256": "70d076bd915ecb111549426d3bf2b585626e117e20509f42c84dd001915e4164",
+      "pdf_pages": [
+        72
+      ],
+      "stratum": "abstention_audit",
+      "candidate_predicate": "no_promotable_atomic_fact",
+      "candidate_claim": "No trusted atomic fact should be admitted from this permitted page without a complete claim.",
+      "candidate_evidence": {
+        "pdf_page": 72,
+        "quote": "5"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": false,
+        "candidate_component_count": 0,
+        "required_slots": []
+      },
+      "source_record_ids": [
+        "fact-4b0e0b414f42482481b51f8a"
+      ]
+    },
+    {
+      "task_id": "E3-10-CLEAN",
+      "report_index": 10,
+      "document_id": "KB-B009-CARLSBERG-AR2025",
+      "company": "Carlsberg A/S",
+      "report_title": "Carlsberg Group Annual Report 2025",
+      "local_path": "data/raw/scale_batch_009/carlsberg-group-annual-report-2025.pdf",
+      "document_sha256": "35fad935180834f52819b3d4729ea30a09b75b69a6267fbec7e2ef1afadd58a4",
+      "pdf_pages": [
+        66
+      ],
+      "stratum": "clean_admissible_atomic_fact",
+      "candidate_predicate": "share_of_scope_2_ghg_emissions_covered_by_energy_attribute_certificates",
+      "candidate_claim": "Carlsberg A/S reported Share of Scope 2 GHG emissions covered by energy attribute certificates (unbundled) of 60 for 2025.",
+      "candidate_evidence": {
+        "pdf_page": 66,
+        "quote": "60"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 1,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-195fb3fd19e6d8dc2b7082cb"
+      ]
+    },
+    {
+      "task_id": "E3-10-PAGE",
+      "report_index": 10,
+      "document_id": "KB-B009-CARLSBERG-AR2025",
+      "company": "Carlsberg A/S",
+      "report_title": "Carlsberg Group Annual Report 2025",
+      "local_path": "data/raw/scale_batch_009/carlsberg-group-annual-report-2025.pdf",
+      "document_sha256": "35fad935180834f52819b3d4729ea30a09b75b69a6267fbec7e2ef1afadd58a4",
+      "pdf_pages": [
+        66
+      ],
+      "stratum": "evidence_page_violation",
+      "candidate_predicate": "share_of_scope_2_ghg_emissions_covered_by_energy_attribute_certificates",
+      "candidate_claim": "Carlsberg A/S reported Share of Scope 2 GHG emissions covered by energy attribute certificates (unbundled) of 60 for 2025.",
+      "candidate_evidence": {
+        "pdf_page": 10066,
+        "quote": "60"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 1,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-195fb3fd19e6d8dc2b7082cb"
+      ]
+    },
+    {
+      "task_id": "E3-10-QUOTE",
+      "report_index": 10,
+      "document_id": "KB-B009-CARLSBERG-AR2025",
+      "company": "Carlsberg A/S",
+      "report_title": "Carlsberg Group Annual Report 2025",
+      "local_path": "data/raw/scale_batch_009/carlsberg-group-annual-report-2025.pdf",
+      "document_sha256": "35fad935180834f52819b3d4729ea30a09b75b69a6267fbec7e2ef1afadd58a4",
+      "pdf_pages": [
+        66
+      ],
+      "stratum": "evidence_quote_violation",
+      "candidate_predicate": "share_of_scope_2_ghg_emissions_covered_by_energy_attribute_certificates",
+      "candidate_claim": "Carlsberg A/S reported Share of Scope 2 GHG emissions covered by energy attribute certificates (unbundled) of 60 for 2025.",
+      "candidate_evidence": {
+        "pdf_page": 66,
+        "quote": "SUSTAINTRACE_E3_UNGROUNDED_10_QUOTE"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 1,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-195fb3fd19e6d8dc2b7082cb"
+      ]
+    },
+    {
+      "task_id": "E3-10-SLOT",
+      "report_index": 10,
+      "document_id": "KB-B009-CARLSBERG-AR2025",
+      "company": "Carlsberg A/S",
+      "report_title": "Carlsberg Group Annual Report 2025",
+      "local_path": "data/raw/scale_batch_009/carlsberg-group-annual-report-2025.pdf",
+      "document_sha256": "35fad935180834f52819b3d4729ea30a09b75b69a6267fbec7e2ef1afadd58a4",
+      "pdf_pages": [
+        66
+      ],
+      "stratum": "required_slot_violation",
+      "candidate_predicate": "share_of_scope_2_ghg_emissions_covered_by_energy_attribute_certificates",
+      "candidate_claim": "Carlsberg A/S reported Share of Scope 2 GHG emissions covered by energy attribute certificates (unbundled) of 60.",
+      "candidate_evidence": {
+        "pdf_page": 66,
+        "quote": "60"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 1,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Boundary/method",
+          "Unit"
+        ]
+      },
+      "source_record_ids": [
+        "fact-195fb3fd19e6d8dc2b7082cb"
+      ]
+    },
+    {
+      "task_id": "E3-10-COMPOUND",
+      "report_index": 10,
+      "document_id": "KB-B009-CARLSBERG-AR2025",
+      "company": "Carlsberg A/S",
+      "report_title": "Carlsberg Group Annual Report 2025",
+      "local_path": "data/raw/scale_batch_009/carlsberg-group-annual-report-2025.pdf",
+      "document_sha256": "35fad935180834f52819b3d4729ea30a09b75b69a6267fbec7e2ef1afadd58a4",
+      "pdf_pages": [
+        66
+      ],
+      "stratum": "non_atomic_compound_claim",
+      "candidate_predicate": "compound_esg_claim",
+      "candidate_claim": "Carlsberg A/S reported Share of Scope 2 GHG emissions covered by energy attribute certificates (unbundled) of 60 for 2025. Additionally, Carlsberg A/S reported Share of Scope 2 GHG emissions covered by contractual instruments of 73 for 2024.",
+      "candidate_evidence": {
+        "pdf_page": 66,
+        "quote": "60"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 2,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-195fb3fd19e6d8dc2b7082cb",
+        "fact-23f13470cad2608901916fdd"
+      ]
+    },
+    {
+      "task_id": "E3-10-ABSTAIN",
+      "report_index": 10,
+      "document_id": "KB-B009-CARLSBERG-AR2025",
+      "company": "Carlsberg A/S",
+      "report_title": "Carlsberg Group Annual Report 2025",
+      "local_path": "data/raw/scale_batch_009/carlsberg-group-annual-report-2025.pdf",
+      "document_sha256": "35fad935180834f52819b3d4729ea30a09b75b69a6267fbec7e2ef1afadd58a4",
+      "pdf_pages": [
+        66
+      ],
+      "stratum": "abstention_audit",
+      "candidate_predicate": "no_promotable_atomic_fact",
+      "candidate_claim": "No trusted atomic fact should be admitted from this permitted page without a complete claim.",
+      "candidate_evidence": {
+        "pdf_page": 66,
+        "quote": "60"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": false,
+        "candidate_component_count": 0,
+        "required_slots": []
+      },
+      "source_record_ids": [
+        "fact-195fb3fd19e6d8dc2b7082cb"
+      ]
+    },
+    {
+      "task_id": "E3-11-CLEAN",
+      "report_index": 11,
+      "document_id": "KB-B010-PUMA-AR2025",
+      "company": "PUMA SE",
+      "report_title": "PUMA Annual Report 2025",
+      "local_path": "data/raw/scale_batch_010/puma-annual-report-2025.pdf",
+      "document_sha256": "d376e7dc2454df73f0750285e2cba255dc9ad05d61faa1aa5d508eb16991e13e",
+      "pdf_pages": [
+        108
+      ],
+      "stratum": "clean_admissible_atomic_fact",
+      "candidate_predicate": "total_ghg_emissions_per_net_revenue",
+      "candidate_claim": "PUMA SE reported Total GHG emissions (location-based) per net revenue of 214.1 for 2025.",
+      "candidate_evidence": {
+        "pdf_page": 108,
+        "quote": "214.1"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 1,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-08add829a959a0d421f73b02"
+      ]
+    },
+    {
+      "task_id": "E3-11-PAGE",
+      "report_index": 11,
+      "document_id": "KB-B010-PUMA-AR2025",
+      "company": "PUMA SE",
+      "report_title": "PUMA Annual Report 2025",
+      "local_path": "data/raw/scale_batch_010/puma-annual-report-2025.pdf",
+      "document_sha256": "d376e7dc2454df73f0750285e2cba255dc9ad05d61faa1aa5d508eb16991e13e",
+      "pdf_pages": [
+        108
+      ],
+      "stratum": "evidence_page_violation",
+      "candidate_predicate": "total_ghg_emissions_per_net_revenue",
+      "candidate_claim": "PUMA SE reported Total GHG emissions (location-based) per net revenue of 214.1 for 2025.",
+      "candidate_evidence": {
+        "pdf_page": 10108,
+        "quote": "214.1"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 1,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-08add829a959a0d421f73b02"
+      ]
+    },
+    {
+      "task_id": "E3-11-QUOTE",
+      "report_index": 11,
+      "document_id": "KB-B010-PUMA-AR2025",
+      "company": "PUMA SE",
+      "report_title": "PUMA Annual Report 2025",
+      "local_path": "data/raw/scale_batch_010/puma-annual-report-2025.pdf",
+      "document_sha256": "d376e7dc2454df73f0750285e2cba255dc9ad05d61faa1aa5d508eb16991e13e",
+      "pdf_pages": [
+        108
+      ],
+      "stratum": "evidence_quote_violation",
+      "candidate_predicate": "total_ghg_emissions_per_net_revenue",
+      "candidate_claim": "PUMA SE reported Total GHG emissions (location-based) per net revenue of 214.1 for 2025.",
+      "candidate_evidence": {
+        "pdf_page": 108,
+        "quote": "SUSTAINTRACE_E3_UNGROUNDED_11_QUOTE"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 1,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-08add829a959a0d421f73b02"
+      ]
+    },
+    {
+      "task_id": "E3-11-SLOT",
+      "report_index": 11,
+      "document_id": "KB-B010-PUMA-AR2025",
+      "company": "PUMA SE",
+      "report_title": "PUMA Annual Report 2025",
+      "local_path": "data/raw/scale_batch_010/puma-annual-report-2025.pdf",
+      "document_sha256": "d376e7dc2454df73f0750285e2cba255dc9ad05d61faa1aa5d508eb16991e13e",
+      "pdf_pages": [
+        108
+      ],
+      "stratum": "required_slot_violation",
+      "candidate_predicate": "total_ghg_emissions_per_net_revenue",
+      "candidate_claim": "PUMA SE reported Total GHG emissions (location-based) per net revenue of 214.1.",
+      "candidate_evidence": {
+        "pdf_page": 108,
+        "quote": "214.1"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 1,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Boundary/method",
+          "Unit"
+        ]
+      },
+      "source_record_ids": [
+        "fact-08add829a959a0d421f73b02"
+      ]
+    },
+    {
+      "task_id": "E3-11-COMPOUND",
+      "report_index": 11,
+      "document_id": "KB-B010-PUMA-AR2025",
+      "company": "PUMA SE",
+      "report_title": "PUMA Annual Report 2025",
+      "local_path": "data/raw/scale_batch_010/puma-annual-report-2025.pdf",
+      "document_sha256": "d376e7dc2454df73f0750285e2cba255dc9ad05d61faa1aa5d508eb16991e13e",
+      "pdf_pages": [
+        104,
+        108
+      ],
+      "stratum": "non_atomic_compound_claim",
+      "candidate_predicate": "compound_esg_claim",
+      "candidate_claim": "PUMA SE reported Total GHG emissions (location-based) per net revenue of 214.1 for 2025. Additionally, PUMA SE reported Total energy consumption from activities in high climate impact sectors per net revenue from activities in high climate impact sectors (in MWh/€ million) of 16.9 for 2025.",
+      "candidate_evidence": {
+        "pdf_page": 108,
+        "quote": "214.1"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 2,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-08add829a959a0d421f73b02",
+        "fact-36afda17a66a242d595b4000"
+      ]
+    },
+    {
+      "task_id": "E3-11-ABSTAIN",
+      "report_index": 11,
+      "document_id": "KB-B010-PUMA-AR2025",
+      "company": "PUMA SE",
+      "report_title": "PUMA Annual Report 2025",
+      "local_path": "data/raw/scale_batch_010/puma-annual-report-2025.pdf",
+      "document_sha256": "d376e7dc2454df73f0750285e2cba255dc9ad05d61faa1aa5d508eb16991e13e",
+      "pdf_pages": [
+        108
+      ],
+      "stratum": "abstention_audit",
+      "candidate_predicate": "no_promotable_atomic_fact",
+      "candidate_claim": "No trusted atomic fact should be admitted from this permitted page without a complete claim.",
+      "candidate_evidence": {
+        "pdf_page": 108,
+        "quote": "214.1"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": false,
+        "candidate_component_count": 0,
+        "required_slots": []
+      },
+      "source_record_ids": [
+        "fact-08add829a959a0d421f73b02"
+      ]
+    },
+    {
+      "task_id": "E3-12-CLEAN",
+      "report_index": 12,
+      "document_id": "KB-B010-VEOLIA-URD2025",
+      "company": "Veolia Environnement S.A.",
+      "report_title": "Veolia Universal Registration Document 2025",
+      "local_path": "data/raw/scale_batch_010/veolia-universal-registration-document-2025.pdf",
+      "document_sha256": "09786eaedb20a992123e4b0f0d3c0f3484529ddf6093465c93251a0ce691232c",
+      "pdf_pages": [
+        219
+      ],
+      "stratum": "clean_admissible_atomic_fact",
+      "candidate_predicate": "scope_1",
+      "candidate_claim": "Veolia Environnement S.A. reported Scope 1 (Mt eq. CO2) of 5.8 for 2024.",
+      "candidate_evidence": {
+        "pdf_page": 219,
+        "quote": "5.8"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 1,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-154d9691456040fc8653ee92"
+      ]
+    },
+    {
+      "task_id": "E3-12-PAGE",
+      "report_index": 12,
+      "document_id": "KB-B010-VEOLIA-URD2025",
+      "company": "Veolia Environnement S.A.",
+      "report_title": "Veolia Universal Registration Document 2025",
+      "local_path": "data/raw/scale_batch_010/veolia-universal-registration-document-2025.pdf",
+      "document_sha256": "09786eaedb20a992123e4b0f0d3c0f3484529ddf6093465c93251a0ce691232c",
+      "pdf_pages": [
+        219
+      ],
+      "stratum": "evidence_page_violation",
+      "candidate_predicate": "scope_1",
+      "candidate_claim": "Veolia Environnement S.A. reported Scope 1 (Mt eq. CO2) of 5.8 for 2024.",
+      "candidate_evidence": {
+        "pdf_page": 10219,
+        "quote": "5.8"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 1,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-154d9691456040fc8653ee92"
+      ]
+    },
+    {
+      "task_id": "E3-12-QUOTE",
+      "report_index": 12,
+      "document_id": "KB-B010-VEOLIA-URD2025",
+      "company": "Veolia Environnement S.A.",
+      "report_title": "Veolia Universal Registration Document 2025",
+      "local_path": "data/raw/scale_batch_010/veolia-universal-registration-document-2025.pdf",
+      "document_sha256": "09786eaedb20a992123e4b0f0d3c0f3484529ddf6093465c93251a0ce691232c",
+      "pdf_pages": [
+        219
+      ],
+      "stratum": "evidence_quote_violation",
+      "candidate_predicate": "scope_1",
+      "candidate_claim": "Veolia Environnement S.A. reported Scope 1 (Mt eq. CO2) of 5.8 for 2024.",
+      "candidate_evidence": {
+        "pdf_page": 219,
+        "quote": "SUSTAINTRACE_E3_UNGROUNDED_12_QUOTE"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 1,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-154d9691456040fc8653ee92"
+      ]
+    },
+    {
+      "task_id": "E3-12-SLOT",
+      "report_index": 12,
+      "document_id": "KB-B010-VEOLIA-URD2025",
+      "company": "Veolia Environnement S.A.",
+      "report_title": "Veolia Universal Registration Document 2025",
+      "local_path": "data/raw/scale_batch_010/veolia-universal-registration-document-2025.pdf",
+      "document_sha256": "09786eaedb20a992123e4b0f0d3c0f3484529ddf6093465c93251a0ce691232c",
+      "pdf_pages": [
+        219
+      ],
+      "stratum": "required_slot_violation",
+      "candidate_predicate": "scope_1",
+      "candidate_claim": "Veolia Environnement S.A. reported Scope 1 (Mt eq. CO2) of 5.8.",
+      "candidate_evidence": {
+        "pdf_page": 219,
+        "quote": "5.8"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 1,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Boundary/method",
+          "Unit"
+        ]
+      },
+      "source_record_ids": [
+        "fact-154d9691456040fc8653ee92"
+      ]
+    },
+    {
+      "task_id": "E3-12-COMPOUND",
+      "report_index": 12,
+      "document_id": "KB-B010-VEOLIA-URD2025",
+      "company": "Veolia Environnement S.A.",
+      "report_title": "Veolia Universal Registration Document 2025",
+      "local_path": "data/raw/scale_batch_010/veolia-universal-registration-document-2025.pdf",
+      "document_sha256": "09786eaedb20a992123e4b0f0d3c0f3484529ddf6093465c93251a0ce691232c",
+      "pdf_pages": [
+        219
+      ],
+      "stratum": "non_atomic_compound_claim",
+      "candidate_predicate": "compound_esg_claim",
+      "candidate_claim": "Veolia Environnement S.A. reported Scope 1 (Mt eq. CO2) of 5.8 for 2024. Additionally, Veolia Environnement S.A. reported Scope 2 (Mt eq. CO2) of 0.2 for 2024.",
+      "candidate_evidence": {
+        "pdf_page": 219,
+        "quote": "5.8"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 2,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-154d9691456040fc8653ee92",
+        "fact-3cf3c63aacede12c1832c0bb"
+      ]
+    },
+    {
+      "task_id": "E3-12-ABSTAIN",
+      "report_index": 12,
+      "document_id": "KB-B010-VEOLIA-URD2025",
+      "company": "Veolia Environnement S.A.",
+      "report_title": "Veolia Universal Registration Document 2025",
+      "local_path": "data/raw/scale_batch_010/veolia-universal-registration-document-2025.pdf",
+      "document_sha256": "09786eaedb20a992123e4b0f0d3c0f3484529ddf6093465c93251a0ce691232c",
+      "pdf_pages": [
+        219
+      ],
+      "stratum": "abstention_audit",
+      "candidate_predicate": "no_promotable_atomic_fact",
+      "candidate_claim": "No trusted atomic fact should be admitted from this permitted page without a complete claim.",
+      "candidate_evidence": {
+        "pdf_page": 219,
+        "quote": "5.8"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": false,
+        "candidate_component_count": 0,
+        "required_slots": []
+      },
+      "source_record_ids": [
+        "fact-154d9691456040fc8653ee92"
+      ]
+    },
+    {
+      "task_id": "E3-13-CLEAN",
+      "report_index": 13,
+      "document_id": "KB-B011-ENI-SS2025",
+      "company": "Eni S.p.A.",
+      "report_title": "Eni Annual Report 2025 Sustainability Statement",
+      "local_path": "data/raw/scale_batch_011/eni-annual-report-2025-sustainability.pdf",
+      "document_sha256": "999dd84dcfbd0baad741187e0006b22e1d86e6ddf0058e20f2cef7eaede1128c",
+      "pdf_pages": [
+        78
+      ],
+      "stratum": "clean_admissible_atomic_fact",
+      "candidate_predicate": "x_1_000_000",
+      "candidate_claim": "Eni S.p.A. reported (total recordable injuries/worked hours) x 1,000,000 of 0.55 (total recordable injuries/worked hours) x 1,000,000 for 2025.",
+      "candidate_evidence": {
+        "pdf_page": 78,
+        "quote": "0.55"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 1,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Unit",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-28d528eadf640e532aba67cb"
+      ]
+    },
+    {
+      "task_id": "E3-13-PAGE",
+      "report_index": 13,
+      "document_id": "KB-B011-ENI-SS2025",
+      "company": "Eni S.p.A.",
+      "report_title": "Eni Annual Report 2025 Sustainability Statement",
+      "local_path": "data/raw/scale_batch_011/eni-annual-report-2025-sustainability.pdf",
+      "document_sha256": "999dd84dcfbd0baad741187e0006b22e1d86e6ddf0058e20f2cef7eaede1128c",
+      "pdf_pages": [
+        78
+      ],
+      "stratum": "evidence_page_violation",
+      "candidate_predicate": "x_1_000_000",
+      "candidate_claim": "Eni S.p.A. reported (total recordable injuries/worked hours) x 1,000,000 of 0.55 (total recordable injuries/worked hours) x 1,000,000 for 2025.",
+      "candidate_evidence": {
+        "pdf_page": 10078,
+        "quote": "0.55"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 1,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Unit",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-28d528eadf640e532aba67cb"
+      ]
+    },
+    {
+      "task_id": "E3-13-QUOTE",
+      "report_index": 13,
+      "document_id": "KB-B011-ENI-SS2025",
+      "company": "Eni S.p.A.",
+      "report_title": "Eni Annual Report 2025 Sustainability Statement",
+      "local_path": "data/raw/scale_batch_011/eni-annual-report-2025-sustainability.pdf",
+      "document_sha256": "999dd84dcfbd0baad741187e0006b22e1d86e6ddf0058e20f2cef7eaede1128c",
+      "pdf_pages": [
+        78
+      ],
+      "stratum": "evidence_quote_violation",
+      "candidate_predicate": "x_1_000_000",
+      "candidate_claim": "Eni S.p.A. reported (total recordable injuries/worked hours) x 1,000,000 of 0.55 (total recordable injuries/worked hours) x 1,000,000 for 2025.",
+      "candidate_evidence": {
+        "pdf_page": 78,
+        "quote": "SUSTAINTRACE_E3_UNGROUNDED_13_QUOTE"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 1,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Unit",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-28d528eadf640e532aba67cb"
+      ]
+    },
+    {
+      "task_id": "E3-13-SLOT",
+      "report_index": 13,
+      "document_id": "KB-B011-ENI-SS2025",
+      "company": "Eni S.p.A.",
+      "report_title": "Eni Annual Report 2025 Sustainability Statement",
+      "local_path": "data/raw/scale_batch_011/eni-annual-report-2025-sustainability.pdf",
+      "document_sha256": "999dd84dcfbd0baad741187e0006b22e1d86e6ddf0058e20f2cef7eaede1128c",
+      "pdf_pages": [
+        78
+      ],
+      "stratum": "required_slot_violation",
+      "candidate_predicate": "x_1_000_000",
+      "candidate_claim": "Eni S.p.A. reported (total recordable injuries/worked hours) x 1,000,000 of 0.55.",
+      "candidate_evidence": {
+        "pdf_page": 78,
+        "quote": "0.55"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 1,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Unit",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-28d528eadf640e532aba67cb"
+      ]
+    },
+    {
+      "task_id": "E3-13-COMPOUND",
+      "report_index": 13,
+      "document_id": "KB-B011-ENI-SS2025",
+      "company": "Eni S.p.A.",
+      "report_title": "Eni Annual Report 2025 Sustainability Statement",
+      "local_path": "data/raw/scale_batch_011/eni-annual-report-2025-sustainability.pdf",
+      "document_sha256": "999dd84dcfbd0baad741187e0006b22e1d86e6ddf0058e20f2cef7eaede1128c",
+      "pdf_pages": [
+        78
+      ],
+      "stratum": "non_atomic_compound_claim",
+      "candidate_predicate": "compound_esg_claim",
+      "candidate_claim": "Eni S.p.A. reported (total recordable injuries/worked hours) x 1,000,000 of 0.55 (total recordable injuries/worked hours) x 1,000,000 for 2025. Additionally, Eni S.p.A. reported (number) of 634 (number) for 2025.",
+      "candidate_evidence": {
+        "pdf_page": 78,
+        "quote": "0.55"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 2,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Unit",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-28d528eadf640e532aba67cb",
+        "fact-b316b271b9a60ee23b332bd9"
+      ]
+    },
+    {
+      "task_id": "E3-13-ABSTAIN",
+      "report_index": 13,
+      "document_id": "KB-B011-ENI-SS2025",
+      "company": "Eni S.p.A.",
+      "report_title": "Eni Annual Report 2025 Sustainability Statement",
+      "local_path": "data/raw/scale_batch_011/eni-annual-report-2025-sustainability.pdf",
+      "document_sha256": "999dd84dcfbd0baad741187e0006b22e1d86e6ddf0058e20f2cef7eaede1128c",
+      "pdf_pages": [
+        78
+      ],
+      "stratum": "abstention_audit",
+      "candidate_predicate": "no_promotable_atomic_fact",
+      "candidate_claim": "No trusted atomic fact should be admitted from this permitted page without a complete claim.",
+      "candidate_evidence": {
+        "pdf_page": 78,
+        "quote": "0.55"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": false,
+        "candidate_component_count": 0,
+        "required_slots": []
+      },
+      "source_record_ids": [
+        "fact-28d528eadf640e532aba67cb"
+      ]
+    },
+    {
+      "task_id": "E3-14-CLEAN",
+      "report_index": 14,
+      "document_id": "KB-B012-STORA-ENSO-AR2025",
+      "company": "Stora Enso Oyj",
+      "report_title": "Stora Enso Annual Report 2025",
+      "local_path": "data/raw/scale_batch_012/stora-enso-annual-report-2025.pdf",
+      "document_sha256": "00377e8fb8a6b2fc866d38a7f68e6cccd8099c9fe5f79be4da96d7f46bb4bbf0",
+      "pdf_pages": [
+        105
+      ],
+      "stratum": "clean_admissible_atomic_fact",
+      "candidate_predicate": "decrease_in_process_water_discharges_per_saleable_tonne_of_board_pulp_and_paper_",
+      "candidate_claim": "Stora Enso Oyj reported Decrease in process water discharges per saleable tonne of board, pulp, and paper by 17% by 2030 of 32 for 2025.",
+      "candidate_evidence": {
+        "pdf_page": 105,
+        "quote": "32"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 1,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-003f41c694326d4855d210d7"
+      ]
+    },
+    {
+      "task_id": "E3-14-PAGE",
+      "report_index": 14,
+      "document_id": "KB-B012-STORA-ENSO-AR2025",
+      "company": "Stora Enso Oyj",
+      "report_title": "Stora Enso Annual Report 2025",
+      "local_path": "data/raw/scale_batch_012/stora-enso-annual-report-2025.pdf",
+      "document_sha256": "00377e8fb8a6b2fc866d38a7f68e6cccd8099c9fe5f79be4da96d7f46bb4bbf0",
+      "pdf_pages": [
+        105
+      ],
+      "stratum": "evidence_page_violation",
+      "candidate_predicate": "decrease_in_process_water_discharges_per_saleable_tonne_of_board_pulp_and_paper_",
+      "candidate_claim": "Stora Enso Oyj reported Decrease in process water discharges per saleable tonne of board, pulp, and paper by 17% by 2030 of 32 for 2025.",
+      "candidate_evidence": {
+        "pdf_page": 10105,
+        "quote": "32"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 1,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-003f41c694326d4855d210d7"
+      ]
+    },
+    {
+      "task_id": "E3-14-QUOTE",
+      "report_index": 14,
+      "document_id": "KB-B012-STORA-ENSO-AR2025",
+      "company": "Stora Enso Oyj",
+      "report_title": "Stora Enso Annual Report 2025",
+      "local_path": "data/raw/scale_batch_012/stora-enso-annual-report-2025.pdf",
+      "document_sha256": "00377e8fb8a6b2fc866d38a7f68e6cccd8099c9fe5f79be4da96d7f46bb4bbf0",
+      "pdf_pages": [
+        105
+      ],
+      "stratum": "evidence_quote_violation",
+      "candidate_predicate": "decrease_in_process_water_discharges_per_saleable_tonne_of_board_pulp_and_paper_",
+      "candidate_claim": "Stora Enso Oyj reported Decrease in process water discharges per saleable tonne of board, pulp, and paper by 17% by 2030 of 32 for 2025.",
+      "candidate_evidence": {
+        "pdf_page": 105,
+        "quote": "SUSTAINTRACE_E3_UNGROUNDED_14_QUOTE"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 1,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-003f41c694326d4855d210d7"
+      ]
+    },
+    {
+      "task_id": "E3-14-SLOT",
+      "report_index": 14,
+      "document_id": "KB-B012-STORA-ENSO-AR2025",
+      "company": "Stora Enso Oyj",
+      "report_title": "Stora Enso Annual Report 2025",
+      "local_path": "data/raw/scale_batch_012/stora-enso-annual-report-2025.pdf",
+      "document_sha256": "00377e8fb8a6b2fc866d38a7f68e6cccd8099c9fe5f79be4da96d7f46bb4bbf0",
+      "pdf_pages": [
+        105
+      ],
+      "stratum": "required_slot_violation",
+      "candidate_predicate": "decrease_in_process_water_discharges_per_saleable_tonne_of_board_pulp_and_paper_",
+      "candidate_claim": "Stora Enso Oyj reported Decrease in process water discharges per saleable tonne of board, pulp, and paper by 17% by 2030 of 32.",
+      "candidate_evidence": {
+        "pdf_page": 105,
+        "quote": "32"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 1,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Boundary/method",
+          "Unit"
+        ]
+      },
+      "source_record_ids": [
+        "fact-003f41c694326d4855d210d7"
+      ]
+    },
+    {
+      "task_id": "E3-14-COMPOUND",
+      "report_index": 14,
+      "document_id": "KB-B012-STORA-ENSO-AR2025",
+      "company": "Stora Enso Oyj",
+      "report_title": "Stora Enso Annual Report 2025",
+      "local_path": "data/raw/scale_batch_012/stora-enso-annual-report-2025.pdf",
+      "document_sha256": "00377e8fb8a6b2fc866d38a7f68e6cccd8099c9fe5f79be4da96d7f46bb4bbf0",
+      "pdf_pages": [
+        105
+      ],
+      "stratum": "non_atomic_compound_claim",
+      "candidate_predicate": "compound_esg_claim",
+      "candidate_claim": "Stora Enso Oyj reported Decrease in process water discharges per saleable tonne of board, pulp, and paper by 17% by 2030 of 32 for 2025. Additionally, Stora Enso Oyj reported Continuous target on decreasing the trend for total water withdrawal per saleable tonne of 56 for 2025.",
+      "candidate_evidence": {
+        "pdf_page": 105,
+        "quote": "32"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 2,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-003f41c694326d4855d210d7",
+        "fact-9a328f6fb10792ea1f789497"
+      ]
+    },
+    {
+      "task_id": "E3-14-ABSTAIN",
+      "report_index": 14,
+      "document_id": "KB-B012-STORA-ENSO-AR2025",
+      "company": "Stora Enso Oyj",
+      "report_title": "Stora Enso Annual Report 2025",
+      "local_path": "data/raw/scale_batch_012/stora-enso-annual-report-2025.pdf",
+      "document_sha256": "00377e8fb8a6b2fc866d38a7f68e6cccd8099c9fe5f79be4da96d7f46bb4bbf0",
+      "pdf_pages": [
+        105
+      ],
+      "stratum": "abstention_audit",
+      "candidate_predicate": "no_promotable_atomic_fact",
+      "candidate_claim": "No trusted atomic fact should be admitted from this permitted page without a complete claim.",
+      "candidate_evidence": {
+        "pdf_page": 105,
+        "quote": "32"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": false,
+        "candidate_component_count": 0,
+        "required_slots": []
+      },
+      "source_record_ids": [
+        "fact-003f41c694326d4855d210d7"
+      ]
+    },
+    {
+      "task_id": "E3-15-CLEAN",
+      "report_index": 15,
+      "document_id": "KB-B013-WARTSILA-AR2025",
+      "company": "Wärtsilä Oyj Abp",
+      "report_title": "Wärtsilä Annual Report 2025",
+      "local_path": "data/raw/scale_batch_013/wartsila-annual-report-2025.pdf",
+      "document_sha256": "55737cdd163cb2c7077ef46afd42184debfd9a3116cb02b1f63ba5e53f20c3cb",
+      "pdf_pages": [
+        129
+      ],
+      "stratum": "clean_admissible_atomic_fact",
+      "candidate_predicate": "female",
+      "candidate_claim": "Wärtsilä Oyj Abp reported Female of 3553 for 2024.",
+      "candidate_evidence": {
+        "pdf_page": 129,
+        "quote": "3,553"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 1,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-0ee1084737cd7da770afa776"
+      ]
+    },
+    {
+      "task_id": "E3-15-PAGE",
+      "report_index": 15,
+      "document_id": "KB-B013-WARTSILA-AR2025",
+      "company": "Wärtsilä Oyj Abp",
+      "report_title": "Wärtsilä Annual Report 2025",
+      "local_path": "data/raw/scale_batch_013/wartsila-annual-report-2025.pdf",
+      "document_sha256": "55737cdd163cb2c7077ef46afd42184debfd9a3116cb02b1f63ba5e53f20c3cb",
+      "pdf_pages": [
+        129
+      ],
+      "stratum": "evidence_page_violation",
+      "candidate_predicate": "female",
+      "candidate_claim": "Wärtsilä Oyj Abp reported Female of 3553 for 2024.",
+      "candidate_evidence": {
+        "pdf_page": 10129,
+        "quote": "3,553"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 1,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-0ee1084737cd7da770afa776"
+      ]
+    },
+    {
+      "task_id": "E3-15-QUOTE",
+      "report_index": 15,
+      "document_id": "KB-B013-WARTSILA-AR2025",
+      "company": "Wärtsilä Oyj Abp",
+      "report_title": "Wärtsilä Annual Report 2025",
+      "local_path": "data/raw/scale_batch_013/wartsila-annual-report-2025.pdf",
+      "document_sha256": "55737cdd163cb2c7077ef46afd42184debfd9a3116cb02b1f63ba5e53f20c3cb",
+      "pdf_pages": [
+        129
+      ],
+      "stratum": "evidence_quote_violation",
+      "candidate_predicate": "female",
+      "candidate_claim": "Wärtsilä Oyj Abp reported Female of 3553 for 2024.",
+      "candidate_evidence": {
+        "pdf_page": 129,
+        "quote": "SUSTAINTRACE_E3_UNGROUNDED_15_QUOTE"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 1,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-0ee1084737cd7da770afa776"
+      ]
+    },
+    {
+      "task_id": "E3-15-SLOT",
+      "report_index": 15,
+      "document_id": "KB-B013-WARTSILA-AR2025",
+      "company": "Wärtsilä Oyj Abp",
+      "report_title": "Wärtsilä Annual Report 2025",
+      "local_path": "data/raw/scale_batch_013/wartsila-annual-report-2025.pdf",
+      "document_sha256": "55737cdd163cb2c7077ef46afd42184debfd9a3116cb02b1f63ba5e53f20c3cb",
+      "pdf_pages": [
+        129
+      ],
+      "stratum": "required_slot_violation",
+      "candidate_predicate": "female",
+      "candidate_claim": "Wärtsilä Oyj Abp reported Female of 3553.",
+      "candidate_evidence": {
+        "pdf_page": 129,
+        "quote": "3,553"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 1,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Boundary/method",
+          "Unit"
+        ]
+      },
+      "source_record_ids": [
+        "fact-0ee1084737cd7da770afa776"
+      ]
+    },
+    {
+      "task_id": "E3-15-COMPOUND",
+      "report_index": 15,
+      "document_id": "KB-B013-WARTSILA-AR2025",
+      "company": "Wärtsilä Oyj Abp",
+      "report_title": "Wärtsilä Annual Report 2025",
+      "local_path": "data/raw/scale_batch_013/wartsila-annual-report-2025.pdf",
+      "document_sha256": "55737cdd163cb2c7077ef46afd42184debfd9a3116cb02b1f63ba5e53f20c3cb",
+      "pdf_pages": [
+        129
+      ],
+      "stratum": "non_atomic_compound_claim",
+      "candidate_predicate": "compound_esg_claim",
+      "candidate_claim": "Wärtsilä Oyj Abp reported Female of 3553 for 2024. Additionally, Wärtsilä Oyj Abp reported Male of 14936 for 2025.",
+      "candidate_evidence": {
+        "pdf_page": 129,
+        "quote": "3,553"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 2,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-0ee1084737cd7da770afa776",
+        "fact-12b472bcdc555c98ae983e7a"
+      ]
+    },
+    {
+      "task_id": "E3-15-ABSTAIN",
+      "report_index": 15,
+      "document_id": "KB-B013-WARTSILA-AR2025",
+      "company": "Wärtsilä Oyj Abp",
+      "report_title": "Wärtsilä Annual Report 2025",
+      "local_path": "data/raw/scale_batch_013/wartsila-annual-report-2025.pdf",
+      "document_sha256": "55737cdd163cb2c7077ef46afd42184debfd9a3116cb02b1f63ba5e53f20c3cb",
+      "pdf_pages": [
+        129
+      ],
+      "stratum": "abstention_audit",
+      "candidate_predicate": "no_promotable_atomic_fact",
+      "candidate_claim": "No trusted atomic fact should be admitted from this permitted page without a complete claim.",
+      "candidate_evidence": {
+        "pdf_page": 129,
+        "quote": "3,553"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": false,
+        "candidate_component_count": 0,
+        "required_slots": []
+      },
+      "source_record_ids": [
+        "fact-0ee1084737cd7da770afa776"
+      ]
+    },
+    {
+      "task_id": "E3-16-CLEAN",
+      "report_index": 16,
+      "document_id": "KB-B014-ESSITY-AR2025",
+      "company": "Essity Aktiebolag (publ)",
+      "report_title": "Essity Annual Report 2025",
+      "local_path": "data/raw/scale_batch_014/essity-annual-report-2025.pdf",
+      "document_sha256": "95bb4e9968ebfe8350ad8bc6055f3fe5d204c2c53a23669cede94831559e63b7",
+      "pdf_pages": [
+        82
+      ],
+      "stratum": "clean_admissible_atomic_fact",
+      "candidate_predicate": "colombia",
+      "candidate_claim": "Essity Aktiebolag (publ) reported Colombia of 3561 for 2024.",
+      "candidate_evidence": {
+        "pdf_page": 82,
+        "quote": "3,561"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 1,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-05ded5c68f2cbe82c0d6ad19"
+      ]
+    },
+    {
+      "task_id": "E3-16-PAGE",
+      "report_index": 16,
+      "document_id": "KB-B014-ESSITY-AR2025",
+      "company": "Essity Aktiebolag (publ)",
+      "report_title": "Essity Annual Report 2025",
+      "local_path": "data/raw/scale_batch_014/essity-annual-report-2025.pdf",
+      "document_sha256": "95bb4e9968ebfe8350ad8bc6055f3fe5d204c2c53a23669cede94831559e63b7",
+      "pdf_pages": [
+        82
+      ],
+      "stratum": "evidence_page_violation",
+      "candidate_predicate": "colombia",
+      "candidate_claim": "Essity Aktiebolag (publ) reported Colombia of 3561 for 2024.",
+      "candidate_evidence": {
+        "pdf_page": 10082,
+        "quote": "3,561"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 1,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-05ded5c68f2cbe82c0d6ad19"
+      ]
+    },
+    {
+      "task_id": "E3-16-QUOTE",
+      "report_index": 16,
+      "document_id": "KB-B014-ESSITY-AR2025",
+      "company": "Essity Aktiebolag (publ)",
+      "report_title": "Essity Annual Report 2025",
+      "local_path": "data/raw/scale_batch_014/essity-annual-report-2025.pdf",
+      "document_sha256": "95bb4e9968ebfe8350ad8bc6055f3fe5d204c2c53a23669cede94831559e63b7",
+      "pdf_pages": [
+        82
+      ],
+      "stratum": "evidence_quote_violation",
+      "candidate_predicate": "colombia",
+      "candidate_claim": "Essity Aktiebolag (publ) reported Colombia of 3561 for 2024.",
+      "candidate_evidence": {
+        "pdf_page": 82,
+        "quote": "SUSTAINTRACE_E3_UNGROUNDED_16_QUOTE"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 1,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-05ded5c68f2cbe82c0d6ad19"
+      ]
+    },
+    {
+      "task_id": "E3-16-SLOT",
+      "report_index": 16,
+      "document_id": "KB-B014-ESSITY-AR2025",
+      "company": "Essity Aktiebolag (publ)",
+      "report_title": "Essity Annual Report 2025",
+      "local_path": "data/raw/scale_batch_014/essity-annual-report-2025.pdf",
+      "document_sha256": "95bb4e9968ebfe8350ad8bc6055f3fe5d204c2c53a23669cede94831559e63b7",
+      "pdf_pages": [
+        82
+      ],
+      "stratum": "required_slot_violation",
+      "candidate_predicate": "colombia",
+      "candidate_claim": "Essity Aktiebolag (publ) reported Colombia of 3561.",
+      "candidate_evidence": {
+        "pdf_page": 82,
+        "quote": "3,561"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 1,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Boundary/method",
+          "Unit"
+        ]
+      },
+      "source_record_ids": [
+        "fact-05ded5c68f2cbe82c0d6ad19"
+      ]
+    },
+    {
+      "task_id": "E3-16-COMPOUND",
+      "report_index": 16,
+      "document_id": "KB-B014-ESSITY-AR2025",
+      "company": "Essity Aktiebolag (publ)",
+      "report_title": "Essity Annual Report 2025",
+      "local_path": "data/raw/scale_batch_014/essity-annual-report-2025.pdf",
+      "document_sha256": "95bb4e9968ebfe8350ad8bc6055f3fe5d204c2c53a23669cede94831559e63b7",
+      "pdf_pages": [
+        68,
+        82
+      ],
+      "stratum": "non_atomic_compound_claim",
+      "candidate_predicate": "compound_esg_claim",
+      "candidate_claim": "Essity Aktiebolag (publ) reported Colombia of 3561 for 2024. Additionally, Essity Aktiebolag (publ) reported Scope 2, from purchased steam of 50 for 2025.",
+      "candidate_evidence": {
+        "pdf_page": 82,
+        "quote": "3,561"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 2,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-05ded5c68f2cbe82c0d6ad19",
+        "fact-1a9f7031feeda8ea1d27d5bd"
+      ]
+    },
+    {
+      "task_id": "E3-16-ABSTAIN",
+      "report_index": 16,
+      "document_id": "KB-B014-ESSITY-AR2025",
+      "company": "Essity Aktiebolag (publ)",
+      "report_title": "Essity Annual Report 2025",
+      "local_path": "data/raw/scale_batch_014/essity-annual-report-2025.pdf",
+      "document_sha256": "95bb4e9968ebfe8350ad8bc6055f3fe5d204c2c53a23669cede94831559e63b7",
+      "pdf_pages": [
+        82
+      ],
+      "stratum": "abstention_audit",
+      "candidate_predicate": "no_promotable_atomic_fact",
+      "candidate_claim": "No trusted atomic fact should be admitted from this permitted page without a complete claim.",
+      "candidate_evidence": {
+        "pdf_page": 82,
+        "quote": "3,561"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": false,
+        "candidate_component_count": 0,
+        "required_slots": []
+      },
+      "source_record_ids": [
+        "fact-05ded5c68f2cbe82c0d6ad19"
+      ]
+    },
+    {
+      "task_id": "E3-17-CLEAN",
+      "report_index": 17,
+      "document_id": "KB-B015-ARLA-AR2025",
+      "company": "Arla Foods amba",
+      "report_title": "Arla Foods Annual Report 2025",
+      "local_path": "data/raw/scale_batch_015/arla-annual-report-2025.pdf",
+      "document_sha256": "8c40632f70765f428b16534ca7403da8b8a47c2e81afecb71e5f9ec129ff059c",
+      "pdf_pages": [
+        47
+      ],
+      "stratum": "clean_admissible_atomic_fact",
+      "candidate_predicate": "renewable_sources",
+      "candidate_claim": "Arla Foods amba reported Renewable sources of 975 for 2025.",
+      "candidate_evidence": {
+        "pdf_page": 47,
+        "quote": "975"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 1,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-0b1ca7374489c9eaa4d31362"
+      ]
+    },
+    {
+      "task_id": "E3-17-PAGE",
+      "report_index": 17,
+      "document_id": "KB-B015-ARLA-AR2025",
+      "company": "Arla Foods amba",
+      "report_title": "Arla Foods Annual Report 2025",
+      "local_path": "data/raw/scale_batch_015/arla-annual-report-2025.pdf",
+      "document_sha256": "8c40632f70765f428b16534ca7403da8b8a47c2e81afecb71e5f9ec129ff059c",
+      "pdf_pages": [
+        47
+      ],
+      "stratum": "evidence_page_violation",
+      "candidate_predicate": "renewable_sources",
+      "candidate_claim": "Arla Foods amba reported Renewable sources of 975 for 2025.",
+      "candidate_evidence": {
+        "pdf_page": 10047,
+        "quote": "975"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 1,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-0b1ca7374489c9eaa4d31362"
+      ]
+    },
+    {
+      "task_id": "E3-17-QUOTE",
+      "report_index": 17,
+      "document_id": "KB-B015-ARLA-AR2025",
+      "company": "Arla Foods amba",
+      "report_title": "Arla Foods Annual Report 2025",
+      "local_path": "data/raw/scale_batch_015/arla-annual-report-2025.pdf",
+      "document_sha256": "8c40632f70765f428b16534ca7403da8b8a47c2e81afecb71e5f9ec129ff059c",
+      "pdf_pages": [
+        47
+      ],
+      "stratum": "evidence_quote_violation",
+      "candidate_predicate": "renewable_sources",
+      "candidate_claim": "Arla Foods amba reported Renewable sources of 975 for 2025.",
+      "candidate_evidence": {
+        "pdf_page": 47,
+        "quote": "SUSTAINTRACE_E3_UNGROUNDED_17_QUOTE"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 1,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-0b1ca7374489c9eaa4d31362"
+      ]
+    },
+    {
+      "task_id": "E3-17-SLOT",
+      "report_index": 17,
+      "document_id": "KB-B015-ARLA-AR2025",
+      "company": "Arla Foods amba",
+      "report_title": "Arla Foods Annual Report 2025",
+      "local_path": "data/raw/scale_batch_015/arla-annual-report-2025.pdf",
+      "document_sha256": "8c40632f70765f428b16534ca7403da8b8a47c2e81afecb71e5f9ec129ff059c",
+      "pdf_pages": [
+        47
+      ],
+      "stratum": "required_slot_violation",
+      "candidate_predicate": "renewable_sources",
+      "candidate_claim": "Arla Foods amba reported Renewable sources of 975.",
+      "candidate_evidence": {
+        "pdf_page": 47,
+        "quote": "975"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 1,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Boundary/method",
+          "Unit"
+        ]
+      },
+      "source_record_ids": [
+        "fact-0b1ca7374489c9eaa4d31362"
+      ]
+    },
+    {
+      "task_id": "E3-17-COMPOUND",
+      "report_index": 17,
+      "document_id": "KB-B015-ARLA-AR2025",
+      "company": "Arla Foods amba",
+      "report_title": "Arla Foods Annual Report 2025",
+      "local_path": "data/raw/scale_batch_015/arla-annual-report-2025.pdf",
+      "document_sha256": "8c40632f70765f428b16534ca7403da8b8a47c2e81afecb71e5f9ec129ff059c",
+      "pdf_pages": [
+        47,
+        59
+      ],
+      "stratum": "non_atomic_compound_claim",
+      "candidate_predicate": "compound_esg_claim",
+      "candidate_claim": "Arla Foods amba reported Renewable sources of 975 for 2025. Additionally, Arla Foods amba reported Reduction food waste (baseline: 2023) of 10.2 percent for 2025.",
+      "candidate_evidence": {
+        "pdf_page": 47,
+        "quote": "975"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 2,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-0b1ca7374489c9eaa4d31362",
+        "fact-114f2eb45d6efc88b95cc215"
+      ]
+    },
+    {
+      "task_id": "E3-17-ABSTAIN",
+      "report_index": 17,
+      "document_id": "KB-B015-ARLA-AR2025",
+      "company": "Arla Foods amba",
+      "report_title": "Arla Foods Annual Report 2025",
+      "local_path": "data/raw/scale_batch_015/arla-annual-report-2025.pdf",
+      "document_sha256": "8c40632f70765f428b16534ca7403da8b8a47c2e81afecb71e5f9ec129ff059c",
+      "pdf_pages": [
+        47
+      ],
+      "stratum": "abstention_audit",
+      "candidate_predicate": "no_promotable_atomic_fact",
+      "candidate_claim": "No trusted atomic fact should be admitted from this permitted page without a complete claim.",
+      "candidate_evidence": {
+        "pdf_page": 47,
+        "quote": "975"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": false,
+        "candidate_component_count": 0,
+        "required_slots": []
+      },
+      "source_record_ids": [
+        "fact-0b1ca7374489c9eaa4d31362"
+      ]
+    },
+    {
+      "task_id": "E3-18-CLEAN",
+      "report_index": 18,
+      "document_id": "KB-B015-FRESENIUS-AR2025",
+      "company": "Fresenius SE & Co. KGaA",
+      "report_title": "Fresenius Annual Report 2025",
+      "local_path": "data/raw/scale_batch_015/fresenius-annual-report-2025.pdf",
+      "document_sha256": "27c4589b96d7ff22a0acc6794b46f638c2ad76f016ba5a4675742f3110441c77",
+      "pdf_pages": [
+        249
+      ],
+      "stratum": "clean_admissible_atomic_fact",
+      "candidate_predicate": "spain",
+      "candidate_claim": "Fresenius SE & Co. KGaA reported Spain of 43530 for 2025.",
+      "candidate_evidence": {
+        "pdf_page": 249,
+        "quote": "43,530"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 1,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-02d3aaf47f4a3c53f80d856d"
+      ]
+    },
+    {
+      "task_id": "E3-18-PAGE",
+      "report_index": 18,
+      "document_id": "KB-B015-FRESENIUS-AR2025",
+      "company": "Fresenius SE & Co. KGaA",
+      "report_title": "Fresenius Annual Report 2025",
+      "local_path": "data/raw/scale_batch_015/fresenius-annual-report-2025.pdf",
+      "document_sha256": "27c4589b96d7ff22a0acc6794b46f638c2ad76f016ba5a4675742f3110441c77",
+      "pdf_pages": [
+        249
+      ],
+      "stratum": "evidence_page_violation",
+      "candidate_predicate": "spain",
+      "candidate_claim": "Fresenius SE & Co. KGaA reported Spain of 43530 for 2025.",
+      "candidate_evidence": {
+        "pdf_page": 10249,
+        "quote": "43,530"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 1,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-02d3aaf47f4a3c53f80d856d"
+      ]
+    },
+    {
+      "task_id": "E3-18-QUOTE",
+      "report_index": 18,
+      "document_id": "KB-B015-FRESENIUS-AR2025",
+      "company": "Fresenius SE & Co. KGaA",
+      "report_title": "Fresenius Annual Report 2025",
+      "local_path": "data/raw/scale_batch_015/fresenius-annual-report-2025.pdf",
+      "document_sha256": "27c4589b96d7ff22a0acc6794b46f638c2ad76f016ba5a4675742f3110441c77",
+      "pdf_pages": [
+        249
+      ],
+      "stratum": "evidence_quote_violation",
+      "candidate_predicate": "spain",
+      "candidate_claim": "Fresenius SE & Co. KGaA reported Spain of 43530 for 2025.",
+      "candidate_evidence": {
+        "pdf_page": 249,
+        "quote": "SUSTAINTRACE_E3_UNGROUNDED_18_QUOTE"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 1,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-02d3aaf47f4a3c53f80d856d"
+      ]
+    },
+    {
+      "task_id": "E3-18-SLOT",
+      "report_index": 18,
+      "document_id": "KB-B015-FRESENIUS-AR2025",
+      "company": "Fresenius SE & Co. KGaA",
+      "report_title": "Fresenius Annual Report 2025",
+      "local_path": "data/raw/scale_batch_015/fresenius-annual-report-2025.pdf",
+      "document_sha256": "27c4589b96d7ff22a0acc6794b46f638c2ad76f016ba5a4675742f3110441c77",
+      "pdf_pages": [
+        249
+      ],
+      "stratum": "required_slot_violation",
+      "candidate_predicate": "spain",
+      "candidate_claim": "Fresenius SE & Co. KGaA reported Spain of 43530.",
+      "candidate_evidence": {
+        "pdf_page": 249,
+        "quote": "43,530"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 1,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Boundary/method",
+          "Unit"
+        ]
+      },
+      "source_record_ids": [
+        "fact-02d3aaf47f4a3c53f80d856d"
+      ]
+    },
+    {
+      "task_id": "E3-18-COMPOUND",
+      "report_index": 18,
+      "document_id": "KB-B015-FRESENIUS-AR2025",
+      "company": "Fresenius SE & Co. KGaA",
+      "report_title": "Fresenius Annual Report 2025",
+      "local_path": "data/raw/scale_batch_015/fresenius-annual-report-2025.pdf",
+      "document_sha256": "27c4589b96d7ff22a0acc6794b46f638c2ad76f016ba5a4675742f3110441c77",
+      "pdf_pages": [
+        208,
+        249
+      ],
+      "stratum": "non_atomic_compound_claim",
+      "candidate_predicate": "compound_esg_claim",
+      "candidate_claim": "Fresenius SE & Co. KGaA reported Spain of 43530 for 2025. Additionally, Fresenius SE & Co. KGaA reported Total energy consumption per net revenue of 130 for 2025.",
+      "candidate_evidence": {
+        "pdf_page": 249,
+        "quote": "43,530"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 2,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-02d3aaf47f4a3c53f80d856d",
+        "fact-1593af08f447cf7b82c212bd"
+      ]
+    },
+    {
+      "task_id": "E3-18-ABSTAIN",
+      "report_index": 18,
+      "document_id": "KB-B015-FRESENIUS-AR2025",
+      "company": "Fresenius SE & Co. KGaA",
+      "report_title": "Fresenius Annual Report 2025",
+      "local_path": "data/raw/scale_batch_015/fresenius-annual-report-2025.pdf",
+      "document_sha256": "27c4589b96d7ff22a0acc6794b46f638c2ad76f016ba5a4675742f3110441c77",
+      "pdf_pages": [
+        249
+      ],
+      "stratum": "abstention_audit",
+      "candidate_predicate": "no_promotable_atomic_fact",
+      "candidate_claim": "No trusted atomic fact should be admitted from this permitted page without a complete claim.",
+      "candidate_evidence": {
+        "pdf_page": 249,
+        "quote": "43,530"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": false,
+        "candidate_component_count": 0,
+        "required_slots": []
+      },
+      "source_record_ids": [
+        "fact-02d3aaf47f4a3c53f80d856d"
+      ]
+    },
+    {
+      "task_id": "E3-19-CLEAN",
+      "report_index": 19,
+      "document_id": "KB-B015-UCB-IAR2025",
+      "company": "UCB SA/NV",
+      "report_title": "UCB Integrated Annual Report 2025",
+      "local_path": "data/raw/scale_batch_015/ucb-integrated-annual-report-2025.pdf",
+      "document_sha256": "2e2ff4cf9ee3ebced39312897fdd439139c767ac5d81d151257502dd428e154a",
+      "pdf_pages": [
+        60
+      ],
+      "stratum": "clean_admissible_atomic_fact",
+      "candidate_predicate": "based_per_net_revenue",
+      "candidate_claim": "UCB SA/NV reported based) per net revenue (tCO₂e/ m€) of 128.5 for 2024.",
+      "candidate_evidence": {
+        "pdf_page": 60,
+        "quote": "128.5"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 1,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-1c386b4f643f5b366efd989f"
+      ]
+    },
+    {
+      "task_id": "E3-19-PAGE",
+      "report_index": 19,
+      "document_id": "KB-B015-UCB-IAR2025",
+      "company": "UCB SA/NV",
+      "report_title": "UCB Integrated Annual Report 2025",
+      "local_path": "data/raw/scale_batch_015/ucb-integrated-annual-report-2025.pdf",
+      "document_sha256": "2e2ff4cf9ee3ebced39312897fdd439139c767ac5d81d151257502dd428e154a",
+      "pdf_pages": [
+        60
+      ],
+      "stratum": "evidence_page_violation",
+      "candidate_predicate": "based_per_net_revenue",
+      "candidate_claim": "UCB SA/NV reported based) per net revenue (tCO₂e/ m€) of 128.5 for 2024.",
+      "candidate_evidence": {
+        "pdf_page": 10060,
+        "quote": "128.5"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 1,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-1c386b4f643f5b366efd989f"
+      ]
+    },
+    {
+      "task_id": "E3-19-QUOTE",
+      "report_index": 19,
+      "document_id": "KB-B015-UCB-IAR2025",
+      "company": "UCB SA/NV",
+      "report_title": "UCB Integrated Annual Report 2025",
+      "local_path": "data/raw/scale_batch_015/ucb-integrated-annual-report-2025.pdf",
+      "document_sha256": "2e2ff4cf9ee3ebced39312897fdd439139c767ac5d81d151257502dd428e154a",
+      "pdf_pages": [
+        60
+      ],
+      "stratum": "evidence_quote_violation",
+      "candidate_predicate": "based_per_net_revenue",
+      "candidate_claim": "UCB SA/NV reported based) per net revenue (tCO₂e/ m€) of 128.5 for 2024.",
+      "candidate_evidence": {
+        "pdf_page": 60,
+        "quote": "SUSTAINTRACE_E3_UNGROUNDED_19_QUOTE"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 1,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-1c386b4f643f5b366efd989f"
+      ]
+    },
+    {
+      "task_id": "E3-19-SLOT",
+      "report_index": 19,
+      "document_id": "KB-B015-UCB-IAR2025",
+      "company": "UCB SA/NV",
+      "report_title": "UCB Integrated Annual Report 2025",
+      "local_path": "data/raw/scale_batch_015/ucb-integrated-annual-report-2025.pdf",
+      "document_sha256": "2e2ff4cf9ee3ebced39312897fdd439139c767ac5d81d151257502dd428e154a",
+      "pdf_pages": [
+        60
+      ],
+      "stratum": "required_slot_violation",
+      "candidate_predicate": "based_per_net_revenue",
+      "candidate_claim": "UCB SA/NV reported based) per net revenue (tCO₂e/ m€) of 128.5.",
+      "candidate_evidence": {
+        "pdf_page": 60,
+        "quote": "128.5"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 1,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Boundary/method",
+          "Unit"
+        ]
+      },
+      "source_record_ids": [
+        "fact-1c386b4f643f5b366efd989f"
+      ]
+    },
+    {
+      "task_id": "E3-19-COMPOUND",
+      "report_index": 19,
+      "document_id": "KB-B015-UCB-IAR2025",
+      "company": "UCB SA/NV",
+      "report_title": "UCB Integrated Annual Report 2025",
+      "local_path": "data/raw/scale_batch_015/ucb-integrated-annual-report-2025.pdf",
+      "document_sha256": "2e2ff4cf9ee3ebced39312897fdd439139c767ac5d81d151257502dd428e154a",
+      "pdf_pages": [
+        60,
+        90
+      ],
+      "stratum": "non_atomic_compound_claim",
+      "candidate_predicate": "compound_esg_claim",
+      "candidate_claim": "UCB SA/NV reported based) per net revenue (tCO₂e/ m€) of 128.5 for 2024. Additionally, UCB SA/NV reported accidents (TRIR) of 2.81 for 2024.",
+      "candidate_evidence": {
+        "pdf_page": 60,
+        "quote": "128.5"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 2,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-1c386b4f643f5b366efd989f",
+        "fact-202d6a563bef7b5ee9be6712"
+      ]
+    },
+    {
+      "task_id": "E3-19-ABSTAIN",
+      "report_index": 19,
+      "document_id": "KB-B015-UCB-IAR2025",
+      "company": "UCB SA/NV",
+      "report_title": "UCB Integrated Annual Report 2025",
+      "local_path": "data/raw/scale_batch_015/ucb-integrated-annual-report-2025.pdf",
+      "document_sha256": "2e2ff4cf9ee3ebced39312897fdd439139c767ac5d81d151257502dd428e154a",
+      "pdf_pages": [
+        60
+      ],
+      "stratum": "abstention_audit",
+      "candidate_predicate": "no_promotable_atomic_fact",
+      "candidate_claim": "No trusted atomic fact should be admitted from this permitted page without a complete claim.",
+      "candidate_evidence": {
+        "pdf_page": 60,
+        "quote": "128.5"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": false,
+        "candidate_component_count": 0,
+        "required_slots": []
+      },
+      "source_record_ids": [
+        "fact-1c386b4f643f5b366efd989f"
+      ]
+    },
+    {
+      "task_id": "E3-20-CLEAN",
+      "report_index": 20,
+      "document_id": "KB-B016-NOVONESIS-AR2025",
+      "company": "Novonesis (Novozymes A/S)",
+      "report_title": "Novonesis Annual Report 2025",
+      "local_path": "data/raw/scale_batch_016/novonesis-annual-report-2025.pdf",
+      "document_sha256": "dd3bf837735c9cd24760e717099568a0fe012707cb97536ca199e5e2ea98a2dc",
+      "pdf_pages": [
+        99
+      ],
+      "stratum": "clean_admissible_atomic_fact",
+      "candidate_predicate": "employees_covered_by_novonesis_health_and_safety_management_system",
+      "candidate_claim": "Novonesis (Novozymes A/S) reported Employees covered by Novonesis' health and safety management system of 100 percent for 2024.",
+      "candidate_evidence": {
+        "pdf_page": 99,
+        "quote": "100"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 1,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Unit",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-07abc603325ad20131a9e898"
+      ]
+    },
+    {
+      "task_id": "E3-20-PAGE",
+      "report_index": 20,
+      "document_id": "KB-B016-NOVONESIS-AR2025",
+      "company": "Novonesis (Novozymes A/S)",
+      "report_title": "Novonesis Annual Report 2025",
+      "local_path": "data/raw/scale_batch_016/novonesis-annual-report-2025.pdf",
+      "document_sha256": "dd3bf837735c9cd24760e717099568a0fe012707cb97536ca199e5e2ea98a2dc",
+      "pdf_pages": [
+        99
+      ],
+      "stratum": "evidence_page_violation",
+      "candidate_predicate": "employees_covered_by_novonesis_health_and_safety_management_system",
+      "candidate_claim": "Novonesis (Novozymes A/S) reported Employees covered by Novonesis' health and safety management system of 100 percent for 2024.",
+      "candidate_evidence": {
+        "pdf_page": 10099,
+        "quote": "100"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 1,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Unit",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-07abc603325ad20131a9e898"
+      ]
+    },
+    {
+      "task_id": "E3-20-QUOTE",
+      "report_index": 20,
+      "document_id": "KB-B016-NOVONESIS-AR2025",
+      "company": "Novonesis (Novozymes A/S)",
+      "report_title": "Novonesis Annual Report 2025",
+      "local_path": "data/raw/scale_batch_016/novonesis-annual-report-2025.pdf",
+      "document_sha256": "dd3bf837735c9cd24760e717099568a0fe012707cb97536ca199e5e2ea98a2dc",
+      "pdf_pages": [
+        99
+      ],
+      "stratum": "evidence_quote_violation",
+      "candidate_predicate": "employees_covered_by_novonesis_health_and_safety_management_system",
+      "candidate_claim": "Novonesis (Novozymes A/S) reported Employees covered by Novonesis' health and safety management system of 100 percent for 2024.",
+      "candidate_evidence": {
+        "pdf_page": 99,
+        "quote": "SUSTAINTRACE_E3_UNGROUNDED_20_QUOTE"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 1,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Unit",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-07abc603325ad20131a9e898"
+      ]
+    },
+    {
+      "task_id": "E3-20-SLOT",
+      "report_index": 20,
+      "document_id": "KB-B016-NOVONESIS-AR2025",
+      "company": "Novonesis (Novozymes A/S)",
+      "report_title": "Novonesis Annual Report 2025",
+      "local_path": "data/raw/scale_batch_016/novonesis-annual-report-2025.pdf",
+      "document_sha256": "dd3bf837735c9cd24760e717099568a0fe012707cb97536ca199e5e2ea98a2dc",
+      "pdf_pages": [
+        99
+      ],
+      "stratum": "required_slot_violation",
+      "candidate_predicate": "employees_covered_by_novonesis_health_and_safety_management_system",
+      "candidate_claim": "Novonesis (Novozymes A/S) reported Employees covered by Novonesis' health and safety management system of 100.",
+      "candidate_evidence": {
+        "pdf_page": 99,
+        "quote": "100"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 1,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Unit",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-07abc603325ad20131a9e898"
+      ]
+    },
+    {
+      "task_id": "E3-20-COMPOUND",
+      "report_index": 20,
+      "document_id": "KB-B016-NOVONESIS-AR2025",
+      "company": "Novonesis (Novozymes A/S)",
+      "report_title": "Novonesis Annual Report 2025",
+      "local_path": "data/raw/scale_batch_016/novonesis-annual-report-2025.pdf",
+      "document_sha256": "dd3bf837735c9cd24760e717099568a0fe012707cb97536ca199e5e2ea98a2dc",
+      "pdf_pages": [
+        99
+      ],
+      "stratum": "non_atomic_compound_claim",
+      "candidate_predicate": "compound_esg_claim",
+      "candidate_claim": "Novonesis (Novozymes A/S) reported Employees covered by Novonesis' health and safety management system of 100 percent for 2024. Additionally, Novonesis (Novozymes A/S) reported Lost Time Injury Frequency (LTIF) with absence per million working hours of 1.4 Rate for 2025.",
+      "candidate_evidence": {
+        "pdf_page": 99,
+        "quote": "100"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": true,
+        "candidate_component_count": 2,
+        "required_slots": [
+          "Subject",
+          "Predicate",
+          "Value",
+          "Period",
+          "Evidence coordinates",
+          "Unit",
+          "Boundary/method"
+        ]
+      },
+      "source_record_ids": [
+        "fact-07abc603325ad20131a9e898",
+        "fact-7bdc7e0f43e0729ad7985fbf"
+      ]
+    },
+    {
+      "task_id": "E3-20-ABSTAIN",
+      "report_index": 20,
+      "document_id": "KB-B016-NOVONESIS-AR2025",
+      "company": "Novonesis (Novozymes A/S)",
+      "report_title": "Novonesis Annual Report 2025",
+      "local_path": "data/raw/scale_batch_016/novonesis-annual-report-2025.pdf",
+      "document_sha256": "dd3bf837735c9cd24760e717099568a0fe012707cb97536ca199e5e2ea98a2dc",
+      "pdf_pages": [
+        99
+      ],
+      "stratum": "abstention_audit",
+      "candidate_predicate": "no_promotable_atomic_fact",
+      "candidate_claim": "No trusted atomic fact should be admitted from this permitted page without a complete claim.",
+      "candidate_evidence": {
+        "pdf_page": 99,
+        "quote": "100"
+      },
+      "instruction": "Judge this candidate only from the permitted source window and return the frozen executable decision contract.",
+      "admission_contract": {
+        "allow_admission": false,
+        "candidate_component_count": 0,
+        "required_slots": []
+      },
+      "source_record_ids": [
+        "fact-07abc603325ad20131a9e898"
+      ]
+    }
+  ],
+  "attempt_policy": {
+    "model_calls_per_task": 1,
+    "silent_retry": false,
+    "posthoc_semantic_repair": false,
+    "infrastructure_resume_requires_checkpoint": true
+  },
+  "cloud_authorization": {
+    "status": "required_before_transmission",
+    "authorized_models": []
+  },
+  "self_sha256": "55af861da3de345041caad2827465d7facc28f89dd8782e79d33e94e9531eab9"
+}

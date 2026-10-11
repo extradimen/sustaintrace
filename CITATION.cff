@@ -5,8 +5,11 @@ type: software
 authors:
   - family-names: "Wang"
     given-names: "Michael"
+  - family-names: "Jiang"
+    given-names: "Yan"
 version: 0.1.0
-date-released: 2026-09-17
+date-released: 2026-10-11
+doi: 10.5281/zenodo.23293034
 license: Apache-2.0
 repository-code: "https://github.com/extradimen/sustaintrace"
-url: "https://github.com/extradimen/sustaintrace"
+url: "https://doi.org/10.5281/zenodo.23293034"

@@ -14,6 +14,10 @@ build/
 *.egg-info/
 *.pdf
 
+# Local publication workspace. The curated, distributable manuscript and
+# evaluation evidence live in paper/ and evaluation/.
+/publication/
+
 # Credentials and local machine state
 secrets/
 *.key
@@ -28,6 +32,9 @@ data/interim/
 data/install/
 data/operations/
 data/workbench/
+data/results/softwarex_comparative_e1/
+data/results/softwarex_comparative_e2/
+data/results/softwarex_comparative_e3/
 models/
 artifacts/
 output/

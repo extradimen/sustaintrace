@@ -1,0 +1,33 @@
+{
+  "title": "SustainTrace: Evidence-Grounded ESG Knowledge Discovery and Controlled Repair",
+  "upload_type": "software",
+  "description": "SustainTrace is a local-first, auditable ESG knowledge infrastructure that converts corporate reports into atomic evidence-linked facts, preserves typed extraction failures as reusable method knowledge, and controls repair and promotion through deterministic validation and human-gated admission.",
+  "creators": [
+    {
+      "name": "Wang, Michael"
+    },
+    {
+      "name": "Jiang, Yan"
+    }
+  ],
+  "version": "0.1.0",
+  "doi": "10.5281/zenodo.23293034",
+  "publication_date": "2026-10-11",
+  "access_right": "open",
+  "license": "Apache-2.0",
+  "keywords": [
+    "ESG reporting",
+    "knowledge extraction",
+    "document intelligence",
+    "provenance",
+    "controlled repair",
+    "trustworthy AI"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/extradimen/sustaintrace",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}
