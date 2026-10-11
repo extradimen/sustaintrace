@@ -185,7 +185,7 @@ workspace.
 
 | Item | Value |
 |---|---|
-| Current version | 0.1.0 |
+| Current version | 0.1.1 |
 | Source repository | <https://github.com/extradimen/sustaintrace> |
 | Reproducible archive | <https://doi.org/10.5281/zenodo.23293034> |
 | License | Apache License 2.0 |

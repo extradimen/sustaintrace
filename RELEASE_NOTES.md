@@ -1,6 +1,6 @@
-# SustainTrace 0.1.0
+# SustainTrace 0.1.1
 
-SustainTrace 0.1.0 is the first immutable public research-software release.
+SustainTrace 0.1.1 is the SoftwareX-aligned immutable public research-software release.
 
 Permanent archive DOI: <https://doi.org/10.5281/zenodo.23293034>
 

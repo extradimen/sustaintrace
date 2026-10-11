@@ -7,7 +7,7 @@ authors:
     given-names: "Michael"
   - family-names: "Jiang"
     given-names: "Yan"
-version: 0.1.0
+version: 0.1.1
 date-released: 2026-10-11
 doi: 10.5281/zenodo.23293034
 license: Apache-2.0
