@@ -1,0 +1,10 @@
+{
+  "schema_version": "1.0",
+  "status": "complete",
+  "slot_decisions": 134,
+  "task_level_adjudications": 49,
+  "completed_supplement_sha256": "63e6c72926a4d026db9ec303f516ec7b2eb806977e46e4918df0b90a8a4d0fbc",
+  "gold_sha256": "6c41f04bc4df8574f62eec54ae24376b8571fcbb387f64d50896f6ef35ff0f7c",
+  "metrics_sha256": "dd3c5575df8f58de371ddd21ecd5b7aab6285aa26e6462bc5437b5e40a056a4f",
+  "results_report_sha256": "cfd2788e7630a737d8e5975947ab066f103cf04fd936fb2fda42e2c79874f1b7"
+}

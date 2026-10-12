@@ -1,0 +1,73 @@
+{
+  "fact_write_performed": false,
+  "historical_experiments_rerun": false,
+  "historical_results_rescored": false,
+  "outputs": [
+    {
+      "path": "publication/softwarex/repair_validation/SustainTrace_RQ3_Repair_Evidence_Metrics_v1.0.lock.json",
+      "sha256": "ab7a72b060323fa32b5bb9fd47701a460cc501f5d8d2ff802a6465d6783d14da"
+    },
+    {
+      "path": "publication/softwarex/repair_validation/SustainTrace_RQ3_Repair_Evidence_Cases_v1.0.csv",
+      "sha256": "70325fd9e2dabe05d432336bb5b2a8d29d50d4f8583df81c1de04b2a85f6869e"
+    },
+    {
+      "path": "publication/softwarex/repair_validation/SustainTrace_RQ3_Repair_Evidence_Report_v1.0.md",
+      "sha256": "55f163f7a27e1f5c0d90019a6a4cecd56c40a4db1fea11d3145aa92b784afd26"
+    }
+  ],
+  "record_kind": "softwarex_rq3_repair_evidence_completion",
+  "schema_version": "1.0",
+  "source_artifacts": [
+    {
+      "path": "artifacts/unseen_repair_component_validation_v0.1/validation_summary.lock.json",
+      "sha256": "8701280d8f8e0a2f6d7ffdc396a9c59449dea9498a9facfec40e15a6a8cefb63"
+    },
+    {
+      "path": "data/manifests/unseen_repair_component_validation_v0.1.lock.json",
+      "sha256": "f3d5a11d99a5a48549155a8dbe8ed361d77402236c92434eb02ca0715c19b27b"
+    },
+    {
+      "path": "artifacts/second_unseen_adapter_validation_v0.1/validation_summary.lock.json",
+      "sha256": "99acb572a5a5a5d00b9af9c9815604ef7a85c0c2861647677605de44ff811c23"
+    },
+    {
+      "path": "data/manifests/second_unseen_adapter_validation_v0.1.lock.json",
+      "sha256": "b0089ac57390d2076e1f5b267ea8cfddc76fa000aececc3ae303d97d8b35206e"
+    },
+    {
+      "path": "artifacts/third_unseen_adapter_validation_v0.1/validation_summary.lock.json",
+      "sha256": "640188dbe0cfea5fd20cefe9bd55383c74f8990204692db2cd603f5fcdc39f55"
+    },
+    {
+      "path": "data/manifests/third_unseen_adapter_validation_v0.1.lock.json",
+      "sha256": "198931b3737472a67f40ee924fa86663e3024021cc99e96c379b86d394bef262"
+    },
+    {
+      "path": "artifacts/fourth_unseen_adapter_validation_v0.1/validation_summary.lock.json",
+      "sha256": "f8c3b2aee9da5b90f4e48026658c31826e5fae4652b221849056f6957e974d1b"
+    },
+    {
+      "path": "data/manifests/fourth_unseen_adapter_validation_v0.1.lock.json",
+      "sha256": "69b23d2d51306811f5920a756bc25b2bba10aa081ed0a66c2a1ddd18ea677749"
+    },
+    {
+      "path": "data/knowledge_bases/v0.1/repair_execution_states.jsonl",
+      "sha256": "4611c1c307bf24c17534b60614067d5e6e9865e96ee5dfc829171fb6d1c62631"
+    },
+    {
+      "path": "data/knowledge_bases/v0.1/repair_execution_events.jsonl",
+      "sha256": "9a777b2dbdd98c76445d07637b5492149aea2dbfbe09658b63b3318cc3b8a2dd"
+    },
+    {
+      "path": "data/knowledge_bases/v0.1/repair_execution_regression_failures.jsonl",
+      "sha256": "092beef7086ac7828c17688e228a6c75c2bfd8c7d6a3a91a3ece567534c2b4d5"
+    },
+    {
+      "path": "data/knowledge_bases/v0.1/repair_execution_closure_summary.lock.json",
+      "sha256": "a62d03706eaf0d9641dfe5b5ef3a79ee3aab6b64569189f393e5b3178f93f8dd"
+    }
+  ],
+  "status": "complete",
+  "trust_promotion_performed": false
+}

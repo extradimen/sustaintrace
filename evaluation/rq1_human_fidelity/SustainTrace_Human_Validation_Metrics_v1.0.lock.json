@@ -1,0 +1,430 @@
+{
+  "schema_version": "1.0",
+  "benchmark_id": "SUSTAINTRACE-SOFTX-HUMAN-VALIDATION-v1.0",
+  "status": "human_validation_statistics_complete_rq1_rq2_rq3_engineering_scope_limited",
+  "input_gold_sha256": "6c41f04bc4df8574f62eec54ae24376b8571fcbb387f64d50896f6ef35ff0f7c",
+  "inventory": {
+    "reports": 20,
+    "tasks": 60,
+    "task_level_adjudications": 49,
+    "slot_adjudications": 134,
+    "invalid_tasks": 0
+  },
+  "inter_annotator_agreement": {
+    "support": {
+      "n": 60,
+      "raw_agreement": 0.566667,
+      "cohen_kappa": 0.327006,
+      "labels": [
+        "cannot_assess",
+        "fully_supported",
+        "partially_supported",
+        "unsupported"
+      ]
+    },
+    "knowledge_base_action": {
+      "n": 60,
+      "raw_agreement": 0.583333,
+      "cohen_kappa": 0.431172,
+      "labels": [
+        "abstain_or_conflict",
+        "admit",
+        "correct_then_review",
+        "reject"
+      ]
+    },
+    "all_slots": {
+      "n": 420,
+      "raw_agreement": 0.680952,
+      "cohen_kappa": 0.456058,
+      "labels": [
+        "N",
+        "NA",
+        "Y"
+      ]
+    },
+    "candidate_task_slots": {
+      "n": 280,
+      "raw_agreement": 0.757143,
+      "cohen_kappa": 0.525719,
+      "labels": [
+        "N",
+        "NA",
+        "Y"
+      ]
+    },
+    "by_slot_candidate_tasks": {
+      "Subject": {
+        "n": 40,
+        "raw_agreement": 0.625,
+        "cohen_kappa": 0.167822,
+        "labels": [
+          "N",
+          "NA",
+          "Y"
+        ]
+      },
+      "Predicate": {
+        "n": 40,
+        "raw_agreement": 0.95,
+        "cohen_kappa": 0.722222,
+        "labels": [
+          "N",
+          "Y"
+        ]
+      },
+      "Value": {
+        "n": 40,
+        "raw_agreement": 0.825,
+        "cohen_kappa": 0.681818,
+        "labels": [
+          "N",
+          "NA",
+          "Y"
+        ]
+      },
+      "Period": {
+        "n": 40,
+        "raw_agreement": 0.55,
+        "cohen_kappa": 0.369527,
+        "labels": [
+          "N",
+          "NA",
+          "Y"
+        ]
+      },
+      "Unit": {
+        "n": 40,
+        "raw_agreement": 0.775,
+        "cohen_kappa": 0.617428,
+        "labels": [
+          "N",
+          "NA",
+          "Y"
+        ]
+      },
+      "Boundary/method": {
+        "n": 40,
+        "raw_agreement": 0.6,
+        "cohen_kappa": 0.174194,
+        "labels": [
+          "N",
+          "NA",
+          "Y"
+        ]
+      },
+      "Evidence coordinates": {
+        "n": 40,
+        "raw_agreement": 0.975,
+        "cohen_kappa": 0.0,
+        "labels": [
+          "N",
+          "Y"
+        ]
+      }
+    }
+  },
+  "final_distributions": {
+    "support": {
+      "fully_supported": 27,
+      "partially_supported": 20,
+      "unsupported": 13
+    },
+    "knowledge_base_action": {
+      "abstain_or_conflict": 7,
+      "admit": 16,
+      "correct_then_review": 33,
+      "reject": 4
+    }
+  },
+  "rq1_knowledge_fidelity": {
+    "candidate_tasks": 40,
+    "exact_claim_fully_supported": {
+      "numerator": 20,
+      "denominator": 40,
+      "estimate": 0.5,
+      "report_clustered_bootstrap_95_ci": [
+        0.375,
+        0.65
+      ],
+      "bootstrap_repetitions": 10000,
+      "bootstrap_seed": 20260921
+    },
+    "at_least_partially_supported": {
+      "numerator": 40,
+      "denominator": 40,
+      "estimate": 1.0,
+      "report_clustered_bootstrap_95_ci": [
+        1.0,
+        1.0
+      ],
+      "bootstrap_repetitions": 10000,
+      "bootstrap_seed": 20260921
+    },
+    "applicable_slot_exactness": {
+      "numerator": 177,
+      "denominator": 220,
+      "estimate": 0.804545,
+      "report_clustered_bootstrap_95_ci": [
+        0.736036,
+        0.866667
+      ],
+      "bootstrap_repetitions": 10000,
+      "bootstrap_seed": 20260921
+    },
+    "evidence_coordinate_exactness": {
+      "numerator": 40,
+      "denominator": 40,
+      "estimate": 1.0,
+      "report_clustered_bootstrap_95_ci": [
+        1.0,
+        1.0
+      ],
+      "bootstrap_repetitions": 10000,
+      "bootstrap_seed": 20260921
+    },
+    "by_stratum": {
+      "direct_claim": {
+        "tasks": 20,
+        "support_distribution": {
+          "fully_supported": 12,
+          "partially_supported": 8
+        },
+        "exact_claim_fully_supported": {
+          "numerator": 12,
+          "denominator": 20,
+          "estimate": 0.6,
+          "report_clustered_bootstrap_95_ci": [
+            0.4,
+            0.8
+          ],
+          "bootstrap_repetitions": 10000,
+          "bootstrap_seed": 20260921
+        },
+        "applicable_slot_exactness": {
+          "numerator": 83,
+          "denominator": 103,
+          "estimate": 0.805825,
+          "report_clustered_bootstrap_95_ci": [
+            0.701031,
+            0.891089
+          ],
+          "bootstrap_repetitions": 10000,
+          "bootstrap_seed": 20260921
+        }
+      },
+      "complex_claim": {
+        "tasks": 20,
+        "support_distribution": {
+          "fully_supported": 8,
+          "partially_supported": 12
+        },
+        "exact_claim_fully_supported": {
+          "numerator": 8,
+          "denominator": 20,
+          "estimate": 0.4,
+          "report_clustered_bootstrap_95_ci": [
+            0.2,
+            0.6
+          ],
+          "bootstrap_repetitions": 10000,
+          "bootstrap_seed": 20260921
+        },
+        "applicable_slot_exactness": {
+          "numerator": 94,
+          "denominator": 117,
+          "estimate": 0.803419,
+          "report_clustered_bootstrap_95_ci": [
+            0.711712,
+            0.888
+          ],
+          "bootstrap_repetitions": 10000,
+          "bootstrap_seed": 20260921
+        }
+      }
+    },
+    "by_slot": {
+      "Subject": {
+        "numerator": 22,
+        "denominator": 39,
+        "estimate": 0.564103,
+        "report_clustered_bootstrap_95_ci": [
+          0.4,
+          0.725
+        ],
+        "bootstrap_repetitions": 10000,
+        "bootstrap_seed": 20260921
+      },
+      "Predicate": {
+        "numerator": 36,
+        "denominator": 40,
+        "estimate": 0.9,
+        "report_clustered_bootstrap_95_ci": [
+          0.8,
+          0.975
+        ],
+        "bootstrap_repetitions": 10000,
+        "bootstrap_seed": 20260921
+      },
+      "Value": {
+        "numerator": 17,
+        "denominator": 17,
+        "estimate": 1.0,
+        "report_clustered_bootstrap_95_ci": [
+          1.0,
+          1.0
+        ],
+        "bootstrap_repetitions": 10000,
+        "bootstrap_seed": 20260921
+      },
+      "Period": {
+        "numerator": 20,
+        "denominator": 32,
+        "estimate": 0.625,
+        "report_clustered_bootstrap_95_ci": [
+          0.413793,
+          0.8125
+        ],
+        "bootstrap_repetitions": 10000,
+        "bootstrap_seed": 20260921
+      },
+      "Unit": {
+        "numerator": 14,
+        "denominator": 17,
+        "estimate": 0.823529,
+        "report_clustered_bootstrap_95_ci": [
+          0.642857,
+          1.0
+        ],
+        "bootstrap_repetitions": 10000,
+        "bootstrap_seed": 20260921
+      },
+      "Boundary/method": {
+        "numerator": 28,
+        "denominator": 35,
+        "estimate": 0.8,
+        "report_clustered_bootstrap_95_ci": [
+          0.6875,
+          0.911765
+        ],
+        "bootstrap_repetitions": 10000,
+        "bootstrap_seed": 20260921
+      },
+      "Evidence coordinates": {
+        "numerator": 40,
+        "denominator": 40,
+        "estimate": 1.0,
+        "report_clustered_bootstrap_95_ci": [
+          1.0,
+          1.0
+        ],
+        "bootstrap_repetitions": 10000,
+        "bootstrap_seed": 20260921
+      }
+    }
+  },
+  "rq2_reliability_control": {
+    "promoted_tier_b_candidates": 3,
+    "knowledge_admission_precision": {
+      "numerator": 2,
+      "denominator": 3,
+      "estimate": 0.666667,
+      "report_clustered_bootstrap_95_ci": [
+        0.0,
+        1.0
+      ],
+      "bootstrap_repetitions": 10000,
+      "bootstrap_seed": 20260921
+    },
+    "unsafe_admission_rate": {
+      "numerator": 0,
+      "denominator": 3,
+      "estimate": 0.0,
+      "report_clustered_bootstrap_95_ci": [
+        0.0,
+        0.0
+      ],
+      "bootstrap_repetitions": 10000,
+      "bootstrap_seed": 20260921
+    },
+    "promotion_requiring_correction_rate": {
+      "numerator": 1,
+      "denominator": 3,
+      "estimate": 0.333333,
+      "report_clustered_bootstrap_95_ci": [
+        0.0,
+        1.0
+      ],
+      "bootstrap_repetitions": 10000,
+      "bootstrap_seed": 20260921
+    },
+    "false_abstention_rate": {
+      "numerator": 13,
+      "denominator": 20,
+      "estimate": 0.65,
+      "report_clustered_bootstrap_95_ci": [
+        0.45,
+        0.85
+      ],
+      "bootstrap_repetitions": 10000,
+      "bootstrap_seed": 20260921
+    },
+    "correct_abstention_rate": {
+      "numerator": 7,
+      "denominator": 20,
+      "estimate": 0.35,
+      "report_clustered_bootstrap_95_ci": [
+        0.15,
+        0.55
+      ],
+      "bootstrap_repetitions": 10000,
+      "bootstrap_seed": 20260921
+    },
+    "held_tier_c_candidates": 37,
+    "human_admissible_share_among_held_candidates": {
+      "numerator": 14,
+      "denominator": 37,
+      "estimate": 0.378378,
+      "report_clustered_bootstrap_95_ci": [
+        0.236842,
+        0.527778
+      ],
+      "bootstrap_repetitions": 10000,
+      "bootstrap_seed": 20260921
+    },
+    "promotion_coverage_of_human_admissible_candidates": {
+      "numerator": 2,
+      "denominator": 16,
+      "estimate": 0.125,
+      "report_clustered_bootstrap_95_ci": [
+        0.0,
+        0.294118
+      ],
+      "bootstrap_repetitions": 10000,
+      "bootstrap_seed": 20260921
+    }
+  },
+  "rq3_controlled_repair": {
+    "scope_note": "Engineering control test only: four frozen executions concern one parent record and do not establish broad repair effectiveness.",
+    "executions": 4,
+    "state_distribution": {
+      "blocked_preflight": 1,
+      "promoted": 1,
+      "rolled_back": 2
+    },
+    "safe_terminal_control_rate": {
+      "numerator": 4,
+      "denominator": 4,
+      "estimate": 1.0
+    },
+    "promotion_count": 1,
+    "postvalidation_rollback_count": 2,
+    "preflight_block_count": 1,
+    "locked_experiments_modified_or_rescored": false
+  },
+  "interpretation_constraints": [
+    "The benchmark contains 20 reports and 60 bounded tasks; report-clustered intervals reflect this sample only.",
+    "Tier C is a held candidate state rather than a final rejection; its human-admissible share measures conservatism, not classical false-negative error.",
+    "RQ3 has four execution-control cases on one parent record and must not be described as broad repair-effectiveness validation."
+  ]
+}

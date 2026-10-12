@@ -1,0 +1,1693 @@
+{
+  "schema_version": "1.0",
+  "benchmark_id": "SUSTAINTRACE-SOFTX-HUMAN-VALIDATION-v1.0",
+  "status": "frozen_before_human_annotation",
+  "design": {
+    "annotators": 2,
+    "adjudicators": 1,
+    "reports": 20,
+    "tasks": 60,
+    "strata": {
+      "direct_claim": 20,
+      "complex_claim": 20,
+      "abstention_audit": 20
+    },
+    "annotator_a_order": "report_order_D_C_A",
+    "annotator_b_order": "deterministic_shuffle_seed_20260920"
+  },
+  "protocol": {
+    "path": "publication/softwarex/human_validation/SustainTrace_Human_Validation_Protocol_v1.0.md",
+    "sha256": "193dc05846f5d8e0cb46c2001a8080dbe2b4c87d069fb78c92c20f61ed4606d8"
+  },
+  "reports": [
+    {
+      "document_id": "KB-B023-CRH-SPR2025",
+      "company": "CRH plc",
+      "title": "CRH Sustainability Performance Report 2025",
+      "local_path": "data/raw/scale_batch_023/crh-sustainability-performance-report-2025.pdf",
+      "sha256": "838c40c5c4a2bf8ebfb225d5f6579e38de4565efad44d91ce6fd456dea3ef9ba",
+      "file_size_bytes": 12177460
+    },
+    {
+      "document_id": "KB-B023-ARKEMA-URD2025",
+      "company": "Arkema S.A.",
+      "title": "Arkema Universal Registration Document 2025",
+      "local_path": "data/raw/scale_batch_023/arkema-universal-registration-document-2025.pdf",
+      "sha256": "de11061374f70634028b7ffc561e33f93d2f69bf26043888f09be18a8f4f1632",
+      "file_size_bytes": 15306396
+    },
+    {
+      "document_id": "KB-B024-FORTUM-FIN2025",
+      "company": "Fortum Oyj",
+      "title": "Fortum Financials 2025",
+      "local_path": "data/raw/scale_batch_024/fortum-financials-2025.pdf",
+      "sha256": "0f348698addddf27181efe6c999fe17f4ca4390c510e97ce192d254c029764ce",
+      "file_size_bytes": 12403590
+    },
+    {
+      "document_id": "KB-B024-YARA-AR2025",
+      "company": "Yara International ASA",
+      "title": "Yara Annual Report 2025",
+      "local_path": "data/raw/scale_batch_024/yara-annual-report-2025.pdf",
+      "sha256": "95ecc7a0b18ca97ee9d579bc3799ed58052a31584ef6b21ac55d466aa77ce5d2",
+      "file_size_bytes": 7728369
+    },
+    {
+      "document_id": "KB-B025-EQUINOR-AR2025",
+      "company": "Equinor ASA",
+      "title": "Equinor Annual Report 2025",
+      "local_path": "data/raw/scale_batch_025/equinor-annual-report-2025.pdf",
+      "sha256": "4266bb0b2f31bb9a8cc2ed11248cd579e0f98bb3c81fcffaf5c93a89e62e5d98",
+      "file_size_bytes": 42926499
+    },
+    {
+      "document_id": "KB-B025-AKERBP-AR2025",
+      "company": "Aker BP ASA",
+      "title": "Aker BP Annual Report 2025",
+      "local_path": "data/raw/scale_batch_025/aker-bp-annual-report-2025.pdf",
+      "sha256": "c5afca29558be6e5daf6cf8e31b378fdd2542bd29b847f3ec96fce10172a1a15",
+      "file_size_bytes": 10125984
+    },
+    {
+      "document_id": "KB-B025-DNB-AR2025",
+      "company": "DNB Bank ASA",
+      "title": "DNB Group Annual Report 2025",
+      "local_path": "data/raw/scale_batch_025/dnb-annual-report-2025.pdf",
+      "sha256": "e793bbb20582975be0ee87825cafe7d05ad8e80f986f446d8cbfad7e2c84c125",
+      "file_size_bytes": 11287883
+    },
+    {
+      "document_id": "KB-B026-STOREBRAND-AR2025",
+      "company": "Storebrand ASA",
+      "title": "Storebrand ASA Annual Report 2025",
+      "local_path": "data/raw/scale_batch_026/storebrand-annual-report-2025.pdf",
+      "sha256": "56ae30f6f6d5ee245602de45a2f7292e42e13f748a996da0c3f15c4cd2e160b3",
+      "file_size_bytes": 10596211
+    },
+    {
+      "document_id": "KB-B026-ORKLA-AR2025",
+      "company": "Orkla ASA",
+      "title": "Orkla Annual Report 2025",
+      "local_path": "data/raw/scale_batch_026/orkla-annual-report-2025.pdf",
+      "sha256": "1ac3c951a126ac27733bdae3114237abcbeca4f568f881266ac8ae673239e271",
+      "file_size_bytes": 125973147
+    },
+    {
+      "document_id": "KB-B026-SEB-AR2025",
+      "company": "Skandinaviska Enskilda Banken AB (publ)",
+      "title": "SEB Annual Report 2025",
+      "local_path": "data/raw/scale_batch_026/seb-annual-report-2025.pdf",
+      "sha256": "1bf07071afbab0269914a1a78d16e4e840e73e5efbe901af97b148d288b28083",
+      "file_size_bytes": 14348731
+    },
+    {
+      "document_id": "KB-B027-NORDEA-AR2025",
+      "company": "Nordea Bank Abp",
+      "title": "Nordea Annual Report 2025",
+      "local_path": "data/raw/scale_batch_027/nordea-annual-report-2025.pdf",
+      "sha256": "cce7c2004fbeca8b652ea9977be08500c1297c0cd307349bd016c1dc4de11e1e",
+      "file_size_bytes": 16126401
+    },
+    {
+      "document_id": "KB-B027-HANDELSBANKEN-AR2025",
+      "company": "Svenska Handelsbanken AB (publ)",
+      "title": "Handelsbanken Annual Report 2025",
+      "local_path": "data/raw/scale_batch_027/handelsbanken-annual-report-2025.pdf",
+      "sha256": "8679cdb160d9603f970eb6251546c8e6a1d98813a493bc4605f26cb933d88717",
+      "file_size_bytes": 6507972
+    },
+    {
+      "document_id": "KB-B027-SECURITAS-AR2025",
+      "company": "Securitas AB (publ)",
+      "title": "Securitas Annual Report 2025",
+      "local_path": "data/raw/scale_batch_027/securitas-annual-report-2025.pdf",
+      "sha256": "e5d82427641d2dae5ed6f0bbe5c075827382c9bb5a2064a0aa3b4ec8a3991f95",
+      "file_size_bytes": 10053261
+    },
+    {
+      "document_id": "KB-B028-TELIA-AR2025",
+      "company": "Telia Company AB (publ)",
+      "title": "Telia Annual Report 2025",
+      "local_path": "data/raw/scale_batch_028/telia-annual-report-2025.pdf",
+      "sha256": "572c00695eca26b8bea90e2c9d0cdaaeaddf845f2851969c4f9c9d2cba85ecf7",
+      "file_size_bytes": 14289842
+    },
+    {
+      "document_id": "KB-B028-ASSA-ABLOY-AR2025",
+      "company": "ASSA ABLOY AB (publ)",
+      "title": "ASSA ABLOY Annual Report 2025",
+      "local_path": "data/raw/scale_batch_028/assa-abloy-annual-report-2025.pdf",
+      "sha256": "cfbb6cbd864e00b71c55bf5c7803da470f7230129308012ebef6f80dda273b90",
+      "file_size_bytes": 10964823
+    },
+    {
+      "document_id": "KB-B028-LOOMIS-ASR2025",
+      "company": "Loomis AB",
+      "title": "Loomis Annual and Sustainability Report 2025",
+      "local_path": "data/raw/scale_batch_028/loomis-annual-and-sustainability-report-2025.pdf",
+      "sha256": "c601ba6cac8ac150b79e8061312120ba2c3136f22a9c24f302602e16fcf6d46a",
+      "file_size_bytes": 17516013
+    },
+    {
+      "document_id": "KB-B029-INVESTOR-AR2025",
+      "company": "Investor AB (publ)",
+      "title": "Investor Annual Report 2025",
+      "local_path": "data/raw/scale_batch_029/investor-annual-report-2025.pdf",
+      "sha256": "e7a5af97f82433a1b1346a26ff2bcca9f342e2399dcbd190f7077ecae3150100",
+      "file_size_bytes": 8197575
+    },
+    {
+      "document_id": "KB-B029-VATTENFALL-ASR2025",
+      "company": "Vattenfall AB",
+      "title": "Vattenfall Annual and Sustainability Report 2025",
+      "local_path": "data/raw/scale_batch_029/vattenfall-annual-and-sustainability-report-2025.pdf",
+      "sha256": "be8ba08ffe79f95fea1e82c4484c7b68d1c2abe4c3f46015ffcf9dfebc12533f",
+      "file_size_bytes": 23690227
+    },
+    {
+      "document_id": "KB-B029-SWEDAVIA-ASR2025",
+      "company": "Swedavia AB (publ)",
+      "title": "Swedavia Annual and Sustainability Report 2025",
+      "local_path": "data/raw/scale_batch_029/swedavia-annual-and-sustainability-report-2025.pdf",
+      "sha256": "95c7ad31487d729c99c3d42f3a5344ae1eb506ad1cf3524f6a3d16f1dbfce0d3",
+      "file_size_bytes": 17530271
+    },
+    {
+      "document_id": "KB-B030-NCC-ASR2025",
+      "company": "NCC AB (publ)",
+      "title": "NCC Annual and Sustainability Report 2025",
+      "local_path": "data/raw/scale_batch_030/ncc-annual-and-sustainability-report-2025.pdf",
+      "sha256": "253f5b9bf6a12ec5ce7e1965711dcda91af42da1bd58cb37972b5d87af853de2",
+      "file_size_bytes": 6777680
+    }
+  ],
+  "tasks": [
+    {
+      "report_index": 1,
+      "document_id": "KB-B023-CRH-SPR2025",
+      "company": "CRH plc",
+      "report_title": "CRH Sustainability Performance Report 2025",
+      "report_year": 2025,
+      "local_path": "data/raw/scale_batch_023/crh-sustainability-performance-report-2025.pdf",
+      "document_sha256": "838c40c5c4a2bf8ebfb225d5f6579e38de4565efad44d91ce6fd456dea3ef9ba",
+      "task_id": "HV-01-D",
+      "stratum": "direct_claim",
+      "task_type": "table_binding",
+      "pdf_pages": [
+        80
+      ],
+      "system_outcome": "candidate_claim",
+      "candidate_claim": "CRH plc reported companies_that_had_health_and_well_being_programs = 94 percent for 2025. [row: Companies that had health and well-being programs; column: 2025]",
+      "candidate_predicate": "companies_that_had_health_and_well_being_programs",
+      "candidate_evidence": {
+        "pdf_page": 80,
+        "table_index": 0,
+        "row_header": "Companies that had health and well-being programs",
+        "column_header": "2025",
+        "quote": "94%"
+      },
+      "source_record_id": "fact-19bd0e277c26ae32ef47fc20",
+      "annotation_prompt": "Judge whether the candidate claim and every populated slot are supported by the cited report window."
+    },
+    {
+      "report_index": 1,
+      "document_id": "KB-B023-CRH-SPR2025",
+      "company": "CRH plc",
+      "report_title": "CRH Sustainability Performance Report 2025",
+      "report_year": 2025,
+      "local_path": "data/raw/scale_batch_023/crh-sustainability-performance-report-2025.pdf",
+      "document_sha256": "838c40c5c4a2bf8ebfb225d5f6579e38de4565efad44d91ce6fd456dea3ef9ba",
+      "task_id": "HV-01-C",
+      "stratum": "complex_claim",
+      "task_type": "boundary_or_method",
+      "pdf_pages": [
+        31
+      ],
+      "system_outcome": "candidate_claim",
+      "candidate_claim": "We achieved further progress in lowering our carbon footprint while continuing to grow our business. Absolute emissions for Scope 1 and Scope 2 (Market) decreased from 29.7 million tonnes in 2024 to 29.5 million tonnes in 2025. This reduction reflects the impact of key actions in our roadmap, which helped offset emissions associated with changes in our business portfolio. When adjusted for acquisitions, divestitures, and expanded reporting methodology, emissions have reduced by 19% since 2021. Our Scope 1 and Scope 2 (Market) CO e emissions intensity was 0.8kg per dollar of revenues in 2025.",
+      "candidate_predicate": "evidence_snippet_ghg_emissions",
+      "candidate_evidence": {
+        "pdf_page": 31,
+        "quote": "We achieved further progress in lowering our carbon footprint while continuing to grow our business. Absolute emissions for Scope 1 and Scope 2 (Market) decreased from 29.7 million tonnes in 2024 to 29.5 million tonnes in 2025. This reduction reflects the impact of key actions in our roadmap, which helped offset emissions associated with changes in our business portfolio. When adjusted for acquisitions, divestitures, and expanded reporting methodology, emissions have reduced by 19% since 2021. Our Scope 1 and Scope 2 (Market) CO e emissions intensity was 0.8kg per dollar of revenues in 2025."
+      },
+      "source_record_id": "fact-a0850939a5727346912f5e36",
+      "annotation_prompt": "Judge whether the candidate claim and every populated slot are supported by the cited report window."
+    },
+    {
+      "report_index": 1,
+      "document_id": "KB-B023-CRH-SPR2025",
+      "company": "CRH plc",
+      "report_title": "CRH Sustainability Performance Report 2025",
+      "report_year": 2025,
+      "local_path": "data/raw/scale_batch_023/crh-sustainability-performance-report-2025.pdf",
+      "document_sha256": "838c40c5c4a2bf8ebfb225d5f6579e38de4565efad44d91ce6fd456dea3ef9ba",
+      "task_id": "HV-01-A",
+      "stratum": "abstention_audit",
+      "task_type": "abstention_or_false_negative",
+      "pdf_pages": [
+        23
+      ],
+      "system_outcome": "no_promotable_atomic_fact",
+      "candidate_claim": "No trustworthy atomic circularity fact should be promoted from this page window without additional evidence.",
+      "candidate_predicate": null,
+      "candidate_evidence": {
+        "pdf_page": 23,
+        "theme": [
+          "circularity"
+        ]
+      },
+      "source_record_id": null,
+      "annotation_prompt": "Decide whether abstention is correct. If the page supports an eligible atomic fact, record that fact and its coordinates."
+    },
+    {
+      "report_index": 2,
+      "document_id": "KB-B023-ARKEMA-URD2025",
+      "company": "Arkema S.A.",
+      "report_title": "Arkema Universal Registration Document 2025",
+      "report_year": 2025,
+      "local_path": "data/raw/scale_batch_023/arkema-universal-registration-document-2025.pdf",
+      "document_sha256": "de11061374f70634028b7ffc561e33f93d2f69bf26043888f09be18a8f4f1632",
+      "task_id": "HV-02-D",
+      "stratum": "direct_claim",
+      "task_type": "boundary_or_method",
+      "pdf_pages": [
+        189
+      ],
+      "system_outcome": "candidate_claim",
+      "candidate_claim": "The breakdown of the Group’s total GHG emissions for Scope 1, Scope 2 and Scope 3 is shown in the table below:",
+      "candidate_predicate": "evidence_snippet_ghg_emissions",
+      "candidate_evidence": {
+        "pdf_page": 189,
+        "quote": "The breakdown of the Group’s total GHG emissions for Scope 1, Scope 2 and Scope 3 is shown in the table below:"
+      },
+      "source_record_id": "fact-088f0436ed5bcf8312ef06fc",
+      "annotation_prompt": "Judge whether the candidate claim and every populated slot are supported by the cited report window."
+    },
+    {
+      "report_index": 2,
+      "document_id": "KB-B023-ARKEMA-URD2025",
+      "company": "Arkema S.A.",
+      "report_title": "Arkema Universal Registration Document 2025",
+      "report_year": 2025,
+      "local_path": "data/raw/scale_batch_023/arkema-universal-registration-document-2025.pdf",
+      "document_sha256": "de11061374f70634028b7ffc561e33f93d2f69bf26043888f09be18a8f4f1632",
+      "task_id": "HV-02-C",
+      "stratum": "complex_claim",
+      "task_type": "assurance_scope",
+      "pdf_pages": [
+        277
+      ],
+      "system_outcome": "candidate_claim",
+      "candidate_claim": "This report should be read in conjunction with, and construed in accordance with, French law and the H2A guidelines on “Limited assurance engagement - Certification of sustainability reporting and verification of disclosure requirements set out in Article 8 of Regulation (EU) 2020/852.",
+      "candidate_predicate": "evidence_snippet_assurance",
+      "candidate_evidence": {
+        "pdf_page": 277,
+        "quote": "This report should be read in conjunction with, and construed in accordance with, French law and the H2A guidelines on “Limited assurance engagement - Certification of sustainability reporting and verification of disclosure requirements set out in Article 8 of Regulation (EU) 2020/852."
+      },
+      "source_record_id": "fact-13121193de22b1e7333e30c4",
+      "annotation_prompt": "Judge whether the candidate claim and every populated slot are supported by the cited report window."
+    },
+    {
+      "report_index": 2,
+      "document_id": "KB-B023-ARKEMA-URD2025",
+      "company": "Arkema S.A.",
+      "report_title": "Arkema Universal Registration Document 2025",
+      "report_year": 2025,
+      "local_path": "data/raw/scale_batch_023/arkema-universal-registration-document-2025.pdf",
+      "document_sha256": "de11061374f70634028b7ffc561e33f93d2f69bf26043888f09be18a8f4f1632",
+      "task_id": "HV-02-A",
+      "stratum": "abstention_audit",
+      "task_type": "abstention_or_false_negative",
+      "pdf_pages": [
+        191
+      ],
+      "system_outcome": "no_promotable_atomic_fact",
+      "candidate_claim": "No trustworthy atomic energy fact should be promoted from this page window without additional evidence.",
+      "candidate_predicate": null,
+      "candidate_evidence": {
+        "pdf_page": 191,
+        "theme": [
+          "energy"
+        ]
+      },
+      "source_record_id": null,
+      "annotation_prompt": "Decide whether abstention is correct. If the page supports an eligible atomic fact, record that fact and its coordinates."
+    },
+    {
+      "report_index": 3,
+      "document_id": "KB-B024-FORTUM-FIN2025",
+      "company": "Fortum Oyj",
+      "report_title": "Fortum Financials 2025",
+      "report_year": 2025,
+      "local_path": "data/raw/scale_batch_024/fortum-financials-2025.pdf",
+      "document_sha256": "0f348698addddf27181efe6c999fe17f4ca4390c510e97ce192d254c029764ce",
+      "task_id": "HV-03-D",
+      "stratum": "direct_claim",
+      "task_type": "quantitative_or_narrative_fact",
+      "pdf_pages": [
+        73
+      ],
+      "system_outcome": "candidate_claim",
+      "candidate_claim": "See Note 29 Nuclear-related assets and liabilities for the financial impact of radioactive waste management.",
+      "candidate_predicate": "evidence_snippet_circularity",
+      "candidate_evidence": {
+        "pdf_page": 73,
+        "quote": "See Note 29 Nuclear-related assets and liabilities for the financial impact of radioactive waste management."
+      },
+      "source_record_id": "fact-d0913f1ed7ff508e90c08217",
+      "annotation_prompt": "Judge whether the candidate claim and every populated slot are supported by the cited report window."
+    },
+    {
+      "report_index": 3,
+      "document_id": "KB-B024-FORTUM-FIN2025",
+      "company": "Fortum Oyj",
+      "report_title": "Fortum Financials 2025",
+      "report_year": 2025,
+      "local_path": "data/raw/scale_batch_024/fortum-financials-2025.pdf",
+      "document_sha256": "0f348698addddf27181efe6c999fe17f4ca4390c510e97ce192d254c029764ce",
+      "task_id": "HV-03-C",
+      "stratum": "complex_claim",
+      "task_type": "assurance_scope",
+      "pdf_pages": [
+        231
+      ],
+      "system_outcome": "candidate_claim",
+      "candidate_claim": "We performed the assurance of the group sustainability statement as a limited assurance engagement in compliance with good assurance practice in Finland and with the International Standard on Assurance Engagements (ISAE) 3000 (Revised) Assurance Engagements Other than Audits or Reviews of Historical Financial Information.",
+      "candidate_predicate": "evidence_snippet_assurance",
+      "candidate_evidence": {
+        "pdf_page": 231,
+        "quote": "We performed the assurance of the group sustainability statement as a limited assurance engagement in compliance with good assurance practice in Finland and with the International Standard on Assurance Engagements (ISAE) 3000 (Revised) Assurance Engagements Other than Audits or Reviews of Historical Financial Information."
+      },
+      "source_record_id": "fact-56291c007ed9bcce77d266b5",
+      "annotation_prompt": "Judge whether the candidate claim and every populated slot are supported by the cited report window."
+    },
+    {
+      "report_index": 3,
+      "document_id": "KB-B024-FORTUM-FIN2025",
+      "company": "Fortum Oyj",
+      "report_title": "Fortum Financials 2025",
+      "report_year": 2025,
+      "local_path": "data/raw/scale_batch_024/fortum-financials-2025.pdf",
+      "document_sha256": "0f348698addddf27181efe6c999fe17f4ca4390c510e97ce192d254c029764ce",
+      "task_id": "HV-03-A",
+      "stratum": "abstention_audit",
+      "task_type": "abstention_or_false_negative",
+      "pdf_pages": [
+        47
+      ],
+      "system_outcome": "no_promotable_atomic_fact",
+      "candidate_claim": "No trustworthy atomic water fact should be promoted from this page window without additional evidence.",
+      "candidate_predicate": null,
+      "candidate_evidence": {
+        "pdf_page": 47,
+        "theme": [
+          "water"
+        ]
+      },
+      "source_record_id": null,
+      "annotation_prompt": "Decide whether abstention is correct. If the page supports an eligible atomic fact, record that fact and its coordinates."
+    },
+    {
+      "report_index": 4,
+      "document_id": "KB-B024-YARA-AR2025",
+      "company": "Yara International ASA",
+      "report_title": "Yara Annual Report 2025",
+      "report_year": 2025,
+      "local_path": "data/raw/scale_batch_024/yara-annual-report-2025.pdf",
+      "document_sha256": "95ecc7a0b18ca97ee9d579bc3799ed58052a31584ef6b21ac55d466aa77ce5d2",
+      "task_id": "HV-04-D",
+      "stratum": "direct_claim",
+      "task_type": "table_binding",
+      "pdf_pages": [
+        112
+      ],
+      "system_outcome": "candidate_claim",
+      "candidate_claim": "Yara International ASA reported scope_3_category_11_use_of_sold_products = 33.0 for 2025 (Tier 1). [row: Scope 3 category 11 Use of sold products; column: 2025 (Tier 1)]",
+      "candidate_predicate": "scope_3_category_11_use_of_sold_products",
+      "candidate_evidence": {
+        "pdf_page": 112,
+        "table_index": 0,
+        "row_header": "Scope 3 category 11 Use of sold products",
+        "column_header": "2025 (Tier 1)",
+        "quote": "33.0"
+      },
+      "source_record_id": "fact-905f6fc433c4da967372b27d",
+      "annotation_prompt": "Judge whether the candidate claim and every populated slot are supported by the cited report window."
+    },
+    {
+      "report_index": 4,
+      "document_id": "KB-B024-YARA-AR2025",
+      "company": "Yara International ASA",
+      "report_title": "Yara Annual Report 2025",
+      "report_year": 2025,
+      "local_path": "data/raw/scale_batch_024/yara-annual-report-2025.pdf",
+      "document_sha256": "95ecc7a0b18ca97ee9d579bc3799ed58052a31584ef6b21ac55d466aa77ce5d2",
+      "task_id": "HV-04-C",
+      "stratum": "complex_claim",
+      "task_type": "target_progress_relation",
+      "pdf_pages": [
+        124
+      ],
+      "system_outcome": "candidate_claim",
+      "candidate_claim": "Production sites located in areas of high to extremely high baseline water stress accounted for 11.7 million cubic meters of water consumption. During the year, several sites improved their recycling and reuse capacity, including the recycling of process and steam condensates, resulting in 27 million cubic meters of water recycled, representing a 60 percent increase from 2024. Water is stored at several sites prior to use, with an estimated 7 million cubic meters stored at year-end 2025, a 9 percent decrease from revised 2024 storage volumes.",
+      "candidate_predicate": "evidence_snippet_water",
+      "candidate_evidence": {
+        "pdf_page": 124,
+        "quote": "Production sites located in areas of high to extremely high baseline water stress accounted for 11.7 million cubic meters of water consumption. During the year, several sites improved their recycling and reuse capacity, including the recycling of process and steam condensates, resulting in 27 million cubic meters of water recycled, representing a 60 percent increase from 2024. Water is stored at several sites prior to use, with an estimated 7 million cubic meters stored at year-end 2025, a 9 percent decrease from revised 2024 storage volumes."
+      },
+      "source_record_id": "fact-9a28cbbcaa58d8e6be91e7dc",
+      "annotation_prompt": "Judge whether the candidate claim and every populated slot are supported by the cited report window."
+    },
+    {
+      "report_index": 4,
+      "document_id": "KB-B024-YARA-AR2025",
+      "company": "Yara International ASA",
+      "report_title": "Yara Annual Report 2025",
+      "report_year": 2025,
+      "local_path": "data/raw/scale_batch_024/yara-annual-report-2025.pdf",
+      "document_sha256": "95ecc7a0b18ca97ee9d579bc3799ed58052a31584ef6b21ac55d466aa77ce5d2",
+      "task_id": "HV-04-A",
+      "stratum": "abstention_audit",
+      "task_type": "abstention_or_false_negative",
+      "pdf_pages": [
+        111
+      ],
+      "system_outcome": "no_promotable_atomic_fact",
+      "candidate_claim": "No trustworthy atomic energy fact should be promoted from this page window without additional evidence.",
+      "candidate_predicate": null,
+      "candidate_evidence": {
+        "pdf_page": 111,
+        "theme": [
+          "energy"
+        ]
+      },
+      "source_record_id": null,
+      "annotation_prompt": "Decide whether abstention is correct. If the page supports an eligible atomic fact, record that fact and its coordinates."
+    },
+    {
+      "report_index": 5,
+      "document_id": "KB-B025-EQUINOR-AR2025",
+      "company": "Equinor ASA",
+      "report_title": "Equinor Annual Report 2025",
+      "report_year": 2025,
+      "local_path": "data/raw/scale_batch_025/equinor-annual-report-2025.pdf",
+      "document_sha256": "4266bb0b2f31bb9a8cc2ed11248cd579e0f98bb3c81fcffaf5c93a89e62e5d98",
+      "task_id": "HV-05-D",
+      "stratum": "direct_claim",
+      "task_type": "boundary_or_method",
+      "pdf_pages": [
+        113
+      ],
+      "system_outcome": "candidate_claim",
+      "candidate_claim": "Based on materiality, GHG reporting includes emissions of CO2 ,CH4 (scope 1, 2 and 3), and N2O (scope 1 and 2).",
+      "candidate_predicate": "evidence_snippet_ghg_emissions",
+      "candidate_evidence": {
+        "pdf_page": 113,
+        "quote": "Based on materiality, GHG reporting includes emissions of CO<sub>2</sub> ,CH<sub>4</sub> (scope 1, 2 and 3), and N<sub>2</sub>O (scope 1 and 2)."
+      },
+      "source_record_id": "fact-4de9c704e24cdfbd150ba26b",
+      "annotation_prompt": "Judge whether the candidate claim and every populated slot are supported by the cited report window."
+    },
+    {
+      "report_index": 5,
+      "document_id": "KB-B025-EQUINOR-AR2025",
+      "company": "Equinor ASA",
+      "report_title": "Equinor Annual Report 2025",
+      "report_year": 2025,
+      "local_path": "data/raw/scale_batch_025/equinor-annual-report-2025.pdf",
+      "document_sha256": "4266bb0b2f31bb9a8cc2ed11248cd579e0f98bb3c81fcffaf5c93a89e62e5d98",
+      "task_id": "HV-05-C",
+      "stratum": "complex_claim",
+      "task_type": "target_progress_relation",
+      "pdf_pages": [
+        162
+      ],
+      "system_outcome": "candidate_claim",
+      "candidate_claim": "Table S1-14 Work-related accidents and illness provides the disclosure of ESRS S1-14 data points applicable for the 2025 reporting. The share of our own employees covered by a health and safety management system remains 100%. The number and rate of recordable work-related accidents have increased compared to 2024, but remain within Equinor’s overall TRIF target shown in the table “Equinor entity-specific health and safety metrics and targets.” The number of reported cases of work-related ill health is at the same level as in the previous reporting year.",
+      "candidate_predicate": "evidence_snippet_health_safety",
+      "candidate_evidence": {
+        "pdf_page": 162,
+        "quote": "Table S1-14 Work-related accidents and illness provides the disclosure of ESRS S1-14 data points applicable for the 2025 reporting. The share of our own employees covered by a health and safety management system remains 100%. The number and rate of recordable work-related accidents have increased compared to 2024, but remain within Equinor’s overall TRIF target shown in the table “Equinor entity-specific health and safety metrics and targets.” The number of reported cases of work-related ill health is at the same level as in the previous reporting year."
+      },
+      "source_record_id": "fact-b63e496c11eea34f2f3c7d83",
+      "annotation_prompt": "Judge whether the candidate claim and every populated slot are supported by the cited report window."
+    },
+    {
+      "report_index": 5,
+      "document_id": "KB-B025-EQUINOR-AR2025",
+      "company": "Equinor ASA",
+      "report_title": "Equinor Annual Report 2025",
+      "report_year": 2025,
+      "local_path": "data/raw/scale_batch_025/equinor-annual-report-2025.pdf",
+      "document_sha256": "4266bb0b2f31bb9a8cc2ed11248cd579e0f98bb3c81fcffaf5c93a89e62e5d98",
+      "task_id": "HV-05-A",
+      "stratum": "abstention_audit",
+      "task_type": "abstention_or_false_negative",
+      "pdf_pages": [
+        101
+      ],
+      "system_outcome": "no_promotable_atomic_fact",
+      "candidate_claim": "No trustworthy atomic targets fact should be promoted from this page window without additional evidence.",
+      "candidate_predicate": null,
+      "candidate_evidence": {
+        "pdf_page": 101,
+        "theme": [
+          "targets"
+        ]
+      },
+      "source_record_id": null,
+      "annotation_prompt": "Decide whether abstention is correct. If the page supports an eligible atomic fact, record that fact and its coordinates."
+    },
+    {
+      "report_index": 6,
+      "document_id": "KB-B025-AKERBP-AR2025",
+      "company": "Aker BP ASA",
+      "report_title": "Aker BP Annual Report 2025",
+      "report_year": 2025,
+      "local_path": "data/raw/scale_batch_025/aker-bp-annual-report-2025.pdf",
+      "document_sha256": "c5afca29558be6e5daf6cf8e31b378fdd2542bd29b847f3ec96fce10172a1a15",
+      "task_id": "HV-06-D",
+      "stratum": "direct_claim",
+      "task_type": "quantitative_or_narrative_fact",
+      "pdf_pages": [
+        110
+      ],
+      "system_outcome": "candidate_claim",
+      "candidate_claim": "1) Total recordable injury frequency: The number of recordable injuries (lost time + medical treatment) per million work hours.",
+      "candidate_predicate": "evidence_snippet_health_safety",
+      "candidate_evidence": {
+        "pdf_page": 110,
+        "quote": "1) Total recordable injury frequency: The number of recordable injuries (lost time + medical treatment) per million work hours."
+      },
+      "source_record_id": "fact-b20214f08be5e218e4ff880a",
+      "annotation_prompt": "Judge whether the candidate claim and every populated slot are supported by the cited report window."
+    },
+    {
+      "report_index": 6,
+      "document_id": "KB-B025-AKERBP-AR2025",
+      "company": "Aker BP ASA",
+      "report_title": "Aker BP Annual Report 2025",
+      "report_year": 2025,
+      "local_path": "data/raw/scale_batch_025/aker-bp-annual-report-2025.pdf",
+      "document_sha256": "c5afca29558be6e5daf6cf8e31b378fdd2542bd29b847f3ec96fce10172a1a15",
+      "task_id": "HV-06-C",
+      "stratum": "complex_claim",
+      "task_type": "assurance_scope",
+      "pdf_pages": [
+        126
+      ],
+      "system_outcome": "candidate_claim",
+      "candidate_claim": "We conducted our limited assurance engagement in accordance with International Standard on Assurance Engagements (ISAE) 3000 (Revised), Assurance engagements other than audits or reviews of historical financial information («ISAE 3000 (Revised)»), issued by the International Auditing and Assurance Standards Board.",
+      "candidate_predicate": "evidence_snippet_assurance",
+      "candidate_evidence": {
+        "pdf_page": 126,
+        "quote": "We conducted our limited assurance engagement in accordance with International Standard on Assurance Engagements (ISAE) 3000 (Revised), Assurance engagements other than audits or reviews of historical financial information («ISAE 3000 (Revised)»), issued by the International Auditing and Assurance Standards Board."
+      },
+      "source_record_id": "fact-a9309a9634312e92981f02b7",
+      "annotation_prompt": "Judge whether the candidate claim and every populated slot are supported by the cited report window."
+    },
+    {
+      "report_index": 6,
+      "document_id": "KB-B025-AKERBP-AR2025",
+      "company": "Aker BP ASA",
+      "report_title": "Aker BP Annual Report 2025",
+      "report_year": 2025,
+      "local_path": "data/raw/scale_batch_025/aker-bp-annual-report-2025.pdf",
+      "document_sha256": "c5afca29558be6e5daf6cf8e31b378fdd2542bd29b847f3ec96fce10172a1a15",
+      "task_id": "HV-06-A",
+      "stratum": "abstention_audit",
+      "task_type": "abstention_or_false_negative",
+      "pdf_pages": [
+        62
+      ],
+      "system_outcome": "no_promotable_atomic_fact",
+      "candidate_claim": "No trustworthy atomic targets fact should be promoted from this page window without additional evidence.",
+      "candidate_predicate": null,
+      "candidate_evidence": {
+        "pdf_page": 62,
+        "theme": [
+          "targets"
+        ]
+      },
+      "source_record_id": null,
+      "annotation_prompt": "Decide whether abstention is correct. If the page supports an eligible atomic fact, record that fact and its coordinates."
+    },
+    {
+      "report_index": 7,
+      "document_id": "KB-B025-DNB-AR2025",
+      "company": "DNB Bank ASA",
+      "report_title": "DNB Group Annual Report 2025",
+      "report_year": 2025,
+      "local_path": "data/raw/scale_batch_025/dnb-annual-report-2025.pdf",
+      "document_sha256": "e793bbb20582975be0ee87825cafe7d05ad8e80f986f446d8cbfad7e2c84c125",
+      "task_id": "HV-07-D",
+      "stratum": "direct_claim",
+      "task_type": "quantitative_or_narrative_fact",
+      "pdf_pages": [
+        154
+      ],
+      "system_outcome": "candidate_claim",
+      "candidate_claim": "ESRS S1-2 Processes for engaging with own workforce and workers’ representatives about impacts",
+      "candidate_predicate": "evidence_snippet_workforce",
+      "candidate_evidence": {
+        "pdf_page": 154,
+        "quote": "ESRS S1-2 Processes for engaging with own workforce and workers’ representatives about impacts"
+      },
+      "source_record_id": "fact-b0be2b3c74bb109d9d4acd71",
+      "annotation_prompt": "Judge whether the candidate claim and every populated slot are supported by the cited report window."
+    },
+    {
+      "report_index": 7,
+      "document_id": "KB-B025-DNB-AR2025",
+      "company": "DNB Bank ASA",
+      "report_title": "DNB Group Annual Report 2025",
+      "report_year": 2025,
+      "local_path": "data/raw/scale_batch_025/dnb-annual-report-2025.pdf",
+      "document_sha256": "e793bbb20582975be0ee87825cafe7d05ad8e80f986f446d8cbfad7e2c84c125",
+      "task_id": "HV-07-C",
+      "stratum": "complex_claim",
+      "task_type": "assurance_scope",
+      "pdf_pages": [
+        352
+      ],
+      "system_outcome": "candidate_claim",
+      "candidate_claim": "A limited assurance engagement involves performing procedures to obtain evidence about the Sustainability Statement. The procedures in a limited assurance engagement vary in nature and timing from, and are less in extent than for, a reasonable assurance engagement. Consequently, the level of assurance obtained in a limited assurance engagement is substantially lower than the assurance that would have been obtained had a reasonable assurance engagement been performed.",
+      "candidate_predicate": "evidence_snippet_assurance",
+      "candidate_evidence": {
+        "pdf_page": 352,
+        "quote": "A limited assurance engagement involves performing procedures to obtain evidence about the Sustainability Statement. The procedures in a limited assurance engagement vary in nature and timing from, and are less in extent than for, a reasonable assurance engagement. Consequently, the level of assurance obtained in a limited assurance engagement is substantially lower than the assurance that would have been obtained had a reasonable assurance engagement been performed."
+      },
+      "source_record_id": "fact-d7107a8e2c8dcb2ebf2567b8",
+      "annotation_prompt": "Judge whether the candidate claim and every populated slot are supported by the cited report window."
+    },
+    {
+      "report_index": 7,
+      "document_id": "KB-B025-DNB-AR2025",
+      "company": "DNB Bank ASA",
+      "report_title": "DNB Group Annual Report 2025",
+      "report_year": 2025,
+      "local_path": "data/raw/scale_batch_025/dnb-annual-report-2025.pdf",
+      "document_sha256": "e793bbb20582975be0ee87825cafe7d05ad8e80f986f446d8cbfad7e2c84c125",
+      "task_id": "HV-07-A",
+      "stratum": "abstention_audit",
+      "task_type": "abstention_or_false_negative",
+      "pdf_pages": [
+        83
+      ],
+      "system_outcome": "no_promotable_atomic_fact",
+      "candidate_claim": "No trustworthy atomic targets fact should be promoted from this page window without additional evidence.",
+      "candidate_predicate": null,
+      "candidate_evidence": {
+        "pdf_page": 83,
+        "theme": [
+          "targets"
+        ]
+      },
+      "source_record_id": null,
+      "annotation_prompt": "Decide whether abstention is correct. If the page supports an eligible atomic fact, record that fact and its coordinates."
+    },
+    {
+      "report_index": 8,
+      "document_id": "KB-B026-STOREBRAND-AR2025",
+      "company": "Storebrand ASA",
+      "report_title": "Storebrand ASA Annual Report 2025",
+      "report_year": 2025,
+      "local_path": "data/raw/scale_batch_026/storebrand-annual-report-2025.pdf",
+      "document_sha256": "56ae30f6f6d5ee245602de45a2f7292e42e13f748a996da0c3f15c4cd2e160b3",
+      "task_id": "HV-08-D",
+      "stratum": "direct_claim",
+      "task_type": "assurance_scope",
+      "pdf_pages": [
+        164
+      ],
+      "system_outcome": "candidate_claim",
+      "candidate_claim": "As part of a limited assurance engagement in accordance with ISAE 3000 (Revised) we exercise professional judgement and maintain professional scepticism throughout the engagement.",
+      "candidate_predicate": "evidence_snippet_assurance",
+      "candidate_evidence": {
+        "pdf_page": 164,
+        "quote": "As part of a limited assurance engagement in accordance with ISAE 3000 (Revised) we exercise professional judgement and maintain professional scepticism throughout the engagement."
+      },
+      "source_record_id": "fact-5ccec062828dad6163599d75",
+      "annotation_prompt": "Judge whether the candidate claim and every populated slot are supported by the cited report window."
+    },
+    {
+      "report_index": 8,
+      "document_id": "KB-B026-STOREBRAND-AR2025",
+      "company": "Storebrand ASA",
+      "report_title": "Storebrand ASA Annual Report 2025",
+      "report_year": 2025,
+      "local_path": "data/raw/scale_batch_026/storebrand-annual-report-2025.pdf",
+      "document_sha256": "56ae30f6f6d5ee245602de45a2f7292e42e13f748a996da0c3f15c4cd2e160b3",
+      "task_id": "HV-08-C",
+      "stratum": "complex_claim",
+      "task_type": "assurance_scope",
+      "pdf_pages": [
+        165
+      ],
+      "system_outcome": "candidate_claim",
+      "candidate_claim": "reasonable assurance engagement. Consequently, the level of assurance obtained in a limited assurance engagement is substantially lower than the assurance that would have been obtained had a reasonable assurance engagement been performed.",
+      "candidate_predicate": "evidence_snippet_assurance",
+      "candidate_evidence": {
+        "pdf_page": 165,
+        "quote": "reasonable assurance engagement. Consequently, the level of assurance obtained in a limited assurance engagement is substantially lower than the assurance that would have been obtained had a reasonable assurance engagement been performed."
+      },
+      "source_record_id": "fact-463770129bf5f37591afdae4",
+      "annotation_prompt": "Judge whether the candidate claim and every populated slot are supported by the cited report window."
+    },
+    {
+      "report_index": 8,
+      "document_id": "KB-B026-STOREBRAND-AR2025",
+      "company": "Storebrand ASA",
+      "report_title": "Storebrand ASA Annual Report 2025",
+      "report_year": 2025,
+      "local_path": "data/raw/scale_batch_026/storebrand-annual-report-2025.pdf",
+      "document_sha256": "56ae30f6f6d5ee245602de45a2f7292e42e13f748a996da0c3f15c4cd2e160b3",
+      "task_id": "HV-08-A",
+      "stratum": "abstention_audit",
+      "task_type": "abstention_or_false_negative",
+      "pdf_pages": [
+        54
+      ],
+      "system_outcome": "no_promotable_atomic_fact",
+      "candidate_claim": "No trustworthy atomic biodiversity, circularity fact should be promoted from this page window without additional evidence.",
+      "candidate_predicate": null,
+      "candidate_evidence": {
+        "pdf_page": 54,
+        "theme": [
+          "biodiversity",
+          "circularity"
+        ]
+      },
+      "source_record_id": null,
+      "annotation_prompt": "Decide whether abstention is correct. If the page supports an eligible atomic fact, record that fact and its coordinates."
+    },
+    {
+      "report_index": 9,
+      "document_id": "KB-B026-ORKLA-AR2025",
+      "company": "Orkla ASA",
+      "report_title": "Orkla Annual Report 2025",
+      "report_year": 2025,
+      "local_path": "data/raw/scale_batch_026/orkla-annual-report-2025.pdf",
+      "document_sha256": "1ac3c951a126ac27733bdae3114237abcbeca4f568f881266ac8ae673239e271",
+      "task_id": "HV-09-D",
+      "stratum": "direct_claim",
+      "task_type": "table_binding",
+      "pdf_pages": [
+        99
+      ],
+      "system_outcome": "candidate_claim",
+      "candidate_claim": "Orkla ASA reported sick_leave_for_own_employees = 3.9 percent for 2025. [row: Sick leave for own employees (short- and long-term); column: 2025]",
+      "candidate_predicate": "sick_leave_for_own_employees",
+      "candidate_evidence": {
+        "pdf_page": 99,
+        "table_index": 0,
+        "row_header": "Sick leave for own employees (short- and long-term)",
+        "column_header": "2025",
+        "quote": "3.9%"
+      },
+      "source_record_id": "fact-b0a894a822fd2dfc086b9162",
+      "annotation_prompt": "Judge whether the candidate claim and every populated slot are supported by the cited report window."
+    },
+    {
+      "report_index": 9,
+      "document_id": "KB-B026-ORKLA-AR2025",
+      "company": "Orkla ASA",
+      "report_title": "Orkla Annual Report 2025",
+      "report_year": 2025,
+      "local_path": "data/raw/scale_batch_026/orkla-annual-report-2025.pdf",
+      "document_sha256": "1ac3c951a126ac27733bdae3114237abcbeca4f568f881266ac8ae673239e271",
+      "task_id": "HV-09-C",
+      "stratum": "complex_claim",
+      "task_type": "assurance_scope",
+      "pdf_pages": [
+        254
+      ],
+      "system_outcome": "candidate_claim",
+      "candidate_claim": "A limited assurance engagement involves performing procedures to obtain evidence about the Sustainability Statement. The procedures in a limited assurance engagement vary in nature and timing from, and are less in extent than for, a reasonable assurance engagement. Consequently, the level of assurance obtained in a limited assurance engagement is substantially lower than the assurance that would have been obtained had a reasonable assurance engagement been performed.",
+      "candidate_predicate": "evidence_snippet_assurance",
+      "candidate_evidence": {
+        "pdf_page": 254,
+        "quote": "A limited assurance engagement involves performing procedures to obtain evidence about the Sustainability Statement. The procedures in a limited assurance engagement vary in nature and timing from, and are less in extent than for, a reasonable assurance engagement. Consequently, the level of assurance obtained in a limited assurance engagement is substantially lower than the assurance that would have been obtained had a reasonable assurance engagement been performed."
+      },
+      "source_record_id": "fact-6b31815a3447c3d139256bfc",
+      "annotation_prompt": "Judge whether the candidate claim and every populated slot are supported by the cited report window."
+    },
+    {
+      "report_index": 9,
+      "document_id": "KB-B026-ORKLA-AR2025",
+      "company": "Orkla ASA",
+      "report_title": "Orkla Annual Report 2025",
+      "report_year": 2025,
+      "local_path": "data/raw/scale_batch_026/orkla-annual-report-2025.pdf",
+      "document_sha256": "1ac3c951a126ac27733bdae3114237abcbeca4f568f881266ac8ae673239e271",
+      "task_id": "HV-09-A",
+      "stratum": "abstention_audit",
+      "task_type": "abstention_or_false_negative",
+      "pdf_pages": [
+        72
+      ],
+      "system_outcome": "no_promotable_atomic_fact",
+      "candidate_claim": "No trustworthy atomic targets fact should be promoted from this page window without additional evidence.",
+      "candidate_predicate": null,
+      "candidate_evidence": {
+        "pdf_page": 72,
+        "theme": [
+          "targets"
+        ]
+      },
+      "source_record_id": null,
+      "annotation_prompt": "Decide whether abstention is correct. If the page supports an eligible atomic fact, record that fact and its coordinates."
+    },
+    {
+      "report_index": 10,
+      "document_id": "KB-B026-SEB-AR2025",
+      "company": "Skandinaviska Enskilda Banken AB (publ)",
+      "report_title": "SEB Annual Report 2025",
+      "report_year": 2025,
+      "local_path": "data/raw/scale_batch_026/seb-annual-report-2025.pdf",
+      "document_sha256": "1bf07071afbab0269914a1a78d16e4e840e73e5efbe901af97b148d288b28083",
+      "task_id": "HV-10-D",
+      "stratum": "direct_claim",
+      "task_type": "boundary_or_method",
+      "pdf_pages": [
+        120
+      ],
+      "system_outcome": "candidate_claim",
+      "candidate_claim": "Scope 1: SEB’s direct emissions, such as company cars and leakage of refrigerants.",
+      "candidate_predicate": "evidence_snippet_ghg_emissions",
+      "candidate_evidence": {
+        "pdf_page": 120,
+        "quote": "Scope 1: SEB’s direct emissions, such as company cars and leakage of refrigerants."
+      },
+      "source_record_id": "fact-13f71e088a8e06b5e49cef93",
+      "annotation_prompt": "Judge whether the candidate claim and every populated slot are supported by the cited report window."
+    },
+    {
+      "report_index": 10,
+      "document_id": "KB-B026-SEB-AR2025",
+      "company": "Skandinaviska Enskilda Banken AB (publ)",
+      "report_title": "SEB Annual Report 2025",
+      "report_year": 2025,
+      "local_path": "data/raw/scale_batch_026/seb-annual-report-2025.pdf",
+      "document_sha256": "1bf07071afbab0269914a1a78d16e4e840e73e5efbe901af97b148d288b28083",
+      "task_id": "HV-10-C",
+      "stratum": "complex_claim",
+      "task_type": "assurance_scope",
+      "pdf_pages": [
+        343
+      ],
+      "system_outcome": "candidate_claim",
+      "candidate_claim": "We have conducted the limited assurance engagement in accordance with FAR’s recommendation RevR 19 – Revisorns översiktliga granskning av den lagstadgade hållbarhetsrapporten. Our responsibility under this recommendation is described in more detail in the section Auditor’s Responsibility.",
+      "candidate_predicate": "evidence_snippet_assurance",
+      "candidate_evidence": {
+        "pdf_page": 343,
+        "quote": "We have conducted the limited assurance engagement in accordance with FAR’s recommendation RevR 19 – Revisorns översiktliga granskning av den lagstadgade hållbarhetsrapporten. Our responsibility under this recommendation is described in more detail in the section Auditor’s Responsibility."
+      },
+      "source_record_id": "fact-35acbd3bbe5392db410d24de",
+      "annotation_prompt": "Judge whether the candidate claim and every populated slot are supported by the cited report window."
+    },
+    {
+      "report_index": 10,
+      "document_id": "KB-B026-SEB-AR2025",
+      "company": "Skandinaviska Enskilda Banken AB (publ)",
+      "report_title": "SEB Annual Report 2025",
+      "report_year": 2025,
+      "local_path": "data/raw/scale_batch_026/seb-annual-report-2025.pdf",
+      "document_sha256": "1bf07071afbab0269914a1a78d16e4e840e73e5efbe901af97b148d288b28083",
+      "task_id": "HV-10-A",
+      "stratum": "abstention_audit",
+      "task_type": "abstention_or_false_negative",
+      "pdf_pages": [
+        90
+      ],
+      "system_outcome": "no_promotable_atomic_fact",
+      "candidate_claim": "No trustworthy atomic water fact should be promoted from this page window without additional evidence.",
+      "candidate_predicate": null,
+      "candidate_evidence": {
+        "pdf_page": 90,
+        "theme": [
+          "water"
+        ]
+      },
+      "source_record_id": null,
+      "annotation_prompt": "Decide whether abstention is correct. If the page supports an eligible atomic fact, record that fact and its coordinates."
+    },
+    {
+      "report_index": 11,
+      "document_id": "KB-B027-NORDEA-AR2025",
+      "company": "Nordea Bank Abp",
+      "report_title": "Nordea Annual Report 2025",
+      "report_year": 2025,
+      "local_path": "data/raw/scale_batch_027/nordea-annual-report-2025.pdf",
+      "document_sha256": "cce7c2004fbeca8b652ea9977be08500c1297c0cd307349bd016c1dc4de11e1e",
+      "task_id": "HV-11-D",
+      "stratum": "direct_claim",
+      "task_type": "quantitative_or_narrative_fact",
+      "pdf_pages": [
+        149
+      ],
+      "system_outcome": "candidate_claim",
+      "candidate_claim": "The total GHG emissions (market-based) from our own operations were 29,630tCO e for 2025.",
+      "candidate_predicate": "evidence_snippet_ghg_emissions",
+      "candidate_evidence": {
+        "pdf_page": 149,
+        "quote": "The total GHG emissions (market-based) from our own operations were 29,630tCO e for 2025."
+      },
+      "source_record_id": "fact-bb6d15cd0c14b7a63d834940",
+      "annotation_prompt": "Judge whether the candidate claim and every populated slot are supported by the cited report window."
+    },
+    {
+      "report_index": 11,
+      "document_id": "KB-B027-NORDEA-AR2025",
+      "company": "Nordea Bank Abp",
+      "report_title": "Nordea Annual Report 2025",
+      "report_year": 2025,
+      "local_path": "data/raw/scale_batch_027/nordea-annual-report-2025.pdf",
+      "document_sha256": "cce7c2004fbeca8b652ea9977be08500c1297c0cd307349bd016c1dc4de11e1e",
+      "task_id": "HV-11-C",
+      "stratum": "complex_claim",
+      "task_type": "assurance_scope",
+      "pdf_pages": [
+        375
+      ],
+      "system_outcome": "candidate_claim",
+      "candidate_claim": "We have performed a limited assurance engagement on the group sustainability report (Sustainability Statement) of Nordea Bank Abp (business identity code 2858394-9) that is referred to in Chapter 7 of the Accounting Act and that is included in the report of the Board of Directors for the reporting period 1.1.–31.12.2025.",
+      "candidate_predicate": "evidence_snippet_assurance",
+      "candidate_evidence": {
+        "pdf_page": 375,
+        "quote": "We have performed a limited assurance engagement on the group sustainability report (Sustainability Statement) of Nordea Bank Abp (business identity code 2858394-9) that is referred to in Chapter 7 of the Accounting Act and that is included in the report of the Board of Directors for the reporting period 1.1.–31.12.2025."
+      },
+      "source_record_id": "fact-dfd0714f61d497314dbe691d",
+      "annotation_prompt": "Judge whether the candidate claim and every populated slot are supported by the cited report window."
+    },
+    {
+      "report_index": 11,
+      "document_id": "KB-B027-NORDEA-AR2025",
+      "company": "Nordea Bank Abp",
+      "report_title": "Nordea Annual Report 2025",
+      "report_year": 2025,
+      "local_path": "data/raw/scale_batch_027/nordea-annual-report-2025.pdf",
+      "document_sha256": "cce7c2004fbeca8b652ea9977be08500c1297c0cd307349bd016c1dc4de11e1e",
+      "task_id": "HV-11-A",
+      "stratum": "abstention_audit",
+      "task_type": "abstention_or_false_negative",
+      "pdf_pages": [
+        104
+      ],
+      "system_outcome": "no_promotable_atomic_fact",
+      "candidate_claim": "No trustworthy atomic health_safety fact should be promoted from this page window without additional evidence.",
+      "candidate_predicate": null,
+      "candidate_evidence": {
+        "pdf_page": 104,
+        "theme": [
+          "health_safety"
+        ]
+      },
+      "source_record_id": null,
+      "annotation_prompt": "Decide whether abstention is correct. If the page supports an eligible atomic fact, record that fact and its coordinates."
+    },
+    {
+      "report_index": 12,
+      "document_id": "KB-B027-HANDELSBANKEN-AR2025",
+      "company": "Svenska Handelsbanken AB (publ)",
+      "report_title": "Handelsbanken Annual Report 2025",
+      "report_year": 2025,
+      "local_path": "data/raw/scale_batch_027/handelsbanken-annual-report-2025.pdf",
+      "document_sha256": "8679cdb160d9603f970eb6251546c8e6a1d98813a493bc4605f26cb933d88717",
+      "task_id": "HV-12-D",
+      "stratum": "direct_claim",
+      "task_type": "table_binding",
+      "pdf_pages": [
+        101
+      ],
+      "system_outcome": "candidate_claim",
+      "candidate_claim": "Svenska Handelsbanken AB (publ) reported total_employees = 12437 people for 2025. [row: Total employees; column: 2025]",
+      "candidate_predicate": "total_employees",
+      "candidate_evidence": {
+        "pdf_page": 101,
+        "table_index": 0,
+        "row_header": "Total employees",
+        "column_header": "2025",
+        "quote": "12,437"
+      },
+      "source_record_id": "fact-2accd027061c74eea8d97546",
+      "annotation_prompt": "Judge whether the candidate claim and every populated slot are supported by the cited report window."
+    },
+    {
+      "report_index": 12,
+      "document_id": "KB-B027-HANDELSBANKEN-AR2025",
+      "company": "Svenska Handelsbanken AB (publ)",
+      "report_title": "Handelsbanken Annual Report 2025",
+      "report_year": 2025,
+      "local_path": "data/raw/scale_batch_027/handelsbanken-annual-report-2025.pdf",
+      "document_sha256": "8679cdb160d9603f970eb6251546c8e6a1d98813a493bc4605f26cb933d88717",
+      "task_id": "HV-12-C",
+      "stratum": "complex_claim",
+      "task_type": "boundary_or_method",
+      "pdf_pages": [
+        92
+      ],
+      "system_outcome": "candidate_claim",
+      "candidate_claim": "means that the combined emissions intensity for financed Scope 1, 2 and 3 emissions increased by 30 per cent compared with last year in this category.",
+      "candidate_predicate": "evidence_snippet_ghg_emissions",
+      "candidate_evidence": {
+        "pdf_page": 92,
+        "quote": "means that the combined emissions intensity for financed Scope 1, 2 and 3 emissions increased by 30 per cent compared with last year in this category."
+      },
+      "source_record_id": "fact-164c41590f565793a64cd57e",
+      "annotation_prompt": "Judge whether the candidate claim and every populated slot are supported by the cited report window."
+    },
+    {
+      "report_index": 12,
+      "document_id": "KB-B027-HANDELSBANKEN-AR2025",
+      "company": "Svenska Handelsbanken AB (publ)",
+      "report_title": "Handelsbanken Annual Report 2025",
+      "report_year": 2025,
+      "local_path": "data/raw/scale_batch_027/handelsbanken-annual-report-2025.pdf",
+      "document_sha256": "8679cdb160d9603f970eb6251546c8e6a1d98813a493bc4605f26cb933d88717",
+      "task_id": "HV-12-A",
+      "stratum": "abstention_audit",
+      "task_type": "abstention_or_false_negative",
+      "pdf_pages": [
+        79
+      ],
+      "system_outcome": "no_promotable_atomic_fact",
+      "candidate_claim": "No trustworthy atomic water fact should be promoted from this page window without additional evidence.",
+      "candidate_predicate": null,
+      "candidate_evidence": {
+        "pdf_page": 79,
+        "theme": [
+          "water"
+        ]
+      },
+      "source_record_id": null,
+      "annotation_prompt": "Decide whether abstention is correct. If the page supports an eligible atomic fact, record that fact and its coordinates."
+    },
+    {
+      "report_index": 13,
+      "document_id": "KB-B027-SECURITAS-AR2025",
+      "company": "Securitas AB (publ)",
+      "report_title": "Securitas Annual Report 2025",
+      "report_year": 2025,
+      "local_path": "data/raw/scale_batch_027/securitas-annual-report-2025.pdf",
+      "document_sha256": "e5d82427641d2dae5ed6f0bbe5c075827382c9bb5a2064a0aa3b4ec8a3991f95",
+      "task_id": "HV-13-D",
+      "stratum": "direct_claim",
+      "task_type": "table_binding",
+      "pdf_pages": [
+        91
+      ],
+      "system_outcome": "candidate_claim",
+      "candidate_claim": "Securitas AB (publ) reported s1_6_50 = 48 Percent for 2025. [row: S1–6,50 (c); column: 2025]",
+      "candidate_predicate": "s1_6_50",
+      "candidate_evidence": {
+        "pdf_page": 91,
+        "table_index": 0,
+        "row_header": "S1–6,50 (c)",
+        "column_header": "2025",
+        "quote": "48"
+      },
+      "source_record_id": "fact-7691da75a05edd44b90fa423",
+      "annotation_prompt": "Judge whether the candidate claim and every populated slot are supported by the cited report window."
+    },
+    {
+      "report_index": 13,
+      "document_id": "KB-B027-SECURITAS-AR2025",
+      "company": "Securitas AB (publ)",
+      "report_title": "Securitas Annual Report 2025",
+      "report_year": 2025,
+      "local_path": "data/raw/scale_batch_027/securitas-annual-report-2025.pdf",
+      "document_sha256": "e5d82427641d2dae5ed6f0bbe5c075827382c9bb5a2064a0aa3b4ec8a3991f95",
+      "task_id": "HV-13-C",
+      "stratum": "complex_claim",
+      "task_type": "target_progress_relation",
+      "pdf_pages": [
+        78
+      ],
+      "system_outcome": "candidate_claim",
+      "candidate_claim": "In 2025, the reduction of scope 1 emissions was 19 percent or 28 211 tCO e compared with the 2022 baseline and 1 percent compared with 2024 (1 667 tCO e). Scope 2 (market-based) has reduced by 24 percent since 2022 (8 169 tCO e) and with 9 percent compared with 2024 (2 572 tCO e). The reductions compared with 2024 in scope 1 were mainly the result of the increased number of electric and hybrid vehicles in the fleet. In scope 2, the main drivers of the decrease are the transition to certified green electricity in several entities.",
+      "candidate_predicate": "evidence_snippet_energy",
+      "candidate_evidence": {
+        "pdf_page": 78,
+        "quote": "In 2025, the reduction of scope 1 emissions was 19 percent or 28 211 tCO e compared with the 2022 baseline and 1 percent compared with 2024 (1 667 tCO e). Scope 2 (market-based) has reduced by 24 percent since 2022 (8 169 tCO e) and with 9 percent compared with 2024 (2 572 tCO e). The reductions compared with 2024 in scope 1 were mainly the result of the increased number of electric and hybrid vehicles in the fleet. In scope 2, the main drivers of the decrease are the transition to certified green electricity in several entities."
+      },
+      "source_record_id": "fact-fd080a22d9ccdaefddcfd993",
+      "annotation_prompt": "Judge whether the candidate claim and every populated slot are supported by the cited report window."
+    },
+    {
+      "report_index": 13,
+      "document_id": "KB-B027-SECURITAS-AR2025",
+      "company": "Securitas AB (publ)",
+      "report_title": "Securitas Annual Report 2025",
+      "report_year": 2025,
+      "local_path": "data/raw/scale_batch_027/securitas-annual-report-2025.pdf",
+      "document_sha256": "e5d82427641d2dae5ed6f0bbe5c075827382c9bb5a2064a0aa3b4ec8a3991f95",
+      "task_id": "HV-13-A",
+      "stratum": "abstention_audit",
+      "task_type": "abstention_or_false_negative",
+      "pdf_pages": [
+        75
+      ],
+      "system_outcome": "no_promotable_atomic_fact",
+      "candidate_claim": "No trustworthy atomic biodiversity fact should be promoted from this page window without additional evidence.",
+      "candidate_predicate": null,
+      "candidate_evidence": {
+        "pdf_page": 75,
+        "theme": [
+          "biodiversity"
+        ]
+      },
+      "source_record_id": null,
+      "annotation_prompt": "Decide whether abstention is correct. If the page supports an eligible atomic fact, record that fact and its coordinates."
+    },
+    {
+      "report_index": 14,
+      "document_id": "KB-B028-TELIA-AR2025",
+      "company": "Telia Company AB (publ)",
+      "report_title": "Telia Annual Report 2025",
+      "report_year": 2025,
+      "local_path": "data/raw/scale_batch_028/telia-annual-report-2025.pdf",
+      "document_sha256": "572c00695eca26b8bea90e2c9d0cdaaeaddf845f2851969c4f9c9d2cba85ecf7",
+      "task_id": "HV-14-D",
+      "stratum": "direct_claim",
+      "task_type": "assurance_scope",
+      "pdf_pages": [
+        259
+      ],
+      "system_outcome": "candidate_claim",
+      "candidate_claim": "We have conducted the assurance engagement in accordance with FAR’s recommendation RevR 19 The auditor’s limited assurance regarding the statutory sustainability statement. Our",
+      "candidate_predicate": "evidence_snippet_assurance",
+      "candidate_evidence": {
+        "pdf_page": 259,
+        "quote": "We have conducted the assurance engagement in accordance with FAR’s recommendation RevR 19 The auditor’s limited assurance regarding the statutory sustainability statement. Our"
+      },
+      "source_record_id": "fact-7ea05a8a4f98e3a67cda4fd2",
+      "annotation_prompt": "Judge whether the candidate claim and every populated slot are supported by the cited report window."
+    },
+    {
+      "report_index": 14,
+      "document_id": "KB-B028-TELIA-AR2025",
+      "company": "Telia Company AB (publ)",
+      "report_title": "Telia Annual Report 2025",
+      "report_year": 2025,
+      "local_path": "data/raw/scale_batch_028/telia-annual-report-2025.pdf",
+      "document_sha256": "572c00695eca26b8bea90e2c9d0cdaaeaddf845f2851969c4f9c9d2cba85ecf7",
+      "task_id": "HV-14-C",
+      "stratum": "complex_claim",
+      "task_type": "boundary_or_method",
+      "pdf_pages": [
+        85
+      ],
+      "system_outcome": "candidate_claim",
+      "candidate_claim": "The enablement impact is calculated using thirdparty sources and data. The generic quantity (tCO2e or MWh) of enablement of each product or service per Unit of Measurement (UoM) is calculated by multiplying the UoM by an enablement factor. This calculation is done on a country basis using national statistics, data and researched figures. For enablement solutions that result in avoiding travel, equivalent savings in liters of fuel have been calculated. Additional information about the methodology, including underlying assumptions, is available on Telia’s website.",
+      "candidate_predicate": "evidence_snippet_energy",
+      "candidate_evidence": {
+        "pdf_page": 85,
+        "quote": "The enablement impact is calculated using thirdparty sources and data. The generic quantity (tCO2e or MWh) of enablement of each product or service per Unit of Measurement (UoM) is calculated by multiplying the UoM by an enablement factor. This calculation is done on a country basis using national statistics, data and researched figures. For enablement solutions that result in avoiding travel, equivalent savings in liters of fuel have been calculated. Additional information about the methodology, including underlying assumptions, is available on Telia’s website."
+      },
+      "source_record_id": "fact-4bb62c6630621345264b386d",
+      "annotation_prompt": "Judge whether the candidate claim and every populated slot are supported by the cited report window."
+    },
+    {
+      "report_index": 14,
+      "document_id": "KB-B028-TELIA-AR2025",
+      "company": "Telia Company AB (publ)",
+      "report_title": "Telia Annual Report 2025",
+      "report_year": 2025,
+      "local_path": "data/raw/scale_batch_028/telia-annual-report-2025.pdf",
+      "document_sha256": "572c00695eca26b8bea90e2c9d0cdaaeaddf845f2851969c4f9c9d2cba85ecf7",
+      "task_id": "HV-14-A",
+      "stratum": "abstention_audit",
+      "task_type": "abstention_or_false_negative",
+      "pdf_pages": [
+        76
+      ],
+      "system_outcome": "no_promotable_atomic_fact",
+      "candidate_claim": "No trustworthy atomic biodiversity fact should be promoted from this page window without additional evidence.",
+      "candidate_predicate": null,
+      "candidate_evidence": {
+        "pdf_page": 76,
+        "theme": [
+          "biodiversity"
+        ]
+      },
+      "source_record_id": null,
+      "annotation_prompt": "Decide whether abstention is correct. If the page supports an eligible atomic fact, record that fact and its coordinates."
+    },
+    {
+      "report_index": 15,
+      "document_id": "KB-B028-ASSA-ABLOY-AR2025",
+      "company": "ASSA ABLOY AB (publ)",
+      "report_title": "ASSA ABLOY Annual Report 2025",
+      "report_year": 2025,
+      "local_path": "data/raw/scale_batch_028/assa-abloy-annual-report-2025.pdf",
+      "document_sha256": "cfbb6cbd864e00b71c55bf5c7803da470f7230129308012ebef6f80dda273b90",
+      "task_id": "HV-15-D",
+      "stratum": "direct_claim",
+      "task_type": "target_progress_relation",
+      "pdf_pages": [
+        96
+      ],
+      "system_outcome": "candidate_claim",
+      "candidate_claim": "3 Near-term Scope 3 target is aligned to well-below 2°C, annual target reduction rate will increase in line with ASSA ABLOY’s net-zero target requirements from 2030.",
+      "candidate_predicate": "evidence_snippet_ghg_emissions",
+      "candidate_evidence": {
+        "pdf_page": 96,
+        "quote": "<sup>3</sup> Near-term Scope 3 target is aligned to well-below 2°C, annual target reduction rate will increase in line with ASSA ABLOY’s net-zero target requirements from 2030."
+      },
+      "source_record_id": "fact-7135cb12b5bb9ae05b263dca",
+      "annotation_prompt": "Judge whether the candidate claim and every populated slot are supported by the cited report window."
+    },
+    {
+      "report_index": 15,
+      "document_id": "KB-B028-ASSA-ABLOY-AR2025",
+      "company": "ASSA ABLOY AB (publ)",
+      "report_title": "ASSA ABLOY Annual Report 2025",
+      "report_year": 2025,
+      "local_path": "data/raw/scale_batch_028/assa-abloy-annual-report-2025.pdf",
+      "document_sha256": "cfbb6cbd864e00b71c55bf5c7803da470f7230129308012ebef6f80dda273b90",
+      "task_id": "HV-15-C",
+      "stratum": "complex_claim",
+      "task_type": "target_progress_relation",
+      "pdf_pages": [
+        100
+      ],
+      "system_outcome": "candidate_claim",
+      "candidate_claim": "new target to reduce our total waste intensity by 30 percent by 2030, compared to our 2025 base year. We do not currently have targets related to increase of circular product design, increase of circular material use rate, minimization of primary raw material, sustainable sourcing and use. ASSA ABLOY does not have the information to determine materials sourced from by-products or waste streams. Metal for recycling is our single largest waste stream. ASSA ABLOY does not generate radioactive waste.",
+      "candidate_predicate": "evidence_snippet_circularity",
+      "candidate_evidence": {
+        "pdf_page": 100,
+        "quote": "new target to reduce our total waste intensity by 30 percent by 2030, compared to our 2025 base year. We do not currently have targets related to increase of circular product design, increase of circular material use rate, minimization of primary raw material, sustainable sourcing and use. ASSA ABLOY does not have the information to determine materials sourced from by-products or waste streams. Metal for recycling is our single largest waste stream. ASSA ABLOY does not generate radioactive waste."
+      },
+      "source_record_id": "fact-385a18d407ffe7c7c0dc0f9d",
+      "annotation_prompt": "Judge whether the candidate claim and every populated slot are supported by the cited report window."
+    },
+    {
+      "report_index": 15,
+      "document_id": "KB-B028-ASSA-ABLOY-AR2025",
+      "company": "ASSA ABLOY AB (publ)",
+      "report_title": "ASSA ABLOY Annual Report 2025",
+      "report_year": 2025,
+      "local_path": "data/raw/scale_batch_028/assa-abloy-annual-report-2025.pdf",
+      "document_sha256": "cfbb6cbd864e00b71c55bf5c7803da470f7230129308012ebef6f80dda273b90",
+      "task_id": "HV-15-A",
+      "stratum": "abstention_audit",
+      "task_type": "abstention_or_false_negative",
+      "pdf_pages": [
+        77
+      ],
+      "system_outcome": "no_promotable_atomic_fact",
+      "candidate_claim": "No trustworthy atomic biodiversity fact should be promoted from this page window without additional evidence.",
+      "candidate_predicate": null,
+      "candidate_evidence": {
+        "pdf_page": 77,
+        "theme": [
+          "biodiversity"
+        ]
+      },
+      "source_record_id": null,
+      "annotation_prompt": "Decide whether abstention is correct. If the page supports an eligible atomic fact, record that fact and its coordinates."
+    },
+    {
+      "report_index": 16,
+      "document_id": "KB-B028-LOOMIS-ASR2025",
+      "company": "Loomis AB",
+      "report_title": "Loomis Annual and Sustainability Report 2025",
+      "report_year": 2025,
+      "local_path": "data/raw/scale_batch_028/loomis-annual-and-sustainability-report-2025.pdf",
+      "document_sha256": "c601ba6cac8ac150b79e8061312120ba2c3136f22a9c24f302602e16fcf6d46a",
+      "task_id": "HV-16-D",
+      "stratum": "direct_claim",
+      "task_type": "assurance_scope",
+      "pdf_pages": [
+        165
+      ],
+      "system_outcome": "candidate_claim",
+      "candidate_claim": "RevR 18 requires us to plan and execute procedures to achieve reasonable assurance that the Esef report is prepared in a format that meets these requirements.",
+      "candidate_predicate": "evidence_snippet_assurance",
+      "candidate_evidence": {
+        "pdf_page": 165,
+        "quote": "RevR 18 requires us to plan and execute procedures to achieve reasonable assurance that the Esef report is prepared in a format that meets these requirements."
+      },
+      "source_record_id": "fact-9cc235dbf558b0dae68e2b80",
+      "annotation_prompt": "Judge whether the candidate claim and every populated slot are supported by the cited report window."
+    },
+    {
+      "report_index": 16,
+      "document_id": "KB-B028-LOOMIS-ASR2025",
+      "company": "Loomis AB",
+      "report_title": "Loomis Annual and Sustainability Report 2025",
+      "report_year": 2025,
+      "local_path": "data/raw/scale_batch_028/loomis-annual-and-sustainability-report-2025.pdf",
+      "document_sha256": "c601ba6cac8ac150b79e8061312120ba2c3136f22a9c24f302602e16fcf6d46a",
+      "task_id": "HV-16-C",
+      "stratum": "complex_claim",
+      "task_type": "target_progress_relation",
+      "pdf_pages": [
+        83
+      ],
+      "system_outcome": "candidate_claim",
+      "candidate_claim": "Loomis reports GHG emissions to provide a comprehensive overview of its climate impact and to support the monitoring and follow-up of emission reduction targets. Loomis has reported Scope 1 and Scope 2 emissions since 2019 and began reporting Scope 3 emissions in 2024. The reporting includes direct and indirect emissions across the value chain and is prepared in accordance with the GHG Protocol, which is considered the most appropriate methodology for Loomis operations.",
+      "candidate_predicate": "evidence_snippet_ghg_emissions",
+      "candidate_evidence": {
+        "pdf_page": 83,
+        "quote": "Loomis reports GHG emissions to provide a comprehensive overview of its climate impact and to support the monitoring and follow-up of emission reduction targets. Loomis has reported Scope 1 and Scope 2 emissions since 2019 and began reporting Scope 3 emissions in 2024. The reporting includes direct and indirect emissions across the value chain and is prepared in accordance with the GHG Protocol, which is considered the most appropriate methodology for Loomis operations."
+      },
+      "source_record_id": "fact-77482329f3e85c1d3ca26981",
+      "annotation_prompt": "Judge whether the candidate claim and every populated slot are supported by the cited report window."
+    },
+    {
+      "report_index": 16,
+      "document_id": "KB-B028-LOOMIS-ASR2025",
+      "company": "Loomis AB",
+      "report_title": "Loomis Annual and Sustainability Report 2025",
+      "report_year": 2025,
+      "local_path": "data/raw/scale_batch_028/loomis-annual-and-sustainability-report-2025.pdf",
+      "document_sha256": "c601ba6cac8ac150b79e8061312120ba2c3136f22a9c24f302602e16fcf6d46a",
+      "task_id": "HV-16-A",
+      "stratum": "abstention_audit",
+      "task_type": "abstention_or_false_negative",
+      "pdf_pages": [
+        71
+      ],
+      "system_outcome": "no_promotable_atomic_fact",
+      "candidate_claim": "No trustworthy atomic biodiversity fact should be promoted from this page window without additional evidence.",
+      "candidate_predicate": null,
+      "candidate_evidence": {
+        "pdf_page": 71,
+        "theme": [
+          "biodiversity"
+        ]
+      },
+      "source_record_id": null,
+      "annotation_prompt": "Decide whether abstention is correct. If the page supports an eligible atomic fact, record that fact and its coordinates."
+    },
+    {
+      "report_index": 17,
+      "document_id": "KB-B029-INVESTOR-AR2025",
+      "company": "Investor AB (publ)",
+      "report_title": "Investor Annual Report 2025",
+      "report_year": 2025,
+      "local_path": "data/raw/scale_batch_029/investor-annual-report-2025.pdf",
+      "document_sha256": "e7a5af97f82433a1b1346a26ff2bcca9f342e2399dcbd190f7077ecae3150100",
+      "task_id": "HV-17-D",
+      "stratum": "direct_claim",
+      "task_type": "assurance_scope",
+      "pdf_pages": [
+        186
+      ],
+      "system_outcome": "candidate_claim",
+      "candidate_claim": "We have conducted a limited assurance engagement of the sustainability statement for Investor AB (publ) for the financial year 2025. The sustainability statement is included on pages 70–117 in this document.",
+      "candidate_predicate": "evidence_snippet_assurance",
+      "candidate_evidence": {
+        "pdf_page": 186,
+        "quote": "We have conducted a limited assurance engagement of the sustainability statement for Investor AB (publ) for the financial year 2025. The sustainability statement is included on pages 70–117 in this document."
+      },
+      "source_record_id": "fact-b0b650044db1c5a082831652",
+      "annotation_prompt": "Judge whether the candidate claim and every populated slot are supported by the cited report window."
+    },
+    {
+      "report_index": 17,
+      "document_id": "KB-B029-INVESTOR-AR2025",
+      "company": "Investor AB (publ)",
+      "report_title": "Investor Annual Report 2025",
+      "report_year": 2025,
+      "local_path": "data/raw/scale_batch_029/investor-annual-report-2025.pdf",
+      "document_sha256": "e7a5af97f82433a1b1346a26ff2bcca9f342e2399dcbd190f7077ecae3150100",
+      "task_id": "HV-17-C",
+      "stratum": "complex_claim",
+      "task_type": "target_progress_relation",
+      "pdf_pages": [
+        82
+      ],
+      "system_outcome": "candidate_claim",
+      "candidate_claim": "To ensure that our portfolio companies aim to be leaders within climate resilience, we expect them to align their climate targets with the Paris Agreement. By the end of 2025, 58 percent of our portfolio companies have set SBTi-validated targets, accounting for 88 percent of total scope 1 and 2 emissions. More broadly, 96 percent of the portfolio companies, excluding Financial Investments (Affibody and Platform 24), have aligned their climate strategies to the Paris Agreement and set measurable targets to decrease scope 1 and 2 greenhouse gas (GHG) emissions by 50 percent or more by 2030.",
+      "candidate_predicate": "evidence_snippet_ghg_emissions",
+      "candidate_evidence": {
+        "pdf_page": 82,
+        "quote": "To ensure that our portfolio companies aim to be leaders within climate resilience, we expect them to align their climate targets with the Paris Agreement. By the end of 2025, 58 percent of our portfolio companies have set SBTi-validated targets, accounting for 88 percent of total scope 1 and 2 emissions. More broadly, 96 percent of the portfolio companies, excluding Financial Investments (Affibody and Platform 24), have aligned their climate strategies to the Paris Agreement and set measurable targets to decrease scope 1 and 2 greenhouse gas (GHG) emissions by 50 percent or more by 2030."
+      },
+      "source_record_id": "fact-62bad707c79070c74efc975b",
+      "annotation_prompt": "Judge whether the candidate claim and every populated slot are supported by the cited report window."
+    },
+    {
+      "report_index": 17,
+      "document_id": "KB-B029-INVESTOR-AR2025",
+      "company": "Investor AB (publ)",
+      "report_title": "Investor Annual Report 2025",
+      "report_year": 2025,
+      "local_path": "data/raw/scale_batch_029/investor-annual-report-2025.pdf",
+      "document_sha256": "e7a5af97f82433a1b1346a26ff2bcca9f342e2399dcbd190f7077ecae3150100",
+      "task_id": "HV-17-A",
+      "stratum": "abstention_audit",
+      "task_type": "abstention_or_false_negative",
+      "pdf_pages": [
+        76
+      ],
+      "system_outcome": "no_promotable_atomic_fact",
+      "candidate_claim": "No trustworthy atomic biodiversity, circularity, water fact should be promoted from this page window without additional evidence.",
+      "candidate_predicate": null,
+      "candidate_evidence": {
+        "pdf_page": 76,
+        "theme": [
+          "biodiversity",
+          "circularity",
+          "water"
+        ]
+      },
+      "source_record_id": null,
+      "annotation_prompt": "Decide whether abstention is correct. If the page supports an eligible atomic fact, record that fact and its coordinates."
+    },
+    {
+      "report_index": 18,
+      "document_id": "KB-B029-VATTENFALL-ASR2025",
+      "company": "Vattenfall AB",
+      "report_title": "Vattenfall Annual and Sustainability Report 2025",
+      "report_year": 2025,
+      "local_path": "data/raw/scale_batch_029/vattenfall-annual-and-sustainability-report-2025.pdf",
+      "document_sha256": "be8ba08ffe79f95fea1e82c4484c7b68d1c2abe4c3f46015ffcf9dfebc12533f",
+      "task_id": "HV-18-D",
+      "stratum": "direct_claim",
+      "task_type": "target_progress_relation",
+      "pdf_pages": [
+        93
+      ],
+      "system_outcome": "candidate_claim",
+      "candidate_claim": "Table 9. GHG emissions and targets overview, consolidated according to the GHG Protocol (E1-6 and E1-7)",
+      "candidate_predicate": "evidence_snippet_ghg_emissions",
+      "candidate_evidence": {
+        "pdf_page": 93,
+        "quote": "Table 9. GHG emissions and targets overview, consolidated according to the GHG Protocol (E1-6 and E1-7)"
+      },
+      "source_record_id": "fact-b87e2d0dc77d52b23c4396ca",
+      "annotation_prompt": "Judge whether the candidate claim and every populated slot are supported by the cited report window."
+    },
+    {
+      "report_index": 18,
+      "document_id": "KB-B029-VATTENFALL-ASR2025",
+      "company": "Vattenfall AB",
+      "report_title": "Vattenfall Annual and Sustainability Report 2025",
+      "report_year": 2025,
+      "local_path": "data/raw/scale_batch_029/vattenfall-annual-and-sustainability-report-2025.pdf",
+      "document_sha256": "be8ba08ffe79f95fea1e82c4484c7b68d1c2abe4c3f46015ffcf9dfebc12533f",
+      "task_id": "HV-18-C",
+      "stratum": "complex_claim",
+      "task_type": "target_progress_relation",
+      "pdf_pages": [
+        110
+      ],
+      "system_outcome": "candidate_claim",
+      "candidate_claim": "Vattenfall has a target on Lost time injury frequency (LTIF) which measures frequency of work-related injuries resulting in people being unable to work for one day or more on an annual basis. The scope of this target is own employees and it was set for the strategy period 2021–2025. The baseline year was 2019 when LTIF was at 2.1. LTIF is tracked and followed up in all business areas and at Group-level monthly. The target is 1.0 or lower and the outcome for 2025 was 1.7 compared to 1.4 in 2024.",
+      "candidate_predicate": "evidence_snippet_health_safety",
+      "candidate_evidence": {
+        "pdf_page": 110,
+        "quote": "Vattenfall has a target on Lost time injury frequency (LTIF) which measures frequency of work-related injuries resulting in people being unable to work for one day or more on an annual basis. The scope of this target is own employees and it was set for the strategy period 2021–2025. The baseline year was 2019 when LTIF was at 2.1. LTIF is tracked and followed up in all business areas and at Group-level monthly. The target is 1.0 or lower and the outcome for 2025 was 1.7 compared to 1.4 in 2024."
+      },
+      "source_record_id": "fact-12cbcf39f007b18d3fc8f05a",
+      "annotation_prompt": "Judge whether the candidate claim and every populated slot are supported by the cited report window."
+    },
+    {
+      "report_index": 18,
+      "document_id": "KB-B029-VATTENFALL-ASR2025",
+      "company": "Vattenfall AB",
+      "report_title": "Vattenfall Annual and Sustainability Report 2025",
+      "report_year": 2025,
+      "local_path": "data/raw/scale_batch_029/vattenfall-annual-and-sustainability-report-2025.pdf",
+      "document_sha256": "be8ba08ffe79f95fea1e82c4484c7b68d1c2abe4c3f46015ffcf9dfebc12533f",
+      "task_id": "HV-18-A",
+      "stratum": "abstention_audit",
+      "task_type": "abstention_or_false_negative",
+      "pdf_pages": [
+        97
+      ],
+      "system_outcome": "no_promotable_atomic_fact",
+      "candidate_claim": "No trustworthy atomic biodiversity fact should be promoted from this page window without additional evidence.",
+      "candidate_predicate": null,
+      "candidate_evidence": {
+        "pdf_page": 97,
+        "theme": [
+          "biodiversity"
+        ]
+      },
+      "source_record_id": null,
+      "annotation_prompt": "Decide whether abstention is correct. If the page supports an eligible atomic fact, record that fact and its coordinates."
+    },
+    {
+      "report_index": 19,
+      "document_id": "KB-B029-SWEDAVIA-ASR2025",
+      "company": "Swedavia AB (publ)",
+      "report_title": "Swedavia Annual and Sustainability Report 2025",
+      "report_year": 2025,
+      "local_path": "data/raw/scale_batch_029/swedavia-annual-and-sustainability-report-2025.pdf",
+      "document_sha256": "95c7ad31487d729c99c3d42f3a5344ae1eb506ad1cf3524f6a3d16f1dbfce0d3",
+      "task_id": "HV-19-D",
+      "stratum": "direct_claim",
+      "task_type": "quantitative_or_narrative_fact",
+      "pdf_pages": [
+        115
+      ],
+      "system_outcome": "candidate_claim",
+      "candidate_claim": "S1-15 Work-life balance metrics All employees are legally entitled to take family-related leave.",
+      "candidate_predicate": "evidence_snippet_workforce",
+      "candidate_evidence": {
+        "pdf_page": 115,
+        "quote": "S1-15 Work-life balance metrics All employees are legally entitled to take family-related leave."
+      },
+      "source_record_id": "fact-067458a693667be1a39c6dac",
+      "annotation_prompt": "Judge whether the candidate claim and every populated slot are supported by the cited report window."
+    },
+    {
+      "report_index": 19,
+      "document_id": "KB-B029-SWEDAVIA-ASR2025",
+      "company": "Swedavia AB (publ)",
+      "report_title": "Swedavia Annual and Sustainability Report 2025",
+      "report_year": 2025,
+      "local_path": "data/raw/scale_batch_029/swedavia-annual-and-sustainability-report-2025.pdf",
+      "document_sha256": "95c7ad31487d729c99c3d42f3a5344ae1eb506ad1cf3524f6a3d16f1dbfce0d3",
+      "task_id": "HV-19-C",
+      "stratum": "complex_claim",
+      "task_type": "assurance_scope",
+      "pdf_pages": [
+        188
+      ],
+      "system_outcome": "candidate_claim",
+      "candidate_claim": "Our responsibility is to express a conclusion with limited assurance on whether the sustainability statement has been prepared in accordance with Chapter 6, Sections 12–12f of the Swedish Annual Accounts Act based on our review. The limited assurance engagement has been conducted in accordance with FAR's recommendation RevR 19 The auditor’s limited assurance regarding the statutory sustainability statement. This recommendation requires that we plan and perform our procedures to obtain limited assurance that the sustainability statement is prepared in accordance with these requirements.",
+      "candidate_predicate": "evidence_snippet_assurance",
+      "candidate_evidence": {
+        "pdf_page": 188,
+        "quote": "Our responsibility is to express a conclusion with limited assurance on whether the sustainability statement has been prepared in accordance with Chapter 6, Sections 12–12f of the Swedish Annual Accounts Act based on our review. The limited assurance engagement has been conducted in accordance with FAR's recommendation RevR 19 The auditor’s limited assurance regarding the statutory sustainability statement. This recommendation requires that we plan and perform our procedures to obtain limited assurance that the sustainability statement is prepared in accordance with these requirements."
+      },
+      "source_record_id": "fact-d9aef4c24947caff04df1d1e",
+      "annotation_prompt": "Judge whether the candidate claim and every populated slot are supported by the cited report window."
+    },
+    {
+      "report_index": 19,
+      "document_id": "KB-B029-SWEDAVIA-ASR2025",
+      "company": "Swedavia AB (publ)",
+      "report_title": "Swedavia Annual and Sustainability Report 2025",
+      "report_year": 2025,
+      "local_path": "data/raw/scale_batch_029/swedavia-annual-and-sustainability-report-2025.pdf",
+      "document_sha256": "95c7ad31487d729c99c3d42f3a5344ae1eb506ad1cf3524f6a3d16f1dbfce0d3",
+      "task_id": "HV-19-A",
+      "stratum": "abstention_audit",
+      "task_type": "abstention_or_false_negative",
+      "pdf_pages": [
+        69
+      ],
+      "system_outcome": "no_promotable_atomic_fact",
+      "candidate_claim": "No trustworthy atomic biodiversity, circularity fact should be promoted from this page window without additional evidence.",
+      "candidate_predicate": null,
+      "candidate_evidence": {
+        "pdf_page": 69,
+        "theme": [
+          "biodiversity",
+          "circularity"
+        ]
+      },
+      "source_record_id": null,
+      "annotation_prompt": "Decide whether abstention is correct. If the page supports an eligible atomic fact, record that fact and its coordinates."
+    },
+    {
+      "report_index": 20,
+      "document_id": "KB-B030-NCC-ASR2025",
+      "company": "NCC AB (publ)",
+      "report_title": "NCC Annual and Sustainability Report 2025",
+      "report_year": 2025,
+      "local_path": "data/raw/scale_batch_030/ncc-annual-and-sustainability-report-2025.pdf",
+      "document_sha256": "253f5b9bf6a12ec5ce7e1965711dcda91af42da1bd58cb37972b5d87af853de2",
+      "task_id": "HV-20-D",
+      "stratum": "direct_claim",
+      "task_type": "quantitative_or_narrative_fact",
+      "pdf_pages": [
+        91
+      ],
+      "system_outcome": "candidate_claim",
+      "candidate_claim": "In 2025, the average number of training hours per employee in NCC was 9.1 hours per employee. Women had on average 10.6 hours compared to men, who had 8.7 hours.",
+      "candidate_predicate": "evidence_snippet_workforce",
+      "candidate_evidence": {
+        "pdf_page": 91,
+        "quote": "In 2025, the average number of training hours per employee in NCC was 9.1 hours per employee. Women had on average 10.6 hours compared to men, who had 8.7 hours."
+      },
+      "source_record_id": "fact-3d87eb25d4a6e6a3771524c1",
+      "annotation_prompt": "Judge whether the candidate claim and every populated slot are supported by the cited report window."
+    },
+    {
+      "report_index": 20,
+      "document_id": "KB-B030-NCC-ASR2025",
+      "company": "NCC AB (publ)",
+      "report_title": "NCC Annual and Sustainability Report 2025",
+      "report_year": 2025,
+      "local_path": "data/raw/scale_batch_030/ncc-annual-and-sustainability-report-2025.pdf",
+      "document_sha256": "253f5b9bf6a12ec5ce7e1965711dcda91af42da1bd58cb37972b5d87af853de2",
+      "task_id": "HV-20-C",
+      "stratum": "complex_claim",
+      "task_type": "target_progress_relation",
+      "pdf_pages": [
+        73
+      ],
+      "system_outcome": "candidate_claim",
+      "candidate_claim": "NCC’s long-term target is to achieve net-zero emissions by 2045, which replaces the previous target of climate neutrality by 2045. What this entails is an actual reduction of greenhouse gas emissions of at least 90 percent and the remaining reduction through relevant offsets. NCC’s efforts to reduce GHG emissions have been under way for several years, with a particular focus on its own Scope 1 and 2 emissions as well as the materials in Scope 3 with the greatest impact.",
+      "candidate_predicate": "evidence_snippet_ghg_emissions",
+      "candidate_evidence": {
+        "pdf_page": 73,
+        "quote": "NCC’s long-term target is to achieve net-zero emissions by 2045, which replaces the previous target of climate neutrality by 2045. What this entails is an actual reduction of greenhouse gas emissions of at least 90 percent and the remaining reduction through relevant offsets. NCC’s efforts to reduce GHG emissions have been under way for several years, with a particular focus on its own Scope 1 and 2 emissions as well as the materials in Scope 3 with the greatest impact."
+      },
+      "source_record_id": "fact-bc83c34543db477375b93a61",
+      "annotation_prompt": "Judge whether the candidate claim and every populated slot are supported by the cited report window."
+    },
+    {
+      "report_index": 20,
+      "document_id": "KB-B030-NCC-ASR2025",
+      "company": "NCC AB (publ)",
+      "report_title": "NCC Annual and Sustainability Report 2025",
+      "report_year": 2025,
+      "local_path": "data/raw/scale_batch_030/ncc-annual-and-sustainability-report-2025.pdf",
+      "document_sha256": "253f5b9bf6a12ec5ce7e1965711dcda91af42da1bd58cb37972b5d87af853de2",
+      "task_id": "HV-20-A",
+      "stratum": "abstention_audit",
+      "task_type": "abstention_or_false_negative",
+      "pdf_pages": [
+        58
+      ],
+      "system_outcome": "no_promotable_atomic_fact",
+      "candidate_claim": "No trustworthy atomic biodiversity, circularity, water fact should be promoted from this page window without additional evidence.",
+      "candidate_predicate": null,
+      "candidate_evidence": {
+        "pdf_page": 58,
+        "theme": [
+          "biodiversity",
+          "circularity",
+          "water"
+        ]
+      },
+      "source_record_id": null,
+      "annotation_prompt": "Decide whether abstention is correct. If the page supports an eligible atomic fact, record that fact and its coordinates."
+    }
+  ],
+  "contamination_controls": {
+    "simulated_references_visible_to_annotators": false,
+    "system_acceptance_decisions_visible_to_annotators": false,
+    "cross_annotator_visibility_before_lock": false,
+    "generative_ai_assistance_permitted": false
+  }
+}

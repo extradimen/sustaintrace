@@ -1,0 +1,61 @@
+task_id,report_index,document_id,company,stratum,system_status_at_freeze,valid,final_support,final_action,slot_subject,slot_predicate,slot_value,slot_period,slot_unit,slot_boundary_method,slot_evidence_coordinates
+HV-01-A,1,KB-B023-CRH-SPR2025,CRH plc,abstention_audit,system_abstained,True,unsupported,correct_then_review,NA,NA,NA,NA,NA,NA,NA
+HV-01-C,1,KB-B023-CRH-SPR2025,CRH plc,complex_claim,tier_c_held,True,fully_supported,admit,Y,Y,Y,Y,Y,Y,Y
+HV-01-D,1,KB-B023-CRH-SPR2025,CRH plc,direct_claim,tier_b_promoted,True,fully_supported,admit,Y,Y,Y,Y,Y,NA,Y
+HV-02-A,2,KB-B023-ARKEMA-URD2025,Arkema S.A.,abstention_audit,system_abstained,True,unsupported,correct_then_review,NA,NA,NA,NA,NA,NA,NA
+HV-02-C,2,KB-B023-ARKEMA-URD2025,Arkema S.A.,complex_claim,tier_c_held,True,partially_supported,correct_then_review,N,Y,NA,N,NA,Y,Y
+HV-02-D,2,KB-B023-ARKEMA-URD2025,Arkema S.A.,direct_claim,tier_c_held,True,fully_supported,reject,Y,N,NA,NA,NA,NA,Y
+HV-03-A,3,KB-B024-FORTUM-FIN2025,Fortum Oyj,abstention_audit,system_abstained,True,unsupported,correct_then_review,NA,NA,NA,NA,NA,NA,NA
+HV-03-C,3,KB-B024-FORTUM-FIN2025,Fortum Oyj,complex_claim,tier_c_held,True,partially_supported,correct_then_review,N,Y,NA,N,NA,Y,Y
+HV-03-D,3,KB-B024-FORTUM-FIN2025,Fortum Oyj,direct_claim,tier_c_held,True,fully_supported,reject,Y,N,NA,NA,NA,NA,Y
+HV-04-A,4,KB-B024-YARA-AR2025,Yara International ASA,abstention_audit,system_abstained,True,unsupported,correct_then_review,NA,NA,NA,NA,NA,NA,NA
+HV-04-C,4,KB-B024-YARA-AR2025,Yara International ASA,complex_claim,tier_c_held,True,partially_supported,correct_then_review,Y,Y,Y,Y,Y,N,Y
+HV-04-D,4,KB-B024-YARA-AR2025,Yara International ASA,direct_claim,tier_b_promoted,True,partially_supported,correct_then_review,Y,Y,Y,Y,N,Y,Y
+HV-05-A,5,KB-B025-EQUINOR-AR2025,Equinor ASA,abstention_audit,system_abstained,True,unsupported,correct_then_review,NA,NA,NA,NA,NA,NA,NA
+HV-05-C,5,KB-B025-EQUINOR-AR2025,Equinor ASA,complex_claim,tier_c_held,True,fully_supported,admit,Y,Y,Y,Y,Y,Y,Y
+HV-05-D,5,KB-B025-EQUINOR-AR2025,Equinor ASA,direct_claim,tier_c_held,True,fully_supported,admit,Y,Y,NA,NA,NA,Y,Y
+HV-06-A,6,KB-B025-AKERBP-AR2025,Aker BP ASA,abstention_audit,system_abstained,True,unsupported,correct_then_review,NA,NA,NA,NA,NA,NA,NA
+HV-06-C,6,KB-B025-AKERBP-AR2025,Aker BP ASA,complex_claim,tier_c_held,True,partially_supported,correct_then_review,N,Y,NA,N,NA,Y,Y
+HV-06-D,6,KB-B025-AKERBP-AR2025,Aker BP ASA,direct_claim,tier_c_held,True,fully_supported,admit,NA,Y,NA,NA,Y,Y,Y
+HV-07-A,7,KB-B025-DNB-AR2025,DNB Bank ASA,abstention_audit,system_abstained,True,fully_supported,abstain_or_conflict,NA,NA,NA,NA,NA,NA,NA
+HV-07-C,7,KB-B025-DNB-AR2025,DNB Bank ASA,complex_claim,tier_c_held,True,partially_supported,correct_then_review,N,Y,NA,N,NA,Y,Y
+HV-07-D,7,KB-B025-DNB-AR2025,DNB Bank ASA,direct_claim,tier_c_held,True,fully_supported,reject,N,N,NA,NA,NA,NA,Y
+HV-08-A,8,KB-B026-STOREBRAND-AR2025,Storebrand ASA,abstention_audit,system_abstained,True,fully_supported,abstain_or_conflict,NA,NA,NA,NA,NA,NA,NA
+HV-08-C,8,KB-B026-STOREBRAND-AR2025,Storebrand ASA,complex_claim,tier_c_held,True,partially_supported,correct_then_review,N,Y,NA,N,NA,N,Y
+HV-08-D,8,KB-B026-STOREBRAND-AR2025,Storebrand ASA,direct_claim,tier_c_held,True,partially_supported,correct_then_review,N,Y,NA,N,NA,Y,Y
+HV-09-A,9,KB-B026-ORKLA-AR2025,Orkla ASA,abstention_audit,system_abstained,True,unsupported,correct_then_review,NA,NA,NA,NA,NA,NA,NA
+HV-09-C,9,KB-B026-ORKLA-AR2025,Orkla ASA,complex_claim,tier_c_held,True,partially_supported,correct_then_review,N,Y,NA,N,NA,Y,Y
+HV-09-D,9,KB-B026-ORKLA-AR2025,Orkla ASA,direct_claim,tier_c_held,True,fully_supported,admit,Y,Y,Y,Y,Y,Y,Y
+HV-10-A,10,KB-B026-SEB-AR2025,Skandinaviska Enskilda Banken AB (publ),abstention_audit,system_abstained,True,fully_supported,abstain_or_conflict,NA,NA,NA,NA,NA,NA,NA
+HV-10-C,10,KB-B026-SEB-AR2025,Skandinaviska Enskilda Banken AB (publ),complex_claim,tier_c_held,True,partially_supported,correct_then_review,N,Y,NA,N,NA,N,Y
+HV-10-D,10,KB-B026-SEB-AR2025,Skandinaviska Enskilda Banken AB (publ),direct_claim,tier_c_held,True,fully_supported,admit,Y,Y,NA,NA,NA,Y,Y
+HV-11-A,11,KB-B027-NORDEA-AR2025,Nordea Bank Abp,abstention_audit,system_abstained,True,fully_supported,abstain_or_conflict,NA,NA,NA,NA,NA,NA,NA
+HV-11-C,11,KB-B027-NORDEA-AR2025,Nordea Bank Abp,complex_claim,tier_c_held,True,fully_supported,admit,Y,Y,NA,Y,NA,Y,Y
+HV-11-D,11,KB-B027-NORDEA-AR2025,Nordea Bank Abp,direct_claim,tier_c_held,True,partially_supported,correct_then_review,Y,Y,Y,Y,N,Y,Y
+HV-12-A,12,KB-B027-HANDELSBANKEN-AR2025,Svenska Handelsbanken AB (publ),abstention_audit,system_abstained,True,fully_supported,abstain_or_conflict,NA,NA,NA,NA,NA,NA,NA
+HV-12-C,12,KB-B027-HANDELSBANKEN-AR2025,Svenska Handelsbanken AB (publ),complex_claim,tier_c_held,True,partially_supported,correct_then_review,N,Y,Y,Y,Y,N,Y
+HV-12-D,12,KB-B027-HANDELSBANKEN-AR2025,Svenska Handelsbanken AB (publ),direct_claim,tier_b_promoted,True,fully_supported,admit,Y,Y,Y,Y,Y,Y,Y
+HV-13-A,13,KB-B027-SECURITAS-AR2025,Securitas AB (publ),abstention_audit,system_abstained,True,fully_supported,abstain_or_conflict,NA,NA,NA,NA,NA,NA,NA
+HV-13-C,13,KB-B027-SECURITAS-AR2025,Securitas AB (publ),complex_claim,tier_c_held,True,partially_supported,correct_then_review,Y,Y,Y,Y,N,Y,Y
+HV-13-D,13,KB-B027-SECURITAS-AR2025,Securitas AB (publ),direct_claim,tier_c_held,True,fully_supported,admit,Y,Y,Y,Y,Y,Y,Y
+HV-14-A,14,KB-B028-TELIA-AR2025,Telia Company AB (publ),abstention_audit,system_abstained,True,unsupported,correct_then_review,NA,NA,NA,NA,NA,NA,NA
+HV-14-C,14,KB-B028-TELIA-AR2025,Telia Company AB (publ),complex_claim,tier_c_held,True,fully_supported,admit,Y,Y,NA,NA,Y,Y,Y
+HV-14-D,14,KB-B028-TELIA-AR2025,Telia Company AB (publ),direct_claim,tier_c_held,True,partially_supported,correct_then_review,N,Y,NA,N,NA,N,Y
+HV-15-A,15,KB-B028-ASSA-ABLOY-AR2025,ASSA ABLOY AB (publ),abstention_audit,system_abstained,True,unsupported,correct_then_review,NA,NA,NA,NA,NA,NA,NA
+HV-15-C,15,KB-B028-ASSA-ABLOY-AR2025,ASSA ABLOY AB (publ),complex_claim,tier_c_held,True,partially_supported,correct_then_review,N,Y,Y,Y,Y,Y,Y
+HV-15-D,15,KB-B028-ASSA-ABLOY-AR2025,ASSA ABLOY AB (publ),direct_claim,tier_c_held,True,partially_supported,correct_then_review,N,Y,NA,Y,NA,Y,Y
+HV-16-A,16,KB-B028-LOOMIS-ASR2025,Loomis AB,abstention_audit,system_abstained,True,unsupported,correct_then_review,NA,NA,NA,NA,NA,NA,NA
+HV-16-C,16,KB-B028-LOOMIS-ASR2025,Loomis AB,complex_claim,tier_c_held,True,fully_supported,admit,Y,Y,NA,Y,NA,Y,Y
+HV-16-D,16,KB-B028-LOOMIS-ASR2025,Loomis AB,direct_claim,tier_c_held,True,partially_supported,correct_then_review,N,Y,NA,N,NA,N,Y
+HV-17-A,17,KB-B029-INVESTOR-AR2025,Investor AB (publ),abstention_audit,system_abstained,True,unsupported,correct_then_review,NA,NA,NA,NA,NA,NA,NA
+HV-17-C,17,KB-B029-INVESTOR-AR2025,Investor AB (publ),complex_claim,tier_c_held,True,fully_supported,admit,Y,Y,Y,Y,Y,Y,Y
+HV-17-D,17,KB-B029-INVESTOR-AR2025,Investor AB (publ),direct_claim,tier_c_held,True,fully_supported,admit,Y,Y,NA,Y,NA,Y,Y
+HV-18-A,18,KB-B029-VATTENFALL-ASR2025,Vattenfall AB,abstention_audit,system_abstained,True,unsupported,correct_then_review,NA,NA,NA,NA,NA,NA,NA
+HV-18-C,18,KB-B029-VATTENFALL-ASR2025,Vattenfall AB,complex_claim,tier_c_held,True,fully_supported,admit,Y,Y,Y,Y,NA,Y,Y
+HV-18-D,18,KB-B029-VATTENFALL-ASR2025,Vattenfall AB,direct_claim,tier_c_held,True,fully_supported,reject,N,N,NA,NA,NA,NA,Y
+HV-19-A,19,KB-B029-SWEDAVIA-ASR2025,Swedavia AB (publ),abstention_audit,system_abstained,True,fully_supported,abstain_or_conflict,NA,NA,NA,NA,NA,NA,NA
+HV-19-C,19,KB-B029-SWEDAVIA-ASR2025,Swedavia AB (publ),complex_claim,tier_c_held,True,partially_supported,correct_then_review,N,Y,NA,N,NA,Y,Y
+HV-19-D,19,KB-B029-SWEDAVIA-ASR2025,Swedavia AB (publ),direct_claim,tier_c_held,True,partially_supported,correct_then_review,N,Y,Y,N,NA,Y,Y
+HV-20-A,20,KB-B030-NCC-ASR2025,NCC AB (publ),abstention_audit,system_abstained,True,unsupported,correct_then_review,NA,NA,NA,NA,NA,NA,NA
+HV-20-C,20,KB-B030-NCC-ASR2025,NCC AB (publ),complex_claim,tier_c_held,True,fully_supported,admit,Y,Y,Y,Y,Y,Y,Y
+HV-20-D,20,KB-B030-NCC-ASR2025,NCC AB (publ),direct_claim,tier_c_held,True,partially_supported,correct_then_review,Y,Y,Y,Y,Y,N,Y

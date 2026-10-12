@@ -1,0 +1,130 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/extradimen/sustaintrace/schemas/evaluation/softwarex-comparative-submission-v1.1.schema.json",
+  "title": "SustainTrace SoftwareX comparative submission v1.1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "benchmark_id",
+    "condition",
+    "system_id",
+    "task_pack_sha256",
+    "outputs"
+  ],
+  "properties": {
+    "schema_version": {"const": "1.1"},
+    "benchmark_id": {"type": "string", "minLength": 1},
+    "condition": {
+      "enum": [
+        "plain_model_verifier",
+        "ungated_pipeline_verifier",
+        "sustaintrace_full"
+      ]
+    },
+    "system_id": {"type": "string", "minLength": 1},
+    "task_pack_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "outputs": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "oneOf": [
+          {"$ref": "#/$defs/completedOutput"},
+          {"$ref": "#/$defs/modelFailureOutput"}
+        ]
+      }
+    }
+  },
+  "$defs": {
+    "slotDecision": {"enum": ["Y", "N", "NA"]},
+    "usage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["input_tokens", "output_tokens", "estimated_cost_usd"],
+      "properties": {
+        "input_tokens": {"type": "integer", "minimum": 0},
+        "output_tokens": {"type": "integer", "minimum": 0},
+        "estimated_cost_usd": {
+          "oneOf": [{"type": "number", "minimum": 0}, {"type": "null"}]
+        }
+      }
+    },
+    "completedOutput": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "task_id",
+        "execution_status",
+        "support_label",
+        "knowledge_base_action",
+        "slots",
+        "latency_ms",
+        "usage",
+        "raw_response_sha256"
+      ],
+      "properties": {
+        "task_id": {"type": "string", "minLength": 1},
+        "execution_status": {"const": "completed"},
+        "support_label": {
+          "enum": [
+            "fully_supported",
+            "partially_supported",
+            "unsupported",
+            "cannot_assess",
+            "source_defect"
+          ]
+        },
+        "knowledge_base_action": {
+          "enum": ["admit", "correct_then_review", "reject", "abstain_or_conflict"]
+        },
+        "slots": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "Subject",
+            "Predicate",
+            "Value",
+            "Period",
+            "Unit",
+            "Boundary/method",
+            "Evidence coordinates"
+          ],
+          "properties": {
+            "Subject": {"$ref": "#/$defs/slotDecision"},
+            "Predicate": {"$ref": "#/$defs/slotDecision"},
+            "Value": {"$ref": "#/$defs/slotDecision"},
+            "Period": {"$ref": "#/$defs/slotDecision"},
+            "Unit": {"$ref": "#/$defs/slotDecision"},
+            "Boundary/method": {"$ref": "#/$defs/slotDecision"},
+            "Evidence coordinates": {"$ref": "#/$defs/slotDecision"}
+          }
+        },
+        "latency_ms": {"type": "number", "minimum": 0},
+        "usage": {"$ref": "#/$defs/usage"},
+        "raw_response_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+      }
+    },
+    "modelFailureOutput": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "task_id",
+        "execution_status",
+        "failure_code",
+        "latency_ms",
+        "usage",
+        "raw_response_sha256"
+      ],
+      "properties": {
+        "task_id": {"type": "string", "minLength": 1},
+        "execution_status": {"const": "model_behavior_failure"},
+        "failure_code": {"type": "string", "minLength": 1},
+        "latency_ms": {
+          "oneOf": [{"type": "number", "minimum": 0}, {"type": "null"}]
+        },
+        "usage": {"$ref": "#/$defs/usage"},
+        "raw_response_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+      }
+    }
+  }
+}

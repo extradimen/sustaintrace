@@ -185,9 +185,9 @@ workspace.
 
 | Item | Value |
 |---|---|
-| Current version | 0.1.0 |
+| Current version | 0.1.1 |
 | Source repository | <https://github.com/extradimen/sustaintrace> |
-| Reproducible archive | Zenodo DOI pending the first immutable public release |
+| Reproducible archive | <https://doi.org/10.5281/zenodo.23293034> |
 | License | Apache License 2.0 |
 | Version control | Git |
 | Languages and tools | Python, TypeScript, React, MinerU, Poppler, and Ollama adapters |
@@ -195,6 +195,22 @@ workspace.
 | Installation | `python bootstrap.py` |
 | Launch | `python run.py` |
 | Developer documentation | [`docs/SOFTWAREX_REPRODUCIBILITY.md`](docs/SOFTWAREX_REPRODUCIBILITY.md) |
+
+## Repository map
+
+The public layout mirrors the SoftwareX manuscript so that each claim can be followed from the
+paper to executable code and immutable evidence.
+
+| Manuscript element | Repository location |
+|---|---|
+| Software architecture and processing contracts | [`src/esg_reliable_discovery/`](src/esg_reliable_discovery/) and [`schemas/`](schemas/) |
+| Report-fact and failure-repair knowledge layers | [`src/esg_reliable_discovery/release_seed/`](src/esg_reliable_discovery/release_seed/) |
+| Evidence-linked interface examples | [`examples/`](examples/) and [`workbench-ui/`](workbench-ui/) |
+| RQ1: human-adjudicated knowledge fidelity | [`evaluation/rq1_human_fidelity/`](evaluation/rq1_human_fidelity/) |
+| RQ2: paired admission-control evaluation | [`evaluation/rq2_admission_control/`](evaluation/rq2_admission_control/) |
+| RQ3: controlled-repair evidence | [`evaluation/rq3_controlled_repair/`](evaluation/rq3_controlled_repair/) |
+| SoftwareX manuscript and figures | [`paper/softwarex/`](paper/softwarex/) |
+| Installation and reproducibility | [`bootstrap.py`](bootstrap.py), [`run.py`](run.py), and [`docs/SOFTWAREX_REPRODUCIBILITY.md`](docs/SOFTWAREX_REPRODUCIBILITY.md) |
 
 ## Development and validation
 
@@ -244,6 +260,6 @@ and are not included in the distribution. See the
 
 ## Citation and license
 
-Citation metadata is available in [`CITATION.cff`](CITATION.cff). SustainTrace is distributed under
-the Apache License 2.0. A permanent DOI will be added after the first immutable public release is
-archived.
+Citation metadata is available in [`CITATION.cff`](CITATION.cff). Cite the immutable archived
+release using DOI [`10.5281/zenodo.23293034`](https://doi.org/10.5281/zenodo.23293034).
+SustainTrace is distributed under the Apache License 2.0.
