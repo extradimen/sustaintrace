@@ -238,7 +238,11 @@ def _install_mineru(
     if not python.exists():
         _run([str(uv), "python", "install", lock["python"]])
         _run([str(uv), "venv", "--python", lock["python"], str(venv)])
-    specifications = [f"{name}=={version}" for name, version in lock["packages"].items()]
+    specifications = []
+    for name, version in lock["packages"].items():
+        extras = lock.get("package_extras", {}).get(name, [])
+        requirement = f"{name}[{','.join(extras)}]" if extras else name
+        specifications.append(f"{requirement}=={version}")
     _run([str(uv), "pip", "install", "--python", str(python), *specifications])
     if not mineru.exists():
         raise RuntimeError("Pinned MinerU installation did not create the mineru executable")
